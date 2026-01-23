@@ -1,0 +1,106 @@
+VER 3 0100000000000011 "Cancel Dispersio" "134400"
+#showtooltip Dispersion
+/cancelaura Dispersion
+END
+VER 3 010000000000000D "Cursor Angelic" "134400"
+#showtooltip
+/cast [@cursor] Angelic Feather
+END
+VER 3 0100000000000003 "DP" "134400"
+#showtooltip
+/cast [@mouseover,harm,nodead,exists][] Shadow Word: Madness
+END
+VER 3 0100000000000004 "Flash Heal" "134400"
+#showtooltip
+/cast [@mouseover,help,nodead][] Flash Heal
+END
+VER 3 0100000000000008 "Focus Silence" "134400"
+#showtooltip Silence
+/cast [@focus,harm,nodead,exists] Silence
+END
+VER 3 0100000000000014 "Friend Penance" "134400"
+#showtooltip
+/cast [@mouseover,noharm,nodead,exists][] Penance
+END
+VER 3 0100000000000018 "Guardian Spirit" "134400"
+#showtooltip
+/cast [@mouseover,help,nodead,exists][] Guardian Spirit
+END
+VER 3 0100000000000013 "Harm Penance" "134400"
+#showtooltip
+/cast [harm,nodead,exists] Penance
+END
+VER 3 010000000000001A "Holy Word: Seren" "134400"
+#showtooltip
+/cast [@mouseover,help,nodead,exists][] Holy Word: Serenity
+END
+VER 3 010000000000000E "Leap of Faith" "134400"
+#showtooltip
+/cast [@cursor,help,nodead,exists][] Leap of Faith
+END
+VER 3 010000000000000A "Mass Dispel" "134400"
+#showtooltip
+/cast [@cursor] Mass Dispel
+END
+VER 3 0100000000000012 "Pain Suppression" "134400"
+#showtooltip
+/cast [@mouseover,help,nodead,exists][] Pain Suppression
+END
+VER 3 0100000000000016 "Penintence/Barri" "134400"
+#showtooltip
+/cast Ultimate Penitence
+/cast [@cursor] Power Word: Barrier
+END
+VER 3 0100000000000007 "PI" "134400"
+#showtooltip
+/cast [@focus,help,nodead,exists][@mouseover,help,nodead,exists][] Power Infusion
+END
+VER 3 0100000000000017 "Plea" "134400"
+#showtooltip
+/cast [@mouseover,help,nodead,exists][] Plea
+END
+VER 3 010000000000001B "Prayer of Healin" "134400"
+#showtooltip
+/cast [@mouseover,help,nodead,exists][] Prayer of Healing
+END
+VER 3 010000000000000B "Purify Disease" "134400"
+#showtooltip
+/cast [@mouseover,help,nodead,exists][] Purify Disease
+END
+VER 3 0100000000000006 "PWS" "134400"
+#showtooltip
+/cast [@mouseover,help,nodead,exists][] Power Word: Shield
+END
+VER 3 0100000000000015 "Radiance" "134400"
+#showtooltip
+/cast [@mouseover,help,nodead,exists][] Power Word: Radiance
+END
+VER 3 0100000000000019 "Sanctify" "134400"
+#showtooltip
+/cast [@cursor] Holy Word: Sanctify
+END
+VER 3 010000000000000C "Self Feather" "134400"
+#showtooltip
+/cast [@player] Angelic Feather
+END
+VER 3 0100000000000005 "Self PWS" "134400"
+#showtooltip
+/cast [@player] Power Word: Shield
+END
+VER 3 0100000000000009 "SWD" "134400"
+#showtooltip
+/cast [@mouseover,harm,nodead,exists][] Shadow Word: Death
+END
+VER 3 0100000000000001 "SWP" "134400"
+#showtooltip
+/cast [@mouseover,harm,nodead,exists][] Shadow Word: Pain
+END
+VER 3 0100000000000010 "Torrent/Halo" "134400"
+#showtooltip
+/cast [nochanneling:Void Torrent] Void Torrent
+/cast Halo
+END
+VER 3 0100000000000002 "VT" "134400"
+#showtooltip
+/cast [@mouseover,harm,nodead,exists][] Vampiric Touch
+END

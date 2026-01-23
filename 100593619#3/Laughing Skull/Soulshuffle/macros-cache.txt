@@ -1,0 +1,77 @@
+VER 3 0100000000000014 "burning rush" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cancelaura Burning Rush
+/cast Burning Rush
+END
+VER 3 0100000000000020 "cata" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@cursor] Cataclysm
+/cast [@cursor] Guillotine
+END
+VER 3 0100000000000021 "cursorway" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@cursor] Demonic Gateway
+END
+VER 3 0100000000000022 "dispel" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,help,exists,nodead][] Singe Magic
+END
+VER 3 0100000000000019 "felstorm" "236303"
+#showtooltip
+/cast Felstorm
+END
+VER 3 0100000000000024 "focuskick" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@focus] Spell Lock
+/cast [@focus] Axe Toss(Special Ability)
+END
+VER 3 0100000000000023 "kick" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast Spell Lock
+/cast Axe Toss(Special Ability)
+END
+VER 3 0100000000000011 "mouseagony" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [target=mouseover,harm,exists,nodead]Agony; Agony
+END
+VER 3 0100000000000010 "MouseBurn" "INV_MISC_QUESTIONMARK"
+#showtooltip Shadowburn
+/cast [target=mouseover,exists,harm,nodead] Shadowburn; Shadowburn
+END
+VER 3 0100000000000013 "mousecorr" "INV_MISC_QUESTIONMARK"
+#showtooltip Corruption
+/use Lightforged Augment Rune
+/cast [target=mouseover,harm,exists,nodead] Corruption; Corruption
+END
+VER 3 010000000000001E "mousefernal" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@cursor] Summon Infernal
+END
+VER 3 010000000000001F "mousefury" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@cursor] Shadowfury
+END
+VER 3 010000000000000E "MouseHavoc" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [target=mouseover,exists,harm,nodead] Havoc; Havoc
+END
+VER 3 010000000000001B "mouseoffire" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@cursor] Rain of Fire
+END
+VER 3 0100000000000012 "Mouseunstable" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [target=mouseover,harm,exists,nodead] Unstable Affliction; Unstable Affliction
+END
+VER 3 0100000000000016 "Siphon" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [target=mouseover,harm,exists,nodead]Siphon Life; Siphon Life
+END
+VER 3 0100000000000026 "Soulstone" "134400"
+#showtooltip
+/cast [@mouseover,help,exists][] Soulstone
+END
+VER 3 0100000000000025 "vilesingularity" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [known:Vile Taint,@cursor] Vile Taint; Phantom Singularity
+END

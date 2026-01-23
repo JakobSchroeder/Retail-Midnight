@@ -1,0 +1,1905 @@
+
+_detalhes_database = {
+["savedbuffs"] = {
+},
+["mythic_dungeon_id"] = 88,
+["tabela_historico"] = {
+["tabelas"] = {
+{
+{
+["tipo"] = 2,
+["combatId"] = 6,
+["_ActorTable"] = {
+{
+["flag_original"] = 1298,
+["totalabsorbed"] = 0.003524,
+["pets"] = {
+},
+["classe"] = "PRIEST",
+["total_without_pet"] = 0.003524,
+["last_dps_realtime"] = 0,
+["dps_started"] = false,
+["total"] = 11191,
+["spec"] = 258,
+["colocacao"] = 1,
+["friendlyfire"] = {
+},
+["total_extra"] = 0,
+["serial"] = "Player-1598-0FA12E00",
+["specIcon"] = 136207,
+["targets"] = {
+},
+["friendlyfire_total"] = 0,
+["raid_targets"] = {
+},
+["end_time"] = 1769205496,
+["damage_from"] = {
+},
+["aID"] = "1598-0FA12E00",
+["nome"] = "Voidshuffle",
+["spells"] = {
+["_ActorTable"] = {
+[8092] = {
+["c_amt"] = 0,
+["b_amt"] = 0,
+["g_amt"] = 0,
+["b_dmg"] = 0,
+["targets"] = {
+},
+["n_total"] = 0,
+["n_min"] = 0,
+["g_dmg"] = 0,
+["counter"] = 0.008497,
+["total"] = 4174,
+["c_max"] = 0,
+["id"] = 8092,
+["r_dmg"] = 0,
+["extra"] = {
+},
+["a_dmg"] = 0,
+["a_amt"] = 0,
+["c_min"] = 0,
+["successful_casted"] = 0,
+["c_total"] = 0,
+["n_amt"] = 0,
+["n_max"] = 0,
+["r_amt"] = 0,
+},
+[1235136] = {
+["c_amt"] = 0,
+["b_amt"] = 0,
+["g_amt"] = 0,
+["b_dmg"] = 0,
+["targets"] = {
+},
+["n_total"] = 0,
+["n_min"] = 0,
+["g_dmg"] = 0,
+["counter"] = 0.008497,
+["total"] = 3574,
+["c_max"] = 0,
+["id"] = 1235136,
+["r_dmg"] = 0,
+["extra"] = {
+},
+["a_dmg"] = 0,
+["a_amt"] = 0,
+["c_min"] = 0,
+["successful_casted"] = 0,
+["c_total"] = 0,
+["n_amt"] = 0,
+["n_max"] = 0,
+["r_amt"] = 0,
+},
+[1227162] = {
+["c_amt"] = 0,
+["b_amt"] = 0,
+["g_amt"] = 0,
+["b_dmg"] = 0,
+["targets"] = {
+},
+["n_total"] = 0,
+["n_min"] = 0,
+["g_dmg"] = 0,
+["counter"] = 0.008497,
+["total"] = 3443,
+["c_max"] = 0,
+["id"] = 1227162,
+["r_dmg"] = 0,
+["extra"] = {
+},
+["a_dmg"] = 0,
+["a_amt"] = 0,
+["c_min"] = 0,
+["successful_casted"] = 0,
+["c_total"] = 0,
+["n_amt"] = 0,
+["n_max"] = 0,
+["r_amt"] = 0,
+},
+},
+["tipo"] = 2,
+},
+["grupo"] = true,
+["on_hold"] = false,
+["tipo"] = 1,
+["custom"] = 0,
+["last_event"] = 0,
+["damage_taken"] = 0.003524,
+["start_time"] = 1769205496,
+["delay"] = 0,
+["last_dps"] = 2189.591078052551,
+},
+},
+},
+{
+["tipo"] = 3,
+["combatId"] = 6,
+["_ActorTable"] = {
+},
+},
+{
+["tipo"] = 7,
+["combatId"] = 6,
+["_ActorTable"] = {
+},
+},
+{
+["tipo"] = 9,
+["combatId"] = 6,
+["_ActorTable"] = {
+},
+},
+{
+["tipo"] = 2,
+["combatId"] = 6,
+["_ActorTable"] = {
+},
+},
+["boss_hp"] = 1,
+["tempo_start"] = 1769205496,
+["last_events_tables"] = {
+},
+["alternate_power"] = {
+},
+["bossTimers"] = {
+},
+["cleu_events"] = {
+["n"] = 1,
+},
+["playerTalents"] = {
+},
+["totals"] = {
+11191,
+0,
+{
+0,
+[0] = 0,
+["alternatepower"] = 0,
+[3] = 0,
+[6] = 0,
+},
+{
+["buff_uptime"] = 0,
+["ress"] = 0,
+["cooldowns_defensive"] = 0,
+["dispell"] = 0,
+["interrupt"] = 0,
+["debuff_uptime"] = 0,
+["cc_break"] = 0,
+["dead"] = 0,
+},
+["frags_total"] = 0,
+["voidzone_damage"] = 0,
+},
+["player_last_events"] = {
+},
+["frags_need_refresh"] = false,
+["amountCasts"] = {
+},
+["instance_type"] = "none",
+["zoneName"] = "Khaz Algar (Surface)",
+["data_fim"] = "22:58:16",
+["timeEnd"] = 1769205496,
+["combatSessionId"] = 5,
+["bIsClosed"] = true,
+["cleu_timeline"] = {
+},
+["enemy"] = "Unknown",
+["trinketProcs"] = {
+},
+["aura_timeline"] = {
+},
+["is_world_trash_combat"] = true,
+["data_inicio"] = "22:58:11",
+["end_time"] = 2998619.514,
+["mapId"] = 2552,
+["combat_id"] = 6,
+["timeStart"] = 1769205496,
+["overall_added"] = true,
+["frags"] = {
+},
+["is_challenge"] = false,
+["spells_cast_timeline"] = {
+},
+["raid_roster"] = {
+},
+["combat_counter"] = 8,
+["totals_grupo"] = {
+11191,
+0,
+{
+0,
+[0] = 0,
+["alternatepower"] = 0,
+[3] = 0,
+[6] = 0,
+},
+{
+["buff_uptime"] = 0,
+["ress"] = 0,
+["cooldowns_defensive"] = 0,
+["dispell"] = 0,
+["interrupt"] = 0,
+["debuff_uptime"] = 0,
+["cc_break"] = 0,
+["dead"] = 0,
+},
+},
+["PhaseData"] = {
+{
+1,
+1,
+},
+["damage_section"] = {
+},
+["heal_section"] = {
+},
+["heal"] = {
+{
+},
+},
+["damage"] = {
+{
+["Voidshuffle"] = 11191,
+},
+},
+},
+["start_time"] = 2998614.403,
+["TimeData"] = {
+},
+["compressed_charts"] = {
+},
+},
+{
+{
+["tipo"] = 2,
+["combatId"] = 5,
+["_ActorTable"] = {
+{
+["flag_original"] = 1298,
+["totalabsorbed"] = 0.001488,
+["pets"] = {
+},
+["classe"] = "PRIEST",
+["total_without_pet"] = 0.001488,
+["last_dps_realtime"] = 0,
+["dps_started"] = false,
+["total"] = 19612,
+["spec"] = 258,
+["colocacao"] = 1,
+["friendlyfire"] = {
+},
+["total_extra"] = 0,
+["serial"] = "Player-1598-0FA12E00",
+["specIcon"] = 136207,
+["targets"] = {
+},
+["friendlyfire_total"] = 0,
+["raid_targets"] = {
+},
+["end_time"] = 1769204776,
+["damage_from"] = {
+},
+["aID"] = "1598-0FA12E00",
+["nome"] = "Voidshuffle",
+["spells"] = {
+["_ActorTable"] = {
+[8092] = {
+["c_amt"] = 0,
+["b_amt"] = 0,
+["g_amt"] = 0,
+["b_dmg"] = 0,
+["targets"] = {
+},
+["n_total"] = 0,
+["n_min"] = 0,
+["g_dmg"] = 0,
+["counter"] = 0.008994,
+["total"] = 12596,
+["c_max"] = 0,
+["id"] = 8092,
+["r_dmg"] = 0,
+["extra"] = {
+},
+["a_dmg"] = 0,
+["a_amt"] = 0,
+["c_min"] = 0,
+["successful_casted"] = 0,
+["c_total"] = 0,
+["n_amt"] = 0,
+["n_max"] = 0,
+["r_amt"] = 0,
+},
+[1235136] = {
+["c_amt"] = 0,
+["b_amt"] = 0,
+["g_amt"] = 0,
+["b_dmg"] = 0,
+["targets"] = {
+},
+["n_total"] = 0,
+["n_min"] = 0,
+["g_dmg"] = 0,
+["counter"] = 0.008994,
+["total"] = 3573,
+["c_max"] = 0,
+["id"] = 1235136,
+["r_dmg"] = 0,
+["extra"] = {
+},
+["a_dmg"] = 0,
+["a_amt"] = 0,
+["c_min"] = 0,
+["successful_casted"] = 0,
+["c_total"] = 0,
+["n_amt"] = 0,
+["n_max"] = 0,
+["r_amt"] = 0,
+},
+[1227162] = {
+["c_amt"] = 0,
+["b_amt"] = 0,
+["g_amt"] = 0,
+["b_dmg"] = 0,
+["targets"] = {
+},
+["n_total"] = 0,
+["n_min"] = 0,
+["g_dmg"] = 0,
+["counter"] = 0.008994,
+["total"] = 3443,
+["c_max"] = 0,
+["id"] = 1227162,
+["r_dmg"] = 0,
+["extra"] = {
+},
+["a_dmg"] = 0,
+["a_amt"] = 0,
+["c_min"] = 0,
+["successful_casted"] = 0,
+["c_total"] = 0,
+["n_amt"] = 0,
+["n_max"] = 0,
+["r_amt"] = 0,
+},
+},
+["tipo"] = 2,
+},
+["grupo"] = true,
+["on_hold"] = false,
+["tipo"] = 1,
+["custom"] = 0,
+["last_event"] = 0,
+["damage_taken"] = 0.001488,
+["start_time"] = 1769204776,
+["delay"] = 0,
+["last_dps"] = 2448.1337890625,
+},
+},
+},
+{
+["tipo"] = 3,
+["combatId"] = 5,
+["_ActorTable"] = {
+},
+},
+{
+["tipo"] = 7,
+["combatId"] = 5,
+["_ActorTable"] = {
+},
+},
+{
+["tipo"] = 9,
+["combatId"] = 5,
+["_ActorTable"] = {
+},
+},
+{
+["tipo"] = 2,
+["combatId"] = 5,
+["_ActorTable"] = {
+},
+},
+["raid_roster"] = {
+},
+["CombatStartedAt"] = 2998614.403,
+["tempo_start"] = 1769204776,
+["last_events_tables"] = {
+},
+["alternate_power"] = {
+},
+["bossTimers"] = {
+},
+["cleu_events"] = {
+["n"] = 1,
+},
+["playerTalents"] = {
+},
+["totals"] = {
+19612,
+0,
+{
+0,
+[0] = 0,
+["alternatepower"] = 0,
+[3] = 0,
+[6] = 0,
+},
+{
+["buff_uptime"] = 0,
+["ress"] = 0,
+["cooldowns_defensive"] = 0,
+["dispell"] = 0,
+["interrupt"] = 0,
+["debuff_uptime"] = 0,
+["cc_break"] = 0,
+["dead"] = 0,
+},
+["frags_total"] = 0,
+["voidzone_damage"] = 0,
+},
+["player_last_events"] = {
+},
+["frags_need_refresh"] = false,
+["amountCasts"] = {
+},
+["instance_type"] = "none",
+["zoneName"] = "Khaz Algar (Surface)",
+["data_fim"] = "22:46:17",
+["timeEnd"] = 1769204777,
+["combatSessionId"] = 4,
+["bIsClosed"] = true,
+["cleu_timeline"] = {
+},
+["enemy"] = "Unknown",
+["trinketProcs"] = {
+},
+["TotalElapsedCombatTime"] = 5.111000000033528,
+["playing_solo"] = true,
+["CombatEndedAt"] = 2998619.514,
+["aura_timeline"] = {
+},
+["compressed_charts"] = {
+},
+["data_inicio"] = "22:46:09",
+["end_time"] = 2997901.115,
+["mapId"] = 2552,
+["combat_id"] = 5,
+["timeStart"] = 1769204777,
+["is_world_trash_combat"] = true,
+["frags"] = {
+},
+["is_challenge"] = false,
+["spells_cast_timeline"] = {
+},
+["boss_hp"] = 1,
+["combat_counter"] = 7,
+["totals_grupo"] = {
+19612,
+0,
+{
+0,
+[0] = 0,
+["alternatepower"] = 0,
+[3] = 0,
+[6] = 0,
+},
+{
+["buff_uptime"] = 0,
+["ress"] = 0,
+["cooldowns_defensive"] = 0,
+["dispell"] = 0,
+["interrupt"] = 0,
+["debuff_uptime"] = 0,
+["cc_break"] = 0,
+["dead"] = 0,
+},
+},
+["PhaseData"] = {
+{
+1,
+1,
+},
+["damage_section"] = {
+},
+["heal_section"] = {
+},
+["heal"] = {
+{
+},
+},
+["damage"] = {
+{
+["Voidshuffle"] = 19612,
+},
+},
+},
+["start_time"] = 2997893.091,
+["TimeData"] = {
+},
+["overall_added"] = true,
+},
+{
+{
+["tipo"] = 2,
+["combatId"] = 1,
+["_ActorTable"] = {
+{
+["flag_original"] = 1298,
+["totalabsorbed"] = 0.007155,
+["pets"] = {
+},
+["aID"] = "1598-0FA12E00",
+["total_without_pet"] = 0.007155,
+["last_dps_realtime"] = 0,
+["dps_started"] = false,
+["total"] = 16558,
+["spec"] = 258,
+["colocacao"] = 1,
+["on_hold"] = false,
+["total_extra"] = 0,
+["serial"] = "Player-1598-0FA12E00",
+["damage_from"] = {
+},
+["targets"] = {
+},
+["friendlyfire_total"] = 0,
+["raid_targets"] = {
+},
+["end_time"] = 1769094194,
+["friendlyfire"] = {
+},
+["specIcon"] = 136207,
+["nome"] = "Voidshuffle",
+["spells"] = {
+["_ActorTable"] = {
+[589] = {
+["c_amt"] = 0,
+["b_amt"] = 0,
+["g_amt"] = 0,
+["n_max"] = 0,
+["targets"] = {
+},
+["n_total"] = 0,
+["n_min"] = 0,
+["g_dmg"] = 0,
+["counter"] = 0.001433,
+["total"] = 9503,
+["c_max"] = 0,
+["id"] = 589,
+["r_dmg"] = 0,
+["extra"] = {
+},
+["a_dmg"] = 0,
+["a_amt"] = 0,
+["c_min"] = 0,
+["successful_casted"] = 0,
+["c_total"] = 0,
+["n_amt"] = 0,
+["b_dmg"] = 0,
+["r_amt"] = 0,
+},
+[34914] = {
+["c_amt"] = 0,
+["b_amt"] = 0,
+["g_amt"] = 0,
+["n_max"] = 0,
+["targets"] = {
+},
+["n_total"] = 0,
+["n_min"] = 0,
+["g_dmg"] = 0,
+["counter"] = 0.001433,
+["total"] = 7055,
+["c_max"] = 0,
+["id"] = 34914,
+["r_dmg"] = 0,
+["extra"] = {
+},
+["a_dmg"] = 0,
+["a_amt"] = 0,
+["c_min"] = 0,
+["successful_casted"] = 0,
+["c_total"] = 0,
+["n_amt"] = 0,
+["b_dmg"] = 0,
+["r_amt"] = 0,
+},
+},
+["tipo"] = 2,
+},
+["grupo"] = true,
+["tipo"] = 1,
+["classe"] = "PRIEST",
+["custom"] = 0,
+["last_event"] = 0,
+["damage_taken"] = 0.007155,
+["start_time"] = 1769094194,
+["delay"] = 0,
+["last_dps"] = 996.5093885458568,
+},
+},
+},
+{
+["tipo"] = 3,
+["combatId"] = 1,
+["_ActorTable"] = {
+{
+["flag_original"] = 1298,
+["healing_from"] = {
+},
+["pets"] = {
+},
+["iniciar_hps"] = false,
+["aID"] = "1598-0FA12E00",
+["totalover"] = 0.006888,
+["total_without_pet"] = 0.006888,
+["total"] = 0,
+["targets_absorbs"] = {
+},
+["heal_enemy"] = {
+},
+["on_hold"] = false,
+["serial"] = "Player-1598-0FA12E00",
+["totalabsorb"] = 0.006888,
+["last_hps"] = 0,
+["specIcon"] = 136207,
+["targets"] = {
+},
+["totalover_without_pet"] = 0.006888,
+["spec"] = 258,
+["healing_taken"] = 0.006888,
+["end_time"] = 1769094194,
+["start_time"] = 1769094194,
+["targets_overheal"] = {
+},
+["nome"] = "Voidshuffle",
+["spells"] = {
+["_ActorTable"] = {
+},
+["tipo"] = 3,
+},
+["grupo"] = true,
+["heal_enemy_amt"] = 0,
+["last_event"] = 0,
+["custom"] = 0,
+["tipo"] = 2,
+["totaldenied"] = 0.006888,
+["delay"] = 0,
+["classe"] = "PRIEST",
+},
+},
+},
+{
+["tipo"] = 7,
+["combatId"] = 1,
+["_ActorTable"] = {
+},
+},
+{
+["tipo"] = 9,
+["combatId"] = 1,
+["_ActorTable"] = {
+},
+},
+{
+["tipo"] = 2,
+["combatId"] = 1,
+["_ActorTable"] = {
+},
+},
+["raid_roster"] = {
+},
+["CombatStartedAt"] = 2991631.332,
+["overall_added"] = true,
+["last_events_tables"] = {
+},
+["alternate_power"] = {
+},
+["bossTimers"] = {
+},
+["cleu_events"] = {
+["n"] = 1,
+},
+["playerTalents"] = {
+},
+["totals"] = {
+16558,
+0,
+{
+0,
+[0] = 0,
+["alternatepower"] = 0,
+[3] = 0,
+[6] = 0,
+},
+{
+["buff_uptime"] = 0,
+["ress"] = 0,
+["cooldowns_defensive"] = 0,
+["dispell"] = 0,
+["interrupt"] = 0,
+["debuff_uptime"] = 0,
+["cc_break"] = 0,
+["dead"] = 0,
+},
+["frags_total"] = 0,
+["voidzone_damage"] = 0,
+},
+["player_last_events"] = {
+},
+["frags_need_refresh"] = false,
+["amountCasts"] = {
+},
+["instance_type"] = "none",
+["zoneName"] = "Khaz Algar (Surface)",
+["data_fim"] = "16:03:15",
+["timeEnd"] = 1769094195,
+["combatSessionId"] = 1,
+["bIsClosed"] = true,
+["cleu_timeline"] = {
+},
+["enemy"] = "Unknown",
+["trinketProcs"] = {
+},
+["TotalElapsedCombatTime"] = 6.547999999951571,
+["CombatEndedAt"] = 2991637.88,
+["aura_timeline"] = {
+},
+["compressed_charts"] = {
+},
+["data_inicio"] = "16:02:59",
+["end_time"] = 2887320.614,
+["mapId"] = 2552,
+["combat_id"] = 1,
+["timeStart"] = 1769094195,
+["playing_solo"] = true,
+["frags"] = {
+},
+["is_challenge"] = false,
+["spells_cast_timeline"] = {
+},
+["combat_counter"] = 3,
+["boss_hp"] = 1,
+["totals_grupo"] = {
+16558,
+0,
+{
+0,
+[0] = 0,
+["alternatepower"] = 0,
+[3] = 0,
+[6] = 0,
+},
+{
+["buff_uptime"] = 0,
+["ress"] = 0,
+["cooldowns_defensive"] = 0,
+["dispell"] = 0,
+["interrupt"] = 0,
+["debuff_uptime"] = 0,
+["cc_break"] = 0,
+["dead"] = 0,
+},
+},
+["PhaseData"] = {
+{
+1,
+1,
+},
+["damage_section"] = {
+},
+["heal_section"] = {
+},
+["heal"] = {
+{
+["Voidshuffle"] = 0,
+},
+},
+["damage"] = {
+{
+["Voidshuffle"] = 16558,
+},
+},
+},
+["start_time"] = 2887303.998,
+["TimeData"] = {
+},
+["tempo_start"] = 1769094194,
+},
+{
+{
+["tipo"] = 2,
+["_ActorTable"] = {
+},
+},
+{
+["tipo"] = 3,
+["_ActorTable"] = {
+},
+},
+{
+["tipo"] = 7,
+["_ActorTable"] = {
+},
+},
+{
+["tipo"] = 9,
+["_ActorTable"] = {
+{
+["flag_original"] = 1047,
+["pets"] = {
+},
+["aID"] = "1598-0FA12E00",
+["buff_uptime_spells"] = {
+["_ActorTable"] = {
+[1223878] = {
+["appliedamt"] = 0,
+["targets"] = {
+},
+["activedamt"] = 0,
+["uptime"] = 0,
+["id"] = 1223878,
+["refreshamt"] = 0,
+["actived"] = false,
+["counter"] = 0,
+},
+[232698] = {
+["appliedamt"] = 0,
+["targets"] = {
+},
+["activedamt"] = 0,
+["uptime"] = 0,
+["id"] = 232698,
+["refreshamt"] = 0,
+["actived"] = false,
+["counter"] = 0,
+},
+[2479] = {
+["appliedamt"] = 0,
+["targets"] = {
+},
+["activedamt"] = 0,
+["uptime"] = 0,
+["id"] = 2479,
+["refreshamt"] = 0,
+["actived"] = false,
+["counter"] = 0,
+},
+[424484] = {
+["appliedamt"] = 0,
+["targets"] = {
+},
+["activedamt"] = 0,
+["uptime"] = 0,
+["id"] = 424484,
+["refreshamt"] = 0,
+["actived"] = false,
+["counter"] = 0,
+},
+[282559] = {
+["appliedamt"] = 0,
+["targets"] = {
+},
+["activedamt"] = 0,
+["uptime"] = 0,
+["id"] = 282559,
+["refreshamt"] = 0,
+["actived"] = false,
+["counter"] = 0,
+},
+[1227124] = {
+["appliedamt"] = 0,
+["targets"] = {
+},
+["activedamt"] = 0,
+["uptime"] = 0,
+["id"] = 1227124,
+["refreshamt"] = 0,
+["actived"] = false,
+["counter"] = 0,
+},
+[225788] = {
+["appliedamt"] = 0,
+["targets"] = {
+},
+["activedamt"] = 0,
+["uptime"] = 0,
+["id"] = 225788,
+["refreshamt"] = 0,
+["actived"] = false,
+["counter"] = 0,
+},
+},
+["tipo"] = 9,
+},
+["buff_uptime"] = 0,
+["nome"] = "Voidshuffle",
+["spec"] = 258,
+["grupo"] = true,
+["buff_uptime_targets"] = {
+},
+["last_event"] = 1769024212,
+["classe"] = "PRIEST",
+["serial"] = "Player-1598-0FA12E00",
+["tipo"] = 4,
+},
+},
+},
+{
+["tipo"] = 2,
+["_ActorTable"] = {
+},
+},
+["boss_hp"] = 1,
+["CombatStartedAt"] = 2887303.998,
+["tempo_start"] = 2817306.426,
+["last_events_tables"] = {
+},
+["alternate_power"] = {
+},
+["bossTimers"] = {
+},
+["cleu_events"] = {
+["n"] = 1,
+},
+["playerTalents"] = {
+},
+["totals"] = {
+0,
+0,
+{
+0,
+[0] = 0,
+["alternatepower"] = 0,
+[3] = 0,
+[6] = 0,
+},
+{
+["buff_uptime"] = 0,
+["ress"] = 0,
+["cooldowns_defensive"] = 0,
+["dispell"] = 0,
+["interrupt"] = 0,
+["debuff_uptime"] = 0,
+["cc_break"] = 0,
+["dead"] = 0,
+},
+["frags_total"] = 0,
+["voidzone_damage"] = 0,
+},
+["player_last_events"] = {
+},
+["frags_need_refresh"] = false,
+["amountCasts"] = {
+},
+["instance_type"] = "none",
+["zoneName"] = "Khaz Algar (Surface)",
+["data_fim"] = "20:36:52",
+["timeEnd"] = 1769024212,
+["bIsClosed"] = true,
+["cleu_timeline"] = {
+},
+["enemy"] = "Unknown",
+["trinketProcs"] = {
+},
+["TotalElapsedCombatTime"] = 16.61599999992177,
+["CombatEndedAt"] = 2887320.614,
+["aura_timeline"] = {
+},
+["compressed_charts"] = {
+},
+["PhaseData"] = {
+{
+1,
+1,
+},
+["damage_section"] = {
+},
+["heal_section"] = {
+},
+["heal"] = {
+{
+},
+},
+["damage"] = {
+{
+},
+},
+},
+["end_time"] = 2817334.841,
+["mapId"] = 2552,
+["playing_solo"] = true,
+["overall_added"] = true,
+["is_challenge"] = false,
+["frags"] = {
+},
+["data_inicio"] = 0,
+["raid_roster"] = {
+},
+["combat_counter"] = 2,
+["totals_grupo"] = {
+0,
+0,
+{
+0,
+[0] = 0,
+["alternatepower"] = 0,
+[3] = 0,
+[6] = 0,
+},
+{
+["buff_uptime"] = 0,
+["ress"] = 0,
+["cooldowns_defensive"] = 0,
+["dispell"] = 0,
+["interrupt"] = 0,
+["debuff_uptime"] = 0,
+["cc_break"] = 0,
+["dead"] = 0,
+},
+},
+["start_time"] = 0,
+["TimeData"] = {
+},
+["spells_cast_timeline"] = {
+},
+},
+},
+},
+["ocd_tracker"] = {
+["show_title"] = true,
+["current_cooldowns"] = {
+},
+["lines_per_column"] = 12,
+["group_frames"] = true,
+["show_options"] = false,
+["frames"] = {
+["defensive-raid"] = {
+},
+["main"] = {
+},
+["ofensive"] = {
+},
+["defensive-target"] = {
+},
+["utility"] = {
+},
+["defensive-personal"] = {
+},
+},
+["width"] = 120,
+["ignored_cooldowns"] = {
+},
+["height"] = 18,
+["framme_locked"] = false,
+["own_frame"] = {
+["defensive-raid"] = false,
+["ofensive"] = false,
+["defensive-target"] = false,
+["utility"] = false,
+["defensive-personal"] = false,
+},
+["cooldowns"] = {
+},
+["show_conditions"] = {
+["only_inside_instance"] = true,
+["only_in_group"] = true,
+},
+["enabled"] = false,
+["filters"] = {
+["itemutil"] = false,
+["itempower"] = false,
+["defensive-target"] = false,
+["itemheal"] = false,
+["defensive-personal"] = false,
+["defensive-raid"] = false,
+["ofensive"] = true,
+["crowdcontrol"] = false,
+["utility"] = false,
+},
+},
+["combat_counter"] = 8,
+["damage_meter_sessions"] = {
+},
+["force_font_outline"] = "",
+["tabela_instancias"] = {
+},
+["arena_data_compressed"] = {
+},
+["arena_data_index_selected"] = 1,
+["local_instances_config"] = {
+{
+["modo"] = 2,
+["sub_attribute"] = 1,
+["horizontalSnap"] = true,
+["verticalSnap"] = false,
+["isLocked"] = true,
+["is_open"] = true,
+["sub_atributo_last"] = {
+1,
+1,
+1,
+1,
+1,
+},
+["snap"] = {
+[3] = 2,
+},
+["segment"] = 0,
+["mode"] = 2,
+["attribute"] = 1,
+["pos"] = {
+["normal"] = {
+["y"] = -632.000846862793,
+["x"] = 931.99560546875,
+["w"] = 230.0002899169922,
+["h"] = 172.0007781982422,
+},
+["solo"] = {
+["y"] = 2,
+["x"] = 1,
+["w"] = 300,
+["h"] = 200,
+},
+},
+},
+{
+["modo"] = 2,
+["sub_attribute"] = 1,
+["horizontalSnap"] = true,
+["verticalSnap"] = false,
+["isLocked"] = true,
+["is_open"] = true,
+["sub_atributo_last"] = {
+1,
+1,
+1,
+1,
+1,
+},
+["snap"] = {
+1,
+},
+["segment"] = 0,
+["mode"] = 2,
+["attribute"] = 2,
+["pos"] = {
+["normal"] = {
+["y"] = -632.000846862793,
+["x"] = 1161.995849609375,
+["w"] = 230.0002899169922,
+["h"] = 172.0007781982422,
+},
+["solo"] = {
+["y"] = 2,
+["x"] = 1,
+["w"] = 300,
+["h"] = 200,
+},
+},
+},
+},
+["SoloTablesSaved"] = {
+["Mode"] = 1,
+},
+["nick_tag_cache"] = {
+["last_version"] = 16,
+["nextreset"] = 1770320181,
+["Monoroth"] = {
+"Monoroth",
+"",
+{
+0,
+1,
+0,
+1,
+},
+"",
+{
+0,
+1,
+0,
+1,
+},
+{
+1,
+1,
+1,
+},
+3,
+},
+},
+["last_instance_id"] = 2660,
+["data_harvest_for_charsts"] = {
+["players"] = {
+{
+["playerKey"] = "total",
+["combatObjectContainer"] = 1,
+["name"] = "Damage of Each Individual Player",
+["playerOnly"] = true,
+},
+},
+["totals"] = {
+{
+["combatObjectSubTableKey"] = 1,
+["name"] = "Damage of All Player Combined",
+["combatObjectSubTableName"] = "totals",
+},
+},
+},
+["announce_interrupts"] = {
+["enabled"] = false,
+["whisper"] = "",
+["channel"] = "SAY",
+["custom"] = "",
+["next"] = "",
+},
+["announce_prepots"] = {
+["enabled"] = false,
+["channel"] = "SELF",
+["reverse"] = false,
+},
+["active_profile"] = "Luckyone",
+["mythic_dungeon_currentsaved"] = {
+["dungeon_name"] = "",
+["started"] = false,
+["segment_id"] = 0,
+["ej_id"] = 0,
+["started_at"] = 0,
+["run_id"] = 0,
+["level"] = 0,
+["dungeon_zone_id"] = 0,
+["previous_boss_killed_at"] = 0,
+},
+["on_death_menu"] = false,
+["benchmark_db"] = {
+["frame"] = {
+},
+},
+["announce_damagerecord"] = {
+["enabled"] = true,
+["channel"] = "SELF",
+},
+["ignore_nicktag"] = true,
+["combat_log"] = {
+["inverse_deathlog_overalldata"] = false,
+["merge_gemstones_1007"] = false,
+["track_hunter_frenzy"] = false,
+["merge_critical_heals"] = false,
+["inverse_deathlog_raid"] = false,
+["calc_evoker_damage"] = true,
+["evoker_show_realtimedps"] = false,
+["inverse_deathlog_mplus"] = false,
+},
+["data_harvested_for_charts"] = {
+},
+["plugin_database"] = {
+},
+["cached_talents"] = {
+},
+["announce_firsthit"] = {
+["enabled"] = true,
+["channel"] = "SELF",
+},
+["character_data"] = {
+["logons"] = 28,
+},
+["mythic_plus_log"] = {
+"08/09/25 09:44:12|Activity Time: 1158.717",
+"08/09/25 09:44:12|GetChallengeCompletionInfo() Found, Time: 1214",
+"08/09/25 09:44:12|MergeSegmentsOnEnd started | creating the overall segment at the end of the run.",
+"08/09/25 09:44:12|delete_trash_after_merge | concluded",
+"08/09/25 09:44:12|running MergeRemainingTrashAfterAllBossesDone.",
+"08/09/25 09:44:12|MythicDungeonFinished() | merge_boss_trash = true",
+"08/09/25 09:44:10|===== Mythic+ Finished =====",
+"08/09/25 09:43:24|MergeTrashCleanup started.",
+"08/09/25 09:43:24|BossDefeated | key level: | 10 | Ki'katal the Harvester | Ara-Kara, City of Echoes",
+"08/09/25 09:38:11|MergeTrashCleanup started.",
+"08/09/25 09:38:11|BossDefeated | key level: | 10 | Anub'zekt | Ara-Kara, City of Echoes",
+"08/09/25 09:30:58|MergeTrashCleanup started.",
+"08/09/25 09:30:58|BossDefeated | key level: | 10 | Avanoxx | Ara-Kara, City of Echoes",
+"08/09/25 09:23:37|OnChallengeModeStart()",
+"08/09/25 09:23:37|COMBAT_MYTHICDUNGEON_START | settings: make_overall_boss_only = false | delay_to_show_graphic = 1 | mythicrun_time_type = 1 | reverse_death_log = false | make_overall_when_done = true | merge_boss_trash = true | show_damage_graphic = false | boss_dedicated_segment = true | autoclose_time = 90 |  | level: 10 | zone: Ara-Kara, City of Echoes | zoneId: 2660",
+"08/09/25 09:23:37|CHALLENGE_MODE_START timer ended, starting the dungeon.",
+"08/09/25 09:23:27|Event: CHALLENGE_MODE_START",
+"08/09/25 09:23:27|CHALLENGE_MODE_START, starting 10 seconds timer.",
+"08/09/25 08:59:29|Activity Time: 1261.445",
+"08/09/25 08:59:29|GetChallengeCompletionInfo() Found, Time: 1329",
+"08/09/25 08:59:29|MergeSegmentsOnEnd started | creating the overall segment at the end of the run.",
+"08/09/25 08:59:29|delete_trash_after_merge | concluded",
+"08/09/25 08:59:29|running MergeRemainingTrashAfterAllBossesDone.",
+"08/09/25 08:59:29|MythicDungeonFinished() | merge_boss_trash = true",
+"08/09/25 08:59:29|MythicDungeonFinished() | Details was in combat.",
+"08/09/25 08:59:27|===== Mythic+ Finished =====",
+"08/09/25 08:58:22|MergeTrashCleanup started.",
+"08/09/25 08:58:22|BossDefeated | key level: | 10 | Ki'katal the Harvester | Ara-Kara, City of Echoes",
+"08/09/25 08:51:42|MergeTrashCleanup started.",
+"08/09/25 08:51:42|BossDefeated | key level: | 10 | Anub'zekt | Ara-Kara, City of Echoes",
+"08/09/25 08:44:13|MergeTrashCleanup started.",
+"08/09/25 08:44:13|BossDefeated | key level: | 10 | Avanoxx | Ara-Kara, City of Echoes",
+"08/09/25 08:37:00|OnChallengeModeStart()",
+"08/09/25 08:36:59|COMBAT_MYTHICDUNGEON_START | settings: make_overall_boss_only = false | delay_to_show_graphic = 1 | mythicrun_time_type = 1 | reverse_death_log = false | make_overall_when_done = true | merge_boss_trash = true | show_damage_graphic = false | boss_dedicated_segment = true | autoclose_time = 90 |  | level: 10 | zone: Ara-Kara, City of Echoes | zoneId: 2660",
+"08/09/25 08:36:59|CHALLENGE_MODE_START timer ended, starting the dungeon.",
+"08/09/25 08:36:49|Event: CHALLENGE_MODE_START",
+"08/09/25 08:36:49|CHALLENGE_MODE_START, starting 10 seconds timer.",
+"05/09/25 23:49:47|Activity Time: 965.69599999999",
+"05/09/25 23:49:47|GetChallengeCompletionInfo() Found, Time: 1051",
+"05/09/25 23:49:47|MergeSegmentsOnEnd started | creating the overall segment at the end of the run.",
+"05/09/25 23:49:47|MythicDungeonFinished() | merge_boss_trash = true",
+"05/09/25 23:49:47|MythicDungeonFinished() | Details was in combat.",
+"05/09/25 23:49:45|===== Mythic+ Finished =====",
+"05/09/25 23:49:45|MergeTrashCleanup started.",
+"05/09/25 23:49:45|BossDefeated | key level: | 10 | Soul-Scribe | Eco-Dome Al'dani",
+"05/09/25 23:41:34|MergeTrashCleanup started.",
+"05/09/25 23:41:34|BossDefeated | key level: | 10 | Taah'bat and A'wazj | Eco-Dome Al'dani",
+"05/09/25 23:35:37|MergeTrashCleanup started.",
+"05/09/25 23:35:37|BossDefeated | key level: | 10 | Azhiccar | Eco-Dome Al'dani",
+},
+["player_stats"] = {
+},
+["last_instance_time"] = 1757316149,
+["last_version"] = "12.0.0 14323",
+["combat_id"] = 6,
+["savedStyles"] = {
+},
+["last_realversion"] = 166,
+["last_day"] = "23",
+["announce_deaths"] = {
+["enabled"] = false,
+["last_hits"] = 1,
+["only_first"] = 5,
+["where"] = 1,
+},
+["tabela_overall"] = {
+{
+["tipo"] = 2,
+["_ActorTable"] = {
+{
+["flag_original"] = 1298,
+["pets"] = {
+},
+["aID"] = "1598-0FA12E00",
+["total_without_pet"] = 0.035102,
+["last_dps_realtime"] = 0,
+["dps_started"] = false,
+["total"] = 88629.006348,
+["spec"] = 258,
+["on_hold"] = false,
+["total_extra"] = 0,
+["serial"] = "Player-1598-0FA12E00",
+["damage_from"] = {
+},
+["targets"] = {
+},
+["friendlyfire_total"] = 0,
+["raid_targets"] = {
+},
+["end_time"] = 1769094195,
+["totalabsorbed"] = 0.035102,
+["classe"] = "PRIEST",
+["nome"] = "Voidshuffle",
+["spells"] = {
+["_ActorTable"] = {
+[1227162] = {
+["c_amt"] = 0,
+["b_amt"] = 0,
+["g_amt"] = 0,
+["b_dmg"] = 0,
+["targets"] = {
+},
+["n_total"] = 0,
+["n_min"] = 0,
+["g_dmg"] = 0,
+["counter"] = 0.015406,
+["total"] = 8608,
+["c_max"] = 0,
+["id"] = 1227162,
+["r_dmg"] = 0,
+["extra"] = {
+},
+["a_dmg"] = 0,
+["a_amt"] = 0,
+["c_min"] = 0,
+["successful_casted"] = 0,
+["c_total"] = 0,
+["n_amt"] = 0,
+["n_max"] = 0,
+["r_amt"] = 0,
+},
+[34914] = {
+["c_amt"] = 0,
+["b_amt"] = 0,
+["g_amt"] = 0,
+["n_max"] = 0,
+["targets"] = {
+},
+["n_total"] = 0,
+["n_min"] = 0,
+["g_dmg"] = 0,
+["counter"] = 0.007314,
+["total"] = 14114,
+["c_max"] = 0,
+["id"] = 34914,
+["r_dmg"] = 0,
+["extra"] = {
+},
+["a_dmg"] = 0,
+["a_amt"] = 0,
+["c_min"] = 0,
+["successful_casted"] = 0,
+["c_total"] = 0,
+["n_amt"] = 0,
+["b_dmg"] = 0,
+["r_amt"] = 0,
+},
+[1217091] = {
+["c_amt"] = 0,
+["b_amt"] = 0,
+["g_amt"] = 0,
+["b_dmg"] = 0,
+["targets"] = {
+},
+["n_total"] = 0,
+["n_min"] = 0,
+["g_dmg"] = 0,
+["counter"] = 0.003437,
+["total"] = 10556,
+["c_max"] = 0,
+["id"] = 1217091,
+["r_dmg"] = 0,
+["extra"] = {
+},
+["a_dmg"] = 0,
+["a_amt"] = 0,
+["c_min"] = 0,
+["successful_casted"] = 0,
+["c_total"] = 0,
+["n_amt"] = 0,
+["n_max"] = 0,
+["r_amt"] = 0,
+},
+[589] = {
+["c_amt"] = 0,
+["b_amt"] = 0,
+["g_amt"] = 0,
+["n_max"] = 0,
+["targets"] = {
+},
+["n_total"] = 0,
+["n_min"] = 0,
+["g_dmg"] = 0,
+["counter"] = 0.015942,
+["total"] = 24287,
+["c_max"] = 0,
+["id"] = 589,
+["r_dmg"] = 0,
+["extra"] = {
+},
+["a_dmg"] = 0,
+["a_amt"] = 0,
+["c_min"] = 0,
+["successful_casted"] = 0,
+["c_total"] = 0,
+["n_amt"] = 0,
+["b_dmg"] = 0,
+["r_amt"] = 0,
+},
+[8092] = {
+["c_amt"] = 0,
+["b_amt"] = 0,
+["g_amt"] = 0,
+["b_dmg"] = 0,
+["targets"] = {
+},
+["n_total"] = 0,
+["n_min"] = 0,
+["g_dmg"] = 0,
+["counter"] = 0.012962,
+["total"] = 16770,
+["c_max"] = 0,
+["id"] = 8092,
+["r_dmg"] = 0,
+["extra"] = {
+},
+["a_dmg"] = 0,
+["a_amt"] = 0,
+["c_min"] = 0,
+["successful_casted"] = 0,
+["c_total"] = 0,
+["n_amt"] = 0,
+["n_max"] = 0,
+["r_amt"] = 0,
+},
+[1235136] = {
+["c_amt"] = 0,
+["b_amt"] = 0,
+["g_amt"] = 0,
+["b_dmg"] = 0,
+["targets"] = {
+},
+["n_total"] = 0,
+["n_min"] = 0,
+["g_dmg"] = 0,
+["counter"] = 0.015406,
+["total"] = 14294,
+["c_max"] = 0,
+["id"] = 1235136,
+["r_dmg"] = 0,
+["extra"] = {
+},
+["a_dmg"] = 0,
+["a_amt"] = 0,
+["c_min"] = 0,
+["successful_casted"] = 0,
+["c_total"] = 0,
+["n_amt"] = 0,
+["n_max"] = 0,
+["r_amt"] = 0,
+},
+},
+["tipo"] = 2,
+},
+["grupo"] = true,
+["friendlyfire"] = {
+},
+["tipo"] = 1,
+["custom"] = 0,
+["last_event"] = 0,
+["damage_taken"] = 0.035102,
+["start_time"] = 1769094192,
+["delay"] = 0,
+["last_dps"] = 0,
+},
+},
+},
+{
+["tipo"] = 3,
+["_ActorTable"] = {
+{
+["flag_original"] = 1298,
+["healing_from"] = {
+},
+["pets"] = {
+},
+["iniciar_hps"] = false,
+["heal_enemy_amt"] = 0,
+["totalover"] = 0.018977,
+["total_without_pet"] = 0.018977,
+["total"] = 0.001027,
+["targets_absorbs"] = {
+},
+["heal_enemy"] = {
+},
+["on_hold"] = false,
+["serial"] = "Player-1598-0FA12E00",
+["totalabsorb"] = 0.018977,
+["last_hps"] = 0,
+["targets"] = {
+},
+["totalover_without_pet"] = 0.018977,
+["last_event"] = 0,
+["healing_taken"] = 0.018977,
+["end_time"] = 1769094195,
+["aID"] = "1598-0FA12E00",
+["targets_overheal"] = {
+},
+["nome"] = "Voidshuffle",
+["spells"] = {
+["_ActorTable"] = {
+},
+["tipo"] = 3,
+},
+["grupo"] = true,
+["start_time"] = 1769094192,
+["classe"] = "PRIEST",
+["custom"] = 0,
+["tipo"] = 2,
+["totaldenied"] = 0.018977,
+["delay"] = 0,
+["spec"] = 258,
+},
+},
+},
+{
+["tipo"] = 7,
+["_ActorTable"] = {
+},
+},
+{
+["tipo"] = 9,
+["_ActorTable"] = {
+{
+["flag_original"] = 1047,
+["buff_uptime"] = 0,
+["classe"] = "PRIEST",
+["buff_uptime_spells"] = {
+["_ActorTable"] = {
+[1223878] = {
+["refreshamt"] = 0,
+["activedamt"] = 0,
+["appliedamt"] = 0,
+["id"] = 1223878,
+["uptime"] = 0,
+["targets"] = {
+},
+["counter"] = 0,
+},
+[232698] = {
+["refreshamt"] = 0,
+["activedamt"] = 0,
+["appliedamt"] = 0,
+["id"] = 232698,
+["uptime"] = 0,
+["targets"] = {
+},
+["counter"] = 0,
+},
+[2479] = {
+["refreshamt"] = 0,
+["activedamt"] = 0,
+["appliedamt"] = 0,
+["id"] = 2479,
+["uptime"] = 0,
+["targets"] = {
+},
+["counter"] = 0,
+},
+[424484] = {
+["refreshamt"] = 0,
+["activedamt"] = 0,
+["appliedamt"] = 0,
+["id"] = 424484,
+["uptime"] = 0,
+["targets"] = {
+},
+["counter"] = 0,
+},
+[225788] = {
+["refreshamt"] = 0,
+["activedamt"] = 0,
+["appliedamt"] = 0,
+["id"] = 225788,
+["uptime"] = 0,
+["targets"] = {
+},
+["counter"] = 0,
+},
+[1227124] = {
+["refreshamt"] = 0,
+["activedamt"] = 0,
+["appliedamt"] = 0,
+["id"] = 1227124,
+["uptime"] = 0,
+["targets"] = {
+},
+["counter"] = 0,
+},
+[282559] = {
+["refreshamt"] = 0,
+["activedamt"] = 0,
+["appliedamt"] = 0,
+["id"] = 282559,
+["uptime"] = 0,
+["targets"] = {
+},
+["counter"] = 0,
+},
+},
+["tipo"] = 9,
+},
+["tipo"] = 4,
+["nome"] = "Voidshuffle",
+["spec"] = 258,
+["grupo"] = true,
+["buff_uptime_targets"] = {
+},
+["last_event"] = 0,
+["pets"] = {
+},
+["serial"] = "Player-1598-0FA12E00",
+["aID"] = "1598-0FA12E00",
+},
+},
+},
+{
+["tipo"] = 2,
+["_ActorTable"] = {
+},
+},
+["boss_hp"] = 1,
+["tempo_start"] = 2817306.426,
+["last_events_tables"] = {
+},
+["alternate_power"] = {
+},
+["bossTimers"] = {
+},
+["combat_counter"] = 1,
+["playerTalents"] = {
+},
+["totals"] = {
+88629,
+0,
+{
+0,
+[0] = 0,
+["alternatepower"] = 0,
+[3] = 0,
+[6] = 0,
+},
+{
+["buff_uptime"] = 0,
+["ress"] = 0,
+["cooldowns_defensive"] = 0,
+["dispell"] = 0,
+["interrupt"] = 0,
+["debuff_uptime"] = 0,
+["cc_break"] = 0,
+["dead"] = 0,
+},
+["frags_total"] = 0,
+["voidzone_damage"] = 0,
+},
+["totals_grupo"] = {
+88629,
+0,
+{
+0,
+[0] = 0,
+["alternatepower"] = 0,
+[3] = 0,
+[6] = 0,
+},
+{
+["buff_uptime"] = 0,
+["ress"] = 0,
+["cooldowns_defensive"] = 0,
+["dispell"] = 0,
+["interrupt"] = 0,
+["debuff_uptime"] = 0,
+["cc_break"] = 0,
+["dead"] = 0,
+},
+},
+["frags_need_refresh"] = false,
+["overall_refreshed"] = true,
+["amountCasts"] = {
+},
+["zoneName"] = "Khaz Algar (Surface)",
+["data_fim"] = "22:58:16",
+["cleu_timeline"] = {
+},
+["trinketProcs"] = {
+},
+["aura_timeline"] = {
+},
+["compressed_charts"] = {
+},
+["PhaseData"] = {
+{
+1,
+1,
+},
+["damage_section"] = {
+},
+["heal_section"] = {
+},
+["heal"] = {
+},
+["damage"] = {
+},
+},
+["end_time"] = 2998619.514,
+["mapId"] = 2552,
+["raid_roster"] = {
+},
+["cleu_events"] = {
+["n"] = 1,
+},
+["is_challenge"] = false,
+["frags"] = {
+},
+["player_last_events"] = {
+},
+["overall_enemy_name"] = "Unknown",
+["data_inicio"] = "16:02:59",
+["spells_cast_timeline"] = {
+},
+["start_time"] = 2998561.188,
+["TimeData"] = {
+},
+["segments_added"] = {
+{
+["elapsed"] = 5.111000000033528,
+["type"] = 0,
+["name"] = "Unknown",
+["clock"] = "22:58:11",
+},
+{
+["elapsed"] = 8.024000000208616,
+["type"] = 0,
+["name"] = "Unknown",
+["clock"] = "22:46:09",
+},
+{
+["elapsed"] = 10.54499999992549,
+["type"] = 0,
+["name"] = "Unknown",
+["clock"] = "22:08:59",
+},
+{
+["elapsed"] = 11.48199999984354,
+["type"] = 0,
+["name"] = "Unknown",
+["clock"] = "22:08:26",
+},
+{
+["elapsed"] = 6.547999999951571,
+["type"] = 0,
+["name"] = "Unknown",
+["clock"] = "21:01:47",
+},
+{
+["elapsed"] = 16.61599999992177,
+["type"] = 0,
+["name"] = "Unknown",
+["clock"] = "16:02:59",
+},
+{
+["elapsed"] = 2817334.841,
+["type"] = 0,
+["name"] = "Unknown",
+["clock"] = 0,
+},
+},
+},
+["cached_roles"] = {
+},
+["arena_data_headers"] = {
+},
+["coach"] = {
+["enabled"] = false,
+["welcome_panel_pos"] = {
+},
+["last_coach_name"] = false,
+},
+["announce_cooldowns"] = {
+["ignored_cooldowns"] = {
+},
+["enabled"] = false,
+["custom"] = "",
+["channel"] = "RAID",
+},
+["rank_window"] = {
+["last_difficulty"] = 15,
+["last_raid"] = "",
+},
+["damage_meter_session_info"] = {
+},
+["cached_specs"] = {
+["Player-1598-0FA12E00"] = 258,
+},
+}

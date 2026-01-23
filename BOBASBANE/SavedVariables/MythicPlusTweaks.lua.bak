@@ -1,0 +1,82 @@
+
+MythicPlusTweaksDB = {
+["inlineConfig"] = true,
+["moduleDb"] = {
+["PartyRating"] = {
+["showZeroScoreDungeons"] = true,
+["sortMode"] = "score",
+},
+["SortDungeonIcons"] = {
+["sortStyle"] = "overall_score",
+["sortDirection"] = "desc",
+},
+["DungeonIconTooltip"] = {
+["showPartyScore"] = true,
+["showMapID"] = true,
+},
+["MistHelperSync"] = {
+},
+["DungeonIconText"] = {
+["dash"] = false,
+["name"] = "middle",
+["hideSeasonBest"] = false,
+},
+["KeystoneSharing-core"] = {
+["modules"] = {
+["KeystoneSharing-AstralKeys"] = true,
+["KeystoneSharing-AngryKeystones"] = true,
+},
+["moduleDB"] = {
+},
+["altStore"] = {
+["Laughing Skull"] = {
+["Tradushuffle"] = {
+["mapID"] = 0,
+["class"] = "DRUID",
+["weeklyBest"] = 0,
+["week"] = 444,
+["name"] = "Tradushuffle",
+["faction"] = "Horde",
+["level"] = 0,
+["timestamp"] = 200150,
+},
+},
+},
+["shareAlts"] = true,
+},
+["miscQoL"] = {
+["respondToGuild"] = true,
+["autoSlotKeystone"] = true,
+["groupFormedMessage"] = true,
+["respondToParty"] = true,
+["respondToRaid"] = true,
+["removeHoverBlockFromLFGApplicationViewer"] = true,
+["groupFormedMessageKeystoneOnly"] = true,
+},
+["DungeonTeleports"] = {
+["dungeon_portal"] = "main_unknown",
+["teleportOnKeystoneCtrlClick"] = true,
+["hearthstone"] = "main_on_cooldown",
+["toy"] = "main_on_cooldown",
+["shuffleSharedCooldown"] = true,
+["showAlternates"] = true,
+["mage_teleport"] = "main_on_cooldown",
+},
+["ShowScoreOnKeystoneTooltip"] = {
+},
+},
+["modules"] = {
+["ImproveKeystoneLink"] = true,
+["PartyRating"] = true,
+["SortDungeonIcons"] = true,
+["DungeonIconTooltip"] = true,
+["MistHelperSync"] = true,
+["DungeonIconText"] = true,
+["AlwaysShowAffixes"] = true,
+["KeystoneSharing-core"] = true,
+["DungeonTeleports"] = true,
+["ShowOwnRatingOnLFGTooltip"] = true,
+["miscQoL"] = true,
+["ShowScoreOnKeystoneTooltip"] = true,
+},
+}

@@ -1,0 +1,547 @@
+
+TalentLoadoutProfilesDB = nil
+ImprovedTalentLoadoutsDB = {
+["loadouts"] = {
+["globalLoadouts"] = {
+["HUNTER"] = {
+["configIDs"] = {
+},
+["categories"] = {
+},
+},
+["WARRIOR"] = {
+["configIDs"] = {
+},
+["categories"] = {
+},
+},
+["ROGUE"] = {
+["configIDs"] = {
+},
+["categories"] = {
+},
+},
+["MAGE"] = {
+["configIDs"] = {
+},
+["categories"] = {
+},
+},
+["PRIEST"] = {
+["configIDs"] = {
+[257] = {
+},
+[258] = {
+[29780241] = {
+["treeHash"] = {
+66,
+50,
+202,
+195,
+178,
+240,
+3,
+134,
+139,
+101,
+12,
+255,
+159,
+85,
+198,
+18,
+},
+["entryInfo"] = {
+{
+["nodeID"] = 82556,
+["ranksGranted"] = 0,
+["selectionEntryID"] = 103834,
+["ranksPurchased"] = 1,
+},
+{
+["nodeID"] = 82653,
+["ranksGranted"] = 0,
+["selectionEntryID"] = 103795,
+["ranksPurchased"] = 1,
+},
+{
+["nodeID"] = 82663,
+["ranksGranted"] = 0,
+["selectionEntryID"] = 103806,
+["ranksPurchased"] = 1,
+},
+{
+["nodeID"] = 82665,
+["ranksGranted"] = 0,
+["selectionEntryID"] = 103808,
+["ranksPurchased"] = 1,
+},
+{
+["nodeID"] = 82666,
+["ranksGranted"] = 0,
+["selectionEntryID"] = 103809,
+["ranksPurchased"] = 1,
+},
+{
+["nodeID"] = 82670,
+["ranksGranted"] = 0,
+["selectionEntryID"] = 103814,
+["ranksPurchased"] = 1,
+},
+{
+["nodeID"] = 82672,
+["ranksGranted"] = 0,
+["selectionEntryID"] = 103818,
+["ranksPurchased"] = 1,
+},
+{
+["nodeID"] = 82687,
+["ranksGranted"] = 0,
+["selectionEntryID"] = 103837,
+["ranksPurchased"] = 1,
+},
+{
+["nodeID"] = 82701,
+["ranksGranted"] = 1,
+["selectionEntryID"] = 103851,
+["ranksPurchased"] = 0,
+},
+{
+["nodeID"] = 82710,
+["ranksGranted"] = 0,
+["selectionEntryID"] = 103678,
+["ranksPurchased"] = 1,
+},
+{
+["nodeID"] = 82713,
+["ranksGranted"] = 1,
+["selectionEntryID"] = 103865,
+["ranksPurchased"] = 0,
+},
+{
+["nodeID"] = 93171,
+["ranksGranted"] = 0,
+["selectionEntryID"] = 115448,
+["ranksPurchased"] = 1,
+},
+{
+["nodeID"] = 94668,
+["ranksGranted"] = 0,
+["selectionEntryID"] = 117271,
+["ranksPurchased"] = 1,
+},
+{
+["nodeID"] = 94669,
+["ranksGranted"] = 0,
+["selectionEntryID"] = 117272,
+["ranksPurchased"] = 1,
+},
+{
+["nodeID"] = 94670,
+["ranksGranted"] = 0,
+["selectionEntryID"] = 117273,
+["ranksPurchased"] = 1,
+},
+{
+["nodeID"] = 94676,
+["ranksGranted"] = 0,
+["selectionEntryID"] = 117279,
+["ranksPurchased"] = 1,
+},
+{
+["nodeID"] = 94677,
+["ranksGranted"] = 0,
+["selectionEntryID"] = 117280,
+["ranksPurchased"] = 1,
+},
+{
+["nodeID"] = 94678,
+["ranksGranted"] = 0,
+["selectionEntryID"] = 125085,
+["ranksPurchased"] = 1,
+},
+{
+["nodeID"] = 94680,
+["ranksGranted"] = 0,
+["selectionEntryID"] = 117283,
+["ranksPurchased"] = 1,
+},
+{
+["nodeID"] = 94681,
+["ranksGranted"] = 0,
+["selectionEntryID"] = 117284,
+["ranksPurchased"] = 1,
+},
+{
+["nodeID"] = 94684,
+["ranksGranted"] = 1,
+["selectionEntryID"] = 117287,
+["ranksPurchased"] = 0,
+},
+{
+["nodeID"] = 94685,
+["ranksGranted"] = 0,
+["selectionEntryID"] = 117288,
+["ranksPurchased"] = 1,
+},
+{
+["nodeID"] = 94686,
+["ranksGranted"] = 0,
+["selectionEntryID"] = 125083,
+["ranksPurchased"] = 1,
+},
+{
+["nodeID"] = 94688,
+["ranksGranted"] = 0,
+["selectionEntryID"] = 117291,
+["ranksPurchased"] = 1,
+},
+{
+["nodeID"] = 94692,
+["ranksGranted"] = 0,
+["selectionEntryID"] = 117295,
+["ranksPurchased"] = 1,
+},
+{
+["nodeID"] = 94693,
+["ranksGranted"] = 0,
+["selectionEntryID"] = 123845,
+["ranksPurchased"] = 1,
+},
+{
+["nodeID"] = 94694,
+["ranksGranted"] = 0,
+["selectionEntryID"] = 117297,
+["ranksPurchased"] = 1,
+},
+{
+["nodeID"] = 94695,
+["ranksGranted"] = 0,
+["selectionEntryID"] = 125982,
+["ranksPurchased"] = 1,
+},
+{
+["nodeID"] = 94697,
+["ranksGranted"] = 1,
+["selectionEntryID"] = 117300,
+["ranksPurchased"] = 0,
+},
+{
+["nodeID"] = 94699,
+["ranksGranted"] = 0,
+["selectionEntryID"] = 117302,
+["ranksPurchased"] = 1,
+},
+{
+["nodeID"] = 94702,
+["ranksGranted"] = 0,
+["selectionEntryID"] = 117305,
+["ranksPurchased"] = 1,
+},
+{
+["nodeID"] = 94703,
+["ranksGranted"] = 0,
+["selectionEntryID"] = 117306,
+["ranksPurchased"] = 1,
+},
+{
+["nodeID"] = 99800,
+["ranksGranted"] = 0,
+["selectionEntryID"] = 123287,
+["ranksPurchased"] = 1,
+},
+},
+["exportString"] = "CIQACJjyDLL8DY4ilxw/fWlxSADAAAAAAAAAAAAAwAwMLYMAADQgNCgZmBzsZGNbGMbzmMmZDAAAAAAA",
+["usesSharedActionBars"] = false,
+["default"] = true,
+["treeIDs"] = {
+795,
+},
+["ID"] = 29780241,
+["type"] = 1,
+["name"] = "Shadow",
+},
+},
+[256] = {
+},
+},
+["categories"] = {
+[258] = {
+},
+},
+},
+["SHAMAN"] = {
+["configIDs"] = {
+},
+["categories"] = {
+},
+},
+["EVOKER"] = {
+["configIDs"] = {
+},
+["categories"] = {
+},
+},
+["WARLOCK"] = {
+["configIDs"] = {
+[266] = {
+},
+[267] = {
+[7075072] = {
+["type"] = 1,
+["name"] = "WH M+",
+["treeIDs"] = {
+720,
+},
+["ID"] = 7075072,
+["usesSharedActionBars"] = false,
+},
+[380188] = {
+["type"] = 1,
+["usesSharedActionBars"] = false,
+["name"] = "Destruction",
+["treeIDs"] = {
+720,
+},
+["ID"] = 380188,
+["default"] = true,
+["entryInfo"] = {
+{
+["nodeID"] = 71922,
+["ranksGranted"] = 0,
+["ranksPurchased"] = 1,
+["selectionEntryID"] = 91430,
+},
+{
+["nodeID"] = 71930,
+["ranksGranted"] = 0,
+["ranksPurchased"] = 1,
+["selectionEntryID"] = 91438,
+},
+{
+["nodeID"] = 71931,
+["ranksGranted"] = 0,
+["ranksPurchased"] = 1,
+["selectionEntryID"] = 91439,
+},
+{
+["nodeID"] = 71933,
+["ranksGranted"] = 1,
+["ranksPurchased"] = 0,
+["selectionEntryID"] = 91441,
+},
+{
+["nodeID"] = 71942,
+["ranksGranted"] = 0,
+["ranksPurchased"] = 1,
+["selectionEntryID"] = 91452,
+},
+{
+["nodeID"] = 71949,
+["ranksGranted"] = 0,
+["ranksPurchased"] = 1,
+["selectionEntryID"] = 91460,
+},
+{
+["nodeID"] = 71950,
+["ranksGranted"] = 0,
+["ranksPurchased"] = 2,
+["selectionEntryID"] = 91461,
+},
+{
+["nodeID"] = 71952,
+["ranksGranted"] = 0,
+["ranksPurchased"] = 2,
+["selectionEntryID"] = 91463,
+},
+{
+["nodeID"] = 94822,
+["ranksGranted"] = 0,
+["ranksPurchased"] = 1,
+["selectionEntryID"] = 117419,
+},
+{
+["nodeID"] = 94829,
+["ranksGranted"] = 0,
+["ranksPurchased"] = 1,
+["selectionEntryID"] = 117426,
+},
+{
+["nodeID"] = 94834,
+["ranksGranted"] = 0,
+["ranksPurchased"] = 1,
+["selectionEntryID"] = 117431,
+},
+{
+["nodeID"] = 94835,
+["ranksGranted"] = 0,
+["ranksPurchased"] = 1,
+["selectionEntryID"] = 117432,
+},
+{
+["nodeID"] = 94837,
+["ranksGranted"] = 0,
+["ranksPurchased"] = 1,
+["selectionEntryID"] = 117434,
+},
+{
+["nodeID"] = 94840,
+["ranksGranted"] = 1,
+["ranksPurchased"] = 0,
+["selectionEntryID"] = 117437,
+},
+{
+["nodeID"] = 94842,
+["ranksGranted"] = 0,
+["ranksPurchased"] = 1,
+["selectionEntryID"] = 117439,
+},
+{
+["nodeID"] = 94844,
+["ranksGranted"] = 0,
+["ranksPurchased"] = 1,
+["selectionEntryID"] = 117441,
+},
+{
+["nodeID"] = 94845,
+["ranksGranted"] = 0,
+["ranksPurchased"] = 1,
+["selectionEntryID"] = 117442,
+},
+{
+["nodeID"] = 94853,
+["ranksGranted"] = 0,
+["ranksPurchased"] = 1,
+["selectionEntryID"] = 117450,
+},
+{
+["nodeID"] = 94854,
+["ranksGranted"] = 0,
+["ranksPurchased"] = 1,
+["selectionEntryID"] = 123310,
+},
+{
+["nodeID"] = 94855,
+["ranksGranted"] = 1,
+["ranksPurchased"] = 0,
+["selectionEntryID"] = 117452,
+},
+{
+["nodeID"] = 99848,
+["ranksGranted"] = 0,
+["ranksPurchased"] = 1,
+["selectionEntryID"] = 123382,
+},
+},
+["exportString"] = "CsQAuLF9OTOEO03H59F+S+aDhgBzIYwMDAAAAAAAYBGYWMaMDgZL2AAAAAAAAAAAAAAAAA",
+},
+},
+[265] = {
+[7027415] = {
+["type"] = 1,
+["name"] = "Taint ST",
+["treeIDs"] = {
+720,
+},
+["ID"] = 7027415,
+["usesSharedActionBars"] = true,
+},
+[6283552] = {
+["type"] = 1,
+["name"] = "M+ ST",
+["treeIDs"] = {
+720,
+},
+["ID"] = 6283552,
+["usesSharedActionBars"] = true,
+},
+},
+},
+["categories"] = {
+},
+},
+["DEMONHUNTER"] = {
+["configIDs"] = {
+},
+["categories"] = {
+},
+},
+["DEATHKNIGHT"] = {
+["configIDs"] = {
+},
+["categories"] = {
+},
+},
+["DRUID"] = {
+["configIDs"] = {
+},
+["categories"] = {
+},
+},
+["MONK"] = {
+["configIDs"] = {
+},
+["categories"] = {
+},
+},
+["PALADIN"] = {
+["configIDs"] = {
+},
+["categories"] = {
+},
+},
+},
+["characterLoadouts"] = {
+["Voidshuffle-LaughingSkull"] = {
+["cachedActionbars"] = {
+},
+["activeConfigIDs"] = {
+[29780241] = true,
+},
+["tempLoadout"] = 29780246,
+},
+["Soulshuffle-LaughingSkull"] = {
+["cachedActionbars"] = {
+},
+["activeConfigIDs"] = {
+[380188] = true,
+},
+["tempLoadout"] = 32204810,
+},
+},
+},
+["options"] = {
+["fontSize"] = 10,
+["loadActionbarsSpec"] = false,
+["sortSubcategoriesByName"] = false,
+["sortLoadoutsByName"] = false,
+["clearEmptySlots"] = false,
+["applyLoadout"] = true,
+["loadAsBlizzard"] = true,
+["showCustomOrder"] = true,
+["useAddOnLoadoutFallback"] = false,
+["findMatchingLoadout"] = true,
+["simc"] = true,
+["loadBlizzard"] = false,
+["specButtonType"] = "text",
+["sortCategoriesByName"] = false,
+["findMacroByName"] = false,
+["showSpecButtons"] = true,
+["showCategoryName"] = false,
+["loadActionbars"] = true,
+},
+["version"] = 7,
+["classesInitialized"] = true,
+["actionbars"] = {
+["macros"] = {
+["global"] = {
+},
+["char"] = {
+["Voidshuffle-LaughingSkull"] = {
+},
+["Soulshuffle-LaughingSkull"] = {
+},
+},
+},
+},
+}

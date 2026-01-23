@@ -1,0 +1,29 @@
+
+RaiderIO_Config = {
+["minimapIcon"] = {
+["minimapPos"] = 180,
+["showInCompartment"] = true,
+["lock"] = false,
+["hide"] = false,
+},
+["profilePoint"] = {
+["y"] = 0,
+["x"] = -16,
+["point"] = "TOPLEFT",
+},
+}
+RaiderIO_LastCharacter = "eu-Voidshuffle-laughing-skull"
+RaiderIO_MissingCharacters = {
+["eu-Deathstalker-balnazzar"] = true,
+["eu-Bamso-laughing-skull"] = true,
+["eu-Narx-talnivarr"] = true,
+["eu-Dreadslice-outland"] = true,
+["eu-Aatrox-shattered-halls"] = true,
+}
+RaiderIO_MissingServers = {
+}
+RaiderIO_CachedRuns = nil
+RaiderIO_RWF = {
+}
+RaiderIO_CompletedReplays = {
+}

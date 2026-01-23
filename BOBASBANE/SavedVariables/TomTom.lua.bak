@@ -1,0 +1,38 @@
+
+TomTomDB = {
+["profileKeys"] = {
+["Tradushuffle - Laughing Skull"] = "Default",
+},
+["profiles"] = {
+["Default"] = {
+["arrow"] = {
+["position"] = {
+"CENTER",
+nil,
+"CENTER",
+0,
+0,
+},
+},
+["block"] = {
+["position"] = {
+"CENTER",
+nil,
+"CENTER",
+0,
+-100,
+},
+},
+},
+},
+}
+TomTomWaypoints = nil
+TomTomWaypointsM = {
+["profileKeys"] = {
+["Tradushuffle - Laughing Skull"] = "Tradushuffle - Laughing Skull",
+},
+["profiles"] = {
+["Tradushuffle - Laughing Skull"] = {
+},
+},
+}

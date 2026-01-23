@@ -1,0 +1,32 @@
+VER 3 0100000000000003 "DP" "134400"
+#showtooltip
+/cast [@mouseover,harm,nodead,exists][] Shadow Word: Madness
+END
+VER 3 0100000000000004 "Flash Heal" "134400"
+#showtooltip
+/cast [@mouseover,help,nodead][] Flash Heal
+END
+VER 3 0100000000000008 "Focus Silence" "134400"
+#showtooltip Silence
+/cast [@focus,harm,nodead,exists] Silence
+END
+VER 3 0100000000000007 "PI" "134400"
+#showtooltip
+/cast [@focus,help,nodead,exists][@mouseover,help,nodead,exists][] Power Infusion
+END
+VER 3 0100000000000006 "PWS" "134400"
+#showtooltip
+/cast [@mouseover,help,nodead,exists][] Power Word: Shield
+END
+VER 3 0100000000000005 "Self PWS" "134400"
+#showtooltip
+/cast [@player] Power Word: Shield
+END
+VER 3 0100000000000001 "SWP" "134400"
+#showtooltip
+/cast [@mouseover,harm,nodead,exists][] Shadow Word: Pain
+END
+VER 3 0100000000000002 "VT" "134400"
+#showtooltip
+/cast [@mouseover,harm,nodead,exists][] Vampiric Touch
+END

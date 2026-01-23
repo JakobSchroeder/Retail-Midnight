@@ -1,0 +1,14 @@
+
+LuckyoneDB = {
+["global"] = {
+["DebugDisabledAddOns"] = {
+},
+},
+["profileKeys"] = {
+["Tradushuffle - Laughing Skull"] = "Default",
+},
+["profiles"] = {
+["Default"] = {
+},
+},
+}

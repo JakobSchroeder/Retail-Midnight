@@ -1,0 +1,94 @@
+
+RCLootCouncilDB = {
+["profileKeys"] = {
+["Tradushuffle - Laughing Skull"] = "Default",
+},
+["global"] = {
+["log"] = {
+"01/23/26",
+"<15:35:35> <INFO>		Logged In",
+"<15:35:35> <INFO>[ML]	Init",
+"<15:35:35> <INFO>		RCLootCouncil	TradeUI enabled",
+"<15:35:47> <Data.Player>		CreatePlayer	Player-1598-0F08F91C",
+"<15:35:47> <INFO>		Tradushuffle-LaughingSkull	3.19.0	nil",
+"<15:35:47> <DEBUG>		ActivateSkin	bfa",
+"<15:35:49> <DEBUG>		Event:	PLAYER_ENTERING_WORLD	true	false",
+"<15:35:49> <INFO>		UpdatePlayersData()",
+"<15:35:50> <DEBUG>		GetPlayersGuildRank()",
+"<15:35:50> <DEBUG>		Found Guild Rank: Alts",
+"<15:35:53> <DEBUG>		GetML()",
+"<15:35:53> <DEBUG>		TradeUI:Show()	nil",
+"<15:35:53> <DEBUG>		TradeUI:Hide()",
+"<15:35:53> <Comm>		^1^Sv^T^N1^S3.19.0^t^^	GUILD	Tradushuffle-LaughingSkull",
+"<15:38:02> <DEBUG>		Supressed events count:",
+"<15:38:02> <DEBUG>		Event:	PLAYER_LOGOUT",
+},
+["cache"] = {
+["cachePlayer"] = "Tradushuffle-LaughingSkull",
+["cacheTime"] = 1769179082,
+["instanceData"] = {
+["difficultyID"] = 0,
+["groupSize"] = 0,
+["instanceName"] = "Razorwind Shores",
+["timestamp"] = 1769178951,
+["mapID"] = 2736,
+["difficultyName"] = "",
+},
+["handleLoot"] = false,
+},
+["playerCache"] = {
+["Player-1598-0F08F91C"] = {
+["name"] = "Tradushuffle-LaughingSkull",
+["guid"] = "Player-1598-0F08F91C",
+["cache_time"] = 1769178945,
+["class"] = "DRUID",
+["realm"] = "LaughingSkull",
+["isInGuild"] = false,
+},
+},
+["locale"] = "enUS",
+["version"] = "3.19.0",
+["regionID"] = 3,
+},
+["profiles"] = {
+["Default"] = {
+["UI"] = {
+["RCDefaultTradeUIFrame"] = {
+["borderColor"] = {
+0.62,
+0.86,
+0.87,
+0.85,
+},
+["background"] = "Blizzard Garrison Background 3",
+["border"] = "Blizzard Dialog",
+["bgColor"] = {
+0.55,
+0.84,
+1,
+},
+},
+["DefaultRCLootFrame"] = {
+["borderColor"] = {
+0.62,
+0.86,
+0.87,
+0.85,
+},
+["background"] = "Blizzard Garrison Background 3",
+["border"] = "Blizzard Dialog",
+["bgColor"] = {
+0.55,
+0.84,
+1,
+},
+},
+},
+},
+},
+}
+RCLootCouncilLootDB = {
+["profileKeys"] = {
+["Tradushuffle - Laughing Skull"] = "Tradushuffle - Laughing Skull",
+},
+}

@@ -1,0 +1,54 @@
+VER 3 00000000000000ED "Belt" "INV_MISC_QUESTIONMARK"
+#showtooltip 6
+/use 6
+END
+VER 3 00000000000000D7 "bracers" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use 9
+END
+VER 3 000000000000002A "Cloak" "INV_MISC_QUESTIONMARK"
+#showtooltip 15
+/use 15
+END
+VER 3 00000000000000DD "focusmouse" "134331"
+/focus [@mouseover]
+END
+VER 3 00000000000000EC "followint" "413588"
+/tar Intshuffle
+/tar Rageshuffle
+/tar Tradushuffle
+/tar Teashuffle
+/tar Spearshuffle
+/tar Hemoshuffle
+/tar Aliceshuffle
+/follow
+END
+VER 3 0000000000000035 "Gloves" "INV_MISC_QUESTIONMARK"
+#showtooltip 10
+/use 10
+END
+VER 3 00000000000000A5 "HealthPot" "134829"
+#showtooltip
+/use item:244839
+/use item:244838
+/use item:244835
+/use item:212944
+/use item:211880
+/use item:212943
+/use item:211879
+/use item:212942
+/use item:211878
+END
+VER 3 0000000000000119 "mainhand" "134400"
+#showtooltip
+/use 16
+END
+VER 3 0000000000000109 "Potion" "134400"
+#showtooltip
+/use item:212971
+/use item:212265
+/use item:212970
+/use item:212264
+/use item:212969
+/use item:212263
+END

@@ -20,15 +20,15 @@ LiquidRemindersSaved = {
 [1249658] = "breath of sindragosa",
 [49020] = "obliterate",
 [196770] = "remorseless winter",
+[49184] = "howling blast",
 [49143] = "frost strike",
-[47568] = "empower rune weapon",
 [51271] = "pillar of frost",
-[194913] = "glacial advance",
+[279302] = "frostwyrm's fury",
 [316239] = "rune strike",
 [439843] = "reaper's mark",
-[279302] = "frostwyrm's fury",
+[194913] = "glacial advance",
 [207230] = "frostscythe",
-[49184] = "howling blast",
+[47568] = "empower rune weapon",
 },
 {
 [1247378] = "putrefy",
@@ -38,8 +38,8 @@ LiquidRemindersSaved = {
 [55090] = "scourge strike",
 [42650] = "army of the dead",
 [77575] = "outbreak",
-[1233448] = "dark transformation",
 [46584] = "raise dead",
+[1233448] = "dark transformation",
 },
 [0] = {
 [47541] = "death coil",
@@ -54,44 +54,45 @@ LiquidRemindersSaved = {
 [47528] = "mind freeze",
 [444347] = "death charge",
 [49576] = "death grip",
-[212552] = "wraith walk",
-[207167] = "blinding sleet",
+[48265] = "death's advance",
+[45524] = "chains of ice",
 [48707] = "anti-magic shell",
 [221562] = "asphyxiate",
-[51052] = "anti-magic zone",
-[50977] = "death gate",
 [127344] = "corpse exploder",
+[50977] = "death gate",
+[51052] = "anti-magic zone",
 [53428] = "runeforging",
-[45524] = "chains of ice",
-[48265] = "death's advance",
+[207167] = "blinding sleet",
+[212552] = "wraith walk",
 },
 },
 ["WARRIOR"] = {
 {
+[446035] = "bladestorm",
 [7384] = "overpower",
-[1464] = "slam",
+[12294] = "mortal strike",
 [118038] = "die by the sword",
 [436358] = "demolish",
 [260708] = "sweeping strikes",
 [1277297] = "ignore pain",
 [227847] = "bladestorm",
-[228920] = "ravager",
+[167105] = "colossus smash",
 [107574] = "avatar",
 [845] = "cleave",
-[167105] = "colossus smash",
-[12294] = "mortal strike",
+[228920] = "ravager",
+[1464] = "slam",
 },
 {
 [85288] = "raging blow",
 [1719] = "recklessness",
 [184367] = "rampage",
-[107574] = "avatar",
-[190411] = "whirlwind",
-[385059] = "odyn's fury",
-[5308] = "execute",
-[1464] = "slam",
-[184364] = "enraged regeneration",
 [23881] = "bloodthirst",
+[184364] = "enraged regeneration",
+[385059] = "odyn's fury",
+[107574] = "avatar",
+[1464] = "slam",
+[5308] = "execute",
+[190411] = "whirlwind",
 },
 {
 [6572] = "revenge",
@@ -102,36 +103,41 @@ LiquidRemindersSaved = {
 [386071] = "disrupting shout",
 [190456] = "ignore pain",
 [385952] = "shield charge",
+[107574] = "avatar",
 [1464] = "slam",
 },
 [0] = {
 [34428] = "victory rush",
 [772] = "rend",
+[12323] = "piercing howl",
 [6544] = "heroic leap",
 [5308] = "execute",
 [2565] = "shield block",
+[281000] = "execute",
 [6343] = "thunder clap",
 [386196] = "berserker stance",
-[107570] = "storm bolt",
+[384110] = "wrecking throw",
+[1464] = "slam",
+[6552] = "pummel",
 [6673] = "battle shout",
 [97462] = "rallying cry",
-[1680] = "whirlwind",
+[107570] = "storm bolt",
 [57755] = "heroic throw",
 [46968] = "shockwave",
-[280735] = "execute",
+[386164] = "battle stance",
 [1715] = "hamstring",
 [23920] = "spell reflection",
+[355] = "taunt",
+[202168] = "impending victory",
+[386208] = "defensive stance",
+[100] = "charge",
+[3411] = "intervene",
+[190411] = "whirlwind",
+[23922] = "shield slam",
 [18499] = "berserker rage",
 [163201] = "execute",
-[100] = "charge",
-[23922] = "shield slam",
-[190411] = "whirlwind",
-[3411] = "intervene",
-[386208] = "defensive stance",
-[202168] = "impending victory",
-[355] = "taunt",
-[386164] = "battle stance",
-[6552] = "pummel",
+[280735] = "execute",
+[1680] = "whirlwind",
 },
 },
 ["ROGUE"] = {
@@ -143,10 +149,10 @@ LiquidRemindersSaved = {
 [32645] = "envenom",
 [51723] = "fan of knives",
 [703] = "garrote",
-[8676] = "ambush",
-[1247227] = "crimson tempest",
-[1943] = "rupture",
 [1329] = "mutilate",
+[1943] = "rupture",
+[1247227] = "crimson tempest",
+[8676] = "ambush",
 },
 {
 [195457] = "grappling hook",
@@ -157,12 +163,12 @@ LiquidRemindersSaved = {
 [13750] = "adrenaline rush",
 [1214909] = "roll the bones",
 [2098] = "dispatch",
-[193315] = "sinister strike",
-[36554] = "shadowstep",
-[185763] = "pistol shot",
-[271877] = "blade rush",
-[1277933] = "preparation",
 [381989] = "keep it rolling",
+[1277933] = "preparation",
+[271877] = "blade rush",
+[185763] = "pistol shot",
+[36554] = "shadowstep",
+[193315] = "sinister strike",
 },
 {
 [36554] = "shadowstep",
@@ -173,10 +179,10 @@ LiquidRemindersSaved = {
 [185438] = "shadowstrike",
 [319175] = "black powder",
 [53] = "backstab",
-[197835] = "shuriken storm",
+[280719] = "secret technique",
 [185313] = "shadow dance",
 [426591] = "goremaw's bite",
-[280719] = "secret technique",
+[197835] = "shuriken storm",
 },
 [0] = {
 [2094] = "blind",
@@ -184,27 +190,27 @@ LiquidRemindersSaved = {
 [381623] = "thistle tea",
 [1766] = "kick",
 [57934] = "tricks of the trade",
-[56814] = "detection",
-[1856] = "vanish",
+[1804] = "pick lock",
+[31224] = "cloak of shadows",
 [1833] = "cheap shot",
 [6770] = "sap",
 [114018] = "shroud of concealment",
 [196819] = "eviscerate",
-[2983] = "sprint",
+[1725] = "distract",
 [1776] = "gouge",
-[315496] = "slice and dice",
-[8676] = "ambush",
-[921] = "pick pocket",
 [185311] = "crimson vial",
+[408] = "kidney shot",
+[921] = "pick pocket",
+[315496] = "slice and dice",
 [5938] = "shiv",
 [193315] = "sinister strike",
 [1966] = "feint",
 [1784] = "stealth",
-[408] = "kidney shot",
+[8676] = "ambush",
 [115191] = "stealth",
-[1725] = "distract",
-[31224] = "cloak of shadows",
-[1804] = "pick lock",
+[2983] = "sprint",
+[1856] = "vanish",
+[56814] = "detection",
 },
 },
 ["MAGE"] = {
@@ -227,24 +233,24 @@ LiquidRemindersSaved = {
 [153561] = "meteor",
 [235313] = "blazing barrier",
 [190319] = "combustion",
-[2948] = "scorch",
-[11366] = "pyroblast",
-[319836] = "fire blast",
 [2120] = "flamestrike",
+[11366] = "pyroblast",
+[2948] = "scorch",
+[319836] = "fire blast",
 },
 {
+[116] = "frostbolt",
+[319836] = "fire blast",
 [235219] = "cold snap",
-[31687] = "summon water elemental",
-[30455] = "ice lance",
 [190356] = "blizzard",
 [431044] = "frostfire bolt",
-[205021] = "ray of frost",
+[84714] = "frozen orb",
 [44614] = "flurry",
 [1248829] = "blizzard",
-[84714] = "frozen orb",
+[205021] = "ray of frost",
 [11426] = "ice barrier",
-[319836] = "fire blast",
-[116] = "frostbolt",
+[31687] = "summon water elemental",
+[30455] = "ice lance",
 },
 [0] = {
 [80353] = "time warp",
@@ -260,16 +266,20 @@ LiquidRemindersSaved = {
 [190336] = "conjure refreshment",
 [475] = "remove curse",
 [157980] = "supernova",
+[199786] = "glacial spike",
+[343127] = "teleport",
 [110959] = "greater invisibility",
 [55342] = "mirror image",
 [212653] = "shimmer",
 [130] = "slow fall",
+[319836] = "fire blast",
 [414658] = "ice cold",
+[343140] = "portal",
 [30449] = "spellsteal",
-[131784] = "illusion",
-[45438] = "ice block",
-[116] = "frostbolt",
 [31661] = "dragon's breath",
+[116] = "frostbolt",
+[45438] = "ice block",
+[131784] = "illusion",
 },
 },
 ["PRIEST"] = {
@@ -281,25 +291,26 @@ LiquidRemindersSaved = {
 [472433] = "evangelism",
 [17] = "power word: shield",
 [33206] = "pain suppression",
+[421453] = "ultimate penitence",
 [585] = "smite",
 [47540] = "penance",
-[527] = "purify",
+[589] = "shadow word: pain",
 [194509] = "power word: radiance",
-[421453] = "ultimate penitence",
+[527] = "purify",
 },
 {
 [14914] = "holy fire",
 [2050] = "holy word: serenity",
 [34861] = "holy word: sanctify",
-[33076] = "prayer of mending",
+[88625] = "holy word: chastise",
 [200183] = "apotheosis",
 [596] = "prayer of healing",
-[47788] = "guardian spirit",
+[212036] = "mass resurrection",
 [585] = "smite",
 [527] = "purify",
+[47788] = "guardian spirit",
 [64843] = "divine hymn",
-[212036] = "mass resurrection",
-[88625] = "holy word: chastise",
+[33076] = "prayer of mending",
 },
 {
 [211522] = "psyfiend",
@@ -309,6 +320,7 @@ LiquidRemindersSaved = {
 [34914] = "vampiric touch",
 [8092] = "mind blast",
 [15286] = "vampiric embrace",
+[589] = "shadow word: pain",
 [263165] = "void torrent",
 [15487] = "silence",
 [47585] = "dispersion",
@@ -329,178 +341,177 @@ LiquidRemindersSaved = {
 [10060] = "power infusion",
 [21562] = "power word: fortitude",
 [132157] = "holy nova",
-[585] = "smite",
+[120644] = "halo",
 [73325] = "leap of faith",
 [205364] = "dominate mind",
-[528] = "dispel magic",
-[121536] = "angelic feather",
-[453] = "mind soothe",
-[120517] = "halo",
-[586] = "fade",
-[213634] = "purify disease",
-[19236] = "desperate prayer",
-[32375] = "mass dispel",
 [9484] = "shackle undead",
-[120644] = "halo",
+[121536] = "angelic feather",
+[32375] = "mass dispel",
+[120517] = "halo",
+[19236] = "desperate prayer",
+[213634] = "purify disease",
+[586] = "fade",
+[453] = "mind soothe",
+[528] = "dispel magic",
+[585] = "smite",
 },
 },
-["PALADIN"] = {
+["SHAMAN"] = {
 {
-[85222] = "light of dawn",
-[275773] = "judgment",
-[35395] = "crusader strike",
-[20473] = "holy shock",
-[53563] = "beacon of light",
-[4987] = "cleanse",
-[114165] = "holy prism",
-[31821] = "aura mastery",
-[156910] = "beacon of faith",
-[31884] = "avenging wrath",
-[498] = "divine protection",
-[212056] = "absolution",
-[415091] = "shield of the righteous",
-[432459] = "holy bulwark",
-[433583] = "rite of adjuration",
-[2812] = "denounce",
-[433568] = "rite of sanctification",
-[200025] = "beacon of virtue",
-[216331] = "avenging crusader",
-[156322] = "eternal flame",
-[410126] = "searing glare",
-[375576] = "divine toll",
-[82326] = "holy light",
-},
-{
-[31935] = "avenger's shield",
-[53595] = "hammer of the righteous",
-[26573] = "consecration",
-[86659] = "guardian of ancient kings",
-[204019] = "blessed hammer",
-[31884] = "avenging wrath",
-[389539] = "sentinel",
-[96231] = "rebuke",
-[85673] = "word of glory",
-[213644] = "cleanse toxins",
-[53600] = "shield of the righteous",
-[204018] = "blessing of spellwarding",
-[31850] = "ardent defender",
-[275779] = "judgment",
+[61882] = "earthquake",
+[117014] = "elemental blast",
+[462757] = "thunderstrike ward",
+[8042] = "earth shock",
+[8004] = "healing surge",
+[318038] = "flametongue weapon",
+[114050] = "ascendance",
+[51505] = "lava burst",
+[462620] = "earthquake",
+[443454] = "ancestral swiftness",
+[73899] = "primal strike",
+[470057] = "voltaic blaze",
+[51490] = "thunderstorm",
+[191634] = "stormkeeper",
 },
 {
-[255937] = "wake of ashes",
-[383328] = "final verdict",
-[26573] = "consecration",
-[184575] = "blade of justice",
-[35395] = "crusader strike",
-[31884] = "avenging wrath",
-[343527] = "execution sentence",
-[403876] = "divine protection",
-[407480] = "templar strike",
-[85673] = "word of glory",
-[53600] = "shield of the righteous",
-[85256] = "templar's verdict",
-[375576] = "divine toll",
-[53385] = "divine storm",
+[197214] = "sundering",
+[384352] = "doom winds",
+[470411] = "flame shock",
+[17364] = "stormstrike",
+[318038] = "flametongue weapon",
+[8004] = "healing surge",
+[114051] = "ascendance",
+[444995] = "surging totem",
+[187874] = "crash lightning",
+[60103] = "lava lash",
+[470057] = "voltaic blaze",
+[33757] = "windfury weapon",
+[196884] = "feral lunge",
+},
+{
+[114052] = "ascendance",
+[444995] = "surging totem",
+[457481] = "tidecaller's guard",
+[443454] = "ancestral swiftness",
+[73685] = "unleash life",
+[77130] = "purify spirit",
+[212048] = "ancestral vision",
+[61295] = "riptide",
+[470411] = "flame shock",
+[73920] = "healing rain",
+[77472] = "healing wave",
+[98008] = "spirit link totem",
+[73899] = "primal strike",
+[51505] = "lava burst",
+[108280] = "healing tide totem",
+[52127] = "water shield",
+[382021] = "earthliving weapon",
 },
 [0] = {
-[190784] = "divine steed",
-[391054] = "intercession",
-[275773] = "judgment",
-[1022] = "blessing of protection",
-[465] = "devotion aura",
-[20473] = "holy shock",
-[853] = "hammer of justice",
-[32223] = "crusader aura",
-[115750] = "blinding light",
-[7328] = "redemption",
-[53600] = "shield of the righteous",
-[121183] = "contemplation",
-[19750] = "flash of light",
-[642] = "divine shield",
-[633] = "lay on hands",
-[317920] = "concentration aura",
-[85673] = "word of glory",
-[26573] = "consecration",
-[62124] = "hand of reckoning",
-[5502] = "sense undead",
-[471195] = "lay on hands",
-[275779] = "judgment",
-[1044] = "blessing of freedom",
-[6940] = "blessing of sacrifice",
+[79206] = "spiritwalker's grace",
+[2008] = "ancestral spirit",
+[974] = "earth shield",
+[556] = "astral recall",
+[192063] = "gust of wind",
+[378081] = "nature's swiftness",
+[57994] = "wind shear",
+[51485] = "earthgrab totem",
+[108271] = "astral shift",
+[6196] = "far sight",
+[5394] = "healing stream totem",
+[2825] = "bloodlust",
+[8004] = "healing surge",
+[51886] = "cleanse spirit",
+[2645] = "ghost wolf",
+[370] = "purge",
+[108287] = "totemic projection",
+[462854] = "skyfury",
+[1064] = "chain heal",
+[58875] = "spirit walk",
+[32182] = "heroism",
+[198103] = "earth elemental",
+[470411] = "flame shock",
+[192077] = "wind rush totem",
+[2484] = "earthbind totem",
+[192106] = "lightning shield",
+[192058] = "capacitor totem",
+[73899] = "primal strike",
+[546] = "water walking",
+[188443] = "chain lightning",
+[188196] = "lightning bolt",
 },
 },
-["MONK"] = {
+["EVOKER"] = {
 {
-[116847] = "rushing jade wind",
-[218164] = "detox",
-[322507] = "celestial brew",
-[123986] = "chi burst",
-[119582] = "purifying brew",
-[322729] = "spinning crane kick",
-[115399] = "black ox brew",
-[116705] = "spear hand strike",
-[115181] = "breath of fire",
-[121253] = "keg smash",
-[1241059] = "celestial infusion",
-[325153] = "exploding keg",
-[115315] = "summon black ox statue",
-[322101] = "expel harm",
-[132578] = "invoke niuzao, the black ox",
-},
-{
-[115294] = "mana tea",
-[322118] = "invoke yu'lon, the jade serpent",
-[107428] = "rising sun kick",
-[467307] = "rushing wind kick",
-[115151] = "renewing mist",
-[115310] = "revival",
-[212051] = "reawaken",
-[116680] = "thunder focus tea",
-[443028] = "celestial conduit",
-[124682] = "enveloping mist",
-[115450] = "detox",
-[116849] = "life cocoon",
-[399491] = "sheilun's gift",
-[115313] = "summon jade serpent statue",
-[325197] = "invoke chi-ji, the red crane",
-[322101] = "expel harm",
-[388615] = "restoral",
+[351338] = "quell",
+[357211] = "pyre",
+[357210] = "deep breath",
+[356995] = "disintegrate",
+[359073] = "eternity surge",
+[375087] = "dragonrage",
+[382411] = "eternity surge",
+[383005] = "chrono loop",
 },
 {
-[107428] = "rising sun kick",
-[152175] = "whirling dragon punch",
-[1217413] = "slicing winds",
-[218164] = "detox",
-[123904] = "invoke xuen, the white tiger",
-[116705] = "spear hand strike",
-[392983] = "strike of the windlord",
-[1229376] = "single-button assistant",
-[1249625] = "zenith",
-[101545] = "flying serpent kick",
-[122470] = "touch of karma",
-[113656] = "fists of fury",
+[356995] = "disintegrate",
+[370537] = "stasis",
+[359816] = "dream flight",
+[357210] = "deep breath",
+[361178] = "mass return",
+[364343] = "echo",
+[355936] = "dream breath",
+[366155] = "reversion",
+[363534] = "rewind",
+[360823] = "naturalize",
+[373861] = "temporal anomaly",
+[357170] = "time dilation",
+[382614] = "dream breath",
+},
+{
+[404977] = "time skip",
+[408233] = "bestow weyrnstone",
+[395152] = "ebon might",
+[403631] = "breath of eons",
+[395160] = "eruption",
+[403264] = "black attunement",
+[351338] = "quell",
+[360827] = "blistering scales",
+[361021] = "sense power",
+[403265] = "bronze attunement",
+[412710] = "timelessness",
+[396286] = "upheaval",
+[408092] = "upheaval",
+[409311] = "prescience",
+[442204] = "breath of eons",
 },
 [0] = {
-[322109] = "touch of death",
-[100784] = "blackout kick",
-[116844] = "ring of peace",
-[115203] = "fortifying brew",
-[126892] = "zen pilgrimage",
-[115178] = "resuscitate",
-[116670] = "vivify",
-[101546] = "spinning crane kick",
-[125883] = "zen flight",
-[101643] = "transcendence",
-[116095] = "disable",
-[116841] = "tiger's lust",
-[115078] = "paralysis",
-[115175] = "soothing mist",
-[109132] = "roll",
-[115546] = "provoke",
-[119996] = "transcendence: transfer",
-[117952] = "crackling jade lightning",
-[100780] = "tiger palm",
-[119381] = "leg sweep",
+[374251] = "cauterizing flame",
+[406732] = "spatial paradox",
+[357210] = "deep breath",
+[382266] = "fire breath",
+[362969] = "azure strike",
+[370665] = "rescue",
+[433874] = "deep breath",
+[364342] = "blessing of the bronze",
+[356995] = "disintegrate",
+[363916] = "obsidian scales",
+[361227] = "return",
+[374968] = "time spiral",
+[358267] = "hover",
+[368970] = "tail swipe",
+[431443] = "chrono flames",
+[365585] = "expunge",
+[369459] = "source of magic",
+[361469] = "living flame",
+[372048] = "oppressing roar",
+[358385] = "landslide",
+[355913] = "emerald blossom",
+[370553] = "tip the scales",
+[390386] = "fury of the aspects",
+[374227] = "zephyr",
+[406971] = "oppressing roar",
+[357208] = "fire breath",
+[360995] = "verdant embrace",
 },
 },
 ["WARLOCK"] = {
@@ -510,42 +521,43 @@ LiquidRemindersSaved = {
 [1259790] = "unstable affliction",
 [172] = "corruption",
 [686] = "shadow bolt",
-[205180] = "summon darkglare",
+[442726] = "malevolence",
 [27243] = "seed of corruption",
 [1257052] = "dark harvest",
-[442726] = "malevolence",
+[205180] = "summon darkglare",
 },
 {
 [434635] = "ruination",
 [1276467] = "grimoire: fel ravager",
 [196277] = "implosion",
 [132409] = "spell lock",
-[686] = "shadow bolt",
+[1276452] = "grimoire: imp lord",
 [172] = "corruption",
-[104316] = "call dreadstalkers",
+[686] = "shadow bolt",
 [264130] = "power siphon",
-[264178] = "demonbolt",
 [105174] = "hand of gul'dan",
+[264178] = "demonbolt",
 [265187] = "summon demonic tyrant",
 [1276672] = "summon doomguard",
-[1276452] = "grimoire: imp lord",
+[104316] = "call dreadstalkers",
 },
 {
 [196447] = "channel demonfire",
-[1122] = "summon infernal",
-[1214467] = "rain of fire",
+[17962] = "conflagrate",
+[200546] = "bane of havoc",
+[29722] = "incinerate",
 [17877] = "shadowburn",
-[152108] = "cataclysm",
-[5740] = "rain of fire",
-[6353] = "soul fire",
 [80240] = "havoc",
 [442726] = "malevolence",
-[108503] = "grimoire of sacrifice",
+[6353] = "soul fire",
+[152108] = "cataclysm",
+[5740] = "rain of fire",
 [116858] = "chaos bolt",
+[108503] = "grimoire of sacrifice",
 [445468] = "wither",
 [348] = "immolate",
-[29722] = "incinerate",
-[17962] = "conflagrate",
+[1214467] = "rain of fire",
+[1122] = "summon infernal",
 },
 [0] = {
 [698] = "ritual of summoning",
@@ -572,15 +584,16 @@ LiquidRemindersSaved = {
 [172] = "corruption",
 [1714] = "curse of tongues",
 [334275] = "curse of exhaustion",
-[5697] = "unending breath",
-[126] = "eye of kilrogg",
+[119907] = "shadow bulwark",
+[119898] = "command demon",
+[30283] = "shadowfury",
 [686] = "shadow bolt",
 [104773] = "unending resolve",
 [48018] = "demonic circle",
 [48020] = "demonic circle: teleport",
 [111400] = "burning rush",
-[30283] = "shadowfury",
-[119898] = "command demon",
+[126] = "eye of kilrogg",
+[5697] = "unending breath",
 },
 },
 ["DEMONHUNTER"] = {
@@ -590,14 +603,14 @@ LiquidRemindersSaved = {
 [198013] = "eye beam",
 [370965] = "the hunt",
 [198589] = "blur",
+[179057] = "chaos nova",
+[258860] = "essence break",
 [191427] = "metamorphosis",
+[162794] = "chaos strike",
+[232893] = "felblade",
+[162243] = "demon's bite",
 [258920] = "immolation aura",
 [195072] = "fel rush",
-[162794] = "chaos strike",
-[162243] = "demon's bite",
-[232893] = "felblade",
-[258860] = "essence break",
-[179057] = "chaos nova",
 },
 {
 [187827] = "metamorphosis",
@@ -609,15 +622,15 @@ LiquidRemindersSaved = {
 [204596] = "sigil of flame",
 [258920] = "immolation aura",
 [247454] = "spirit bomb",
-[202137] = "sigil of silence",
-[179057] = "chaos nova",
-[202138] = "sigil of chains",
-[232893] = "felblade",
-[212084] = "fel devastation",
-[207407] = "soul carver",
-[188501] = "spectral sight",
-[263642] = "fracture",
 [204021] = "fiery brand",
+[179057] = "chaos nova",
+[263642] = "fracture",
+[188501] = "spectral sight",
+[212084] = "fel devastation",
+[202137] = "sigil of silence",
+[232893] = "felblade",
+[207407] = "soul carver",
+[202138] = "sigil of chains",
 },
 {
 [1226019] = "reap",
@@ -625,12 +638,12 @@ LiquidRemindersSaved = {
 [1234796] = "shift",
 [1251417] = "spectral sight",
 [198589] = "blur",
-[1246167] = "the hunt",
+[473662] = "consume",
 [1234195] = "void nova",
 [473728] = "void ray",
 [1241937] = "soul immolation",
 [1245412] = "voidblade",
-[473662] = "consume",
+[1246167] = "the hunt",
 },
 [0] = {
 [131347] = "glide",
@@ -638,15 +651,15 @@ LiquidRemindersSaved = {
 [188501] = "spectral sight",
 [198793] = "vengeful retreat",
 [217832] = "imprison",
-[204157] = "throw glaive",
+[183752] = "disrupt",
 [185123] = "throw glaive",
 [185245] = "torment",
 [191427] = "metamorphosis",
 [187827] = "metamorphosis",
-[278326] = "consume magic",
 [196718] = "darkness",
+[278326] = "consume magic",
 [258920] = "immolation aura",
-[183752] = "disrupt",
+[204157] = "throw glaive",
 },
 },
 ["HUNTER"] = {
@@ -656,8 +669,8 @@ LiquidRemindersSaved = {
 [185358] = "arcane shot",
 [321297] = "eyes of the beast",
 [19577] = "intimidation",
-[1264359] = "wild thrash",
 [19574] = "bestial wrath",
+[1264359] = "wild thrash",
 },
 {
 [466904] = "harrier's cry",
@@ -669,8 +682,8 @@ LiquidRemindersSaved = {
 [474421] = "intimidation",
 [288613] = "trueshot",
 [185358] = "arcane shot",
-[6197] = "eagle eye",
 [257620] = "multi-shot",
+[6197] = "eagle eye",
 },
 {
 [1261193] = "boomstick",
@@ -678,38 +691,41 @@ LiquidRemindersSaved = {
 [186289] = "aspect of the eagle",
 [321297] = "eyes of the beast",
 [259495] = "wildfire bomb",
-[19577] = "intimidation",
-[193265] = "hatchet toss",
+[1251592] = "flamefang pitch",
+[190925] = "harpoon",
 [56641] = "steady shot",
 [1250646] = "takedown",
-[190925] = "harpoon",
-[1251592] = "flamefang pitch",
+[193265] = "hatchet toss",
+[19577] = "intimidation",
 },
 [0] = {
 [187707] = "muzzle",
 [34026] = "kill command",
 [83244] = "call pet 4",
+[185358] = "arcane shot",
+[209997] = "play dead",
 [187650] = "freezing trap",
+[125050] = "fetch",
 [257284] = "hunter's mark",
 [259489] = "kill command",
 [109304] = "exhilaration",
+[83245] = "call pet 5",
+[272651] = "command pet",
 [109248] = "binding shot",
-[147362] = "counter shot",
-[195645] = "wing clip",
 [56641] = "steady shot",
 [83243] = "call pet 3",
 [781] = "disengage",
-[34477] = "misdirection",
-[19801] = "tranquilizing shot",
-[1543] = "flare",
-[5384] = "feign death",
-[186257] = "aspect of the cheetah",
-[185358] = "arcane shot",
-[466930] = "black arrow",
-[264735] = "survival of the fittest",
 [186265] = "aspect of the turtle",
-[272651] = "command pet",
-[83245] = "call pet 5",
+[264735] = "survival of the fittest",
+[466930] = "black arrow",
+[5384] = "feign death",
+[272678] = "primal rage",
+[186257] = "aspect of the cheetah",
+[1543] = "flare",
+[19801] = "tranquilizing shot",
+[34477] = "misdirection",
+[195645] = "wing clip",
+[147362] = "counter shot",
 },
 },
 ["DRUID"] = {
@@ -718,27 +734,27 @@ LiquidRemindersSaved = {
 [78675] = "solar beam",
 [202770] = "fury of elune",
 [190984] = "wrath",
+[391528] = "convoke the spirits",
 [102560] = "incarnation: chosen of elune",
-[1233346] = "solar eclipse",
 [1233272] = "lunar eclipse",
 [88747] = "wild mushroom",
 [390414] = "incarnation: chosen of elune",
 [205636] = "force of nature",
 [194223] = "celestial alignment",
 [274281] = "new moon",
-[391528] = "convoke the spirits",
+[1233346] = "solar eclipse",
 },
 {
 [1244258] = "chomp",
 [274837] = "feral frenzy",
 [106951] = "berserk",
 [102543] = "incarnation: avatar of ashamane",
-[285381] = "primal wrath",
+[106839] = "skull bash",
 [5217] = "tiger's fury",
 [391528] = "convoke the spirits",
-[61336] = "survival instincts",
 [1243807] = "frantic frenzy",
-[106839] = "skull bash",
+[285381] = "primal wrath",
+[61336] = "survival instincts",
 },
 {
 [1253799] = "sundering roar",
@@ -749,9 +765,9 @@ LiquidRemindersSaved = {
 [204066] = "lunar beam",
 [6807] = "maul",
 [391528] = "convoke the spirits",
-[61336] = "survival instincts",
-[400254] = "raze",
 [106839] = "skull bash",
+[400254] = "raze",
+[61336] = "survival instincts",
 },
 {
 [102342] = "ironbark",
@@ -759,11 +775,11 @@ LiquidRemindersSaved = {
 [212040] = "revitalize",
 [740] = "tranquility",
 [132158] = "nature's swiftness",
-[145205] = "efflorescence",
+[33891] = "incarnation: tree of life",
 [391528] = "convoke the spirits",
 [33763] = "lifebloom",
+[145205] = "efflorescence",
 [18562] = "swiftmend",
-[33891] = "incarnation: tree of life",
 },
 [0] = {
 [22568] = "ferocious bite",
@@ -779,228 +795,958 @@ LiquidRemindersSaved = {
 [50769] = "revive",
 [16979] = "wild charge",
 [194153] = "starfire",
+[197626] = "starsurge",
 [24858] = "moonkin form",
 [210053] = "mount form",
+[8921] = "moonfire",
 [8936] = "regrowth",
-[106898] = "stampeding roar",
+[252216] = "tiger dash",
 [132469] = "typhoon",
 [2637] = "hibernate",
-[20484] = "rebirth",
-[114282] = "treant form",
+[22842] = "frenzied regeneration",
+[774] = "rejuvenation",
 [1126] = "mark of the wild",
 [102401] = "wild charge",
 [33917] = "mangle",
-[193753] = "dreamwalk",
+[1850] = "dash",
 [768] = "cat form",
-[77764] = "stampeding roar",
-[774] = "rejuvenation",
-[78674] = "starsurge",
 [190984] = "wrath",
+[197628] = "starfire",
+[106898] = "stampeding roar",
+[106785] = "swipe",
 [48438] = "wild growth",
 [213764] = "swipe",
-[2782] = "remove corruption",
+[2908] = "soothe",
 [5176] = "wrath",
-[29166] = "innervate",
-[49376] = "wild charge",
 [77761] = "stampeding roar",
-[99] = "incapacitating roar",
+[49376] = "wild charge",
+[29166] = "innervate",
+[1079] = "rip",
 [5215] = "prowl",
 [339] = "entangling roots",
 [1261867] = "heart of the wild",
-[1079] = "rip",
+[99] = "incapacitating roar",
 [164862] = "flap",
 [102359] = "mass entanglement",
-[2908] = "soothe",
+[2782] = "remove corruption",
 [22812] = "barkskin",
 [474750] = "symbiotic relationship",
-[106785] = "swipe",
-[8921] = "moonfire",
+[114282] = "treant form",
+[20484] = "rebirth",
 [102383] = "wild charge",
-[1850] = "dash",
+[78674] = "starsurge",
 [77758] = "thrash",
-[22842] = "frenzied regeneration",
-[252216] = "tiger dash",
+[77764] = "stampeding roar",
+[193753] = "dreamwalk",
 },
 },
-["EVOKER"] = {
+["MONK"] = {
 {
-[357210] = "deep breath",
-[382411] = "eternity surge",
-[383005] = "chrono loop",
-[356995] = "disintegrate",
-[359073] = "eternity surge",
-[375087] = "dragonrage",
-[357211] = "pyre",
-[351338] = "quell",
-},
-{
-[356995] = "disintegrate",
-[370537] = "stasis",
-[359816] = "dream flight",
-[357210] = "deep breath",
-[361178] = "mass return",
-[363534] = "rewind",
-[355936] = "dream breath",
-[366155] = "reversion",
-[382614] = "dream breath",
-[360823] = "naturalize",
-[357170] = "time dilation",
-[373861] = "temporal anomaly",
-[364343] = "echo",
+[116847] = "rushing jade wind",
+[132578] = "invoke niuzao, the black ox",
+[322507] = "celestial brew",
+[322101] = "expel harm",
+[119582] = "purifying brew",
+[218164] = "detox",
+[115399] = "black ox brew",
+[116705] = "spear hand strike",
+[115181] = "breath of fire",
+[1241059] = "celestial infusion",
+[121253] = "keg smash",
+[325153] = "exploding keg",
+[115315] = "summon black ox statue",
+[123986] = "chi burst",
+[322729] = "spinning crane kick",
 },
 {
-[403264] = "black attunement",
-[351338] = "quell",
-[395152] = "ebon might",
-[403631] = "breath of eons",
-[395160] = "eruption",
-[442204] = "breath of eons",
-[408233] = "bestow weyrnstone",
-[408092] = "upheaval",
-[361021] = "sense power",
-[403265] = "bronze attunement",
-[396286] = "upheaval",
-[412710] = "timelessness",
-[360827] = "blistering scales",
-[409311] = "prescience",
-[404977] = "time skip",
+[115294] = "mana tea",
+[322118] = "invoke yu'lon, the jade serpent",
+[107428] = "rising sun kick",
+[467307] = "rushing wind kick",
+[115151] = "renewing mist",
+[115310] = "revival",
+[212051] = "reawaken",
+[116680] = "thunder focus tea",
+[443028] = "celestial conduit",
+[124682] = "enveloping mist",
+[115450] = "detox",
+[116849] = "life cocoon",
+[399491] = "sheilun's gift",
+[115313] = "summon jade serpent statue",
+[388615] = "restoral",
+[322101] = "expel harm",
+[325197] = "invoke chi-ji, the red crane",
+},
+{
+[107428] = "rising sun kick",
+[152175] = "whirling dragon punch",
+[1217413] = "slicing winds",
+[218164] = "detox",
+[123904] = "invoke xuen, the white tiger",
+[116705] = "spear hand strike",
+[113656] = "fists of fury",
+[122470] = "touch of karma",
+[392983] = "strike of the windlord",
+[1229376] = "single-button assistant",
+[101545] = "flying serpent kick",
+[1249625] = "zenith",
 },
 [0] = {
-[374251] = "cauterizing flame",
-[406732] = "spatial paradox",
-[357210] = "deep breath",
-[382266] = "fire breath",
-[362969] = "azure strike",
-[370665] = "rescue",
-[358267] = "hover",
-[356995] = "disintegrate",
-[363916] = "obsidian scales",
-[361227] = "return",
-[374968] = "time spiral",
-[360995] = "verdant embrace",
-[368970] = "tail swipe",
-[431443] = "chrono flames",
-[374227] = "zephyr",
-[369459] = "source of magic",
-[361469] = "living flame",
-[372048] = "oppressing roar",
-[358385] = "landslide",
-[355913] = "emerald blossom",
-[370553] = "tip the scales",
-[406971] = "oppressing roar",
-[357208] = "fire breath",
-[390386] = "fury of the aspects",
-[365585] = "expunge",
-[364342] = "blessing of the bronze",
+[322109] = "touch of death",
+[100784] = "blackout kick",
+[116844] = "ring of peace",
+[115203] = "fortifying brew",
+[126892] = "zen pilgrimage",
+[115178] = "resuscitate",
+[116670] = "vivify",
+[101546] = "spinning crane kick",
+[125883] = "zen flight",
+[101643] = "transcendence",
+[116095] = "disable",
+[116841] = "tiger's lust",
+[115078] = "paralysis",
+[115175] = "soothing mist",
+[109132] = "roll",
+[205523] = "blackout kick",
+[322729] = "spinning crane kick",
+[322101] = "expel harm",
+[119381] = "leg sweep",
+[119996] = "transcendence: transfer",
+[117952] = "crackling jade lightning",
+[100780] = "tiger palm",
+[115546] = "provoke",
 },
 },
-["SHAMAN"] = {
+["PALADIN"] = {
 {
-[61882] = "earthquake",
-[117014] = "elemental blast",
-[462757] = "thunderstrike ward",
-[318038] = "flametongue weapon",
-[191634] = "stormkeeper",
-[51490] = "thunderstorm",
-[114050] = "ascendance",
-[51505] = "lava burst",
-[462620] = "earthquake",
-[443454] = "ancestral swiftness",
-[73899] = "primal strike",
-[470057] = "voltaic blaze",
-[8004] = "healing surge",
-[8042] = "earth shock",
-},
-{
-[197214] = "sundering",
-[384352] = "doom winds",
-[470411] = "flame shock",
-[196884] = "feral lunge",
-[318038] = "flametongue weapon",
-[8004] = "healing surge",
-[114051] = "ascendance",
-[444995] = "surging totem",
-[187874] = "crash lightning",
-[33757] = "windfury weapon",
-[470057] = "voltaic blaze",
-[60103] = "lava lash",
-[17364] = "stormstrike",
+[85222] = "light of dawn",
+[275773] = "judgment",
+[35395] = "crusader strike",
+[20473] = "holy shock",
+[53563] = "beacon of light",
+[4987] = "cleanse",
+[114165] = "holy prism",
+[31821] = "aura mastery",
+[156910] = "beacon of faith",
+[31884] = "avenging wrath",
+[498] = "divine protection",
+[212056] = "absolution",
+[415091] = "shield of the righteous",
+[432459] = "holy bulwark",
+[433583] = "rite of adjuration",
+[82326] = "holy light",
+[433568] = "rite of sanctification",
+[216331] = "avenging crusader",
+[200025] = "beacon of virtue",
+[410126] = "searing glare",
+[156322] = "eternal flame",
+[375576] = "divine toll",
+[2812] = "denounce",
 },
 {
-[114052] = "ascendance",
-[444995] = "surging totem",
-[457481] = "tidecaller's guard",
-[443454] = "ancestral swiftness",
-[73685] = "unleash life",
-[77130] = "purify spirit",
-[212048] = "ancestral vision",
-[61295] = "riptide",
-[470411] = "flame shock",
-[382021] = "earthliving weapon",
-[77472] = "healing wave",
-[98008] = "spirit link totem",
-[51505] = "lava burst",
-[73899] = "primal strike",
-[108280] = "healing tide totem",
-[52127] = "water shield",
-[73920] = "healing rain",
+[96231] = "rebuke",
+[31850] = "ardent defender",
+[204018] = "blessing of spellwarding",
+[31884] = "avenging wrath",
+[53600] = "shield of the righteous",
+[204019] = "blessed hammer",
+[389539] = "sentinel",
+[86659] = "guardian of ancient kings",
+[31935] = "avenger's shield",
+[433568] = "rite of sanctification",
+[85673] = "word of glory",
+[53595] = "hammer of the righteous",
+[26573] = "consecration",
+[432459] = "holy bulwark",
+[275779] = "judgment",
+[375576] = "divine toll",
+[213644] = "cleanse toxins",
+},
+{
+[96231] = "rebuke",
+[35395] = "crusader strike",
+[31884] = "avenging wrath",
+[53600] = "shield of the righteous",
+[53385] = "divine storm",
+[85256] = "templar's verdict",
+[407480] = "templar strike",
+[156322] = "eternal flame",
+[213644] = "cleanse toxins",
+[184575] = "blade of justice",
+[85673] = "word of glory",
+[255937] = "wake of ashes",
+[383328] = "final verdict",
+[26573] = "consecration",
+[343527] = "execution sentence",
+[375576] = "divine toll",
+[403876] = "divine protection",
 },
 [0] = {
-[79206] = "spiritwalker's grace",
-[2008] = "ancestral spirit",
-[974] = "earth shield",
-[556] = "astral recall",
-[192063] = "gust of wind",
-[378081] = "nature's swiftness",
-[57994] = "wind shear",
-[51485] = "earthgrab totem",
-[108271] = "astral shift",
-[6196] = "far sight",
-[5394] = "healing stream totem",
-[2825] = "bloodlust",
-[188196] = "lightning bolt",
-[2645] = "ghost wolf",
-[188443] = "chain lightning",
-[108287] = "totemic projection",
-[546] = "water walking",
-[1064] = "chain heal",
-[58875] = "spirit walk",
-[73899] = "primal strike",
-[192058] = "capacitor totem",
-[470411] = "flame shock",
-[192077] = "wind rush totem",
-[192106] = "lightning shield",
-[2484] = "earthbind totem",
-[198103] = "earth elemental",
-[8004] = "healing surge",
-[462854] = "skyfury",
-[370] = "purge",
-[51886] = "cleanse spirit",
+[190784] = "divine steed",
+[391054] = "intercession",
+[275773] = "judgment",
+[1022] = "blessing of protection",
+[465] = "devotion aura",
+[20473] = "holy shock",
+[853] = "hammer of justice",
+[32223] = "crusader aura",
+[115750] = "blinding light",
+[7328] = "redemption",
+[53600] = "shield of the righteous",
+[121183] = "contemplation",
+[20271] = "judgment",
+[19750] = "flash of light",
+[35395] = "crusader strike",
+[642] = "divine shield",
+[6940] = "blessing of sacrifice",
+[317920] = "concentration aura",
+[26573] = "consecration",
+[85673] = "word of glory",
+[62124] = "hand of reckoning",
+[5502] = "sense undead",
+[471195] = "lay on hands",
+[275779] = "judgment",
+[1044] = "blessing of freedom",
+[633] = "lay on hands",
 },
 },
 },
 },
 ["groupInfo"] = {
-["Player-1598-0F08F91C"] = {
+["Player-1305-0D3ACAFE"] = {
 ["connected"] = true,
 ["group"] = 1,
-["class"] = "DRUID",
-["classColorStr"] = "ffff7c0a",
+["class"] = "HUNTER",
+["classColorStr"] = "ffaad372",
 ["classColor"] = {
-["r"] = 1,
-["g"] = 0.4862745404243469,
-["b"] = 0.03921568766236305,
+["b"] = 0.4470588564872742,
+["g"] = 0.8274510502815247,
+["r"] = 0.6666666865348816,
 },
 ["role"] = "DAMAGER",
-["name"] = "Tradushuffle",
-["specName"] = "Balance",
-["specIndex"] = 1,
-["specID"] = 102,
-["specIcon"] = 136096,
+["name"] = "Spearshuffle",
+["specName"] = "Marksmanship",
 ["position"] = "RANGED",
+["specID"] = 254,
+["specIcon"] = 236179,
+["specIndex"] = 2,
 },
 },
 ["toc"] = 120000,
+["LiquidUI"] = {
+["frameSettings"] = {
+},
+["spellDescriptionCache"] = {
+[1220618] = {
+["time"] = 1769178935,
+["description"] = "The Plexus Sentinel relocates, pushing players away and activating the |cffffffffArcanomatrix Atomizer|r. The Atomizer slowly passes over the chamber, Atomizing any players  it contacts.\r\n\r\nAfter relocating, The Plexus Sentinel begins channelling |cffffffffProtocol: Purge|r and gains a shield that absorbs damage. Breaking this shield interrupts |cffffffffProtocol: Purge|r.",
+},
+[1219263] = {
+["time"] = 1769178935,
+["description"] = "The Plexus Sentinel marks its current target, then fires an arcane charge that inflicts 82,131 Arcane damage to players within 10 yards, and 54,754 Arcane damage to all other players. Players farther from the target receive less damage. This explosion leaves behind |cffffffffPotent Mana Residue|r.\r\n\r\nThe impact causes the primary target to take 1,000% damage from |cffffffffObliteration Arcanocannon|r for 45 sec.",
+},
+[1219450] = {
+["time"] = 1769178935,
+["description"] = "The Plexus Sentinel fires Arcane energy into players, inflicting 7,666 Arcane damage every 1 sec for 6 sec. Upon expiration, a |cffffffffDisplacement Matrix|r is created. ",
+},
+[1219531] = {
+["time"] = 1769178935,
+["description"] = "The Plexus Sentinel targets a player to be purged, firing a missile inflicting 131,410 Arcane damage split evenly between players within 6 yards.",
+},
+},
+},
+["internalVersion"] = 27,
+["reminders"] = {
+[3177] = {
+{
+["Default profile"] = {
+["options"] = {
+},
+["reminders"] = {
+},
+},
+},
+{
+["Default profile"] = {
+["options"] = {
+},
+["reminders"] = {
+},
+},
+},
+},
+[3179] = {
+{
+["Default profile"] = {
+["options"] = {
+},
+["reminders"] = {
+},
+},
+},
+{
+["Default profile"] = {
+["options"] = {
+},
+["reminders"] = {
+},
+},
+},
+},
+[3181] = {
+{
+["Default profile"] = {
+["options"] = {
+},
+["reminders"] = {
+},
+},
+},
+{
+["Default profile"] = {
+["options"] = {
+},
+["reminders"] = {
+},
+},
+},
+},
+[3183] = {
+{
+["Default profile"] = {
+["options"] = {
+},
+["reminders"] = {
+},
+},
+},
+{
+["Default profile"] = {
+["options"] = {
+},
+["reminders"] = {
+},
+},
+},
+},
+[3129] = {
+{
+["Default profile"] = {
+["options"] = {
+},
+["reminders"] = {
+},
+},
+},
+{
+["Default profile"] = {
+["options"] = {
+},
+["reminders"] = {
+},
+},
+},
+},
+[3131] = {
+{
+["Default profile"] = {
+["options"] = {
+},
+["reminders"] = {
+},
+},
+},
+{
+["Default profile"] = {
+["options"] = {
+},
+["reminders"] = {
+},
+},
+},
+},
+[3133] = {
+{
+["Default profile"] = {
+["options"] = {
+},
+["reminders"] = {
+},
+},
+},
+{
+["Default profile"] = {
+["options"] = {
+},
+["reminders"] = {
+},
+},
+},
+},
+[3135] = {
+{
+["Default profile"] = {
+["options"] = {
+},
+["reminders"] = {
+},
+},
+},
+{
+["Default profile"] = {
+["options"] = {
+},
+["reminders"] = {
+},
+},
+},
+},
+[3176] = {
+{
+["Default profile"] = {
+["options"] = {
+},
+["reminders"] = {
+},
+},
+},
+{
+["Default profile"] = {
+["options"] = {
+},
+["reminders"] = {
+},
+},
+},
+},
+[3178] = {
+{
+["Default profile"] = {
+["options"] = {
+},
+["reminders"] = {
+},
+},
+},
+{
+["Default profile"] = {
+["options"] = {
+},
+["reminders"] = {
+},
+},
+},
+},
+[3180] = {
+{
+["Default profile"] = {
+["options"] = {
+},
+["reminders"] = {
+},
+},
+},
+{
+["Default profile"] = {
+["options"] = {
+},
+["reminders"] = {
+},
+},
+},
+},
+[3306] = {
+{
+["Default profile"] = {
+["options"] = {
+},
+["reminders"] = {
+},
+},
+},
+{
+["Default profile"] = {
+["options"] = {
+},
+["reminders"] = {
+},
+},
+},
+},
+[3122] = {
+{
+["Default profile"] = {
+["options"] = {
+},
+["reminders"] = {
+},
+},
+},
+{
+["Default profile"] = {
+["options"] = {
+},
+["reminders"] = {
+},
+},
+},
+},
+[3130] = {
+{
+["Default profile"] = {
+["options"] = {
+},
+["reminders"] = {
+},
+},
+},
+{
+["Default profile"] = {
+["options"] = {
+},
+["reminders"] = {
+},
+},
+},
+},
+[3132] = {
+{
+["Default profile"] = {
+["options"] = {
+},
+["reminders"] = {
+},
+},
+},
+{
+["Default profile"] = {
+["options"] = {
+},
+["reminders"] = {
+},
+},
+},
+},
+[3134] = {
+{
+["Default profile"] = {
+["options"] = {
+},
+["reminders"] = {
+},
+},
+},
+{
+["Default profile"] = {
+["options"] = {
+},
+["reminders"] = {
+},
+},
+},
+},
+[3182] = {
+{
+["Default profile"] = {
+["options"] = {
+},
+["reminders"] = {
+},
+},
+},
+{
+["Default profile"] = {
+["options"] = {
+},
+["reminders"] = {
+},
+},
+},
+},
+},
+["settings"] = {
+["showMinimapIcon"] = true,
+["showAnchorHelp"] = true,
+["groupMode"] = {
+["showTanks"] = true,
+["showTextReminders"] = true,
+["showDPS"] = true,
+["playerFilter"] = {
+["DEATHKNIGHT"] = {
+},
+["WARRIOR"] = {
+},
+["ROGUE"] = {
+},
+["MAGE"] = {
+},
+["PRIEST"] = {
+},
+["HUNTER"] = {
+},
+["EVOKER"] = {
+},
+["WARLOCK"] = {
+},
+["DEMONHUNTER"] = {
+},
+["SHAMAN"] = {
+},
+["DRUID"] = {
+},
+["MONK"] = {
+},
+["PALADIN"] = {
+},
+},
+["showOfflinePlayers"] = false,
+["showHealers"] = true,
+["showFilterHelp"] = true,
+["spellFilter"] = {
+},
+["allowBroadcast"] = true,
+["alwaysShowOwn"] = false,
+["multiTrack"] = false,
+},
+["timeline"] = {
+["selectedInstanceType"] = 1,
+["ignoreNoteInDungeon"] = false,
+["selectedEncounter"] = 1,
+["lockReminderButtons"] = false,
+["trackVisibility"] = {
+[3177] = {
+[1256855] = true,
+[1241686] = true,
+[1258967] = true,
+[1276824] = true,
+[1254199] = true,
+[1241768] = true,
+[1260052] = true,
+},
+[3179] = {
+[1253032] = true,
+[1246175] = true,
+[1254081] = true,
+[1248697] = true,
+[1250686] = true,
+[1247738] = true,
+},
+[3181] = {
+[109997] = true,
+},
+[3183] = {
+[109997] = true,
+},
+[3129] = {
+[1220618] = true,
+[1219263] = true,
+[1219531] = true,
+[1219450] = true,
+},
+[3131] = {
+[1237272] = true,
+[1227263] = true,
+[1227226] = true,
+[1250103] = true,
+[1226395] = true,
+[1227782] = true,
+[1226311] = true,
+},
+[3133] = {
+[1233416] = true,
+[1220394] = true,
+[1225673] = true,
+[1231871] = true,
+},
+[3135] = {
+[1243577] = true,
+[1233539] = true,
+[1237694] = true,
+[1237695] = true,
+[1237325] = true,
+[1231716] = true,
+[1251619] = true,
+[1234044] = true,
+[1234263] = true,
+[1249423] = true,
+[1230979] = true,
+[1243690] = true,
+[1238765] = true,
+[1239262] = true,
+[1230087] = true,
+[1245292] = true,
+[1234244] = true,
+[1232973] = true,
+[1250055] = true,
+[1229038] = true,
+},
+[3176] = {
+[1262036] = true,
+[1251583] = true,
+[1270949] = true,
+[1251361] = true,
+[1249265] = true,
+[1258880] = true,
+[1249251] = true,
+[1260712] = true,
+[1280015] = true,
+},
+[3178] = {
+[1245391] = true,
+[1262623] = true,
+[1244221] = true,
+[1265131] = true,
+[1245645] = true,
+[1244917] = true,
+[1249748] = true,
+[1248847] = true,
+},
+[3180] = {
+[1246165] = true,
+[1246736] = true,
+[1255738] = true,
+[1248644] = true,
+[1248451] = true,
+[1251857] = true,
+[1248994] = true,
+[1276999] = true,
+[1248710] = true,
+[1249130] = true,
+[1246487] = true,
+[1248449] = true,
+},
+[3306] = {
+[1262289] = true,
+[1257087] = true,
+[1245404] = true,
+[1264756] = true,
+[1245452] = true,
+[1246653] = true,
+[1258610] = true,
+[1245396] = true,
+[1246132] = true,
+[1272726] = true,
+},
+[3122] = {
+[1233863] = true,
+[1227355] = true,
+[1227117] = true,
+[1241833] = true,
+[1227809] = true,
+[1240891] = true,
+[1222232] = true,
+[1233093] = true,
+[1242259] = true,
+[1218103] = true,
+},
+[3130] = {
+[1223859] = true,
+[1225582] = true,
+[1241100] = true,
+[1225616] = true,
+[1227276] = true,
+},
+[3132] = {
+[1233415] = true,
+[1243887] = true,
+[1228213] = true,
+[1228216] = true,
+[1228502] = true,
+[1232221] = true,
+[1232590] = true,
+[1228161] = true,
+[1227631] = true,
+[1231720] = true,
+},
+[3134] = {
+[1224731] = true,
+[1234529] = true,
+[1228115] = true,
+[1237108] = true,
+[1224864] = true,
+[1232399] = true,
+[1249234] = true,
+[1230263] = true,
+[1227384] = true,
+[1227470] = true,
+[1238980] = true,
+[1228163] = true,
+[1226024] = true,
+[1228075] = true,
+[1224776] = true,
+[1228265] = true,
+[1226648] = true,
+[1227734] = true,
+[1227549] = true,
+[1228053] = true,
+},
+[3182] = {
+[1241291] = true,
+[1242792] = true,
+[1260763] = true,
+[1246709] = true,
+[1241340] = true,
+[1244344] = true,
+[1242515] = true,
+[1242981] = true,
+[1242260] = true,
+},
+},
+["displayMode"] = "PLAYER",
+["selectedDifficulty"] = 2,
+["personalNoteReminders"] = true,
+["showRelevantRemindersOnly"] = false,
+["selectedInstance"] = 1,
+["selectedProfiles"] = {
+[3177] = {
+"Default profile",
+"Default profile",
+},
+[3179] = {
+"Default profile",
+"Default profile",
+},
+[3181] = {
+"Default profile",
+"Default profile",
+},
+[3183] = {
+"Default profile",
+"Default profile",
+},
+[3129] = {
+"Default profile",
+"Default profile",
+},
+[3131] = {
+"Default profile",
+"Default profile",
+},
+[3133] = {
+"Default profile",
+"Default profile",
+},
+[3135] = {
+"Default profile",
+"Default profile",
+},
+[3176] = {
+"Default profile",
+"Default profile",
+},
+[3178] = {
+"Default profile",
+"Default profile",
+},
+[3180] = {
+"Default profile",
+"Default profile",
+},
+[3306] = {
+"Default profile",
+"Default profile",
+},
+[3122] = {
+"Default profile",
+"Default profile",
+},
+[3130] = {
+"Default profile",
+"Default profile",
+},
+[3132] = {
+"Default profile",
+"Default profile",
+},
+[3134] = {
+"Default profile",
+"Default profile",
+},
+[3182] = {
+"Default profile",
+"Default profile",
+},
+},
+["publicNoteReminders"] = true,
+},
+["showTemplatesPopup"] = true,
+["importAll"] = false,
+["importOptions"] = {
+["countdown"] = true,
+["glow"] = true,
+["tts"] = true,
+["color"] = true,
+["duration"] = true,
+["sound"] = true,
+},
+["templates"] = {
+["showButtonHelp"] = true,
+["showRelevantTemplatesOnly"] = true,
+},
+["reminderTypes"] = {
+["SPELL"] = {
+["grow"] = "UP",
+["font"] = "Interface\\AddOns\\ElvUI\\Game\\Shared\\Media\\Fonts\\PTSansNarrow.ttf",
+["alignment"] = "LEFT",
+["showAsText"] = false,
+["size"] = 60,
+},
+["TEXT"] = {
+["grow"] = "UP",
+["font"] = "Interface\\AddOns\\ElvUI\\Game\\Shared\\Media\\Fonts\\PTSansNarrow.ttf",
+["alignment"] = "CENTER",
+["size"] = 40,
+},
+},
+["ttsVolume"] = 100,
+["soundChannel"] = "Master",
+["defaultReminder"] = {
+["countdown"] = {
+["enabled"] = false,
+["voice"] = "Sara",
+["start"] = 3,
+},
+["glow"] = {
+["enabled"] = false,
+["type"] = "PIXEL",
+["color"] = {
+["b"] = 0.32,
+["g"] = 0.95,
+["r"] = 0.95,
+},
+["names"] = {
+},
+},
+["tts"] = {
+["enabled"] = false,
+["time"] = 0,
+["voice"] = 0,
+},
+["sound"] = {
+["enabled"] = false,
+["file"] = "Interface\\Addons\\TimelineReminders\\Media\\Sounds\\TR_Beep.mp3",
+["time"] = 0,
+},
+["trigger"] = {
+["hideOnUse"] = true,
+["duration"] = 8,
+["time"] = 0,
+["linger"] = 0,
+},
+["load"] = {
+["type"] = "ALL",
+},
+["display"] = {
+["color"] = {
+["b"] = 1,
+["g"] = 1,
+["r"] = 1,
+},
+["type"] = "TEXT",
+["text"] = "",
+},
+},
+},
 ["specializationInfoCache"] = {
 {
 {
@@ -1391,328 +2137,6 @@ LiquidRemindersSaved = {
 },
 ["deathData"] = {
 },
-["reminders"] = {
-[3177] = {
-{
-["Default profile"] = {
-["options"] = {
-},
-["reminders"] = {
-},
-},
-},
-{
-["Default profile"] = {
-["options"] = {
-},
-["reminders"] = {
-},
-},
-},
-},
-[3179] = {
-{
-["Default profile"] = {
-["options"] = {
-},
-["reminders"] = {
-},
-},
-},
-{
-["Default profile"] = {
-["options"] = {
-},
-["reminders"] = {
-},
-},
-},
-},
-[3181] = {
-{
-["Default profile"] = {
-["options"] = {
-},
-["reminders"] = {
-},
-},
-},
-{
-["Default profile"] = {
-["options"] = {
-},
-["reminders"] = {
-},
-},
-},
-},
-[3183] = {
-{
-["Default profile"] = {
-["options"] = {
-},
-["reminders"] = {
-},
-},
-},
-{
-["Default profile"] = {
-["options"] = {
-},
-["reminders"] = {
-},
-},
-},
-},
-[3129] = {
-{
-["Default profile"] = {
-["options"] = {
-},
-["reminders"] = {
-},
-},
-},
-{
-["Default profile"] = {
-["options"] = {
-},
-["reminders"] = {
-},
-},
-},
-},
-[3131] = {
-{
-["Default profile"] = {
-["options"] = {
-},
-["reminders"] = {
-},
-},
-},
-{
-["Default profile"] = {
-["options"] = {
-},
-["reminders"] = {
-},
-},
-},
-},
-[3133] = {
-{
-["Default profile"] = {
-["options"] = {
-},
-["reminders"] = {
-},
-},
-},
-{
-["Default profile"] = {
-["options"] = {
-},
-["reminders"] = {
-},
-},
-},
-},
-[3135] = {
-{
-["Default profile"] = {
-["options"] = {
-},
-["reminders"] = {
-},
-},
-},
-{
-["Default profile"] = {
-["options"] = {
-},
-["reminders"] = {
-},
-},
-},
-},
-[3176] = {
-{
-["Default profile"] = {
-["options"] = {
-},
-["reminders"] = {
-},
-},
-},
-{
-["Default profile"] = {
-["options"] = {
-},
-["reminders"] = {
-},
-},
-},
-},
-[3178] = {
-{
-["Default profile"] = {
-["options"] = {
-},
-["reminders"] = {
-},
-},
-},
-{
-["Default profile"] = {
-["options"] = {
-},
-["reminders"] = {
-},
-},
-},
-},
-[3180] = {
-{
-["Default profile"] = {
-["options"] = {
-},
-["reminders"] = {
-},
-},
-},
-{
-["Default profile"] = {
-["options"] = {
-},
-["reminders"] = {
-},
-},
-},
-},
-[3306] = {
-{
-["Default profile"] = {
-["options"] = {
-},
-["reminders"] = {
-},
-},
-},
-{
-["Default profile"] = {
-["options"] = {
-},
-["reminders"] = {
-},
-},
-},
-},
-[3122] = {
-{
-["Default profile"] = {
-["options"] = {
-},
-["reminders"] = {
-},
-},
-},
-{
-["Default profile"] = {
-["options"] = {
-},
-["reminders"] = {
-},
-},
-},
-},
-[3130] = {
-{
-["Default profile"] = {
-["options"] = {
-},
-["reminders"] = {
-},
-},
-},
-{
-["Default profile"] = {
-["options"] = {
-},
-["reminders"] = {
-},
-},
-},
-},
-[3132] = {
-{
-["Default profile"] = {
-["options"] = {
-},
-["reminders"] = {
-},
-},
-},
-{
-["Default profile"] = {
-["options"] = {
-},
-["reminders"] = {
-},
-},
-},
-},
-[3134] = {
-{
-["Default profile"] = {
-["options"] = {
-},
-["reminders"] = {
-},
-},
-},
-{
-["Default profile"] = {
-["options"] = {
-},
-["reminders"] = {
-},
-},
-},
-},
-[3182] = {
-{
-["Default profile"] = {
-["options"] = {
-},
-["reminders"] = {
-},
-},
-},
-{
-["Default profile"] = {
-["options"] = {
-},
-["reminders"] = {
-},
-},
-},
-},
-},
-["minimap"] = {
-},
-["nameColorCache"] = {
-},
-["transmissionLog"] = {
-{
-["time"] = 1769178946,
-["size"] = 1,
-},
-{
-["time"] = 1769179108,
-["size"] = 1,
-},
-},
 ["templates"] = {
 },
 ["transmissions"] = {
@@ -1993,409 +2417,22 @@ LiquidRemindersSaved = {
 },
 },
 },
-["settings"] = {
-["showMinimapIcon"] = true,
-["showAnchorHelp"] = true,
-["groupMode"] = {
-["showTanks"] = true,
-["showTextReminders"] = true,
-["showDPS"] = true,
-["playerFilter"] = {
-["DEATHKNIGHT"] = {
+["transmissionLog"] = {
+{
+["time"] = 1769178946,
+["size"] = 1,
 },
-["WARRIOR"] = {
+{
+["time"] = 1769179108,
+["size"] = 1,
 },
-["ROGUE"] = {
+{
+["time"] = 1769214411,
+["size"] = 1,
 },
-["MAGE"] = {
 },
-["PRIEST"] = {
+["nameColorCache"] = {
 },
-["PALADIN"] = {
-},
-["MONK"] = {
-},
-["WARLOCK"] = {
-},
-["DEMONHUNTER"] = {
-},
-["SHAMAN"] = {
-},
-["DRUID"] = {
-},
-["EVOKER"] = {
-},
-["HUNTER"] = {
-},
-},
-["showOfflinePlayers"] = false,
-["showHealers"] = true,
-["showFilterHelp"] = true,
-["spellFilter"] = {
-},
-["allowBroadcast"] = true,
-["multiTrack"] = false,
-["alwaysShowOwn"] = false,
-},
-["timeline"] = {
-["selectedInstanceType"] = 1,
-["ignoreNoteInDungeon"] = false,
-["selectedEncounter"] = 1,
-["lockReminderButtons"] = false,
-["trackVisibility"] = {
-[3177] = {
-[1256855] = true,
-[1241768] = true,
-[1260052] = true,
-[1276824] = true,
-[1254199] = true,
-[1258967] = true,
-[1241686] = true,
-},
-[3179] = {
-[1253032] = true,
-[1246175] = true,
-[1248697] = true,
-[1247738] = true,
-[1250686] = true,
-[1254081] = true,
-},
-[3181] = {
-[109997] = true,
-},
-[3183] = {
-[109997] = true,
-},
-[3129] = {
-[1220618] = true,
-[1219263] = true,
-[1219531] = true,
-[1219450] = true,
-},
-[3131] = {
-[1226395] = true,
-[1226311] = true,
-[1227226] = true,
-[1250103] = true,
-[1227263] = true,
-[1227782] = true,
-[1237272] = true,
-},
-[3133] = {
-[1233416] = true,
-[1220394] = true,
-[1231871] = true,
-[1225673] = true,
-},
-[3135] = {
-[1243577] = true,
-[1233539] = true,
-[1237694] = true,
-[1237695] = true,
-[1237325] = true,
-[1231716] = true,
-[1251619] = true,
-[1234044] = true,
-[1234263] = true,
-[1249423] = true,
-[1230979] = true,
-[1243690] = true,
-[1238765] = true,
-[1239262] = true,
-[1230087] = true,
-[1229038] = true,
-[1232973] = true,
-[1234244] = true,
-[1250055] = true,
-[1245292] = true,
-},
-[3176] = {
-[1262036] = true,
-[1251583] = true,
-[1270949] = true,
-[1251361] = true,
-[1258880] = true,
-[1280015] = true,
-[1249251] = true,
-[1260712] = true,
-[1249265] = true,
-},
-[3178] = {
-[1262623] = true,
-[1248847] = true,
-[1244221] = true,
-[1265131] = true,
-[1244917] = true,
-[1245645] = true,
-[1249748] = true,
-[1245391] = true,
-},
-[3180] = {
-[1246165] = true,
-[1246736] = true,
-[1255738] = true,
-[1248644] = true,
-[1248451] = true,
-[1251857] = true,
-[1248449] = true,
-[1276999] = true,
-[1248710] = true,
-[1246487] = true,
-[1249130] = true,
-[1248994] = true,
-},
-[3306] = {
-[1262289] = true,
-[1257087] = true,
-[1245404] = true,
-[1264756] = true,
-[1245452] = true,
-[1246653] = true,
-[1258610] = true,
-[1245396] = true,
-[1246132] = true,
-[1272726] = true,
-},
-[3122] = {
-[1233863] = true,
-[1227355] = true,
-[1227117] = true,
-[1241833] = true,
-[1227809] = true,
-[1240891] = true,
-[1222232] = true,
-[1233093] = true,
-[1242259] = true,
-[1218103] = true,
-},
-[3130] = {
-[1223859] = true,
-[1225582] = true,
-[1227276] = true,
-[1225616] = true,
-[1241100] = true,
-},
-[3132] = {
-[1233415] = true,
-[1243887] = true,
-[1228213] = true,
-[1228216] = true,
-[1228502] = true,
-[1231720] = true,
-[1227631] = true,
-[1228161] = true,
-[1232590] = true,
-[1232221] = true,
-},
-[3134] = {
-[1224731] = true,
-[1234529] = true,
-[1228115] = true,
-[1237108] = true,
-[1224864] = true,
-[1232399] = true,
-[1249234] = true,
-[1230263] = true,
-[1227384] = true,
-[1228053] = true,
-[1238980] = true,
-[1226024] = true,
-[1228163] = true,
-[1227734] = true,
-[1224776] = true,
-[1228265] = true,
-[1226648] = true,
-[1228075] = true,
-[1227549] = true,
-[1227470] = true,
-},
-[3182] = {
-[1241291] = true,
-[1242792] = true,
-[1260763] = true,
-[1246709] = true,
-[1241340] = true,
-[1244344] = true,
-[1242515] = true,
-[1242981] = true,
-[1242260] = true,
-},
-},
-["displayMode"] = "PLAYER",
-["selectedDifficulty"] = 2,
-["selectedProfiles"] = {
-[3177] = {
-"Default profile",
-"Default profile",
-},
-[3179] = {
-"Default profile",
-"Default profile",
-},
-[3181] = {
-"Default profile",
-"Default profile",
-},
-[3183] = {
-"Default profile",
-"Default profile",
-},
-[3129] = {
-"Default profile",
-"Default profile",
-},
-[3131] = {
-"Default profile",
-"Default profile",
-},
-[3133] = {
-"Default profile",
-"Default profile",
-},
-[3135] = {
-"Default profile",
-"Default profile",
-},
-[3176] = {
-"Default profile",
-"Default profile",
-},
-[3178] = {
-"Default profile",
-"Default profile",
-},
-[3180] = {
-"Default profile",
-"Default profile",
-},
-[3306] = {
-"Default profile",
-"Default profile",
-},
-[3122] = {
-"Default profile",
-"Default profile",
-},
-[3130] = {
-"Default profile",
-"Default profile",
-},
-[3132] = {
-"Default profile",
-"Default profile",
-},
-[3134] = {
-"Default profile",
-"Default profile",
-},
-[3182] = {
-"Default profile",
-"Default profile",
-},
-},
-["showRelevantRemindersOnly"] = false,
-["selectedInstance"] = 1,
-["personalNoteReminders"] = true,
-["publicNoteReminders"] = true,
-},
-["templates"] = {
-["showRelevantTemplatesOnly"] = true,
-["showButtonHelp"] = true,
-},
-["soundChannel"] = "Master",
-["importAll"] = false,
-["ttsVolume"] = 100,
-["reminderTypes"] = {
-["TEXT"] = {
-["grow"] = "UP",
-["font"] = "Interface\\AddOns\\ElvUI\\Game\\Shared\\Media\\Fonts\\PTSansNarrow.ttf",
-["alignment"] = "CENTER",
-["size"] = 40,
-},
-["SPELL"] = {
-["grow"] = "UP",
-["font"] = "Interface\\AddOns\\ElvUI\\Game\\Shared\\Media\\Fonts\\PTSansNarrow.ttf",
-["alignment"] = "LEFT",
-["showAsText"] = false,
-["size"] = 60,
-},
-},
-["importOptions"] = {
-["countdown"] = true,
-["glow"] = true,
-["tts"] = true,
-["color"] = true,
-["duration"] = true,
-["sound"] = true,
-},
-["defaultReminder"] = {
-["countdown"] = {
-["enabled"] = false,
-["voice"] = "Sara",
-["start"] = 3,
-},
-["glow"] = {
-["enabled"] = false,
-["type"] = "PIXEL",
-["color"] = {
-["r"] = 0.95,
-["g"] = 0.95,
-["b"] = 0.32,
-},
-["names"] = {
-},
-},
-["tts"] = {
-["enabled"] = false,
-["time"] = 0,
-["voice"] = 0,
-},
-["trigger"] = {
-["hideOnUse"] = true,
-["duration"] = 8,
-["time"] = 0,
-["linger"] = 0,
-},
-["display"] = {
-["color"] = {
-["r"] = 1,
-["g"] = 1,
-["b"] = 1,
-},
-["type"] = "TEXT",
-["text"] = "",
-},
-["load"] = {
-["type"] = "ALL",
-},
-["sound"] = {
-["enabled"] = false,
-["file"] = "Interface\\Addons\\TimelineReminders\\Media\\Sounds\\TR_Beep.mp3",
-["time"] = 0,
-},
-},
-},
-["internalVersion"] = 27,
-["LiquidUI"] = {
-["frameSettings"] = {
-},
-["spellDescriptionCache"] = {
-[1220618] = {
-["time"] = 1769178935,
-["description"] = "The Plexus Sentinel relocates, pushing players away and activating the |cffffffffArcanomatrix Atomizer|r. The Atomizer slowly passes over the chamber, Atomizing any players  it contacts.\r\n\r\nAfter relocating, The Plexus Sentinel begins channelling |cffffffffProtocol: Purge|r and gains a shield that absorbs damage. Breaking this shield interrupts |cffffffffProtocol: Purge|r.",
-},
-[1219263] = {
-["time"] = 1769178935,
-["description"] = "The Plexus Sentinel marks its current target, then fires an arcane charge that inflicts 82,131 Arcane damage to players within 10 yards, and 54,754 Arcane damage to all other players. Players farther from the target receive less damage. This explosion leaves behind |cffffffffPotent Mana Residue|r.\r\n\r\nThe impact causes the primary target to take 1,000% damage from |cffffffffObliteration Arcanocannon|r for 45 sec.",
-},
-[1219450] = {
-["time"] = 1769178935,
-["description"] = "The Plexus Sentinel fires Arcane energy into players, inflicting 7,666 Arcane damage every 1 sec for 6 sec. Upon expiration, a |cffffffffDisplacement Matrix|r is created. ",
-},
-[1219531] = {
-["time"] = 1769178935,
-["description"] = "The Plexus Sentinel targets a player to be purged, firing a missile inflicting 131,410 Arcane damage split evenly between players within 6 yards.",
-},
-},
+["minimap"] = {
 },
 }

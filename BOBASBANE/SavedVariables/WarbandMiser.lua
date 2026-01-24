@@ -1,20 +1,20 @@
 
 WarbandMiserDB = {
 ["Settings"] = {
-["Bracket1"] = 200,
-["Bracket2"] = 500,
+["Bracket1"] = 50,
+["Bracket2"] = 50,
 ["Bracket6"] = 10000,
 ["Servers"] = {
 ["LaughingSkull"] = {
 ["Default"] = 0,
 },
 },
-["Bracket3"] = 750,
+["Bracket3"] = 50,
 ["IncludeNew"] = true,
 ["DepositOnly"] = false,
 ["MinGold"] = 2000,
-["Bracket5"] = 2000,
-["Bracket4"] = 1000,
+["Bracket5"] = 50,
+["Bracket4"] = 50,
 ["Range"] = {
 {
 ["low"] = 1,
@@ -44,10 +44,17 @@ WarbandMiserDB = {
 },
 ["Toons"] = {
 ["LaughingSkull"] = {
-["Tradushuffle"] = {
+["Voidshuffle"] = {
 ["GoldCap"] = 10000,
 ["Defaults"] = true,
-["Gold"] = 9780319903,
+["Gold"] = 100000000,
+["Level"] = 80,
+["Include"] = true,
+},
+["Soulshuffle"] = {
+["GoldCap"] = 10000,
+["Defaults"] = true,
+["Gold"] = 183380702,
 ["Level"] = 80,
 ["Include"] = true,
 },

@@ -1,7 +1,8 @@
 
 TomTomDB = {
 ["profileKeys"] = {
-["Tradushuffle - Laughing Skull"] = "Default",
+["Voidshuffle - Laughing Skull"] = "Default",
+["Soulshuffle - Laughing Skull"] = "Default",
 },
 ["profiles"] = {
 ["Default"] = {
@@ -16,11 +17,11 @@ nil,
 },
 ["block"] = {
 ["position"] = {
-"CENTER",
+"TOPRIGHT",
 nil,
-"CENTER",
--465.8330383300781,
--13.33347034454346,
+"TOPRIGHT",
+-335.0005798339844,
+-173.0004119873047,
 },
 },
 },
@@ -29,10 +30,13 @@ nil,
 TomTomWaypoints = nil
 TomTomWaypointsM = {
 ["profileKeys"] = {
-["Tradushuffle - Laughing Skull"] = "Tradushuffle - Laughing Skull",
+["Voidshuffle - Laughing Skull"] = "Voidshuffle - Laughing Skull",
+["Soulshuffle - Laughing Skull"] = "Soulshuffle - Laughing Skull",
 },
 ["profiles"] = {
-["Tradushuffle - Laughing Skull"] = {
+["Voidshuffle - Laughing Skull"] = {
+},
+["Soulshuffle - Laughing Skull"] = {
 },
 },
 }

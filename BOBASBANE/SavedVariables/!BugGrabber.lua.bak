@@ -1,7 +1,7 @@
 
 BugGrabberDB = {
+["session"] = 2,
 ["lastSanitation"] = 3,
-["session"] = 1,
 ["errors"] = {
 {
 ["message"] = ".../AddOns/PermoksAccountManager/modules/currencies.lua:609: attempt to index local 'warbandCurrencyInfo' (a nil value)",

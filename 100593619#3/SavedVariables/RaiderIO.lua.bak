@@ -1,24 +1,32 @@
 
 RaiderIO_Config = {
-["minimapIcon"] = {
-["minimapPos"] = 180,
-["showInCompartment"] = true,
-["lock"] = false,
-["hide"] = false,
-},
 ["profilePoint"] = {
 ["y"] = 0,
 ["x"] = -16,
 ["point"] = "TOPLEFT",
 },
+["minimapIcon"] = {
+["minimapPos"] = 180,
+["showInCompartment"] = true,
+["hide"] = false,
+["lock"] = false,
+},
 }
-RaiderIO_LastCharacter = "eu-Voidshuffle-laughing-skull"
+RaiderIO_LastCharacter = "eu-Soulshuffle-laughing-skull"
 RaiderIO_MissingCharacters = {
-["eu-Deathstalker-balnazzar"] = true,
-["eu-Bamso-laughing-skull"] = true,
-["eu-Narx-talnivarr"] = true,
-["eu-Dreadslice-outland"] = true,
-["eu-Aatrox-shattered-halls"] = true,
+["eu-Dhampdruid-talnivarr"] = true,
+["eu-Gardevoir-ahnqiraj"] = true,
+["eu-Elxwyn-shattered-halls"] = true,
+["eu-Sayaka-sunstrider"] = true,
+["eu-Nyxa-chromaggus"] = true,
+["eu-Lithe-daggerspine"] = true,
+["eu-Wingum-laughing-skull"] = true,
+["eu-Skayle-chromaggus"] = true,
+["eu-Douevendkbro-shattered-halls"] = true,
+["eu-Valunaara-ahnqiraj"] = true,
+["eu-Chainsaw-laughing-skull"] = true,
+["eu-Tinymarty-talnivarr"] = true,
+["eu-Unspekable-shattered-halls"] = true,
 }
 RaiderIO_MissingServers = {
 }

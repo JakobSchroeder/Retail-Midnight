@@ -1,7 +1,8 @@
 
 MissingClassBuffDB = {
 ["profileKeys"] = {
-["Tradushuffle - Laughing Skull"] = "Default",
+["Voidshuffle - Laughing Skull"] = "Default",
+["Soulshuffle - Laughing Skull"] = "Default",
 },
 ["layouts"] = {
 ["Modern"] = {
@@ -12,13 +13,13 @@ MissingClassBuffDB = {
 ["textFont"] = "GameFontNormal",
 ["zoomBottom"] = 1,
 ["alpha"] = 0.8,
-["zoomRight"] = 1,
-["y"] = 250,
 ["x"] = 0,
+["y"] = 250,
+["zoomRight"] = 1,
 ["iconZoom"] = 0,
 ["iconHeight"] = 80,
-["zoomLeft"] = 0,
 ["point"] = "CENTER",
+["zoomLeft"] = 0,
 ["frameWidth"] = 100,
 ["hideText"] = false,
 },
@@ -30,22 +31,23 @@ MissingClassBuffDB = {
 ["textFont"] = "GameFontNormal",
 ["zoomBottom"] = 1,
 ["alpha"] = 0.8,
+["x"] = 3.99993896484375,
+["y"] = -94.000244140625,
 ["zoomRight"] = 1,
-["y"] = 250,
-["x"] = 0,
 ["iconZoom"] = 0,
 ["iconHeight"] = 80,
+["point"] = "TOP",
 ["zoomLeft"] = 0,
-["point"] = "CENTER",
 ["frameWidth"] = 100,
 ["hideText"] = false,
 },
 },
-["profiles"] = {
-["Default"] = {
-},
-},
+["lastRunDBVersion"] = 137,
 ["namespaces"] = {
 },
-["lastRunDBVersion"] = 137,
+["profiles"] = {
+["Default"] = {
+["makeIconClickable"] = false,
+},
+},
 }

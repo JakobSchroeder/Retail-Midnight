@@ -2,6 +2,7 @@
 BigWigs3DB = {
 ["profileKeys"] = {
 ["Tradushuffle - Laughing Skull"] = "Default",
+["Spearshuffle - Kazzak"] = "Default",
 },
 ["namespaces"] = {
 },

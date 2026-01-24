@@ -26,8 +26,8 @@ DejaCharacterStatsDB = {
 ["ShowDuraSetChecked"] = true,
 },
 ["DCS_CenterItemTooltips"] = {
-["DCS_CenterItemTooltipScale"] = 1,
 ["centerItemTooltips"] = false,
+["DCS_CenterItemTooltipScale"] = 1,
 },
 ["DCS_SettingsShowCharacterChecked"] = {
 ["settingsShowCharacterChecked"] = true,
@@ -35,18 +35,18 @@ DejaCharacterStatsDB = {
 ["dejacharacterstatsItemLevelChecked"] = {
 ["ItemLevelTwoDecimalsSetChecked"] = true,
 ["ItemLevelEQ_AV_SetChecked"] = true,
-["ItemLevelClassColorSetChecked"] = true,
 ["ItemLevelDecimalsSetChecked"] = false,
+["ItemLevelClassColorSetChecked"] = true,
 },
-["dejacharacterstatsShowDuraTextureChecked"] = {
-["ShowDuraTextureSetChecked"] = true,
+["dejacharacterstatsHideMasteryChecked"] = {
+["SetChecked"] = true,
 },
 ["dejacharacterstatsSimpleItemColorChecked"] = {
 ["SimpleItemColorChecked"] = false,
 ["DarkerItemColorChecked"] = false,
 },
-["dejacharacterstatsHideMasteryChecked"] = {
-["SetChecked"] = true,
+["dejacharacterstatsShowDuraTextureChecked"] = {
+["ShowDuraTextureSetChecked"] = true,
 },
 ["dejacharacterstatsShowItemLevelChecked"] = {
 ["ShowItemLevelSetChecked"] = true,
@@ -69,7 +69,7 @@ DejaCharacterStatsDB = {
 },
 }
 DCS_ClassSpecDB = {
-["Voidshuffle:Laughing Skull:2"] = {
+["Soulshuffle:Laughing Skull:3"] = {
 {
 ["statKey"] = "ItemLevelFrame",
 },
@@ -201,7 +201,6 @@ DCS_ClassSpecDB = {
 ["statKey"] = "BLOCK",
 ["hidden"] = true,
 ["hideAt"] = 0,
-["showFunc"] = nil --[[ skipped inline function ]],
 },
 {
 ["statKey"] = "RatingCategory",
@@ -259,11 +258,11 @@ DCS_ClassSpecDB = {
 },
 {
 ["statKey"] = "STAGGER",
-["hidden"] = true,
-["hideAt"] = 0,
 ["roles"] = {
 "TANK",
 },
+["hidden"] = true,
+["hideAt"] = 0,
 },
 {
 ["statKey"] = "HonorCategory",
@@ -296,7 +295,7 @@ DCS_ClassSpecDB = {
 ["statKey"] = "UserCat5",
 ["hidden"] = true,
 },
-["uniqueKey"] = "Voidshuffle:Laughing Skull:2",
+["uniqueKey"] = "Soulshuffle:Laughing Skull:3",
 },
 ["Voidshuffle:Laughing Skull:1"] = {
 {
@@ -430,7 +429,6 @@ DCS_ClassSpecDB = {
 ["statKey"] = "BLOCK",
 ["hidden"] = true,
 ["hideAt"] = 0,
-["showFunc"] = nil --[[ skipped inline function ]],
 },
 {
 ["statKey"] = "RatingCategory",
@@ -488,11 +486,11 @@ DCS_ClassSpecDB = {
 },
 {
 ["statKey"] = "STAGGER",
-["hidden"] = true,
-["hideAt"] = 0,
 ["roles"] = {
 "TANK",
 },
+["hideAt"] = 0,
+["hidden"] = true,
 },
 {
 ["statKey"] = "HonorCategory",
@@ -716,11 +714,11 @@ DCS_ClassSpecDB = {
 },
 {
 ["statKey"] = "STAGGER",
+["hideAt"] = 0,
+["hidden"] = true,
 ["roles"] = {
 "TANK",
 },
-["hideAt"] = 0,
-["hidden"] = true,
 },
 {
 ["statKey"] = "HonorCategory",
@@ -758,7 +756,7 @@ DCS_ClassSpecDB = {
 },
 ["uniqueKey"] = "Voidshuffle:Laughing Skull:3",
 },
-["Soulshuffle:Laughing Skull:3"] = {
+["Voidshuffle:Laughing Skull:2"] = {
 {
 ["statKey"] = "ItemLevelFrame",
 },
@@ -947,11 +945,11 @@ DCS_ClassSpecDB = {
 },
 {
 ["statKey"] = "STAGGER",
-["hideAt"] = 0,
-["hidden"] = true,
 ["roles"] = {
 "TANK",
 },
+["hideAt"] = 0,
+["hidden"] = true,
 },
 {
 ["statKey"] = "HonorCategory",
@@ -984,6 +982,6 @@ DCS_ClassSpecDB = {
 ["statKey"] = "UserCat5",
 ["hidden"] = true,
 },
-["uniqueKey"] = "Soulshuffle:Laughing Skull:3",
+["uniqueKey"] = "Voidshuffle:Laughing Skull:2",
 },
 }

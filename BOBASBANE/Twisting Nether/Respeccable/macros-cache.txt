@@ -1,0 +1,22 @@
+VER 3 0100000000000024 "CancelFlurry" "INV_MISC_QUESTIONMARK"
+#showtooltip Blade Flurry
+/cancelaura Blade Flurry
+END
+VER 3 0100000000000026 "FriendlyStep" "INV_MISC_QUESTIONMARK"
+#showtooltip Shadowstep
+/cast [target=mouseover,help]Shadowstep
+END
+VER 3 0100000000000027 "Intestines" "INV_MISC_QUESTIONMARK"
+#showtooltip Plump Intestines
+/use Plump Intestines
+END
+VER 3 0100000000000025 "Tricks" "INV_MISC_QUESTIONMARK"
+#showtooltip Tricks of the Trade
+/cast [target=focus] Tricks of the Trade
+END
+VER 3 0100000000000028 "ZerkBlades" "INV_MISC_QUESTIONMARK"
+#showtooltip Shadow Blades
+/cast Shadow Blades
+/cast Berserking
+/cast Adrenaline Rush
+END

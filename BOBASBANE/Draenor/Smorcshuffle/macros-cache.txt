@@ -1,0 +1,45 @@
+VER 3 010000000000000A "boomtrap" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@cursor] Explosive Trap
+END
+VER 3 010000000000000B "caltrops" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@cursor] Caltrops
+END
+VER 3 0100000000000006 "cancelaim" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cancelaura Hand of Protection
+/cast Aimed Shot
+END
+VER 3 0100000000000004 "canceldet" "INV_MISC_QUESTIONMARK"
+#showtooltip Aspect of the Turtle
+/cancelaura Aspect of the Turtle
+END
+VER 3 0100000000000002 "cd" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast Aspect of the Eagle
+/cast Rapid Fire
+/cast Blood Fury
+/use 13
+END
+VER 3 0100000000000005 "chimcancel" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cancelaura Hand of Protection
+/cast Chimaera Shot
+END
+VER 3 0100000000000008 "killcancel" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cancelaura Hand of Protection
+/cast Kill Shot
+END
+VER 3 0100000000000003 "MD" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [target=focus]Misdirection; Misdirection
+END
+VER 3 0100000000000009 "noglowmong" "ABILITY_HUNTER_MONGOOSEBITE"
+END
+VER 3 0100000000000007 "steadycanecl" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cancelaura Hand of Protection
+/cast Steady Shot
+END

@@ -87,11 +87,11 @@ LiquidRemindersSaved = {
 [1719] = "recklessness",
 [184367] = "rampage",
 [1464] = "slam",
-[107574] = "avatar",
-[385059] = "odyn's fury",
 [190411] = "whirlwind",
-[184364] = "enraged regeneration",
+[385059] = "odyn's fury",
 [5308] = "execute",
+[184364] = "enraged regeneration",
+[107574] = "avatar",
 [23881] = "bloodthirst",
 },
 {
@@ -102,9 +102,10 @@ LiquidRemindersSaved = {
 [1161] = "challenging shout",
 [386071] = "disrupting shout",
 [190456] = "ignore pain",
+[107574] = "avatar",
 [385952] = "shield charge",
 [1464] = "slam",
-[107574] = "avatar",
+[1680] = "whirlwind",
 },
 [0] = {
 [34428] = "victory rush",
@@ -263,11 +264,12 @@ LiquidRemindersSaved = {
 [1953] = "blink",
 [2139] = "counterspell",
 [1459] = "arcane intellect",
+[31661] = "dragon's breath",
 [190336] = "conjure refreshment",
 [475] = "remove curse",
 [157980] = "supernova",
-[319836] = "fire blast",
 [343140] = "portal",
+[319836] = "fire blast",
 [110959] = "greater invisibility",
 [55342] = "mirror image",
 [212653] = "shimmer",
@@ -277,7 +279,7 @@ LiquidRemindersSaved = {
 [199786] = "glacial spike",
 [30449] = "spellsteal",
 [45438] = "ice block",
-[31661] = "dragon's breath",
+[157997] = "ice nova",
 [116] = "frostbolt",
 [131784] = "illusion",
 },
@@ -287,6 +289,7 @@ LiquidRemindersSaved = {
 [200829] = "plea",
 [212036] = "mass resurrection",
 [62618] = "power word: barrier",
+[440006] = "purify disease",
 [194509] = "power word: radiance",
 [472433] = "evangelism",
 [17] = "power word: shield",
@@ -332,6 +335,7 @@ LiquidRemindersSaved = {
 [585] = "smite",
 [2061] = "flash heal",
 [2096] = "mind vision",
+[300728] = "door of shadows",
 [17] = "power word: shield",
 [589] = "shadow word: pain",
 [605] = "mind control",
@@ -342,15 +346,16 @@ LiquidRemindersSaved = {
 [21562] = "power word: fortitude",
 [132157] = "holy nova",
 [2006] = "resurrection",
+[205364] = "dominate mind",
 [73325] = "leap of faith",
 [453] = "mind soothe",
-[205364] = "dominate mind",
-[121536] = "angelic feather",
 [120644] = "halo",
-[120517] = "halo",
+[121536] = "angelic feather",
 [9484] = "shackle undead",
-[213634] = "purify disease",
+[323673] = "mindgames",
 [19236] = "desperate prayer",
+[213634] = "purify disease",
+[120517] = "halo",
 [32375] = "mass dispel",
 [586] = "fade",
 [528] = "dispel magic",
@@ -396,30 +401,31 @@ LiquidRemindersSaved = {
 [187707] = "muzzle",
 [1543] = "flare",
 [83244] = "call pet 4",
-[186257] = "aspect of the cheetah",
+[34026] = "kill command",
+[147362] = "counter shot",
 [209997] = "play dead",
-[187650] = "freezing trap",
+[272651] = "command pet",
 [125050] = "fetch",
 [257284] = "hunter's mark",
-[259489] = "kill command",
+[127933] = "fireworks",
 [109304] = "exhilaration",
-[34026] = "kill command",
+[186265] = "aspect of the turtle",
 [56641] = "steady shot",
 [109248] = "binding shot",
 [466930] = "black arrow",
 [83243] = "call pet 3",
 [781] = "disengage",
-[186265] = "aspect of the turtle",
+[186257] = "aspect of the cheetah",
 [264735] = "survival of the fittest",
 [83245] = "call pet 5",
 [5384] = "feign death",
 [272678] = "primal rage",
 [185358] = "arcane shot",
-[272651] = "command pet",
-[19801] = "tranquilizing shot",
 [34477] = "misdirection",
+[19801] = "tranquilizing shot",
 [195645] = "wing clip",
-[147362] = "counter shot",
+[259489] = "kill command",
+[187650] = "freezing trap",
 },
 },
 ["EVOKER"] = {
@@ -481,17 +487,17 @@ LiquidRemindersSaved = {
 [360995] = "verdant embrace",
 [368970] = "tail swipe",
 [431443] = "chrono flames",
-[365585] = "expunge",
+[390386] = "fury of the aspects",
 [369459] = "source of magic",
 [361469] = "living flame",
 [372048] = "oppressing roar",
 [358385] = "landslide",
 [355913] = "emerald blossom",
 [370553] = "tip the scales",
-[390386] = "fury of the aspects",
 [374227] = "zephyr",
-[406971] = "oppressing roar",
 [357208] = "fire breath",
+[406971] = "oppressing roar",
+[365585] = "expunge",
 [358267] = "hover",
 },
 },
@@ -548,12 +554,14 @@ LiquidRemindersSaved = {
 [119910] = "spell lock",
 [119914] = "axe toss",
 [126] = "eye of kilrogg",
+[325289] = "decimating bolt",
 [333889] = "fel domination",
 [6201] = "create healthstone",
 [1098] = "subjugate demon",
 [20707] = "soulstone",
 [342601] = "ritual of doom",
 [1271802] = "blight of tongues",
+[324631] = "fleshcraft",
 [385899] = "soulburn",
 [442804] = "curse of the satyr",
 [1271748] = "blight of weakness",
@@ -648,6 +656,7 @@ LiquidRemindersSaved = {
 [61882] = "earthquake",
 [117014] = "elemental blast",
 [462757] = "thunderstrike ward",
+[470411] = "flame shock",
 [8042] = "earth shock",
 [8004] = "healing surge",
 [318038] = "flametongue weapon",
@@ -696,6 +705,7 @@ LiquidRemindersSaved = {
 },
 [0] = {
 [79206] = "spiritwalker's grace",
+[51514] = "hex",
 [2008] = "ancestral spirit",
 [974] = "earth shield",
 [556] = "astral recall",
@@ -707,16 +717,16 @@ LiquidRemindersSaved = {
 [6196] = "far sight",
 [5394] = "healing stream totem",
 [2825] = "bloodlust",
-[192106] = "lightning shield",
 [188443] = "chain lightning",
+[192106] = "lightning shield",
 [2645] = "ghost wolf",
-[546] = "water walking",
-[108287] = "totemic projection",
 [73899] = "primal strike",
+[108287] = "totemic projection",
+[192058] = "capacitor totem",
 [1064] = "chain heal",
 [58875] = "spirit walk",
 [32182] = "heroism",
-[192058] = "capacitor totem",
+[546] = "water walking",
 [470411] = "flame shock",
 [192077] = "wind rush totem",
 [188196] = "lightning bolt",
@@ -734,14 +744,15 @@ LiquidRemindersSaved = {
 [78675] = "solar beam",
 [202770] = "fury of elune",
 [190984] = "wrath",
-[1233346] = "solar eclipse",
+[205636] = "force of nature",
+[102560] = "incarnation: chosen of elune",
 [1233272] = "lunar eclipse",
 [88747] = "wild mushroom",
-[205636] = "force of nature",
+[390414] = "incarnation: chosen of elune",
 [391528] = "convoke the spirits",
 [194223] = "celestial alignment",
 [274281] = "new moon",
-[102560] = "incarnation: chosen of elune",
+[1233346] = "solar eclipse",
 },
 {
 [1244258] = "chomp",
@@ -774,11 +785,11 @@ LiquidRemindersSaved = {
 [212040] = "revitalize",
 [740] = "tranquility",
 [132158] = "nature's swiftness",
-[145205] = "efflorescence",
+[33891] = "incarnation: tree of life",
 [391528] = "convoke the spirits",
 [33763] = "lifebloom",
-[33891] = "incarnation: tree of life",
 [18562] = "swiftmend",
+[145205] = "efflorescence",
 },
 [0] = {
 [22568] = "ferocious bite",
@@ -793,49 +804,50 @@ LiquidRemindersSaved = {
 [1822] = "rake",
 [50769] = "revive",
 [16979] = "wild charge",
+[22842] = "frenzied regeneration",
 [194153] = "starfire",
 [197626] = "starsurge",
-[22842] = "frenzied regeneration",
-[210053] = "mount form",
 [24858] = "moonkin form",
+[210053] = "mount form",
 [8936] = "regrowth",
 [252216] = "tiger dash",
+[1126] = "mark of the wild",
 [132469] = "typhoon",
 [2637] = "hibernate",
-[33917] = "mangle",
-[106898] = "stampeding roar",
+[193753] = "dreamwalk",
+[78674] = "starsurge",
 [77764] = "stampeding roar",
 [102401] = "wild charge",
-[193753] = "dreamwalk",
-[106785] = "swipe",
-[768] = "cat form",
+[33917] = "mangle",
 [8921] = "moonfire",
+[768] = "cat form",
+[190984] = "wrath",
 [197628] = "starfire",
 [213764] = "swipe",
-[114282] = "treant form",
 [48438] = "wild growth",
 [99] = "incapacitating roar",
 [2908] = "soothe",
 [1079] = "rip",
-[29166] = "innervate",
+[774] = "rejuvenation",
+[18960] = "teleport: moonglade",
 [49376] = "wild charge",
 [77761] = "stampeding roar",
 [1850] = "dash",
 [5215] = "prowl",
 [339] = "entangling roots",
 [1261867] = "heart of the wild",
-[774] = "rejuvenation",
+[29166] = "innervate",
 [164862] = "flap",
 [102359] = "mass entanglement",
 [2782] = "remove corruption",
 [22812] = "barkskin",
 [474750] = "symbiotic relationship",
-[190984] = "wrath",
+[114282] = "treant form",
 [20484] = "rebirth",
 [102383] = "wild charge",
-[78674] = "starsurge",
+[106785] = "swipe",
 [77758] = "thrash",
-[1126] = "mark of the wild",
+[106898] = "stampeding roar",
 [5176] = "wrath",
 },
 },
@@ -884,10 +896,10 @@ LiquidRemindersSaved = {
 [123904] = "invoke xuen, the white tiger",
 [116705] = "spear hand strike",
 [152175] = "whirling dragon punch",
-[1229376] = "single-button assistant",
-[392983] = "strike of the windlord",
 [101545] = "flying serpent kick",
+[392983] = "strike of the windlord",
 [122470] = "touch of karma",
+[1229376] = "single-button assistant",
 [1249625] = "zenith",
 },
 [0] = {
@@ -907,6 +919,7 @@ LiquidRemindersSaved = {
 [115175] = "soothing mist",
 [109132] = "roll",
 [205523] = "blackout kick",
+[293866] = "zen pilgrimage",
 [115546] = "provoke",
 [100780] = "tiger palm",
 [116095] = "disable",
@@ -1012,23 +1025,23 @@ LiquidRemindersSaved = {
 },
 },
 ["groupInfo"] = {
-["Player-1598-0F356A2A"] = {
+["Player-1598-0FBF146E"] = {
 ["connected"] = true,
 ["group"] = 1,
-["class"] = "WARLOCK",
-["classColorStr"] = "ff8788ee",
+["class"] = "PRIEST",
+["classColorStr"] = "ffffffff",
 ["classColor"] = {
-["r"] = 0.529411792755127,
-["g"] = 0.5333333611488342,
-["b"] = 0.9333333969116211,
+["b"] = 1,
+["g"] = 1,
+["r"] = 1,
 },
 ["role"] = "DAMAGER",
-["name"] = "Soulshuffle",
-["specName"] = "Destruction",
-["specIndex"] = 3,
-["specID"] = 267,
-["specIcon"] = 136186,
+["name"] = "Ghostshuffle",
+["specName"] = "Shadow",
 ["position"] = "RANGED",
+["specID"] = 258,
+["specIcon"] = 136207,
+["specIndex"] = 3,
 },
 },
 ["toc"] = 120000,
@@ -1345,7 +1358,543 @@ LiquidRemindersSaved = {
 },
 },
 },
-["deathData"] = {
+["transmissionLog"] = {
+{
+["time"] = 1769024205,
+["size"] = 1,
+},
+{
+["time"] = 1769024293,
+["size"] = 1,
+},
+{
+["time"] = 1769024698,
+["size"] = 1,
+},
+{
+["time"] = 1769025622,
+["size"] = 1,
+},
+{
+["time"] = 1769025788,
+["size"] = 1,
+},
+{
+["time"] = 1769025818,
+["size"] = 1,
+},
+{
+["time"] = 1769028250,
+["size"] = 1,
+},
+{
+["time"] = 1769028336,
+["size"] = 1,
+},
+{
+["time"] = 1769028665,
+["size"] = 1,
+},
+{
+["time"] = 1769028988,
+["size"] = 1,
+},
+{
+["time"] = 1769029187,
+["size"] = 1,
+},
+{
+["time"] = 1769029395,
+["size"] = 1,
+},
+{
+["time"] = 1769029501,
+["size"] = 1,
+},
+{
+["time"] = 1769029633,
+["size"] = 1,
+},
+{
+["time"] = 1769029888,
+["size"] = 1,
+},
+{
+["time"] = 1769030003,
+["size"] = 1,
+},
+{
+["time"] = 1769030241,
+["size"] = 1,
+},
+{
+["time"] = 1769030480,
+["size"] = 1,
+},
+{
+["time"] = 1769030636,
+["size"] = 1,
+},
+{
+["time"] = 1769030760,
+["size"] = 1,
+},
+{
+["time"] = 1769030907,
+["size"] = 1,
+},
+{
+["time"] = 1769034389,
+["size"] = 1,
+},
+{
+["time"] = 1769094137,
+["size"] = 1,
+},
+{
+["time"] = 1769195814,
+["size"] = 1,
+},
+{
+["time"] = 1769195896,
+["size"] = 1,
+},
+{
+["time"] = 1769196317,
+["size"] = 1,
+},
+{
+["time"] = 1769197960,
+["size"] = 1,
+},
+{
+["time"] = 1769198064,
+["size"] = 1,
+},
+{
+["time"] = 1769198610,
+["size"] = 1,
+},
+{
+["time"] = 1769203195,
+["size"] = 3,
+},
+{
+["time"] = 1769203249,
+["size"] = 1,
+},
+{
+["time"] = 1769206996,
+["size"] = 1,
+},
+{
+["time"] = 1769207029,
+["size"] = 1,
+},
+{
+["time"] = 1769208031,
+["size"] = 1,
+},
+{
+["time"] = 1769209047,
+["size"] = 2,
+},
+{
+["time"] = 1769211132,
+["size"] = 2,
+},
+{
+["time"] = 1769211677,
+["size"] = 2,
+},
+{
+["time"] = 1769212829,
+["size"] = 1,
+},
+{
+["time"] = 1769212851,
+["size"] = 1,
+},
+{
+["time"] = 1769214319,
+["size"] = 1,
+},
+{
+["time"] = 1769214415,
+["size"] = 5,
+},
+{
+["time"] = 1769250598,
+["size"] = 1,
+},
+{
+["time"] = 1769259098,
+["size"] = 1,
+},
+{
+["time"] = 1769262132,
+["size"] = 1,
+},
+{
+["time"] = 1769262805,
+["size"] = 1,
+},
+{
+["time"] = 1769263237,
+["size"] = 1,
+},
+{
+["time"] = 1769263919,
+["size"] = 1,
+},
+{
+["time"] = 1769264120,
+["size"] = 1,
+},
+{
+["time"] = 1769264140,
+["size"] = 1,
+},
+{
+["time"] = 1769264182,
+["size"] = 1,
+},
+{
+["time"] = 1769264322,
+["size"] = 1,
+},
+{
+["time"] = 1769264338,
+["size"] = 1,
+},
+{
+["time"] = 1769264631,
+["size"] = 1,
+},
+{
+["time"] = 1769264843,
+["size"] = 1,
+},
+{
+["time"] = 1769264902,
+["size"] = 1,
+},
+{
+["time"] = 1769265220,
+["size"] = 1,
+},
+{
+["time"] = 1769265240,
+["size"] = 1,
+},
+{
+["time"] = 1769265335,
+["size"] = 1,
+},
+{
+["time"] = 1769265358,
+["size"] = 1,
+},
+{
+["time"] = 1769265435,
+["size"] = 1,
+},
+{
+["time"] = 1769265462,
+["size"] = 1,
+},
+{
+["time"] = 1769265554,
+["size"] = 1,
+},
+{
+["time"] = 1769265575,
+["size"] = 1,
+},
+{
+["time"] = 1769265612,
+["size"] = 1,
+},
+{
+["time"] = 1769265628,
+["size"] = 1,
+},
+{
+["time"] = 1769265655,
+["size"] = 1,
+},
+{
+["time"] = 1769265712,
+["size"] = 1,
+},
+{
+["time"] = 1769265815,
+["size"] = 1,
+},
+{
+["time"] = 1769265921,
+["size"] = 1,
+},
+{
+["time"] = 1769265978,
+["size"] = 1,
+},
+{
+["time"] = 1769266023,
+["size"] = 1,
+},
+{
+["time"] = 1769266106,
+["size"] = 1,
+},
+{
+["time"] = 1769266172,
+["size"] = 1,
+},
+{
+["time"] = 1769266269,
+["size"] = 1,
+},
+{
+["time"] = 1769266322,
+["size"] = 1,
+},
+{
+["time"] = 1769266357,
+["size"] = 1,
+},
+{
+["time"] = 1769266387,
+["size"] = 1,
+},
+{
+["time"] = 1769266435,
+["size"] = 1,
+},
+{
+["time"] = 1769266499,
+["size"] = 1,
+},
+{
+["time"] = 1769266552,
+["size"] = 1,
+},
+{
+["time"] = 1769266649,
+["size"] = 1,
+},
+{
+["time"] = 1769266701,
+["size"] = 1,
+},
+{
+["time"] = 1769266786,
+["size"] = 1,
+},
+{
+["time"] = 1769266830,
+["size"] = 1,
+},
+{
+["time"] = 1769266887,
+["size"] = 1,
+},
+{
+["time"] = 1769266949,
+["size"] = 1,
+},
+{
+["time"] = 1769266989,
+["size"] = 1,
+},
+{
+["time"] = 1769267019,
+["size"] = 1,
+},
+{
+["time"] = 1769267069,
+["size"] = 1,
+},
+{
+["time"] = 1769267128,
+["size"] = 1,
+},
+{
+["time"] = 1769267200,
+["size"] = 1,
+},
+{
+["time"] = 1769267271,
+["size"] = 1,
+},
+{
+["time"] = 1769267319,
+["size"] = 1,
+},
+{
+["time"] = 1769267366,
+["size"] = 1,
+},
+{
+["time"] = 1769267416,
+["size"] = 1,
+},
+{
+["time"] = 1769267485,
+["size"] = 1,
+},
+{
+["time"] = 1769267522,
+["size"] = 1,
+},
+{
+["time"] = 1769267654,
+["size"] = 1,
+},
+{
+["time"] = 1769267710,
+["size"] = 1,
+},
+{
+["time"] = 1769267761,
+["size"] = 1,
+},
+{
+["time"] = 1769267803,
+["size"] = 1,
+},
+{
+["time"] = 1769267845,
+["size"] = 1,
+},
+{
+["time"] = 1769267895,
+["size"] = 1,
+},
+{
+["time"] = 1769267949,
+["size"] = 1,
+},
+{
+["time"] = 1769268000,
+["size"] = 1,
+},
+{
+["time"] = 1769268146,
+["size"] = 1,
+},
+{
+["time"] = 1769268193,
+["size"] = 1,
+},
+{
+["time"] = 1769268225,
+["size"] = 1,
+},
+{
+["time"] = 1769268385,
+["size"] = 1,
+},
+{
+["time"] = 1769268423,
+["size"] = 1,
+},
+{
+["time"] = 1769268513,
+["size"] = 1,
+},
+{
+["time"] = 1769268636,
+["size"] = 1,
+},
+{
+["time"] = 1769268681,
+["size"] = 1,
+},
+{
+["time"] = 1769268727,
+["size"] = 1,
+},
+{
+["time"] = 1769268804,
+["size"] = 1,
+},
+{
+["time"] = 1769268852,
+["size"] = 1,
+},
+{
+["time"] = 1769268894,
+["size"] = 1,
+},
+{
+["time"] = 1769268975,
+["size"] = 1,
+},
+{
+["time"] = 1769269834,
+["size"] = 1,
+},
+{
+["time"] = 1769270220,
+["size"] = 2,
+},
+{
+["time"] = 1769270313,
+["size"] = 2,
+},
+{
+["time"] = 1769274153,
+["size"] = 1,
+},
+{
+["time"] = 1769274552,
+["size"] = 1,
+},
+{
+["time"] = 1769278506,
+["size"] = 1,
+},
+{
+["time"] = 1769279002,
+["size"] = 1,
+},
+{
+["time"] = 1769279070,
+["size"] = 1,
+},
+{
+["time"] = 1769281088,
+["size"] = 1,
+},
+{
+["time"] = 1769281170,
+["size"] = 1,
+},
+{
+["time"] = 1769281300,
+["size"] = 1,
+},
+{
+["time"] = 1769282246,
+["size"] = 1,
+},
+{
+["time"] = 1769282378,
+["size"] = 1,
+},
+{
+["time"] = 1769282398,
+["size"] = 1,
+},
+{
+["time"] = 1769282444,
+["size"] = 1,
+},
+{
+["time"] = 1769282519,
+["size"] = 1,
+},
 },
 ["specializationInfoCache"] = {
 {
@@ -1376,6 +1925,15 @@ LiquidRemindersSaved = {
 ["icon"] = 132341,
 ["description"] = "A stalwart protector who uses a shield to safeguard themselves and their allies.\r\n\r\nPreferred Weapon: Axe, Mace, Sword, and Shield",
 },
+[5] = {
+["role"] = "DAMAGER",
+["name"] = "",
+["className"] = false,
+["id"] = 1446,
+["description"] = "",
+["icon"] = 132355,
+["classFile"] = true,
+},
 },
 {
 {
@@ -1404,6 +1962,15 @@ LiquidRemindersSaved = {
 ["classFile"] = true,
 ["icon"] = 135873,
 ["description"] = "A righteous crusader who judges and punishes opponents with weapons and Holy magic.\r\n\r\nPreferred Weapon: Two-Handed Sword, Mace, Axe",
+},
+[5] = {
+["role"] = "DAMAGER",
+["name"] = "",
+["className"] = false,
+["id"] = 1451,
+["description"] = "",
+["icon"] = 135873,
+["classFile"] = true,
 },
 },
 {
@@ -1735,162 +2302,387 @@ LiquidRemindersSaved = {
 },
 },
 },
-["transmissionLog"] = {
-{
-["time"] = 1769024205,
-["size"] = 1,
+["settings"] = {
+["showMinimapIcon"] = true,
+["showAnchorHelp"] = false,
+["groupMode"] = {
+["showTanks"] = true,
+["showTextReminders"] = true,
+["showDPS"] = true,
+["playerFilter"] = {
+["DEATHKNIGHT"] = {
 },
-{
-["time"] = 1769024293,
-["size"] = 1,
+["WARRIOR"] = {
 },
-{
-["time"] = 1769024698,
-["size"] = 1,
+["ROGUE"] = {
 },
-{
-["time"] = 1769025622,
-["size"] = 1,
+["MAGE"] = {
 },
-{
-["time"] = 1769025788,
-["size"] = 1,
+["PRIEST"] = {
 },
-{
-["time"] = 1769025818,
-["size"] = 1,
+["PALADIN"] = {
 },
-{
-["time"] = 1769028250,
-["size"] = 1,
+["MONK"] = {
 },
-{
-["time"] = 1769028336,
-["size"] = 1,
+["WARLOCK"] = {
 },
-{
-["time"] = 1769028665,
-["size"] = 1,
+["DEMONHUNTER"] = {
 },
-{
-["time"] = 1769028988,
-["size"] = 1,
+["SHAMAN"] = {
 },
-{
-["time"] = 1769029187,
-["size"] = 1,
+["DRUID"] = {
 },
-{
-["time"] = 1769029395,
-["size"] = 1,
+["EVOKER"] = {
 },
-{
-["time"] = 1769029501,
-["size"] = 1,
+["HUNTER"] = {
 },
-{
-["time"] = 1769029633,
-["size"] = 1,
 },
-{
-["time"] = 1769029888,
-["size"] = 1,
+["showOfflinePlayers"] = false,
+["showHealers"] = true,
+["showFilterHelp"] = true,
+["spellFilter"] = {
 },
-{
-["time"] = 1769030003,
-["size"] = 1,
+["allowBroadcast"] = true,
+["multiTrack"] = false,
+["alwaysShowOwn"] = false,
 },
-{
-["time"] = 1769030241,
-["size"] = 1,
+["timeline"] = {
+["selectedInstanceType"] = 1,
+["ignoreNoteInDungeon"] = false,
+["selectedEncounter"] = 1,
+["lockReminderButtons"] = false,
+["trackVisibility"] = {
+[3177] = {
+[1256855] = true,
+[1260052] = true,
+[1241768] = true,
+[1276824] = true,
+[1254199] = true,
+[1258967] = true,
+[1241686] = true,
 },
-{
-["time"] = 1769030480,
-["size"] = 1,
+[3179] = {
+[1253032] = true,
+[1246175] = true,
+[1247738] = true,
+[1248697] = true,
+[1254081] = true,
+[1250686] = true,
 },
-{
-["time"] = 1769030636,
-["size"] = 1,
+[3181] = {
+[109997] = true,
 },
-{
-["time"] = 1769030760,
-["size"] = 1,
+[3183] = {
+[109997] = true,
 },
-{
-["time"] = 1769030907,
-["size"] = 1,
+[3129] = {
+[1220618] = true,
+[1219263] = true,
+[1219531] = true,
+[1219450] = true,
 },
-{
-["time"] = 1769034389,
-["size"] = 1,
+[3131] = {
+[1226311] = true,
+[1226395] = true,
+[1227226] = true,
+[1237272] = true,
+[1227263] = true,
+[1227782] = true,
+[1250103] = true,
 },
-{
-["time"] = 1769094137,
-["size"] = 1,
+[3133] = {
+[1233416] = true,
+[1220394] = true,
+[1231871] = true,
+[1225673] = true,
 },
-{
-["time"] = 1769195814,
-["size"] = 1,
+[3135] = {
+[1243577] = true,
+[1233539] = true,
+[1237694] = true,
+[1237695] = true,
+[1237325] = true,
+[1231716] = true,
+[1251619] = true,
+[1234044] = true,
+[1234263] = true,
+[1249423] = true,
+[1230979] = true,
+[1243690] = true,
+[1238765] = true,
+[1239262] = true,
+[1230087] = true,
+[1229038] = true,
+[1232973] = true,
+[1234244] = true,
+[1250055] = true,
+[1245292] = true,
 },
-{
-["time"] = 1769195896,
-["size"] = 1,
+[3176] = {
+[1262036] = true,
+[1251583] = true,
+[1270949] = true,
+[1251361] = true,
+[1280015] = true,
+[1249265] = true,
+[1249251] = true,
+[1260712] = true,
+[1258880] = true,
 },
-{
-["time"] = 1769196317,
-["size"] = 1,
+[3178] = {
+[1248847] = true,
+[1262623] = true,
+[1244221] = true,
+[1245391] = true,
+[1244917] = true,
+[1245645] = true,
+[1249748] = true,
+[1265131] = true,
 },
-{
-["time"] = 1769197960,
-["size"] = 1,
+[3180] = {
+[1246165] = true,
+[1246736] = true,
+[1255738] = true,
+[1248644] = true,
+[1248451] = true,
+[1251857] = true,
+[1248449] = true,
+[1248994] = true,
+[1248710] = true,
+[1246487] = true,
+[1249130] = true,
+[1276999] = true,
 },
-{
-["time"] = 1769198064,
-["size"] = 1,
+[3306] = {
+[1262289] = true,
+[1257087] = true,
+[1245404] = true,
+[1264756] = true,
+[1245452] = true,
+[1246653] = true,
+[1258610] = true,
+[1245396] = true,
+[1246132] = true,
+[1272726] = true,
 },
-{
-["time"] = 1769198610,
-["size"] = 1,
+[3122] = {
+[1233863] = true,
+[1227355] = true,
+[1227117] = true,
+[1241833] = true,
+[1227809] = true,
+[1240891] = true,
+[1222232] = true,
+[1233093] = true,
+[1242259] = true,
+[1218103] = true,
 },
-{
-["time"] = 1769203195,
-["size"] = 3,
+[3130] = {
+[1223859] = true,
+[1225582] = true,
+[1227276] = true,
+[1225616] = true,
+[1241100] = true,
 },
-{
-["time"] = 1769203249,
-["size"] = 1,
+[3132] = {
+[1233415] = true,
+[1243887] = true,
+[1228213] = true,
+[1228216] = true,
+[1228502] = true,
+[1231720] = true,
+[1227631] = true,
+[1228161] = true,
+[1232590] = true,
+[1232221] = true,
 },
-{
-["time"] = 1769206996,
-["size"] = 1,
+[3134] = {
+[1224731] = true,
+[1234529] = true,
+[1228115] = true,
+[1237108] = true,
+[1224864] = true,
+[1232399] = true,
+[1249234] = true,
+[1230263] = true,
+[1227384] = true,
+[1228053] = true,
+[1238980] = true,
+[1226024] = true,
+[1228163] = true,
+[1227734] = true,
+[1224776] = true,
+[1228265] = true,
+[1226648] = true,
+[1228075] = true,
+[1227549] = true,
+[1227470] = true,
 },
-{
-["time"] = 1769207029,
-["size"] = 1,
+[3182] = {
+[1241291] = true,
+[1242792] = true,
+[1260763] = true,
+[1246709] = true,
+[1241340] = true,
+[1244344] = true,
+[1242515] = true,
+[1242981] = true,
+[1242260] = true,
 },
-{
-["time"] = 1769208031,
-["size"] = 1,
 },
-{
-["time"] = 1769209047,
-["size"] = 2,
+["displayMode"] = "PLAYER",
+["selectedDifficulty"] = 2,
+["selectedProfiles"] = {
+[3177] = {
+"Default profile",
+"Default profile",
 },
-{
-["time"] = 1769211132,
-["size"] = 2,
+[3179] = {
+"Default profile",
+"Default profile",
 },
-{
-["time"] = 1769211677,
-["size"] = 2,
+[3181] = {
+"Default profile",
+"Default profile",
 },
-{
-["time"] = 1769212829,
-["size"] = 1,
+[3183] = {
+"Default profile",
+"Default profile",
 },
-{
-["time"] = 1769212851,
-["size"] = 1,
+[3129] = {
+"Default profile",
+"Default profile",
+},
+[3131] = {
+"Default profile",
+"Default profile",
+},
+[3133] = {
+"Default profile",
+"Default profile",
+},
+[3135] = {
+"Default profile",
+"Default profile",
+},
+[3176] = {
+"Default profile",
+"Default profile",
+},
+[3178] = {
+"Default profile",
+"Default profile",
+},
+[3180] = {
+"Default profile",
+"Default profile",
+},
+[3306] = {
+"Default profile",
+"Default profile",
+},
+[3122] = {
+"Default profile",
+"Default profile",
+},
+[3130] = {
+"Default profile",
+"Default profile",
+},
+[3132] = {
+"Default profile",
+"Default profile",
+},
+[3134] = {
+"Default profile",
+"Default profile",
+},
+[3182] = {
+"Default profile",
+"Default profile",
+},
+},
+["showRelevantRemindersOnly"] = false,
+["selectedInstance"] = 1,
+["personalNoteReminders"] = true,
+["publicNoteReminders"] = true,
+},
+["importAll"] = false,
+["soundChannel"] = "Master",
+["ttsVolume"] = 100,
+["showTemplatesPopup"] = true,
+["templates"] = {
+["showRelevantTemplatesOnly"] = true,
+["showButtonHelp"] = true,
+},
+["reminderTypes"] = {
+["TEXT"] = {
+["grow"] = "UP",
+["font"] = "Interface\\AddOns\\ElvUI\\Game\\Shared\\Media\\Fonts\\PTSansNarrow.ttf",
+["alignment"] = "CENTER",
+["size"] = 40,
+},
+["SPELL"] = {
+["grow"] = "UP",
+["font"] = "Interface\\AddOns\\ElvUI\\Game\\Shared\\Media\\Fonts\\PTSansNarrow.ttf",
+["alignment"] = "LEFT",
+["showAsText"] = false,
+["size"] = 60,
+},
+},
+["importOptions"] = {
+["countdown"] = true,
+["glow"] = true,
+["tts"] = true,
+["color"] = true,
+["duration"] = true,
+["sound"] = true,
+},
+["defaultReminder"] = {
+["countdown"] = {
+["enabled"] = false,
+["voice"] = "Sara",
+["start"] = 3,
+},
+["glow"] = {
+["enabled"] = false,
+["type"] = "PIXEL",
+["color"] = {
+["r"] = 0.95,
+["g"] = 0.95,
+["b"] = 0.32,
+},
+["names"] = {
+},
+},
+["tts"] = {
+["enabled"] = false,
+["time"] = 0,
+["voice"] = 0,
+},
+["display"] = {
+["color"] = {
+["r"] = 1,
+["g"] = 1,
+["b"] = 1,
+},
+["type"] = "TEXT",
+["text"] = "",
+},
+["trigger"] = {
+["hideOnUse"] = true,
+["duration"] = 8,
+["time"] = 0,
+["linger"] = 0,
+},
+["sound"] = {
+["enabled"] = false,
+["file"] = "Interface\\Addons\\TimelineReminders\\Media\\Sounds\\TR_Beep.mp3",
+["time"] = 0,
+},
+["load"] = {
+["type"] = "ALL",
+},
 },
 },
 ["templates"] = {
@@ -2173,392 +2965,41 @@ LiquidRemindersSaved = {
 },
 },
 },
-["settings"] = {
-["showMinimapIcon"] = true,
-["showAnchorHelp"] = true,
-["groupMode"] = {
-["showTanks"] = true,
-["showTextReminders"] = true,
-["showDPS"] = true,
-["playerFilter"] = {
-["DEATHKNIGHT"] = {
-},
-["WARRIOR"] = {
-},
-["ROGUE"] = {
-},
-["MAGE"] = {
-},
-["PRIEST"] = {
-},
-["PALADIN"] = {
-},
-["MONK"] = {
-},
-["WARLOCK"] = {
-},
-["DEMONHUNTER"] = {
-},
-["SHAMAN"] = {
-},
-["DRUID"] = {
-},
-["EVOKER"] = {
-},
-["HUNTER"] = {
-},
-},
-["showOfflinePlayers"] = false,
-["showHealers"] = true,
-["showFilterHelp"] = true,
-["spellFilter"] = {
-},
-["allowBroadcast"] = true,
-["multiTrack"] = false,
-["alwaysShowOwn"] = false,
-},
-["timeline"] = {
-["selectedInstanceType"] = 1,
-["ignoreNoteInDungeon"] = false,
-["selectedEncounter"] = 1,
-["lockReminderButtons"] = false,
-["trackVisibility"] = {
-[3177] = {
-[1256855] = true,
-[1260052] = true,
-[1241768] = true,
-[1276824] = true,
-[1254199] = true,
-[1258967] = true,
-[1241686] = true,
-},
-[3179] = {
-[1253032] = true,
-[1246175] = true,
-[1247738] = true,
-[1248697] = true,
-[1254081] = true,
-[1250686] = true,
-},
-[3181] = {
-[109997] = true,
-},
-[3183] = {
-[109997] = true,
-},
-[3129] = {
-[1220618] = true,
-[1219263] = true,
-[1219531] = true,
-[1219450] = true,
-},
-[3131] = {
-[1226311] = true,
-[1226395] = true,
-[1227226] = true,
-[1237272] = true,
-[1227263] = true,
-[1227782] = true,
-[1250103] = true,
-},
-[3133] = {
-[1233416] = true,
-[1220394] = true,
-[1231871] = true,
-[1225673] = true,
-},
-[3135] = {
-[1243577] = true,
-[1233539] = true,
-[1237694] = true,
-[1237695] = true,
-[1237325] = true,
-[1231716] = true,
-[1251619] = true,
-[1234044] = true,
-[1234263] = true,
-[1249423] = true,
-[1230979] = true,
-[1243690] = true,
-[1238765] = true,
-[1239262] = true,
-[1230087] = true,
-[1229038] = true,
-[1232973] = true,
-[1234244] = true,
-[1250055] = true,
-[1245292] = true,
-},
-[3176] = {
-[1262036] = true,
-[1251583] = true,
-[1270949] = true,
-[1251361] = true,
-[1258880] = true,
-[1280015] = true,
-[1249251] = true,
-[1260712] = true,
-[1249265] = true,
-},
-[3178] = {
-[1248847] = true,
-[1262623] = true,
-[1244221] = true,
-[1245391] = true,
-[1244917] = true,
-[1245645] = true,
-[1249748] = true,
-[1265131] = true,
-},
-[3180] = {
-[1246165] = true,
-[1246736] = true,
-[1255738] = true,
-[1248644] = true,
-[1248451] = true,
-[1251857] = true,
-[1248449] = true,
-[1248994] = true,
-[1248710] = true,
-[1246487] = true,
-[1249130] = true,
-[1276999] = true,
-},
-[3306] = {
-[1262289] = true,
-[1257087] = true,
-[1245404] = true,
-[1264756] = true,
-[1245452] = true,
-[1246653] = true,
-[1258610] = true,
-[1245396] = true,
-[1246132] = true,
-[1272726] = true,
-},
-[3122] = {
-[1233863] = true,
-[1227355] = true,
-[1227117] = true,
-[1241833] = true,
-[1227809] = true,
-[1240891] = true,
-[1222232] = true,
-[1233093] = true,
-[1242259] = true,
-[1218103] = true,
-},
-[3130] = {
-[1223859] = true,
-[1225582] = true,
-[1227276] = true,
-[1225616] = true,
-[1241100] = true,
-},
-[3132] = {
-[1233415] = true,
-[1243887] = true,
-[1228213] = true,
-[1228216] = true,
-[1228502] = true,
-[1231720] = true,
-[1227631] = true,
-[1228161] = true,
-[1232590] = true,
-[1232221] = true,
-},
-[3134] = {
-[1224731] = true,
-[1234529] = true,
-[1228115] = true,
-[1237108] = true,
-[1224864] = true,
-[1232399] = true,
-[1249234] = true,
-[1230263] = true,
-[1227384] = true,
-[1228053] = true,
-[1238980] = true,
-[1226024] = true,
-[1228163] = true,
-[1227734] = true,
-[1224776] = true,
-[1228265] = true,
-[1226648] = true,
-[1228075] = true,
-[1227549] = true,
-[1227470] = true,
-},
-[3182] = {
-[1241291] = true,
-[1242792] = true,
-[1260763] = true,
-[1246709] = true,
-[1241340] = true,
-[1244344] = true,
-[1242515] = true,
-[1242981] = true,
-[1242260] = true,
-},
-},
-["displayMode"] = "PLAYER",
-["selectedDifficulty"] = 2,
-["selectedProfiles"] = {
-[3177] = {
-"Default profile",
-"Default profile",
-},
-[3179] = {
-"Default profile",
-"Default profile",
-},
-[3181] = {
-"Default profile",
-"Default profile",
-},
-[3183] = {
-"Default profile",
-"Default profile",
-},
-[3129] = {
-"Default profile",
-"Default profile",
-},
-[3131] = {
-"Default profile",
-"Default profile",
-},
-[3133] = {
-"Default profile",
-"Default profile",
-},
-[3135] = {
-"Default profile",
-"Default profile",
-},
-[3176] = {
-"Default profile",
-"Default profile",
-},
-[3178] = {
-"Default profile",
-"Default profile",
-},
-[3180] = {
-"Default profile",
-"Default profile",
-},
-[3306] = {
-"Default profile",
-"Default profile",
-},
-[3122] = {
-"Default profile",
-"Default profile",
-},
-[3130] = {
-"Default profile",
-"Default profile",
-},
-[3132] = {
-"Default profile",
-"Default profile",
-},
-[3134] = {
-"Default profile",
-"Default profile",
-},
-[3182] = {
-"Default profile",
-"Default profile",
-},
-},
-["showRelevantRemindersOnly"] = false,
-["selectedInstance"] = 1,
-["personalNoteReminders"] = true,
-["publicNoteReminders"] = true,
-},
-["importAll"] = false,
-["soundChannel"] = "Master",
-["ttsVolume"] = 100,
-["showTemplatesPopup"] = true,
-["templates"] = {
-["showRelevantTemplatesOnly"] = true,
-["showButtonHelp"] = true,
-},
-["reminderTypes"] = {
-["TEXT"] = {
-["grow"] = "UP",
-["font"] = "Interface\\AddOns\\ElvUI\\Game\\Shared\\Media\\Fonts\\PTSansNarrow.ttf",
-["alignment"] = "CENTER",
-["size"] = 40,
-},
-["SPELL"] = {
-["grow"] = "UP",
-["font"] = "Interface\\AddOns\\ElvUI\\Game\\Shared\\Media\\Fonts\\PTSansNarrow.ttf",
-["alignment"] = "LEFT",
-["showAsText"] = false,
-["size"] = 60,
-},
-},
-["importOptions"] = {
-["countdown"] = true,
-["glow"] = true,
-["tts"] = true,
-["color"] = true,
-["duration"] = true,
-["sound"] = true,
-},
-["defaultReminder"] = {
-["countdown"] = {
-["enabled"] = false,
-["voice"] = "Sara",
-["start"] = 3,
-},
-["glow"] = {
-["enabled"] = false,
-["type"] = "PIXEL",
-["color"] = {
-["r"] = 0.95,
-["g"] = 0.95,
-["b"] = 0.32,
-},
-["names"] = {
-},
-},
-["tts"] = {
-["enabled"] = false,
-["time"] = 0,
-["voice"] = 0,
-},
-["display"] = {
-["color"] = {
-["r"] = 1,
-["g"] = 1,
-["b"] = 1,
-},
-["type"] = "TEXT",
-["text"] = "",
-},
-["trigger"] = {
-["hideOnUse"] = true,
-["duration"] = 8,
-["time"] = 0,
-["linger"] = 0,
-},
-["sound"] = {
-["enabled"] = false,
-["file"] = "Interface\\Addons\\TimelineReminders\\Media\\Sounds\\TR_Beep.mp3",
-["time"] = 0,
-},
-["load"] = {
-["type"] = "ALL",
-},
-},
+["deathData"] = {
 },
 ["internalVersion"] = 27,
 ["LiquidUI"] = {
 ["frameSettings"] = {
+["SpellReminderAnchor"] = {
+["points"] = {
+{
+["point"] = "CENTER",
+["offsetY"] = 365.9998474121094,
+["offsetX"] = 26.99991226196289,
+["relativePoint"] = "CENTER",
+},
+},
+},
+["Main"] = {
+["points"] = {
+{
+["point"] = "TOPLEFT",
+["offsetY"] = -209.9999847412109,
+["offsetX"] = 21.00020217895508,
+["relativePoint"] = "TOPLEFT",
+},
+},
+},
+["TextReminderAnchor"] = {
+["points"] = {
+{
+["point"] = "CENTER",
+["offsetY"] = 448.0000915527344,
+["offsetX"] = 26.00007820129395,
+["relativePoint"] = "CENTER",
+},
+},
+},
 },
 ["spellDescriptionCache"] = {
 [1220618] = {

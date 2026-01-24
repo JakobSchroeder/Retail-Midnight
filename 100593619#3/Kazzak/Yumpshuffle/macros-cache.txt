@@ -1,0 +1,24 @@
+VER 3 010000000000000C "cursorchains" "134400"
+#showtooltip
+/cast [@cursor] Sigil of Chains
+END
+VER 3 0100000000000009 "cursorflame" "134400"
+#showtooltip
+/cast [@cursor] Sigil of Flame
+END
+VER 3 010000000000000A "cursormisery" "134400"
+#showtooltip
+/cast [@cursor] Sigil of Misery
+END
+VER 3 010000000000000B "cursorsilence" "134400"
+#showtooltip
+/cast [@cursor] Sigil of Silence
+END
+VER 3 0100000000000004 "meta" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@player] Metamorphosis
+END
+VER 3 0100000000000008 "metacursor" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@cursor] Metamorphosis
+END

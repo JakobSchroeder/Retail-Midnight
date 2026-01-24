@@ -1,0 +1,21 @@
+
+TwitchEmotes_Solaris_Settings = {
+["profileKeys"] = {
+["Plantshuffle - Stormrage"] = "Default",
+["Shivshuffle - Stormrage"] = "Default",
+["Petshuffle - Stormrage"] = "Default",
+["Blastshuffle - Stormrage"] = "Default",
+["Grapeshuffle - Stormrage"] = "Default",
+["Banishuffle - Stormrage"] = "Default",
+["Cosmoshuffle - Stormrage"] = "Default",
+["Fogshuffle - Stormrage"] = "Default",
+["Aurashuffle - Stormrage"] = "Default",
+["Madneshuffle - Stormrage"] = "Default",
+["Osirishuffle - Stormrage"] = "Default",
+["Gripshuffle - Stormrage"] = "Default",
+},
+["profiles"] = {
+["Default"] = {
+},
+},
+}

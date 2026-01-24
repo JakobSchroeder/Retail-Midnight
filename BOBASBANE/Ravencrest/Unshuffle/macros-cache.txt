@@ -1,0 +1,20 @@
+VER 3 0100000000000021 "Breath of Sind" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast !Breath of Sindragosa
+END
+VER 3 0100000000000024 "mousednd" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@cursor] Death and Decay
+END
+VER 3 0100000000000023 "petgrip" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [talent:4/1] Hook; [talent:4/2]Asphyxiate
+END
+VER 3 0100000000000025 "petstun" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [talent:4/1]Smash; Gnaw
+END
+VER 3 0100000000000020 "RaiseAlly" "INV_MISC_QUESTIONMARK"
+#showtooltip Raise Ally
+/cast [target=mouseover,exists,help] Raise Ally; Raise Ally
+END

@@ -1,0 +1,74 @@
+VER 3 010000000000000B "cursorrain" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@cursor] Healing Rain
+END
+VER 3 0100000000000005 "cursorstampede" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@cursor] Wind Rush Totem
+END
+VER 3 0100000000000012 "meteor" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast Meteor
+/cast Eye of the Storm
+END
+VER 3 0100000000000003 "mousecap" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@cursor] Capacitor Totem
+END
+VER 3 0100000000000008 "mousechain" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,help,nodead,exists][] Chain Heal
+END
+VER 3 0100000000000010 "mousecleanse" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,help,nodead,exists][] Cleanse Spirit
+END
+VER 3 010000000000000D "mousedispel" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,help,nodead,exists][]  Purify Spirit
+END
+VER 3 010000000000000E "mousemagma" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@cursor] Liquid Magma Totem
+END
+VER 3 0100000000000006 "mousequake" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@cursor] Earthquake
+END
+VER 3 0100000000000004 "mouseslow" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@cursor] Earthbind Totem
+END
+VER 3 0100000000000015 "mousewave" "134400"
+#showtooltip
+/cast [@mouseover,help,nodead,exists][] Primordial Wave
+END
+VER 3 0100000000000007 "mousewave" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,help,nodead,exists][] Healing Wave
+END
+VER 3 0100000000000016 "projectme" "134400"
+#showtooltip
+/cast [@player]  Totemic Projection
+END
+VER 3 0100000000000001 "rainfall" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@player] Rainfall
+END
+VER 3 0100000000000009 "ripmouse" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,help,nodead,exists][] Riptide
+END
+VER 3 010000000000000F "runeshock" "INV_MISC_QUESTIONMARK"
+#showtooltip Flame Shock
+/use Lightforged Augment Rune
+/cast Flame Shock
+END
+VER 3 0100000000000014 "sunderkeeper" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [talent:6/2] Stormkeeper; [talent:6/3] Sundering
+END
+VER 3 010000000000000A "surgemouse" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,help,nodead,exists][] Healing Surge
+END

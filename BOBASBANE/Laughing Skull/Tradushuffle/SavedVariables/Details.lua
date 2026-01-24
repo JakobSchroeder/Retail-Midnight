@@ -31,9 +31,9 @@ _detalhes_database = {
 ["width"] = 120,
 ["ignored_cooldowns"] = {
 },
-["framme_locked"] = false,
 ["cooldowns"] = {
 },
+["height"] = 18,
 ["own_frame"] = {
 ["defensive-raid"] = false,
 ["ofensive"] = false,
@@ -41,7 +41,7 @@ _detalhes_database = {
 ["utility"] = false,
 ["defensive-personal"] = false,
 },
-["height"] = 18,
+["framme_locked"] = false,
 ["show_conditions"] = {
 ["only_inside_instance"] = true,
 ["only_in_group"] = true,
@@ -59,7 +59,7 @@ _detalhes_database = {
 ["utility"] = false,
 },
 },
-["combat_counter"] = 6,
+["combat_counter"] = 10,
 ["damage_meter_sessions"] = {
 },
 ["force_font_outline"] = "",
@@ -72,6 +72,10 @@ _detalhes_database = {
 {
 ["modo"] = 2,
 ["sub_attribute"] = 1,
+["horizontalSnap"] = true,
+["verticalSnap"] = false,
+["isLocked"] = true,
+["is_open"] = true,
 ["sub_atributo_last"] = {
 1,
 1,
@@ -79,19 +83,53 @@ _detalhes_database = {
 1,
 1,
 },
-["is_open"] = true,
-["isLocked"] = false,
 ["snap"] = {
+[3] = 2,
 },
 ["segment"] = 0,
 ["mode"] = 2,
 ["attribute"] = 1,
 ["pos"] = {
 ["normal"] = {
-["y"] = 117.4999389648438,
-["x"] = -765.0003662109375,
-["w"] = 310,
-["h"] = 157.9999847412109,
+["y"] = -632.000846862793,
+["x"] = 931.99560546875,
+["w"] = 230.0002899169922,
+["h"] = 172.0007781982422,
+},
+["solo"] = {
+["y"] = 2,
+["x"] = 1,
+["w"] = 300,
+["h"] = 200,
+},
+},
+},
+{
+["modo"] = 2,
+["sub_attribute"] = 1,
+["horizontalSnap"] = true,
+["verticalSnap"] = false,
+["isLocked"] = true,
+["is_open"] = true,
+["sub_atributo_last"] = {
+1,
+1,
+1,
+1,
+1,
+},
+["snap"] = {
+1,
+},
+["segment"] = 0,
+["mode"] = 2,
+["attribute"] = 1,
+["pos"] = {
+["normal"] = {
+["y"] = -632.000846862793,
+["x"] = 1161.995849609375,
+["w"] = 230.0002899169922,
+["h"] = 172.0007781982422,
 },
 ["solo"] = {
 ["y"] = 2,
@@ -102,7 +140,8 @@ _detalhes_database = {
 },
 },
 },
-["last_day"] = "23",
+["plugin_database"] = {
+},
 ["cached_talents"] = {
 },
 ["last_instance_id"] = 0,
@@ -135,7 +174,8 @@ _detalhes_database = {
 ["channel"] = "SELF",
 ["reverse"] = false,
 },
-["active_profile"] = "Tradushuffle-Laughing Skull",
+["active_profile"] = "Luckyone",
+["last_day"] = "24",
 ["mythic_dungeon_currentsaved"] = {
 ["dungeon_name"] = "",
 ["started"] = false,
@@ -147,16 +187,14 @@ _detalhes_database = {
 ["dungeon_zone_id"] = 0,
 ["previous_boss_killed_at"] = 0,
 },
-["SoloTablesSaved"] = {
-["Mode"] = 1,
+["data_harvested_for_charts"] = {
+},
+["damage_meter_session_info"] = {
 },
 ["benchmark_db"] = {
 ["frame"] = {
 },
 },
-["damage_meter_session_info"] = {
-},
-["on_death_menu"] = false,
 ["combat_log"] = {
 ["inverse_deathlog_overalldata"] = false,
 ["merge_gemstones_1007"] = false,
@@ -167,15 +205,18 @@ _detalhes_database = {
 ["evoker_show_realtimedps"] = false,
 ["inverse_deathlog_mplus"] = false,
 },
+["SoloTablesSaved"] = {
+["Mode"] = 1,
+},
+["mythic_plus_log"] = {
+},
 ["coach"] = {
 ["enabled"] = false,
 ["welcome_panel_pos"] = {
 },
 ["last_coach_name"] = false,
 },
-["mythic_plus_log"] = {
-},
-["announce_firsthit"] = {
+["announce_damagerecord"] = {
 ["enabled"] = true,
 ["channel"] = "SELF",
 },
@@ -183,19 +224,18 @@ _detalhes_database = {
 ["nextreset"] = 1770474918,
 ["last_version"] = 16,
 },
+["character_data"] = {
+["logons"] = 4,
+},
 ["player_stats"] = {
 },
-["ignore_nicktag"] = false,
-["plugin_database"] = {
-},
 ["last_instance_time"] = 0,
-["last_version"] = "12.0.0 14322",
+["last_version"] = "12.0.0 14324",
 ["combat_id"] = 0,
 ["savedStyles"] = {
 },
 ["last_realversion"] = 166,
-["data_harvested_for_charts"] = {
-},
+["ignore_nicktag"] = false,
 ["announce_deaths"] = {
 ["enabled"] = false,
 ["last_hits"] = 1,
@@ -230,7 +270,7 @@ _detalhes_database = {
 },
 ["raid_roster"] = {
 },
-["tempo_start"] = 2972220.656,
+["tempo_start"] = 3067233.135,
 ["last_events_tables"] = {
 },
 ["alternate_power"] = {
@@ -326,17 +366,15 @@ _detalhes_database = {
 ["start_time"] = 0,
 ["TimeData"] = {
 },
-["combat_counter"] = 5,
+["combat_counter"] = 9,
 },
-["character_data"] = {
-["logons"] = 2,
-},
-["arena_data_headers"] = {
-},
-["announce_damagerecord"] = {
+["announce_firsthit"] = {
 ["enabled"] = true,
 ["channel"] = "SELF",
 },
+["arena_data_headers"] = {
+},
+["on_death_menu"] = false,
 ["announce_cooldowns"] = {
 ["ignored_cooldowns"] = {
 },

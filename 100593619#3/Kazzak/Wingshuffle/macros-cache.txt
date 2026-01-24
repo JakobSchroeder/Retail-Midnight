@@ -1,0 +1,77 @@
+VER 3 0100000000000005 "boj" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/tar Dawnshuffle
+/cast [@targettarget] Blade of Justice
+/cast [@targettarget] Auto Attack
+/follow
+END
+VER 3 0100000000000001 "cs" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/tar Dawnshuffle
+/cast [@targettarget] Crusader Strike
+/cast [@targettarget] Auto Attack
+/follow
+END
+VER 3 0100000000000009 "ds" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast Divine Storm
+END
+VER 3 010000000000000D "flash" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/tar Dawnshuffle
+/cast [@targettarget] Flash of Light
+/follow
+END
+VER 3 0100000000000007 "freed" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/tar Dawnshuffle
+/cast [@targettarget] Hand of Freedom
+/follow
+END
+VER 3 0100000000000003 "hoj" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/tar Dawnshuffle
+/cast [@targettarget] Hammer of Justice
+/follow
+END
+VER 3 010000000000000B "how" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/tar Dawnshuffle
+/cast [@targettarget] Hammer of Wrath
+/cast [@targettarget] Auto Attack
+/follow
+END
+VER 3 0100000000000002 "judg" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/tar Dawnshuffle
+/cast [@targettarget] Judgment
+/cast [@targettarget] Auto Attack
+/follow
+END
+VER 3 0100000000000008 "prote" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/tar Dawnshuffle
+/cast [@targettarget] Hand of Protection
+/follow
+END
+VER 3 0100000000000006 "rebu" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/tar Dawnshuffle
+/cast [@targettarget] Rebuke
+/follow
+END
+VER 3 0100000000000004 "tv" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/tar Dawnshuffle
+/cast [@targettarget] Templar's Verdict
+/cast [@targettarget] Auto Attack
+/follow
+END
+VER 3 010000000000000C "wake" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast Wake of Ashes
+END
+VER 3 010000000000000A "wings" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast Avenging Wrath
+END

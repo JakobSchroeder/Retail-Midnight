@@ -1,0 +1,33 @@
+VER 3 0100000000000029 "bladespree" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [talent:7/2] Blade Rush; [talent:7/3] Killing Spree
+END
+VER 3 0100000000000024 "CancelFlurry" "INV_MISC_QUESTIONMARK"
+#showtooltip Blade Flurry
+/cancelaura Blade Flurry
+END
+VER 3 0100000000000027 "CoinReflection" "INV_MISC_QUESTIONMARK"
+#showtooltip Shadow Reflection
+/use Lucky Double-Sided Coin
+/cast Shadow Reflection
+END
+VER 3 0100000000000028 "cursorhook" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@cursor] Grappling Hook
+END
+VER 3 0100000000000026 "FriendlyStep" "INV_MISC_QUESTIONMARK"
+#showtooltip Shadowstep
+/cast [target=mouseover,exists]Shadowstep
+END
+VER 3 010000000000002A "Secret Tornado" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [talent:7/2] Secret Technique; [talent:7/3] Shuriken Tornado
+END
+VER 3 010000000000002B "targetstep" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@target,exists] Shadowstep
+END
+VER 3 0100000000000025 "Tricks" "INV_MISC_QUESTIONMARK"
+#showtooltip Tricks of the Trade
+/cast [target=focus] Tricks of the Trade
+END

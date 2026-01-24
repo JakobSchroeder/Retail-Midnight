@@ -1,0 +1,52 @@
+VER 3 0100000000000010 "CancelSEF" "INV_MISC_QUESTIONMARK"
+#showtooltip Storm, Earth, and Fire
+/cancelaura Storm, Earth, and Fire
+END
+VER 3 0100000000000006 "Interruptfocus" "INV_MISC_QUESTIONMARK"
+#showtooltip Spear Hand Strike
+/stopcasting
+/cast Spear Hand Strike
+END
+VER 3 0100000000000001 "Jab" "INV_MISC_QUESTIONMARK"
+#showtooltip Jab
+/use 10
+/use 13
+/use 14
+/cast Jab
+/cancelaura Hand of Protection
+END
+VER 3 0100000000000012 "MouseSEF" "INV_MISC_QUESTIONMARK"
+#showtooltip Storm, Earth, and Fire
+/Cast [@mouseover, harm, exists][@target, exists] Storm, Earth, and Fire
+END
+VER 3 0100000000000009 "Renewing Mist" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [stance:1,@mouseover,exists,help] [stance:1] Renewing Mist; [stance:2] Jab
+/cast Blood Fury(Racial)
+END
+VER 3 010000000000000F "SEF" "INV_MISC_QUESTIONMARK"
+#showtooltip Storm, Earth, and Fire
+/target Desecrated Weapon
+/cast Storm, Earth, and Fire
+/targetlasttarget
+END
+VER 3 0100000000000002 "T2" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [talent:2/1] Chi Wave; [talent:2/3] Chi Burst; [target=focus][talent:2/2] Zen Sphere; [talent:2/2]Zen Sphere
+END
+VER 3 0100000000000015 "T60" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [talent:4/1,target=mouseover,help,nodead][talent:4/1] Ring of Peace;[talent:4/2] Charging Ox Wave; [talent:4/3] Leg Sweep
+END
+VER 3 0100000000000003 "T75" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [talent:5/2] Dampen Harm; [talent:5/3] Diffuse Magic
+END
+VER 3 010000000000000E "Tiger's Lust" "INV_MISC_QUESTIONMARK"
+#showtooltip Tiger's Lust
+/cast [target=mouseover,exists,help] Tiger's Lust; Tiger's Lust
+END
+VER 3 0100000000000011 "Xuen" "INV_MISC_QUESTIONMARK"
+#showtooltip Invoke Xuen, the White Tiger
+/cast Invoke Xuen, the White Tiger
+END

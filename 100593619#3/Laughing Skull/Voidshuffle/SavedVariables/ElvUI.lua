@@ -2,11 +2,11 @@
 ElvCharacterDB = {
 ["ConvertKeybindings"] = true,
 ["ChatEditHistory"] = {
-"/opie",
-"/bp",
+"/pam",
+"/pam options",
+"/reload",
+"/arcui",
 "/wa",
-"/macro",
-"/tt",
 },
 ["ChatHistoryLog"] = {
 {

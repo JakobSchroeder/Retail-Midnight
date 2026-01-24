@@ -1,0 +1,55 @@
+VER 3 0100000000000022 "bdb" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@cursor] Bonedust Brew
+END
+VER 3 0100000000000023 "bdbself" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@player] Bonedust Brew
+END
+VER 3 010000000000001D "chi" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [talent:1/3,nochanneling] Chi Wave; [talent:1/1,nochanneling] Chi Burst
+END
+VER 3 0100000000000021 "curstatue" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@cursor] Summon Jade Serpent Statue
+END
+VER 3 0100000000000020 "essencekick" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@target,help,nodead,exists][@mouseover,help,nodead,exists] Essence Font; [@target,harm,nodead,exists] Blackout Kick; [] Essence Font
+END
+VER 3 0100000000000005 "interruptfocus" "INV_MISC_QUESTIONMARK"
+#showtooltip Spear Hand Strike
+/cast [target=focus,exists,harm] Spear Hand Strike; Spear Hand Strike
+END
+VER 3 010000000000001F "reversemouse" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,exists,help][]Reverse Harm
+/cast Heart Essence
+END
+VER 3 010000000000001E "rop" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@cursor] Ring of Peace; Song of Chi-Ji
+END
+VER 3 010000000000000E "Tiger's Lust" "INV_MISC_QUESTIONMARK"
+#showtooltip Tiger's Lust
+/cast [@mouseover,exists]Tiger's Lust; Tiger's Lust
+END
+VER 3 0100000000000016 "Trinket 1" "INV_MISC_QUESTIONMARK"
+/use 13
+END
+VER 3 0100000000000017 "Trinket 2" "INV_MISC_QUESTIONMARK"
+/use 14
+END
+VER 3 010000000000001B "wdp" "INV_MISC_QUESTIONMARK"
+#showtooltip Whirling Dragon Punch
+/cast [nochanneling]Whirling Dragon Punch
+END
+VER 3 0100000000000011 "Xuen" "INV_MISC_QUESTIONMARK"
+#showtooltip Invoke Xuen, the White Tiger
+/cast Invoke Xuen, the White Tiger
+END
+VER 3 0100000000000024 "zenpulse" "134400"
+#showtooltip
+/cast [@mouseover,exists,help][]Zen Pulse
+END

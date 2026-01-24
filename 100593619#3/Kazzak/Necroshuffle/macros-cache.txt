@@ -1,0 +1,78 @@
+VER 3 0100000000000008 "ams" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast Anti-Magic Shell
+END
+VER 3 010000000000000D "apoc" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/target Hemoshuffle
+/cast [@targettarget] Apocalypse
+/follow
+END
+VER 3 010000000000000E "army" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast Army of the Dead
+END
+VER 3 0100000000000003 "coil" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/target Hemoshuffle
+/cast [@targettarget] Death Coil
+/follow
+END
+VER 3 0100000000000006 "deth" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/target Hemoshuffle
+/cast [@targettarget] Death Strike
+/follow
+END
+VER 3 0100000000000007 "dnd" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@player] Death and Decay
+END
+VER 3 010000000000000C "dt" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast Dark Transformation
+END
+VER 3 0100000000000002 "fester" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/target Hemoshuffle
+/cast [@targettarget] Festering Strike
+/follow
+END
+VER 3 010000000000000A "freeze" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/target Hemoshuffle
+/cast [@targettarget] Mind Freeze
+/follow
+END
+VER 3 0100000000000005 "grip" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/target Hemoshuffle
+/cast [@targettarget] Death Grip
+/follow
+END
+VER 3 010000000000000F "gripnoauto" "INV_MISC_QUESTIONMARK"
+/cast Death Grip
+/stopattack
+END
+VER 3 0100000000000009 "ibf" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast Icebound Fortitude
+END
+VER 3 0100000000000004 "outb" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/target Hemoshuffle
+/cast [@targettarget] Outbreak
+/follow
+END
+VER 3 010000000000000B "raise" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/target Hemoshuffle
+/cast [mod=shift,@targettarget] Raise Ally
+/follow
+END
+VER 3 0100000000000001 "scourge" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/target Hemoshuffle
+/cast [@targettarget] Scourge Strike
+/follow
+END

@@ -1,0 +1,76 @@
+VER 3 010000000000001C "Arcway" "INV_MISC_QUESTIONMARK"
+#showtooltip Brand of the Legion
+/cast [@mouseover] Brand of the Legion
+END
+VER 3 0100000000000014 "burning rush" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cancelaura Burning Rush
+/cast Burning Rush
+END
+VER 3 010000000000000F "CancelBrim" "INV_MISC_QUESTIONMARK"
+#showtooltip Fire and Brimstone
+/cancelaura Fire and Brimstone
+END
+VER 3 010000000000001A "cancelportal" "INV_MISC_QUESTIONMARK"
+#showtooltip Demonic Circle
+/cancelaura Demonic Circle
+/cast Demonic Circle
+END
+VER 3 0100000000000020 "cata" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@cursor] Cataclysm
+END
+VER 3 0100000000000017 "drain" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [talent:1/3]Drain Soul; Drain Life
+END
+VER 3 0100000000000011 "mouseagony" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [target=mouseover,harm,exists,nodead]Agony; Agony
+END
+VER 3 0100000000000010 "MouseBurn" "INV_MISC_QUESTIONMARK"
+#showtooltip Shadowburn
+/cast [target=mouseover,exists,harm,nodead] Shadowburn; Shadowburn
+END
+VER 3 0100000000000013 "mousecorr" "INV_MISC_QUESTIONMARK"
+#showtooltip Corruption
+/use Lightforged Augment Rune
+/cast [target=mouseover,harm,exists,nodead] Corruption; Corruption
+END
+VER 3 0100000000000019 "mousedoom" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [talent:2/3,@mouseover,harm,exists]Doom; [talent:2/3]Doom; [talent:2/2] Power Siphon
+END
+VER 3 010000000000001E "mousefernal" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@cursor] Summon Infernal
+END
+VER 3 010000000000001F "mousefury" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@cursor] Shadowfury
+END
+VER 3 010000000000000E "MouseHavoc" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [target=mouseover,exists,harm,nodead] Havoc; Havoc
+END
+VER 3 010000000000001B "mouseoffire" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@cursor] Rain of Fire
+END
+VER 3 0100000000000012 "Mouseunstable" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [target=mouseover,harm,exists,nodead] Unstable Affliction; Unstable Affliction
+END
+VER 3 010000000000001D "runeflag" "INV_MISC_QUESTIONMARK"
+#showtooltip Conflagrate
+/use Lightforged Augment Rune
+/cast Conflagrate
+END
+VER 3 0100000000000016 "Siphon" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [target=mouseover,harm,exists,nodead]Siphon Life; Siphon Life
+END
+VER 3 0100000000000008 "Soulstone" "INV_MISC_QUESTIONMARK"
+#showtooltip Soulstone
+/cast [target=mouseover,exists,help,dead] Soulstone; Soulstone
+END

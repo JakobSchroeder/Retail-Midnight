@@ -4,9 +4,9 @@ FalconAddOnDB = {
 ["Modern"] = {
 ["Styles"] = {
 ["Clean"] = {
+["SpeedHeight"] = 14,
 ["SwapPositions"] = false,
 ["Padding"] = 0,
-["SpeedHeight"] = 14,
 ["ChargeHeight"] = 14,
 ["Width"] = 36,
 },
@@ -73,9 +73,9 @@ FalconAddOnDB = {
 ["FalconGlobalSettings"] = {
 ["Styles"] = {
 ["Clean"] = {
+["SpeedHeight"] = 14,
 ["SwapPositions"] = false,
 ["Padding"] = 0,
-["SpeedHeight"] = 14,
 ["ChargeHeight"] = 14,
 ["Width"] = 36,
 },
@@ -112,6 +112,7 @@ FalconAddOnDB = {
 ["whirlingSurgeMode"] = 0,
 ["CurrentTexture"] = {
 ["Name"] = "Minimalist",
+["Texture"] = "Interface\\AddOns\\Falcon\\Media\\Statusbar\\FalconSmooth.tga",
 },
 ["mutedSoundsBitfield"] = 0,
 ["y"] = -100.5000610351563,
@@ -141,9 +142,9 @@ FalconAddOnDB = {
 ["DF1"] = {
 ["Styles"] = {
 ["Clean"] = {
+["SpeedHeight"] = 14,
 ["SwapPositions"] = false,
 ["Padding"] = 0,
-["SpeedHeight"] = 14,
 ["ChargeHeight"] = 14,
 ["Width"] = 36,
 },

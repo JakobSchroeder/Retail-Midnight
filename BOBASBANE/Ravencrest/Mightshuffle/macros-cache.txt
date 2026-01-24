@@ -1,0 +1,37 @@
+VER 3 0100000000000007 "boom" "INV_MISC_QUESTIONMARK"
+#showtooltip Battle Cry
+/use Battle Cry
+/use Avatar
+/use 13
+END
+VER 3 0100000000000002 "CancelStorm" "INV_MISC_QUESTIONMARK"
+#showtooltip Bladestorm
+/cancelaura Bladestorm
+END
+VER 3 0100000000000004 "deshoes" "INV_MISC_QUESTIONMARK"
+#showtooltip Disenchant
+/cast Disenchant
+/use Shadowmoon Treads
+END
+VER 3 0100000000000008 "mouseleap" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@cursor] Heroic Leap
+END
+VER 3 0100000000000001 "Mousevene" "INV_MISC_QUESTIONMARK"
+#showtooltip Intervene
+/cast [target=mouseover,exists,help] Intervene; Intervene
+END
+VER 3 010000000000000A "prothidden" "INV_MISC_QUESTIONMARK"
+/run print(IsQuestFlaggedCompleted(44311)) 
+/run print(IsQuestFlaggedCompleted(44312)) 
+END
+VER 3 0100000000000009 "Reckring" "INV_MISC_QUESTIONMARK"
+#showtooltip Battle Cry
+/cast Battle Cry
+/use 11
+/use 12
+END
+VER 3 0100000000000003 "Vigi" "INV_MISC_QUESTIONMARK"
+#showtooltip Vigilance
+/cast [target=mouseover,help] Vigilance; Vigilance
+END

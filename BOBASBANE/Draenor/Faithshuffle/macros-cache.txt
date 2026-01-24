@@ -1,0 +1,76 @@
+VER 3 0100000000000013 "BH" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [target=mouseover,help,exists]Binding Heal; Binding Heal
+END
+VER 3 0100000000000007 "DispersionCancel" "INV_MISC_QUESTIONMARK"
+#showtooltip Dispersion
+/cancelaura Dispersion
+END
+VER 3 0100000000000014 "Fiend" "INV_MISC_QUESTIONMARK"
+#showtooltip Shadowfiend
+/stopmacro [channeling:Void Torrent]
+/cast Shadowfiend
+END
+VER 3 010000000000000A "Flashmouse" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [target=mouseover,help,exists]Flash Heal; Flash Heal
+END
+VER 3 010000000000000B "Greatermouse" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [target=mouseover,help,exists]Heal; Heal
+END
+VER 3 0100000000000002 "MouseLeap" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [target=mouseover,exists,help] Leap of Faith; Leap of Faith
+END
+VER 3 010000000000000D "MouseofHealing" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [target=mouseover,help,exists]Prayer of Healing; Prayer of Healing
+END
+VER 3 010000000000000E "MouseofMending" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [target=mouseover,help,exists]Prayer of Mending; Prayer of Mending
+END
+VER 3 010000000000000F "Mouseradiance" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [target=mouseover,help,exists]Power Word: Radiance; Power Word: Radiance
+END
+VER 3 0100000000000001 "MouseSear" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [target=mouseover,exists,help]Mind Sear; Mind Sear
+END
+VER 3 0100000000000011 "Painmouse" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [target=mouseover,help,exists]Pain Suppression; Pain Suppression
+END
+VER 3 010000000000000C "Penmouse" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [target=mouseover,help,exists]Plea; Plea
+END
+VER 3 0100000000000010 "Purify" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [target=mouseover,help,exists]Purify; Purify
+END
+VER 3 0100000000000009 "PWmouse" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [target=mouseover,help,exists]Power Word: Shield; Power Word: Shield
+END
+VER 3 0100000000000008 "selfPWS" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [talent:2/1,target=player] Power Word: Shield
+END
+VER 3 0100000000000006 "SWD" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/stopmacro [channeling:Void Torrent]
+/cast [target=mouseover,exists,harm,nodead]Shadow Word: Death; Shadow Word: Death
+END
+VER 3 0100000000000003 "SWP" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/stopmacro [channeling:Void Torrent]
+/cast [target=mouseover,exists,harm,nodead]Shadow Word: Pain; Shadow Word: Pain
+END
+VER 3 0100000000000004 "VT" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/stopmacro [channeling:Void Torrent]
+/cast [target=mouseover,exists,harm,nodead]Vampiric Touch; Vampiric Touch
+END

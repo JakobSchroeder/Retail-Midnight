@@ -1,0 +1,50 @@
+VER 3 0100000000000001 "bind" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [@cursor] Binding Shot
+END
+VER 3 0100000000000002 "cancelturtle" "134400"
+/cancelaura Aspect of the Turtle
+END
+VER 3 0100000000000003 "flare" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [@cursor] Flare
+END
+VER 3 0100000000000004 "focuskick" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [@focus,harm,nodead] Counter Shot
+END
+VER 3 0100000000000005 "freeze" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [@cursor] Freezing Trap
+END
+VER 3 0100000000000006 "imp trap" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [@cursor] Implosive Trap
+END
+VER 3 0100000000000007 "master" "INV_Misc_QuestionMark"
+#showtooltip Command Pet
+/target [@mouseover,help,nodead][@player]
+/cast Command Pet
+/targetlasttarget
+END
+VER 3 0100000000000008 "md" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [@focus] Misdirection
+END
+VER 3 010000000000000C "openbag" "134400"
+/use Cache of Infinite Treasure
+END
+VER 3 0100000000000009 "tar" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [@cursor] Tar Trap
+END
+VER 3 010000000000000A "trueshot" "INV_Misc_QuestionMark"
+#showtooltip Trueshot
+/cast Ancestral Call(Racial)
+/cast Trueshot
+END
+VER 3 010000000000000B "volley" "INV_Misc_QuestionMark"
+#showtooltip Volley
+/use Salvo
+/use [@cursor]Volley
+END

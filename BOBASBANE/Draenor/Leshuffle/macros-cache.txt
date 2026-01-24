@@ -1,0 +1,4 @@
+VER 3 0100000000000001 "soul strike" "134400"
+#showtooltip
+/cast Soul Strike
+END

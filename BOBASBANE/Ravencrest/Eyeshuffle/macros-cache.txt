@@ -1,0 +1,31 @@
+VER 3 0100000000000004 "cancelwalk" "INV_MISC_QUESTIONMARK"
+#showtooltip Netherwalk
+/cancelaura Netherwalk
+END
+VER 3 0100000000000005 "chaosrune" "INV_MISC_QUESTIONMARK"
+#showtooltip Chaos Strike
+/use Lightforged Augment Rune
+/cast Chaos Strike
+END
+VER 3 0100000000000002 "cursorleap" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@cursor] Infernal Strike
+END
+VER 3 0100000000000006 "fracturerune" "INV_MISC_QUESTIONMARK"
+#showtooltip Fracture
+/use Lightforged Augment Rune
+/cast Fracture
+END
+VER 3 0100000000000001 "mousemeta" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@cursor] Metamorphosis
+END
+VER 3 0100000000000007 "nemesisring" "INV_MISC_QUESTIONMARK"
+#showtooltip Nemesis
+/cast Nemesis
+/use Gnawed Thumb Ring
+END
+VER 3 0100000000000003 "playerleap" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@player] Infernal Strike
+END

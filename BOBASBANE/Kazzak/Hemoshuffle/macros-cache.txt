@@ -1,0 +1,31 @@
+VER 3 0100000000000006 "amz" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@cursor] Anti-Magic Zone
+END
+VER 3 0100000000000007 "breath" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast !Breath of Sindragosa
+/cast Raise Dead
+END
+VER 3 0100000000000001 "dnd" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@cursor] Death and Decay
+END
+VER 3 0100000000000005 "festeringclaw" "INV_MISC_QUESTIONMARK"
+#showtooltip Festering Strike
+/cast [combat] Claw
+/cast Festering Strike
+END
+VER 3 0100000000000003 "gripnoauto" "INV_MISC_QUESTIONMARK"
+/cast Death Grip
+/stopattack
+END
+VER 3 0100000000000002 "rez" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,help,exists,dead][] Raise Ally
+END
+VER 3 0100000000000004 "scourgeclaw" "INV_MISC_QUESTIONMARK"
+#showtooltip Scourge Strike
+/cast [combat] Claw
+/cast Scourge Strike
+END

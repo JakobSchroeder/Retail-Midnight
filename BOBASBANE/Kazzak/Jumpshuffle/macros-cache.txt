@@ -1,0 +1,3 @@
+VER 3 0100000000000001 "inv" "INV_MISC_QUESTIONMARK"
+/invite Yumpshuffle
+END

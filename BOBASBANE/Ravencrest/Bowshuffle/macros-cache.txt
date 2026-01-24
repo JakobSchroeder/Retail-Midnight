@@ -1,0 +1,65 @@
+VER 3 0100000000000013 "Barbpet" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast Barbed Shot
+/cast Claw
+/cast Bite
+/cast Smack
+END
+VER 3 010000000000000A "boomtrap" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@cursor] Explosive Trap
+END
+VER 3 0100000000000004 "canceldet" "INV_MISC_QUESTIONMARK"
+#showtooltip Aspect of the Turtle
+/cancelaura Aspect of the Turtle
+END
+VER 3 0100000000000014 "Cobrapet" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast Cobra Shot
+/cast Claw
+/cast Bite
+/cast Smack
+END
+VER 3 010000000000000F "flare" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@cursor] Flare
+END
+VER 3 010000000000000E "freezetrap" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@cursor] Freezing Trap
+END
+VER 3 0100000000000012 "KCpet" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast Kill Command
+/cast Claw
+/cast Bite
+/cast Smack
+END
+VER 3 0100000000000003 "MD" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [target=focus]Misdirection; Misdirection
+END
+VER 3 010000000000000C "mouserez" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,help,exists,dead][] Gift of Chi-Ji
+END
+VER 3 0100000000000016 "movetocursor" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast Move To(Pet Command)
+END
+VER 3 0100000000000015 "Multipet" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast Multi-Shot
+/cast Claw
+/cast Bite
+/cast Smack
+END
+VER 3 010000000000000D "tartrap" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@cursor] Tar Trap
+END
+VER 3 0100000000000011 "tranq" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast Chi-Ji's Tranquility(Special Ability)
+/cast Nether Shock(Special Ability)
+END

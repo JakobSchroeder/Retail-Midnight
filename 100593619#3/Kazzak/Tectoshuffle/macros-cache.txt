@@ -1,0 +1,76 @@
+VER 3 010000000000000B "cap" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@player] Capacitor Totem
+END
+VER 3 0100000000000004 "cl" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/tar Terrashuffle
+/cast [@targettarget] Chain Lightning
+/follow
+END
+VER 3 0100000000000001 "es" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/tar Terrashuffle
+/cast [@targettarget] Earth Shock
+/follow
+END
+VER 3 0100000000000008 "fe" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/tar Terrashuffle
+/cast [@targettarget] Fire Elemental
+/follow
+END
+VER 3 010000000000000C "frs" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/tar Terrashuffle
+/cast [@targettarget] Frost Shock
+/follow
+END
+VER 3 0100000000000002 "fs" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/tar Terrashuffle
+/cast [@targettarget] Flame Shock
+/follow
+END
+VER 3 0100000000000003 "lb" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/tar Terrashuffle
+/cast [@targettarget] Lightning Bolt
+/follow
+END
+VER 3 0100000000000005 "lvb" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/tar Terrashuffle
+/cast [@targettarget] Lava Burst
+/follow
+END
+VER 3 0100000000000009 "qua" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@player] Earthquake
+END
+VER 3 010000000000000E "sk" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast STormkeeper
+END
+VER 3 0100000000000007 "surge" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@player] Healing Surge
+END
+VER 3 010000000000000D "trem" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast Tremor Totem
+END
+VER 3 010000000000000A "ts" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast Thunderstorm
+END
+VER 3 010000000000000F "wrt" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@player] Wind Rush Totem
+END
+VER 3 0100000000000006 "ws" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/tar Terrashuffle
+/cast [@targettarget] Wind Shear
+/follow
+END

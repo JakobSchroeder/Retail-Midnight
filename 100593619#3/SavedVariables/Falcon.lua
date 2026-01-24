@@ -4,9 +4,9 @@ FalconAddOnDB = {
 ["Modern"] = {
 ["Styles"] = {
 ["Clean"] = {
+["SwapPositions"] = false,
 ["Padding"] = 0,
 ["SpeedHeight"] = 14,
-["SwapPositions"] = false,
 ["ChargeHeight"] = 14,
 ["Width"] = 36,
 },
@@ -73,9 +73,9 @@ FalconAddOnDB = {
 ["FalconGlobalSettings"] = {
 ["Styles"] = {
 ["Clean"] = {
+["SwapPositions"] = false,
 ["Padding"] = 0,
 ["SpeedHeight"] = 14,
-["SwapPositions"] = false,
 ["ChargeHeight"] = 14,
 ["Width"] = 36,
 },
@@ -142,9 +142,9 @@ FalconAddOnDB = {
 ["DF1"] = {
 ["Styles"] = {
 ["Clean"] = {
+["SwapPositions"] = false,
 ["Padding"] = 0,
 ["SpeedHeight"] = 14,
-["SwapPositions"] = false,
 ["ChargeHeight"] = 14,
 ["Width"] = 36,
 },

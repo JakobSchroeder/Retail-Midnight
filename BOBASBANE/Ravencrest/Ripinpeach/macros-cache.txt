@@ -1,0 +1,46 @@
+VER 3 0100000000000008 "Deroot" "INV_MISC_QUESTIONMARK"
+#showtooltip Cat Form
+/cancelaura [stance:3] Cat Form
+/cast Cat Form
+END
+VER 3 010000000000000E "Dispel" "INV_MISC_QUESTIONMARK"
+#showtooltip 
+/cast [@mouseover,exists,nodead,help,][exists,nodead,help][@player] Nature's Cure
+END
+VER 3 010000000000000B "Iron Bark" "INV_MISC_QUESTIONMARK"
+#showtooltip 
+/cast [@mouseover,exists,nodead,help,][exists,nodead,help][@player] Ironbark
+END
+VER 3 0100000000000009 "Lifebloom" "INV_MISC_QUESTIONMARK"
+#showtooltip 
+/cast [@mouseover,exists,nodead,help,][exists,nodead,help][@player] Lifebloom
+END
+VER 3 0100000000000010 "mill" "INV_MISC_QUESTIONMARK"
+#showtooltip Milling
+/cast Milling
+/use Starflower
+/use Nagrand Arrowbloom
+/use Talador Orchid
+/use Fireweed
+/use Frostweed
+END
+VER 3 010000000000000F "Regrowth" "INV_MISC_QUESTIONMARK"
+#showtooltip 
+/cast [@mouseover,exists,nodead,help,][exists,nodead,help][@player] Regrowth
+END
+VER 3 010000000000000A "Rejuv" "INV_MISC_QUESTIONMARK"
+#showtooltip Rejuvenation
+/cast [@mouseover,exists,nodead,help,][exists,nodead,help][@player] Rejuvenation
+END
+VER 3 0100000000000011 "sunfire" "134400"
+#showtooltip
+/cast [@mouseover,harm,exists,nodead][] Sunfire
+END
+VER 3 010000000000000C "Swiftmend" "INV_MISC_QUESTIONMARK"
+#showtooltip 
+/cast [@mouseover,exists,nodead,help,][exists,nodead,help][@player] Swiftmend
+END
+VER 3 010000000000000D "Wild Growth" "INV_MISC_QUESTIONMARK"
+#showtooltip 
+/cast [@mouseover,exists,nodead,help,][exists,nodead,help][@player] Wild Growth
+END

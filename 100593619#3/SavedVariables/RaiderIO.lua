@@ -12,14 +12,9 @@ RaiderIO_Config = {
 ["point"] = "TOPLEFT",
 },
 }
-RaiderIO_LastCharacter = "eu-Soulshuffle-laughing-skull"
+RaiderIO_LastCharacter = "eu-Ghostshuffle-laughing-skull"
 RaiderIO_MissingCharacters = {
-["eu-Pomurnik-balnazzar"] = true,
-["eu-Denied-talnivarr"] = true,
-["eu-Skayle-chromaggus"] = true,
-["eu-Abady-outland"] = true,
-["eu-Deathzle-kazzak"] = true,
-["eu-Unspekable-shattered-halls"] = true,
+["eu-Ghostshuffle-laughing-skull"] = true,
 }
 RaiderIO_MissingServers = {
 }

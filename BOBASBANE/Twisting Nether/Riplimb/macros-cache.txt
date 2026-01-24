@@ -1,0 +1,20 @@
+VER 3 0100000000000028 "Boom" "INV_MISC_QUESTIONMARK"
+#showtooltip Recklessness
+/cast Recklessness
+/cast Bloodbath
+/cast Lifeblood
+/cast Skull Banner
+END
+VER 3 0100000000000027 "MouseIntervene" "INV_MISC_QUESTIONMARK"
+#showtooltip Intervene
+/cast [target=mouseover,help] Intervene; Intervene
+END
+VER 3 0100000000000029 "Reckless Avatar" "INV_MISC_QUESTIONMARK"
+#showtooltip Avatar
+/cast Avatar
+/cast Recklessness
+END
+VER 3 0100000000000026 "Vigilance" "INV_MISC_QUESTIONMARK"
+#showtooltip Vigilance
+/cast [target=mouseover,help] Vigilance; Vigilance
+END

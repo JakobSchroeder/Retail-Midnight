@@ -1,0 +1,69 @@
+VER 3 010000000000000C "Bacon" "INV_MISC_QUESTIONMARK"
+#showtooltip Beacon of Light
+/cast [target=mouseover,exists,help]Beacon of Light; Beacon of Light
+END
+VER 3 0100000000000014 "Bacon of Faith" "INV_MISC_QUESTIONMARK"
+#showtooltip Beacon of Faith
+/cast [target=mouseover,exists,help]Beacon of Faith; Beacon of Faith
+END
+VER 3 0100000000000002 "BestowMouse" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [target=mouseover,exists,help,nodead][] Bestow Faith
+END
+VER 3 010000000000000D "Cleanse" "INV_MISC_QUESTIONMARK"
+#showtooltip Cleanse
+/cast [target=mouseover,exists,help]Cleanse; Cleanse
+END
+VER 3 010000000000001A "csbracers" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast Crusader Strike
+/use 9
+END
+VER 3 0100000000000016 "essence" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,exists,help,nodead][@cursor][] Heart Essence
+END
+VER 3 0100000000000017 "focusbuke" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@focus] Rebuke
+END
+VER 3 0100000000000009 "FoL" "INV_MISC_QUESTIONMARK"
+#showtooltip Flash of Light
+/cast [@mouseover,exists,help,nodead] Flash of Light; Flash of Light
+END
+VER 3 0100000000000008 "HoF" "INV_MISC_QUESTIONMARK"
+#showtooltip 
+/cast [target=mouseover,exists,help] Blessing of Freedom; Blessing of Freedom
+END
+VER 3 010000000000000B "Holy Light" "INV_MISC_QUESTIONMARK"
+#showtooltip Holy Light
+/cast [target=mouseover,exists,help]Holy Light; Holy Light
+END
+VER 3 0100000000000001 "HoP" "INV_MISC_QUESTIONMARK"
+#showtooltip 
+/cast [target=mouseover,exists,help] Blessing of Protection; Blessing of Protection
+END
+VER 3 0100000000000006 "HoSac" "INV_MISC_QUESTIONMARK"
+#showtooltip 
+/cast [target=mouseover,exists,help] Blessing of Sacrifice; Blessing of Sacrifice
+END
+VER 3 0100000000000003 "LoH" "INV_MISC_QUESTIONMARK"
+#showtooltip Lay on Hands
+/cast [target=mouseover,exists,help] Lay on Hands; Lay on Hands
+END
+VER 3 010000000000000F "LotM" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [target=mouseover,exists,help,nodead][] Light of the Martyr
+END
+VER 3 0100000000000018 "mousetoxin" "INV_MISC_QUESTIONMARK"
+#showtooltip 
+/cast [target=mouseover,exists,help]Cleanse Toxins; Cleanse Toxins
+END
+VER 3 0100000000000010 "Shock" "INV_MISC_QUESTIONMARK"
+#showtooltip Holy Shock
+/cast [target=mouseover,exists,help]Holy Shock; Holy Shock
+END
+VER 3 0100000000000019 "Wog" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,help,nodead,exists][] Word of Glory
+END

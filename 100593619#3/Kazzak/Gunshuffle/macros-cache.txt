@@ -1,0 +1,56 @@
+VER 3 0100000000000003 "barb" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/target Spearshuffle
+/cast [@targettarget] Arcane Shot
+/follow
+END
+VER 3 010000000000000B "bind" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@player] Binding Shot
+END
+VER 3 0100000000000001 "cobra" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/target Spearshuffle
+/cast [@targettarget] Aimed Shot
+/follow
+END
+VER 3 0100000000000006 "cs" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/target Spearshuffle
+/cast [@targettarget] Counter Shot
+/follow
+END
+VER 3 0100000000000009 "focustarget" "INV_MISC_QUESTIONMARK"
+/target Spearshuffle
+/focus targettarget
+END
+VER 3 0100000000000007 "freeze" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@player] Freezing Trap
+END
+VER 3 0100000000000008 "md" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@focus] Misdirection
+END
+VER 3 0100000000000004 "mult" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/target Spearshuffle
+/cast [@targettarget] Multi-shot
+/follow
+END
+VER 3 0100000000000002 "rap" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/target Spearshuffle
+/cast [@targettarget] Rapid Fire
+/follow
+END
+VER 3 0100000000000005 "stead" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/target Spearshuffle
+/cast [@targettarget] Steady Shot
+/follow
+END
+VER 3 010000000000000A "tar" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@player] Tar Trap
+END

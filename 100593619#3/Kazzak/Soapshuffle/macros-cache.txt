@@ -1,0 +1,73 @@
+VER 3 010000000000000C "Bacon" "INV_MISC_QUESTIONMARK"
+#showtooltip Beacon of Light
+/cast [target=mouseover,exists,help,nodead]Beacon of Light; Beacon of Light
+END
+VER 3 0100000000000014 "Bacon of Faith" "INV_MISC_QUESTIONMARK"
+#showtooltip Beacon of Faith
+/cast [target=mouseover,exists,help,nodead]Beacon of Faith; Beacon of Faith
+END
+VER 3 0100000000000018 "Cancelaura" "INV_MISC_QUESTIONMARK"
+/cancelaura Divine Shield
+/cancelaura Blessing of Protection
+END
+VER 3 010000000000000D "Cleanse" "INV_MISC_QUESTIONMARK"
+#showtooltip Cleanse
+/cast [target=mouseover,exists,help,nodead]Cleanse; Cleanse
+END
+VER 3 010000000000001A "dispel" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [target=mouseover,exists,help,nodead] Cleanse Toxins; Cleanse Toxins
+END
+VER 3 010000000000001F "finalcursor" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@cursor] Final Reckoning
+END
+VER 3 010000000000001E "focusbuke" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@focus,harm,exists,nodead] Rebuke
+END
+VER 3 0100000000000009 "FoL" "INV_MISC_QUESTIONMARK"
+#showtooltip Flash of Light
+/cast [target=mouseover,exists,help,nodead] Flash of Light; Flash of Light
+END
+VER 3 0100000000000008 "HoF" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [target=mouseover,exists,help] Blessing of Freedom; Blessing of Freedom
+END
+VER 3 010000000000000B "Holy Light" "INV_MISC_QUESTIONMARK"
+#showtooltip Holy Light
+/cast [target=mouseover,exists,help,nodead]Holy Light; Holy Light
+END
+VER 3 0100000000000001 "HoP" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [target=mouseover,exists,help] Blessing of Protection; Blessing of Protection
+END
+VER 3 0100000000000006 "HoSac" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [target=mouseover,exists,help,nodead] Blessing of Sacrifice; Blessing of Sacrifice
+END
+VER 3 010000000000001C "lightshammer" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@cursor] Light's Hammer
+/cast [@mouseover,help,exists,nodead][] Bestow Faith
+END
+VER 3 0100000000000003 "LoH" "INV_MISC_QUESTIONMARK"
+#showtooltip Lay on Hands
+/cast [target=mouseover,exists,help,nodead] Lay on Hands
+END
+VER 3 010000000000001B "lotm" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,help,exists,nodead][] Light of the Martyr
+END
+VER 3 010000000000001D "mousetoll" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,help,exists,nodead][] Divine Toll
+END
+VER 3 0100000000000010 "Shock" "INV_MISC_QUESTIONMARK"
+#showtooltip Holy Shock
+/cast [target=mouseover,exists,help,nodead]Holy Shock; Holy Shock
+END
+VER 3 0100000000000002 "WoG" "INV_MISC_QUESTIONMARK"
+#showtooltip Word of Glory
+/cast [target=mouseover,exists,help,nodead]Word of Glory; Word of Glory
+END

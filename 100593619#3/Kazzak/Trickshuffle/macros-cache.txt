@@ -1,0 +1,83 @@
+VER 3 010000000000000F "blind" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/tar Vanishuffle
+/cast [@targettarget] Blind
+/follow
+END
+VER 3 0100000000000003 "bs" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/tar Vanishuffle
+/cast [@targettarget] Backstab
+/cast [@targettarget] Auto Attack
+/follow
+END
+VER 3 010000000000000A "evas" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast Evasion
+END
+VER 3 0100000000000002 "evis" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/tar Vanishuffle
+/cast [@targettarget] Eviscerate
+/cast [@targettarget] Auto Attack
+/follow
+END
+VER 3 010000000000000C "feint" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast Feint
+END
+VER 3 0100000000000012 "focus" "INV_MISC_QUESTIONMARK"
+/focus [@targettarget]
+END
+VER 3 0100000000000005 "kick" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/tar Vanishuffle
+/cast [@targettarget] Kick
+/follow
+END
+VER 3 0100000000000006 "nb" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/tar Vanishuffle
+/cast [@targettarget] Nightblade
+/cast [@targettarget] Auto Attack
+/follow
+END
+VER 3 0100000000000008 "shdance" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast Shadow Dance
+END
+VER 3 0100000000000004 "shs" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/tar Vanishuffle
+/cast [@targettarget] Shadowstrike
+/cast [@targettarget] Auto Attack
+/follow
+END
+VER 3 0100000000000009 "sprint" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast Sprint
+END
+VER 3 0100000000000007 "sstep" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/tar Vanishuffle
+/cast [@targettarget] Shadowstep
+/follow
+END
+VER 3 010000000000000E "stealth" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast Stealth
+END
+VER 3 010000000000000B "symb" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast Symbols of Death
+END
+VER 3 0100000000000011 "tricks" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/tar Vanishuffle
+/cast [@focus] Tricks of the Trade
+/follow
+END
+VER 3 010000000000000D "vial" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast Crimson Vial
+END

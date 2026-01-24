@@ -4,16 +4,122 @@ VMRT = {
 ["Strata"] = "HIGH",
 },
 ["ProfileKeys"] = {
-["Voidshuffle-LaughingSkull"] = "default",
+["Bankpshuffle-LaughingSkull"] = "default",
+["Spellshuffel-Ravencrest"] = "default",
+["Bankrshuffle-LaughingSkull"] = "default",
+["Gunshuffle-Kazzak"] = "default",
+["Floorshuffle-Ravencrest"] = "default",
 ["Soulshuffle-LaughingSkull"] = "default",
+["Kafirshuffle-Draenor"] = "default",
+["Smashuffle-LaughingSkull"] = "default",
+["Blindshuffle-Ravencrest"] = "default",
+["Chaosshuffle-Draenor"] = "default",
+["Stalkshuffle-LaughingSkull"] = "default",
+["Ghostshuffle-LaughingSkull"] = "default",
+["Feintshuffle-Kazzak"] = "default",
+["Moonshuffle-Draenor"] = "default",
+["Wingshuffle-Kazzak"] = "default",
+["Moleshuffle-Kazzak"] = "default",
+["Necroshuffle-Kazzak"] = "default",
+["Quakeshuffle-Draenor"] = "default",
+["Yumpshuffle-Kazzak"] = "default",
+["Preshuffle-Kazzak"] = "default",
+["Subshuffle-Ravencrest"] = "default",
+["Ratshuffle-Kazzak"] = "default",
+["Bankshuffle-Draenor"] = "default",
+["Forceshuffle-Draenor"] = "default",
+["Faceshuffle-Draenor"] = "default",
+["Monkashuffle-Kazzak"] = "default",
+["Tectoshuffle-Kazzak"] = "default",
+["Kickshuffle-Kazzak"] = "default",
+["Soapshuffle-Kazzak"] = "default",
+["Bobshuffle-LaughingSkull"] = "default",
+["Postshuffle-LaughingSkull"] = "default",
+["Pairshuffle-Kazzak"] = "default",
+["Trickshuffle-Kazzak"] = "default",
+["Angelshuffle-Kazzak"] = "default",
+["Roboshuffle-Ravencrest"] = "default",
+["Cloakshuffle-Draenor"] = "default",
+["Bankshuffle-LaughingSkull"] = "default",
+["Voidshuffle-LaughingSkull"] = "default",
 },
 ["Encounter"] = {
 ["names"] = {
 },
 ["list"] = {
-["Voidshuffle"] = {
+["Quakeshuffle"] = {
+},
+["Cloakshuffle"] = {
+},
+["Feintshuffle"] = {
+},
+["Trickshuffle"] = {
+},
+["Smashuffle"] = {
+},
+["Necroshuffle"] = {
 },
 ["Soulshuffle"] = {
+},
+["Bankrshuffle"] = {
+},
+["Ratshuffle"] = {
+},
+["Floorshuffle"] = {
+},
+["Chaosshuffle"] = {
+},
+["Pairshuffle"] = {
+},
+["Angelshuffle"] = {
+},
+["Moleshuffle"] = {
+},
+["Moonshuffle"] = {
+},
+["Monkashuffle"] = {
+},
+["Preshuffle"] = {
+},
+["Bobshuffle"] = {
+},
+["Voidshuffle"] = {
+},
+["Kickshuffle"] = {
+},
+["Subshuffle"] = {
+},
+["Wingshuffle"] = {
+},
+["Stalkshuffle"] = {
+},
+["Roboshuffle"] = {
+},
+["Soapshuffle"] = {
+},
+["Faceshuffle"] = {
+},
+["Ghostshuffle"] = {
+},
+["Spellshuffel"] = {
+},
+["Kafirshuffle"] = {
+},
+["Bankshuffle"] = {
+},
+["Forceshuffle"] = {
+},
+["Blindshuffle"] = {
+},
+["Gunshuffle"] = {
+},
+["Postshuffle"] = {
+},
+["Yumpshuffle"] = {
+},
+["Bankpshuffle"] = {
+},
+["Tectoshuffle"] = {
 },
 },
 },
@@ -35,8 +141,43 @@ true,
 ["ExCD2"] = {
 ["upd4525"] = true,
 ["gnGUIDs"] = {
-["Voidshuffle"] = 258,
+["Quakeshuffle"] = 262,
+["Cloakshuffle"] = 261,
+["Feintshuffle"] = 259,
+["Trickshuffle"] = 261,
+["Stalkshuffle"] = 259,
+["Necroshuffle"] = 251,
 ["Soulshuffle"] = 267,
+["Bankrshuffle"] = 1446,
+["Ratshuffle"] = 265,
+["Floorshuffle"] = 251,
+["Chaosshuffle"] = 265,
+["Pairshuffle"] = 258,
+["Angelshuffle"] = 258,
+["Moleshuffle"] = 258,
+["Moonshuffle"] = 102,
+["Monkashuffle"] = 262,
+["Preshuffle"] = 64,
+["Bobshuffle"] = 1467,
+["Voidshuffle"] = 258,
+["Kickshuffle"] = 269,
+["Subshuffle"] = 256,
+["Wingshuffle"] = 70,
+["Smashuffle"] = 71,
+["Roboshuffle"] = 258,
+["Soapshuffle"] = 70,
+["Faceshuffle"] = 254,
+["Ghostshuffle"] = 258,
+["Spellshuffel"] = 64,
+["Kafirshuffle"] = 258,
+["Bankshuffle"] = 70,
+["Forceshuffle"] = 62,
+["Blindshuffle"] = 577,
+["Gunshuffle"] = 254,
+["Postshuffle"] = 64,
+["Yumpshuffle"] = 577,
+["Bankpshuffle"] = 1446,
+["Tectoshuffle"] = 262,
 },
 ["NoRaid"] = true,
 ["CDECol"] = {
@@ -286,24 +427,24 @@ true,
 ["HistoryFrameShown"] = true,
 },
 ["Addon"] = {
-["Scale"] = 1,
+["PreVersion"] = 5251,
 ["Version"] = 5251,
 ["EJ_CHECK_VER_PTR"] = "65512",
-["PreVersion"] = 5251,
+["Timer"] = 0.1,
 ["EJ_DATA"] = {
 ["MapIDToJournalInstance"] = {
 [2874] = 1315,
 [2912] = 1307,
 [2913] = 1308,
-[2915] = 1316,
 [2825] = 1311,
+[2930] = 1312,
 [2923] = 1313,
 [2811] = 1300,
 [2939] = 1314,
 [2859] = 1309,
 [2805] = 1299,
 [2813] = 1304,
-[2930] = 1312,
+[2915] = 1316,
 },
 ["EncountersList_dung"] = {
 {
@@ -378,17 +519,17 @@ true,
 [3214] = 2812,
 [3285] = 2791,
 [3200] = 2770,
-[3333] = 2815,
+[3459] = 2829,
 [3057] = 2656,
 [3058] = 2657,
 [3199] = 2769,
-[3459] = 2829,
+[3207] = 2776,
 [3073] = 2660,
 [3286] = 2792,
 [3105] = 2682,
 [3176] = 2733,
 [3436] = 2782,
-[3207] = 2776,
+[3333] = 2815,
 [3074] = 2662,
 [3208] = 2777,
 [3328] = 2813,
@@ -432,7 +573,7 @@ true,
 },
 },
 ["EJ_CHECK_VER"] = 120000,
-["Timer"] = 0.1,
+["Scale"] = 1,
 },
 ["Note"] = {
 ["BlackNames"] = {

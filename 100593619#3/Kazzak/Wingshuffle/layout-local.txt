@@ -1,0 +1,15 @@
+Version: 1
+Frame: ArcUI_CDMSetupAlert
+FrameLevel: 500
+Anchor: CENTER
+X: -261
+Y: 214
+W: 400
+H: 260
+Frame: ColorPickerFrame
+FrameLevel: 1
+Anchor: CENTER
+X: 0
+Y: 0
+W: 388
+H: 250

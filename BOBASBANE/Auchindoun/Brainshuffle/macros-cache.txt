@@ -1,0 +1,37 @@
+VER 3 0100000000000004 "cursorleap" "1344650"
+#showtooltip
+/cast [@cursor] Infernal Strike
+END
+VER 3 0100000000000001 "cursormeta" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@cursor] Metamorphosis
+END
+VER 3 0100000000000002 "fracturerune" "1388065"
+#showtooltip Fracture
+/use Lightforged Augment Rune
+/cast Fracture
+END
+VER 3 0100000000000008 "mousefear" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@cursor] Sigil of Misery
+END
+VER 3 0100000000000009 "mousefire" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@cursor] Sigil of Flame
+END
+VER 3 0100000000000006 "mousegrip" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@cursor] Sigil of Chains
+END
+VER 3 0100000000000007 "mousesilence" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@cursor] Sigil of Silence
+END
+VER 3 0100000000000003 "playerleap" "1344650"
+#showtooltip
+/cast [@player] Infernal Strike
+END
+VER 3 0100000000000005 "playermeta" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@player] Metamorphosis
+END

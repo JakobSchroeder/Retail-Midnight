@@ -1,3 +1,7 @@
+VER 3 010000000000000B "Cursor Shift" "134400"
+#showtooltip
+/cast [@cursor] Shift
+END
 VER 3 0100000000000005 "cursorains" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /cast [@cursor] Sigil of Chains

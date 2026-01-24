@@ -1,0 +1,43 @@
+VER 3 0100000000000008 "burst" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/target Lavashuffle
+/cast [target=targettarget]Lava Burst; Lava Burst
+END
+VER 3 0100000000000007 "chain" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/target Lavashuffle
+/cast [target=targettarget] Chain Lightning; Chain Lightning
+END
+VER 3 0100000000000004 "earth" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/target Lavashuffle
+/cast [target=targettarget]Earth Shock; Earth Shock
+END
+VER 3 0100000000000009 "emag" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast Elemental Mastery
+/cast Ancestral Guidance
+END
+VER 3 0100000000000005 "flame" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/target Lavashuffle
+/cast [target=targettarget]Flame Shock; Flame Shock
+END
+VER 3 0100000000000001 "follow" "INV_MISC_QUESTIONMARK"
+/target Lavashuffle
+/follow Lavashuffle
+END
+VER 3 0100000000000002 "lightning" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/target Lavashuffle
+/cast [target=targettarget]Lightning Bolt; Lightning Bolt
+END
+VER 3 0100000000000003 "suregself" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [target=player]Healing Surge
+END
+VER 3 0100000000000006 "wind" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/target Lavashuffle
+/cast [target=targettarget]Wind Shear; Wind Shear
+END

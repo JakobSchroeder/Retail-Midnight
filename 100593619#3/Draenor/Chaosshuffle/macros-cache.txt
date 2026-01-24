@@ -1,0 +1,81 @@
+VER 3 0100000000000006 "CancelDemon" "INV_MISC_QUESTIONMARK"
+#showtooltip Metamorphosis
+/cancelaura Metamorphosis
+END
+VER 3 0100000000000009 "CancelMeta" "INV_MISC_QUESTIONMARK"
+#showtooltip Metamorphosis
+/cancelaura Metamorphosis
+END
+VER 3 010000000000000C "Clysm" "INV_MISC_QUESTIONMARK"
+#showtooltip Cataclysm
+END
+VER 3 010000000000000B "DemonClysm" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [talent:7/1] Demonbolt; [talent:7/2] Cataclysm
+/use [stance:0]Metamorphosis
+/use Dark Soul: Knowledge
+/use 14
+/use 13
+/use Demonbolt
+/use Kil'jaeden's Cunning
+/use Cataclysm
+/use [talent:7/1] Demonbolt; [talent:7/2] Cataclysm
+END
+VER 3 010000000000000E "felterror" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [talent:7/3]Summon Doomguard; Summon Felguard
+END
+VER 3 0100000000000002 "follow" "INV_MISC_QUESTIONMARK"
+/follow Spaceshuffle
+/tar Spaceshuffle
+END
+VER 3 010000000000000A "mill" "INV_MISC_QUESTIONMARK"
+#showtooltip Milling
+/cast Milling
+/use Starflower
+/use Frostweed
+/use Gorgrond Flytrap
+/use Nagrand Arrowbloom
+/use Fireweed
+/use Talador Orchid
+END
+VER 3 010000000000000F "Soulstone" "INV_MISC_QUESTIONMARK"
+#showtooltip Soulstone
+/cast [target=mouseover,exists,help] Soulstone; Soulstone
+END
+VER 3 0100000000000001 "targetbolt" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/tar Spaceshuffle
+/cast [target=targettarget]Shadow Bolt; Shadow Bolt
+END
+VER 3 0100000000000008 "targetcoil" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/tar Spaceshuffle
+/cast [target=targettarget]Mortal Coil; Mortal Coil
+END
+VER 3 0100000000000003 "targetcorr" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/tar Spaceshuffle
+/cast [target=targettarget]Corruption; Corruption
+END
+VER 3 0100000000000004 "targetfire" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/tar Spaceshuffle
+/cast [target=targettarget]Soul Fire; Soul Fire
+END
+VER 3 0100000000000007 "targetguard" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/tar Spaceshuffle
+/cast [talent:5/2,target=targettarget]Grimoire: Doomguard; Summon Doomguard
+END
+VER 3 0100000000000005 "targethog" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/tar Spaceshuffle
+/cast [target=targettarget]Hand of Gul'dan; Hand of Gul'dan
+END
+VER 3 010000000000000D "terrorserv" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [talent:5/2]Grimoire: Doomguard; Summon Doomguard
+/use 14
+/use 13
+END

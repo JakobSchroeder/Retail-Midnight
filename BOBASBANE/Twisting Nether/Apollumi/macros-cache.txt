@@ -1,0 +1,39 @@
+VER 3 010000000000000F "CancelBrim" "INV_MISC_QUESTIONMARK"
+#showtooltip Fire and Brimstone
+/cancelaura Fire and Brimstone
+END
+VER 3 0100000000000009 "CancelMeta" "INV_MISC_QUESTIONMARK"
+#showtooltip Metamorphosis
+/cancelaura Metamorphosis
+END
+VER 3 010000000000000C "Clysm" "INV_MISC_QUESTIONMARK"
+#showtooltip Cataclysm
+END
+VER 3 010000000000000D "DB" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast Dark Bargain
+END
+VER 3 010000000000000B "DemonClysm" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [talent:7/1] Demonbolt; [talent:7/2] Cataclysm
+/use [stance:0]Metamorphosis
+/use Dark Soul: Knowledge
+/use 14
+/use 13
+/use Demonbolt
+/use Kil'jaeden's Cunning
+/use Cataclysm
+/use [talent:7/1] Demonbolt; [talent:7/2] Cataclysm
+END
+VER 3 0100000000000010 "MouseBurn" "INV_MISC_QUESTIONMARK"
+#showtooltip Shadowburn
+/cast [target=mouseover,exists,harm,nodead] Shadowburn; Shadowburn
+END
+VER 3 010000000000000E "MouseHavoc" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [target=mouseover,exists,harm,nodead] Havoc; Havoc
+END
+VER 3 0100000000000008 "Soulstone" "INV_MISC_QUESTIONMARK"
+#showtooltip Soulstone
+/cast [target=mouseover,exists,help] Soulstone; Soulstone
+END

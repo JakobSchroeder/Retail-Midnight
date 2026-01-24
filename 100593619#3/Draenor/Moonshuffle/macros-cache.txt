@@ -1,0 +1,36 @@
+VER 3 0100000000000002 "follow" "INV_MISC_QUESTIONMARK"
+/follow Sunshuffle
+/focus Sunshuffle
+/target Sunshuffle
+END
+VER 3 0100000000000003 "moon" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,harm,nodead][] Moonfire
+END
+VER 3 0100000000000007 "moonkin" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast !Moonkin Form
+END
+VER 3 0100000000000004 "rejuv" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [target=player]Rejuvenation; Rejuvenation
+END
+VER 3 0100000000000005 "star" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/target Sunshuffle
+/cast [target=targettarget]Starfire; Starfire
+END
+VER 3 0100000000000008 "sun" "134400"
+#showtooltip
+/cast [@mouseover,harm,nodead][] Sunfire
+END
+VER 3 0100000000000006 "surge" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/target Sunshuffle
+/cast [target=targettarget]Starsurge; Starsurge
+END
+VER 3 0100000000000001 "wrath" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/target Sunshuffle
+/cast [target=targettarget]Wrath; Wrath
+END

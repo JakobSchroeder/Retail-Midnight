@@ -1,0 +1,34 @@
+VER 3 0100000000000003 "blast" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/target Polyshuffle
+/cast [target=targettarget] Fire Blast; Fire Blast
+END
+VER 3 0100000000000006 "cancelblock" "INV_MISC_QUESTIONMARK"
+#showtooltip Ice Block
+/cancelaura Ice Block
+END
+VER 3 0100000000000005 "cs" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/target Polyshuffle
+/cast [target=targettarget] Counterspell; Counterspell
+END
+VER 3 0100000000000002 "ffb" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/target Polyshuffle
+/cast [target=targettarget] Frostfire Bolt; Frostfire Bolt
+END
+VER 3 0100000000000001 "follow" "INV_MISC_QUESTIONMARK"
+/follow Polyshuffle
+/target Polyshuffle
+/focus Polyshuffle
+END
+VER 3 0100000000000007 "missile" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/target Polyshuffle
+/cast [target=targettarget] Arcane Missiles; Arcane Missiles
+END
+VER 3 0100000000000004 "tentacle" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/target Polyshuffle
+/cast [target=targettarget] Touch of the Void
+END

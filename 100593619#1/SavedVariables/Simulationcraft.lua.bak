@@ -1,0 +1,43 @@
+
+SimulationCraftDB = {
+["profileKeys"] = {
+["Plantshuffle - Stormrage"] = "Plantshuffle - Stormrage",
+["Shivshuffle - Stormrage"] = "Shivshuffle - Stormrage",
+["Petshuffle - Stormrage"] = "Petshuffle - Stormrage",
+["Blastshuffle - Stormrage"] = "Blastshuffle - Stormrage",
+["Grapeshuffle - Stormrage"] = "Grapeshuffle - Stormrage",
+["Banishuffle - Stormrage"] = "Banishuffle - Stormrage",
+["Cosmoshuffle - Stormrage"] = "Cosmoshuffle - Stormrage",
+["Fogshuffle - Stormrage"] = "Fogshuffle - Stormrage",
+["Aurashuffle - Stormrage"] = "Aurashuffle - Stormrage",
+["Madneshuffle - Stormrage"] = "Madneshuffle - Stormrage",
+["Osirishuffle - Stormrage"] = "Osirishuffle - Stormrage",
+["Gripshuffle - Stormrage"] = "Gripshuffle - Stormrage",
+},
+["profiles"] = {
+["Plantshuffle - Stormrage"] = {
+},
+["Shivshuffle - Stormrage"] = {
+},
+["Petshuffle - Stormrage"] = {
+},
+["Blastshuffle - Stormrage"] = {
+},
+["Grapeshuffle - Stormrage"] = {
+},
+["Banishuffle - Stormrage"] = {
+},
+["Cosmoshuffle - Stormrage"] = {
+},
+["Fogshuffle - Stormrage"] = {
+},
+["Aurashuffle - Stormrage"] = {
+},
+["Madneshuffle - Stormrage"] = {
+},
+["Osirishuffle - Stormrage"] = {
+},
+["Gripshuffle - Stormrage"] = {
+},
+},
+}

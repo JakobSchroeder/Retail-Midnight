@@ -1,0 +1,67 @@
+VER 3 0100000000000004 "/assist" "INV_MISC_QUESTIONMARK"
+/assist
+END
+VER 3 0100000000000002 "Arcanetarget" "INV_MISC_QUESTIONMARK"
+#showtooltip Arcane Shot
+/assist Smorcshuffle
+/cast Arcane Shot
+END
+VER 3 010000000000000F "barr" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/assist Smorcshuffle
+/cast Barrage
+END
+VER 3 010000000000000D "cd" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast Rapid Fire
+/cast Blood Fury
+END
+VER 3 010000000000000C "chim" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/assist Smorcshuffle
+/cast Chimaera Shot
+END
+VER 3 010000000000000A "counter" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/assist Smorcshuffle
+/cast Counter Shot
+END
+VER 3 0100000000000006 "Explosivetarget" "INV_MISC_QUESTIONMARK"
+#showtooltip Explosive Shot
+/assist Forgoneven
+/cast Explosive Shot
+END
+VER 3 0100000000000001 "follow" "INV_MISC_QUESTIONMARK"
+/tar Smorcshuffle
+/follow Smorcshuffle
+END
+VER 3 0100000000000009 "kc" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/assist Smorcshuffle
+/cast Kill Command
+END
+VER 3 010000000000000B "kill" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/assist Smorcshuffle
+/cast Kill Shot
+END
+VER 3 0100000000000008 "Multitarget" "INV_MISC_QUESTIONMARK"
+#showtooltip Multi-Shot
+/assist Smorcshuffle
+/cast Multi-Shot
+END
+VER 3 0100000000000007 "Serpenttarget" "INV_MISC_QUESTIONMARK"
+#showtooltip Serpent Sting
+/assist Forgoneven
+/cast Serpent Sting
+END
+VER 3 010000000000000E "stampede" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/assist Smorcshuffle
+/cast Stampede
+END
+VER 3 0100000000000005 "Steadytarget" "INV_MISC_QUESTIONMARK"
+#showtooltip Steady Shot
+/assist Smorcshuffle
+/cast Steady Shot
+END

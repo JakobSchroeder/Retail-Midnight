@@ -1,0 +1,32 @@
+VER 3 0100000000000007 "fade" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast Fade
+END
+VER 3 0100000000000006 "fiend" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@targettarget] Shadowfiend
+END
+VER 3 0100000000000004 "mend" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast Flash Heal
+END
+VER 3 0100000000000005 "nova" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast Holy Nova
+END
+VER 3 0100000000000001 "penance" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@targettarget] Penance
+END
+VER 3 0100000000000008 "radiance" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast Power Word: Radiance
+END
+VER 3 0100000000000003 "smite" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@targettarget] Smite
+END
+VER 3 0100000000000002 "swp" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,harm,nodead] []Shadow Word: Pain
+END

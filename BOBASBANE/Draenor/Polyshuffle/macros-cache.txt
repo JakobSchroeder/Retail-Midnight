@@ -1,0 +1,56 @@
+VER 3 0100000000000008 "ab" "INV_MISC_QUESTIONMARK"
+#showtooltip Arcane Blast
+/cast [nochanneling] Arcane Blast
+END
+VER 3 0100000000000009 "abar" "INV_MISC_QUESTIONMARK"
+#showtooltip Arcane Barrage
+/cast [nochanneling] Arcane Barrage
+END
+VER 3 010000000000000A "am" "INV_MISC_QUESTIONMARK"
+#showtooltip Arcane Missiles
+/cast [nochanneling] Arcane Missiles
+END
+VER 3 0100000000000006 "boom" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast Arcane Power
+/cast Berserking
+END
+VER 3 0100000000000007 "bust" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast Combustion
+/use Nithramus, the All-Seer
+END
+VER 3 0100000000000002 "cancelblock" "INV_MISC_QUESTIONMARK"
+#showtooltip Ice Block
+/cancelaura Ice Block
+END
+VER 3 0100000000000005 "CrystalOrb" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [talent:7/2]Prismatic Crystal;[talent:7/3]Arcane Orb
+END
+VER 3 0100000000000001 "focus" "INV_MISC_QUESTIONMARK"
+/focus Forceshuffle
+END
+VER 3 010000000000000E "hidden" "INV_MISC_QUESTIONMARK"
+/run f="\124cffffff00\124Hquest:%s:0\124h[%s]\124h\124r: \124cff%s\124r";for k,v in pairs({[44384]="Daily Portal Event Roll",[43828]="Sheep Summon Daily Roll"})do print(format(f,k,v,IsQuestFlaggedCompleted(k)and"00ff00Yes"or"ff0000No"))end
+END
+VER 3 010000000000000B "mark" "INV_MISC_QUESTIONMARK"
+#showtooltip Mark of Aluneth
+/cast [nochanneling] Mark of Aluneth
+END
+VER 3 010000000000000D "mouseblizzard" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@cursor]Blizzard
+END
+VER 3 0100000000000004 "NovaTempest" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [talent:5/1]Nether Tempest;[talent:5/3]Supernova
+END
+VER 3 010000000000000C "nt" "INV_MISC_QUESTIONMARK"
+#showtooltip Nether Tempest
+/cast [nochanneling] Nether Tempest
+END
+VER 3 0100000000000003 "petnova" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast Water Jet
+END

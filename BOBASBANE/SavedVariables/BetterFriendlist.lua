@@ -1,6 +1,9 @@
 
 BetterFriendlistDB = {
 ["friendActivity"] = {
+["bnet_Nalgust#2618"] = {
+["lastWhisper"] = 1769258924,
+},
 },
 ["mainFramePositionMigrated"] = true,
 ["wowUIDMigrationDone_v2"] = true,
@@ -47,44 +50,44 @@ BetterFriendlistDB = {
 },
 ["enableBetaFeatures"] = false,
 ["version"] = "2.2.2",
-["nicknames"] = {
-},
+["accordionGroups"] = false,
 ["notificationQuietManual"] = false,
 ["nameDisplayFormat"] = "%name%",
-["mainFrameSize"] = {
-},
+["notificationMessageGameSwitch"] = "%name% is now playing %game%",
 ["fontSize"] = "normal",
 ["hideMaxLevel"] = false,
 ["notificationDisplayMode"] = "alert",
 ["notificationCharSwitchEnabled"] = false,
-["notificationMessageWowLogin"] = "%name% logged into World of Warcraft",
+["brokerTooltipMode"] = "advanced",
 ["showMobileAsAFK"] = false,
 ["notificationQuietScheduled"] = false,
 ["showRealmName"] = false,
 ["brokerEnabled"] = false,
-["brokerTooltipMode"] = "advanced",
+["notificationMessageWowLogin"] = "%name% logged into World of Warcraft",
 ["brokerShowTotal"] = true,
 ["enableGlobalSync"] = false,
-["defaultFrameHeight"] = 570,
+["mainFramePosition"] = {
+},
 ["notificationFriendRules"] = {
 },
-["headerCountFormat"] = "visible",
+["defaultFrameHeight"] = 570,
 ["notificationQuietInstance"] = false,
-["quickFilter"] = "all",
+["useUIPanelSystem"] = false,
 ["notificationOfflineEnabled"] = false,
 ["brokerShowLabel"] = true,
 ["compactMode"] = false,
 ["notificationWowLoginEnabled"] = true,
+["notificationMessageOnline"] = "%name% is now online",
 ["notificationToastPosition"] = {
 },
-["notificationMessageOnline"] = "%name% is now online",
 ["treatMobileAsOffline"] = false,
-["useUIPanelSystem"] = false,
-["mainFramePosition"] = {
-},
+["quickFilter"] = "all",
+["headerCountFormat"] = "visible",
 ["secondarySort"] = "name",
-["notificationMessageGameSwitch"] = "%name% is now playing %game%",
+["mainFrameSize"] = {
+},
 ["showGroupArrow"] = true,
-["accordionGroups"] = false,
+["nicknames"] = {
+},
 ["closeOnGuildTabClick"] = false,
 }

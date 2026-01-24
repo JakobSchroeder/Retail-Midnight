@@ -1,0 +1,76 @@
+VER 3 0100000000000029 "AFyrakk" "134400"
+/run WeakAuras.ScanEvents("NS_PA_MACRO", true); local i = LibStub("AceComm-3.0", true); if i then i:SendCommMessage("FYRAKK", "macro", "RAID") end
+END
+VER 3 010000000000001D "chi" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [talent:1/3,nochanneling] Chi Wave; [talent:1/1,nochanneling] Chi Burst
+END
+VER 3 0100000000000038 "cjlnochan" "134400"
+#showtooltip
+/cast [nochanneling] Crackling Jade Lightning
+END
+VER 3 0100000000000021 "curstatue" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@cursor] Summon Jade Serpent Statue
+END
+VER 3 0100000000000033 "HealthPot" "INV_Misc_QuestionMark"
+#showtooltip
+/use item:212944
+/use item:211880
+/use item:212943
+/use item:211879
+/use item:212942
+/use item:211878
+END
+VER 3 0100000000000005 "interruptfocus" "INV_MISC_QUESTIONMARK"
+#showtooltip Spear Hand Strike
+/cast [target=focus,exists,harm] Spear Hand Strike
+END
+VER 3 0100000000000035 "Potion" "INV_Misc_QuestionMark"
+#showtooltip
+/use item:212971
+/use item:212265
+/use item:212970
+/use item:212264
+/use item:212969
+/use item:212263
+END
+VER 3 010000000000001F "reversemouse" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,exists,help][]Reverse Harm
+/cast Heart Essence
+END
+VER 3 010000000000001E "rop" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@cursor] Ring of Peace; Song of Chi-Ji
+END
+VER 3 0100000000000037 "scknochan" "134400"
+#showtooltip
+/cast [nochanneling] Spinning Crane Kick
+END
+VER 3 0100000000000027 "sheilun" "134400"
+#showtooltip
+/cast [@mouseover,exists][] Sheilun's Gift
+END
+VER 3 0100000000000036 "sotwlnochan" "134400"
+#showtooltip
+/cast [nochanneling] Strike of the Windlord
+END
+VER 3 010000000000000E "Tiger's Lust" "INV_MISC_QUESTIONMARK"
+#showtooltip Tiger's Lust
+/cast [@mouseover,exists]Tiger's Lust; Tiger's Lust
+END
+VER 3 0100000000000016 "Trinket 1" "INV_MISC_QUESTIONMARK"
+/use 13
+END
+VER 3 0100000000000017 "Trinket 2" "INV_MISC_QUESTIONMARK"
+/use 14
+END
+VER 3 010000000000001B "wdp" "INV_MISC_QUESTIONMARK"
+#showtooltip Whirling Dragon Punch
+/cast [nochanneling]Whirling Dragon Punch
+END
+VER 3 0100000000000011 "Xuen" "INV_MISC_QUESTIONMARK"
+#showtooltip Invoke Xuen, the White Tiger
+/cast Invoke Xuen, the White Tiger
+END

@@ -1,0 +1,13 @@
+VER 3 0100000000000003 "follow" "INV_MISC_QUESTIONMARK"
+/target Teashuffle
+/follow
+/cast Tiger's Lust
+END
+VER 3 0100000000000001 "lust" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,exists,help][] Tiger's Lust
+END
+VER 3 0100000000000002 "rop" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@cursor] Ring of Peace
+END

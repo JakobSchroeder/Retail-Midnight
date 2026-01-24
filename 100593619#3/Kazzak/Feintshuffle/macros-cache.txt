@@ -1,0 +1,61 @@
+VER 3 0100000000000007 "bf" "INV_MISC_QUESTIONMARK"
+#showtooltip Blade Flurry
+/cancelaura Blade Flurry
+/cast Blade Flurry
+END
+VER 3 0100000000000002 "cancelKS" "INV_MISC_QUESTIONMARK"
+#showtooltip Killing Spree
+/cancelaura Killing Spree
+END
+VER 3 0100000000000005 "cancelstab" "INV_MISC_QUESTIONMARK"
+#showtooltip Backstab
+/use Empowered Augment Rune
+/cast Backstab
+/cancelaura Hand of Protection
+END
+VER 3 0100000000000009 "distract" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@cursor] Distract
+END
+VER 3 0100000000000001 "focusTotT" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@focus,exists] Tricks of the Trade; Tricks of the Trade
+END
+VER 3 0100000000000006 "mousemark" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [target=mouseover,exists]Marked for Death; Marked for Death
+END
+VER 3 0100000000000008 "mousestep" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,exists][] Shadowstep
+END
+VER 3 010000000000000A "shdshstr" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast Shadow Dance
+/cast Shadowstrike
+END
+VER 3 010000000000000B "shdst" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast Shadow Dance
+/cast Shuriken Storm
+END
+VER 3 0100000000000003 "SnDset" "INV_MISC_QUESTIONMARK"
+/cast Slice and Dice
+/equipset RealSub
+END
+VER 3 010000000000000D "stealth" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cancelaura [nocombat] Shadow Dance
+/cast Stealth
+END
+VER 3 0100000000000004 "step" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [exists] Shadowstep
+END
+VER 3 010000000000000C "subswifty" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast Symbols of Death
+/cast Shadow Blades
+/cast Shadow Dance
+/cast Shadowstrike
+END

@@ -1,0 +1,18 @@
+
+ClassicQuestLogSettings = {
+["HighContrast"] = false,
+["XPos"] = 932.4999389648438,
+["ShowFromKeyBind"] = true,
+["UseLargerScale"] = false,
+["ShowResizeGrip"] = true,
+["PerCharacterPosition"] = false,
+["Width"] = 694.9998779296875,
+["LastVersion"] = 30111,
+["ShowFromMicroButton"] = true,
+["ShowMinimapButton"] = false,
+["Height"] = 496.0000610351563,
+["MinimapPosition"] = 164,
+["YPos"] = 471.9999694824219,
+["HideCampaignProgress"] = false,
+["HideExtraLogBadges"] = false,
+}

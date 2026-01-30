@@ -24,21 +24,21 @@ SimulationCraftDB = {
 ["Yumpshuffle - Kazzak"] = "Yumpshuffle - Kazzak",
 ["Bankshuffle - Draenor"] = "Bankshuffle - Draenor",
 ["Faceshuffle - Draenor"] = "Faceshuffle - Draenor",
-["Cloakshuffle - Draenor"] = "Cloakshuffle - Draenor",
+["Subshuffle - Ravencrest"] = "Subshuffle - Ravencrest",
 ["Quakeshuffle - Draenor"] = "Quakeshuffle - Draenor",
 ["Soapshuffle - Kazzak"] = "Soapshuffle - Kazzak",
-["Chaosshuffle - Draenor"] = "Chaosshuffle - Draenor",
-["Feintshuffle - Kazzak"] = "Feintshuffle - Kazzak",
+["Kafirshuffle - Draenor"] = "Kafirshuffle - Draenor",
+["Monkashuffle - Kazzak"] = "Monkashuffle - Kazzak",
 ["Moonshuffle - Draenor"] = "Moonshuffle - Draenor",
 ["Pairshuffle - Kazzak"] = "Pairshuffle - Kazzak",
 ["Bobshuffle - Laughing Skull"] = "Bobshuffle - Laughing Skull",
 ["Forceshuffle - Draenor"] = "Forceshuffle - Draenor",
 ["Bankpshuffle - Laughing Skull"] = "Bankpshuffle - Laughing Skull",
 ["Gunshuffle - Kazzak"] = "Gunshuffle - Kazzak",
-["Monkashuffle - Kazzak"] = "Monkashuffle - Kazzak",
-["Kafirshuffle - Draenor"] = "Kafirshuffle - Draenor",
+["Feintshuffle - Kazzak"] = "Feintshuffle - Kazzak",
+["Chaosshuffle - Draenor"] = "Chaosshuffle - Draenor",
 ["Floorshuffle - Ravencrest"] = "Floorshuffle - Ravencrest",
-["Subshuffle - Ravencrest"] = "Subshuffle - Ravencrest",
+["Cloakshuffle - Draenor"] = "Cloakshuffle - Draenor",
 },
 ["profiles"] = {
 ["Necroshuffle - Kazzak"] = {
@@ -90,15 +90,15 @@ SimulationCraftDB = {
 },
 ["Faceshuffle - Draenor"] = {
 },
-["Cloakshuffle - Draenor"] = {
+["Subshuffle - Ravencrest"] = {
 },
 ["Quakeshuffle - Draenor"] = {
 },
 ["Soapshuffle - Kazzak"] = {
 },
-["Chaosshuffle - Draenor"] = {
+["Kafirshuffle - Draenor"] = {
 },
-["Feintshuffle - Kazzak"] = {
+["Monkashuffle - Kazzak"] = {
 },
 ["Moonshuffle - Draenor"] = {
 },
@@ -112,13 +112,13 @@ SimulationCraftDB = {
 },
 ["Gunshuffle - Kazzak"] = {
 },
-["Monkashuffle - Kazzak"] = {
+["Feintshuffle - Kazzak"] = {
 },
-["Kafirshuffle - Draenor"] = {
+["Chaosshuffle - Draenor"] = {
 },
 ["Floorshuffle - Ravencrest"] = {
 },
-["Subshuffle - Ravencrest"] = {
+["Cloakshuffle - Draenor"] = {
 },
 },
 }

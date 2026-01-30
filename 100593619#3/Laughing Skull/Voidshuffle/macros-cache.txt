@@ -54,6 +54,7 @@ END
 VER 3 0100000000000007 "PI" "134400"
 #showtooltip
 /cast [@focus,help,nodead,exists][@mouseover,help,nodead,exists][] Power Infusion
+/use 13
 END
 VER 3 0100000000000017 "Plea" "134400"
 #showtooltip

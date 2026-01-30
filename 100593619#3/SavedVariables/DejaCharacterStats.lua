@@ -26,8 +26,8 @@ DejaCharacterStatsDB = {
 ["ShowDuraSetChecked"] = true,
 },
 ["DCS_CenterItemTooltips"] = {
-["centerItemTooltips"] = false,
 ["DCS_CenterItemTooltipScale"] = 1,
+["centerItemTooltips"] = false,
 },
 ["DCS_SettingsShowCharacterChecked"] = {
 ["settingsShowCharacterChecked"] = true,
@@ -35,18 +35,18 @@ DejaCharacterStatsDB = {
 ["dejacharacterstatsItemLevelChecked"] = {
 ["ItemLevelTwoDecimalsSetChecked"] = true,
 ["ItemLevelEQ_AV_SetChecked"] = true,
-["ItemLevelDecimalsSetChecked"] = false,
 ["ItemLevelClassColorSetChecked"] = true,
+["ItemLevelDecimalsSetChecked"] = false,
 },
-["dejacharacterstatsHideMasteryChecked"] = {
-["SetChecked"] = true,
+["dejacharacterstatsShowDuraTextureChecked"] = {
+["ShowDuraTextureSetChecked"] = true,
 },
 ["dejacharacterstatsSimpleItemColorChecked"] = {
 ["SimpleItemColorChecked"] = false,
 ["DarkerItemColorChecked"] = false,
 },
-["dejacharacterstatsShowDuraTextureChecked"] = {
-["ShowDuraTextureSetChecked"] = true,
+["dejacharacterstatsHideMasteryChecked"] = {
+["SetChecked"] = true,
 },
 ["dejacharacterstatsShowItemLevelChecked"] = {
 ["ShowItemLevelSetChecked"] = true,
@@ -258,11 +258,11 @@ DCS_ClassSpecDB = {
 },
 {
 ["statKey"] = "STAGGER",
-["hideAt"] = 0,
-["hidden"] = true,
 ["roles"] = {
 "TANK",
 },
+["hideAt"] = 0,
+["hidden"] = true,
 },
 {
 ["statKey"] = "HonorCategory",
@@ -486,11 +486,11 @@ DCS_ClassSpecDB = {
 },
 {
 ["statKey"] = "STAGGER",
+["hideAt"] = 0,
+["hidden"] = true,
 ["roles"] = {
 "TANK",
 },
-["hidden"] = true,
-["hideAt"] = 0,
 },
 {
 ["statKey"] = "HonorCategory",
@@ -714,11 +714,11 @@ DCS_ClassSpecDB = {
 },
 {
 ["statKey"] = "STAGGER",
-["hideAt"] = 0,
-["hidden"] = true,
 ["roles"] = {
 "TANK",
 },
+["hideAt"] = 0,
+["hidden"] = true,
 },
 {
 ["statKey"] = "HonorCategory",
@@ -942,11 +942,11 @@ DCS_ClassSpecDB = {
 },
 {
 ["statKey"] = "STAGGER",
+["hidden"] = true,
+["hideAt"] = 0,
 ["roles"] = {
 "TANK",
 },
-["hideAt"] = 0,
-["hidden"] = true,
 },
 {
 ["statKey"] = "HonorCategory",
@@ -1167,11 +1167,11 @@ DCS_ClassSpecDB = {
 },
 {
 ["statKey"] = "STAGGER",
+["hidden"] = true,
+["hideAt"] = 0,
 ["roles"] = {
 "TANK",
 },
-["hideAt"] = 0,
-["hidden"] = true,
 },
 {
 ["statKey"] = "HonorCategory",
@@ -1395,11 +1395,11 @@ DCS_ClassSpecDB = {
 },
 {
 ["statKey"] = "STAGGER",
-["hidden"] = true,
-["hideAt"] = 0,
 ["roles"] = {
 "TANK",
 },
+["hidden"] = true,
+["hideAt"] = 0,
 },
 {
 ["statKey"] = "HonorCategory",
@@ -1621,11 +1621,11 @@ DCS_ClassSpecDB = {
 },
 {
 ["statKey"] = "STAGGER",
+["hideAt"] = 0,
+["hidden"] = true,
 ["roles"] = {
 "TANK",
 },
-["hidden"] = true,
-["hideAt"] = 0,
 },
 {
 ["statKey"] = "HonorCategory",
@@ -1847,11 +1847,11 @@ DCS_ClassSpecDB = {
 },
 {
 ["statKey"] = "STAGGER",
+["hideAt"] = 0,
+["hidden"] = true,
 ["roles"] = {
 "TANK",
 },
-["hidden"] = true,
-["hideAt"] = 0,
 },
 {
 ["statKey"] = "HonorCategory",
@@ -2075,11 +2075,11 @@ DCS_ClassSpecDB = {
 },
 {
 ["statKey"] = "STAGGER",
+["hidden"] = true,
+["hideAt"] = 0,
 ["roles"] = {
 "TANK",
 },
-["hideAt"] = 0,
-["hidden"] = true,
 },
 {
 ["statKey"] = "HonorCategory",
@@ -2303,11 +2303,11 @@ DCS_ClassSpecDB = {
 },
 {
 ["statKey"] = "STAGGER",
-["hideAt"] = 0,
-["hidden"] = true,
 ["roles"] = {
 "TANK",
 },
+["hideAt"] = 0,
+["hidden"] = true,
 },
 {
 ["statKey"] = "HonorCategory",
@@ -2534,11 +2534,11 @@ DCS_ClassSpecDB = {
 },
 {
 ["statKey"] = "STAGGER",
+["hidden"] = true,
+["hideAt"] = 0,
 ["roles"] = {
 "TANK",
 },
-["hideAt"] = 0,
-["hidden"] = true,
 },
 {
 ["statKey"] = "HonorCategory",
@@ -2760,11 +2760,11 @@ DCS_ClassSpecDB = {
 },
 {
 ["statKey"] = "STAGGER",
-["hideAt"] = 0,
-["hidden"] = true,
 ["roles"] = {
 "TANK",
 },
+["hideAt"] = 0,
+["hidden"] = true,
 },
 {
 ["statKey"] = "HonorCategory",
@@ -2985,11 +2985,11 @@ DCS_ClassSpecDB = {
 },
 {
 ["statKey"] = "STAGGER",
+["hideAt"] = 0,
+["hidden"] = true,
 ["roles"] = {
 "TANK",
 },
-["hidden"] = true,
-["hideAt"] = 0,
 },
 {
 ["statKey"] = "HonorCategory",
@@ -3211,11 +3211,11 @@ DCS_ClassSpecDB = {
 },
 {
 ["statKey"] = "STAGGER",
+["hidden"] = true,
+["hideAt"] = 0,
 ["roles"] = {
 "TANK",
 },
-["hideAt"] = 0,
-["hidden"] = true,
 },
 {
 ["statKey"] = "HonorCategory",
@@ -3439,11 +3439,11 @@ DCS_ClassSpecDB = {
 },
 {
 ["statKey"] = "STAGGER",
+["hidden"] = true,
+["hideAt"] = 0,
 ["roles"] = {
 "TANK",
 },
-["hideAt"] = 0,
-["hidden"] = true,
 },
 {
 ["statKey"] = "HonorCategory",
@@ -3667,11 +3667,11 @@ DCS_ClassSpecDB = {
 },
 {
 ["statKey"] = "STAGGER",
+["hideAt"] = 0,
+["hidden"] = true,
 ["roles"] = {
 "TANK",
 },
-["hidden"] = true,
-["hideAt"] = 0,
 },
 {
 ["statKey"] = "HonorCategory",
@@ -3892,11 +3892,11 @@ DCS_ClassSpecDB = {
 },
 {
 ["statKey"] = "STAGGER",
+["hideAt"] = 0,
+["hidden"] = true,
 ["roles"] = {
 "TANK",
 },
-["hidden"] = true,
-["hideAt"] = 0,
 },
 {
 ["statKey"] = "HonorCategory",
@@ -4120,11 +4120,11 @@ DCS_ClassSpecDB = {
 },
 {
 ["statKey"] = "STAGGER",
+["hidden"] = true,
+["hideAt"] = 0,
 ["roles"] = {
 "TANK",
 },
-["hideAt"] = 0,
-["hidden"] = true,
 },
 {
 ["statKey"] = "HonorCategory",
@@ -4348,11 +4348,11 @@ DCS_ClassSpecDB = {
 },
 {
 ["statKey"] = "STAGGER",
+["hidden"] = true,
+["hideAt"] = 0,
 ["roles"] = {
 "TANK",
 },
-["hideAt"] = 0,
-["hidden"] = true,
 },
 {
 ["statKey"] = "HonorCategory",
@@ -4576,11 +4576,11 @@ DCS_ClassSpecDB = {
 },
 {
 ["statKey"] = "STAGGER",
+["hideAt"] = 0,
+["hidden"] = true,
 ["roles"] = {
 "TANK",
 },
-["hidden"] = true,
-["hideAt"] = 0,
 },
 {
 ["statKey"] = "HonorCategory",
@@ -4802,11 +4802,11 @@ DCS_ClassSpecDB = {
 },
 {
 ["statKey"] = "STAGGER",
-["hidden"] = true,
-["hideAt"] = 0,
 ["roles"] = {
 "TANK",
 },
+["hidden"] = true,
+["hideAt"] = 0,
 },
 {
 ["statKey"] = "HonorCategory",
@@ -5028,11 +5028,11 @@ DCS_ClassSpecDB = {
 },
 {
 ["statKey"] = "STAGGER",
-["hideAt"] = 0,
-["hidden"] = true,
 ["roles"] = {
 "TANK",
 },
+["hideAt"] = 0,
+["hidden"] = true,
 },
 {
 ["statKey"] = "HonorCategory",
@@ -5256,11 +5256,11 @@ DCS_ClassSpecDB = {
 },
 {
 ["statKey"] = "STAGGER",
+["hidden"] = true,
+["hideAt"] = 0,
 ["roles"] = {
 "TANK",
 },
-["hideAt"] = 0,
-["hidden"] = true,
 },
 {
 ["statKey"] = "HonorCategory",
@@ -5481,11 +5481,11 @@ DCS_ClassSpecDB = {
 },
 {
 ["statKey"] = "STAGGER",
-["hideAt"] = 0,
-["hidden"] = true,
 ["roles"] = {
 "TANK",
 },
+["hideAt"] = 0,
+["hidden"] = true,
 },
 {
 ["statKey"] = "HonorCategory",
@@ -5709,11 +5709,11 @@ DCS_ClassSpecDB = {
 },
 {
 ["statKey"] = "STAGGER",
-["hideAt"] = 0,
-["hidden"] = true,
 ["roles"] = {
 "TANK",
 },
+["hideAt"] = 0,
+["hidden"] = true,
 },
 {
 ["statKey"] = "HonorCategory",
@@ -5748,7 +5748,7 @@ DCS_ClassSpecDB = {
 },
 ["uniqueKey"] = "Monkashuffle:Kazzak:1",
 },
-["Subshuffle:Ravencrest:1"] = {
+["Gunshuffle:Kazzak:2"] = {
 {
 ["statKey"] = "ItemLevelFrame",
 },
@@ -5786,10 +5786,10 @@ DCS_ClassSpecDB = {
 },
 {
 ["statKey"] = "AGILITY",
-["hidden"] = true,
 },
 {
 ["statKey"] = "INTELLECT",
+["hidden"] = true,
 },
 {
 ["statKey"] = "STAMINA",
@@ -5802,25 +5802,23 @@ DCS_ClassSpecDB = {
 },
 {
 ["statKey"] = "ATTACK_DAMAGE",
-["hidden"] = true,
 },
 {
 ["statKey"] = "ATTACK_AP",
-["hidden"] = true,
 },
 {
 ["statKey"] = "DCS_ATTACK_ATTACKSPEED",
-["hidden"] = true,
 },
 {
 ["statKey"] = "WEAPON_DPS",
-["hidden"] = true,
 },
 {
 ["statKey"] = "SPELLPOWER",
+["hidden"] = true,
 },
 {
 ["statKey"] = "MANAREGEN",
+["hidden"] = true,
 },
 {
 ["statKey"] = "ENERGY_REGEN",
@@ -5974,237 +5972,9 @@ DCS_ClassSpecDB = {
 ["statKey"] = "UserCat5",
 ["hidden"] = true,
 },
-["uniqueKey"] = "Subshuffle:Ravencrest:1",
+["uniqueKey"] = "Gunshuffle:Kazzak:2",
 },
-["Quakeshuffle:Draenor:1"] = {
-{
-["statKey"] = "ItemLevelFrame",
-},
-{
-["statKey"] = "GeneralCategory",
-},
-{
-["statKey"] = "HEALTH",
-},
-{
-["statKey"] = "DCS_POWER",
-},
-{
-["statKey"] = "DCS_ALTERNATEMANA",
-},
-{
-["statKey"] = "ITEMLEVEL",
-["hidden"] = true,
-},
-{
-["statKey"] = "MOVESPEED",
-},
-{
-["statKey"] = "DURABILITY_STAT",
-},
-{
-["statKey"] = "REPAIR_COST",
-},
-{
-["statKey"] = "AttributesCategory",
-},
-{
-["statKey"] = "STRENGTH",
-["hidden"] = true,
-},
-{
-["statKey"] = "AGILITY",
-["hidden"] = true,
-},
-{
-["statKey"] = "INTELLECT",
-},
-{
-["statKey"] = "STAMINA",
-},
-{
-["statKey"] = "ARMOR",
-},
-{
-["statKey"] = "OffenseCategory",
-},
-{
-["statKey"] = "ATTACK_DAMAGE",
-["hidden"] = true,
-},
-{
-["statKey"] = "ATTACK_AP",
-["hidden"] = true,
-},
-{
-["statKey"] = "DCS_ATTACK_ATTACKSPEED",
-["hidden"] = true,
-},
-{
-["statKey"] = "WEAPON_DPS",
-["hidden"] = true,
-},
-{
-["statKey"] = "SPELLPOWER",
-},
-{
-["statKey"] = "MANAREGEN",
-},
-{
-["statKey"] = "ENERGY_REGEN",
-},
-{
-["statKey"] = "DCS_RUNEREGEN",
-["hidden"] = true,
-},
-{
-["statKey"] = "FOCUS_REGEN",
-},
-{
-["statKey"] = "GCD",
-},
-{
-["statKey"] = "EnhancementsCategory",
-},
-{
-["statKey"] = "CRITCHANCE",
-["hideAt"] = 0,
-},
-{
-["statKey"] = "HASTE",
-["hideAt"] = 0,
-},
-{
-["statKey"] = "VERSATILITY",
-["hideAt"] = 0,
-},
-{
-["statKey"] = "MASTERY",
-["hideAt"] = 0,
-},
-{
-["statKey"] = "LIFESTEAL",
-["hideAt"] = 0,
-},
-{
-["statKey"] = "AVOIDANCE",
-["hideAt"] = 0,
-},
-{
-["statKey"] = "DefenseCategory",
-["hidden"] = true,
-},
-{
-["statKey"] = "DODGE",
-["hideAt"] = 0,
-["hidden"] = true,
-},
-{
-["statKey"] = "PARRY",
-["hideAt"] = 0,
-["hidden"] = true,
-},
-{
-["statKey"] = "BLOCK",
-["hidden"] = true,
-["hideAt"] = 0,
-},
-{
-["statKey"] = "RatingCategory",
-["hidden"] = true,
-},
-{
-["statKey"] = "CRITCHANCE_RATING",
-["hideAt"] = 0,
-["hidden"] = true,
-},
-{
-["statKey"] = "HASTE_RATING",
-["hideAt"] = 0,
-["hidden"] = true,
-},
-{
-["statKey"] = "VERSATILITY_RATING",
-["hideAt"] = 0,
-["hidden"] = true,
-},
-{
-["statKey"] = "MASTERY_RATING",
-["hideAt"] = 0,
-["hidden"] = true,
-},
-{
-["statKey"] = "LIFESTEAL_RATING",
-["hideAt"] = 0,
-["hidden"] = true,
-},
-{
-["statKey"] = "AVOIDANCE_RATING",
-["hideAt"] = 0,
-["hidden"] = true,
-},
-{
-["statKey"] = "DODGE_RATING",
-["hideAt"] = 0,
-["hidden"] = true,
-},
-{
-["statKey"] = "PARRY_RATING",
-["hideAt"] = 0,
-["hidden"] = true,
-},
-{
-["statKey"] = "SPEED_RATING",
-["hideAt"] = 0,
-["hidden"] = true,
-},
-{
-["statKey"] = "SPEED",
-["hideAt"] = 0,
-["hidden"] = true,
-},
-{
-["statKey"] = "STAGGER",
-["hidden"] = true,
-["hideAt"] = 0,
-["roles"] = {
-"TANK",
-},
-},
-{
-["statKey"] = "HonorCategory",
-},
-{
-["statKey"] = "HONOR_PROGRESS",
-["hideAt"] = 0,
-},
-{
-["statKey"] = "HONOR_LEVEL",
-["hideAt"] = 0,
-},
-{
-["statKey"] = "UserCat1",
-["hidden"] = true,
-},
-{
-["statKey"] = "UserCat2",
-["hidden"] = true,
-},
-{
-["statKey"] = "UserCat3",
-["hidden"] = true,
-},
-{
-["statKey"] = "UserCat4",
-["hidden"] = true,
-},
-{
-["statKey"] = "UserCat5",
-["hidden"] = true,
-},
-["uniqueKey"] = "Quakeshuffle:Draenor:1",
-},
-["Moonshuffle:Draenor:1"] = {
+["Ghostshuffle:Laughing Skull:3"] = {
 {
 ["statKey"] = "ItemLevelFrame",
 },
@@ -6396,8 +6166,8 @@ DCS_ClassSpecDB = {
 ["roles"] = {
 "TANK",
 },
-["hidden"] = true,
 ["hideAt"] = 0,
+["hidden"] = true,
 },
 {
 ["statKey"] = "HonorCategory",
@@ -6430,7 +6200,232 @@ DCS_ClassSpecDB = {
 ["statKey"] = "UserCat5",
 ["hidden"] = true,
 },
-["uniqueKey"] = "Moonshuffle:Draenor:1",
+["uniqueKey"] = "Ghostshuffle:Laughing Skull:3",
+},
+["Bankshuffle:Draenor:3"] = {
+{
+["statKey"] = "ItemLevelFrame",
+},
+{
+["statKey"] = "GeneralCategory",
+},
+{
+["statKey"] = "HEALTH",
+},
+{
+["statKey"] = "DCS_POWER",
+},
+{
+["statKey"] = "DCS_ALTERNATEMANA",
+},
+{
+["statKey"] = "ITEMLEVEL",
+["hidden"] = true,
+},
+{
+["statKey"] = "MOVESPEED",
+},
+{
+["statKey"] = "DURABILITY_STAT",
+},
+{
+["statKey"] = "REPAIR_COST",
+},
+{
+["statKey"] = "AttributesCategory",
+},
+{
+["statKey"] = "STRENGTH",
+},
+{
+["statKey"] = "AGILITY",
+["hidden"] = true,
+},
+{
+["statKey"] = "INTELLECT",
+["hidden"] = true,
+},
+{
+["statKey"] = "STAMINA",
+},
+{
+["statKey"] = "ARMOR",
+},
+{
+["statKey"] = "OffenseCategory",
+},
+{
+["statKey"] = "ATTACK_DAMAGE",
+},
+{
+["statKey"] = "ATTACK_AP",
+},
+{
+["statKey"] = "DCS_ATTACK_ATTACKSPEED",
+},
+{
+["statKey"] = "WEAPON_DPS",
+},
+{
+["statKey"] = "SPELLPOWER",
+["hidden"] = true,
+},
+{
+["statKey"] = "MANAREGEN",
+["hidden"] = true,
+},
+{
+["statKey"] = "ENERGY_REGEN",
+},
+{
+["statKey"] = "DCS_RUNEREGEN",
+},
+{
+["statKey"] = "FOCUS_REGEN",
+},
+{
+["statKey"] = "GCD",
+},
+{
+["statKey"] = "EnhancementsCategory",
+},
+{
+["statKey"] = "CRITCHANCE",
+["hideAt"] = 0,
+},
+{
+["statKey"] = "HASTE",
+["hideAt"] = 0,
+},
+{
+["statKey"] = "VERSATILITY",
+["hideAt"] = 0,
+},
+{
+["statKey"] = "MASTERY",
+["hideAt"] = 0,
+},
+{
+["statKey"] = "LIFESTEAL",
+["hideAt"] = 0,
+},
+{
+["statKey"] = "AVOIDANCE",
+["hideAt"] = 0,
+},
+{
+["statKey"] = "DefenseCategory",
+["hidden"] = true,
+},
+{
+["statKey"] = "DODGE",
+["hideAt"] = 0,
+["hidden"] = true,
+},
+{
+["statKey"] = "PARRY",
+["hideAt"] = 0,
+["hidden"] = true,
+},
+{
+["statKey"] = "BLOCK",
+["hidden"] = true,
+["hideAt"] = 0,
+},
+{
+["statKey"] = "RatingCategory",
+["hidden"] = true,
+},
+{
+["statKey"] = "CRITCHANCE_RATING",
+["hideAt"] = 0,
+["hidden"] = true,
+},
+{
+["statKey"] = "HASTE_RATING",
+["hideAt"] = 0,
+["hidden"] = true,
+},
+{
+["statKey"] = "VERSATILITY_RATING",
+["hideAt"] = 0,
+["hidden"] = true,
+},
+{
+["statKey"] = "MASTERY_RATING",
+["hideAt"] = 0,
+["hidden"] = true,
+},
+{
+["statKey"] = "LIFESTEAL_RATING",
+["hideAt"] = 0,
+["hidden"] = true,
+},
+{
+["statKey"] = "AVOIDANCE_RATING",
+["hideAt"] = 0,
+["hidden"] = true,
+},
+{
+["statKey"] = "DODGE_RATING",
+["hideAt"] = 0,
+["hidden"] = true,
+},
+{
+["statKey"] = "PARRY_RATING",
+["hideAt"] = 0,
+["hidden"] = true,
+},
+{
+["statKey"] = "SPEED_RATING",
+["hideAt"] = 0,
+["hidden"] = true,
+},
+{
+["statKey"] = "SPEED",
+["hideAt"] = 0,
+["hidden"] = true,
+},
+{
+["statKey"] = "STAGGER",
+["hideAt"] = 0,
+["hidden"] = true,
+["roles"] = {
+"TANK",
+},
+},
+{
+["statKey"] = "HonorCategory",
+},
+{
+["statKey"] = "HONOR_PROGRESS",
+["hideAt"] = 0,
+},
+{
+["statKey"] = "HONOR_LEVEL",
+["hideAt"] = 0,
+},
+{
+["statKey"] = "UserCat1",
+["hidden"] = true,
+},
+{
+["statKey"] = "UserCat2",
+["hidden"] = true,
+},
+{
+["statKey"] = "UserCat3",
+["hidden"] = true,
+},
+{
+["statKey"] = "UserCat4",
+["hidden"] = true,
+},
+{
+["statKey"] = "UserCat5",
+["hidden"] = true,
+},
+["uniqueKey"] = "Bankshuffle:Draenor:3",
 },
 ["Floorshuffle:Ravencrest:2"] = {
 {
@@ -6618,11 +6613,11 @@ DCS_ClassSpecDB = {
 },
 {
 ["statKey"] = "STAGGER",
-["hideAt"] = 0,
-["hidden"] = true,
 ["roles"] = {
 "TANK",
 },
+["hideAt"] = 0,
+["hidden"] = true,
 },
 {
 ["statKey"] = "HonorCategory",
@@ -6657,7 +6652,7 @@ DCS_ClassSpecDB = {
 },
 ["uniqueKey"] = "Floorshuffle:Ravencrest:2",
 },
-["Bankshuffle:Laughing Skull:5"] = {
+["Bankrshuffle:Laughing Skull:5"] = {
 {
 ["statKey"] = "ItemLevelFrame",
 },
@@ -6880,7 +6875,7 @@ DCS_ClassSpecDB = {
 ["statKey"] = "UserCat5",
 ["hidden"] = true,
 },
-["uniqueKey"] = "Bankshuffle:Laughing Skull:5",
+["uniqueKey"] = "Bankrshuffle:Laughing Skull:5",
 },
 ["Soulshuffle:Laughing Skull:3"] = {
 {
@@ -7071,11 +7066,11 @@ DCS_ClassSpecDB = {
 },
 {
 ["statKey"] = "STAGGER",
+["hideAt"] = 0,
+["hidden"] = true,
 ["roles"] = {
 "TANK",
 },
-["hidden"] = true,
-["hideAt"] = 0,
 },
 {
 ["statKey"] = "HonorCategory",
@@ -7110,7 +7105,7 @@ DCS_ClassSpecDB = {
 },
 ["uniqueKey"] = "Soulshuffle:Laughing Skull:3",
 },
-["Spellshuffel:Ravencrest:3"] = {
+["Pairshuffle:Kazzak:3"] = {
 {
 ["statKey"] = "ItemLevelFrame",
 },
@@ -7299,11 +7294,11 @@ DCS_ClassSpecDB = {
 },
 {
 ["statKey"] = "STAGGER",
+["hideAt"] = 0,
+["hidden"] = true,
 ["roles"] = {
 "TANK",
 },
-["hideAt"] = 0,
-["hidden"] = true,
 },
 {
 ["statKey"] = "HonorCategory",
@@ -7336,7 +7331,7 @@ DCS_ClassSpecDB = {
 ["statKey"] = "UserCat5",
 ["hidden"] = true,
 },
-["uniqueKey"] = "Spellshuffel:Ravencrest:3",
+["uniqueKey"] = "Pairshuffle:Kazzak:3",
 },
 ["Moleshuffle:Kazzak:3"] = {
 {
@@ -7527,11 +7522,11 @@ DCS_ClassSpecDB = {
 },
 {
 ["statKey"] = "STAGGER",
-["hideAt"] = 0,
-["hidden"] = true,
 ["roles"] = {
 "TANK",
 },
+["hideAt"] = 0,
+["hidden"] = true,
 },
 {
 ["statKey"] = "HonorCategory",
@@ -7752,11 +7747,11 @@ DCS_ClassSpecDB = {
 },
 {
 ["statKey"] = "STAGGER",
+["hideAt"] = 0,
+["hidden"] = true,
 ["roles"] = {
 "TANK",
 },
-["hidden"] = true,
-["hideAt"] = 0,
 },
 {
 ["statKey"] = "HonorCategory",
@@ -7978,11 +7973,11 @@ DCS_ClassSpecDB = {
 },
 {
 ["statKey"] = "STAGGER",
-["hidden"] = true,
-["hideAt"] = 0,
 ["roles"] = {
 "TANK",
 },
+["hidden"] = true,
+["hideAt"] = 0,
 },
 {
 ["statKey"] = "HonorCategory",
@@ -8017,7 +8012,7 @@ DCS_ClassSpecDB = {
 },
 ["uniqueKey"] = "Trickshuffle:Kazzak:3",
 },
-["Pairshuffle:Kazzak:3"] = {
+["Spellshuffel:Ravencrest:3"] = {
 {
 ["statKey"] = "ItemLevelFrame",
 },
@@ -8206,11 +8201,11 @@ DCS_ClassSpecDB = {
 },
 {
 ["statKey"] = "STAGGER",
+["hidden"] = true,
+["hideAt"] = 0,
 ["roles"] = {
 "TANK",
 },
-["hidden"] = true,
-["hideAt"] = 0,
 },
 {
 ["statKey"] = "HonorCategory",
@@ -8243,7 +8238,7 @@ DCS_ClassSpecDB = {
 ["statKey"] = "UserCat5",
 ["hidden"] = true,
 },
-["uniqueKey"] = "Pairshuffle:Kazzak:3",
+["uniqueKey"] = "Spellshuffel:Ravencrest:3",
 },
 ["Blindshuffle:Ravencrest:1"] = {
 {
@@ -8432,11 +8427,11 @@ DCS_ClassSpecDB = {
 },
 {
 ["statKey"] = "STAGGER",
+["hideAt"] = 0,
+["hidden"] = true,
 ["roles"] = {
 "TANK",
 },
-["hidden"] = true,
-["hideAt"] = 0,
 },
 {
 ["statKey"] = "HonorCategory",
@@ -8471,7 +8466,7 @@ DCS_ClassSpecDB = {
 },
 ["uniqueKey"] = "Blindshuffle:Ravencrest:1",
 },
-["Bankrshuffle:Laughing Skull:5"] = {
+["Bankshuffle:Laughing Skull:5"] = {
 {
 ["statKey"] = "ItemLevelFrame",
 },
@@ -8660,8 +8655,8 @@ DCS_ClassSpecDB = {
 ["roles"] = {
 "TANK",
 },
-["hidden"] = true,
 ["hideAt"] = 0,
+["hidden"] = true,
 },
 {
 ["statKey"] = "HonorCategory",
@@ -8694,234 +8689,9 @@ DCS_ClassSpecDB = {
 ["statKey"] = "UserCat5",
 ["hidden"] = true,
 },
-["uniqueKey"] = "Bankrshuffle:Laughing Skull:5",
+["uniqueKey"] = "Bankshuffle:Laughing Skull:5",
 },
-["Bankshuffle:Draenor:3"] = {
-{
-["statKey"] = "ItemLevelFrame",
-},
-{
-["statKey"] = "GeneralCategory",
-},
-{
-["statKey"] = "HEALTH",
-},
-{
-["statKey"] = "DCS_POWER",
-},
-{
-["statKey"] = "DCS_ALTERNATEMANA",
-},
-{
-["statKey"] = "ITEMLEVEL",
-["hidden"] = true,
-},
-{
-["statKey"] = "MOVESPEED",
-},
-{
-["statKey"] = "DURABILITY_STAT",
-},
-{
-["statKey"] = "REPAIR_COST",
-},
-{
-["statKey"] = "AttributesCategory",
-},
-{
-["statKey"] = "STRENGTH",
-},
-{
-["statKey"] = "AGILITY",
-["hidden"] = true,
-},
-{
-["statKey"] = "INTELLECT",
-["hidden"] = true,
-},
-{
-["statKey"] = "STAMINA",
-},
-{
-["statKey"] = "ARMOR",
-},
-{
-["statKey"] = "OffenseCategory",
-},
-{
-["statKey"] = "ATTACK_DAMAGE",
-},
-{
-["statKey"] = "ATTACK_AP",
-},
-{
-["statKey"] = "DCS_ATTACK_ATTACKSPEED",
-},
-{
-["statKey"] = "WEAPON_DPS",
-},
-{
-["statKey"] = "SPELLPOWER",
-["hidden"] = true,
-},
-{
-["statKey"] = "MANAREGEN",
-["hidden"] = true,
-},
-{
-["statKey"] = "ENERGY_REGEN",
-},
-{
-["statKey"] = "DCS_RUNEREGEN",
-},
-{
-["statKey"] = "FOCUS_REGEN",
-},
-{
-["statKey"] = "GCD",
-},
-{
-["statKey"] = "EnhancementsCategory",
-},
-{
-["statKey"] = "CRITCHANCE",
-["hideAt"] = 0,
-},
-{
-["statKey"] = "HASTE",
-["hideAt"] = 0,
-},
-{
-["statKey"] = "VERSATILITY",
-["hideAt"] = 0,
-},
-{
-["statKey"] = "MASTERY",
-["hideAt"] = 0,
-},
-{
-["statKey"] = "LIFESTEAL",
-["hideAt"] = 0,
-},
-{
-["statKey"] = "AVOIDANCE",
-["hideAt"] = 0,
-},
-{
-["statKey"] = "DefenseCategory",
-["hidden"] = true,
-},
-{
-["statKey"] = "DODGE",
-["hideAt"] = 0,
-["hidden"] = true,
-},
-{
-["statKey"] = "PARRY",
-["hideAt"] = 0,
-["hidden"] = true,
-},
-{
-["statKey"] = "BLOCK",
-["hidden"] = true,
-["hideAt"] = 0,
-},
-{
-["statKey"] = "RatingCategory",
-["hidden"] = true,
-},
-{
-["statKey"] = "CRITCHANCE_RATING",
-["hideAt"] = 0,
-["hidden"] = true,
-},
-{
-["statKey"] = "HASTE_RATING",
-["hideAt"] = 0,
-["hidden"] = true,
-},
-{
-["statKey"] = "VERSATILITY_RATING",
-["hideAt"] = 0,
-["hidden"] = true,
-},
-{
-["statKey"] = "MASTERY_RATING",
-["hideAt"] = 0,
-["hidden"] = true,
-},
-{
-["statKey"] = "LIFESTEAL_RATING",
-["hideAt"] = 0,
-["hidden"] = true,
-},
-{
-["statKey"] = "AVOIDANCE_RATING",
-["hideAt"] = 0,
-["hidden"] = true,
-},
-{
-["statKey"] = "DODGE_RATING",
-["hideAt"] = 0,
-["hidden"] = true,
-},
-{
-["statKey"] = "PARRY_RATING",
-["hideAt"] = 0,
-["hidden"] = true,
-},
-{
-["statKey"] = "SPEED_RATING",
-["hideAt"] = 0,
-["hidden"] = true,
-},
-{
-["statKey"] = "SPEED",
-["hideAt"] = 0,
-["hidden"] = true,
-},
-{
-["statKey"] = "STAGGER",
-["roles"] = {
-"TANK",
-},
-["hidden"] = true,
-["hideAt"] = 0,
-},
-{
-["statKey"] = "HonorCategory",
-},
-{
-["statKey"] = "HONOR_PROGRESS",
-["hideAt"] = 0,
-},
-{
-["statKey"] = "HONOR_LEVEL",
-["hideAt"] = 0,
-},
-{
-["statKey"] = "UserCat1",
-["hidden"] = true,
-},
-{
-["statKey"] = "UserCat2",
-["hidden"] = true,
-},
-{
-["statKey"] = "UserCat3",
-["hidden"] = true,
-},
-{
-["statKey"] = "UserCat4",
-["hidden"] = true,
-},
-{
-["statKey"] = "UserCat5",
-["hidden"] = true,
-},
-["uniqueKey"] = "Bankshuffle:Draenor:3",
-},
-["Ghostshuffle:Laughing Skull:3"] = {
+["Moonshuffle:Draenor:1"] = {
 {
 ["statKey"] = "ItemLevelFrame",
 },
@@ -9147,9 +8917,9 @@ DCS_ClassSpecDB = {
 ["statKey"] = "UserCat5",
 ["hidden"] = true,
 },
-["uniqueKey"] = "Ghostshuffle:Laughing Skull:3",
+["uniqueKey"] = "Moonshuffle:Draenor:1",
 },
-["Gunshuffle:Kazzak:2"] = {
+["Quakeshuffle:Draenor:1"] = {
 {
 ["statKey"] = "ItemLevelFrame",
 },
@@ -9187,10 +8957,10 @@ DCS_ClassSpecDB = {
 },
 {
 ["statKey"] = "AGILITY",
+["hidden"] = true,
 },
 {
 ["statKey"] = "INTELLECT",
-["hidden"] = true,
 },
 {
 ["statKey"] = "STAMINA",
@@ -9203,23 +8973,25 @@ DCS_ClassSpecDB = {
 },
 {
 ["statKey"] = "ATTACK_DAMAGE",
+["hidden"] = true,
 },
 {
 ["statKey"] = "ATTACK_AP",
+["hidden"] = true,
 },
 {
 ["statKey"] = "DCS_ATTACK_ATTACKSPEED",
+["hidden"] = true,
 },
 {
 ["statKey"] = "WEAPON_DPS",
+["hidden"] = true,
 },
 {
 ["statKey"] = "SPELLPOWER",
-["hidden"] = true,
 },
 {
 ["statKey"] = "MANAREGEN",
-["hidden"] = true,
 },
 {
 ["statKey"] = "ENERGY_REGEN",
@@ -9339,8 +9111,8 @@ DCS_ClassSpecDB = {
 ["roles"] = {
 "TANK",
 },
-["hideAt"] = 0,
 ["hidden"] = true,
+["hideAt"] = 0,
 },
 {
 ["statKey"] = "HonorCategory",
@@ -9373,6 +9145,234 @@ DCS_ClassSpecDB = {
 ["statKey"] = "UserCat5",
 ["hidden"] = true,
 },
-["uniqueKey"] = "Gunshuffle:Kazzak:2",
+["uniqueKey"] = "Quakeshuffle:Draenor:1",
+},
+["Subshuffle:Ravencrest:1"] = {
+{
+["statKey"] = "ItemLevelFrame",
+},
+{
+["statKey"] = "GeneralCategory",
+},
+{
+["statKey"] = "HEALTH",
+},
+{
+["statKey"] = "DCS_POWER",
+},
+{
+["statKey"] = "DCS_ALTERNATEMANA",
+},
+{
+["statKey"] = "ITEMLEVEL",
+["hidden"] = true,
+},
+{
+["statKey"] = "MOVESPEED",
+},
+{
+["statKey"] = "DURABILITY_STAT",
+},
+{
+["statKey"] = "REPAIR_COST",
+},
+{
+["statKey"] = "AttributesCategory",
+},
+{
+["statKey"] = "STRENGTH",
+["hidden"] = true,
+},
+{
+["statKey"] = "AGILITY",
+["hidden"] = true,
+},
+{
+["statKey"] = "INTELLECT",
+},
+{
+["statKey"] = "STAMINA",
+},
+{
+["statKey"] = "ARMOR",
+},
+{
+["statKey"] = "OffenseCategory",
+},
+{
+["statKey"] = "ATTACK_DAMAGE",
+["hidden"] = true,
+},
+{
+["statKey"] = "ATTACK_AP",
+["hidden"] = true,
+},
+{
+["statKey"] = "DCS_ATTACK_ATTACKSPEED",
+["hidden"] = true,
+},
+{
+["statKey"] = "WEAPON_DPS",
+["hidden"] = true,
+},
+{
+["statKey"] = "SPELLPOWER",
+},
+{
+["statKey"] = "MANAREGEN",
+},
+{
+["statKey"] = "ENERGY_REGEN",
+},
+{
+["statKey"] = "DCS_RUNEREGEN",
+["hidden"] = true,
+},
+{
+["statKey"] = "FOCUS_REGEN",
+},
+{
+["statKey"] = "GCD",
+},
+{
+["statKey"] = "EnhancementsCategory",
+},
+{
+["statKey"] = "CRITCHANCE",
+["hideAt"] = 0,
+},
+{
+["statKey"] = "HASTE",
+["hideAt"] = 0,
+},
+{
+["statKey"] = "VERSATILITY",
+["hideAt"] = 0,
+},
+{
+["statKey"] = "MASTERY",
+["hideAt"] = 0,
+},
+{
+["statKey"] = "LIFESTEAL",
+["hideAt"] = 0,
+},
+{
+["statKey"] = "AVOIDANCE",
+["hideAt"] = 0,
+},
+{
+["statKey"] = "DefenseCategory",
+["hidden"] = true,
+},
+{
+["statKey"] = "DODGE",
+["hideAt"] = 0,
+["hidden"] = true,
+},
+{
+["statKey"] = "PARRY",
+["hideAt"] = 0,
+["hidden"] = true,
+},
+{
+["statKey"] = "BLOCK",
+["hidden"] = true,
+["hideAt"] = 0,
+},
+{
+["statKey"] = "RatingCategory",
+["hidden"] = true,
+},
+{
+["statKey"] = "CRITCHANCE_RATING",
+["hideAt"] = 0,
+["hidden"] = true,
+},
+{
+["statKey"] = "HASTE_RATING",
+["hideAt"] = 0,
+["hidden"] = true,
+},
+{
+["statKey"] = "VERSATILITY_RATING",
+["hideAt"] = 0,
+["hidden"] = true,
+},
+{
+["statKey"] = "MASTERY_RATING",
+["hideAt"] = 0,
+["hidden"] = true,
+},
+{
+["statKey"] = "LIFESTEAL_RATING",
+["hideAt"] = 0,
+["hidden"] = true,
+},
+{
+["statKey"] = "AVOIDANCE_RATING",
+["hideAt"] = 0,
+["hidden"] = true,
+},
+{
+["statKey"] = "DODGE_RATING",
+["hideAt"] = 0,
+["hidden"] = true,
+},
+{
+["statKey"] = "PARRY_RATING",
+["hideAt"] = 0,
+["hidden"] = true,
+},
+{
+["statKey"] = "SPEED_RATING",
+["hideAt"] = 0,
+["hidden"] = true,
+},
+{
+["statKey"] = "SPEED",
+["hideAt"] = 0,
+["hidden"] = true,
+},
+{
+["statKey"] = "STAGGER",
+["roles"] = {
+"TANK",
+},
+["hidden"] = true,
+["hideAt"] = 0,
+},
+{
+["statKey"] = "HonorCategory",
+},
+{
+["statKey"] = "HONOR_PROGRESS",
+["hideAt"] = 0,
+},
+{
+["statKey"] = "HONOR_LEVEL",
+["hideAt"] = 0,
+},
+{
+["statKey"] = "UserCat1",
+["hidden"] = true,
+},
+{
+["statKey"] = "UserCat2",
+["hidden"] = true,
+},
+{
+["statKey"] = "UserCat3",
+["hidden"] = true,
+},
+{
+["statKey"] = "UserCat4",
+["hidden"] = true,
+},
+{
+["statKey"] = "UserCat5",
+["hidden"] = true,
+},
+["uniqueKey"] = "Subshuffle:Ravencrest:1",
 },
 }

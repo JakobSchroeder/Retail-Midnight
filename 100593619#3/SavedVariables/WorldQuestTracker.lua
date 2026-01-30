@@ -1,0 +1,169 @@
+
+WQTrackerDB = {
+["profileKeys"] = {
+["Voidshuffle - Laughing Skull"] = "Default",
+["Ghostshuffle - Laughing Skull"] = "Default",
+},
+["profiles"] = {
+["Default"] = {
+["world_map_hubscale"] = {
+[875] = 0.9,
+[947] = 1,
+[2274] = 0.95,
+[1550] = 1,
+[876] = 0.9,
+[1978] = 0.85,
+[619] = 0.3,
+},
+["talking_heads_dungeon"] = true,
+["world_map_hubenabled"] = {
+[875] = true,
+[947] = true,
+[2274] = true,
+[1550] = true,
+[876] = true,
+[1978] = true,
+[619] = true,
+},
+["player_names"] = {
+["Player-1598-0FBF146E"] = {
+["class"] = "PRIEST",
+["name"] = "Ghostshuffle",
+["realm"] = "Laughing Skull",
+},
+["Player-1598-0FA12E00"] = {
+["class"] = "PRIEST",
+["name"] = "Voidshuffle",
+["realm"] = "Laughing Skull",
+},
+},
+["history"] = {
+["period"] = {
+["global"] = {
+["260128"] = {
+["quest"] = 4,
+["resource"] = 30,
+},
+},
+["character"] = {
+["Player-1598-0FA12E00"] = {
+["260128"] = {
+["quest"] = 4,
+["resource"] = 30,
+},
+},
+},
+},
+["quest"] = {
+["global"] = {
+[91759] = 1,
+["total"] = 4,
+[86941] = 1,
+[86938] = 1,
+[86939] = 1,
+},
+["character"] = {
+["Player-1598-0FA12E00"] = {
+[91759] = 1,
+["total"] = 4,
+[86941] = 1,
+[86938] = 1,
+[86939] = 1,
+},
+},
+},
+["reward"] = {
+["global"] = {
+["resource"] = 30,
+},
+["character"] = {
+["Player-1598-0FA12E00"] = {
+["resource"] = 30,
+},
+},
+},
+},
+["map_frame_anchor"] = "center",
+["talking_heads_torgast"] = true,
+["talking_heads_openworld"] = true,
+["clicked_order_by_once"] = true,
+["groupfinder"] = {
+["frame"] = {
+["y"] = 244.9999084472656,
+["x"] = -339.00048828125,
+["point"] = "RIGHT",
+["scale"] = 1,
+},
+["enabled"] = false,
+},
+["quests_tracked"] = {
+["Player-1598-0FBF146E"] = {
+},
+["Player-1598-0FA12E00"] = {
+},
+},
+["talking_heads_heard"] = {
+[303228] = true,
+[303232] = true,
+[303214] = true,
+[303218] = true,
+[303217] = true,
+[303215] = true,
+[303219] = true,
+[300617] = true,
+[284972] = true,
+[303216] = true,
+[303233] = true,
+},
+["quests_all_characters"] = {
+["Player-1598-0FBF146E"] = {
+[91759] = {
+["expireAt"] = 1769875254,
+["rewardAmount"] = 20,
+["rewardTexture"] = "Interface\\AddOns\\WorldQuestTracker\\media\\icon_artifact_power",
+},
+[86938] = {
+["expireAt"] = 1769799654,
+["rewardAmount"] = 20,
+["rewardTexture"] = "Interface\\AddOns\\WorldQuestTracker\\media\\icon_artifact_power",
+},
+},
+["Player-1598-0FA12E00"] = {
+[73082] = {
+["expireAt"] = 1769875258,
+["rewardAmount"] = "",
+["rewardTexture"] = 1519426,
+},
+[73149] = {
+["expireAt"] = 1769745658,
+["rewardAmount"] = "16",
+["rewardTexture"] = 2004597,
+},
+},
+},
+["talking_heads_raid"] = true,
+["rarescan"] = {
+["search_group"] = false,
+},
+["is_BFA_version"] = true,
+["pins_discovered"] = {
+["worldquest-Capstone-questmarker-epic-Locked"] = {
+[7823] = {
+["poiID"] = 7823,
+["mapID"] = 2248,
+["tooltipSetId"] = 1108,
+["worldY"] = 0.1785767376422882,
+["zoneX"] = 0.7312923669815063,
+["continentID"] = 2274,
+["worldX"] = 0.8276190161705017,
+["zoneY"] = 0.3779747486114502,
+},
+},
+},
+},
+},
+}
+WQTrackerLanguage = {
+["language"] = "enUS",
+["version"] = 1,
+}

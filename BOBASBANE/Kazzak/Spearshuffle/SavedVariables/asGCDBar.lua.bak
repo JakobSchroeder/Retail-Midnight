@@ -1,3 +1,0 @@
-
-AGCDB_Positions = {
-}

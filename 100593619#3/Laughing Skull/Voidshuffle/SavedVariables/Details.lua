@@ -33,9 +33,9 @@ _detalhes_database = {
 ["raid_targets"] = {
 },
 ["end_time"] = 1769766869,
+["on_hold"] = false,
 ["damage_from"] = {
 },
-["aID"] = "1598-0FA12E00",
 ["nome"] = "Voidshuffle",
 ["spells"] = {
 ["_ActorTable"] = {
@@ -173,8 +173,8 @@ _detalhes_database = {
 ["tipo"] = 2,
 },
 ["grupo"] = true,
-["on_hold"] = false,
 ["tipo"] = 1,
+["aID"] = "1598-0FA12E00",
 ["custom"] = 0,
 ["last_event"] = 0,
 ["damage_taken"] = 0.003696,
@@ -195,11 +195,12 @@ _detalhes_database = {
 ["pets"] = {
 },
 ["iniciar_hps"] = false,
-["classe"] = "PRIEST",
+["aID"] = "1598-0FA12E00",
 ["totalover"] = 0.002619,
 ["total_without_pet"] = 0.002619,
 ["total"] = 0,
-["spec"] = 258,
+["targets_absorbs"] = {
+},
 ["heal_enemy"] = {
 },
 ["on_hold"] = false,
@@ -210,12 +211,12 @@ _detalhes_database = {
 ["targets"] = {
 },
 ["totalover_without_pet"] = 0.002619,
-["last_event"] = 0,
+["spec"] = 258,
 ["healing_taken"] = 0.002619,
 ["end_time"] = 1769766869,
+["start_time"] = 1769766869,
 ["healing_from"] = {
 },
-["aID"] = "1598-0FA12E00",
 ["nome"] = "Voidshuffle",
 ["spells"] = {
 ["_ActorTable"] = {
@@ -223,14 +224,13 @@ _detalhes_database = {
 ["tipo"] = 3,
 },
 ["grupo"] = true,
-["start_time"] = 1769766869,
 ["heal_enemy_amt"] = 0,
+["last_event"] = 0,
 ["custom"] = 0,
 ["tipo"] = 2,
 ["totaldenied"] = 0.002619,
 ["delay"] = 0,
-["targets_absorbs"] = {
-},
+["classe"] = "PRIEST",
 },
 },
 },
@@ -254,7 +254,7 @@ _detalhes_database = {
 },
 ["raid_roster"] = {
 },
-["overall_added"] = true,
+["tempo_start"] = 1769766869,
 ["last_events_tables"] = {
 },
 ["alternate_power"] = {
@@ -317,7 +317,7 @@ _detalhes_database = {
 ["mapId"] = 2444,
 ["combat_id"] = 112,
 ["timeStart"] = 1769766870,
-["is_world_trash_combat"] = true,
+["overall_added"] = true,
 ["frags"] = {
 },
 ["is_challenge"] = false,
@@ -369,7 +369,7 @@ _detalhes_database = {
 ["start_time"] = 3559981.807,
 ["TimeData"] = {
 },
-["tempo_start"] = 1769766869,
+["is_world_trash_combat"] = true,
 },
 {
 {
@@ -656,12 +656,12 @@ _detalhes_database = {
 ["specIcon"] = 136207,
 ["targets"] = {
 },
-["heal_enemy_amt"] = 0,
+["aID"] = "1598-0FA12E00",
 ["totalover_without_pet"] = 0.004974,
 ["healing_taken"] = 0.004974,
 ["start_time"] = 1769766824,
 ["end_time"] = 1769766824,
-["aID"] = "1598-0FA12E00",
+["heal_enemy_amt"] = 0,
 ["spec"] = 258,
 ["nome"] = "Voidshuffle",
 ["spells"] = {
@@ -914,9 +914,8 @@ _detalhes_database = {
 ["show_options"] = false,
 ["ignored_cooldowns"] = {
 },
-["cooldowns"] = {
-},
 ["height"] = 18,
+["framme_locked"] = false,
 ["own_frame"] = {
 ["defensive-raid"] = false,
 ["ofensive"] = false,
@@ -924,7 +923,8 @@ _detalhes_database = {
 ["utility"] = false,
 ["defensive-personal"] = false,
 },
-["framme_locked"] = false,
+["cooldowns"] = {
+},
 ["show_conditions"] = {
 ["only_inside_instance"] = true,
 ["only_in_group"] = true,
@@ -1023,7 +1023,9 @@ _detalhes_database = {
 },
 },
 },
-["on_death_menu"] = false,
+["SoloTablesSaved"] = {
+["Mode"] = 1,
+},
 ["cached_talents"] = {
 },
 ["last_instance_id"] = 2810,
@@ -1068,20 +1070,13 @@ _detalhes_database = {
 ["dungeon_zone_id"] = 0,
 ["previous_boss_killed_at"] = 0,
 },
-["coach"] = {
-["enabled"] = false,
-["welcome_panel_pos"] = {
-},
-["last_coach_name"] = false,
-},
+["on_death_menu"] = false,
 ["ignore_nicktag"] = true,
 ["announce_damagerecord"] = {
 ["enabled"] = true,
 ["channel"] = "SELF",
 },
-["announce_firsthit"] = {
-["enabled"] = true,
-["channel"] = "SELF",
+["cached_roles"] = {
 },
 ["combat_log"] = {
 ["inverse_deathlog_overalldata"] = false,
@@ -1092,6 +1087,20 @@ _detalhes_database = {
 ["calc_evoker_damage"] = true,
 ["evoker_show_realtimedps"] = false,
 ["inverse_deathlog_mplus"] = false,
+},
+["coach"] = {
+["enabled"] = false,
+["welcome_panel_pos"] = {
+},
+["last_coach_name"] = false,
+},
+["plugin_database"] = {
+["DETAILS_PLUGIN_COMPARETWO_WINDOW"] = {
+["enabled"] = true,
+["author"] = "Terciob",
+["max_compares"] = 4,
+["compare_type"] = 1,
+},
 },
 ["nick_tag_cache"] = {
 ["Monoroth"] = {
@@ -1120,24 +1129,64 @@ _detalhes_database = {
 ["nextreset"] = 1770320181,
 ["last_version"] = 16,
 },
-["plugin_database"] = {
-["DETAILS_PLUGIN_COMPARETWO_WINDOW"] = {
-["enabled"] = true,
-["author"] = "Terciob",
-["max_compares"] = 4,
-["compare_type"] = 1,
-},
-},
-["character_data"] = {
-["logons"] = 77,
+["mythic_plus_log"] = {
+"08/09/25 09:44:12|Activity Time: 1158.717",
+"08/09/25 09:44:12|GetChallengeCompletionInfo() Found, Time: 1214",
+"08/09/25 09:44:12|MergeSegmentsOnEnd started | creating the overall segment at the end of the run.",
+"08/09/25 09:44:12|delete_trash_after_merge | concluded",
+"08/09/25 09:44:12|running MergeRemainingTrashAfterAllBossesDone.",
+"08/09/25 09:44:12|MythicDungeonFinished() | merge_boss_trash = true",
+"08/09/25 09:44:10|===== Mythic+ Finished =====",
+"08/09/25 09:43:24|MergeTrashCleanup started.",
+"08/09/25 09:43:24|BossDefeated | key level: | 10 | Ki'katal the Harvester | Ara-Kara, City of Echoes",
+"08/09/25 09:38:11|MergeTrashCleanup started.",
+"08/09/25 09:38:11|BossDefeated | key level: | 10 | Anub'zekt | Ara-Kara, City of Echoes",
+"08/09/25 09:30:58|MergeTrashCleanup started.",
+"08/09/25 09:30:58|BossDefeated | key level: | 10 | Avanoxx | Ara-Kara, City of Echoes",
+"08/09/25 09:23:37|OnChallengeModeStart()",
+"08/09/25 09:23:37|COMBAT_MYTHICDUNGEON_START | settings: make_overall_boss_only = false | delay_to_show_graphic = 1 | mythicrun_time_type = 1 | reverse_death_log = false | make_overall_when_done = true | merge_boss_trash = true | show_damage_graphic = false | boss_dedicated_segment = true | autoclose_time = 90 |  | level: 10 | zone: Ara-Kara, City of Echoes | zoneId: 2660",
+"08/09/25 09:23:37|CHALLENGE_MODE_START timer ended, starting the dungeon.",
+"08/09/25 09:23:27|Event: CHALLENGE_MODE_START",
+"08/09/25 09:23:27|CHALLENGE_MODE_START, starting 10 seconds timer.",
+"08/09/25 08:59:29|Activity Time: 1261.445",
+"08/09/25 08:59:29|GetChallengeCompletionInfo() Found, Time: 1329",
+"08/09/25 08:59:29|MergeSegmentsOnEnd started | creating the overall segment at the end of the run.",
+"08/09/25 08:59:29|delete_trash_after_merge | concluded",
+"08/09/25 08:59:29|running MergeRemainingTrashAfterAllBossesDone.",
+"08/09/25 08:59:29|MythicDungeonFinished() | merge_boss_trash = true",
+"08/09/25 08:59:29|MythicDungeonFinished() | Details was in combat.",
+"08/09/25 08:59:27|===== Mythic+ Finished =====",
+"08/09/25 08:58:22|MergeTrashCleanup started.",
+"08/09/25 08:58:22|BossDefeated | key level: | 10 | Ki'katal the Harvester | Ara-Kara, City of Echoes",
+"08/09/25 08:51:42|MergeTrashCleanup started.",
+"08/09/25 08:51:42|BossDefeated | key level: | 10 | Anub'zekt | Ara-Kara, City of Echoes",
+"08/09/25 08:44:13|MergeTrashCleanup started.",
+"08/09/25 08:44:13|BossDefeated | key level: | 10 | Avanoxx | Ara-Kara, City of Echoes",
+"08/09/25 08:37:00|OnChallengeModeStart()",
+"08/09/25 08:36:59|COMBAT_MYTHICDUNGEON_START | settings: make_overall_boss_only = false | delay_to_show_graphic = 1 | mythicrun_time_type = 1 | reverse_death_log = false | make_overall_when_done = true | merge_boss_trash = true | show_damage_graphic = false | boss_dedicated_segment = true | autoclose_time = 90 |  | level: 10 | zone: Ara-Kara, City of Echoes | zoneId: 2660",
+"08/09/25 08:36:59|CHALLENGE_MODE_START timer ended, starting the dungeon.",
+"08/09/25 08:36:49|Event: CHALLENGE_MODE_START",
+"08/09/25 08:36:49|CHALLENGE_MODE_START, starting 10 seconds timer.",
+"05/09/25 23:49:47|Activity Time: 965.69599999999",
+"05/09/25 23:49:47|GetChallengeCompletionInfo() Found, Time: 1051",
+"05/09/25 23:49:47|MergeSegmentsOnEnd started | creating the overall segment at the end of the run.",
+"05/09/25 23:49:47|MythicDungeonFinished() | merge_boss_trash = true",
+"05/09/25 23:49:47|MythicDungeonFinished() | Details was in combat.",
+"05/09/25 23:49:45|===== Mythic+ Finished =====",
+"05/09/25 23:49:45|MergeTrashCleanup started.",
+"05/09/25 23:49:45|BossDefeated | key level: | 10 | Soul-Scribe | Eco-Dome Al'dani",
+"05/09/25 23:41:34|MergeTrashCleanup started.",
+"05/09/25 23:41:34|BossDefeated | key level: | 10 | Taah'bat and A'wazj | Eco-Dome Al'dani",
+"05/09/25 23:35:37|MergeTrashCleanup started.",
+"05/09/25 23:35:37|BossDefeated | key level: | 10 | Azhiccar | Eco-Dome Al'dani",
 },
 ["data_harvested_for_charts"] = {
 },
-["player_stats"] = {
+["benchmark_db"] = {
+["frame"] = {
 },
-["last_day"] = "30",
-["SoloTablesSaved"] = {
-["Mode"] = 1,
+},
+["player_stats"] = {
 },
 ["last_realversion"] = 168,
 ["last_version"] = "12.0.0 14358",
@@ -1145,8 +1194,7 @@ _detalhes_database = {
 ["savedStyles"] = {
 },
 ["last_instance_time"] = 1769362715,
-["damage_meter_session_info"] = {
-},
+["last_day"] = "30",
 ["announce_deaths"] = {
 ["enabled"] = false,
 ["last_hits"] = 1,
@@ -3173,7 +3221,7 @@ _detalhes_database = {
 ["_ActorTable"] = {
 {
 ["flag_original"] = 1298,
-["targets_overheal"] = {
+["healing_from"] = {
 },
 ["pets"] = {
 },
@@ -3196,7 +3244,7 @@ _detalhes_database = {
 ["heal_enemy_amt"] = 0,
 ["healing_taken"] = 0.3769790000000003,
 ["end_time"] = 1769622496,
-["healing_from"] = {
+["targets_overheal"] = {
 },
 ["totaldenied"] = 0.3769790000000003,
 ["nome"] = "Voidshuffle",
@@ -3428,7 +3476,7 @@ _detalhes_database = {
 ["pets"] = {
 },
 ["iniciar_hps"] = false,
-["heal_enemy_amt"] = 0,
+["classe"] = "PRIEST",
 ["totalover"] = 0.009314,
 ["total_without_pet"] = 0.009314,
 ["total"] = 22628.006021,
@@ -3502,16 +3550,16 @@ _detalhes_database = {
 ["grupo"] = true,
 ["healing_from"] = {
 },
-["classe"] = "PRIEST",
+["aID"] = "1305-0D190651",
 ["custom"] = 0,
 ["tipo"] = 2,
 ["start_time"] = 1769624527,
 ["delay"] = 0,
-["aID"] = "1305-0D190651",
+["heal_enemy_amt"] = 0,
 },
 {
 ["flag_original"] = 1298,
-["healing_from"] = {
+["targets_overheal"] = {
 },
 ["pets"] = {
 },
@@ -3533,7 +3581,7 @@ _detalhes_database = {
 ["aID"] = "1305-0D58AB75",
 ["healing_taken"] = 0.011391,
 ["end_time"] = 1769624530,
-["targets_overheal"] = {
+["healing_from"] = {
 },
 ["start_time"] = 1769624527,
 ["nome"] = "Noregretz-Kazzak",
@@ -3600,7 +3648,7 @@ _detalhes_database = {
 },
 {
 ["flag_original"] = 1298,
-["healing_from"] = {
+["targets_overheal"] = {
 },
 ["pets"] = {
 },
@@ -3622,7 +3670,7 @@ _detalhes_database = {
 ["aID"] = "1403-06492F48",
 ["healing_taken"] = 0.028473,
 ["end_time"] = 1769633015,
-["targets_overheal"] = {
+["healing_from"] = {
 },
 ["start_time"] = 1769633012,
 ["nome"] = "Hornyshuffle-Draenor",
@@ -3694,7 +3742,7 @@ _detalhes_database = {
 ["pets"] = {
 },
 ["iniciar_hps"] = false,
-["classe"] = "DRUID",
+["aID"] = "1598-0FC66544",
 ["totalover"] = 0.01223,
 ["total_without_pet"] = 0.01223,
 ["total"] = 3102.003538,
@@ -3768,16 +3816,16 @@ _detalhes_database = {
 ["grupo"] = true,
 ["targets_overheal"] = {
 },
-["aID"] = "1598-0FC66544",
+["heal_enemy_amt"] = 0,
 ["custom"] = 0,
 ["tipo"] = 2,
 ["start_time"] = 1769712819,
 ["delay"] = 0,
-["heal_enemy_amt"] = 0,
+["classe"] = "DRUID",
 },
 {
 ["flag_original"] = 1298,
-["targets_overheal"] = {
+["healing_from"] = {
 },
 ["pets"] = {
 },
@@ -3801,7 +3849,7 @@ _detalhes_database = {
 ["healing_taken"] = 0.005568,
 ["end_time"] = 1769712822,
 ["aID"] = "1598-06DBA8F2",
-["healing_from"] = {
+["targets_overheal"] = {
 },
 ["nome"] = "Thosha",
 ["spells"] = {
@@ -3843,7 +3891,7 @@ _detalhes_database = {
 },
 {
 ["flag_original"] = 1298,
-["targets_overheal"] = {
+["healing_from"] = {
 },
 ["pets"] = {
 },
@@ -3867,7 +3915,7 @@ _detalhes_database = {
 ["healing_taken"] = 0.011724,
 ["end_time"] = 1769712822,
 ["aID"] = "1598-0FC99DB3",
-["healing_from"] = {
+["targets_overheal"] = {
 },
 ["nome"] = "Vary-Trollbane",
 ["spells"] = {
@@ -3909,7 +3957,7 @@ _detalhes_database = {
 },
 {
 ["flag_original"] = 1298,
-["targets_overheal"] = {
+["healing_from"] = {
 },
 ["pets"] = {
 },
@@ -3933,7 +3981,7 @@ _detalhes_database = {
 ["healing_taken"] = 0.013212,
 ["end_time"] = 1769713122,
 ["aID"] = "1305-0D3ACAFE",
-["healing_from"] = {
+["targets_overheal"] = {
 },
 ["nome"] = "Spearshuffle-Kazzak",
 ["spells"] = {
@@ -4049,44 +4097,6 @@ _detalhes_database = {
 ["n"] = 1,
 },
 ["is_challenge"] = false,
-["spells_cast_timeline"] = {
-},
-["totals_grupo"] = {
-20198641.013385,
-2132790,
-{
-0,
-[0] = 0,
-["alternatepower"] = 0,
-[3] = 0,
-[6] = 0,
-},
-{
-["buff_uptime"] = 0,
-["ress"] = 0,
-["cooldowns_defensive"] = 0,
-["dispell"] = 0,
-["interrupt"] = 0,
-["debuff_uptime"] = 0,
-["cc_break"] = 0,
-["dead"] = 0,
-},
-},
-["overall_enemy_name"] = "Unknown",
-["PhaseData"] = {
-{
-1,
-1,
-},
-["damage_section"] = {
-},
-["heal_section"] = {
-},
-["heal"] = {
-},
-["damage"] = {
-},
-},
 ["segments_added"] = {
 {
 ["elapsed"] = 4.868999999947846,
@@ -4329,68 +4339,58 @@ _detalhes_database = {
 ["clock"] = "20:31:59",
 },
 },
-["start_time"] = 3556371.242000002,
-["TimeData"] = {
+["totals_grupo"] = {
+20198641.013385,
+2132790,
+{
+0,
+[0] = 0,
+["alternatepower"] = 0,
+[3] = 0,
+[6] = 0,
+},
+{
+["buff_uptime"] = 0,
+["ress"] = 0,
+["cooldowns_defensive"] = 0,
+["dispell"] = 0,
+["interrupt"] = 0,
+["debuff_uptime"] = 0,
+["cc_break"] = 0,
+["dead"] = 0,
+},
+},
+["overall_enemy_name"] = "Unknown",
+["PhaseData"] = {
+{
+1,
+1,
+},
+["damage_section"] = {
+},
+["heal_section"] = {
+},
+["heal"] = {
+},
+["damage"] = {
+},
 },
 ["frags"] = {
 },
+["start_time"] = 3556371.242000002,
+["TimeData"] = {
 },
-["benchmark_db"] = {
-["frame"] = {
+["spells_cast_timeline"] = {
 },
+},
+["character_data"] = {
+["logons"] = 79,
 },
 ["arena_data_headers"] = {
 },
-["mythic_plus_log"] = {
-"08/09/25 09:44:12|Activity Time: 1158.717",
-"08/09/25 09:44:12|GetChallengeCompletionInfo() Found, Time: 1214",
-"08/09/25 09:44:12|MergeSegmentsOnEnd started | creating the overall segment at the end of the run.",
-"08/09/25 09:44:12|delete_trash_after_merge | concluded",
-"08/09/25 09:44:12|running MergeRemainingTrashAfterAllBossesDone.",
-"08/09/25 09:44:12|MythicDungeonFinished() | merge_boss_trash = true",
-"08/09/25 09:44:10|===== Mythic+ Finished =====",
-"08/09/25 09:43:24|MergeTrashCleanup started.",
-"08/09/25 09:43:24|BossDefeated | key level: | 10 | Ki'katal the Harvester | Ara-Kara, City of Echoes",
-"08/09/25 09:38:11|MergeTrashCleanup started.",
-"08/09/25 09:38:11|BossDefeated | key level: | 10 | Anub'zekt | Ara-Kara, City of Echoes",
-"08/09/25 09:30:58|MergeTrashCleanup started.",
-"08/09/25 09:30:58|BossDefeated | key level: | 10 | Avanoxx | Ara-Kara, City of Echoes",
-"08/09/25 09:23:37|OnChallengeModeStart()",
-"08/09/25 09:23:37|COMBAT_MYTHICDUNGEON_START | settings: make_overall_boss_only = false | delay_to_show_graphic = 1 | mythicrun_time_type = 1 | reverse_death_log = false | make_overall_when_done = true | merge_boss_trash = true | show_damage_graphic = false | boss_dedicated_segment = true | autoclose_time = 90 |  | level: 10 | zone: Ara-Kara, City of Echoes | zoneId: 2660",
-"08/09/25 09:23:37|CHALLENGE_MODE_START timer ended, starting the dungeon.",
-"08/09/25 09:23:27|Event: CHALLENGE_MODE_START",
-"08/09/25 09:23:27|CHALLENGE_MODE_START, starting 10 seconds timer.",
-"08/09/25 08:59:29|Activity Time: 1261.445",
-"08/09/25 08:59:29|GetChallengeCompletionInfo() Found, Time: 1329",
-"08/09/25 08:59:29|MergeSegmentsOnEnd started | creating the overall segment at the end of the run.",
-"08/09/25 08:59:29|delete_trash_after_merge | concluded",
-"08/09/25 08:59:29|running MergeRemainingTrashAfterAllBossesDone.",
-"08/09/25 08:59:29|MythicDungeonFinished() | merge_boss_trash = true",
-"08/09/25 08:59:29|MythicDungeonFinished() | Details was in combat.",
-"08/09/25 08:59:27|===== Mythic+ Finished =====",
-"08/09/25 08:58:22|MergeTrashCleanup started.",
-"08/09/25 08:58:22|BossDefeated | key level: | 10 | Ki'katal the Harvester | Ara-Kara, City of Echoes",
-"08/09/25 08:51:42|MergeTrashCleanup started.",
-"08/09/25 08:51:42|BossDefeated | key level: | 10 | Anub'zekt | Ara-Kara, City of Echoes",
-"08/09/25 08:44:13|MergeTrashCleanup started.",
-"08/09/25 08:44:13|BossDefeated | key level: | 10 | Avanoxx | Ara-Kara, City of Echoes",
-"08/09/25 08:37:00|OnChallengeModeStart()",
-"08/09/25 08:36:59|COMBAT_MYTHICDUNGEON_START | settings: make_overall_boss_only = false | delay_to_show_graphic = 1 | mythicrun_time_type = 1 | reverse_death_log = false | make_overall_when_done = true | merge_boss_trash = true | show_damage_graphic = false | boss_dedicated_segment = true | autoclose_time = 90 |  | level: 10 | zone: Ara-Kara, City of Echoes | zoneId: 2660",
-"08/09/25 08:36:59|CHALLENGE_MODE_START timer ended, starting the dungeon.",
-"08/09/25 08:36:49|Event: CHALLENGE_MODE_START",
-"08/09/25 08:36:49|CHALLENGE_MODE_START, starting 10 seconds timer.",
-"05/09/25 23:49:47|Activity Time: 965.69599999999",
-"05/09/25 23:49:47|GetChallengeCompletionInfo() Found, Time: 1051",
-"05/09/25 23:49:47|MergeSegmentsOnEnd started | creating the overall segment at the end of the run.",
-"05/09/25 23:49:47|MythicDungeonFinished() | merge_boss_trash = true",
-"05/09/25 23:49:47|MythicDungeonFinished() | Details was in combat.",
-"05/09/25 23:49:45|===== Mythic+ Finished =====",
-"05/09/25 23:49:45|MergeTrashCleanup started.",
-"05/09/25 23:49:45|BossDefeated | key level: | 10 | Soul-Scribe | Eco-Dome Al'dani",
-"05/09/25 23:41:34|MergeTrashCleanup started.",
-"05/09/25 23:41:34|BossDefeated | key level: | 10 | Taah'bat and A'wazj | Eco-Dome Al'dani",
-"05/09/25 23:35:37|MergeTrashCleanup started.",
-"05/09/25 23:35:37|BossDefeated | key level: | 10 | Azhiccar | Eco-Dome Al'dani",
+["announce_firsthit"] = {
+["enabled"] = true,
+["channel"] = "SELF",
 },
 ["announce_cooldowns"] = {
 ["enabled"] = false,
@@ -4403,7 +4403,7 @@ _detalhes_database = {
 ["last_difficulty"] = 15,
 ["last_raid"] = "",
 },
-["cached_roles"] = {
+["damage_meter_session_info"] = {
 },
 ["cached_specs"] = {
 ["Player-1598-0FA12E00"] = 258,

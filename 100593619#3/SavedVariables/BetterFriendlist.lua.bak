@@ -37,13 +37,13 @@ BetterFriendlistDB = {
 ["customGroups"] = {
 },
 ["notificationMessageOffline"] = "%name% went offline",
+["friendGroups"] = {
+},
 ["fontColorFriendName"] = {
 ["a"] = 1,
 ["r"] = 0.51,
 ["g"] = 0.773,
 ["b"] = 1,
-},
-["friendGroups"] = {
 },
 ["inGameGroupMode"] = "same_game",
 ["groupCountColors"] = {
@@ -54,11 +54,11 @@ BetterFriendlistDB = {
 ["groupHeaderAlign"] = "LEFT",
 ["notificationMessageGameSwitch"] = "%name% is now playing %game%",
 ["hideEmptyGroups"] = false,
-["bnetUIDMigrationDone_v2"] = true,
 ["debugPrintEnabled"] = false,
-["nameDisplayFormat"] = "%name%",
-["notificationOfflineEnabled"] = false,
+["bnetUIDMigrationDone_v2"] = true,
 ["colorClassNames"] = true,
+["notificationOfflineEnabled"] = false,
+["nameDisplayFormat"] = "%name%",
 ["useUIPanelSystem"] = false,
 ["grayOtherFaction"] = false,
 ["fontColorFriendInfo"] = {
@@ -72,7 +72,7 @@ BetterFriendlistDB = {
 ["groupStates"] = {
 ["nogroup"] = false,
 },
-["fontShadowFriendInfo"] = false,
+["hideMaxLevel"] = false,
 ["enableGlobalSyncDeletion"] = false,
 ["fontSizeFriendInfo"] = 10,
 ["groupArrowColors"] = {
@@ -84,9 +84,9 @@ BetterFriendlistDB = {
 ["fontShadowFriendName"] = false,
 ["defaultFrameHeight"] = 570,
 ["fontSize"] = "normal",
-["hideMaxLevel"] = false,
+["fontShadowFriendInfo"] = false,
 ["notificationDisplayMode"] = "alert",
-["fontOutlineFriendName"] = "NONE",
+["notificationCharSwitchEnabled"] = false,
 ["brokerTooltipMode"] = "advanced",
 ["showMobileAsAFK"] = false,
 ["notificationQuietScheduled"] = false,
@@ -106,7 +106,7 @@ BetterFriendlistDB = {
 },
 ["headerCountFormat"] = "visible",
 ["notificationQuietInstance"] = false,
-["notificationCharSwitchEnabled"] = false,
+["fontOutlineFriendName"] = "NONE",
 ["fontSizeGroupHeader"] = 12,
 ["brokerShowLabel"] = true,
 ["compactMode"] = false,

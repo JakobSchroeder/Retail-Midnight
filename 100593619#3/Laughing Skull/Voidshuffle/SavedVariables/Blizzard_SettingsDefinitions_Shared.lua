@@ -1,7 +1,7 @@
 
 NewSettingsSeen = {
 ["raidFramesDisplayClassColor"] = true,
-["raidFramesDispelIndicatorOverlay"] = true,
 ["raidFramesDispelIndicatorType"] = true,
+["raidFramesDispelIndicatorOverlay"] = true,
 ["chatBubblesRaid"] = true,
 }

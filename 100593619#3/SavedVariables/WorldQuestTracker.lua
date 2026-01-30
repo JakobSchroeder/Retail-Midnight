@@ -4,6 +4,7 @@ WQTrackerDB = {
 ["Ghostshuffle - Laughing Skull"] = "Default",
 ["Voidshuffle - Laughing Skull"] = "Default",
 ["Soulshuffle - Laughing Skull"] = "Default",
+["Feintshuffle - Kazzak"] = "Default",
 },
 ["profiles"] = {
 ["Default"] = {
@@ -11,20 +12,20 @@ WQTrackerDB = {
 ["world_map_hubscale"] = {
 [875] = 0.9,
 [947] = 1,
-[1978] = 0.85,
+[619] = 0.3,
 [1550] = 1,
 [876] = 0.9,
-[619] = 0.3,
+[1978] = 0.85,
 [2274] = 0.95,
 },
 ["talking_heads_dungeon"] = true,
 ["world_map_hubenabled"] = {
 [875] = true,
 [947] = true,
-[1978] = true,
+[619] = true,
 [1550] = true,
 [876] = true,
-[619] = true,
+[1978] = true,
 [2274] = true,
 },
 ["player_names"] = {
@@ -37,6 +38,11 @@ WQTrackerDB = {
 ["class"] = "PRIEST",
 ["name"] = "Voidshuffle",
 ["realm"] = "Laughing Skull",
+},
+["Player-1305-0BC45722"] = {
+["class"] = "ROGUE",
+["name"] = "Feintshuffle",
+["realm"] = "Kazzak",
 },
 ["Player-1598-0F356A2A"] = {
 ["class"] = "WARLOCK",
@@ -128,15 +134,17 @@ WQTrackerDB = {
 },
 ["Player-1598-0FA12E00"] = {
 },
+["Player-1305-0BC45722"] = {
+},
 ["Player-1598-0F356A2A"] = {
 },
 },
 ["talking_heads_heard"] = {
 [303228] = true,
 [303232] = true,
-[303218] = true,
-[303214] = true,
 [303233] = true,
+[303214] = true,
+[303218] = true,
 [303216] = true,
 [284972] = true,
 [300620] = true,
@@ -149,7 +157,7 @@ WQTrackerDB = {
 ["quests_all_characters"] = {
 ["Player-1598-0FBF146E"] = {
 [91759] = {
-["expireAt"] = 1769875251,
+["expireAt"] = 1769875253,
 ["rewardAmount"] = 20,
 ["rewardTexture"] = "Interface\\AddOns\\WorldQuestTracker\\media\\icon_artifact_power",
 },

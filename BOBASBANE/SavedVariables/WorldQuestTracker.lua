@@ -1,45 +1,51 @@
 
 WQTrackerDB = {
 ["profileKeys"] = {
+["Avoidshuffle - Laughing Skull"] = "Default",
+["Tradushuffle - Laughing Skull"] = "Default",
 ["Hornyshuffle - Draenor"] = "Default",
 ["Spearshuffle - Kazzak"] = "Default",
-["Tradushuffle - Laughing Skull"] = "Default",
 },
 ["profiles"] = {
 ["Default"] = {
 ["world_map_hubscale"] = {
 [875] = 0.9,
 [947] = 1,
-[619] = 0.3,
+[2274] = 0.95,
 [1550] = 1,
 [876] = 0.9,
+[619] = 0.3,
 [1978] = 0.85,
-[2274] = 0.95,
 },
 ["world_map_hubenabled"] = {
 [875] = true,
 [947] = true,
-[619] = true,
+[2274] = true,
 [1550] = true,
 [876] = true,
+[619] = true,
 [1978] = true,
-[2274] = true,
 },
 ["player_names"] = {
-["Player-1403-06492F48"] = {
-["class"] = "DEMONHUNTER",
-["name"] = "Hornyshuffle",
-["realm"] = "Draenor",
+["Player-1305-0D3ACAFE"] = {
+["class"] = "HUNTER",
+["name"] = "Spearshuffle",
+["realm"] = "Kazzak",
+},
+["Player-1598-0FCDC506"] = {
+["class"] = "PRIEST",
+["name"] = "Avoidshuffle",
+["realm"] = "Laughing Skull",
 },
 ["Player-1598-0F08F91C"] = {
 ["class"] = "DRUID",
 ["name"] = "Tradushuffle",
 ["realm"] = "Laughing Skull",
 },
-["Player-1305-0D3ACAFE"] = {
-["class"] = "HUNTER",
-["name"] = "Spearshuffle",
-["realm"] = "Kazzak",
+["Player-1403-06492F48"] = {
+["class"] = "DEMONHUNTER",
+["name"] = "Hornyshuffle",
+["realm"] = "Draenor",
 },
 },
 ["talking_heads_heard"] = {
@@ -57,14 +63,40 @@ WQTrackerDB = {
 },
 },
 ["quests_tracked"] = {
-["Player-1403-06492F48"] = {
+["Player-1305-0D3ACAFE"] = {
+},
+["Player-1598-0FCDC506"] = {
 },
 ["Player-1598-0F08F91C"] = {
 },
-["Player-1305-0D3ACAFE"] = {
+["Player-1403-06492F48"] = {
 },
 },
 ["quests_all_characters"] = {
+["Player-1305-0D3ACAFE"] = {
+[91759] = {
+["expireAt"] = 1769875276,
+["rewardAmount"] = 20,
+["rewardTexture"] = "Interface\\AddOns\\WorldQuestTracker\\media\\icon_artifact_power",
+},
+[86938] = {
+["expireAt"] = 1769799676,
+["rewardAmount"] = 20,
+["rewardTexture"] = "Interface\\AddOns\\WorldQuestTracker\\media\\icon_artifact_power",
+},
+},
+["Player-1598-0FCDC506"] = {
+[91759] = {
+["expireAt"] = 1769875266,
+["rewardAmount"] = 20,
+["rewardTexture"] = "Interface\\AddOns\\WorldQuestTracker\\media\\icon_artifact_power",
+},
+[86938] = {
+["expireAt"] = 1769799666,
+["rewardAmount"] = 20,
+["rewardTexture"] = "Interface\\AddOns\\WorldQuestTracker\\media\\icon_artifact_power",
+},
+},
 ["Player-1403-06492F48"] = {
 [91759] = {
 ["expireAt"] = 1769875243,
@@ -78,18 +110,6 @@ WQTrackerDB = {
 },
 [86938] = {
 ["expireAt"] = 1769799643,
-["rewardAmount"] = 20,
-["rewardTexture"] = "Interface\\AddOns\\WorldQuestTracker\\media\\icon_artifact_power",
-},
-},
-["Player-1305-0D3ACAFE"] = {
-[91759] = {
-["expireAt"] = 1769875276,
-["rewardAmount"] = 20,
-["rewardTexture"] = "Interface\\AddOns\\WorldQuestTracker\\media\\icon_artifact_power",
-},
-[86938] = {
-["expireAt"] = 1769799676,
 ["rewardAmount"] = 20,
 ["rewardTexture"] = "Interface\\AddOns\\WorldQuestTracker\\media\\icon_artifact_power",
 },

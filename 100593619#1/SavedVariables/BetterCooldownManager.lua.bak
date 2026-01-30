@@ -4,8 +4,9 @@ BCDMDB = {
 },
 ["profileKeys"] = {
 ["Ghostshuffle - Laughing Skull"] = "Default",
-["Voidshuffle - Laughing Skull"] = "Default",
 ["Soulshuffle - Laughing Skull"] = "Default",
+["Voidshuffle - Laughing Skull"] = "Default",
+["Feintshuffle - Kazzak"] = "Default",
 },
 ["global"] = {
 ["UseGlobalProfile"] = true,
@@ -148,9 +149,9 @@ nil,
 ["Width"] = 200,
 ["ColourByClass"] = false,
 ["HideTicks"] = false,
-["MatchWidthOfAnchor"] = true,
-["ColourBySpec"] = false,
 ["Height"] = 13,
+["ColourBySpec"] = false,
+["MatchWidthOfAnchor"] = true,
 ["ForegroundColour"] = {
 0.1333333333333333,
 0.1333333333333333,
@@ -983,8 +984,8 @@ nil,
 ["FrameStrata"] = "LOW",
 ["Width"] = 200,
 ["ColourByClass"] = true,
-["MatchWidthOfAnchor"] = true,
 ["Height"] = 24,
+["MatchWidthOfAnchor"] = true,
 ["Text"] = {
 ["CastTime"] = {
 ["FontSize"] = 12,

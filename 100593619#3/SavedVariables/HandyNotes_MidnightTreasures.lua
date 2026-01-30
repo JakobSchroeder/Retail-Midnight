@@ -4,6 +4,7 @@ HandyNotes_MidnightTreasuresDB = {
 ["Ghostshuffle - Laughing Skull"] = "Ghostshuffle - Laughing Skull",
 ["Voidshuffle - Laughing Skull"] = "Voidshuffle - Laughing Skull",
 ["Soulshuffle - Laughing Skull"] = "Soulshuffle - Laughing Skull",
+["Feintshuffle - Kazzak"] = "Feintshuffle - Kazzak",
 },
 ["profiles"] = {
 ["Ghostshuffle - Laughing Skull"] = {
@@ -11,6 +12,8 @@ HandyNotes_MidnightTreasuresDB = {
 ["Voidshuffle - Laughing Skull"] = {
 },
 ["Soulshuffle - Laughing Skull"] = {
+},
+["Feintshuffle - Kazzak"] = {
 },
 },
 }

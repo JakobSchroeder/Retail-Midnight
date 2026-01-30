@@ -121,7 +121,7 @@ WarbandMiserDB = {
 ["ServerDefault"] = false,
 ["AllGold"] = false,
 },
-["Smashuffle"] = {
+["Postshuffle"] = {
 ["GoldCap"] = 10000,
 ["Defaults"] = true,
 ["Gold"] = 0,
@@ -130,7 +130,7 @@ WarbandMiserDB = {
 ["ServerDefault"] = false,
 ["AllGold"] = false,
 },
-["Postshuffle"] = {
+["Smashuffle"] = {
 ["GoldCap"] = 10000,
 ["Defaults"] = true,
 ["Gold"] = 0,

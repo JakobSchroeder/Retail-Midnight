@@ -1,19 +1,21 @@
 
 RaiderIO_Config = {
+["minimapIcon"] = {
+["minimapPos"] = 180,
+["showInCompartment"] = true,
+["hide"] = false,
+["lock"] = false,
+},
 ["profilePoint"] = {
 ["y"] = 0,
 ["x"] = -16,
 ["point"] = "TOPLEFT",
 },
-["minimapIcon"] = {
-["minimapPos"] = 180,
-["showInCompartment"] = true,
-["lock"] = false,
-["hide"] = false,
-},
 }
-RaiderIO_LastCharacter = "eu-Spearshuffle-kazzak"
+RaiderIO_LastCharacter = "eu-Avoidshuffle-laughing-skull"
 RaiderIO_MissingCharacters = {
+["eu-Avoidshuffle-laughing-skull"] = true,
+["eu-Arialis-shattered-halls"] = true,
 }
 RaiderIO_MissingServers = {
 }

@@ -2,6 +2,7 @@
 TomTomDB = {
 ["profileKeys"] = {
 ["Hemoshuffle - Kazzak"] = "Default",
+["Avoidshuffle - Laughing Skull"] = "Default",
 ["Intshuffle - Kazzak"] = "Default",
 ["Teashuffle - Auchindoun"] = "Default",
 ["Vroomshuffle - Twisting Nether"] = "Default",
@@ -13,46 +14,46 @@ TomTomDB = {
 ["Angleshuffle - Kazzak"] = "Default",
 ["Hornyshuffle - Draenor"] = "Default",
 ["Rageshuffle - Kazzak"] = "Default",
-["Lavashuffle - Draenor"] = "Default",
+["Banishuffle - Kazzak"] = "Default",
 ["Fokshuffle - Auchindoun"] = "Default",
 ["Riplimb - Twisting Nether"] = "Default",
-["Kafirshuffle - Twisting Nether"] = "Default",
+["Mórtarion - Twisting Nether"] = "Default",
 ["Shóckadin - Twisting Nether"] = "Default",
 ["Polyshuffle - Draenor"] = "Default",
 ["Cantshuffle - Ravencrest"] = "Default",
-["Teashuffle - Twisting Nether"] = "Default",
-["Dotshuffle - Kazzak"] = "Default",
+["Cryoshuffle - Draenor"] = "Default",
+["Bankshuffle - Auchindoun"] = "Default",
 ["Eyeshuffle - Ravencrest"] = "Default",
-["Jumpshuffle - Kazzak"] = "Default",
+["Vanishuffle - Kazzak"] = "Default",
 ["Spamtothetop - Twisting Nether"] = "Default",
 ["Aliceshuffle - Laughing Skull"] = "Default",
-["Faithshuffle - Draenor"] = "Default",
-["Apollumi - Twisting Nether"] = "Default",
+["Rockshuffle - Kazzak"] = "Default",
+["Unshuffle - Ravencrest"] = "Default",
 ["Punctuation - Twisting Nether"] = "Default",
 ["Teashuffle - Kazzak"] = "Default",
-["Edgeshuffle - Auchindoun"] = "Default",
-["Avoidshuffle - Auchindoun"] = "Default",
-["Bowshuffle - Ravencrest"] = "Default",
-["Spearshuffle - Kazzak"] = "Default",
-["Hourshuffle - Kazzak"] = "Default",
-["Tradushuffle - Laughing Skull"] = "Default",
+["Ripinpeach - Ravencrest"] = "Default",
+["Apollumi - Twisting Nether"] = "Default",
+["Faithshuffle - Draenor"] = "Default",
+["Terrashuffle - Kazzak"] = "Default",
+["Brainshuffle - Auchindoun"] = "Default",
+["Smorcshuffle - Draenor"] = "Default",
 ["Justshuffle - Ravencrest"] = "Default",
 ["Goatshuffle - Kazzak"] = "Default",
-["Mightshuffle - Ravencrest"] = "Default",
-["Udartton - Twisting Nether"] = "Default",
 ["Leshuffle - Draenor"] = "Default",
-["Smorcshuffle - Draenor"] = "Default",
-["Brainshuffle - Auchindoun"] = "Default",
-["Terrashuffle - Kazzak"] = "Default",
-["Ripinpeach - Ravencrest"] = "Default",
-["Unshuffle - Ravencrest"] = "Default",
-["Rockshuffle - Kazzak"] = "Default",
-["Vanishuffle - Kazzak"] = "Default",
-["Bankshuffle - Auchindoun"] = "Default",
-["Cryoshuffle - Draenor"] = "Default",
-["Mórtarion - Twisting Nether"] = "Default",
+["Udartton - Twisting Nether"] = "Default",
+["Mightshuffle - Ravencrest"] = "Default",
+["Tradushuffle - Laughing Skull"] = "Default",
+["Hourshuffle - Kazzak"] = "Default",
+["Spearshuffle - Kazzak"] = "Default",
+["Bowshuffle - Ravencrest"] = "Default",
+["Avoidshuffle - Auchindoun"] = "Default",
+["Edgeshuffle - Auchindoun"] = "Default",
+["Jumpshuffle - Kazzak"] = "Default",
+["Dotshuffle - Kazzak"] = "Default",
+["Teashuffle - Twisting Nether"] = "Default",
+["Kafirshuffle - Twisting Nether"] = "Default",
 ["Angleshuffle - Auchindoun"] = "Default",
-["Banishuffle - Kazzak"] = "Default",
+["Lavashuffle - Draenor"] = "Default",
 },
 ["profiles"] = {
 ["Default"] = {
@@ -81,6 +82,7 @@ TomTomWaypoints = nil
 TomTomWaypointsM = {
 ["profileKeys"] = {
 ["Hemoshuffle - Kazzak"] = "Hemoshuffle - Kazzak",
+["Avoidshuffle - Laughing Skull"] = "Avoidshuffle - Laughing Skull",
 ["Intshuffle - Kazzak"] = "Intshuffle - Kazzak",
 ["Teashuffle - Auchindoun"] = "Teashuffle - Auchindoun",
 ["Vroomshuffle - Twisting Nether"] = "Vroomshuffle - Twisting Nether",
@@ -92,49 +94,51 @@ TomTomWaypointsM = {
 ["Angleshuffle - Kazzak"] = "Angleshuffle - Kazzak",
 ["Hornyshuffle - Draenor"] = "Hornyshuffle - Draenor",
 ["Rageshuffle - Kazzak"] = "Rageshuffle - Kazzak",
-["Lavashuffle - Draenor"] = "Lavashuffle - Draenor",
+["Banishuffle - Kazzak"] = "Banishuffle - Kazzak",
 ["Fokshuffle - Auchindoun"] = "Fokshuffle - Auchindoun",
 ["Riplimb - Twisting Nether"] = "Riplimb - Twisting Nether",
-["Kafirshuffle - Twisting Nether"] = "Kafirshuffle - Twisting Nether",
+["Mórtarion - Twisting Nether"] = "Mórtarion - Twisting Nether",
 ["Shóckadin - Twisting Nether"] = "Shóckadin - Twisting Nether",
 ["Polyshuffle - Draenor"] = "Polyshuffle - Draenor",
 ["Cantshuffle - Ravencrest"] = "Cantshuffle - Ravencrest",
-["Teashuffle - Twisting Nether"] = "Teashuffle - Twisting Nether",
-["Dotshuffle - Kazzak"] = "Dotshuffle - Kazzak",
+["Cryoshuffle - Draenor"] = "Cryoshuffle - Draenor",
+["Bankshuffle - Auchindoun"] = "Bankshuffle - Auchindoun",
 ["Eyeshuffle - Ravencrest"] = "Eyeshuffle - Ravencrest",
-["Jumpshuffle - Kazzak"] = "Jumpshuffle - Kazzak",
+["Vanishuffle - Kazzak"] = "Vanishuffle - Kazzak",
 ["Spamtothetop - Twisting Nether"] = "Spamtothetop - Twisting Nether",
 ["Aliceshuffle - Laughing Skull"] = "Aliceshuffle - Laughing Skull",
-["Faithshuffle - Draenor"] = "Faithshuffle - Draenor",
-["Apollumi - Twisting Nether"] = "Apollumi - Twisting Nether",
+["Rockshuffle - Kazzak"] = "Rockshuffle - Kazzak",
+["Unshuffle - Ravencrest"] = "Unshuffle - Ravencrest",
 ["Punctuation - Twisting Nether"] = "Punctuation - Twisting Nether",
 ["Teashuffle - Kazzak"] = "Teashuffle - Kazzak",
-["Edgeshuffle - Auchindoun"] = "Edgeshuffle - Auchindoun",
-["Avoidshuffle - Auchindoun"] = "Avoidshuffle - Auchindoun",
-["Bowshuffle - Ravencrest"] = "Bowshuffle - Ravencrest",
-["Spearshuffle - Kazzak"] = "Spearshuffle - Kazzak",
-["Hourshuffle - Kazzak"] = "Hourshuffle - Kazzak",
-["Tradushuffle - Laughing Skull"] = "Tradushuffle - Laughing Skull",
+["Ripinpeach - Ravencrest"] = "Ripinpeach - Ravencrest",
+["Apollumi - Twisting Nether"] = "Apollumi - Twisting Nether",
+["Faithshuffle - Draenor"] = "Faithshuffle - Draenor",
+["Terrashuffle - Kazzak"] = "Terrashuffle - Kazzak",
+["Brainshuffle - Auchindoun"] = "Brainshuffle - Auchindoun",
+["Smorcshuffle - Draenor"] = "Smorcshuffle - Draenor",
 ["Justshuffle - Ravencrest"] = "Justshuffle - Ravencrest",
 ["Goatshuffle - Kazzak"] = "Goatshuffle - Kazzak",
-["Mightshuffle - Ravencrest"] = "Mightshuffle - Ravencrest",
-["Udartton - Twisting Nether"] = "Udartton - Twisting Nether",
 ["Leshuffle - Draenor"] = "Leshuffle - Draenor",
-["Smorcshuffle - Draenor"] = "Smorcshuffle - Draenor",
-["Brainshuffle - Auchindoun"] = "Brainshuffle - Auchindoun",
-["Terrashuffle - Kazzak"] = "Terrashuffle - Kazzak",
-["Ripinpeach - Ravencrest"] = "Ripinpeach - Ravencrest",
-["Unshuffle - Ravencrest"] = "Unshuffle - Ravencrest",
-["Rockshuffle - Kazzak"] = "Rockshuffle - Kazzak",
-["Vanishuffle - Kazzak"] = "Vanishuffle - Kazzak",
-["Bankshuffle - Auchindoun"] = "Bankshuffle - Auchindoun",
-["Cryoshuffle - Draenor"] = "Cryoshuffle - Draenor",
-["Mórtarion - Twisting Nether"] = "Mórtarion - Twisting Nether",
+["Udartton - Twisting Nether"] = "Udartton - Twisting Nether",
+["Mightshuffle - Ravencrest"] = "Mightshuffle - Ravencrest",
+["Tradushuffle - Laughing Skull"] = "Tradushuffle - Laughing Skull",
+["Hourshuffle - Kazzak"] = "Hourshuffle - Kazzak",
+["Spearshuffle - Kazzak"] = "Spearshuffle - Kazzak",
+["Bowshuffle - Ravencrest"] = "Bowshuffle - Ravencrest",
+["Avoidshuffle - Auchindoun"] = "Avoidshuffle - Auchindoun",
+["Edgeshuffle - Auchindoun"] = "Edgeshuffle - Auchindoun",
+["Jumpshuffle - Kazzak"] = "Jumpshuffle - Kazzak",
+["Dotshuffle - Kazzak"] = "Dotshuffle - Kazzak",
+["Teashuffle - Twisting Nether"] = "Teashuffle - Twisting Nether",
+["Kafirshuffle - Twisting Nether"] = "Kafirshuffle - Twisting Nether",
 ["Angleshuffle - Auchindoun"] = "Angleshuffle - Auchindoun",
-["Banishuffle - Kazzak"] = "Banishuffle - Kazzak",
+["Lavashuffle - Draenor"] = "Lavashuffle - Draenor",
 },
 ["profiles"] = {
 ["Hemoshuffle - Kazzak"] = {
+},
+["Avoidshuffle - Laughing Skull"] = {
 },
 ["Intshuffle - Kazzak"] = {
 },
@@ -158,13 +162,13 @@ TomTomWaypointsM = {
 },
 ["Rageshuffle - Kazzak"] = {
 },
-["Lavashuffle - Draenor"] = {
+["Banishuffle - Kazzak"] = {
 },
 ["Fokshuffle - Auchindoun"] = {
 },
 ["Riplimb - Twisting Nether"] = {
 },
-["Kafirshuffle - Twisting Nether"] = {
+["Mórtarion - Twisting Nether"] = {
 },
 ["Shóckadin - Twisting Nether"] = {
 },
@@ -172,71 +176,71 @@ TomTomWaypointsM = {
 },
 ["Cantshuffle - Ravencrest"] = {
 },
-["Teashuffle - Twisting Nether"] = {
+["Cryoshuffle - Draenor"] = {
 },
-["Dotshuffle - Kazzak"] = {
+["Bankshuffle - Auchindoun"] = {
 },
 ["Eyeshuffle - Ravencrest"] = {
 },
-["Jumpshuffle - Kazzak"] = {
+["Vanishuffle - Kazzak"] = {
 },
 ["Spamtothetop - Twisting Nether"] = {
 },
 ["Aliceshuffle - Laughing Skull"] = {
 },
-["Faithshuffle - Draenor"] = {
+["Rockshuffle - Kazzak"] = {
 },
-["Apollumi - Twisting Nether"] = {
+["Unshuffle - Ravencrest"] = {
 },
 ["Punctuation - Twisting Nether"] = {
 },
 ["Teashuffle - Kazzak"] = {
 },
-["Edgeshuffle - Auchindoun"] = {
+["Ripinpeach - Ravencrest"] = {
 },
-["Avoidshuffle - Auchindoun"] = {
+["Apollumi - Twisting Nether"] = {
 },
-["Bowshuffle - Ravencrest"] = {
+["Faithshuffle - Draenor"] = {
 },
-["Spearshuffle - Kazzak"] = {
+["Terrashuffle - Kazzak"] = {
 },
-["Hourshuffle - Kazzak"] = {
+["Brainshuffle - Auchindoun"] = {
 },
-["Tradushuffle - Laughing Skull"] = {
+["Smorcshuffle - Draenor"] = {
 },
 ["Justshuffle - Ravencrest"] = {
 },
 ["Goatshuffle - Kazzak"] = {
 },
-["Mightshuffle - Ravencrest"] = {
+["Leshuffle - Draenor"] = {
 },
 ["Udartton - Twisting Nether"] = {
 },
-["Leshuffle - Draenor"] = {
+["Mightshuffle - Ravencrest"] = {
 },
-["Smorcshuffle - Draenor"] = {
+["Tradushuffle - Laughing Skull"] = {
 },
-["Brainshuffle - Auchindoun"] = {
+["Hourshuffle - Kazzak"] = {
 },
-["Terrashuffle - Kazzak"] = {
+["Spearshuffle - Kazzak"] = {
 },
-["Ripinpeach - Ravencrest"] = {
+["Bowshuffle - Ravencrest"] = {
 },
-["Unshuffle - Ravencrest"] = {
+["Avoidshuffle - Auchindoun"] = {
 },
-["Rockshuffle - Kazzak"] = {
+["Edgeshuffle - Auchindoun"] = {
 },
-["Vanishuffle - Kazzak"] = {
+["Jumpshuffle - Kazzak"] = {
 },
-["Bankshuffle - Auchindoun"] = {
+["Dotshuffle - Kazzak"] = {
 },
-["Cryoshuffle - Draenor"] = {
+["Teashuffle - Twisting Nether"] = {
 },
-["Mórtarion - Twisting Nether"] = {
+["Kafirshuffle - Twisting Nether"] = {
 },
 ["Angleshuffle - Auchindoun"] = {
 },
-["Banishuffle - Kazzak"] = {
+["Lavashuffle - Draenor"] = {
 },
 },
 }

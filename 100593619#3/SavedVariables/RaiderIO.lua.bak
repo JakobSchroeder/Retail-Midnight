@@ -14,7 +14,24 @@ RaiderIO_Config = {
 }
 RaiderIO_LastCharacter = "eu-Ghostshuffle-laughing-skull"
 RaiderIO_MissingCharacters = {
+["eu-Alugrim-chromaggus"] = true,
+["eu-Hidoshi-sunstrider"] = true,
 ["eu-Ghostshuffle-laughing-skull"] = true,
+["eu-Ayolt-chromaggus"] = true,
+["eu-Gamure-trollbane"] = true,
+["eu-Joehangover-sunstrider"] = true,
+["eu-Kassack-ahnqiraj"] = true,
+["eu-Syljana-daggerspine"] = true,
+["eu-Avoidshuffle-laughing-skull"] = true,
+["eu-Naamapoika-sunstrider"] = true,
+["eu-Msissi-ahnqiraj"] = true,
+["eu-Hunworg-boulderfist"] = true,
+["eu-Kyzz-shattered-halls"] = true,
+["eu-Bullybeaf-laughing-skull"] = true,
+["eu-Aiden-talnivarr"] = true,
+["eu-Sakuma-sunstrider"] = true,
+["eu-Lillefia-sunstrider"] = true,
+["eu-Gilgameshx-argent-dawn"] = true,
 }
 RaiderIO_MissingServers = {
 }

@@ -2,6 +2,7 @@
 MBFDB = {
 ["profileKeys"] = {
 ["Hornyshuffle - Draenor"] = "Default",
+["Avoidshuffle - Laughing Skull"] = "Default",
 ["Spearshuffle - Kazzak"] = "Default",
 },
 ["profiles"] = {

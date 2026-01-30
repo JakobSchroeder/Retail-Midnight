@@ -2,10 +2,13 @@
 HandyNotes_MidnightTreasuresDB = {
 ["profileKeys"] = {
 ["Hornyshuffle - Draenor"] = "Hornyshuffle - Draenor",
+["Avoidshuffle - Laughing Skull"] = "Avoidshuffle - Laughing Skull",
 ["Spearshuffle - Kazzak"] = "Spearshuffle - Kazzak",
 },
 ["profiles"] = {
 ["Hornyshuffle - Draenor"] = {
+},
+["Avoidshuffle - Laughing Skull"] = {
 },
 ["Spearshuffle - Kazzak"] = {
 },

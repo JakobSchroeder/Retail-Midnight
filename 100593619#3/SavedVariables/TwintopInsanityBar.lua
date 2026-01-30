@@ -85,10 +85,10 @@ TwintopInsanityBarSettings = {
 ["default"] = {
 ["fontFace"] = "Fonts\\FRIZQT__.TTF",
 ["fontFaceName"] = "Friz Quadrata TT",
-["color"] = "FFFFFFFF",
+["fontJustifyHorizontal"] = "LEFT",
 ["fontJustifyHorizontalName"] = "Left",
 ["fontSize"] = 14,
-["fontJustifyHorizontal"] = "LEFT",
+["color"] = "FFFFFFFF",
 },
 ["barText"] = {
 {
@@ -352,10 +352,10 @@ TwintopInsanityBarSettings = {
 ["default"] = {
 ["fontFace"] = "Fonts\\FRIZQT__.TTF",
 ["fontFaceName"] = "Friz Quadrata TT",
-["color"] = "FFFFFFFF",
+["fontJustifyHorizontal"] = "LEFT",
 ["fontJustifyHorizontalName"] = "Left",
 ["fontSize"] = 14,
-["fontJustifyHorizontal"] = "LEFT",
+["color"] = "FFFFFFFF",
 },
 ["barText"] = {
 {
@@ -687,10 +687,10 @@ TwintopInsanityBarSettings = {
 ["default"] = {
 ["fontFace"] = "Fonts\\FRIZQT__.TTF",
 ["fontFaceName"] = "Friz Quadrata TT",
-["color"] = "FFFFFFFF",
+["fontJustifyHorizontal"] = "LEFT",
 ["fontJustifyHorizontalName"] = "Left",
 ["fontSize"] = 14,
-["fontJustifyHorizontal"] = "LEFT",
+["color"] = "FFFFFFFF",
 },
 ["barText"] = {
 {
@@ -915,8 +915,8 @@ TwintopInsanityBarSettings = {
 ["displayText"] = {
 ["default"] = {
 ["fontFace"] = "Fonts\\FRIZQT__.TTF",
-["color"] = "FFFFFFFF",
 ["fontJustifyHorizontal"] = "LEFT",
+["color"] = "FFFFFFFF",
 ["fontSize"] = 14,
 ["fontJustifyHorizontalName"] = "Left",
 ["fontFaceName"] = "Friz Quadrata TT",
@@ -1271,8 +1271,8 @@ TwintopInsanityBarSettings = {
 ["displayText"] = {
 ["default"] = {
 ["fontFace"] = "Fonts\\FRIZQT__.TTF",
-["color"] = "FFFFFFFF",
 ["fontJustifyHorizontal"] = "LEFT",
+["color"] = "FFFFFFFF",
 ["fontSize"] = 14,
 ["fontJustifyHorizontalName"] = "Left",
 ["fontFaceName"] = "Friz Quadrata TT",
@@ -1523,8 +1523,8 @@ TwintopInsanityBarSettings = {
 ["displayText"] = {
 ["default"] = {
 ["fontFace"] = "Fonts\\FRIZQT__.TTF",
-["color"] = "FFFFFFFF",
 ["fontJustifyHorizontal"] = "LEFT",
+["color"] = "FFFFFFFF",
 ["fontSize"] = 14,
 ["fontJustifyHorizontalName"] = "Left",
 ["fontFaceName"] = "Friz Quadrata TT",
@@ -1808,10 +1808,10 @@ TwintopInsanityBarSettings = {
 ["default"] = {
 ["fontFace"] = "Fonts\\FRIZQT__.TTF",
 ["fontFaceName"] = "Friz Quadrata TT",
-["fontJustifyHorizontal"] = "LEFT",
+["color"] = "FFFFFFFF",
 ["fontJustifyHorizontalName"] = "Left",
 ["fontSize"] = 14,
-["color"] = "FFFFFFFF",
+["fontJustifyHorizontal"] = "LEFT",
 },
 ["barText"] = {
 {
@@ -2127,10 +2127,10 @@ TwintopInsanityBarSettings = {
 ["default"] = {
 ["fontFace"] = "Fonts\\FRIZQT__.TTF",
 ["fontFaceName"] = "Friz Quadrata TT",
-["fontJustifyHorizontal"] = "LEFT",
+["color"] = "FFFFFFFF",
 ["fontJustifyHorizontalName"] = "Left",
 ["fontSize"] = 14,
-["color"] = "FFFFFFFF",
+["fontJustifyHorizontal"] = "LEFT",
 },
 ["barText"] = {
 {
@@ -2511,10 +2511,10 @@ TwintopInsanityBarSettings = {
 ["default"] = {
 ["fontFace"] = "Fonts\\FRIZQT__.TTF",
 ["fontFaceName"] = "Friz Quadrata TT",
-["fontJustifyHorizontal"] = "LEFT",
+["color"] = "FFFFFFFF",
 ["fontJustifyHorizontalName"] = "Left",
 ["fontSize"] = 14,
-["color"] = "FFFFFFFF",
+["fontJustifyHorizontal"] = "LEFT",
 },
 ["barText"] = {
 {
@@ -2802,8 +2802,8 @@ TwintopInsanityBarSettings = {
 ["displayText"] = {
 ["default"] = {
 ["fontFace"] = "Fonts\\FRIZQT__.TTF",
-["color"] = "FFFFFFFF",
 ["fontJustifyHorizontal"] = "LEFT",
+["color"] = "FFFFFFFF",
 ["fontSize"] = 14,
 ["fontJustifyHorizontalName"] = "Left",
 ["fontFaceName"] = "Friz Quadrata TT",
@@ -3019,8 +3019,8 @@ TwintopInsanityBarSettings = {
 ["displayText"] = {
 ["default"] = {
 ["fontFace"] = "Fonts\\FRIZQT__.TTF",
-["color"] = "FFFFFFFF",
 ["fontJustifyHorizontal"] = "LEFT",
+["color"] = "FFFFFFFF",
 ["fontSize"] = 14,
 ["fontJustifyHorizontalName"] = "Left",
 ["fontFaceName"] = "Friz Quadrata TT",
@@ -3356,8 +3356,8 @@ TwintopInsanityBarSettings = {
 ["displayText"] = {
 ["default"] = {
 ["fontFace"] = "Fonts\\FRIZQT__.TTF",
-["color"] = "FFFFFFFF",
 ["fontJustifyHorizontal"] = "LEFT",
+["color"] = "FFFFFFFF",
 ["fontSize"] = 14,
 ["fontJustifyHorizontalName"] = "Left",
 ["fontFaceName"] = "Friz Quadrata TT",
@@ -3512,20 +3512,20 @@ TwintopInsanityBarSettings = {
 ["final"] = "FFFF0000",
 },
 ["bar"] = {
-["heartOfTheJadeSerpent"] = {
-["color"] = "FF00FFBB",
-["enabled"] = true,
-},
+["borderOvercap"] = "FFFF0000",
 ["base"] = "FFFFFF00",
 ["heartOfTheJadeSerpentReady"] = {
 ["color"] = "FF008461",
 ["enabled"] = true,
 },
 ["borderChiJi"] = "FF00FF00",
-["borderOvercap"] = "FFFF0000",
+["heartOfTheJadeSerpent"] = {
+["color"] = "FF00FFBB",
+["enabled"] = true,
+},
 ["background"] = "66000000",
-["border"] = "FFFFD300",
 ["overcapEnabled"] = true,
+["border"] = "FFFFD300",
 },
 },
 ["displayBar"] = {
@@ -3592,9 +3592,9 @@ TwintopInsanityBarSettings = {
 ["audio"] = {
 ["opportunity"] = {
 ["enabled"] = false,
+["soundName"] = "TRB: Air Horn",
 ["name"] = "Opportunity Proc",
 ["sound"] = "Interface\\Addons\\TwintopInsanityBar\\Sounds\\AirHorn.ogg",
-["soundName"] = "TRB: Air Horn",
 },
 },
 ["thresholds"] = {
@@ -3787,19 +3787,19 @@ TwintopInsanityBarSettings = {
 ["under"] = {
 ["color"] = "FFFFFFFF",
 },
-["over"] = {
-["color"] = "FF00FF00",
+["restlessBlades"] = {
+["color"] = "FFFFFF00",
+["enabled"] = true,
 },
 ["special"] = {
 ["color"] = "FFFF00FF",
 ["enabled"] = true,
 },
+["over"] = {
+["color"] = "FF00FF00",
+},
 ["unusable"] = {
 ["color"] = "FFFF0000",
-},
-["restlessBlades"] = {
-["color"] = "FFFFFF00",
-["enabled"] = true,
 },
 },
 ["healthBar"] = {
@@ -3845,11 +3845,11 @@ TwintopInsanityBarSettings = {
 ["comboPoints"] = {
 ["penultimate"] = "FFFF9900",
 ["echoingReprimand"] = "FF68CCEF",
-["border"] = "FFFFD300",
-["sameColor"] = false,
 ["consistentUnfilledColor"] = false,
-["background"] = "66000000",
+["sameColor"] = false,
 ["base"] = "FFFFFF00",
+["background"] = "66000000",
+["border"] = "FFFFD300",
 ["final"] = "FFFF0000",
 },
 ["bar"] = {
@@ -4251,9 +4251,9 @@ TwintopInsanityBarSettings = {
 ["audio"] = {
 ["blindside"] = {
 ["enabled"] = false,
+["soundName"] = "TRB: Air Horn",
 ["name"] = "Blindside Proc",
 ["sound"] = "Interface\\Addons\\TwintopInsanityBar\\Sounds\\AirHorn.ogg",
-["soundName"] = "TRB: Air Horn",
 },
 },
 ["thresholds"] = {
@@ -4500,11 +4500,11 @@ TwintopInsanityBarSettings = {
 ["comboPoints"] = {
 ["penultimate"] = "FFFF9900",
 ["echoingReprimand"] = "FF68CCEF",
-["border"] = "FFFFD300",
-["sameColor"] = false,
 ["consistentUnfilledColor"] = false,
-["background"] = "66000000",
+["sameColor"] = false,
 ["base"] = "FFFFFF00",
+["background"] = "66000000",
+["border"] = "FFFFD300",
 ["final"] = "FFFF0000",
 },
 ["bar"] = {
@@ -4627,10 +4627,10 @@ TwintopInsanityBarSettings = {
 ["default"] = {
 ["fontFace"] = "Fonts\\FRIZQT__.TTF",
 ["fontFaceName"] = "Friz Quadrata TT",
-["color"] = "FFFFFFFF",
+["fontJustifyHorizontal"] = "LEFT",
 ["fontJustifyHorizontalName"] = "Left",
 ["fontSize"] = 14,
-["fontJustifyHorizontal"] = "LEFT",
+["color"] = "FFFFFFFF",
 },
 ["barText"] = {
 {
@@ -4821,10 +4821,10 @@ TwintopInsanityBarSettings = {
 ["default"] = {
 ["fontFace"] = "Fonts\\FRIZQT__.TTF",
 ["fontFaceName"] = "Friz Quadrata TT",
-["color"] = "FFFFFFFF",
+["fontJustifyHorizontal"] = "LEFT",
 ["fontJustifyHorizontalName"] = "Left",
 ["fontSize"] = 14,
-["fontJustifyHorizontal"] = "LEFT",
+["color"] = "FFFFFFFF",
 },
 ["barText"] = {
 {
@@ -4971,10 +4971,10 @@ TwintopInsanityBarSettings = {
 ["default"] = {
 ["fontFace"] = "Fonts\\FRIZQT__.TTF",
 ["fontFaceName"] = "Friz Quadrata TT",
-["color"] = "FFFFFFFF",
+["fontJustifyHorizontal"] = "LEFT",
 ["fontJustifyHorizontalName"] = "Left",
 ["fontSize"] = 14,
-["fontJustifyHorizontal"] = "LEFT",
+["color"] = "FFFFFFFF",
 },
 ["barText"] = {
 {
@@ -5200,8 +5200,8 @@ TwintopInsanityBarSettings = {
 ["displayText"] = {
 ["default"] = {
 ["fontFace"] = "Fonts\\FRIZQT__.TTF",
-["color"] = "FFFFFFFF",
 ["fontJustifyHorizontal"] = "LEFT",
+["color"] = "FFFFFFFF",
 ["fontSize"] = 14,
 ["fontJustifyHorizontalName"] = "Left",
 ["fontFaceName"] = "Friz Quadrata TT",
@@ -5512,10 +5512,10 @@ TwintopInsanityBarSettings = {
 ["secondaryThreshold"] = {
 ["enabled"] = false,
 ["name"] = "Essence Threshold",
+["sound"] = "Interface\\Addons\\TwintopInsanityBar\\Sounds\\BoxingArenaSound.ogg",
 ["configuration"] = {
 ["thresholdValue"] = 2,
 },
-["sound"] = "Interface\\Addons\\TwintopInsanityBar\\Sounds\\BoxingArenaSound.ogg",
 ["soundName"] = "TRB: Boxing Arena Gong",
 },
 },
@@ -5588,8 +5588,8 @@ TwintopInsanityBarSettings = {
 ["displayText"] = {
 ["default"] = {
 ["fontFace"] = "Fonts\\FRIZQT__.TTF",
-["color"] = "FFFFFFFF",
 ["fontJustifyHorizontal"] = "LEFT",
+["color"] = "FFFFFFFF",
 ["fontSize"] = 14,
 ["fontJustifyHorizontalName"] = "Left",
 ["fontFaceName"] = "Friz Quadrata TT",
@@ -5941,10 +5941,10 @@ TwintopInsanityBarSettings = {
 ["secondaryThreshold"] = {
 ["enabled"] = false,
 ["name"] = "Essence Threshold",
+["sound"] = "Interface\\Addons\\TwintopInsanityBar\\Sounds\\BoxingArenaSound.ogg",
 ["configuration"] = {
 ["thresholdValue"] = 2,
 },
-["sound"] = "Interface\\Addons\\TwintopInsanityBar\\Sounds\\BoxingArenaSound.ogg",
 ["soundName"] = "TRB: Boxing Arena Gong",
 },
 },
@@ -6011,8 +6011,8 @@ TwintopInsanityBarSettings = {
 ["displayText"] = {
 ["default"] = {
 ["fontFace"] = "Fonts\\FRIZQT__.TTF",
-["color"] = "FFFFFFFF",
 ["fontJustifyHorizontal"] = "LEFT",
+["color"] = "FFFFFFFF",
 ["fontSize"] = 14,
 ["fontJustifyHorizontalName"] = "Left",
 ["fontFaceName"] = "Friz Quadrata TT",
@@ -6298,20 +6298,20 @@ TwintopInsanityBarSettings = {
 ["final"] = "FFFF0000",
 },
 ["bar"] = {
-["innervate"] = "FF00FF00",
 ["background"] = "66000000",
-["border"] = "FF000099",
+["innervate"] = "FF00FF00",
 ["base"] = "FF0000FF",
+["border"] = "FF000099",
 },
 },
 ["audio"] = {
 ["secondaryThreshold"] = {
 ["enabled"] = false,
 ["name"] = "Essence Threshold",
+["sound"] = "Interface\\Addons\\TwintopInsanityBar\\Sounds\\BoxingArenaSound.ogg",
 ["configuration"] = {
 ["thresholdValue"] = 2,
 },
-["sound"] = "Interface\\Addons\\TwintopInsanityBar\\Sounds\\BoxingArenaSound.ogg",
 ["soundName"] = "TRB: Boxing Arena Gong",
 },
 ["innervate"] = {
@@ -7296,8 +7296,8 @@ TwintopInsanityBarSettings = {
 ["displayText"] = {
 ["default"] = {
 ["fontFace"] = "Fonts\\FRIZQT__.TTF",
-["color"] = "FFFFFFFF",
 ["fontJustifyHorizontal"] = "LEFT",
+["color"] = "FFFFFFFF",
 ["fontSize"] = 14,
 ["fontJustifyHorizontalName"] = "Left",
 ["fontFaceName"] = "Friz Quadrata TT",
@@ -7666,9 +7666,9 @@ TwintopInsanityBarSettings = {
 ["borderOvercap"] = "FFFF0000",
 ["borderStealth"] = "FF000000",
 ["border"] = "FFFF7C0A",
-["apexPredator"] = "FFE75480",
-["background"] = "66000000",
 ["base"] = "FFFFFF00",
+["background"] = "66000000",
+["apexPredator"] = "FFE75480",
 ["overcapEnabled"] = true,
 },
 },
@@ -7793,8 +7793,8 @@ TwintopInsanityBarSettings = {
 ["displayText"] = {
 ["default"] = {
 ["fontFace"] = "Fonts\\FRIZQT__.TTF",
-["color"] = "FFFFFFFF",
 ["fontJustifyHorizontal"] = "LEFT",
+["color"] = "FFFFFFFF",
 ["fontSize"] = 14,
 ["fontJustifyHorizontalName"] = "Left",
 ["fontFaceName"] = "Friz Quadrata TT",
@@ -8253,8 +8253,8 @@ TwintopInsanityBarSettings = {
 ["displayText"] = {
 ["default"] = {
 ["fontFace"] = "Fonts\\FRIZQT__.TTF",
-["color"] = "FFFFFFFF",
 ["fontJustifyHorizontal"] = "LEFT",
+["color"] = "FFFFFFFF",
 ["fontSize"] = 14,
 ["fontJustifyHorizontalName"] = "Left",
 ["fontFaceName"] = "Friz Quadrata TT",
@@ -8497,14 +8497,14 @@ TwintopInsanityBarSettings = {
 ["berserkEnd"] = {
 ["color"] = "FFFF5555",
 },
+["base"] = "FFFF0000",
 ["berserk"] = {
 ["color"] = "FFFFCC55",
 },
-["base"] = "FFFF0000",
 ["borderOvercap"] = "FF800000",
 ["background"] = "66000000",
-["border"] = "FFC21807",
 ["overcapEnabled"] = true,
+["border"] = "FFC21807",
 },
 },
 ["endOfBerserk"] = {
@@ -8579,8 +8579,8 @@ TwintopInsanityBarSettings = {
 ["displayText"] = {
 ["default"] = {
 ["fontFace"] = "Fonts\\FRIZQT__.TTF",
-["color"] = "FFFFFFFF",
 ["fontJustifyHorizontal"] = "LEFT",
+["color"] = "FFFFFFFF",
 ["fontSize"] = 14,
 ["fontJustifyHorizontalName"] = "Left",
 ["fontFaceName"] = "Friz Quadrata TT",
@@ -8914,10 +8914,10 @@ TwintopInsanityBarSettings = {
 ["default"] = {
 ["fontFace"] = "Fonts\\FRIZQT__.TTF",
 ["fontFaceName"] = "Friz Quadrata TT",
-["fontJustifyHorizontal"] = "LEFT",
+["color"] = "FFFFFFFF",
 ["fontJustifyHorizontalName"] = "Left",
 ["fontSize"] = 14,
-["color"] = "FFFFFFFF",
+["fontJustifyHorizontal"] = "LEFT",
 },
 ["barText"] = {
 {
@@ -9175,14 +9175,14 @@ TwintopInsanityBarSettings = {
 ["wailingArrow"] = {
 ["enabled"] = true,
 },
-["arcaneShot"] = {
-["enabled"] = true,
+["revivePet"] = {
+["enabled"] = false,
 },
 ["killShot"] = {
 ["enabled"] = true,
 },
-["revivePet"] = {
-["enabled"] = false,
+["arcaneShot"] = {
+["enabled"] = true,
 },
 ["aimedShot"] = {
 ["enabled"] = true,
@@ -9212,10 +9212,10 @@ TwintopInsanityBarSettings = {
 ["default"] = {
 ["fontFace"] = "Fonts\\FRIZQT__.TTF",
 ["fontFaceName"] = "Friz Quadrata TT",
-["fontJustifyHorizontal"] = "LEFT",
+["color"] = "FFFFFFFF",
 ["fontJustifyHorizontalName"] = "Left",
 ["fontSize"] = 14,
-["color"] = "FFFFFFFF",
+["fontJustifyHorizontal"] = "LEFT",
 },
 ["barText"] = {
 {
@@ -9501,10 +9501,10 @@ TwintopInsanityBarSettings = {
 ["default"] = {
 ["fontFace"] = "Fonts\\FRIZQT__.TTF",
 ["fontFaceName"] = "Friz Quadrata TT",
-["fontJustifyHorizontal"] = "LEFT",
+["color"] = "FFFFFFFF",
 ["fontJustifyHorizontalName"] = "Left",
 ["fontSize"] = 14,
-["color"] = "FFFFFFFF",
+["fontJustifyHorizontal"] = "LEFT",
 },
 ["barText"] = {
 {
@@ -9746,29 +9746,29 @@ TwintopInsanityBarSettings = {
 ["enabled"] = false,
 ["name"] = "Holy Power Threshold 1",
 ["soundName"] = "TRB: Boxing Arena Gong",
+["sound"] = "Interface\\Addons\\TwintopInsanityBar\\Sounds\\BoxingArenaSound.ogg",
 ["configuration"] = {
 ["thresholdValue"] = 3,
 },
-["sound"] = "Interface\\Addons\\TwintopInsanityBar\\Sounds\\BoxingArenaSound.ogg",
 },
 ["holyPowerThreshold2"] = {
 ["enabled"] = false,
 ["name"] = "Holy Power Threshold 2",
 ["soundName"] = "TRB: Boxing Arena Gong",
+["sound"] = "Interface\\Addons\\TwintopInsanityBar\\Sounds\\BoxingArenaSound.ogg",
 ["configuration"] = {
 ["thresholdValue"] = 5,
 },
-["sound"] = "Interface\\Addons\\TwintopInsanityBar\\Sounds\\BoxingArenaSound.ogg",
 },
 },
 ["displayText"] = {
 ["default"] = {
 ["fontFace"] = "Fonts\\FRIZQT__.TTF",
 ["fontFaceName"] = "Friz Quadrata TT",
-["color"] = "FFFFFFFF",
+["fontJustifyHorizontal"] = "LEFT",
 ["fontJustifyHorizontalName"] = "Left",
 ["fontSize"] = 14,
-["fontJustifyHorizontal"] = "LEFT",
+["color"] = "FFFFFFFF",
 },
 ["barText"] = {
 {
@@ -9983,29 +9983,29 @@ TwintopInsanityBarSettings = {
 ["enabled"] = false,
 ["name"] = "Holy Power Threshold 1",
 ["soundName"] = "TRB: Boxing Arena Gong",
+["sound"] = "Interface\\Addons\\TwintopInsanityBar\\Sounds\\BoxingArenaSound.ogg",
 ["configuration"] = {
 ["thresholdValue"] = 3,
 },
-["sound"] = "Interface\\Addons\\TwintopInsanityBar\\Sounds\\BoxingArenaSound.ogg",
 },
 ["holyPowerThreshold2"] = {
 ["enabled"] = false,
 ["name"] = "Holy Power Threshold 2",
 ["soundName"] = "TRB: Boxing Arena Gong",
+["sound"] = "Interface\\Addons\\TwintopInsanityBar\\Sounds\\BoxingArenaSound.ogg",
 ["configuration"] = {
 ["thresholdValue"] = 5,
 },
-["sound"] = "Interface\\Addons\\TwintopInsanityBar\\Sounds\\BoxingArenaSound.ogg",
 },
 },
 ["displayText"] = {
 ["default"] = {
 ["fontFace"] = "Fonts\\FRIZQT__.TTF",
 ["fontFaceName"] = "Friz Quadrata TT",
-["color"] = "FFFFFFFF",
+["fontJustifyHorizontal"] = "LEFT",
 ["fontJustifyHorizontalName"] = "Left",
 ["fontSize"] = 14,
-["fontJustifyHorizontal"] = "LEFT",
+["color"] = "FFFFFFFF",
 },
 ["barText"] = {
 {
@@ -10220,29 +10220,29 @@ TwintopInsanityBarSettings = {
 ["enabled"] = false,
 ["name"] = "Holy Power Threshold 1",
 ["soundName"] = "TRB: Boxing Arena Gong",
+["sound"] = "Interface\\Addons\\TwintopInsanityBar\\Sounds\\BoxingArenaSound.ogg",
 ["configuration"] = {
 ["thresholdValue"] = 3,
 },
-["sound"] = "Interface\\Addons\\TwintopInsanityBar\\Sounds\\BoxingArenaSound.ogg",
 },
 ["holyPowerThreshold2"] = {
 ["enabled"] = false,
 ["name"] = "Holy Power Threshold 2",
 ["soundName"] = "TRB: Boxing Arena Gong",
+["sound"] = "Interface\\Addons\\TwintopInsanityBar\\Sounds\\BoxingArenaSound.ogg",
 ["configuration"] = {
 ["thresholdValue"] = 5,
 },
-["sound"] = "Interface\\Addons\\TwintopInsanityBar\\Sounds\\BoxingArenaSound.ogg",
 },
 },
 ["displayText"] = {
 ["default"] = {
 ["fontFace"] = "Fonts\\FRIZQT__.TTF",
 ["fontFaceName"] = "Friz Quadrata TT",
-["color"] = "FFFFFFFF",
+["fontJustifyHorizontal"] = "LEFT",
 ["fontJustifyHorizontalName"] = "Left",
 ["fontSize"] = 14,
-["fontJustifyHorizontal"] = "LEFT",
+["color"] = "FFFFFFFF",
 },
 ["barText"] = {
 {
@@ -11630,10 +11630,10 @@ TwintopInsanityBarSettings = {
 ["default"] = {
 ["fontFace"] = "Fonts\\FRIZQT__.TTF",
 ["fontFaceName"] = "Friz Quadrata TT",
-["fontJustifyHorizontal"] = "LEFT",
+["color"] = "FFFFFFFF",
 ["fontJustifyHorizontalName"] = "Left",
 ["fontSize"] = 14,
-["color"] = "FFFFFFFF",
+["fontJustifyHorizontal"] = "LEFT",
 },
 ["barText"] = {
 {
@@ -11850,10 +11850,10 @@ TwintopInsanityBarSettings = {
 ["default"] = {
 ["fontFace"] = "Fonts\\FRIZQT__.TTF",
 ["fontFaceName"] = "Friz Quadrata TT",
-["fontJustifyHorizontal"] = "LEFT",
+["color"] = "FFFFFFFF",
 ["fontJustifyHorizontalName"] = "Left",
 ["fontSize"] = 14,
-["color"] = "FFFFFFFF",
+["fontJustifyHorizontal"] = "LEFT",
 },
 ["barText"] = {
 {
@@ -12116,10 +12116,10 @@ TwintopInsanityBarSettings = {
 ["default"] = {
 ["fontFace"] = "Fonts\\FRIZQT__.TTF",
 ["fontFaceName"] = "Friz Quadrata TT",
-["color"] = "FFFFFFFF",
+["fontJustifyHorizontal"] = "LEFT",
 ["fontJustifyHorizontalName"] = "Left",
 ["fontSize"] = 14,
-["fontJustifyHorizontal"] = "LEFT",
+["color"] = "FFFFFFFF",
 },
 ["barText"] = {
 {
@@ -12404,15 +12404,15 @@ TwintopInsanityBarSettings = {
 },
 },
 ["comboPoints"] = {
-["base"] = "FFA6FF49",
 ["border"] = "FF12721A",
+["base"] = "FFA6FF49",
 ["overcap"] = {
 ["color"] = "FFFF4500",
 ["enabled"] = false,
 },
-["sortRunes"] = true,
-["cooldown"] = "FFCCCCCC",
 ["background"] = "66000000",
+["cooldown"] = "FFCCCCCC",
+["sortRunes"] = true,
 },
 ["bar"] = {
 ["overcapEnabled"] = true,
@@ -12522,10 +12522,10 @@ TwintopInsanityBarSettings = {
 ["default"] = {
 ["fontFace"] = "Fonts\\FRIZQT__.TTF",
 ["fontFaceName"] = "Friz Quadrata TT",
-["color"] = "FFFFFFFF",
+["fontJustifyHorizontal"] = "LEFT",
 ["fontJustifyHorizontalName"] = "Left",
 ["fontSize"] = 14,
-["fontJustifyHorizontal"] = "LEFT",
+["color"] = "FFFFFFFF",
 },
 ["barText"] = {
 {
@@ -12810,15 +12810,15 @@ TwintopInsanityBarSettings = {
 },
 },
 ["comboPoints"] = {
-["base"] = "FF368BC1",
 ["border"] = "FF00426A",
+["base"] = "FF368BC1",
 ["overcap"] = {
 ["color"] = "FFFF4500",
 ["enabled"] = false,
 },
-["sortRunes"] = true,
-["cooldown"] = "FFCCCCCC",
 ["background"] = "66000000",
+["cooldown"] = "FFCCCCCC",
+["sortRunes"] = true,
 },
 ["bar"] = {
 ["overcapEnabled"] = true,
@@ -12922,10 +12922,10 @@ TwintopInsanityBarSettings = {
 ["default"] = {
 ["fontFace"] = "Fonts\\FRIZQT__.TTF",
 ["fontFaceName"] = "Friz Quadrata TT",
-["color"] = "FFFFFFFF",
+["fontJustifyHorizontal"] = "LEFT",
 ["fontJustifyHorizontalName"] = "Left",
 ["fontSize"] = 14,
-["fontJustifyHorizontal"] = "LEFT",
+["color"] = "FFFFFFFF",
 },
 ["barText"] = {
 {
@@ -13210,15 +13210,15 @@ TwintopInsanityBarSettings = {
 },
 },
 ["comboPoints"] = {
-["base"] = "FFC41E3A",
 ["border"] = "FF600000",
+["base"] = "FFC41E3A",
 ["overcap"] = {
 ["color"] = "FFFF4500",
 ["enabled"] = false,
 },
-["sortRunes"] = true,
-["cooldown"] = "FFCCCCCC",
 ["background"] = "66000000",
+["cooldown"] = "FFCCCCCC",
+["sortRunes"] = true,
 },
 ["bar"] = {
 ["overcapEnabled"] = true,

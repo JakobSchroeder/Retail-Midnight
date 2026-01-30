@@ -60,12 +60,12 @@ LuckyoneDB = {
 ["skins"] = {
 ["LFGBulletinBoard"] = true,
 ["NovaSpellRankChecker"] = true,
-["DejaClassicStats"] = true,
+["WhatsTraining"] = true,
 ["BugSack"] = true,
 ["NovaWorldBuffs"] = true,
 ["LeatrixPlus"] = true,
 ["Tabardy"] = true,
-["WhatsTraining"] = true,
+["DejaClassicStats"] = true,
 },
 ["qualityOfLife"] = {
 ["easyDelete"] = true,

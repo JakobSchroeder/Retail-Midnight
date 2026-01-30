@@ -303,7 +303,7 @@ WarbandMiserDB = {
 ["Ghostshuffle"] = {
 ["GoldCap"] = 10000,
 ["Defaults"] = true,
-["Gold"] = 100464841,
+["Gold"] = 100515733,
 ["Include"] = true,
 ["Level"] = 80,
 ["ServerDefault"] = false,
@@ -318,7 +318,7 @@ WarbandMiserDB = {
 ["ServerDefault"] = false,
 ["AllGold"] = false,
 },
-["Smashuffle"] = {
+["Postshuffle"] = {
 ["GoldCap"] = 10000,
 ["Defaults"] = true,
 ["Gold"] = 0,
@@ -345,7 +345,7 @@ WarbandMiserDB = {
 ["ServerDefault"] = false,
 ["AllGold"] = false,
 },
-["Postshuffle"] = {
+["Smashuffle"] = {
 ["GoldCap"] = 10000,
 ["Defaults"] = true,
 ["Gold"] = 0,

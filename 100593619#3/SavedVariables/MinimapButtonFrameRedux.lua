@@ -4,6 +4,7 @@ MBFDB = {
 ["Ghostshuffle - Laughing Skull"] = "Default",
 ["Voidshuffle - Laughing Skull"] = "Default",
 ["Soulshuffle - Laughing Skull"] = "Default",
+["Feintshuffle - Kazzak"] = "Default",
 },
 ["profiles"] = {
 ["Default"] = {

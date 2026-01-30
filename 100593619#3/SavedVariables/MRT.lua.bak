@@ -89,27 +89,27 @@ VMRT = {
 },
 ["Wingshuffle"] = {
 },
-["Soapshuffle"] = {
+["Tectoshuffle"] = {
 },
 ["Bankpshuffle"] = {
 },
-["Tectoshuffle"] = {
+["Soapshuffle"] = {
 },
 ["Yumpshuffle"] = {
 },
-["Ghostshuffle"] = {
-},
-["Blindshuffle"] = {
-},
-["Kafirshuffle"] = {
-},
 ["Bankshuffle"] = {
-},
-["Forceshuffle"] = {
 },
 ["Gunshuffle"] = {
 },
+["Kafirshuffle"] = {
+},
+["Blindshuffle"] = {
+},
 ["Spellshuffel"] = {
+},
+["Ghostshuffle"] = {
+},
+["Forceshuffle"] = {
 },
 ["Postshuffle"] = {
 },
@@ -163,23 +163,24 @@ true,
 ["Voidshuffle"] = 258,
 ["Kickshuffle"] = 269,
 ["Subshuffle"] = 256,
-["Wingshuffle"] = 70,
 ["Hornyshuffle-Draenor"] = 1480,
+["Wingshuffle"] = 70,
 ["Bankpshuffle"] = 1446,
-["Soapshuffle"] = 70,
 ["Tectoshuffle"] = 262,
-["Yumpshuffle"] = 577,
-["Gunshuffle"] = 254,
-["Bankshuffle"] = 70,
-["Kafirshuffle"] = 258,
-["Spellshuffel"] = 64,
-["Forceshuffle"] = 62,
-["Ghostshuffle"] = 258,
-["Blindshuffle"] = 577,
-["Postshuffle"] = 64,
 ["Faceshuffle"] = 254,
-["Roboshuffle"] = 258,
+["Soapshuffle"] = 70,
+["Bankshuffle"] = 70,
+["Gunshuffle"] = 254,
+["Spellshuffel"] = 64,
+["Kafirshuffle"] = 258,
+["Ghostshuffle"] = 258,
+["Forceshuffle"] = 62,
+["Blindshuffle"] = 577,
+["Yumpshuffle"] = 577,
+["Postshuffle"] = 64,
 ["Smashuffle"] = 71,
+["Roboshuffle"] = 258,
+["Avoidshuffle"] = 258,
 },
 ["NoRaid"] = true,
 ["CDECol"] = {
@@ -415,8 +416,8 @@ true,
 },
 ["v21"] = true,
 ["v55"] = true,
-["HistoryFrameShown"] = true,
 ["FontOutline"] = true,
+["HistoryFrameShown"] = true,
 ["Profile"] = 1,
 ["generalSound2"] = "Interface\\AddOns\\MRT\\media\\Sounds\\KittenMeow.ogg",
 ["profilesinfo"] = {
@@ -424,9 +425,9 @@ true,
 ["v38"] = true,
 ["removed"] = {
 },
+["generalSound6"] = "Interface\\Addons\\MRT\\media\\Sounds\\bam.ogg",
 ["TLHistory"] = {
 },
-["generalSound6"] = "Interface\\Addons\\MRT\\media\\Sounds\\bam.ogg",
 },
 ["Addon"] = {
 ["PreVersion"] = 5251,
@@ -514,7 +515,7 @@ true,
 [3179] = 2736,
 [3103] = 2681,
 [3328] = 2813,
-[3056] = 2655,
+[3182] = 2739,
 [3057] = 2656,
 [3072] = 2661,
 [3332] = 2814,
@@ -534,7 +535,7 @@ true,
 [3333] = 2815,
 [3200] = 2770,
 [3208] = 2777,
-[3182] = 2739,
+[3056] = 2655,
 [3287] = 2793,
 [3202] = 2772,
 },
@@ -620,6 +621,9 @@ true,
 "1769763693#0#0#0#Ghostshuffle#5#1#item:246995::::::::80:258::177:5:13671:12290:6652:9878:10255:1:28:3098:::::",
 "1769763995#0#0#0#Ghostshuffle#5#1#item:246654::::::::80:258::177:6:12239:13671:12290:6652:3210:10255:1:28:3098:::::",
 "1769769234#0#0#0#Ghostshuffle#5#1#item:246640::::::::80:258::177:7:12239:13671:12290:6652:12921:3210:10255:1:28:3098:::::",
+"1769786979#0#0#0#Ghostshuffle#5#1#item:246647::::::::80:258::177:6:12239:13671:12290:6652:3210:10255:1:28:3098:::::",
+"1769787548#0#0#0#Ghostshuffle#5#1#item:246658::::::::80:258::177:6:12239:13671:12290:6652:3210:10255:1:28:3098:::::",
+"1769787564#0#0#0#Avoidshuffle#5#1#item:246640::::::::80:258::177:7:12239:13671:12290:6652:12921:3210:10255:1:28:3098:::::",
 },
 ["bossNames"] = {
 },
@@ -717,7 +721,10 @@ true,
 ["BlackNames"] = {
 },
 ["FontSize"] = 12,
-["BlackLastUpdateTime"] = {
+["Black"] = {
+"",
+"",
+"",
 },
 ["Strata"] = "HIGH",
 ["AutoLoad"] = {
@@ -725,21 +732,18 @@ true,
 ["OptionsFormatting"] = true,
 ["CustomRoster"] = {
 },
+["Width"] = 299.9999389648438,
+["BlackLastUpdateName"] = {
+},
+["PersonalWidth"] = 299.9999389648438,
+["OnlyPromoted"] = true,
 ["Profiles"] = {
 ["Now"] = "default",
 ["List"] = {
 },
 },
-["BlackLastUpdateName"] = {
-},
-["PersonalWidth"] = 299.9999389648438,
-["OnlyPromoted"] = true,
-["Width"] = 299.9999389648438,
 ["Height"] = 200,
-["Black"] = {
-"",
-"",
-"",
+["BlackLastUpdateTime"] = {
 },
 ["PersonalHeight"] = 200,
 },

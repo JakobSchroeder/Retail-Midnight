@@ -1,5 +1,13 @@
 
 VWQL = {
+["Feintshuffle-Kazzak"] = {
+["Filter"] = 63,
+["FilterType"] = {
+},
+["Quests"] = {
+},
+["VERSION"] = 119,
+},
 ["AzeriteFormat"] = 20,
 ["Scale"] = 0.8,
 ["DisableIconsGeneralMap947"] = true,

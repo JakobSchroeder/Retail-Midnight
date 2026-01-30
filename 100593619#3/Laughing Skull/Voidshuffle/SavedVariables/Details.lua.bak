@@ -7,38 +7,37 @@ _detalhes_database = {
 ["tabelas"] = {
 {
 {
-["combatId"] = 112,
 ["tipo"] = 2,
+["combatId"] = 112,
 ["_ActorTable"] = {
 {
 ["flag_original"] = 1298,
 ["totalabsorbed"] = 0.003696,
 ["pets"] = {
 },
-["classe"] = "PRIEST",
+["aID"] = "1598-0FA12E00",
 ["total_without_pet"] = 0.003696,
 ["last_dps_realtime"] = 0,
 ["dps_started"] = false,
 ["total"] = 60944,
 ["spec"] = 258,
+["colocacao"] = 1,
 ["on_hold"] = false,
 ["total_extra"] = 0,
 ["serial"] = "Player-1598-0FA12E00",
-["colocacao"] = 1,
-["aID"] = "1598-0FA12E00",
 ["damage_from"] = {
 },
 ["targets"] = {
 },
-["specIcon"] = 136207,
-["grupo"] = true,
 ["friendlyfire_total"] = 0,
 ["raid_targets"] = {
 },
 ["end_time"] = 1769766869,
+["friendlyfire"] = {
+},
+["specIcon"] = 136207,
 ["nome"] = "Voidshuffle",
 ["spells"] = {
-["tipo"] = 2,
 ["_ActorTable"] = {
 [15407] = {
 ["c_amt"] = 0,
@@ -171,25 +170,28 @@ _detalhes_database = {
 ["r_amt"] = 0,
 },
 },
+["tipo"] = 2,
 },
-["friendlyfire"] = {
-},
-["last_dps"] = 12516.73855014434,
-["custom"] = 0,
+["grupo"] = true,
 ["tipo"] = 1,
+["classe"] = "PRIEST",
+["custom"] = 0,
+["last_event"] = 0,
 ["damage_taken"] = 0.003696,
 ["start_time"] = 1769766869,
 ["delay"] = 0,
-["last_event"] = 0,
+["last_dps"] = 12516.73855014434,
 },
 },
 },
 {
-["combatId"] = 112,
 ["tipo"] = 3,
+["combatId"] = 112,
 ["_ActorTable"] = {
 {
 ["flag_original"] = 1298,
+["healing_from"] = {
+},
 ["pets"] = {
 },
 ["iniciar_hps"] = false,
@@ -202,59 +204,57 @@ _detalhes_database = {
 ["heal_enemy"] = {
 },
 ["on_hold"] = false,
+["serial"] = "Player-1598-0FA12E00",
 ["totalabsorb"] = 0.002619,
 ["last_hps"] = 0,
-["aID"] = "1598-0FA12E00",
 ["specIcon"] = 136207,
 ["targets"] = {
 },
-["spec"] = 258,
-["serial"] = "Player-1598-0FA12E00",
 ["totalover_without_pet"] = 0.002619,
-["grupo"] = true,
+["spec"] = 258,
 ["healing_taken"] = 0.002619,
-["healing_from"] = {
-},
-["classe"] = "PRIEST",
 ["end_time"] = 1769766869,
+["start_time"] = 1769766869,
 ["targets_overheal"] = {
 },
-["start_time"] = 1769766869,
 ["nome"] = "Voidshuffle",
 ["spells"] = {
-["tipo"] = 3,
 ["_ActorTable"] = {
 },
+["tipo"] = 3,
 },
-["custom"] = 0,
+["grupo"] = true,
+["classe"] = "PRIEST",
 ["last_event"] = 0,
+["custom"] = 0,
+["tipo"] = 2,
 ["totaldenied"] = 0.002619,
 ["delay"] = 0,
-["tipo"] = 2,
+["aID"] = "1598-0FA12E00",
 },
 },
 },
 {
-["combatId"] = 112,
 ["tipo"] = 7,
+["combatId"] = 112,
 ["_ActorTable"] = {
 },
 },
 {
-["combatId"] = 112,
 ["tipo"] = 9,
+["combatId"] = 112,
 ["_ActorTable"] = {
 },
 },
 {
-["combatId"] = 112,
 ["tipo"] = 2,
+["combatId"] = 112,
 ["_ActorTable"] = {
 },
 },
 ["raid_roster"] = {
 },
-["tempo_start"] = 1769766869,
+["overall_added"] = true,
 ["last_events_tables"] = {
 },
 ["alternate_power"] = {
@@ -279,10 +279,10 @@ _detalhes_database = {
 {
 ["buff_uptime"] = 0,
 ["ress"] = 0,
-["debuff_uptime"] = 0,
 ["cooldowns_defensive"] = 0,
-["interrupt"] = 0,
 ["dispell"] = 0,
+["interrupt"] = 0,
+["debuff_uptime"] = 0,
 ["cc_break"] = 0,
 ["dead"] = 0,
 },
@@ -317,10 +317,11 @@ _detalhes_database = {
 ["mapId"] = 2444,
 ["combat_id"] = 112,
 ["timeStart"] = 1769766870,
-["overall_added"] = true,
-["is_world_trash_combat"] = true,
-["is_challenge"] = false,
+["tempo_start"] = 1769766869,
 ["frags"] = {
+},
+["is_challenge"] = false,
+["spells_cast_timeline"] = {
 },
 ["boss_hp"] = 1,
 ["combat_counter"] = 118,
@@ -337,10 +338,10 @@ _detalhes_database = {
 {
 ["buff_uptime"] = 0,
 ["ress"] = 0,
-["debuff_uptime"] = 0,
 ["cooldowns_defensive"] = 0,
-["interrupt"] = 0,
 ["dispell"] = 0,
+["interrupt"] = 0,
+["debuff_uptime"] = 0,
 ["cc_break"] = 0,
 ["dead"] = 0,
 },
@@ -350,14 +351,14 @@ _detalhes_database = {
 1,
 1,
 },
+["damage_section"] = {
+},
 ["heal_section"] = {
 },
 ["heal"] = {
 {
 ["Voidshuffle"] = 0,
 },
-},
-["damage_section"] = {
 },
 ["damage"] = {
 {
@@ -368,8 +369,7 @@ _detalhes_database = {
 ["start_time"] = 3559981.807,
 ["TimeData"] = {
 },
-["spells_cast_timeline"] = {
-},
+["is_world_trash_combat"] = true,
 },
 {
 {
@@ -400,9 +400,9 @@ _detalhes_database = {
 },
 ["damage_taken_ps"] = 762.9246215820312,
 ["end_time"] = 1769766824,
+["on_hold"] = false,
 ["damage_from"] = {
 },
-["aID"] = "1598-0FA12E00",
 ["nome"] = "Voidshuffle",
 ["spells"] = {
 ["_ActorTable"] = {
@@ -618,14 +618,14 @@ _detalhes_database = {
 ["tipo"] = 2,
 },
 ["grupo"] = true,
-["on_hold"] = false,
 ["tipo"] = 1,
+["aID"] = "1598-0FA12E00",
 ["custom"] = 0,
 ["last_event"] = 0,
-["last_dps"] = 6261.974609375,
+["damage_taken"] = 7231,
 ["start_time"] = 1769766824,
 ["delay"] = 0,
-["damage_taken"] = 7231,
+["last_dps"] = 6261.974609375,
 },
 },
 },
@@ -640,11 +640,12 @@ _detalhes_database = {
 ["pets"] = {
 },
 ["iniciar_hps"] = false,
-["heal_enemy_amt"] = 0,
+["aID"] = "1598-0FA12E00",
 ["totalover"] = 0.004974,
 ["total_without_pet"] = 0.004974,
 ["total"] = 2331,
-["spec"] = 258,
+["targets_absorbs"] = {
+},
 ["heal_enemy"] = {
 },
 ["colocacao"] = 1,
@@ -660,8 +661,8 @@ _detalhes_database = {
 ["healing_taken"] = 0.004974,
 ["start_time"] = 1769766824,
 ["end_time"] = 1769766824,
-["aID"] = "1598-0FA12E00",
-["totalabsorb_ps"] = 17.3032283782959,
+["heal_enemy_amt"] = 0,
+["classe"] = "PRIEST",
 ["nome"] = "Voidshuffle",
 ["spells"] = {
 ["_ActorTable"] = {
@@ -740,13 +741,12 @@ _detalhes_database = {
 ["grupo"] = true,
 ["healing_from"] = {
 },
-["classe"] = "PRIEST",
+["spec"] = 258,
 ["custom"] = 0,
 ["tipo"] = 2,
 ["totaldenied"] = 0.004974,
 ["delay"] = 0,
-["targets_absorbs"] = {
-},
+["totalabsorb_ps"] = 17.3032283782959,
 },
 },
 },
@@ -914,8 +914,9 @@ _detalhes_database = {
 ["width"] = 120,
 ["ignored_cooldowns"] = {
 },
-["height"] = 18,
 ["framme_locked"] = false,
+["cooldowns"] = {
+},
 ["own_frame"] = {
 ["defensive-raid"] = false,
 ["ofensive"] = false,
@@ -923,8 +924,7 @@ _detalhes_database = {
 ["utility"] = false,
 ["defensive-personal"] = false,
 },
-["cooldowns"] = {
-},
+["height"] = 18,
 ["show_conditions"] = {
 ["only_inside_instance"] = true,
 ["only_in_group"] = true,
@@ -944,39 +944,6 @@ _detalhes_database = {
 },
 ["combat_counter"] = 118,
 ["damage_meter_sessions"] = {
-{
-["endUnixTime"] = 1769766610,
-["endTime"] = 3559727.321,
-["added"] = true,
-["endDate"] = "10:50:10",
-["startUnixTime"] = 1769766600,
-["startDate"] = "10:50:00",
-["startTime"] = 3559716.611,
-["sessionId"] = 1,
-["detailsId"] = "Ice Elemental1",
-},
-{
-["endUnixTime"] = 1769766825,
-["endTime"] = 3559941.667,
-["added"] = true,
-["endDate"] = "10:53:45",
-["startUnixTime"] = 1769766815,
-["startDate"] = "10:53:35",
-["startTime"] = 3559932.193,
-["sessionId"] = 2,
-["detailsId"] = "Ice Elemental2",
-},
-{
-["endUnixTime"] = 1769766870,
-["endTime"] = 3559986.676,
-["added"] = true,
-["endDate"] = "10:54:30",
-["startUnixTime"] = 1769766865,
-["startDate"] = "10:54:25",
-["startTime"] = 3559981.807,
-["sessionId"] = 3,
-["detailsId"] = "Ice Elemental3",
-},
 },
 ["force_font_outline"] = "",
 ["tabela_instancias"] = {
@@ -1056,13 +1023,7 @@ _detalhes_database = {
 },
 },
 },
-["plugin_database"] = {
-["DETAILS_PLUGIN_COMPARETWO_WINDOW"] = {
-["enabled"] = true,
-["author"] = "Terciob",
-["max_compares"] = 4,
-["compare_type"] = 1,
-},
+["damage_meter_session_info"] = {
 },
 ["cached_talents"] = {
 },
@@ -1108,18 +1069,15 @@ _detalhes_database = {
 ["dungeon_zone_id"] = 0,
 ["previous_boss_killed_at"] = 0,
 },
+["on_death_menu"] = false,
+["ignore_nicktag"] = true,
+["cached_roles"] = {
+},
 ["coach"] = {
 ["enabled"] = false,
 ["welcome_panel_pos"] = {
 },
 ["last_coach_name"] = false,
-},
-["ignore_nicktag"] = true,
-["cached_roles"] = {
-},
-["announce_firsthit"] = {
-["enabled"] = true,
-["channel"] = "SELF",
 },
 ["combat_log"] = {
 ["inverse_deathlog_overalldata"] = false,
@@ -1131,31 +1089,16 @@ _detalhes_database = {
 ["evoker_show_realtimedps"] = false,
 ["inverse_deathlog_mplus"] = false,
 },
-["nick_tag_cache"] = {
-["last_version"] = 16,
-["nextreset"] = 1770320181,
-["Monoroth"] = {
-"Monoroth",
-"",
-{
-0,
-1,
-0,
-1,
+["announce_firsthit"] = {
+["enabled"] = true,
+["channel"] = "SELF",
 },
-"",
-{
-0,
-1,
-0,
-1,
-},
-{
-1,
-1,
-1,
-},
-3,
+["plugin_database"] = {
+["DETAILS_PLUGIN_COMPARETWO_WINDOW"] = {
+["enabled"] = true,
+["author"] = "Terciob",
+["max_compares"] = 4,
+["compare_type"] = 1,
 },
 },
 ["mythic_plus_log"] = {
@@ -1209,25 +1152,25 @@ _detalhes_database = {
 "05/09/25 23:35:37|MergeTrashCleanup started.",
 "05/09/25 23:35:37|BossDefeated | key level: | 10 | Azhiccar | Eco-Dome Al'dani",
 },
-["data_harvested_for_charts"] = {
+["character_data"] = {
+["logons"] = 78,
 },
 ["benchmark_db"] = {
 ["frame"] = {
 },
 },
+["player_stats"] = {
+},
 ["last_day"] = "30",
-["SoloTablesSaved"] = {
-["Mode"] = 1,
-},
-["damage_meter_session_info"] = {
-},
 ["last_instance_time"] = 1769362715,
 ["last_version"] = "12.0.0 14358",
 ["combat_id"] = 112,
 ["savedStyles"] = {
 },
 ["last_realversion"] = 168,
-["on_death_menu"] = false,
+["SoloTablesSaved"] = {
+["Mode"] = 1,
+},
 ["announce_deaths"] = {
 ["enabled"] = false,
 ["last_hits"] = 1,
@@ -3254,7 +3197,7 @@ _detalhes_database = {
 ["_ActorTable"] = {
 {
 ["flag_original"] = 1298,
-["targets_overheal"] = {
+["healing_from"] = {
 },
 ["pets"] = {
 },
@@ -3277,7 +3220,7 @@ _detalhes_database = {
 ["healing_taken"] = 0.3769790000000003,
 ["end_time"] = 1769622496,
 ["heal_enemy_amt"] = 0,
-["healing_from"] = {
+["targets_overheal"] = {
 },
 ["nome"] = "Voidshuffle",
 ["spells"] = {
@@ -3509,7 +3452,7 @@ _detalhes_database = {
 ["pets"] = {
 },
 ["iniciar_hps"] = false,
-["classe"] = "PRIEST",
+["aID"] = "1305-0D190651",
 ["totalover"] = 0.009314,
 ["total_without_pet"] = 0.009314,
 ["total"] = 22628.006021,
@@ -3583,16 +3526,16 @@ _detalhes_database = {
 ["grupo"] = true,
 ["targets_overheal"] = {
 },
-["aID"] = "1305-0D190651",
+["heal_enemy_amt"] = 0,
 ["custom"] = 0,
 ["tipo"] = 2,
 ["start_time"] = 1769624527,
 ["delay"] = 0,
-["heal_enemy_amt"] = 0,
+["classe"] = "PRIEST",
 },
 {
 ["flag_original"] = 1298,
-["healing_from"] = {
+["targets_overheal"] = {
 },
 ["pets"] = {
 },
@@ -3616,7 +3559,7 @@ _detalhes_database = {
 ["healing_taken"] = 0.011391,
 ["end_time"] = 1769624530,
 ["aID"] = "1305-0D58AB75",
-["targets_overheal"] = {
+["healing_from"] = {
 },
 ["nome"] = "Noregretz-Kazzak",
 ["spells"] = {
@@ -3681,7 +3624,7 @@ _detalhes_database = {
 },
 {
 ["flag_original"] = 1298,
-["healing_from"] = {
+["targets_overheal"] = {
 },
 ["pets"] = {
 },
@@ -3705,7 +3648,7 @@ _detalhes_database = {
 ["healing_taken"] = 0.028473,
 ["end_time"] = 1769633015,
 ["aID"] = "1403-06492F48",
-["targets_overheal"] = {
+["healing_from"] = {
 },
 ["nome"] = "Hornyshuffle-Draenor",
 ["spells"] = {
@@ -3775,7 +3718,7 @@ _detalhes_database = {
 ["pets"] = {
 },
 ["iniciar_hps"] = false,
-["aID"] = "1598-0FC66544",
+["heal_enemy_amt"] = 0,
 ["totalover"] = 0.01223,
 ["total_without_pet"] = 0.01223,
 ["total"] = 3102.003538,
@@ -3849,16 +3792,16 @@ _detalhes_database = {
 ["grupo"] = true,
 ["healing_from"] = {
 },
-["heal_enemy_amt"] = 0,
+["classe"] = "DRUID",
 ["custom"] = 0,
 ["tipo"] = 2,
 ["start_time"] = 1769712819,
 ["delay"] = 0,
-["classe"] = "DRUID",
+["aID"] = "1598-0FC66544",
 },
 {
 ["flag_original"] = 1298,
-["healing_from"] = {
+["targets_overheal"] = {
 },
 ["pets"] = {
 },
@@ -3880,7 +3823,7 @@ _detalhes_database = {
 ["aID"] = "1598-06DBA8F2",
 ["healing_taken"] = 0.005568,
 ["end_time"] = 1769712822,
-["targets_overheal"] = {
+["healing_from"] = {
 },
 ["start_time"] = 1769712819,
 ["nome"] = "Thosha",
@@ -3924,7 +3867,7 @@ _detalhes_database = {
 },
 {
 ["flag_original"] = 1298,
-["healing_from"] = {
+["targets_overheal"] = {
 },
 ["pets"] = {
 },
@@ -3946,7 +3889,7 @@ _detalhes_database = {
 ["aID"] = "1598-0FC99DB3",
 ["healing_taken"] = 0.011724,
 ["end_time"] = 1769712822,
-["targets_overheal"] = {
+["healing_from"] = {
 },
 ["start_time"] = 1769712819,
 ["nome"] = "Vary-Trollbane",
@@ -3990,7 +3933,7 @@ _detalhes_database = {
 },
 {
 ["flag_original"] = 1298,
-["healing_from"] = {
+["targets_overheal"] = {
 },
 ["pets"] = {
 },
@@ -4012,7 +3955,7 @@ _detalhes_database = {
 ["aID"] = "1305-0D3ACAFE",
 ["healing_taken"] = 0.013212,
 ["end_time"] = 1769713122,
-["targets_overheal"] = {
+["healing_from"] = {
 },
 ["start_time"] = 1769713119,
 ["nome"] = "Spearshuffle-Kazzak",
@@ -4162,6 +4105,17 @@ _detalhes_database = {
 },
 ["combat_counter"] = 33,
 ["is_challenge"] = false,
+["frags"] = {
+},
+["player_last_events"] = {
+},
+["overall_enemy_name"] = "Unknown",
+["data_inicio"] = "18:48:05",
+["spells_cast_timeline"] = {
+},
+["start_time"] = 3556371.242000002,
+["TimeData"] = {
+},
 ["segments_added"] = {
 {
 ["elapsed"] = 4.868999999947846,
@@ -4404,24 +4358,37 @@ _detalhes_database = {
 ["clock"] = "20:31:59",
 },
 },
-["player_last_events"] = {
 },
-["overall_enemy_name"] = "Unknown",
-["data_inicio"] = "18:48:05",
-["frags"] = {
-},
-["start_time"] = 3556371.242000002,
-["TimeData"] = {
-},
-["spells_cast_timeline"] = {
-},
-},
-["player_stats"] = {
+["data_harvested_for_charts"] = {
 },
 ["arena_data_headers"] = {
 },
-["character_data"] = {
-["logons"] = 76,
+["nick_tag_cache"] = {
+["last_version"] = 16,
+["nextreset"] = 1770320181,
+["Monoroth"] = {
+"Monoroth",
+"",
+{
+0,
+1,
+0,
+1,
+},
+"",
+{
+0,
+1,
+0,
+1,
+},
+{
+1,
+1,
+1,
+},
+3,
+},
 },
 ["announce_cooldowns"] = {
 ["ignored_cooldowns"] = {

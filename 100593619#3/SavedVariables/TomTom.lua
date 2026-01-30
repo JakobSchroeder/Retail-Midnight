@@ -24,21 +24,21 @@ TomTomDB = {
 ["Yumpshuffle - Kazzak"] = "Default",
 ["Bankshuffle - Draenor"] = "Default",
 ["Faceshuffle - Draenor"] = "Default",
-["Cloakshuffle - Draenor"] = "Default",
+["Subshuffle - Ravencrest"] = "Default",
 ["Quakeshuffle - Draenor"] = "Default",
 ["Soapshuffle - Kazzak"] = "Default",
-["Chaosshuffle - Draenor"] = "Default",
-["Feintshuffle - Kazzak"] = "Default",
+["Kafirshuffle - Draenor"] = "Default",
+["Monkashuffle - Kazzak"] = "Default",
 ["Moonshuffle - Draenor"] = "Default",
 ["Pairshuffle - Kazzak"] = "Default",
 ["Bobshuffle - Laughing Skull"] = "Default",
 ["Forceshuffle - Draenor"] = "Default",
 ["Bankpshuffle - Laughing Skull"] = "Default",
 ["Gunshuffle - Kazzak"] = "Default",
-["Monkashuffle - Kazzak"] = "Default",
-["Kafirshuffle - Draenor"] = "Default",
+["Feintshuffle - Kazzak"] = "Default",
+["Chaosshuffle - Draenor"] = "Default",
 ["Floorshuffle - Ravencrest"] = "Default",
-["Subshuffle - Ravencrest"] = "Default",
+["Cloakshuffle - Draenor"] = "Default",
 },
 ["profiles"] = {
 ["Default"] = {
@@ -51,6 +51,9 @@ nil,
 304.9996948242188,
 },
 },
+["paste"] = {
+["minimap_button"] = true,
+},
 ["block"] = {
 ["position"] = {
 "TOPRIGHT",
@@ -59,9 +62,6 @@ nil,
 -335.0005798339844,
 -173.0004119873047,
 },
-},
-["paste"] = {
-["minimap_button"] = true,
 },
 },
 },
@@ -92,21 +92,21 @@ TomTomWaypointsM = {
 ["Yumpshuffle - Kazzak"] = "Yumpshuffle - Kazzak",
 ["Bankshuffle - Draenor"] = "Bankshuffle - Draenor",
 ["Faceshuffle - Draenor"] = "Faceshuffle - Draenor",
-["Cloakshuffle - Draenor"] = "Cloakshuffle - Draenor",
+["Subshuffle - Ravencrest"] = "Subshuffle - Ravencrest",
 ["Quakeshuffle - Draenor"] = "Quakeshuffle - Draenor",
 ["Soapshuffle - Kazzak"] = "Soapshuffle - Kazzak",
-["Chaosshuffle - Draenor"] = "Chaosshuffle - Draenor",
-["Feintshuffle - Kazzak"] = "Feintshuffle - Kazzak",
+["Kafirshuffle - Draenor"] = "Kafirshuffle - Draenor",
+["Monkashuffle - Kazzak"] = "Monkashuffle - Kazzak",
 ["Moonshuffle - Draenor"] = "Moonshuffle - Draenor",
 ["Pairshuffle - Kazzak"] = "Pairshuffle - Kazzak",
 ["Bobshuffle - Laughing Skull"] = "Bobshuffle - Laughing Skull",
 ["Forceshuffle - Draenor"] = "Forceshuffle - Draenor",
 ["Bankpshuffle - Laughing Skull"] = "Bankpshuffle - Laughing Skull",
 ["Gunshuffle - Kazzak"] = "Gunshuffle - Kazzak",
-["Monkashuffle - Kazzak"] = "Monkashuffle - Kazzak",
-["Kafirshuffle - Draenor"] = "Kafirshuffle - Draenor",
+["Feintshuffle - Kazzak"] = "Feintshuffle - Kazzak",
+["Chaosshuffle - Draenor"] = "Chaosshuffle - Draenor",
 ["Floorshuffle - Ravencrest"] = "Floorshuffle - Ravencrest",
-["Subshuffle - Ravencrest"] = "Subshuffle - Ravencrest",
+["Cloakshuffle - Draenor"] = "Cloakshuffle - Draenor",
 },
 ["profiles"] = {
 ["Necroshuffle - Kazzak"] = {
@@ -155,15 +155,15 @@ TomTomWaypointsM = {
 },
 ["Faceshuffle - Draenor"] = {
 },
-["Cloakshuffle - Draenor"] = {
+["Subshuffle - Ravencrest"] = {
 },
 ["Quakeshuffle - Draenor"] = {
 },
 ["Soapshuffle - Kazzak"] = {
 },
-["Chaosshuffle - Draenor"] = {
+["Kafirshuffle - Draenor"] = {
 },
-["Feintshuffle - Kazzak"] = {
+["Monkashuffle - Kazzak"] = {
 },
 ["Moonshuffle - Draenor"] = {
 },
@@ -177,13 +177,13 @@ TomTomWaypointsM = {
 },
 ["Gunshuffle - Kazzak"] = {
 },
-["Monkashuffle - Kazzak"] = {
+["Feintshuffle - Kazzak"] = {
 },
-["Kafirshuffle - Draenor"] = {
+["Chaosshuffle - Draenor"] = {
 },
 ["Floorshuffle - Ravencrest"] = {
 },
-["Subshuffle - Ravencrest"] = {
+["Cloakshuffle - Draenor"] = {
 },
 },
 }

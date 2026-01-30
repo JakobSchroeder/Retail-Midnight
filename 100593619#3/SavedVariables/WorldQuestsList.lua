@@ -6,27 +6,8 @@ VWQL = {
 ["DisableLFG_Popup"] = true,
 ["Ignore"] = {
 },
-["HideLegion"] = true,
-["Sort"] = 5,
-["VERSION"] = 119,
-["SortPrio2"] = {
-},
-["Ghostshuffle-LaughingSkull"] = {
-["VERSION"] = 119,
-["FilterType"] = {
-},
-["Quests"] = {
-[86959] = true,
-[86938] = true,
-[86948] = true,
-[91759] = true,
-},
-["Filter"] = 63,
-},
-["SortPrio"] = {
-},
 ["Voidshuffle-LaughingSkull"] = {
-["Filter"] = 63,
+["VERSION"] = 119,
 ["FilterType"] = {
 },
 ["Quests"] = {
@@ -38,10 +19,36 @@ VWQL = {
 [82237] = true,
 [86948] = true,
 [73149] = true,
-[70934] = true,
-[75257] = true,
 [73082] = true,
+[75257] = true,
+[70934] = true,
+},
+["Filter"] = 63,
+},
+["SortPrio"] = {
+},
+["Sort"] = 5,
+["VERSION"] = 119,
+["Ghostshuffle-LaughingSkull"] = {
+["Filter"] = 63,
+["FilterType"] = {
+},
+["Quests"] = {
+[86959] = true,
+[86948] = true,
+[91759] = true,
 },
 ["VERSION"] = 119,
 },
+["Soulshuffle-LaughingSkull"] = {
+["Filter"] = 63,
+["FilterType"] = {
+},
+["Quests"] = {
+},
+["VERSION"] = 119,
+},
+["SortPrio2"] = {
+},
+["HideLegion"] = true,
 }

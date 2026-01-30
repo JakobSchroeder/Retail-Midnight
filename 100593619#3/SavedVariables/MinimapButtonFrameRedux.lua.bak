@@ -1,8 +1,9 @@
 
 MBFDB = {
 ["profileKeys"] = {
-["Voidshuffle - Laughing Skull"] = "Default",
 ["Ghostshuffle - Laughing Skull"] = "Default",
+["Voidshuffle - Laughing Skull"] = "Default",
+["Soulshuffle - Laughing Skull"] = "Default",
 },
 ["profiles"] = {
 ["Default"] = {
@@ -12,7 +13,7 @@ MBFDB = {
 nil,
 nil,
 -98.75467681884766,
--248.7498779296875,
+-249.999755859375,
 },
 ["customChildren"] = {
 "MinimapButtonFrameDragButton",

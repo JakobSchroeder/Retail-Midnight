@@ -2,14 +2,140 @@
 BCDMDB = {
 ["namespaces"] = {
 },
+["global"] = {
+["UseGlobalProfile"] = true,
+["GlobalProfile"] = "Default",
+},
 ["profileKeys"] = {
-["Tradushuffle - Laughing Skull"] = "Default",
+["Ghostshuffle - Laughing Skull"] = "Default",
+["Voidshuffle - Laughing Skull"] = "Default",
+["Soulshuffle - Laughing Skull"] = "Default",
 },
 ["profiles"] = {
 ["Default"] = {
+["SecondaryPowerBar"] = {
+["Enabled"] = false,
+},
+["General"] = {
+["Fonts"] = {
+["Font"] = "Expressway",
+},
+["Textures"] = {
+["Foreground"] = "Minimalist",
+["Background"] = "Minimalist",
+},
+},
+["CooldownManager"] = {
+["AdditionalCustom"] = {
+["Spells"] = {
+["PRIEST"] = {
+["SHADOW"] = {
+[256948] = {
+["isActive"] = true,
+["layoutIndex"] = 1,
+},
+},
+},
+},
+["IconSize"] = 36,
+["Layout"] = {
+nil,
+nil,
+nil,
+-251,
+-108,
+},
+},
+["General"] = {
+["CooldownText"] = {
+["FontSize"] = 20,
+["ScaleByIconSize"] = true,
+},
+},
+["Trinket"] = {
+["Layout"] = {
+nil,
+nil,
+nil,
+-177,
+-108,
+},
+["IconSize"] = 36,
+},
+["ItemSpell"] = {
+["ItemsSpells"] = {
+[244839] = {
+["entryType"] = "item",
+["layoutIndex"] = 1,
+["isActive"] = true,
+},
+[212265] = {
+["entryType"] = "item",
+["layoutIndex"] = 2,
+["isActive"] = true,
+},
+},
+["IconSize"] = 36,
+["Layout"] = {
+nil,
+nil,
+nil,
+-399,
+-108,
+},
+["GrowthDirection"] = "RIGHT",
+},
+["Item"] = {
+["Layout"] = {
+nil,
+nil,
+nil,
+-200,
+500,
+},
+},
+["Buffs"] = {
+["IconSize"] = 50,
+["Layout"] = {
+nil,
+"NONE",
+[5] = -880,
+},
+["CenterBuffs"] = true,
+["Text"] = {
+["FontSize"] = 24,
+},
+},
+["Essential"] = {
+["IconSize"] = 50,
+["Layout"] = {
+nil,
+nil,
+nil,
+-275,
+},
+["Text"] = {
+["FontSize"] = 24,
+},
+},
+["Utility"] = {
+["Layout"] = {
+"BOTTOM",
+"ElvUF_Player",
+"TOP",
+[5] = 0,
+},
+},
+},
 ["global"] = {
 ["UseGlobalProfile"] = false,
 ["GlobalProfileName"] = "Default",
+},
+["CastBar"] = {
+["Enabled"] = false,
+},
+["PowerBar"] = {
+["Enabled"] = false,
 },
 ["profile"] = {
 ["SecondaryPowerBar"] = {
@@ -20,7 +146,6 @@ BCDMDB = {
 0.1333333333333333,
 1,
 },
-["MatchWidthOfAnchor"] = true,
 ["Text"] = {
 ["Enabled"] = false,
 ["FontSize"] = 12,
@@ -37,9 +162,6 @@ BCDMDB = {
 1,
 },
 },
-["FrameStrata"] = "LOW",
-["Width"] = 200,
-["ColourByClass"] = false,
 ["Layout"] = {
 "BOTTOM",
 "BCDM_PowerBar",
@@ -47,22 +169,25 @@ BCDMDB = {
 0,
 1,
 },
+["FrameStrata"] = "LOW",
+["Width"] = 200,
+["ColourByClass"] = false,
 ["HideTicks"] = false,
-["ColourBySpec"] = false,
-["Height"] = 13,
 ["ForegroundColour"] = {
 0.1333333333333333,
 0.1333333333333333,
 0.1333333333333333,
 1,
 },
+["ColourBySpec"] = false,
+["MatchWidthOfAnchor"] = true,
+["Height"] = 13,
 ["ColourByType"] = true,
 ["ColourByState"] = true,
 },
 ["General"] = {
 ["Fonts"] = {
 ["Font"] = "Friz Quadrata TT",
-["FontFlag"] = "OUTLINE",
 ["Shadow"] = {
 ["Enabled"] = false,
 ["OffsetY"] = -1,
@@ -74,6 +199,7 @@ BCDMDB = {
 1,
 },
 },
+["FontFlag"] = "OUTLINE",
 },
 ["Colours"] = {
 ["SecondaryPower"] = {
@@ -107,16 +233,16 @@ BCDMDB = {
 0.41,
 1,
 },
-[16] = {
-0.1,
-0.1,
-0.98,
-1,
-},
 ["CHARGED_COMBO_POINTS"] = {
 0.25,
 0.5,
 1,
+1,
+},
+[16] = {
+0.1,
+0.1,
+0.98,
 1,
 },
 [9] = {
@@ -232,20 +358,20 @@ BCDMDB = {
 0.61,
 0,
 },
-[11] = {
-0,
-0.5,
-1,
+[17] = {
+0.79,
+0.26,
+0.99,
 },
 [6] = {
 0,
 0.82,
 1,
 },
-[17] = {
-0.79,
-0.26,
-0.99,
+[11] = {
+0,
+0.5,
+1,
 },
 },
 },
@@ -253,25 +379,129 @@ BCDMDB = {
 ["Foreground"] = "Better Blizzard",
 ["Background"] = "Better Blizzard",
 },
-["Animation"] = {
-["SmoothBars"] = false,
-},
 },
 ["EditModeManager"] = {
 ["SwapOnSpecializationChange"] = false,
-["SwapOnInstanceDifficulty"] = false,
-["SpecializationLayouts"] = {
-"",
-"",
-"",
-"",
-},
 ["RaidLayouts"] = {
 ["Normal"] = "",
 ["Heroic"] = "",
 ["Mythic"] = "",
 ["LFR"] = "",
 },
+["SpecializationLayouts"] = {
+"",
+"",
+"",
+"",
+},
+["SwapOnInstanceDifficulty"] = false,
+},
+["CastBar"] = {
+["Enabled"] = true,
+["BackgroundColour"] = {
+0.1333333333333333,
+0.1333333333333333,
+0.1333333333333333,
+1,
+},
+["ForegroundColour"] = {
+0.1333333333333333,
+0.1333333333333333,
+0.1333333333333333,
+1,
+},
+["FrameStrata"] = "LOW",
+["Width"] = 200,
+["ColourByClass"] = true,
+["Layout"] = {
+"TOP",
+"UtilityCooldownViewer",
+"BOTTOM",
+0,
+-1,
+},
+["MatchWidthOfAnchor"] = true,
+["Text"] = {
+["CastTime"] = {
+["FontSize"] = 12,
+["Layout"] = {
+"RIGHT",
+"RIGHT",
+-3,
+0,
+},
+["Colour"] = {
+1,
+1,
+1,
+},
+},
+["SpellName"] = {
+["Layout"] = {
+"LEFT",
+"LEFT",
+3,
+0,
+},
+["FontSize"] = 12,
+["MaxCharacters"] = 12,
+["Colour"] = {
+1,
+1,
+1,
+},
+},
+},
+["Icon"] = {
+["Enabled"] = true,
+["Layout"] = "LEFT",
+},
+["Height"] = 24,
+},
+["PowerBar"] = {
+["Enabled"] = true,
+["FrequentUpdates"] = true,
+["BackgroundColour"] = {
+0.1333333333333333,
+0.1333333333333333,
+0.1333333333333333,
+1,
+},
+["ForegroundColour"] = {
+0.1333333333333333,
+0.1333333333333333,
+0.1333333333333333,
+1,
+},
+["FrameStrata"] = "LOW",
+["Width"] = 200,
+["ColourByClass"] = false,
+["Text"] = {
+["Enabled"] = true,
+["FontSize"] = 18,
+["Layout"] = {
+"BOTTOM",
+"BOTTOM",
+0,
+1,
+},
+["Colour"] = {
+1,
+1,
+1,
+},
+},
+["Layout"] = {
+"BOTTOM",
+"EssentialCooldownViewer",
+"TOP",
+0,
+1,
+},
+["Height"] = 13,
+["MatchWidthOfAnchor"] = true,
+["ColourByType"] = true,
+["HeightWithoutSecondary"] = 20,
 },
 ["CooldownManager"] = {
 ["AdditionalCustom"] = {
@@ -318,9 +548,9 @@ BCDMDB = {
 ["PALADIN"] = {
 ["RETRIBUTION"] = {
 },
-["HOLY"] = {
-},
 ["PROTECTION"] = {
+},
+["HOLY"] = {
 },
 },
 ["MAGE"] = {
@@ -334,25 +564,25 @@ BCDMDB = {
 ["PRIEST"] = {
 ["HOLY"] = {
 },
-["SHADOW"] = {
-},
 ["DISCIPLINE"] = {
 },
-},
-["SHAMAN"] = {
-["RESTORATION"] = {
-},
-["ELEMENTAL"] = {
-},
-["ENHANCEMENT"] = {
+["SHADOW"] = {
 },
 },
-["MONK"] = {
-["MISTWEAVER"] = {
+["ROGUE"] = {
+["OUTLAW"] = {
 },
-["BREWMASTER"] = {
+["SUBTLETY"] = {
 },
-["WINDWALKER"] = {
+["ASSASSINATION"] = {
+},
+},
+["EVOKER"] = {
+["DEVASTATION"] = {
+},
+["PRESERVATION"] = {
+},
+["AUGMENTATION"] = {
 },
 },
 ["WARLOCK"] = {
@@ -389,20 +619,20 @@ BCDMDB = {
 ["GUARDIAN"] = {
 },
 },
-["EVOKER"] = {
-["DEVASTATION"] = {
+["MONK"] = {
+["MISTWEAVER"] = {
 },
-["PRESERVATION"] = {
+["BREWMASTER"] = {
 },
-["AUGMENTATION"] = {
+["WINDWALKER"] = {
 },
 },
-["ROGUE"] = {
-["OUTLAW"] = {
+["SHAMAN"] = {
+["RESTORATION"] = {
 },
-["ASSASSINATION"] = {
+["ELEMENTAL"] = {
 },
-["SUBTLETY"] = {
+["ENHANCEMENT"] = {
 },
 },
 },
@@ -417,22 +647,18 @@ BCDMDB = {
 ["Scale"] = 1,
 ["YOffset"] = -1,
 ["Thickness"] = 1,
-["Colour"] = {
-1,
-1,
-1,
-1,
-},
+["Frequency"] = 0.25,
 ["XOffset"] = -1,
 ["Particles"] = 10,
-["Frequency"] = 0.25,
-},
-["CooldownText"] = {
 ["Colour"] = {
 1,
 1,
 1,
+1,
 },
+},
+["CooldownText"] = {
+["ScaleByIconSize"] = false,
 ["FontSize"] = 15,
 ["Layout"] = {
 "CENTER",
@@ -440,7 +666,11 @@ BCDMDB = {
 0,
 0,
 },
-["ScaleByIconSize"] = false,
+["Colour"] = {
+1,
+1,
+1,
+},
 },
 ["IconZoom"] = 0.1,
 ["BorderSize"] = 1,
@@ -461,37 +691,7 @@ BCDMDB = {
 },
 ["Width"] = 300,
 ["ColourByClass"] = true,
-["GrowthDirection"] = "UP",
-["Height"] = 24,
-["Spacing"] = 1,
-["MatchWidthOfAnchor"] = true,
-["Layout"] = {
-"BOTTOM",
-"NONE",
-"TOP",
-0,
-1.1,
-},
-["Icon"] = {
-["Enabled"] = true,
-["Layout"] = "LEFT",
-},
 ["Text"] = {
-["SpellName"] = {
-["Enabled"] = true,
-["FontSize"] = 12,
-["Layout"] = {
-"LEFT",
-"LEFT",
-3,
-0,
-},
-["Colour"] = {
-1,
-1,
-1,
-},
-},
 ["Duration"] = {
 ["Enabled"] = true,
 ["FontSize"] = 12,
@@ -507,21 +707,41 @@ BCDMDB = {
 1,
 },
 },
+["SpellName"] = {
+["Enabled"] = true,
+["FontSize"] = 12,
+["Layout"] = {
+"LEFT",
+"LEFT",
+3,
+0,
 },
+["Colour"] = {
+1,
+1,
+1,
+},
+},
+},
+["MatchWidthOfAnchor"] = true,
+["Spacing"] = 1,
+["Height"] = 24,
+["Layout"] = {
+"BOTTOM",
+"NONE",
+"TOP",
+0,
+1.1,
+},
+["Icon"] = {
+["Enabled"] = true,
+["Layout"] = "LEFT",
+},
+["GrowthDirection"] = "UP",
 },
 ["ItemSpell"] = {
 ["ItemsSpells"] = {
 },
-["Layout"] = {
-"CENTER",
-"NONE",
-"CENTER",
-0,
-0,
-},
-["OffsetByParentHeight"] = true,
-["Spacing"] = 1,
-["IconSize"] = 38,
 ["Text"] = {
 ["FontSize"] = 12,
 ["Layout"] = {
@@ -535,6 +755,16 @@ BCDMDB = {
 1,
 1,
 },
+},
+["OffsetByParentHeight"] = true,
+["Spacing"] = 1,
+["IconSize"] = 38,
+["Layout"] = {
+"CENTER",
+"NONE",
+"CENTER",
+0,
+0,
 },
 ["FrameStrata"] = "LOW",
 ["GrowthDirection"] = "LEFT",
@@ -583,9 +813,9 @@ BCDMDB = {
 ["PALADIN"] = {
 ["RETRIBUTION"] = {
 },
-["HOLY"] = {
-},
 ["PROTECTION"] = {
+},
+["HOLY"] = {
 },
 },
 ["MAGE"] = {
@@ -599,25 +829,25 @@ BCDMDB = {
 ["PRIEST"] = {
 ["HOLY"] = {
 },
-["SHADOW"] = {
-},
 ["DISCIPLINE"] = {
 },
-},
-["SHAMAN"] = {
-["RESTORATION"] = {
-},
-["ELEMENTAL"] = {
-},
-["ENHANCEMENT"] = {
+["SHADOW"] = {
 },
 },
-["MONK"] = {
-["MISTWEAVER"] = {
+["ROGUE"] = {
+["OUTLAW"] = {
 },
-["BREWMASTER"] = {
+["SUBTLETY"] = {
 },
-["WINDWALKER"] = {
+["ASSASSINATION"] = {
+},
+},
+["EVOKER"] = {
+["DEVASTATION"] = {
+},
+["PRESERVATION"] = {
+},
+["AUGMENTATION"] = {
 },
 },
 ["WARLOCK"] = {
@@ -654,20 +884,20 @@ BCDMDB = {
 ["GUARDIAN"] = {
 },
 },
-["EVOKER"] = {
-["DEVASTATION"] = {
+["MONK"] = {
+["MISTWEAVER"] = {
 },
-["PRESERVATION"] = {
+["BREWMASTER"] = {
 },
-["AUGMENTATION"] = {
+["WINDWALKER"] = {
 },
 },
-["ROGUE"] = {
-["OUTLAW"] = {
+["SHAMAN"] = {
+["RESTORATION"] = {
 },
-["ASSASSINATION"] = {
+["ELEMENTAL"] = {
 },
-["SUBTLETY"] = {
+["ENHANCEMENT"] = {
 },
 },
 },
@@ -705,21 +935,16 @@ BCDMDB = {
 },
 },
 },
-["Essential"] = {
-["IconSize"] = 42,
-["Layout"] = {
-"CENTER",
-"CENTER",
-0,
--275.1,
+["Item"] = {
+["Items"] = {
 },
 ["Text"] = {
-["FontSize"] = 15,
+["FontSize"] = 12,
 ["Layout"] = {
 "BOTTOMRIGHT",
 "BOTTOMRIGHT",
 0,
-3,
+2,
 },
 ["Colour"] = {
 1,
@@ -727,6 +952,18 @@ BCDMDB = {
 1,
 },
 },
+["OffsetByParentHeight"] = true,
+["Spacing"] = 1,
+["IconSize"] = 38,
+["Layout"] = {
+"CENTER",
+"NONE",
+"CENTER",
+0,
+0,
+},
+["FrameStrata"] = "LOW",
+["GrowthDirection"] = "LEFT",
 },
 ["Buffs"] = {
 ["IconSize"] = 32,
@@ -753,26 +990,21 @@ BCDMDB = {
 },
 },
 },
-["Item"] = {
-["Items"] = {
-},
+["Essential"] = {
+["IconSize"] = 42,
 ["Layout"] = {
 "CENTER",
-"NONE",
 "CENTER",
 0,
-0,
+-275.1,
 },
-["OffsetByParentHeight"] = true,
-["Spacing"] = 1,
-["IconSize"] = 38,
 ["Text"] = {
-["FontSize"] = 12,
+["FontSize"] = 15,
 ["Layout"] = {
 "BOTTOMRIGHT",
 "BOTTOMRIGHT",
 0,
-2,
+3,
 },
 ["Colour"] = {
 1,
@@ -780,8 +1012,6 @@ BCDMDB = {
 1,
 },
 },
-["FrameStrata"] = "LOW",
-["GrowthDirection"] = "LEFT",
 },
 ["Utility"] = {
 ["IconSize"] = 36,
@@ -806,113 +1036,6 @@ BCDMDB = {
 1,
 },
 },
-},
-},
-["PowerBar"] = {
-["Enabled"] = true,
-["FrequentUpdates"] = true,
-["BackgroundColour"] = {
-0.1333333333333333,
-0.1333333333333333,
-0.1333333333333333,
-1,
-},
-["ForegroundColour"] = {
-0.1333333333333333,
-0.1333333333333333,
-0.1333333333333333,
-1,
-},
-["FrameStrata"] = "LOW",
-["Width"] = 200,
-["ColourByClass"] = false,
-["HeightWithoutSecondary"] = 20,
-["Layout"] = {
-"BOTTOM",
-"EssentialCooldownViewer",
-"TOP",
-0,
-1,
-},
-["Height"] = 13,
-["MatchWidthOfAnchor"] = true,
-["ColourByType"] = true,
-["Text"] = {
-["Enabled"] = true,
-["FontSize"] = 18,
-["Layout"] = {
-"BOTTOM",
-"BOTTOM",
-0,
-1,
-},
-["Colour"] = {
-1,
-1,
-1,
-},
-},
-},
-["CastBar"] = {
-["Enabled"] = true,
-["BackgroundColour"] = {
-0.1333333333333333,
-0.1333333333333333,
-0.1333333333333333,
-1,
-},
-["ForegroundColour"] = {
-0.1333333333333333,
-0.1333333333333333,
-0.1333333333333333,
-1,
-},
-["FrameStrata"] = "LOW",
-["Width"] = 200,
-["ColourByClass"] = true,
-["MatchWidthOfAnchor"] = true,
-["Height"] = 24,
-["Text"] = {
-["CastTime"] = {
-["FontSize"] = 12,
-["Layout"] = {
-"RIGHT",
-"RIGHT",
--3,
-0,
-},
-["Colour"] = {
-1,
-1,
-1,
-},
-},
-["SpellName"] = {
-["FontSize"] = 12,
-["Layout"] = {
-"LEFT",
-"LEFT",
-3,
-0,
-},
-["MaxCharacters"] = 12,
-["Colour"] = {
-1,
-1,
-1,
-},
-},
-},
-["Icon"] = {
-["Enabled"] = true,
-["Layout"] = "LEFT",
-},
-["Layout"] = {
-"TOP",
-"UtilityCooldownViewer",
-"BOTTOM",
-0,
--1,
 },
 },
 },

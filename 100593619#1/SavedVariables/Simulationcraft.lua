@@ -9,11 +9,11 @@ SimulationCraftDB = {
 ["Banishuffle - Stormrage"] = "Banishuffle - Stormrage",
 ["Cosmoshuffle - Stormrage"] = "Cosmoshuffle - Stormrage",
 ["Fogshuffle - Stormrage"] = "Fogshuffle - Stormrage",
-["Readyshuffle - Stormrage"] = "Readyshuffle - Stormrage",
+["Osirishuffle - Stormrage"] = "Osirishuffle - Stormrage",
 ["Aurashuffle - Stormrage"] = "Aurashuffle - Stormrage",
 ["Madneshuffle - Stormrage"] = "Madneshuffle - Stormrage",
 ["Gripshuffle - Stormrage"] = "Gripshuffle - Stormrage",
-["Osirishuffle - Stormrage"] = "Osirishuffle - Stormrage",
+["Readyshuffle - Stormrage"] = "Readyshuffle - Stormrage",
 },
 ["profiles"] = {
 ["Plantshuffle - Stormrage"] = {
@@ -32,7 +32,7 @@ SimulationCraftDB = {
 },
 ["Fogshuffle - Stormrage"] = {
 },
-["Readyshuffle - Stormrage"] = {
+["Osirishuffle - Stormrage"] = {
 },
 ["Aurashuffle - Stormrage"] = {
 },
@@ -40,7 +40,7 @@ SimulationCraftDB = {
 },
 ["Gripshuffle - Stormrage"] = {
 },
-["Osirishuffle - Stormrage"] = {
+["Readyshuffle - Stormrage"] = {
 },
 },
 }

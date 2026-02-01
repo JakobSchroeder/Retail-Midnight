@@ -1,5 +1,6 @@
 
 RaiderIO_Config = {
+["previouslyEnabledLogging"] = false,
 ["profilePoint"] = {
 ["y"] = 0,
 ["x"] = -16,
@@ -8,31 +9,26 @@ RaiderIO_Config = {
 ["minimapIcon"] = {
 ["minimapPos"] = 180,
 ["showInCompartment"] = true,
-["lock"] = false,
 ["hide"] = false,
+["lock"] = false,
 },
 }
-RaiderIO_LastCharacter = "eu-Avoidshuffle-laughing-skull"
+RaiderIO_LastCharacter = "eu-Hornyshuffle-draenor"
 RaiderIO_MissingCharacters = {
-["eu-Zodus-chromaggus"] = true,
-["eu-Vaino-talnivarr"] = true,
-["eu-Hidoshi-sunstrider"] = true,
-["eu-Ghostshuffle-laughing-skull"] = true,
-["eu-Gamure-trollbane"] = true,
-["eu-Vivienne-shattered-halls"] = true,
-["eu-Joehangover-sunstrider"] = true,
-["eu-Kassack-ahnqiraj"] = true,
-["eu-Avoidshuffle-laughing-skull"] = true,
-["eu-Naamapoika-sunstrider"] = true,
-["eu-Opshammy-trollbane"] = true,
-["eu-Msissi-ahnqiraj"] = true,
-["eu-Djungelkajsa-trollbane"] = true,
-["eu-Verelis-sunstrider"] = true,
-["eu-Thosha-laughing-skull"] = true,
-["eu-Bearcat-talnivarr"] = true,
-["eu-Sakuma-sunstrider"] = true,
-["eu-Lillefia-sunstrider"] = true,
-["eu-Gilgameshx-argent-dawn"] = true,
+["eu-Kuturt-draenor"] = true,
+["eu-Rauhrmuhn-draenor"] = true,
+["eu-Sältig-draenor"] = true,
+["eu-Craigy-draenor"] = true,
+["eu-Dawnniqht-draenor"] = true,
+["eu-Nìkita-draenor"] = true,
+["eu-Graticule-draenor"] = true,
+["eu-Spooler-draenor"] = true,
+["eu-Aztre-draenor"] = true,
+["eu-Mercurael-draenor"] = true,
+["eu-Tremco-draenor"] = true,
+["eu-Sekondis-draenor"] = true,
+["eu-Calidor-draenor"] = true,
+["eu-Medolino-draenor"] = true,
 }
 RaiderIO_MissingServers = {
 }

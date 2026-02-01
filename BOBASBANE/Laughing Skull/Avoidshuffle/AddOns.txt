@@ -106,3 +106,4 @@ WorldQuestTracker: enabled
 WorldQuestsList: enabled
 +Wowhead_Looter: enabled
 WoWthing_Collector: enabled
+Blizzard_CombatText: enabled

@@ -1,7 +1,7 @@
 
 CooldownSwipeControlDB = {
 ["showBuffIconSwipe"] = true,
-["showBuffSwipe"] = false,
+["showBuffSwipe"] = true,
 ["showGCDSwipe"] = false,
 ["showRechargeEdge"] = false,
 ["showCooldownSwipe"] = true,

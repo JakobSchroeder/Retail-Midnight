@@ -23,82 +23,13 @@ TrufiGCDGlSave = {
 },
 ["name"] = "Voidshuffle - Laughing Skull",
 ["units"] = {
-["party3"] = {
-["y"] = 0,
-["x"] = 0,
-["point"] = "CENTER",
-},
-["party2"] = {
-["y"] = 0,
-["x"] = 0,
-["point"] = "CENTER",
-},
-["party1"] = {
-["y"] = 0,
-["x"] = 0,
-["point"] = "CENTER",
-},
 ["player"] = {
 ["y"] = 192.99951171875,
 ["x"] = -1.000707626342773,
 ["point"] = "BOTTOMRIGHT",
 },
-["arena2"] = {
-["y"] = 0,
-["x"] = 0,
-["point"] = "CENTER",
-},
-["focus"] = {
-["y"] = 0,
-["x"] = 0,
-["point"] = "CENTER",
-},
-["target"] = {
-["y"] = 0,
-["x"] = 0,
-["point"] = "CENTER",
-},
-["party4"] = {
-["y"] = 0,
-["x"] = 0,
-["point"] = "CENTER",
-},
-["arena3"] = {
-["y"] = 0,
-["x"] = 0,
-["point"] = "CENTER",
-},
-["arena1"] = {
-["y"] = 0,
-["x"] = 0,
-["point"] = "CENTER",
-},
 },
 ["layouts"] = {
-["party"] = {
-["enable"] = false,
-["direction"] = "Left",
-["iconsNumber"] = 3,
-["iconSize"] = 30,
-},
-["focus"] = {
-["enable"] = false,
-["direction"] = "Left",
-["iconsNumber"] = 3,
-["iconSize"] = 30,
-},
-["target"] = {
-["enable"] = false,
-["direction"] = "Left",
-["iconsNumber"] = 3,
-["iconSize"] = 30,
-},
-["arena"] = {
-["enable"] = false,
-["direction"] = "Left",
-["iconsNumber"] = 3,
-["iconSize"] = 30,
-},
 ["player"] = {
 ["enable"] = true,
 ["direction"] = "Left",
@@ -130,82 +61,13 @@ TrufiGCDGlSave = {
 },
 ["name"] = "Default",
 ["units"] = {
-["party3"] = {
-["y"] = 0,
-["x"] = 0,
-["point"] = "CENTER",
-},
-["party2"] = {
-["y"] = 0,
-["x"] = 0,
-["point"] = "CENTER",
-},
-["party1"] = {
-["y"] = 0,
-["x"] = 0,
-["point"] = "CENTER",
-},
 ["player"] = {
 ["y"] = 192.99951171875,
 ["x"] = -1.000707626342773,
 ["point"] = "BOTTOMRIGHT",
 },
-["arena2"] = {
-["y"] = 0,
-["x"] = 0,
-["point"] = "CENTER",
-},
-["focus"] = {
-["y"] = 0,
-["x"] = 0,
-["point"] = "CENTER",
-},
-["target"] = {
-["y"] = 0,
-["x"] = 0,
-["point"] = "CENTER",
-},
-["party4"] = {
-["y"] = 0,
-["x"] = 0,
-["point"] = "CENTER",
-},
-["arena3"] = {
-["y"] = 0,
-["x"] = 0,
-["point"] = "CENTER",
-},
-["arena1"] = {
-["y"] = 0,
-["x"] = 0,
-["point"] = "CENTER",
-},
 },
 ["layouts"] = {
-["party"] = {
-["enable"] = false,
-["direction"] = "Left",
-["iconsNumber"] = 3,
-["iconSize"] = 30,
-},
-["focus"] = {
-["enable"] = false,
-["direction"] = "Left",
-["iconsNumber"] = 3,
-["iconSize"] = 30,
-},
-["target"] = {
-["enable"] = false,
-["direction"] = "Left",
-["iconsNumber"] = 3,
-["iconSize"] = 30,
-},
-["arena"] = {
-["enable"] = false,
-["direction"] = "Left",
-["iconsNumber"] = 3,
-["iconSize"] = 30,
-},
 ["player"] = {
 ["enable"] = true,
 ["direction"] = "Left",

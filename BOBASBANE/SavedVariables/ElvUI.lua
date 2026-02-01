@@ -1,7 +1,9 @@
 
 ElvDB = {
 ["profileKeys"] = {
+["Hemoshuffle - Kazzak"] = "Default",
 ["Avoidshuffle - Laughing Skull"] = "Default",
+["Cryoshuffle - Draenor"] = "Default",
 ["Necroshuffle - Kazzak"] = "Default",
 ["Soulshuffle - Laughing Skull"] = "Default",
 ["Smashuffle - Laughing Skull"] = "Default",
@@ -11,53 +13,63 @@ ElvDB = {
 ["Bankshuffle - Laughing Skull"] = "Default",
 ["Roboshuffle - Ravencrest"] = "Default",
 ["Trickshuffle - Kazzak"] = "Default",
+["Angleshuffle - Kazzak"] = "Default",
 ["Moleshuffle - Kazzak"] = "Default",
 ["Hornyshuffle - Draenor"] = "Default",
 ["Preshuffle - Kazzak"] = "Default",
 ["Postshuffle - Laughing Skull"] = "Default",
 ["Ghostshuffle - Laughing Skull"] = "Default",
 ["Bankrshuffle - Laughing Skull"] = "Default",
+["Cantshuffle - Ravencrest"] = "Default",
 ["Angelshuffle - Kazzak"] = "Default",
 ["Ratshuffle - Kazzak"] = "Default",
 ["Wingshuffle - Kazzak"] = "Default",
+["Intshuffle - Kazzak"] = "Default",
 ["Tectoshuffle - Kazzak"] = "Default",
 ["Stalkshuffle - Laughing Skull"] = "Default",
-["Kickshuffle - Kazzak"] = "Default",
-["Yumpshuffle - Kazzak"] = "Default",
-["Bankshuffle - Draenor"] = "Default",
-["Faceshuffle - Draenor"] = "Default",
-["Moonshuffle - Draenor"] = "Default",
-["Subshuffle - Ravencrest"] = "Default",
-["Quakeshuffle - Draenor"] = "Default",
 ["Kafirshuffle - Draenor"] = "Default",
-["Soapshuffle - Kazzak"] = "Default",
+["Unshuffle - Ravencrest"] = "Default",
+["Yumpshuffle - Kazzak"] = "Default",
+["Kickshuffle - Kazzak"] = "Default",
+["Faithshuffle - Draenor"] = "Default",
+["Bankshuffle - Draenor"] = "Default",
+["Moonshuffle - Draenor"] = "Default",
+["Faceshuffle - Draenor"] = "Default",
+["Quakeshuffle - Draenor"] = "Default",
+["Cloakshuffle - Draenor"] = "Default",
 ["Monkashuffle - Kazzak"] = "Default",
-["Spearshuffle - Kazzak"] = "Default",
+["Chaosshuffle - Draenor"] = "Default",
+["Soapshuffle - Kazzak"] = "Default",
 ["Tradushuffle - Laughing Skull"] = "Default",
+["Feintshuffle - Kazzak"] = "Default",
+["Spearshuffle - Kazzak"] = "Default",
 ["Pairshuffle - Kazzak"] = "Default",
 ["Bobshuffle - Laughing Skull"] = "Default",
 ["Forceshuffle - Draenor"] = "Default",
 ["Bankpshuffle - Laughing Skull"] = "Default",
 ["Gunshuffle - Kazzak"] = "Default",
-["Feintshuffle - Kazzak"] = "Default",
-["Chaosshuffle - Draenor"] = "Default",
+["Subshuffle - Ravencrest"] = "Default",
+["Mórtarion - Twisting Nether"] = "Default",
 ["Floorshuffle - Ravencrest"] = "Default",
-["Cloakshuffle - Draenor"] = "Default",
+["Dotshuffle - Kazzak"] = "Default",
 },
 ["DisabledAddOns"] = {
 },
 ["serverID"] = {
-[1305] = {
-["Kazzak"] = true,
+[3674] = {
+["Twisting Nether"] = true,
 },
 [1598] = {
 ["Laughing Skull"] = true,
 },
+[1329] = {
+["Ravencrest"] = true,
+},
 [1403] = {
 ["Draenor"] = true,
 },
-[1329] = {
-["Ravencrest"] = true,
+[1305] = {
+["Kazzak"] = true,
 },
 },
 ["class"] = {
@@ -75,6 +87,15 @@ ElvDB = {
 ["Bankpshuffle"] = "WARRIOR",
 ["Postshuffle"] = "MAGE",
 },
+["Ravencrest"] = {
+["Spellshuffel"] = "MAGE",
+["Blindshuffle"] = "DEMONHUNTER",
+["Subshuffle"] = "PRIEST",
+["Roboshuffle"] = "PRIEST",
+["Cantshuffle"] = "PRIEST",
+["Unshuffle"] = "DEATHKNIGHT",
+["Floorshuffle"] = "DEATHKNIGHT",
+},
 ["Draenor"] = {
 ["Quakeshuffle"] = "SHAMAN",
 ["Cloakshuffle"] = "ROGUE",
@@ -82,34 +103,36 @@ ElvDB = {
 ["Chaosshuffle"] = "WARLOCK",
 ["Forceshuffle"] = "MAGE",
 ["Bankshuffle"] = "PALADIN",
+["Faithshuffle"] = "PRIEST",
 ["Moonshuffle"] = "DRUID",
+["Cryoshuffle"] = "DEATHKNIGHT",
 ["Hornyshuffle"] = "DEMONHUNTER",
 ["Faceshuffle"] = "HUNTER",
 },
 ["Kazzak"] = {
 ["Monkashuffle"] = "SHAMAN",
 ["Yumpshuffle"] = "DEMONHUNTER",
-["Preshuffle"] = "MAGE",
-["Tectoshuffle"] = "SHAMAN",
-["Moleshuffle"] = "PRIEST",
-["Spearshuffle"] = "HUNTER",
-["Ratshuffle"] = "WARLOCK",
-["Trickshuffle"] = "ROGUE",
-["Kickshuffle"] = "MONK",
 ["Feintshuffle"] = "ROGUE",
+["Trickshuffle"] = "ROGUE",
+["Hemoshuffle"] = "DEATHKNIGHT",
+["Necroshuffle"] = "DEATHKNIGHT",
+["Wingshuffle"] = "PALADIN",
+["Tectoshuffle"] = "SHAMAN",
+["Angleshuffle"] = "PRIEST",
+["Intshuffle"] = "MAGE",
+["Ratshuffle"] = "WARLOCK",
+["Soapshuffle"] = "PALADIN",
+["Preshuffle"] = "MAGE",
+["Angelshuffle"] = "PRIEST",
 ["Gunshuffle"] = "HUNTER",
 ["Pairshuffle"] = "PRIEST",
-["Angelshuffle"] = "PRIEST",
-["Necroshuffle"] = "DEATHKNIGHT",
-["Soapshuffle"] = "PALADIN",
-["Wingshuffle"] = "PALADIN",
+["Spearshuffle"] = "HUNTER",
+["Moleshuffle"] = "PRIEST",
+["Kickshuffle"] = "MONK",
+["Dotshuffle"] = "PRIEST",
 },
-["Ravencrest"] = {
-["Spellshuffel"] = "MAGE",
-["Blindshuffle"] = "DEMONHUNTER",
-["Subshuffle"] = "PRIEST",
-["Roboshuffle"] = "PRIEST",
-["Floorshuffle"] = "DEATHKNIGHT",
+["Twisting Nether"] = {
+["Mórtarion"] = "DEATHKNIGHT",
 },
 },
 ["profiles"] = {
@@ -947,16 +970,16 @@ ElvDB = {
 ["visibility"] = "[combat] hide; show",
 ["countFontSize"] = 9,
 ["point"] = "BOTTOMLEFT",
-["macroFontSize"] = 9,
+["professionQuality"] = {
+["enable"] = false,
+},
 ["macroFontOutline"] = "OUTLINE",
 ["targetReticle"] = false,
 ["countFont"] = "Expressway",
 ["buttonSize"] = 28,
 ["countFontOutline"] = "OUTLINE",
+["macroFontSize"] = 9,
 ["buttonSpacing"] = 1,
-["professionQuality"] = {
-["enable"] = false,
-},
 ["hotkeyFontOutline"] = "OUTLINE",
 ["macrotext"] = true,
 ["macroTextYOffset"] = 1,
@@ -1471,9 +1494,7 @@ nil,
 },
 },
 ["focus"] = {
-["name"] = {
-["text_format"] = "",
-},
+["smartAuraPosition"] = "FLUID_BUFFS_ON_DEBUFFS",
 ["debuffs"] = {
 ["perrow"] = 12,
 ["countFontSize"] = 8,
@@ -1549,7 +1570,10 @@ nil,
 },
 ["disableMouseoverGlow"] = true,
 ["width"] = 200,
-["smartAuraPosition"] = "FLUID_BUFFS_ON_DEBUFFS",
+["fader"] = {
+["minAlpha"] = 0.5,
+["smooth"] = 0,
+},
 ["orientation"] = "LEFT",
 ["height"] = 40,
 ["buffs"] = {
@@ -1568,9 +1592,8 @@ nil,
 ["perrow"] = 12,
 ["attachTo"] = "DEBUFFS",
 },
-["fader"] = {
-["minAlpha"] = 0.5,
-["smooth"] = 0,
+["name"] = {
+["text_format"] = "",
 },
 ["raidicon"] = {
 ["attachTo"] = "RIGHT",
@@ -1822,9 +1845,9 @@ nil,
 },
 ["disableTargetGlow"] = true,
 ["disableFocusGlow"] = true,
-["health"] = {
-["attachTextTo"] = "Frame",
-["text_format"] = "",
+["fader"] = {
+["minAlpha"] = 0.5,
+["smooth"] = 0,
 },
 ["castbar"] = {
 ["xOffsetTime"] = -2,
@@ -1910,9 +1933,9 @@ nil,
 ["absorbStyle"] = "WRAPPED",
 },
 ["width"] = 210,
-["fader"] = {
-["minAlpha"] = 0.5,
-["smooth"] = 0,
+["name"] = {
+["attachTextTo"] = "Frame",
+["text_format"] = "",
 },
 ["orientation"] = "LEFT",
 ["height"] = 41,
@@ -1929,7 +1952,7 @@ nil,
 ["countYOffset"] = 0,
 ["perrow"] = 5,
 },
-["name"] = {
+["health"] = {
 ["attachTextTo"] = "Frame",
 ["text_format"] = "",
 },
@@ -2317,16 +2340,16 @@ nil,
 },
 ["disableMouseoverGlow"] = true,
 ["width"] = 80,
-["health"] = {
-["colorHappiness"] = false,
-},
 ["fader"] = {
 ["minAlpha"] = 0.5,
 ["smooth"] = 0,
 },
-["height"] = 46,
 ["name"] = {
 ["text_format"] = "",
+},
+["height"] = 46,
+["health"] = {
+["colorHappiness"] = false,
 },
 ["raidicon"] = {
 ["enable"] = false,
@@ -2682,6 +2705,26 @@ nil,
 },
 ["classbackdrop"] = true,
 ["useDeadBackdrop"] = true,
+["healPrediction"] = {
+["absorbs"] = {
+["a"] = 0.6,
+},
+["healAbsorbs"] = {
+["a"] = 0.6,
+},
+["personal"] = {
+["a"] = 0.6,
+},
+["overabsorbs"] = {
+["a"] = 0.6,
+},
+["overhealabsorbs"] = {
+["a"] = 0.6,
+},
+["others"] = {
+["a"] = 0.6,
+},
+},
 ["debuffHighlight"] = {
 ["Disease"] = {
 ["a"] = 1,
@@ -2704,26 +2747,6 @@ nil,
 ["r"] = 0.05,
 ["g"] = 0.05,
 ["b"] = 0.05,
-},
-["healPrediction"] = {
-["absorbs"] = {
-["a"] = 0.6,
-},
-["healAbsorbs"] = {
-["a"] = 0.6,
-},
-["personal"] = {
-["a"] = 0.6,
-},
-["overabsorbs"] = {
-["a"] = 0.6,
-},
-["overhealabsorbs"] = {
-["a"] = 0.6,
-},
-["others"] = {
-["a"] = 0.6,
-},
 },
 },
 ["fontOutline"] = "OUTLINE",
@@ -3125,39 +3148,6 @@ nil,
 ["b"] = 0.14,
 },
 ["custompowerbackdrop"] = true,
-["transparentHealth"] = true,
-["healPrediction"] = {
-["absorbs"] = {
-["a"] = 0.6,
-},
-["healAbsorbs"] = {
-["a"] = 0.6,
-},
-["personal"] = {
-["a"] = 0.6,
-},
-["overabsorbs"] = {
-["a"] = 0.6,
-},
-["overhealabsorbs"] = {
-["a"] = 0.6,
-},
-["others"] = {
-["a"] = 0.6,
-},
-},
-["power"] = {
-["MANA"] = {
-["r"] = 0,
-["g"] = 1,
-["b"] = 0.97,
-},
-},
-["castColor"] = {
-["r"] = 0.02,
-["g"] = 1,
-["b"] = 0,
-},
 ["debuffHighlight"] = {
 ["Disease"] = {
 ["a"] = 1,
@@ -3176,6 +3166,24 @@ nil,
 ["a"] = 1,
 },
 },
+["castbar_backdrop"] = {
+["r"] = 0.05,
+["g"] = 0.05,
+["b"] = 0.05,
+},
+["power"] = {
+["MANA"] = {
+["r"] = 0,
+["g"] = 1,
+["b"] = 0.97,
+},
+},
+["castColor"] = {
+["r"] = 0.02,
+["g"] = 1,
+["b"] = 0,
+},
+["transparentHealth"] = true,
 ["frameGlow"] = {
 ["mouseoverGlow"] = {
 ["texture"] = "Minimalist",
@@ -3202,10 +3210,25 @@ nil,
 ["g"] = 0.05,
 ["b"] = 0.05,
 },
-["castbar_backdrop"] = {
-["r"] = 0.05,
-["g"] = 0.05,
-["b"] = 0.05,
+["healPrediction"] = {
+["absorbs"] = {
+["a"] = 0.6,
+},
+["healAbsorbs"] = {
+["a"] = 0.6,
+},
+["personal"] = {
+["a"] = 0.6,
+},
+["overabsorbs"] = {
+["a"] = 0.6,
+},
+["overhealabsorbs"] = {
+["a"] = 0.6,
+},
+["others"] = {
+["a"] = 0.6,
+},
 },
 ["health_backdrop"] = {
 ["r"] = 0.05,
@@ -3290,19 +3313,19 @@ nil,
 ["attachTo"] = "RIGHT",
 ["size"] = 18,
 },
-["name"] = {
-["attachTextTo"] = "Frame",
-["text_format"] = "[luckyone:name:veryshort-nocolor-friendly]",
-},
 ["health"] = {
 ["text_format"] = "",
+},
+["fader"] = {
+["minAlpha"] = 0.5,
+["smooth"] = 0,
 },
 ["threatStyle"] = "NONE",
 ["height"] = 30,
 ["verticalSpacing"] = 1,
-["fader"] = {
-["minAlpha"] = 0.5,
-["smooth"] = 0,
+["name"] = {
+["attachTextTo"] = "Frame",
+["text_format"] = "[luckyone:name:veryshort-nocolor-friendly]",
 },
 ["raidicon"] = {
 ["attachTo"] = "TOPRIGHT",
@@ -3454,13 +3477,13 @@ nil,
 ["r"] = 1,
 },
 },
-["health"] = {
-["attachTextTo"] = "Frame",
-["text_format"] = "",
-},
 ["fader"] = {
 ["minAlpha"] = 0.5,
 ["smooth"] = 0,
+},
+["name"] = {
+["attachTextTo"] = "Frame",
+["text_format"] = "",
 },
 ["orientation"] = "LEFT",
 ["height"] = 41,
@@ -3477,7 +3500,7 @@ nil,
 ["growthY"] = "DOWN",
 ["perrow"] = 5,
 },
-["name"] = {
+["health"] = {
 ["attachTextTo"] = "Frame",
 ["text_format"] = "",
 },
@@ -4095,10 +4118,11 @@ nil,
 ["detachedWidth"] = 200,
 ["autoHide"] = true,
 },
-["name"] = {
-["text_format"] = "",
-},
 ["smartAuraPosition"] = "FLUID_BUFFS_ON_DEBUFFS",
+["fader"] = {
+["minAlpha"] = 0.5,
+["smooth"] = 0,
+},
 ["orientation"] = "LEFT",
 ["height"] = 40,
 ["buffs"] = {
@@ -4117,9 +4141,8 @@ nil,
 ["perrow"] = 12,
 ["attachTo"] = "DEBUFFS",
 },
-["fader"] = {
-["minAlpha"] = 0.5,
-["smooth"] = 0,
+["name"] = {
+["text_format"] = "",
 },
 ["raidicon"] = {
 ["attachTo"] = "RIGHT",
@@ -4632,28 +4655,18 @@ nil,
 },
 ["fontSize"] = 9,
 ["hotkeyTextPosition"] = "TOP",
-["bar13"] = {
-["countFontSize"] = 9,
-["professionQuality"] = {
-["enable"] = false,
-},
-["macroFontOutline"] = "OUTLINE",
-["hotkeyTextPosition"] = "TOP",
-["targetReticle"] = false,
-["hotkeyFontOutline"] = "OUTLINE",
-["countTextPosition"] = "BOTTOM",
-["countFont"] = "Expressway",
+["stanceBar"] = {
+["enabled"] = false,
 ["buttonSize"] = 28,
-["macroFont"] = "Expressway",
-["countFontOutline"] = "OUTLINE",
-["macroTextPosition"] = "BOTTOM",
+["buttonHeight"] = 24,
 ["buttonSpacing"] = 1,
+["hotkeyTextPosition"] = "TOP",
+["style"] = "classic",
 ["hotkeyFont"] = "Expressway",
-["hotkeyFontSize"] = 9,
 ["hotkeyTextYOffset"] = -1,
-["macroTextYOffset"] = 1,
-["macrotext"] = true,
-["macroFontSize"] = 9,
+["hotkeyFontSize"] = 9,
+["mouseover"] = true,
+["hotkeyFontOutline"] = "OUTLINE",
 },
 ["fontOutline"] = "OUTLINE",
 ["bar9"] = {
@@ -4687,7 +4700,29 @@ nil,
 ["buttonSpacing"] = 1,
 ["mouseover"] = true,
 },
-["checkFocusCast"] = false,
+["bar13"] = {
+["countFontSize"] = 9,
+["professionQuality"] = {
+["enable"] = false,
+},
+["macroFontOutline"] = "OUTLINE",
+["hotkeyTextPosition"] = "TOP",
+["targetReticle"] = false,
+["hotkeyFontOutline"] = "OUTLINE",
+["countTextPosition"] = "BOTTOM",
+["countFont"] = "Expressway",
+["buttonSize"] = 28,
+["macroFont"] = "Expressway",
+["countFontOutline"] = "OUTLINE",
+["macroTextPosition"] = "BOTTOM",
+["buttonSpacing"] = 1,
+["hotkeyFont"] = "Expressway",
+["hotkeyFontSize"] = 9,
+["hotkeyTextYOffset"] = -1,
+["macroTextYOffset"] = 1,
+["macrotext"] = true,
+["macroFontSize"] = 9,
+},
 ["bar2"] = {
 ["countFontSize"] = 9,
 ["professionQuality"] = {
@@ -4851,19 +4886,7 @@ nil,
 ["macrotext"] = true,
 ["macroFontSize"] = 9,
 },
-["stanceBar"] = {
-["enabled"] = false,
-["buttonSize"] = 28,
-["buttonHeight"] = 24,
-["buttonSpacing"] = 1,
-["hotkeyTextPosition"] = "TOP",
-["style"] = "classic",
-["hotkeyFont"] = "Expressway",
-["hotkeyTextYOffset"] = -1,
-["hotkeyFontSize"] = 9,
-["mouseover"] = true,
-["hotkeyFontOutline"] = "OUTLINE",
-},
+["checkFocusCast"] = false,
 ["barPet"] = {
 ["countFontSize"] = 9,
 ["countFont"] = "Expressway",
@@ -4892,17 +4915,17 @@ nil,
 ["hotkeyFont"] = "Expressway",
 ["buttonSize"] = 28,
 ["macroFont"] = "Expressway",
-["buttonsPerRow"] = 12,
+["macroTextYOffset"] = 1,
 ["backdrop"] = false,
 ["countFontOutline"] = "OUTLINE",
 ["macroTextPosition"] = "BOTTOM",
-["hotkeyFontSize"] = 9,
+["buttonsPerRow"] = 12,
 ["hotkeyTextYOffset"] = -1,
 ["professionQuality"] = {
 ["enable"] = false,
 },
 ["macrotext"] = true,
-["macroTextYOffset"] = 1,
+["hotkeyFontSize"] = 9,
 ["visibility"] = "[combat] hide; show",
 ["buttonSpacing"] = 1,
 },
@@ -5400,11 +5423,13 @@ nil,
 ["Voidshuffle"] = 100000000,
 ["Soulshuffle"] = 183380702,
 },
+["Ravencrest"] = {
+},
 ["Draenor"] = {
 },
 ["Kazzak"] = {
 },
-["Ravencrest"] = {
+["Twisting Nether"] = {
 },
 },
 ["namespaces"] = {
@@ -5431,6 +5456,15 @@ nil,
 ["Bankpshuffle"] = "Horde",
 ["Postshuffle"] = "Alliance",
 },
+["Ravencrest"] = {
+["Spellshuffel"] = "Alliance",
+["Blindshuffle"] = "Alliance",
+["Subshuffle"] = "Alliance",
+["Roboshuffle"] = "Alliance",
+["Cantshuffle"] = "Alliance",
+["Unshuffle"] = "Alliance",
+["Floorshuffle"] = "Alliance",
+},
 ["Draenor"] = {
 ["Quakeshuffle"] = "Horde",
 ["Cloakshuffle"] = "Horde",
@@ -5438,34 +5472,36 @@ nil,
 ["Chaosshuffle"] = "Horde",
 ["Forceshuffle"] = "Horde",
 ["Bankshuffle"] = "Horde",
+["Faithshuffle"] = "Horde",
 ["Moonshuffle"] = "Horde",
+["Cryoshuffle"] = "Horde",
 ["Hornyshuffle"] = "Horde",
 ["Faceshuffle"] = "Horde",
 },
 ["Kazzak"] = {
 ["Monkashuffle"] = "Horde",
 ["Yumpshuffle"] = "Horde",
-["Preshuffle"] = "Horde",
-["Tectoshuffle"] = "Horde",
-["Moleshuffle"] = "Alliance",
-["Spearshuffle"] = "Alliance",
-["Ratshuffle"] = "Horde",
-["Trickshuffle"] = "Horde",
-["Kickshuffle"] = "Horde",
 ["Feintshuffle"] = "Horde",
+["Trickshuffle"] = "Horde",
+["Hemoshuffle"] = "Horde",
+["Necroshuffle"] = "Horde",
+["Wingshuffle"] = "Horde",
+["Tectoshuffle"] = "Horde",
+["Angleshuffle"] = "Horde",
+["Intshuffle"] = "Horde",
+["Ratshuffle"] = "Horde",
+["Soapshuffle"] = "Horde",
+["Preshuffle"] = "Horde",
+["Angelshuffle"] = "Horde",
 ["Gunshuffle"] = "Horde",
 ["Pairshuffle"] = "Alliance",
-["Angelshuffle"] = "Horde",
-["Necroshuffle"] = "Horde",
-["Soapshuffle"] = "Horde",
-["Wingshuffle"] = "Horde",
+["Spearshuffle"] = "Alliance",
+["Moleshuffle"] = "Alliance",
+["Kickshuffle"] = "Horde",
+["Dotshuffle"] = "Horde",
 },
-["Ravencrest"] = {
-["Spellshuffel"] = "Alliance",
-["Blindshuffle"] = "Alliance",
-["Subshuffle"] = "Alliance",
-["Roboshuffle"] = "Alliance",
-["Floorshuffle"] = "Alliance",
+["Twisting Nether"] = {
+["Mórtarion"] = "Horde",
 },
 },
 ["global"] = {
@@ -5599,8 +5635,13 @@ nil,
 },
 },
 ["EVOKER"] = {
-[395152] = {
-["enabled"] = false,
+[363502] = {
+["point"] = "BOTTOMRIGHT",
+["displayText"] = true,
+["yOffset"] = -1,
+["sizeOffset"] = 2,
+["style"] = "texturedIcon",
+["xOffset"] = 1,
 },
 [367364] = {
 ["point"] = "TOP",
@@ -5617,13 +5658,12 @@ nil,
 ["style"] = "texturedIcon",
 ["xOffset"] = -16,
 },
-[363502] = {
-["point"] = "BOTTOMRIGHT",
+[406732] = {
+["point"] = "TOP",
 ["displayText"] = true,
-["yOffset"] = -1,
+["yOffset"] = 1,
 ["sizeOffset"] = 2,
 ["style"] = "texturedIcon",
-["xOffset"] = 1,
 },
 [410089] = {
 ["point"] = "TOPRIGHT",
@@ -5743,12 +5783,8 @@ nil,
 ["style"] = "texturedIcon",
 ["xOffset"] = 1,
 },
-[406732] = {
-["point"] = "TOP",
-["displayText"] = true,
-["yOffset"] = 1,
-["sizeOffset"] = 2,
-["style"] = "texturedIcon",
+[395152] = {
+["enabled"] = false,
 },
 },
 ["PALADIN"] = {
@@ -6050,46 +6086,6 @@ true,
 nil,
 nil,
 nil,
-{
-nil,
-nil,
-nil,
-true,
-},
-{
-nil,
-nil,
-nil,
-true,
-},
-nil,
-nil,
-{
-nil,
-nil,
-nil,
-true,
-},
-nil,
-nil,
-nil,
-nil,
-{
-nil,
-nil,
-nil,
-true,
-},
-{
-nil,
-nil,
-nil,
-true,
-},
-nil,
-nil,
-nil,
-nil,
 nil,
 nil,
 nil,
@@ -6102,114 +6098,85 @@ true,
 nil,
 nil,
 nil,
-nil,
-nil,
-nil,
-nil,
-nil,
 {
 nil,
 nil,
 nil,
 true,
 },
-nil,
-nil,
-nil,
-nil,
-nil,
 {
 nil,
 nil,
 nil,
 true,
 },
-nil,
-nil,
-nil,
-nil,
-nil,
-nil,
-nil,
-nil,
-nil,
-{
+[21] = {
 nil,
 nil,
 nil,
 true,
 },
-nil,
-{
-nil,
-nil,
-nil,
-true,
-},
-nil,
-nil,
-{
+[30] = {
 nil,
 nil,
 nil,
 true,
 },
-nil,
-nil,
-{
-nil,
-nil,
-nil,
-true,
-},
-nil,
-{
+[33] = {
 nil,
 nil,
 nil,
 true,
 },
-nil,
-nil,
-{
-nil,
-nil,
-nil,
-true,
-},
-nil,
-nil,
-{
+[42] = {
 nil,
 nil,
 nil,
 true,
 },
-[82] = {
+[53] = {
 nil,
 nil,
 nil,
 true,
 },
-[86] = {
+[59] = {
 nil,
 nil,
 nil,
 true,
 },
-[88] = {
+[62] = {
 nil,
 nil,
 nil,
 true,
 },
-[69] = {
+[87] = {
 nil,
 nil,
 nil,
 true,
 },
-[76] = {
+[70] = {
+nil,
+nil,
+nil,
+true,
+},
+[77] = {
+nil,
+nil,
+nil,
+true,
+},
+[83] = {
+nil,
+nil,
+nil,
+true,
+},
+[90] = {
 nil,
 nil,
 nil,
@@ -6227,7 +6194,9 @@ true,
 }
 ElvPrivateDB = {
 ["profileKeys"] = {
-["Avoidshuffle - Laughing Skull"] = "Avoidshuffle - Laughing Skull",
+["Hemoshuffle - Kazzak"] = "Hemoshuffle - Kazzak",
+["Avoidshuffle - Laughing Skull"] = "Default",
+["Cryoshuffle - Draenor"] = "Cryoshuffle - Draenor",
 ["Necroshuffle - Kazzak"] = "Necroshuffle - Kazzak",
 ["Soulshuffle - Laughing Skull"] = "Soulshuffle - Laughing Skull",
 ["Smashuffle - Laughing Skull"] = "Smashuffle - Laughing Skull",
@@ -6237,41 +6206,54 @@ ElvPrivateDB = {
 ["Bankshuffle - Laughing Skull"] = "Bankshuffle - Laughing Skull",
 ["Roboshuffle - Ravencrest"] = "Roboshuffle - Ravencrest",
 ["Trickshuffle - Kazzak"] = "Trickshuffle - Kazzak",
+["Angleshuffle - Kazzak"] = "Angleshuffle - Kazzak",
 ["Moleshuffle - Kazzak"] = "Moleshuffle - Kazzak",
 ["Hornyshuffle - Draenor"] = "Hornyshuffle - Draenor",
 ["Preshuffle - Kazzak"] = "Preshuffle - Kazzak",
 ["Postshuffle - Laughing Skull"] = "Postshuffle - Laughing Skull",
-["Ghostshuffle - Laughing Skull"] = "Ghostshuffle - Laughing Skull",
+["Ghostshuffle - Laughing Skull"] = "Default",
 ["Bankrshuffle - Laughing Skull"] = "Bankrshuffle - Laughing Skull",
+["Cantshuffle - Ravencrest"] = "Cantshuffle - Ravencrest",
 ["Angelshuffle - Kazzak"] = "Angelshuffle - Kazzak",
 ["Ratshuffle - Kazzak"] = "Ratshuffle - Kazzak",
 ["Wingshuffle - Kazzak"] = "Wingshuffle - Kazzak",
+["Intshuffle - Kazzak"] = "Intshuffle - Kazzak",
 ["Tectoshuffle - Kazzak"] = "Tectoshuffle - Kazzak",
 ["Stalkshuffle - Laughing Skull"] = "Stalkshuffle - Laughing Skull",
-["Kickshuffle - Kazzak"] = "Kickshuffle - Kazzak",
-["Yumpshuffle - Kazzak"] = "Yumpshuffle - Kazzak",
-["Bankshuffle - Draenor"] = "Bankshuffle - Draenor",
-["Faceshuffle - Draenor"] = "Faceshuffle - Draenor",
-["Moonshuffle - Draenor"] = "Moonshuffle - Draenor",
-["Subshuffle - Ravencrest"] = "Subshuffle - Ravencrest",
-["Quakeshuffle - Draenor"] = "Quakeshuffle - Draenor",
 ["Kafirshuffle - Draenor"] = "Kafirshuffle - Draenor",
-["Soapshuffle - Kazzak"] = "Soapshuffle - Kazzak",
+["Unshuffle - Ravencrest"] = "Unshuffle - Ravencrest",
+["Yumpshuffle - Kazzak"] = "Yumpshuffle - Kazzak",
+["Kickshuffle - Kazzak"] = "Kickshuffle - Kazzak",
+["Faithshuffle - Draenor"] = "Faithshuffle - Draenor",
+["Bankshuffle - Draenor"] = "Bankshuffle - Draenor",
+["Moonshuffle - Draenor"] = "Moonshuffle - Draenor",
+["Faceshuffle - Draenor"] = "Faceshuffle - Draenor",
+["Quakeshuffle - Draenor"] = "Quakeshuffle - Draenor",
+["Cloakshuffle - Draenor"] = "Cloakshuffle - Draenor",
 ["Monkashuffle - Kazzak"] = "Monkashuffle - Kazzak",
-["Spearshuffle - Kazzak"] = "Spearshuffle - Kazzak",
+["Chaosshuffle - Draenor"] = "Chaosshuffle - Draenor",
+["Soapshuffle - Kazzak"] = "Soapshuffle - Kazzak",
 ["Tradushuffle - Laughing Skull"] = "Tradushuffle - Laughing Skull",
+["Feintshuffle - Kazzak"] = "Feintshuffle - Kazzak",
+["Spearshuffle - Kazzak"] = "Spearshuffle - Kazzak",
 ["Pairshuffle - Kazzak"] = "Pairshuffle - Kazzak",
 ["Bobshuffle - Laughing Skull"] = "Bobshuffle - Laughing Skull",
 ["Forceshuffle - Draenor"] = "Forceshuffle - Draenor",
 ["Bankpshuffle - Laughing Skull"] = "Bankpshuffle - Laughing Skull",
 ["Gunshuffle - Kazzak"] = "Gunshuffle - Kazzak",
-["Feintshuffle - Kazzak"] = "Feintshuffle - Kazzak",
-["Chaosshuffle - Draenor"] = "Chaosshuffle - Draenor",
+["Subshuffle - Ravencrest"] = "Subshuffle - Ravencrest",
+["Mórtarion - Twisting Nether"] = "Mórtarion - Twisting Nether",
 ["Floorshuffle - Ravencrest"] = "Floorshuffle - Ravencrest",
-["Cloakshuffle - Draenor"] = "Cloakshuffle - Draenor",
+["Dotshuffle - Kazzak"] = "Dotshuffle - Kazzak",
 },
 ["profiles"] = {
+["Hemoshuffle - Kazzak"] = {
+["install_complete"] = 15.02,
+},
 ["Avoidshuffle - Laughing Skull"] = {
+["install_complete"] = 15.02,
+},
+["Cryoshuffle - Draenor"] = {
 ["install_complete"] = 15.02,
 },
 ["Necroshuffle - Kazzak"] = {
@@ -6296,7 +6278,6 @@ ElvPrivateDB = {
 },
 ["parchmentRemoverEnable"] = true,
 },
-["theme"] = "default",
 ["general"] = {
 ["totemTracker"] = false,
 ["nameplateLargeFont"] = "Expressway",
@@ -6310,6 +6291,7 @@ ElvPrivateDB = {
 ["nameplateFont"] = "Expressway",
 ["glossTex"] = "Minimalist",
 },
+["theme"] = "default",
 ["install_complete"] = 14.07,
 },
 ["Bankshuffle - Laughing Skull"] = {
@@ -6321,11 +6303,14 @@ ElvPrivateDB = {
 ["Trickshuffle - Kazzak"] = {
 ["install_complete"] = 14.07,
 },
+["Angleshuffle - Kazzak"] = {
+["install_complete"] = 15.02,
+},
 ["Moleshuffle - Kazzak"] = {
 ["install_complete"] = 14.07,
 },
 ["Hornyshuffle - Draenor"] = {
-["install_complete"] = 15,
+["install_complete"] = 15.02,
 },
 ["Preshuffle - Kazzak"] = {
 ["install_complete"] = 14.07,
@@ -6339,13 +6324,22 @@ ElvPrivateDB = {
 ["Bankrshuffle - Laughing Skull"] = {
 ["install_complete"] = 14.07,
 },
+["Cantshuffle - Ravencrest"] = {
+["install_complete"] = 15.02,
+},
 ["Angelshuffle - Kazzak"] = {
 ["install_complete"] = 14.07,
+},
+["Intshuffle - Kazzak"] = {
+["install_complete"] = 15.02,
 },
 ["Ratshuffle - Kazzak"] = {
 ["install_complete"] = 14.07,
 },
 ["Wingshuffle - Kazzak"] = {
+["install_complete"] = 14.07,
+},
+["Kafirshuffle - Draenor"] = {
 ["install_complete"] = 14.07,
 },
 ["Tectoshuffle - Kazzak"] = {
@@ -6354,41 +6348,73 @@ ElvPrivateDB = {
 ["Stalkshuffle - Laughing Skull"] = {
 ["install_complete"] = 14.07,
 },
-["Kickshuffle - Kazzak"] = {
+["Unshuffle - Ravencrest"] = {
+["install_complete"] = 15.02,
+},
+["Cloakshuffle - Draenor"] = {
 ["install_complete"] = 14.07,
 },
 ["Yumpshuffle - Kazzak"] = {
 ["install_complete"] = 14.07,
 },
+["Kickshuffle - Kazzak"] = {
+["install_complete"] = 14.07,
+},
+["Faithshuffle - Draenor"] = {
+["install_complete"] = 15.02,
+},
 ["Bankshuffle - Draenor"] = {
+["install_complete"] = 14.07,
+},
+["Default"] = {
+["skins"] = {
+["blizzard"] = {
+["cooldownManager"] = false,
+},
+["parchmentRemoverEnable"] = true,
+},
+["general"] = {
+["totemTracker"] = false,
+["nameplateLargeFont"] = "Expressway",
+["chatBubbles"] = "disabled",
+["chatBubbleFontOutline"] = "OUTLINE",
+["minimap"] = {
+["hideTracking"] = true,
+},
+["normTex"] = "Minimalist",
+["chatBubbleFont"] = "Expressway",
+["nameplateFont"] = "Expressway",
+["glossTex"] = "Minimalist",
+},
+["theme"] = "default",
 ["install_complete"] = 14.07,
 },
 ["Faceshuffle - Draenor"] = {
 ["install_complete"] = 14.07,
 },
-["Moonshuffle - Draenor"] = {
-["install_complete"] = 14.07,
-},
-["Subshuffle - Ravencrest"] = {
+["Chaosshuffle - Draenor"] = {
 ["install_complete"] = 14.07,
 },
 ["Quakeshuffle - Draenor"] = {
 ["install_complete"] = 14.07,
 },
-["Kafirshuffle - Draenor"] = {
+["Monkashuffle - Kazzak"] = {
 ["install_complete"] = 14.07,
+},
+["Tradushuffle - Laughing Skull"] = {
+["install_complete"] = 15.02,
 },
 ["Soapshuffle - Kazzak"] = {
 ["install_complete"] = 14.07,
 },
-["Monkashuffle - Kazzak"] = {
+["Moonshuffle - Draenor"] = {
+["install_complete"] = 14.07,
+},
+["Feintshuffle - Kazzak"] = {
 ["install_complete"] = 14.07,
 },
 ["Spearshuffle - Kazzak"] = {
 ["install_complete"] = 15.02,
-},
-["Tradushuffle - Laughing Skull"] = {
-["install_complete"] = 15,
 },
 ["Pairshuffle - Kazzak"] = {
 ["install_complete"] = 14.07,
@@ -6405,17 +6431,17 @@ ElvPrivateDB = {
 ["Gunshuffle - Kazzak"] = {
 ["install_complete"] = 14.07,
 },
-["Feintshuffle - Kazzak"] = {
+["Subshuffle - Ravencrest"] = {
 ["install_complete"] = 14.07,
 },
-["Chaosshuffle - Draenor"] = {
-["install_complete"] = 14.07,
+["Mórtarion - Twisting Nether"] = {
+["install_complete"] = 15.02,
 },
 ["Floorshuffle - Ravencrest"] = {
 ["install_complete"] = 14.07,
 },
-["Cloakshuffle - Draenor"] = {
-["install_complete"] = 14.07,
+["Dotshuffle - Kazzak"] = {
+["install_complete"] = 15.02,
 },
 },
 }

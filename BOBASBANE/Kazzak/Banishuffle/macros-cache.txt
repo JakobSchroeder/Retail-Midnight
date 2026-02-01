@@ -1,8 +1,0 @@
-VER 3 0100000000000002 "fury" "INV_MISC_QUESTIONMARK"
-#showtooltip
-/cast [@cursor] Shadowfury
-END
-VER 3 0100000000000001 "soul" "INV_MISC_QUESTIONMARK"
-#showtooltip
-/cast [@player] Soulstone
-END

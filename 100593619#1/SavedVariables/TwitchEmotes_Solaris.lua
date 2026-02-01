@@ -9,11 +9,11 @@ TwitchEmotes_Solaris_Settings = {
 ["Banishuffle - Stormrage"] = "Default",
 ["Cosmoshuffle - Stormrage"] = "Default",
 ["Fogshuffle - Stormrage"] = "Default",
-["Readyshuffle - Stormrage"] = "Default",
+["Osirishuffle - Stormrage"] = "Default",
 ["Aurashuffle - Stormrage"] = "Default",
 ["Madneshuffle - Stormrage"] = "Default",
 ["Gripshuffle - Stormrage"] = "Default",
-["Osirishuffle - Stormrage"] = "Default",
+["Readyshuffle - Stormrage"] = "Default",
 },
 ["profiles"] = {
 ["Default"] = {

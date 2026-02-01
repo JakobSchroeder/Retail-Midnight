@@ -1,10 +1,16 @@
 
 MBFDB = {
 ["profileKeys"] = {
-["Ghostshuffle - Laughing Skull"] = "Default",
+["Kafirshuffle - Draenor"] = "Default",
+["Wingshuffle - Kazzak"] = "Default",
+["Moleshuffle - Kazzak"] = "Default",
 ["Soulshuffle - Laughing Skull"] = "Default",
-["Voidshuffle - Laughing Skull"] = "Default",
 ["Feintshuffle - Kazzak"] = "Default",
+["Ghostshuffle - Laughing Skull"] = "Default",
+["Spellshuffel - Ravencrest"] = "Default",
+["Pairshuffle - Kazzak"] = "Default",
+["Voidshuffle - Laughing Skull"] = "Default",
+["Angelshuffle - Kazzak"] = "Default",
 },
 ["profiles"] = {
 ["Default"] = {
@@ -14,7 +20,7 @@ MBFDB = {
 nil,
 nil,
 -98.75467681884766,
--249.999755859375,
+-251.2498931884766,
 },
 ["customChildren"] = {
 "MinimapButtonFrameDragButton",

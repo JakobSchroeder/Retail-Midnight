@@ -1,5 +1,11 @@
 
 LuckyoneDB = {
+["global"] = {
+["dev"] = true,
+["install_version"] = 3.33,
+["DebugDisabledAddOns"] = {
+},
+},
 ["profileKeys"] = {
 ["Necroshuffle - Kazzak"] = "Default",
 ["Soulshuffle - Laughing Skull"] = "Default",
@@ -24,27 +30,21 @@ LuckyoneDB = {
 ["Yumpshuffle - Kazzak"] = "Default",
 ["Bankshuffle - Draenor"] = "Default",
 ["Faceshuffle - Draenor"] = "Default",
-["Cloakshuffle - Draenor"] = "Default",
+["Subshuffle - Ravencrest"] = "Default",
 ["Quakeshuffle - Draenor"] = "Default",
 ["Soapshuffle - Kazzak"] = "Default",
-["Chaosshuffle - Draenor"] = "Default",
-["Feintshuffle - Kazzak"] = "Default",
+["Kafirshuffle - Draenor"] = "Default",
+["Monkashuffle - Kazzak"] = "Default",
 ["Moonshuffle - Draenor"] = "Default",
 ["Pairshuffle - Kazzak"] = "Default",
 ["Bobshuffle - Laughing Skull"] = "Default",
 ["Forceshuffle - Draenor"] = "Default",
 ["Bankpshuffle - Laughing Skull"] = "Default",
 ["Gunshuffle - Kazzak"] = "Default",
-["Monkashuffle - Kazzak"] = "Default",
-["Kafirshuffle - Draenor"] = "Default",
+["Feintshuffle - Kazzak"] = "Default",
+["Chaosshuffle - Draenor"] = "Default",
 ["Floorshuffle - Ravencrest"] = "Default",
-["Subshuffle - Ravencrest"] = "Default",
-},
-["global"] = {
-["dev"] = true,
-["install_version"] = 3.33,
-["DebugDisabledAddOns"] = {
-},
+["Cloakshuffle - Draenor"] = "Default",
 },
 ["profiles"] = {
 ["Default"] = {
@@ -59,13 +59,13 @@ LuckyoneDB = {
 },
 ["skins"] = {
 ["LFGBulletinBoard"] = true,
-["WhatsTraining"] = true,
+["NovaSpellRankChecker"] = true,
 ["DejaClassicStats"] = true,
 ["BugSack"] = true,
 ["NovaWorldBuffs"] = true,
 ["LeatrixPlus"] = true,
 ["Tabardy"] = true,
-["NovaSpellRankChecker"] = true,
+["WhatsTraining"] = true,
 },
 ["qualityOfLife"] = {
 ["easyDelete"] = true,

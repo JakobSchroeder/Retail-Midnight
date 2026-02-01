@@ -10,9 +10,10 @@ HandyNotesDB = {
 ["Cosmoshuffle - Stormrage"] = "Cosmoshuffle - Stormrage",
 ["Fogshuffle - Stormrage"] = "Fogshuffle - Stormrage",
 ["Aurashuffle - Stormrage"] = "Aurashuffle - Stormrage",
+["Readyshuffle - Stormrage"] = "Readyshuffle - Stormrage",
 ["Madneshuffle - Stormrage"] = "Madneshuffle - Stormrage",
-["Osirishuffle - Stormrage"] = "Osirishuffle - Stormrage",
 ["Gripshuffle - Stormrage"] = "Gripshuffle - Stormrage",
+["Osirishuffle - Stormrage"] = "Osirishuffle - Stormrage",
 },
 ["profiles"] = {
 ["Plantshuffle - Stormrage"] = {
@@ -33,11 +34,13 @@ HandyNotesDB = {
 },
 ["Aurashuffle - Stormrage"] = {
 },
+["Readyshuffle - Stormrage"] = {
+},
 ["Madneshuffle - Stormrage"] = {
 },
-["Osirishuffle - Stormrage"] = {
-},
 ["Gripshuffle - Stormrage"] = {
+},
+["Osirishuffle - Stormrage"] = {
 },
 },
 }
@@ -52,9 +55,10 @@ HandyNotes_HandyNotesDB = {
 ["Cosmoshuffle - Stormrage"] = "Cosmoshuffle - Stormrage",
 ["Fogshuffle - Stormrage"] = "Fogshuffle - Stormrage",
 ["Aurashuffle - Stormrage"] = "Aurashuffle - Stormrage",
+["Readyshuffle - Stormrage"] = "Readyshuffle - Stormrage",
 ["Madneshuffle - Stormrage"] = "Madneshuffle - Stormrage",
-["Osirishuffle - Stormrage"] = "Osirishuffle - Stormrage",
 ["Gripshuffle - Stormrage"] = "Gripshuffle - Stormrage",
+["Osirishuffle - Stormrage"] = "Osirishuffle - Stormrage",
 },
 ["profiles"] = {
 ["Plantshuffle - Stormrage"] = {
@@ -75,11 +79,13 @@ HandyNotes_HandyNotesDB = {
 },
 ["Aurashuffle - Stormrage"] = {
 },
+["Readyshuffle - Stormrage"] = {
+},
 ["Madneshuffle - Stormrage"] = {
 },
-["Osirishuffle - Stormrage"] = {
-},
 ["Gripshuffle - Stormrage"] = {
+},
+["Osirishuffle - Stormrage"] = {
 },
 },
 }

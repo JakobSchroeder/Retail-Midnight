@@ -1,76 +1,86 @@
-VER 3 0100000000000013 "BH" "INV_MISC_QUESTIONMARK"
-#showtooltip
-/cast [target=mouseover,help,exists]Binding Heal; Binding Heal
-END
-VER 3 0100000000000007 "DispersionCancel" "INV_MISC_QUESTIONMARK"
+VER 3 0100000000000001 "Cancel Dispersio" "INV_Misc_QuestionMark"
 #showtooltip Dispersion
 /cancelaura Dispersion
 END
-VER 3 0100000000000014 "Fiend" "INV_MISC_QUESTIONMARK"
-#showtooltip Shadowfiend
-/stopmacro [channeling:Void Torrent]
-/cast Shadowfiend
-END
-VER 3 010000000000000A "Flashmouse" "INV_MISC_QUESTIONMARK"
+VER 3 0100000000000002 "Cursor Angelic" "INV_Misc_QuestionMark"
 #showtooltip
-/cast [target=mouseover,help,exists]Flash Heal; Flash Heal
+/cast [@cursor] Angelic Feather
 END
-VER 3 010000000000000B "Greatermouse" "INV_MISC_QUESTIONMARK"
+VER 3 0100000000000003 "DP" "INV_Misc_QuestionMark"
 #showtooltip
-/cast [target=mouseover,help,exists]Heal; Heal
+/cast [@mouseover,harm,nodead,exists][] Shadow Word: Madness
 END
-VER 3 0100000000000002 "MouseLeap" "INV_MISC_QUESTIONMARK"
+VER 3 0100000000000004 "Flash Heal" "INV_Misc_QuestionMark"
 #showtooltip
-/cast [target=mouseover,exists,help] Leap of Faith; Leap of Faith
+/cast [@mouseover,help,nodead][] Flash Heal
 END
-VER 3 010000000000000D "MouseofHealing" "INV_MISC_QUESTIONMARK"
-#showtooltip
-/cast [target=mouseover,help,exists]Prayer of Healing; Prayer of Healing
+VER 3 0100000000000005 "Focus Silence" "INV_Misc_QuestionMark"
+#showtooltip Silence
+/cast [@focus,harm,nodead,exists] Silence
 END
-VER 3 010000000000000E "MouseofMending" "INV_MISC_QUESTIONMARK"
+VER 3 0100000000000006 "Friend Penance" "INV_Misc_QuestionMark"
 #showtooltip
-/cast [target=mouseover,help,exists]Prayer of Mending; Prayer of Mending
+/cast [@mouseover,noharm,nodead,exists][] Penance
 END
-VER 3 010000000000000F "Mouseradiance" "INV_MISC_QUESTIONMARK"
+VER 3 0100000000000007 "Guardian Spirit" "INV_Misc_QuestionMark"
 #showtooltip
-/cast [target=mouseover,help,exists]Power Word: Radiance; Power Word: Radiance
+/cast [@mouseover,help,nodead,exists][] Guardian Spirit
 END
-VER 3 0100000000000001 "MouseSear" "INV_MISC_QUESTIONMARK"
+VER 3 0100000000000008 "Harm Penance" "INV_Misc_QuestionMark"
 #showtooltip
-/cast [target=mouseover,exists,help]Mind Sear; Mind Sear
+/cast [harm,nodead,exists] Penance
 END
-VER 3 0100000000000011 "Painmouse" "INV_MISC_QUESTIONMARK"
+VER 3 0100000000000009 "Holy Word: Seren" "INV_Misc_QuestionMark"
 #showtooltip
-/cast [target=mouseover,help,exists]Pain Suppression; Pain Suppression
+/cast [@mouseover,help,nodead,exists][] Holy Word: Serenity
 END
-VER 3 010000000000000C "Penmouse" "INV_MISC_QUESTIONMARK"
+VER 3 010000000000000A "Leap of Faith" "INV_Misc_QuestionMark"
 #showtooltip
-/cast [target=mouseover,help,exists]Plea; Plea
+/cast [@mouseover,help,nodead,exists][] Leap of Faith
 END
-VER 3 0100000000000010 "Purify" "INV_MISC_QUESTIONMARK"
+VER 3 010000000000000B "Mass Dispel" "INV_Misc_QuestionMark"
 #showtooltip
-/cast [target=mouseover,help,exists]Purify; Purify
+/cast [@cursor] Mass Dispel
 END
-VER 3 0100000000000009 "PWmouse" "INV_MISC_QUESTIONMARK"
+VER 3 010000000000000C "Pain Suppression" "INV_Misc_QuestionMark"
 #showtooltip
-/cast [target=mouseover,help,exists]Power Word: Shield; Power Word: Shield
+/cast [@mouseover,help,nodead,exists][] Pain Suppression
 END
-VER 3 0100000000000008 "selfPWS" "INV_MISC_QUESTIONMARK"
+VER 3 010000000000000D "Penintence/Barri" "INV_Misc_QuestionMark"
 #showtooltip
-/cast [talent:2/1,target=player] Power Word: Shield
+/cast Ultimate Penitence
+/cast [@cursor] Power Word: Barrier
 END
-VER 3 0100000000000006 "SWD" "INV_MISC_QUESTIONMARK"
+VER 3 010000000000000E "PI" "INV_Misc_QuestionMark"
 #showtooltip
-/stopmacro [channeling:Void Torrent]
-/cast [target=mouseover,exists,harm,nodead]Shadow Word: Death; Shadow Word: Death
+/cast [@focus,help,nodead,exists][@mouseover,help,nodead,exists][] Power Infusion
+/use 13
 END
-VER 3 0100000000000003 "SWP" "INV_MISC_QUESTIONMARK"
+VER 3 010000000000000F "Plea" "INV_Misc_QuestionMark"
 #showtooltip
-/stopmacro [channeling:Void Torrent]
-/cast [target=mouseover,exists,harm,nodead]Shadow Word: Pain; Shadow Word: Pain
+/cast [@mouseover,help,nodead,exists][] Plea
 END
-VER 3 0100000000000004 "VT" "INV_MISC_QUESTIONMARK"
+VER 3 0100000000000010 "Prayer of Healin" "INV_Misc_QuestionMark"
 #showtooltip
-/stopmacro [channeling:Void Torrent]
-/cast [target=mouseover,exists,harm,nodead]Vampiric Touch; Vampiric Touch
+/cast [@mouseover,help,nodead,exists][] Prayer of Healing
+END
+VER 3 0100000000000011 "Purify Disease" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [@mouseover,help,nodead,exists][] Purify Disease
+END
+VER 3 0100000000000012 "PWS" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [@mouseover,help,nodead,exists][] Power Word: Shield
+END
+VER 3 0100000000000013 "Radiance" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [@mouseover,help,nodead,exists][] Power Word: Radiance
+END
+VER 3 0100000000000014 "Sanctify" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [@cursor] Holy Word: Sanctify
+END
+VER 3 0100000000000015 "Self Feather" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [@player] Angelic Feather
 END

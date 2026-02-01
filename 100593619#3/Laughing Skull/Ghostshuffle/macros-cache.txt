@@ -36,7 +36,7 @@ VER 3 0100000000000009 "Holy Word: Seren" "INV_Misc_QuestionMark"
 END
 VER 3 010000000000000A "Leap of Faith" "INV_Misc_QuestionMark"
 #showtooltip
-/cast [@cursor,help,nodead,exists][] Leap of Faith
+/cast [@mouseover,help,nodead,exists][] Leap of Faith
 END
 VER 3 010000000000000B "Mass Dispel" "INV_Misc_QuestionMark"
 #showtooltip

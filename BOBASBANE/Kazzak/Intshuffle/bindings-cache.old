@@ -1,0 +1,131 @@
+bind UP CLICK BT4Button92:Keybind
+bind DOWN CLICK BT4Button90:Keybind
+bind Q STRAFELEFT
+bind LEFT CLICK BT4Button96:Keybind
+bind E STRAFERIGHT
+bind RIGHT CLICK BT4Button94:Keybind
+bind A TURNLEFT
+bind D TURNRIGHT
+bind X ACTIONBUTTON3
+bind Z ACTIONBUTTON6
+bind SHIFT-Z ACTIONBUTTON7
+bind 1 CLICK BT4Button25:Keybind
+bind 2 CLICK BT4Button26:Keybind
+bind 3 CLICK BT4Button27:Keybind
+bind 4 CLICK BT4Button28:Keybind
+bind 5 CLICK BT4Button29:Keybind
+bind C MULTIACTIONBAR1BUTTON2
+bind V CLICK BindPadMacro:Potion
+bind MOUSEWHEELUP CLICK BT4Button47:Keybind
+bind MOUSEWHEELDOWN CLICK BT4Button45:Keybind
+bind R CLICK BindPadMacro:trinket1
+bind SHIFT-1 CLICK BT4Button31:Keybind
+bind SHIFT-2 CLICK BT4Button32:Keybind
+bind SHIFT-3 CLICK BT4Button33:Keybind
+bind PAGEUP CLICK BT4Button68:Keybind
+bind PAGEDOWN CLICK BT4Button60:Keybind
+bind , CLICK BindPadMacro:Ping
+bind . CLICK BindPadMacro:Gateway Control Shard
+bind ] PAWN_COMPARE_RIGHT
+bind [ PAWN_COMPARE_LEFT
+bind BUTTON4 NONE
+bind INSERT CLICK BT4Button71:Keybind
+bind DELETE NONE
+bind NUMPADDIVIDE CLICK BindPadMacro:Loot-A-Rang
+bind SHIFT-PAGEDOWN CLICK BT4Button37:Keybind
+bind SHIFT-R CLICK BindPadMacro:trinket2
+bind 6 NONE
+bind 7 EXTRAACTIONBUTTON1
+bind 8 CLICK BT4Button44:Keybind
+bind 9 CLICK BT4Button46:Keybind
+bind 0 NONE
+bind - INTERACTMOUSEOVER
+bind = NONE
+bind CTRL-F2 NONE
+bind CTRL-1 CLICK BT4Button85:Keybind
+bind CTRL-2 CLICK BT4Button87:Keybind
+bind CTRL-3 CLICK BT4Button89:Keybind
+bind CTRL-4 CLICK BT4Button91:Keybind
+bind CTRL-5 CLICK BT4Button93:Keybind
+bind SHIFT-TAB CLICK BindPadMacro:Cloak
+bind CTRL-TAB CLICK BindPadMacro:Belt
+bind F1 CLICK BT4Button50:Keybind
+bind SHIFT-F1 CLICK BT4Button58:Keybind
+bind F2 CLICK BT4Button52:Keybind
+bind F3 CLICK BT4Button54:Keybind
+bind F4 CLICK BT4Button56:Keybind
+bind F5 CLICK EXRTWM1:LeftButton
+bind G CLICK BT4Button88:Keybind
+bind F CLICK BT4Button86:Keybind
+bind SHIFT-V CLICK BindPadMacro:HealthPot
+bind CTRL-V CLICK BindPadMacro:Healthstone
+bind SHIFT-T RAIDTARGET8
+bind F8 CLICK EXRTWM4:LeftButton
+bind F9 CLICK EXRTWM5:LeftButton
+bind F10 CLICK EXRTWM6:LeftButton
+bind F11 CLICK EXRTWM3:LeftButton
+bind F12 CLICK EXRTWM8:LeftButton
+bind PRINTSCREEN NONE
+bind NUMPADPLUS CAMERAZOOMIN
+bind NUMPADMINUS CAMERAZOOMOUT
+bind CTRL-S NONE
+bind END NONE
+bind HOME CLICK BT4Button59:Keybind
+bind CTRL-R ACTIONBUTTON12
+bind SHIFT-G CLICK BT4Button51:Keybind
+bind SHIFT-C MULTIACTIONBAR1BUTTON3
+bind T FOCUSTARGET
+bind SHIFT-4 CLICK BT4Button34:Keybind
+bind SHIFT-5 CLICK BT4Button35:Keybind
+bind SHIFT-6 NONE
+bind SHIFT-UP CLICK BT4Button55:Keybind
+bind SHIFT-MOUSEWHEELUP CLICK BT4Button67:Keybind
+bind SHIFT-DOWN CLICK BT4Button53:Keybind
+bind SHIFT-MOUSEWHEELDOWN CLICK BT4Button64:Keybind
+bind NUMPAD9 CLICK ItemRackDrathosVek'nilashNu:LeftButton
+bind ALT-M CARTOGRAPHER_OPENALTERNATEMAP
+bind ½ CLICK BT4Button30:Keybind
+bind SHIFT-½ CLICK BT4Button36:Keybind
+bind CTRL-½ CLICK BT4Button95:Keybind
+bind SHIFT-F CLICK BT4Button49:Keybind
+bind æ NONE
+bind å NAMEPLATES
+bind ø FRIENDNAMEPLATES
+bind ' CLICK BT4Button39:Keybind
+bind SHIFT-BUTTON4 NONE
+bind ¨ INTERACTTARGET
+bind ALT-1 NONE
+bind ALT-2 NONE
+bind ALT-4 NONE
+bind ALT-3 NONE
+bind ALT-5 NONE
+bind SHIFT-ESCAPE NONE
+bind SHIFT-HOME CLICK BT4Button42:Keybind
+bind F6 CLICK EXRTWM7:LeftButton
+bind F7 CLICK EXRTWM2:LeftButton
+bind ALT-CTRL-SHIFT-F10 NONE
+bind ALT-CTRL-SHIFT-F11 NONE
+bind ALT-CTRL-SHIFT-F12 NONE
+bind ALT-CTRL-SHIFT-F9 NONE
+bind ALT-CTRL-SHIFT-F7 NONE
+bind ALT-CTRL-SHIFT-F5 NONE
+bind ALT-CTRL-SHIFT-F8 NONE
+bind ALT-CTRL-SHIFT-F6 NONE
+bind BUTTON5 NONE
+bind SHIFT-LEFT CLICK BT4Button57:Keybind
+bind SHIFT-F12 TOGGLERUN
+bind SHIFT-BUTTON5 NONE
+bind CTRL-O TOGGLESOUND
+bind ALT-6 NONE
+bind ALT-7 RAIDTARGET1
+bind SHIFT-. CLICK EXRTWM7:LeftButton
+bind SHIFT-, FLASHTALENT_CHANGE_DUALSPEC
+bind + TOGGLESHEATH
+bind SHIFT-+ CLICK BindPadMacro:focusmouse
+bind SHIFT-RIGHT CLICK BT4Button61:Keybind
+bind < ACTIONBUTTON1
+bind SHIFT-< ACTIONBUTTON2
+bind SHIFT-X ACTIONBUTTON4
+bind CTRL-X ACTIONBUTTON5
+bind CTRL-Z ACTIONBUTTON8
+bind CTRL-DOWN MULTIACTIONBAR4BUTTON4

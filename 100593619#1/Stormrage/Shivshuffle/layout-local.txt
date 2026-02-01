@@ -1,11 +1,4 @@
 Version: 1
-Frame: LuckyoneInstallerFrame
-FrameLevel: 1
-Anchor: LEFT
-X: 255
-Y: 176
-W: 550
-H: 400
 Frame: ColorPickerFrame
 FrameLevel: 1
 Anchor: CENTER

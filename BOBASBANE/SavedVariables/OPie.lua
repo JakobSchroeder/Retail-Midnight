@@ -3,9 +3,9 @@ OneRing_Config = nil
 OPie_SavedData = {
 ["CharProfiles"] = {
 },
-["_OPieVersion"] = "7.11.3 (4.137)",
+["_OPieVersion"] = "8.1.2 (4.138)",
 ["_StoreVersion"] = 122,
-["_GameLocale"] = "enUS",
+["_GameVersion"] = "12.0.0",
 ["_StoreVersion2"] = 122,
 ["ProfileStorage"] = {
 ["default"] = {
@@ -88,5 +88,5 @@ OPie_SavedData = {
 },
 },
 },
-["_GameVersion"] = "12.0.0",
+["_GameLocale"] = "enUS",
 }

@@ -28,3 +28,8 @@ RaiderIO_DB_TW_F: disabled
 RaiderIO_DB_KR_R: disabled
 RaiderIO_DB_KR_M: disabled
 RaiderIO_DB_KR_F: disabled
+Blizzard_CombatText: enabled
+BigWigs_ManaforgeOmega: enabled
+BigWigs_KhazAlgar: enabled
+LittleWigs: enabled
+LittleWigs_MistsOfPandaria: enabled

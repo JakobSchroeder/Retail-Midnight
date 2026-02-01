@@ -6,6 +6,13 @@ X: 0
 Y: 0
 W: 388
 H: 250
+Frame: GroupLootHistoryFrame
+FrameLevel: 1
+Anchor: TOP
+X: -522
+Y: -81
+W: 261
+H: 590
 Frame: ItemRefTooltip
 FrameLevel: 1
 Anchor: BOTTOM
@@ -33,7 +40,7 @@ Anchor: TOP
 X: 270
 Y: -160
 W: 1050
-H: 600
+H: 620
 Frame: BetterFriendsFrame
 FrameLevel: 1
 Anchor: LEFT

@@ -1,0 +1,42 @@
+VER 3 0100000000000009 "fearward" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [target=player]Fear Ward
+END
+VER 3 0100000000000007 "fiend" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/tar Faithshuffle
+/cast [target=targettarget]Shadowfiend; Shadowfiend
+END
+VER 3 0100000000000001 "follow" "INV_MISC_QUESTIONMARK"
+/follow Faithshuffle
+/target Faithshuffle
+END
+VER 3 0100000000000006 "holyfir" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/tar Faithshuffle
+/cast [target=targettarget]Holy Fire; Holy Fire
+END
+VER 3 0100000000000005 "mindblast" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/tar Faithshuffle
+/cast [target=targettarget]Mind Blast; Mind Blast
+END
+VER 3 0100000000000003 "pain" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/tar Faithshuffle
+/cast [target=targettarget]Shadow Word: Pain; Shadow Word: Pain
+END
+VER 3 0100000000000008 "pain" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [target=player]Pain Suppression
+END
+VER 3 0100000000000004 "penance" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/tar Faithshuffle
+/cast [target=targettarget]Penance; Penance
+END
+VER 3 0100000000000002 "smite" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/tar Faithshuffle
+/cast [target=targettarget]Smite; Smite
+END

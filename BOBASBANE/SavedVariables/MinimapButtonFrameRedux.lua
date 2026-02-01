@@ -1,9 +1,19 @@
 
 MBFDB = {
 ["profileKeys"] = {
-["Spearshuffle - Kazzak"] = "Default",
-["Hornyshuffle - Draenor"] = "Default",
+["Hemoshuffle - Kazzak"] = "Default",
 ["Avoidshuffle - Laughing Skull"] = "Default",
+["Cryoshuffle - Draenor"] = "Default",
+["Tradushuffle - Laughing Skull"] = "Default",
+["Unshuffle - Ravencrest"] = "Default",
+["Spearshuffle - Kazzak"] = "Default",
+["Intshuffle - Kazzak"] = "Default",
+["Mórtarion - Twisting Nether"] = "Default",
+["Faithshuffle - Draenor"] = "Default",
+["Hornyshuffle - Draenor"] = "Default",
+["Dotshuffle - Kazzak"] = "Default",
+["Cantshuffle - Ravencrest"] = "Default",
+["Angleshuffle - Kazzak"] = "Default",
 },
 ["profiles"] = {
 ["Default"] = {
@@ -12,8 +22,8 @@ MBFDB = {
 ["MBF_FrameLocation"] = {
 nil,
 nil,
--96.24917602539062,
--216.2501831054688,
+-94.9991683959961,
+-252.5001068115234,
 },
 ["customChildren"] = {
 "MinimapButtonFrameDragButton",

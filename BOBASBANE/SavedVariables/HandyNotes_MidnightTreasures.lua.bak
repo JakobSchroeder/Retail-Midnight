@@ -1,14 +1,44 @@
 
 HandyNotes_MidnightTreasuresDB = {
 ["profileKeys"] = {
-["Hornyshuffle - Draenor"] = "Hornyshuffle - Draenor",
+["Hemoshuffle - Kazzak"] = "Hemoshuffle - Kazzak",
 ["Avoidshuffle - Laughing Skull"] = "Avoidshuffle - Laughing Skull",
+["Cryoshuffle - Draenor"] = "Cryoshuffle - Draenor",
+["Tradushuffle - Laughing Skull"] = "Tradushuffle - Laughing Skull",
+["Unshuffle - Ravencrest"] = "Unshuffle - Ravencrest",
+["Angleshuffle - Kazzak"] = "Angleshuffle - Kazzak",
+["Intshuffle - Kazzak"] = "Intshuffle - Kazzak",
+["Dotshuffle - Kazzak"] = "Dotshuffle - Kazzak",
+["Faithshuffle - Draenor"] = "Faithshuffle - Draenor",
+["Hornyshuffle - Draenor"] = "Hornyshuffle - Draenor",
+["Mórtarion - Twisting Nether"] = "Mórtarion - Twisting Nether",
+["Cantshuffle - Ravencrest"] = "Cantshuffle - Ravencrest",
 ["Spearshuffle - Kazzak"] = "Spearshuffle - Kazzak",
 },
 ["profiles"] = {
-["Hornyshuffle - Draenor"] = {
+["Hemoshuffle - Kazzak"] = {
 },
 ["Avoidshuffle - Laughing Skull"] = {
+},
+["Cryoshuffle - Draenor"] = {
+},
+["Tradushuffle - Laughing Skull"] = {
+},
+["Unshuffle - Ravencrest"] = {
+},
+["Angleshuffle - Kazzak"] = {
+},
+["Intshuffle - Kazzak"] = {
+},
+["Dotshuffle - Kazzak"] = {
+},
+["Faithshuffle - Draenor"] = {
+},
+["Hornyshuffle - Draenor"] = {
+},
+["Mórtarion - Twisting Nether"] = {
+},
+["Cantshuffle - Ravencrest"] = {
 },
 ["Spearshuffle - Kazzak"] = {
 },

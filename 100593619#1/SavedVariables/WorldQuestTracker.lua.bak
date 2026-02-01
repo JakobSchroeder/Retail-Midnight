@@ -1,0 +1,139 @@
+
+WQTrackerDB = {
+["profileKeys"] = {
+["Plantshuffle - Stormrage"] = "Default",
+["Shivshuffle - Stormrage"] = "Default",
+["Petshuffle - Stormrage"] = "Default",
+["Osirishuffle - Stormrage"] = "Default",
+["Gripshuffle - Stormrage"] = "Default",
+["Banishuffle - Stormrage"] = "Default",
+["Cosmoshuffle - Stormrage"] = "Default",
+["Fogshuffle - Stormrage"] = "Default",
+["Blastshuffle - Stormrage"] = "Default",
+["Aurashuffle - Stormrage"] = "Default",
+["Madneshuffle - Stormrage"] = "Default",
+["Readyshuffle - Stormrage"] = "Default",
+["Grapeshuffle - Stormrage"] = "Default",
+},
+["profiles"] = {
+["Default"] = {
+["world_map_hubscale"] = {
+[875] = 0.9,
+[947] = 1,
+[2274] = 0.95,
+[1550] = 1,
+[876] = 0.9,
+[619] = 0.3,
+[1978] = 0.85,
+},
+["world_map_hubenabled"] = {
+[875] = true,
+[947] = true,
+[2274] = true,
+[1550] = true,
+[876] = true,
+[619] = true,
+[1978] = true,
+},
+["player_names"] = {
+["Player-60-0FDB2890"] = {
+["class"] = "DEATHKNIGHT",
+["name"] = "Gripshuffle",
+["realm"] = "Stormrage",
+},
+["Player-60-0F28B46A"] = {
+["class"] = "DRUID",
+["name"] = "Readyshuffle",
+["realm"] = "Stormrage",
+},
+["Player-60-0F40F5C2"] = {
+["class"] = "MONK",
+["name"] = "Fogshuffle",
+["realm"] = "Stormrage",
+},
+["Player-60-0FD9A22E"] = {
+["class"] = "MAGE",
+["name"] = "Blastshuffle",
+["realm"] = "Stormrage",
+},
+["Player-60-0FD6AF0D"] = {
+["class"] = "PRIEST",
+["name"] = "Madneshuffle",
+["realm"] = "Stormrage",
+},
+["Player-60-0FD8F75F"] = {
+["class"] = "HUNTER",
+["name"] = "Petshuffle",
+["realm"] = "Stormrage",
+},
+["Player-60-0FD64078"] = {
+["class"] = "DEMONHUNTER",
+["name"] = "Cosmoshuffle",
+["realm"] = "Stormrage",
+},
+["Player-60-0FD8F6CD"] = {
+["class"] = "WARLOCK",
+["name"] = "Banishuffle",
+["realm"] = "Stormrage",
+},
+["Player-60-0FDB54EF"] = {
+["class"] = "PALADIN",
+["name"] = "Aurashuffle",
+["realm"] = "Stormrage",
+},
+["Player-60-0FDB4DEE"] = {
+["class"] = "ROGUE",
+["name"] = "Shivshuffle",
+["realm"] = "Stormrage",
+},
+["Player-60-0FDC19E9"] = {
+["class"] = "DRUID",
+["name"] = "Plantshuffle",
+["realm"] = "Stormrage",
+},
+["Player-60-0FDB0CA3"] = {
+["class"] = "SHAMAN",
+["name"] = "Osirishuffle",
+["realm"] = "Stormrage",
+},
+["Player-60-0FC0CF56"] = {
+["class"] = "WARRIOR",
+["name"] = "Grapeshuffle",
+["realm"] = "Stormrage",
+},
+},
+["quests_tracked"] = {
+["Player-60-0FDB2890"] = {
+},
+["Player-60-0F28B46A"] = {
+},
+["Player-60-0F40F5C2"] = {
+},
+["Player-60-0FD9A22E"] = {
+},
+["Player-60-0FD6AF0D"] = {
+},
+["Player-60-0FD8F75F"] = {
+},
+["Player-60-0FD64078"] = {
+},
+["Player-60-0FD8F6CD"] = {
+},
+["Player-60-0FDB54EF"] = {
+},
+["Player-60-0FDB4DEE"] = {
+},
+["Player-60-0FDC19E9"] = {
+},
+["Player-60-0FDB0CA3"] = {
+},
+["Player-60-0FC0CF56"] = {
+},
+},
+},
+},
+}
+WQTrackerLanguage = {
+["language"] = "enUS",
+["version"] = 1,
+}

@@ -2,7 +2,7 @@
 BigWigs3DB = {
 ["profileKeys"] = {
 ["Hemoshuffle - Kazzak"] = "Default",
-["Avoidshuffle - Laughing Skull"] = "Default",
+["Avoidshuffle - Laughing Skull"] = "Luckyone Main",
 ["Cryoshuffle - Draenor"] = "Default",
 ["Teashuffle - Auchindoun"] = "Default",
 ["Vroomshuffle - Twisting Nether"] = "Default",
@@ -12,55 +12,188 @@ BigWigs3DB = {
 ["Angleshuffle - Kazzak"] = "Default",
 ["Hornyshuffle - Draenor"] = "Default",
 ["Teashuffle - Twisting Nether"] = "Default",
-["Lavashuffle - Draenor"] = "Default",
+["Banishuffle - Kazzak"] = "Default",
 ["Fokshuffle - Auchindoun"] = "Default",
 ["Riplimb - Twisting Nether"] = "Default",
-["Kafirshuffle - Twisting Nether"] = "Default",
+["Mórtarion - Twisting Nether"] = "Default",
 ["Shóckadin - Twisting Nether"] = "Default",
 ["Polyshuffle - Draenor"] = "Default",
 ["Cantshuffle - Ravencrest"] = "Default",
-["Rageshuffle - Kazzak"] = "Default",
-["Dotshuffle - Kazzak"] = "Default",
+["Intshuffle - Kazzak"] = "Default",
 ["Eyeshuffle - Ravencrest"] = "Default",
-["Jumpshuffle - Kazzak"] = "Default",
+["Bankshuffle - Auchindoun"] = "Default",
+["Vanishuffle - Kazzak"] = "Default",
 ["Spamtothetop - Twisting Nether"] = "Default",
 ["Aliceshuffle - Laughing Skull"] = "Default",
-["Faithshuffle - Draenor"] = "Default",
-["Apollumi - Twisting Nether"] = "Default",
+["Rockshuffle - Kazzak"] = "Default",
+["Unshuffle - Ravencrest"] = "Default",
 ["Punctuation - Twisting Nether"] = "Default",
 ["Teashuffle - Kazzak"] = "Default",
-["Edgeshuffle - Auchindoun"] = "Default",
+["Faithshuffle - Draenor"] = "Default",
 ["Avoidshuffle - Auchindoun"] = "Default",
-["Bowshuffle - Ravencrest"] = "Default",
-["Tradushuffle - Laughing Skull"] = "Default",
-["Hourshuffle - Kazzak"] = "Default",
-["Leshuffle - Draenor"] = "Default",
-["Justshuffle - Ravencrest"] = "Default",
-["Goatshuffle - Kazzak"] = "Default",
-["Mightshuffle - Ravencrest"] = "Default",
-["Udartton - Twisting Nether"] = "Default",
-["Spearshuffle - Kazzak"] = "Default",
-["Smorcshuffle - Draenor"] = "Default",
-["Brainshuffle - Auchindoun"] = "Default",
+["Edgeshuffle - Auchindoun"] = "Default",
 ["Terrashuffle - Kazzak"] = "Default",
+["Brainshuffle - Auchindoun"] = "Default",
+["Goatshuffle - Kazzak"] = "Default",
+["Justshuffle - Ravencrest"] = "Default",
+["Smorcshuffle - Draenor"] = "Default",
+["Spearshuffle - Kazzak"] = "Default",
+["Udartton - Twisting Nether"] = "Default",
+["Mightshuffle - Ravencrest"] = "Default",
+["Leshuffle - Draenor"] = "Default",
+["Hourshuffle - Kazzak"] = "Default",
+["Tradushuffle - Laughing Skull"] = "Default",
 ["Ripinpeach - Ravencrest"] = "Default",
-["Unshuffle - Ravencrest"] = "Default",
-["Rockshuffle - Kazzak"] = "Default",
-["Vanishuffle - Kazzak"] = "Default",
-["Bankshuffle - Auchindoun"] = "Default",
-["Intshuffle - Kazzak"] = "Default",
-["Mórtarion - Twisting Nether"] = "Default",
+["Apollumi - Twisting Nether"] = "Default",
+["Bowshuffle - Ravencrest"] = "Default",
+["Jumpshuffle - Kazzak"] = "Default",
+["Dotshuffle - Kazzak"] = "Default",
+["Rageshuffle - Kazzak"] = "Default",
+["Kafirshuffle - Twisting Nether"] = "Default",
 ["Angleshuffle - Auchindoun"] = "Default",
-["Banishuffle - Kazzak"] = "Default",
+["Lavashuffle - Draenor"] = "Default",
+},
+["global"] = {
+["watchedMovies"] = {
+[1034] = true,
+},
 },
 ["namespaces"] = {
+["BigWigs_Plugins_Colors"] = {
+["profiles"] = {
+["Luckyone Main"] = {
+["barBackground"] = {
+["BigWigs_Plugins_Colors"] = {
+["default"] = {
+0.05098039656877518,
+0.05098039656877518,
+0.05098039656877518,
+0.699999988079071,
+},
+},
+},
+},
+},
+},
+["BigWigs_Plugins_BattleRes"] = {
+["profiles"] = {
+["Luckyone Main"] = {
+["disabled"] = false,
+["durationAlign"] = "CENTER",
+["fontName"] = "Expressway",
+["textXPositionDuration"] = 1,
+["textYPositionDuration"] = 1,
+["textXPositionCharges"] = 1,
+["lock"] = true,
+["cooldownEdge"] = false,
+["chargesAlign"] = "CENTER",
+["position"] = {
+"BOTTOMRIGHT",
+"BOTTOMRIGHT",
+51,
+0,
+"LeftChatPanel",
+},
+},
+},
+},
+["BigWigs_Plugins_Messages"] = {
+["profiles"] = {
+["Luckyone Main"] = {
+["outline"] = "OUTLINE",
+["fontSize"] = 16,
+["emphPosition"] = {
+"TOP",
+"TOP",
+nil,
+-465,
+},
+["fontName"] = "Expressway",
+["emphOutline"] = "OUTLINE",
+["emphFontName"] = "Expressway",
+["emphFontSize"] = 20,
+["normalPosition"] = {
+"CENTER",
+"CENTER",
+nil,
+-15,
+},
+},
+},
+},
+["BigWigs_Plugins_Bars"] = {
+["profiles"] = {
+["Luckyone Main"] = {
+["outline"] = "OUTLINE",
+["normalWidth"] = 239,
+["visibleBarLimit"] = 6,
+["normalPosition"] = {
+nil,
+nil,
+10,
+-69,
+"ElvUF_Player",
+},
+["barStyle"] = "ElvUI",
+["fontSizeEmph"] = 10,
+["fontName"] = "Expressway",
+["expHeight"] = 18,
+["emphasizeRestart"] = false,
+["spacing"] = 3,
+["visibleBarLimitEmph"] = 6,
+["expWidth"] = 239,
+["texture"] = "Minimalist",
+["emphasizeMove"] = false,
+["emphasizeMultiplier"] = 1,
+["emphasizeTime"] = 8,
+},
+},
+},
+["MythicPlus"] = {
+["profiles"] = {
+["Luckyone Main"] = {
+["instanceKeysFontName"] = "Expressway",
+["instanceKeysPosition"] = {
+"CENTER",
+"CENTER",
+-329,
+261,
+},
+["instanceKeysAlign"] = "LEFT",
+["instanceKeysFontSize"] = 14,
+},
+},
+},
+["BigWigs_Plugins_Countdown"] = {
+["profiles"] = {
+["Luckyone Main"] = {
+["outline"] = "OUTLINE",
+["fontSize"] = 50,
+["fontName"] = "Expressway",
+["position"] = {
+nil,
+nil,
+nil,
+-385,
+},
+},
+},
+},
 },
 ["myKeystones"] = {
 ["Player-1598-0FCDC506"] = {
 ["playerRating"] = 0,
 ["specId"] = 258,
-["keyMap"] = 0,
+["keyMap"] = 392,
 ["name"] = "Avoidshuffle",
+["keyLevel"] = 2,
+["realm"] = "Laughing Skull",
+},
+["Player-1598-0F08F91C"] = {
+["playerRating"] = 0,
+["specId"] = 102,
+["keyMap"] = 0,
+["name"] = "Tradushuffle",
 ["keyLevel"] = 0,
 ["realm"] = "Laughing Skull",
 },
@@ -69,10 +202,88 @@ BigWigs3DB = {
 ["profiles"] = {
 ["Default"] = {
 },
+["Luckyone Main"] = {
+},
 },
 }
 BigWigsIconDB = {
 ["minimapPos"] = 207.0215443477827,
+["hide"] = true,
 }
-BigWigsStatsDB = nil
+BigWigsStatsDB = {
+[2810] = {
+[2686] = {
+["heroic"] = {
+["kills"] = 1,
+["fkDate"] = "2026/01/31",
+["bestDate"] = "2026/01/31",
+["best"] = 71.2210000003688,
+["fkDuration"] = 71.2210000003688,
+},
+},
+[2687] = {
+["heroic"] = {
+["kills"] = 1,
+["fkDate"] = "2026/01/31",
+["bestDate"] = "2026/01/31",
+["best"] = 70.39900000020862,
+["fkDuration"] = 70.39900000020862,
+},
+},
+[2688] = {
+["heroic"] = {
+["kills"] = 1,
+["fkDate"] = "2026/01/31",
+["bestDate"] = "2026/01/31",
+["best"] = 110.2530000000261,
+["fkDuration"] = 110.2530000000261,
+},
+},
+[2691] = {
+["heroic"] = {
+["kills"] = 1,
+["fkDate"] = "2026/01/31",
+["bestDate"] = "2026/01/31",
+["best"] = 305.4110000003129,
+["fkDuration"] = 305.4110000003129,
+},
+},
+[2690] = {
+["heroic"] = {
+["kills"] = 1,
+["fkDate"] = "2026/01/31",
+["bestDate"] = "2026/01/31",
+["best"] = 63.48799999989569,
+["fkDuration"] = 63.48799999989569,
+},
+},
+[2747] = {
+["heroic"] = {
+["kills"] = 1,
+["fkDate"] = "2026/01/31",
+["bestDate"] = "2026/01/31",
+["best"] = 128.7939999997616,
+["fkDuration"] = 128.7939999997616,
+},
+},
+[2685] = {
+["heroic"] = {
+["kills"] = 1,
+["fkDate"] = "2026/01/31",
+["bestDate"] = "2026/01/31",
+["best"] = 59.45799999963492,
+["fkDuration"] = 59.45799999963492,
+},
+},
+[2684] = {
+["heroic"] = {
+["kills"] = 1,
+["fkDate"] = "2026/01/31",
+["bestDate"] = "2026/01/31",
+["best"] = 55.64699999988079,
+["fkDuration"] = 55.64699999988079,
+},
+},
+},
+}
 BW_FEAT_SHARE = true

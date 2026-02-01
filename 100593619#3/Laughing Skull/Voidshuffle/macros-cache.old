@@ -36,7 +36,7 @@ VER 3 010000000000001A "Holy Word: Seren" "134400"
 END
 VER 3 010000000000000E "Leap of Faith" "134400"
 #showtooltip
-/cast [@cursor,help,nodead,exists][] Leap of Faith
+/cast [@mouseover,help,nodead,exists][] Leap of Faith
 END
 VER 3 010000000000000A "Mass Dispel" "134400"
 #showtooltip
@@ -54,6 +54,7 @@ END
 VER 3 0100000000000007 "PI" "134400"
 #showtooltip
 /cast [@focus,help,nodead,exists][@mouseover,help,nodead,exists][] Power Infusion
+/use 13
 END
 VER 3 0100000000000017 "Plea" "134400"
 #showtooltip

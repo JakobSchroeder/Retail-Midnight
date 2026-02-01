@@ -1,24 +1,19 @@
 
 RaiderIO_Config = {
+["minimapIcon"] = {
+["minimapPos"] = 180,
+["showInCompartment"] = true,
+["hide"] = false,
+["lock"] = false,
+},
 ["profilePoint"] = {
 ["y"] = 0,
 ["x"] = -16,
 ["point"] = "TOPLEFT",
 },
-["minimapIcon"] = {
-["minimapPos"] = 180,
-["showInCompartment"] = true,
-["lock"] = false,
-["hide"] = false,
-},
 }
-RaiderIO_LastCharacter = "us-Readyshuffle-stormrage"
+RaiderIO_LastCharacter = "us-Grapeshuffle-stormrage"
 RaiderIO_MissingCharacters = {
-["us-Aspiration-stormrage"] = true,
-["us-Readyshuffle-stormrage"] = true,
-["us-Brimmus-stormrage"] = true,
-["us-Dogboi-stormrage"] = true,
-["us-Shåmbulånce-stormrage"] = true,
 }
 RaiderIO_MissingServers = {
 }

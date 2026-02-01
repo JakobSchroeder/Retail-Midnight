@@ -52,3 +52,24 @@ VER 3 0000000000000109 "Potion" "134400"
 /use item:212969
 /use item:212263
 END
+VER 3 000000000000011A "Self PWS" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [@player] Power Word: Shield
+END
+VER 3 000000000000011B "SWD" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [@mouseover,harm,nodead,exists][] Shadow Word: Death
+END
+VER 3 000000000000011C "SWP" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [@mouseover,harm,nodead,exists][] Shadow Word: Pain
+END
+VER 3 000000000000011D "Torrent/Halo" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [nochanneling:Void Torrent] Void Torrent
+/cast Halo
+END
+VER 3 000000000000011E "VT" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [@mouseover,harm,nodead,exists][] Vampiric Touch
+END

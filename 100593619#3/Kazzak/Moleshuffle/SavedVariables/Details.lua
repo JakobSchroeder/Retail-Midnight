@@ -8,12 +8,12 @@ _detalhes_database = {
 },
 },
 ["ocd_tracker"] = {
-["show_title"] = true,
+["enabled"] = false,
 ["current_cooldowns"] = {
 },
 ["lines_per_column"] = 12,
 ["group_frames"] = true,
-["show_options"] = false,
+["width"] = 120,
 ["frames"] = {
 ["defensive-raid"] = {
 },
@@ -28,12 +28,12 @@ _detalhes_database = {
 ["defensive-personal"] = {
 },
 },
-["width"] = 120,
+["show_options"] = false,
 ["ignored_cooldowns"] = {
 },
+["framme_locked"] = false,
 ["cooldowns"] = {
 },
-["height"] = 18,
 ["own_frame"] = {
 ["defensive-raid"] = false,
 ["ofensive"] = false,
@@ -41,12 +41,12 @@ _detalhes_database = {
 ["utility"] = false,
 ["defensive-personal"] = false,
 },
-["framme_locked"] = false,
+["height"] = 18,
 ["show_conditions"] = {
 ["only_inside_instance"] = true,
 ["only_in_group"] = true,
 },
-["enabled"] = false,
+["show_title"] = true,
 ["filters"] = {
 ["itemutil"] = false,
 ["itempower"] = false,
@@ -59,7 +59,7 @@ _detalhes_database = {
 ["utility"] = false,
 },
 },
-["combat_counter"] = 8,
+["combat_counter"] = 10,
 ["damage_meter_sessions"] = {
 },
 ["force_font_outline"] = "",
@@ -140,18 +140,17 @@ _detalhes_database = {
 },
 },
 },
-["plugin_database"] = {
-},
+["ignore_nicktag"] = false,
 ["cached_talents"] = {
 },
 ["last_instance_id"] = 0,
 ["data_harvest_for_charsts"] = {
 ["players"] = {
 {
-["playerKey"] = "total",
-["combatObjectContainer"] = 1,
 ["name"] = "Damage of Each Individual Player",
 ["playerOnly"] = true,
+["playerKey"] = "total",
+["combatObjectContainer"] = 1,
 },
 },
 ["totals"] = {
@@ -175,7 +174,7 @@ _detalhes_database = {
 ["reverse"] = false,
 },
 ["active_profile"] = "Luckyone",
-["last_day"] = "24",
+["last_day"] = "01",
 ["mythic_dungeon_currentsaved"] = {
 ["dungeon_name"] = "",
 ["started"] = false,
@@ -189,7 +188,7 @@ _detalhes_database = {
 },
 ["data_harvested_for_charts"] = {
 },
-["damage_meter_session_info"] = {
+["cached_roles"] = {
 },
 ["benchmark_db"] = {
 ["frame"] = {
@@ -197,8 +196,8 @@ _detalhes_database = {
 },
 ["combat_log"] = {
 ["inverse_deathlog_overalldata"] = false,
-["merge_gemstones_1007"] = false,
 ["track_hunter_frenzy"] = false,
+["merge_gemstones_1007"] = false,
 ["merge_critical_heals"] = false,
 ["inverse_deathlog_raid"] = false,
 ["calc_evoker_damage"] = true,
@@ -208,15 +207,22 @@ _detalhes_database = {
 ["SoloTablesSaved"] = {
 ["Mode"] = 1,
 },
-["mythic_plus_log"] = {
+["plugin_database"] = {
+["DETAILS_PLUGIN_COMPARETWO_WINDOW"] = {
+["enabled"] = true,
+["author"] = "Terciob",
+["max_compares"] = 4,
+["compare_type"] = 1,
 },
+},
+["on_death_menu"] = false,
 ["coach"] = {
 ["enabled"] = false,
 ["welcome_panel_pos"] = {
 },
 ["last_coach_name"] = false,
 },
-["announce_damagerecord"] = {
+["announce_firsthit"] = {
 ["enabled"] = true,
 ["channel"] = "SELF",
 },
@@ -225,17 +231,16 @@ _detalhes_database = {
 ["last_version"] = 16,
 },
 ["character_data"] = {
-["logons"] = 4,
+["logons"] = 5,
 },
-["player_stats"] = {
-},
-["last_instance_time"] = 0,
-["last_version"] = "12.0.0 14324",
+["last_realversion"] = 168,
+["last_version"] = "12.0.0 14358",
 ["combat_id"] = 0,
 ["savedStyles"] = {
 },
-["last_realversion"] = 166,
-["ignore_nicktag"] = false,
+["last_instance_time"] = 0,
+["player_stats"] = {
+},
 ["announce_deaths"] = {
 ["enabled"] = false,
 ["last_hits"] = 1,
@@ -270,7 +275,7 @@ _detalhes_database = {
 },
 ["raid_roster"] = {
 },
-["tempo_start"] = 3075514.339,
+["tempo_start"] = 3754664.441,
 ["last_events_tables"] = {
 },
 ["alternate_power"] = {
@@ -366,19 +371,20 @@ _detalhes_database = {
 ["start_time"] = 0,
 ["TimeData"] = {
 },
-["combat_counter"] = 7,
+["combat_counter"] = 9,
 },
-["announce_firsthit"] = {
+["announce_damagerecord"] = {
 ["enabled"] = true,
 ["channel"] = "SELF",
 },
 ["arena_data_headers"] = {
 },
-["on_death_menu"] = false,
+["mythic_plus_log"] = {
+},
 ["announce_cooldowns"] = {
+["enabled"] = false,
 ["ignored_cooldowns"] = {
 },
-["enabled"] = false,
 ["custom"] = "",
 ["channel"] = "RAID",
 },
@@ -386,7 +392,7 @@ _detalhes_database = {
 ["last_difficulty"] = 15,
 ["last_raid"] = "",
 },
-["cached_roles"] = {
+["damage_meter_session_info"] = {
 },
 ["cached_specs"] = {
 ["Player-1305-0CF46F90"] = 258,

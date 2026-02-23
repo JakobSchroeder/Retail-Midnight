@@ -13,32 +13,10 @@ RaiderIO_Config = {
 ["point"] = "TOPLEFT",
 },
 }
-RaiderIO_LastCharacter = "eu-Ghostshuffle-laughing-skull"
+RaiderIO_LastCharacter = "eu-Bobshuffle-laughing-skull"
 RaiderIO_MissingCharacters = {
-["eu-Brighthorn-chromaggus"] = true,
-["eu-Shuggy-sunstrider"] = true,
-["eu-Ghostshuffle-laughing-skull"] = true,
-["eu-Dracus-sunstrider"] = true,
-["eu-Thanatalhia-archimonde"] = true,
-["eu-Lövedöll-balnazzar"] = true,
-["eu-Hyrgonar-stormscale"] = true,
-["eu-Boykaz-balnazzar"] = true,
-["eu-Avoidshuffle-laughing-skull"] = true,
-["eu-party3-laughing-skull"] = true,
-["eu-Hellboi-shattered-halls"] = true,
-["eu-Afairy-outland"] = true,
-["eu-Anathemä-outland"] = true,
-["eu-Rikkieej-sunstrider"] = true,
-["eu-Daedaluss-balnazzar"] = true,
-["eu-Geffo-chromaggus"] = true,
-["eu-Roxy-daggerspine"] = true,
-["eu-Beth-sunstrider"] = true,
-["eu-Ðarline-hyjal"] = true,
-["eu-Pufpaf-boulderfist"] = true,
-["eu-Cassandra-chromaggus"] = true,
-["eu-Anicia-ahnqiraj"] = true,
-["eu-Facce-chromaggus"] = true,
-["eu-Montichristo-chromaggus"] = true,
+["eu-Eclypsis-shattered-halls"] = true,
+["eu-Bobshuffle-laughing-skull"] = true,
 }
 RaiderIO_MissingServers = {
 }

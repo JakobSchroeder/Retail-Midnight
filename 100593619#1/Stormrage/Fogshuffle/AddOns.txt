@@ -113,3 +113,4 @@ ElvUI_BuffHighlight: disabled
 ElvUI_RatioMinimapAuras: disabled
 kExtraBossFrames: disabled
 OPie_Classic: disabled
+Blizzard_CombatText: enabled

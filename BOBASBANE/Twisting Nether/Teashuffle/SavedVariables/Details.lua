@@ -31,9 +31,8 @@ _detalhes_database = {
 ["show_options"] = false,
 ["ignored_cooldowns"] = {
 },
-["cooldowns"] = {
-},
 ["height"] = 18,
+["framme_locked"] = false,
 ["own_frame"] = {
 ["defensive-raid"] = false,
 ["ofensive"] = false,
@@ -41,7 +40,8 @@ _detalhes_database = {
 ["utility"] = false,
 ["defensive-personal"] = false,
 },
-["framme_locked"] = false,
+["cooldowns"] = {
+},
 ["show_conditions"] = {
 ["only_inside_instance"] = true,
 ["only_in_group"] = true,
@@ -59,7 +59,7 @@ _detalhes_database = {
 ["utility"] = false,
 },
 },
-["combat_counter"] = 2,
+["combat_counter"] = 6,
 ["damage_meter_sessions"] = {
 },
 ["force_font_outline"] = "",
@@ -140,8 +140,7 @@ _detalhes_database = {
 },
 },
 },
-["SoloTablesSaved"] = {
-["Mode"] = 1,
+["data_harvested_for_charts"] = {
 },
 ["cached_talents"] = {
 },
@@ -176,6 +175,7 @@ _detalhes_database = {
 ["reverse"] = false,
 },
 ["active_profile"] = "Luckyone",
+["last_day"] = "03",
 ["mythic_dungeon_currentsaved"] = {
 ["dungeon_name"] = "",
 ["started"] = false,
@@ -187,18 +187,14 @@ _detalhes_database = {
 ["dungeon_zone_id"] = 0,
 ["previous_boss_killed_at"] = 0,
 },
-["on_death_menu"] = false,
 ["benchmark_db"] = {
 ["frame"] = {
 },
 },
 ["cached_roles"] = {
 },
-["coach"] = {
-["enabled"] = false,
-["welcome_panel_pos"] = {
-},
-["last_coach_name"] = false,
+["SoloTablesSaved"] = {
+["Mode"] = 1,
 },
 ["combat_log"] = {
 ["inverse_deathlog_overalldata"] = false,
@@ -210,31 +206,37 @@ _detalhes_database = {
 ["evoker_show_realtimedps"] = false,
 ["inverse_deathlog_mplus"] = false,
 },
+["on_death_menu"] = false,
+["mythic_plus_log"] = {
+},
 ["announce_damagerecord"] = {
 ["enabled"] = true,
 ["channel"] = "SELF",
 },
-["mythic_plus_log"] = {
-},
-["nick_tag_cache"] = {
-["nextreset"] = 1770568881,
-["last_version"] = 16,
+["announce_firsthit"] = {
+["enabled"] = true,
+["channel"] = "SELF",
 },
 ["character_data"] = {
-["logons"] = 1,
+["logons"] = 3,
+},
+["player_stats"] = {
 },
 ["ignore_nicktag"] = false,
-["plugin_database"] = {
-},
-["data_harvested_for_charts"] = {
-},
-["last_realversion"] = 166,
-["last_version"] = "12.0.0 14324",
+["last_realversion"] = 168,
+["last_version"] = "12.0.0 14358",
 ["combat_id"] = 0,
 ["savedStyles"] = {
 },
 ["last_instance_time"] = 0,
-["last_day"] = "24",
+["plugin_database"] = {
+["DETAILS_PLUGIN_COMPARETWO_WINDOW"] = {
+["enabled"] = true,
+["author"] = "Terciob",
+["max_compares"] = 4,
+["compare_type"] = 1,
+},
+},
 ["announce_deaths"] = {
 ["enabled"] = false,
 ["last_hits"] = 1,
@@ -269,7 +271,7 @@ _detalhes_database = {
 },
 ["raid_roster"] = {
 },
-["tempo_start"] = 3066003.475,
+["tempo_start"] = 3940805.764,
 ["last_events_tables"] = {
 },
 ["alternate_power"] = {
@@ -365,15 +367,19 @@ _detalhes_database = {
 ["start_time"] = 0,
 ["TimeData"] = {
 },
-["combat_counter"] = 1,
+["combat_counter"] = 5,
 },
-["player_stats"] = {
+["nick_tag_cache"] = {
+["nextreset"] = 1770568881,
+["last_version"] = 16,
 },
 ["arena_data_headers"] = {
 },
-["announce_firsthit"] = {
-["enabled"] = true,
-["channel"] = "SELF",
+["coach"] = {
+["enabled"] = false,
+["welcome_panel_pos"] = {
+},
+["last_coach_name"] = false,
 },
 ["announce_cooldowns"] = {
 ["enabled"] = false,

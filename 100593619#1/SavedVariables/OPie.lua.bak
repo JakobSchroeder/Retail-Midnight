@@ -3,9 +3,9 @@ OneRing_Config = nil
 OPie_SavedData = {
 ["CharProfiles"] = {
 },
-["_OPieVersion"] = "7.11.3 (4.137)",
+["_OPieVersion"] = "8.1.4 (4.138)",
 ["_StoreVersion"] = 122,
-["_GameVersion"] = "12.0.0",
+["_GameLocale"] = "enUS",
 ["_StoreVersion2"] = 122,
 ["ProfileStorage"] = {
 ["default"] = {
@@ -30,22 +30,22 @@ OPie_SavedData = {
 ["Mounts"] = {
 {
 "mount",
-1039,
+382,
 ["sliceToken"] = "ABueRGhRvRw",
 },
 {
 "mount",
-1729,
+1513,
 ["sliceToken"] = "ABueRGhRvR1",
 },
 {
 "mount",
-1818,
+2492,
 ["sliceToken"] = "ABueRGhRvRr",
 },
 {
 "mount",
-460,
+382,
 ["sliceToken"] = "ABueRGhRvRe",
 },
 ["name"] = "Mounts",
@@ -88,5 +88,5 @@ OPie_SavedData = {
 },
 },
 },
-["_GameLocale"] = "enUS",
+["_GameVersion"] = "12.0.1",
 }

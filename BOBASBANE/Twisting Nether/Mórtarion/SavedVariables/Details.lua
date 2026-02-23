@@ -7,8 +7,8 @@ _detalhes_database = {
 ["tabelas"] = {
 {
 {
-["combatId"] = 2,
 ["tipo"] = 2,
+["combatId"] = 2,
 ["_ActorTable"] = {
 {
 ["flag_original"] = 1298,
@@ -25,28 +25,27 @@ _detalhes_database = {
 ["on_hold"] = false,
 ["total_extra"] = 0,
 ["serial"] = "Player-3674-05A2BFA9",
+["colocacao"] = 1,
 ["mrating"] = 0,
-["aID"] = "3674-05A2BFA9",
-["boss_fight_component"] = true,
-["damage_from"] = {
-},
+["specIcon"] = 135773,
 ["targets"] = {
 },
-["specIcon"] = 135773,
-["grupo"] = true,
 ["friendlyfire_total"] = 0,
 ["raid_targets"] = {
 },
+["tipo"] = 1,
 ["end_time"] = 1769956376,
-["nome"] = "Mórtarion",
+["aID"] = "3674-05A2BFA9",
+["friendlyfire"] = {
+},
+["boss_fight_component"] = true,
 ["spells"] = {
-["tipo"] = 2,
 ["_ActorTable"] = {
 [49184] = {
 ["c_amt"] = 0,
 ["b_amt"] = 0,
 ["g_amt"] = 0,
-["n_max"] = 0,
+["b_dmg"] = 0,
 ["targets"] = {
 },
 ["n_total"] = 0,
@@ -65,49 +64,50 @@ _detalhes_database = {
 ["successful_casted"] = 0,
 ["c_total"] = 0,
 ["n_amt"] = 0,
-["b_dmg"] = 0,
+["n_max"] = 0,
 ["r_amt"] = 0,
 },
 },
+["tipo"] = 2,
 },
-["friendlyfire"] = {
+["grupo"] = true,
+["last_dps"] = 2979.99634633979,
+["damage_from"] = {
 },
-["last_dps"] = 8700000,
 ["custom"] = 0,
-["tipo"] = 1,
+["last_event"] = 0,
 ["damage_taken"] = 0.006028,
 ["start_time"] = 1769956376,
 ["delay"] = 0,
-["last_event"] = 0,
+["nome"] = "Mórtarion",
 },
 },
 },
 {
-["combatId"] = 2,
 ["tipo"] = 3,
+["combatId"] = 2,
 ["_ActorTable"] = {
 },
 },
 {
-["combatId"] = 2,
 ["tipo"] = 7,
+["combatId"] = 2,
 ["_ActorTable"] = {
 },
 },
 {
-["combatId"] = 2,
 ["tipo"] = 9,
+["combatId"] = 2,
 ["_ActorTable"] = {
 },
 },
 {
-["combatId"] = 2,
 ["tipo"] = 2,
+["combatId"] = 2,
 ["_ActorTable"] = {
 },
 },
-["raid_roster"] = {
-},
+["boss_hp"] = 1,
 ["tempo_start"] = 1769956376,
 ["last_events_tables"] = {
 },
@@ -133,10 +133,10 @@ _detalhes_database = {
 {
 ["buff_uptime"] = 0,
 ["ress"] = 0,
-["debuff_uptime"] = 0,
 ["cooldowns_defensive"] = 0,
-["interrupt"] = 0,
 ["dispell"] = 0,
+["interrupt"] = 0,
+["debuff_uptime"] = 0,
 ["cc_break"] = 0,
 ["dead"] = 0,
 },
@@ -169,9 +169,10 @@ _detalhes_database = {
 ["combat_id"] = 2,
 ["timeStart"] = 1769956376,
 ["overall_added"] = true,
-["boss_hp"] = 1,
+["raid_roster"] = {
+},
 ["is_challenge"] = false,
-["frags"] = {
+["spells_cast_timeline"] = {
 },
 ["is_boss"] = {
 ["diff_string"] = "Heroic",
@@ -200,10 +201,10 @@ _detalhes_database = {
 {
 ["buff_uptime"] = 0,
 ["ress"] = 0,
-["debuff_uptime"] = 0,
 ["cooldowns_defensive"] = 0,
-["interrupt"] = 0,
 ["dispell"] = 0,
+["interrupt"] = 0,
+["debuff_uptime"] = 0,
 ["cc_break"] = 0,
 ["dead"] = 0,
 },
@@ -213,13 +214,13 @@ _detalhes_database = {
 1,
 1,
 },
+["damage_section"] = {
+},
 ["heal_section"] = {
 },
 ["heal"] = {
 {
 },
-},
-["damage_section"] = {
 },
 ["damage"] = {
 {
@@ -230,13 +231,13 @@ _detalhes_database = {
 ["start_time"] = 3749453.462,
 ["TimeData"] = {
 },
-["spells_cast_timeline"] = {
+["frags"] = {
 },
 },
 {
 {
-["combatId"] = 1,
 ["tipo"] = 2,
+["combatId"] = 1,
 ["_ActorTable"] = {
 {
 ["flag_original"] = 1298,
@@ -250,32 +251,31 @@ _detalhes_database = {
 ["dps_started"] = false,
 ["total"] = 146163,
 ["spec"] = 251,
+["colocacao"] = 1,
 ["on_hold"] = false,
 ["total_extra"] = 0,
 ["serial"] = "Player-3674-05A2BFA9",
-["colocacao"] = 1,
 ["mrating"] = 0,
-["aID"] = "3674-05A2BFA9",
-["boss_fight_component"] = true,
-["damage_from"] = {
-},
+["specIcon"] = 135773,
 ["targets"] = {
 },
-["specIcon"] = 135773,
-["grupo"] = true,
 ["friendlyfire_total"] = 0,
 ["raid_targets"] = {
 },
+["damage_from"] = {
+},
 ["end_time"] = 1769956304,
-["nome"] = "Mórtarion",
+["aID"] = "3674-05A2BFA9",
+["friendlyfire"] = {
+},
+["boss_fight_component"] = true,
 ["spells"] = {
-["tipo"] = 2,
 ["_ActorTable"] = {
 [49184] = {
 ["c_amt"] = 0,
 ["b_amt"] = 0,
 ["g_amt"] = 0,
-["n_max"] = 0,
+["b_dmg"] = 0,
 ["targets"] = {
 },
 ["n_total"] = 0,
@@ -294,14 +294,14 @@ _detalhes_database = {
 ["successful_casted"] = 0,
 ["c_total"] = 0,
 ["n_amt"] = 0,
-["b_dmg"] = 0,
+["n_max"] = 0,
 ["r_amt"] = 0,
 },
 [6603] = {
 ["c_amt"] = 0,
 ["b_amt"] = 0,
 ["g_amt"] = 0,
-["n_max"] = 0,
+["b_dmg"] = 0,
 ["targets"] = {
 },
 ["n_total"] = 0,
@@ -320,14 +320,14 @@ _detalhes_database = {
 ["successful_casted"] = 0,
 ["c_total"] = 0,
 ["n_amt"] = 0,
-["b_dmg"] = 0,
+["n_max"] = 0,
 ["r_amt"] = 0,
 },
 [55095] = {
 ["c_amt"] = 0,
 ["b_amt"] = 0,
 ["g_amt"] = 0,
-["n_max"] = 0,
+["b_dmg"] = 0,
 ["targets"] = {
 },
 ["n_total"] = 0,
@@ -346,44 +346,45 @@ _detalhes_database = {
 ["successful_casted"] = 0,
 ["c_total"] = 0,
 ["n_amt"] = 0,
-["b_dmg"] = 0,
+["n_max"] = 0,
 ["r_amt"] = 0,
 },
 },
+["tipo"] = 2,
 },
-["friendlyfire"] = {
-},
+["grupo"] = true,
 ["last_dps"] = 28925.98456454257,
-["custom"] = 0,
 ["tipo"] = 1,
+["custom"] = 0,
+["last_event"] = 0,
 ["damage_taken"] = 0.001898,
 ["start_time"] = 1769956304,
 ["delay"] = 0,
-["last_event"] = 0,
+["nome"] = "Mórtarion",
 },
 },
 },
 {
-["combatId"] = 1,
 ["tipo"] = 3,
+["combatId"] = 1,
 ["_ActorTable"] = {
 },
 },
 {
-["combatId"] = 1,
 ["tipo"] = 7,
+["combatId"] = 1,
 ["_ActorTable"] = {
 },
 },
 {
-["combatId"] = 1,
 ["tipo"] = 9,
+["combatId"] = 1,
 ["_ActorTable"] = {
 },
 },
 {
-["combatId"] = 1,
 ["tipo"] = 2,
+["combatId"] = 1,
 ["_ActorTable"] = {
 },
 },
@@ -416,10 +417,10 @@ _detalhes_database = {
 {
 ["buff_uptime"] = 0,
 ["ress"] = 0,
-["debuff_uptime"] = 0,
 ["cooldowns_defensive"] = 0,
-["interrupt"] = 0,
 ["dispell"] = 0,
+["interrupt"] = 0,
+["debuff_uptime"] = 0,
 ["cc_break"] = 0,
 ["dead"] = 0,
 },
@@ -454,20 +455,21 @@ _detalhes_database = {
 ["mapId"] = 1007,
 ["combat_id"] = 1,
 ["timeStart"] = 1769956305,
-["playing_solo"] = true,
 ["boss_hp"] = 1,
-["is_challenge"] = false,
 ["frags"] = {
+},
+["is_challenge"] = false,
+["spells_cast_timeline"] = {
 },
 ["is_boss"] = {
 ["diff_string"] = "Heroic",
 ["index"] = 1,
 ["zone"] = "Scholomance",
-["encounter"] = "Instructor Chillheart",
+["id"] = 1426,
 ["mapid"] = 1007,
 ["name"] = "Instructor Chillheart",
 ["ej_instance_id"] = 0,
-["id"] = 1426,
+["encounter"] = "Instructor Chillheart",
 ["unixtime"] = 1769956305,
 ["diff"] = 2,
 },
@@ -485,10 +487,10 @@ _detalhes_database = {
 {
 ["buff_uptime"] = 0,
 ["ress"] = 0,
-["debuff_uptime"] = 0,
 ["cooldowns_defensive"] = 0,
-["interrupt"] = 0,
 ["dispell"] = 0,
+["interrupt"] = 0,
+["debuff_uptime"] = 0,
 ["cc_break"] = 0,
 ["dead"] = 0,
 },
@@ -498,13 +500,13 @@ _detalhes_database = {
 1,
 1,
 },
+["damage_section"] = {
+},
 ["heal_section"] = {
 },
 ["heal"] = {
 {
 },
-},
-["damage_section"] = {
 },
 ["damage"] = {
 {
@@ -515,18 +517,17 @@ _detalhes_database = {
 ["start_time"] = 3749413.308,
 ["TimeData"] = {
 },
-["spells_cast_timeline"] = {
-},
+["playing_solo"] = true,
 },
 },
 },
 ["ocd_tracker"] = {
-["show_title"] = true,
+["enabled"] = false,
 ["current_cooldowns"] = {
 },
 ["lines_per_column"] = 12,
 ["group_frames"] = true,
-["show_options"] = false,
+["width"] = 120,
 ["frames"] = {
 ["defensive-raid"] = {
 },
@@ -541,12 +542,11 @@ _detalhes_database = {
 ["defensive-personal"] = {
 },
 },
-["width"] = 120,
+["show_options"] = false,
 ["ignored_cooldowns"] = {
 },
+["height"] = 18,
 ["framme_locked"] = false,
-["cooldowns"] = {
-},
 ["own_frame"] = {
 ["defensive-raid"] = false,
 ["ofensive"] = false,
@@ -554,12 +554,13 @@ _detalhes_database = {
 ["utility"] = false,
 ["defensive-personal"] = false,
 },
-["height"] = 18,
+["cooldowns"] = {
+},
 ["show_conditions"] = {
 ["only_inside_instance"] = true,
 ["only_in_group"] = true,
 },
-["enabled"] = false,
+["show_title"] = true,
 ["filters"] = {
 ["itemutil"] = false,
 ["itempower"] = false,
@@ -574,72 +575,6 @@ _detalhes_database = {
 },
 ["combat_counter"] = 10,
 ["damage_meter_sessions"] = {
-{
-["endUnixTime"] = 1769956305,
-["endTime"] = 3749419.174,
-["added"] = true,
-["endDate"] = "15:31:45",
-["startUnixTime"] = 1769956299,
-["startDate"] = "15:31:39",
-["startTime"] = 3749413.308,
-["sessionId"] = 1,
-["detailsId"] = "(!) Instructor Chillheart1",
-},
-{
-["endUnixTime"] = 1769956339,
-["endTime"] = 3749453.462,
-["added"] = false,
-["endDate"] = "15:32:19",
-["startUnixTime"] = 1769956331,
-["startDate"] = "15:32:11",
-["startTime"] = 3749445.539,
-["sessionId"] = 2,
-["detailsId"] = "2",
-},
-{
-["endUnixTime"] = 1769956344,
-["endTime"] = 3749458.165,
-["added"] = true,
-["endDate"] = "15:32:24",
-["startUnixTime"] = 1769956339,
-["startDate"] = "15:32:19",
-["startTime"] = 3749453.462,
-["sessionId"] = 3,
-["detailsId"] = "(!) Jandice Barov3",
-},
-{
-["endUnixTime"] = 1769956376,
-["endTime"] = 3749490.636,
-["added"] = true,
-["endDate"] = "15:32:56",
-["startUnixTime"] = 1769956344,
-["startDate"] = "15:32:24",
-["startTime"] = 3749458.165,
-["sessionId"] = 4,
-["detailsId"] = "Brittle Skeleton4",
-},
-{
-["endUnixTime"] = 1769956384,
-["endTime"] = 3749498.332,
-["added"] = true,
-["endDate"] = "15:33:04",
-["startUnixTime"] = 1769956383,
-["startDate"] = "15:33:03",
-["startTime"] = 3749497.229,
-["sessionId"] = 5,
-["detailsId"] = "(!) Rattlegore5",
-},
-{
-["endUnixTime"] = 1769956467,
-["endTime"] = 3749581.658,
-["added"] = false,
-["endDate"] = "15:34:27",
-["startUnixTime"] = 1769956454,
-["startDate"] = "15:34:14",
-["startTime"] = 3749568.894,
-["sessionId"] = 6,
-["detailsId"] = "6",
-},
 },
 ["force_font_outline"] = "",
 ["tabela_instancias"] = {
@@ -719,17 +654,18 @@ _detalhes_database = {
 },
 },
 },
-["last_day"] = "01",
+["data_harvested_for_charts"] = {
+},
 ["cached_talents"] = {
 },
 ["last_instance_id"] = 1007,
 ["data_harvest_for_charsts"] = {
 ["players"] = {
 {
-["playerKey"] = "total",
-["combatObjectContainer"] = 1,
 ["name"] = "Damage of Each Individual Player",
 ["playerOnly"] = true,
+["playerKey"] = "total",
+["combatObjectContainer"] = 1,
 },
 },
 ["totals"] = {
@@ -753,6 +689,7 @@ _detalhes_database = {
 ["reverse"] = false,
 },
 ["active_profile"] = "Luckyone",
+["last_day"] = "03",
 ["mythic_dungeon_currentsaved"] = {
 ["dungeon_name"] = "",
 ["started"] = false,
@@ -764,45 +701,48 @@ _detalhes_database = {
 ["dungeon_zone_id"] = 0,
 ["previous_boss_killed_at"] = 0,
 },
-["SoloTablesSaved"] = {
-["Mode"] = 1,
-},
 ["benchmark_db"] = {
 ["frame"] = {
 },
 },
-["damage_meter_session_info"] = {
+["cached_roles"] = {
 },
-["on_death_menu"] = false,
+["SoloTablesSaved"] = {
+["Mode"] = 1,
+},
 ["combat_log"] = {
 ["inverse_deathlog_overalldata"] = false,
-["merge_gemstones_1007"] = false,
 ["track_hunter_frenzy"] = false,
+["merge_gemstones_1007"] = false,
 ["merge_critical_heals"] = false,
 ["inverse_deathlog_raid"] = false,
 ["calc_evoker_damage"] = true,
 ["evoker_show_realtimedps"] = false,
 ["inverse_deathlog_mplus"] = false,
 },
-["coach"] = {
-["enabled"] = false,
-["welcome_panel_pos"] = {
-},
-["last_coach_name"] = false,
-},
+["on_death_menu"] = false,
 ["mythic_plus_log"] = {
+},
+["announce_damagerecord"] = {
+["enabled"] = true,
+["channel"] = "SELF",
 },
 ["announce_firsthit"] = {
 ["enabled"] = true,
 ["channel"] = "SELF",
 },
-["nick_tag_cache"] = {
-["nextreset"] = 1770568766,
-["last_version"] = 16,
+["character_data"] = {
+["logons"] = 3,
 },
 ["player_stats"] = {
 },
 ["ignore_nicktag"] = false,
+["last_realversion"] = 168,
+["last_version"] = "12.0.0 14358",
+["combat_id"] = 3,
+["savedStyles"] = {
+},
+["last_instance_time"] = 1769956283,
 ["plugin_database"] = {
 ["DETAILS_PLUGIN_COMPARETWO_WINDOW"] = {
 ["enabled"] = true,
@@ -810,14 +750,6 @@ _detalhes_database = {
 ["max_compares"] = 4,
 ["compare_type"] = 1,
 },
-},
-["last_instance_time"] = 1769956283,
-["last_version"] = "12.0.0 14358",
-["combat_id"] = 3,
-["savedStyles"] = {
-},
-["last_realversion"] = 168,
-["data_harvested_for_charts"] = {
 },
 ["announce_deaths"] = {
 ["enabled"] = false,
@@ -841,30 +773,29 @@ _detalhes_database = {
 ["dps_started"] = false,
 ["total"] = 349132.004405,
 ["spec"] = 251,
-["serial"] = "Player-3674-05A2BFA9",
-["on_hold"] = false,
+["friendlyfire"] = {
+},
 ["total_extra"] = 0,
-["aID"] = "3674-05A2BFA9",
+["serial"] = "Player-3674-05A2BFA9",
 ["mrating"] = 0,
-["boss_fight_component"] = true,
 ["damage_from"] = {
 },
 ["targets"] = {
 },
-["grupo"] = true,
 ["friendlyfire_total"] = 0,
 ["raid_targets"] = {
 },
 ["end_time"] = 1769956376,
-["nome"] = "Mórtarion",
+["on_hold"] = false,
+["aID"] = "3674-05A2BFA9",
+["boss_fight_component"] = true,
 ["spells"] = {
-["tipo"] = 2,
 ["_ActorTable"] = {
 [49184] = {
 ["c_amt"] = 0,
 ["b_amt"] = 0,
 ["g_amt"] = 0,
-["n_max"] = 0,
+["b_dmg"] = 0,
 ["targets"] = {
 },
 ["n_total"] = 0,
@@ -883,14 +814,14 @@ _detalhes_database = {
 ["successful_casted"] = 0,
 ["c_total"] = 0,
 ["n_amt"] = 0,
-["b_dmg"] = 0,
+["n_max"] = 0,
 ["r_amt"] = 0,
 },
 [6603] = {
 ["c_amt"] = 0,
 ["b_amt"] = 0,
 ["g_amt"] = 0,
-["n_max"] = 0,
+["b_dmg"] = 0,
 ["targets"] = {
 },
 ["n_total"] = 0,
@@ -909,20 +840,21 @@ _detalhes_database = {
 ["successful_casted"] = 0,
 ["c_total"] = 0,
 ["n_amt"] = 0,
-["b_dmg"] = 0,
+["n_max"] = 0,
 ["r_amt"] = 0,
 },
 },
+["tipo"] = 2,
 },
-["friendlyfire"] = {
-},
-["last_dps"] = 0,
-["custom"] = 0,
+["grupo"] = true,
 ["tipo"] = 1,
+["nome"] = "Mórtarion",
+["custom"] = 0,
+["last_event"] = 0,
 ["damage_taken"] = 0.018944,
 ["start_time"] = 1769956373,
 ["delay"] = 0,
-["last_event"] = 0,
+["last_dps"] = 0,
 },
 },
 },
@@ -946,21 +878,15 @@ _detalhes_database = {
 ["_ActorTable"] = {
 },
 },
-["raid_roster"] = {
-},
 ["boss_hp"] = 1,
 ["tempo_start"] = 1769956304,
-["cleu_timeline"] = {
+["last_events_tables"] = {
 },
 ["alternate_power"] = {
 },
-["last_events_tables"] = {
-},
 ["bossTimers"] = {
 },
-["cleu_events"] = {
-["n"] = 1,
-},
+["combat_counter"] = 6,
 ["playerTalents"] = {
 },
 ["totals"] = {
@@ -976,30 +902,16 @@ _detalhes_database = {
 {
 ["buff_uptime"] = 0,
 ["ress"] = 0,
-["debuff_uptime"] = 0,
 ["cooldowns_defensive"] = 0,
-["interrupt"] = 0,
 ["dispell"] = 0,
+["interrupt"] = 0,
+["debuff_uptime"] = 0,
 ["cc_break"] = 0,
 ["dead"] = 0,
 },
 ["frags_total"] = 0,
 ["voidzone_damage"] = 0,
 },
-["player_last_events"] = {
-},
-["end_time"] = 3749490.636,
-["frags_need_refresh"] = false,
-["aura_timeline"] = {
-},
-["compressed_charts"] = {
-},
-["data_inicio"] = "15:32:19",
-["amountCasts"] = {
-},
-["mapId"] = 1007,
-["combat_counter"] = 6,
-["zoneName"] = "Scholomance",
 ["totals_grupo"] = {
 349132,
 0,
@@ -1013,33 +925,50 @@ _detalhes_database = {
 {
 ["buff_uptime"] = 0,
 ["ress"] = 0,
-["debuff_uptime"] = 0,
 ["cooldowns_defensive"] = 0,
-["interrupt"] = 0,
 ["dispell"] = 0,
+["interrupt"] = 0,
+["debuff_uptime"] = 0,
 ["cc_break"] = 0,
 ["dead"] = 0,
 },
+},
+["frags_need_refresh"] = false,
+["overall_refreshed"] = true,
+["amountCasts"] = {
+},
+["zoneName"] = "Scholomance",
+["data_fim"] = "15:32:56",
+["cleu_timeline"] = {
+},
+["trinketProcs"] = {
+},
+["aura_timeline"] = {
+},
+["compressed_charts"] = {
 },
 ["PhaseData"] = {
 {
 1,
 1,
 },
+["damage_section"] = {
+},
 ["heal_section"] = {
 },
 ["heal"] = {
 },
-["damage_section"] = {
-},
 ["damage"] = {
 },
 },
-["is_challenge"] = false,
-["frags"] = {
+["end_time"] = 3749490.636,
+["mapId"] = 1007,
+["raid_roster"] = {
 },
-["data_fim"] = "15:32:56",
-["overall_enemy_name"] = "-- x -- x --",
+["cleu_events"] = {
+["n"] = 1,
+},
+["is_challenge"] = false,
 ["segments_added"] = {
 {
 ["elapsed"] = 32.47099999990314,
@@ -1054,7 +983,11 @@ _detalhes_database = {
 ["clock"] = "15:32:19",
 },
 },
-["trinketProcs"] = {
+["player_last_events"] = {
+},
+["overall_enemy_name"] = "-- x -- x --",
+["data_inicio"] = "15:32:19",
+["frags"] = {
 },
 ["start_time"] = 3749420.991,
 ["TimeData"] = {
@@ -1062,19 +995,22 @@ _detalhes_database = {
 ["spells_cast_timeline"] = {
 },
 },
-["character_data"] = {
-["logons"] = 2,
+["nick_tag_cache"] = {
+["nextreset"] = 1770568766,
+["last_version"] = 16,
 },
 ["arena_data_headers"] = {
 },
-["announce_damagerecord"] = {
-["enabled"] = true,
-["channel"] = "SELF",
+["coach"] = {
+["enabled"] = false,
+["welcome_panel_pos"] = {
+},
+["last_coach_name"] = false,
 },
 ["announce_cooldowns"] = {
+["enabled"] = false,
 ["ignored_cooldowns"] = {
 },
-["enabled"] = false,
 ["custom"] = "",
 ["channel"] = "RAID",
 },
@@ -1082,7 +1018,7 @@ _detalhes_database = {
 ["last_difficulty"] = 15,
 ["last_raid"] = "",
 },
-["cached_roles"] = {
+["damage_meter_session_info"] = {
 },
 ["cached_specs"] = {
 ["Player-3674-05A2BFA9"] = 251,

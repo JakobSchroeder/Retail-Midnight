@@ -6,3 +6,10 @@ X: 0
 Y: 0
 W: 388
 H: 250
+Frame: BetterFriendsFrame
+FrameLevel: 1
+Anchor: CENTER
+X: 0
+Y: 0
+W: 415
+H: 570

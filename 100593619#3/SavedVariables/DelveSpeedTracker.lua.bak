@@ -1,0 +1,14 @@
+
+DelveSpeedTrackerDB = {
+["helpTipShown"] = true,
+["framePosition"] = {
+"TOPLEFT",
+231.3,
+-90.3,
+},
+["windowShown"] = false,
+["minimap"] = {
+["minimapPos"] = 220,
+["hide"] = false,
+},
+}

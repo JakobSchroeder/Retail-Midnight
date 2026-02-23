@@ -1,5 +1,97 @@
 
 WarpDepleteDB = {
+["global"] = {
+["splits"] = {
+[378] = {
+[12] = {
+["current"] = {
+558,
+858,
+1108,
+1340,
+["forces"] = 1183,
+["challenge"] = 1339930,
+},
+["best"] = {
+558,
+858,
+1108,
+1340,
+["forces"] = 1183,
+["challenge"] = 1339930,
+},
+["currentDiff"] = {
+},
+},
+},
+[391] = {
+[12] = {
+["current"] = {
+379,
+699,
+1061,
+1358,
+1884,
+["forces"] = 1163,
+["challenge"] = 1884003,
+},
+["best"] = {
+379,
+699,
+1061,
+1358,
+1884,
+["forces"] = 1163,
+["challenge"] = 1884003,
+},
+["currentDiff"] = {
+},
+},
+},
+[525] = {
+[12] = {
+["current"] = {
+992,
+525,
+1341,
+1784,
+["forces"] = 1550,
+["challenge"] = 1784675,
+},
+["best"] = {
+992,
+525,
+1341,
+1784,
+["forces"] = 1550,
+["challenge"] = 1784675,
+},
+["currentDiff"] = {
+},
+},
+[10] = {
+["current"] = {
+622,
+382,
+870,
+1183,
+["forces"] = 1044,
+["challenge"] = 1183643,
+},
+["best"] = {
+622,
+382,
+870,
+1183,
+["forces"] = 1044,
+["challenge"] = 1183643,
+},
+["currentDiff"] = {
+},
+},
+},
+},
+},
 ["profileKeys"] = {
 ["Necroshuffle - Kazzak"] = "Default",
 ["Soulshuffle - Laughing Skull"] = "Default",
@@ -55,13 +147,13 @@ WarpDepleteDB = {
 ["bar2Texture"] = "Minimalist",
 ["keyDetailsFontSize"] = 10,
 ["frameY"] = -185.0000457763672,
-["forcesOverlayTexture"] = "Minimalist",
-["bar3FontSize"] = 11,
+["deathsFontSize"] = 15,
 ["forcesFontSize"] = 11,
+["bar3FontSize"] = 11,
 ["showDeathsTooltip"] = false,
 ["bar1Texture"] = "Minimalist",
 ["bar3Texture"] = "Minimalist",
-["deathsFontSize"] = 15,
+["forcesOverlayTexture"] = "Minimalist",
 ["barPadding"] = 4,
 ["forcesTexture"] = "Minimalist",
 ["barWidth"] = 300,

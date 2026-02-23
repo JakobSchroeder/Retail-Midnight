@@ -4,187 +4,125 @@ LiquidRemindersSaved = {
 [10] = {
 ["DEATHKNIGHT"] = {
 {
-[433895] = "vampiric strike",
-[206931] = "blooddrinker",
-[43265] = "death and decay",
+[195292] = "death's caress",
+[50842] = "blood boil",
+[49028] = "dancing rune weapon",
+[195182] = "marrowrend",
+[1263824] = "consumption",
 [108199] = "gorefiend's grasp",
 [55233] = "vampiric blood",
-[194679] = "rune tap",
-[206940] = "mark of blood",
-[219809] = "tombstone",
-[195292] = "death's caress",
-[439843] = "reaper's mark",
-[50842] = "blood boil",
 [316239] = "rune strike",
-[221699] = "blood tap",
-[274156] = "consumption",
-[49028] = "dancing rune weapon",
+[439843] = "reaper's mark",
 [206930] = "heart strike",
-[194844] = "bonestorm",
-[195182] = "marrowrend",
 [1263569] = "abomination limb",
-[1263824] = "consumption",
-[203173] = "death chain",
-[207018] = "murderous intent",
 },
 {
-[49184] = "howling blast",
-[56222] = "dark command",
-[43265] = "death and decay",
 [1249658] = "breath of sindragosa",
-[207230] = "frostscythe",
-[152279] = "breath of sindragosa",
-[51271] = "pillar of frost",
-[439843] = "reaper's mark",
-[279302] = "frostwyrm's fury",
-[316239] = "rune strike",
-[194913] = "glacial advance",
-[49143] = "frost strike",
 [49020] = "obliterate",
-[57330] = "horn of winter",
+[51271] = "pillar of frost",
 [196770] = "remorseless winter",
+[49184] = "howling blast",
 [47568] = "empower rune weapon",
-[47476] = "strangulate",
-[305392] = "chill streak",
+[279302] = "frostwyrm's fury",
+[49143] = "frost strike",
+[316239] = "rune strike",
+[439843] = "reaper's mark",
+[194913] = "glacial advance",
+[207230] = "frostscythe",
 [1228433] = "frostbane",
 },
 {
-[433895] = "vampiric strike",
-[56222] = "dark command",
-[390279] = "vile contagion",
-[46584] = "raise dead",
-[77606] = "dark simulacrum",
-[1233448] = "dark transformation",
-[207289] = "unholy assault",
-[207311] = "clawing shadows",
-[275699] = "apocalypse",
-[55090] = "scourge strike",
-[316239] = "rune strike",
-[383269] = "graveyard",
-[343294] = "soul reaper",
-[207317] = "epidemic",
 [1247378] = "putrefy",
 [85948] = "festering strike",
-[63560] = "dark transformation",
 [1271967] = "pestilence",
-[458128] = "festering scythe",
-[152280] = "defile",
-[49206] = "summon gargoyle",
-[47476] = "strangulate",
+[207317] = "epidemic",
+[343294] = "soul reaper",
+[55090] = "scourge strike",
+[433895] = "vampiric strike",
+[46584] = "raise dead",
 [42650] = "army of the dead",
 [77575] = "outbreak",
+[1233448] = "dark transformation",
+[458128] = "festering scythe",
 },
 [0] = {
-[51052] = "anti-magic zone",
-[47528] = "mind freeze",
-[46585] = "raise dead",
-[48792] = "icebound fortitude",
-[45524] = "chains of ice",
-[315443] = "abomination limb",
-[48743] = "death pact",
-[3714] = "path of frost",
-[127344] = "corpse exploder",
-[49576] = "death grip",
-[312202] = "shackle the unworthy",
-[48265] = "death's advance",
-[343294] = "soul reaper",
-[410358] = "anti-magic shell",
-[324631] = "fleshcraft",
-[444347] = "death charge",
-[383269] = "graveyard",
-[324128] = "death's due",
-[49998] = "death strike",
-[212552] = "wraith walk",
-[43265] = "death and decay",
-[324739] = "summon steward",
-[316239] = "rune strike",
-[111673] = "control undead",
-[310143] = "soulshape",
 [47541] = "death coil",
-[221562] = "asphyxiate",
 [56222] = "dark command",
+[43265] = "death and decay",
 [300728] = "door of shadows",
-[53428] = "runeforging",
-[207167] = "blinding sleet",
-[48707] = "anti-magic shell",
-[50977] = "death gate",
-[311648] = "swarming mist",
+[46585] = "raise dead",
+[3714] = "path of frost",
+[51052] = "anti-magic zone",
+[48792] = "icebound fortitude",
 [49039] = "lichborne",
+[48265] = "death's advance",
+[127344] = "corpse exploder",
+[45524] = "chains of ice",
+[49998] = "death strike",
 [61999] = "raise ally",
-[461621] = "raise ally",
-[327574] = "sacrificial pact",
+[50977] = "death gate",
+[444347] = "death charge",
+[47528] = "mind freeze",
+[212552] = "wraith walk",
+[49576] = "death grip",
+[48743] = "death pact",
+[311648] = "swarming mist",
+[48707] = "anti-magic shell",
+[221562] = "asphyxiate",
+[324631] = "fleshcraft",
+[315443] = "abomination limb",
+[207167] = "blinding sleet",
+[53428] = "runeforging",
+[410358] = "anti-magic shell",
+[111673] = "control undead",
 },
 },
 ["WARRIOR"] = {
 {
-[260708] = "sweeping strikes",
-[355] = "taunt",
-[772] = "rend",
-[198817] = "sharpen blade",
-[236273] = "duel",
-[260643] = "skullsplitter",
-[118038] = "die by the sword",
-[167105] = "colossus smash",
-[190456] = "ignore pain",
-[1464] = "slam",
-[107574] = "avatar",
-[236077] = "disarm",
-[228920] = "ravager",
-[12294] = "mortal strike",
-[227847] = "bladestorm",
-[845] = "cleave",
-[436358] = "demolish",
-[7384] = "overpower",
-[262161] = "warbreaker",
 [446035] = "bladestorm",
+[7384] = "overpower",
+[236077] = "disarm",
+[167105] = "colossus smash",
+[118038] = "die by the sword",
+[436358] = "demolish",
+[260708] = "sweeping strikes",
 [1277297] = "ignore pain",
+[227847] = "bladestorm",
+[12294] = "mortal strike",
+[107574] = "avatar",
+[845] = "cleave",
+[228920] = "ravager",
+[1464] = "slam",
 },
 {
-[355] = "taunt",
-[184367] = "rampage",
-[23881] = "bloodthirst",
-[5308] = "execute",
-[184364] = "enraged regeneration",
-[167105] = "colossus smash",
 [446035] = "bladestorm",
-[1464] = "slam",
-[107574] = "avatar",
-[385059] = "odyn's fury",
-[315720] = "onslaught",
-[228920] = "ravager",
-[335096] = "bloodbath",
-[199261] = "death wish",
-[227847] = "bladestorm",
-[236077] = "disarm",
-[118038] = "die by the sword",
-[190411] = "whirlwind",
-[335097] = "crushing blow",
-[7384] = "overpower",
 [85288] = "raging blow",
 [1719] = "recklessness",
-[12294] = "mortal strike",
+[335096] = "bloodbath",
+[184367] = "rampage",
+[1464] = "slam",
+[335097] = "crushing blow",
+[23881] = "bloodthirst",
+[227847] = "bladestorm",
+[184364] = "enraged regeneration",
+[107574] = "avatar",
+[385059] = "odyn's fury",
+[5308] = "execute",
+[190411] = "whirlwind",
 },
 {
-[386071] = "disrupting shout",
-[205800] = "oppressor",
-[394062] = "rend",
 [6572] = "revenge",
-[20243] = "devastate",
-[190456] = "ignore pain",
-[1680] = "whirlwind",
-[1464] = "slam",
-[107574] = "avatar",
-[12975] = "last stand",
-[236077] = "disarm",
-[228920] = "ravager",
 [1160] = "demoralizing shout",
-[1161] = "challenging shout",
-[385952] = "shield charge",
-[392966] = "spell block",
-[1229376] = "single-button assistant",
-[206572] = "dragon charge",
-[436358] = "demolish",
+[20243] = "devastate",
 [871] = "shield wall",
+[1161] = "challenging shout",
+[436358] = "demolish",
+[386071] = "disrupting shout",
+[1464] = "slam",
+[1680] = "whirlwind",
+[385952] = "shield charge",
+[107574] = "avatar",
+[190456] = "ignore pain",
 },
 [0] = {
 [307865] = "spear of bastion",
@@ -197,207 +135,180 @@ LiquidRemindersSaved = {
 [97462] = "rallying cry",
 [386208] = "defensive stance",
 [1680] = "whirlwind",
-[325886] = "ancient aftershock",
 [107570] = "storm bolt",
-[107574] = "avatar",
 [281000] = "execute",
-[1464] = "slam",
-[386164] = "battle stance",
+[6673] = "battle shout",
+[6343] = "thunder clap",
 [18499] = "berserker rage",
 [23920] = "spell reflection",
 [280735] = "execute",
 [23922] = "shield slam",
-[435222] = "thunder blast",
 [324631] = "fleshcraft",
 [324143] = "conqueror's banner",
-[34428] = "victory rush",
-[384318] = "thunderous roar",
-[772] = "rend",
+[1244088] = "interpose",
 [46968] = "shockwave",
 [100] = "charge",
-[1244088] = "interpose",
 [6552] = "pummel",
 [5308] = "execute",
-[386196] = "berserker stance",
-[5246] = "intimidating shout",
 [57755] = "heroic throw",
 [3411] = "intervene",
-[384100] = "berserker shout",
+[435222] = "thunder blast",
+[386196] = "berserker stance",
 [324739] = "summon steward",
-[300728] = "door of shadows",
-[6343] = "thunder clap",
-[64382] = "shattering throw",
-[6544] = "heroic leap",
-[310143] = "soulshape",
-[317485] = "condemn",
-[383762] = "bitter immunity",
+[34428] = "victory rush",
+[386164] = "battle stance",
 [2565] = "shield block",
+[772] = "rend",
+[300728] = "door of shadows",
+[6544] = "heroic leap",
 [163201] = "execute",
 [12323] = "piercing howl",
-[6673] = "battle shout",
-[330334] = "condemn",
+[1464] = "slam",
+[5246] = "intimidating shout",
 [384110] = "wrecking throw",
-[316593] = "intimidating shout",
 [317349] = "condemn",
+[384100] = "berserker shout",
 },
 },
-["ROGUE"] = {
+["PALADIN"] = {
 {
-[36554] = "shadowstep",
-[360194] = "deathmark",
-[430023] = "ambush",
-[385627] = "kingsbane",
-[185565] = "poisoned knife",
-[32645] = "envenom",
-[269513] = "death from above",
-[51723] = "fan of knives",
-[1329] = "mutilate",
-[703] = "garrote",
-[1943] = "rupture",
-[207777] = "dismantle",
-[8676] = "ambush",
-[1247227] = "crimson tempest",
-[212182] = "smoke bomb",
-},
-{
-[195457] = "grappling hook",
-[2098] = "dispatch",
-[1214909] = "roll the bones",
-[193315] = "sinister strike",
-[185763] = "pistol shot",
-[207777] = "dismantle",
-[269513] = "death from above",
-[271877] = "blade rush",
-[13750] = "adrenaline rush",
-[36554] = "shadowstep",
-[315341] = "between the eyes",
-[212182] = "smoke bomb",
-[1277933] = "preparation",
-[8676] = "ambush",
-[51690] = "killing spree",
-[441776] = "coup de grace",
-[381989] = "keep it rolling",
-[13877] = "blade flurry",
-[315508] = "roll the bones",
+[85222] = "light of dawn",
+[275773] = "judgment",
+[35395] = "crusader strike",
+[20473] = "holy shock",
+[53563] = "beacon of light",
+[4987] = "cleanse",
+[114165] = "holy prism",
+[31821] = "aura mastery",
+[156910] = "beacon of faith",
+[31884] = "avenging wrath",
+[498] = "divine protection",
+[212056] = "absolution",
+[415091] = "shield of the righteous",
+[432459] = "holy bulwark",
+[433583] = "rite of adjuration",
+[432472] = "sacred weapon",
+[433568] = "rite of sanctification",
+[200025] = "beacon of virtue",
+[216331] = "avenging crusader",
+[82326] = "holy light",
+[156322] = "eternal flame",
+[375576] = "divine toll",
+[85673] = "word of glory",
 },
 {
-[200758] = "gloomblade",
-[121471] = "shadow blades",
-[185313] = "shadow dance",
-[280719] = "secret technique",
-[207777] = "dismantle",
-[319175] = "black powder",
-[185438] = "shadowstrike",
-[196819] = "eviscerate",
-[426591] = "goremaw's bite",
-[36554] = "shadowstep",
-[197835] = "shuriken storm",
-[384631] = "flagellation",
-[1943] = "rupture",
-[114014] = "shuriken toss",
-[53] = "backstab",
-[277925] = "shuriken tornado",
-[269513] = "death from above",
-[212283] = "symbols of death",
-[359053] = "smoke bomb",
-[385408] = "sepsis",
+[96231] = "rebuke",
+[35395] = "crusader strike",
+[31850] = "ardent defender",
+[204018] = "blessing of spellwarding",
+[432472] = "sacred weapon",
+[213644] = "cleanse toxins",
+[53600] = "shield of the righteous",
+[204019] = "blessed hammer",
+[212641] = "guardian of ancient kings",
+[389539] = "sentinel",
+[86659] = "guardian of ancient kings",
+[31935] = "avenger's shield",
+[432459] = "holy bulwark",
+[85673] = "word of glory",
+[26573] = "consecration",
+[433568] = "rite of sanctification",
+[53595] = "hammer of the righteous",
+[275779] = "judgment",
+[375576] = "divine toll",
+[31884] = "avenging wrath",
+},
+{
+[410126] = "searing glare",
+[96231] = "rebuke",
+[210256] = "blessing of sanctuary",
+[383328] = "final verdict",
+[204018] = "blessing of spellwarding",
+[213644] = "cleanse toxins",
+[53600] = "shield of the righteous",
+[53385] = "divine storm",
+[403876] = "divine protection",
+[407480] = "templar strike",
+[156322] = "eternal flame",
+[343527] = "execution sentence",
+[184575] = "blade of justice",
+[427453] = "hammer of light",
+[85673] = "word of glory",
+[35395] = "crusader strike",
+[85256] = "templar's verdict",
+[26573] = "consecration",
+[31884] = "avenging wrath",
+[375576] = "divine toll",
+[255937] = "wake of ashes",
 },
 [0] = {
-[1766] = "kick",
-[1833] = "cheap shot",
-[381623] = "thistle tea",
-[430023] = "ambush",
-[315584] = "instant poison",
-[8676] = "ambush",
-[328547] = "serrated bone spike",
-[8679] = "wound poison",
-[921] = "pick pocket",
-[441776] = "coup de grace",
-[3408] = "crippling poison",
-[456330] = "cold blood",
-[2983] = "sprint",
-[31224] = "cloak of shadows",
-[1752] = "sinister strike",
-[6770] = "sap",
-[315496] = "slice and dice",
-[382245] = "cold blooded killer",
-[1776] = "gouge",
-[385616] = "echoing reprimand",
-[1784] = "stealth",
-[1725] = "distract",
-[57934] = "tricks of the trade",
-[310143] = "soulshape",
-[5938] = "shiv",
-[1804] = "pick lock",
-[5277] = "evasion",
-[323654] = "flagellation",
-[56814] = "detection",
-[115191] = "stealth",
-[324631] = "fleshcraft",
-[328305] = "sepsis",
-[323547] = "echoing reprimand",
-[1966] = "feint",
-[300728] = "door of shadows",
-[196819] = "eviscerate",
-[408] = "kidney shot",
-[1856] = "vanish",
-[193315] = "sinister strike",
-[114018] = "shroud of concealment",
-[185311] = "crimson vial",
-[36554] = "shadowstep",
-[2094] = "blind",
+[24275] = "hammer of wrath",
+[85673] = "word of glory",
+[471195] = "lay on hands",
+[53600] = "shield of the righteous",
+[32223] = "crusader aura",
+[304971] = "divine toll",
+[6940] = "blessing of sacrifice",
+[316958] = "ashen hallow",
+[461622] = "intercession",
 [324739] = "summon steward",
-[441587] = "distract",
+[317920] = "concentration aura",
+[190784] = "divine steed",
+[10326] = "turn evil",
+[20271] = "judgment",
+[642] = "divine shield",
+[26573] = "consecration",
+[121183] = "contemplation",
+[1044] = "blessing of freedom",
+[633] = "lay on hands",
+[53595] = "hammer of the righteous",
+[19750] = "flash of light",
+[115750] = "blinding light",
+[20473] = "holy shock",
+[853] = "hammer of justice",
+[461534] = "redemption",
+[1022] = "blessing of protection",
+[275779] = "judgment",
+[199448] = "blessing of sacrifice",
+[275773] = "judgment",
+[391054] = "intercession",
+[300728] = "door of shadows",
+[62124] = "hand of reckoning",
+[35395] = "crusader strike",
+[7328] = "redemption",
+[1241413] = "hammer of wrath",
+[465] = "devotion aura",
+[328204] = "vanquisher's hammer",
+[5502] = "sense undead",
+[324631] = "fleshcraft",
 },
 },
 ["MAGE"] = {
 {
-[30451] = "arcane blast",
-[116] = "frostbolt",
-[198100] = "kleptomania",
-[205021] = "ray of frost",
-[205025] = "presence of mind",
-[30455] = "ice lance",
-[321507] = "touch of the magi",
-[12051] = "evocation",
-[353128] = "arcanosphere",
-[461264] = "nether flux",
-[44425] = "arcane barrage",
-[5143] = "arcane missiles",
-[44614] = "flurry",
-[190356] = "blizzard",
-[319836] = "fire blast",
-[31687] = "summon water elemental",
-[1241462] = "arcane pulse",
-[235450] = "prismatic barrier",
-[84714] = "frozen orb",
-[153626] = "arcane orb",
 [365350] = "arcane surge",
-[352278] = "ice wall",
+[153626] = "arcane orb",
+[12051] = "evocation",
+[30451] = "arcane blast",
+[44425] = "arcane barrage",
+[321507] = "touch of the magi",
+[235450] = "prismatic barrier",
+[5143] = "arcane missiles",
+[205025] = "presence of mind",
+[1241462] = "arcane pulse",
 },
 {
-[116] = "frostbolt",
-[190319] = "combustion",
+[108853] = "fire blast",
+[1254851] = "flamestrike",
+[133] = "fireball",
 [431044] = "frostfire bolt",
 [153561] = "meteor",
-[30455] = "ice lance",
-[203286] = "greater pyroblast",
 [235313] = "blazing barrier",
 [2120] = "flamestrike",
-[205021] = "ray of frost",
-[44614] = "flurry",
-[190356] = "blizzard",
-[1254851] = "flamestrike",
+[190319] = "combustion",
 [319836] = "fire blast",
-[108853] = "fire blast",
-[352278] = "ice wall",
-[133] = "fireball",
-[84714] = "frozen orb",
-[2948] = "scorch",
-[257541] = "phoenix flames",
-[1449] = "arcane explosion",
 [11366] = "pyroblast",
-[353082] = "ring of fire",
+[2948] = "scorch",
+[1449] = "arcane explosion",
 },
 {
 [116] = "frostbolt",
@@ -407,603 +318,407 @@ LiquidRemindersSaved = {
 [235219] = "cold snap",
 [30455] = "ice lance",
 [1248829] = "blizzard",
-[353082] = "ring of fire",
 [389794] = "snowdrift",
 [44614] = "flurry",
 [190356] = "blizzard",
-[12472] = "icy veins",
 [11426] = "ice barrier",
 [31687] = "summon water elemental",
-[352278] = "ice wall",
 [84714] = "frozen orb",
 [198149] = "frozen orb",
 [199786] = "glacial spike",
 [153595] = "comet storm",
-[1449] = "arcane explosion",
 [319836] = "fire blast",
+[1449] = "arcane explosion",
 },
 [0] = {
-[342247] = "alter time",
 [122] = "frost nova",
-[157981] = "blast wave",
 [55342] = "mirror image",
 [157997] = "ice nova",
 [30449] = "spellsteal",
 [383121] = "mass polymorph",
-[113724] = "ring of frost",
 [2139] = "counterspell",
-[307443] = "radiant spark",
 [31661] = "dragon's breath",
-[324739] = "summon steward",
-[449700] = "gravity lapse",
 [324220] = "deathborne",
 [131784] = "illusion",
 [45438] = "ice block",
-[414658] = "ice cold",
-[324631] = "fleshcraft",
-[108839] = "ice floes",
-[130] = "slow fall",
-[80353] = "time warp",
-[199786] = "glacial spike",
+[1953] = "blink",
 [190336] = "conjure refreshment",
 [116] = "frostbolt",
 [310143] = "soulshape",
-[382440] = "shifting power",
-[212653] = "shimmer",
 [343140] = "portal",
-[389713] = "reflection",
-[1449] = "arcane explosion",
-[314793] = "mirrors of torment",
+[324631] = "fleshcraft",
+[80353] = "time warp",
 [314791] = "shifting power",
-[300728] = "door of shadows",
-[1459] = "arcane intellect",
-[342245] = "alter time",
-[66] = "invisibility",
-[1953] = "blink",
 [118] = "polymorph",
+[1449] = "arcane explosion",
+[130] = "slow fall",
+[66] = "invisibility",
+[1459] = "arcane intellect",
+[199786] = "glacial spike",
+[342245] = "alter time",
 [343127] = "teleport",
 [120] = "cone of cold",
 [414664] = "mass invisibility",
 [157980] = "supernova",
 [475] = "remove curse",
-[414660] = "mass barrier",
+[212653] = "shimmer",
 [110959] = "greater invisibility",
+[414658] = "ice cold",
 [319836] = "fire blast",
-[31589] = "slow",
 },
 },
 ["PRIEST"] = {
 {
-[47540] = "penance",
-[17] = "power word: shield",
-[589] = "shadow word: pain",
-[440725] = "premonition of clairvoyance",
 [200829] = "plea",
-[194509] = "power word: radiance",
-[271466] = "luminous barrier",
 [212036] = "mass resurrection",
-[440006] = "purify disease",
-[204197] = "purge the wicked",
-[428924] = "premonition",
-[33206] = "pain suppression",
-[472433] = "evangelism",
-[197862] = "archangel",
-[400169] = "dark reprimand",
-[428933] = "premonition of insight",
-[123040] = "mindbender",
 [62618] = "power word: barrier",
-[47536] = "rapture",
-[428934] = "premonition of solace",
+[194509] = "power word: radiance",
+[472433] = "evangelism",
+[17] = "power word: shield",
+[33206] = "pain suppression",
 [8092] = "mind blast",
-[527] = "purify",
 [585] = "smite",
-[421453] = "ultimate penitence",
-},
-{
-[47788] = "guardian spirit",
-[64901] = "symbol of hope",
-[64843] = "divine hymn",
-[265202] = "holy word: salvation",
+[527] = "purify",
 [589] = "shadow word: pain",
-[372835] = "lightwell",
-[440725] = "premonition of clairvoyance",
-[440006] = "purify disease",
-[2050] = "holy word: serenity",
-[88625] = "holy word: chastise",
-[204883] = "circle of healing",
-[212036] = "mass resurrection",
-[328530] = "divine ascension",
-[2060] = "heal",
-[428924] = "premonition",
-[372760] = "divine word",
-[200183] = "apotheosis",
-[213610] = "holy ward",
-[596] = "prayer of healing",
-[428933] = "premonition of insight",
-[14914] = "holy fire",
-[289666] = "greater heal",
-[34861] = "holy word: sanctify",
-[428934] = "premonition of solace",
-[1229376] = "single-button assistant",
-[33076] = "prayer of mending",
-[585] = "smite",
-[527] = "purify",
+[421453] = "ultimate penitence",
+[47540] = "penance",
 },
 {
-[73510] = "corrupted apparitions",
+[14914] = "holy fire",
+[2050] = "holy word: serenity",
+[34861] = "holy word: sanctify",
+[33076] = "prayer of mending",
+[88625] = "holy word: chastise",
+[596] = "prayer of healing",
+[47788] = "guardian spirit",
+[585] = "smite",
+[527] = "purify",
+[64843] = "divine hymn",
+[200183] = "apotheosis",
+[212036] = "mass resurrection",
+},
+{
+[211522] = "psyfiend",
+[15407] = "mind flay",
+[1227280] = "tentacle slam",
+[335467] = "shadow word: madness",
+[1242173] = "void volley",
+[34914] = "vampiric touch",
+[8092] = "mind blast",
 [391403] = "mind flay: insanity",
 [17] = "power word: shield",
-[391109] = "dark ascension",
 [589] = "shadow word: pain",
-[1227280] = "tentacle slam",
-[228260] = "voidform",
-[205448] = "void bolt",
-[15407] = "mind flay",
-[47585] = "dispersion",
-[200174] = "mindbender",
-[335467] = "shadow word: madness",
-[232698] = "shadowform",
-[15487] = "silence",
-[450983] = "void blast",
-[97850] = "wave 3 aggro proc",
-[194249] = "voidform",
-[15286] = "vampiric embrace",
-[64044] = "psychic horror",
-[211522] = "psyfiend",
-[34914] = "vampiric touch",
-[375901] = "mindgames",
-[1242173] = "void volley",
-[8092] = "mind blast",
 [263165] = "void torrent",
+[15487] = "silence",
+[47585] = "dispersion",
+[232698] = "shadowform",
+[228260] = "voidform",
+[15286] = "vampiric embrace",
 },
 [0] = {
-[21562] = "power word: fortitude",
+[2006] = "resurrection",
+[2096] = "mind vision",
+[2061] = "flash heal",
+[9484] = "shackle horror",
+[32375] = "mass dispel",
+[300728] = "door of shadows",
+[17] = "power word: shield",
+[8122] = "psychic scream",
+[589] = "shadow word: pain",
+[605] = "mind control",
+[1706] = "levitate",
+[120644] = "halo",
+[32379] = "shadow word: death",
+[585] = "smite",
 [10060] = "power infusion",
+[586] = "fade",
+[21562] = "power word: fortitude",
+[132157] = "holy nova",
+[528] = "dispel magic",
+[461530] = "resurrection",
+[73325] = "leap of faith",
+[205364] = "dominate mind",
+[325013] = "boon of the ascended",
+[121536] = "angelic feather",
+[453] = "mind soothe",
+[120517] = "halo",
+[323673] = "mindgames",
 [213634] = "purify disease",
 [19236] = "desperate prayer",
-[73325] = "leap of faith",
-[121536] = "angelic feather",
-[215769] = "spirit of redemption",
-[2061] = "flash heal",
-[108968] = "void shift",
-[8122] = "psychic scream",
-[33076] = "prayer of mending",
-[110744] = "divine star",
-[324739] = "summon steward",
-[120517] = "halo",
-[186263] = "shadow mend",
-[8092] = "mind blast",
-[17] = "power word: shield",
-[373481] = "power word: life",
-[15286] = "vampiric embrace",
-[324631] = "fleshcraft",
-[461530] = "resurrection",
-[324724] = "unholy nova",
-[120644] = "halo",
-[440678] = "power word: life",
-[585] = "smite",
-[34433] = "shadowfiend",
-[589] = "shadow word: pain",
-[528] = "dispel magic",
-[32375] = "mass dispel",
-[310143] = "soulshape",
-[323673] = "mindgames",
-[1706] = "levitate",
-[32379] = "shadow word: death",
-[2096] = "mind vision",
-[122121] = "divine star",
-[325013] = "boon of the ascended",
-[9484] = "shackle undead",
-[132157] = "holy nova",
-[450215] = "void blast",
-[451235] = "voidwraith",
-[300728] = "door of shadows",
-[450983] = "void blast",
-[139] = "renew",
 [327661] = "fae guardians",
-[605] = "mind control",
-[205364] = "dominate mind",
-[453] = "mind soothe",
-[586] = "fade",
-[2006] = "resurrection",
-[213109] = "resurrection",
+[324739] = "summon steward",
+[310143] = "soulshape",
 },
 },
-["SHAMAN"] = {
+["ROGUE"] = {
 {
-[114050] = "ascendance",
-[470057] = "voltaic blaze",
-[204331] = "counterstrike totem",
-[462757] = "thunderstrike ward",
-[192249] = "storm elemental",
-[378081] = "nature's swiftness",
-[375982] = "primordial wave",
-[204336] = "grounding totem",
-[51490] = "thunderstorm",
-[191634] = "stormkeeper",
-[409293] = "burrow",
-[198067] = "fire elemental",
-[192222] = "liquid magma totem",
-[61882] = "earthquake",
-[318038] = "flametongue weapon",
-[305483] = "lightning lasso",
-[470411] = "flame shock",
-[8042] = "earth shock",
-[117014] = "elemental blast",
-[355580] = "static field totem",
-[51505] = "lava burst",
-[73899] = "primal strike",
-[8004] = "healing surge",
-[462620] = "earthquake",
-[443454] = "ancestral swiftness",
+[36554] = "shadowstep",
+[360194] = "deathmark",
+[8676] = "ambush",
+[185565] = "poisoned knife",
+[32645] = "envenom",
+[51723] = "fan of knives",
+[703] = "garrote",
+[212182] = "smoke bomb",
+[1247227] = "crimson tempest",
+[385627] = "kingsbane",
+[1943] = "rupture",
+[1329] = "mutilate",
 },
 {
-[470057] = "voltaic blaze",
-[204331] = "counterstrike totem",
-[187874] = "crash lightning",
-[115356] = "windstrike",
-[60103] = "lava lash",
-[196884] = "feral lunge",
-[375982] = "primordial wave",
-[384352] = "doom winds",
-[33757] = "windfury weapon",
-[409293] = "burrow",
-[197214] = "sundering",
-[51505] = "lava burst",
-[114051] = "ascendance",
-[342240] = "ice strike",
-[318038] = "flametongue weapon",
-[355580] = "static field totem",
-[51533] = "feral spirit",
-[17364] = "stormstrike",
-[305483] = "lightning lasso",
-[470194] = "ice strike",
-[470411] = "flame shock",
-[117014] = "elemental blast",
-[1218090] = "primordial storm",
-[204336] = "grounding totem",
-[8004] = "healing surge",
-[1221348] = "surging totem",
-[333974] = "fire nova",
-[444995] = "surging totem",
+[195457] = "grappling hook",
+[381989] = "keep it rolling",
+[51690] = "killing spree",
+[8676] = "ambush",
+[315341] = "between the eyes",
+[13750] = "adrenaline rush",
+[1214909] = "roll the bones",
+[2098] = "dispatch",
+[13877] = "blade flurry",
+[1277933] = "preparation",
+[185763] = "pistol shot",
+[271877] = "blade rush",
+[36554] = "shadowstep",
+[193315] = "sinister strike",
 },
 {
-[197995] = "wellspring",
-[114052] = "ascendance",
-[204331] = "counterstrike totem",
-[98008] = "spirit link totem",
-[378081] = "nature's swiftness",
-[198838] = "earthen wall totem",
-[444995] = "surging totem",
-[440012] = "cleanse spirit",
-[212048] = "ancestral vision",
-[457481] = "tidecaller's guard",
-[204336] = "grounding totem",
-[443454] = "ancestral swiftness",
-[73685] = "unleash life",
-[73899] = "primal strike",
-[77130] = "purify spirit",
-[409293] = "burrow",
-[382021] = "earthliving weapon",
-[462603] = "downpour",
-[207399] = "ancestral protection totem",
-[73920] = "healing rain",
-[305483] = "lightning lasso",
-[470411] = "flame shock",
-[77472] = "healing wave",
-[61295] = "riptide",
-[355580] = "static field totem",
-[428332] = "primordial wave",
-[51505] = "lava burst",
-[108280] = "healing tide totem",
-[52127] = "water shield",
-[16191] = "mana tide totem",
+[36554] = "shadowstep",
+[114014] = "shuriken toss",
+[200758] = "gloomblade",
+[121471] = "shadow blades",
+[196819] = "eviscerate",
+[185438] = "shadowstrike",
+[319175] = "black powder",
+[53] = "backstab",
+[197835] = "shuriken storm",
+[185313] = "shadow dance",
+[426591] = "goremaw's bite",
+[280719] = "secret technique",
 },
 [0] = {
-[2484] = "earthbind totem",
-[328923] = "fae transfusion",
-[6196] = "far sight",
-[51505] = "lava burst",
-[57994] = "wind shear",
-[5394] = "healing stream totem",
-[974] = "earth shield",
-[192058] = "capacitor totem",
-[378081] = "nature's swiftness",
-[326059] = "primordial wave",
-[452201] = "tempest",
-[461541] = "ancestral spirit",
-[188443] = "chain lightning",
-[108271] = "astral shift",
-[370] = "purge",
-[320674] = "chain harvest",
-[210714] = "icefury",
-[2825] = "bloodlust",
-[188389] = "flame shock",
-[470057] = "voltaic blaze",
-[108287] = "totemic projection",
-[324739] = "summon steward",
-[470411] = "flame shock",
-[73899] = "primal strike",
-[51490] = "thunderstorm",
-[556] = "astral recall",
-[2645] = "ghost wolf",
-[324631] = "fleshcraft",
-[2008] = "ancestral spirit",
-[8004] = "healing surge",
-[196840] = "frost shock",
-[58875] = "spirit walk",
-[342240] = "ice strike",
-[204361] = "bloodlust",
-[462854] = "skyfury",
-[32182] = "heroism",
-[318038] = "flametongue weapon",
-[51886] = "cleanse spirit",
+[1766] = "kick",
+[1833] = "cheap shot",
+[381623] = "thistle tea",
+[315584] = "instant poison",
+[8676] = "ambush",
+[328547] = "serrated bone spike",
+[8679] = "wound poison",
+[921] = "pick pocket",
+[3408] = "crippling poison",
+[2983] = "sprint",
+[31224] = "cloak of shadows",
+[1752] = "sinister strike",
+[323654] = "flagellation",
+[315496] = "slice and dice",
+[1784] = "stealth",
+[1725] = "distract",
+[57934] = "tricks of the trade",
 [310143] = "soulshape",
-[8143] = "tremor totem",
-[51514] = "hex",
-[204362] = "heroism",
-[79206] = "spiritwalker's grace",
-[383013] = "poison cleansing totem",
-[1064] = "chain heal",
-[378773] = "greater purge",
-[305483] = "lightning lasso",
-[546] = "water walking",
-[192077] = "wind rush totem",
-[443454] = "ancestral swiftness",
-[108281] = "ancestral guidance",
-[108285] = "totemic recall",
+[5938] = "shiv",
+[1804] = "pick lock",
+[5277] = "evasion",
+[56814] = "detection",
+[115191] = "stealth",
+[328305] = "sepsis",
+[2094] = "blind",
+[1966] = "feint",
 [300728] = "door of shadows",
-[188196] = "lightning bolt",
-[198103] = "earth elemental",
-[192063] = "gust of wind",
-[192106] = "lightning shield",
-[51485] = "earthgrab totem",
-[324386] = "vesper totem",
-[204406] = "thunderstorm",
-[108270] = "stone bulwark totem",
+[196819] = "eviscerate",
+[408] = "kidney shot",
+[1856] = "vanish",
+[193315] = "sinister strike",
+[114018] = "shroud of concealment",
+[324739] = "summon steward",
+[324631] = "fleshcraft",
+[6770] = "sap",
+[323547] = "echoing reprimand",
+[185311] = "crimson vial",
 },
 },
-["EVOKER"] = {
+["MONK"] = {
 {
-[383005] = "chrono loop",
-[378464] = "nullifying shroud",
-[359073] = "eternity surge",
-[357210] = "deep breath",
-[351338] = "quell",
-[375087] = "dragonrage",
-[382411] = "eternity surge",
-[357211] = "pyre",
-[356995] = "disintegrate",
-[368847] = "firestorm",
-[378441] = "time stop",
-[370388] = "swoop up",
-},
-{
-[357170] = "time dilation",
-[382614] = "dream breath",
-[363534] = "rewind",
-[382731] = "spiritbloom",
-[370564] = "stasis",
-[360823] = "naturalize",
-[359816] = "dream flight",
-[364343] = "echo",
-[378441] = "time stop",
-[373861] = "temporal anomaly",
-[367226] = "spiritbloom",
-[370388] = "swoop up",
-[355936] = "dream breath",
-[356995] = "disintegrate",
-[370960] = "emerald communion",
-[370537] = "stasis",
-[357210] = "deep breath",
-[361178] = "mass return",
-[366155] = "reversion",
-[383005] = "chrono loop",
+[116847] = "rushing jade wind",
+[115181] = "breath of fire",
+[123986] = "chi burst",
+[116670] = "vivify",
+[322729] = "spinning crane kick",
+[119582] = "purifying brew",
+[218164] = "detox",
+[115399] = "black ox brew",
+[132578] = "invoke niuzao, the black ox",
+[116705] = "spear hand strike",
+[121253] = "keg smash",
+[1241059] = "celestial infusion",
+[325153] = "exploding keg",
+[115315] = "summon black ox statue",
+[322101] = "expel harm",
+[322507] = "celestial brew",
 },
 {
-[442204] = "breath of eons",
-[396286] = "upheaval",
-[412710] = "timelessness",
-[351338] = "quell",
-[370388] = "swoop up",
-[408092] = "upheaval",
-[403264] = "black attunement",
-[404977] = "time skip",
-[378441] = "time stop",
-[361021] = "sense power",
-[403265] = "bronze attunement",
-[408233] = "bestow weyrnstone",
-[409311] = "prescience",
+[115294] = "mana tea",
+[322118] = "invoke yu'lon, the jade serpent",
+[107428] = "rising sun kick",
+[467307] = "rushing wind kick",
+[115151] = "renewing mist",
+[115310] = "revival",
+[212051] = "reawaken",
+[116680] = "thunder focus tea",
+[325197] = "invoke chi-ji, the red crane",
+[124682] = "enveloping mist",
+[115450] = "detox",
+[116849] = "life cocoon",
+[399491] = "sheilun's gift",
+[115313] = "summon jade serpent statue",
+[443028] = "celestial conduit",
+[322101] = "expel harm",
+[388615] = "restoral",
+},
+{
+[107428] = "rising sun kick",
+[443028] = "celestial conduit",
+[116670] = "vivify",
+[152175] = "whirling dragon punch",
+[1217413] = "slicing winds",
+[218164] = "detox",
+[123904] = "invoke xuen, the white tiger",
+[116705] = "spear hand strike",
+[113656] = "fists of fury",
+[101545] = "flying serpent kick",
+[1249625] = "zenith",
+[122470] = "touch of karma",
 [1229376] = "single-button assistant",
-[360827] = "blistering scales",
-[395152] = "ebon might",
-[395160] = "eruption",
-[403631] = "breath of eons",
-[383005] = "chrono loop",
+[392983] = "strike of the windlord",
 },
 [0] = {
-[374251] = "cauterizing flame",
-[357210] = "deep breath",
-[361227] = "return",
-[372048] = "oppressing roar",
-[358267] = "hover",
-[374348] = "renewing blaze",
-[370553] = "tip the scales",
-[431443] = "chrono flames",
-[461526] = "return",
-[406732] = "spatial paradox",
-[370665] = "rescue",
-[360995] = "verdant embrace",
-[1265872] = "azure sweep",
-[356995] = "disintegrate",
-[361469] = "living flame",
-[406971] = "oppressing roar",
-[374227] = "zephyr",
-[374968] = "time spiral",
-[433874] = "deep breath",
-[358385] = "landslide",
-[310143] = "soulshape",
-[355913] = "emerald blossom",
-[368970] = "tail swipe",
-[369459] = "source of magic",
-[365585] = "expunge",
-[363916] = "obsidian scales",
+[322109] = "touch of death",
+[100784] = "blackout kick",
+[116844] = "ring of peace",
+[115203] = "fortifying brew",
+[126892] = "zen pilgrimage",
+[115178] = "resuscitate",
+[116670] = "vivify",
+[101546] = "spinning crane kick",
+[125883] = "zen flight",
+[101643] = "transcendence",
 [324631] = "fleshcraft",
-[364342] = "blessing of the bronze",
-[300728] = "door of shadows",
-[382266] = "fire breath",
-[357208] = "fire breath",
-[324739] = "summon steward",
-[387168] = "boon of the covenants",
-[351338] = "quell",
-[360806] = "sleep walk",
-[362969] = "azure strike",
-[390386] = "fury of the aspects",
+[115008] = "chi torpedo",
+[116095] = "disable",
+[116841] = "tiger's lust",
+[322729] = "spinning crane kick",
+[115078] = "paralysis",
+[322101] = "expel harm",
+[115175] = "soothing mist",
+[126895] = "zen pilgrimage: return",
+[461537] = "resuscitate",
+[293866] = "zen pilgrimage",
+[109132] = "roll",
+[119996] = "transcendence: transfer",
+[119381] = "leg sweep",
+[115546] = "provoke",
+[325216] = "bonedust brew",
+[117952] = "crackling jade lightning",
+[100780] = "tiger palm",
+[205523] = "blackout kick",
 },
 },
 ["WARLOCK"] = {
 {
-[1259790] = "unstable affliction",
-[27243] = "seed of corruption",
-[353753] = "bonds of fel",
-[324536] = "malefic rapture",
-[205180] = "summon darkglare",
-[417537] = "oblivion",
-[212295] = "nether ward",
-[442726] = "malevolence",
-[686] = "shadow bolt",
-[172] = "corruption",
-[342938] = "unstable affliction",
-[386997] = "soul rot",
-[1257052] = "dark harvest",
 [386951] = "soul swap",
-[316099] = "unstable affliction",
-[278350] = "vile taint",
-[205179] = "phantom singularity",
-[353294] = "shadow rift",
-[48181] = "haunt",
-[410598] = "soul rip",
+[212295] = "nether ward",
 [980] = "agony",
+[1259790] = "unstable affliction",
+[172] = "corruption",
+[205180] = "summon darkglare",
+[442726] = "malevolence",
 [108503] = "grimoire of sacrifice",
+[48181] = "haunt",
+[27243] = "seed of corruption",
+[1257052] = "dark harvest",
+[686] = "shadow bolt",
 },
 {
+[264130] = "power siphon",
+[1276467] = "grimoire: fel ravager",
+[410598] = "soul rip",
+[686] = "shadow bolt",
+[1276452] = "grimoire: imp lord",
+[196277] = "implosion",
+[132409] = "spell lock",
+[132411] = "singe magic",
+[172] = "corruption",
 [104316] = "call dreadstalkers",
 [264178] = "demonbolt",
-[132411] = "singe magic",
-[265187] = "summon demonic tyrant",
-[111898] = "grimoire: felguard",
-[212295] = "nether ward",
-[267211] = "bilescourge bombers",
-[264119] = "summon vilefiend",
-[455465] = "summon gloomhound",
-[434635] = "ruination",
-[686] = "shadow bolt",
-[353753] = "bonds of fel",
-[1276672] = "summon doomguard",
-[455476] = "summon charhound",
-[196277] = "implosion",
 [212459] = "call fel lord",
-[172] = "corruption",
 [105174] = "hand of gul'dan",
-[267171] = "demonic strength",
-[386833] = "guillotine",
-[264130] = "power siphon",
-[353294] = "shadow rift",
-[132409] = "spell lock",
-[410598] = "soul rip",
-[1276467] = "grimoire: fel ravager",
-[1276452] = "grimoire: imp lord",
+[265187] = "summon demonic tyrant",
+[1276672] = "summon doomguard",
+[212295] = "nether ward",
 },
 {
-[108503] = "grimoire of sacrifice",
-[353753] = "bonds of fel",
-[348] = "immolate",
-[152108] = "cataclysm",
-[17962] = "conflagrate",
-[445468] = "wither",
-[200546] = "bane of havoc",
-[1122] = "summon infernal",
 [196447] = "channel demonfire",
-[442726] = "malevolence",
-[172] = "corruption",
-[387976] = "dimensional rift",
-[5740] = "rain of fire",
-[80240] = "havoc",
-[212295] = "nether ward",
-[434635] = "ruination",
-[17877] = "shadowburn",
-[434506] = "infernal bolt",
-[6353] = "soul fire",
-[353294] = "shadow rift",
-[29722] = "incinerate",
-[410598] = "soul rip",
 [1214467] = "rain of fire",
+[29722] = "incinerate",
+[1122] = "summon infernal",
+[17877] = "shadowburn",
+[80240] = "havoc",
 [116858] = "chaos bolt",
+[6353] = "soul fire",
+[152108] = "cataclysm",
+[442726] = "malevolence",
+[5740] = "rain of fire",
+[108503] = "grimoire of sacrifice",
+[445468] = "wither",
+[348] = "immolate",
+[17962] = "conflagrate",
+[434635] = "ruination",
 },
 [0] = {
 [698] = "ritual of summoning",
 [702] = "curse of weakness",
-[126] = "eye of kilrogg",
-[132411] = "singe magic",
-[29893] = "create soulwell",
 [710] = "banish",
-[119905] = "singe magic",
 [108416] = "dark pact",
-[755] = "health funnel",
-[48018] = "demonic circle",
-[348] = "immolate",
 [111771] = "demonic gateway",
-[6201] = "create healthstone",
 [366222] = "summon sayaad",
 [119910] = "spell lock",
 [119914] = "axe toss",
-[321792] = "impending catastrophe",
-[384069] = "shadowflame",
-[325289] = "decimating bolt",
+[29893] = "create soulwell",
 [132413] = "shadow bulwark",
 [333889] = "fel domination",
-[1261153] = "malefic grasp",
 [5697] = "unending breath",
-[324739] = "summon steward",
-[119907] = "shadow bulwark",
-[334275] = "curse of exhaustion",
-[385899] = "soulburn",
+[1098] = "subjugate demon",
 [691] = "summon felhunter",
 [20707] = "soulstone",
 [342601] = "ritual of doom",
 [1271802] = "blight of tongues",
-[171152] = "meteor strike",
-[324631] = "fleshcraft",
+[385899] = "soulburn",
 [442804] = "curse of the satyr",
-[29722] = "incinerate",
-[328774] = "amplify curse",
 [325640] = "soul rot",
-[310143] = "soulshape",
-[261589] = "seduction",
-[1271748] = "blight of weakness",
+[119907] = "shadow bulwark",
 [211898] = "eye of kilrogg",
-[445468] = "wither",
+[1271748] = "blight of weakness",
+[310143] = "soulshape",
+[111400] = "burning rush",
 [234153] = "drain life",
 [6789] = "mortal coil",
 [434506] = "infernal bolt",
-[30283] = "shadowfury",
+[445468] = "wither",
 [198590] = "drain soul",
 [5782] = "fear",
-[119898] = "command demon",
+[6201] = "create healthstone",
 [172] = "corruption",
 [132409] = "spell lock",
 [1714] = "curse of tongues",
 [5484] = "howl of terror",
-[697] = "summon voidwalker",
-[300728] = "door of shadows",
-[1098] = "subjugate demon",
+[334275] = "curse of exhaustion",
+[30283] = "shadowfury",
+[126] = "eye of kilrogg",
 [686] = "shadow bolt",
 [104773] = "unending resolve",
-[312321] = "scouring tithe",
+[48018] = "demonic circle",
 [48020] = "demonic circle: teleport",
-[111400] = "burning rush",
+[119905] = "singe magic",
 [119909] = "seduction",
-[688] = "summon imp",
+[119898] = "command demon",
 },
 },
 ["DEMONHUNTER"] = {
@@ -1013,343 +728,246 @@ LiquidRemindersSaved = {
 [258860] = "essence break",
 [452497] = "abyssal gaze",
 [198589] = "blur",
-[206803] = "rain from above",
-[452490] = "sigil of doom",
-[196555] = "netherwalk",
-[203720] = "demon spikes",
-[211881] = "fel eruption",
-[204596] = "sigil of flame",
-[232893] = "felblade",
-[195072] = "fel rush",
+[188499] = "blade dance",
 [258920] = "immolation aura",
-[389810] = "sigil of flame",
 [198013] = "eye beam",
 [162243] = "demon's bite",
-[258925] = "fel barrage",
-[201427] = "annihilation",
 [179057] = "chaos nova",
-[210152] = "death sweep",
-[342817] = "glaive tempest",
+[206803] = "rain from above",
+[201427] = "annihilation",
 [162794] = "chaos strike",
-[1229376] = "single-button assistant",
 [188501] = "spectral sight",
-[205604] = "reverse magic",
-[188499] = "blade dance",
+[232893] = "felblade",
+[210152] = "death sweep",
+[195072] = "fel rush",
 },
 {
 [187827] = "metamorphosis",
-[206803] = "rain from above",
-[205629] = "demonic trample",
-[189110] = "infernal strike",
+[204021] = "fiery brand",
 [390163] = "sigil of spite",
 [204157] = "throw glaive",
-[205630] = "illidan's grasp",
 [228477] = "soul cleave",
-[452490] = "sigil of doom",
-[452436] = "soul sunder",
 [203720] = "demon spikes",
-[203782] = "shear",
 [204596] = "sigil of flame",
-[452437] = "spirit burst",
-[188501] = "spectral sight",
 [258920] = "immolation aura",
-[205604] = "reverse magic",
-[263648] = "soul barrier",
-[202137] = "sigil of silence",
-[320341] = "bulk extraction",
 [247454] = "spirit bomb",
+[205630] = "illidan's grasp",
+[189110] = "infernal strike",
 [179057] = "chaos nova",
-[263642] = "fracture",
-[452486] = "fel desolation",
-[212084] = "fel devastation",
-[207407] = "soul carver",
 [232893] = "felblade",
-[204021] = "fiery brand",
+[202137] = "sigil of silence",
+[263642] = "fracture",
+[207407] = "soul carver",
+[188501] = "spectral sight",
+[212084] = "fel devastation",
 [202138] = "sigil of chains",
 },
 {
-[191427] = "metamorphosis",
-[1241937] = "soul immolation",
-[1245412] = "voidblade",
-[473662] = "consume",
+[1226019] = "reap",
+[1217605] = "void metamorphosis",
+[1234796] = "shift",
+[1251417] = "spectral sight",
 [198589] = "blur",
-[1239123] = "hungering slash",
-[1234195] = "void nova",
 [1225826] = "eradicate",
 [1259431] = "predator's wake",
-[1245483] = "pierce the veil",
-[1245453] = "cull",
 [1246167] = "the hunt",
-[1226019] = "reap",
+[1245483] = "pierce the veil",
+[473662] = "consume",
 [473728] = "void ray",
-[1221150] = "collapsing star",
-[1234796] = "shift",
-[1229376] = "single-button assistant",
-[1217605] = "void metamorphosis",
-[1251417] = "spectral sight",
-[1217610] = "devour",
+[1234195] = "void nova",
+[1245412] = "voidblade",
+[1241937] = "soul immolation",
 },
 [0] = {
 [187827] = "metamorphosis",
-[344862] = "chaos strike",
-[456640] = "consuming fire",
-[389813] = "sigil of misery",
-[185245] = "torment",
 [191427] = "metamorphosis",
-[217832] = "imprison",
-[442294] = "reaver's glaive",
-[162794] = "chaos strike",
-[390163] = "sigil of spite",
-[306830] = "elysian decree",
-[452487] = "consuming fire",
-[221527] = "imprison",
-[278326] = "consume magic",
-[207684] = "sigil of misery",
-[183752] = "disrupt",
-[317009] = "sinful brand",
-[188501] = "spectral sight",
-[185123] = "throw glaive",
-[204157] = "throw glaive",
-[232893] = "felblade",
-[1283344] = "reaver's glaive",
-[179057] = "chaos nova",
-[427917] = "immolation aura",
-[370965] = "the hunt",
-[203720] = "demon spikes",
-[258920] = "immolation aura",
-[344859] = "demon's bite",
-[196718] = "darkness",
 [300728] = "door of shadows",
-[324631] = "fleshcraft",
+[204157] = "throw glaive",
+[217832] = "imprison",
 [324739] = "summon steward",
-[389815] = "sigil of spite",
-[310143] = "soulshape",
-[131347] = "glide",
-[344865] = "fel rush",
-[198793] = "vengeful retreat",
+[183752] = "disrupt",
 [323639] = "the hunt",
+[196718] = "darkness",
+[131347] = "glide",
+[258920] = "immolation aura",
+[185245] = "torment",
+[278326] = "consume magic",
+[306830] = "elysian decree",
+[198793] = "vengeful retreat",
+[188501] = "spectral sight",
+[207684] = "sigil of misery",
+[310143] = "soulshape",
+[317009] = "sinful brand",
+[452487] = "consuming fire",
+[185123] = "throw glaive",
 },
 },
-["HUNTER"] = {
+["SHAMAN"] = {
 {
-[2643] = "multi-shot",
-[1264359] = "wild thrash",
-[205691] = "dire beast: basilisk",
-[120360] = "barrage",
-[217200] = "barbed shot",
-[208652] = "dire beast: hawk",
-[356719] = "chimaeral sting",
-[120679] = "dire beast",
-[321297] = "eyes of the beast",
-[19577] = "intimidation",
-[392060] = "wailing arrow",
-[359844] = "call of the wild",
-[19574] = "bestial wrath",
-[185358] = "arcane shot",
-[193455] = "cobra shot",
-[321530] = "bloodshed",
-},
-{
-[466904] = "harrier's cry",
-[1232995] = "fetch: eagle",
-[342049] = "chimaera shot",
-[56641] = "steady shot",
-[400456] = "salvo",
-[257044] = "rapid fire",
-[19434] = "aimed shot",
-[260243] = "volley",
-[474421] = "intimidation",
-[257620] = "multi-shot",
-[356719] = "chimaeral sting",
-[288613] = "trueshot",
-[185358] = "arcane shot",
-[203155] = "sniper shot",
-[6197] = "eagle eye",
+[114050] = "ascendance",
+[470057] = "voltaic blaze",
+[462757] = "thunderstrike ward",
+[204336] = "grounding totem",
+[443454] = "ancestral swiftness",
+[191634] = "stormkeeper",
+[409293] = "burrow",
+[61882] = "earthquake",
+[318038] = "flametongue weapon",
+[470411] = "flame shock",
+[8042] = "earth shock",
+[117014] = "elemental blast",
+[355580] = "static field totem",
+[51490] = "thunderstorm",
+[73899] = "primal strike",
+[8004] = "healing surge",
+[51505] = "lava burst",
+[462620] = "earthquake",
 },
 {
-[360952] = "coordinated assault",
-[1250646] = "takedown",
-[186289] = "aspect of the eagle",
-[269751] = "flanking strike",
-[186270] = "raptor strike",
-[321297] = "eyes of the beast",
-[1261193] = "boomstick",
-[407028] = "sticky tar bomb",
-[193265] = "hatchet toss",
-[19577] = "intimidation",
-[190925] = "harpoon",
-[1251592] = "flamefang pitch",
-[56641] = "steady shot",
-[169767] = "teleport: overgrown outpost",
-[212640] = "mending bandage",
-[265888] = "mongoose bite",
-[212436] = "butchery",
-[259387] = "mongoose bite",
-[356719] = "chimaeral sting",
-[360966] = "spearhead",
-[212638] = "tracker's net",
-[203415] = "fury of the eagle",
-[185358] = "arcane shot",
-[265189] = "raptor strike",
-[259495] = "wildfire bomb",
-[356707] = "wild kingdom",
+[470057] = "voltaic blaze",
+[204331] = "counterstrike totem",
+[187874] = "crash lightning",
+[444995] = "surging totem",
+[196884] = "feral lunge",
+[384352] = "doom winds",
+[204336] = "grounding totem",
+[197214] = "sundering",
+[114051] = "ascendance",
+[17364] = "stormstrike",
+[318038] = "flametongue weapon",
+[470411] = "flame shock",
+[355580] = "static field totem",
+[8004] = "healing surge",
+[1221348] = "surging totem",
+[60103] = "lava lash",
+[33757] = "windfury weapon",
+},
+{
+[114052] = "ascendance",
+[378081] = "nature's swiftness",
+[444995] = "surging totem",
+[457481] = "tidecaller's guard",
+[443454] = "ancestral swiftness",
+[73685] = "unleash life",
+[77130] = "purify spirit",
+[382021] = "earthliving weapon",
+[61295] = "riptide",
+[470411] = "flame shock",
+[77472] = "healing wave",
+[98008] = "spirit link totem",
+[73920] = "healing rain",
+[51505] = "lava burst",
+[73899] = "primal strike",
+[108280] = "healing tide totem",
+[52127] = "water shield",
+[212048] = "ancestral vision",
 },
 [0] = {
-[34026] = "kill command",
-[212431] = "explosive shot",
-[328231] = "wild spirits",
-[136] = "mend pet",
-[324739] = "summon steward",
-[1462] = "beast lore",
-[6991] = "feed pet",
-[325028] = "death chakram",
-[264735] = "survival of the fittest",
-[147362] = "counter shot",
-[462031] = "implosive trap",
-[1543] = "flare",
-[83242] = "call pet 2",
-[982] = "revive pet",
-[186257] = "aspect of the cheetah",
-[56641] = "steady shot",
-[308491] = "resonating arrow",
-[53351] = "kill shot",
-[1513] = "scare beast",
+[2484] = "earthbind totem",
+[328923] = "fae transfusion",
+[6196] = "far sight",
+[57994] = "wind shear",
+[5394] = "healing stream totem",
+[378081] = "nature's swiftness",
+[974] = "earth shield",
+[188443] = "chain lightning",
+[370] = "purge",
+[192058] = "capacitor totem",
+[108271] = "astral shift",
+[383013] = "poison cleansing totem",
+[108287] = "totemic projection",
+[192106] = "lightning shield",
+[470411] = "flame shock",
+[2645] = "ghost wolf",
+[2008] = "ancestral spirit",
+[196840] = "frost shock",
+[204361] = "bloodlust",
+[462854] = "skyfury",
+[32182] = "heroism",
+[378773] = "greater purge",
+[51886] = "cleanse spirit",
 [310143] = "soulshape",
-[83243] = "call pet 3",
-[272679] = "fortitude of the bear",
-[125050] = "fetch",
-[213691] = "scatter shot",
-[199483] = "camouflage",
-[257284] = "hunter's mark",
-[1515] = "tame beast",
-[272682] = "master's call",
-[324149] = "flayed shot",
-[83244] = "call pet 4",
-[272651] = "command pet",
-[19801] = "tranquilizing shot",
-[466930] = "black arrow",
-[320976] = "kill shot",
-[236776] = "high explosive trap",
-[127933] = "fireworks",
-[5116] = "concussive shot",
-[83245] = "call pet 5",
-[187707] = "muzzle",
-[6197] = "eagle eye",
-[109304] = "exhilaration",
-[321297] = "eyes of the beast",
+[8143] = "tremor totem",
+[51514] = "hex",
+[192077] = "wind rush totem",
+[79206] = "spiritwalker's grace",
 [324631] = "fleshcraft",
-[34477] = "misdirection",
-[209997] = "play dead",
-[883] = "call pet 1",
-[186265] = "aspect of the turtle",
+[1064] = "chain heal",
+[326059] = "primordial wave",
+[2825] = "bloodlust",
+[546] = "water walking",
+[204362] = "heroism",
+[556] = "astral recall",
+[8004] = "healing surge",
+[198103] = "earth elemental",
+[188196] = "lightning bolt",
 [300728] = "door of shadows",
-[5384] = "feign death",
-[187698] = "tar trap",
-[187650] = "freezing trap",
-[19577] = "intimidation",
-[195645] = "wing clip",
-[109248] = "binding shot",
-[53480] = "roar of sacrifice",
-[210000] = "wake up",
-[61648] = "aspect of the chameleon",
-[1241871] = "master's call",
-[781] = "disengage",
-[185358] = "arcane shot",
-[272678] = "primal rage",
-[186387] = "bursting shot",
-[2641] = "dismiss pet",
-[259489] = "kill command",
-[392956] = "fortitude of the bear",
+[73899] = "primal strike",
+[192063] = "gust of wind",
+[58875] = "spirit walk",
+[51485] = "earthgrab totem",
+[324386] = "vesper totem",
+[324739] = "summon steward",
+[320674] = "chain harvest",
 },
 },
 ["DRUID"] = {
 {
-[202347] = "stellar flare",
-[24858] = "moonkin form",
-[202425] = "warrior of elune",
-[202770] = "fury of elune",
-[391528] = "convoke the spirits",
-[88747] = "wild mushroom",
-[213764] = "swipe",
-[8921] = "moonfire",
-[390414] = "incarnation: chosen of elune",
-[194223] = "celestial alignment",
 [191034] = "starfall",
-[274281] = "new moon",
+[78675] = "solar beam",
+[202770] = "fury of elune",
 [102560] = "incarnation: chosen of elune",
 [190984] = "wrath",
-[1233272] = "lunar eclipse",
-[274282] = "half moon",
-[383410] = "celestial alignment",
-[6795] = "growl",
-[205636] = "force of nature",
-[274283] = "full moon",
-[78675] = "solar beam",
+[194223] = "celestial alignment",
 [1233346] = "solar eclipse",
-[209749] = "faerie swarm",
+[1233272] = "lunar eclipse",
+[88747] = "wild mushroom",
+[390414] = "incarnation: chosen of elune",
+[205636] = "force of nature",
+[8921] = "moonfire",
+[274281] = "new moon",
+[391528] = "convoke the spirits",
 },
 {
 [1244258] = "chomp",
-[305497] = "thorns",
 [274837] = "feral frenzy",
 [106951] = "berserk",
-[6795] = "growl",
 [102543] = "incarnation: avatar of ashamane",
-[1243807] = "frantic frenzy",
-[202028] = "brutal slash",
-[391888] = "adaptive swarm",
-[106839] = "skull bash",
-[5217] = "tiger's fury",
 [391528] = "convoke the spirits",
+[1243807] = "frantic frenzy",
+[5217] = "tiger's fury",
+[106839] = "skull bash",
 [8921] = "moonfire",
 [285381] = "primal wrath",
 [61336] = "survival instincts",
 },
 {
-[6807] = "maul",
-[61336] = "survival instincts",
-[50334] = "berserk",
-[106839] = "skull bash",
-[400254] = "raze",
-[207017] = "alpha challenge",
-[391528] = "convoke the spirits",
-[80313] = "pulverize",
-[213764] = "swipe",
-[329042] = "emerald slumber",
-[102558] = "incarnation: guardian of ursoc",
-[204066] = "lunar beam",
 [1253799] = "sundering roar",
 [1252871] = "red moon",
-[441605] = "ravage",
-[202246] = "overrun",
-[354654] = "grove protection",
 [155835] = "bristling fur",
-[200851] = "rage of the sleeper",
-[201664] = "demoralizing roar",
+[50334] = "berserk",
+[102558] = "incarnation: guardian of ursoc",
+[204066] = "lunar beam",
+[400254] = "raze",
+[391528] = "convoke the spirits",
+[6807] = "maul",
+[106839] = "skull bash",
+[329042] = "emerald slumber",
+[202246] = "overrun",
+[61336] = "survival instincts",
 },
 {
-[740] = "tranquility",
-[473909] = "ancient of lore",
-[88423] = "nature's cure",
-[106839] = "skull bash",
-[391528] = "convoke the spirits",
-[50464] = "nourish",
-[213764] = "swipe",
-[8921] = "moonfire",
-[212040] = "revitalize",
-[33763] = "lifebloom",
-[203651] = "overgrowth",
-[197721] = "flourish",
-[33891] = "incarnation: tree of life",
-[102693] = "grove guardians",
-[145205] = "efflorescence",
-[132158] = "nature's swiftness",
-[392160] = "invigorate",
-[102351] = "cenarion ward",
-[6795] = "growl",
 [102342] = "ironbark",
+[88423] = "nature's cure",
+[212040] = "revitalize",
+[740] = "tranquility",
+[132158] = "nature's swiftness",
 [18562] = "swiftmend",
-[188550] = "lifebloom",
+[33891] = "incarnation: tree of life",
+[391528] = "convoke the spirits",
+[8921] = "moonfire",
+[145205] = "efflorescence",
+[33763] = "lifebloom",
 },
 [0] = {
 [102401] = "wild charge",
@@ -1361,10 +979,7 @@ LiquidRemindersSaved = {
 [1261868] = "heart of the wild",
 [190984] = "wrath",
 [132469] = "typhoon",
-[1261872] = "heart of the wild",
-[106839] = "skull bash",
 [77764] = "stampeding roar",
-[5211] = "mighty bash",
 [2908] = "soothe",
 [192081] = "ironfur",
 [2782] = "remove corruption",
@@ -1377,375 +992,547 @@ LiquidRemindersSaved = {
 [768] = "cat form",
 [77758] = "thrash",
 [310143] = "soulshape",
-[323764] = "convoke the spirits",
-[102547] = "prowl",
+[102793] = "ursol's vortex",
 [461623] = "rebirth",
 [16979] = "wild charge",
 [48438] = "wild growth",
 [127757] = "charm woodland creature",
 [339] = "entangling roots",
-[5487] = "bear form",
+[213771] = "swipe",
 [193753] = "dreamwalk",
 [323546] = "ravenous frenzy",
 [106898] = "stampeding roar",
 [5176] = "wrath",
 [33786] = "cyclone",
-[1850] = "dash",
+[164862] = "flap",
 [2637] = "hibernate",
-[319454] = "call of the elder druid",
-[441591] = "ravage",
-[108238] = "renewal",
-[197628] = "starfire",
-[324739] = "summon steward",
-[6795] = "growl",
 [324631] = "fleshcraft",
 [194153] = "starfire",
 [102359] = "mass entanglement",
-[325727] = "adaptive swarm",
 [20484] = "rebirth",
 [102383] = "wild charge",
 [155625] = "moonfire",
 [77761] = "stampeding roar",
-[293887] = "dreamwalk",
-[106785] = "swipe",
+[441591] = "ravage",
+[324739] = "summon steward",
 [78674] = "starsurge",
 [49376] = "wild charge",
 [461540] = "revive",
-[22570] = "maim",
-[8921] = "moonfire",
-[124974] = "nature's vigil",
+[325727] = "adaptive swarm",
+[326434] = "kindred spirits",
+[323764] = "convoke the spirits",
 [114282] = "treant form",
 [99] = "incapacitating roar",
-[236716] = "strength of the wild",
+[1822] = "rake",
 [300728] = "door of shadows",
 [474750] = "symbiotic relationship",
-[213771] = "swipe",
-[50769] = "revive",
-[102793] = "ursol's vortex",
-[102416] = "wild charge",
+[18960] = "teleport: moonglade",
+[106785] = "swipe",
+[33917] = "mangle",
+[22570] = "maim",
 [22812] = "barkskin",
-[293840] = "teleport: moonglade",
+[8921] = "moonfire",
 [29166] = "innervate",
-[774] = "rejuvenation",
-[1822] = "rake",
+[1850] = "dash",
+[197626] = "starsurge",
 [22568] = "ferocious bite",
 [8936] = "regrowth",
 [24858] = "moonkin form",
-[326434] = "kindred spirits",
-[18960] = "teleport: moonglade",
-[197626] = "starsurge",
-[33917] = "mangle",
-[106830] = "thrash",
+[197628] = "starfire",
+[50769] = "revive",
+[6795] = "growl",
+[5487] = "bear form",
+[774] = "rejuvenation",
 [1126] = "mark of the wild",
-[164862] = "flap",
+[293887] = "dreamwalk",
 },
 },
-["MONK"] = {
+["EVOKER"] = {
 {
-[322729] = "spinning crane kick",
-[202370] = "mighty ox kick",
-[115176] = "zen meditation",
-[132578] = "invoke niuzao, the black ox",
-[119582] = "purifying brew",
-[123986] = "chi burst",
-[116705] = "spear hand strike",
-[322507] = "celestial brew",
-[233759] = "grapple weapon",
-[207025] = "admonishment",
-[115399] = "black ox brew",
-[121253] = "keg smash",
-[115315] = "summon black ox statue",
-[116847] = "rushing jade wind",
-[354540] = "nimble brew",
-[454523] = "mighty stomp",
-[122278] = "dampen harm",
-[115181] = "breath of fire",
-[1241059] = "celestial infusion",
-[116670] = "vivify",
-[387184] = "weapons of order",
-[325153] = "exploding keg",
-[218164] = "detox",
-[1263438] = "empty the cellar",
-[322101] = "expel harm",
-[202335] = "double barrel",
+[356995] = "disintegrate",
+[359073] = "eternity surge",
+[357210] = "deep breath",
+[351338] = "quell",
+[375087] = "dragonrage",
+[382411] = "eternity surge",
+[370388] = "swoop up",
+[378441] = "time stop",
+[357211] = "pyre",
 },
 {
-[410777] = "zen spheres",
-[115294] = "mana tea",
-[115546] = "provoke",
-[322118] = "invoke yu'lon, the jade serpent",
-[107428] = "rising sun kick",
-[467307] = "rushing wind kick",
-[115151] = "renewing mist",
-[115310] = "revival",
-[212051] = "reawaken",
-[116680] = "thunder focus tea",
-[443028] = "celestial conduit",
-[124682] = "enveloping mist",
-[115450] = "detox",
-[116849] = "life cocoon",
-[123986] = "chi burst",
-[399491] = "sheilun's gift",
-[388193] = "jadefire stomp",
-[100780] = "tiger palm",
-[115313] = "summon jade serpent statue",
-[233759] = "grapple weapon",
-[388615] = "restoral",
-[322101] = "expel harm",
-[325197] = "invoke chi-ji, the red crane",
+[356995] = "disintegrate",
+[370537] = "stasis",
+[359816] = "dream flight",
+[357210] = "deep breath",
+[361178] = "mass return",
+[364343] = "echo",
+[355936] = "dream breath",
+[366155] = "reversion",
+[382614] = "dream breath",
+[360823] = "naturalize",
+[373861] = "temporal anomaly",
+[357170] = "time dilation",
+[363534] = "rewind",
 },
 {
-[1217413] = "slicing winds",
-[392983] = "strike of the windlord",
-[1249625] = "zenith",
-[115546] = "provoke",
-[107428] = "rising sun kick",
-[137639] = "storm, earth, and fire",
-[116705] = "spear hand strike",
-[233759] = "grapple weapon",
-[443028] = "celestial conduit",
-[152175] = "whirling dragon punch",
-[461404] = "chi burst",
-[113656] = "fists of fury",
-[221771] = "storm, earth, and fire: fixate",
-[115057] = "flying serpent kick",
-[122470] = "touch of karma",
-[101545] = "flying serpent kick",
-[116670] = "vivify",
-[218164] = "detox",
-[1229376] = "single-button assistant",
-[123904] = "invoke xuen, the white tiger",
-[100780] = "tiger palm",
-[247483] = "tigereye brew",
+[404977] = "time skip",
+[395152] = "ebon might",
+[403631] = "breath of eons",
+[395160] = "eruption",
+[403264] = "black attunement",
+[351338] = "quell",
+[408233] = "bestow weyrnstone",
+[361021] = "sense power",
+[403265] = "bronze attunement",
+[396286] = "upheaval",
+[412710] = "timelessness",
+[360827] = "blistering scales",
+[409311] = "prescience",
+[442204] = "breath of eons",
 },
 [0] = {
-[101643] = "transcendence",
-[434763] = "transcendence",
-[326860] = "fallen order",
-[115078] = "paralysis",
-[119996] = "transcendence: transfer",
-[205523] = "blackout kick",
-[293866] = "zen pilgrimage",
-[107428] = "rising sun kick",
-[434766] = "transcendence: transfer",
-[116705] = "spear hand strike",
-[115008] = "chi torpedo",
-[116095] = "disable",
-[101546] = "spinning crane kick",
-[116670] = "vivify",
-[310454] = "weapons of order",
-[126892] = "zen pilgrimage",
-[115178] = "resuscitate",
-[324631] = "fleshcraft",
-[327104] = "faeline stomp",
-[116844] = "ring of peace",
-[310143] = "soulshape",
-[325216] = "bonedust brew",
-[115175] = "soothing mist",
-[324312] = "clash",
-[322109] = "touch of death",
-[461537] = "resuscitate",
-[322729] = "spinning crane kick",
-[126895] = "zen pilgrimage: return",
-[322101] = "expel harm",
-[116841] = "tiger's lust",
-[100780] = "tiger palm",
-[100784] = "blackout kick",
-[198898] = "song of chi-ji",
-[300728] = "door of shadows",
-[122783] = "diffuse magic",
-[115203] = "fortifying brew",
-[115546] = "provoke",
-[119381] = "leg sweep",
-[324739] = "summon steward",
-[109132] = "roll",
-[117952] = "crackling jade lightning",
-[125883] = "zen flight",
+[374251] = "cauterizing flame",
+[406732] = "spatial paradox",
+[357210] = "deep breath",
+[382266] = "fire breath",
+[360806] = "sleep walk",
+[362969] = "azure strike",
+[370665] = "rescue",
+[1265872] = "azure sweep",
+[360995] = "verdant embrace",
+[374227] = "zephyr",
+[364342] = "blessing of the bronze",
+[363916] = "obsidian scales",
+[361227] = "return",
+[374968] = "time spiral",
+[358267] = "hover",
+[368970] = "tail swipe",
+[431443] = "chrono flames",
+[356995] = "disintegrate",
+[369459] = "source of magic",
+[361469] = "living flame",
+[372048] = "oppressing roar",
+[358385] = "landslide",
+[365585] = "expunge",
+[370553] = "tip the scales",
+[355913] = "emerald blossom",
+[357208] = "fire breath",
+[390386] = "fury of the aspects",
+[433874] = "deep breath",
+[461526] = "return",
 },
 },
-["PALADIN"] = {
+["HUNTER"] = {
 {
-[415091] = "shield of the righteous",
-[156910] = "beacon of faith",
-[414273] = "hand of divinity",
-[82326] = "holy light",
-[433583] = "rite of adjuration",
-[375576] = "divine toll",
-[433568] = "rite of sanctification",
-[114165] = "holy prism",
-[35395] = "crusader strike",
-[4987] = "cleanse",
-[498] = "divine protection",
-[156322] = "eternal flame",
-[388007] = "blessing of summer",
-[275773] = "judgment",
-[53563] = "beacon of light",
-[1257064] = "shine of the righteous",
-[216331] = "avenging crusader",
-[200652] = "tyr's deliverance",
-[388011] = "blessing of winter",
-[2812] = "denounce",
-[212056] = "absolution",
-[432459] = "holy bulwark",
-[410126] = "searing glare",
-[85673] = "word of glory",
-[388010] = "blessing of autumn",
-[148039] = "barrier of faith",
-[432472] = "sacred weapon",
-[31821] = "aura mastery",
-[62124] = "hand of reckoning",
-[85222] = "light of dawn",
-[388013] = "blessing of spring",
-[20473] = "holy shock",
-[31884] = "avenging wrath",
-[200025] = "beacon of virtue",
-[204018] = "blessing of spellwarding",
-[1279187] = "crusader strike",
+[1264359] = "wild thrash",
+[193455] = "cobra shot",
+[208652] = "dire beast: hawk",
+[356719] = "chimaeral sting",
+[321297] = "eyes of the beast",
+[19577] = "intimidation",
+[392060] = "wailing arrow",
+[19574] = "bestial wrath",
+[185358] = "arcane shot",
+[217200] = "barbed shot",
 },
 {
-[212641] = "guardian of ancient kings",
-[204018] = "blessing of spellwarding",
-[53385] = "divine storm",
-[184575] = "blade of justice",
-[433583] = "rite of adjuration",
-[375576] = "divine toll",
-[204019] = "blessed hammer",
-[433568] = "rite of sanctification",
-[327193] = "moment of glory",
-[53600] = "shield of the righteous",
-[35395] = "crusader strike",
-[343527] = "execution sentence",
-[31850] = "ardent defender",
-[215652] = "shield of virtue",
-[213644] = "cleanse toxins",
-[387174] = "eye of tyr",
-[96231] = "rebuke",
-[86659] = "guardian of ancient kings",
-[228049] = "guardian of the forgotten queen",
-[389539] = "sentinel",
-[31935] = "avenger's shield",
-[53595] = "hammer of the righteous",
-[432459] = "holy bulwark",
-[410126] = "searing glare",
-[275779] = "judgment",
-[31884] = "avenging wrath",
-[427453] = "hammer of light",
-[85673] = "word of glory",
-[26573] = "consecration",
-[207028] = "inquisition",
-[378974] = "bastion of light",
-[432472] = "sacred weapon",
-[255937] = "wake of ashes",
+[466904] = "harrier's cry",
+[1232995] = "fetch: eagle",
+[56641] = "steady shot",
+[257044] = "rapid fire",
+[19434] = "aimed shot",
+[260243] = "volley",
+[257620] = "multi-shot",
+[356719] = "chimaeral sting",
+[288613] = "trueshot",
+[185358] = "arcane shot",
+[6197] = "eagle eye",
+[474421] = "intimidation",
 },
 {
-[410126] = "searing glare",
-[198034] = "divine hammer",
-[96231] = "rebuke",
-[210256] = "blessing of sanctuary",
-[35395] = "crusader strike",
-[184662] = "shield of vengeance",
-[204018] = "blessing of spellwarding",
-[215661] = "justicar's vengeance",
-[231895] = "avenging wrath",
-[31884] = "avenging wrath",
-[62124] = "hand of reckoning",
-[53600] = "shield of the righteous",
-[213644] = "cleanse toxins",
-[53385] = "divine storm",
-[403876] = "divine protection",
-[343527] = "execution sentence",
-[343721] = "final reckoning",
-[156322] = "eternal flame",
-[184575] = "blade of justice",
-[255937] = "wake of ashes",
-[427453] = "hammer of light",
-[26573] = "consecration",
-[85673] = "word of glory",
-[383328] = "final verdict",
-[407480] = "templar strike",
-[85256] = "templar's verdict",
-[375576] = "divine toll",
-[406647] = "templar slash",
+[1261193] = "boomstick",
+[186270] = "raptor strike",
+[186289] = "aspect of the eagle",
+[1251592] = "flamefang pitch",
+[321297] = "eyes of the beast",
+[259495] = "wildfire bomb",
+[193265] = "hatchet toss",
+[19577] = "intimidation",
+[56641] = "steady shot",
+[1250646] = "takedown",
+[190925] = "harpoon",
+[265189] = "raptor strike",
 },
 [0] = {
-[24275] = "hammer of wrath",
-[85673] = "word of glory",
-[471195] = "lay on hands",
-[53600] = "shield of the righteous",
-[35395] = "crusader strike",
-[304971] = "divine toll",
-[6940] = "blessing of sacrifice",
-[316958] = "ashen hallow",
-[461622] = "intercession",
-[324739] = "summon steward",
-[317920] = "concentration aura",
-[375576] = "divine toll",
-[633] = "lay on hands",
-[20066] = "repentance",
-[190784] = "divine steed",
-[96231] = "rebuke",
-[20271] = "judgment",
-[642] = "divine shield",
-[1022] = "blessing of protection",
-[328204] = "vanquisher's hammer",
-[19750] = "flash of light",
-[324631] = "fleshcraft",
-[121183] = "contemplation",
+[19801] = "tranquilizing shot",
+[328231] = "wild spirits",
+[61648] = "aspect of the chameleon",
+[199483] = "camouflage",
+[781] = "disengage",
+[272682] = "master's call",
+[272651] = "command pet",
+[83244] = "call pet 4",
+[209997] = "play dead",
+[53480] = "roar of sacrifice",
+[466930] = "black arrow",
+[1543] = "flare",
+[109248] = "binding shot",
+[5116] = "concussive shot",
+[5384] = "feign death",
+[187650] = "freezing trap",
+[147362] = "counter shot",
+[1241871] = "master's call",
+[125050] = "fetch",
+[186257] = "aspect of the cheetah",
+[186265] = "aspect of the turtle",
 [310143] = "soulshape",
-[1044] = "blessing of freedom",
-[199448] = "blessing of sacrifice",
-[53595] = "hammer of the righteous",
+[187698] = "tar trap",
+[259489] = "kill command",
+[187707] = "muzzle",
+[324149] = "flayed shot",
+[53351] = "kill shot",
+[195645] = "wing clip",
+[185358] = "arcane shot",
+[109304] = "exhilaration",
+[127933] = "fireworks",
 [300728] = "door of shadows",
-[115750] = "blinding light",
-[20473] = "holy shock",
-[465] = "devotion aura",
-[461534] = "redemption",
-[328620] = "blessing of summer",
-[275779] = "judgment",
-[26573] = "consecration",
-[853] = "hammer of justice",
-[391054] = "intercession",
-[31884] = "avenging wrath",
-[62124] = "hand of reckoning",
-[32223] = "crusader aura",
-[7328] = "redemption",
-[275773] = "judgment",
-[10326] = "turn evil",
-[324701] = "flicker",
-[5502] = "sense undead",
-[1241413] = "hammer of wrath",
+[83245] = "call pet 5",
+[56641] = "steady shot",
+[34026] = "kill command",
+[264735] = "survival of the fittest",
+[272678] = "primal rage",
+[308491] = "resonating arrow",
+[257284] = "hunter's mark",
+[34477] = "misdirection",
+[83243] = "call pet 3",
+[324739] = "summon steward",
 },
 },
 },
 },
 ["groupInfo"] = {
-["Player-1403-06492F48"] = {
+["Player-1598-0F08F91C"] = {
 ["connected"] = true,
 ["group"] = 1,
-["class"] = "DEMONHUNTER",
-["classColorStr"] = "ffa330c9",
+["class"] = "DRUID",
+["classColorStr"] = "ffff7c0a",
 ["classColor"] = {
-["r"] = 0.6392157077789307,
-["g"] = 0.1882353127002716,
-["b"] = 0.7882353663444519,
+["b"] = 0.03921568766236305,
+["g"] = 0.4862745404243469,
+["r"] = 1,
 },
 ["role"] = "DAMAGER",
-["name"] = "Hornyshuffle",
-["specName"] = "Devourer",
-["specIndex"] = 3,
-["specID"] = 1480,
-["specIcon"] = 7455385,
+["name"] = "Tradushuffle",
+["specName"] = "Balance",
 ["position"] = "RANGED",
+["specID"] = 102,
+["specIcon"] = 136096,
+["specIndex"] = 1,
 },
 },
-["minimap"] = {
-["minimapPos"] = 296.4109165740321,
+["transmissions"] = {
+["group"] = {
+[3177] = {
+{
+},
+{
+},
+},
+[3179] = {
+{
+},
+{
+},
+},
+[3181] = {
+{
+},
+{
+},
+},
+[3183] = {
+{
+},
+{
+},
+},
+[3129] = {
+{
+},
+{
+["Player-1598-0FBF146E"] = {
+["version"] = 9,
+["data"] = {
+},
+["time"] = 1771789058,
+["iteration"] = 2,
+},
+["Player-3682-0B434434"] = {
+["version"] = 9,
+["data"] = {
+},
+["time"] = 1771789058,
+["iteration"] = 2,
+},
+["Player-1598-0F46FF5A"] = {
+["version"] = 9,
+["data"] = {
+},
+["time"] = 1771789058,
+["iteration"] = 2,
+},
+},
+},
+[3131] = {
+{
+},
+{
+},
+},
+[3133] = {
+{
+},
+{
+},
+},
+[3135] = {
+{
+},
+{
+},
+},
+[3176] = {
+{
+},
+{
+},
+},
+[3178] = {
+{
+},
+{
+},
+},
+[3180] = {
+{
+},
+{
+},
+},
+[3306] = {
+{
+},
+{
+},
+},
+[3122] = {
+{
+},
+{
+},
+},
+[3130] = {
+{
+},
+{
+},
+},
+[3132] = {
+{
+},
+{
+},
+},
+[3134] = {
+{
+},
+{
+},
+},
+[3182] = {
+{
+},
+{
+},
+},
+},
+["player"] = {
+[3177] = {
+{
+["time"] = 0,
+["iteration"] = 2,
+},
+{
+["time"] = 0,
+["iteration"] = 2,
+},
+},
+[3179] = {
+{
+["time"] = 0,
+["iteration"] = 2,
+},
+{
+["time"] = 0,
+["iteration"] = 2,
+},
+},
+[3181] = {
+{
+["time"] = 0,
+["iteration"] = 2,
+},
+{
+["time"] = 0,
+["iteration"] = 2,
+},
+},
+[3183] = {
+{
+["time"] = 0,
+["iteration"] = 2,
+},
+{
+["time"] = 0,
+["iteration"] = 2,
+},
+},
+[3129] = {
+{
+["time"] = 0,
+["iteration"] = 2,
+},
+{
+["time"] = 1771789299,
+["iteration"] = 2,
+},
+},
+[3131] = {
+{
+["time"] = 0,
+["iteration"] = 2,
+},
+{
+["time"] = 0,
+["iteration"] = 2,
+},
+},
+[3133] = {
+{
+["time"] = 0,
+["iteration"] = 2,
+},
+{
+["time"] = 0,
+["iteration"] = 2,
+},
+},
+[3135] = {
+{
+["time"] = 0,
+["iteration"] = 2,
+},
+{
+["time"] = 1770576529,
+["iteration"] = 2,
+},
+},
+[3176] = {
+{
+["time"] = 0,
+["iteration"] = 2,
+},
+{
+["time"] = 0,
+["iteration"] = 2,
+},
+},
+[3178] = {
+{
+["time"] = 0,
+["iteration"] = 2,
+},
+{
+["time"] = 0,
+["iteration"] = 2,
+},
+},
+[3180] = {
+{
+["time"] = 0,
+["iteration"] = 2,
+},
+{
+["time"] = 0,
+["iteration"] = 2,
+},
+},
+[3306] = {
+{
+["time"] = 0,
+["iteration"] = 2,
+},
+{
+["time"] = 1771697283,
+["iteration"] = 2,
+},
+},
+[3122] = {
+{
+["time"] = 0,
+["iteration"] = 2,
+},
+{
+["time"] = 0,
+["iteration"] = 2,
+},
+},
+[3130] = {
+{
+["time"] = 0,
+["iteration"] = 2,
+},
+{
+["time"] = 0,
+["iteration"] = 2,
+},
+},
+[3132] = {
+{
+["time"] = 0,
+["iteration"] = 2,
+},
+{
+["time"] = 0,
+["iteration"] = 2,
+},
+},
+[3134] = {
+{
+["time"] = 0,
+["iteration"] = 2,
+},
+{
+["time"] = 0,
+["iteration"] = 2,
+},
+},
+[3182] = {
+{
+["time"] = 0,
+["iteration"] = 2,
+},
+{
+["time"] = 0,
+["iteration"] = 2,
+},
+},
+},
 },
 ["nameColorCache"] = {
 },
 ["settings"] = {
 ["showMinimapIcon"] = true,
-["showAnchorHelp"] = true,
 ["groupMode"] = {
 ["showTanks"] = true,
 ["showTextReminders"] = true,
@@ -1761,9 +1548,9 @@ LiquidRemindersSaved = {
 },
 ["PRIEST"] = {
 },
-["HUNTER"] = {
+["PALADIN"] = {
 },
-["EVOKER"] = {
+["MONK"] = {
 },
 ["WARLOCK"] = {
 },
@@ -1773,9 +1560,9 @@ LiquidRemindersSaved = {
 },
 ["DRUID"] = {
 },
-["MONK"] = {
+["EVOKER"] = {
 },
-["PALADIN"] = {
+["HUNTER"] = {
 },
 },
 ["showOfflinePlayers"] = false,
@@ -1784,17 +1571,237 @@ LiquidRemindersSaved = {
 ["spellFilter"] = {
 },
 ["allowBroadcast"] = true,
-["alwaysShowOwn"] = false,
 ["multiTrack"] = false,
+["alwaysShowOwn"] = false,
 },
-["soundChannel"] = "Master",
+["anchors"] = {
+["showSettingsHelp"] = true,
+["ICON"] = {
+["grow"] = "UP",
+["configure"] = true,
+["alignment"] = "LEFT",
+["defaultFontHandle"] = "PT Sans Narrow",
+["showIconsOnly"] = false,
+["font"] = "Interface\\AddOns\\ElvUI\\Game\\Shared\\Media\\Fonts\\PTSansNarrow.ttf",
+["size"] = 60,
+},
+["TEXT"] = {
+["grow"] = "UP",
+["configure"] = true,
+["alignment"] = "CENTER",
+["defaultFontHandle"] = "PT Sans Narrow",
+["font"] = "Interface\\AddOns\\ElvUI\\Game\\Shared\\Media\\Fonts\\PTSansNarrow.ttf",
+["size"] = 40,
+},
+["showNewRegionsHelp"] = false,
+["CIRCLE"] = {
+["thickness"] = 10,
+["configure"] = true,
+["defaultFontHandle"] = "PT Sans Narrow",
+["showBackground"] = true,
+["font"] = "Interface\\Addons\\TimelineReminders\\LiquidUI\\Media\\Fonts\\PTSansNarrow.ttf",
+["size"] = 110,
+},
+["showHelp"] = true,
+["BAR"] = {
+["grow"] = "UP",
+["configure"] = true,
+["width"] = 240,
+["font"] = "Interface\\Addons\\TimelineReminders\\LiquidUI\\Media\\Fonts\\PTSansNarrow.ttf",
+["alignment"] = "CENTER",
+["defaultFontHandle"] = "PT Sans Narrow",
+["height"] = 40,
+["defaultTextureHandle"] = "Solid",
+["texture"] = "Interface\\Buttons\\WHITE8X8",
+},
+},
+["nicknames"] = {
+},
 ["timeline"] = {
 ["selectedInstanceType"] = 1,
 ["nsrtPublicNote"] = true,
 ["selectedEncounter"] = 1,
-["selectedInstance"] = 1,
+["nsrtPersonalNote"] = true,
 ["lockReminderButtons"] = false,
-["mrtPersonalNote"] = true,
+["trackVisibility"] = {
+[3177] = {
+[1256855] = true,
+[1241768] = true,
+[1260052] = true,
+[1276824] = true,
+[1254199] = true,
+[1258967] = true,
+[1241686] = true,
+},
+[3179] = {
+[1253032] = true,
+[1246175] = true,
+[1248697] = true,
+[1247738] = true,
+[1250686] = true,
+[1254081] = true,
+},
+[3181] = {
+[109997] = true,
+},
+[3183] = {
+[109997] = true,
+},
+[3129] = {
+[1220618] = true,
+[1219263] = true,
+[1219531] = true,
+[1219450] = true,
+},
+[3131] = {
+[1226395] = true,
+[1226311] = true,
+[1227226] = true,
+[1250103] = true,
+[1227263] = true,
+[1227782] = true,
+[1237272] = true,
+},
+[3133] = {
+[1233416] = true,
+[1220394] = true,
+[1231871] = true,
+[1225673] = true,
+},
+[3135] = {
+[1243577] = true,
+[1233539] = true,
+[1237694] = true,
+[1237695] = true,
+[1237325] = true,
+[1231716] = true,
+[1251619] = true,
+[1234044] = true,
+[1234263] = true,
+[1249423] = true,
+[1230979] = true,
+[1243690] = true,
+[1238765] = true,
+[1239262] = true,
+[1230087] = true,
+[1229038] = true,
+[1232973] = true,
+[1234244] = true,
+[1250055] = true,
+[1245292] = true,
+},
+[3176] = {
+[1262036] = true,
+[1251583] = true,
+[1270949] = true,
+[1251361] = true,
+[1249265] = true,
+[1258880] = true,
+[1249251] = true,
+[1260712] = true,
+[1280015] = true,
+},
+[3178] = {
+[1262623] = true,
+[1248847] = true,
+[1244221] = true,
+[1265131] = true,
+[1244917] = true,
+[1245645] = true,
+[1249748] = true,
+[1245391] = true,
+},
+[3180] = {
+[1246165] = true,
+[1246736] = true,
+[1255738] = true,
+[1248644] = true,
+[1248451] = true,
+[1251857] = true,
+[1248449] = true,
+[1276999] = true,
+[1248710] = true,
+[1246487] = true,
+[1249130] = true,
+[1248994] = true,
+},
+[3306] = {
+[1262289] = true,
+[1257087] = true,
+[1245404] = true,
+[1264756] = true,
+[1245452] = true,
+[1246653] = true,
+[1258610] = true,
+[1245396] = true,
+[1246132] = true,
+[1272726] = true,
+},
+[3122] = {
+[1233863] = true,
+[1227355] = true,
+[1227117] = true,
+[1241833] = true,
+[1227809] = true,
+[1240891] = true,
+[1222232] = true,
+[1233093] = true,
+[1242259] = true,
+[1218103] = true,
+},
+[3130] = {
+[1223859] = true,
+[1225582] = true,
+[1227276] = true,
+[1225616] = true,
+[1241100] = true,
+},
+[3132] = {
+[1233415] = true,
+[1243887] = true,
+[1228213] = true,
+[1228216] = true,
+[1228502] = true,
+[1231720] = true,
+[1227631] = true,
+[1228161] = true,
+[1232590] = true,
+[1232221] = true,
+},
+[3134] = {
+[1224731] = true,
+[1234529] = true,
+[1228115] = true,
+[1237108] = true,
+[1224864] = true,
+[1232399] = true,
+[1249234] = true,
+[1230263] = true,
+[1227384] = true,
+[1228053] = true,
+[1238980] = true,
+[1226024] = true,
+[1228163] = true,
+[1227734] = true,
+[1224776] = true,
+[1228265] = true,
+[1226648] = true,
+[1228075] = true,
+[1227549] = true,
+[1227470] = true,
+},
+[3182] = {
+[1241291] = true,
+[1242792] = true,
+[1260763] = true,
+[1246709] = true,
+[1241340] = true,
+[1244344] = true,
+[1242515] = true,
+[1242981] = true,
+[1242260] = true,
+},
+},
 ["displayMode"] = "PLAYER",
 ["selectedProfiles"] = {
 [3177] = {
@@ -1866,222 +1873,38 @@ LiquidRemindersSaved = {
 "Default profile",
 },
 },
-["mrtPublicNote"] = true,
+["mrtPersonalNote"] = true,
 ["showRelevantRemindersOnly"] = false,
 ["selectedDifficulty"] = 2,
-["trackVisibility"] = {
-[3177] = {
-[1256855] = true,
-[1241686] = true,
-[1258967] = true,
-[1276824] = true,
-[1254199] = true,
-[1260052] = true,
-[1241768] = true,
+["mrtPublicNote"] = true,
+["selectedInstance"] = 1,
 },
-[3179] = {
-[1253032] = true,
-[1246175] = true,
-[1250686] = true,
-[1247738] = true,
-[1254081] = true,
-[1248697] = true,
+["importOptions"] = {
+["applyTemplates"] = true,
 },
-[3181] = {
-[109997] = true,
-},
-[3183] = {
-[109997] = true,
-},
-[3129] = {
-[1220618] = true,
-[1219263] = true,
-[1219531] = true,
-[1219450] = true,
-},
-[3131] = {
-[1250103] = true,
-[1227263] = true,
-[1227226] = true,
-[1237272] = true,
-[1226311] = true,
-[1227782] = true,
-[1226395] = true,
-},
-[3133] = {
-[1233416] = true,
-[1220394] = true,
-[1225673] = true,
-[1231871] = true,
-},
-[3135] = {
-[1243577] = true,
-[1233539] = true,
-[1237694] = true,
-[1237695] = true,
-[1237325] = true,
-[1231716] = true,
-[1251619] = true,
-[1234044] = true,
-[1234263] = true,
-[1249423] = true,
-[1230979] = true,
-[1243690] = true,
-[1238765] = true,
-[1239262] = true,
-[1230087] = true,
-[1245292] = true,
-[1234244] = true,
-[1232973] = true,
-[1250055] = true,
-[1229038] = true,
-},
-[3176] = {
-[1262036] = true,
-[1251583] = true,
-[1270949] = true,
-[1251361] = true,
-[1258880] = true,
-[1280015] = true,
-[1249251] = true,
-[1260712] = true,
-[1249265] = true,
-},
-[3178] = {
-[1265131] = true,
-[1248847] = true,
-[1244221] = true,
-[1245391] = true,
-[1245645] = true,
-[1244917] = true,
-[1249748] = true,
-[1262623] = true,
-},
-[3180] = {
-[1246165] = true,
-[1246736] = true,
-[1255738] = true,
-[1248644] = true,
-[1248451] = true,
-[1251857] = true,
-[1276999] = true,
-[1248994] = true,
-[1248710] = true,
-[1249130] = true,
-[1246487] = true,
-[1248449] = true,
-},
-[3306] = {
-[1262289] = true,
-[1257087] = true,
-[1245404] = true,
-[1264756] = true,
-[1245452] = true,
-[1246653] = true,
-[1258610] = true,
-[1245396] = true,
-[1246132] = true,
-[1272726] = true,
-},
-[3122] = {
-[1233863] = true,
-[1227355] = true,
-[1227117] = true,
-[1241833] = true,
-[1227809] = true,
-[1240891] = true,
-[1222232] = true,
-[1233093] = true,
-[1242259] = true,
-[1218103] = true,
-},
-[3130] = {
-[1223859] = true,
-[1225582] = true,
-[1241100] = true,
-[1225616] = true,
-[1227276] = true,
-},
-[3132] = {
-[1233415] = true,
-[1243887] = true,
-[1228213] = true,
-[1228216] = true,
-[1228502] = true,
-[1232221] = true,
-[1232590] = true,
-[1228161] = true,
-[1227631] = true,
-[1231720] = true,
-},
-[3134] = {
-[1224731] = true,
-[1234529] = true,
-[1228115] = true,
-[1237108] = true,
-[1224864] = true,
-[1232399] = true,
-[1249234] = true,
-[1230263] = true,
-[1227384] = true,
-[1227470] = true,
-[1238980] = true,
-[1228163] = true,
-[1226024] = true,
-[1228075] = true,
-[1224776] = true,
-[1228265] = true,
-[1226648] = true,
-[1227734] = true,
-[1227549] = true,
-[1228053] = true,
-},
-[3182] = {
-[1241291] = true,
-[1242792] = true,
-[1260763] = true,
-[1246709] = true,
-[1241340] = true,
-[1244344] = true,
-[1242515] = true,
-[1242981] = true,
-[1242260] = true,
-},
-},
-["nsrtPersonalNote"] = true,
-},
-["nicknames"] = {
+["ttsVolume"] = 100,
+["showTemplatesPopup"] = true,
+["importAll"] = false,
+["templates"] = {
+["showRelevantTemplatesOnly"] = true,
+["showButtonHelp"] = true,
 },
 ["reminderTypes"] = {
 ["SPELL"] = {
 ["grow"] = "UP",
-["font"] = "Interface\\AddOns\\ElvUI\\Game\\Shared\\Media\\Fonts\\PTSansNarrow.ttf",
+["font"] = "Interface\\Addons\\TimelineReminders\\LiquidUI\\Media\\Fonts\\PTSansNarrow.ttf",
 ["alignment"] = "LEFT",
 ["showAsText"] = false,
 ["size"] = 60,
 },
 ["TEXT"] = {
 ["grow"] = "UP",
-["font"] = "Interface\\AddOns\\ElvUI\\Game\\Shared\\Media\\Fonts\\PTSansNarrow.ttf",
+["font"] = "Interface\\Addons\\TimelineReminders\\LiquidUI\\Media\\Fonts\\PTSansNarrow.ttf",
 ["alignment"] = "CENTER",
 ["size"] = 40,
 },
 },
-["importAll"] = false,
-["templates"] = {
-["showButtonHelp"] = true,
-["showRelevantTemplatesOnly"] = true,
-},
-["showTemplatesPopup"] = true,
-["ttsVolume"] = 100,
-["importOptions"] = {
-["countdown"] = true,
-["glow"] = true,
-["tts"] = true,
-["color"] = true,
-["duration"] = true,
-["sound"] = true,
-},
+["soundChannel"] = "Master",
 ["defaultReminder"] = {
 ["countdown"] = {
 ["enabled"] = false,
@@ -2092,9 +1915,60 @@ LiquidRemindersSaved = {
 ["enabled"] = false,
 ["type"] = "PIXEL",
 ["color"] = {
-["b"] = 0.32,
-["g"] = 0.95,
 ["r"] = 0.95,
+["g"] = 0.95,
+["b"] = 0.32,
+},
+["names"] = {
+},
+},
+["tts"] = {
+["enabled"] = false,
+["voice"] = 0,
+["alias"] = "",
+["time"] = 0,
+},
+["trigger"] = {
+["hideOnUse"] = true,
+["duration"] = 8,
+["time"] = 0,
+["linger"] = 0,
+},
+["load"] = {
+["type"] = "ALL",
+},
+["sound"] = {
+["enabled"] = false,
+["file"] = "Interface\\Addons\\TimelineReminders\\Media\\Sounds\\TR_Beep.mp3",
+["time"] = 0,
+},
+["display"] = {
+["color"] = {
+["r"] = 1,
+["g"] = 1,
+["b"] = 1,
+},
+["type"] = "TEXT",
+["text"] = "",
+},
+},
+},
+["templates"] = {
+},
+["defaultTemplates"] = {
+["SPELL"] = {
+["countdown"] = {
+["enabled"] = false,
+["voice"] = "Sara",
+["start"] = 3,
+},
+["glow"] = {
+["enabled"] = false,
+["type"] = "PIXEL",
+["color"] = {
+["r"] = 0.95,
+["g"] = 0.95,
+["b"] = 0.32,
 },
 ["names"] = {
 },
@@ -2105,343 +1979,86 @@ LiquidRemindersSaved = {
 ["time"] = 0,
 ["voice"] = 0,
 },
+["display"] = {
+["type"] = "SPELL",
+["spellText"] = "",
+["region"] = "ICON",
+["color"] = {
+["b"] = 1,
+["g"] = 1,
+["r"] = 1,
+},
+["text"] = "",
+["spellID"] = 0,
+},
 ["trigger"] = {
 ["hideOnUse"] = true,
 ["duration"] = 8,
 ["time"] = 0,
 ["linger"] = 0,
 },
-["display"] = {
-["color"] = {
-["b"] = 1,
-["g"] = 1,
-["r"] = 1,
-},
-["type"] = "TEXT",
-["text"] = "",
+["sound"] = {
+["enabled"] = false,
+["file"] = "Interface\\Addons\\TimelineReminders\\Media\\Sounds\\TR_Beep.mp3",
+["time"] = 0,
 },
 ["load"] = {
 ["type"] = "ALL",
+},
+},
+["TEXT"] = {
+["countdown"] = {
+["enabled"] = false,
+["voice"] = "Sara",
+["start"] = 3,
+},
+["glow"] = {
+["enabled"] = false,
+["type"] = "PIXEL",
+["color"] = {
+["r"] = 0.95,
+["g"] = 0.95,
+["b"] = 0.32,
+},
+["names"] = {
+},
+},
+["tts"] = {
+["enabled"] = false,
+["alias"] = "",
+["time"] = 0,
+["voice"] = 0,
+},
+["display"] = {
+["type"] = "TEXT",
+["spellText"] = "",
+["region"] = "TEXT",
+["color"] = {
+["r"] = 1,
+["g"] = 1,
+["b"] = 1,
+},
+["text"] = "",
+["spellID"] = 0,
+},
+["trigger"] = {
+["hideOnUse"] = true,
+["duration"] = 8,
+["time"] = 0,
+["linger"] = 0,
 },
 ["sound"] = {
 ["enabled"] = false,
 ["file"] = "Interface\\Addons\\TimelineReminders\\Media\\Sounds\\TR_Beep.mp3",
 ["time"] = 0,
 },
+["load"] = {
+["type"] = "ALL",
 },
 },
-["templates"] = {
 },
-["remindersBackup"] = {
-[3177] = {
-{
-["Default profile"] = {
-["options"] = {
-},
-["reminders"] = {
-},
-},
-},
-{
-["Default profile"] = {
-["options"] = {
-},
-["reminders"] = {
-},
-},
-},
-},
-[3179] = {
-{
-["Default profile"] = {
-["options"] = {
-},
-["reminders"] = {
-},
-},
-},
-{
-["Default profile"] = {
-["options"] = {
-},
-["reminders"] = {
-},
-},
-},
-},
-[3181] = {
-{
-["Default profile"] = {
-["options"] = {
-},
-["reminders"] = {
-},
-},
-},
-{
-["Default profile"] = {
-["options"] = {
-},
-["reminders"] = {
-},
-},
-},
-},
-[3183] = {
-{
-["Default profile"] = {
-["options"] = {
-},
-["reminders"] = {
-},
-},
-},
-{
-["Default profile"] = {
-["options"] = {
-},
-["reminders"] = {
-},
-},
-},
-},
-[3129] = {
-{
-["Default profile"] = {
-["options"] = {
-},
-["reminders"] = {
-},
-},
-},
-{
-["Default profile"] = {
-["options"] = {
-},
-["reminders"] = {
-},
-},
-},
-},
-[3131] = {
-{
-["Default profile"] = {
-["options"] = {
-},
-["reminders"] = {
-},
-},
-},
-{
-["Default profile"] = {
-["options"] = {
-},
-["reminders"] = {
-},
-},
-},
-},
-[3133] = {
-{
-["Default profile"] = {
-["options"] = {
-},
-["reminders"] = {
-},
-},
-},
-{
-["Default profile"] = {
-["options"] = {
-},
-["reminders"] = {
-},
-},
-},
-},
-[3135] = {
-{
-["Default profile"] = {
-["options"] = {
-},
-["reminders"] = {
-},
-},
-},
-{
-["Default profile"] = {
-["options"] = {
-},
-["reminders"] = {
-},
-},
-},
-},
-[3176] = {
-{
-["Default profile"] = {
-["options"] = {
-},
-["reminders"] = {
-},
-},
-},
-{
-["Default profile"] = {
-["options"] = {
-},
-["reminders"] = {
-},
-},
-},
-},
-[3178] = {
-{
-["Default profile"] = {
-["options"] = {
-},
-["reminders"] = {
-},
-},
-},
-{
-["Default profile"] = {
-["options"] = {
-},
-["reminders"] = {
-},
-},
-},
-},
-[3180] = {
-{
-["Default profile"] = {
-["options"] = {
-},
-["reminders"] = {
-},
-},
-},
-{
-["Default profile"] = {
-["options"] = {
-},
-["reminders"] = {
-},
-},
-},
-},
-[3306] = {
-{
-["Default profile"] = {
-["options"] = {
-},
-["reminders"] = {
-},
-},
-},
-{
-["Default profile"] = {
-["options"] = {
-},
-["reminders"] = {
-},
-},
-},
-},
-[3122] = {
-{
-["Default profile"] = {
-["options"] = {
-},
-["reminders"] = {
-},
-},
-},
-{
-["Default profile"] = {
-["options"] = {
-},
-["reminders"] = {
-},
-},
-},
-},
-[3130] = {
-{
-["Default profile"] = {
-["options"] = {
-},
-["reminders"] = {
-},
-},
-},
-{
-["Default profile"] = {
-["options"] = {
-},
-["reminders"] = {
-},
-},
-},
-},
-[3132] = {
-{
-["Default profile"] = {
-["options"] = {
-},
-["reminders"] = {
-},
-},
-},
-{
-["Default profile"] = {
-["options"] = {
-},
-["reminders"] = {
-},
-},
-},
-},
-[3134] = {
-{
-["Default profile"] = {
-["options"] = {
-},
-["reminders"] = {
-},
-},
-},
-{
-["Default profile"] = {
-["options"] = {
-},
-["reminders"] = {
-},
-},
-},
-},
-[3182] = {
-{
-["Default profile"] = {
-["options"] = {
-},
-["reminders"] = {
-},
-},
-},
-{
-["Default profile"] = {
-["options"] = {
-},
-["reminders"] = {
-},
-},
-},
-},
-},
-["internalVersion"] = 29,
-["toc"] = 120000,
+["internalVersion"] = 31,
+["toc"] = 120001,
 ["reminders"] = {
 [3177] = {
 {
@@ -2779,6 +2396,15 @@ LiquidRemindersSaved = {
 ["icon"] = 132341,
 ["description"] = "A stalwart protector who uses a shield to safeguard themselves and their allies.\r\n\r\nPreferred Weapon: Axe, Mace, Sword, and Shield",
 },
+[5] = {
+["role"] = "DAMAGER",
+["name"] = "",
+["className"] = false,
+["id"] = 1446,
+["description"] = "",
+["icon"] = 132355,
+["classFile"] = true,
+},
 },
 {
 {
@@ -3105,7 +2731,7 @@ LiquidRemindersSaved = {
 ["id"] = 1480,
 ["classFile"] = false,
 ["icon"] = 7455385,
-["description"] = "Harness the power of the void to crush your enemies and feast on their souls.\r\n\r\nPreferred Weapons: Glaives, Swords, Axes",
+["description"] = "Harness the power of the void to crush your enemies and feast on their souls.\r\n\r\nPreferred Weapons: Warglaives, Swords, Axes",
 },
 },
 {
@@ -5471,345 +5097,7991 @@ LiquidRemindersSaved = {
 ["time"] = 1769984403,
 ["size"] = 1,
 },
+{
+["time"] = 1770019485,
+["size"] = 1,
+},
+{
+["time"] = 1770019485,
+["size"] = 1,
+},
+{
+["time"] = 1770019488,
+["size"] = 1,
+},
+{
+["time"] = 1770019491,
+["size"] = 4,
+},
+{
+["time"] = 1770019498,
+["size"] = 1,
+},
+{
+["time"] = 1770019501,
+["size"] = 1,
+},
+{
+["time"] = 1770019501,
+["size"] = 1,
+},
+{
+["time"] = 1770019503,
+["size"] = 1,
+},
+{
+["time"] = 1770019507,
+["size"] = 1,
+},
+{
+["time"] = 1770019508,
+["size"] = 1,
+},
+{
+["time"] = 1770019514,
+["size"] = 4,
+},
+{
+["time"] = 1770019522,
+["size"] = 1,
+},
+{
+["time"] = 1770019567,
+["size"] = 1,
+},
+{
+["time"] = 1770019593,
+["size"] = 1,
+},
+{
+["time"] = 1770019595,
+["size"] = 1,
+},
+{
+["time"] = 1770019598,
+["size"] = 4,
+},
+{
+["time"] = 1770019608,
+["size"] = 1,
+},
+{
+["time"] = 1770020131,
+["size"] = 1,
+},
+{
+["time"] = 1770020132,
+["size"] = 4,
+},
+{
+["time"] = 1770020289,
+["size"] = 1,
+},
+{
+["time"] = 1770020376,
+["size"] = 1,
+},
+{
+["time"] = 1770020442,
+["size"] = 4,
+},
+{
+["time"] = 1770020685,
+["size"] = 1,
+},
+{
+["time"] = 1770020685,
+["size"] = 1,
+},
+{
+["time"] = 1770020688,
+["size"] = 1,
+},
+{
+["time"] = 1770027746,
+["size"] = 1,
+},
+{
+["time"] = 1770027747,
+["size"] = 1,
+},
+{
+["time"] = 1770027750,
+["size"] = 1,
+},
+{
+["time"] = 1770027792,
+["size"] = 1,
+},
+{
+["time"] = 1770027829,
+["size"] = 1,
+},
+{
+["time"] = 1770027830,
+["size"] = 1,
+},
+{
+["time"] = 1770027831,
+["size"] = 1,
+},
+{
+["time"] = 1770027834,
+["size"] = 4,
+},
+{
+["time"] = 1770027842,
+["size"] = 1,
+},
+{
+["time"] = 1770027846,
+["size"] = 1,
+},
+{
+["time"] = 1770027848,
+["size"] = 1,
+},
+{
+["time"] = 1770027851,
+["size"] = 4,
+},
+{
+["time"] = 1770027856,
+["size"] = 1,
+},
+{
+["time"] = 1770028505,
+["size"] = 1,
+},
+{
+["time"] = 1770028520,
+["size"] = 4,
+},
+{
+["time"] = 1770028720,
+["size"] = 1,
+},
+{
+["time"] = 1770028724,
+["size"] = 1,
+},
+{
+["time"] = 1770028724,
+["size"] = 4,
+},
+{
+["time"] = 1770028735,
+["size"] = 1,
+},
+{
+["time"] = 1770029652,
+["size"] = 1,
+},
+{
+["time"] = 1770029680,
+["size"] = 4,
+},
+{
+["time"] = 1770029749,
+["size"] = 1,
+},
+{
+["time"] = 1770029862,
+["size"] = 1,
+},
+{
+["time"] = 1770029865,
+["size"] = 1,
+},
+{
+["time"] = 1770030097,
+["size"] = 1,
+},
+{
+["time"] = 1770030099,
+["size"] = 1,
+},
+{
+["time"] = 1770030101,
+["size"] = 4,
+},
+{
+["time"] = 1770030117,
+["size"] = 1,
+},
+{
+["time"] = 1770030559,
+["size"] = 4,
+},
+{
+["time"] = 1770030624,
+["size"] = 1,
+},
+{
+["time"] = 1770030627,
+["size"] = 1,
+},
+{
+["time"] = 1770030627,
+["size"] = 1,
+},
+{
+["time"] = 1770030742,
+["size"] = 1,
+},
+{
+["time"] = 1770030742,
+["size"] = 1,
+},
+{
+["time"] = 1770030745,
+["size"] = 1,
+},
+{
+["time"] = 1770030776,
+["size"] = 1,
+},
+{
+["time"] = 1770030776,
+["size"] = 1,
+},
+{
+["time"] = 1770030781,
+["size"] = 1,
+},
+{
+["time"] = 1770030937,
+["size"] = 1,
+},
+{
+["time"] = 1770030951,
+["size"] = 1,
+},
+{
+["time"] = 1770030953,
+["size"] = 1,
+},
+{
+["time"] = 1770030953,
+["size"] = 1,
+},
+{
+["time"] = 1770030960,
+["size"] = 4,
+},
+{
+["time"] = 1770030964,
+["size"] = 1,
+},
+{
+["time"] = 1770030970,
+["size"] = 1,
+},
+{
+["time"] = 1770030989,
+["size"] = 1,
+},
+{
+["time"] = 1770030989,
+["size"] = 1,
+},
+{
+["time"] = 1770030990,
+["size"] = 1,
+},
+{
+["time"] = 1770030991,
+["size"] = 1,
+},
+{
+["time"] = 1770031081,
+["size"] = 1,
+},
+{
+["time"] = 1770031085,
+["size"] = 1,
+},
+{
+["time"] = 1770032148,
+["size"] = 1,
+},
+{
+["time"] = 1770032150,
+["size"] = 1,
+},
+{
+["time"] = 1770032151,
+["size"] = 1,
+},
+{
+["time"] = 1770032153,
+["size"] = 1,
+},
+{
+["time"] = 1770032157,
+["size"] = 4,
+},
+{
+["time"] = 1770032211,
+["size"] = 1,
+},
+{
+["time"] = 1770032212,
+["size"] = 1,
+},
+{
+["time"] = 1770032212,
+["size"] = 1,
+},
+{
+["time"] = 1770032214,
+["size"] = 1,
+},
+{
+["time"] = 1770032487,
+["size"] = 1,
+},
+{
+["time"] = 1770032487,
+["size"] = 1,
+},
+{
+["time"] = 1770032488,
+["size"] = 1,
+},
+{
+["time"] = 1770032489,
+["size"] = 1,
+},
+{
+["time"] = 1770033093,
+["size"] = 1,
+},
+{
+["time"] = 1770033096,
+["size"] = 1,
+},
+{
+["time"] = 1770033096,
+["size"] = 1,
+},
+{
+["time"] = 1770033189,
+["size"] = 1,
+},
+{
+["time"] = 1770033264,
+["size"] = 1,
+},
+{
+["time"] = 1770033267,
+["size"] = 1,
+},
+{
+["time"] = 1770033269,
+["size"] = 1,
+},
+{
+["time"] = 1770033271,
+["size"] = 4,
+},
+{
+["time"] = 1770033279,
+["size"] = 1,
+},
+{
+["time"] = 1770033558,
+["size"] = 4,
+},
+{
+["time"] = 1770033815,
+["size"] = 1,
+},
+{
+["time"] = 1770033839,
+["size"] = 1,
+},
+{
+["time"] = 1770034953,
+["size"] = 1,
+},
+{
+["time"] = 1770034954,
+["size"] = 1,
+},
+{
+["time"] = 1770034957,
+["size"] = 1,
+},
+{
+["time"] = 1770034979,
+["size"] = 1,
+},
+{
+["time"] = 1770035079,
+["size"] = 1,
+},
+{
+["time"] = 1770035080,
+["size"] = 1,
+},
+{
+["time"] = 1770035083,
+["size"] = 1,
+},
+{
+["time"] = 1770035101,
+["size"] = 1,
+},
+{
+["time"] = 1770035177,
+["size"] = 1,
+},
+{
+["time"] = 1770035177,
+["size"] = 1,
+},
+{
+["time"] = 1770035180,
+["size"] = 1,
+},
+{
+["time"] = 1770035244,
+["size"] = 1,
+},
+{
+["time"] = 1770035244,
+["size"] = 1,
+},
+{
+["time"] = 1770035247,
+["size"] = 1,
+},
+{
+["time"] = 1770035262,
+["size"] = 1,
+},
+{
+["time"] = 1770035344,
+["size"] = 1,
+},
+{
+["time"] = 1770035344,
+["size"] = 1,
+},
+{
+["time"] = 1770035347,
+["size"] = 1,
+},
+{
+["time"] = 1770035543,
+["size"] = 1,
+},
+{
+["time"] = 1770035583,
+["size"] = 1,
+},
+{
+["time"] = 1770035583,
+["size"] = 1,
+},
+{
+["time"] = 1770035586,
+["size"] = 1,
+},
+{
+["time"] = 1770035601,
+["size"] = 1,
+},
+{
+["time"] = 1770035654,
+["size"] = 1,
+},
+{
+["time"] = 1770035654,
+["size"] = 1,
+},
+{
+["time"] = 1770035657,
+["size"] = 1,
+},
+{
+["time"] = 1770035669,
+["size"] = 1,
+},
+{
+["time"] = 1770035727,
+["size"] = 1,
+},
+{
+["time"] = 1770035727,
+["size"] = 1,
+},
+{
+["time"] = 1770035728,
+["size"] = 1,
+},
+{
+["time"] = 1770035729,
+["size"] = 1,
+},
+{
+["time"] = 1770035731,
+["size"] = 1,
+},
+{
+["time"] = 1770035732,
+["size"] = 1,
+},
+{
+["time"] = 1770035777,
+["size"] = 1,
+},
+{
+["time"] = 1770035777,
+["size"] = 1,
+},
+{
+["time"] = 1770035780,
+["size"] = 1,
+},
+{
+["time"] = 1770035792,
+["size"] = 1,
+},
+{
+["time"] = 1770035960,
+["size"] = 1,
+},
+{
+["time"] = 1770035961,
+["size"] = 1,
+},
+{
+["time"] = 1770035964,
+["size"] = 1,
+},
+{
+["time"] = 1770035975,
+["size"] = 1,
+},
+{
+["time"] = 1770036035,
+["size"] = 1,
+},
+{
+["time"] = 1770036035,
+["size"] = 1,
+},
+{
+["time"] = 1770036038,
+["size"] = 1,
+},
+{
+["time"] = 1770036059,
+["size"] = 1,
+},
+{
+["time"] = 1770036142,
+["size"] = 1,
+},
+{
+["time"] = 1770036143,
+["size"] = 1,
+},
+{
+["time"] = 1770036146,
+["size"] = 1,
+},
+{
+["time"] = 1770036158,
+["size"] = 1,
+},
+{
+["time"] = 1770036226,
+["size"] = 1,
+},
+{
+["time"] = 1770036226,
+["size"] = 1,
+},
+{
+["time"] = 1770036227,
+["size"] = 1,
+},
+{
+["time"] = 1770036228,
+["size"] = 1,
+},
+{
+["time"] = 1770036229,
+["size"] = 1,
+},
+{
+["time"] = 1770036230,
+["size"] = 1,
+},
+{
+["time"] = 1770036273,
+["size"] = 1,
+},
+{
+["time"] = 1770036273,
+["size"] = 1,
+},
+{
+["time"] = 1770036277,
+["size"] = 1,
+},
+{
+["time"] = 1770036296,
+["size"] = 1,
+},
+{
+["time"] = 1770036477,
+["size"] = 1,
+},
+{
+["time"] = 1770036478,
+["size"] = 1,
+},
+{
+["time"] = 1770036481,
+["size"] = 1,
+},
+{
+["time"] = 1770036534,
+["size"] = 1,
+},
+{
+["time"] = 1770036582,
+["size"] = 1,
+},
+{
+["time"] = 1770036582,
+["size"] = 1,
+},
+{
+["time"] = 1770036585,
+["size"] = 1,
+},
+{
+["time"] = 1770036644,
+["size"] = 1,
+},
+{
+["time"] = 1770036645,
+["size"] = 1,
+},
+{
+["time"] = 1770036647,
+["size"] = 1,
+},
+{
+["time"] = 1770036696,
+["size"] = 1,
+},
+{
+["time"] = 1770036696,
+["size"] = 1,
+},
+{
+["time"] = 1770036700,
+["size"] = 1,
+},
+{
+["time"] = 1770036750,
+["size"] = 1,
+},
+{
+["time"] = 1770036751,
+["size"] = 1,
+},
+{
+["time"] = 1770036754,
+["size"] = 1,
+},
+{
+["time"] = 1770036803,
+["size"] = 1,
+},
+{
+["time"] = 1770036804,
+["size"] = 1,
+},
+{
+["time"] = 1770036806,
+["size"] = 1,
+},
+{
+["time"] = 1770036828,
+["size"] = 1,
+},
+{
+["time"] = 1770036931,
+["size"] = 1,
+},
+{
+["time"] = 1770036931,
+["size"] = 1,
+},
+{
+["time"] = 1770036931,
+["size"] = 1,
+},
+{
+["time"] = 1770036933,
+["size"] = 1,
+},
+{
+["time"] = 1770036935,
+["size"] = 1,
+},
+{
+["time"] = 1770036935,
+["size"] = 1,
+},
+{
+["time"] = 1770038367,
+["size"] = 1,
+},
+{
+["time"] = 1770038370,
+["size"] = 1,
+},
+{
+["time"] = 1770038371,
+["size"] = 1,
+},
+{
+["time"] = 1770038373,
+["size"] = 4,
+},
+{
+["time"] = 1770038378,
+["size"] = 1,
+},
+{
+["time"] = 1770038398,
+["size"] = 1,
+},
+{
+["time"] = 1770038407,
+["size"] = 1,
+},
+{
+["time"] = 1770038410,
+["size"] = 1,
+},
+{
+["time"] = 1770038411,
+["size"] = 1,
+},
+{
+["time"] = 1770038414,
+["size"] = 4,
+},
+{
+["time"] = 1770038421,
+["size"] = 1,
+},
+{
+["time"] = 1770038863,
+["size"] = 4,
+},
+{
+["time"] = 1770039028,
+["size"] = 4,
+},
+{
+["time"] = 1770039080,
+["size"] = 1,
+},
+{
+["time"] = 1770039083,
+["size"] = 4,
+},
+{
+["time"] = 1770039148,
+["size"] = 4,
+},
+{
+["time"] = 1770039214,
+["size"] = 1,
+},
+{
+["time"] = 1770039473,
+["size"] = 1,
+},
+{
+["time"] = 1770039474,
+["size"] = 1,
+},
+{
+["time"] = 1770039477,
+["size"] = 1,
+},
+{
+["time"] = 1770039587,
+["size"] = 4,
+},
+{
+["time"] = 1770041397,
+["size"] = 1,
+},
+{
+["time"] = 1770041397,
+["size"] = 1,
+},
+{
+["time"] = 1770041400,
+["size"] = 1,
+},
+{
+["time"] = 1770145630,
+["size"] = 1,
+},
+{
+["time"] = 1770145630,
+["size"] = 1,
+},
+{
+["time"] = 1770145633,
+["size"] = 1,
+},
+{
+["time"] = 1770145704,
+["size"] = 1,
+},
+{
+["time"] = 1770145705,
+["size"] = 1,
+},
+{
+["time"] = 1770145707,
+["size"] = 1,
+},
+{
+["time"] = 1770145769,
+["size"] = 1,
+},
+{
+["time"] = 1770145770,
+["size"] = 1,
+},
+{
+["time"] = 1770145773,
+["size"] = 1,
+},
+{
+["time"] = 1770145813,
+["size"] = 1,
+},
+{
+["time"] = 1770145813,
+["size"] = 1,
+},
+{
+["time"] = 1770145816,
+["size"] = 1,
+},
+{
+["time"] = 1770145860,
+["size"] = 1,
+},
+{
+["time"] = 1770145860,
+["size"] = 1,
+},
+{
+["time"] = 1770145864,
+["size"] = 1,
+},
+{
+["time"] = 1770145904,
+["size"] = 1,
+},
+{
+["time"] = 1770145905,
+["size"] = 1,
+},
+{
+["time"] = 1770145907,
+["size"] = 1,
+},
+{
+["time"] = 1770145964,
+["size"] = 1,
+},
+{
+["time"] = 1770145964,
+["size"] = 1,
+},
+{
+["time"] = 1770145968,
+["size"] = 1,
+},
+{
+["time"] = 1770146024,
+["size"] = 1,
+},
+{
+["time"] = 1770146024,
+["size"] = 1,
+},
+{
+["time"] = 1770146027,
+["size"] = 1,
+},
+{
+["time"] = 1770146065,
+["size"] = 1,
+},
+{
+["time"] = 1770146065,
+["size"] = 1,
+},
+{
+["time"] = 1770146067,
+["size"] = 1,
+},
+{
+["time"] = 1770146114,
+["size"] = 1,
+},
+{
+["time"] = 1770146114,
+["size"] = 1,
+},
+{
+["time"] = 1770146118,
+["size"] = 1,
+},
+{
+["time"] = 1770146152,
+["size"] = 1,
+},
+{
+["time"] = 1770146152,
+["size"] = 1,
+},
+{
+["time"] = 1770146154,
+["size"] = 1,
+},
+{
+["time"] = 1770146199,
+["size"] = 1,
+},
+{
+["time"] = 1770146199,
+["size"] = 1,
+},
+{
+["time"] = 1770146202,
+["size"] = 1,
+},
+{
+["time"] = 1770146236,
+["size"] = 1,
+},
+{
+["time"] = 1770146236,
+["size"] = 1,
+},
+{
+["time"] = 1770146239,
+["size"] = 1,
+},
+{
+["time"] = 1770146283,
+["size"] = 1,
+},
+{
+["time"] = 1770146283,
+["size"] = 1,
+},
+{
+["time"] = 1770146286,
+["size"] = 1,
+},
+{
+["time"] = 1770146326,
+["size"] = 1,
+},
+{
+["time"] = 1770146327,
+["size"] = 1,
+},
+{
+["time"] = 1770146330,
+["size"] = 1,
+},
+{
+["time"] = 1770146370,
+["size"] = 1,
+},
+{
+["time"] = 1770146370,
+["size"] = 1,
+},
+{
+["time"] = 1770146373,
+["size"] = 1,
+},
+{
+["time"] = 1770146409,
+["size"] = 1,
+},
+{
+["time"] = 1770146409,
+["size"] = 1,
+},
+{
+["time"] = 1770146412,
+["size"] = 1,
+},
+{
+["time"] = 1770146451,
+["size"] = 1,
+},
+{
+["time"] = 1770146452,
+["size"] = 1,
+},
+{
+["time"] = 1770146454,
+["size"] = 1,
+},
+{
+["time"] = 1770146489,
+["size"] = 1,
+},
+{
+["time"] = 1770146489,
+["size"] = 1,
+},
+{
+["time"] = 1770146493,
+["size"] = 1,
+},
+{
+["time"] = 1770146671,
+["size"] = 1,
+},
+{
+["time"] = 1770146671,
+["size"] = 1,
+},
+{
+["time"] = 1770146673,
+["size"] = 1,
+},
+{
+["time"] = 1770146928,
+["size"] = 4,
+},
+{
+["time"] = 1770147707,
+["size"] = 1,
+},
+{
+["time"] = 1770147707,
+["size"] = 1,
+},
+{
+["time"] = 1770147709,
+["size"] = 1,
+},
+{
+["time"] = 1770147759,
+["size"] = 1,
+},
+{
+["time"] = 1770147759,
+["size"] = 1,
+},
+{
+["time"] = 1770147761,
+["size"] = 1,
+},
+{
+["time"] = 1770147843,
+["size"] = 1,
+},
+{
+["time"] = 1770147843,
+["size"] = 1,
+},
+{
+["time"] = 1770147846,
+["size"] = 1,
+},
+{
+["time"] = 1770147929,
+["size"] = 1,
+},
+{
+["time"] = 1770147929,
+["size"] = 1,
+},
+{
+["time"] = 1770147932,
+["size"] = 1,
+},
+{
+["time"] = 1770147976,
+["size"] = 1,
+},
+{
+["time"] = 1770147977,
+["size"] = 1,
+},
+{
+["time"] = 1770147979,
+["size"] = 1,
+},
+{
+["time"] = 1770148022,
+["size"] = 1,
+},
+{
+["time"] = 1770148023,
+["size"] = 1,
+},
+{
+["time"] = 1770148025,
+["size"] = 1,
+},
+{
+["time"] = 1770148069,
+["size"] = 1,
+},
+{
+["time"] = 1770148069,
+["size"] = 1,
+},
+{
+["time"] = 1770148072,
+["size"] = 1,
+},
+{
+["time"] = 1770148116,
+["size"] = 1,
+},
+{
+["time"] = 1770148116,
+["size"] = 1,
+},
+{
+["time"] = 1770148119,
+["size"] = 1,
+},
+{
+["time"] = 1770148160,
+["size"] = 1,
+},
+{
+["time"] = 1770148160,
+["size"] = 1,
+},
+{
+["time"] = 1770148162,
+["size"] = 1,
+},
+{
+["time"] = 1770148207,
+["size"] = 1,
+},
+{
+["time"] = 1770148208,
+["size"] = 1,
+},
+{
+["time"] = 1770148211,
+["size"] = 1,
+},
+{
+["time"] = 1770148245,
+["size"] = 1,
+},
+{
+["time"] = 1770148245,
+["size"] = 1,
+},
+{
+["time"] = 1770148249,
+["size"] = 1,
+},
+{
+["time"] = 1770148291,
+["size"] = 1,
+},
+{
+["time"] = 1770148291,
+["size"] = 1,
+},
+{
+["time"] = 1770148295,
+["size"] = 1,
+},
+{
+["time"] = 1770148335,
+["size"] = 1,
+},
+{
+["time"] = 1770148336,
+["size"] = 1,
+},
+{
+["time"] = 1770148338,
+["size"] = 1,
+},
+{
+["time"] = 1770148366,
+["size"] = 1,
+},
+{
+["time"] = 1770148366,
+["size"] = 1,
+},
+{
+["time"] = 1770148370,
+["size"] = 1,
+},
+{
+["time"] = 1770148409,
+["size"] = 1,
+},
+{
+["time"] = 1770148410,
+["size"] = 1,
+},
+{
+["time"] = 1770148413,
+["size"] = 1,
+},
+{
+["time"] = 1770148471,
+["size"] = 1,
+},
+{
+["time"] = 1770148472,
+["size"] = 1,
+},
+{
+["time"] = 1770148477,
+["size"] = 1,
+},
+{
+["time"] = 1770148539,
+["size"] = 1,
+},
+{
+["time"] = 1770148540,
+["size"] = 1,
+},
+{
+["time"] = 1770148542,
+["size"] = 1,
+},
+{
+["time"] = 1770148582,
+["size"] = 1,
+},
+{
+["time"] = 1770148583,
+["size"] = 1,
+},
+{
+["time"] = 1770148586,
+["size"] = 1,
+},
+{
+["time"] = 1770148639,
+["size"] = 1,
+},
+{
+["time"] = 1770148639,
+["size"] = 1,
+},
+{
+["time"] = 1770148643,
+["size"] = 1,
+},
+{
+["time"] = 1770148697,
+["size"] = 1,
+},
+{
+["time"] = 1770148697,
+["size"] = 1,
+},
+{
+["time"] = 1770148700,
+["size"] = 1,
+},
+{
+["time"] = 1770148791,
+["size"] = 1,
+},
+{
+["time"] = 1770148792,
+["size"] = 1,
+},
+{
+["time"] = 1770148795,
+["size"] = 1,
+},
+{
+["time"] = 1770148837,
+["size"] = 1,
+},
+{
+["time"] = 1770148837,
+["size"] = 1,
+},
+{
+["time"] = 1770148842,
+["size"] = 1,
+},
+{
+["time"] = 1770148870,
+["size"] = 1,
+},
+{
+["time"] = 1770148870,
+["size"] = 1,
+},
+{
+["time"] = 1770148873,
+["size"] = 1,
+},
+{
+["time"] = 1770148931,
+["size"] = 1,
+},
+{
+["time"] = 1770148931,
+["size"] = 1,
+},
+{
+["time"] = 1770148936,
+["size"] = 1,
+},
+{
+["time"] = 1770148963,
+["size"] = 1,
+},
+{
+["time"] = 1770148963,
+["size"] = 1,
+},
+{
+["time"] = 1770148966,
+["size"] = 1,
+},
+{
+["time"] = 1770149022,
+["size"] = 1,
+},
+{
+["time"] = 1770149022,
+["size"] = 1,
+},
+{
+["time"] = 1770149028,
+["size"] = 1,
+},
+{
+["time"] = 1770149072,
+["size"] = 1,
+},
+{
+["time"] = 1770149072,
+["size"] = 1,
+},
+{
+["time"] = 1770149075,
+["size"] = 1,
+},
+{
+["time"] = 1770149161,
+["size"] = 1,
+},
+{
+["time"] = 1770149161,
+["size"] = 1,
+},
+{
+["time"] = 1770149164,
+["size"] = 1,
+},
+{
+["time"] = 1770149238,
+["size"] = 1,
+},
+{
+["time"] = 1770149239,
+["size"] = 1,
+},
+{
+["time"] = 1770149242,
+["size"] = 1,
+},
+{
+["time"] = 1770149288,
+["size"] = 1,
+},
+{
+["time"] = 1770149288,
+["size"] = 1,
+},
+{
+["time"] = 1770149291,
+["size"] = 1,
+},
+{
+["time"] = 1770149355,
+["size"] = 1,
+},
+{
+["time"] = 1770149355,
+["size"] = 1,
+},
+{
+["time"] = 1770149359,
+["size"] = 1,
+},
+{
+["time"] = 1770189097,
+["size"] = 1,
+},
+{
+["time"] = 1770189097,
+["size"] = 1,
+},
+{
+["time"] = 1770189101,
+["size"] = 1,
+},
+{
+["time"] = 1770189179,
+["size"] = 1,
+},
+{
+["time"] = 1770189179,
+["size"] = 1,
+},
+{
+["time"] = 1770189182,
+["size"] = 1,
+},
+{
+["time"] = 1770189472,
+["size"] = 1,
+},
+{
+["time"] = 1770189473,
+["size"] = 1,
+},
+{
+["time"] = 1770189476,
+["size"] = 1,
+},
+{
+["time"] = 1770197436,
+["size"] = 1,
+},
+{
+["time"] = 1770197436,
+["size"] = 1,
+},
+{
+["time"] = 1770197438,
+["size"] = 1,
+},
+{
+["time"] = 1770197497,
+["size"] = 1,
+},
+{
+["time"] = 1770197497,
+["size"] = 1,
+},
+{
+["time"] = 1770197499,
+["size"] = 1,
+},
+{
+["time"] = 1770198437,
+["size"] = 1,
+},
+{
+["time"] = 1770198441,
+["size"] = 1,
+},
+{
+["time"] = 1770198448,
+["size"] = 1,
+},
+{
+["time"] = 1770216821,
+["size"] = 1,
+},
+{
+["time"] = 1770216821,
+["size"] = 1,
+},
+{
+["time"] = 1770216824,
+["size"] = 1,
+},
+{
+["time"] = 1770311421,
+["size"] = 1,
+},
+{
+["time"] = 1770311422,
+["size"] = 1,
+},
+{
+["time"] = 1770311425,
+["size"] = 1,
+},
+{
+["time"] = 1770311618,
+["size"] = 1,
+},
+{
+["time"] = 1770311619,
+["size"] = 1,
+},
+{
+["time"] = 1770311622,
+["size"] = 1,
+},
+{
+["time"] = 1770314735,
+["size"] = 4,
+},
+{
+["time"] = 1770315893,
+["size"] = 1,
+},
+{
+["time"] = 1770315898,
+["size"] = 1,
+},
+{
+["time"] = 1770315904,
+["size"] = 1,
+},
+{
+["time"] = 1770315908,
+["size"] = 1,
+},
+{
+["time"] = 1770315908,
+["size"] = 1,
+},
+{
+["time"] = 1770315984,
+["size"] = 1,
+},
+{
+["time"] = 1770315992,
+["size"] = 1,
+},
+{
+["time"] = 1770315993,
+["size"] = 1,
+},
+{
+["time"] = 1770315996,
+["size"] = 1,
+},
+{
+["time"] = 1770316169,
+["size"] = 1,
+},
+{
+["time"] = 1770316171,
+["size"] = 1,
+},
+{
+["time"] = 1770316173,
+["size"] = 1,
+},
+{
+["time"] = 1770316316,
+["size"] = 1,
+},
+{
+["time"] = 1770316316,
+["size"] = 1,
+},
+{
+["time"] = 1770316376,
+["size"] = 1,
+},
+{
+["time"] = 1770316376,
+["size"] = 1,
+},
+{
+["time"] = 1770316405,
+["size"] = 1,
+},
+{
+["time"] = 1770316405,
+["size"] = 1,
+},
+{
+["time"] = 1770316419,
+["size"] = 1,
+},
+{
+["time"] = 1770316422,
+["size"] = 1,
+},
+{
+["time"] = 1770316532,
+["size"] = 1,
+},
+{
+["time"] = 1770316532,
+["size"] = 1,
+},
+{
+["time"] = 1770316561,
+["size"] = 1,
+},
+{
+["time"] = 1770316564,
+["size"] = 1,
+},
+{
+["time"] = 1770316578,
+["size"] = 1,
+},
+{
+["time"] = 1770316579,
+["size"] = 1,
+},
+{
+["time"] = 1770316613,
+["size"] = 1,
+},
+{
+["time"] = 1770316614,
+["size"] = 1,
+},
+{
+["time"] = 1770316887,
+["size"] = 1,
+},
+{
+["time"] = 1770316890,
+["size"] = 1,
+},
+{
+["time"] = 1770316992,
+["size"] = 1,
+},
+{
+["time"] = 1770316995,
+["size"] = 1,
+},
+{
+["time"] = 1770317085,
+["size"] = 1,
+},
+{
+["time"] = 1770317086,
+["size"] = 1,
+},
+{
+["time"] = 1770317279,
+["size"] = 1,
+},
+{
+["time"] = 1770317281,
+["size"] = 1,
+},
+{
+["time"] = 1770317334,
+["size"] = 1,
+},
+{
+["time"] = 1770317336,
+["size"] = 1,
+},
+{
+["time"] = 1770317577,
+["size"] = 1,
+},
+{
+["time"] = 1770317579,
+["size"] = 1,
+},
+{
+["time"] = 1770318758,
+["size"] = 1,
+},
+{
+["time"] = 1770318916,
+["size"] = 1,
+},
+{
+["time"] = 1770319647,
+["size"] = 1,
+},
+{
+["time"] = 1770319650,
+["size"] = 1,
+},
+{
+["time"] = 1770319768,
+["size"] = 5,
+},
+{
+["time"] = 1770320074,
+["size"] = 1,
+},
+{
+["time"] = 1770320074,
+["size"] = 1,
+},
+{
+["time"] = 1770320075,
+["size"] = 1,
+},
+{
+["time"] = 1770320088,
+["size"] = 1,
+},
+{
+["time"] = 1770320088,
+["size"] = 1,
+},
+{
+["time"] = 1770320109,
+["size"] = 1,
+},
+{
+["time"] = 1770320109,
+["size"] = 1,
+},
+{
+["time"] = 1770320118,
+["size"] = 1,
+},
+{
+["time"] = 1770320119,
+["size"] = 1,
+},
+{
+["time"] = 1770320247,
+["size"] = 1,
+},
+{
+["time"] = 1770320247,
+["size"] = 1,
+},
+{
+["time"] = 1770320248,
+["size"] = 1,
+},
+{
+["time"] = 1770320249,
+["size"] = 1,
+},
+{
+["time"] = 1770320251,
+["size"] = 1,
+},
+{
+["time"] = 1770320253,
+["size"] = 1,
+},
+{
+["time"] = 1770320284,
+["size"] = 1,
+},
+{
+["time"] = 1770320285,
+["size"] = 1,
+},
+{
+["time"] = 1770320316,
+["size"] = 1,
+},
+{
+["time"] = 1770320317,
+["size"] = 1,
+},
+{
+["time"] = 1770320321,
+["size"] = 1,
+},
+{
+["time"] = 1770320323,
+["size"] = 1,
+},
+{
+["time"] = 1770320488,
+["size"] = 6,
+},
+{
+["time"] = 1770320556,
+["size"] = 1,
+},
+{
+["time"] = 1770320559,
+["size"] = 1,
+},
+{
+["time"] = 1770320560,
+["size"] = 1,
+},
+{
+["time"] = 1770320562,
+["size"] = 6,
+},
+{
+["time"] = 1770320568,
+["size"] = 1,
+},
+{
+["time"] = 1770320569,
+["size"] = 1,
+},
+{
+["time"] = 1770320934,
+["size"] = 6,
+},
+{
+["time"] = 1770321133,
+["size"] = 6,
+},
+{
+["time"] = 1770321258,
+["size"] = 6,
+},
+{
+["time"] = 1770321325,
+["size"] = 6,
+},
+{
+["time"] = 1770321500,
+["size"] = 6,
+},
+{
+["time"] = 1770321897,
+["size"] = 6,
+},
+{
+["time"] = 1770321915,
+["size"] = 6,
+},
+{
+["time"] = 1770321996,
+["size"] = 6,
+},
+{
+["time"] = 1770322032,
+["size"] = 6,
+},
+{
+["time"] = 1770322073,
+["size"] = 6,
+},
+{
+["time"] = 1770361488,
+["size"] = 1,
+},
+{
+["time"] = 1770361489,
+["size"] = 1,
+},
+{
+["time"] = 1770361492,
+["size"] = 1,
+},
+{
+["time"] = 1770361740,
+["size"] = 10,
+},
+{
+["time"] = 1770362461,
+["size"] = 1,
+},
+{
+["time"] = 1770362461,
+["size"] = 1,
+},
+{
+["time"] = 1770362463,
+["size"] = 1,
+},
+{
+["time"] = 1770362468,
+["size"] = 6,
+},
+{
+["time"] = 1770362533,
+["size"] = 6,
+},
+{
+["time"] = 1770364004,
+["size"] = 1,
+},
+{
+["time"] = 1770364005,
+["size"] = 1,
+},
+{
+["time"] = 1770364009,
+["size"] = 1,
+},
+{
+["time"] = 1770364096,
+["size"] = 1,
+},
+{
+["time"] = 1770364097,
+["size"] = 1,
+},
+{
+["time"] = 1770364107,
+["size"] = 1,
+},
+{
+["time"] = 1770364116,
+["size"] = 1,
+},
+{
+["time"] = 1770364135,
+["size"] = 1,
+},
+{
+["time"] = 1770364135,
+["size"] = 1,
+},
+{
+["time"] = 1770364194,
+["size"] = 1,
+},
+{
+["time"] = 1770364234,
+["size"] = 1,
+},
+{
+["time"] = 1770364235,
+["size"] = 1,
+},
+{
+["time"] = 1770364442,
+["size"] = 1,
+},
+{
+["time"] = 1770364444,
+["size"] = 1,
+},
+{
+["time"] = 1770365702,
+["size"] = 1,
+},
+{
+["time"] = 1770366752,
+["size"] = 1,
+},
+{
+["time"] = 1770366752,
+["size"] = 1,
+},
+{
+["time"] = 1770366754,
+["size"] = 1,
+},
+{
+["time"] = 1770367132,
+["size"] = 1,
+},
+{
+["time"] = 1770367132,
+["size"] = 1,
+},
+{
+["time"] = 1770367134,
+["size"] = 1,
+},
+{
+["time"] = 1770369112,
+["size"] = 1,
+},
+{
+["time"] = 1770369113,
+["size"] = 1,
+},
+{
+["time"] = 1770369117,
+["size"] = 1,
+},
+{
+["time"] = 1770383153,
+["size"] = 1,
+},
+{
+["time"] = 1770383153,
+["size"] = 1,
+},
+{
+["time"] = 1770383156,
+["size"] = 1,
+},
+{
+["time"] = 1770383174,
+["size"] = 1,
+},
+{
+["time"] = 1770383198,
+["size"] = 1,
+},
+{
+["time"] = 1770383215,
+["size"] = 1,
+},
+{
+["time"] = 1770383217,
+["size"] = 1,
+},
+{
+["time"] = 1770383334,
+["size"] = 1,
+},
+{
+["time"] = 1770383335,
+["size"] = 1,
+},
+{
+["time"] = 1770383375,
+["size"] = 1,
+},
+{
+["time"] = 1770383410,
+["size"] = 6,
+},
+{
+["time"] = 1770402477,
+["size"] = 1,
+},
+{
+["time"] = 1770402477,
+["size"] = 1,
+},
+{
+["time"] = 1770402481,
+["size"] = 1,
+},
+{
+["time"] = 1770417907,
+["size"] = 1,
+},
+{
+["time"] = 1770417907,
+["size"] = 1,
+},
+{
+["time"] = 1770417911,
+["size"] = 1,
+},
+{
+["time"] = 1770418018,
+["size"] = 7,
+},
+{
+["time"] = 1770418034,
+["size"] = 7,
+},
+{
+["time"] = 1770418085,
+["size"] = 7,
+},
+{
+["time"] = 1770418155,
+["size"] = 7,
+},
+{
+["time"] = 1770468458,
+["size"] = 1,
+},
+{
+["time"] = 1770468458,
+["size"] = 1,
+},
+{
+["time"] = 1770468462,
+["size"] = 1,
+},
+{
+["time"] = 1770468824,
+["size"] = 7,
+},
+{
+["time"] = 1770469351,
+["size"] = 1,
+},
+{
+["time"] = 1770469352,
+["size"] = 1,
+},
+{
+["time"] = 1770469368,
+["size"] = 1,
+},
+{
+["time"] = 1770469581,
+["size"] = 1,
+},
+{
+["time"] = 1770469583,
+["size"] = 1,
+},
+{
+["time"] = 1770469584,
+["size"] = 1,
+},
+{
+["time"] = 1770470098,
+["size"] = 1,
+},
+{
+["time"] = 1770470445,
+["size"] = 1,
+},
+{
+["time"] = 1770470447,
+["size"] = 1,
+},
+{
+["time"] = 1770470449,
+["size"] = 1,
+},
+{
+["time"] = 1770470724,
+["size"] = 1,
+},
+{
+["time"] = 1770470725,
+["size"] = 1,
+},
+{
+["time"] = 1770470725,
+["size"] = 1,
+},
+{
+["time"] = 1770470727,
+["size"] = 1,
+},
+{
+["time"] = 1770471078,
+["size"] = 1,
+},
+{
+["time"] = 1770471123,
+["size"] = 1,
+},
+{
+["time"] = 1770471123,
+["size"] = 1,
+},
+{
+["time"] = 1770471126,
+["size"] = 1,
+},
+{
+["time"] = 1770471132,
+["size"] = 11,
+},
+{
+["time"] = 1770471160,
+["size"] = 1,
+},
+{
+["time"] = 1770471162,
+["size"] = 1,
+},
+{
+["time"] = 1770471165,
+["size"] = 1,
+},
+{
+["time"] = 1770471169,
+["size"] = 6,
+},
+{
+["time"] = 1770471177,
+["size"] = 1,
+},
+{
+["time"] = 1770471180,
+["size"] = 1,
+},
+{
+["time"] = 1770471450,
+["size"] = 7,
+},
+{
+["time"] = 1770471524,
+["size"] = 1,
+},
+{
+["time"] = 1770471524,
+["size"] = 1,
+},
+{
+["time"] = 1770471524,
+["size"] = 6,
+},
+{
+["time"] = 1770471650,
+["size"] = 1,
+},
+{
+["time"] = 1770471652,
+["size"] = 1,
+},
+{
+["time"] = 1770471652,
+["size"] = 1,
+},
+{
+["time"] = 1770471655,
+["size"] = 6,
+},
+{
+["time"] = 1770471663,
+["size"] = 1,
+},
+{
+["time"] = 1770471669,
+["size"] = 1,
+},
+{
+["time"] = 1770471676,
+["size"] = 1,
+},
+{
+["time"] = 1770471677,
+["size"] = 1,
+},
+{
+["time"] = 1770471703,
+["size"] = 8,
+},
+{
+["time"] = 1770471703,
+["size"] = 1,
+},
+{
+["time"] = 1770471713,
+["size"] = 1,
+},
+{
+["time"] = 1770471717,
+["size"] = 1,
+},
+{
+["time"] = 1770471717,
+["size"] = 7,
+},
+{
+["time"] = 1770471725,
+["size"] = 1,
+},
+{
+["time"] = 1770471725,
+["size"] = 1,
+},
+{
+["time"] = 1770471733,
+["size"] = 1,
+},
+{
+["time"] = 1770471734,
+["size"] = 1,
+},
+{
+["time"] = 1770471735,
+["size"] = 7,
+},
+{
+["time"] = 1770471740,
+["size"] = 7,
+},
+{
+["time"] = 1770471744,
+["size"] = 1,
+},
+{
+["time"] = 1770471745,
+["size"] = 1,
+},
+{
+["time"] = 1770471748,
+["size"] = 1,
+},
+{
+["time"] = 1770471759,
+["size"] = 1,
+},
+{
+["time"] = 1770471761,
+["size"] = 1,
+},
+{
+["time"] = 1770471766,
+["size"] = 7,
+},
+{
+["time"] = 1770471776,
+["size"] = 1,
+},
+{
+["time"] = 1770471860,
+["size"] = 7,
+},
+{
+["time"] = 1770471998,
+["size"] = 1,
+},
+{
+["time"] = 1770471998,
+["size"] = 1,
+},
+{
+["time"] = 1770472351,
+["size"] = 1,
+},
+{
+["time"] = 1770472354,
+["size"] = 1,
+},
+{
+["time"] = 1770472357,
+["size"] = 1,
+},
+{
+["time"] = 1770472360,
+["size"] = 7,
+},
+{
+["time"] = 1770472378,
+["size"] = 1,
+},
+{
+["time"] = 1770472380,
+["size"] = 1,
+},
+{
+["time"] = 1770472384,
+["size"] = 7,
+},
+{
+["time"] = 1770472398,
+["size"] = 1,
+},
+{
+["time"] = 1770472401,
+["size"] = 1,
+},
+{
+["time"] = 1770472406,
+["size"] = 1,
+},
+{
+["time"] = 1770472410,
+["size"] = 1,
+},
+{
+["time"] = 1770472411,
+["size"] = 1,
+},
+{
+["time"] = 1770472411,
+["size"] = 1,
+},
+{
+["time"] = 1770472412,
+["size"] = 1,
+},
+{
+["time"] = 1770472412,
+["size"] = 1,
+},
+{
+["time"] = 1770472414,
+["size"] = 1,
+},
+{
+["time"] = 1770472416,
+["size"] = 7,
+},
+{
+["time"] = 1770472416,
+["size"] = 1,
+},
+{
+["time"] = 1770473327,
+["size"] = 1,
+},
+{
+["time"] = 1770473327,
+["size"] = 1,
+},
+{
+["time"] = 1770473456,
+["size"] = 1,
+},
+{
+["time"] = 1770473459,
+["size"] = 1,
+},
+{
+["time"] = 1770473462,
+["size"] = 1,
+},
+{
+["time"] = 1770477390,
+["size"] = 1,
+},
+{
+["time"] = 1770477390,
+["size"] = 1,
+},
+{
+["time"] = 1770477394,
+["size"] = 1,
+},
+{
+["time"] = 1770488134,
+["size"] = 1,
+},
+{
+["time"] = 1770488134,
+["size"] = 1,
+},
+{
+["time"] = 1770488139,
+["size"] = 1,
+},
+{
+["time"] = 1770491839,
+["size"] = 1,
+},
+{
+["time"] = 1770491840,
+["size"] = 1,
+},
+{
+["time"] = 1770491844,
+["size"] = 1,
+},
+{
+["time"] = 1770492834,
+["size"] = 1,
+},
+{
+["time"] = 1770492839,
+["size"] = 1,
+},
+{
+["time"] = 1770492851,
+["size"] = 1,
+},
+{
+["time"] = 1770492851,
+["size"] = 1,
+},
+{
+["time"] = 1770492877,
+["size"] = 1,
+},
+{
+["time"] = 1770492893,
+["size"] = 1,
+},
+{
+["time"] = 1770492894,
+["size"] = 1,
+},
+{
+["time"] = 1770493028,
+["size"] = 1,
+},
+{
+["time"] = 1770493030,
+["size"] = 1,
+},
+{
+["time"] = 1770493211,
+["size"] = 1,
+},
+{
+["time"] = 1770493216,
+["size"] = 1,
+},
+{
+["time"] = 1770494632,
+["size"] = 1,
+},
+{
+["time"] = 1770494920,
+["size"] = 7,
+},
+{
+["time"] = 1770495188,
+["size"] = 1,
+},
+{
+["time"] = 1770495188,
+["size"] = 1,
+},
+{
+["time"] = 1770495191,
+["size"] = 1,
+},
+{
+["time"] = 1770495456,
+["size"] = 1,
+},
+{
+["time"] = 1770495460,
+["size"] = 1,
+},
+{
+["time"] = 1770495469,
+["size"] = 1,
+},
+{
+["time"] = 1770495469,
+["size"] = 1,
+},
+{
+["time"] = 1770495494,
+["size"] = 1,
+},
+{
+["time"] = 1770496637,
+["size"] = 1,
+},
+{
+["time"] = 1770497248,
+["size"] = 1,
+},
+{
+["time"] = 1770497252,
+["size"] = 1,
+},
+{
+["time"] = 1770497262,
+["size"] = 1,
+},
+{
+["time"] = 1770497269,
+["size"] = 1,
+},
+{
+["time"] = 1770497280,
+["size"] = 1,
+},
+{
+["time"] = 1770498840,
+["size"] = 1,
+},
+{
+["time"] = 1770499283,
+["size"] = 1,
+},
+{
+["time"] = 1770499283,
+["size"] = 1,
+},
+{
+["time"] = 1770499285,
+["size"] = 1,
+},
+{
+["time"] = 1770499363,
+["size"] = 1,
+},
+{
+["time"] = 1770499363,
+["size"] = 1,
+},
+{
+["time"] = 1770499367,
+["size"] = 1,
+},
+{
+["time"] = 1770499629,
+["size"] = 1,
+},
+{
+["time"] = 1770499629,
+["size"] = 1,
+},
+{
+["time"] = 1770499633,
+["size"] = 1,
+},
+{
+["time"] = 1770500245,
+["size"] = 1,
+},
+{
+["time"] = 1770500247,
+["size"] = 1,
+},
+{
+["time"] = 1770500255,
+["size"] = 1,
+},
+{
+["time"] = 1770500263,
+["size"] = 1,
+},
+{
+["time"] = 1770500270,
+["size"] = 1,
+},
+{
+["time"] = 1770502197,
+["size"] = 1,
+},
+{
+["time"] = 1770505442,
+["size"] = 1,
+},
+{
+["time"] = 1770505481,
+["size"] = 1,
+},
+{
+["time"] = 1770505492,
+["size"] = 1,
+},
+{
+["time"] = 1770505500,
+["size"] = 1,
+},
+{
+["time"] = 1770505531,
+["size"] = 1,
+},
+{
+["time"] = 1770557171,
+["size"] = 1,
+},
+{
+["time"] = 1770557172,
+["size"] = 1,
+},
+{
+["time"] = 1770557175,
+["size"] = 1,
+},
+{
+["time"] = 1770569230,
+["size"] = 1,
+},
+{
+["time"] = 1770569230,
+["size"] = 1,
+},
+{
+["time"] = 1770569234,
+["size"] = 1,
+},
+{
+["time"] = 1770569261,
+["size"] = 1,
+},
+{
+["time"] = 1770574683,
+["size"] = 1,
+},
+{
+["time"] = 1770574683,
+["size"] = 1,
+},
+{
+["time"] = 1770574687,
+["size"] = 1,
+},
+{
+["time"] = 1770574947,
+["size"] = 7,
+},
+{
+["time"] = 1770575175,
+["size"] = 7,
+},
+{
+["time"] = 1770575374,
+["size"] = 7,
+},
+{
+["time"] = 1770575633,
+["size"] = 7,
+},
+{
+["time"] = 1770575931,
+["size"] = 14,
+},
+{
+["time"] = 1770576023,
+["size"] = 13,
+},
+{
+["time"] = 1770576024,
+["size"] = 1,
+},
+{
+["time"] = 1770576026,
+["size"] = 1,
+},
+{
+["time"] = 1770576027,
+["size"] = 1,
+},
+{
+["time"] = 1770576031,
+["size"] = 7,
+},
+{
+["time"] = 1770576036,
+["size"] = 1,
+},
+{
+["time"] = 1770576041,
+["size"] = 1,
+},
+{
+["time"] = 1770576075,
+["size"] = 1,
+},
+{
+["time"] = 1770576076,
+["size"] = 1,
+},
+{
+["time"] = 1770576078,
+["size"] = 1,
+},
+{
+["time"] = 1770576080,
+["size"] = 7,
+},
+{
+["time"] = 1770576080,
+["size"] = 1,
+},
+{
+["time"] = 1770576092,
+["size"] = 1,
+},
+{
+["time"] = 1770576092,
+["size"] = 1,
+},
+{
+["time"] = 1770576110,
+["size"] = 1,
+},
+{
+["time"] = 1770576114,
+["size"] = 1,
+},
+{
+["time"] = 1770576356,
+["size"] = 1,
+},
+{
+["time"] = 1770576356,
+["size"] = 1,
+},
+{
+["time"] = 1770576357,
+["size"] = 7,
+},
+{
+["time"] = 1770576363,
+["size"] = 1,
+},
+{
+["time"] = 1770576364,
+["size"] = 1,
+},
+{
+["time"] = 1770576365,
+["size"] = 7,
+},
+{
+["time"] = 1770576370,
+["size"] = 7,
+},
+{
+["time"] = 1770576374,
+["size"] = 1,
+},
+{
+["time"] = 1770576420,
+["size"] = 1,
+},
+{
+["time"] = 1770576420,
+["size"] = 1,
+},
+{
+["time"] = 1770576423,
+["size"] = 7,
+},
+{
+["time"] = 1770576425,
+["size"] = 1,
+},
+{
+["time"] = 1770576426,
+["size"] = 1,
+},
+{
+["time"] = 1770576428,
+["size"] = 7,
+},
+{
+["time"] = 1770576491,
+["size"] = 7,
+},
+{
+["time"] = 1770576505,
+["size"] = 1,
+},
+{
+["time"] = 1770576505,
+["size"] = 1,
+},
+{
+["time"] = 1770576508,
+["size"] = 1,
+},
+{
+["time"] = 1770576510,
+["size"] = 7,
+},
+{
+["time"] = 1770576513,
+["size"] = 1,
+},
+{
+["time"] = 1770576513,
+["size"] = 1,
+},
+{
+["time"] = 1770576515,
+["size"] = 7,
+},
+{
+["time"] = 1770576529,
+["size"] = 1,
+},
+{
+["time"] = 1770576533,
+["size"] = 1,
+},
+{
+["time"] = 1770576533,
+["size"] = 1,
+},
+{
+["time"] = 1770576535,
+["size"] = 7,
+},
+{
+["time"] = 1770576545,
+["size"] = 7,
+},
+{
+["time"] = 1770576565,
+["size"] = 1,
+},
+{
+["time"] = 1770576568,
+["size"] = 1,
+},
+{
+["time"] = 1770576569,
+["size"] = 7,
+},
+{
+["time"] = 1770576585,
+["size"] = 7,
+},
+{
+["time"] = 1770576627,
+["size"] = 1,
+},
+{
+["time"] = 1770576629,
+["size"] = 1,
+},
+{
+["time"] = 1770576631,
+["size"] = 7,
+},
+{
+["time"] = 1770576693,
+["size"] = 1,
+},
+{
+["time"] = 1770576693,
+["size"] = 7,
+},
+{
+["time"] = 1770576695,
+["size"] = 1,
+},
+{
+["time"] = 1770576698,
+["size"] = 7,
+},
+{
+["time"] = 1770576733,
+["size"] = 1,
+},
+{
+["time"] = 1770576735,
+["size"] = 1,
+},
+{
+["time"] = 1770576737,
+["size"] = 7,
+},
+{
+["time"] = 1770576759,
+["size"] = 1,
+},
+{
+["time"] = 1770576801,
+["size"] = 1,
+},
+{
+["time"] = 1770576829,
+["size"] = 1,
+},
+{
+["time"] = 1770576830,
+["size"] = 1,
+},
+{
+["time"] = 1770576831,
+["size"] = 7,
+},
+{
+["time"] = 1770576875,
+["size"] = 1,
+},
+{
+["time"] = 1770576876,
+["size"] = 1,
+},
+{
+["time"] = 1770576880,
+["size"] = 7,
+},
+{
+["time"] = 1770576919,
+["size"] = 1,
+},
+{
+["time"] = 1770576920,
+["size"] = 1,
+},
+{
+["time"] = 1770576924,
+["size"] = 7,
+},
+{
+["time"] = 1770576950,
+["size"] = 1,
+},
+{
+["time"] = 1770576952,
+["size"] = 1,
+},
+{
+["time"] = 1770576952,
+["size"] = 7,
+},
+{
+["time"] = 1770577004,
+["size"] = 1,
+},
+{
+["time"] = 1770577007,
+["size"] = 1,
+},
+{
+["time"] = 1770577008,
+["size"] = 7,
+},
+{
+["time"] = 1770577232,
+["size"] = 1,
+},
+{
+["time"] = 1770577233,
+["size"] = 1,
+},
+{
+["time"] = 1770577233,
+["size"] = 1,
+},
+{
+["time"] = 1770577235,
+["size"] = 1,
+},
+{
+["time"] = 1770577241,
+["size"] = 1,
+},
+{
+["time"] = 1770577242,
+["size"] = 1,
+},
+{
+["time"] = 1770577244,
+["size"] = 7,
+},
+{
+["time"] = 1770577644,
+["size"] = 1,
+},
+{
+["time"] = 1770577647,
+["size"] = 1,
+},
+{
+["time"] = 1770577649,
+["size"] = 7,
+},
+{
+["time"] = 1770577915,
+["size"] = 1,
+},
+{
+["time"] = 1770577915,
+["size"] = 1,
+},
+{
+["time"] = 1770577916,
+["size"] = 1,
+},
+{
+["time"] = 1770577918,
+["size"] = 1,
+},
+{
+["time"] = 1770578049,
+["size"] = 1,
+},
+{
+["time"] = 1770578053,
+["size"] = 1,
+},
+{
+["time"] = 1770578054,
+["size"] = 7,
+},
+{
+["time"] = 1770578391,
+["size"] = 1,
+},
+{
+["time"] = 1770578392,
+["size"] = 1,
+},
+{
+["time"] = 1770578393,
+["size"] = 1,
+},
+{
+["time"] = 1770578395,
+["size"] = 1,
+},
+{
+["time"] = 1770578401,
+["size"] = 7,
+},
+{
+["time"] = 1770578813,
+["size"] = 1,
+},
+{
+["time"] = 1770578832,
+["size"] = 1,
+},
+{
+["time"] = 1770579295,
+["size"] = 7,
+},
+{
+["time"] = 1770579488,
+["size"] = 7,
+},
+{
+["time"] = 1770579502,
+["size"] = 1,
+},
+{
+["time"] = 1770579540,
+["size"] = 1,
+},
+{
+["time"] = 1770579541,
+["size"] = 1,
+},
+{
+["time"] = 1770579542,
+["size"] = 1,
+},
+{
+["time"] = 1770579544,
+["size"] = 1,
+},
+{
+["time"] = 1770579587,
+["size"] = 1,
+},
+{
+["time"] = 1770579630,
+["size"] = 7,
+},
+{
+["time"] = 1770579968,
+["size"] = 1,
+},
+{
+["time"] = 1770579969,
+["size"] = 1,
+},
+{
+["time"] = 1770579970,
+["size"] = 1,
+},
+{
+["time"] = 1770579973,
+["size"] = 1,
+},
+{
+["time"] = 1770579973,
+["size"] = 7,
+},
+{
+["time"] = 1770580776,
+["size"] = 1,
+},
+{
+["time"] = 1770580777,
+["size"] = 1,
+},
+{
+["time"] = 1770580778,
+["size"] = 1,
+},
+{
+["time"] = 1770580779,
+["size"] = 1,
+},
+{
+["time"] = 1770580810,
+["size"] = 1,
+},
+{
+["time"] = 1770580810,
+["size"] = 1,
+},
+{
+["time"] = 1770580811,
+["size"] = 1,
+},
+{
+["time"] = 1770580813,
+["size"] = 1,
+},
+{
+["time"] = 1770581081,
+["size"] = 1,
+},
+{
+["time"] = 1770581379,
+["size"] = 1,
+},
+{
+["time"] = 1770581404,
+["size"] = 1,
+},
+{
+["time"] = 1770590500,
+["size"] = 1,
+},
+{
+["time"] = 1770590500,
+["size"] = 1,
+},
+{
+["time"] = 1770590504,
+["size"] = 1,
+},
+{
+["time"] = 1770624528,
+["size"] = 1,
+},
+{
+["time"] = 1770624528,
+["size"] = 1,
+},
+{
+["time"] = 1770624532,
+["size"] = 1,
+},
+{
+["time"] = 1770624789,
+["size"] = 1,
+},
+{
+["time"] = 1770624792,
+["size"] = 1,
+},
+{
+["time"] = 1770624793,
+["size"] = 1,
+},
+{
+["time"] = 1770624808,
+["size"] = 1,
+},
+{
+["time"] = 1770625970,
+["size"] = 7,
+},
+{
+["time"] = 1770625994,
+["size"] = 1,
+},
+{
+["time"] = 1770626113,
+["size"] = 1,
+},
+{
+["time"] = 1770626127,
+["size"] = 1,
+},
+{
+["time"] = 1770626224,
+["size"] = 1,
+},
+{
+["time"] = 1770626712,
+["size"] = 1,
+},
+{
+["time"] = 1770626714,
+["size"] = 1,
+},
+{
+["time"] = 1770626715,
+["size"] = 1,
+},
+{
+["time"] = 1770626727,
+["size"] = 1,
+},
+{
+["time"] = 1770627600,
+["size"] = 1,
+},
+{
+["time"] = 1770627723,
+["size"] = 1,
+},
+{
+["time"] = 1770627723,
+["size"] = 1,
+},
+{
+["time"] = 1770627726,
+["size"] = 1,
+},
+{
+["time"] = 1770628050,
+["size"] = 1,
+},
+{
+["time"] = 1770628051,
+["size"] = 1,
+},
+{
+["time"] = 1770628054,
+["size"] = 1,
+},
+{
+["time"] = 1770628573,
+["size"] = 1,
+},
+{
+["time"] = 1770628577,
+["size"] = 1,
+},
+{
+["time"] = 1770628577,
+["size"] = 1,
+},
+{
+["time"] = 1770628593,
+["size"] = 1,
+},
+{
+["time"] = 1770629269,
+["size"] = 1,
+},
+{
+["time"] = 1770629749,
+["size"] = 1,
+},
+{
+["time"] = 1770629755,
+["size"] = 1,
+},
+{
+["time"] = 1770629756,
+["size"] = 1,
+},
+{
+["time"] = 1770629763,
+["size"] = 1,
+},
+{
+["time"] = 1770630619,
+["size"] = 1,
+},
+{
+["time"] = 1770630843,
+["size"] = 1,
+},
+{
+["time"] = 1770630843,
+["size"] = 1,
+},
+{
+["time"] = 1770630845,
+["size"] = 1,
+},
+{
+["time"] = 1770630896,
+["size"] = 7,
+},
+{
+["time"] = 1770631079,
+["size"] = 1,
+},
+{
+["time"] = 1770631080,
+["size"] = 1,
+},
+{
+["time"] = 1770631082,
+["size"] = 1,
+},
+{
+["time"] = 1770631384,
+["size"] = 1,
+},
+{
+["time"] = 1770631388,
+["size"] = 1,
+},
+{
+["time"] = 1770631389,
+["size"] = 1,
+},
+{
+["time"] = 1770631399,
+["size"] = 1,
+},
+{
+["time"] = 1770631752,
+["size"] = 1,
+},
+{
+["time"] = 1770631752,
+["size"] = 1,
+},
+{
+["time"] = 1770632198,
+["size"] = 1,
+},
+{
+["time"] = 1770632332,
+["size"] = 1,
+},
+{
+["time"] = 1770632332,
+["size"] = 1,
+},
+{
+["time"] = 1770632336,
+["size"] = 1,
+},
+{
+["time"] = 1770676319,
+["size"] = 1,
+},
+{
+["time"] = 1770676319,
+["size"] = 1,
+},
+{
+["time"] = 1770676323,
+["size"] = 1,
+},
+{
+["time"] = 1770676634,
+["size"] = 1,
+},
+{
+["time"] = 1770676637,
+["size"] = 1,
+},
+{
+["time"] = 1770676637,
+["size"] = 1,
+},
+{
+["time"] = 1770676649,
+["size"] = 1,
+},
+{
+["time"] = 1770676698,
+["size"] = 1,
+},
+{
+["time"] = 1770743757,
+["size"] = 1,
+},
+{
+["time"] = 1770743757,
+["size"] = 1,
+},
+{
+["time"] = 1770743761,
+["size"] = 1,
+},
+{
+["time"] = 1770744021,
+["size"] = 1,
+},
+{
+["time"] = 1770744024,
+["size"] = 1,
+},
+{
+["time"] = 1770744025,
+["size"] = 1,
+},
+{
+["time"] = 1770744038,
+["size"] = 1,
+},
+{
+["time"] = 1770744091,
+["size"] = 1,
+},
+{
+["time"] = 1770791352,
+["size"] = 1,
+},
+{
+["time"] = 1770791352,
+["size"] = 1,
+},
+{
+["time"] = 1770791356,
+["size"] = 1,
+},
+{
+["time"] = 1770791601,
+["size"] = 1,
+},
+{
+["time"] = 1770791601,
+["size"] = 1,
+},
+{
+["time"] = 1770791604,
+["size"] = 1,
+},
+{
+["time"] = 1770822202,
+["size"] = 1,
+},
+{
+["time"] = 1770822203,
+["size"] = 1,
+},
+{
+["time"] = 1770822206,
+["size"] = 1,
+},
+{
+["time"] = 1770822218,
+["size"] = 1,
+},
+{
+["time"] = 1770822269,
+["size"] = 1,
+},
+{
+["time"] = 1770822300,
+["size"] = 1,
+},
+{
+["time"] = 1770822303,
+["size"] = 1,
+},
+{
+["time"] = 1770822303,
+["size"] = 1,
+},
+{
+["time"] = 1770822310,
+["size"] = 1,
+},
+{
+["time"] = 1770822370,
+["size"] = 1,
+},
+{
+["time"] = 1770822561,
+["size"] = 1,
+},
+{
+["time"] = 1770822651,
+["size"] = 1,
+},
+{
+["time"] = 1770822766,
+["size"] = 1,
+},
+{
+["time"] = 1770823287,
+["size"] = 1,
+},
+{
+["time"] = 1770832187,
+["size"] = 1,
+},
+{
+["time"] = 1770832187,
+["size"] = 1,
+},
+{
+["time"] = 1770832191,
+["size"] = 1,
+},
+{
+["time"] = 1770832488,
+["size"] = 1,
+},
+{
+["time"] = 1770832489,
+["size"] = 1,
+},
+{
+["time"] = 1770832492,
+["size"] = 1,
+},
+{
+["time"] = 1770832556,
+["size"] = 1,
+},
+{
+["time"] = 1770832557,
+["size"] = 1,
+},
+{
+["time"] = 1770832561,
+["size"] = 1,
+},
+{
+["time"] = 1770832597,
+["size"] = 1,
+},
+{
+["time"] = 1770832602,
+["size"] = 1,
+},
+{
+["time"] = 1770832614,
+["size"] = 1,
+},
+{
+["time"] = 1770832626,
+["size"] = 2,
+},
+{
+["time"] = 1770832632,
+["size"] = 1,
+},
+{
+["time"] = 1770832634,
+["size"] = 1,
+},
+{
+["time"] = 1770832640,
+["size"] = 1,
+},
+{
+["time"] = 1770832640,
+["size"] = 1,
+},
+{
+["time"] = 1770832690,
+["size"] = 1,
+},
+{
+["time"] = 1770832693,
+["size"] = 1,
+},
+{
+["time"] = 1770832706,
+["size"] = 1,
+},
+{
+["time"] = 1770832707,
+["size"] = 1,
+},
+{
+["time"] = 1770832712,
+["size"] = 2,
+},
+{
+["time"] = 1770832717,
+["size"] = 1,
+},
+{
+["time"] = 1770832741,
+["size"] = 1,
+},
+{
+["time"] = 1770832767,
+["size"] = 1,
+},
+{
+["time"] = 1770832917,
+["size"] = 1,
+},
+{
+["time"] = 1770832920,
+["size"] = 1,
+},
+{
+["time"] = 1770832933,
+["size"] = 1,
+},
+{
+["time"] = 1770832935,
+["size"] = 1,
+},
+{
+["time"] = 1770832948,
+["size"] = 1,
+},
+{
+["time"] = 1770832949,
+["size"] = 1,
+},
+{
+["time"] = 1770833004,
+["size"] = 1,
+},
+{
+["time"] = 1770833005,
+["size"] = 1,
+},
+{
+["time"] = 1770833151,
+["size"] = 1,
+},
+{
+["time"] = 1770833153,
+["size"] = 1,
+},
+{
+["time"] = 1770833287,
+["size"] = 1,
+},
+{
+["time"] = 1770833289,
+["size"] = 1,
+},
+{
+["time"] = 1770835206,
+["size"] = 1,
+},
+{
+["time"] = 1770835375,
+["size"] = 1,
+},
+{
+["time"] = 1770837323,
+["size"] = 2,
+},
+{
+["time"] = 1770837335,
+["size"] = 1,
+},
+{
+["time"] = 1770837645,
+["size"] = 1,
+},
+{
+["time"] = 1770837645,
+["size"] = 1,
+},
+{
+["time"] = 1770837649,
+["size"] = 1,
+},
+{
+["time"] = 1770880770,
+["size"] = 1,
+},
+{
+["time"] = 1770880770,
+["size"] = 1,
+},
+{
+["time"] = 1770880774,
+["size"] = 1,
+},
+{
+["time"] = 1770880788,
+["size"] = 1,
+},
+{
+["time"] = 1770880808,
+["size"] = 1,
+},
+{
+["time"] = 1770880940,
+["size"] = 1,
+},
+{
+["time"] = 1770880943,
+["size"] = 1,
+},
+{
+["time"] = 1770880945,
+["size"] = 1,
+},
+{
+["time"] = 1770880953,
+["size"] = 1,
+},
+{
+["time"] = 1770881001,
+["size"] = 1,
+},
+{
+["time"] = 1770881139,
+["size"] = 1,
+},
+{
+["time"] = 1770921714,
+["size"] = 1,
+},
+{
+["time"] = 1770921714,
+["size"] = 1,
+},
+{
+["time"] = 1770921717,
+["size"] = 1,
+},
+{
+["time"] = 1770921746,
+["size"] = 1,
+},
+{
+["time"] = 1770922233,
+["size"] = 1,
+},
+{
+["time"] = 1770922237,
+["size"] = 1,
+},
+{
+["time"] = 1770922274,
+["size"] = 1,
+},
+{
+["time"] = 1770922275,
+["size"] = 1,
+},
+{
+["time"] = 1770922275,
+["size"] = 1,
+},
+{
+["time"] = 1770922275,
+["size"] = 1,
+},
+{
+["time"] = 1770922277,
+["size"] = 1,
+},
+{
+["time"] = 1770922277,
+["size"] = 1,
+},
+{
+["time"] = 1770922295,
+["size"] = 1,
+},
+{
+["time"] = 1770922326,
+["size"] = 1,
+},
+{
+["time"] = 1770922724,
+["size"] = 1,
+},
+{
+["time"] = 1770922724,
+["size"] = 1,
+},
+{
+["time"] = 1770922731,
+["size"] = 1,
+},
+{
+["time"] = 1770922732,
+["size"] = 1,
+},
+{
+["time"] = 1770924028,
+["size"] = 1,
+},
+{
+["time"] = 1770924080,
+["size"] = 9,
+},
+{
+["time"] = 1770924281,
+["size"] = 1,
+},
+{
+["time"] = 1770966233,
+["size"] = 1,
+},
+{
+["time"] = 1770966233,
+["size"] = 1,
+},
+{
+["time"] = 1770966236,
+["size"] = 1,
+},
+{
+["time"] = 1770966281,
+["size"] = 1,
+},
+{
+["time"] = 1770966299,
+["size"] = 1,
+},
+{
+["time"] = 1770966367,
+["size"] = 1,
+},
+{
+["time"] = 1770966429,
+["size"] = 1,
+},
+{
+["time"] = 1770966432,
+["size"] = 1,
+},
+{
+["time"] = 1770966432,
+["size"] = 1,
+},
+{
+["time"] = 1770966440,
+["size"] = 1,
+},
+{
+["time"] = 1770966503,
+["size"] = 1,
+},
+{
+["time"] = 1770966606,
+["size"] = 1,
+},
+{
+["time"] = 1770967254,
+["size"] = 1,
+},
+{
+["time"] = 1770994504,
+["size"] = 1,
+},
+{
+["time"] = 1770994504,
+["size"] = 1,
+},
+{
+["time"] = 1770994508,
+["size"] = 1,
+},
+{
+["time"] = 1770994706,
+["size"] = 6,
+},
+{
+["time"] = 1770995029,
+["size"] = 1,
+},
+{
+["time"] = 1770995029,
+["size"] = 1,
+},
+{
+["time"] = 1770995032,
+["size"] = 1,
+},
+{
+["time"] = 1770995117,
+["size"] = 1,
+},
+{
+["time"] = 1770995117,
+["size"] = 1,
+},
+{
+["time"] = 1770995120,
+["size"] = 1,
+},
+{
+["time"] = 1770995162,
+["size"] = 1,
+},
+{
+["time"] = 1770995198,
+["size"] = 8,
+},
+{
+["time"] = 1770995234,
+["size"] = 4,
+},
+{
+["time"] = 1770995284,
+["size"] = 1,
+},
+{
+["time"] = 1770995287,
+["size"] = 1,
+},
+{
+["time"] = 1770995288,
+["size"] = 1,
+},
+{
+["time"] = 1770995289,
+["size"] = 4,
+},
+{
+["time"] = 1770995295,
+["size"] = 1,
+},
+{
+["time"] = 1770995302,
+["size"] = 1,
+},
+{
+["time"] = 1770995303,
+["size"] = 1,
+},
+{
+["time"] = 1770995395,
+["size"] = 1,
+},
+{
+["time"] = 1770995396,
+["size"] = 1,
+},
+{
+["time"] = 1770995408,
+["size"] = 1,
+},
+{
+["time"] = 1770996252,
+["size"] = 1,
+},
+{
+["time"] = 1770996254,
+["size"] = 1,
+},
+{
+["time"] = 1770996536,
+["size"] = 1,
+},
+{
+["time"] = 1770996536,
+["size"] = 1,
+},
+{
+["time"] = 1770996631,
+["size"] = 1,
+},
+{
+["time"] = 1770996783,
+["size"] = 1,
+},
+{
+["time"] = 1770996787,
+["size"] = 1,
+},
+{
+["time"] = 1770996799,
+["size"] = 1,
+},
+{
+["time"] = 1770997372,
+["size"] = 1,
+},
+{
+["time"] = 1770997372,
+["size"] = 1,
+},
+{
+["time"] = 1770997499,
+["size"] = 1,
+},
+{
+["time"] = 1770997500,
+["size"] = 1,
+},
+{
+["time"] = 1770997789,
+["size"] = 1,
+},
+{
+["time"] = 1770997790,
+["size"] = 1,
+},
+{
+["time"] = 1770997896,
+["size"] = 1,
+},
+{
+["time"] = 1770997898,
+["size"] = 1,
+},
+{
+["time"] = 1770997972,
+["size"] = 1,
+},
+{
+["time"] = 1770998193,
+["size"] = 1,
+},
+{
+["time"] = 1770998193,
+["size"] = 1,
+},
+{
+["time"] = 1770998198,
+["size"] = 1,
+},
+{
+["time"] = 1770998214,
+["size"] = 1,
+},
+{
+["time"] = 1770998216,
+["size"] = 1,
+},
+{
+["time"] = 1770998218,
+["size"] = 1,
+},
+{
+["time"] = 1770998227,
+["size"] = 1,
+},
+{
+["time"] = 1770998228,
+["size"] = 1,
+},
+{
+["time"] = 1770998279,
+["size"] = 1,
+},
+{
+["time"] = 1770998288,
+["size"] = 1,
+},
+{
+["time"] = 1770998479,
+["size"] = 1,
+},
+{
+["time"] = 1770998481,
+["size"] = 1,
+},
+{
+["time"] = 1770998482,
+["size"] = 1,
+},
+{
+["time"] = 1770998490,
+["size"] = 1,
+},
+{
+["time"] = 1770998876,
+["size"] = 1,
+},
+{
+["time"] = 1770998877,
+["size"] = 1,
+},
+{
+["time"] = 1770998921,
+["size"] = 1,
+},
+{
+["time"] = 1770999017,
+["size"] = 1,
+},
+{
+["time"] = 1770999019,
+["size"] = 1,
+},
+{
+["time"] = 1770999019,
+["size"] = 1,
+},
+{
+["time"] = 1770999029,
+["size"] = 1,
+},
+{
+["time"] = 1770999061,
+["size"] = 1,
+},
+{
+["time"] = 1770999062,
+["size"] = 1,
+},
+{
+["time"] = 1770999062,
+["size"] = 1,
+},
+{
+["time"] = 1770999064,
+["size"] = 1,
+},
+{
+["time"] = 1770999631,
+["size"] = 1,
+},
+{
+["time"] = 1770999649,
+["size"] = 1,
+},
+{
+["time"] = 1770999650,
+["size"] = 1,
+},
+{
+["time"] = 1770999661,
+["size"] = 1,
+},
+{
+["time"] = 1770999712,
+["size"] = 1,
+},
+{
+["time"] = 1770999713,
+["size"] = 1,
+},
+{
+["time"] = 1770999717,
+["size"] = 1,
+},
+{
+["time"] = 1770999720,
+["size"] = 1,
+},
+{
+["time"] = 1770999721,
+["size"] = 1,
+},
+{
+["time"] = 1770999812,
+["size"] = 1,
+},
+{
+["time"] = 1770999817,
+["size"] = 1,
+},
+{
+["time"] = 1770999828,
+["size"] = 1,
+},
+{
+["time"] = 1771000713,
+["size"] = 1,
+},
+{
+["time"] = 1771000718,
+["size"] = 1,
+},
+{
+["time"] = 1771000719,
+["size"] = 1,
+},
+{
+["time"] = 1771000757,
+["size"] = 1,
+},
+{
+["time"] = 1771000777,
+["size"] = 1,
+},
+{
+["time"] = 1771001268,
+["size"] = 1,
+},
+{
+["time"] = 1771001268,
+["size"] = 1,
+},
+{
+["time"] = 1771001272,
+["size"] = 1,
+},
+{
+["time"] = 1771007881,
+["size"] = 1,
+},
+{
+["time"] = 1771007881,
+["size"] = 1,
+},
+{
+["time"] = 1771007885,
+["size"] = 1,
+},
+{
+["time"] = 1771007911,
+["size"] = 1,
+},
+{
+["time"] = 1771008485,
+["size"] = 1,
+},
+{
+["time"] = 1771008683,
+["size"] = 1,
+},
+{
+["time"] = 1771008926,
+["size"] = 1,
+},
+{
+["time"] = 1771010377,
+["size"] = 1,
+},
+{
+["time"] = 1771010378,
+["size"] = 1,
+},
+{
+["time"] = 1771010381,
+["size"] = 1,
+},
+{
+["time"] = 1771010543,
+["size"] = 1,
+},
+{
+["time"] = 1771010543,
+["size"] = 1,
+},
+{
+["time"] = 1771010547,
+["size"] = 1,
+},
+{
+["time"] = 1771011640,
+["size"] = 1,
+},
+{
+["time"] = 1771011640,
+["size"] = 1,
+},
+{
+["time"] = 1771011644,
+["size"] = 1,
+},
+{
+["time"] = 1771011881,
+["size"] = 1,
+},
+{
+["time"] = 1771011882,
+["size"] = 1,
+},
+{
+["time"] = 1771011886,
+["size"] = 1,
+},
+{
+["time"] = 1771015053,
+["size"] = 1,
+},
+{
+["time"] = 1771015054,
+["size"] = 1,
+},
+{
+["time"] = 1771015058,
+["size"] = 1,
+},
+{
+["time"] = 1771017170,
+["size"] = 1,
+},
+{
+["time"] = 1771017170,
+["size"] = 1,
+},
+{
+["time"] = 1771017174,
+["size"] = 1,
+},
+{
+["time"] = 1771030859,
+["size"] = 1,
+},
+{
+["time"] = 1771030860,
+["size"] = 1,
+},
+{
+["time"] = 1771030863,
+["size"] = 1,
+},
+{
+["time"] = 1771034095,
+["size"] = 1,
+},
+{
+["time"] = 1771034096,
+["size"] = 1,
+},
+{
+["time"] = 1771034099,
+["size"] = 1,
+},
+{
+["time"] = 1771082063,
+["size"] = 1,
+},
+{
+["time"] = 1771082064,
+["size"] = 1,
+},
+{
+["time"] = 1771082068,
+["size"] = 1,
+},
+{
+["time"] = 1771082119,
+["size"] = 1,
+},
+{
+["time"] = 1771082119,
+["size"] = 1,
+},
+{
+["time"] = 1771082122,
+["size"] = 1,
+},
+{
+["time"] = 1771082145,
+["size"] = 1,
+},
+{
+["time"] = 1771082171,
+["size"] = 1,
+},
+{
+["time"] = 1771082337,
+["size"] = 1,
+},
+{
+["time"] = 1771082415,
+["size"] = 1,
+},
+{
+["time"] = 1771082419,
+["size"] = 1,
+},
+{
+["time"] = 1771082420,
+["size"] = 1,
+},
+{
+["time"] = 1771082429,
+["size"] = 1,
+},
+{
+["time"] = 1771082490,
+["size"] = 1,
+},
+{
+["time"] = 1771083289,
+["size"] = 1,
+},
+{
+["time"] = 1771083289,
+["size"] = 1,
+},
+{
+["time"] = 1771083293,
+["size"] = 1,
+},
+{
+["time"] = 1771086571,
+["size"] = 1,
+},
+{
+["time"] = 1771086571,
+["size"] = 1,
+},
+{
+["time"] = 1771086574,
+["size"] = 1,
+},
+{
+["time"] = 1771086769,
+["size"] = 1,
+},
+{
+["time"] = 1771102024,
+["size"] = 1,
+},
+{
+["time"] = 1771102025,
+["size"] = 1,
+},
+{
+["time"] = 1771102027,
+["size"] = 1,
+},
+{
+["time"] = 1771102552,
+["size"] = 1,
+},
+{
+["time"] = 1771102552,
+["size"] = 1,
+},
+{
+["time"] = 1771102556,
+["size"] = 1,
+},
+{
+["time"] = 1771106705,
+["size"] = 1,
+},
+{
+["time"] = 1771106706,
+["size"] = 1,
+},
+{
+["time"] = 1771106710,
+["size"] = 1,
+},
+{
+["time"] = 1771106735,
+["size"] = 1,
+},
+{
+["time"] = 1771107016,
+["size"] = 1,
+},
+{
+["time"] = 1771107018,
+["size"] = 1,
+},
+{
+["time"] = 1771107018,
+["size"] = 1,
+},
+{
+["time"] = 1771107018,
+["size"] = 1,
+},
+{
+["time"] = 1771107020,
+["size"] = 1,
+},
+{
+["time"] = 1771107022,
+["size"] = 1,
+},
+{
+["time"] = 1771107025,
+["size"] = 1,
+},
+{
+["time"] = 1771107030,
+["size"] = 1,
+},
+{
+["time"] = 1771107048,
+["size"] = 1,
+},
+{
+["time"] = 1771107050,
+["size"] = 1,
+},
+{
+["time"] = 1771107051,
+["size"] = 1,
+},
+{
+["time"] = 1771107055,
+["size"] = 1,
+},
+{
+["time"] = 1771107099,
+["size"] = 1,
+},
+{
+["time"] = 1771107099,
+["size"] = 1,
+},
+{
+["time"] = 1771107102,
+["size"] = 1,
+},
+{
+["time"] = 1771107184,
+["size"] = 1,
+},
+{
+["time"] = 1771107186,
+["size"] = 1,
+},
+{
+["time"] = 1771107187,
+["size"] = 1,
+},
+{
+["time"] = 1771107514,
+["size"] = 1,
+},
+{
+["time"] = 1771107515,
+["size"] = 1,
+},
+{
+["time"] = 1771107517,
+["size"] = 1,
+},
+{
+["time"] = 1771107520,
+["size"] = 1,
+},
+{
+["time"] = 1771107521,
+["size"] = 1,
+},
+{
+["time"] = 1771107522,
+["size"] = 1,
+},
+{
+["time"] = 1771107525,
+["size"] = 1,
+},
+{
+["time"] = 1771107528,
+["size"] = 1,
+},
+{
+["time"] = 1771107529,
+["size"] = 1,
+},
+{
+["time"] = 1771107530,
+["size"] = 1,
+},
+{
+["time"] = 1771107535,
+["size"] = 1,
+},
+{
+["time"] = 1771108122,
+["size"] = 1,
+},
+{
+["time"] = 1771110432,
+["size"] = 1,
+},
+{
+["time"] = 1771110802,
+["size"] = 1,
+},
+{
+["time"] = 1771110803,
+["size"] = 1,
+},
+{
+["time"] = 1771110806,
+["size"] = 1,
+},
+{
+["time"] = 1771112861,
+["size"] = 1,
+},
+{
+["time"] = 1771112861,
+["size"] = 1,
+},
+{
+["time"] = 1771112865,
+["size"] = 1,
+},
+{
+["time"] = 1771155935,
+["size"] = 1,
+},
+{
+["time"] = 1771155935,
+["size"] = 1,
+},
+{
+["time"] = 1771155939,
+["size"] = 1,
+},
+{
+["time"] = 1771155968,
+["size"] = 1,
+},
+{
+["time"] = 1771156052,
+["size"] = 1,
+},
+{
+["time"] = 1771156055,
+["size"] = 1,
+},
+{
+["time"] = 1771156055,
+["size"] = 1,
+},
+{
+["time"] = 1771156062,
+["size"] = 1,
+},
+{
+["time"] = 1771156118,
+["size"] = 1,
+},
+{
+["time"] = 1771156373,
+["size"] = 1,
+},
+{
+["time"] = 1771156714,
+["size"] = 1,
+},
+{
+["time"] = 1771156821,
+["size"] = 1,
+},
+{
+["time"] = 1771156821,
+["size"] = 1,
+},
+{
+["time"] = 1771156825,
+["size"] = 1,
+},
+{
+["time"] = 1771156855,
+["size"] = 4,
+},
+{
+["time"] = 1771156924,
+["size"] = 4,
+},
+{
+["time"] = 1771157037,
+["size"] = 4,
+},
+{
+["time"] = 1771157283,
+["size"] = 4,
+},
+{
+["time"] = 1771157291,
+["size"] = 4,
+},
+{
+["time"] = 1771157638,
+["size"] = 1,
+},
+{
+["time"] = 1771157638,
+["size"] = 1,
+},
+{
+["time"] = 1771157641,
+["size"] = 1,
+},
+{
+["time"] = 1771157746,
+["size"] = 1,
+},
+{
+["time"] = 1771157746,
+["size"] = 1,
+},
+{
+["time"] = 1771157750,
+["size"] = 1,
+},
+{
+["time"] = 1771161719,
+["size"] = 1,
+},
+{
+["time"] = 1771161719,
+["size"] = 1,
+},
+{
+["time"] = 1771161724,
+["size"] = 1,
+},
+{
+["time"] = 1771164024,
+["size"] = 1,
+},
+{
+["time"] = 1771164024,
+["size"] = 1,
+},
+{
+["time"] = 1771164027,
+["size"] = 1,
+},
+{
+["time"] = 1771164825,
+["size"] = 1,
+},
+{
+["time"] = 1771164826,
+["size"] = 1,
+},
+{
+["time"] = 1771164828,
+["size"] = 1,
+},
+{
+["time"] = 1771177592,
+["size"] = 1,
+},
+{
+["time"] = 1771177593,
+["size"] = 1,
+},
+{
+["time"] = 1771177596,
+["size"] = 1,
+},
+{
+["time"] = 1771177683,
+["size"] = 1,
+},
+{
+["time"] = 1771177683,
+["size"] = 1,
+},
+{
+["time"] = 1771177686,
+["size"] = 1,
+},
+{
+["time"] = 1771179870,
+["size"] = 1,
+},
+{
+["time"] = 1771179871,
+["size"] = 1,
+},
+{
+["time"] = 1771179874,
+["size"] = 1,
+},
+{
+["time"] = 1771179897,
+["size"] = 1,
+},
+{
+["time"] = 1771180818,
+["size"] = 12,
+},
+{
+["time"] = 1771180861,
+["size"] = 1,
+},
+{
+["time"] = 1771180912,
+["size"] = 1,
+},
+{
+["time"] = 1771180934,
+["size"] = 1,
+},
+{
+["time"] = 1771180959,
+["size"] = 1,
+},
+{
+["time"] = 1771180959,
+["size"] = 1,
+},
+{
+["time"] = 1771180962,
+["size"] = 1,
+},
+{
+["time"] = 1771180966,
+["size"] = 1,
+},
+{
+["time"] = 1771180978,
+["size"] = 1,
+},
+{
+["time"] = 1771180996,
+["size"] = 1,
+},
+{
+["time"] = 1771181028,
+["size"] = 1,
+},
+{
+["time"] = 1771181099,
+["size"] = 1,
+},
+{
+["time"] = 1771181100,
+["size"] = 1,
+},
+{
+["time"] = 1771181108,
+["size"] = 1,
+},
+{
+["time"] = 1771181108,
+["size"] = 1,
+},
+{
+["time"] = 1771181110,
+["size"] = 1,
+},
+{
+["time"] = 1771181113,
+["size"] = 1,
+},
+{
+["time"] = 1771181121,
+["size"] = 1,
+},
+{
+["time"] = 1771181122,
+["size"] = 1,
+},
+{
+["time"] = 1771181126,
+["size"] = 1,
+},
+{
+["time"] = 1771181127,
+["size"] = 1,
+},
+{
+["time"] = 1771181168,
+["size"] = 1,
+},
+{
+["time"] = 1771181168,
+["size"] = 1,
+},
+{
+["time"] = 1771181172,
+["size"] = 1,
+},
+{
+["time"] = 1771181229,
+["size"] = 1,
+},
+{
+["time"] = 1771181230,
+["size"] = 1,
+},
+{
+["time"] = 1771181235,
+["size"] = 1,
+},
+{
+["time"] = 1771181264,
+["size"] = 1,
+},
+{
+["time"] = 1771181265,
+["size"] = 1,
+},
+{
+["time"] = 1771181266,
+["size"] = 1,
+},
+{
+["time"] = 1771181272,
+["size"] = 1,
+},
+{
+["time"] = 1771181274,
+["size"] = 1,
+},
+{
+["time"] = 1771181276,
+["size"] = 1,
+},
+{
+["time"] = 1771181376,
+["size"] = 1,
+},
+{
+["time"] = 1771181381,
+["size"] = 1,
+},
+{
+["time"] = 1771181383,
+["size"] = 1,
+},
+{
+["time"] = 1771181386,
+["size"] = 1,
+},
+{
+["time"] = 1771181388,
+["size"] = 1,
+},
+{
+["time"] = 1771181390,
+["size"] = 1,
+},
+{
+["time"] = 1771181391,
+["size"] = 1,
+},
+{
+["time"] = 1771181391,
+["size"] = 1,
+},
+{
+["time"] = 1771181394,
+["size"] = 1,
+},
+{
+["time"] = 1771181395,
+["size"] = 1,
+},
+{
+["time"] = 1771181402,
+["size"] = 1,
+},
+{
+["time"] = 1771181404,
+["size"] = 1,
+},
+{
+["time"] = 1771181410,
+["size"] = 1,
+},
+{
+["time"] = 1771181411,
+["size"] = 1,
+},
+{
+["time"] = 1771181413,
+["size"] = 1,
+},
+{
+["time"] = 1771181416,
+["size"] = 1,
+},
+{
+["time"] = 1771181420,
+["size"] = 1,
+},
+{
+["time"] = 1771181421,
+["size"] = 1,
+},
+{
+["time"] = 1771181423,
+["size"] = 1,
+},
+{
+["time"] = 1771181436,
+["size"] = 1,
+},
+{
+["time"] = 1771181449,
+["size"] = 1,
+},
+{
+["time"] = 1771181466,
+["size"] = 1,
+},
+{
+["time"] = 1771181468,
+["size"] = 1,
+},
+{
+["time"] = 1771181470,
+["size"] = 1,
+},
+{
+["time"] = 1771181472,
+["size"] = 1,
+},
+{
+["time"] = 1771181474,
+["size"] = 1,
+},
+{
+["time"] = 1771181477,
+["size"] = 1,
+},
+{
+["time"] = 1771181521,
+["size"] = 1,
+},
+{
+["time"] = 1771181523,
+["size"] = 1,
+},
+{
+["time"] = 1771181523,
+["size"] = 1,
+},
+{
+["time"] = 1771181528,
+["size"] = 1,
+},
+{
+["time"] = 1771181531,
+["size"] = 1,
+},
+{
+["time"] = 1771181544,
+["size"] = 1,
+},
+{
+["time"] = 1771181546,
+["size"] = 1,
+},
+{
+["time"] = 1771181548,
+["size"] = 1,
+},
+{
+["time"] = 1771181553,
+["size"] = 1,
+},
+{
+["time"] = 1771181555,
+["size"] = 1,
+},
+{
+["time"] = 1771181558,
+["size"] = 1,
+},
+{
+["time"] = 1771181560,
+["size"] = 1,
+},
+{
+["time"] = 1771181563,
+["size"] = 1,
+},
+{
+["time"] = 1771181577,
+["size"] = 1,
+},
+{
+["time"] = 1771181579,
+["size"] = 1,
+},
+{
+["time"] = 1771181614,
+["size"] = 1,
+},
+{
+["time"] = 1771181615,
+["size"] = 1,
+},
+{
+["time"] = 1771181619,
+["size"] = 1,
+},
+{
+["time"] = 1771181651,
+["size"] = 1,
+},
+{
+["time"] = 1771181652,
+["size"] = 1,
+},
+{
+["time"] = 1771181653,
+["size"] = 1,
+},
+{
+["time"] = 1771181654,
+["size"] = 1,
+},
+{
+["time"] = 1771181718,
+["size"] = 1,
+},
+{
+["time"] = 1771181720,
+["size"] = 1,
+},
+{
+["time"] = 1771181720,
+["size"] = 1,
+},
+{
+["time"] = 1771181737,
+["size"] = 1,
+},
+{
+["time"] = 1771181738,
+["size"] = 1,
+},
+{
+["time"] = 1771181739,
+["size"] = 1,
+},
+{
+["time"] = 1771181847,
+["size"] = 1,
+},
+{
+["time"] = 1771181851,
+["size"] = 1,
+},
+{
+["time"] = 1771181851,
+["size"] = 1,
+},
+{
+["time"] = 1771181856,
+["size"] = 1,
+},
+{
+["time"] = 1771181898,
+["size"] = 1,
+},
+{
+["time"] = 1771181898,
+["size"] = 1,
+},
+{
+["time"] = 1771181901,
+["size"] = 1,
+},
+{
+["time"] = 1771181921,
+["size"] = 1,
+},
+{
+["time"] = 1771181923,
+["size"] = 1,
+},
+{
+["time"] = 1771181966,
+["size"] = 1,
+},
+{
+["time"] = 1771181967,
+["size"] = 1,
+},
+{
+["time"] = 1771181968,
+["size"] = 1,
+},
+{
+["time"] = 1771182058,
+["size"] = 1,
+},
+{
+["time"] = 1771182059,
+["size"] = 1,
+},
+{
+["time"] = 1771182062,
+["size"] = 1,
+},
+{
+["time"] = 1771182090,
+["size"] = 1,
+},
+{
+["time"] = 1771182090,
+["size"] = 1,
+},
+{
+["time"] = 1771182093,
+["size"] = 1,
+},
+{
+["time"] = 1771182132,
+["size"] = 1,
+},
+{
+["time"] = 1771182132,
+["size"] = 1,
+},
+{
+["time"] = 1771182135,
+["size"] = 1,
+},
+{
+["time"] = 1771182172,
+["size"] = 1,
+},
+{
+["time"] = 1771182175,
+["size"] = 1,
+},
+{
+["time"] = 1771182177,
+["size"] = 1,
+},
+{
+["time"] = 1771183242,
+["size"] = 1,
+},
+{
+["time"] = 1771183266,
+["size"] = 1,
+},
+{
+["time"] = 1771183323,
+["size"] = 1,
+},
+{
+["time"] = 1771183360,
+["size"] = 1,
+},
+{
+["time"] = 1771183361,
+["size"] = 1,
+},
+{
+["time"] = 1771183362,
+["size"] = 1,
+},
+{
+["time"] = 1771183364,
+["size"] = 1,
+},
+{
+["time"] = 1771183367,
+["size"] = 1,
+},
+{
+["time"] = 1771183367,
+["size"] = 1,
+},
+{
+["time"] = 1771183369,
+["size"] = 1,
+},
+{
+["time"] = 1771183405,
+["size"] = 1,
+},
+{
+["time"] = 1771184280,
+["size"] = 1,
+},
+{
+["time"] = 1771184281,
+["size"] = 1,
+},
+{
+["time"] = 1771184824,
+["size"] = 1,
+},
+{
+["time"] = 1771184826,
+["size"] = 2,
+},
+{
+["time"] = 1771185015,
+["size"] = 1,
+},
+{
+["time"] = 1771185016,
+["size"] = 1,
+},
+{
+["time"] = 1771185017,
+["size"] = 1,
+},
+{
+["time"] = 1771185018,
+["size"] = 1,
+},
+{
+["time"] = 1771185236,
+["size"] = 1,
+},
+{
+["time"] = 1771185267,
+["size"] = 1,
+},
+{
+["time"] = 1771185291,
+["size"] = 1,
+},
+{
+["time"] = 1771185347,
+["size"] = 1,
+},
+{
+["time"] = 1771185352,
+["size"] = 1,
+},
+{
+["time"] = 1771185405,
+["size"] = 1,
+},
+{
+["time"] = 1771185468,
+["size"] = 1,
+},
+{
+["time"] = 1771226109,
+["size"] = 1,
+},
+{
+["time"] = 1771226109,
+["size"] = 1,
+},
+{
+["time"] = 1771226112,
+["size"] = 1,
+},
+{
+["time"] = 1771226150,
+["size"] = 1,
+},
+{
+["time"] = 1771226254,
+["size"] = 1,
+},
+{
+["time"] = 1771226362,
+["size"] = 1,
+},
+{
+["time"] = 1771226365,
+["size"] = 1,
+},
+{
+["time"] = 1771226367,
+["size"] = 1,
+},
+{
+["time"] = 1771226382,
+["size"] = 1,
+},
+{
+["time"] = 1771226417,
+["size"] = 1,
+},
+{
+["time"] = 1771251998,
+["size"] = 1,
+},
+{
+["time"] = 1771251998,
+["size"] = 1,
+},
+{
+["time"] = 1771252001,
+["size"] = 1,
+},
+{
+["time"] = 1771252022,
+["size"] = 1,
+},
+{
+["time"] = 1771327462,
+["size"] = 1,
+},
+{
+["time"] = 1771327462,
+["size"] = 1,
+},
+{
+["time"] = 1771327466,
+["size"] = 1,
+},
+{
+["time"] = 1771327500,
+["size"] = 1,
+},
+{
+["time"] = 1771327577,
+["size"] = 1,
+},
+{
+["time"] = 1771327580,
+["size"] = 1,
+},
+{
+["time"] = 1771327581,
+["size"] = 1,
+},
+{
+["time"] = 1771327592,
+["size"] = 1,
+},
+{
+["time"] = 1771327644,
+["size"] = 1,
+},
+{
+["time"] = 1771328025,
+["size"] = 1,
+},
+{
+["time"] = 1771328123,
+["size"] = 1,
+},
+{
+["time"] = 1771328864,
+["size"] = 1,
+},
+{
+["time"] = 1771328864,
+["size"] = 1,
+},
+{
+["time"] = 1771328867,
+["size"] = 1,
+},
+{
+["time"] = 1771328981,
+["size"] = 1,
+},
+{
+["time"] = 1771328985,
+["size"] = 1,
+},
+{
+["time"] = 1771328998,
+["size"] = 1,
+},
+{
+["time"] = 1771329066,
+["size"] = 1,
+},
+{
+["time"] = 1771329085,
+["size"] = 1,
+},
+{
+["time"] = 1771329086,
+["size"] = 1,
+},
+{
+["time"] = 1771329107,
+["size"] = 1,
+},
+{
+["time"] = 1771329410,
+["size"] = 1,
+},
+{
+["time"] = 1771329410,
+["size"] = 1,
+},
+{
+["time"] = 1771329578,
+["size"] = 1,
+},
+{
+["time"] = 1771329580,
+["size"] = 1,
+},
+{
+["time"] = 1771331307,
+["size"] = 1,
+},
+{
+["time"] = 1771333976,
+["size"] = 1,
+},
+{
+["time"] = 1771333976,
+["size"] = 1,
+},
+{
+["time"] = 1771333978,
+["size"] = 1,
+},
+{
+["time"] = 1771333979,
+["size"] = 1,
+},
+{
+["time"] = 1771333995,
+["size"] = 1,
+},
+{
+["time"] = 1771334026,
+["size"] = 1,
+},
+{
+["time"] = 1771334040,
+["size"] = 1,
+},
+{
+["time"] = 1771334042,
+["size"] = 1,
+},
+{
+["time"] = 1771334052,
+["size"] = 1,
+},
+{
+["time"] = 1771334086,
+["size"] = 1,
+},
+{
+["time"] = 1771334181,
+["size"] = 1,
+},
+{
+["time"] = 1771334183,
+["size"] = 1,
+},
+{
+["time"] = 1771334232,
+["size"] = 1,
+},
+{
+["time"] = 1771334250,
+["size"] = 1,
+},
+{
+["time"] = 1771335409,
+["size"] = 1,
+},
+{
+["time"] = 1771335453,
+["size"] = 1,
+},
+{
+["time"] = 1771335475,
+["size"] = 1,
+},
+{
+["time"] = 1771364404,
+["size"] = 1,
+},
+{
+["time"] = 1771364404,
+["size"] = 1,
+},
+{
+["time"] = 1771364407,
+["size"] = 1,
+},
+{
+["time"] = 1771364546,
+["size"] = 1,
+},
+{
+["time"] = 1771364595,
+["size"] = 1,
+},
+{
+["time"] = 1771395921,
+["size"] = 1,
+},
+{
+["time"] = 1771395922,
+["size"] = 1,
+},
+{
+["time"] = 1771395926,
+["size"] = 1,
+},
+{
+["time"] = 1771396187,
+["size"] = 1,
+},
+{
+["time"] = 1771396187,
+["size"] = 1,
+},
+{
+["time"] = 1771396192,
+["size"] = 1,
+},
+{
+["time"] = 1771396420,
+["size"] = 1,
+},
+{
+["time"] = 1771396421,
+["size"] = 1,
+},
+{
+["time"] = 1771396424,
+["size"] = 1,
+},
+{
+["time"] = 1771396425,
+["size"] = 2,
+},
+{
+["time"] = 1771440387,
+["size"] = 1,
+},
+{
+["time"] = 1771440387,
+["size"] = 1,
+},
+{
+["time"] = 1771440391,
+["size"] = 1,
+},
+{
+["time"] = 1771440487,
+["size"] = 1,
+},
+{
+["time"] = 1771440489,
+["size"] = 1,
+},
+{
+["time"] = 1771440490,
+["size"] = 1,
+},
+{
+["time"] = 1771440503,
+["size"] = 1,
+},
+{
+["time"] = 1771440560,
+["size"] = 1,
+},
+{
+["time"] = 1771440596,
+["size"] = 1,
+},
+{
+["time"] = 1771440848,
+["size"] = 1,
+},
+{
+["time"] = 1771441133,
+["size"] = 1,
+},
+{
+["time"] = 1771441133,
+["size"] = 1,
+},
+{
+["time"] = 1771441136,
+["size"] = 1,
+},
+{
+["time"] = 1771441153,
+["size"] = 1,
+},
+{
+["time"] = 1771441164,
+["size"] = 1,
+},
+{
+["time"] = 1771441239,
+["size"] = 1,
+},
+{
+["time"] = 1771442085,
+["size"] = 1,
+},
+{
+["time"] = 1771442086,
+["size"] = 1,
+},
+{
+["time"] = 1771442089,
+["size"] = 1,
+},
+{
+["time"] = 1771442448,
+["size"] = 1,
+},
+{
+["time"] = 1771442626,
+["size"] = 1,
+},
+{
+["time"] = 1771442711,
+["size"] = 1,
+},
+{
+["time"] = 1771442713,
+["size"] = 1,
+},
+{
+["time"] = 1771442721,
+["size"] = 1,
+},
+{
+["time"] = 1771442723,
+["size"] = 1,
+},
+{
+["time"] = 1771442724,
+["size"] = 1,
+},
+{
+["time"] = 1771442726,
+["size"] = 1,
+},
+{
+["time"] = 1771442731,
+["size"] = 1,
+},
+{
+["time"] = 1771442884,
+["size"] = 1,
+},
+{
+["time"] = 1771442884,
+["size"] = 1,
+},
+{
+["time"] = 1771442885,
+["size"] = 1,
+},
+{
+["time"] = 1771442891,
+["size"] = 1,
+},
+{
+["time"] = 1771442897,
+["size"] = 1,
+},
+{
+["time"] = 1771442904,
+["size"] = 1,
+},
+{
+["time"] = 1771443013,
+["size"] = 1,
+},
+{
+["time"] = 1771443014,
+["size"] = 1,
+},
+{
+["time"] = 1771443014,
+["size"] = 1,
+},
+{
+["time"] = 1771443016,
+["size"] = 1,
+},
+{
+["time"] = 1771443249,
+["size"] = 1,
+},
+{
+["time"] = 1771443249,
+["size"] = 1,
+},
+{
+["time"] = 1771443252,
+["size"] = 1,
+},
+{
+["time"] = 1771443382,
+["size"] = 1,
+},
+{
+["time"] = 1771443543,
+["size"] = 1,
+},
+{
+["time"] = 1771443545,
+["size"] = 1,
+},
+{
+["time"] = 1771443547,
+["size"] = 1,
+},
+{
+["time"] = 1771443670,
+["size"] = 1,
+},
+{
+["time"] = 1771448061,
+["size"] = 1,
+},
+{
+["time"] = 1771448061,
+["size"] = 1,
+},
+{
+["time"] = 1771448065,
+["size"] = 1,
+},
+{
+["time"] = 1771448081,
+["size"] = 1,
+},
+{
+["time"] = 1771448084,
+["size"] = 1,
+},
+{
+["time"] = 1771448090,
+["size"] = 1,
+},
+{
+["time"] = 1771448093,
+["size"] = 1,
+},
+{
+["time"] = 1771448099,
+["size"] = 1,
+},
+{
+["time"] = 1771448186,
+["size"] = 1,
+},
+{
+["time"] = 1771448186,
+["size"] = 1,
+},
+{
+["time"] = 1771448189,
+["size"] = 1,
+},
+{
+["time"] = 1771448192,
+["size"] = 1,
+},
+{
+["time"] = 1771448195,
+["size"] = 1,
+},
+{
+["time"] = 1771448205,
+["size"] = 1,
+},
+{
+["time"] = 1771448205,
+["size"] = 1,
+},
+{
+["time"] = 1771448619,
+["size"] = 1,
+},
+{
+["time"] = 1771450874,
+["size"] = 1,
+},
+{
+["time"] = 1771450874,
+["size"] = 1,
+},
+{
+["time"] = 1771450877,
+["size"] = 1,
+},
+{
+["time"] = 1771450963,
+["size"] = 1,
+},
+{
+["time"] = 1771450963,
+["size"] = 1,
+},
+{
+["time"] = 1771450965,
+["size"] = 1,
+},
+{
+["time"] = 1771451026,
+["size"] = 1,
+},
+{
+["time"] = 1771451026,
+["size"] = 1,
+},
+{
+["time"] = 1771451029,
+["size"] = 1,
+},
+{
+["time"] = 1771451065,
+["size"] = 1,
+},
+{
+["time"] = 1771451085,
+["size"] = 1,
+},
+{
+["time"] = 1771451097,
+["size"] = 1,
+},
+{
+["time"] = 1771487177,
+["size"] = 1,
+},
+{
+["time"] = 1771487178,
+["size"] = 1,
+},
+{
+["time"] = 1771487181,
+["size"] = 1,
+},
+{
+["time"] = 1771487253,
+["size"] = 1,
+},
+{
+["time"] = 1771487256,
+["size"] = 1,
+},
+{
+["time"] = 1771487258,
+["size"] = 1,
+},
+{
+["time"] = 1771487264,
+["size"] = 1,
+},
+{
+["time"] = 1771487321,
+["size"] = 1,
+},
+{
+["time"] = 1771487593,
+["size"] = 1,
+},
+{
+["time"] = 1771487659,
+["size"] = 1,
+},
+{
+["time"] = 1771487731,
+["size"] = 1,
+},
+{
+["time"] = 1771487974,
+["size"] = 1,
+},
+{
+["time"] = 1771488183,
+["size"] = 1,
+},
+{
+["time"] = 1771488751,
+["size"] = 1,
+},
+{
+["time"] = 1771488821,
+["size"] = 1,
+},
+{
+["time"] = 1771488821,
+["size"] = 1,
+},
+{
+["time"] = 1771488823,
+["size"] = 1,
+},
+{
+["time"] = 1771489051,
+["size"] = 1,
+},
+{
+["time"] = 1771489052,
+["size"] = 1,
+},
+{
+["time"] = 1771489054,
+["size"] = 1,
+},
+{
+["time"] = 1771489351,
+["size"] = 1,
+},
+{
+["time"] = 1771490321,
+["size"] = 1,
+},
+{
+["time"] = 1771490322,
+["size"] = 1,
+},
+{
+["time"] = 1771490326,
+["size"] = 1,
+},
+{
+["time"] = 1771490704,
+["size"] = 1,
+},
+{
+["time"] = 1771490705,
+["size"] = 1,
+},
+{
+["time"] = 1771490709,
+["size"] = 1,
+},
+{
+["time"] = 1771490791,
+["size"] = 1,
+},
+{
+["time"] = 1771490791,
+["size"] = 1,
+},
+{
+["time"] = 1771490795,
+["size"] = 1,
+},
+{
+["time"] = 1771494889,
+["size"] = 1,
+},
+{
+["time"] = 1771494889,
+["size"] = 1,
+},
+{
+["time"] = 1771494892,
+["size"] = 1,
+},
+{
+["time"] = 1771494922,
+["size"] = 1,
+},
+{
+["time"] = 1771494922,
+["size"] = 1,
+},
+{
+["time"] = 1771494924,
+["size"] = 1,
+},
+{
+["time"] = 1771494943,
+["size"] = 1,
+},
+{
+["time"] = 1771494944,
+["size"] = 1,
+},
+{
+["time"] = 1771494955,
+["size"] = 1,
+},
+{
+["time"] = 1771495108,
+["size"] = 1,
+},
+{
+["time"] = 1771495110,
+["size"] = 1,
+},
+{
+["time"] = 1771495121,
+["size"] = 1,
+},
+{
+["time"] = 1771495122,
+["size"] = 1,
+},
+{
+["time"] = 1771495156,
+["size"] = 1,
+},
+{
+["time"] = 1771495190,
+["size"] = 1,
+},
+{
+["time"] = 1771495581,
+["size"] = 1,
+},
+{
+["time"] = 1771495581,
+["size"] = 1,
+},
+{
+["time"] = 1771495582,
+["size"] = 1,
+},
+{
+["time"] = 1771495584,
+["size"] = 1,
+},
+{
+["time"] = 1771495631,
+["size"] = 1,
+},
+{
+["time"] = 1771495631,
+["size"] = 1,
+},
+{
+["time"] = 1771497133,
+["size"] = 1,
+},
+{
+["time"] = 1771497331,
+["size"] = 1,
+},
+{
+["time"] = 1771497335,
+["size"] = 1,
+},
+{
+["time"] = 1771497335,
+["size"] = 1,
+},
+{
+["time"] = 1771497393,
+["size"] = 1,
+},
+{
+["time"] = 1771497393,
+["size"] = 1,
+},
+{
+["time"] = 1771497462,
+["size"] = 1,
+},
+{
+["time"] = 1771497539,
+["size"] = 1,
+},
+{
+["time"] = 1771497540,
+["size"] = 1,
+},
+{
+["time"] = 1771498702,
+["size"] = 1,
+},
+{
+["time"] = 1771498769,
+["size"] = 1,
+},
+{
+["time"] = 1771498814,
+["size"] = 1,
+},
+{
+["time"] = 1771574689,
+["size"] = 1,
+},
+{
+["time"] = 1771574689,
+["size"] = 1,
+},
+{
+["time"] = 1771574693,
+["size"] = 1,
+},
+{
+["time"] = 1771577914,
+["size"] = 1,
+},
+{
+["time"] = 1771577914,
+["size"] = 1,
+},
+{
+["time"] = 1771577918,
+["size"] = 1,
+},
+{
+["time"] = 1771578111,
+["size"] = 1,
+},
+{
+["time"] = 1771578114,
+["size"] = 1,
+},
+{
+["time"] = 1771578114,
+["size"] = 1,
+},
+{
+["time"] = 1771578124,
+["size"] = 1,
+},
+{
+["time"] = 1771578183,
+["size"] = 1,
+},
+{
+["time"] = 1771578235,
+["size"] = 1,
+},
+{
+["time"] = 1771578501,
+["size"] = 1,
+},
+{
+["time"] = 1771578617,
+["size"] = 1,
+},
+{
+["time"] = 1771619068,
+["size"] = 1,
+},
+{
+["time"] = 1771619069,
+["size"] = 1,
+},
+{
+["time"] = 1771619072,
+["size"] = 1,
+},
+{
+["time"] = 1771619232,
+["size"] = 1,
+},
+{
+["time"] = 1771619232,
+["size"] = 1,
+},
+{
+["time"] = 1771619235,
+["size"] = 1,
+},
+{
+["time"] = 1771624367,
+["size"] = 1,
+},
+{
+["time"] = 1771624368,
+["size"] = 1,
+},
+{
+["time"] = 1771624371,
+["size"] = 1,
+},
+{
+["time"] = 1771624390,
+["size"] = 1,
+},
+{
+["time"] = 1771624390,
+["size"] = 1,
+},
+{
+["time"] = 1771624393,
+["size"] = 1,
+},
+{
+["time"] = 1771679263,
+["size"] = 1,
+},
+{
+["time"] = 1771679264,
+["size"] = 1,
+},
+{
+["time"] = 1771679267,
+["size"] = 1,
+},
+{
+["time"] = 1771679838,
+["size"] = 1,
+},
+{
+["time"] = 1771680927,
+["size"] = 1,
+},
+{
+["time"] = 1771681009,
+["size"] = 1,
+},
+{
+["time"] = 1771681596,
+["size"] = 1,
+},
+{
+["time"] = 1771681596,
+["size"] = 1,
+},
+{
+["time"] = 1771681600,
+["size"] = 1,
+},
+{
+["time"] = 1771681800,
+["size"] = 1,
+},
+{
+["time"] = 1771681801,
+["size"] = 1,
+},
+{
+["time"] = 1771681804,
+["size"] = 1,
+},
+{
+["time"] = 1771686318,
+["size"] = 1,
+},
+{
+["time"] = 1771686319,
+["size"] = 1,
+},
+{
+["time"] = 1771686322,
+["size"] = 1,
+},
+{
+["time"] = 1771686339,
+["size"] = 1,
+},
+{
+["time"] = 1771686570,
+["size"] = 1,
+},
+{
+["time"] = 1771686570,
+["size"] = 1,
+},
+{
+["time"] = 1771686570,
+["size"] = 1,
+},
+{
+["time"] = 1771686571,
+["size"] = 1,
+},
+{
+["time"] = 1771686574,
+["size"] = 1,
+},
+{
+["time"] = 1771686575,
+["size"] = 7,
+},
+{
+["time"] = 1771686588,
+["size"] = 1,
+},
+{
+["time"] = 1771686591,
+["size"] = 1,
+},
+{
+["time"] = 1771686592,
+["size"] = 1,
+},
+{
+["time"] = 1771686593,
+["size"] = 1,
+},
+{
+["time"] = 1771686594,
+["size"] = 1,
+},
+{
+["time"] = 1771686594,
+["size"] = 1,
+},
+{
+["time"] = 1771686596,
+["size"] = 1,
+},
+{
+["time"] = 1771686599,
+["size"] = 1,
+},
+{
+["time"] = 1771686603,
+["size"] = 1,
+},
+{
+["time"] = 1771686618,
+["size"] = 1,
+},
+{
+["time"] = 1771686620,
+["size"] = 1,
+},
+{
+["time"] = 1771686628,
+["size"] = 1,
+},
+{
+["time"] = 1771686640,
+["size"] = 1,
+},
+{
+["time"] = 1771686643,
+["size"] = 1,
+},
+{
+["time"] = 1771686644,
+["size"] = 1,
+},
+{
+["time"] = 1771686644,
+["size"] = 1,
+},
+{
+["time"] = 1771686644,
+["size"] = 1,
+},
+{
+["time"] = 1771686645,
+["size"] = 5,
+},
+{
+["time"] = 1771686645,
+["size"] = 1,
+},
+{
+["time"] = 1771686651,
+["size"] = 1,
+},
+{
+["time"] = 1771686653,
+["size"] = 1,
+},
+{
+["time"] = 1771686673,
+["size"] = 1,
+},
+{
+["time"] = 1771686704,
+["size"] = 1,
+},
+{
+["time"] = 1771686708,
+["size"] = 1,
+},
+{
+["time"] = 1771686709,
+["size"] = 1,
+},
+{
+["time"] = 1771686738,
+["size"] = 1,
+},
+{
+["time"] = 1771686741,
+["size"] = 1,
+},
+{
+["time"] = 1771686742,
+["size"] = 1,
+},
+{
+["time"] = 1771686755,
+["size"] = 1,
+},
+{
+["time"] = 1771686758,
+["size"] = 1,
+},
+{
+["time"] = 1771686764,
+["size"] = 1,
+},
+{
+["time"] = 1771686857,
+["size"] = 1,
+},
+{
+["time"] = 1771686861,
+["size"] = 1,
+},
+{
+["time"] = 1771686864,
+["size"] = 1,
+},
+{
+["time"] = 1771686869,
+["size"] = 1,
+},
+{
+["time"] = 1771686874,
+["size"] = 1,
+},
+{
+["time"] = 1771686876,
+["size"] = 1,
+},
+{
+["time"] = 1771686899,
+["size"] = 1,
+},
+{
+["time"] = 1771687428,
+["size"] = 1,
+},
+{
+["time"] = 1771687432,
+["size"] = 1,
+},
+{
+["time"] = 1771687433,
+["size"] = 1,
+},
+{
+["time"] = 1771688422,
+["size"] = 1,
+},
+{
+["time"] = 1771688435,
+["size"] = 1,
+},
+{
+["time"] = 1771688480,
+["size"] = 1,
+},
+{
+["time"] = 1771688481,
+["size"] = 1,
+},
+{
+["time"] = 1771688484,
+["size"] = 1,
+},
+{
+["time"] = 1771688519,
+["size"] = 1,
+},
+{
+["time"] = 1771688708,
+["size"] = 1,
+},
+{
+["time"] = 1771688708,
+["size"] = 1,
+},
+{
+["time"] = 1771688708,
+["size"] = 1,
+},
+{
+["time"] = 1771688710,
+["size"] = 1,
+},
+{
+["time"] = 1771688712,
+["size"] = 1,
+},
+{
+["time"] = 1771688783,
+["size"] = 1,
+},
+{
+["time"] = 1771689230,
+["size"] = 1,
+},
+{
+["time"] = 1771689314,
+["size"] = 1,
+},
+{
+["time"] = 1771689314,
+["size"] = 1,
+},
+{
+["time"] = 1771689314,
+["size"] = 1,
+},
+{
+["time"] = 1771689314,
+["size"] = 1,
+},
+{
+["time"] = 1771689316,
+["size"] = 1,
+},
+{
+["time"] = 1771689317,
+["size"] = 1,
+},
+{
+["time"] = 1771689320,
+["size"] = 1,
+},
+{
+["time"] = 1771689322,
+["size"] = 1,
+},
+{
+["time"] = 1771689322,
+["size"] = 1,
+},
+{
+["time"] = 1771689328,
+["size"] = 1,
+},
+{
+["time"] = 1771689369,
+["size"] = 1,
+},
+{
+["time"] = 1771689377,
+["size"] = 1,
+},
+{
+["time"] = 1771689421,
+["size"] = 1,
+},
+{
+["time"] = 1771689423,
+["size"] = 1,
+},
+{
+["time"] = 1771689425,
+["size"] = 1,
+},
+{
+["time"] = 1771689431,
+["size"] = 1,
+},
+{
+["time"] = 1771689581,
+["size"] = 1,
+},
+{
+["time"] = 1771689582,
+["size"] = 1,
+},
+{
+["time"] = 1771689588,
+["size"] = 1,
+},
+{
+["time"] = 1771690692,
+["size"] = 1,
+},
+{
+["time"] = 1771690757,
+["size"] = 1,
+},
+{
+["time"] = 1771690819,
+["size"] = 1,
+},
+{
+["time"] = 1771691065,
+["size"] = 1,
+},
+{
+["time"] = 1771696672,
+["size"] = 1,
+},
+{
+["time"] = 1771696672,
+["size"] = 1,
+},
+{
+["time"] = 1771696676,
+["size"] = 1,
+},
+{
+["time"] = 1771696693,
+["size"] = 1,
+},
+{
+["time"] = 1771696694,
+["size"] = 1,
+},
+{
+["time"] = 1771696696,
+["size"] = 1,
+},
+{
+["time"] = 1771696719,
+["size"] = 1,
+},
+{
+["time"] = 1771696719,
+["size"] = 1,
+},
+{
+["time"] = 1771696721,
+["size"] = 1,
+},
+{
+["time"] = 1771696746,
+["size"] = 1,
+},
+{
+["time"] = 1771696746,
+["size"] = 1,
+},
+{
+["time"] = 1771696746,
+["size"] = 1,
+},
+{
+["time"] = 1771696747,
+["size"] = 1,
+},
+{
+["time"] = 1771696747,
+["size"] = 1,
+},
+{
+["time"] = 1771696748,
+["size"] = 1,
+},
+{
+["time"] = 1771696749,
+["size"] = 1,
+},
+{
+["time"] = 1771696751,
+["size"] = 1,
+},
+{
+["time"] = 1771696769,
+["size"] = 1,
+},
+{
+["time"] = 1771696904,
+["size"] = 1,
+},
+{
+["time"] = 1771696904,
+["size"] = 1,
+},
+{
+["time"] = 1771696904,
+["size"] = 1,
+},
+{
+["time"] = 1771696906,
+["size"] = 1,
+},
+{
+["time"] = 1771696909,
+["size"] = 1,
+},
+{
+["time"] = 1771696911,
+["size"] = 1,
+},
+{
+["time"] = 1771697023,
+["size"] = 1,
+},
+{
+["time"] = 1771697132,
+["size"] = 1,
+},
+{
+["time"] = 1771697132,
+["size"] = 1,
+},
+{
+["time"] = 1771697135,
+["size"] = 1,
+},
+{
+["time"] = 1771697146,
+["size"] = 1,
+},
+{
+["time"] = 1771697146,
+["size"] = 1,
+},
+{
+["time"] = 1771697146,
+["size"] = 1,
+},
+{
+["time"] = 1771697146,
+["size"] = 1,
+},
+{
+["time"] = 1771697146,
+["size"] = 1,
+},
+{
+["time"] = 1771697148,
+["size"] = 1,
+},
+{
+["time"] = 1771697148,
+["size"] = 1,
+},
+{
+["time"] = 1771697152,
+["size"] = 1,
+},
+{
+["time"] = 1771697269,
+["size"] = 1,
+},
+{
+["time"] = 1771697271,
+["size"] = 1,
+},
+{
+["time"] = 1771697271,
+["size"] = 1,
+},
+{
+["time"] = 1771697273,
+["size"] = 10,
+},
+{
+["time"] = 1771697283,
+["size"] = 1,
+},
+{
+["time"] = 1771697380,
+["size"] = 1,
+},
+{
+["time"] = 1771697661,
+["size"] = 1,
+},
+{
+["time"] = 1771697662,
+["size"] = 1,
+},
+{
+["time"] = 1771697667,
+["size"] = 1,
+},
+{
+["time"] = 1771697849,
+["size"] = 1,
+},
+{
+["time"] = 1771697851,
+["size"] = 1,
+},
+{
+["time"] = 1771697855,
+["size"] = 1,
+},
+{
+["time"] = 1771698565,
+["size"] = 1,
+},
+{
+["time"] = 1771698566,
+["size"] = 1,
+},
+{
+["time"] = 1771698568,
+["size"] = 1,
+},
+{
+["time"] = 1771698573,
+["size"] = 1,
+},
+{
+["time"] = 1771698754,
+["size"] = 1,
+},
+{
+["time"] = 1771698758,
+["size"] = 1,
+},
+{
+["time"] = 1771698758,
+["size"] = 1,
+},
+{
+["time"] = 1771698828,
+["size"] = 1,
+},
+{
+["time"] = 1771698832,
+["size"] = 1,
+},
+{
+["time"] = 1771698836,
+["size"] = 1,
+},
+{
+["time"] = 1771699248,
+["size"] = 1,
+},
+{
+["time"] = 1771699251,
+["size"] = 1,
+},
+{
+["time"] = 1771699255,
+["size"] = 1,
+},
+{
+["time"] = 1771699477,
+["size"] = 1,
+},
+{
+["time"] = 1771699482,
+["size"] = 1,
+},
+{
+["time"] = 1771699482,
+["size"] = 1,
+},
+{
+["time"] = 1771699502,
+["size"] = 1,
+},
+{
+["time"] = 1771699507,
+["size"] = 1,
+},
+{
+["time"] = 1771699509,
+["size"] = 1,
+},
+{
+["time"] = 1771699543,
+["size"] = 1,
+},
+{
+["time"] = 1771699546,
+["size"] = 1,
+},
+{
+["time"] = 1771699550,
+["size"] = 1,
+},
+{
+["time"] = 1771699738,
+["size"] = 1,
 },
-["transmissions"] = {
-["group"] = {
-[3177] = {
 {
+["time"] = 1771699742,
+["size"] = 1,
 },
 {
+["time"] = 1771699744,
+["size"] = 1,
 },
+{
+["time"] = 1771700098,
+["size"] = 1,
+},
+{
+["time"] = 1771700099,
+["size"] = 1,
+},
+{
+["time"] = 1771700106,
+["size"] = 1,
+},
+{
+["time"] = 1771700141,
+["size"] = 1,
+},
+{
+["time"] = 1771700144,
+["size"] = 1,
+},
+{
+["time"] = 1771700146,
+["size"] = 1,
+},
+{
+["time"] = 1771700509,
+["size"] = 1,
+},
+{
+["time"] = 1771700511,
+["size"] = 1,
+},
+{
+["time"] = 1771700513,
+["size"] = 1,
+},
+{
+["time"] = 1771700515,
+["size"] = 1,
+},
+{
+["time"] = 1771700697,
+["size"] = 1,
+},
+{
+["time"] = 1771700701,
+["size"] = 1,
+},
+{
+["time"] = 1771700704,
+["size"] = 1,
+},
+{
+["time"] = 1771700710,
+["size"] = 1,
+},
+{
+["time"] = 1771700759,
+["size"] = 1,
+},
+{
+["time"] = 1771700770,
+["size"] = 1,
+},
+{
+["time"] = 1771700772,
+["size"] = 1,
+},
+{
+["time"] = 1771700773,
+["size"] = 1,
+},
+{
+["time"] = 1771700775,
+["size"] = 1,
+},
+{
+["time"] = 1771701032,
+["size"] = 1,
+},
+{
+["time"] = 1771701033,
+["size"] = 1,
+},
+{
+["time"] = 1771701038,
+["size"] = 1,
+},
+{
+["time"] = 1771701135,
+["size"] = 1,
+},
+{
+["time"] = 1771701139,
+["size"] = 1,
+},
+{
+["time"] = 1771701143,
+["size"] = 1,
+},
+{
+["time"] = 1771701222,
+["size"] = 1,
+},
+{
+["time"] = 1771701222,
+["size"] = 1,
+},
+{
+["time"] = 1771701225,
+["size"] = 1,
+},
+{
+["time"] = 1771701227,
+["size"] = 1,
+},
+{
+["time"] = 1771701640,
+["size"] = 1,
+},
+{
+["time"] = 1771701641,
+["size"] = 1,
+},
+{
+["time"] = 1771701645,
+["size"] = 1,
+},
+{
+["time"] = 1771701719,
+["size"] = 1,
+},
+{
+["time"] = 1771701719,
+["size"] = 1,
+},
+{
+["time"] = 1771701724,
+["size"] = 1,
+},
+{
+["time"] = 1771701782,
+["size"] = 1,
+},
+{
+["time"] = 1771701784,
+["size"] = 1,
+},
+{
+["time"] = 1771702494,
+["size"] = 1,
+},
+{
+["time"] = 1771702495,
+["size"] = 1,
+},
+{
+["time"] = 1771702500,
+["size"] = 1,
+},
+{
+["time"] = 1771704067,
+["size"] = 1,
+},
+{
+["time"] = 1771704067,
+["size"] = 1,
+},
+{
+["time"] = 1771704067,
+["size"] = 1,
+},
+{
+["time"] = 1771704067,
+["size"] = 1,
+},
+{
+["time"] = 1771704068,
+["size"] = 1,
+},
+{
+["time"] = 1771704071,
+["size"] = 1,
+},
+{
+["time"] = 1771704071,
+["size"] = 1,
+},
+{
+["time"] = 1771708052,
+["size"] = 1,
+},
+{
+["time"] = 1771708052,
+["size"] = 1,
+},
+{
+["time"] = 1771708055,
+["size"] = 1,
+},
+{
+["time"] = 1771708073,
+["size"] = 1,
+},
+{
+["time"] = 1771708073,
+["size"] = 1,
+},
+{
+["time"] = 1771708075,
+["size"] = 1,
+},
+{
+["time"] = 1771708099,
+["size"] = 1,
+},
+{
+["time"] = 1771708099,
+["size"] = 1,
+},
+{
+["time"] = 1771708101,
+["size"] = 1,
+},
+{
+["time"] = 1771708532,
+["size"] = 1,
+},
+{
+["time"] = 1771708755,
+["size"] = 1,
+},
+{
+["time"] = 1771747781,
+["size"] = 1,
+},
+{
+["time"] = 1771747781,
+["size"] = 1,
+},
+{
+["time"] = 1771747784,
+["size"] = 1,
+},
+{
+["time"] = 1771748082,
+["size"] = 1,
+},
+{
+["time"] = 1771748082,
+["size"] = 1,
+},
+{
+["time"] = 1771748082,
+["size"] = 1,
+},
+{
+["time"] = 1771748085,
+["size"] = 1,
+},
+{
+["time"] = 1771748087,
+["size"] = 1,
+},
+{
+["time"] = 1771748142,
+["size"] = 1,
+},
+{
+["time"] = 1771748175,
+["size"] = 1,
+},
+{
+["time"] = 1771748251,
+["size"] = 1,
+},
+{
+["time"] = 1771748263,
+["size"] = 1,
+},
+{
+["time"] = 1771748350,
+["size"] = 1,
+},
+{
+["time"] = 1771748360,
+["size"] = 1,
+},
+{
+["time"] = 1771748436,
+["size"] = 1,
+},
+{
+["time"] = 1771748449,
+["size"] = 1,
+},
+{
+["time"] = 1771748531,
+["size"] = 1,
+},
+{
+["time"] = 1771787229,
+["size"] = 1,
+},
+{
+["time"] = 1771787230,
+["size"] = 1,
+},
+{
+["time"] = 1771787233,
+["size"] = 1,
+},
+{
+["time"] = 1771789047,
+["size"] = 1,
+},
+{
+["time"] = 1771789048,
+["size"] = 1,
+},
+{
+["time"] = 1771789051,
+["size"] = 1,
+},
+{
+["time"] = 1771789058,
+["size"] = 1,
+},
+{
+["time"] = 1771789058,
+["size"] = 1,
+},
+{
+["time"] = 1771789058,
+["size"] = 1,
+},
+{
+["time"] = 1771789062,
+["size"] = 1,
+},
+{
+["time"] = 1771789066,
+["size"] = 1,
+},
+{
+["time"] = 1771789078,
+["size"] = 1,
+},
+{
+["time"] = 1771789299,
+["size"] = 1,
+},
+{
+["time"] = 1771789299,
+["size"] = 1,
+},
+{
+["time"] = 1771789299,
+["size"] = 1,
+},
+{
+["time"] = 1771789301,
+["size"] = 1,
+},
+{
+["time"] = 1771789307,
+["size"] = 1,
+},
+{
+["time"] = 1771790963,
+["size"] = 1,
+},
+{
+["time"] = 1771791041,
+["size"] = 1,
+},
+{
+["time"] = 1771791054,
+["size"] = 1,
+},
+{
+["time"] = 1771793567,
+["size"] = 1,
+},
+{
+["time"] = 1771793568,
+["size"] = 1,
+},
+{
+["time"] = 1771793571,
+["size"] = 1,
+},
+{
+["time"] = 1771793742,
+["size"] = 1,
+},
+{
+["time"] = 1771793742,
+["size"] = 1,
+},
+{
+["time"] = 1771793746,
+["size"] = 1,
+},
+{
+["time"] = 1771795910,
+["size"] = 1,
+},
+{
+["time"] = 1771795911,
+["size"] = 1,
+},
+{
+["time"] = 1771795914,
+["size"] = 1,
+},
+{
+["time"] = 1771796828,
+["size"] = 1,
+},
+{
+["time"] = 1771796868,
+["size"] = 1,
+},
+{
+["time"] = 1771796937,
+["size"] = 1,
 },
-[3179] = {
 {
+["time"] = 1771796989,
+["size"] = 1,
 },
 {
+["time"] = 1771797481,
+["size"] = 1,
 },
+{
+["time"] = 1771831623,
+["size"] = 1,
 },
-[3181] = {
 {
+["time"] = 1771831623,
+["size"] = 1,
 },
 {
+["time"] = 1771831627,
+["size"] = 1,
 },
+{
+["time"] = 1771831688,
+["size"] = 1,
 },
-[3183] = {
 {
+["time"] = 1771831803,
+["size"] = 1,
 },
 {
+["time"] = 1771831918,
+["size"] = 1,
 },
+{
+["time"] = 1771831918,
+["size"] = 1,
 },
-[3129] = {
 {
+["time"] = 1771831918,
+["size"] = 1,
 },
 {
-["Player-1598-0FBF146E"] = {
-["version"] = 9,
-["data"] = {
+["time"] = 1771831919,
+["size"] = 1,
 },
-["time"] = 1769977566,
-["iteration"] = 2,
+{
+["time"] = 1771831920,
+["size"] = 1,
 },
-["Player-1305-0CC67589"] = {
-["data"] = {
+{
+["time"] = 1771832006,
+["size"] = 1,
 },
-["time"] = 1769976187,
-["version"] = 9,
-["iteration"] = 2,
+{
+["time"] = 1771832163,
+["size"] = 1,
 },
-["Player-1598-0FA12E00"] = {
-["data"] = {
+{
+["time"] = 1771832163,
+["size"] = 1,
 },
-["time"] = 1769960557,
-["version"] = 9,
-["iteration"] = 2,
+{
+["time"] = 1771832167,
+["size"] = 1,
 },
-["Player-1598-0F46FF5A"] = {
-["data"] = {
+{
+["time"] = 1771832195,
+["size"] = 1,
 },
-["time"] = 1769976187,
-["version"] = 9,
-["iteration"] = 2,
+{
+["time"] = 1771832297,
+["size"] = 1,
 },
-["Player-1598-0F01D065"] = {
-["data"] = {
+{
+["time"] = 1771832425,
+["size"] = 1,
 },
-["time"] = 1769976360,
-["version"] = 9,
-["iteration"] = 2,
+{
+["time"] = 1771832603,
+["size"] = 1,
 },
+{
+["time"] = 1771832668,
+["size"] = 1,
 },
+{
+["time"] = 1771832669,
+["size"] = 1,
 },
-[3131] = {
 {
+["time"] = 1771832672,
+["size"] = 1,
 },
 {
+["time"] = 1771832772,
+["size"] = 1,
 },
+{
+["time"] = 1771832773,
+["size"] = 1,
 },
-[3133] = {
 {
+["time"] = 1771832777,
+["size"] = 1,
 },
 {
+["time"] = 1771832802,
+["size"] = 1,
 },
+{
+["time"] = 1771832975,
+["size"] = 1,
 },
-[3135] = {
 {
+["time"] = 1771833055,
+["size"] = 1,
 },
 {
+["time"] = 1771833132,
+["size"] = 1,
 },
+{
+["time"] = 1771833351,
+["size"] = 1,
 },
-[3176] = {
 {
+["time"] = 1771833351,
+["size"] = 1,
 },
 {
+["time"] = 1771833354,
+["size"] = 1,
 },
+{
+["time"] = 1771833514,
+["size"] = 1,
 },
-[3178] = {
 {
+["time"] = 1771833514,
+["size"] = 1,
 },
 {
+["time"] = 1771833518,
+["size"] = 1,
 },
+{
+["time"] = 1771833644,
+["size"] = 1,
 },
-[3180] = {
 {
+["time"] = 1771833644,
+["size"] = 1,
 },
 {
+["time"] = 1771833647,
+["size"] = 1,
 },
+{
+["time"] = 1771833669,
+["size"] = 1,
 },
-[3306] = {
 {
+["time"] = 1771833669,
+["size"] = 1,
 },
 {
+["time"] = 1771833672,
+["size"] = 1,
 },
+{
+["time"] = 1771833751,
+["size"] = 1,
 },
-[3122] = {
 {
+["time"] = 1771833751,
+["size"] = 1,
 },
 {
+["time"] = 1771833755,
+["size"] = 1,
 },
+{
+["time"] = 1771833928,
+["size"] = 1,
 },
-[3130] = {
 {
+["time"] = 1771833928,
+["size"] = 1,
 },
 {
+["time"] = 1771833931,
+["size"] = 1,
 },
+{
+["time"] = 1771833954,
+["size"] = 1,
 },
-[3132] = {
 {
+["time"] = 1771834114,
+["size"] = 1,
 },
 {
+["time"] = 1771834114,
+["size"] = 1,
 },
+{
+["time"] = 1771834118,
+["size"] = 1,
 },
-[3134] = {
 {
+["time"] = 1771838330,
+["size"] = 1,
 },
 {
+["time"] = 1771838330,
+["size"] = 1,
 },
+{
+["time"] = 1771838335,
+["size"] = 1,
 },
-[3182] = {
 {
+["time"] = 1771838539,
+["size"] = 1,
 },
 {
+["time"] = 1771838598,
+["size"] = 1,
 },
+{
+["time"] = 1771838646,
+["size"] = 1,
 },
+{
+["time"] = 1771838736,
+["size"] = 1,
 },
-["player"] = {
-[3177] = {
 {
-["time"] = 0,
-["iteration"] = 2,
+["time"] = 1771838925,
+["size"] = 1,
 },
 {
-["time"] = 0,
-["iteration"] = 2,
+["time"] = 1771838926,
+["size"] = 1,
 },
+{
+["time"] = 1771838929,
+["size"] = 1,
 },
-[3179] = {
 {
-["time"] = 0,
-["iteration"] = 2,
+["time"] = 1771838946,
+["size"] = 1,
 },
 {
-["time"] = 0,
-["iteration"] = 2,
+["time"] = 1771838999,
+["size"] = 1,
 },
+{
+["time"] = 1771839291,
+["size"] = 1,
 },
-[3181] = {
 {
-["time"] = 0,
-["iteration"] = 2,
+["time"] = 1771839291,
+["size"] = 1,
 },
 {
-["time"] = 0,
-["iteration"] = 2,
+["time"] = 1771839295,
+["size"] = 1,
 },
+{
+["time"] = 1771839341,
+["size"] = 1,
 },
-[3183] = {
 {
-["time"] = 0,
-["iteration"] = 2,
+["time"] = 1771839341,
+["size"] = 1,
 },
 {
-["time"] = 0,
-["iteration"] = 2,
+["time"] = 1771839344,
+["size"] = 1,
 },
+{
+["time"] = 1771839382,
+["size"] = 1,
 },
-[3129] = {
 {
-["time"] = 0,
-["iteration"] = 2,
+["time"] = 1771839382,
+["size"] = 1,
 },
 {
-["time"] = 1769977569,
-["iteration"] = 2,
+["time"] = 1771839385,
+["size"] = 1,
 },
+{
+["time"] = 1771839507,
+["size"] = 1,
 },
-[3131] = {
 {
-["time"] = 0,
-["iteration"] = 2,
+["time"] = 1771839620,
+["size"] = 1,
 },
 {
-["time"] = 0,
-["iteration"] = 2,
+["time"] = 1771839703,
+["size"] = 1,
 },
+{
+["time"] = 1771839704,
+["size"] = 1,
 },
-[3133] = {
 {
-["time"] = 0,
-["iteration"] = 2,
+["time"] = 1771839706,
+["size"] = 1,
 },
 {
-["time"] = 0,
-["iteration"] = 2,
+["time"] = 1771839805,
+["size"] = 1,
 },
+{
+["time"] = 1771839806,
+["size"] = 1,
 },
-[3135] = {
 {
-["time"] = 0,
-["iteration"] = 2,
+["time"] = 1771839808,
+["size"] = 1,
 },
 {
-["time"] = 1769976170,
-["iteration"] = 2,
+["time"] = 1771839835,
+["size"] = 1,
 },
+{
+["time"] = 1771839891,
+["size"] = 1,
 },
-[3176] = {
 {
-["time"] = 0,
-["iteration"] = 2,
+["time"] = 1771840054,
+["size"] = 1,
 },
 {
-["time"] = 0,
-["iteration"] = 2,
+["time"] = 1771840115,
+["size"] = 1,
 },
+{
+["time"] = 1771840172,
+["size"] = 1,
 },
-[3178] = {
 {
-["time"] = 0,
-["iteration"] = 2,
+["time"] = 1771840173,
+["size"] = 1,
 },
 {
-["time"] = 0,
-["iteration"] = 2,
+["time"] = 1771840174,
+["size"] = 1,
 },
+{
+["time"] = 1771840801,
+["size"] = 10,
 },
-[3180] = {
 {
-["time"] = 0,
-["iteration"] = 2,
+["time"] = 1771840960,
+["size"] = 1,
 },
 {
-["time"] = 0,
-["iteration"] = 2,
+["time"] = 1771841168,
+["size"] = 1,
 },
+{
+["time"] = 1771841219,
+["size"] = 1,
 },
-[3306] = {
 {
-["time"] = 0,
-["iteration"] = 2,
+["time"] = 1771841263,
+["size"] = 1,
 },
 {
-["time"] = 0,
-["iteration"] = 2,
+["time"] = 1771841382,
+["size"] = 1,
 },
+{
+["time"] = 1771841657,
+["size"] = 1,
 },
-[3122] = {
 {
-["time"] = 0,
-["iteration"] = 2,
+["time"] = 1771842449,
+["size"] = 1,
 },
 {
-["time"] = 0,
-["iteration"] = 2,
+["time"] = 1771842669,
+["size"] = 1,
 },
+{
+["time"] = 1771842669,
+["size"] = 1,
 },
-[3130] = {
 {
-["time"] = 0,
-["iteration"] = 2,
+["time"] = 1771842673,
+["size"] = 1,
 },
 {
-["time"] = 0,
-["iteration"] = 2,
+["time"] = 1771842695,
+["size"] = 1,
 },
+{
+["time"] = 1771842695,
+["size"] = 1,
 },
-[3132] = {
 {
-["time"] = 0,
-["iteration"] = 2,
+["time"] = 1771842700,
+["size"] = 1,
 },
 {
-["time"] = 0,
-["iteration"] = 2,
+["time"] = 1771842729,
+["size"] = 1,
 },
+{
+["time"] = 1771842729,
+["size"] = 1,
 },
-[3134] = {
 {
-["time"] = 0,
-["iteration"] = 2,
+["time"] = 1771842732,
+["size"] = 1,
 },
 {
-["time"] = 0,
-["iteration"] = 2,
+["time"] = 1771842750,
+["size"] = 1,
 },
+{
+["time"] = 1771842829,
+["size"] = 1,
 },
-[3182] = {
 {
-["time"] = 0,
-["iteration"] = 2,
+["time"] = 1771843025,
+["size"] = 1,
 },
 {
-["time"] = 0,
-["iteration"] = 2,
+["time"] = 1771843110,
+["size"] = 1,
 },
+{
+["time"] = 1771843172,
+["size"] = 1,
 },
 },
+["deathData"] = {
 },
 ["LiquidUI"] = {
 ["frameSettings"] = {
+["TEXT_ANCHOR"] = {
+},
+["ICON_ANCHOR"] = {
+},
 },
 ["spellDescriptionCache"] = {
 [1220618] = {
-["time"] = 1769786445,
+["time"] = 1771619059,
 ["description"] = "The Plexus Sentinel relocates, pushing players away and activating the |cffffffffArcanomatrix Atomizer|r. The Atomizer slowly passes over the chamber, Atomizing any players  it contacts.\r\n\r\nAfter relocating, The Plexus Sentinel begins channelling |cffffffffProtocol: Purge|r and gains a shield that absorbs damage. Breaking this shield interrupts |cffffffffProtocol: Purge|r.",
 },
-[1219263] = {
-["time"] = 1769786445,
-["description"] = "The Plexus Sentinel marks its current target, then fires an arcane charge that inflicts 77,566 Arcane damage to players within 10 yards, and 51,711 Arcane damage to all other players. Players farther from the target receive less damage. This explosion leaves behind |cffffffffPotent Mana Residue|r.\r\n\r\nThe impact causes the primary target to take 1,000% damage from |cffffffffObliteration Arcanocannon|r for 45 sec.",
+[1262289] = {
+["time"] = 1770791330,
+["description"] = "Chimaerus tears a hole in Reality, inflicting 81,750 Physical damage to its current target and 130,801 Nature damage split evenly between players within 10 yards of the impact.\r\n\r\nVictims are knocked into the air and gain |cffffffffAlnsight|r.",
 },
 [1219450] = {
-["time"] = 1769786445,
-["description"] = "The Plexus Sentinel fires Arcane energy into players, inflicting 7,240 Arcane damage every 1 sec for 6 sec. Upon expiration, a |cffffffffDisplacement Matrix|r is created. ",
+["time"] = 1771619059,
+["description"] = "The Plexus Sentinel fires Arcane energy into players, inflicting 7,640 Arcane damage every 1 sec for 6 sec. Upon expiration, a |cffffffffDisplacement Matrix|r is created. ",
+},
+[1257087] = {
+["time"] = 1770791330,
+["description"] = "Chimaerus surrounds several players with ravenous energy, causing them to suffer $s1 Nature damage every $t1 sec for $d.\r\n\r\nUpon removal, the target erupts with $@spellname1257093 and consumes $@spellname1245857 within $1257093A1 yards.",
+},
+[133] = {
+["time"] = 1771440374,
+["description"] = "Throws a fiery ball that causes 2,809 Fire damage.",
+},
+[1245404] = {
+["time"] = 1770791330,
+["description"] = "Chimaerus descends to the ground, inflicting 16,349 Physical damage to all players upon landing and knocking them into the air.\r\n\r\nAny remaining Manifestations are consumed, causing Chimaerus to cast |cffffffffCannibalized Essence|r for each Manifestation consumed.",
 },
 [1219531] = {
-["time"] = 1769786445,
-["description"] = "The Plexus Sentinel targets a player to be purged, firing a missile inflicting 124,106 Arcane damage split evenly between players within 6 yards.",
+["time"] = 1771619059,
+["description"] = "The Plexus Sentinel targets a player to be purged, firing a missile inflicting 130,975 Arcane damage split evenly between players within 6 yards.",
+},
+[1264756] = {
+["time"] = 1770791330,
+["description"] = "Chimaerus causes several players within the Rift to succumb to madness, inflicting 10,899 Nature damage to players within 6 yards and horrifying them, causing them to suffer 2,725 Nature damage every 1 sec. This effect increases in intensity every 3 sec.\r\n\r\nAllies outside the Rift can stand nearby the victims to swap realms with them after a short duration, saving them from the madness.",
+},
+[1245452] = {
+["time"] = 1770791330,
+["description"] = "Chimaerus sweeps across its den, exhaling corruption that inflicts 54,500 Nature damage to players standing in the area and stuns them for 1 sec.\r\n\r\nThe spewed corruption coalesces Manifestations and leaves behind |cffffffffAlndust Essence|r.",
+},
+[1246653] = {
+["time"] = 1770791330,
+["description"] = "Chimaerus launches globs of phlegm at all players, inflicting 6,539 Nature damage every 1 sec for 12 sec.",
+},
+[1245396] = {
+["time"] = 1770791330,
+["description"] = "Chimaerus consumes the essence of its enemies, inflicting 21,799 Nature damage every 2 sec for 10 sec.\r\n\r\nUpon finishing its channel, Chimaerus knocks players away and consumes any remaining Manifestations, casting |cffffffffCannibalized Essence|r for each Manifestation consumed.",
+},
+[1258610] = {
+["time"] = 1770791330,
+["description"] = "Chimaerus unleashes an unearthly roar, inflicting 18,312 Nature damage to all players and causing Manifestations to emerge throughout the Rift.",
+},
+[1272726] = {
+["time"] = 1770791330,
+["description"] = "Chimaerus slashes in the direction of a nearby target, inflicting 16,349 Physical damage to players in a frontal cone, causing them to bleed for 5,449 Physical damage every 1.5 sec for 6 sec and knocking them away.",
+},
+[1246132] = {
+["time"] = 1770791330,
+["description"] = "Chimaerus is protected by the shroud of its den while in the air, reducing damage taken by 99%.",
+},
+[1219263] = {
+["time"] = 1771619059,
+["description"] = "The Plexus Sentinel marks its current target, then fires an arcane charge that inflicts 81,859 Arcane damage to players within 10 yards, and 54,573 Arcane damage to all other players. Players farther from the target receive less damage. This explosion leaves behind |cffffffffPotent Mana Residue|r.\r\n\r\nThe impact causes the primary target to take 1,000% damage from |cffffffffObliteration Arcanocannon|r for 45 sec.",
 },
 },
 },
 ["nicknames"] = {
 ["Lucky-LaughingSkull"] = "Lucky",
 },
-["deathData"] = {
+["minimap"] = {
+["minimapPos"] = 296.4109165740321,
 },
 }

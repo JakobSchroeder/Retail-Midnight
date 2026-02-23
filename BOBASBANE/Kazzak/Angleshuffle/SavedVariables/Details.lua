@@ -7,8 +7,8 @@ _detalhes_database = {
 ["tabelas"] = {
 {
 {
-["combatId"] = 2,
 ["tipo"] = 2,
+["combatId"] = 2,
 ["_ActorTable"] = {
 {
 ["flag_original"] = 1298,
@@ -25,28 +25,27 @@ _detalhes_database = {
 ["on_hold"] = false,
 ["total_extra"] = 0,
 ["serial"] = "Player-1305-0CD5A169",
+["colocacao"] = 1,
 ["mrating"] = 0,
-["aID"] = "1305-0CD5A169",
-["boss_fight_component"] = true,
-["damage_from"] = {
-},
+["specIcon"] = 136207,
 ["targets"] = {
 },
-["specIcon"] = 136207,
-["grupo"] = true,
 ["friendlyfire_total"] = 0,
 ["raid_targets"] = {
 },
+["tipo"] = 1,
 ["end_time"] = 1769961281,
-["nome"] = "Angleshuffle",
+["aID"] = "1305-0CD5A169",
+["friendlyfire"] = {
+},
+["boss_fight_component"] = true,
 ["spells"] = {
-["tipo"] = 2,
 ["_ActorTable"] = {
 [15407] = {
 ["c_amt"] = 0,
 ["b_amt"] = 0,
 ["g_amt"] = 0,
-["n_max"] = 0,
+["b_dmg"] = 0,
 ["targets"] = {
 },
 ["n_total"] = 0,
@@ -65,49 +64,50 @@ _detalhes_database = {
 ["successful_casted"] = 0,
 ["c_total"] = 0,
 ["n_amt"] = 0,
-["b_dmg"] = 0,
+["n_max"] = 0,
 ["r_amt"] = 0,
 },
 },
+["tipo"] = 2,
 },
-["friendlyfire"] = {
+["grupo"] = true,
+["last_dps"] = 1958.936299710111,
+["damage_from"] = {
 },
-["last_dps"] = 180490.640625,
 ["custom"] = 0,
-["tipo"] = 1,
+["last_event"] = 0,
 ["damage_taken"] = 0.006638,
 ["start_time"] = 1769961281,
 ["delay"] = 0,
-["last_event"] = 0,
+["nome"] = "Angleshuffle",
 },
 },
 },
 {
-["combatId"] = 2,
 ["tipo"] = 3,
+["combatId"] = 2,
 ["_ActorTable"] = {
 },
 },
 {
-["combatId"] = 2,
 ["tipo"] = 7,
+["combatId"] = 2,
 ["_ActorTable"] = {
 },
 },
 {
-["combatId"] = 2,
 ["tipo"] = 9,
+["combatId"] = 2,
 ["_ActorTable"] = {
 },
 },
 {
-["combatId"] = 2,
 ["tipo"] = 2,
+["combatId"] = 2,
 ["_ActorTable"] = {
 },
 },
-["raid_roster"] = {
-},
+["boss_hp"] = 1,
 ["tempo_start"] = 1769961281,
 ["last_events_tables"] = {
 },
@@ -133,10 +133,10 @@ _detalhes_database = {
 {
 ["buff_uptime"] = 0,
 ["ress"] = 0,
-["debuff_uptime"] = 0,
 ["cooldowns_defensive"] = 0,
-["interrupt"] = 0,
 ["dispell"] = 0,
+["interrupt"] = 0,
+["debuff_uptime"] = 0,
 ["cc_break"] = 0,
 ["dead"] = 0,
 },
@@ -169,9 +169,10 @@ _detalhes_database = {
 ["combat_id"] = 2,
 ["timeStart"] = 1769961281,
 ["overall_added"] = true,
-["boss_hp"] = 1,
+["raid_roster"] = {
+},
 ["is_challenge"] = false,
-["frags"] = {
+["spells_cast_timeline"] = {
 },
 ["is_boss"] = {
 ["diff_string"] = "Normal",
@@ -200,10 +201,10 @@ _detalhes_database = {
 {
 ["buff_uptime"] = 0,
 ["ress"] = 0,
-["debuff_uptime"] = 0,
 ["cooldowns_defensive"] = 0,
-["interrupt"] = 0,
 ["dispell"] = 0,
+["interrupt"] = 0,
+["debuff_uptime"] = 0,
 ["cc_break"] = 0,
 ["dead"] = 0,
 },
@@ -213,13 +214,13 @@ _detalhes_database = {
 1,
 1,
 },
+["damage_section"] = {
+},
 ["heal_section"] = {
 },
 ["heal"] = {
 {
 },
-},
-["damage_section"] = {
 },
 ["damage"] = {
 {
@@ -230,13 +231,13 @@ _detalhes_database = {
 ["start_time"] = 3754336.907,
 ["TimeData"] = {
 },
-["spells_cast_timeline"] = {
+["frags"] = {
 },
 },
 {
 {
-["combatId"] = 1,
 ["tipo"] = 2,
+["combatId"] = 1,
 ["_ActorTable"] = {
 {
 ["flag_original"] = 1298,
@@ -250,32 +251,31 @@ _detalhes_database = {
 ["dps_started"] = false,
 ["total"] = 219362,
 ["spec"] = 258,
+["colocacao"] = 1,
 ["on_hold"] = false,
 ["total_extra"] = 0,
 ["serial"] = "Player-1305-0CD5A169",
-["colocacao"] = 1,
 ["mrating"] = 0,
-["aID"] = "1305-0CD5A169",
-["boss_fight_component"] = true,
-["damage_from"] = {
-},
+["specIcon"] = 136207,
 ["targets"] = {
 },
-["specIcon"] = 136207,
-["grupo"] = true,
 ["friendlyfire_total"] = 0,
 ["raid_targets"] = {
 },
+["damage_from"] = {
+},
 ["end_time"] = 1769961200,
-["nome"] = "Angleshuffle",
+["aID"] = "1305-0CD5A169",
+["friendlyfire"] = {
+},
+["boss_fight_component"] = true,
 ["spells"] = {
-["tipo"] = 2,
 ["_ActorTable"] = {
 [15407] = {
 ["c_amt"] = 0,
 ["b_amt"] = 0,
 ["g_amt"] = 0,
-["n_max"] = 0,
+["b_dmg"] = 0,
 ["targets"] = {
 },
 ["n_total"] = 0,
@@ -294,14 +294,14 @@ _detalhes_database = {
 ["successful_casted"] = 0,
 ["c_total"] = 0,
 ["n_amt"] = 0,
-["b_dmg"] = 0,
+["n_max"] = 0,
 ["r_amt"] = 0,
 },
 [8092] = {
 ["c_amt"] = 0,
 ["b_amt"] = 0,
 ["g_amt"] = 0,
-["n_max"] = 0,
+["b_dmg"] = 0,
 ["targets"] = {
 },
 ["n_total"] = 0,
@@ -320,64 +320,59 @@ _detalhes_database = {
 ["successful_casted"] = 0,
 ["c_total"] = 0,
 ["n_amt"] = 0,
-["b_dmg"] = 0,
+["n_max"] = 0,
 ["r_amt"] = 0,
 },
 },
+["tipo"] = 2,
 },
-["friendlyfire"] = {
-},
+["grupo"] = true,
 ["last_dps"] = 21883.67916953658,
-["custom"] = 0,
 ["tipo"] = 1,
+["custom"] = 0,
+["last_event"] = 0,
 ["damage_taken"] = 0.003692,
 ["start_time"] = 1769961200,
 ["delay"] = 0,
-["last_event"] = 0,
+["nome"] = "Angleshuffle",
 },
 },
 },
 {
-["combatId"] = 1,
 ["tipo"] = 3,
+["combatId"] = 1,
 ["_ActorTable"] = {
 {
 ["flag_original"] = 1298,
+["targets_overheal"] = {
+},
 ["pets"] = {
 },
 ["iniciar_hps"] = false,
-["heal_enemy_amt"] = 0,
+["classe"] = "PRIEST",
 ["totalover"] = 0.0051,
 ["total_without_pet"] = 0.0051,
 ["total"] = 1196,
-["targets_absorbs"] = {
-},
+["spec"] = 258,
 ["heal_enemy"] = {
 },
+["colocacao"] = 1,
 ["on_hold"] = false,
-["aID"] = "1305-0CD5A169",
+["serial"] = "Player-1305-0CD5A169",
 ["totalabsorb"] = 0.0051,
 ["last_hps"] = 119.313647244125,
-["colocacao"] = 1,
-["spec"] = 258,
 ["specIcon"] = 136207,
 ["targets"] = {
 },
-["boss_fight_component"] = true,
-["serial"] = "Player-1305-0CD5A169",
+["heal_enemy_amt"] = 0,
 ["totalover_without_pet"] = 0.0051,
-["grupo"] = true,
 ["healing_taken"] = 0.0051,
-["healing_from"] = {
-},
-["classe"] = "PRIEST",
-["end_time"] = 1769961200,
-["targets_overheal"] = {
-},
 ["start_time"] = 1769961200,
+["end_time"] = 1769961200,
+["aID"] = "1305-0CD5A169",
 ["nome"] = "Angleshuffle",
+["boss_fight_component"] = true,
 ["spells"] = {
-["tipo"] = 3,
 ["_ActorTable"] = {
 [143924] = {
 ["c_amt"] = 0,
@@ -403,30 +398,36 @@ _detalhes_database = {
 ["absorbed"] = 0,
 },
 },
+["tipo"] = 3,
 },
-["custom"] = 0,
+["grupo"] = true,
+["healing_from"] = {
+},
 ["last_event"] = 0,
+["custom"] = 0,
+["tipo"] = 2,
 ["totaldenied"] = 0.0051,
 ["delay"] = 0,
-["tipo"] = 2,
+["targets_absorbs"] = {
+},
 },
 },
 },
 {
-["combatId"] = 1,
 ["tipo"] = 7,
+["combatId"] = 1,
 ["_ActorTable"] = {
 },
 },
 {
-["combatId"] = 1,
 ["tipo"] = 9,
+["combatId"] = 1,
 ["_ActorTable"] = {
 },
 },
 {
-["combatId"] = 1,
 ["tipo"] = 2,
+["combatId"] = 1,
 ["_ActorTable"] = {
 },
 },
@@ -444,8 +445,7 @@ _detalhes_database = {
 ["cleu_events"] = {
 ["n"] = 1,
 },
-["playerTalents"] = {
-},
+["playing_solo"] = true,
 ["totals"] = {
 219362,
 1196,
@@ -459,10 +459,10 @@ _detalhes_database = {
 {
 ["buff_uptime"] = 0,
 ["ress"] = 0,
-["debuff_uptime"] = 0,
 ["cooldowns_defensive"] = 0,
-["interrupt"] = 0,
 ["dispell"] = 0,
+["interrupt"] = 0,
+["debuff_uptime"] = 0,
 ["cc_break"] = 0,
 ["dead"] = 0,
 },
@@ -487,7 +487,7 @@ _detalhes_database = {
 },
 ["EncounterName"] = "Jandice Barov",
 ["TotalElapsedCombatTime"] = 3754314.754,
-["playing_solo"] = true,
+["overall_added"] = true,
 ["CombatEndedAt"] = 3754314.754,
 ["aura_timeline"] = {
 },
@@ -498,20 +498,39 @@ _detalhes_database = {
 ["mapId"] = 1007,
 ["combat_id"] = 1,
 ["timeStart"] = 1769961200,
-["overall_added"] = true,
+["PhaseData"] = {
+{
+1,
+1,
+},
+["damage_section"] = {
+},
+["heal_section"] = {
+},
+["heal"] = {
+{
+["Angleshuffle"] = 1196,
+},
+},
+["damage"] = {
+{
+["Angleshuffle"] = 219362,
+},
+},
+},
 ["boss_hp"] = 1,
 ["is_challenge"] = false,
-["frags"] = {
+["spells_cast_timeline"] = {
 },
 ["is_boss"] = {
 ["diff_string"] = "Normal",
 ["index"] = 1,
 ["zone"] = "Scholomance",
-["encounter"] = "Instructor Chillheart",
+["id"] = 1426,
 ["mapid"] = 1007,
 ["name"] = "Instructor Chillheart",
 ["ej_instance_id"] = 0,
-["id"] = 1426,
+["encounter"] = "Instructor Chillheart",
 ["unixtime"] = 1769961200,
 ["diff"] = 1,
 },
@@ -529,49 +548,31 @@ _detalhes_database = {
 {
 ["buff_uptime"] = 0,
 ["ress"] = 0,
-["debuff_uptime"] = 0,
 ["cooldowns_defensive"] = 0,
-["interrupt"] = 0,
 ["dispell"] = 0,
+["interrupt"] = 0,
+["debuff_uptime"] = 0,
 ["cc_break"] = 0,
 ["dead"] = 0,
 },
 },
-["PhaseData"] = {
-{
-1,
-1,
-},
-["heal_section"] = {
-},
-["heal"] = {
-{
-["Angleshuffle"] = 1196,
-},
-},
-["damage_section"] = {
-},
-["damage"] = {
-{
-["Angleshuffle"] = 219362,
-},
-},
+["frags"] = {
 },
 ["start_time"] = 3754304.73,
 ["TimeData"] = {
 },
-["spells_cast_timeline"] = {
+["playerTalents"] = {
 },
 },
 },
 },
 ["ocd_tracker"] = {
-["show_title"] = true,
+["enabled"] = false,
 ["current_cooldowns"] = {
 },
 ["lines_per_column"] = 12,
 ["group_frames"] = true,
-["show_options"] = false,
+["width"] = 120,
 ["frames"] = {
 ["defensive-raid"] = {
 },
@@ -586,12 +587,11 @@ _detalhes_database = {
 ["defensive-personal"] = {
 },
 },
-["width"] = 120,
+["show_options"] = false,
 ["ignored_cooldowns"] = {
 },
+["height"] = 18,
 ["framme_locked"] = false,
-["cooldowns"] = {
-},
 ["own_frame"] = {
 ["defensive-raid"] = false,
 ["ofensive"] = false,
@@ -599,12 +599,13 @@ _detalhes_database = {
 ["utility"] = false,
 ["defensive-personal"] = false,
 },
-["height"] = 18,
+["cooldowns"] = {
+},
 ["show_conditions"] = {
 ["only_inside_instance"] = true,
 ["only_in_group"] = true,
 },
-["enabled"] = false,
+["show_title"] = true,
 ["filters"] = {
 ["itemutil"] = false,
 ["itempower"] = false,
@@ -619,72 +620,6 @@ _detalhes_database = {
 },
 ["combat_counter"] = 10,
 ["damage_meter_sessions"] = {
-{
-["endUnixTime"] = 1769961190,
-["endTime"] = 3754304.73,
-["added"] = false,
-["endDate"] = "16:53:10",
-["startUnixTime"] = 1769961183,
-["startDate"] = "16:53:03",
-["startTime"] = 3754298.07,
-["sessionId"] = 1,
-["detailsId"] = "1",
-},
-{
-["endUnixTime"] = 1769961200,
-["endTime"] = 3754314.754,
-["added"] = true,
-["endDate"] = "16:53:20",
-["startUnixTime"] = 1769961190,
-["startDate"] = "16:53:10",
-["startTime"] = 3754304.73,
-["sessionId"] = 2,
-["detailsId"] = "(!) Instructor Chillheart2",
-},
-{
-["endUnixTime"] = 1769961222,
-["endTime"] = 3754336.907,
-["added"] = false,
-["endDate"] = "16:53:42",
-["startUnixTime"] = 1769961217,
-["startDate"] = "16:53:37",
-["startTime"] = 3754331.771,
-["sessionId"] = 3,
-["detailsId"] = "3",
-},
-{
-["endUnixTime"] = 1769961258,
-["endTime"] = 3754373.002,
-["added"] = true,
-["endDate"] = "16:54:18",
-["startUnixTime"] = 1769961222,
-["startDate"] = "16:53:42",
-["startTime"] = 3754336.907,
-["sessionId"] = 4,
-["detailsId"] = "(!) Jandice Barov4",
-},
-{
-["endUnixTime"] = 1769961281,
-["endTime"] = 3754395.838,
-["added"] = true,
-["endDate"] = "16:54:41",
-["startUnixTime"] = 1769961258,
-["startDate"] = "16:54:18",
-["startTime"] = 3754373.002,
-["sessionId"] = 5,
-["detailsId"] = "Brittle Skeleton5",
-},
-{
-["endUnixTime"] = 1769961283,
-["endTime"] = 3754397.554,
-["added"] = true,
-["endDate"] = "16:54:43",
-["startUnixTime"] = 1769961281,
-["startDate"] = "16:54:41",
-["startTime"] = 3754396.039,
-["sessionId"] = 6,
-["detailsId"] = "(!) Rattlegore6",
-},
 },
 ["force_font_outline"] = "",
 ["tabela_instancias"] = {
@@ -764,17 +699,18 @@ _detalhes_database = {
 },
 },
 },
-["last_day"] = "01",
+["data_harvested_for_charts"] = {
+},
 ["cached_talents"] = {
 },
 ["last_instance_id"] = 1007,
 ["data_harvest_for_charsts"] = {
 ["players"] = {
 {
-["playerKey"] = "total",
-["combatObjectContainer"] = 1,
 ["name"] = "Damage of Each Individual Player",
 ["playerOnly"] = true,
+["playerKey"] = "total",
+["combatObjectContainer"] = 1,
 },
 },
 ["totals"] = {
@@ -798,6 +734,7 @@ _detalhes_database = {
 ["reverse"] = false,
 },
 ["active_profile"] = "Luckyone",
+["last_day"] = "03",
 ["mythic_dungeon_currentsaved"] = {
 ["dungeon_name"] = "",
 ["started"] = false,
@@ -809,45 +746,48 @@ _detalhes_database = {
 ["dungeon_zone_id"] = 0,
 ["previous_boss_killed_at"] = 0,
 },
-["SoloTablesSaved"] = {
-["Mode"] = 1,
-},
 ["benchmark_db"] = {
 ["frame"] = {
 },
 },
-["damage_meter_session_info"] = {
+["cached_roles"] = {
 },
-["on_death_menu"] = false,
+["SoloTablesSaved"] = {
+["Mode"] = 1,
+},
 ["combat_log"] = {
 ["inverse_deathlog_overalldata"] = false,
-["merge_gemstones_1007"] = false,
 ["track_hunter_frenzy"] = false,
+["merge_gemstones_1007"] = false,
 ["merge_critical_heals"] = false,
 ["inverse_deathlog_raid"] = false,
 ["calc_evoker_damage"] = true,
 ["evoker_show_realtimedps"] = false,
 ["inverse_deathlog_mplus"] = false,
 },
-["coach"] = {
-["enabled"] = false,
-["welcome_panel_pos"] = {
-},
-["last_coach_name"] = false,
-},
+["on_death_menu"] = false,
 ["mythic_plus_log"] = {
+},
+["announce_damagerecord"] = {
+["enabled"] = true,
+["channel"] = "SELF",
 },
 ["announce_firsthit"] = {
 ["enabled"] = true,
 ["channel"] = "SELF",
 },
-["nick_tag_cache"] = {
-["nextreset"] = 1770567757,
-["last_version"] = 16,
+["character_data"] = {
+["logons"] = 3,
 },
 ["player_stats"] = {
 },
 ["ignore_nicktag"] = false,
+["last_realversion"] = 168,
+["last_version"] = "12.0.0 14358",
+["combat_id"] = 3,
+["savedStyles"] = {
+},
+["last_instance_time"] = 1769961149,
 ["plugin_database"] = {
 ["DETAILS_PLUGIN_COMPARETWO_WINDOW"] = {
 ["enabled"] = true,
@@ -855,14 +795,6 @@ _detalhes_database = {
 ["max_compares"] = 4,
 ["compare_type"] = 1,
 },
-},
-["last_instance_time"] = 1769961149,
-["last_version"] = "12.0.0 14358",
-["combat_id"] = 3,
-["savedStyles"] = {
-},
-["last_realversion"] = 168,
-["data_harvested_for_charts"] = {
 },
 ["announce_deaths"] = {
 ["enabled"] = false,
@@ -886,30 +818,29 @@ _detalhes_database = {
 ["dps_started"] = false,
 ["total"] = 427175.002261,
 ["spec"] = 258,
-["serial"] = "Player-1305-0CD5A169",
-["aID"] = "1305-0CD5A169",
-["on_hold"] = false,
+["friendlyfire"] = {
+},
 ["total_extra"] = 0,
+["serial"] = "Player-1305-0CD5A169",
 ["mrating"] = 0,
-["boss_fight_component"] = true,
 ["damage_from"] = {
 },
 ["targets"] = {
 },
-["grupo"] = true,
 ["friendlyfire_total"] = 0,
 ["raid_targets"] = {
 },
 ["end_time"] = 1769961200,
-["nome"] = "Angleshuffle",
+["on_hold"] = false,
+["aID"] = "1305-0CD5A169",
+["boss_fight_component"] = true,
 ["spells"] = {
-["tipo"] = 2,
 ["_ActorTable"] = {
 [8092] = {
 ["c_amt"] = 0,
 ["b_amt"] = 0,
 ["g_amt"] = 0,
-["n_max"] = 0,
+["b_dmg"] = 0,
 ["targets"] = {
 },
 ["n_total"] = 0,
@@ -928,14 +859,14 @@ _detalhes_database = {
 ["successful_casted"] = 0,
 ["c_total"] = 0,
 ["n_amt"] = 0,
-["b_dmg"] = 0,
+["n_max"] = 0,
 ["r_amt"] = 0,
 },
 [15407] = {
 ["c_amt"] = 0,
 ["b_amt"] = 0,
 ["g_amt"] = 0,
-["n_max"] = 0,
+["b_dmg"] = 0,
 ["targets"] = {
 },
 ["n_total"] = 0,
@@ -954,14 +885,14 @@ _detalhes_database = {
 ["successful_casted"] = 0,
 ["c_total"] = 0,
 ["n_amt"] = 0,
-["b_dmg"] = 0,
+["n_max"] = 0,
 ["r_amt"] = 0,
 },
 [589] = {
 ["c_amt"] = 0,
 ["b_amt"] = 0,
 ["g_amt"] = 0,
-["n_max"] = 0,
+["b_dmg"] = 0,
 ["targets"] = {
 },
 ["n_total"] = 0,
@@ -980,20 +911,21 @@ _detalhes_database = {
 ["successful_casted"] = 0,
 ["c_total"] = 0,
 ["n_amt"] = 0,
-["b_dmg"] = 0,
+["n_max"] = 0,
 ["r_amt"] = 0,
 },
 },
+["tipo"] = 2,
 },
-["friendlyfire"] = {
-},
-["last_dps"] = 0,
-["custom"] = 0,
+["grupo"] = true,
 ["tipo"] = 1,
+["nome"] = "Angleshuffle",
+["custom"] = 0,
+["last_event"] = 0,
 ["damage_taken"] = 0.018826,
 ["start_time"] = 1769961197,
 ["delay"] = 0,
-["last_event"] = 0,
+["last_dps"] = 0,
 },
 },
 },
@@ -1002,10 +934,12 @@ _detalhes_database = {
 ["_ActorTable"] = {
 {
 ["flag_original"] = 1298,
+["targets_overheal"] = {
+},
 ["pets"] = {
 },
 ["iniciar_hps"] = false,
-["heal_enemy_amt"] = 0,
+["classe"] = "PRIEST",
 ["totalover"] = 0.014692,
 ["total_without_pet"] = 0.014692,
 ["total"] = 1196.007188,
@@ -1013,28 +947,22 @@ _detalhes_database = {
 },
 ["heal_enemy"] = {
 },
-["aID"] = "1305-0CD5A169",
 ["on_hold"] = false,
-["spec"] = 258,
+["serial"] = "Player-1305-0CD5A169",
 ["totalabsorb"] = 0.014692,
 ["last_hps"] = 0,
-["boss_fight_component"] = true,
 ["targets"] = {
 },
-["serial"] = "Player-1305-0CD5A169",
+["spec"] = 258,
 ["totalover_without_pet"] = 0.014692,
-["grupo"] = true,
 ["healing_taken"] = 0.014692,
+["start_time"] = 1769961197,
+["end_time"] = 1769961200,
+["aID"] = "1305-0CD5A169",
 ["healing_from"] = {
 },
-["classe"] = "PRIEST",
-["end_time"] = 1769961200,
-["targets_overheal"] = {
-},
-["start_time"] = 1769961197,
 ["nome"] = "Angleshuffle",
 ["spells"] = {
-["tipo"] = 3,
 ["_ActorTable"] = {
 [143924] = {
 ["c_amt"] = 0,
@@ -1060,12 +988,16 @@ _detalhes_database = {
 ["absorbed"] = 0,
 },
 },
+["tipo"] = 3,
 },
-["custom"] = 0,
+["grupo"] = true,
+["heal_enemy_amt"] = 0,
 ["last_event"] = 0,
+["custom"] = 0,
+["tipo"] = 2,
 ["totaldenied"] = 0.014692,
 ["delay"] = 0,
-["tipo"] = 2,
+["boss_fight_component"] = true,
 },
 },
 },
@@ -1084,15 +1016,12 @@ _detalhes_database = {
 ["_ActorTable"] = {
 },
 },
-["boss_hp"] = 1,
 ["raid_roster"] = {
 },
 ["tempo_start"] = 1769961200,
 ["last_events_tables"] = {
 },
 ["alternate_power"] = {
-},
-["cleu_timeline"] = {
 },
 ["bossTimers"] = {
 },
@@ -1112,16 +1041,36 @@ _detalhes_database = {
 {
 ["buff_uptime"] = 0,
 ["ress"] = 0,
-["debuff_uptime"] = 0,
 ["cooldowns_defensive"] = 0,
-["interrupt"] = 0,
 ["dispell"] = 0,
+["interrupt"] = 0,
+["debuff_uptime"] = 0,
 ["cc_break"] = 0,
 ["dead"] = 0,
 },
 ["frags_total"] = 0,
 ["voidzone_damage"] = 0,
 },
+["player_last_events"] = {
+},
+["frags_need_refresh"] = false,
+["overall_refreshed"] = true,
+["amountCasts"] = {
+},
+["zoneName"] = "Scholomance",
+["data_fim"] = "16:54:41",
+["cleu_timeline"] = {
+},
+["trinketProcs"] = {
+},
+["aura_timeline"] = {
+},
+["compressed_charts"] = {
+},
+["data_inicio"] = "16:53:10",
+["end_time"] = 3754395.838,
+["mapId"] = 1007,
+["boss_hp"] = 1,
 ["totals_grupo"] = {
 427175,
 1196,
@@ -1135,12 +1084,33 @@ _detalhes_database = {
 {
 ["buff_uptime"] = 0,
 ["ress"] = 0,
-["debuff_uptime"] = 0,
 ["cooldowns_defensive"] = 0,
-["interrupt"] = 0,
 ["dispell"] = 0,
+["interrupt"] = 0,
+["debuff_uptime"] = 0,
 ["cc_break"] = 0,
 ["dead"] = 0,
+},
+},
+["is_challenge"] = false,
+["spells_cast_timeline"] = {
+},
+["cleu_events"] = {
+["n"] = 1,
+},
+["overall_enemy_name"] = "-- x -- x --",
+["PhaseData"] = {
+{
+1,
+1,
+},
+["damage_section"] = {
+},
+["heal_section"] = {
+},
+["heal"] = {
+},
+["damage"] = {
 },
 },
 ["segments_added"] = {
@@ -1163,62 +1133,28 @@ _detalhes_database = {
 ["clock"] = "16:53:10",
 },
 },
-["frags_need_refresh"] = false,
-["aura_timeline"] = {
-},
-["compressed_charts"] = {
-},
-["PhaseData"] = {
-{
-1,
-1,
-},
-["heal_section"] = {
-},
-["heal"] = {
-},
-["damage_section"] = {
-},
-["damage"] = {
-},
-},
-["end_time"] = 3754395.838,
-["mapId"] = 1007,
-["trinketProcs"] = {
-},
-["zoneName"] = "Scholomance",
-["player_last_events"] = {
-},
-["data_inicio"] = "16:53:10",
-["is_challenge"] = false,
-["spells_cast_timeline"] = {
-},
-["data_fim"] = "16:54:41",
-["overall_enemy_name"] = "-- x -- x --",
-["amountCasts"] = {
-},
-["cleu_events"] = {
-["n"] = 1,
-},
 ["start_time"] = 3754304.047,
 ["TimeData"] = {
 },
 ["frags"] = {
 },
 },
-["character_data"] = {
-["logons"] = 2,
+["nick_tag_cache"] = {
+["nextreset"] = 1770567757,
+["last_version"] = 16,
 },
 ["arena_data_headers"] = {
 },
-["announce_damagerecord"] = {
-["enabled"] = true,
-["channel"] = "SELF",
+["coach"] = {
+["enabled"] = false,
+["welcome_panel_pos"] = {
+},
+["last_coach_name"] = false,
 },
 ["announce_cooldowns"] = {
+["enabled"] = false,
 ["ignored_cooldowns"] = {
 },
-["enabled"] = false,
 ["custom"] = "",
 ["channel"] = "RAID",
 },
@@ -1226,7 +1162,7 @@ _detalhes_database = {
 ["last_difficulty"] = 15,
 ["last_raid"] = "",
 },
-["cached_roles"] = {
+["damage_meter_session_info"] = {
 },
 ["cached_specs"] = {
 ["Player-1305-0CD5A169"] = 258,

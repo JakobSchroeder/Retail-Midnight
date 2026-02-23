@@ -1,0 +1,5 @@
+
+ClassicQuestLogPerSettings = {
+["QuestHistory"] = {
+},
+}

@@ -9,25 +9,17 @@ RaiderIO_Config = {
 ["minimapIcon"] = {
 ["minimapPos"] = 180,
 ["showInCompartment"] = true,
-["lock"] = false,
 ["hide"] = false,
+["lock"] = false,
 },
 }
-RaiderIO_LastCharacter = "eu-Hornyshuffle-draenor"
+RaiderIO_LastCharacter = "eu-Tradushuffle-laughing-skull"
 RaiderIO_MissingCharacters = {
-["eu-Kalysthenics-draenor"] = true,
-["eu-Notminje-draenor"] = true,
-["eu-Mythralor-turalyon"] = true,
-["eu-Vyrastrasz-draenor"] = true,
-["eu-Gehaje-shadowsong"] = true,
-["eu-Farmersmølf-draenor"] = true,
-["eu-Hartwex-draenor"] = true,
-["eu-Gozakdh-hyjal"] = true,
-["eu-Pixelray-draenor"] = true,
-["eu-Clergyburger-draenor"] = true,
-["eu-Undeadlighth-draenor"] = true,
-["eu-Alfoonsoor-draenor"] = true,
-["eu-Kohmokan-draenor"] = true,
+["eu-Gothe-shattered-halls"] = true,
+["eu-Victrina-chromaggus"] = true,
+["eu-Gímley-outland"] = true,
+["eu-Blekspel-outland"] = true,
+["eu-Tradushuffle-laughing-skull"] = true,
 }
 RaiderIO_MissingServers = {
 }

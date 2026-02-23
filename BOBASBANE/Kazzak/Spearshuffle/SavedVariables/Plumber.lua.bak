@@ -1,3 +1,23 @@
 
 PlumberDB_PC = {
+["DelvesRecords"] = {
+{
+["instanceID"] = 2685,
+["tier"] = 11,
+["time"] = 1770039024,
+["overrideName"] = "Skittering Breach",
+},
+{
+["instanceID"] = 2687,
+["overrideName"] = "The Sinkhole",
+["time"] = 1770033729,
+["tier"] = 11,
+},
+{
+["instanceID"] = 2826,
+["uiMapID"] = 2420,
+["time"] = 1770033015,
+["tier"] = 11,
+},
+},
 }

@@ -1,44 +1,24 @@
 
 RaiderIO_Config = {
+["minimapIcon"] = {
+["minimapPos"] = 180,
+["showInCompartment"] = true,
+["hide"] = false,
+["lock"] = false,
+},
 ["profilePoint"] = {
 ["y"] = 0,
 ["x"] = -16,
 ["point"] = "TOPLEFT",
 },
-["minimapIcon"] = {
-["minimapPos"] = 180,
-["showInCompartment"] = true,
-["lock"] = false,
-["hide"] = false,
-},
 }
-RaiderIO_LastCharacter = "us-Grapeshuffle-stormrage"
+RaiderIO_LastCharacter = "us-Fogshuffle-stormrage"
 RaiderIO_MissingCharacters = {
-["us-Ledlocktwo-stormrage"] = true,
-["us-Arklíght-stormrage"] = true,
-["us-Bunník-stormrage"] = true,
-["us-Sërg-stormrage"] = true,
-["us-Didot-stormrage"] = true,
-["us-Kovdh-stormrage"] = true,
-["us-Vexien-stormrage"] = true,
-["us-Chrispy-stormrage"] = true,
-["us-Opeliax-stormrage"] = true,
-["us-Stabbyvoodo-illidan"] = true,
-["us-Irisla-stormrage"] = true,
-["us-Roymústáng-stormrage"] = true,
-["us-Johnniecakes-stormrage"] = true,
-["us-Cynassar-stormrage"] = true,
-["us-Faeth-stormrage"] = true,
-["us-Murdus-stormrage"] = true,
-["us-Rordin-stormrage"] = true,
-["us-Oxòssi-stormrage"] = true,
-["us-Salvatia-stormrage"] = true,
-["us-Thicken-stormrage"] = true,
-["us-Simply-stormrage"] = true,
-["us-Keeghlaf-stormrage"] = true,
-["us-Zandro-eitrigg"] = true,
-["us-Ohshìnì-stormrage"] = true,
-["us-Tissuebox-stormrage"] = true,
+["us-Dreadflesh-stormrage"] = true,
+["us-Fogshuffle-stormrage"] = true,
+["us-Arkainjell-stormrage"] = true,
+["us-Holypehblz-stormrage"] = true,
+["us-Bwooslee-stormrage"] = true,
 }
 RaiderIO_MissingServers = {
 }

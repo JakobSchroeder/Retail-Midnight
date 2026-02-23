@@ -61,7 +61,10 @@ nil,
 },
 },
 ["paste"] = {
-["minimap_button"] = true,
+["button"] = {
+["hide"] = false,
+["showInCompartment"] = true,
+},
 },
 },
 },

@@ -34,3 +34,5 @@ BigWigs_KhazAlgar: enabled
 LittleWigs: enabled
 LittleWigs_MistsOfPandaria: enabled
 ElvUI_Options: enabled
+LittleWigs_Shadowlands: enabled
+LittleWigs_Cataclysm: enabled

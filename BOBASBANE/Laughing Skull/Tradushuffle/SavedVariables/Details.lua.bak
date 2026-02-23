@@ -31,9 +31,9 @@ _detalhes_database = {
 ["show_options"] = false,
 ["ignored_cooldowns"] = {
 },
+["framme_locked"] = false,
 ["cooldowns"] = {
 },
-["height"] = 18,
 ["own_frame"] = {
 ["defensive-raid"] = false,
 ["ofensive"] = false,
@@ -41,7 +41,7 @@ _detalhes_database = {
 ["utility"] = false,
 ["defensive-personal"] = false,
 },
-["framme_locked"] = false,
+["height"] = 18,
 ["show_conditions"] = {
 ["only_inside_instance"] = true,
 ["only_in_group"] = true,
@@ -59,7 +59,7 @@ _detalhes_database = {
 ["utility"] = false,
 },
 },
-["combat_counter"] = 28,
+["combat_counter"] = 36,
 ["damage_meter_sessions"] = {
 },
 ["force_font_outline"] = "",
@@ -140,7 +140,16 @@ _detalhes_database = {
 },
 },
 },
-["mythic_plus_log"] = {
+["mythic_dungeon_currentsaved"] = {
+["dungeon_name"] = "",
+["started"] = false,
+["segment_id"] = 0,
+["ej_id"] = 0,
+["started_at"] = 0,
+["run_id"] = 0,
+["level"] = 0,
+["dungeon_zone_id"] = 0,
+["previous_boss_killed_at"] = 0,
 },
 ["announce_firsthit"] = {
 ["enabled"] = true,
@@ -177,16 +186,17 @@ _detalhes_database = {
 ["reverse"] = false,
 },
 ["active_profile"] = "Luckyone",
-["last_day"] = "01",
-["on_death_menu"] = false,
-["ignore_nicktag"] = false,
+["last_day"] = "23",
+["SoloTablesSaved"] = {
+["Mode"] = 1,
+},
+["data_harvested_for_charts"] = {
+},
 ["cached_roles"] = {
 },
-["coach"] = {
-["enabled"] = false,
-["welcome_panel_pos"] = {
+["benchmark_db"] = {
+["frame"] = {
 },
-["last_coach_name"] = false,
 },
 ["combat_log"] = {
 ["inverse_deathlog_overalldata"] = false,
@@ -198,48 +208,33 @@ _detalhes_database = {
 ["evoker_show_realtimedps"] = false,
 ["inverse_deathlog_mplus"] = false,
 },
+["ignore_nicktag"] = false,
+["mythic_plus_log"] = {
+},
+["coach"] = {
+["enabled"] = false,
+["welcome_panel_pos"] = {
+},
+["last_coach_name"] = false,
+},
 ["nick_tag_cache"] = {
-["nextreset"] = 1770474918,
+["nextreset"] = 1773138652,
 ["last_version"] = 16,
 },
-["plugin_database"] = {
-["DETAILS_PLUGIN_COMPARETWO_WINDOW"] = {
-["enabled"] = true,
-["author"] = "Terciob",
-["max_compares"] = 4,
-["compare_type"] = 1,
-},
+["damage_meter_session_info"] = {
 },
 ["cached_talents"] = {
 },
 ["character_data"] = {
-["logons"] = 13,
+["logons"] = 17,
 },
-["mythic_dungeon_currentsaved"] = {
-["dungeon_name"] = "",
-["started"] = false,
-["segment_id"] = 0,
-["ej_id"] = 0,
-["started_at"] = 0,
-["run_id"] = 0,
-["level"] = 0,
-["dungeon_zone_id"] = 0,
-["previous_boss_killed_at"] = 0,
-},
-["data_harvested_for_charts"] = {
-},
-["benchmark_db"] = {
-["frame"] = {
-},
-},
-["last_realversion"] = 168,
-["last_version"] = "12.0.0 14358",
+["last_realversion"] = 170,
+["last_version"] = "12.0.1 14631",
 ["combat_id"] = 0,
 ["savedStyles"] = {
 },
 ["last_instance_time"] = 0,
-["SoloTablesSaved"] = {
-["Mode"] = 1,
+["player_stats"] = {
 },
 ["announce_deaths"] = {
 ["enabled"] = false,
@@ -275,10 +270,31 @@ _detalhes_database = {
 },
 ["raid_roster"] = {
 },
-["tempo_start"] = 3759339.721,
+["tempo_start"] = 516275.451,
 ["last_events_tables"] = {
 },
 ["alternate_power"] = {
+},
+["totals_grupo"] = {
+0,
+0,
+{
+0,
+[0] = 0,
+["alternatepower"] = 0,
+[3] = 0,
+[6] = 0,
+},
+{
+["buff_uptime"] = 0,
+["ress"] = 0,
+["debuff_uptime"] = 0,
+["cooldowns_defensive"] = 0,
+["interrupt"] = 0,
+["dispell"] = 0,
+["cc_break"] = 0,
+["dead"] = 0,
+},
 },
 ["bossTimers"] = {
 },
@@ -311,26 +327,8 @@ _detalhes_database = {
 },
 ["player_last_events"] = {
 },
-["totals_grupo"] = {
-0,
-0,
-{
-0,
-[0] = 0,
-["alternatepower"] = 0,
-[3] = 0,
-[6] = 0,
-},
-{
-["buff_uptime"] = 0,
-["ress"] = 0,
-["debuff_uptime"] = 0,
-["cooldowns_defensive"] = 0,
-["interrupt"] = 0,
-["dispell"] = 0,
-["cc_break"] = 0,
-["dead"] = 0,
-},
+["cleu_events"] = {
+["n"] = 1,
 },
 ["frags_need_refresh"] = false,
 ["aura_timeline"] = {
@@ -341,9 +339,7 @@ _detalhes_database = {
 ["amountCasts"] = {
 },
 ["mapId"] = 2512,
-["cleu_events"] = {
-["n"] = 1,
-},
+["instance_type"] = "none",
 ["zoneName"] = "Grand Time Adventure",
 ["boss_hp"] = 1,
 ["is_challenge"] = false,
@@ -371,14 +367,19 @@ _detalhes_database = {
 ["start_time"] = 0,
 ["TimeData"] = {
 },
-["combat_counter"] = 27,
+["combat_counter"] = 35,
 },
-["player_stats"] = {
+["plugin_database"] = {
+["DETAILS_PLUGIN_COMPARETWO_WINDOW"] = {
+["enabled"] = true,
+["author"] = "Terciob",
+["max_compares"] = 4,
+["compare_type"] = 1,
+},
 },
 ["arena_data_headers"] = {
 },
-["damage_meter_session_info"] = {
-},
+["on_death_menu"] = false,
 ["announce_cooldowns"] = {
 ["enabled"] = false,
 ["ignored_cooldowns"] = {

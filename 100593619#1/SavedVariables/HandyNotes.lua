@@ -9,11 +9,11 @@ HandyNotesDB = {
 ["Banishuffle - Stormrage"] = "Banishuffle - Stormrage",
 ["Cosmoshuffle - Stormrage"] = "Cosmoshuffle - Stormrage",
 ["Fogshuffle - Stormrage"] = "Fogshuffle - Stormrage",
-["Osirishuffle - Stormrage"] = "Osirishuffle - Stormrage",
 ["Aurashuffle - Stormrage"] = "Aurashuffle - Stormrage",
+["Readyshuffle - Stormrage"] = "Readyshuffle - Stormrage",
 ["Madneshuffle - Stormrage"] = "Madneshuffle - Stormrage",
 ["Gripshuffle - Stormrage"] = "Gripshuffle - Stormrage",
-["Readyshuffle - Stormrage"] = "Readyshuffle - Stormrage",
+["Osirishuffle - Stormrage"] = "Osirishuffle - Stormrage",
 },
 ["profiles"] = {
 ["Plantshuffle - Stormrage"] = {
@@ -32,15 +32,15 @@ HandyNotesDB = {
 },
 ["Fogshuffle - Stormrage"] = {
 },
-["Osirishuffle - Stormrage"] = {
-},
 ["Aurashuffle - Stormrage"] = {
+},
+["Readyshuffle - Stormrage"] = {
 },
 ["Madneshuffle - Stormrage"] = {
 },
 ["Gripshuffle - Stormrage"] = {
 },
-["Readyshuffle - Stormrage"] = {
+["Osirishuffle - Stormrage"] = {
 },
 },
 }
@@ -54,11 +54,11 @@ HandyNotes_HandyNotesDB = {
 ["Banishuffle - Stormrage"] = "Banishuffle - Stormrage",
 ["Cosmoshuffle - Stormrage"] = "Cosmoshuffle - Stormrage",
 ["Fogshuffle - Stormrage"] = "Fogshuffle - Stormrage",
-["Osirishuffle - Stormrage"] = "Osirishuffle - Stormrage",
 ["Aurashuffle - Stormrage"] = "Aurashuffle - Stormrage",
+["Readyshuffle - Stormrage"] = "Readyshuffle - Stormrage",
 ["Madneshuffle - Stormrage"] = "Madneshuffle - Stormrage",
 ["Gripshuffle - Stormrage"] = "Gripshuffle - Stormrage",
-["Readyshuffle - Stormrage"] = "Readyshuffle - Stormrage",
+["Osirishuffle - Stormrage"] = "Osirishuffle - Stormrage",
 },
 ["profiles"] = {
 ["Plantshuffle - Stormrage"] = {
@@ -77,15 +77,15 @@ HandyNotes_HandyNotesDB = {
 },
 ["Fogshuffle - Stormrage"] = {
 },
-["Osirishuffle - Stormrage"] = {
-},
 ["Aurashuffle - Stormrage"] = {
+},
+["Readyshuffle - Stormrage"] = {
 },
 ["Madneshuffle - Stormrage"] = {
 },
 ["Gripshuffle - Stormrage"] = {
 },
-["Readyshuffle - Stormrage"] = {
+["Osirishuffle - Stormrage"] = {
 },
 },
 }

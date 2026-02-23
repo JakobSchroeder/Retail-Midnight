@@ -9,11 +9,11 @@ TomTomDB = {
 ["Banishuffle - Stormrage"] = "Default",
 ["Cosmoshuffle - Stormrage"] = "Default",
 ["Fogshuffle - Stormrage"] = "Default",
-["Osirishuffle - Stormrage"] = "Default",
 ["Aurashuffle - Stormrage"] = "Default",
+["Readyshuffle - Stormrage"] = "Default",
 ["Madneshuffle - Stormrage"] = "Default",
 ["Gripshuffle - Stormrage"] = "Default",
-["Readyshuffle - Stormrage"] = "Default",
+["Osirishuffle - Stormrage"] = "Default",
 },
 ["profiles"] = {
 ["Default"] = {
@@ -35,6 +35,11 @@ nil,
 -162.0001525878906,
 },
 },
+["paste"] = {
+["button"] = {
+["showInCompartment"] = true,
+},
+},
 },
 },
 }
@@ -49,11 +54,11 @@ TomTomWaypointsM = {
 ["Banishuffle - Stormrage"] = "Banishuffle - Stormrage",
 ["Cosmoshuffle - Stormrage"] = "Cosmoshuffle - Stormrage",
 ["Fogshuffle - Stormrage"] = "Fogshuffle - Stormrage",
-["Osirishuffle - Stormrage"] = "Osirishuffle - Stormrage",
 ["Aurashuffle - Stormrage"] = "Aurashuffle - Stormrage",
+["Readyshuffle - Stormrage"] = "Readyshuffle - Stormrage",
 ["Madneshuffle - Stormrage"] = "Madneshuffle - Stormrage",
 ["Gripshuffle - Stormrage"] = "Gripshuffle - Stormrage",
-["Readyshuffle - Stormrage"] = "Readyshuffle - Stormrage",
+["Osirishuffle - Stormrage"] = "Osirishuffle - Stormrage",
 },
 ["profiles"] = {
 ["Plantshuffle - Stormrage"] = {
@@ -72,15 +77,15 @@ TomTomWaypointsM = {
 },
 ["Fogshuffle - Stormrage"] = {
 },
-["Osirishuffle - Stormrage"] = {
-},
 ["Aurashuffle - Stormrage"] = {
+},
+["Readyshuffle - Stormrage"] = {
 },
 ["Madneshuffle - Stormrage"] = {
 },
 ["Gripshuffle - Stormrage"] = {
 },
-["Readyshuffle - Stormrage"] = {
+["Osirishuffle - Stormrage"] = {
 },
 },
 }

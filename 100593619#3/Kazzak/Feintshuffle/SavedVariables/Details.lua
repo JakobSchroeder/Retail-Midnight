@@ -59,7 +59,7 @@ _detalhes_database = {
 ["utility"] = false,
 },
 },
-["combat_counter"] = 12,
+["combat_counter"] = 24,
 ["damage_meter_sessions"] = {
 },
 ["force_font_outline"] = "",
@@ -91,7 +91,7 @@ _detalhes_database = {
 ["attribute"] = 1,
 ["pos"] = {
 ["normal"] = {
-["y"] = -632.000846862793,
+["y"] = -632.0008773803711,
 ["x"] = 931.99560546875,
 ["w"] = 230.0002899169922,
 ["h"] = 172.0007781982422,
@@ -140,9 +140,10 @@ _detalhes_database = {
 },
 },
 },
-["player_stats"] = {
-},
-["cached_talents"] = {
+["on_death_menu"] = false,
+["announce_firsthit"] = {
+["enabled"] = true,
+["channel"] = "SELF",
 },
 ["last_instance_id"] = 0,
 ["data_harvest_for_charsts"] = {
@@ -175,22 +176,21 @@ _detalhes_database = {
 ["reverse"] = false,
 },
 ["active_profile"] = "Luckyone",
-["last_day"] = "30",
-["mythic_dungeon_currentsaved"] = {
-["dungeon_name"] = "",
-["started"] = false,
-["segment_id"] = 0,
-["ej_id"] = 0,
-["started_at"] = 0,
-["run_id"] = 0,
-["level"] = 0,
-["dungeon_zone_id"] = 0,
-["previous_boss_killed_at"] = 0,
+["last_day"] = "23",
+["coach"] = {
+["enabled"] = false,
+["welcome_panel_pos"] = {
+},
+["last_coach_name"] = false,
 },
 ["ignore_nicktag"] = false,
-["damage_meter_session_info"] = {
+["announce_damagerecord"] = {
+["enabled"] = true,
+["channel"] = "SELF",
 },
-["data_harvested_for_charts"] = {
+["nick_tag_cache"] = {
+["nextreset"] = 1773130509,
+["last_version"] = 16,
 },
 ["combat_log"] = {
 ["inverse_deathlog_overalldata"] = false,
@@ -202,9 +202,7 @@ _detalhes_database = {
 ["evoker_show_realtimedps"] = false,
 ["inverse_deathlog_mplus"] = false,
 },
-["benchmark_db"] = {
-["frame"] = {
-},
+["damage_meter_session_info"] = {
 },
 ["plugin_database"] = {
 ["DETAILS_PLUGIN_COMPARETWO_WINDOW"] = {
@@ -214,29 +212,27 @@ _detalhes_database = {
 ["compare_type"] = 1,
 },
 },
-["mythic_plus_log"] = {
+["character_data"] = {
+["logons"] = 12,
 },
-["on_death_menu"] = false,
-["announce_damagerecord"] = {
-["enabled"] = true,
-["channel"] = "SELF",
+["player_stats"] = {
 },
-["announce_firsthit"] = {
-["enabled"] = true,
-["channel"] = "SELF",
+["data_harvested_for_charts"] = {
 },
-["nick_tag_cache"] = {
-["nextreset"] = 1770560107,
-["last_version"] = 16,
+["benchmark_db"] = {
+["frame"] = {
+},
+},
+["SoloTablesSaved"] = {
+["Mode"] = 1,
 },
 ["last_instance_time"] = 0,
-["last_version"] = "12.0.0 14358",
+["last_version"] = "12.0.1 14631",
 ["combat_id"] = 0,
 ["savedStyles"] = {
 },
-["last_realversion"] = 168,
-["character_data"] = {
-["logons"] = 6,
+["last_realversion"] = 170,
+["mythic_plus_log"] = {
 },
 ["announce_deaths"] = {
 ["enabled"] = false,
@@ -272,10 +268,31 @@ _detalhes_database = {
 },
 ["raid_roster"] = {
 },
-["tempo_start"] = 3579357.523,
+["tempo_start"] = 510282.011,
 ["last_events_tables"] = {
 },
 ["alternate_power"] = {
+},
+["totals_grupo"] = {
+0,
+0,
+{
+0,
+[0] = 0,
+["alternatepower"] = 0,
+[3] = 0,
+[6] = 0,
+},
+{
+["buff_uptime"] = 0,
+["ress"] = 0,
+["debuff_uptime"] = 0,
+["cooldowns_defensive"] = 0,
+["interrupt"] = 0,
+["dispell"] = 0,
+["cc_break"] = 0,
+["dead"] = 0,
+},
 },
 ["bossTimers"] = {
 },
@@ -308,26 +325,8 @@ _detalhes_database = {
 },
 ["player_last_events"] = {
 },
-["totals_grupo"] = {
-0,
-0,
-{
-0,
-[0] = 0,
-["alternatepower"] = 0,
-[3] = 0,
-[6] = 0,
-},
-{
-["buff_uptime"] = 0,
-["ress"] = 0,
-["debuff_uptime"] = 0,
-["cooldowns_defensive"] = 0,
-["interrupt"] = 0,
-["dispell"] = 0,
-["cc_break"] = 0,
-["dead"] = 0,
-},
+["cleu_events"] = {
+["n"] = 1,
 },
 ["frags_need_refresh"] = false,
 ["aura_timeline"] = {
@@ -337,11 +336,9 @@ _detalhes_database = {
 ["data_inicio"] = 0,
 ["amountCasts"] = {
 },
-["mapId"] = 2552,
-["cleu_events"] = {
-["n"] = 1,
-},
-["zoneName"] = "Khaz Algar (Surface)",
+["mapId"] = 2738,
+["instance_type"] = "none",
+["zoneName"] = "K'aresh",
 ["boss_hp"] = 1,
 ["is_challenge"] = false,
 ["frags"] = {
@@ -368,18 +365,22 @@ _detalhes_database = {
 ["start_time"] = 0,
 ["TimeData"] = {
 },
-["combat_counter"] = 11,
+["combat_counter"] = 23,
 },
-["coach"] = {
-["enabled"] = false,
-["welcome_panel_pos"] = {
-},
-["last_coach_name"] = false,
+["mythic_dungeon_currentsaved"] = {
+["dungeon_name"] = "",
+["started"] = false,
+["segment_id"] = 0,
+["ej_id"] = 0,
+["started_at"] = 0,
+["run_id"] = 0,
+["level"] = 0,
+["dungeon_zone_id"] = 0,
+["previous_boss_killed_at"] = 0,
 },
 ["arena_data_headers"] = {
 },
-["SoloTablesSaved"] = {
-["Mode"] = 1,
+["cached_talents"] = {
 },
 ["announce_cooldowns"] = {
 ["ignored_cooldowns"] = {

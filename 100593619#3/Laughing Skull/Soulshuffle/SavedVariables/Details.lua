@@ -2,7 +2,7 @@
 _detalhes_database = {
 ["savedbuffs"] = {
 },
-["mythic_dungeon_id"] = 0,
+["mythic_dungeon_id"] = 1,
 ["tabela_historico"] = {
 ["tabelas"] = {
 },
@@ -31,9 +31,9 @@ _detalhes_database = {
 ["width"] = 120,
 ["ignored_cooldowns"] = {
 },
-["framme_locked"] = false,
 ["cooldowns"] = {
 },
+["height"] = 18,
 ["own_frame"] = {
 ["defensive-raid"] = false,
 ["ofensive"] = false,
@@ -41,7 +41,7 @@ _detalhes_database = {
 ["utility"] = false,
 ["defensive-personal"] = false,
 },
-["height"] = 18,
+["framme_locked"] = false,
 ["show_conditions"] = {
 ["only_inside_instance"] = true,
 ["only_in_group"] = true,
@@ -59,7 +59,7 @@ _detalhes_database = {
 ["utility"] = false,
 },
 },
-["combat_counter"] = 9,
+["combat_counter"] = 168,
 ["damage_meter_sessions"] = {
 },
 ["force_font_outline"] = "",
@@ -91,7 +91,7 @@ _detalhes_database = {
 ["attribute"] = 1,
 ["pos"] = {
 ["normal"] = {
-["y"] = -632.000846862793,
+["y"] = -632.0008773803711,
 ["x"] = 931.99560546875,
 ["w"] = 230.0002899169922,
 ["h"] = 172.0007781982422,
@@ -123,7 +123,7 @@ _detalhes_database = {
 },
 ["segment"] = 0,
 ["mode"] = 2,
-["attribute"] = 1,
+["attribute"] = 2,
 ["pos"] = {
 ["normal"] = {
 ["y"] = -632.000846862793,
@@ -140,13 +140,14 @@ _detalhes_database = {
 },
 },
 },
+["cached_roles"] = {
+},
+["on_death_menu"] = false,
 ["nick_tag_cache"] = {
-["nextreset"] = 1770502983,
 ["last_version"] = 16,
+["nextreset"] = 1773130289,
 },
-["cached_talents"] = {
-},
-["last_instance_id"] = 0,
+["last_instance_id"] = 2810,
 ["data_harvest_for_charsts"] = {
 ["players"] = {
 {
@@ -177,14 +178,30 @@ _detalhes_database = {
 ["reverse"] = false,
 },
 ["active_profile"] = "Luckyone",
-["last_day"] = "30",
-["character_data"] = {
-["logons"] = 8,
+["last_realversion"] = 170,
+["announce_damagerecord"] = {
+["enabled"] = true,
+["channel"] = "SELF",
+},
+["data_harvested_for_charts"] = {
 },
 ["ignore_nicktag"] = false,
-["damage_meter_session_info"] = {
+["mythic_dungeon_currentsaved"] = {
+["players"] = {
+"Player-1615-0BA5B044",
+"Player-1615-0AB8DF15",
+"Player-1615-0BA665E2",
+"Player-1305-0CFD05FF",
 },
-["player_stats"] = {
+["dungeon_name"] = "Halls of Atonement",
+["started"] = false,
+["segment_id"] = 1,
+["ej_id"] = 0,
+["started_at"] = 1770507791.7,
+["run_id"] = 1,
+["level"] = 12,
+["dungeon_zone_id"] = 2287,
+["previous_boss_killed_at"] = 1770507782,
 },
 ["combat_log"] = {
 ["inverse_deathlog_overalldata"] = false,
@@ -196,17 +213,7 @@ _detalhes_database = {
 ["evoker_show_realtimedps"] = false,
 ["inverse_deathlog_mplus"] = false,
 },
-["mythic_dungeon_currentsaved"] = {
-["dungeon_name"] = "",
-["started"] = false,
-["segment_id"] = 0,
-["ej_id"] = 0,
-["started_at"] = 0,
-["run_id"] = 0,
-["level"] = 0,
-["dungeon_zone_id"] = 0,
-["previous_boss_killed_at"] = 0,
-},
+["last_encounter"] = "Dimensius, the All-Devouring",
 ["plugin_database"] = {
 ["DETAILS_PLUGIN_COMPARETWO_WINDOW"] = {
 ["enabled"] = true,
@@ -215,33 +222,45 @@ _detalhes_database = {
 ["compare_type"] = 1,
 },
 },
-["benchmark_db"] = {
-["frame"] = {
+["mythic_plus_log"] = {
+"08/02/26 01:05:21|Activity Time: 1486.886",
+"08/02/26 01:05:21|GetChallengeCompletionInfo() Found, Time: 1339",
+"08/02/26 01:05:21|MergeSegmentsOnEnd started | creating the overall segment at the end of the run.",
+"08/02/26 01:05:21|MythicDungeonFinished() | merge_boss_trash = true",
+"08/02/26 01:05:19|COMBAT_PLAYER_LEAVE | wiped on boss | key level: | 12 | Lord Chamberlain Halls of Atonement",
+"08/02/26 01:05:19|===== Mythic+ Finished =====",
+"08/02/26 01:01:27|COMBAT_PLAYER_LEAVE | wiped on boss | key level: | 12 | High Adjudicator Aleez Halls of Atonement",
+"08/02/26 00:57:18|COMBAT_PLAYER_LEAVE | wiped on boss | key level: | 12 | Echelon Halls of Atonement",
+"08/02/26 00:52:16|COMBAT_PLAYER_LEAVE | wiped on boss | key level: | 12 | Halkias, the Sin-Stained Goliath Halls of Atonement",
+"08/02/26 00:43:02|OnChallengeModeStart()",
+"08/02/26 00:43:01|COMBAT_MYTHICDUNGEON_START | settings: make_overall_boss_only = false | merge_boss_trash = true | delay_to_show_graphic = 1 | mythicrun_time_type = 1 | reverse_death_log = false | autoclose_time = 90 | show_damage_graphic = true | boss_dedicated_segment = true |  | level: 12 | zone: Halls of Atonement | zoneId: 2287",
+"08/02/26 00:43:01|CHALLENGE_MODE_START timer ended, starting the dungeon.",
+"08/02/26 00:42:51|Event: CHALLENGE_MODE_START, starting 10 seconds timer | Level: 12",
 },
-},
-["SoloTablesSaved"] = {
-["Mode"] = 1,
-},
-["on_death_menu"] = false,
 ["coach"] = {
 ["enabled"] = false,
 ["welcome_panel_pos"] = {
 },
 ["last_coach_name"] = false,
 },
-["announce_damagerecord"] = {
-["enabled"] = true,
-["channel"] = "SELF",
+["SoloTablesSaved"] = {
+["Mode"] = 1,
 },
-["last_instance_time"] = 0,
-["last_version"] = "12.0.0 14358",
-["combat_id"] = 1,
+["character_data"] = {
+["logons"] = 34,
+},
+["cached_talents"] = {
+},
+["last_instance_time"] = 1771684462,
+["last_version"] = "12.0.1 14631",
+["combat_id"] = 132,
 ["savedStyles"] = {
 },
-["last_realversion"] = 168,
 ["announce_firsthit"] = {
 ["enabled"] = true,
 ["channel"] = "SELF",
+},
+["player_stats"] = {
 },
 ["announce_deaths"] = {
 ["enabled"] = false,
@@ -277,10 +296,31 @@ _detalhes_database = {
 },
 ["raid_roster"] = {
 },
-["tempo_start"] = 3562131.402,
+["tempo_start"] = 507879.374,
 ["last_events_tables"] = {
 },
 ["alternate_power"] = {
+},
+["totals_grupo"] = {
+0,
+0,
+{
+0,
+[0] = 0,
+["alternatepower"] = 0,
+[3] = 0,
+[6] = 0,
+},
+{
+["buff_uptime"] = 0,
+["ress"] = 0,
+["debuff_uptime"] = 0,
+["cooldowns_defensive"] = 0,
+["interrupt"] = 0,
+["dispell"] = 0,
+["cc_break"] = 0,
+["dead"] = 0,
+},
 },
 ["bossTimers"] = {
 },
@@ -313,26 +353,8 @@ _detalhes_database = {
 },
 ["player_last_events"] = {
 },
-["totals_grupo"] = {
-0,
-0,
-{
-0,
-[0] = 0,
-["alternatepower"] = 0,
-[3] = 0,
-[6] = 0,
-},
-{
-["buff_uptime"] = 0,
-["ress"] = 0,
-["debuff_uptime"] = 0,
-["cooldowns_defensive"] = 0,
-["interrupt"] = 0,
-["dispell"] = 0,
-["cc_break"] = 0,
-["dead"] = 0,
-},
+["cleu_events"] = {
+["n"] = 1,
 },
 ["frags_need_refresh"] = false,
 ["aura_timeline"] = {
@@ -342,11 +364,9 @@ _detalhes_database = {
 ["data_inicio"] = 0,
 ["amountCasts"] = {
 },
-["mapId"] = 2552,
-["cleu_events"] = {
-["n"] = 1,
-},
-["zoneName"] = "Khaz Algar (Surface)",
+["mapId"] = 2601,
+["instance_type"] = "none",
+["zoneName"] = "Khaz Algar",
 ["boss_hp"] = 1,
 ["is_challenge"] = false,
 ["frags"] = {
@@ -373,14 +393,15 @@ _detalhes_database = {
 ["start_time"] = 0,
 ["TimeData"] = {
 },
-["combat_counter"] = 8,
+["combat_counter"] = 167,
 },
-["mythic_plus_log"] = {
+["benchmark_db"] = {
+["frame"] = {
+},
 },
 ["arena_data_headers"] = {
 },
-["data_harvested_for_charts"] = {
-},
+["last_day"] = "23",
 ["announce_cooldowns"] = {
 ["ignored_cooldowns"] = {
 },
@@ -392,9 +413,9 @@ _detalhes_database = {
 ["last_difficulty"] = 15,
 ["last_raid"] = "",
 },
-["cached_roles"] = {
+["damage_meter_session_info"] = {
 },
 ["cached_specs"] = {
-["Player-1598-0F356A2A"] = 267,
+["Player-1598-0F356A2A"] = 265,
 },
 }

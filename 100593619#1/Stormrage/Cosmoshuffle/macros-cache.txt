@@ -1,0 +1,56 @@
+VER 3 0100000000000001 "Cursor Shift" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [@cursor] Shift
+END
+VER 3 0100000000000002 "cursorains" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [@cursor] Sigil of Chains
+END
+VER 3 0100000000000003 "cursorlence" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [@cursor] Sigil of Silence
+END
+VER 3 0100000000000004 "cursory" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [@cursor] Sigil of Misery
+END
+VER 3 0100000000000005 "curspite" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [@cursor] Sigil of Spite
+END
+VER 3 0100000000000006 "flamesor" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [@cursor] Sigil of Flame
+END
+VER 3 0100000000000007 "focuskick" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [@focus,harm,nodead][] Disrupt
+END
+VER 3 0100000000000008 "mouseinfernal" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [@cursor] Infernal Strike
+END
+VER 3 0100000000000009 "mouseMeta" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [@cursor] Metamorphosis
+END
+VER 3 010000000000000A "playermeta" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [@player] Metamorphosis
+END
+VER 3 010000000000000B "playerstrike" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [@player] Infernal Strike
+END
+VER 3 010000000000000C "Reaper" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [known:Reaper's Toll] Reaper's Toll; [known:Hungering Slash] Hungering Slash
+END
+VER 3 010000000000000E "selfshift" "134400"
+#showtooltip
+/cast [@player] Shift
+END
+VER 3 010000000000000D "Voidblade" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [noknown:Reaper's Toll/Hungering Slash] Voidblade
+END

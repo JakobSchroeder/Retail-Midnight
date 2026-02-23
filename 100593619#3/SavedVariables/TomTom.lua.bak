@@ -52,7 +52,10 @@ nil,
 },
 },
 ["paste"] = {
-["minimap_button"] = true,
+["button"] = {
+["showInCompartment"] = true,
+["hide"] = false,
+},
 },
 ["block"] = {
 ["position"] = {

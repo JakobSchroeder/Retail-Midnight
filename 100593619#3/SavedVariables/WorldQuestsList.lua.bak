@@ -1,6 +1,16 @@
 
 VWQL = {
-["Feintshuffle-Kazzak"] = {
+["Bankpshuffle-LaughingSkull"] = {
+["VERSION"] = 119,
+["FilterType"] = {
+},
+["Quests"] = {
+},
+["Filter"] = 63,
+},
+["SortPrio2"] = {
+},
+["Bankshuffle-LaughingSkull"] = {
 ["Filter"] = 63,
 ["FilterType"] = {
 },
@@ -8,24 +18,44 @@ VWQL = {
 },
 ["VERSION"] = 119,
 },
-["Scale"] = 0.8,
-["DisableIconsGeneralMap947"] = true,
-["DisableLFG_Popup"] = true,
-["Moleshuffle-Kazzak"] = {
+["Angelshuffle-Kazzak"] = {
 ["Filter"] = 63,
 ["FilterType"] = {
 },
 ["Quests"] = {
 },
 ["VERSION"] = 119,
+},
+["Gunshuffle-Kazzak"] = {
+["VERSION"] = 119,
+["FilterType"] = {
+},
+["Quests"] = {
+},
+["Filter"] = 63,
 },
 ["Sort"] = 5,
+["Floorshuffle-Ravencrest"] = {
+["Filter"] = 63,
+["FilterType"] = {
+},
+["Quests"] = {
+},
 ["VERSION"] = 119,
+},
 ["Soulshuffle-LaughingSkull"] = {
 ["Filter"] = 63,
 ["FilterType"] = {
 },
 ["Quests"] = {
+[81825] = true,
+[75257] = true,
+[82387] = true,
+[82524] = true,
+[82297] = true,
+[79116] = true,
+[76586] = true,
+[83718] = true,
 },
 ["VERSION"] = 119,
 },
@@ -37,23 +67,113 @@ VWQL = {
 },
 ["Filter"] = 63,
 },
+["Smashuffle-LaughingSkull"] = {
+["Filter"] = 63,
+["FilterType"] = {
+},
+["Quests"] = {
+},
+["VERSION"] = 119,
+},
 ["AzeriteFormat"] = 20,
+["Blindshuffle-Ravencrest"] = {
+["VERSION"] = 119,
+["FilterType"] = {
+},
+["Quests"] = {
+},
+["Filter"] = 63,
+},
 ["SortPrio"] = {
 },
-["Ignore"] = {
+["Chaosshuffle-Draenor"] = {
+["VERSION"] = 119,
+["FilterType"] = {
+},
+["Quests"] = {
+},
+["Filter"] = 63,
+},
+["Stalkshuffle-LaughingSkull"] = {
+["Filter"] = 63,
+["FilterType"] = {
+},
+["Quests"] = {
+},
+["VERSION"] = 119,
+},
+["Ghostshuffle-LaughingSkull"] = {
+["Filter"] = 63,
+["FilterType"] = {
+},
+["Quests"] = {
+[76586] = true,
+[82523] = true,
+[83930] = true,
+},
+["VERSION"] = 119,
 },
 ["Voidshuffle-LaughingSkull"] = {
 ["VERSION"] = 119,
 ["FilterType"] = {
 },
 ["Quests"] = {
+[82585] = true,
+[81812] = true,
+[81630] = true,
+[82041] = true,
 [66419] = true,
+[82448] = true,
+[83537] = true,
+[82258] = true,
+[83048] = true,
+[84429] = true,
+[82294] = true,
+[82658] = true,
+[81823] = true,
+[76586] = true,
+[82292] = true,
 [75257] = true,
-[77424] = true,
-[73149] = true,
-[73079] = true,
+[82234] = true,
+[82257] = true,
+[82300] = true,
+[81806] = true,
+[83079] = true,
+[81854] = true,
 },
 ["Filter"] = 63,
+},
+["Faceshuffle-Draenor"] = {
+["Filter"] = 63,
+["FilterType"] = {
+},
+["Quests"] = {
+},
+["VERSION"] = 119,
+},
+["Feintshuffle-Kazzak"] = {
+["Filter"] = 63,
+["FilterType"] = {
+},
+["Quests"] = {
+},
+["VERSION"] = 119,
+},
+["Forceshuffle-Draenor"] = {
+["VERSION"] = 119,
+["FilterType"] = {
+},
+["Quests"] = {
+},
+["Filter"] = 63,
+},
+["Moonshuffle-Draenor"] = {
+["Filter"] = 63,
+["FilterType"] = {
+},
+["Quests"] = {
+},
+["VERSION"] = 119,
 },
 ["Wingshuffle-Kazzak"] = {
 ["VERSION"] = 119,
@@ -63,41 +183,8 @@ VWQL = {
 },
 ["Filter"] = 63,
 },
-["Ghostshuffle-LaughingSkull"] = {
-["Filter"] = 63,
-["FilterType"] = {
-},
-["Quests"] = {
-[82519] = true,
-[82653] = true,
-[84429] = true,
-[82291] = true,
-[81799] = true,
-[76586] = true,
-[83079] = true,
-[86938] = true,
-[82658] = true,
-[82225] = true,
-[81808] = true,
-[91778] = true,
-[82206] = true,
-[83537] = true,
-[86951] = true,
-[82234] = true,
-[82120] = true,
-[81620] = true,
-[81621] = true,
-[86959] = true,
-[82582] = true,
-[82294] = true,
-[82298] = true,
-[81815] = true,
-},
-["VERSION"] = 119,
-},
-["SortPrio2"] = {
-},
-["Angelshuffle-Kazzak"] = {
+["DisableLFG_Popup"] = true,
+["Moleshuffle-Kazzak"] = {
 ["Filter"] = 63,
 ["FilterType"] = {
 },
@@ -105,7 +192,7 @@ VWQL = {
 },
 ["VERSION"] = 119,
 },
-["Pairshuffle-Kazzak"] = {
+["Necroshuffle-Kazzak"] = {
 ["VERSION"] = 119,
 ["FilterType"] = {
 },
@@ -114,6 +201,147 @@ VWQL = {
 ["Filter"] = 63,
 },
 ["Spellshuffel-Ravencrest"] = {
+["Filter"] = 63,
+["FilterType"] = {
+},
+["Quests"] = {
+},
+["VERSION"] = 119,
+},
+["Bankshuffle-Draenor"] = {
+["VERSION"] = 119,
+["FilterType"] = {
+},
+["Quests"] = {
+},
+["Filter"] = 63,
+},
+["Yumpshuffle-Kazzak"] = {
+["Filter"] = 63,
+["FilterType"] = {
+},
+["Quests"] = {
+},
+["VERSION"] = 119,
+},
+["Preshuffle-Kazzak"] = {
+["Filter"] = 63,
+["FilterType"] = {
+},
+["Quests"] = {
+},
+["VERSION"] = 119,
+},
+["Cloakshuffle-Draenor"] = {
+["VERSION"] = 119,
+["FilterType"] = {
+},
+["Quests"] = {
+},
+["Filter"] = 63,
+},
+["Subshuffle-Ravencrest"] = {
+["Filter"] = 63,
+["FilterType"] = {
+},
+["Quests"] = {
+},
+["VERSION"] = 119,
+},
+["Ratshuffle-Kazzak"] = {
+["Filter"] = 63,
+["FilterType"] = {
+},
+["Quests"] = {
+},
+["VERSION"] = 119,
+},
+["Quakeshuffle-Draenor"] = {
+["Filter"] = 63,
+["FilterType"] = {
+},
+["Quests"] = {
+},
+["VERSION"] = 119,
+},
+["DisableIconsGeneralMap947"] = true,
+["Monkashuffle-Kazzak"] = {
+["VERSION"] = 119,
+["FilterType"] = {
+},
+["Quests"] = {
+},
+["Filter"] = 63,
+},
+["Bobshuffle-LaughingSkull"] = {
+["VERSION"] = 119,
+["FilterType"] = {
+},
+["Quests"] = {
+},
+["Filter"] = 63,
+},
+["Tectoshuffle-Kazzak"] = {
+["VERSION"] = 119,
+["FilterType"] = {
+},
+["Quests"] = {
+},
+["Filter"] = 63,
+},
+["Kickshuffle-Kazzak"] = {
+["VERSION"] = 119,
+["FilterType"] = {
+},
+["Quests"] = {
+},
+["Filter"] = 63,
+},
+["Soapshuffle-Kazzak"] = {
+["Filter"] = 63,
+["FilterType"] = {
+},
+["Quests"] = {
+},
+["VERSION"] = 119,
+},
+["Ignore"] = {
+},
+["Postshuffle-LaughingSkull"] = {
+["VERSION"] = 119,
+["FilterType"] = {
+},
+["Quests"] = {
+},
+["Filter"] = 63,
+},
+["Scale"] = 0.8,
+["Pairshuffle-Kazzak"] = {
+["VERSION"] = 119,
+["FilterType"] = {
+},
+["Quests"] = {
+},
+["Filter"] = 63,
+},
+["VERSION"] = 119,
+["Roboshuffle-Ravencrest"] = {
+["Filter"] = 63,
+["FilterType"] = {
+},
+["Quests"] = {
+},
+["VERSION"] = 119,
+},
+["Trickshuffle-Kazzak"] = {
+["Filter"] = 63,
+["FilterType"] = {
+},
+["Quests"] = {
+},
+["VERSION"] = 119,
+},
+["Bankrshuffle-LaughingSkull"] = {
 ["Filter"] = 63,
 ["FilterType"] = {
 },

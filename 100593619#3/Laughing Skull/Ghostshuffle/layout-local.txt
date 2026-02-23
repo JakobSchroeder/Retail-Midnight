@@ -9,8 +9,8 @@ H: 250
 Frame: GroupLootHistoryFrame
 FrameLevel: 1
 Anchor: TOP
-X: -522
-Y: -81
+X: -502
+Y: -84
 W: 261
 H: 590
 Frame: ItemRefTooltip
@@ -23,7 +23,14 @@ H: 64
 Frame: BetterFriendsFrame
 FrameLevel: 1
 Anchor: LEFT
-X: 236
-Y: 194
+X: 111
+Y: 211
 W: 415
 H: 570
+Frame: BetterBagsBagBank
+FrameLevel: 1
+Anchor: LEFT
+X: 430
+Y: 135
+W: 602
+H: 470

@@ -31,8 +31,9 @@ _detalhes_database = {
 ["show_options"] = false,
 ["ignored_cooldowns"] = {
 },
+["cooldowns"] = {
+},
 ["height"] = 18,
-["framme_locked"] = false,
 ["own_frame"] = {
 ["defensive-raid"] = false,
 ["ofensive"] = false,
@@ -40,8 +41,7 @@ _detalhes_database = {
 ["utility"] = false,
 ["defensive-personal"] = false,
 },
-["cooldowns"] = {
-},
+["framme_locked"] = false,
 ["show_conditions"] = {
 ["only_inside_instance"] = true,
 ["only_in_group"] = true,
@@ -59,7 +59,7 @@ _detalhes_database = {
 ["utility"] = false,
 },
 },
-["combat_counter"] = 6,
+["combat_counter"] = 14,
 ["damage_meter_sessions"] = {
 },
 ["force_font_outline"] = "",
@@ -91,7 +91,7 @@ _detalhes_database = {
 ["attribute"] = 1,
 ["pos"] = {
 ["normal"] = {
-["y"] = -632.000846862793,
+["y"] = -632.0008773803711,
 ["x"] = 931.99560546875,
 ["w"] = 230.0002899169922,
 ["h"] = 172.0007781982422,
@@ -140,7 +140,8 @@ _detalhes_database = {
 },
 },
 },
-["data_harvested_for_charts"] = {
+["character_data"] = {
+["logons"] = 7,
 },
 ["cached_talents"] = {
 },
@@ -175,7 +176,12 @@ _detalhes_database = {
 ["reverse"] = false,
 },
 ["active_profile"] = "Luckyone",
-["last_day"] = "24",
+["last_day"] = "23",
+["player_stats"] = {
+},
+["ignore_nicktag"] = false,
+["cached_roles"] = {
+},
 ["mythic_dungeon_currentsaved"] = {
 ["dungeon_name"] = "",
 ["started"] = false,
@@ -187,15 +193,6 @@ _detalhes_database = {
 ["dungeon_zone_id"] = 0,
 ["previous_boss_killed_at"] = 0,
 },
-["benchmark_db"] = {
-["frame"] = {
-},
-},
-["cached_roles"] = {
-},
-["SoloTablesSaved"] = {
-["Mode"] = 1,
-},
 ["combat_log"] = {
 ["inverse_deathlog_overalldata"] = false,
 ["track_hunter_frenzy"] = false,
@@ -206,8 +203,26 @@ _detalhes_database = {
 ["evoker_show_realtimedps"] = false,
 ["inverse_deathlog_mplus"] = false,
 },
-["on_death_menu"] = false,
+["data_harvested_for_charts"] = {
+},
+["plugin_database"] = {
+["DETAILS_PLUGIN_COMPARETWO_WINDOW"] = {
+["enabled"] = true,
+["author"] = "Terciob",
+["max_compares"] = 4,
+["compare_type"] = 1,
+},
+},
+["SoloTablesSaved"] = {
+["Mode"] = 1,
+},
 ["mythic_plus_log"] = {
+},
+["coach"] = {
+["enabled"] = false,
+["welcome_panel_pos"] = {
+},
+["last_coach_name"] = false,
 },
 ["announce_damagerecord"] = {
 ["enabled"] = true,
@@ -217,19 +232,15 @@ _detalhes_database = {
 ["enabled"] = true,
 ["channel"] = "SELF",
 },
-["character_data"] = {
-["logons"] = 3,
-},
-["player_stats"] = {
-},
-["ignore_nicktag"] = false,
-["last_realversion"] = 166,
-["last_version"] = "12.0.0 14324",
+["last_realversion"] = 170,
+["last_version"] = "12.0.1 14631",
 ["combat_id"] = 0,
 ["savedStyles"] = {
 },
 ["last_instance_time"] = 0,
-["plugin_database"] = {
+["nick_tag_cache"] = {
+["nextreset"] = 1773133727,
+["last_version"] = 16,
 },
 ["announce_deaths"] = {
 ["enabled"] = false,
@@ -265,10 +276,31 @@ _detalhes_database = {
 },
 ["raid_roster"] = {
 },
-["tempo_start"] = 3059999.9,
+["tempo_start"] = 511572.459,
 ["last_events_tables"] = {
 },
 ["alternate_power"] = {
+},
+["totals_grupo"] = {
+0,
+0,
+{
+0,
+[0] = 0,
+["alternatepower"] = 0,
+[3] = 0,
+[6] = 0,
+},
+{
+["buff_uptime"] = 0,
+["ress"] = 0,
+["debuff_uptime"] = 0,
+["cooldowns_defensive"] = 0,
+["interrupt"] = 0,
+["dispell"] = 0,
+["cc_break"] = 0,
+["dead"] = 0,
+},
 },
 ["bossTimers"] = {
 },
@@ -301,26 +333,8 @@ _detalhes_database = {
 },
 ["player_last_events"] = {
 },
-["totals_grupo"] = {
-0,
-0,
-{
-0,
-[0] = 0,
-["alternatepower"] = 0,
-[3] = 0,
-[6] = 0,
-},
-{
-["buff_uptime"] = 0,
-["ress"] = 0,
-["debuff_uptime"] = 0,
-["cooldowns_defensive"] = 0,
-["interrupt"] = 0,
-["dispell"] = 0,
-["cc_break"] = 0,
-["dead"] = 0,
-},
+["cleu_events"] = {
+["n"] = 1,
 },
 ["frags_need_refresh"] = false,
 ["aura_timeline"] = {
@@ -330,11 +344,9 @@ _detalhes_database = {
 ["data_inicio"] = 0,
 ["amountCasts"] = {
 },
-["mapId"] = 2736,
-["cleu_events"] = {
-["n"] = 1,
-},
-["zoneName"] = "Razorwind Shores",
+["mapId"] = 2738,
+["instance_type"] = "none",
+["zoneName"] = "K'aresh",
 ["boss_hp"] = 1,
 ["is_challenge"] = false,
 ["frags"] = {
@@ -361,19 +373,14 @@ _detalhes_database = {
 ["start_time"] = 0,
 ["TimeData"] = {
 },
-["combat_counter"] = 5,
+["combat_counter"] = 13,
 },
-["nick_tag_cache"] = {
-["nextreset"] = 1770561326,
-["last_version"] = 16,
-},
+["on_death_menu"] = false,
 ["arena_data_headers"] = {
 },
-["coach"] = {
-["enabled"] = false,
-["welcome_panel_pos"] = {
+["benchmark_db"] = {
+["frame"] = {
 },
-["last_coach_name"] = false,
 },
 ["announce_cooldowns"] = {
 ["enabled"] = false,

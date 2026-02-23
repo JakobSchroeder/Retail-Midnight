@@ -13,6 +13,13 @@ X: 418
 Y: -103
 W: 261
 H: 590
+Frame: BetterFriendsFrame
+FrameLevel: 1
+Anchor: LEFT
+X: 0
+Y: 183
+W: 415
+H: 570
 Frame: ClassicQuestLog
 FrameLevel: 1
 Anchor: CENTER
@@ -27,10 +34,3 @@ X: 31
 Y: 0
 W: 546
 H: 1391
-Frame: BetterFriendsFrame
-FrameLevel: 1
-Anchor: LEFT
-X: 96
-Y: 185
-W: 415
-H: 570

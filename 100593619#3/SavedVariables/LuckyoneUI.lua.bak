@@ -49,8 +49,8 @@ LuckyoneDB = {
 ["profiles"] = {
 ["Default"] = {
 ["misc"] = {
-["mythicVisibility"] = true,
 ["dataTextsTweaks"] = true,
+["mythicVisibility"] = true,
 },
 ["disabledFrames"] = {
 ["HousingDecorAlerts"] = true,

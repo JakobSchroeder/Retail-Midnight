@@ -8,12 +8,12 @@ _detalhes_database = {
 },
 },
 ["ocd_tracker"] = {
-["enabled"] = false,
+["show_title"] = true,
 ["current_cooldowns"] = {
 },
 ["lines_per_column"] = 12,
 ["group_frames"] = true,
-["width"] = 120,
+["show_options"] = false,
 ["frames"] = {
 ["defensive-raid"] = {
 },
@@ -28,11 +28,12 @@ _detalhes_database = {
 ["defensive-personal"] = {
 },
 },
-["show_options"] = false,
+["width"] = 120,
 ["ignored_cooldowns"] = {
 },
+["cooldowns"] = {
+},
 ["height"] = 18,
-["framme_locked"] = false,
 ["own_frame"] = {
 ["defensive-raid"] = false,
 ["ofensive"] = false,
@@ -40,13 +41,12 @@ _detalhes_database = {
 ["utility"] = false,
 ["defensive-personal"] = false,
 },
-["cooldowns"] = {
-},
+["framme_locked"] = false,
 ["show_conditions"] = {
 ["only_inside_instance"] = true,
 ["only_in_group"] = true,
 },
-["show_title"] = true,
+["enabled"] = false,
 ["filters"] = {
 ["itemutil"] = false,
 ["itempower"] = false,
@@ -59,7 +59,7 @@ _detalhes_database = {
 ["utility"] = false,
 },
 },
-["combat_counter"] = 6,
+["combat_counter"] = 8,
 ["damage_meter_sessions"] = {
 },
 ["force_font_outline"] = "",
@@ -140,7 +140,13 @@ _detalhes_database = {
 },
 },
 },
-["data_harvested_for_charts"] = {
+["plugin_database"] = {
+["DETAILS_PLUGIN_COMPARETWO_WINDOW"] = {
+["enabled"] = true,
+["author"] = "Terciob",
+["max_compares"] = 4,
+["compare_type"] = 1,
+},
 },
 ["cached_talents"] = {
 },
@@ -148,10 +154,10 @@ _detalhes_database = {
 ["data_harvest_for_charsts"] = {
 ["players"] = {
 {
-["name"] = "Damage of Each Individual Player",
-["playerOnly"] = true,
 ["playerKey"] = "total",
 ["combatObjectContainer"] = 1,
+["name"] = "Damage of Each Individual Player",
+["playerOnly"] = true,
 },
 },
 ["totals"] = {
@@ -175,7 +181,7 @@ _detalhes_database = {
 ["reverse"] = false,
 },
 ["active_profile"] = "Luckyone",
-["last_day"] = "24",
+["last_day"] = "03",
 ["mythic_dungeon_currentsaved"] = {
 ["dungeon_name"] = "",
 ["started"] = false,
@@ -187,50 +193,55 @@ _detalhes_database = {
 ["dungeon_zone_id"] = 0,
 ["previous_boss_killed_at"] = 0,
 },
+["data_harvested_for_charts"] = {
+},
+["damage_meter_session_info"] = {
+},
 ["benchmark_db"] = {
 ["frame"] = {
 },
 },
-["cached_roles"] = {
-},
-["SoloTablesSaved"] = {
-["Mode"] = 1,
-},
 ["combat_log"] = {
 ["inverse_deathlog_overalldata"] = false,
-["track_hunter_frenzy"] = false,
 ["merge_gemstones_1007"] = false,
+["track_hunter_frenzy"] = false,
 ["merge_critical_heals"] = false,
 ["inverse_deathlog_raid"] = false,
 ["calc_evoker_damage"] = true,
 ["evoker_show_realtimedps"] = false,
 ["inverse_deathlog_mplus"] = false,
 },
-["on_death_menu"] = false,
+["SoloTablesSaved"] = {
+["Mode"] = 1,
+},
 ["mythic_plus_log"] = {
+},
+["coach"] = {
+["enabled"] = false,
+["welcome_panel_pos"] = {
+},
+["last_coach_name"] = false,
 },
 ["announce_damagerecord"] = {
 ["enabled"] = true,
 ["channel"] = "SELF",
 },
-["announce_firsthit"] = {
-["enabled"] = true,
-["channel"] = "SELF",
+["nick_tag_cache"] = {
+["nextreset"] = 1770561542,
+["last_version"] = 16,
 },
 ["character_data"] = {
-["logons"] = 3,
+["logons"] = 4,
 },
 ["player_stats"] = {
 },
-["ignore_nicktag"] = false,
-["last_realversion"] = 166,
-["last_version"] = "12.0.0 14324",
+["last_instance_time"] = 0,
+["last_version"] = "12.0.0 14358",
 ["combat_id"] = 0,
 ["savedStyles"] = {
 },
-["last_instance_time"] = 0,
-["plugin_database"] = {
-},
+["last_realversion"] = 168,
+["ignore_nicktag"] = false,
 ["announce_deaths"] = {
 ["enabled"] = false,
 ["last_hits"] = 1,
@@ -265,7 +276,7 @@ _detalhes_database = {
 },
 ["raid_roster"] = {
 },
-["tempo_start"] = 3060103,
+["tempo_start"] = 3944655.15,
 ["last_events_tables"] = {
 },
 ["alternate_power"] = {
@@ -361,24 +372,19 @@ _detalhes_database = {
 ["start_time"] = 0,
 ["TimeData"] = {
 },
-["combat_counter"] = 5,
+["combat_counter"] = 7,
 },
-["nick_tag_cache"] = {
-["nextreset"] = 1770561542,
-["last_version"] = 16,
+["announce_firsthit"] = {
+["enabled"] = true,
+["channel"] = "SELF",
 },
 ["arena_data_headers"] = {
 },
-["coach"] = {
-["enabled"] = false,
-["welcome_panel_pos"] = {
-},
-["last_coach_name"] = false,
-},
+["on_death_menu"] = false,
 ["announce_cooldowns"] = {
-["enabled"] = false,
 ["ignored_cooldowns"] = {
 },
+["enabled"] = false,
 ["custom"] = "",
 ["channel"] = "RAID",
 },
@@ -386,7 +392,7 @@ _detalhes_database = {
 ["last_difficulty"] = 15,
 ["last_raid"] = "",
 },
-["damage_meter_session_info"] = {
+["cached_roles"] = {
 },
 ["cached_specs"] = {
 ["Player-1598-0F6EB4C1"] = 1446,

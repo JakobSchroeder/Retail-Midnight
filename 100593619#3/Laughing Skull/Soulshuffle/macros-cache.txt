@@ -1,3 +1,7 @@
+VER 3 010000000000002A "Agony" "134400"
+#showtooltip
+/cast [@mouseover,harm,nodead,exists][] Agony
+END
 VER 3 0100000000000014 "Burning Rush" "134400"
 #showtooltip
 /cancelaura Burning Rush
@@ -6,6 +10,10 @@ END
 VER 3 0100000000000020 "Cataclysm" "134400"
 #showtooltip
 /cast [@cursor] Cataclysm
+END
+VER 3 010000000000002B "Corruption" "134400"
+#showtooltip
+/cast [@mouseover,harm,nodead,exists][] Corruption
 END
 VER 3 0100000000000021 "Demonic Gate" "134400"
 #showtooltip
@@ -53,4 +61,8 @@ END
 VER 3 0100000000000026 "Soulstone" "134400"
 #showtooltip
 /cast [@mouseover,help,exists][] Soulstone
+END
+VER 3 010000000000002C "Unstable" "134400"
+#showtooltip
+/cast [@mouseover,harm,nodead,exists][] Unstable Affliction
 END

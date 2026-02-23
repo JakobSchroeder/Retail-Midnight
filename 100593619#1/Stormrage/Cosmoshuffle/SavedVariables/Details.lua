@@ -59,7 +59,7 @@ _detalhes_database = {
 ["utility"] = false,
 },
 },
-["combat_counter"] = 4,
+["combat_counter"] = 134,
 ["damage_meter_sessions"] = {
 },
 ["force_font_outline"] = "",
@@ -91,7 +91,7 @@ _detalhes_database = {
 ["attribute"] = 1,
 ["pos"] = {
 ["normal"] = {
-["y"] = -632.000846862793,
+["y"] = -632.0008773803711,
 ["x"] = 931.99560546875,
 ["w"] = 230.0002899169922,
 ["h"] = 172.0007781982422,
@@ -140,10 +140,35 @@ _detalhes_database = {
 },
 },
 },
-["last_day"] = "30",
-["cached_talents"] = {
+["ignore_nicktag"] = false,
+["nick_tag_cache"] = {
+["last_version"] = 16,
+["Shteeve"] = {
+"Creamymcsteamy",
+"",
+{
+0,
+1,
+0,
+1,
 },
-["last_instance_id"] = 0,
+"",
+{
+0,
+1,
+0,
+1,
+},
+{
+1,
+1,
+1,
+},
+2,
+},
+["nextreset"] = 1772306967,
+},
+["last_instance_id"] = 33,
 ["data_harvest_for_charsts"] = {
 ["players"] = {
 {
@@ -185,16 +210,19 @@ _detalhes_database = {
 ["dungeon_zone_id"] = 0,
 ["previous_boss_killed_at"] = 0,
 },
-["SoloTablesSaved"] = {
-["Mode"] = 1,
-},
-["benchmark_db"] = {
-["frame"] = {
-},
-},
-["damage_meter_session_info"] = {
-},
 ["on_death_menu"] = false,
+["data_harvested_for_charts"] = {
+},
+["announce_damagerecord"] = {
+["enabled"] = true,
+["channel"] = "SELF",
+},
+["coach"] = {
+["enabled"] = false,
+["welcome_panel_pos"] = {
+},
+["last_coach_name"] = false,
+},
 ["combat_log"] = {
 ["inverse_deathlog_overalldata"] = false,
 ["merge_gemstones_1007"] = false,
@@ -205,25 +233,11 @@ _detalhes_database = {
 ["evoker_show_realtimedps"] = false,
 ["inverse_deathlog_mplus"] = false,
 },
-["coach"] = {
-["enabled"] = false,
-["welcome_panel_pos"] = {
+["cached_talents"] = {
+["Player-60-0FD64078"] = "CgcBG5bbocFKcv+yIq8fPd6ORBA2MmZmZmZmxwMAAAAAAAMGwMAAAAAAAAMjZYmZmZmZmZmZmZbmBbabDABAYYMWmZmmtZYMYMA",
+["Player-60-0EAA8CD5"] = "CYEAVg1HmQqr1Dwlv86ljju8vCAAAAAQzy2MzsMGzMAAAAAAmpMMMzYbY2GmZbmZMGDzYhNAAgMj2GjZAAbAGAMmhBmxMzGWmBDjhBA",
+["Player-55-0D80E87A"] = "CIQA4VPTJ8eQb8/qEm8PyGu4yMjZMGAAAAAAAAAAAADLzMGLzMMzyMDzw2MGjHYGQmBz0YGMzMDAEgZb2EMbMAjxgxMzMmtxMgBzAA",
 },
-["last_coach_name"] = false,
-},
-["mythic_plus_log"] = {
-},
-["announce_firsthit"] = {
-["enabled"] = true,
-["channel"] = "SELF",
-},
-["nick_tag_cache"] = {
-["nextreset"] = 1770571458,
-["last_version"] = 16,
-},
-["player_stats"] = {
-},
-["ignore_nicktag"] = false,
 ["plugin_database"] = {
 ["DETAILS_PLUGIN_COMPARETWO_WINDOW"] = {
 ["enabled"] = true,
@@ -232,13 +246,26 @@ _detalhes_database = {
 ["compare_type"] = 1,
 },
 },
-["last_instance_time"] = 0,
-["last_version"] = "12.0.0 14358",
-["combat_id"] = 0,
+["cached_roles"] = {
+},
+["character_data"] = {
+["logons"] = 26,
+},
+["player_stats"] = {
+},
+["last_day"] = "22",
+["SoloTablesSaved"] = {
+["Mode"] = 1,
+},
+["last_instance_time"] = 1771792782,
+["last_version"] = "12.0.1 14629",
+["combat_id"] = 113,
 ["savedStyles"] = {
 },
-["last_realversion"] = 168,
-["data_harvested_for_charts"] = {
+["last_realversion"] = 170,
+["benchmark_db"] = {
+["frame"] = {
+},
 },
 ["announce_deaths"] = {
 ["enabled"] = false,
@@ -274,10 +301,31 @@ _detalhes_database = {
 },
 ["raid_roster"] = {
 },
-["tempo_start"] = 3594900.37,
+["tempo_start"] = 471298.853,
 ["last_events_tables"] = {
 },
 ["alternate_power"] = {
+},
+["totals_grupo"] = {
+0,
+0,
+{
+0,
+[0] = 0,
+["alternatepower"] = 0,
+[3] = 0,
+[6] = 0,
+},
+{
+["buff_uptime"] = 0,
+["ress"] = 0,
+["debuff_uptime"] = 0,
+["cooldowns_defensive"] = 0,
+["interrupt"] = 0,
+["dispell"] = 0,
+["cc_break"] = 0,
+["dead"] = 0,
+},
 },
 ["bossTimers"] = {
 },
@@ -310,26 +358,8 @@ _detalhes_database = {
 },
 ["player_last_events"] = {
 },
-["totals_grupo"] = {
-0,
-0,
-{
-0,
-[0] = 0,
-["alternatepower"] = 0,
-[3] = 0,
-[6] = 0,
-},
-{
-["buff_uptime"] = 0,
-["ress"] = 0,
-["debuff_uptime"] = 0,
-["cooldowns_defensive"] = 0,
-["interrupt"] = 0,
-["dispell"] = 0,
-["cc_break"] = 0,
-["dead"] = 0,
-},
+["cleu_events"] = {
+["n"] = 1,
 },
 ["frags_need_refresh"] = false,
 ["aura_timeline"] = {
@@ -340,9 +370,7 @@ _detalhes_database = {
 ["amountCasts"] = {
 },
 ["mapId"] = 0,
-["cleu_events"] = {
-["n"] = 1,
-},
+["instance_type"] = "none",
 ["zoneName"] = "Eastern Kingdoms",
 ["boss_hp"] = 1,
 ["is_challenge"] = false,
@@ -370,14 +398,13 @@ _detalhes_database = {
 ["start_time"] = 0,
 ["TimeData"] = {
 },
-["combat_counter"] = 3,
+["combat_counter"] = 133,
 },
-["character_data"] = {
-["logons"] = 2,
+["mythic_plus_log"] = {
 },
 ["arena_data_headers"] = {
 },
-["announce_damagerecord"] = {
+["announce_firsthit"] = {
 ["enabled"] = true,
 ["channel"] = "SELF",
 },
@@ -392,9 +419,11 @@ _detalhes_database = {
 ["last_difficulty"] = 15,
 ["last_raid"] = "",
 },
-["cached_roles"] = {
+["damage_meter_session_info"] = {
 },
 ["cached_specs"] = {
-["Player-60-0FD64078"] = 577,
+["Player-60-0FD64078"] = 1480,
+["Player-60-0EAA8CD5"] = 70,
+["Player-55-0D80E87A"] = 258,
 },
 }

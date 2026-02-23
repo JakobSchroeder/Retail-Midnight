@@ -33,3 +33,6 @@ BigWigs_ManaforgeOmega: enabled
 BigWigs_KhazAlgar: enabled
 LittleWigs: enabled
 LittleWigs_MistsOfPandaria: enabled
+LittleWigs_Shadowlands: enabled
+LittleWigs_Cataclysm: enabled
+ElvUI_Options: enabled

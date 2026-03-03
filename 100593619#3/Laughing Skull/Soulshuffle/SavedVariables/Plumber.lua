@@ -9,9 +9,9 @@ PlumberDB_PC = {
 },
 {
 ["instanceID"] = 2689,
-["overrideName"] = "Tak-Rethan Abyss",
-["time"] = 1770996534,
 ["tier"] = 11,
+["time"] = 1770996534,
+["overrideName"] = "Tak-Rethan Abyss",
 },
 },
 }

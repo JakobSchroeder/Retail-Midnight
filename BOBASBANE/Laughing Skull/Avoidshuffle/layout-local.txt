@@ -13,6 +13,13 @@ X: 418
 Y: -103
 W: 261
 H: 590
+Frame: BetterBagsForm0BetterBags Settings
+FrameLevel: 500
+Anchor: CENTER
+X: 0
+Y: 0
+W: 850
+H: 800
 Frame: BetterFriendsFrame
 FrameLevel: 1
 Anchor: LEFT

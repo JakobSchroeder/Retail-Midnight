@@ -3,32 +3,49 @@ TwintopInsanityBarSettings = {
 ["warrior"] = {
 ["arms"] = {
 ["textures"] = {
-["resourceBarName"] = "TRB: Smoother",
-["healthBar"] = "Interface\\Addons\\TwintopInsanityBar\\StatusBars\\smoother.tga",
+["castingBar"] = "Interface\\Addons\\TwintopInsanityBar\\StatusBars\\smoother.tga",
 ["borderName"] = "1 Pixel",
 ["border"] = "Interface\\Buttons\\WHITE8X8",
-["textureLock"] = true,
-["backgroundName"] = "Blizzard Tooltip",
-["healthBackground"] = "Interface\\Tooltips\\UI-Tooltip-Background",
+["absorbBar"] = "Interface\\Buttons\\WHITE8X8",
 ["healthBackgroundName"] = "Blizzard Tooltip",
 ["healthBorder"] = "Interface\\Buttons\\WHITE8X8",
 ["healthBorderName"] = "1 Pixel",
 ["background"] = "Interface\\Tooltips\\UI-Tooltip-Background",
+["backgroundName"] = "Blizzard Tooltip",
+["resourceBarName"] = "TRB: Smoother",
+["healthBar"] = "Interface\\Addons\\TwintopInsanityBar\\StatusBars\\smoother.tga",
+["textureLock"] = true,
+["absorbBarName"] = "Solid",
+["healthBackground"] = "Interface\\Tooltips\\UI-Tooltip-Background",
+["incomingHealBar"] = "Interface\\Buttons\\WHITE8X8",
+["castingBarName"] = "TRB: Smoother",
+["incomingHealBarName"] = "Solid",
 ["healthBarName"] = "TRB: Smoother",
 ["resourceBar"] = "Interface\\Addons\\TwintopInsanityBar\\StatusBars\\smoother.tga",
 },
-["audio"] = {
-["suddenDeath"] = {
-["enabled"] = false,
-["soundName"] = "TRB: Air Horn",
-["name"] = "Sudden Death Proc",
-["sound"] = "Interface\\Addons\\TwintopInsanityBar\\Sounds\\AirHorn.ogg",
+["healthBar"] = {
+["relativeTo"] = "BOTTOM",
+["xPos"] = 0,
+["border"] = 2,
+["width"] = 300,
+["relativeToName"] = "Below - Center",
+["spacing"] = 0,
+["height"] = 20,
+["yPos"] = 0,
+["anchor"] = {
+["barKey"] = "primary",
+["attachPoint"] = "TOP",
+["xOffset"] = 0,
+["matchWidth"] = true,
+["anchorPoint"] = "BOTTOM",
+["yOffset"] = 0,
 },
+["fullWidth"] = true,
 },
 ["thresholds"] = {
 ["properties"] = {
-["width"] = 2,
 ["overlapBorder"] = true,
+["width"] = 2,
 },
 ["icons"] = {
 ["enabled"] = true,
@@ -64,33 +81,33 @@ TwintopInsanityBarSettings = {
 ["ignorePain"] = {
 ["enabled"] = false,
 },
-["rend"] = {
-["enabled"] = false,
-},
-["impendingVictory"] = {
+["cleave"] = {
 ["enabled"] = true,
 },
-["mortalStrike"] = {
+["impendingVictory"] = {
 ["enabled"] = true,
 },
 ["shieldBlock"] = {
 ["enabled"] = false,
 },
-["cleave"] = {
+["mortalStrike"] = {
 ["enabled"] = true,
+},
+["rend"] = {
+["enabled"] = false,
 },
 },
 },
 ["displayText"] = {
 ["default"] = {
 ["fontFace"] = "Fonts\\FRIZQT__.TTF",
-["fontFaceName"] = "Friz Quadrata TT",
-["fontJustifyHorizontal"] = "LEFT",
-["fontJustifyHorizontalName"] = "Left",
-["fontSize"] = 14,
 ["color"] = {
 ["color"] = "FFFFFFFF",
 },
+["fontJustifyHorizontal"] = "LEFT",
+["fontSize"] = 14,
+["fontJustifyHorizontalName"] = "Left",
+["fontFaceName"] = "Friz Quadrata TT",
 },
 ["barText"] = {
 {
@@ -178,14 +195,14 @@ TwintopInsanityBarSettings = {
 ["threshold"] = {
 ["outOfRange"] = {
 ["color"] = "FF440000",
-["enabled"] = true,
 ["show"] = true,
-},
-["over"] = {
-["color"] = "FF00FF00",
+["enabled"] = true,
 },
 ["unusable"] = {
 ["color"] = "FFFF0000",
+},
+["over"] = {
+["color"] = "FF00FF00",
 },
 ["under"] = {
 ["color"] = "FFFFFFFF",
@@ -215,13 +232,23 @@ TwintopInsanityBarSettings = {
 ["color"] = "FFFF0000",
 ["threshold"] = 0,
 },
+["absorb"] = {
+["color"] = "CCFFFFB9",
+["mode"] = "appended",
+["enabled"] = true,
+},
 ["type"] = "step",
-["background"] = {
-["color"] = "66000000",
+["incomingHeal"] = {
+["color"] = "CC80b980",
+["mode"] = "appended",
+["enabled"] = true,
 },
 ["high"] = {
 ["color"] = "FF00FF00",
 ["threshold"] = 0.7,
+},
+["background"] = {
+["color"] = "66000000",
 },
 ["border"] = {
 ["color"] = "FF008800",
@@ -232,6 +259,10 @@ TwintopInsanityBarSettings = {
 },
 },
 ["bar"] = {
+["casting"] = {
+["color"] = "FFFFFFFF",
+["enabled"] = true,
+},
 ["borderOvercap"] = {
 ["color"] = "FF800000",
 ["enabled"] = true,
@@ -239,41 +270,30 @@ TwintopInsanityBarSettings = {
 ["background"] = {
 ["color"] = "66000000",
 },
-["base"] = {
-["color"] = "FFFF0000",
-},
 ["border"] = {
 ["color"] = "FFC21807",
 },
+["base"] = {
+["color"] = "FFFF0000",
 },
 },
-["healthBar"] = {
-["relativeTo"] = "BOTTOM",
-["xPos"] = 0,
-["border"] = 2,
-["width"] = 300,
-["relativeToName"] = "Below - Center",
-["spacing"] = 0,
-["height"] = 20,
-["yPos"] = 0,
-["fullWidth"] = true,
-["anchor"] = {
-["barKey"] = "primary",
-["attachPoint"] = "TOP",
-["xOffset"] = 0,
-["matchWidth"] = true,
-["anchorPoint"] = "BOTTOM",
-["yOffset"] = 0,
+},
+["audio"] = {
+["suddenDeath"] = {
+["enabled"] = false,
+["sound"] = "Interface\\Addons\\TwintopInsanityBar\\Sounds\\AirHorn.ogg",
+["soundName"] = "TRB: Air Horn",
+["name"] = "Sudden Death Proc",
 },
 },
 ["overcap"] = {
 ["mode"] = "relative",
-["relative"] = 0,
 ["fixed"] = 130,
+["relative"] = 0,
 },
 ["precision"] = {
-["health"] = 1,
 ["resource"] = 0,
+["health"] = 1,
 ["secondary"] = 2,
 },
 ["displayBar"] = {
@@ -292,10 +312,9 @@ TwintopInsanityBarSettings = {
 },
 },
 ["bar"] = {
-["width"] = 300,
-["xPos"] = 0,
+["dragAndDrop"] = false,
 ["pinToPersonalResourceDisplay"] = false,
-["height"] = 30,
+["xPos"] = 0,
 ["anchor"] = {
 ["barKey"] = "screen",
 ["attachPoint"] = "CENTER",
@@ -304,16 +323,19 @@ TwintopInsanityBarSettings = {
 ["anchorPoint"] = "CENTER",
 ["yOffset"] = -200,
 },
+["height"] = 30,
 ["yPos"] = -200,
 ["border"] = 2,
-["dragAndDrop"] = false,
+["width"] = 300,
 },
 },
 ["protection"] = {
 ["textures"] = {
 ["defensivesBar"] = "Interface\\Addons\\TwintopInsanityBar\\StatusBars\\smoother.tga",
+["castingBar"] = "Interface\\Addons\\TwintopInsanityBar\\StatusBars\\smoother.tga",
 ["borderName"] = "1 Pixel",
 ["border"] = "Interface\\Buttons\\WHITE8X8",
+["absorbBar"] = "Interface\\Buttons\\WHITE8X8",
 ["healthBackgroundName"] = "Blizzard Tooltip",
 ["healthBorder"] = "Interface\\Buttons\\WHITE8X8",
 ["healthBorderName"] = "1 Pixel",
@@ -322,27 +344,42 @@ TwintopInsanityBarSettings = {
 ["resourceBarName"] = "TRB: Smoother",
 ["healthBar"] = "Interface\\Addons\\TwintopInsanityBar\\StatusBars\\smoother.tga",
 ["defensivesBorderName"] = "1 Pixel",
+["absorbBarName"] = "Solid",
+["incomingHealBarName"] = "Solid",
 ["textureLock"] = true,
 ["defensivesBackgroundName"] = "Blizzard Tooltip",
 ["defensivesBackground"] = "Interface\\Tooltips\\UI-Tooltip-Background",
-["healthBackground"] = "Interface\\Tooltips\\UI-Tooltip-Background",
-["defensivesBorder"] = "Interface\\Buttons\\WHITE8X8",
 ["defensivesBarName"] = "TRB: Smoother",
+["healthBackground"] = "Interface\\Tooltips\\UI-Tooltip-Background",
+["incomingHealBar"] = "Interface\\Buttons\\WHITE8X8",
+["castingBarName"] = "TRB: Smoother",
+["defensivesBorder"] = "Interface\\Buttons\\WHITE8X8",
 ["healthBarName"] = "TRB: Smoother",
 ["resourceBar"] = "Interface\\Addons\\TwintopInsanityBar\\StatusBars\\smoother.tga",
 },
-["audio"] = {
-["suddenDeath"] = {
-["enabled"] = false,
-["soundName"] = "TRB: Air Horn",
-["name"] = "Sudden Death Proc",
-["sound"] = "Interface\\Addons\\TwintopInsanityBar\\Sounds\\AirHorn.ogg",
+["healthBar"] = {
+["relativeTo"] = "BOTTOM",
+["xPos"] = 0,
+["border"] = 2,
+["width"] = 300,
+["relativeToName"] = "Below - Center",
+["spacing"] = 0,
+["height"] = 20,
+["yPos"] = 0,
+["anchor"] = {
+["barKey"] = "primary",
+["attachPoint"] = "TOP",
+["xOffset"] = 0,
+["matchWidth"] = true,
+["anchorPoint"] = "BOTTOM",
+["yOffset"] = 0,
 },
+["fullWidth"] = true,
 },
 ["thresholds"] = {
 ["properties"] = {
-["width"] = 2,
 ["overlapBorder"] = true,
+["width"] = 2,
 },
 ["icons"] = {
 ["enabled"] = true,
@@ -392,13 +429,13 @@ TwintopInsanityBarSettings = {
 ["displayText"] = {
 ["default"] = {
 ["fontFace"] = "Fonts\\FRIZQT__.TTF",
-["fontFaceName"] = "Friz Quadrata TT",
-["fontJustifyHorizontal"] = "LEFT",
-["fontJustifyHorizontalName"] = "Left",
-["fontSize"] = 14,
 ["color"] = {
 ["color"] = "FFFFFFFF",
 },
+["fontJustifyHorizontal"] = "LEFT",
+["fontSize"] = 14,
+["fontJustifyHorizontalName"] = "Left",
+["fontFaceName"] = "Friz Quadrata TT",
 },
 ["barText"] = {
 {
@@ -532,37 +569,26 @@ TwintopInsanityBarSettings = {
 ["value"] = 130,
 ["enabled"] = false,
 },
-["healthBar"] = {
-["relativeTo"] = "BOTTOM",
-["xPos"] = 0,
-["border"] = 2,
-["width"] = 300,
-["relativeToName"] = "Below - Center",
-["spacing"] = 0,
-["height"] = 20,
-["yPos"] = 0,
-["fullWidth"] = true,
-["anchor"] = {
-["barKey"] = "primary",
-["attachPoint"] = "TOP",
-["xOffset"] = 0,
-["matchWidth"] = true,
-["anchorPoint"] = "BOTTOM",
-["yOffset"] = 0,
+["audio"] = {
+["suddenDeath"] = {
+["enabled"] = false,
+["sound"] = "Interface\\Addons\\TwintopInsanityBar\\Sounds\\AirHorn.ogg",
+["soundName"] = "TRB: Air Horn",
+["name"] = "Sudden Death Proc",
 },
 },
 ["colors"] = {
 ["threshold"] = {
 ["outOfRange"] = {
 ["color"] = "FF440000",
-["enabled"] = true,
 ["show"] = true,
-},
-["over"] = {
-["color"] = "FF00FF00",
+["enabled"] = true,
 },
 ["unusable"] = {
 ["color"] = "FFFF0000",
+},
+["over"] = {
+["color"] = "FF00FF00",
 },
 ["under"] = {
 ["color"] = "FFFFFFFF",
@@ -573,13 +599,23 @@ TwintopInsanityBarSettings = {
 ["color"] = "FFFF0000",
 ["threshold"] = 0,
 },
+["absorb"] = {
+["color"] = "CCFFFFB9",
+["mode"] = "appended",
+["enabled"] = true,
+},
 ["type"] = "step",
-["background"] = {
-["color"] = "66000000",
+["incomingHeal"] = {
+["color"] = "CC80b980",
+["mode"] = "appended",
+["enabled"] = true,
 },
 ["high"] = {
 ["color"] = "FF00FF00",
 ["threshold"] = 0.7,
+},
+["background"] = {
+["color"] = "66000000",
 },
 ["border"] = {
 ["color"] = "FF008800",
@@ -629,6 +665,10 @@ TwintopInsanityBarSettings = {
 },
 },
 ["bar"] = {
+["casting"] = {
+["color"] = "FFFFFFFF",
+["enabled"] = true,
+},
 ["borderOvercap"] = {
 ["color"] = "FF800000",
 ["enabled"] = true,
@@ -636,23 +676,13 @@ TwintopInsanityBarSettings = {
 ["background"] = {
 ["color"] = "66000000",
 },
-["base"] = {
-["color"] = "FFFF0000",
-},
 ["border"] = {
 ["color"] = "FFC21807",
 },
+["base"] = {
+["color"] = "FFFF0000",
 },
 },
-["precision"] = {
-["health"] = 1,
-["resource"] = 0,
-["secondary"] = 2,
-},
-["overcap"] = {
-["mode"] = "relative",
-["relative"] = 0,
-["fixed"] = 130,
 },
 ["bars"] = {
 ["defensives"] = {
@@ -664,7 +694,6 @@ TwintopInsanityBarSettings = {
 ["spacing"] = 0,
 ["height"] = 20,
 ["yPos"] = 0,
-["fullWidth"] = true,
 ["anchor"] = {
 ["barKey"] = "primary",
 ["attachPoint"] = "BOTTOM",
@@ -673,7 +702,18 @@ TwintopInsanityBarSettings = {
 ["anchorPoint"] = "TOP",
 ["yOffset"] = 0,
 },
+["fullWidth"] = true,
 },
+},
+["overcap"] = {
+["mode"] = "relative",
+["fixed"] = 130,
+["relative"] = 0,
+},
+["precision"] = {
+["resource"] = 0,
+["health"] = 1,
+["secondary"] = 2,
 },
 ["displayBar"] = {
 ["health"] = {
@@ -695,10 +735,9 @@ TwintopInsanityBarSettings = {
 },
 },
 ["bar"] = {
-["width"] = 300,
-["xPos"] = 0,
+["dragAndDrop"] = false,
 ["pinToPersonalResourceDisplay"] = false,
-["height"] = 30,
+["xPos"] = 0,
 ["anchor"] = {
 ["barKey"] = "screen",
 ["attachPoint"] = "CENTER",
@@ -707,39 +746,63 @@ TwintopInsanityBarSettings = {
 ["anchorPoint"] = "CENTER",
 ["yOffset"] = -200,
 },
+["height"] = 30,
 ["yPos"] = -200,
 ["border"] = 2,
-["dragAndDrop"] = false,
+["width"] = 300,
 },
 },
 ["fury"] = {
 ["textures"] = {
-["resourceBarName"] = "TRB: Smoother",
-["healthBar"] = "Interface\\Addons\\TwintopInsanityBar\\StatusBars\\smoother.tga",
+["castingBar"] = "Interface\\Addons\\TwintopInsanityBar\\StatusBars\\smoother.tga",
 ["borderName"] = "1 Pixel",
 ["border"] = "Interface\\Buttons\\WHITE8X8",
-["textureLock"] = true,
-["backgroundName"] = "Blizzard Tooltip",
-["healthBackground"] = "Interface\\Tooltips\\UI-Tooltip-Background",
+["absorbBar"] = "Interface\\Buttons\\WHITE8X8",
 ["healthBackgroundName"] = "Blizzard Tooltip",
 ["healthBorder"] = "Interface\\Buttons\\WHITE8X8",
 ["healthBorderName"] = "1 Pixel",
 ["background"] = "Interface\\Tooltips\\UI-Tooltip-Background",
+["backgroundName"] = "Blizzard Tooltip",
+["resourceBarName"] = "TRB: Smoother",
+["comboPointsBar"] = "Interface\\Addons\\TwintopInsanityBar\\StatusBars\\smoother.tga",
+["healthBar"] = "Interface\\Addons\\TwintopInsanityBar\\StatusBars\\smoother.tga",
+["comboPointsBackgroundName"] = "Blizzard Tooltip",
+["comboPointsBarName"] = "TRB: Smoother",
+["comboPointsBackground"] = "Interface\\Tooltips\\UI-Tooltip-Background",
+["textureLock"] = true,
+["absorbBarName"] = "Solid",
+["comboPointsBorderName"] = "1 Pixel",
+["incomingHealBarName"] = "Solid",
+["healthBackground"] = "Interface\\Tooltips\\UI-Tooltip-Background",
+["incomingHealBar"] = "Interface\\Buttons\\WHITE8X8",
+["castingBarName"] = "TRB: Smoother",
+["comboPointsBorder"] = "Interface\\Buttons\\WHITE8X8",
 ["healthBarName"] = "TRB: Smoother",
 ["resourceBar"] = "Interface\\Addons\\TwintopInsanityBar\\StatusBars\\smoother.tga",
 },
-["audio"] = {
-["suddenDeath"] = {
-["enabled"] = false,
-["soundName"] = "TRB: Air Horn",
-["name"] = "Sudden Death Proc",
-["sound"] = "Interface\\Addons\\TwintopInsanityBar\\Sounds\\AirHorn.ogg",
+["healthBar"] = {
+["relativeTo"] = "BOTTOM",
+["xPos"] = 0,
+["border"] = 2,
+["width"] = 300,
+["relativeToName"] = "Below - Center",
+["spacing"] = 0,
+["height"] = 20,
+["yPos"] = 0,
+["anchor"] = {
+["barKey"] = "primary",
+["attachPoint"] = "TOP",
+["xOffset"] = 0,
+["matchWidth"] = true,
+["anchorPoint"] = "BOTTOM",
+["yOffset"] = 0,
 },
+["fullWidth"] = true,
 },
 ["thresholds"] = {
 ["properties"] = {
-["width"] = 2,
 ["overlapBorder"] = true,
+["width"] = 2,
 },
 ["icons"] = {
 ["enabled"] = true,
@@ -781,15 +844,8 @@ TwintopInsanityBarSettings = {
 },
 },
 ["displayText"] = {
-["default"] = {
-["fontFace"] = "Fonts\\FRIZQT__.TTF",
-["fontFaceName"] = "Friz Quadrata TT",
-["fontJustifyHorizontal"] = "LEFT",
-["fontJustifyHorizontalName"] = "Left",
-["fontSize"] = 14,
-["color"] = {
-["color"] = "FFFFFFFF",
-},
+["migrations"] = {
+["whirlwindBarTextSeeded"] = true,
 },
 ["barText"] = {
 {
@@ -867,27 +923,176 @@ TwintopInsanityBarSettings = {
 },
 ["fontSize"] = 16,
 },
+{
+["useDefaultFontColor"] = false,
+["fontFace"] = "Fonts\\FRIZQT__.TTF",
+["useDefaultFontFace"] = false,
+["guid"] = "b800899c-2804-45da-86dd-e4308f4301e3",
+["fontJustifyHorizontalName"] = "Left",
+["text"] = "{$wwCharges=1}[$wwCharges - $wwTime]",
+["enabled"] = true,
+["fontFaceName"] = "Friz Quadrata TT",
+["name"] = "WW Charge 1",
+["position"] = {
+["relativeToName"] = "Center",
+["relativeTo"] = "CENTER",
+["xPos"] = 0,
+["relativeToFrameName"] = "Whirlwind (1st Charge)",
+["yPos"] = 0,
+["relativeToFrame"] = "Whirlwind_Charge_1",
+},
+["fontJustifyHorizontal"] = "LEFT",
+["useDefaultFontSize"] = false,
+["color"] = {
+["color"] = "FFFFFFFF",
+},
+["fontSize"] = 14,
+},
+{
+["useDefaultFontColor"] = false,
+["fontFace"] = "Fonts\\FRIZQT__.TTF",
+["useDefaultFontFace"] = false,
+["guid"] = "1c175845-ab98-47dd-820a-2cc1bb5d489e",
+["fontJustifyHorizontalName"] = "Left",
+["text"] = "{$wwCharges=2}[$wwCharges - $wwTime]",
+["enabled"] = true,
+["fontFaceName"] = "Friz Quadrata TT",
+["name"] = "WW Charge 2",
+["position"] = {
+["relativeToName"] = "Center",
+["relativeTo"] = "CENTER",
+["xPos"] = 0,
+["relativeToFrameName"] = "Whirlwind (2nd Charge)",
+["yPos"] = 0,
+["relativeToFrame"] = "Whirlwind_Charge_2",
+},
+["fontJustifyHorizontal"] = "LEFT",
+["useDefaultFontSize"] = false,
+["color"] = {
+["color"] = "FFFFFFFF",
+},
+["fontSize"] = 14,
+},
+{
+["useDefaultFontColor"] = false,
+["fontFace"] = "Fonts\\FRIZQT__.TTF",
+["useDefaultFontFace"] = false,
+["guid"] = "bf2589cd-567a-4448-81af-4635da3021be",
+["fontJustifyHorizontalName"] = "Left",
+["text"] = "{$wwCharges=3}[$wwCharges - $wwTime]",
+["enabled"] = true,
+["fontFaceName"] = "Friz Quadrata TT",
+["name"] = "WW Charge 3",
+["position"] = {
+["relativeToName"] = "Center",
+["relativeTo"] = "CENTER",
+["xPos"] = 0,
+["relativeToFrameName"] = "Whirlwind (3rd Charge)",
+["yPos"] = 0,
+["relativeToFrame"] = "Whirlwind_Charge_3",
+},
+["fontJustifyHorizontal"] = "LEFT",
+["useDefaultFontSize"] = false,
+["color"] = {
+["color"] = "FFFFFFFF",
+},
+["fontSize"] = 14,
+},
+{
+["useDefaultFontColor"] = false,
+["fontFace"] = "Fonts\\FRIZQT__.TTF",
+["useDefaultFontFace"] = false,
+["guid"] = "d9c9ff17-439e-43ee-a5c2-6f4e88f1c680",
+["fontJustifyHorizontalName"] = "Left",
+["text"] = "{$wwCharges=4}[$wwCharges - $wwTime]",
+["enabled"] = true,
+["fontFaceName"] = "Friz Quadrata TT",
+["name"] = "WW Charge 4",
+["position"] = {
+["relativeToName"] = "Center",
+["relativeTo"] = "CENTER",
+["xPos"] = 0,
+["relativeToFrameName"] = "Whirlwind (4th Charge)",
+["yPos"] = 0,
+["relativeToFrame"] = "Whirlwind_Charge_4",
+},
+["fontJustifyHorizontal"] = "LEFT",
+["useDefaultFontSize"] = false,
+["color"] = {
+["color"] = "FFFFFFFF",
+},
+["fontSize"] = 14,
+},
+},
+["default"] = {
+["fontFace"] = "Fonts\\FRIZQT__.TTF",
+["color"] = {
+["color"] = "FFFFFFFF",
+},
+["fontJustifyHorizontal"] = "LEFT",
+["fontSize"] = 14,
+["fontJustifyHorizontalName"] = "Left",
+["fontFaceName"] = "Friz Quadrata TT",
 },
 },
 ["maxResource"] = {
 ["value"] = 130,
 ["enabled"] = false,
 },
+["audio"] = {
+["suddenDeath"] = {
+["enabled"] = false,
+["sound"] = "Interface\\Addons\\TwintopInsanityBar\\Sounds\\AirHorn.ogg",
+["soundName"] = "TRB: Air Horn",
+["name"] = "Sudden Death Proc",
+},
+},
 ["colors"] = {
 ["threshold"] = {
 ["outOfRange"] = {
 ["color"] = "FF440000",
-["enabled"] = true,
 ["show"] = true,
-},
-["over"] = {
-["color"] = "FF00FF00",
+["enabled"] = true,
 },
 ["unusable"] = {
 ["color"] = "FFFF0000",
 },
+["over"] = {
+["color"] = "FF00FF00",
+},
 ["under"] = {
 ["color"] = "FFFFFFFF",
+},
+},
+["healthBar"] = {
+["low"] = {
+["color"] = "FFFF0000",
+["threshold"] = 0,
+},
+["absorb"] = {
+["color"] = "CCFFFFB9",
+["mode"] = "appended",
+["enabled"] = true,
+},
+["type"] = "step",
+["incomingHeal"] = {
+["color"] = "CC80b980",
+["mode"] = "appended",
+["enabled"] = true,
+},
+["high"] = {
+["color"] = "FF00FF00",
+["threshold"] = 0.7,
+},
+["background"] = {
+["color"] = "66000000",
+},
+["border"] = {
+["color"] = "FF008800",
+},
+["medium"] = {
+["color"] = "FFFFFF00",
+["threshold"] = 0.3,
 },
 },
 ["text"] = {
@@ -909,30 +1114,31 @@ TwintopInsanityBarSettings = {
 ["color"] = "FFEA3C53",
 },
 },
-["healthBar"] = {
-["low"] = {
-["color"] = "FFFF0000",
-["threshold"] = 0,
+["comboPoints"] = {
+["penultimate"] = {
+["color"] = "FFFF9900",
 },
-["type"] = "step",
+["base"] = {
+["color"] = "FFFFFF00",
+},
 ["background"] = {
 ["color"] = "66000000",
 },
-["high"] = {
-["color"] = "FF00FF00",
-["threshold"] = 0.7,
-},
 ["border"] = {
-["color"] = "FF008800",
+["color"] = "FFFFD300",
 },
-["medium"] = {
-["color"] = "FFFFFF00",
-["threshold"] = 0.3,
+["final"] = {
+["color"] = "FFFF0000",
 },
 },
 ["bar"] = {
 ["enrage"] = {
 ["color"] = "FFFFCC55",
+["enabled"] = true,
+},
+["casting"] = {
+["color"] = "FFFFFFFF",
+["enabled"] = true,
 },
 ["borderOvercap"] = {
 ["color"] = "FF800000",
@@ -941,42 +1147,13 @@ TwintopInsanityBarSettings = {
 ["background"] = {
 ["color"] = "66000000",
 },
-["base"] = {
-["color"] = "FFFF0000",
-},
 ["border"] = {
 ["color"] = "FFC21807",
 },
+["base"] = {
+["color"] = "FFFF0000",
 },
 },
-["healthBar"] = {
-["relativeTo"] = "BOTTOM",
-["xPos"] = 0,
-["border"] = 2,
-["width"] = 300,
-["relativeToName"] = "Below - Center",
-["spacing"] = 0,
-["height"] = 20,
-["yPos"] = 0,
-["fullWidth"] = true,
-["anchor"] = {
-["barKey"] = "primary",
-["attachPoint"] = "TOP",
-["xOffset"] = 0,
-["matchWidth"] = true,
-["anchorPoint"] = "BOTTOM",
-["yOffset"] = 0,
-},
-},
-["overcap"] = {
-["mode"] = "relative",
-["relative"] = 0,
-["fixed"] = 130,
-},
-["precision"] = {
-["health"] = 1,
-["resource"] = 0,
-["secondary"] = 2,
 },
 ["displayBar"] = {
 ["dragonriding"] = true,
@@ -993,11 +1170,40 @@ TwintopInsanityBarSettings = {
 ["smooth"] = false,
 },
 },
-["bar"] = {
-["width"] = 300,
+["overcap"] = {
+["mode"] = "relative",
+["fixed"] = 130,
+["relative"] = 0,
+},
+["precision"] = {
+["resource"] = 0,
+["health"] = 1,
+["secondary"] = 2,
+},
+["comboPoints"] = {
+["relativeTo"] = "TOP",
 ["xPos"] = 0,
+["sameColor"] = false,
+["border"] = 2,
+["width"] = 60,
+["relativeToName"] = "Above - Center",
+["spacing"] = 0,
+["height"] = 20,
+["yPos"] = 0,
+["anchor"] = {
+["barKey"] = "primary",
+["attachPoint"] = "BOTTOM",
+["xOffset"] = 0,
+["matchWidth"] = true,
+["anchorPoint"] = "TOP",
+["yOffset"] = 0,
+},
+["fullWidth"] = true,
+},
+["bar"] = {
+["dragAndDrop"] = false,
 ["pinToPersonalResourceDisplay"] = false,
-["height"] = 30,
+["xPos"] = 0,
 ["anchor"] = {
 ["barKey"] = "screen",
 ["attachPoint"] = "CENTER",
@@ -1006,9 +1212,10 @@ TwintopInsanityBarSettings = {
 ["anchorPoint"] = "CENTER",
 ["yOffset"] = -200,
 },
+["height"] = 30,
 ["yPos"] = -200,
 ["border"] = 2,
-["dragAndDrop"] = false,
+["width"] = 300,
 },
 },
 },
@@ -1017,6 +1224,7 @@ TwintopInsanityBarSettings = {
 ["textures"] = {
 ["borderName"] = "1 Pixel",
 ["border"] = "Interface\\Buttons\\WHITE8X8",
+["absorbBar"] = "Interface\\Buttons\\WHITE8X8",
 ["healthBackgroundName"] = "Blizzard Tooltip",
 ["healthBorder"] = "Interface\\Buttons\\WHITE8X8",
 ["healthBorderName"] = "1 Pixel",
@@ -1026,6 +1234,7 @@ TwintopInsanityBarSettings = {
 ["healthBar"] = "Interface\\Addons\\TwintopInsanityBar\\StatusBars\\smoother.tga",
 ["comboPointsBarName"] = "TRB: Smoother",
 ["textureLock"] = true,
+["absorbBarName"] = "Solid",
 ["comboPointsBar"] = "Interface\\Addons\\TwintopInsanityBar\\StatusBars\\smoother.tga",
 ["healthBackground"] = "Interface\\Tooltips\\UI-Tooltip-Background",
 ["comboPointsBorderName"] = "1 Pixel",
@@ -1259,7 +1468,14 @@ TwintopInsanityBarSettings = {
 ["color"] = "FFFF0000",
 ["threshold"] = 0,
 },
+["absorb"] = {
+["enabled"] = true,
+["mode"] = "appended",
+["color"] = "CCFFFFB9",
+},
 ["type"] = "step",
+["incomingHeal"] = {
+},
 ["background"] = {
 ["color"] = "66000000",
 },
@@ -1411,8 +1627,10 @@ TwintopInsanityBarSettings = {
 ["healthBar"] = "Interface\\Addons\\TwintopInsanityBar\\StatusBars\\smoother.tga",
 ["borderName"] = "1 Pixel",
 ["border"] = "Interface\\Buttons\\WHITE8X8",
-["textureLock"] = true,
 ["backgroundName"] = "Blizzard Tooltip",
+["textureLock"] = true,
+["absorbBarName"] = "Solid",
+["absorbBar"] = "Interface\\Buttons\\WHITE8X8",
 ["healthBackground"] = "Interface\\Tooltips\\UI-Tooltip-Background",
 ["healthBackgroundName"] = "Blizzard Tooltip",
 ["healthBorder"] = "Interface\\Buttons\\WHITE8X8",
@@ -1458,13 +1676,16 @@ TwintopInsanityBarSettings = {
 ["desaturated"] = true,
 },
 ["thresholdDictionary"] = {
-["annihilation"] = {
+["abyssalGaze"] = {
 ["enabled"] = true,
 },
 ["chaosStrike"] = {
 ["enabled"] = true,
 },
 ["bladeDance"] = {
+["enabled"] = true,
+},
+["annihilation"] = {
 ["enabled"] = true,
 },
 ["chaosNova"] = {
@@ -1652,7 +1873,14 @@ TwintopInsanityBarSettings = {
 ["color"] = "FFFF0000",
 ["threshold"] = 0,
 },
+["absorb"] = {
+["enabled"] = true,
+["mode"] = "appended",
+["color"] = "CCFFFFB9",
+},
 ["type"] = "step",
+["incomingHeal"] = {
+},
 ["background"] = {
 ["color"] = "66000000",
 },
@@ -1740,6 +1968,7 @@ TwintopInsanityBarSettings = {
 ["textures"] = {
 ["borderName"] = "1 Pixel",
 ["border"] = "Interface\\Buttons\\WHITE8X8",
+["absorbBar"] = "Interface\\Buttons\\WHITE8X8",
 ["healthBackgroundName"] = "Blizzard Tooltip",
 ["healthBorder"] = "Interface\\Buttons\\WHITE8X8",
 ["healthBorderName"] = "1 Pixel",
@@ -1749,6 +1978,7 @@ TwintopInsanityBarSettings = {
 ["healthBar"] = "Interface\\Addons\\TwintopInsanityBar\\StatusBars\\smoother.tga",
 ["comboPointsBarName"] = "TRB: Smoother",
 ["textureLock"] = true,
+["absorbBarName"] = "Solid",
 ["comboPointsBar"] = "Interface\\Addons\\TwintopInsanityBar\\StatusBars\\smoother.tga",
 ["healthBackground"] = "Interface\\Tooltips\\UI-Tooltip-Background",
 ["comboPointsBorderName"] = "1 Pixel",
@@ -1963,7 +2193,14 @@ TwintopInsanityBarSettings = {
 ["color"] = "FFFF0000",
 ["threshold"] = 0,
 },
+["absorb"] = {
+["enabled"] = true,
+["mode"] = "appended",
+["color"] = "CCFFFFB9",
+},
 ["type"] = "step",
+["incomingHeal"] = {
+},
 ["background"] = {
 ["color"] = "66000000",
 },
@@ -2105,22 +2342,28 @@ TwintopInsanityBarSettings = {
 ["shaman"] = {
 ["enhancement"] = {
 ["textures"] = {
+["castingBar"] = "Interface\\Addons\\TwintopInsanityBar\\StatusBars\\smoother.tga",
 ["borderName"] = "1 Pixel",
 ["border"] = "Interface\\Buttons\\WHITE8X8",
+["absorbBar"] = "Interface\\Buttons\\WHITE8X8",
 ["healthBackgroundName"] = "Blizzard Tooltip",
 ["healthBorder"] = "Interface\\Buttons\\WHITE8X8",
 ["healthBorderName"] = "1 Pixel",
 ["background"] = "Interface\\Tooltips\\UI-Tooltip-Background",
 ["backgroundName"] = "Blizzard Tooltip",
 ["resourceBarName"] = "TRB: Smoother",
-["healthBar"] = "Interface\\Addons\\TwintopInsanityBar\\StatusBars\\smoother.tga",
-["comboPointsBarName"] = "TRB: Smoother",
-["textureLock"] = true,
 ["comboPointsBar"] = "Interface\\Addons\\TwintopInsanityBar\\StatusBars\\smoother.tga",
-["healthBackground"] = "Interface\\Tooltips\\UI-Tooltip-Background",
-["comboPointsBorderName"] = "1 Pixel",
-["comboPointsBackground"] = "Interface\\Tooltips\\UI-Tooltip-Background",
+["healthBar"] = "Interface\\Addons\\TwintopInsanityBar\\StatusBars\\smoother.tga",
 ["comboPointsBackgroundName"] = "Blizzard Tooltip",
+["comboPointsBarName"] = "TRB: Smoother",
+["comboPointsBackground"] = "Interface\\Tooltips\\UI-Tooltip-Background",
+["textureLock"] = true,
+["absorbBarName"] = "Solid",
+["castingBarName"] = "TRB: Smoother",
+["incomingHealBar"] = "Interface\\Buttons\\WHITE8X8",
+["comboPointsBorderName"] = "1 Pixel",
+["incomingHealBarName"] = "Solid",
+["healthBackground"] = "Interface\\Tooltips\\UI-Tooltip-Background",
 ["comboPointsBorder"] = "Interface\\Buttons\\WHITE8X8",
 ["healthBarName"] = "TRB: Smoother",
 ["resourceBar"] = "Interface\\Addons\\TwintopInsanityBar\\StatusBars\\smoother.tga",
@@ -2130,31 +2373,31 @@ TwintopInsanityBarSettings = {
 ["enabled"] = false,
 ["name"] = "Maelstrom Weapon Threshold 2",
 ["soundName"] = "TRB: Boxing Arena Gong",
-["sound"] = "Interface\\Addons\\TwintopInsanityBar\\Sounds\\BoxingArenaSound.ogg",
 ["configuration"] = {
 ["thresholdValue"] = 10,
 },
+["sound"] = "Interface\\Addons\\TwintopInsanityBar\\Sounds\\BoxingArenaSound.ogg",
 },
 ["maelstromWeaponThreshold1"] = {
 ["enabled"] = false,
 ["name"] = "Maelstrom Weapon Threshold 1",
 ["soundName"] = "TRB: Boxing Arena Gong",
-["sound"] = "Interface\\Addons\\TwintopInsanityBar\\Sounds\\BoxingArenaSound.ogg",
 ["configuration"] = {
 ["thresholdValue"] = 5,
 },
+["sound"] = "Interface\\Addons\\TwintopInsanityBar\\Sounds\\BoxingArenaSound.ogg",
 },
 },
 ["displayText"] = {
 ["default"] = {
 ["fontFace"] = "Fonts\\FRIZQT__.TTF",
 ["fontFaceName"] = "Friz Quadrata TT",
-["fontJustifyHorizontal"] = "LEFT",
-["fontJustifyHorizontalName"] = "Left",
-["fontSize"] = 14,
 ["color"] = {
 ["color"] = "FFFFFFFF",
 },
+["fontJustifyHorizontalName"] = "Left",
+["fontSize"] = 14,
+["fontJustifyHorizontal"] = "LEFT",
 },
 ["barText"] = {
 {
@@ -2329,7 +2572,17 @@ TwintopInsanityBarSettings = {
 ["color"] = "FFFF0000",
 ["threshold"] = 0,
 },
+["absorb"] = {
+["color"] = "CCFFFFB9",
+["mode"] = "appended",
+["enabled"] = true,
+},
 ["type"] = "step",
+["incomingHeal"] = {
+["color"] = "CC80b980",
+["mode"] = "appended",
+["enabled"] = true,
+},
 ["background"] = {
 ["color"] = "66000000",
 },
@@ -2384,6 +2637,10 @@ TwintopInsanityBarSettings = {
 },
 ["border"] = {
 ["color"] = "FF000099",
+},
+["casting"] = {
+["color"] = "FFFFFFFF",
+["enabled"] = true,
 },
 ["ascendance"] = {
 ["color"] = "FFFA8128",
@@ -2461,22 +2718,28 @@ TwintopInsanityBarSettings = {
 },
 ["elemental"] = {
 ["textures"] = {
+["castingBar"] = "Interface\\Addons\\TwintopInsanityBar\\StatusBars\\smoother.tga",
 ["borderName"] = "1 Pixel",
 ["manaBarBackground"] = "Interface\\Tooltips\\UI-Tooltip-Background",
 ["border"] = "Interface\\Buttons\\WHITE8X8",
+["absorbBar"] = "Interface\\Buttons\\WHITE8X8",
 ["healthBackgroundName"] = "Blizzard Tooltip",
 ["healthBorder"] = "Interface\\Buttons\\WHITE8X8",
 ["healthBorderName"] = "1 Pixel",
 ["background"] = "Interface\\Tooltips\\UI-Tooltip-Background",
 ["backgroundName"] = "Blizzard Tooltip",
-["manaBarBorder"] = "Interface\\Buttons\\WHITE8X8",
+["resourceBarName"] = "TRB: Smoother",
 ["manaBarBarName"] = "TRB: Smoother",
 ["healthBar"] = "Interface\\Addons\\TwintopInsanityBar\\StatusBars\\smoother.tga",
-["textureLock"] = true,
 ["resourceBar"] = "Interface\\Addons\\TwintopInsanityBar\\StatusBars\\smoother.tga",
-["healthBackground"] = "Interface\\Tooltips\\UI-Tooltip-Background",
 ["manaBarBar"] = "Interface\\Addons\\TwintopInsanityBar\\StatusBars\\smoother.tga",
-["resourceBarName"] = "TRB: Smoother",
+["textureLock"] = true,
+["absorbBarName"] = "Solid",
+["manaBarBorder"] = "Interface\\Buttons\\WHITE8X8",
+["castingBarName"] = "TRB: Smoother",
+["healthBackground"] = "Interface\\Tooltips\\UI-Tooltip-Background",
+["incomingHealBarName"] = "Solid",
+["incomingHealBar"] = "Interface\\Buttons\\WHITE8X8",
 ["manaBarBackgroundName"] = "Blizzard Tooltip",
 ["healthBarName"] = "TRB: Smoother",
 ["manaBarBorderName"] = "1 Pixel",
@@ -2495,9 +2758,9 @@ TwintopInsanityBarSettings = {
 ["audio"] = {
 ["esReady"] = {
 ["enabled"] = false,
+["name"] = "Earth Shock Ready",
 ["sound"] = "Interface\\Addons\\TwintopInsanityBar\\Sounds\\BoxingArenaSound.ogg",
 ["soundName"] = "TRB: Boxing Arena Gong",
-["name"] = "Earth Shock Ready",
 },
 },
 ["thresholds"] = {
@@ -2536,12 +2799,12 @@ TwintopInsanityBarSettings = {
 ["default"] = {
 ["fontFace"] = "Fonts\\FRIZQT__.TTF",
 ["fontFaceName"] = "Friz Quadrata TT",
-["fontJustifyHorizontal"] = "LEFT",
-["fontJustifyHorizontalName"] = "Left",
-["fontSize"] = 14,
 ["color"] = {
 ["color"] = "FFFFFFFF",
 },
+["fontJustifyHorizontalName"] = "Left",
+["fontSize"] = 14,
+["fontJustifyHorizontal"] = "LEFT",
 },
 ["barText"] = {
 {
@@ -2811,7 +3074,17 @@ TwintopInsanityBarSettings = {
 ["color"] = "FFFF0000",
 ["threshold"] = 0,
 },
+["absorb"] = {
+["color"] = "CCFFFFB9",
+["mode"] = "appended",
+["enabled"] = true,
+},
 ["type"] = "step",
+["incomingHeal"] = {
+["color"] = "CC80b980",
+["mode"] = "appended",
+["enabled"] = true,
+},
 ["background"] = {
 ["color"] = "66000000",
 },
@@ -2878,6 +3151,10 @@ TwintopInsanityBarSettings = {
 },
 ["background"] = {
 ["color"] = "66000000",
+},
+["casting"] = {
+["color"] = "FFFFFFFF",
+["enabled"] = true,
 },
 ["flashAlpha"] = 0.7,
 ["ascendance"] = {
@@ -2963,17 +3240,23 @@ TwintopInsanityBarSettings = {
 },
 ["restoration"] = {
 ["textures"] = {
-["resourceBarName"] = "TRB: Smoother",
-["healthBar"] = "Interface\\Addons\\TwintopInsanityBar\\StatusBars\\smoother.tga",
+["castingBar"] = "Interface\\Addons\\TwintopInsanityBar\\StatusBars\\smoother.tga",
 ["borderName"] = "1 Pixel",
 ["border"] = "Interface\\Buttons\\WHITE8X8",
-["textureLock"] = true,
-["backgroundName"] = "Blizzard Tooltip",
-["healthBackground"] = "Interface\\Tooltips\\UI-Tooltip-Background",
+["absorbBar"] = "Interface\\Buttons\\WHITE8X8",
 ["healthBackgroundName"] = "Blizzard Tooltip",
 ["healthBorder"] = "Interface\\Buttons\\WHITE8X8",
 ["healthBorderName"] = "1 Pixel",
 ["background"] = "Interface\\Tooltips\\UI-Tooltip-Background",
+["backgroundName"] = "Blizzard Tooltip",
+["resourceBarName"] = "TRB: Smoother",
+["healthBar"] = "Interface\\Addons\\TwintopInsanityBar\\StatusBars\\smoother.tga",
+["textureLock"] = true,
+["absorbBarName"] = "Solid",
+["healthBackground"] = "Interface\\Tooltips\\UI-Tooltip-Background",
+["incomingHealBar"] = "Interface\\Buttons\\WHITE8X8",
+["castingBarName"] = "TRB: Smoother",
+["incomingHealBarName"] = "Solid",
 ["healthBarName"] = "TRB: Smoother",
 ["resourceBar"] = "Interface\\Addons\\TwintopInsanityBar\\StatusBars\\smoother.tga",
 },
@@ -3000,12 +3283,12 @@ TwintopInsanityBarSettings = {
 ["default"] = {
 ["fontFace"] = "Fonts\\FRIZQT__.TTF",
 ["fontFaceName"] = "Friz Quadrata TT",
-["fontJustifyHorizontal"] = "LEFT",
-["fontJustifyHorizontalName"] = "Left",
-["fontSize"] = 14,
 ["color"] = {
 ["color"] = "FFFFFFFF",
 },
+["fontJustifyHorizontalName"] = "Left",
+["fontSize"] = 14,
+["fontJustifyHorizontal"] = "LEFT",
 },
 ["barText"] = {
 {
@@ -3175,7 +3458,17 @@ TwintopInsanityBarSettings = {
 ["color"] = "FFFF0000",
 ["threshold"] = 0,
 },
+["absorb"] = {
+["color"] = "CCFFFFB9",
+["mode"] = "appended",
+["enabled"] = true,
+},
 ["type"] = "step",
+["incomingHeal"] = {
+["color"] = "CC80b980",
+["mode"] = "appended",
+["enabled"] = true,
+},
 ["background"] = {
 ["color"] = "66000000",
 },
@@ -3198,6 +3491,10 @@ TwintopInsanityBarSettings = {
 ["border"] = {
 ["color"] = "FF000099",
 },
+["casting"] = {
+["color"] = "FFFFFFFF",
+["enabled"] = true,
+},
 ["ascendance"] = {
 ["color"] = "FFFA8128",
 ["enabled"] = true,
@@ -3219,9 +3516,9 @@ TwintopInsanityBarSettings = {
 ["audio"] = {
 ["innervate"] = {
 ["enabled"] = false,
+["name"] = "Innervate",
 ["sound"] = "Interface\\Addons\\TwintopInsanityBar\\Sounds\\BoxingArenaSound.ogg",
 ["soundName"] = "TRB: Boxing Arena Gong",
-["name"] = "Innervate",
 },
 },
 ["bar"] = {
@@ -3263,9 +3560,9 @@ TwintopInsanityBarSettings = {
 ["audio"] = {
 ["innervate"] = {
 ["enabled"] = false,
-["name"] = "Innervate",
 ["sound"] = "Interface\\Addons\\TwintopInsanityBar\\Sounds\\BoxingArenaSound.ogg",
 ["soundName"] = "TRB: Boxing Arena Gong",
+["name"] = "Innervate",
 },
 },
 ["healthBar"] = {
@@ -3277,7 +3574,6 @@ TwintopInsanityBarSettings = {
 ["spacing"] = 0,
 ["height"] = 20,
 ["yPos"] = 0,
-["fullWidth"] = true,
 ["anchor"] = {
 ["barKey"] = "primary",
 ["attachPoint"] = "TOP",
@@ -3286,6 +3582,7 @@ TwintopInsanityBarSettings = {
 ["anchorPoint"] = "BOTTOM",
 ["yOffset"] = 0,
 },
+["fullWidth"] = true,
 },
 ["colors"] = {
 ["text"] = {
@@ -3305,6 +3602,10 @@ TwintopInsanityBarSettings = {
 ["threshold"] = 0,
 },
 ["type"] = "step",
+["absorb"] = {
+},
+["incomingHeal"] = {
+},
 ["high"] = {
 ["color"] = "FF00FF00",
 ["threshold"] = 0.7,
@@ -3347,10 +3648,10 @@ TwintopInsanityBarSettings = {
 ["displayText"] = {
 ["default"] = {
 ["fontFace"] = "Fonts\\FRIZQT__.TTF",
+["fontJustifyHorizontal"] = "LEFT",
 ["color"] = {
 ["color"] = "FFFFFFFF",
 },
-["fontJustifyHorizontal"] = "LEFT",
 ["fontSize"] = 14,
 ["fontJustifyHorizontalName"] = "Left",
 ["fontFaceName"] = "Friz Quadrata TT",
@@ -3481,9 +3782,8 @@ TwintopInsanityBarSettings = {
 },
 ["bar"] = {
 ["dragAndDrop"] = false,
-["xPos"] = 0,
 ["pinToPersonalResourceDisplay"] = false,
-["height"] = 30,
+["xPos"] = 0,
 ["anchor"] = {
 ["barKey"] = "screen",
 ["attachPoint"] = "CENTER",
@@ -3492,6 +3792,7 @@ TwintopInsanityBarSettings = {
 ["anchorPoint"] = "CENTER",
 ["yOffset"] = -200,
 },
+["height"] = 30,
 ["yPos"] = -200,
 ["border"] = 2,
 ["width"] = 300,
@@ -3528,7 +3829,6 @@ TwintopInsanityBarSettings = {
 ["spacing"] = 0,
 ["height"] = 20,
 ["yPos"] = 0,
-["fullWidth"] = true,
 ["anchor"] = {
 ["barKey"] = "primary",
 ["attachPoint"] = "TOP",
@@ -3537,6 +3837,7 @@ TwintopInsanityBarSettings = {
 ["anchorPoint"] = "BOTTOM",
 ["yOffset"] = 0,
 },
+["fullWidth"] = true,
 },
 ["thresholds"] = {
 ["stagger"] = {
@@ -3602,10 +3903,10 @@ TwintopInsanityBarSettings = {
 ["displayText"] = {
 ["default"] = {
 ["fontFace"] = "Fonts\\FRIZQT__.TTF",
+["fontJustifyHorizontal"] = "LEFT",
 ["color"] = {
 ["color"] = "FFFFFFFF",
 },
-["fontJustifyHorizontal"] = "LEFT",
 ["fontSize"] = 14,
 ["fontJustifyHorizontalName"] = "Left",
 ["fontFaceName"] = "Friz Quadrata TT",
@@ -3775,6 +4076,10 @@ TwintopInsanityBarSettings = {
 ["threshold"] = 0,
 },
 ["type"] = "step",
+["absorb"] = {
+},
+["incomingHeal"] = {
+},
 ["high"] = {
 ["color"] = "FF00FF00",
 ["threshold"] = 0.7,
@@ -3866,8 +4171,10 @@ TwintopInsanityBarSettings = {
 ["border"] = 2,
 ["width"] = 30,
 ["relativeToName"] = "Above - Center",
-["maxScale"] = 1,
+["yPos"] = 0,
 ["spacing"] = 0,
+["height"] = 20,
+["maxScale"] = 1,
 ["anchor"] = {
 ["barKey"] = "primary",
 ["attachPoint"] = "BOTTOM",
@@ -3876,9 +4183,7 @@ TwintopInsanityBarSettings = {
 ["anchorPoint"] = "TOP",
 ["yOffset"] = 0,
 },
-["yPos"] = 0,
 ["fullWidth"] = true,
-["height"] = 20,
 },
 },
 ["overcap"] = {
@@ -3908,9 +4213,8 @@ TwintopInsanityBarSettings = {
 },
 ["bar"] = {
 ["dragAndDrop"] = false,
-["xPos"] = 0,
 ["pinToPersonalResourceDisplay"] = false,
-["height"] = 30,
+["xPos"] = 0,
 ["anchor"] = {
 ["barKey"] = "screen",
 ["attachPoint"] = "CENTER",
@@ -3919,6 +4223,7 @@ TwintopInsanityBarSettings = {
 ["anchorPoint"] = "CENTER",
 ["yOffset"] = -200,
 },
+["height"] = 30,
 ["yPos"] = -200,
 ["border"] = 2,
 ["width"] = 300,
@@ -3955,7 +4260,6 @@ TwintopInsanityBarSettings = {
 ["spacing"] = 0,
 ["height"] = 20,
 ["yPos"] = 0,
-["fullWidth"] = true,
 ["anchor"] = {
 ["barKey"] = "primary",
 ["attachPoint"] = "TOP",
@@ -3964,6 +4268,7 @@ TwintopInsanityBarSettings = {
 ["anchorPoint"] = "BOTTOM",
 ["yOffset"] = 0,
 },
+["fullWidth"] = true,
 },
 ["thresholds"] = {
 ["properties"] = {
@@ -3983,7 +4288,7 @@ TwintopInsanityBarSettings = {
 ["desaturated"] = true,
 },
 ["thresholdDictionary"] = {
-["cracklingJadeLightning"] = {
+["paralysis"] = {
 ["enabled"] = false,
 },
 ["detox"] = {
@@ -3992,11 +4297,11 @@ TwintopInsanityBarSettings = {
 ["tigerPalm"] = {
 ["enabled"] = true,
 },
+["cracklingJadeLightning"] = {
+["enabled"] = false,
+},
 ["expelHarm"] = {
 ["enabled"] = true,
-},
-["paralysis"] = {
-["enabled"] = false,
 },
 ["vivify"] = {
 ["enabled"] = false,
@@ -4012,10 +4317,10 @@ TwintopInsanityBarSettings = {
 ["displayText"] = {
 ["default"] = {
 ["fontFace"] = "Fonts\\FRIZQT__.TTF",
+["fontJustifyHorizontal"] = "LEFT",
 ["color"] = {
 ["color"] = "FFFFFFFF",
 },
-["fontJustifyHorizontal"] = "LEFT",
 ["fontSize"] = 14,
 ["fontJustifyHorizontalName"] = "Left",
 ["fontFaceName"] = "Friz Quadrata TT",
@@ -4103,11 +4408,38 @@ TwintopInsanityBarSettings = {
 ["enabled"] = false,
 },
 ["audio"] = {
+["chiThreshold1"] = {
+["enabled"] = false,
+["name"] = "Chi Threshold 1",
+["sound"] = "Interface\\Addons\\TwintopInsanityBar\\Sounds\\BoxingArenaSound.ogg",
+["configuration"] = {
+["thresholdValue"] = 3,
+},
+["soundName"] = "TRB: Boxing Arena Gong",
+},
+["chiThreshold2"] = {
+["enabled"] = false,
+["name"] = "Chi Threshold 2",
+["sound"] = "Interface\\Addons\\TwintopInsanityBar\\Sounds\\BoxingArenaSound.ogg",
+["configuration"] = {
+["thresholdValue"] = 5,
+},
+["soundName"] = "TRB: Boxing Arena Gong",
+},
 ["danceOfChiJi"] = {
 ["enabled"] = false,
-["name"] = "Dance of Chi-Ji",
 ["sound"] = "Interface\\Addons\\TwintopInsanityBar\\Sounds\\AirHorn.ogg",
 ["soundName"] = "TRB: Air Horn",
+["name"] = "Dance of Chi-Ji",
+},
+["chiThreshold3"] = {
+["enabled"] = false,
+["name"] = "Chi Threshold 3",
+["sound"] = "Interface\\Addons\\TwintopInsanityBar\\Sounds\\BoxingArenaSound.ogg",
+["configuration"] = {
+["thresholdValue"] = 6,
+},
+["soundName"] = "TRB: Boxing Arena Gong",
 },
 },
 ["colors"] = {
@@ -4133,6 +4465,10 @@ TwintopInsanityBarSettings = {
 ["threshold"] = 0,
 },
 ["type"] = "step",
+["absorb"] = {
+},
+["incomingHeal"] = {
+},
 ["high"] = {
 ["color"] = "FF00FF00",
 ["threshold"] = 0.7,
@@ -4186,8 +4522,8 @@ TwintopInsanityBarSettings = {
 },
 },
 ["bar"] = {
-["heartOfTheJadeSerpent"] = {
-["color"] = "FF00FFBB",
+["borderOvercap"] = {
+["color"] = "FFFF0000",
 ["enabled"] = true,
 },
 ["heartOfTheJadeSerpentReady"] = {
@@ -4196,19 +4532,20 @@ TwintopInsanityBarSettings = {
 },
 ["borderChiJi"] = {
 ["color"] = "FF00FF00",
+["enabled"] = true,
 },
-["borderOvercap"] = {
-["color"] = "FFFF0000",
+["heartOfTheJadeSerpent"] = {
+["color"] = "FF00FFBB",
 ["enabled"] = true,
 },
 ["background"] = {
 ["color"] = "66000000",
 },
-["border"] = {
-["color"] = "FFFFD300",
-},
 ["base"] = {
 ["color"] = "FFFFFF00",
+},
+["border"] = {
+["color"] = "FFFFD300",
 },
 },
 },
@@ -4246,7 +4583,6 @@ TwintopInsanityBarSettings = {
 ["spacing"] = 0,
 ["height"] = 20,
 ["yPos"] = 0,
-["fullWidth"] = true,
 ["anchor"] = {
 ["barKey"] = "primary",
 ["attachPoint"] = "BOTTOM",
@@ -4255,12 +4591,12 @@ TwintopInsanityBarSettings = {
 ["anchorPoint"] = "TOP",
 ["yOffset"] = 0,
 },
+["fullWidth"] = true,
 },
 ["bar"] = {
 ["dragAndDrop"] = false,
-["xPos"] = 0,
 ["pinToPersonalResourceDisplay"] = false,
-["height"] = 30,
+["xPos"] = 0,
 ["anchor"] = {
 ["barKey"] = "screen",
 ["attachPoint"] = "CENTER",
@@ -4269,6 +4605,7 @@ TwintopInsanityBarSettings = {
 ["anchorPoint"] = "CENTER",
 ["yOffset"] = -200,
 },
+["height"] = 30,
 ["yPos"] = -200,
 ["border"] = 2,
 ["width"] = 300,
@@ -4278,56 +4615,55 @@ TwintopInsanityBarSettings = {
 ["rogue"] = {
 ["outlaw"] = {
 ["textures"] = {
+["castingBar"] = "Interface\\Addons\\TwintopInsanityBar\\StatusBars\\smoother.tga",
 ["borderName"] = "1 Pixel",
 ["border"] = "Interface\\Buttons\\WHITE8X8",
+["absorbBar"] = "Interface\\Buttons\\WHITE8X8",
 ["healthBackgroundName"] = "Blizzard Tooltip",
 ["healthBorder"] = "Interface\\Buttons\\WHITE8X8",
 ["healthBorderName"] = "1 Pixel",
 ["background"] = "Interface\\Tooltips\\UI-Tooltip-Background",
 ["backgroundName"] = "Blizzard Tooltip",
 ["resourceBarName"] = "TRB: Smoother",
-["healthBar"] = "Interface\\Addons\\TwintopInsanityBar\\StatusBars\\smoother.tga",
-["comboPointsBarName"] = "TRB: Smoother",
-["textureLock"] = true,
 ["comboPointsBar"] = "Interface\\Addons\\TwintopInsanityBar\\StatusBars\\smoother.tga",
-["healthBackground"] = "Interface\\Tooltips\\UI-Tooltip-Background",
-["comboPointsBorderName"] = "1 Pixel",
-["comboPointsBackground"] = "Interface\\Tooltips\\UI-Tooltip-Background",
+["healthBar"] = "Interface\\Addons\\TwintopInsanityBar\\StatusBars\\smoother.tga",
 ["comboPointsBackgroundName"] = "Blizzard Tooltip",
+["comboPointsBarName"] = "TRB: Smoother",
+["comboPointsBackground"] = "Interface\\Tooltips\\UI-Tooltip-Background",
+["textureLock"] = true,
+["absorbBarName"] = "Solid",
+["healthBackground"] = "Interface\\Tooltips\\UI-Tooltip-Background",
+["incomingHealBarName"] = "Solid",
+["comboPointsBorderName"] = "1 Pixel",
+["incomingHealBar"] = "Interface\\Buttons\\WHITE8X8",
+["castingBarName"] = "TRB: Smoother",
 ["comboPointsBorder"] = "Interface\\Buttons\\WHITE8X8",
 ["healthBarName"] = "TRB: Smoother",
 ["resourceBar"] = "Interface\\Addons\\TwintopInsanityBar\\StatusBars\\smoother.tga",
 },
-["audio"] = {
-["comboPointThreshold1"] = {
-["enabled"] = false,
-["name"] = "Combo Point Threshold 1",
-["soundName"] = "TRB: Boxing Arena Gong",
-["configuration"] = {
-["thresholdValue"] = 3,
+["healthBar"] = {
+["relativeTo"] = "BOTTOM",
+["xPos"] = 0,
+["border"] = 2,
+["width"] = 300,
+["relativeToName"] = "Below - Center",
+["spacing"] = 0,
+["height"] = 20,
+["yPos"] = 0,
+["anchor"] = {
+["barKey"] = "primary",
+["attachPoint"] = "TOP",
+["xOffset"] = 0,
+["matchWidth"] = true,
+["anchorPoint"] = "BOTTOM",
+["yOffset"] = 0,
 },
-["sound"] = "Interface\\Addons\\TwintopInsanityBar\\Sounds\\BoxingArenaSound.ogg",
-},
-["opportunity"] = {
-["enabled"] = false,
-["soundName"] = "TRB: Air Horn",
-["name"] = "Opportunity Proc",
-["sound"] = "Interface\\Addons\\TwintopInsanityBar\\Sounds\\AirHorn.ogg",
-},
-["comboPointThreshold2"] = {
-["enabled"] = false,
-["name"] = "Combo Point Threshold 2",
-["soundName"] = "TRB: Boxing Arena Gong",
-["configuration"] = {
-["thresholdValue"] = 5,
-},
-["sound"] = "Interface\\Addons\\TwintopInsanityBar\\Sounds\\BoxingArenaSound.ogg",
-},
+["fullWidth"] = true,
 },
 ["thresholds"] = {
 ["properties"] = {
-["width"] = 2,
 ["overlapBorder"] = true,
+["width"] = 2,
 },
 ["icons"] = {
 ["enabled"] = true,
@@ -4369,8 +4705,8 @@ TwintopInsanityBarSettings = {
 ["gouge"] = {
 ["enabled"] = false,
 },
-["shiv"] = {
-["enabled"] = false,
+["coupDeGrace"] = {
+["enabled"] = true,
 },
 ["sliceAndDice"] = {
 ["enabled"] = false,
@@ -4381,7 +4717,7 @@ TwintopInsanityBarSettings = {
 ["crimsonVial"] = {
 ["enabled"] = false,
 },
-["bladeFlurry"] = {
+["pistolShot"] = {
 ["enabled"] = false,
 },
 ["sap"] = {
@@ -4393,27 +4729,27 @@ TwintopInsanityBarSettings = {
 ["feint"] = {
 ["enabled"] = false,
 },
-["pistolShot"] = {
+["bladeFlurry"] = {
 ["enabled"] = false,
 },
 ["deathFromAbove"] = {
 ["enabled"] = false,
 },
-["coupDeGrace"] = {
-["enabled"] = true,
+["shiv"] = {
+["enabled"] = false,
 },
 },
 },
 ["displayText"] = {
 ["default"] = {
 ["fontFace"] = "Fonts\\FRIZQT__.TTF",
-["fontFaceName"] = "Friz Quadrata TT",
+["fontJustifyHorizontal"] = "LEFT",
 ["color"] = {
 ["color"] = "FFFFFFFF",
 },
-["fontJustifyHorizontalName"] = "Left",
 ["fontSize"] = 14,
-["fontJustifyHorizontal"] = "LEFT",
+["fontJustifyHorizontalName"] = "Left",
+["fontFaceName"] = "Friz Quadrata TT",
 },
 ["barText"] = {
 {
@@ -4497,31 +4833,38 @@ TwintopInsanityBarSettings = {
 ["value"] = 250,
 ["enabled"] = false,
 },
-["healthBar"] = {
-["relativeTo"] = "BOTTOM",
-["xPos"] = 0,
-["border"] = 2,
-["width"] = 300,
-["relativeToName"] = "Below - Center",
-["spacing"] = 0,
-["height"] = 20,
-["yPos"] = 0,
-["fullWidth"] = true,
-["anchor"] = {
-["barKey"] = "primary",
-["attachPoint"] = "TOP",
-["xOffset"] = 0,
-["matchWidth"] = true,
-["anchorPoint"] = "BOTTOM",
-["yOffset"] = 0,
+["audio"] = {
+["comboPointThreshold1"] = {
+["enabled"] = false,
+["name"] = "Combo Point Threshold 1",
+["sound"] = "Interface\\Addons\\TwintopInsanityBar\\Sounds\\BoxingArenaSound.ogg",
+["configuration"] = {
+["thresholdValue"] = 3,
+},
+["soundName"] = "TRB: Boxing Arena Gong",
+},
+["opportunity"] = {
+["enabled"] = false,
+["name"] = "Opportunity Proc",
+["sound"] = "Interface\\Addons\\TwintopInsanityBar\\Sounds\\AirHorn.ogg",
+["soundName"] = "TRB: Air Horn",
+},
+["comboPointThreshold2"] = {
+["enabled"] = false,
+["name"] = "Combo Point Threshold 2",
+["sound"] = "Interface\\Addons\\TwintopInsanityBar\\Sounds\\BoxingArenaSound.ogg",
+["configuration"] = {
+["thresholdValue"] = 5,
+},
+["soundName"] = "TRB: Boxing Arena Gong",
 },
 },
 ["colors"] = {
 ["threshold"] = {
 ["outOfRange"] = {
 ["color"] = "FF440000",
-["enabled"] = true,
 ["show"] = true,
+["enabled"] = true,
 },
 ["echoingReprimand"] = {
 ["color"] = "FF68CCEF",
@@ -4530,19 +4873,19 @@ TwintopInsanityBarSettings = {
 ["under"] = {
 ["color"] = "FFFFFFFF",
 },
-["restlessBlades"] = {
-["color"] = "FFFFFF00",
-["enabled"] = true,
+["over"] = {
+["color"] = "FF00FF00",
 },
 ["special"] = {
 ["color"] = "FFFF00FF",
 ["enabled"] = true,
 },
-["over"] = {
-["color"] = "FF00FF00",
-},
 ["unusable"] = {
 ["color"] = "FFFF0000",
+},
+["restlessBlades"] = {
+["color"] = "FFFFFF00",
+["enabled"] = true,
 },
 },
 ["healthBar"] = {
@@ -4550,13 +4893,23 @@ TwintopInsanityBarSettings = {
 ["color"] = "FFFF0000",
 ["threshold"] = 0,
 },
+["absorb"] = {
+["color"] = "CCFFFFB9",
+["mode"] = "appended",
+["enabled"] = true,
+},
 ["type"] = "step",
-["background"] = {
-["color"] = "66000000",
+["incomingHeal"] = {
+["color"] = "CC80b980",
+["mode"] = "appended",
+["enabled"] = true,
 },
 ["high"] = {
 ["color"] = "FF00FF00",
 ["threshold"] = 0.7,
+},
+["background"] = {
+["color"] = "66000000",
 },
 ["border"] = {
 ["color"] = "FF008800",
@@ -4592,16 +4945,16 @@ TwintopInsanityBarSettings = {
 ["echoingReprimand"] = {
 ["color"] = "FF68CCEF",
 },
-["consistentUnfilledColor"] = false,
-["sameColor"] = false,
-["base"] = {
-["color"] = "FFFFFF00",
+["border"] = {
+["color"] = "FFFFD300",
 },
+["sameColor"] = false,
+["consistentUnfilledColor"] = false,
 ["background"] = {
 ["color"] = "66000000",
 },
-["border"] = {
-["color"] = "FFFFD300",
+["base"] = {
+["color"] = "FFFFFF00",
 },
 ["final"] = {
 ["color"] = "FFFF0000",
@@ -4616,13 +4969,6 @@ TwintopInsanityBarSettings = {
 ["color"] = "FF00FF00",
 ["enabled"] = true,
 },
-["background"] = {
-["color"] = "66000000",
-},
-["borderOvercap"] = {
-["color"] = "FFFF0000",
-["enabled"] = true,
-},
 ["borderStealth"] = {
 ["color"] = "FF000000",
 ["enabled"] = true,
@@ -4630,8 +4976,19 @@ TwintopInsanityBarSettings = {
 ["base"] = {
 ["color"] = "FFFFFF00",
 },
+["borderOvercap"] = {
+["color"] = "FFFF0000",
+["enabled"] = true,
+},
+["background"] = {
+["color"] = "66000000",
+},
 ["border"] = {
 ["color"] = "FFFFD300",
+},
+["casting"] = {
+["color"] = "FFFFFFFF",
+["enabled"] = true,
 },
 },
 },
@@ -4652,12 +5009,12 @@ TwintopInsanityBarSettings = {
 },
 ["overcap"] = {
 ["mode"] = "relative",
-["relative"] = 0,
 ["fixed"] = 250,
+["relative"] = 0,
 },
 ["precision"] = {
-["health"] = 1,
 ["resource"] = 0,
+["health"] = 1,
 ["secondary"] = 2,
 },
 ["comboPoints"] = {
@@ -4669,7 +5026,6 @@ TwintopInsanityBarSettings = {
 ["spacing"] = 0,
 ["height"] = 20,
 ["yPos"] = 0,
-["fullWidth"] = true,
 ["anchor"] = {
 ["barKey"] = "primary",
 ["attachPoint"] = "BOTTOM",
@@ -4678,12 +5034,12 @@ TwintopInsanityBarSettings = {
 ["anchorPoint"] = "TOP",
 ["yOffset"] = 0,
 },
+["fullWidth"] = true,
 },
 ["bar"] = {
-["width"] = 300,
-["xPos"] = 0,
+["dragAndDrop"] = false,
 ["pinToPersonalResourceDisplay"] = false,
-["height"] = 30,
+["xPos"] = 0,
 ["anchor"] = {
 ["barKey"] = "screen",
 ["attachPoint"] = "CENTER",
@@ -4692,57 +5048,63 @@ TwintopInsanityBarSettings = {
 ["anchorPoint"] = "CENTER",
 ["yOffset"] = -200,
 },
+["height"] = 30,
 ["yPos"] = -200,
 ["border"] = 2,
-["dragAndDrop"] = false,
+["width"] = 300,
 },
 },
 ["subtlety"] = {
 ["textures"] = {
+["castingBar"] = "Interface\\Addons\\TwintopInsanityBar\\StatusBars\\smoother.tga",
 ["borderName"] = "1 Pixel",
 ["border"] = "Interface\\Buttons\\WHITE8X8",
+["absorbBar"] = "Interface\\Buttons\\WHITE8X8",
 ["healthBackgroundName"] = "Blizzard Tooltip",
 ["healthBorder"] = "Interface\\Buttons\\WHITE8X8",
 ["healthBorderName"] = "1 Pixel",
 ["background"] = "Interface\\Tooltips\\UI-Tooltip-Background",
 ["backgroundName"] = "Blizzard Tooltip",
 ["resourceBarName"] = "TRB: Smoother",
-["healthBar"] = "Interface\\Addons\\TwintopInsanityBar\\StatusBars\\smoother.tga",
-["comboPointsBarName"] = "TRB: Smoother",
-["textureLock"] = true,
 ["comboPointsBar"] = "Interface\\Addons\\TwintopInsanityBar\\StatusBars\\smoother.tga",
-["healthBackground"] = "Interface\\Tooltips\\UI-Tooltip-Background",
-["comboPointsBorderName"] = "1 Pixel",
-["comboPointsBackground"] = "Interface\\Tooltips\\UI-Tooltip-Background",
+["healthBar"] = "Interface\\Addons\\TwintopInsanityBar\\StatusBars\\smoother.tga",
 ["comboPointsBackgroundName"] = "Blizzard Tooltip",
+["comboPointsBarName"] = "TRB: Smoother",
+["comboPointsBackground"] = "Interface\\Tooltips\\UI-Tooltip-Background",
+["textureLock"] = true,
+["absorbBarName"] = "Solid",
+["healthBackground"] = "Interface\\Tooltips\\UI-Tooltip-Background",
+["incomingHealBarName"] = "Solid",
+["comboPointsBorderName"] = "1 Pixel",
+["incomingHealBar"] = "Interface\\Buttons\\WHITE8X8",
+["castingBarName"] = "TRB: Smoother",
 ["comboPointsBorder"] = "Interface\\Buttons\\WHITE8X8",
 ["healthBarName"] = "TRB: Smoother",
 ["resourceBar"] = "Interface\\Addons\\TwintopInsanityBar\\StatusBars\\smoother.tga",
 },
-["audio"] = {
-["comboPointThreshold1"] = {
-["enabled"] = false,
-["name"] = "Combo Point Threshold 1",
-["soundName"] = "TRB: Boxing Arena Gong",
-["configuration"] = {
-["thresholdValue"] = 3,
+["healthBar"] = {
+["relativeTo"] = "BOTTOM",
+["xPos"] = 0,
+["border"] = 2,
+["width"] = 300,
+["relativeToName"] = "Below - Center",
+["spacing"] = 0,
+["height"] = 20,
+["yPos"] = 0,
+["anchor"] = {
+["barKey"] = "primary",
+["attachPoint"] = "TOP",
+["xOffset"] = 0,
+["matchWidth"] = true,
+["anchorPoint"] = "BOTTOM",
+["yOffset"] = 0,
 },
-["sound"] = "Interface\\Addons\\TwintopInsanityBar\\Sounds\\BoxingArenaSound.ogg",
-},
-["comboPointThreshold2"] = {
-["enabled"] = false,
-["name"] = "Combo Point Threshold 2",
-["soundName"] = "TRB: Boxing Arena Gong",
-["configuration"] = {
-["thresholdValue"] = 5,
-},
-["sound"] = "Interface\\Addons\\TwintopInsanityBar\\Sounds\\BoxingArenaSound.ogg",
-},
+["fullWidth"] = true,
 },
 ["thresholds"] = {
 ["properties"] = {
-["width"] = 2,
 ["overlapBorder"] = true,
+["width"] = 2,
 },
 ["icons"] = {
 ["enabled"] = true,
@@ -4781,17 +5143,17 @@ TwintopInsanityBarSettings = {
 ["gloomblade"] = {
 ["enabled"] = true,
 },
-["shiv"] = {
-["enabled"] = false,
+["coupDeGrace"] = {
+["enabled"] = true,
 },
-["gouge"] = {
+["shiv"] = {
 ["enabled"] = false,
 },
 ["dismantle"] = {
 ["enabled"] = false,
 },
-["backstab"] = {
-["enabled"] = true,
+["sliceAndDice"] = {
+["enabled"] = false,
 },
 ["distract"] = {
 ["enabled"] = false,
@@ -4811,27 +5173,27 @@ TwintopInsanityBarSettings = {
 ["feint"] = {
 ["enabled"] = false,
 },
-["sliceAndDice"] = {
-["enabled"] = false,
+["backstab"] = {
+["enabled"] = true,
 },
 ["deathFromAbove"] = {
 ["enabled"] = false,
 },
-["coupDeGrace"] = {
-["enabled"] = true,
+["gouge"] = {
+["enabled"] = false,
 },
 },
 },
 ["displayText"] = {
 ["default"] = {
 ["fontFace"] = "Fonts\\FRIZQT__.TTF",
-["fontFaceName"] = "Friz Quadrata TT",
+["fontJustifyHorizontal"] = "LEFT",
 ["color"] = {
 ["color"] = "FFFFFFFF",
 },
-["fontJustifyHorizontalName"] = "Left",
 ["fontSize"] = 14,
-["fontJustifyHorizontal"] = "LEFT",
+["fontJustifyHorizontalName"] = "Left",
+["fontFaceName"] = "Friz Quadrata TT",
 },
 ["barText"] = {
 {
@@ -4915,31 +5277,32 @@ TwintopInsanityBarSettings = {
 ["value"] = 200,
 ["enabled"] = false,
 },
-["healthBar"] = {
-["relativeTo"] = "BOTTOM",
-["xPos"] = 0,
-["border"] = 2,
-["width"] = 300,
-["relativeToName"] = "Below - Center",
-["spacing"] = 0,
-["height"] = 20,
-["yPos"] = 0,
-["fullWidth"] = true,
-["anchor"] = {
-["barKey"] = "primary",
-["attachPoint"] = "TOP",
-["xOffset"] = 0,
-["matchWidth"] = true,
-["anchorPoint"] = "BOTTOM",
-["yOffset"] = 0,
+["audio"] = {
+["comboPointThreshold1"] = {
+["enabled"] = false,
+["name"] = "Combo Point Threshold 1",
+["sound"] = "Interface\\Addons\\TwintopInsanityBar\\Sounds\\BoxingArenaSound.ogg",
+["configuration"] = {
+["thresholdValue"] = 3,
+},
+["soundName"] = "TRB: Boxing Arena Gong",
+},
+["comboPointThreshold2"] = {
+["enabled"] = false,
+["name"] = "Combo Point Threshold 2",
+["sound"] = "Interface\\Addons\\TwintopInsanityBar\\Sounds\\BoxingArenaSound.ogg",
+["configuration"] = {
+["thresholdValue"] = 5,
+},
+["soundName"] = "TRB: Boxing Arena Gong",
 },
 },
 ["colors"] = {
 ["threshold"] = {
 ["outOfRange"] = {
 ["color"] = "FF440000",
-["enabled"] = true,
 ["show"] = true,
+["enabled"] = true,
 },
 ["echoingReprimand"] = {
 ["color"] = "FF68CCEF",
@@ -4964,13 +5327,23 @@ TwintopInsanityBarSettings = {
 ["color"] = "FFFF0000",
 ["threshold"] = 0,
 },
+["absorb"] = {
+["color"] = "CCFFFFB9",
+["mode"] = "appended",
+["enabled"] = true,
+},
 ["type"] = "step",
-["background"] = {
-["color"] = "66000000",
+["incomingHeal"] = {
+["color"] = "CC80b980",
+["mode"] = "appended",
+["enabled"] = true,
 },
 ["high"] = {
 ["color"] = "FF00FF00",
 ["threshold"] = 0.7,
+},
+["background"] = {
+["color"] = "66000000",
 },
 ["border"] = {
 ["color"] = "FF008800",
@@ -5029,13 +5402,6 @@ TwintopInsanityBarSettings = {
 ["color"] = "FF431863",
 ["enabled"] = true,
 },
-["background"] = {
-["color"] = "66000000",
-},
-["borderOvercap"] = {
-["color"] = "FFFF0000",
-["enabled"] = true,
-},
 ["borderStealth"] = {
 ["color"] = "FF000000",
 ["enabled"] = true,
@@ -5043,8 +5409,19 @@ TwintopInsanityBarSettings = {
 ["base"] = {
 ["color"] = "FFFFFF00",
 },
+["borderOvercap"] = {
+["color"] = "FFFF0000",
+["enabled"] = true,
+},
+["background"] = {
+["color"] = "66000000",
+},
 ["border"] = {
 ["color"] = "FFFFD300",
+},
+["casting"] = {
+["color"] = "FFFFFFFF",
+["enabled"] = true,
 },
 },
 },
@@ -5065,12 +5442,12 @@ TwintopInsanityBarSettings = {
 },
 ["overcap"] = {
 ["mode"] = "relative",
-["relative"] = 0,
 ["fixed"] = 200,
+["relative"] = 0,
 },
 ["precision"] = {
-["health"] = 1,
 ["resource"] = 0,
+["health"] = 1,
 ["secondary"] = 2,
 },
 ["comboPoints"] = {
@@ -5082,7 +5459,6 @@ TwintopInsanityBarSettings = {
 ["spacing"] = 0,
 ["height"] = 20,
 ["yPos"] = 0,
-["fullWidth"] = true,
 ["anchor"] = {
 ["barKey"] = "primary",
 ["attachPoint"] = "BOTTOM",
@@ -5091,12 +5467,12 @@ TwintopInsanityBarSettings = {
 ["anchorPoint"] = "TOP",
 ["yOffset"] = 0,
 },
+["fullWidth"] = true,
 },
 ["bar"] = {
-["width"] = 300,
-["xPos"] = 0,
+["dragAndDrop"] = false,
 ["pinToPersonalResourceDisplay"] = false,
-["height"] = 30,
+["xPos"] = 0,
 ["anchor"] = {
 ["barKey"] = "screen",
 ["attachPoint"] = "CENTER",
@@ -5105,63 +5481,63 @@ TwintopInsanityBarSettings = {
 ["anchorPoint"] = "CENTER",
 ["yOffset"] = -200,
 },
+["height"] = 30,
 ["yPos"] = -200,
 ["border"] = 2,
-["dragAndDrop"] = false,
+["width"] = 300,
 },
 },
 ["assassination"] = {
 ["textures"] = {
+["castingBar"] = "Interface\\Addons\\TwintopInsanityBar\\StatusBars\\smoother.tga",
 ["borderName"] = "1 Pixel",
 ["border"] = "Interface\\Buttons\\WHITE8X8",
+["absorbBar"] = "Interface\\Buttons\\WHITE8X8",
 ["healthBackgroundName"] = "Blizzard Tooltip",
 ["healthBorder"] = "Interface\\Buttons\\WHITE8X8",
 ["healthBorderName"] = "1 Pixel",
 ["background"] = "Interface\\Tooltips\\UI-Tooltip-Background",
 ["backgroundName"] = "Blizzard Tooltip",
 ["resourceBarName"] = "TRB: Smoother",
-["healthBar"] = "Interface\\Addons\\TwintopInsanityBar\\StatusBars\\smoother.tga",
-["comboPointsBarName"] = "TRB: Smoother",
-["textureLock"] = true,
 ["comboPointsBar"] = "Interface\\Addons\\TwintopInsanityBar\\StatusBars\\smoother.tga",
-["healthBackground"] = "Interface\\Tooltips\\UI-Tooltip-Background",
-["comboPointsBorderName"] = "1 Pixel",
-["comboPointsBackground"] = "Interface\\Tooltips\\UI-Tooltip-Background",
+["healthBar"] = "Interface\\Addons\\TwintopInsanityBar\\StatusBars\\smoother.tga",
 ["comboPointsBackgroundName"] = "Blizzard Tooltip",
+["comboPointsBarName"] = "TRB: Smoother",
+["comboPointsBackground"] = "Interface\\Tooltips\\UI-Tooltip-Background",
+["textureLock"] = true,
+["absorbBarName"] = "Solid",
+["healthBackground"] = "Interface\\Tooltips\\UI-Tooltip-Background",
+["incomingHealBarName"] = "Solid",
+["comboPointsBorderName"] = "1 Pixel",
+["incomingHealBar"] = "Interface\\Buttons\\WHITE8X8",
+["castingBarName"] = "TRB: Smoother",
 ["comboPointsBorder"] = "Interface\\Buttons\\WHITE8X8",
 ["healthBarName"] = "TRB: Smoother",
 ["resourceBar"] = "Interface\\Addons\\TwintopInsanityBar\\StatusBars\\smoother.tga",
 },
-["audio"] = {
-["comboPointThreshold1"] = {
-["enabled"] = false,
-["name"] = "Combo Point Threshold 1",
-["soundName"] = "TRB: Boxing Arena Gong",
-["configuration"] = {
-["thresholdValue"] = 3,
+["healthBar"] = {
+["relativeTo"] = "BOTTOM",
+["xPos"] = 0,
+["border"] = 2,
+["width"] = 300,
+["relativeToName"] = "Below - Center",
+["spacing"] = 0,
+["height"] = 20,
+["yPos"] = 0,
+["anchor"] = {
+["barKey"] = "primary",
+["attachPoint"] = "TOP",
+["xOffset"] = 0,
+["matchWidth"] = true,
+["anchorPoint"] = "BOTTOM",
+["yOffset"] = 0,
 },
-["sound"] = "Interface\\Addons\\TwintopInsanityBar\\Sounds\\BoxingArenaSound.ogg",
-},
-["blindside"] = {
-["enabled"] = false,
-["soundName"] = "TRB: Air Horn",
-["name"] = "Blindside Proc",
-["sound"] = "Interface\\Addons\\TwintopInsanityBar\\Sounds\\AirHorn.ogg",
-},
-["comboPointThreshold2"] = {
-["enabled"] = false,
-["name"] = "Combo Point Threshold 2",
-["soundName"] = "TRB: Boxing Arena Gong",
-["configuration"] = {
-["thresholdValue"] = 5,
-},
-["sound"] = "Interface\\Addons\\TwintopInsanityBar\\Sounds\\BoxingArenaSound.ogg",
-},
+["fullWidth"] = true,
 },
 ["thresholds"] = {
 ["properties"] = {
-["width"] = 2,
 ["overlapBorder"] = true,
+["width"] = 2,
 },
 ["icons"] = {
 ["enabled"] = true,
@@ -5206,7 +5582,7 @@ TwintopInsanityBarSettings = {
 ["gouge"] = {
 ["enabled"] = false,
 },
-["shiv"] = {
+["sliceAndDice"] = {
 ["enabled"] = false,
 },
 ["distract"] = {
@@ -5221,19 +5597,19 @@ TwintopInsanityBarSettings = {
 ["sap"] = {
 ["enabled"] = false,
 },
-["fanOfKnives"] = {
+["garrote"] = {
 ["enabled"] = false,
 },
 ["feint"] = {
 ["enabled"] = false,
 },
-["garrote"] = {
+["fanOfKnives"] = {
 ["enabled"] = false,
 },
 ["deathFromAbove"] = {
 ["enabled"] = false,
 },
-["sliceAndDice"] = {
+["shiv"] = {
 ["enabled"] = false,
 },
 },
@@ -5241,13 +5617,13 @@ TwintopInsanityBarSettings = {
 ["displayText"] = {
 ["default"] = {
 ["fontFace"] = "Fonts\\FRIZQT__.TTF",
-["fontFaceName"] = "Friz Quadrata TT",
+["fontJustifyHorizontal"] = "LEFT",
 ["color"] = {
 ["color"] = "FFFFFFFF",
 },
-["fontJustifyHorizontalName"] = "Left",
 ["fontSize"] = 14,
-["fontJustifyHorizontal"] = "LEFT",
+["fontJustifyHorizontalName"] = "Left",
+["fontFaceName"] = "Friz Quadrata TT",
 },
 ["barText"] = {
 {
@@ -5331,31 +5707,38 @@ TwintopInsanityBarSettings = {
 ["value"] = 300,
 ["enabled"] = false,
 },
-["healthBar"] = {
-["relativeTo"] = "BOTTOM",
-["xPos"] = 0,
-["border"] = 2,
-["width"] = 300,
-["relativeToName"] = "Below - Center",
-["spacing"] = 0,
-["height"] = 20,
-["yPos"] = 0,
-["fullWidth"] = true,
-["anchor"] = {
-["barKey"] = "primary",
-["attachPoint"] = "TOP",
-["xOffset"] = 0,
-["matchWidth"] = true,
-["anchorPoint"] = "BOTTOM",
-["yOffset"] = 0,
+["audio"] = {
+["comboPointThreshold1"] = {
+["enabled"] = false,
+["name"] = "Combo Point Threshold 1",
+["sound"] = "Interface\\Addons\\TwintopInsanityBar\\Sounds\\BoxingArenaSound.ogg",
+["configuration"] = {
+["thresholdValue"] = 3,
+},
+["soundName"] = "TRB: Boxing Arena Gong",
+},
+["blindside"] = {
+["enabled"] = false,
+["name"] = "Blindside Proc",
+["sound"] = "Interface\\Addons\\TwintopInsanityBar\\Sounds\\AirHorn.ogg",
+["soundName"] = "TRB: Air Horn",
+},
+["comboPointThreshold2"] = {
+["enabled"] = false,
+["name"] = "Combo Point Threshold 2",
+["sound"] = "Interface\\Addons\\TwintopInsanityBar\\Sounds\\BoxingArenaSound.ogg",
+["configuration"] = {
+["thresholdValue"] = 5,
+},
+["soundName"] = "TRB: Boxing Arena Gong",
 },
 },
 ["colors"] = {
 ["threshold"] = {
 ["outOfRange"] = {
 ["color"] = "FF440000",
-["enabled"] = true,
 ["show"] = true,
+["enabled"] = true,
 },
 ["echoingReprimand"] = {
 ["color"] = "FF68CCEF",
@@ -5380,13 +5763,23 @@ TwintopInsanityBarSettings = {
 ["color"] = "FFFF0000",
 ["threshold"] = 0,
 },
+["absorb"] = {
+["color"] = "CCFFFFB9",
+["mode"] = "appended",
+["enabled"] = true,
+},
 ["type"] = "step",
-["background"] = {
-["color"] = "66000000",
+["incomingHeal"] = {
+["color"] = "CC80b980",
+["mode"] = "appended",
+["enabled"] = true,
 },
 ["high"] = {
 ["color"] = "FF00FF00",
 ["threshold"] = 0.7,
+},
+["background"] = {
+["color"] = "66000000",
 },
 ["border"] = {
 ["color"] = "FF008800",
@@ -5422,29 +5815,22 @@ TwintopInsanityBarSettings = {
 ["echoingReprimand"] = {
 ["color"] = "FF68CCEF",
 },
-["consistentUnfilledColor"] = false,
-["sameColor"] = false,
-["base"] = {
-["color"] = "FFFFFF00",
+["border"] = {
+["color"] = "FFFFD300",
 },
+["sameColor"] = false,
+["consistentUnfilledColor"] = false,
 ["background"] = {
 ["color"] = "66000000",
 },
-["border"] = {
-["color"] = "FFFFD300",
+["base"] = {
+["color"] = "FFFFFF00",
 },
 ["final"] = {
 ["color"] = "FFFF0000",
 },
 },
 ["bar"] = {
-["background"] = {
-["color"] = "66000000",
-},
-["borderOvercap"] = {
-["color"] = "FFFF0000",
-["enabled"] = true,
-},
 ["borderStealth"] = {
 ["color"] = "FF000000",
 ["enabled"] = true,
@@ -5452,8 +5838,19 @@ TwintopInsanityBarSettings = {
 ["base"] = {
 ["color"] = "FFFFFF00",
 },
+["borderOvercap"] = {
+["color"] = "FFFF0000",
+["enabled"] = true,
+},
+["background"] = {
+["color"] = "66000000",
+},
 ["border"] = {
 ["color"] = "FFFFD300",
+},
+["casting"] = {
+["color"] = "FFFFFFFF",
+["enabled"] = true,
 },
 },
 },
@@ -5474,12 +5871,12 @@ TwintopInsanityBarSettings = {
 },
 ["overcap"] = {
 ["mode"] = "relative",
-["relative"] = 0,
 ["fixed"] = 300,
+["relative"] = 0,
 },
 ["precision"] = {
-["health"] = 1,
 ["resource"] = 0,
+["health"] = 1,
 ["secondary"] = 2,
 },
 ["comboPoints"] = {
@@ -5491,7 +5888,6 @@ TwintopInsanityBarSettings = {
 ["spacing"] = 0,
 ["height"] = 20,
 ["yPos"] = 0,
-["fullWidth"] = true,
 ["anchor"] = {
 ["barKey"] = "primary",
 ["attachPoint"] = "BOTTOM",
@@ -5500,12 +5896,12 @@ TwintopInsanityBarSettings = {
 ["anchorPoint"] = "TOP",
 ["yOffset"] = 0,
 },
+["fullWidth"] = true,
 },
 ["bar"] = {
-["width"] = 300,
-["xPos"] = 0,
+["dragAndDrop"] = false,
 ["pinToPersonalResourceDisplay"] = false,
-["height"] = 30,
+["xPos"] = 0,
 ["anchor"] = {
 ["barKey"] = "screen",
 ["attachPoint"] = "CENTER",
@@ -5514,28 +5910,37 @@ TwintopInsanityBarSettings = {
 ["anchorPoint"] = "CENTER",
 ["yOffset"] = -200,
 },
+["height"] = 30,
 ["yPos"] = -200,
 ["border"] = 2,
-["dragAndDrop"] = false,
+["width"] = 300,
 },
 },
 },
 ["mage"] = {
 ["fire"] = {
 ["textures"] = {
-["resourceBarName"] = "TRB: Smoother",
-["healthBar"] = "Interface\\Addons\\TwintopInsanityBar\\StatusBars\\smoother.tga",
+["castingBar"] = "Interface\\Addons\\TwintopInsanityBar\\StatusBars\\smoother.tga",
 ["borderName"] = "1 Pixel",
 ["border"] = "Interface\\Buttons\\WHITE8X8",
-["textureLock"] = true,
-["backgroundName"] = "Blizzard Tooltip",
-["healthBackground"] = "Interface\\Tooltips\\UI-Tooltip-Background",
+["absorbBar"] = "Interface\\Buttons\\WHITE8X8",
 ["healthBackgroundName"] = "Blizzard Tooltip",
 ["healthBorder"] = "Interface\\Buttons\\WHITE8X8",
 ["healthBorderName"] = "1 Pixel",
 ["background"] = "Interface\\Tooltips\\UI-Tooltip-Background",
+["backgroundName"] = "Blizzard Tooltip",
+["resourceBarName"] = "TRB: Smoother",
+["healthBar"] = "Interface\\Addons\\TwintopInsanityBar\\StatusBars\\smoother.tga",
+["textureLock"] = true,
+["absorbBarName"] = "Solid",
+["healthBackground"] = "Interface\\Tooltips\\UI-Tooltip-Background",
+["incomingHealBar"] = "Interface\\Buttons\\WHITE8X8",
+["castingBarName"] = "TRB: Smoother",
+["incomingHealBarName"] = "Solid",
 ["healthBarName"] = "TRB: Smoother",
 ["resourceBar"] = "Interface\\Addons\\TwintopInsanityBar\\StatusBars\\smoother.tga",
+},
+["audio"] = {
 },
 ["healthBar"] = {
 ["relativeTo"] = "BOTTOM",
@@ -5546,7 +5951,6 @@ TwintopInsanityBarSettings = {
 ["spacing"] = 0,
 ["height"] = 20,
 ["yPos"] = 0,
-["fullWidth"] = true,
 ["anchor"] = {
 ["barKey"] = "primary",
 ["attachPoint"] = "TOP",
@@ -5555,19 +5959,18 @@ TwintopInsanityBarSettings = {
 ["anchorPoint"] = "BOTTOM",
 ["yOffset"] = 0,
 },
-},
-["audio"] = {
+["fullWidth"] = true,
 },
 ["colors"] = {
 ["text"] = {
 ["current"] = {
 ["color"] = "FF4D4DFF",
 },
-["casting"] = {
-["color"] = "FFFFFFFF",
-},
 ["passive"] = {
 ["color"] = "FF8080FF",
+},
+["casting"] = {
+["color"] = "FFFFFFFF",
 },
 },
 ["healthBar"] = {
@@ -5575,13 +5978,23 @@ TwintopInsanityBarSettings = {
 ["color"] = "FFFF0000",
 ["threshold"] = 0,
 },
+["absorb"] = {
+["color"] = "CCFFFFB9",
+["mode"] = "appended",
+["enabled"] = true,
+},
 ["type"] = "step",
-["background"] = {
-["color"] = "66000000",
+["incomingHeal"] = {
+["color"] = "CC80b980",
+["mode"] = "appended",
+["enabled"] = true,
 },
 ["high"] = {
 ["color"] = "FF00FF00",
 ["threshold"] = 0.7,
+},
+["background"] = {
+["color"] = "66000000",
 },
 ["border"] = {
 ["color"] = "FF008800",
@@ -5595,24 +6008,28 @@ TwintopInsanityBarSettings = {
 ["background"] = {
 ["color"] = "66000000",
 },
-["border"] = {
-["color"] = "FF000099",
+["casting"] = {
+["color"] = "FFFFFFFF",
+["enabled"] = true,
 },
 ["base"] = {
 ["color"] = "FF0000FF",
+},
+["border"] = {
+["color"] = "FF000099",
 },
 },
 },
 ["displayText"] = {
 ["default"] = {
 ["fontFace"] = "Fonts\\FRIZQT__.TTF",
-["fontFaceName"] = "Friz Quadrata TT",
+["fontJustifyHorizontal"] = "LEFT",
 ["color"] = {
 ["color"] = "FFFFFFFF",
 },
-["fontJustifyHorizontalName"] = "Left",
 ["fontSize"] = 14,
-["fontJustifyHorizontal"] = "LEFT",
+["fontJustifyHorizontalName"] = "Left",
+["fontFaceName"] = "Friz Quadrata TT",
 },
 ["barText"] = {
 {
@@ -5718,9 +6135,9 @@ TwintopInsanityBarSettings = {
 },
 },
 ["precision"] = {
-["health"] = 1,
-["mana"] = 1,
 ["resource"] = 0,
+["mana"] = 1,
+["health"] = 1,
 ["secondary"] = 2,
 },
 ["displayBar"] = {
@@ -5739,10 +6156,9 @@ TwintopInsanityBarSettings = {
 },
 },
 ["bar"] = {
-["width"] = 300,
-["xPos"] = 0,
+["dragAndDrop"] = false,
 ["pinToPersonalResourceDisplay"] = false,
-["height"] = 30,
+["xPos"] = 0,
 ["anchor"] = {
 ["barKey"] = "screen",
 ["attachPoint"] = "CENTER",
@@ -5751,24 +6167,37 @@ TwintopInsanityBarSettings = {
 ["anchorPoint"] = "CENTER",
 ["yOffset"] = -200,
 },
+["height"] = 30,
 ["yPos"] = -200,
 ["border"] = 2,
-["dragAndDrop"] = false,
+["width"] = 300,
 },
 },
 ["frost"] = {
 ["textures"] = {
-["resourceBarName"] = "TRB: Smoother",
-["healthBar"] = "Interface\\Addons\\TwintopInsanityBar\\StatusBars\\smoother.tga",
+["castingBar"] = "Interface\\Addons\\TwintopInsanityBar\\StatusBars\\smoother.tga",
 ["borderName"] = "1 Pixel",
 ["border"] = "Interface\\Buttons\\WHITE8X8",
-["textureLock"] = true,
-["backgroundName"] = "Blizzard Tooltip",
-["healthBackground"] = "Interface\\Tooltips\\UI-Tooltip-Background",
+["absorbBar"] = "Interface\\Buttons\\WHITE8X8",
 ["healthBackgroundName"] = "Blizzard Tooltip",
 ["healthBorder"] = "Interface\\Buttons\\WHITE8X8",
 ["healthBorderName"] = "1 Pixel",
 ["background"] = "Interface\\Tooltips\\UI-Tooltip-Background",
+["backgroundName"] = "Blizzard Tooltip",
+["resourceBarName"] = "TRB: Smoother",
+["comboPointsBar"] = "Interface\\Addons\\TwintopInsanityBar\\StatusBars\\smoother.tga",
+["healthBar"] = "Interface\\Addons\\TwintopInsanityBar\\StatusBars\\smoother.tga",
+["comboPointsBackgroundName"] = "Blizzard Tooltip",
+["comboPointsBarName"] = "TRB: Smoother",
+["comboPointsBackground"] = "Interface\\Tooltips\\UI-Tooltip-Background",
+["textureLock"] = true,
+["absorbBarName"] = "Solid",
+["healthBackground"] = "Interface\\Tooltips\\UI-Tooltip-Background",
+["incomingHealBarName"] = "Solid",
+["comboPointsBorderName"] = "1 Pixel",
+["incomingHealBar"] = "Interface\\Buttons\\WHITE8X8",
+["castingBarName"] = "TRB: Smoother",
+["comboPointsBorder"] = "Interface\\Buttons\\WHITE8X8",
 ["healthBarName"] = "TRB: Smoother",
 ["resourceBar"] = "Interface\\Addons\\TwintopInsanityBar\\StatusBars\\smoother.tga",
 },
@@ -5781,7 +6210,6 @@ TwintopInsanityBarSettings = {
 ["spacing"] = 0,
 ["height"] = 20,
 ["yPos"] = 0,
-["fullWidth"] = true,
 ["anchor"] = {
 ["barKey"] = "primary",
 ["attachPoint"] = "TOP",
@@ -5790,64 +6218,18 @@ TwintopInsanityBarSettings = {
 ["anchorPoint"] = "BOTTOM",
 ["yOffset"] = 0,
 },
-},
-["audio"] = {
-},
-["colors"] = {
-["text"] = {
-["current"] = {
-["color"] = "FF4D4DFF",
-},
-["casting"] = {
-["color"] = "FFFFFFFF",
-},
-["passive"] = {
-["color"] = "FF8080FF",
-},
-},
-["healthBar"] = {
-["low"] = {
-["color"] = "FFFF0000",
-["threshold"] = 0,
-},
-["type"] = "step",
-["background"] = {
-["color"] = "66000000",
-},
-["high"] = {
-["color"] = "FF00FF00",
-["threshold"] = 0.7,
-},
-["border"] = {
-["color"] = "FF008800",
-},
-["medium"] = {
-["color"] = "FFFFFF00",
-["threshold"] = 0.3,
-},
-},
-["bar"] = {
-["background"] = {
-["color"] = "66000000",
-},
-["border"] = {
-["color"] = "FF000099",
-},
-["base"] = {
-["color"] = "FF0000FF",
-},
-},
+["fullWidth"] = true,
 },
 ["displayText"] = {
 ["default"] = {
 ["fontFace"] = "Fonts\\FRIZQT__.TTF",
-["fontFaceName"] = "Friz Quadrata TT",
+["fontJustifyHorizontal"] = "LEFT",
 ["color"] = {
 ["color"] = "FFFFFFFF",
 },
-["fontJustifyHorizontalName"] = "Left",
 ["fontSize"] = 14,
-["fontJustifyHorizontal"] = "LEFT",
+["fontJustifyHorizontalName"] = "Left",
+["fontFaceName"] = "Friz Quadrata TT",
 },
 ["barText"] = {
 {
@@ -5952,12 +6334,6 @@ TwintopInsanityBarSettings = {
 },
 },
 },
-["precision"] = {
-["health"] = 1,
-["mana"] = 1,
-["resource"] = 0,
-["secondary"] = 2,
-},
 ["displayBar"] = {
 ["dragonriding"] = true,
 ["primary"] = {
@@ -5973,11 +6349,123 @@ TwintopInsanityBarSettings = {
 ["smooth"] = false,
 },
 },
+["colors"] = {
+["healthBar"] = {
+["low"] = {
+["color"] = "FFFF0000",
+["threshold"] = 0,
+},
+["absorb"] = {
+["color"] = "CCFFFFB9",
+["mode"] = "appended",
+["enabled"] = true,
+},
+["type"] = "step",
+["incomingHeal"] = {
+["color"] = "CC80b980",
+["mode"] = "appended",
+["enabled"] = true,
+},
+["high"] = {
+["color"] = "FF00FF00",
+["threshold"] = 0.7,
+},
+["background"] = {
+["color"] = "66000000",
+},
+["border"] = {
+["color"] = "FF008800",
+},
+["medium"] = {
+["color"] = "FFFFFF00",
+["threshold"] = 0.3,
+},
+},
+["text"] = {
+["current"] = {
+["color"] = "FF4D4DFF",
+},
+["passive"] = {
+["color"] = "FF8080FF",
+},
+["casting"] = {
+["color"] = "FFFFFFFF",
+},
+},
+["comboPoints"] = {
+["penultimate"] = {
+["color"] = "FFFF9900",
+},
+["sameColor"] = false,
+["base"] = {
+["color"] = "FF55E2FF",
+},
+["background"] = {
+["color"] = "66000000",
+},
+["border"] = {
+["color"] = "FF0071DF",
+},
+["final"] = {
+["color"] = "FFFF0000",
+},
+},
 ["bar"] = {
-["width"] = 300,
+["background"] = {
+["color"] = "66000000",
+},
+["casting"] = {
+["color"] = "FFFFFFFF",
+["enabled"] = true,
+},
+["base"] = {
+["color"] = "FF0000FF",
+},
+["border"] = {
+["color"] = "FF000099",
+},
+},
+},
+["audio"] = {
+["iciclesThreshold1"] = {
+["enabled"] = false,
+["name"] = "Icicles Threshold",
+["sound"] = "Interface\\Addons\\TwintopInsanityBar\\Sounds\\BoxingArenaSound.ogg",
+["configuration"] = {
+["thresholdValue"] = 5,
+},
+["soundName"] = "TRB: Boxing Arena Gong",
+},
+},
+["precision"] = {
+["resource"] = 0,
+["mana"] = 1,
+["health"] = 1,
+["secondary"] = 2,
+},
+["comboPoints"] = {
+["relativeTo"] = "TOP",
 ["xPos"] = 0,
+["border"] = 2,
+["width"] = 60,
+["relativeToName"] = "Above - Center",
+["spacing"] = 0,
+["height"] = 20,
+["yPos"] = 0,
+["anchor"] = {
+["barKey"] = "primary",
+["attachPoint"] = "BOTTOM",
+["xOffset"] = 0,
+["matchWidth"] = true,
+["anchorPoint"] = "TOP",
+["yOffset"] = 0,
+},
+["fullWidth"] = true,
+},
+["bar"] = {
+["dragAndDrop"] = false,
 ["pinToPersonalResourceDisplay"] = false,
-["height"] = 30,
+["xPos"] = 0,
 ["anchor"] = {
 ["barKey"] = "screen",
 ["attachPoint"] = "CENTER",
@@ -5986,63 +6474,69 @@ TwintopInsanityBarSettings = {
 ["anchorPoint"] = "CENTER",
 ["yOffset"] = -200,
 },
+["height"] = 30,
 ["yPos"] = -200,
 ["border"] = 2,
-["dragAndDrop"] = false,
+["width"] = 300,
 },
 },
 ["arcane"] = {
 ["textures"] = {
+["castingBar"] = "Interface\\Addons\\TwintopInsanityBar\\StatusBars\\smoother.tga",
 ["borderName"] = "1 Pixel",
 ["border"] = "Interface\\Buttons\\WHITE8X8",
+["absorbBar"] = "Interface\\Buttons\\WHITE8X8",
 ["healthBackgroundName"] = "Blizzard Tooltip",
 ["healthBorder"] = "Interface\\Buttons\\WHITE8X8",
 ["healthBorderName"] = "1 Pixel",
 ["background"] = "Interface\\Tooltips\\UI-Tooltip-Background",
 ["backgroundName"] = "Blizzard Tooltip",
 ["resourceBarName"] = "TRB: Smoother",
-["healthBar"] = "Interface\\Addons\\TwintopInsanityBar\\StatusBars\\smoother.tga",
-["comboPointsBarName"] = "TRB: Smoother",
-["textureLock"] = true,
 ["comboPointsBar"] = "Interface\\Addons\\TwintopInsanityBar\\StatusBars\\smoother.tga",
-["healthBackground"] = "Interface\\Tooltips\\UI-Tooltip-Background",
-["comboPointsBorderName"] = "1 Pixel",
-["comboPointsBackground"] = "Interface\\Tooltips\\UI-Tooltip-Background",
+["healthBar"] = "Interface\\Addons\\TwintopInsanityBar\\StatusBars\\smoother.tga",
 ["comboPointsBackgroundName"] = "Blizzard Tooltip",
+["comboPointsBarName"] = "TRB: Smoother",
+["comboPointsBackground"] = "Interface\\Tooltips\\UI-Tooltip-Background",
+["textureLock"] = true,
+["absorbBarName"] = "Solid",
+["healthBackground"] = "Interface\\Tooltips\\UI-Tooltip-Background",
+["incomingHealBarName"] = "Solid",
+["comboPointsBorderName"] = "1 Pixel",
+["incomingHealBar"] = "Interface\\Buttons\\WHITE8X8",
+["castingBarName"] = "TRB: Smoother",
 ["comboPointsBorder"] = "Interface\\Buttons\\WHITE8X8",
 ["healthBarName"] = "TRB: Smoother",
 ["resourceBar"] = "Interface\\Addons\\TwintopInsanityBar\\StatusBars\\smoother.tga",
 },
-["audio"] = {
-["arcaneChargeThreshold1"] = {
-["enabled"] = false,
-["name"] = "Arcane Charge Threshold 1",
-["soundName"] = "TRB: Boxing Arena Gong",
-["configuration"] = {
-["thresholdValue"] = 2,
+["healthBar"] = {
+["relativeTo"] = "BOTTOM",
+["xPos"] = 0,
+["border"] = 2,
+["width"] = 300,
+["relativeToName"] = "Below - Center",
+["spacing"] = 0,
+["height"] = 20,
+["yPos"] = 0,
+["anchor"] = {
+["barKey"] = "primary",
+["attachPoint"] = "TOP",
+["xOffset"] = 0,
+["matchWidth"] = true,
+["anchorPoint"] = "BOTTOM",
+["yOffset"] = 0,
 },
-["sound"] = "Interface\\Addons\\TwintopInsanityBar\\Sounds\\BoxingArenaSound.ogg",
-},
-["arcaneChargeThreshold2"] = {
-["enabled"] = false,
-["name"] = "Arcane Charge Threshold 2",
-["soundName"] = "TRB: Boxing Arena Gong",
-["configuration"] = {
-["thresholdValue"] = 4,
-},
-["sound"] = "Interface\\Addons\\TwintopInsanityBar\\Sounds\\BoxingArenaSound.ogg",
-},
+["fullWidth"] = true,
 },
 ["displayText"] = {
 ["default"] = {
 ["fontFace"] = "Fonts\\FRIZQT__.TTF",
-["fontFaceName"] = "Friz Quadrata TT",
+["fontJustifyHorizontal"] = "LEFT",
 ["color"] = {
 ["color"] = "FFFFFFFF",
 },
-["fontJustifyHorizontalName"] = "Left",
 ["fontSize"] = 14,
-["fontJustifyHorizontal"] = "LEFT",
+["fontJustifyHorizontalName"] = "Left",
+["fontFaceName"] = "Friz Quadrata TT",
 },
 ["barText"] = {
 {
@@ -6163,47 +6657,28 @@ TwintopInsanityBarSettings = {
 },
 },
 ["colors"] = {
-["comboPoints"] = {
-["penultimate"] = {
-["color"] = "FFFF9900",
-},
-["sameColor"] = true,
-["border"] = {
-["color"] = "FF00AAFF",
-},
-["background"] = {
-["color"] = "66000000",
-},
-["base"] = {
-["color"] = "FF1A1AFA",
-},
-["final"] = {
-["color"] = "FFFF0000",
-},
-},
-["text"] = {
-["current"] = {
-["color"] = "FF4D4DFF",
-},
-["casting"] = {
-["color"] = "FFFFFFFF",
-},
-["passive"] = {
-["color"] = "FF8080FF",
-},
-},
 ["healthBar"] = {
 ["low"] = {
 ["color"] = "FFFF0000",
 ["threshold"] = 0,
 },
+["absorb"] = {
+["color"] = "CCFFFFB9",
+["mode"] = "appended",
+["enabled"] = true,
+},
 ["type"] = "step",
-["background"] = {
-["color"] = "66000000",
+["incomingHeal"] = {
+["color"] = "CC80b980",
+["mode"] = "appended",
+["enabled"] = true,
 },
 ["high"] = {
 ["color"] = "FF00FF00",
 ["threshold"] = 0.7,
+},
+["background"] = {
+["color"] = "66000000",
 },
 ["border"] = {
 ["color"] = "FF008800",
@@ -6213,41 +6688,75 @@ TwintopInsanityBarSettings = {
 ["threshold"] = 0.3,
 },
 },
-["bar"] = {
+["text"] = {
+["current"] = {
+["color"] = "FF4D4DFF",
+},
+["passive"] = {
+["color"] = "FF8080FF",
+},
+["casting"] = {
+["color"] = "FFFFFFFF",
+},
+},
+["comboPoints"] = {
+["penultimate"] = {
+["color"] = "FFFF9900",
+},
+["sameColor"] = true,
+["base"] = {
+["color"] = "FF1A1AFA",
+},
 ["background"] = {
 ["color"] = "66000000",
 },
 ["border"] = {
-["color"] = "FF000099",
+["color"] = "FF00AAFF",
+},
+["final"] = {
+["color"] = "FFFF0000",
+},
+},
+["bar"] = {
+["background"] = {
+["color"] = "66000000",
+},
+["casting"] = {
+["color"] = "FFFFFFFF",
+["enabled"] = true,
 },
 ["base"] = {
 ["color"] = "FF0000FF",
 },
+["border"] = {
+["color"] = "FF000099",
 },
 },
-["healthBar"] = {
-["relativeTo"] = "BOTTOM",
-["xPos"] = 0,
-["border"] = 2,
-["width"] = 300,
-["relativeToName"] = "Below - Center",
-["spacing"] = 0,
-["height"] = 20,
-["yPos"] = 0,
-["fullWidth"] = true,
-["anchor"] = {
-["barKey"] = "primary",
-["attachPoint"] = "TOP",
-["xOffset"] = 0,
-["matchWidth"] = true,
-["anchorPoint"] = "BOTTOM",
-["yOffset"] = 0,
+},
+["audio"] = {
+["arcaneChargeThreshold1"] = {
+["enabled"] = false,
+["name"] = "Arcane Charge Threshold 1",
+["sound"] = "Interface\\Addons\\TwintopInsanityBar\\Sounds\\BoxingArenaSound.ogg",
+["configuration"] = {
+["thresholdValue"] = 2,
+},
+["soundName"] = "TRB: Boxing Arena Gong",
+},
+["arcaneChargeThreshold2"] = {
+["enabled"] = false,
+["name"] = "Arcane Charge Threshold 2",
+["sound"] = "Interface\\Addons\\TwintopInsanityBar\\Sounds\\BoxingArenaSound.ogg",
+["configuration"] = {
+["thresholdValue"] = 4,
+},
+["soundName"] = "TRB: Boxing Arena Gong",
 },
 },
 ["precision"] = {
-["health"] = 1,
-["mana"] = 1,
 ["resource"] = 0,
+["mana"] = 1,
+["health"] = 1,
 ["secondary"] = 2,
 },
 ["comboPoints"] = {
@@ -6259,7 +6768,6 @@ TwintopInsanityBarSettings = {
 ["spacing"] = 0,
 ["height"] = 20,
 ["yPos"] = 0,
-["fullWidth"] = true,
 ["anchor"] = {
 ["barKey"] = "primary",
 ["attachPoint"] = "BOTTOM",
@@ -6268,12 +6776,12 @@ TwintopInsanityBarSettings = {
 ["anchorPoint"] = "TOP",
 ["yOffset"] = 0,
 },
+["fullWidth"] = true,
 },
 ["bar"] = {
-["width"] = 300,
-["xPos"] = 0,
+["dragAndDrop"] = false,
 ["pinToPersonalResourceDisplay"] = false,
-["height"] = 30,
+["xPos"] = 0,
 ["anchor"] = {
 ["barKey"] = "screen",
 ["attachPoint"] = "CENTER",
@@ -6282,31 +6790,38 @@ TwintopInsanityBarSettings = {
 ["anchorPoint"] = "CENTER",
 ["yOffset"] = -200,
 },
+["height"] = 30,
 ["yPos"] = -200,
 ["border"] = 2,
-["dragAndDrop"] = false,
+["width"] = 300,
 },
 },
 },
 ["evoker"] = {
 ["devastation"] = {
 ["textures"] = {
+["castingBar"] = "Interface\\Addons\\TwintopInsanityBar\\StatusBars\\smoother.tga",
 ["borderName"] = "1 Pixel",
 ["border"] = "Interface\\Buttons\\WHITE8X8",
+["absorbBar"] = "Interface\\Buttons\\WHITE8X8",
 ["healthBackgroundName"] = "Blizzard Tooltip",
 ["healthBorder"] = "Interface\\Buttons\\WHITE8X8",
 ["healthBorderName"] = "1 Pixel",
 ["background"] = "Interface\\Tooltips\\UI-Tooltip-Background",
 ["backgroundName"] = "Blizzard Tooltip",
 ["resourceBarName"] = "TRB: Smoother",
-["healthBar"] = "Interface\\Addons\\TwintopInsanityBar\\StatusBars\\smoother.tga",
-["comboPointsBarName"] = "TRB: Smoother",
-["textureLock"] = true,
 ["comboPointsBar"] = "Interface\\Addons\\TwintopInsanityBar\\StatusBars\\smoother.tga",
-["healthBackground"] = "Interface\\Tooltips\\UI-Tooltip-Background",
-["comboPointsBorderName"] = "1 Pixel",
-["comboPointsBackground"] = "Interface\\Tooltips\\UI-Tooltip-Background",
+["healthBar"] = "Interface\\Addons\\TwintopInsanityBar\\StatusBars\\smoother.tga",
 ["comboPointsBackgroundName"] = "Blizzard Tooltip",
+["comboPointsBarName"] = "TRB: Smoother",
+["comboPointsBackground"] = "Interface\\Tooltips\\UI-Tooltip-Background",
+["textureLock"] = true,
+["absorbBarName"] = "Solid",
+["castingBarName"] = "TRB: Smoother",
+["incomingHealBar"] = "Interface\\Buttons\\WHITE8X8",
+["comboPointsBorderName"] = "1 Pixel",
+["incomingHealBarName"] = "Solid",
+["healthBackground"] = "Interface\\Tooltips\\UI-Tooltip-Background",
 ["comboPointsBorder"] = "Interface\\Buttons\\WHITE8X8",
 ["healthBarName"] = "TRB: Smoother",
 ["resourceBar"] = "Interface\\Addons\\TwintopInsanityBar\\StatusBars\\smoother.tga",
@@ -6323,9 +6838,9 @@ TwintopInsanityBarSettings = {
 },
 ["essenceBurst"] = {
 ["enabled"] = false,
-["sound"] = "Interface\\Addons\\TwintopInsanityBar\\Sounds\\BoxingArenaSound.ogg",
 ["soundName"] = "TRB: Boxing Arena Gong",
 ["name"] = "Essence Burst",
+["sound"] = "Interface\\Addons\\TwintopInsanityBar\\Sounds\\BoxingArenaSound.ogg",
 },
 },
 ["displayText"] = {
@@ -6637,7 +7152,17 @@ TwintopInsanityBarSettings = {
 ["color"] = "FFFF0000",
 ["threshold"] = 0,
 },
+["absorb"] = {
+["color"] = "CCFFFFB9",
+["mode"] = "appended",
+["enabled"] = true,
+},
 ["type"] = "step",
+["incomingHeal"] = {
+["color"] = "CC80b980",
+["mode"] = "appended",
+["enabled"] = true,
+},
 ["background"] = {
 ["color"] = "66000000",
 },
@@ -6683,6 +7208,10 @@ TwintopInsanityBarSettings = {
 },
 },
 ["bar"] = {
+["casting"] = {
+["color"] = "FFFFFFFF",
+["enabled"] = true,
+},
 ["base"] = {
 ["color"] = "FF0000FF",
 },
@@ -6769,22 +7298,28 @@ TwintopInsanityBarSettings = {
 },
 ["augmentation"] = {
 ["textures"] = {
+["castingBar"] = "Interface\\Addons\\TwintopInsanityBar\\StatusBars\\smoother.tga",
 ["borderName"] = "1 Pixel",
 ["border"] = "Interface\\Buttons\\WHITE8X8",
+["absorbBar"] = "Interface\\Buttons\\WHITE8X8",
 ["healthBackgroundName"] = "Blizzard Tooltip",
 ["healthBorder"] = "Interface\\Buttons\\WHITE8X8",
 ["healthBorderName"] = "1 Pixel",
 ["background"] = "Interface\\Tooltips\\UI-Tooltip-Background",
 ["backgroundName"] = "Blizzard Tooltip",
 ["resourceBarName"] = "TRB: Smoother",
-["healthBar"] = "Interface\\Addons\\TwintopInsanityBar\\StatusBars\\smoother.tga",
-["comboPointsBarName"] = "TRB: Smoother",
-["textureLock"] = true,
 ["comboPointsBar"] = "Interface\\Addons\\TwintopInsanityBar\\StatusBars\\smoother.tga",
-["healthBackground"] = "Interface\\Tooltips\\UI-Tooltip-Background",
-["comboPointsBorderName"] = "1 Pixel",
-["comboPointsBackground"] = "Interface\\Tooltips\\UI-Tooltip-Background",
+["healthBar"] = "Interface\\Addons\\TwintopInsanityBar\\StatusBars\\smoother.tga",
 ["comboPointsBackgroundName"] = "Blizzard Tooltip",
+["comboPointsBarName"] = "TRB: Smoother",
+["comboPointsBackground"] = "Interface\\Tooltips\\UI-Tooltip-Background",
+["textureLock"] = true,
+["absorbBarName"] = "Solid",
+["castingBarName"] = "TRB: Smoother",
+["incomingHealBar"] = "Interface\\Buttons\\WHITE8X8",
+["comboPointsBorderName"] = "1 Pixel",
+["incomingHealBarName"] = "Solid",
+["healthBackground"] = "Interface\\Tooltips\\UI-Tooltip-Background",
 ["comboPointsBorder"] = "Interface\\Buttons\\WHITE8X8",
 ["healthBarName"] = "TRB: Smoother",
 ["resourceBar"] = "Interface\\Addons\\TwintopInsanityBar\\StatusBars\\smoother.tga",
@@ -6792,15 +7327,15 @@ TwintopInsanityBarSettings = {
 ["audio"] = {
 ["ebonMightEnding"] = {
 ["enabled"] = false,
-["sound"] = "Interface\\Addons\\TwintopInsanityBar\\Sounds\\BoxingArenaSound.ogg",
 ["soundName"] = "TRB: Boxing Arena Gong",
 ["name"] = "Ebon Might ending",
+["sound"] = "Interface\\Addons\\TwintopInsanityBar\\Sounds\\BoxingArenaSound.ogg",
 },
 ["essenceBurst"] = {
 ["enabled"] = false,
-["sound"] = "Interface\\Addons\\TwintopInsanityBar\\Sounds\\BoxingArenaSound.ogg",
 ["soundName"] = "TRB: Boxing Arena Gong",
 ["name"] = "Essence Burst",
+["sound"] = "Interface\\Addons\\TwintopInsanityBar\\Sounds\\BoxingArenaSound.ogg",
 },
 ["secondaryThreshold"] = {
 ["enabled"] = false,
@@ -7146,7 +7681,17 @@ TwintopInsanityBarSettings = {
 ["color"] = "FFFF0000",
 ["threshold"] = 0,
 },
+["absorb"] = {
+["color"] = "CCFFFFB9",
+["mode"] = "appended",
+["enabled"] = true,
+},
 ["type"] = "step",
+["incomingHeal"] = {
+["color"] = "CC80b980",
+["mode"] = "appended",
+["enabled"] = true,
+},
 ["background"] = {
 ["color"] = "66000000",
 },
@@ -7192,22 +7737,26 @@ TwintopInsanityBarSettings = {
 },
 },
 ["bar"] = {
-["base"] = {
-["color"] = "FF0000FF",
+["casting"] = {
+["color"] = "FFFFFFFF",
+["enabled"] = true,
 },
 ["border"] = {
 ["color"] = "FF000099",
 },
-["background"] = {
-["color"] = "66000000",
+["essenceBurst"] = {
+["color"] = "FFFCE58E",
+["enabled"] = true,
+},
+["base"] = {
+["color"] = "FF0000FF",
 },
 ["ebonMightDropDuringCast"] = {
 ["color"] = "FF550000",
 ["enabled"] = true,
 },
-["essenceBurst"] = {
-["color"] = "FFFCE58E",
-["enabled"] = true,
+["background"] = {
+["color"] = "66000000",
 },
 ["ebonMight"] = {
 ["color"] = "FFFF9900",
@@ -7283,22 +7832,28 @@ TwintopInsanityBarSettings = {
 },
 ["preservation"] = {
 ["textures"] = {
+["castingBar"] = "Interface\\Addons\\TwintopInsanityBar\\StatusBars\\smoother.tga",
 ["borderName"] = "1 Pixel",
 ["border"] = "Interface\\Buttons\\WHITE8X8",
+["absorbBar"] = "Interface\\Buttons\\WHITE8X8",
 ["healthBackgroundName"] = "Blizzard Tooltip",
 ["healthBorder"] = "Interface\\Buttons\\WHITE8X8",
 ["healthBorderName"] = "1 Pixel",
 ["background"] = "Interface\\Tooltips\\UI-Tooltip-Background",
 ["backgroundName"] = "Blizzard Tooltip",
 ["resourceBarName"] = "TRB: Smoother",
-["healthBar"] = "Interface\\Addons\\TwintopInsanityBar\\StatusBars\\smoother.tga",
-["comboPointsBarName"] = "TRB: Smoother",
-["textureLock"] = true,
 ["comboPointsBar"] = "Interface\\Addons\\TwintopInsanityBar\\StatusBars\\smoother.tga",
-["healthBackground"] = "Interface\\Tooltips\\UI-Tooltip-Background",
-["comboPointsBorderName"] = "1 Pixel",
-["comboPointsBackground"] = "Interface\\Tooltips\\UI-Tooltip-Background",
+["healthBar"] = "Interface\\Addons\\TwintopInsanityBar\\StatusBars\\smoother.tga",
 ["comboPointsBackgroundName"] = "Blizzard Tooltip",
+["comboPointsBarName"] = "TRB: Smoother",
+["comboPointsBackground"] = "Interface\\Tooltips\\UI-Tooltip-Background",
+["textureLock"] = true,
+["absorbBarName"] = "Solid",
+["castingBarName"] = "TRB: Smoother",
+["incomingHealBar"] = "Interface\\Buttons\\WHITE8X8",
+["comboPointsBorderName"] = "1 Pixel",
+["incomingHealBarName"] = "Solid",
+["healthBackground"] = "Interface\\Tooltips\\UI-Tooltip-Background",
 ["comboPointsBorder"] = "Interface\\Buttons\\WHITE8X8",
 ["healthBarName"] = "TRB: Smoother",
 ["resourceBar"] = "Interface\\Addons\\TwintopInsanityBar\\StatusBars\\smoother.tga",
@@ -7315,15 +7870,15 @@ TwintopInsanityBarSettings = {
 },
 ["innervate"] = {
 ["enabled"] = false,
-["sound"] = "Interface\\Addons\\TwintopInsanityBar\\Sounds\\BoxingArenaSound.ogg",
 ["soundName"] = "TRB: Boxing Arena Gong",
 ["name"] = "Innervate",
+["sound"] = "Interface\\Addons\\TwintopInsanityBar\\Sounds\\BoxingArenaSound.ogg",
 },
 ["essenceBurst"] = {
 ["enabled"] = false,
-["sound"] = "Interface\\Addons\\TwintopInsanityBar\\Sounds\\BoxingArenaSound.ogg",
 ["soundName"] = "TRB: Boxing Arena Gong",
 ["name"] = "Essence Burst",
+["sound"] = "Interface\\Addons\\TwintopInsanityBar\\Sounds\\BoxingArenaSound.ogg",
 },
 },
 ["displayText"] = {
@@ -7640,7 +8195,17 @@ TwintopInsanityBarSettings = {
 ["color"] = "FFFF0000",
 ["threshold"] = 0,
 },
+["absorb"] = {
+["color"] = "CCFFFFB9",
+["mode"] = "appended",
+["enabled"] = true,
+},
 ["type"] = "step",
+["incomingHeal"] = {
+["color"] = "CC80b980",
+["mode"] = "appended",
+["enabled"] = true,
+},
 ["background"] = {
 ["color"] = "66000000",
 },
@@ -7657,21 +8222,25 @@ TwintopInsanityBarSettings = {
 },
 },
 ["bar"] = {
+["innervate"] = {
+["color"] = "FF00FF00",
+["enabled"] = true,
+},
 ["base"] = {
 ["color"] = "FF0000FF",
 },
 ["background"] = {
 ["color"] = "66000000",
 },
-["essenceBurst"] = {
-["color"] = "FFFCE58E",
+["casting"] = {
+["color"] = "FFFFFFFF",
 ["enabled"] = true,
 },
 ["border"] = {
 ["color"] = "FF000099",
 },
-["innervate"] = {
-["color"] = "FF00FF00",
+["essenceBurst"] = {
+["color"] = "FFFCE58E",
 ["enabled"] = true,
 },
 },
@@ -7746,29 +8315,69 @@ TwintopInsanityBarSettings = {
 ["bars"] = {
 ["mana"] = {
 ["enabled"] = false,
-["anchorOffset"] = 0,
-["anchorToCooldownManager"] = "none",
-["matchCooldownManagerWidth"] = false,
+["anchor"] = {
+["anchorPoint"] = "BOTTOM",
+["attachPoint"] = "TOP",
+["matchHeight"] = false,
+["xOffset"] = 0,
+["matchWidth"] = false,
+["frameKey"] = "none",
+["yOffset"] = 0,
+},
 },
 ["primary"] = {
 ["enabled"] = false,
-["anchorOffset"] = 0,
-["anchorToCooldownManager"] = "none",
-["matchCooldownManagerWidth"] = false,
+["anchor"] = {
+["anchorPoint"] = "BOTTOM",
+["attachPoint"] = "TOP",
+["matchHeight"] = false,
+["xOffset"] = 0,
+["matchWidth"] = false,
+["frameKey"] = "none",
+["yOffset"] = 0,
+},
 },
 ["secondary"] = {
 ["enabled"] = false,
-["anchorOffset"] = 0,
-["matchCooldownManagerWidth"] = false,
-["anchorToCooldownManager"] = "none",
+["anchor"] = {
+["anchorPoint"] = "BOTTOM",
+["attachPoint"] = "TOP",
+["matchHeight"] = false,
+["xOffset"] = 0,
+["matchWidth"] = false,
+["frameKey"] = "none",
+["yOffset"] = 0,
+},
 },
 },
 },
 ["Modern"] = {
+["bars"] = {
+["secondary"] = {
 ["enabled"] = false,
-["anchorOffset"] = 0,
-["matchCooldownManagerWidth"] = false,
-["anchorToCooldownManager"] = "none",
+["anchor"] = {
+["anchorPoint"] = "BOTTOM",
+["frameKey"] = "none",
+["matchHeight"] = false,
+["xOffset"] = 0,
+["matchWidth"] = false,
+["attachPoint"] = "TOP",
+["yOffset"] = 0,
+},
+},
+["primary"] = {
+["enabled"] = false,
+["anchor"] = {
+["anchorPoint"] = "BOTTOM",
+["attachPoint"] = "TOP",
+["matchHeight"] = false,
+["xOffset"] = 0,
+["matchWidth"] = false,
+["frameKey"] = "none",
+["yOffset"] = 0,
+},
+},
+},
 },
 },
 },
@@ -7826,41 +8435,47 @@ TwintopInsanityBarSettings = {
 ["background"] = "Interface\\Buttons\\WHITE8X8",
 ["manaBarBorder"] = "Interface\\Buttons\\WHITE8X8",
 ["manaBarBarName"] = "Minimalist",
-["manaBarBar"] = "Interface\\AddOns\\ElvUI\\Game\\Shared\\Media\\Textures\\Minimalist",
+["healthBar"] = "Interface\\AddOns\\ElvUI\\Game\\Shared\\Media\\Textures\\Minimalist",
 ["comboPointsBarName"] = "Minimalist",
 ["defensivesBackgroundName"] = "Solid",
 ["staggerBorder"] = "Interface\\Buttons\\WHITE8X8",
+["incomingHealBarName"] = "Solid",
 ["healthBackground"] = "Interface\\Buttons\\WHITE8X8",
-["manaBackgroundName"] = "Solid",
+["incomingHealBar"] = "Interface\\Buttons\\WHITE8X8",
 ["staggerBar"] = "Interface\\AddOns\\ElvUI\\Game\\Shared\\Media\\Textures\\Minimalist",
 ["comboPointsBorder"] = "Interface\\Buttons\\WHITE8X8",
+["defensivesBarName"] = "Minimalist",
 ["resourceBar"] = "Interface\\AddOns\\ElvUI\\Game\\Shared\\Media\\Textures\\Minimalist",
 ["defensivesBar"] = "Interface\\AddOns\\ElvUI\\Game\\Shared\\Media\\Textures\\Minimalist",
-["staggerBorderName"] = "1 Pixel",
+["manaBarBackgroundName"] = "Solid",
+["staggerBackgroundName"] = "Solid",
+["borderName"] = "1 Pixel",
 ["staggerBarName"] = "Minimalist",
 ["manaBarBackground"] = "Interface\\Buttons\\WHITE8X8",
 ["comboPointsBar"] = "Interface\\AddOns\\ElvUI\\Game\\Shared\\Media\\Textures\\Minimalist",
-["staggerBackground"] = "Interface\\Buttons\\WHITE8X8",
+["manaBarBar"] = "Interface\\AddOns\\ElvUI\\Game\\Shared\\Media\\Textures\\Minimalist",
+["absorbBar"] = "Interface\\Buttons\\WHITE8X8",
+["manaBarName"] = "Minimalist",
 ["comboPointsBackground"] = "Interface\\Buttons\\WHITE8X8",
-["healthBar"] = "Interface\\AddOns\\ElvUI\\Game\\Shared\\Media\\Textures\\Minimalist",
+["staggerBackground"] = "Interface\\Buttons\\WHITE8X8",
 ["healthBorderName"] = "1 Pixel",
-["defensivesBarName"] = "Minimalist",
-["backgroundName"] = "Solid",
 ["manaBorder"] = "Interface\\Buttons\\WHITE8X8",
+["backgroundName"] = "Solid",
+["manaBackgroundName"] = "Solid",
 ["resourceBarName"] = "Minimalist",
 ["manaBar"] = "Interface\\AddOns\\ElvUI\\Game\\Shared\\Media\\Textures\\Minimalist",
 ["manaBorderName"] = "1 Pixel",
 ["defensivesBorderName"] = "1 Pixel",
-["manaBarName"] = "Minimalist",
-["defensivesBorder"] = "Interface\\Buttons\\WHITE8X8",
-["textureLock"] = true,
-["staggerBackgroundName"] = "Solid",
-["defensivesBackground"] = "Interface\\Buttons\\WHITE8X8",
+["staggerBorderName"] = "1 Pixel",
 ["border"] = "Interface\\Buttons\\WHITE8X8",
+["textureLock"] = true,
+["absorbBarName"] = "Solid",
+["defensivesBackground"] = "Interface\\Buttons\\WHITE8X8",
+["castingBarName"] = "Minimalist",
 ["comboPointsBorderName"] = "1 Pixel",
+["castingBar"] = "Interface\\AddOns\\ElvUI\\Game\\Shared\\Media\\Textures\\Minimalist",
 ["comboPointsBackgroundName"] = "Solid",
-["borderName"] = "1 Pixel",
-["manaBarBackgroundName"] = "Solid",
+["defensivesBorder"] = "Interface\\Buttons\\WHITE8X8",
 ["healthBarName"] = "Minimalist",
 ["manaBarBorderName"] = "1 Pixel",
 },
@@ -8575,11 +9190,21 @@ TwintopInsanityBarSettings = {
 ["color"] = "FFFF0000",
 ["threshold"] = 0,
 },
-["type"] = "step",
+["absorb"] = {
+["color"] = "CCFFFFB9",
+["mode"] = "appended",
+["enabled"] = true,
+},
 ["high"] = {
 ["color"] = "FF00FF00",
 ["threshold"] = 0.7,
 },
+["incomingHeal"] = {
+["color"] = "CC80b980",
+["mode"] = "appended",
+["enabled"] = true,
+},
+["type"] = "step",
 ["background"] = {
 ["color"] = "66000000",
 },
@@ -8670,11 +9295,29 @@ TwintopInsanityBarSettings = {
 ["resourceBar"] = "Interface\\Addons\\TwintopInsanityBar\\StatusBars\\smoother.tga",
 },
 ["audio"] = {
+["comboPointThreshold1"] = {
+["enabled"] = false,
+["name"] = "Combo Point Threshold 1",
+["soundName"] = "TRB: Boxing Arena Gong",
+["sound"] = "Interface\\Addons\\TwintopInsanityBar\\Sounds\\BoxingArenaSound.ogg",
+["configuration"] = {
+["thresholdValue"] = 3,
+},
+},
 ["apexPredatorsCraving"] = {
 ["enabled"] = false,
 ["soundName"] = "TRB: Air Horn",
 ["name"] = "Apex Predator's Craving Proc",
 ["sound"] = "Interface\\Addons\\TwintopInsanityBar\\Sounds\\AirHorn.ogg",
+},
+["comboPointThreshold2"] = {
+["enabled"] = false,
+["name"] = "Combo Point Threshold 2",
+["soundName"] = "TRB: Boxing Arena Gong",
+["sound"] = "Interface\\Addons\\TwintopInsanityBar\\Sounds\\BoxingArenaSound.ogg",
+["configuration"] = {
+["thresholdValue"] = 5,
+},
 },
 },
 ["thresholds"] = {
@@ -9102,6 +9745,10 @@ TwintopInsanityBarSettings = {
 ["threshold"] = 0,
 },
 ["type"] = "step",
+["absorb"] = {
+},
+["incomingHeal"] = {
+},
 ["background"] = {
 ["color"] = "66000000",
 },
@@ -9157,30 +9804,34 @@ TwintopInsanityBarSettings = {
 },
 },
 ["bar"] = {
-["background"] = {
-["color"] = "66000000",
+["borderStealth"] = {
+["color"] = "FF000000",
+["enabled"] = true,
 },
 ["maxBite"] = {
 ["color"] = "FF009900",
+["enabled"] = true,
 },
-["apexPredator"] = {
-["color"] = "FFE75480",
+["border"] = {
+["color"] = "FFFF7C0A",
 },
 ["clearcasting"] = {
 ["color"] = "FF4A95CE",
+["enabled"] = true,
 },
 ["borderOvercap"] = {
 ["color"] = "FFFF0000",
 ["enabled"] = true,
 },
-["borderStealth"] = {
-["color"] = "FF000000",
-},
-["border"] = {
-["color"] = "FFFF7C0A",
+["background"] = {
+["color"] = "66000000",
 },
 ["base"] = {
 ["color"] = "FFFFFF00",
+},
+["apexPredator"] = {
+["color"] = "FFE75480",
+["enabled"] = true,
 },
 },
 },
@@ -9284,9 +9935,9 @@ TwintopInsanityBarSettings = {
 ["audio"] = {
 ["starweaversReady"] = {
 ["enabled"] = false,
-["name"] = "Starweaver Ready",
 ["sound"] = "Interface\\Addons\\TwintopInsanityBar\\Sounds\\BoxingArenaSound.ogg",
 ["soundName"] = "TRB: Boxing Arena Gong",
+["name"] = "Starweaver Ready",
 },
 ["ssReady"] = {
 ["enabled"] = false,
@@ -9666,6 +10317,10 @@ TwintopInsanityBarSettings = {
 ["threshold"] = 0,
 },
 ["type"] = "step",
+["absorb"] = {
+},
+["incomingHeal"] = {
+},
 ["background"] = {
 ["color"] = "66000000",
 },
@@ -9724,17 +10379,19 @@ TwintopInsanityBarSettings = {
 },
 ["solar"] = {
 ["color"] = "FFFFEE00",
+["enabled"] = true,
 },
-["eclipseEnd"] = {
-["color"] = "FFFF0000",
-},
-["flashSsEnabled"] = true,
 ["border"] = {
 ["color"] = "FFC16920",
 },
+["flashSsEnabled"] = true,
 ["flashEnabled"] = true,
 ["celestial"] = {
 ["color"] = "FF4A95CE",
+["enabled"] = true,
+},
+["eclipseEnd"] = {
+["color"] = "FFFF0000",
 },
 ["flashAlpha"] = 0.7,
 ["background"] = {
@@ -9745,28 +10402,15 @@ TwintopInsanityBarSettings = {
 },
 ["lunar"] = {
 ["color"] = "FF144D72",
+["enabled"] = true,
 },
 },
 },
-["displayBar"] = {
-["health"] = {
-["visibility"] = "combat",
-["smooth"] = true,
-},
-["primary"] = {
-["visibility"] = "combat",
-["smooth"] = true,
-},
-["dragonriding"] = true,
-["mana"] = {
-["visibility"] = "never",
-["smooth"] = true,
-},
-["enableFormSwitching"] = true,
-["secondary"] = {
-["visibility"] = "combat",
-["smooth"] = false,
-},
+["precision"] = {
+["health"] = 1,
+["mana"] = 1,
+["resource"] = 0,
+["secondary"] = 2,
 },
 ["overcap"] = {
 ["mode"] = "relative",
@@ -9794,11 +10438,25 @@ TwintopInsanityBarSettings = {
 },
 },
 },
-["precision"] = {
-["health"] = 1,
-["mana"] = 1,
-["resource"] = 0,
-["secondary"] = 2,
+["displayBar"] = {
+["health"] = {
+["visibility"] = "combat",
+["smooth"] = true,
+},
+["primary"] = {
+["visibility"] = "combat",
+["smooth"] = true,
+},
+["dragonriding"] = true,
+["mana"] = {
+["visibility"] = "never",
+["smooth"] = true,
+},
+["enableFormSwitching"] = true,
+["secondary"] = {
+["visibility"] = "combat",
+["smooth"] = false,
+},
 },
 ["bar"] = {
 ["width"] = 300,
@@ -9819,7 +10477,21 @@ TwintopInsanityBarSettings = {
 },
 },
 ["guardian"] = {
-["enabled"] = true,
+["textures"] = {
+["resourceBarName"] = "TRB: Smoother",
+["healthBar"] = "Interface\\Addons\\TwintopInsanityBar\\StatusBars\\smoother.tga",
+["borderName"] = "1 Pixel",
+["border"] = "Interface\\Buttons\\WHITE8X8",
+["textureLock"] = true,
+["backgroundName"] = "Blizzard Tooltip",
+["healthBackground"] = "Interface\\Tooltips\\UI-Tooltip-Background",
+["healthBackgroundName"] = "Blizzard Tooltip",
+["healthBorder"] = "Interface\\Buttons\\WHITE8X8",
+["healthBorderName"] = "1 Pixel",
+["background"] = "Interface\\Tooltips\\UI-Tooltip-Background",
+["healthBarName"] = "TRB: Smoother",
+["resourceBar"] = "Interface\\Addons\\TwintopInsanityBar\\StatusBars\\smoother.tga",
+},
 ["healthBar"] = {
 ["relativeTo"] = "BOTTOM",
 ["xPos"] = 0,
@@ -10060,21 +10732,9 @@ TwintopInsanityBarSettings = {
 },
 },
 },
-["displayBar"] = {
-["health"] = {
-["visibility"] = "combat",
-["smooth"] = true,
-},
-["dragonriding"] = true,
-["primary"] = {
-["visibility"] = "combat",
-["smooth"] = true,
-},
-["enableFormSwitching"] = true,
-["secondary"] = {
-["visibility"] = "combat",
-["smooth"] = false,
-},
+["maxResource"] = {
+["value"] = 100,
+["enabled"] = false,
 },
 ["endOf"] = {
 ["berserk"] = {
@@ -10084,10 +10744,7 @@ TwintopInsanityBarSettings = {
 ["timeMax"] = 3,
 },
 },
-["maxResource"] = {
-["value"] = 100,
-["enabled"] = false,
-},
+["enabled"] = true,
 ["colors"] = {
 ["threshold"] = {
 ["outOfRange"] = {
@@ -10130,6 +10787,10 @@ TwintopInsanityBarSettings = {
 ["threshold"] = 0,
 },
 ["type"] = "step",
+["absorb"] = {
+},
+["incomingHeal"] = {
+},
 ["background"] = {
 ["color"] = "66000000",
 },
@@ -10149,8 +10810,9 @@ TwintopInsanityBarSettings = {
 ["berserkEnd"] = {
 ["color"] = "FFFF5555",
 },
-["base"] = {
-["color"] = "FFFF0000",
+["berserk"] = {
+["color"] = "FFFFCC55",
+["enabled"] = true,
 },
 ["borderOvercap"] = {
 ["color"] = "FF800000",
@@ -10159,12 +10821,11 @@ TwintopInsanityBarSettings = {
 ["background"] = {
 ["color"] = "66000000",
 },
-["berserk"] = {
-["color"] = "FFFFCC55",
-["enabled"] = true,
-},
 ["border"] = {
 ["color"] = "FFC21807",
+},
+["base"] = {
+["color"] = "FFFF0000",
 },
 },
 },
@@ -10181,20 +10842,21 @@ TwintopInsanityBarSettings = {
 ["resource"] = 0,
 ["secondary"] = 2,
 },
-["textures"] = {
-["resourceBarName"] = "TRB: Smoother",
-["healthBar"] = "Interface\\Addons\\TwintopInsanityBar\\StatusBars\\smoother.tga",
-["borderName"] = "1 Pixel",
-["border"] = "Interface\\Buttons\\WHITE8X8",
-["textureLock"] = true,
-["backgroundName"] = "Blizzard Tooltip",
-["healthBackground"] = "Interface\\Tooltips\\UI-Tooltip-Background",
-["healthBackgroundName"] = "Blizzard Tooltip",
-["healthBorder"] = "Interface\\Buttons\\WHITE8X8",
-["healthBorderName"] = "1 Pixel",
-["background"] = "Interface\\Tooltips\\UI-Tooltip-Background",
-["healthBarName"] = "TRB: Smoother",
-["resourceBar"] = "Interface\\Addons\\TwintopInsanityBar\\StatusBars\\smoother.tga",
+["displayBar"] = {
+["health"] = {
+["visibility"] = "combat",
+["smooth"] = true,
+},
+["dragonriding"] = true,
+["primary"] = {
+["visibility"] = "combat",
+["smooth"] = true,
+},
+["enableFormSwitching"] = true,
+["secondary"] = {
+["visibility"] = "combat",
+["smooth"] = false,
+},
 },
 ["bar"] = {
 ["width"] = 300,
@@ -10488,6 +11150,10 @@ TwintopInsanityBarSettings = {
 ["threshold"] = 0,
 },
 ["type"] = "step",
+["absorb"] = {
+},
+["incomingHeal"] = {
+},
 ["background"] = {
 ["color"] = "66000000",
 },
@@ -10509,12 +11175,15 @@ TwintopInsanityBarSettings = {
 },
 ["incarnation"] = {
 ["color"] = "FF005500",
+["enabled"] = true,
 },
 ["clearcasting"] = {
 ["color"] = "FF4A95CE",
+["enabled"] = true,
 },
 ["noEfflorescence"] = {
 ["color"] = "FFFF0000",
+["enabled"] = true,
 },
 ["background"] = {
 ["color"] = "66000000",
@@ -10566,9 +11235,11 @@ TwintopInsanityBarSettings = {
 ["resourceBarName"] = "TRB: Smoother",
 ["healthBar"] = "Interface\\Addons\\TwintopInsanityBar\\StatusBars\\smoother.tga",
 ["borderName"] = "1 Pixel",
-["border"] = "Interface\\Buttons\\WHITE8X8",
 ["textureLock"] = true,
 ["healthBarName"] = "TRB: Smoother",
+["border"] = "Interface\\Buttons\\WHITE8X8",
+["absorbBarName"] = "Solid",
+["absorbBar"] = "Interface\\Buttons\\WHITE8X8",
 ["healthBackgroundName"] = "Blizzard Tooltip",
 ["healthBackground"] = "Interface\\Tooltips\\UI-Tooltip-Background",
 ["healthBorder"] = "Interface\\Buttons\\WHITE8X8",
@@ -10813,7 +11484,14 @@ TwintopInsanityBarSettings = {
 ["color"] = "FFFF0000",
 ["threshold"] = 0,
 },
+["absorb"] = {
+["enabled"] = true,
+["mode"] = "appended",
+["color"] = "CCFFFFB9",
+},
 ["type"] = "step",
+["incomingHeal"] = {
+},
 ["high"] = {
 ["color"] = "FF00FF00",
 ["threshold"] = 0.7,
@@ -10915,9 +11593,11 @@ TwintopInsanityBarSettings = {
 ["resourceBarName"] = "TRB: Smoother",
 ["healthBar"] = "Interface\\Addons\\TwintopInsanityBar\\StatusBars\\smoother.tga",
 ["borderName"] = "1 Pixel",
-["border"] = "Interface\\Buttons\\WHITE8X8",
 ["textureLock"] = true,
 ["healthBarName"] = "TRB: Smoother",
+["border"] = "Interface\\Buttons\\WHITE8X8",
+["absorbBarName"] = "Solid",
+["absorbBar"] = "Interface\\Buttons\\WHITE8X8",
 ["healthBackgroundName"] = "Blizzard Tooltip",
 ["healthBackground"] = "Interface\\Tooltips\\UI-Tooltip-Background",
 ["healthBorder"] = "Interface\\Buttons\\WHITE8X8",
@@ -11162,7 +11842,14 @@ TwintopInsanityBarSettings = {
 ["color"] = "FFFF0000",
 ["threshold"] = 0,
 },
+["absorb"] = {
+["enabled"] = true,
+["mode"] = "appended",
+["color"] = "CCFFFFB9",
+},
 ["type"] = "step",
+["incomingHeal"] = {
+},
 ["high"] = {
 ["color"] = "FF00FF00",
 ["threshold"] = 0.7,
@@ -11254,9 +11941,11 @@ TwintopInsanityBarSettings = {
 ["resourceBarName"] = "TRB: Smoother",
 ["healthBar"] = "Interface\\Addons\\TwintopInsanityBar\\StatusBars\\smoother.tga",
 ["borderName"] = "1 Pixel",
-["border"] = "Interface\\Buttons\\WHITE8X8",
 ["textureLock"] = true,
 ["healthBarName"] = "TRB: Smoother",
+["border"] = "Interface\\Buttons\\WHITE8X8",
+["absorbBarName"] = "Solid",
+["absorbBar"] = "Interface\\Buttons\\WHITE8X8",
 ["healthBackgroundName"] = "Blizzard Tooltip",
 ["healthBackground"] = "Interface\\Tooltips\\UI-Tooltip-Background",
 ["healthBorder"] = "Interface\\Buttons\\WHITE8X8",
@@ -11492,7 +12181,14 @@ TwintopInsanityBarSettings = {
 ["color"] = "FFFF0000",
 ["threshold"] = 0,
 },
+["absorb"] = {
+["enabled"] = true,
+["mode"] = "appended",
+["color"] = "CCFFFFB9",
+},
 ["type"] = "step",
+["incomingHeal"] = {
+},
 ["high"] = {
 ["color"] = "FF00FF00",
 ["threshold"] = 0.7,
@@ -11583,55 +12279,71 @@ TwintopInsanityBarSettings = {
 ["paladin"] = {
 ["protection"] = {
 ["textures"] = {
+["castingBar"] = "Interface\\Addons\\TwintopInsanityBar\\StatusBars\\smoother.tga",
 ["borderName"] = "1 Pixel",
 ["border"] = "Interface\\Buttons\\WHITE8X8",
+["absorbBar"] = "Interface\\Buttons\\WHITE8X8",
 ["healthBackgroundName"] = "Blizzard Tooltip",
 ["healthBorder"] = "Interface\\Buttons\\WHITE8X8",
 ["healthBorderName"] = "1 Pixel",
 ["background"] = "Interface\\Tooltips\\UI-Tooltip-Background",
 ["backgroundName"] = "Blizzard Tooltip",
 ["resourceBarName"] = "TRB: Smoother",
-["healthBar"] = "Interface\\Addons\\TwintopInsanityBar\\StatusBars\\smoother.tga",
-["comboPointsBarName"] = "TRB: Smoother",
-["textureLock"] = true,
 ["comboPointsBar"] = "Interface\\Addons\\TwintopInsanityBar\\StatusBars\\smoother.tga",
-["comboPointsBorderName"] = "1 Pixel",
-["healthBackground"] = "Interface\\Tooltips\\UI-Tooltip-Background",
-["comboPointsBackground"] = "Interface\\Tooltips\\UI-Tooltip-Background",
+["healthBar"] = "Interface\\Addons\\TwintopInsanityBar\\StatusBars\\smoother.tga",
 ["comboPointsBackgroundName"] = "Blizzard Tooltip",
+["comboPointsBarName"] = "TRB: Smoother",
+["comboPointsBackground"] = "Interface\\Tooltips\\UI-Tooltip-Background",
+["textureLock"] = true,
+["absorbBarName"] = "Solid",
+["castingBarName"] = "TRB: Smoother",
+["incomingHealBar"] = "Interface\\Buttons\\WHITE8X8",
+["healthBackground"] = "Interface\\Tooltips\\UI-Tooltip-Background",
+["incomingHealBarName"] = "Solid",
+["comboPointsBorderName"] = "1 Pixel",
 ["comboPointsBorder"] = "Interface\\Buttons\\WHITE8X8",
 ["healthBarName"] = "TRB: Smoother",
 ["resourceBar"] = "Interface\\Addons\\TwintopInsanityBar\\StatusBars\\smoother.tga",
 },
-["healthBar"] = {
-["relativeTo"] = "BOTTOM",
-["xPos"] = 0,
-["border"] = 2,
-["width"] = 300,
-["relativeToName"] = "Below - Center",
-["spacing"] = 0,
-["height"] = 20,
-["yPos"] = 0,
-["anchor"] = {
-["barKey"] = "primary",
-["attachPoint"] = "TOP",
-["xOffset"] = 0,
-["matchWidth"] = true,
-["anchorPoint"] = "BOTTOM",
-["yOffset"] = 0,
+["audio"] = {
+["holyPowerThreshold2"] = {
+["enabled"] = false,
+["name"] = "Holy Power Threshold 2",
+["soundName"] = "TRB: Boxing Arena Gong",
+["sound"] = "Interface\\Addons\\TwintopInsanityBar\\Sounds\\BoxingArenaSound.ogg",
+["configuration"] = {
+["thresholdValue"] = 5,
 },
-["fullWidth"] = true,
+},
+["holyPowerThreshold1"] = {
+["enabled"] = false,
+["name"] = "Holy Power Threshold 1",
+["soundName"] = "TRB: Boxing Arena Gong",
+["sound"] = "Interface\\Addons\\TwintopInsanityBar\\Sounds\\BoxingArenaSound.ogg",
+["configuration"] = {
+["thresholdValue"] = 3,
+},
+},
+["holyPowerThreshold3"] = {
+["enabled"] = false,
+["name"] = "Holy Power Threshold 3",
+["soundName"] = "TRB: Boxing Arena Gong",
+["sound"] = "Interface\\Addons\\TwintopInsanityBar\\Sounds\\BoxingArenaSound.ogg",
+["configuration"] = {
+["thresholdValue"] = 5,
+},
+},
 },
 ["displayText"] = {
 ["default"] = {
 ["fontFace"] = "Fonts\\FRIZQT__.TTF",
+["fontFaceName"] = "Friz Quadrata TT",
+["fontJustifyHorizontal"] = "LEFT",
+["fontJustifyHorizontalName"] = "Left",
+["fontSize"] = 14,
 ["color"] = {
 ["color"] = "FFFFFFFF",
 },
-["fontJustifyHorizontal"] = "LEFT",
-["fontSize"] = 14,
-["fontJustifyHorizontalName"] = "Left",
-["fontFaceName"] = "Friz Quadrata TT",
 },
 ["barText"] = {
 {
@@ -11752,18 +12464,63 @@ TwintopInsanityBarSettings = {
 },
 },
 ["colors"] = {
+["comboPoints"] = {
+["penultimate"] = {
+["color"] = "FFFF9900",
+},
+["second"] = {
+["color"] = "FFFCE58E",
+},
+["border"] = {
+["color"] = "FFAF9942",
+},
+["sameColor"] = false,
+["final"] = {
+["color"] = "FFFF0000",
+},
+["background"] = {
+["color"] = "66000000",
+},
+["base"] = {
+["color"] = "FFFCE58E",
+},
+["third"] = {
+["color"] = "FFFCE58E",
+},
+},
+["text"] = {
+["current"] = {
+["color"] = "FF4D4DFF",
+},
+["casting"] = {
+["color"] = "FFFFFFFF",
+},
+["passive"] = {
+["color"] = "FF8080FF",
+},
+},
 ["healthBar"] = {
 ["low"] = {
 ["color"] = "FFFF0000",
 ["threshold"] = 0,
 },
+["absorb"] = {
+["color"] = "CCFFFFB9",
+["mode"] = "appended",
+["enabled"] = true,
+},
 ["type"] = "step",
-["high"] = {
-["color"] = "FF00FF00",
-["threshold"] = 0.7,
+["incomingHeal"] = {
+["color"] = "CC80b980",
+["mode"] = "appended",
+["enabled"] = true,
 },
 ["background"] = {
 ["color"] = "66000000",
+},
+["high"] = {
+["color"] = "FF00FF00",
+["threshold"] = 0.7,
 },
 ["border"] = {
 ["color"] = "FF008800",
@@ -11773,80 +12530,45 @@ TwintopInsanityBarSettings = {
 ["threshold"] = 0.3,
 },
 },
-["text"] = {
-["current"] = {
-["color"] = "FF4D4DFF",
-},
-["passive"] = {
-["color"] = "FF8080FF",
-},
-["casting"] = {
-["color"] = "FFFFFFFF",
-},
-},
-["comboPoints"] = {
-["penultimate"] = {
-["color"] = "FFFF9900",
-},
-["sameColor"] = false,
-["base"] = {
-["color"] = "FFFCE58E",
-},
-["background"] = {
-["color"] = "66000000",
-},
-["border"] = {
-["color"] = "FFAF9942",
-},
-["final"] = {
-["color"] = "FFFF0000",
-},
-},
 ["bar"] = {
-["background"] = {
-["color"] = "66000000",
-},
 ["border"] = {
 ["color"] = "FF000099",
+},
+["background"] = {
+["color"] = "66000000",
 },
 ["base"] = {
 ["color"] = "FF0000FF",
 },
+["casting"] = {
+["color"] = "FFFFFFFF",
+["enabled"] = true,
 },
 },
-["audio"] = {
-["holyPowerThreshold2"] = {
-["enabled"] = false,
-["name"] = "Holy Power Threshold 2",
-["configuration"] = {
-["thresholdValue"] = 5,
 },
-["sound"] = "Interface\\Addons\\TwintopInsanityBar\\Sounds\\BoxingArenaSound.ogg",
-["soundName"] = "TRB: Boxing Arena Gong",
-},
-["holyPowerThreshold1"] = {
-["enabled"] = false,
-["name"] = "Holy Power Threshold 1",
-["configuration"] = {
-["thresholdValue"] = 3,
-},
-["sound"] = "Interface\\Addons\\TwintopInsanityBar\\Sounds\\BoxingArenaSound.ogg",
-["soundName"] = "TRB: Boxing Arena Gong",
-},
-["holyPowerThreshold3"] = {
-["enabled"] = false,
-["name"] = "Holy Power Threshold 3",
-["configuration"] = {
-["thresholdValue"] = 5,
-},
-["sound"] = "Interface\\Addons\\TwintopInsanityBar\\Sounds\\BoxingArenaSound.ogg",
-["soundName"] = "TRB: Boxing Arena Gong",
+["healthBar"] = {
+["relativeTo"] = "BOTTOM",
+["xPos"] = 0,
+["border"] = 2,
+["width"] = 300,
+["relativeToName"] = "Below - Center",
+["spacing"] = 0,
+["height"] = 20,
+["yPos"] = 0,
+["fullWidth"] = true,
+["anchor"] = {
+["barKey"] = "primary",
+["attachPoint"] = "TOP",
+["xOffset"] = 0,
+["matchWidth"] = true,
+["anchorPoint"] = "BOTTOM",
+["yOffset"] = 0,
 },
 },
 ["precision"] = {
-["resource"] = 0,
-["mana"] = 1,
 ["health"] = 1,
+["mana"] = 1,
+["resource"] = 0,
 ["secondary"] = 2,
 },
 ["comboPoints"] = {
@@ -11858,6 +12580,7 @@ TwintopInsanityBarSettings = {
 ["spacing"] = 0,
 ["height"] = 20,
 ["yPos"] = 0,
+["fullWidth"] = true,
 ["anchor"] = {
 ["barKey"] = "primary",
 ["attachPoint"] = "BOTTOM",
@@ -11866,12 +12589,12 @@ TwintopInsanityBarSettings = {
 ["anchorPoint"] = "TOP",
 ["yOffset"] = 0,
 },
-["fullWidth"] = true,
 },
 ["bar"] = {
-["pinToPersonalResourceDisplay"] = false,
-["dragAndDrop"] = false,
+["width"] = 300,
 ["xPos"] = 0,
+["pinToPersonalResourceDisplay"] = false,
+["height"] = 30,
 ["anchor"] = {
 ["barKey"] = "screen",
 ["attachPoint"] = "CENTER",
@@ -11880,63 +12603,84 @@ TwintopInsanityBarSettings = {
 ["anchorPoint"] = "CENTER",
 ["yOffset"] = -200,
 },
-["height"] = 30,
 ["yPos"] = -200,
 ["border"] = 2,
-["width"] = 300,
+["dragAndDrop"] = false,
 },
 },
 ["holy"] = {
 ["textures"] = {
+["castingBar"] = "Interface\\Addons\\TwintopInsanityBar\\StatusBars\\smoother.tga",
 ["borderName"] = "1 Pixel",
 ["border"] = "Interface\\Buttons\\WHITE8X8",
+["absorbBar"] = "Interface\\Buttons\\WHITE8X8",
 ["healthBackgroundName"] = "Blizzard Tooltip",
 ["healthBorder"] = "Interface\\Buttons\\WHITE8X8",
 ["healthBorderName"] = "1 Pixel",
 ["background"] = "Interface\\Tooltips\\UI-Tooltip-Background",
 ["backgroundName"] = "Blizzard Tooltip",
 ["resourceBarName"] = "TRB: Smoother",
-["healthBar"] = "Interface\\Addons\\TwintopInsanityBar\\StatusBars\\smoother.tga",
-["comboPointsBarName"] = "TRB: Smoother",
-["textureLock"] = true,
 ["comboPointsBar"] = "Interface\\Addons\\TwintopInsanityBar\\StatusBars\\smoother.tga",
-["comboPointsBorderName"] = "1 Pixel",
-["healthBackground"] = "Interface\\Tooltips\\UI-Tooltip-Background",
-["comboPointsBackground"] = "Interface\\Tooltips\\UI-Tooltip-Background",
+["healthBar"] = "Interface\\Addons\\TwintopInsanityBar\\StatusBars\\smoother.tga",
 ["comboPointsBackgroundName"] = "Blizzard Tooltip",
+["comboPointsBarName"] = "TRB: Smoother",
+["comboPointsBackground"] = "Interface\\Tooltips\\UI-Tooltip-Background",
+["textureLock"] = true,
+["absorbBarName"] = "Solid",
+["castingBarName"] = "TRB: Smoother",
+["incomingHealBar"] = "Interface\\Buttons\\WHITE8X8",
+["healthBackground"] = "Interface\\Tooltips\\UI-Tooltip-Background",
+["incomingHealBarName"] = "Solid",
+["comboPointsBorderName"] = "1 Pixel",
 ["comboPointsBorder"] = "Interface\\Buttons\\WHITE8X8",
 ["healthBarName"] = "TRB: Smoother",
 ["resourceBar"] = "Interface\\Addons\\TwintopInsanityBar\\StatusBars\\smoother.tga",
 },
-["healthBar"] = {
-["relativeTo"] = "BOTTOM",
-["xPos"] = 0,
-["border"] = 2,
-["width"] = 300,
-["relativeToName"] = "Below - Center",
-["spacing"] = 0,
-["height"] = 20,
-["yPos"] = 0,
-["anchor"] = {
-["barKey"] = "primary",
-["attachPoint"] = "TOP",
-["xOffset"] = 0,
-["matchWidth"] = true,
-["anchorPoint"] = "BOTTOM",
-["yOffset"] = 0,
+["audio"] = {
+["infusionOfLight"] = {
+["enabled"] = false,
+["soundName"] = "TRB: Boxing Arena Gong",
+["name"] = "Infusion of Light",
+["sound"] = "Interface\\Addons\\TwintopInsanityBar\\Sounds\\BoxingArenaSound.ogg",
 },
-["fullWidth"] = true,
+["holyPowerThreshold2"] = {
+["enabled"] = false,
+["name"] = "Holy Power Threshold 2",
+["soundName"] = "TRB: Boxing Arena Gong",
+["sound"] = "Interface\\Addons\\TwintopInsanityBar\\Sounds\\BoxingArenaSound.ogg",
+["configuration"] = {
+["thresholdValue"] = 5,
+},
+},
+["holyPowerThreshold1"] = {
+["enabled"] = false,
+["name"] = "Holy Power Threshold 1",
+["soundName"] = "TRB: Boxing Arena Gong",
+["sound"] = "Interface\\Addons\\TwintopInsanityBar\\Sounds\\BoxingArenaSound.ogg",
+["configuration"] = {
+["thresholdValue"] = 3,
+},
+},
+["holyPowerThreshold3"] = {
+["enabled"] = false,
+["name"] = "Holy Power Threshold 3",
+["soundName"] = "TRB: Boxing Arena Gong",
+["sound"] = "Interface\\Addons\\TwintopInsanityBar\\Sounds\\BoxingArenaSound.ogg",
+["configuration"] = {
+["thresholdValue"] = 5,
+},
+},
 },
 ["displayText"] = {
 ["default"] = {
 ["fontFace"] = "Fonts\\FRIZQT__.TTF",
+["fontFaceName"] = "Friz Quadrata TT",
+["fontJustifyHorizontal"] = "LEFT",
+["fontJustifyHorizontalName"] = "Left",
+["fontSize"] = 14,
 ["color"] = {
 ["color"] = "FFFFFFFF",
 },
-["fontJustifyHorizontal"] = "LEFT",
-["fontSize"] = 14,
-["fontJustifyHorizontalName"] = "Left",
-["fontFaceName"] = "Friz Quadrata TT",
 },
 ["barText"] = {
 {
@@ -12057,18 +12801,63 @@ TwintopInsanityBarSettings = {
 },
 },
 ["colors"] = {
+["comboPoints"] = {
+["penultimate"] = {
+["color"] = "FFFF9900",
+},
+["second"] = {
+["color"] = "FFFCE58E",
+},
+["border"] = {
+["color"] = "FFAF9942",
+},
+["sameColor"] = false,
+["final"] = {
+["color"] = "FFFF0000",
+},
+["background"] = {
+["color"] = "66000000",
+},
+["base"] = {
+["color"] = "FFFCE58E",
+},
+["third"] = {
+["color"] = "FFFCE58E",
+},
+},
+["text"] = {
+["current"] = {
+["color"] = "FF4D4DFF",
+},
+["casting"] = {
+["color"] = "FFFFFFFF",
+},
+["passive"] = {
+["color"] = "FF8080FF",
+},
+},
 ["healthBar"] = {
 ["low"] = {
 ["color"] = "FFFF0000",
 ["threshold"] = 0,
 },
+["absorb"] = {
+["color"] = "CCFFFFB9",
+["mode"] = "appended",
+["enabled"] = true,
+},
 ["type"] = "step",
-["high"] = {
-["color"] = "FF00FF00",
-["threshold"] = 0.7,
+["incomingHeal"] = {
+["color"] = "CC80b980",
+["mode"] = "appended",
+["enabled"] = true,
 },
 ["background"] = {
 ["color"] = "66000000",
+},
+["high"] = {
+["color"] = "FF00FF00",
+["threshold"] = 0.7,
 },
 ["border"] = {
 ["color"] = "FF008800",
@@ -12078,36 +12867,10 @@ TwintopInsanityBarSettings = {
 ["threshold"] = 0.3,
 },
 },
-["text"] = {
-["current"] = {
-["color"] = "FF4D4DFF",
-},
-["passive"] = {
-["color"] = "FF8080FF",
-},
-["casting"] = {
-["color"] = "FFFFFFFF",
-},
-},
-["comboPoints"] = {
-["penultimate"] = {
-["color"] = "FFFF9900",
-},
-["sameColor"] = false,
-["base"] = {
-["color"] = "FFFCE58E",
-},
-["background"] = {
-["color"] = "66000000",
-},
-["border"] = {
-["color"] = "FFAF9942",
-},
-["final"] = {
-["color"] = "FFFF0000",
-},
-},
 ["bar"] = {
+["border"] = {
+["color"] = "FF000099",
+},
 ["infusionOfLight"] = {
 ["color"] = "FFFCE58E",
 ["enabled"] = true,
@@ -12115,53 +12878,38 @@ TwintopInsanityBarSettings = {
 ["background"] = {
 ["color"] = "66000000",
 },
-["border"] = {
-["color"] = "FF000099",
-},
 ["base"] = {
 ["color"] = "FF0000FF",
 },
+["casting"] = {
+["color"] = "FFFFFFFF",
+["enabled"] = true,
 },
 },
-["audio"] = {
-["infusionOfLight"] = {
-["enabled"] = false,
-["soundName"] = "TRB: Boxing Arena Gong",
-["name"] = "Infusion of Light",
-["sound"] = "Interface\\Addons\\TwintopInsanityBar\\Sounds\\BoxingArenaSound.ogg",
 },
-["holyPowerThreshold2"] = {
-["enabled"] = false,
-["name"] = "Holy Power Threshold 2",
-["configuration"] = {
-["thresholdValue"] = 5,
-},
-["sound"] = "Interface\\Addons\\TwintopInsanityBar\\Sounds\\BoxingArenaSound.ogg",
-["soundName"] = "TRB: Boxing Arena Gong",
-},
-["holyPowerThreshold1"] = {
-["enabled"] = false,
-["name"] = "Holy Power Threshold 1",
-["configuration"] = {
-["thresholdValue"] = 3,
-},
-["sound"] = "Interface\\Addons\\TwintopInsanityBar\\Sounds\\BoxingArenaSound.ogg",
-["soundName"] = "TRB: Boxing Arena Gong",
-},
-["holyPowerThreshold3"] = {
-["enabled"] = false,
-["name"] = "Holy Power Threshold 3",
-["configuration"] = {
-["thresholdValue"] = 5,
-},
-["sound"] = "Interface\\Addons\\TwintopInsanityBar\\Sounds\\BoxingArenaSound.ogg",
-["soundName"] = "TRB: Boxing Arena Gong",
+["healthBar"] = {
+["relativeTo"] = "BOTTOM",
+["xPos"] = 0,
+["border"] = 2,
+["width"] = 300,
+["relativeToName"] = "Below - Center",
+["spacing"] = 0,
+["height"] = 20,
+["yPos"] = 0,
+["fullWidth"] = true,
+["anchor"] = {
+["barKey"] = "primary",
+["attachPoint"] = "TOP",
+["xOffset"] = 0,
+["matchWidth"] = true,
+["anchorPoint"] = "BOTTOM",
+["yOffset"] = 0,
 },
 },
 ["precision"] = {
-["resource"] = 0,
-["mana"] = 1,
 ["health"] = 1,
+["mana"] = 1,
+["resource"] = 0,
 ["secondary"] = 2,
 },
 ["comboPoints"] = {
@@ -12173,6 +12921,7 @@ TwintopInsanityBarSettings = {
 ["spacing"] = 0,
 ["height"] = 20,
 ["yPos"] = 0,
+["fullWidth"] = true,
 ["anchor"] = {
 ["barKey"] = "primary",
 ["attachPoint"] = "BOTTOM",
@@ -12181,12 +12930,12 @@ TwintopInsanityBarSettings = {
 ["anchorPoint"] = "TOP",
 ["yOffset"] = 0,
 },
-["fullWidth"] = true,
 },
 ["bar"] = {
-["pinToPersonalResourceDisplay"] = false,
-["dragAndDrop"] = false,
+["width"] = 300,
 ["xPos"] = 0,
+["pinToPersonalResourceDisplay"] = false,
+["height"] = 30,
 ["anchor"] = {
 ["barKey"] = "screen",
 ["attachPoint"] = "CENTER",
@@ -12195,63 +12944,78 @@ TwintopInsanityBarSettings = {
 ["anchorPoint"] = "CENTER",
 ["yOffset"] = -200,
 },
-["height"] = 30,
 ["yPos"] = -200,
 ["border"] = 2,
-["width"] = 300,
+["dragAndDrop"] = false,
 },
 },
 ["retribution"] = {
 ["textures"] = {
+["castingBar"] = "Interface\\Addons\\TwintopInsanityBar\\StatusBars\\smoother.tga",
 ["borderName"] = "1 Pixel",
 ["border"] = "Interface\\Buttons\\WHITE8X8",
+["absorbBar"] = "Interface\\Buttons\\WHITE8X8",
 ["healthBackgroundName"] = "Blizzard Tooltip",
 ["healthBorder"] = "Interface\\Buttons\\WHITE8X8",
 ["healthBorderName"] = "1 Pixel",
 ["background"] = "Interface\\Tooltips\\UI-Tooltip-Background",
 ["backgroundName"] = "Blizzard Tooltip",
 ["resourceBarName"] = "TRB: Smoother",
-["healthBar"] = "Interface\\Addons\\TwintopInsanityBar\\StatusBars\\smoother.tga",
-["comboPointsBarName"] = "TRB: Smoother",
-["textureLock"] = true,
 ["comboPointsBar"] = "Interface\\Addons\\TwintopInsanityBar\\StatusBars\\smoother.tga",
-["comboPointsBorderName"] = "1 Pixel",
-["healthBackground"] = "Interface\\Tooltips\\UI-Tooltip-Background",
-["comboPointsBackground"] = "Interface\\Tooltips\\UI-Tooltip-Background",
+["healthBar"] = "Interface\\Addons\\TwintopInsanityBar\\StatusBars\\smoother.tga",
 ["comboPointsBackgroundName"] = "Blizzard Tooltip",
+["comboPointsBarName"] = "TRB: Smoother",
+["comboPointsBackground"] = "Interface\\Tooltips\\UI-Tooltip-Background",
+["textureLock"] = true,
+["absorbBarName"] = "Solid",
+["castingBarName"] = "TRB: Smoother",
+["incomingHealBar"] = "Interface\\Buttons\\WHITE8X8",
+["healthBackground"] = "Interface\\Tooltips\\UI-Tooltip-Background",
+["incomingHealBarName"] = "Solid",
+["comboPointsBorderName"] = "1 Pixel",
 ["comboPointsBorder"] = "Interface\\Buttons\\WHITE8X8",
 ["healthBarName"] = "TRB: Smoother",
 ["resourceBar"] = "Interface\\Addons\\TwintopInsanityBar\\StatusBars\\smoother.tga",
 },
-["healthBar"] = {
-["relativeTo"] = "BOTTOM",
-["xPos"] = 0,
-["border"] = 2,
-["width"] = 300,
-["relativeToName"] = "Below - Center",
-["spacing"] = 0,
-["height"] = 20,
-["yPos"] = 0,
-["anchor"] = {
-["barKey"] = "primary",
-["attachPoint"] = "TOP",
-["xOffset"] = 0,
-["matchWidth"] = true,
-["anchorPoint"] = "BOTTOM",
-["yOffset"] = 0,
+["audio"] = {
+["holyPowerThreshold2"] = {
+["enabled"] = false,
+["name"] = "Holy Power Threshold 2",
+["soundName"] = "TRB: Boxing Arena Gong",
+["sound"] = "Interface\\Addons\\TwintopInsanityBar\\Sounds\\BoxingArenaSound.ogg",
+["configuration"] = {
+["thresholdValue"] = 5,
 },
-["fullWidth"] = true,
+},
+["holyPowerThreshold1"] = {
+["enabled"] = false,
+["name"] = "Holy Power Threshold 1",
+["soundName"] = "TRB: Boxing Arena Gong",
+["sound"] = "Interface\\Addons\\TwintopInsanityBar\\Sounds\\BoxingArenaSound.ogg",
+["configuration"] = {
+["thresholdValue"] = 3,
+},
+},
+["holyPowerThreshold3"] = {
+["enabled"] = false,
+["name"] = "Holy Power Threshold 3",
+["soundName"] = "TRB: Boxing Arena Gong",
+["sound"] = "Interface\\Addons\\TwintopInsanityBar\\Sounds\\BoxingArenaSound.ogg",
+["configuration"] = {
+["thresholdValue"] = 5,
+},
+},
 },
 ["displayText"] = {
 ["default"] = {
 ["fontFace"] = "Fonts\\FRIZQT__.TTF",
+["fontFaceName"] = "Friz Quadrata TT",
+["fontJustifyHorizontal"] = "LEFT",
+["fontJustifyHorizontalName"] = "Left",
+["fontSize"] = 14,
 ["color"] = {
 ["color"] = "FFFFFFFF",
 },
-["fontJustifyHorizontal"] = "LEFT",
-["fontSize"] = 14,
-["fontJustifyHorizontalName"] = "Left",
-["fontFaceName"] = "Friz Quadrata TT",
 },
 ["barText"] = {
 {
@@ -12372,18 +13136,63 @@ TwintopInsanityBarSettings = {
 },
 },
 ["colors"] = {
+["comboPoints"] = {
+["penultimate"] = {
+["color"] = "FFFF9900",
+},
+["second"] = {
+["color"] = "FFFCE58E",
+},
+["border"] = {
+["color"] = "FFAF9942",
+},
+["sameColor"] = false,
+["final"] = {
+["color"] = "FFFF0000",
+},
+["background"] = {
+["color"] = "66000000",
+},
+["base"] = {
+["color"] = "FFFCE58E",
+},
+["third"] = {
+["color"] = "FFFCE58E",
+},
+},
+["text"] = {
+["current"] = {
+["color"] = "FF4D4DFF",
+},
+["casting"] = {
+["color"] = "FFFFFFFF",
+},
+["passive"] = {
+["color"] = "FF8080FF",
+},
+},
 ["healthBar"] = {
 ["low"] = {
 ["color"] = "FFFF0000",
 ["threshold"] = 0,
 },
+["absorb"] = {
+["color"] = "CCFFFFB9",
+["mode"] = "appended",
+["enabled"] = true,
+},
 ["type"] = "step",
-["high"] = {
-["color"] = "FF00FF00",
-["threshold"] = 0.7,
+["incomingHeal"] = {
+["color"] = "CC80b980",
+["mode"] = "appended",
+["enabled"] = true,
 },
 ["background"] = {
 ["color"] = "66000000",
+},
+["high"] = {
+["color"] = "FF00FF00",
+["threshold"] = 0.7,
 },
 ["border"] = {
 ["color"] = "FF008800",
@@ -12393,142 +13202,21 @@ TwintopInsanityBarSettings = {
 ["threshold"] = 0.3,
 },
 },
-["text"] = {
-["current"] = {
-["color"] = "FF4D4DFF",
-},
-["passive"] = {
-["color"] = "FF8080FF",
-},
-["casting"] = {
-["color"] = "FFFFFFFF",
-},
-},
-["comboPoints"] = {
-["penultimate"] = {
-["color"] = "FFFF9900",
-},
-["sameColor"] = false,
-["base"] = {
-["color"] = "FFFCE58E",
-},
-["background"] = {
-["color"] = "66000000",
-},
-["border"] = {
-["color"] = "FFAF9942",
-},
-["final"] = {
-["color"] = "FFFF0000",
-},
-},
 ["bar"] = {
-["background"] = {
-["color"] = "66000000",
-},
 ["border"] = {
 ["color"] = "FF000099",
+},
+["background"] = {
+["color"] = "66000000",
 },
 ["base"] = {
 ["color"] = "FF0000FF",
 },
+["casting"] = {
+["color"] = "FFFFFFFF",
+["enabled"] = true,
 },
 },
-["audio"] = {
-["holyPowerThreshold2"] = {
-["enabled"] = false,
-["name"] = "Holy Power Threshold 2",
-["configuration"] = {
-["thresholdValue"] = 5,
-},
-["sound"] = "Interface\\Addons\\TwintopInsanityBar\\Sounds\\BoxingArenaSound.ogg",
-["soundName"] = "TRB: Boxing Arena Gong",
-},
-["holyPowerThreshold1"] = {
-["enabled"] = false,
-["name"] = "Holy Power Threshold 1",
-["configuration"] = {
-["thresholdValue"] = 3,
-},
-["sound"] = "Interface\\Addons\\TwintopInsanityBar\\Sounds\\BoxingArenaSound.ogg",
-["soundName"] = "TRB: Boxing Arena Gong",
-},
-["holyPowerThreshold3"] = {
-["enabled"] = false,
-["name"] = "Holy Power Threshold 3",
-["configuration"] = {
-["thresholdValue"] = 5,
-},
-["sound"] = "Interface\\Addons\\TwintopInsanityBar\\Sounds\\BoxingArenaSound.ogg",
-["soundName"] = "TRB: Boxing Arena Gong",
-},
-},
-["precision"] = {
-["resource"] = 0,
-["mana"] = 1,
-["health"] = 1,
-["secondary"] = 2,
-},
-["comboPoints"] = {
-["relativeTo"] = "TOP",
-["xPos"] = 0,
-["border"] = 2,
-["width"] = 30,
-["relativeToName"] = "Above - Center",
-["spacing"] = 0,
-["height"] = 20,
-["yPos"] = 0,
-["anchor"] = {
-["barKey"] = "primary",
-["attachPoint"] = "BOTTOM",
-["xOffset"] = 0,
-["matchWidth"] = true,
-["anchorPoint"] = "TOP",
-["yOffset"] = 0,
-},
-["fullWidth"] = true,
-},
-["bar"] = {
-["pinToPersonalResourceDisplay"] = false,
-["dragAndDrop"] = false,
-["xPos"] = 0,
-["anchor"] = {
-["barKey"] = "screen",
-["attachPoint"] = "CENTER",
-["xOffset"] = 0,
-["matchWidth"] = false,
-["anchorPoint"] = "CENTER",
-["yOffset"] = -200,
-},
-["height"] = 30,
-["yPos"] = -200,
-["border"] = 2,
-["width"] = 300,
-},
-},
-},
-["priest"] = {
-["discipline"] = {
-["textures"] = {
-["borderName"] = "1 Pixel",
-["border"] = "Interface\\Buttons\\WHITE8X8",
-["healthBackgroundName"] = "Blizzard Tooltip",
-["healthBorder"] = "Interface\\Buttons\\WHITE8X8",
-["healthBorderName"] = "1 Pixel",
-["background"] = "Interface\\Tooltips\\UI-Tooltip-Background",
-["backgroundName"] = "Blizzard Tooltip",
-["resourceBarName"] = "TRB: Smoother",
-["healthBar"] = "Interface\\Addons\\TwintopInsanityBar\\StatusBars\\smoother.tga",
-["comboPointsBarName"] = "TRB: Smoother",
-["textureLock"] = true,
-["comboPointsBar"] = "Interface\\Addons\\TwintopInsanityBar\\StatusBars\\smoother.tga",
-["healthBackground"] = "Interface\\Tooltips\\UI-Tooltip-Background",
-["comboPointsBorderName"] = "1 Pixel",
-["comboPointsBackground"] = "Interface\\Tooltips\\UI-Tooltip-Background",
-["comboPointsBackgroundName"] = "Blizzard Tooltip",
-["comboPointsBorder"] = "Interface\\Buttons\\WHITE8X8",
-["healthBarName"] = "TRB: Smoother",
-["resourceBar"] = "Interface\\Addons\\TwintopInsanityBar\\StatusBars\\smoother.tga",
 },
 ["healthBar"] = {
 ["relativeTo"] = "BOTTOM",
@@ -12549,98 +13237,101 @@ TwintopInsanityBarSettings = {
 ["yOffset"] = 0,
 },
 },
-["audio"] = {
-["innervate"] = {
-["enabled"] = false,
-["name"] = "Innervate",
-["sound"] = "Interface\\Addons\\TwintopInsanityBar\\Sounds\\BoxingArenaSound.ogg",
-["soundName"] = "TRB: Boxing Arena Gong",
+["precision"] = {
+["health"] = 1,
+["mana"] = 1,
+["resource"] = 0,
+["secondary"] = 2,
 },
-["surgeOfLight"] = {
-["enabled"] = false,
-["name"] = "Surge of Light",
-["sound"] = "Interface\\Addons\\TwintopInsanityBar\\Sounds\\BoxingArenaSound.ogg",
-["soundName"] = "TRB: Boxing Arena Gong",
-},
-},
-["colors"] = {
 ["comboPoints"] = {
-["border"] = {
-["color"] = "FF000099",
-},
-["background"] = {
-["color"] = "66000000",
-},
-["base"] = {
-["color"] = "FF000099",
-},
-["powerWordRadiance"] = {
-["color"] = "FFFFDD22",
-["enabled"] = true,
-},
-},
-["text"] = {
-["current"] = {
-["color"] = "FF4D4DFF",
-},
-["casting"] = {
-["color"] = "FFFFFFFF",
-},
-["passive"] = {
-["color"] = "FF8080FF",
-},
-},
-["healthBar"] = {
-["low"] = {
-["color"] = "FFFF0000",
-["threshold"] = 0,
-},
-["type"] = "step",
-["background"] = {
-["color"] = "66000000",
-},
-["high"] = {
-["color"] = "FF00FF00",
-["threshold"] = 0.7,
-},
-["border"] = {
-["color"] = "FF008800",
-},
-["medium"] = {
-["color"] = "FFFFFF00",
-["threshold"] = 0.3,
+["relativeTo"] = "TOP",
+["xPos"] = 0,
+["border"] = 2,
+["width"] = 30,
+["relativeToName"] = "Above - Center",
+["spacing"] = 0,
+["height"] = 20,
+["yPos"] = 0,
+["fullWidth"] = true,
+["anchor"] = {
+["barKey"] = "primary",
+["attachPoint"] = "BOTTOM",
+["xOffset"] = 0,
+["matchWidth"] = true,
+["anchorPoint"] = "TOP",
+["yOffset"] = 0,
 },
 },
 ["bar"] = {
-["surgeOfLight"] = {
-["color"] = "FFFCE58E",
-["enabled"] = true,
+["width"] = 300,
+["xPos"] = 0,
+["pinToPersonalResourceDisplay"] = false,
+["height"] = 30,
+["anchor"] = {
+["barKey"] = "screen",
+["attachPoint"] = "CENTER",
+["xOffset"] = 0,
+["matchWidth"] = false,
+["anchorPoint"] = "CENTER",
+["yOffset"] = -200,
 },
-["border"] = {
-["color"] = "FF000099",
-},
-["background"] = {
-["color"] = "66000000",
-},
-["base"] = {
-["color"] = "FF0000FF",
-},
-["shadowCovenant"] = {
-["color"] = "FFC4A5E2",
-["enabled"] = true,
+["yPos"] = -200,
+["border"] = 2,
+["dragAndDrop"] = false,
 },
 },
+},
+["priest"] = {
+["discipline"] = {
+["textures"] = {
+["castingBar"] = "Interface\\Addons\\TwintopInsanityBar\\StatusBars\\smoother.tga",
+["borderName"] = "1 Pixel",
+["border"] = "Interface\\Buttons\\WHITE8X8",
+["absorbBar"] = "Interface\\Buttons\\WHITE8X8",
+["healthBackgroundName"] = "Blizzard Tooltip",
+["healthBorder"] = "Interface\\Buttons\\WHITE8X8",
+["healthBorderName"] = "1 Pixel",
+["background"] = "Interface\\Tooltips\\UI-Tooltip-Background",
+["backgroundName"] = "Blizzard Tooltip",
+["resourceBarName"] = "TRB: Smoother",
+["comboPointsBorderName"] = "1 Pixel",
+["healthBar"] = "Interface\\Addons\\TwintopInsanityBar\\StatusBars\\smoother.tga",
+["comboPointsBar"] = "Interface\\Addons\\TwintopInsanityBar\\StatusBars\\smoother.tga",
+["comboPointsBarName"] = "TRB: Smoother",
+["incomingHealBarName"] = "Solid",
+["textureLock"] = true,
+["absorbBarName"] = "Solid",
+["comboPointsBackgroundName"] = "Blizzard Tooltip",
+["comboPointsBackground"] = "Interface\\Tooltips\\UI-Tooltip-Background",
+["healthBackground"] = "Interface\\Tooltips\\UI-Tooltip-Background",
+["incomingHealBar"] = "Interface\\Buttons\\WHITE8X8",
+["castingBarName"] = "TRB: Smoother",
+["comboPointsBorder"] = "Interface\\Buttons\\WHITE8X8",
+["healthBarName"] = "TRB: Smoother",
+["resourceBar"] = "Interface\\Addons\\TwintopInsanityBar\\StatusBars\\smoother.tga",
+},
+["healthBar"] = {
+["relativeTo"] = "BOTTOM",
+["xPos"] = 0,
+["border"] = 2,
+["width"] = 300,
+["relativeToName"] = "Below - Center",
+["spacing"] = 0,
+["height"] = 20,
+["yPos"] = 0,
+["anchor"] = {
+["barKey"] = "primary",
+["attachPoint"] = "TOP",
+["xOffset"] = 0,
+["matchWidth"] = true,
+["anchorPoint"] = "BOTTOM",
+["yOffset"] = 0,
+},
+["fullWidth"] = true,
 },
 ["displayText"] = {
-["default"] = {
-["fontFace"] = "Fonts\\FRIZQT__.TTF",
-["fontFaceName"] = "Friz Quadrata TT",
-["fontJustifyHorizontal"] = "LEFT",
-["fontJustifyHorizontalName"] = "Left",
-["fontSize"] = 14,
-["color"] = {
-["color"] = "FFFFFFFF",
-},
+["migrations"] = {
+["powerWordBarTextSeeded"] = true,
 },
 ["barText"] = {
 {
@@ -12743,13 +13434,67 @@ TwintopInsanityBarSettings = {
 },
 ["fontSize"] = 16,
 },
+{
+["useDefaultFontColor"] = false,
+["fontFace"] = "Fonts\\FRIZQT__.TTF",
+["useDefaultFontFace"] = false,
+["guid"] = "168ae3d3-063d-434f-93c6-d0090264d85a",
+["fontJustifyHorizontalName"] = "Left",
+["text"] = "{$pwRadianceTime&$pwRadianceCharges=0}[$pwRadianceTime]",
+["fontSize"] = 14,
+["color"] = {
+["color"] = "FFFFFFFF",
+},
+["name"] = "PW Radiance 1",
+["position"] = {
+["relativeToName"] = "Center",
+["relativeTo"] = "CENTER",
+["xPos"] = 0,
+["relativeToFrameName"] = "Power Word: Radiance (1st Charge)",
+["yPos"] = 0,
+["relativeToFrame"] = "PowerWord_Radiance_1",
+},
+["fontJustifyHorizontal"] = "LEFT",
+["useDefaultFontSize"] = false,
+["fontFaceName"] = "Friz Quadrata TT",
+["enabled"] = true,
+},
+{
+["useDefaultFontColor"] = false,
+["fontFace"] = "Fonts\\FRIZQT__.TTF",
+["useDefaultFontFace"] = false,
+["guid"] = "ff2dd060-f158-498b-943d-d9e0e15ca1a4",
+["fontJustifyHorizontalName"] = "Left",
+["text"] = "{$pwRadianceTime&$pwRadianceCharges=1}[$pwRadianceTime]",
+["fontSize"] = 14,
+["color"] = {
+["color"] = "FFFFFFFF",
+},
+["name"] = "PW Radiance 2",
+["position"] = {
+["relativeToName"] = "Center",
+["relativeTo"] = "CENTER",
+["xPos"] = 0,
+["relativeToFrameName"] = "Power Word: Radiance (2nd Charge)",
+["yPos"] = 0,
+["relativeToFrame"] = "PowerWord_Radiance_2",
+},
+["fontJustifyHorizontal"] = "LEFT",
+["useDefaultFontSize"] = false,
+["fontFaceName"] = "Friz Quadrata TT",
+["enabled"] = true,
 },
 },
-["precision"] = {
-["health"] = 1,
-["mana"] = 1,
-["resource"] = 0,
-["secondary"] = 2,
+["default"] = {
+["fontFace"] = "Fonts\\FRIZQT__.TTF",
+["color"] = {
+["color"] = "FFFFFFFF",
+},
+["fontJustifyHorizontal"] = "LEFT",
+["fontSize"] = 14,
+["fontJustifyHorizontalName"] = "Left",
+["fontFaceName"] = "Friz Quadrata TT",
+},
 },
 ["displayBar"] = {
 ["dragonriding"] = true,
@@ -12766,11 +13511,131 @@ TwintopInsanityBarSettings = {
 ["smooth"] = false,
 },
 },
+["colors"] = {
+["healthBar"] = {
+["low"] = {
+["color"] = "FFFF0000",
+["threshold"] = 0,
+},
+["absorb"] = {
+["color"] = "CCFFFFB9",
+["mode"] = "appended",
+["enabled"] = true,
+},
+["high"] = {
+["color"] = "FF00FF00",
+["threshold"] = 0.7,
+},
+["incomingHeal"] = {
+["color"] = "CC80b980",
+["mode"] = "appended",
+["enabled"] = true,
+},
+["type"] = "step",
+["background"] = {
+["color"] = "66000000",
+},
+["border"] = {
+["color"] = "FF008800",
+},
+["medium"] = {
+["color"] = "FFFFFF00",
+["threshold"] = 0.3,
+},
+},
+["text"] = {
+["current"] = {
+["color"] = "FF4D4DFF",
+},
+["passive"] = {
+["color"] = "FF8080FF",
+},
+["casting"] = {
+["color"] = "FFFFFFFF",
+},
+},
+["comboPoints"] = {
+["powerWordRadiance"] = {
+["color"] = "FFFFDD22",
+["enabled"] = true,
+},
+["background"] = {
+["color"] = "66000000",
+},
+["border"] = {
+["color"] = "FF000099",
+},
+["base"] = {
+["color"] = "FF000099",
+},
+},
 ["bar"] = {
-["width"] = 300,
+["casting"] = {
+["color"] = "FFFFFFFF",
+["enabled"] = true,
+},
+["surgeOfLight"] = {
+["color"] = "FFFCE58E",
+["enabled"] = true,
+},
+["shadowCovenant"] = {
+["color"] = "FFC4A5E2",
+["enabled"] = true,
+},
+["background"] = {
+["color"] = "66000000",
+},
+["border"] = {
+["color"] = "FF000099",
+},
+["base"] = {
+["color"] = "FF0000FF",
+},
+},
+},
+["audio"] = {
+["surgeOfLight"] = {
+["enabled"] = false,
+["soundName"] = "TRB: Boxing Arena Gong",
+["name"] = "Surge of Light",
+["sound"] = "Interface\\Addons\\TwintopInsanityBar\\Sounds\\BoxingArenaSound.ogg",
+},
+["innervate"] = {
+["enabled"] = false,
+["soundName"] = "TRB: Boxing Arena Gong",
+["name"] = "Innervate",
+["sound"] = "Interface\\Addons\\TwintopInsanityBar\\Sounds\\BoxingArenaSound.ogg",
+},
+},
+["precision"] = {
+["resource"] = 0,
+["mana"] = 1,
+["health"] = 1,
+["secondary"] = 2,
+},
+["comboPoints"] = {
+["relativeTo"] = "TOP",
 ["xPos"] = 0,
+["border"] = 2,
+["width"] = 60,
+["relativeToName"] = "Above - Center",
+["spacing"] = 0,
+["height"] = 20,
+["yPos"] = 0,
+["anchor"] = {
+["barKey"] = "primary",
+["attachPoint"] = "BOTTOM",
+["xOffset"] = 0,
+["matchWidth"] = true,
+["anchorPoint"] = "TOP",
+["yOffset"] = 0,
+},
+["fullWidth"] = true,
+},
+["bar"] = {
 ["pinToPersonalResourceDisplay"] = false,
-["height"] = 30,
+["dragAndDrop"] = false,
+["xPos"] = 0,
 ["anchor"] = {
 ["barKey"] = "screen",
 ["attachPoint"] = "CENTER",
@@ -12779,9 +13644,10 @@ TwintopInsanityBarSettings = {
 ["anchorPoint"] = "CENTER",
 ["yOffset"] = -200,
 },
+["height"] = 30,
 ["yPos"] = -200,
 ["border"] = 2,
-["dragAndDrop"] = false,
+["width"] = 300,
 },
 },
 ["shadow"] = {
@@ -12806,7 +13672,6 @@ TwintopInsanityBarSettings = {
 ["spacing"] = 0,
 ["height"] = 20,
 ["yPos"] = 0,
-["fullWidth"] = true,
 ["anchor"] = {
 ["barKey"] = "primary",
 ["attachPoint"] = "TOP",
@@ -12815,31 +13680,50 @@ TwintopInsanityBarSettings = {
 ["anchorPoint"] = "BOTTOM",
 ["yOffset"] = 0,
 },
+["fullWidth"] = true,
 },
-["bar"] = {
-["width"] = 300,
-["xPos"] = 0,
-["pinToPersonalResourceDisplay"] = false,
-["height"] = 30,
-["anchor"] = {
-["barKey"] = "screen",
-["attachPoint"] = "CENTER",
-["xOffset"] = 0,
-["matchWidth"] = false,
-["anchorPoint"] = "CENTER",
-["yOffset"] = -200,
-},
-["yPos"] = -200,
-["border"] = 2,
-["dragAndDrop"] = false,
+["textures"] = {
+["castingBar"] = "Interface\\AddOns\\ElvUI\\Game\\Shared\\Media\\Textures\\Minimalist",
+["borderName"] = "1 Pixel",
+["manaBarBackground"] = "Interface\\Tooltips\\UI-Tooltip-Background",
+["border"] = "Interface\\Buttons\\WHITE8X8",
+["absorbBar"] = "Interface\\Buttons\\WHITE8X8",
+["healthBackgroundName"] = "Blizzard Tooltip",
+["healthBorder"] = "Interface\\Buttons\\WHITE8X8",
+["healthBorderName"] = "1 Pixel",
+["background"] = "Interface\\Tooltips\\UI-Tooltip-Background",
+["backgroundName"] = "Blizzard Tooltip",
+["resourceBarName"] = "Minimalist",
+["manaBarBarName"] = "Minimalist",
+["healthBar"] = "Interface\\AddOns\\ElvUI\\Game\\Shared\\Media\\Textures\\Minimalist",
+["manaBarBar"] = "Interface\\AddOns\\ElvUI\\Game\\Shared\\Media\\Textures\\Minimalist",
+["manaBarBorderName"] = "1 Pixel",
+["textureLock"] = true,
+["absorbBarName"] = "Solid",
+["manaBarBorder"] = "Interface\\Buttons\\WHITE8X8",
+["incomingHealBarName"] = "Solid",
+["healthBackground"] = "Interface\\Tooltips\\UI-Tooltip-Background",
+["incomingHealBar"] = "Interface\\Buttons\\WHITE8X8",
+["castingBarName"] = "Minimalist",
+["manaBarBackgroundName"] = "Blizzard Tooltip",
+["healthBarName"] = "Minimalist",
+["resourceBar"] = "Interface\\AddOns\\ElvUI\\Game\\Shared\\Media\\Textures\\Minimalist",
 },
 ["thresholds"] = {
-["properties"] = {
-["width"] = 2,
-["overlapBorder"] = true,
+["thresholdDictionary"] = {
+["shadowWordMadness2"] = {
+["enabled"] = true,
 },
-["specProperties"] = {
-["shadowWordMadnessThresholdOnlyOverShow"] = false,
+["shadowWordMadness3"] = {
+["enabled"] = true,
+},
+["shadowWordMadness"] = {
+["enabled"] = true,
+},
+},
+["properties"] = {
+["overlapBorder"] = true,
+["width"] = 2,
 },
 ["icons"] = {
 ["enabled"] = false,
@@ -12853,28 +13737,20 @@ TwintopInsanityBarSettings = {
 ["yPos"] = 12,
 ["desaturated"] = false,
 },
-["thresholdDictionary"] = {
-["shadowWordMadness2"] = {
-["enabled"] = true,
-},
-["shadowWordMadness"] = {
-["enabled"] = true,
-},
-["shadowWordMadness3"] = {
-["enabled"] = true,
-},
+["specProperties"] = {
+["shadowWordMadnessThresholdOnlyOverShow"] = false,
 },
 },
 ["displayText"] = {
 ["default"] = {
 ["fontFace"] = "Fonts\\FRIZQT__.TTF",
-["fontFaceName"] = "Friz Quadrata TT",
-["fontJustifyHorizontal"] = "LEFT",
-["fontJustifyHorizontalName"] = "Left",
-["fontSize"] = 14,
 ["color"] = {
 ["color"] = "FFFFFFFF",
 },
+["fontJustifyHorizontal"] = "LEFT",
+["fontSize"] = 14,
+["fontJustifyHorizontalName"] = "Left",
+["fontFaceName"] = "Friz Quadrata TT",
 },
 ["barText"] = {
 {
@@ -13036,29 +13912,29 @@ TwintopInsanityBarSettings = {
 ["audio"] = {
 ["mdProc"] = {
 ["enabled"] = false,
+["soundName"] = "TRB: Boxing Arena Gong",
 ["name"] = "Mind Devourer Proc",
 ["sound"] = "Interface\\Addons\\TwintopInsanityBar\\Sounds\\BoxingArenaSound.ogg",
-["soundName"] = "TRB: Boxing Arena Gong",
-},
-["dpReady"] = {
-["enabled"] = false,
-["name"] = "Devouring Plague Ready",
-["sound"] = "Interface\\Addons\\TwintopInsanityBar\\Sounds\\BoxingArenaSound.ogg",
-["soundName"] = "TRB: Boxing Arena Gong",
 },
 ["powerInfusion"] = {
 ["enabled"] = false,
+["soundName"] = "TRB: Boxing Arena Gong",
 ["name"] = "Power Infusion gained",
 ["sound"] = "Interface\\Addons\\TwintopInsanityBar\\Sounds\\BoxingArenaSound.ogg",
+},
+["dpReady"] = {
+["enabled"] = false,
 ["soundName"] = "TRB: Boxing Arena Gong",
+["name"] = "Devouring Plague Ready",
+["sound"] = "Interface\\Addons\\TwintopInsanityBar\\Sounds\\BoxingArenaSound.ogg",
 },
 },
 ["endOf"] = {
 ["voidform"] = {
 ["enabled"] = false,
 ["mode"] = "gcd",
-["gcdsMax"] = 2,
 ["timeMax"] = 3,
+["gcdsMax"] = 2,
 },
 },
 ["bars"] = {
@@ -13071,7 +13947,6 @@ TwintopInsanityBarSettings = {
 ["spacing"] = 0,
 ["height"] = 20,
 ["yPos"] = 0,
-["fullWidth"] = true,
 ["anchor"] = {
 ["barKey"] = "primary",
 ["attachPoint"] = "BOTTOM",
@@ -13080,14 +13955,15 @@ TwintopInsanityBarSettings = {
 ["anchorPoint"] = "TOP",
 ["yOffset"] = 0,
 },
+["fullWidth"] = true,
 },
 },
 ["colors"] = {
 ["threshold"] = {
 ["outOfRange"] = {
 ["color"] = "FF440000",
-["enabled"] = true,
 ["show"] = true,
+["enabled"] = true,
 },
 ["over"] = {
 ["color"] = "FF00FF00",
@@ -13112,13 +13988,23 @@ TwintopInsanityBarSettings = {
 ["color"] = "FFFF0000",
 ["threshold"] = 0,
 },
-["type"] = "step",
-["background"] = {
-["color"] = "66000000",
+["absorb"] = {
+["color"] = "CCFFFFB9",
+["mode"] = "appended",
+["enabled"] = true,
 },
 ["high"] = {
 ["color"] = "FF00FF00",
 ["threshold"] = 0.7,
+},
+["incomingHeal"] = {
+["color"] = "CC80b980",
+["mode"] = "appended",
+["enabled"] = true,
+},
+["type"] = "step",
+["background"] = {
+["color"] = "66000000",
 },
 ["border"] = {
 ["color"] = "FF008800",
@@ -13148,10 +14034,10 @@ TwintopInsanityBarSettings = {
 ["casting"] = {
 ["color"] = "FFFFFFFF",
 },
+["hasteApproaching"] = "FFFFFF00",
 ["manaBar"] = {
 ["color"] = "FF0000FF",
 },
-["hasteApproaching"] = "FFFFFF00",
 },
 ["bars"] = {
 ["mana"] = {
@@ -13168,34 +14054,14 @@ TwintopInsanityBarSettings = {
 },
 ["bar"] = {
 ["flashPeriod"] = 0.5,
-["flashEnabled"] = false,
-["base"] = {
-["color"] = "FF763BAF",
-},
-["shadowWordMadnessUsableCasting"] = {
-["color"] = "FFFFFFFF",
-["enabled"] = true,
-},
 ["borderOvercap"] = {
 ["color"] = "FFFF0000",
 ["enabled"] = true,
 },
-["mindDevourer"] = {
-["color"] = "FF00C3FF",
-["enabled"] = false,
-},
+["flashEnabled"] = false,
 ["border"] = {
 ["color"] = "FF431863",
 },
-["entropicRift"] = {
-["color"] = "FF8A004C",
-["enabled"] = false,
-},
-["shadowWordMadnessUsable"] = {
-["color"] = "FF5C2F89",
-["enabled"] = true,
-},
-["flashAlpha"] = 0.7,
 ["instantMindBlast"] = {
 ["color"] = "FFC2A3E0",
 ["enabled"] = true,
@@ -13204,8 +14070,8 @@ TwintopInsanityBarSettings = {
 ["color"] = "FFC2A3E0",
 ["enabled"] = true,
 },
-["voidform"] = {
-["color"] = "FF431863",
+["shadowWordMadnessUsableCasting"] = {
+["color"] = "FFFFFFFF",
 ["enabled"] = true,
 },
 ["background"] = {
@@ -13218,38 +14084,58 @@ TwintopInsanityBarSettings = {
 ["voidformEnd"] = {
 ["color"] = "FFFF0000",
 },
+["mindDevourer"] = {
+["color"] = "FF00C3FF",
+["enabled"] = false,
+},
+["entropicRift"] = {
+["color"] = "FF8A004C",
+["enabled"] = false,
+},
+["shadowWordMadnessUsable"] = {
+["color"] = "FF5C2F89",
+["enabled"] = true,
+},
+["flashAlpha"] = 0.7,
+["casting"] = {
+["color"] = "FFFFFFFF",
+["enabled"] = true,
+},
+["voidform"] = {
+["color"] = "FF431863",
+["enabled"] = true,
+},
+["base"] = {
+["color"] = "FF763BAF",
 },
 },
-["textures"] = {
-["borderName"] = "1 Pixel",
-["manaBarBackground"] = "Interface\\Tooltips\\UI-Tooltip-Background",
-["border"] = "Interface\\Buttons\\WHITE8X8",
-["healthBackgroundName"] = "Blizzard Tooltip",
-["healthBorder"] = "Interface\\Buttons\\WHITE8X8",
-["healthBorderName"] = "1 Pixel",
-["background"] = "Interface\\Tooltips\\UI-Tooltip-Background",
-["backgroundName"] = "Blizzard Tooltip",
-["manaBarBorder"] = "Interface\\Buttons\\WHITE8X8",
-["manaBarBarName"] = "Minimalist",
-["healthBar"] = "Interface\\AddOns\\ElvUI\\Game\\Shared\\Media\\Textures\\Minimalist",
-["textureLock"] = true,
-["resourceBar"] = "Interface\\AddOns\\ElvUI\\Game\\Shared\\Media\\Textures\\Minimalist",
-["healthBackground"] = "Interface\\Tooltips\\UI-Tooltip-Background",
-["manaBarBar"] = "Interface\\AddOns\\ElvUI\\Game\\Shared\\Media\\Textures\\Minimalist",
-["resourceBarName"] = "Minimalist",
-["manaBarBackgroundName"] = "Blizzard Tooltip",
-["healthBarName"] = "Minimalist",
-["manaBarBorderName"] = "1 Pixel",
+},
+["bar"] = {
+["pinToPersonalResourceDisplay"] = false,
+["dragAndDrop"] = false,
+["xPos"] = 0,
+["anchor"] = {
+["barKey"] = "screen",
+["attachPoint"] = "CENTER",
+["xOffset"] = 0,
+["matchWidth"] = false,
+["anchorPoint"] = "CENTER",
+["yOffset"] = -200,
+},
+["height"] = 30,
+["yPos"] = -200,
+["border"] = 2,
+["width"] = 300,
 },
 ["overcap"] = {
 ["mode"] = "relative",
-["relative"] = 0,
 ["fixed"] = 150,
+["relative"] = 0,
 },
 ["precision"] = {
-["health"] = 1,
-["mana"] = 1,
 ["resource"] = 0,
+["mana"] = 1,
+["health"] = 1,
 ["secondary"] = 2,
 },
 ["displayBar"] = {
@@ -13275,62 +14161,54 @@ TwintopInsanityBarSettings = {
 },
 ["holy"] = {
 ["textures"] = {
+["castingBar"] = "Interface\\Addons\\TwintopInsanityBar\\StatusBars\\smoother.tga",
 ["borderName"] = "1 Pixel",
 ["border"] = "Interface\\Buttons\\WHITE8X8",
+["absorbBar"] = "Interface\\Buttons\\WHITE8X8",
 ["healthBackgroundName"] = "Blizzard Tooltip",
 ["healthBorder"] = "Interface\\Buttons\\WHITE8X8",
 ["healthBorderName"] = "1 Pixel",
 ["background"] = "Interface\\Tooltips\\UI-Tooltip-Background",
 ["backgroundName"] = "Blizzard Tooltip",
 ["resourceBarName"] = "TRB: Smoother",
-["healthBar"] = "Interface\\Addons\\TwintopInsanityBar\\StatusBars\\smoother.tga",
-["comboPointsBarName"] = "TRB: Smoother",
-["textureLock"] = true,
-["comboPointsBar"] = "Interface\\Addons\\TwintopInsanityBar\\StatusBars\\smoother.tga",
-["healthBackground"] = "Interface\\Tooltips\\UI-Tooltip-Background",
 ["comboPointsBorderName"] = "1 Pixel",
-["comboPointsBackground"] = "Interface\\Tooltips\\UI-Tooltip-Background",
+["healthBar"] = "Interface\\Addons\\TwintopInsanityBar\\StatusBars\\smoother.tga",
+["comboPointsBar"] = "Interface\\Addons\\TwintopInsanityBar\\StatusBars\\smoother.tga",
+["comboPointsBarName"] = "TRB: Smoother",
+["incomingHealBarName"] = "Solid",
+["textureLock"] = true,
+["absorbBarName"] = "Solid",
 ["comboPointsBackgroundName"] = "Blizzard Tooltip",
+["comboPointsBackground"] = "Interface\\Tooltips\\UI-Tooltip-Background",
+["healthBackground"] = "Interface\\Tooltips\\UI-Tooltip-Background",
+["incomingHealBar"] = "Interface\\Buttons\\WHITE8X8",
+["castingBarName"] = "TRB: Smoother",
 ["comboPointsBorder"] = "Interface\\Buttons\\WHITE8X8",
 ["healthBarName"] = "TRB: Smoother",
 ["resourceBar"] = "Interface\\Addons\\TwintopInsanityBar\\StatusBars\\smoother.tga",
 },
-["audio"] = {
-["surgeOfLight"] = {
-["enabled"] = false,
-["name"] = "Surge of Light",
-["sound"] = "Interface\\Addons\\TwintopInsanityBar\\Sounds\\BoxingArenaSound.ogg",
-["soundName"] = "TRB: Boxing Arena Gong",
+["healthBar"] = {
+["relativeTo"] = "BOTTOM",
+["xPos"] = 0,
+["border"] = 2,
+["width"] = 300,
+["relativeToName"] = "Below - Center",
+["spacing"] = 0,
+["height"] = 20,
+["yPos"] = 0,
+["anchor"] = {
+["barKey"] = "primary",
+["attachPoint"] = "TOP",
+["xOffset"] = 0,
+["matchWidth"] = true,
+["anchorPoint"] = "BOTTOM",
+["yOffset"] = 0,
 },
-["innervate"] = {
-["enabled"] = false,
-["name"] = "Innervate",
-["sound"] = "Interface\\Addons\\TwintopInsanityBar\\Sounds\\BoxingArenaSound.ogg",
-["soundName"] = "TRB: Boxing Arena Gong",
-},
-["resonantWords"] = {
-["enabled"] = false,
-["name"] = "Resonant Words",
-["sound"] = "Interface\\Addons\\TwintopInsanityBar\\Sounds\\AirHorn.ogg",
-["soundName"] = "TRB: Air Horn",
-},
-["lightweaver"] = {
-["enabled"] = false,
-["name"] = "Lightweaver",
-["sound"] = "Interface\\Addons\\TwintopInsanityBar\\Sounds\\AirHorn.ogg",
-["soundName"] = "TRB: Air Horn",
-},
+["fullWidth"] = true,
 },
 ["displayText"] = {
-["default"] = {
-["fontFace"] = "Fonts\\FRIZQT__.TTF",
-["fontFaceName"] = "Friz Quadrata TT",
-["fontJustifyHorizontal"] = "LEFT",
-["fontJustifyHorizontalName"] = "Left",
-["fontSize"] = 14,
-["color"] = {
-["color"] = "FFFFFFFF",
-},
+["migrations"] = {
+["holyWordBarTextSeeded"] = true,
 },
 ["barText"] = {
 {
@@ -13458,6 +14336,141 @@ TwintopInsanityBarSettings = {
 },
 ["fontSize"] = 16,
 },
+{
+["useDefaultFontColor"] = false,
+["fontFace"] = "Fonts\\FRIZQT__.TTF",
+["useDefaultFontFace"] = false,
+["guid"] = "286c1434-e3d2-4aa5-9d5b-5a8254cbf4c2",
+["fontJustifyHorizontalName"] = "Left",
+["text"] = "{$hwSerenityTime&$hwSerenityCharges=0}[$hwSerenityTime]",
+["fontSize"] = 14,
+["color"] = {
+["color"] = "FFFFFFFF",
+},
+["name"] = "HW Serenity 1",
+["position"] = {
+["relativeToName"] = "Center",
+["relativeTo"] = "CENTER",
+["xPos"] = 0,
+["relativeToFrameName"] = "Holy Word: Serenity (1st Charge)",
+["yPos"] = 0,
+["relativeToFrame"] = "HolyWord_Serenity_1",
+},
+["fontJustifyHorizontal"] = "LEFT",
+["useDefaultFontSize"] = false,
+["fontFaceName"] = "Friz Quadrata TT",
+["enabled"] = true,
+},
+{
+["useDefaultFontColor"] = false,
+["fontFace"] = "Fonts\\FRIZQT__.TTF",
+["useDefaultFontFace"] = false,
+["guid"] = "b5b1b887-0c41-4640-a3dd-e51825330f63",
+["fontJustifyHorizontalName"] = "Left",
+["text"] = "{$hwSerenityTime&$hwSerenityCharges=1}[$hwSerenityTime]",
+["fontSize"] = 14,
+["color"] = {
+["color"] = "FFFFFFFF",
+},
+["name"] = "HW Serenity 2",
+["position"] = {
+["relativeToName"] = "Center",
+["relativeTo"] = "CENTER",
+["xPos"] = 0,
+["relativeToFrameName"] = "Holy Word: Serenity (2nd Charge)",
+["yPos"] = 0,
+["relativeToFrame"] = "HolyWord_Serenity_2",
+},
+["fontJustifyHorizontal"] = "LEFT",
+["useDefaultFontSize"] = false,
+["fontFaceName"] = "Friz Quadrata TT",
+["enabled"] = true,
+},
+{
+["useDefaultFontColor"] = false,
+["fontFace"] = "Fonts\\FRIZQT__.TTF",
+["useDefaultFontFace"] = false,
+["guid"] = "44fe1903-ed7e-4e78-8122-b5a745e3e856",
+["fontJustifyHorizontalName"] = "Left",
+["text"] = "{$hwSanctifyTime&$hwSanctifyCharges=0}[$hwSanctifyTime]",
+["fontSize"] = 14,
+["color"] = {
+["color"] = "FFFFFFFF",
+},
+["name"] = "HW Sanctify 1",
+["position"] = {
+["relativeToName"] = "Center",
+["relativeTo"] = "CENTER",
+["xPos"] = 0,
+["relativeToFrameName"] = "Holy Word: Sanctify (1st Charge)",
+["yPos"] = 0,
+["relativeToFrame"] = "HolyWord_Sanctify_1",
+},
+["fontJustifyHorizontal"] = "LEFT",
+["useDefaultFontSize"] = false,
+["fontFaceName"] = "Friz Quadrata TT",
+["enabled"] = true,
+},
+{
+["useDefaultFontColor"] = false,
+["fontFace"] = "Fonts\\FRIZQT__.TTF",
+["useDefaultFontFace"] = false,
+["guid"] = "0bb6717a-46f0-4e17-b4f4-cc65d1fd3947",
+["fontJustifyHorizontalName"] = "Left",
+["text"] = "{$hwSanctifyTime&$hwSanctifyCharges=1}[$hwSanctifyTime]",
+["fontSize"] = 14,
+["color"] = {
+["color"] = "FFFFFFFF",
+},
+["name"] = "HW Sanctify 2",
+["position"] = {
+["relativeToName"] = "Center",
+["relativeTo"] = "CENTER",
+["xPos"] = 0,
+["relativeToFrameName"] = "Holy Word: Sanctify (2nd Charge)",
+["yPos"] = 0,
+["relativeToFrame"] = "HolyWord_Sanctify_2",
+},
+["fontJustifyHorizontal"] = "LEFT",
+["useDefaultFontSize"] = false,
+["fontFaceName"] = "Friz Quadrata TT",
+["enabled"] = true,
+},
+{
+["useDefaultFontColor"] = false,
+["fontFace"] = "Fonts\\FRIZQT__.TTF",
+["useDefaultFontFace"] = false,
+["guid"] = "e0dd49c4-c911-4e41-8845-491fb24029cb",
+["fontJustifyHorizontalName"] = "Left",
+["text"] = "{$hwChastiseTime}[$hwChastiseTime]",
+["fontSize"] = 14,
+["color"] = {
+["color"] = "FFFFFFFF",
+},
+["name"] = "HW Chastise",
+["position"] = {
+["relativeToName"] = "Center",
+["relativeTo"] = "CENTER",
+["xPos"] = 0,
+["relativeToFrameName"] = "Holy Word: Chastise",
+["yPos"] = 0,
+["relativeToFrame"] = "HolyWord_Chastise_1",
+},
+["fontJustifyHorizontal"] = "LEFT",
+["useDefaultFontSize"] = false,
+["fontFaceName"] = "Friz Quadrata TT",
+["enabled"] = true,
+},
+},
+["default"] = {
+["fontFace"] = "Fonts\\FRIZQT__.TTF",
+["color"] = {
+["color"] = "FFFFFFFF",
+},
+["fontJustifyHorizontal"] = "LEFT",
+["fontSize"] = 14,
+["fontJustifyHorizontalName"] = "Left",
+["fontFaceName"] = "Friz Quadrata TT",
 },
 },
 ["displayBar"] = {
@@ -13479,16 +14492,16 @@ TwintopInsanityBarSettings = {
 ["apotheosis"] = {
 ["enabled"] = true,
 ["mode"] = "gcd",
-["gcdsMax"] = 2,
 ["timeMax"] = 3,
+["gcdsMax"] = 2,
 },
 },
 ["colors"] = {
 ["threshold"] = {
 ["outOfRange"] = {
 ["color"] = "FF440000",
-["enabled"] = true,
 ["show"] = true,
+["enabled"] = true,
 },
 ["over"] = {
 ["color"] = "FF00FF00",
@@ -13502,13 +14515,23 @@ TwintopInsanityBarSettings = {
 ["color"] = "FFFF0000",
 ["threshold"] = 0,
 },
-["type"] = "step",
-["background"] = {
-["color"] = "66000000",
+["absorb"] = {
+["color"] = "CCFFFFB9",
+["mode"] = "appended",
+["enabled"] = true,
 },
 ["high"] = {
 ["color"] = "FF00FF00",
 ["threshold"] = 0.7,
+},
+["incomingHeal"] = {
+["color"] = "CC80b980",
+["mode"] = "appended",
+["enabled"] = true,
+},
+["type"] = "step",
+["background"] = {
+["color"] = "66000000",
 },
 ["border"] = {
 ["color"] = "FF008800",
@@ -13522,29 +14545,16 @@ TwintopInsanityBarSettings = {
 ["current"] = {
 ["color"] = "FF4D4DFF",
 },
-["casting"] = {
-["color"] = "FFFFFFFF",
-},
 ["passive"] = {
 ["color"] = "FF8080FF",
 },
+["casting"] = {
+["color"] = "FFFFFFFF",
+},
 },
 ["comboPoints"] = {
-["border"] = {
-["color"] = "FF000099",
-},
-["base"] = {
-["color"] = "FF000099",
-},
-["background"] = {
-["color"] = "66000000",
-},
-["holyWordSanctify"] = {
-["color"] = "FFFFDD22",
-["enabled"] = true,
-},
-["holyWordSerenity"] = {
-["color"] = "FF00DDDD",
+["sacredReverence"] = {
+["color"] = "FF90FF64",
 ["enabled"] = true,
 },
 ["completeCooldown"] = {
@@ -13555,14 +14565,31 @@ TwintopInsanityBarSettings = {
 ["color"] = "FFFF8080",
 ["enabled"] = true,
 },
-["sacredReverence"] = {
-["color"] = "FF90FF64",
+["holyWordSanctify"] = {
+["color"] = "FFFFDD22",
 ["enabled"] = true,
+},
+["holyWordSerenity"] = {
+["color"] = "FF00DDDD",
+["enabled"] = true,
+},
+["background"] = {
+["color"] = "66000000",
+},
+["border"] = {
+["color"] = "FF000099",
+},
+["base"] = {
+["color"] = "FF000099",
 },
 },
 ["bar"] = {
 ["surgeOfLight"] = {
 ["color"] = "FFFCE58E",
+["enabled"] = true,
+},
+["casting"] = {
+["color"] = "FFFFFFFF",
 ["enabled"] = true,
 },
 ["border"] = {
@@ -13576,11 +14603,12 @@ TwintopInsanityBarSettings = {
 ["color"] = "FFFADA5E",
 ["enabled"] = true,
 },
-["base"] = {
-["color"] = "FF0000FF",
+["apotheosisEnd"] = {
+["color"] = "FFFF0000",
 },
-["background"] = {
-["color"] = "66000000",
+["holyWordSanctify"] = {
+["color"] = "FF55FF55",
+["enabled"] = true,
 },
 ["holyWordChastise"] = {
 ["color"] = "FFAAFFAA",
@@ -13590,12 +14618,11 @@ TwintopInsanityBarSettings = {
 ["color"] = "FF00FF00",
 ["enabled"] = true,
 },
-["holyWordSanctify"] = {
-["color"] = "FF55FF55",
-["enabled"] = true,
+["background"] = {
+["color"] = "66000000",
 },
-["apotheosisEnd"] = {
-["color"] = "FFFF0000",
+["base"] = {
+["color"] = "FF0000FF",
 },
 ["resonantWords"] = {
 ["color"] = "FFAA00FF",
@@ -13603,29 +14630,36 @@ TwintopInsanityBarSettings = {
 },
 },
 },
-["healthBar"] = {
-["relativeTo"] = "BOTTOM",
-["xPos"] = 0,
-["border"] = 2,
-["width"] = 300,
-["relativeToName"] = "Below - Center",
-["spacing"] = 0,
-["height"] = 20,
-["yPos"] = 0,
-["fullWidth"] = true,
-["anchor"] = {
-["barKey"] = "primary",
-["attachPoint"] = "TOP",
-["xOffset"] = 0,
-["matchWidth"] = true,
-["anchorPoint"] = "BOTTOM",
-["yOffset"] = 0,
+["audio"] = {
+["lightweaver"] = {
+["enabled"] = false,
+["soundName"] = "TRB: Air Horn",
+["name"] = "Lightweaver",
+["sound"] = "Interface\\Addons\\TwintopInsanityBar\\Sounds\\AirHorn.ogg",
+},
+["innervate"] = {
+["enabled"] = false,
+["soundName"] = "TRB: Boxing Arena Gong",
+["name"] = "Innervate",
+["sound"] = "Interface\\Addons\\TwintopInsanityBar\\Sounds\\BoxingArenaSound.ogg",
+},
+["resonantWords"] = {
+["enabled"] = false,
+["soundName"] = "TRB: Air Horn",
+["name"] = "Resonant Words",
+["sound"] = "Interface\\Addons\\TwintopInsanityBar\\Sounds\\AirHorn.ogg",
+},
+["surgeOfLight"] = {
+["enabled"] = false,
+["soundName"] = "TRB: Boxing Arena Gong",
+["name"] = "Surge of Light",
+["sound"] = "Interface\\Addons\\TwintopInsanityBar\\Sounds\\BoxingArenaSound.ogg",
 },
 },
 ["precision"] = {
-["health"] = 1,
-["mana"] = 1,
 ["resource"] = 0,
+["mana"] = 1,
+["health"] = 1,
 ["secondary"] = 2,
 },
 ["comboPoints"] = {
@@ -13637,7 +14671,6 @@ TwintopInsanityBarSettings = {
 ["spacing"] = 0,
 ["height"] = 20,
 ["yPos"] = 0,
-["fullWidth"] = true,
 ["anchor"] = {
 ["barKey"] = "primary",
 ["attachPoint"] = "BOTTOM",
@@ -13646,12 +14679,12 @@ TwintopInsanityBarSettings = {
 ["anchorPoint"] = "TOP",
 ["yOffset"] = 0,
 },
+["fullWidth"] = true,
 },
 ["bar"] = {
-["width"] = 300,
-["xPos"] = 0,
 ["pinToPersonalResourceDisplay"] = false,
-["height"] = 30,
+["dragAndDrop"] = false,
+["xPos"] = 0,
 ["anchor"] = {
 ["barKey"] = "screen",
 ["attachPoint"] = "CENTER",
@@ -13660,9 +14693,10 @@ TwintopInsanityBarSettings = {
 ["anchorPoint"] = "CENTER",
 ["yOffset"] = -200,
 },
+["height"] = 30,
 ["yPos"] = -200,
 ["border"] = 2,
-["dragAndDrop"] = false,
+["width"] = 300,
 },
 },
 },
@@ -13686,55 +14720,62 @@ TwintopInsanityBarSettings = {
 ["warlock"] = {
 ["demonology"] = {
 ["textures"] = {
+["castingBar"] = "Interface\\Addons\\TwintopInsanityBar\\StatusBars\\smoother.tga",
 ["borderName"] = "1 Pixel",
 ["border"] = "Interface\\Buttons\\WHITE8X8",
+["absorbBar"] = "Interface\\Buttons\\WHITE8X8",
 ["healthBackgroundName"] = "Blizzard Tooltip",
 ["healthBorder"] = "Interface\\Buttons\\WHITE8X8",
 ["healthBorderName"] = "1 Pixel",
 ["background"] = "Interface\\Tooltips\\UI-Tooltip-Background",
 ["backgroundName"] = "Blizzard Tooltip",
 ["resourceBarName"] = "TRB: Smoother",
-["healthBar"] = "Interface\\Addons\\TwintopInsanityBar\\StatusBars\\smoother.tga",
-["comboPointsBarName"] = "TRB: Smoother",
-["textureLock"] = true,
 ["comboPointsBar"] = "Interface\\Addons\\TwintopInsanityBar\\StatusBars\\smoother.tga",
-["comboPointsBorderName"] = "1 Pixel",
-["healthBackground"] = "Interface\\Tooltips\\UI-Tooltip-Background",
-["comboPointsBackground"] = "Interface\\Tooltips\\UI-Tooltip-Background",
+["healthBar"] = "Interface\\Addons\\TwintopInsanityBar\\StatusBars\\smoother.tga",
 ["comboPointsBackgroundName"] = "Blizzard Tooltip",
+["comboPointsBarName"] = "TRB: Smoother",
+["comboPointsBackground"] = "Interface\\Tooltips\\UI-Tooltip-Background",
+["textureLock"] = true,
+["absorbBarName"] = "Solid",
+["castingBarName"] = "TRB: Smoother",
+["incomingHealBar"] = "Interface\\Buttons\\WHITE8X8",
+["comboPointsBorderName"] = "1 Pixel",
+["incomingHealBarName"] = "Solid",
+["healthBackground"] = "Interface\\Tooltips\\UI-Tooltip-Background",
 ["comboPointsBorder"] = "Interface\\Buttons\\WHITE8X8",
 ["healthBarName"] = "TRB: Smoother",
 ["resourceBar"] = "Interface\\Addons\\TwintopInsanityBar\\StatusBars\\smoother.tga",
 },
-["healthBar"] = {
-["relativeTo"] = "BOTTOM",
-["xPos"] = 0,
-["border"] = 2,
-["width"] = 300,
-["relativeToName"] = "Below - Center",
-["spacing"] = 0,
-["height"] = 20,
-["yPos"] = 0,
-["anchor"] = {
-["barKey"] = "primary",
-["attachPoint"] = "TOP",
-["xOffset"] = 0,
-["matchWidth"] = true,
-["anchorPoint"] = "BOTTOM",
-["yOffset"] = 0,
+["audio"] = {
+["soulShardThreshold1"] = {
+["enabled"] = false,
+["name"] = "Soul Shard Threshold 1",
+["soundName"] = "TRB: Boxing Arena Gong",
+["configuration"] = {
+["thresholdValue"] = 3,
 },
-["fullWidth"] = true,
+["sound"] = "Interface\\Addons\\TwintopInsanityBar\\Sounds\\BoxingArenaSound.ogg",
+},
+["soulShardThreshold2"] = {
+["enabled"] = false,
+["name"] = "Soul Shard Threshold 2",
+["soundName"] = "TRB: Boxing Arena Gong",
+["configuration"] = {
+["thresholdValue"] = 5,
+},
+["sound"] = "Interface\\Addons\\TwintopInsanityBar\\Sounds\\BoxingArenaSound.ogg",
+},
 },
 ["displayText"] = {
 ["default"] = {
 ["fontFace"] = "Fonts\\FRIZQT__.TTF",
+["fontFaceName"] = "Friz Quadrata TT",
 ["color"] = {
 ["color"] = "FFFFFFFF",
 },
-["fontJustifyHorizontal"] = "LEFT",
-["fontJustifyHorizontalName"] = "Left",
 ["fontSize"] = 14,
-["fontFaceName"] = "Friz Quadrata TT",
+["fontJustifyHorizontalName"] = "Left",
+["fontJustifyHorizontal"] = "LEFT",
 },
 ["barText"] = {
 {
@@ -13855,18 +14896,57 @@ TwintopInsanityBarSettings = {
 },
 },
 ["colors"] = {
+["comboPoints"] = {
+["penultimate"] = {
+["color"] = "FFFF9900",
+},
+["sameColor"] = false,
+["border"] = {
+["color"] = "FF4749B5",
+},
+["background"] = {
+["color"] = "66000000",
+},
+["base"] = {
+["color"] = "FF8788EE",
+},
+["final"] = {
+["color"] = "FFFF0000",
+},
+},
+["text"] = {
+["current"] = {
+["color"] = "FF4D4DFF",
+},
+["casting"] = {
+["color"] = "FFFFFFFF",
+},
+["passive"] = {
+["color"] = "FF8080FF",
+},
+},
 ["healthBar"] = {
 ["low"] = {
 ["color"] = "FFFF0000",
 ["threshold"] = 0,
 },
+["absorb"] = {
+["color"] = "CCFFFFB9",
+["mode"] = "appended",
+["enabled"] = true,
+},
 ["type"] = "step",
-["high"] = {
-["color"] = "FF00FF00",
-["threshold"] = 0.7,
+["incomingHeal"] = {
+["color"] = "CC80b980",
+["mode"] = "appended",
+["enabled"] = true,
 },
 ["background"] = {
 ["color"] = "66000000",
+},
+["high"] = {
+["color"] = "FF00FF00",
+["threshold"] = 0.7,
 },
 ["border"] = {
 ["color"] = "FF008800",
@@ -13876,71 +14956,45 @@ TwintopInsanityBarSettings = {
 ["threshold"] = 0.3,
 },
 },
-["text"] = {
-["current"] = {
-["color"] = "FF4D4DFF",
-},
-["passive"] = {
-["color"] = "FF8080FF",
+["bar"] = {
+["base"] = {
+["color"] = "FF0000FF",
 },
 ["casting"] = {
 ["color"] = "FFFFFFFF",
-},
-},
-["comboPoints"] = {
-["penultimate"] = {
-["color"] = "FFFF9900",
-},
-["sameColor"] = false,
-["base"] = {
-["color"] = "FF8788EE",
-},
-["background"] = {
-["color"] = "66000000",
-},
-["border"] = {
-["color"] = "FF4749B5",
-},
-["final"] = {
-["color"] = "FFFF0000",
-},
-},
-["bar"] = {
-["background"] = {
-["color"] = "66000000",
+["enabled"] = true,
 },
 ["border"] = {
 ["color"] = "FF000099",
 },
-["base"] = {
-["color"] = "FF0000FF",
+["background"] = {
+["color"] = "66000000",
 },
 },
 },
-["audio"] = {
-["soulShardThreshold2"] = {
-["enabled"] = false,
-["name"] = "Soul Shard Threshold 2",
-["configuration"] = {
-["thresholdValue"] = 5,
-},
-["sound"] = "Interface\\Addons\\TwintopInsanityBar\\Sounds\\BoxingArenaSound.ogg",
-["soundName"] = "TRB: Boxing Arena Gong",
-},
-["soulShardThreshold1"] = {
-["enabled"] = false,
-["name"] = "Soul Shard Threshold 1",
-["configuration"] = {
-["thresholdValue"] = 3,
-},
-["sound"] = "Interface\\Addons\\TwintopInsanityBar\\Sounds\\BoxingArenaSound.ogg",
-["soundName"] = "TRB: Boxing Arena Gong",
+["healthBar"] = {
+["relativeTo"] = "BOTTOM",
+["xPos"] = 0,
+["border"] = 2,
+["width"] = 300,
+["relativeToName"] = "Below - Center",
+["spacing"] = 0,
+["height"] = 20,
+["yPos"] = 0,
+["fullWidth"] = true,
+["anchor"] = {
+["barKey"] = "primary",
+["attachPoint"] = "TOP",
+["xOffset"] = 0,
+["matchWidth"] = true,
+["anchorPoint"] = "BOTTOM",
+["yOffset"] = 0,
 },
 },
 ["precision"] = {
-["resource"] = 0,
-["mana"] = 1,
 ["health"] = 1,
+["mana"] = 1,
+["resource"] = 0,
 ["secondary"] = 2,
 },
 ["comboPoints"] = {
@@ -13952,6 +15006,7 @@ TwintopInsanityBarSettings = {
 ["spacing"] = 0,
 ["height"] = 20,
 ["yPos"] = 0,
+["fullWidth"] = true,
 ["anchor"] = {
 ["barKey"] = "primary",
 ["attachPoint"] = "BOTTOM",
@@ -13960,12 +15015,12 @@ TwintopInsanityBarSettings = {
 ["anchorPoint"] = "TOP",
 ["yOffset"] = 0,
 },
-["fullWidth"] = true,
 },
 ["bar"] = {
-["dragAndDrop"] = false,
-["pinToPersonalResourceDisplay"] = false,
+["width"] = 300,
 ["xPos"] = 0,
+["pinToPersonalResourceDisplay"] = false,
+["height"] = 30,
 ["anchor"] = {
 ["barKey"] = "screen",
 ["attachPoint"] = "CENTER",
@@ -13974,63 +15029,69 @@ TwintopInsanityBarSettings = {
 ["anchorPoint"] = "CENTER",
 ["yOffset"] = -200,
 },
-["height"] = 30,
 ["yPos"] = -200,
 ["border"] = 2,
-["width"] = 300,
+["dragAndDrop"] = false,
 },
 },
 ["affliction"] = {
 ["textures"] = {
+["castingBar"] = "Interface\\Addons\\TwintopInsanityBar\\StatusBars\\smoother.tga",
 ["borderName"] = "1 Pixel",
 ["border"] = "Interface\\Buttons\\WHITE8X8",
+["absorbBar"] = "Interface\\Buttons\\WHITE8X8",
 ["healthBackgroundName"] = "Blizzard Tooltip",
 ["healthBorder"] = "Interface\\Buttons\\WHITE8X8",
 ["healthBorderName"] = "1 Pixel",
 ["background"] = "Interface\\Tooltips\\UI-Tooltip-Background",
 ["backgroundName"] = "Blizzard Tooltip",
 ["resourceBarName"] = "TRB: Smoother",
-["healthBar"] = "Interface\\Addons\\TwintopInsanityBar\\StatusBars\\smoother.tga",
-["comboPointsBarName"] = "TRB: Smoother",
-["textureLock"] = true,
 ["comboPointsBar"] = "Interface\\Addons\\TwintopInsanityBar\\StatusBars\\smoother.tga",
-["comboPointsBorderName"] = "1 Pixel",
-["healthBackground"] = "Interface\\Tooltips\\UI-Tooltip-Background",
-["comboPointsBackground"] = "Interface\\Tooltips\\UI-Tooltip-Background",
+["healthBar"] = "Interface\\Addons\\TwintopInsanityBar\\StatusBars\\smoother.tga",
 ["comboPointsBackgroundName"] = "Blizzard Tooltip",
+["comboPointsBarName"] = "TRB: Smoother",
+["comboPointsBackground"] = "Interface\\Tooltips\\UI-Tooltip-Background",
+["textureLock"] = true,
+["absorbBarName"] = "Solid",
+["castingBarName"] = "TRB: Smoother",
+["incomingHealBar"] = "Interface\\Buttons\\WHITE8X8",
+["comboPointsBorderName"] = "1 Pixel",
+["incomingHealBarName"] = "Solid",
+["healthBackground"] = "Interface\\Tooltips\\UI-Tooltip-Background",
 ["comboPointsBorder"] = "Interface\\Buttons\\WHITE8X8",
 ["healthBarName"] = "TRB: Smoother",
 ["resourceBar"] = "Interface\\Addons\\TwintopInsanityBar\\StatusBars\\smoother.tga",
 },
-["healthBar"] = {
-["relativeTo"] = "BOTTOM",
-["xPos"] = 0,
-["border"] = 2,
-["width"] = 300,
-["relativeToName"] = "Below - Center",
-["spacing"] = 0,
-["height"] = 20,
-["yPos"] = 0,
-["anchor"] = {
-["barKey"] = "primary",
-["attachPoint"] = "TOP",
-["xOffset"] = 0,
-["matchWidth"] = true,
-["anchorPoint"] = "BOTTOM",
-["yOffset"] = 0,
+["audio"] = {
+["soulShardThreshold1"] = {
+["enabled"] = false,
+["name"] = "Soul Shard Threshold 1",
+["soundName"] = "TRB: Boxing Arena Gong",
+["configuration"] = {
+["thresholdValue"] = 3,
 },
-["fullWidth"] = true,
+["sound"] = "Interface\\Addons\\TwintopInsanityBar\\Sounds\\BoxingArenaSound.ogg",
+},
+["soulShardThreshold2"] = {
+["enabled"] = false,
+["name"] = "Soul Shard Threshold 2",
+["soundName"] = "TRB: Boxing Arena Gong",
+["configuration"] = {
+["thresholdValue"] = 5,
+},
+["sound"] = "Interface\\Addons\\TwintopInsanityBar\\Sounds\\BoxingArenaSound.ogg",
+},
 },
 ["displayText"] = {
 ["default"] = {
 ["fontFace"] = "Fonts\\FRIZQT__.TTF",
+["fontFaceName"] = "Friz Quadrata TT",
 ["color"] = {
 ["color"] = "FFFFFFFF",
 },
-["fontJustifyHorizontal"] = "LEFT",
-["fontSize"] = 14,
 ["fontJustifyHorizontalName"] = "Left",
-["fontFaceName"] = "Friz Quadrata TT",
+["fontSize"] = 14,
+["fontJustifyHorizontal"] = "LEFT",
 },
 ["barText"] = {
 {
@@ -14151,38 +15212,6 @@ TwintopInsanityBarSettings = {
 },
 },
 ["colors"] = {
-["healthBar"] = {
-["low"] = {
-["color"] = "FFFF0000",
-["threshold"] = 0,
-},
-["type"] = "step",
-["high"] = {
-["color"] = "FF00FF00",
-["threshold"] = 0.7,
-},
-["background"] = {
-["color"] = "66000000",
-},
-["border"] = {
-["color"] = "FF008800",
-},
-["medium"] = {
-["color"] = "FFFFFF00",
-["threshold"] = 0.3,
-},
-},
-["text"] = {
-["current"] = {
-["color"] = "FF4D4DFF",
-},
-["passive"] = {
-["color"] = "FF8080FF",
-},
-["casting"] = {
-["color"] = "FFFFFFFF",
-},
-},
 ["comboPoints"] = {
 ["penultimate"] = {
 ["color"] = "FFFF9900",
@@ -14202,42 +15231,87 @@ TwintopInsanityBarSettings = {
 ["color"] = "FFFF0000",
 },
 },
-["bar"] = {
+["text"] = {
+["current"] = {
+["color"] = "FF4D4DFF",
+},
+["casting"] = {
+["color"] = "FFFFFFFF",
+},
+["passive"] = {
+["color"] = "FF8080FF",
+},
+},
+["healthBar"] = {
+["low"] = {
+["color"] = "FFFF0000",
+["threshold"] = 0,
+},
+["absorb"] = {
+["color"] = "CCFFFFB9",
+["mode"] = "appended",
+["enabled"] = true,
+},
+["type"] = "step",
+["incomingHeal"] = {
+["color"] = "CC80b980",
+["mode"] = "appended",
+["enabled"] = true,
+},
 ["background"] = {
 ["color"] = "66000000",
+},
+["high"] = {
+["color"] = "FF00FF00",
+["threshold"] = 0.7,
+},
+["border"] = {
+["color"] = "FF008800",
+},
+["medium"] = {
+["color"] = "FFFFFF00",
+["threshold"] = 0.3,
+},
+},
+["bar"] = {
+["base"] = {
+["color"] = "FF0000FF",
+},
+["casting"] = {
+["color"] = "FFFFFFFF",
+["enabled"] = true,
 },
 ["border"] = {
 ["color"] = "FF000099",
 },
-["base"] = {
-["color"] = "FF0000FF",
+["background"] = {
+["color"] = "66000000",
 },
 },
 },
-["audio"] = {
-["soulShardThreshold2"] = {
-["enabled"] = false,
-["name"] = "Soul Shard Threshold 2",
-["configuration"] = {
-["thresholdValue"] = 5,
-},
-["sound"] = "Interface\\Addons\\TwintopInsanityBar\\Sounds\\BoxingArenaSound.ogg",
-["soundName"] = "TRB: Boxing Arena Gong",
-},
-["soulShardThreshold1"] = {
-["enabled"] = false,
-["name"] = "Soul Shard Threshold 1",
-["configuration"] = {
-["thresholdValue"] = 3,
-},
-["sound"] = "Interface\\Addons\\TwintopInsanityBar\\Sounds\\BoxingArenaSound.ogg",
-["soundName"] = "TRB: Boxing Arena Gong",
+["healthBar"] = {
+["relativeTo"] = "BOTTOM",
+["xPos"] = 0,
+["border"] = 2,
+["width"] = 300,
+["relativeToName"] = "Below - Center",
+["spacing"] = 0,
+["height"] = 20,
+["yPos"] = 0,
+["fullWidth"] = true,
+["anchor"] = {
+["barKey"] = "primary",
+["attachPoint"] = "TOP",
+["xOffset"] = 0,
+["matchWidth"] = true,
+["anchorPoint"] = "BOTTOM",
+["yOffset"] = 0,
 },
 },
 ["precision"] = {
-["resource"] = 0,
-["mana"] = 1,
 ["health"] = 1,
+["mana"] = 1,
+["resource"] = 0,
 ["secondary"] = 2,
 },
 ["comboPoints"] = {
@@ -14249,6 +15323,7 @@ TwintopInsanityBarSettings = {
 ["spacing"] = 0,
 ["height"] = 20,
 ["yPos"] = 0,
+["fullWidth"] = true,
 ["anchor"] = {
 ["barKey"] = "primary",
 ["attachPoint"] = "BOTTOM",
@@ -14257,12 +15332,12 @@ TwintopInsanityBarSettings = {
 ["anchorPoint"] = "TOP",
 ["yOffset"] = 0,
 },
-["fullWidth"] = true,
 },
 ["bar"] = {
-["dragAndDrop"] = false,
-["pinToPersonalResourceDisplay"] = false,
+["width"] = 300,
 ["xPos"] = 0,
+["pinToPersonalResourceDisplay"] = false,
+["height"] = 30,
 ["anchor"] = {
 ["barKey"] = "screen",
 ["attachPoint"] = "CENTER",
@@ -14271,63 +15346,69 @@ TwintopInsanityBarSettings = {
 ["anchorPoint"] = "CENTER",
 ["yOffset"] = -200,
 },
-["height"] = 30,
 ["yPos"] = -200,
 ["border"] = 2,
-["width"] = 300,
+["dragAndDrop"] = false,
 },
 },
 ["destruction"] = {
 ["textures"] = {
+["castingBar"] = "Interface\\Addons\\TwintopInsanityBar\\StatusBars\\smoother.tga",
 ["borderName"] = "1 Pixel",
 ["border"] = "Interface\\Buttons\\WHITE8X8",
+["absorbBar"] = "Interface\\Buttons\\WHITE8X8",
 ["healthBackgroundName"] = "Blizzard Tooltip",
 ["healthBorder"] = "Interface\\Buttons\\WHITE8X8",
 ["healthBorderName"] = "1 Pixel",
 ["background"] = "Interface\\Tooltips\\UI-Tooltip-Background",
 ["backgroundName"] = "Blizzard Tooltip",
 ["resourceBarName"] = "TRB: Smoother",
-["healthBar"] = "Interface\\Addons\\TwintopInsanityBar\\StatusBars\\smoother.tga",
-["comboPointsBarName"] = "TRB: Smoother",
-["textureLock"] = true,
 ["comboPointsBar"] = "Interface\\Addons\\TwintopInsanityBar\\StatusBars\\smoother.tga",
-["comboPointsBorderName"] = "1 Pixel",
-["healthBackground"] = "Interface\\Tooltips\\UI-Tooltip-Background",
-["comboPointsBackground"] = "Interface\\Tooltips\\UI-Tooltip-Background",
+["healthBar"] = "Interface\\Addons\\TwintopInsanityBar\\StatusBars\\smoother.tga",
 ["comboPointsBackgroundName"] = "Blizzard Tooltip",
+["comboPointsBarName"] = "TRB: Smoother",
+["comboPointsBackground"] = "Interface\\Tooltips\\UI-Tooltip-Background",
+["textureLock"] = true,
+["absorbBarName"] = "Solid",
+["castingBarName"] = "TRB: Smoother",
+["incomingHealBar"] = "Interface\\Buttons\\WHITE8X8",
+["comboPointsBorderName"] = "1 Pixel",
+["incomingHealBarName"] = "Solid",
+["healthBackground"] = "Interface\\Tooltips\\UI-Tooltip-Background",
 ["comboPointsBorder"] = "Interface\\Buttons\\WHITE8X8",
 ["healthBarName"] = "TRB: Smoother",
 ["resourceBar"] = "Interface\\Addons\\TwintopInsanityBar\\StatusBars\\smoother.tga",
 },
-["healthBar"] = {
-["relativeTo"] = "BOTTOM",
-["xPos"] = 0,
-["border"] = 2,
-["width"] = 300,
-["relativeToName"] = "Below - Center",
-["spacing"] = 0,
-["height"] = 20,
-["yPos"] = 0,
-["anchor"] = {
-["barKey"] = "primary",
-["attachPoint"] = "TOP",
-["xOffset"] = 0,
-["matchWidth"] = true,
-["anchorPoint"] = "BOTTOM",
-["yOffset"] = 0,
+["audio"] = {
+["soulShardThreshold1"] = {
+["enabled"] = false,
+["name"] = "Soul Shard Threshold 1",
+["soundName"] = "TRB: Boxing Arena Gong",
+["configuration"] = {
+["thresholdValue"] = 3,
 },
-["fullWidth"] = true,
+["sound"] = "Interface\\Addons\\TwintopInsanityBar\\Sounds\\BoxingArenaSound.ogg",
+},
+["soulShardThreshold2"] = {
+["enabled"] = false,
+["name"] = "Soul Shard Threshold 2",
+["soundName"] = "TRB: Boxing Arena Gong",
+["configuration"] = {
+["thresholdValue"] = 5,
+},
+["sound"] = "Interface\\Addons\\TwintopInsanityBar\\Sounds\\BoxingArenaSound.ogg",
+},
 },
 ["displayText"] = {
 ["default"] = {
 ["fontFace"] = "Fonts\\FRIZQT__.TTF",
+["fontFaceName"] = "Friz Quadrata TT",
 ["color"] = {
 ["color"] = "FFFFFFFF",
 },
-["fontJustifyHorizontal"] = "LEFT",
-["fontSize"] = 14,
 ["fontJustifyHorizontalName"] = "Left",
-["fontFaceName"] = "Friz Quadrata TT",
+["fontSize"] = 14,
+["fontJustifyHorizontal"] = "LEFT",
 },
 ["barText"] = {
 {
@@ -14451,14 +15532,14 @@ TwintopInsanityBarSettings = {
 ["threshold"] = {
 ["outOfRange"] = {
 ["color"] = "FF440000",
-["show"] = true,
 ["enabled"] = true,
-},
-["unusable"] = {
-["color"] = "FFFF0000",
+["show"] = true,
 },
 ["over"] = {
 ["color"] = "FF00FF00",
+},
+["unusable"] = {
+["color"] = "FFFF0000",
 },
 ["under"] = {
 ["color"] = "FFFFFFFF",
@@ -14469,13 +15550,23 @@ TwintopInsanityBarSettings = {
 ["color"] = "FFFF0000",
 ["threshold"] = 0,
 },
+["absorb"] = {
+["color"] = "CCFFFFB9",
+["mode"] = "appended",
+["enabled"] = true,
+},
 ["type"] = "step",
-["high"] = {
-["color"] = "FF00FF00",
-["threshold"] = 0.7,
+["incomingHeal"] = {
+["color"] = "CC80b980",
+["mode"] = "appended",
+["enabled"] = true,
 },
 ["background"] = {
 ["color"] = "66000000",
+},
+["high"] = {
+["color"] = "FF00FF00",
+["threshold"] = 0.7,
 },
 ["border"] = {
 ["color"] = "FF008800",
@@ -14489,11 +15580,11 @@ TwintopInsanityBarSettings = {
 ["current"] = {
 ["color"] = "FF4D4DFF",
 },
-["passive"] = {
-["color"] = "FF8080FF",
-},
 ["casting"] = {
 ["color"] = "FFFFFFFF",
+},
+["passive"] = {
+["color"] = "FF8080FF",
 },
 },
 ["comboPoints"] = {
@@ -14501,55 +15592,58 @@ TwintopInsanityBarSettings = {
 ["color"] = "FFFF9900",
 },
 ["sameColor"] = false,
-["base"] = {
-["color"] = "FF8788EE",
+["border"] = {
+["color"] = "FF4749B5",
 },
 ["background"] = {
 ["color"] = "66000000",
 },
-["border"] = {
-["color"] = "FF4749B5",
+["base"] = {
+["color"] = "FF8788EE",
 },
 ["final"] = {
 ["color"] = "FFFF0000",
 },
 },
 ["bar"] = {
-["background"] = {
-["color"] = "66000000",
+["base"] = {
+["color"] = "FF0000FF",
+},
+["casting"] = {
+["color"] = "FFFFFFFF",
+["enabled"] = true,
 },
 ["border"] = {
 ["color"] = "FF000099",
 },
-["base"] = {
-["color"] = "FF0000FF",
+["background"] = {
+["color"] = "66000000",
 },
 },
 },
-["audio"] = {
-["soulShardThreshold2"] = {
-["enabled"] = false,
-["name"] = "Soul Shard Threshold 2",
-["configuration"] = {
-["thresholdValue"] = 5,
-},
-["sound"] = "Interface\\Addons\\TwintopInsanityBar\\Sounds\\BoxingArenaSound.ogg",
-["soundName"] = "TRB: Boxing Arena Gong",
-},
-["soulShardThreshold1"] = {
-["enabled"] = false,
-["name"] = "Soul Shard Threshold 1",
-["configuration"] = {
-["thresholdValue"] = 3,
-},
-["sound"] = "Interface\\Addons\\TwintopInsanityBar\\Sounds\\BoxingArenaSound.ogg",
-["soundName"] = "TRB: Boxing Arena Gong",
+["healthBar"] = {
+["relativeTo"] = "BOTTOM",
+["xPos"] = 0,
+["border"] = 2,
+["width"] = 300,
+["relativeToName"] = "Below - Center",
+["spacing"] = 0,
+["height"] = 20,
+["yPos"] = 0,
+["fullWidth"] = true,
+["anchor"] = {
+["barKey"] = "primary",
+["attachPoint"] = "TOP",
+["xOffset"] = 0,
+["matchWidth"] = true,
+["anchorPoint"] = "BOTTOM",
+["yOffset"] = 0,
 },
 },
 ["precision"] = {
-["resource"] = 0,
-["mana"] = 1,
 ["health"] = 1,
+["mana"] = 1,
+["resource"] = 0,
 ["secondary"] = 0,
 },
 ["comboPoints"] = {
@@ -14561,6 +15655,7 @@ TwintopInsanityBarSettings = {
 ["spacing"] = 0,
 ["height"] = 20,
 ["yPos"] = 0,
+["fullWidth"] = true,
 ["anchor"] = {
 ["barKey"] = "primary",
 ["attachPoint"] = "BOTTOM",
@@ -14569,12 +15664,12 @@ TwintopInsanityBarSettings = {
 ["anchorPoint"] = "TOP",
 ["yOffset"] = 0,
 },
-["fullWidth"] = true,
 },
 ["bar"] = {
-["dragAndDrop"] = false,
-["pinToPersonalResourceDisplay"] = false,
+["width"] = 300,
 ["xPos"] = 0,
+["pinToPersonalResourceDisplay"] = false,
+["height"] = 30,
 ["anchor"] = {
 ["barKey"] = "screen",
 ["attachPoint"] = "CENTER",
@@ -14583,32 +15678,37 @@ TwintopInsanityBarSettings = {
 ["anchorPoint"] = "CENTER",
 ["yOffset"] = -200,
 },
-["height"] = 30,
 ["yPos"] = -200,
 ["border"] = 2,
-["width"] = 300,
+["dragAndDrop"] = false,
 },
 },
 },
 ["deathknight"] = {
 ["unholy"] = {
 ["textures"] = {
+["castingBar"] = "Interface\\Addons\\TwintopInsanityBar\\StatusBars\\smoother.tga",
 ["borderName"] = "1 Pixel",
 ["border"] = "Interface\\Buttons\\WHITE8X8",
+["absorbBar"] = "Interface\\Buttons\\WHITE8X8",
 ["healthBackgroundName"] = "Blizzard Tooltip",
 ["healthBorder"] = "Interface\\Buttons\\WHITE8X8",
 ["healthBorderName"] = "1 Pixel",
 ["background"] = "Interface\\Tooltips\\UI-Tooltip-Background",
 ["backgroundName"] = "Blizzard Tooltip",
 ["resourceBarName"] = "TRB: Smoother",
-["healthBar"] = "Interface\\Addons\\TwintopInsanityBar\\StatusBars\\smoother.tga",
-["comboPointsBarName"] = "TRB: Smoother",
-["textureLock"] = true,
 ["comboPointsBar"] = "Interface\\Addons\\TwintopInsanityBar\\StatusBars\\smoother.tga",
-["healthBackground"] = "Interface\\Tooltips\\UI-Tooltip-Background",
-["comboPointsBorderName"] = "1 Pixel",
-["comboPointsBackground"] = "Interface\\Tooltips\\UI-Tooltip-Background",
+["healthBar"] = "Interface\\Addons\\TwintopInsanityBar\\StatusBars\\smoother.tga",
 ["comboPointsBackgroundName"] = "Blizzard Tooltip",
+["comboPointsBarName"] = "TRB: Smoother",
+["comboPointsBackground"] = "Interface\\Tooltips\\UI-Tooltip-Background",
+["textureLock"] = true,
+["absorbBarName"] = "Solid",
+["castingBarName"] = "TRB: Smoother",
+["incomingHealBar"] = "Interface\\Buttons\\WHITE8X8",
+["comboPointsBorderName"] = "1 Pixel",
+["incomingHealBarName"] = "Solid",
+["healthBackground"] = "Interface\\Tooltips\\UI-Tooltip-Background",
 ["comboPointsBorder"] = "Interface\\Buttons\\WHITE8X8",
 ["healthBarName"] = "TRB: Smoother",
 ["resourceBar"] = "Interface\\Addons\\TwintopInsanityBar\\StatusBars\\smoother.tga",
@@ -14636,6 +15736,9 @@ TwintopInsanityBarSettings = {
 ["raiseAlly"] = {
 ["enabled"] = false,
 },
+["epidemic"] = {
+["enabled"] = true,
+},
 ["deathCoil"] = {
 ["enabled"] = true,
 },
@@ -14648,12 +15751,12 @@ TwintopInsanityBarSettings = {
 ["default"] = {
 ["fontFace"] = "Fonts\\FRIZQT__.TTF",
 ["fontFaceName"] = "Friz Quadrata TT",
-["fontJustifyHorizontal"] = "LEFT",
-["fontJustifyHorizontalName"] = "Left",
-["fontSize"] = 14,
 ["color"] = {
 ["color"] = "FFFFFFFF",
 },
+["fontJustifyHorizontalName"] = "Left",
+["fontSize"] = 14,
+["fontJustifyHorizontal"] = "LEFT",
 },
 ["barText"] = {
 {
@@ -14932,7 +16035,17 @@ TwintopInsanityBarSettings = {
 ["color"] = "FFFF0000",
 ["threshold"] = 0,
 },
+["absorb"] = {
+["color"] = "CCFFFFB9",
+["mode"] = "appended",
+["enabled"] = true,
+},
 ["type"] = "step",
+["incomingHeal"] = {
+["color"] = "CC80b980",
+["mode"] = "appended",
+["enabled"] = true,
+},
 ["background"] = {
 ["color"] = "66000000",
 },
@@ -14964,37 +16077,41 @@ TwintopInsanityBarSettings = {
 },
 },
 ["comboPoints"] = {
-["border"] = {
-["color"] = "FF12721A",
-},
 ["base"] = {
 ["color"] = "FFA6FF49",
+},
+["border"] = {
+["color"] = "FF12721A",
 },
 ["overcap"] = {
 ["color"] = "FFFF4500",
 ["enabled"] = false,
 },
-["background"] = {
-["color"] = "66000000",
-},
+["sortRunes"] = true,
 ["cooldown"] = {
 ["color"] = "FFCCCCCC",
 },
-["sortRunes"] = true,
+["background"] = {
+["color"] = "66000000",
+},
 },
 ["bar"] = {
+["base"] = {
+["color"] = "FF00D1FF",
+},
 ["borderOvercap"] = {
 ["color"] = "FFFF0000",
 ["enabled"] = true,
 },
-["background"] = {
-["color"] = "66000000",
-},
-["base"] = {
-["color"] = "FF00D1FF",
+["casting"] = {
+["color"] = "FFFFFFFF",
+["enabled"] = true,
 },
 ["border"] = {
 ["color"] = "FF009ABD",
+},
+["background"] = {
+["color"] = "66000000",
 },
 },
 },
@@ -15062,22 +16179,28 @@ TwintopInsanityBarSettings = {
 },
 ["frost"] = {
 ["textures"] = {
+["castingBar"] = "Interface\\Addons\\TwintopInsanityBar\\StatusBars\\smoother.tga",
 ["borderName"] = "1 Pixel",
 ["border"] = "Interface\\Buttons\\WHITE8X8",
+["absorbBar"] = "Interface\\Buttons\\WHITE8X8",
 ["healthBackgroundName"] = "Blizzard Tooltip",
 ["healthBorder"] = "Interface\\Buttons\\WHITE8X8",
 ["healthBorderName"] = "1 Pixel",
 ["background"] = "Interface\\Tooltips\\UI-Tooltip-Background",
 ["backgroundName"] = "Blizzard Tooltip",
 ["resourceBarName"] = "TRB: Smoother",
-["healthBar"] = "Interface\\Addons\\TwintopInsanityBar\\StatusBars\\smoother.tga",
-["comboPointsBarName"] = "TRB: Smoother",
-["textureLock"] = true,
 ["comboPointsBar"] = "Interface\\Addons\\TwintopInsanityBar\\StatusBars\\smoother.tga",
-["healthBackground"] = "Interface\\Tooltips\\UI-Tooltip-Background",
-["comboPointsBorderName"] = "1 Pixel",
-["comboPointsBackground"] = "Interface\\Tooltips\\UI-Tooltip-Background",
+["healthBar"] = "Interface\\Addons\\TwintopInsanityBar\\StatusBars\\smoother.tga",
 ["comboPointsBackgroundName"] = "Blizzard Tooltip",
+["comboPointsBarName"] = "TRB: Smoother",
+["comboPointsBackground"] = "Interface\\Tooltips\\UI-Tooltip-Background",
+["textureLock"] = true,
+["absorbBarName"] = "Solid",
+["castingBarName"] = "TRB: Smoother",
+["incomingHealBar"] = "Interface\\Buttons\\WHITE8X8",
+["comboPointsBorderName"] = "1 Pixel",
+["incomingHealBarName"] = "Solid",
+["healthBackground"] = "Interface\\Tooltips\\UI-Tooltip-Background",
 ["comboPointsBorder"] = "Interface\\Buttons\\WHITE8X8",
 ["healthBarName"] = "TRB: Smoother",
 ["resourceBar"] = "Interface\\Addons\\TwintopInsanityBar\\StatusBars\\smoother.tga",
@@ -15123,12 +16246,12 @@ TwintopInsanityBarSettings = {
 ["default"] = {
 ["fontFace"] = "Fonts\\FRIZQT__.TTF",
 ["fontFaceName"] = "Friz Quadrata TT",
-["fontJustifyHorizontal"] = "LEFT",
-["fontJustifyHorizontalName"] = "Left",
-["fontSize"] = 14,
 ["color"] = {
 ["color"] = "FFFFFFFF",
 },
+["fontJustifyHorizontalName"] = "Left",
+["fontSize"] = 14,
+["fontJustifyHorizontal"] = "LEFT",
 },
 ["barText"] = {
 {
@@ -15407,7 +16530,17 @@ TwintopInsanityBarSettings = {
 ["color"] = "FFFF0000",
 ["threshold"] = 0,
 },
+["absorb"] = {
+["color"] = "CCFFFFB9",
+["mode"] = "appended",
+["enabled"] = true,
+},
 ["type"] = "step",
+["incomingHeal"] = {
+["color"] = "CC80b980",
+["mode"] = "appended",
+["enabled"] = true,
+},
 ["background"] = {
 ["color"] = "66000000",
 },
@@ -15439,37 +16572,41 @@ TwintopInsanityBarSettings = {
 },
 },
 ["comboPoints"] = {
-["border"] = {
-["color"] = "FF00426A",
-},
 ["base"] = {
 ["color"] = "FF368BC1",
+},
+["border"] = {
+["color"] = "FF00426A",
 },
 ["overcap"] = {
 ["color"] = "FFFF4500",
 ["enabled"] = false,
 },
-["background"] = {
-["color"] = "66000000",
-},
+["sortRunes"] = true,
 ["cooldown"] = {
 ["color"] = "FFCCCCCC",
 },
-["sortRunes"] = true,
+["background"] = {
+["color"] = "66000000",
+},
 },
 ["bar"] = {
+["base"] = {
+["color"] = "FF00D1FF",
+},
 ["borderOvercap"] = {
 ["color"] = "FFFF0000",
 ["enabled"] = true,
 },
-["background"] = {
-["color"] = "66000000",
-},
-["base"] = {
-["color"] = "FF00D1FF",
+["casting"] = {
+["color"] = "FFFFFFFF",
+["enabled"] = true,
 },
 ["border"] = {
 ["color"] = "FF009ABD",
+},
+["background"] = {
+["color"] = "66000000",
 },
 },
 },
@@ -15537,22 +16674,28 @@ TwintopInsanityBarSettings = {
 },
 ["blood"] = {
 ["textures"] = {
+["castingBar"] = "Interface\\Addons\\TwintopInsanityBar\\StatusBars\\smoother.tga",
 ["borderName"] = "1 Pixel",
 ["border"] = "Interface\\Buttons\\WHITE8X8",
+["absorbBar"] = "Interface\\Buttons\\WHITE8X8",
 ["healthBackgroundName"] = "Blizzard Tooltip",
 ["healthBorder"] = "Interface\\Buttons\\WHITE8X8",
 ["healthBorderName"] = "1 Pixel",
 ["background"] = "Interface\\Tooltips\\UI-Tooltip-Background",
 ["backgroundName"] = "Blizzard Tooltip",
 ["resourceBarName"] = "TRB: Smoother",
-["healthBar"] = "Interface\\Addons\\TwintopInsanityBar\\StatusBars\\smoother.tga",
-["comboPointsBarName"] = "TRB: Smoother",
-["textureLock"] = true,
 ["comboPointsBar"] = "Interface\\Addons\\TwintopInsanityBar\\StatusBars\\smoother.tga",
-["healthBackground"] = "Interface\\Tooltips\\UI-Tooltip-Background",
-["comboPointsBorderName"] = "1 Pixel",
-["comboPointsBackground"] = "Interface\\Tooltips\\UI-Tooltip-Background",
+["healthBar"] = "Interface\\Addons\\TwintopInsanityBar\\StatusBars\\smoother.tga",
 ["comboPointsBackgroundName"] = "Blizzard Tooltip",
+["comboPointsBarName"] = "TRB: Smoother",
+["comboPointsBackground"] = "Interface\\Tooltips\\UI-Tooltip-Background",
+["textureLock"] = true,
+["absorbBarName"] = "Solid",
+["castingBarName"] = "TRB: Smoother",
+["incomingHealBar"] = "Interface\\Buttons\\WHITE8X8",
+["comboPointsBorderName"] = "1 Pixel",
+["incomingHealBarName"] = "Solid",
+["healthBackground"] = "Interface\\Tooltips\\UI-Tooltip-Background",
 ["comboPointsBorder"] = "Interface\\Buttons\\WHITE8X8",
 ["healthBarName"] = "TRB: Smoother",
 ["resourceBar"] = "Interface\\Addons\\TwintopInsanityBar\\StatusBars\\smoother.tga",
@@ -15592,12 +16735,12 @@ TwintopInsanityBarSettings = {
 ["default"] = {
 ["fontFace"] = "Fonts\\FRIZQT__.TTF",
 ["fontFaceName"] = "Friz Quadrata TT",
-["fontJustifyHorizontal"] = "LEFT",
-["fontJustifyHorizontalName"] = "Left",
-["fontSize"] = 14,
 ["color"] = {
 ["color"] = "FFFFFFFF",
 },
+["fontJustifyHorizontalName"] = "Left",
+["fontSize"] = 14,
+["fontJustifyHorizontal"] = "LEFT",
 },
 ["barText"] = {
 {
@@ -15876,7 +17019,17 @@ TwintopInsanityBarSettings = {
 ["color"] = "FFFF0000",
 ["threshold"] = 0,
 },
+["absorb"] = {
+["color"] = "CCFFFFB9",
+["mode"] = "appended",
+["enabled"] = true,
+},
 ["type"] = "step",
+["incomingHeal"] = {
+["color"] = "CC80b980",
+["mode"] = "appended",
+["enabled"] = true,
+},
 ["background"] = {
 ["color"] = "66000000",
 },
@@ -15908,37 +17061,41 @@ TwintopInsanityBarSettings = {
 },
 },
 ["comboPoints"] = {
-["border"] = {
-["color"] = "FF600000",
-},
 ["base"] = {
 ["color"] = "FFC41E3A",
+},
+["border"] = {
+["color"] = "FF600000",
 },
 ["overcap"] = {
 ["color"] = "FFFF4500",
 ["enabled"] = false,
 },
-["background"] = {
-["color"] = "66000000",
-},
+["sortRunes"] = true,
 ["cooldown"] = {
 ["color"] = "FFCCCCCC",
 },
-["sortRunes"] = true,
+["background"] = {
+["color"] = "66000000",
+},
 },
 ["bar"] = {
+["base"] = {
+["color"] = "FF00D1FF",
+},
 ["borderOvercap"] = {
 ["color"] = "FFFF0000",
 ["enabled"] = true,
 },
-["background"] = {
-["color"] = "66000000",
-},
-["base"] = {
-["color"] = "FF00D1FF",
+["casting"] = {
+["color"] = "FFFFFFFF",
+["enabled"] = true,
 },
 ["border"] = {
 ["color"] = "FF009ABD",
+},
+["background"] = {
+["color"] = "66000000",
 },
 },
 },

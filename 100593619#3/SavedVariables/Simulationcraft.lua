@@ -1,6 +1,7 @@
 
 SimulationCraftDB = {
 ["profileKeys"] = {
+["Avoidshuffle - Laughing Skull"] = "Avoidshuffle - Laughing Skull",
 ["Necroshuffle - Kazzak"] = "Necroshuffle - Kazzak",
 ["Soulshuffle - Laughing Skull"] = "Soulshuffle - Laughing Skull",
 ["Smashuffle - Laughing Skull"] = "Smashuffle - Laughing Skull",
@@ -24,6 +25,7 @@ SimulationCraftDB = {
 ["Yumpshuffle - Kazzak"] = "Yumpshuffle - Kazzak",
 ["Bankshuffle - Draenor"] = "Bankshuffle - Draenor",
 ["Faceshuffle - Draenor"] = "Faceshuffle - Draenor",
+["Reapshuffle - Laughing Skull"] = "Reapshuffle - Laughing Skull",
 ["Cloakshuffle - Draenor"] = "Cloakshuffle - Draenor",
 ["Quakeshuffle - Draenor"] = "Quakeshuffle - Draenor",
 ["Soapshuffle - Kazzak"] = "Soapshuffle - Kazzak",
@@ -41,6 +43,8 @@ SimulationCraftDB = {
 ["Subshuffle - Ravencrest"] = "Subshuffle - Ravencrest",
 },
 ["profiles"] = {
+["Avoidshuffle - Laughing Skull"] = {
+},
 ["Necroshuffle - Kazzak"] = {
 },
 ["Soulshuffle - Laughing Skull"] = {
@@ -89,6 +93,8 @@ SimulationCraftDB = {
 ["Bankshuffle - Draenor"] = {
 },
 ["Faceshuffle - Draenor"] = {
+},
+["Reapshuffle - Laughing Skull"] = {
 },
 ["Cloakshuffle - Draenor"] = {
 },

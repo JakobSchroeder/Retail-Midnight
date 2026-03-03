@@ -1,6 +1,7 @@
 
 MythicDungeonToolsDB = {
 ["profileKeys"] = {
+["Avoidshuffle - Laughing Skull"] = "Avoidshuffle - Laughing Skull",
 ["Necroshuffle - Kazzak"] = "Necroshuffle - Kazzak",
 ["Soulshuffle - Laughing Skull"] = "Soulshuffle - Laughing Skull",
 ["Smashuffle - Laughing Skull"] = "Smashuffle - Laughing Skull",
@@ -24,6 +25,7 @@ MythicDungeonToolsDB = {
 ["Yumpshuffle - Kazzak"] = "Yumpshuffle - Kazzak",
 ["Bankshuffle - Draenor"] = "Bankshuffle - Draenor",
 ["Faceshuffle - Draenor"] = "Faceshuffle - Draenor",
+["Reapshuffle - Laughing Skull"] = "Reapshuffle - Laughing Skull",
 ["Cloakshuffle - Draenor"] = "Cloakshuffle - Draenor",
 ["Quakeshuffle - Draenor"] = "Quakeshuffle - Draenor",
 ["Soapshuffle - Kazzak"] = "Soapshuffle - Kazzak",

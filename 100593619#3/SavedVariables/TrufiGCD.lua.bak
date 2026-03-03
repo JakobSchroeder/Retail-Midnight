@@ -1,6 +1,6 @@
 
 TrufiGCDGlSave = {
-["lastUsedProfileId"] = "9341cf67-945b-4d74-93d1-abeb8f9e99e2",
+["lastUsedProfileId"] = "69f4db20-35aa-46da-b2b7-d0d1affb05d3",
 ["version"] = 2,
 ["profiles"] = {
 ["69f4db20-35aa-46da-b2b7-d0d1affb05d3"] = {

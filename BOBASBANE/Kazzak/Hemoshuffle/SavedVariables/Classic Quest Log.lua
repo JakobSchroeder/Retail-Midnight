@@ -13,5 +13,6 @@ ClassicQuestLogPerSettings = {
 75511,
 87308,
 90705,
+91281,
 },
 }

@@ -10,69 +10,69 @@ WQTrackerDB = {
 ["Respeccable - Twisting Nether"] = "Default",
 ["Spaceshuffle - Draenor"] = "Default",
 ["Angleshuffle - Kazzak"] = "Default",
-["Intshuffle - Kazzak"] = "Default",
+["Unshuffle - Ravencrest"] = "Default",
 ["Hornyshuffle - Draenor"] = "Default",
 ["Rageshuffle - Kazzak"] = "Default",
 ["Teashuffle - Twisting Nether"] = "Default",
 ["Fokshuffle - Auchindoun"] = "Default",
-["Kafirshuffle - Twisting Nether"] = "Default",
-["Dotshuffle - Kazzak"] = "Default",
+["Mórtarion - Twisting Nether"] = "Default",
+["Lavashuffle - Draenor"] = "Default",
 ["Shóckadin - Twisting Nether"] = "Default",
-["Polyshuffle - Draenor"] = "Default",
+["Dotshuffle - Kazzak"] = "Default",
 ["Cantshuffle - Ravencrest"] = "Default",
-["Aliceshuffle - Laughing Skull"] = "Default",
-["Jumpshuffle - Kazzak"] = "Default",
+["Eyeshuffle - Ravencrest"] = "Default",
+["Vanishuffle - Kazzak"] = "Default",
 ["Bankshuffle - Auchindoun"] = "Default",
-["Terrashuffle - Kazzak"] = "Default",
+["Riplimb - Twisting Nether"] = "Default",
 ["Spamtothetop - Twisting Nether"] = "Default",
-["Rockshuffle - Kazzak"] = "Default",
-["Avoidshuffle - Auchindoun"] = "Default",
-["Faithshuffle - Draenor"] = "Default",
+["Aliceshuffle - Laughing Skull"] = "Default",
+["Apollumi - Twisting Nether"] = "Default",
+["Ripinpeach - Ravencrest"] = "Default",
 ["Punctuation - Twisting Nether"] = "Default",
 ["Teashuffle - Kazzak"] = "Default",
-["Spearshuffle - Kazzak"] = "Default",
-["Goldshuffle - Blackrock"] = "Default",
-["Edgeshuffle - Auchindoun"] = "Default",
-["Hourshuffle - Kazzak"] = "Default",
-["Mightshuffle - Ravencrest"] = "Default",
-["Tradushuffle - Laughing Skull"] = "Default",
+["Leshuffle - Draenor"] = "Default",
+["Avoidshuffle - Auchindoun"] = "Default",
+["Faithshuffle - Draenor"] = "Default",
+["Brainshuffle - Auchindoun"] = "Default",
+["Bowshuffle - Ravencrest"] = "Default",
+["Banishuffle - Kazzak"] = "Default",
 ["Justshuffle - Ravencrest"] = "Default",
 ["Goatshuffle - Kazzak"] = "Default",
 ["Smorcshuffle - Draenor"] = "Default",
 ["Udartton - Twisting Nether"] = "Default",
-["Banishuffle - Kazzak"] = "Default",
-["Bowshuffle - Ravencrest"] = "Default",
-["Brainshuffle - Auchindoun"] = "Default",
-["Leshuffle - Draenor"] = "Default",
-["Ripinpeach - Ravencrest"] = "Default",
-["Apollumi - Twisting Nether"] = "Default",
-["Riplimb - Twisting Nether"] = "Default",
-["Vanishuffle - Kazzak"] = "Default",
-["Eyeshuffle - Ravencrest"] = "Default",
-["Lavashuffle - Draenor"] = "Default",
-["Mórtarion - Twisting Nether"] = "Default",
+["Tradushuffle - Laughing Skull"] = "Default",
+["Mightshuffle - Ravencrest"] = "Default",
+["Hourshuffle - Kazzak"] = "Default",
+["Terrashuffle - Kazzak"] = "Default",
+["Edgeshuffle - Auchindoun"] = "Default",
+["Goldshuffle - Blackrock"] = "Default",
+["Spearshuffle - Kazzak"] = "Default",
+["Jumpshuffle - Kazzak"] = "Default",
+["Rockshuffle - Kazzak"] = "Default",
+["Polyshuffle - Draenor"] = "Default",
+["Kafirshuffle - Twisting Nether"] = "Default",
 ["Angleshuffle - Auchindoun"] = "Default",
-["Unshuffle - Ravencrest"] = "Default",
+["Intshuffle - Kazzak"] = "Default",
 },
 ["profiles"] = {
 ["Default"] = {
 ["world_map_hubscale"] = {
 [875] = 0.9,
 [947] = 1,
-[2274] = 0.95,
+[1978] = 0.85,
 [1550] = 1,
 [876] = 0.9,
 [619] = 0.3,
-[1978] = 0.85,
+[2274] = 0.95,
 },
 ["world_map_hubenabled"] = {
 [875] = true,
 [947] = true,
-[2274] = true,
+[1978] = true,
 [1550] = true,
 [876] = true,
 [619] = true,
-[1978] = true,
+[2274] = true,
 },
 ["player_names"] = {
 ["Player-1329-05006DA7"] = {
@@ -170,6 +170,21 @@ WQTrackerDB = {
 ["name"] = "Vanishuffle",
 ["realm"] = "Kazzak",
 },
+["Player-581-0AFB0DBD"] = {
+["class"] = "WARRIOR",
+["name"] = "Goldshuffle",
+["realm"] = "Blackrock",
+},
+["Player-1403-05DD3933"] = {
+["class"] = "WARLOCK",
+["name"] = "Spaceshuffle",
+["realm"] = "Draenor",
+},
+["Player-1305-0B210B00"] = {
+["class"] = "WARRIOR",
+["name"] = "Rageshuffle",
+["realm"] = "Kazzak",
+},
 ["Player-1305-0B12F555"] = {
 ["class"] = "DEMONHUNTER",
 ["name"] = "Jumpshuffle",
@@ -185,9 +200,9 @@ WQTrackerDB = {
 ["name"] = "Teashuffle",
 ["realm"] = "Auchindoun",
 },
-["Player-1403-05DD3933"] = {
+["Player-1403-0B224030"] = {
 ["class"] = "WARLOCK",
-["name"] = "Spaceshuffle",
+["name"] = "Leshuffle",
 ["realm"] = "Draenor",
 },
 ["Player-3674-05B1624D"] = {
@@ -200,30 +215,30 @@ WQTrackerDB = {
 ["name"] = "Lavashuffle",
 ["realm"] = "Draenor",
 },
-["Player-1305-0B210B00"] = {
-["class"] = "WARRIOR",
-["name"] = "Rageshuffle",
+["Player-1305-0D125B27"] = {
+["class"] = "PRIEST",
+["name"] = "Rockshuffle",
 ["realm"] = "Kazzak",
 },
-["Player-1305-0D44AC5B"] = {
-["class"] = "DEMONHUNTER",
-["name"] = "Hourshuffle",
-["realm"] = "Kazzak",
+["Player-3674-07631158"] = {
+["class"] = "PRIEST",
+["name"] = "Kafirshuffle",
+["realm"] = "Twisting Nether",
 },
 ["Player-1403-05D3A11B"] = {
 ["class"] = "DEATHKNIGHT",
 ["name"] = "Cryoshuffle",
 ["realm"] = "Draenor",
 },
-["Player-3674-05B14BF1"] = {
-["class"] = "ROGUE",
-["name"] = "Respeccable",
-["realm"] = "Twisting Nether",
+["Player-1329-06F0CB9A"] = {
+["class"] = "PALADIN",
+["name"] = "Justshuffle",
+["realm"] = "Ravencrest",
 },
-["Player-3674-05B1ACC9"] = {
-["class"] = "WARLOCK",
-["name"] = "Apollumi",
-["realm"] = "Twisting Nether",
+["Player-1305-0D5F731C"] = {
+["class"] = "MAGE",
+["name"] = "Intshuffle",
+["realm"] = "Kazzak",
 },
 ["Player-1597-0ADF3F39"] = {
 ["class"] = "ROGUE",
@@ -240,15 +255,15 @@ WQTrackerDB = {
 ["name"] = "Dotshuffle",
 ["realm"] = "Kazzak",
 },
-["Player-3674-07631158"] = {
-["class"] = "PRIEST",
-["name"] = "Kafirshuffle",
+["Player-3674-05B1ACC9"] = {
+["class"] = "WARLOCK",
+["name"] = "Apollumi",
 ["realm"] = "Twisting Nether",
 },
-["Player-1329-06F0CB9A"] = {
-["class"] = "PALADIN",
-["name"] = "Justshuffle",
-["realm"] = "Ravencrest",
+["Player-1597-0AAFF101"] = {
+["class"] = "PRIEST",
+["name"] = "Angleshuffle",
+["realm"] = "Auchindoun",
 },
 ["Player-1329-05F1BA21"] = {
 ["class"] = "DEMONHUNTER",
@@ -305,20 +320,20 @@ WQTrackerDB = {
 ["name"] = "Teashuffle",
 ["realm"] = "Kazzak",
 },
-["Player-1597-0AAFF101"] = {
-["class"] = "PRIEST",
-["name"] = "Angleshuffle",
-["realm"] = "Auchindoun",
-},
-["Player-1305-0D125B27"] = {
-["class"] = "PRIEST",
-["name"] = "Rockshuffle",
+["Player-1305-0D5F7315"] = {
+["class"] = "MONK",
+["name"] = "Teashuffle",
 ["realm"] = "Kazzak",
 },
-["Player-1403-0B224030"] = {
-["class"] = "WARLOCK",
-["name"] = "Leshuffle",
-["realm"] = "Draenor",
+["Player-3674-05B14BF1"] = {
+["class"] = "ROGUE",
+["name"] = "Respeccable",
+["realm"] = "Twisting Nether",
+},
+["Player-1305-0D44AC5B"] = {
+["class"] = "DEMONHUNTER",
+["name"] = "Hourshuffle",
+["realm"] = "Kazzak",
 },
 ["Player-1597-0A24DA8B"] = {
 ["class"] = "PALADIN",
@@ -330,10 +345,10 @@ WQTrackerDB = {
 ["name"] = "Polyshuffle",
 ["realm"] = "Draenor",
 },
-["Player-581-0AFB0DBD"] = {
-["class"] = "WARRIOR",
-["name"] = "Goldshuffle",
-["realm"] = "Blackrock",
+["Player-1598-0FD17344"] = {
+["class"] = "DRUID",
+["name"] = "Tradushuffle",
+["realm"] = "Laughing Skull",
 },
 },
 ["clicked_order_by_once"] = true,
@@ -386,27 +401,33 @@ WQTrackerDB = {
 },
 ["Player-1305-0B2EBFCE"] = {
 },
+["Player-581-0AFB0DBD"] = {
+},
+["Player-1403-05DD3933"] = {
+},
+["Player-1305-0B210B00"] = {
+},
 ["Player-1305-0B12F555"] = {
 },
 ["Player-1597-0A84A059"] = {
 },
 ["Player-1597-0AF13FDD"] = {
 },
-["Player-1403-05DD3933"] = {
+["Player-1403-0B224030"] = {
 },
 ["Player-3674-05B1624D"] = {
 },
 ["Player-1403-05DD39B1"] = {
 },
-["Player-1305-0B210B00"] = {
+["Player-1305-0D125B27"] = {
 },
-["Player-1305-0D44AC5B"] = {
+["Player-3674-07631158"] = {
 },
 ["Player-1403-05D3A11B"] = {
 },
-["Player-3674-05B14BF1"] = {
+["Player-1329-06F0CB9A"] = {
 },
-["Player-3674-05B1ACC9"] = {
+["Player-1305-0D5F731C"] = {
 },
 ["Player-1597-0ADF3F39"] = {
 },
@@ -414,9 +435,9 @@ WQTrackerDB = {
 },
 ["Player-1305-0B0F6CBF"] = {
 },
-["Player-3674-07631158"] = {
+["Player-3674-05B1ACC9"] = {
 },
-["Player-1329-06F0CB9A"] = {
+["Player-1597-0AAFF101"] = {
 },
 ["Player-1329-05F1BA21"] = {
 },
@@ -440,65 +461,30 @@ WQTrackerDB = {
 },
 ["Player-1305-0B0CC3DA"] = {
 },
-["Player-1597-0AAFF101"] = {
+["Player-1305-0D5F7315"] = {
 },
-["Player-1305-0D125B27"] = {
+["Player-3674-05B14BF1"] = {
 },
-["Player-1403-0B224030"] = {
+["Player-1305-0D44AC5B"] = {
 },
 ["Player-1597-0A24DA8B"] = {
 },
 ["Player-1403-05DD3959"] = {
 },
-["Player-581-0AFB0DBD"] = {
+["Player-1598-0FD17344"] = {
 },
 },
 ["talking_heads_heard"] = {
-[305173] = true,
+[305182] = true,
 [300620] = true,
-[300621] = true,
 [305178] = true,
+[305173] = true,
+[300621] = true,
 },
 ["quests_all_characters"] = {
-["Player-1305-0B0DAE9D"] = {
-},
 ["Player-1598-0FCDC506"] = {
-[81630] = {
-["expireAt"] = 1771992079,
-["rewardAmount"] = "|cff2292FF104",
-["rewardTexture"] = "Interface\\ICONS\\INV_Jewelry_Talisman_07",
-},
-[76586] = {
-["expireAt"] = 1771992084,
-["rewardAmount"] = "",
-["rewardTexture"] = 1708494,
-},
-},
-["Player-1305-0D3ACAFE"] = {
-},
-["Player-1403-06492F48"] = {
 },
 ["Player-1305-0B210B00"] = {
-[89274] = {
-["expireAt"] = 1771992109,
-["rewardAmount"] = "|cff2292FF104",
-["rewardTexture"] = "Interface\\ICONS\\INV_Jewelry_Ring_22",
-},
-[86821] = {
-["expireAt"] = 1771992109,
-["rewardAmount"] = "|cff2292FF102",
-["rewardTexture"] = "Interface\\ICONS\\INV_Helmet_29",
-},
-[85834] = {
-["expireAt"] = 1771992109,
-["rewardAmount"] = "|cff2292FF102",
-["rewardTexture"] = "Interface\\ICONS\\INV_Sword_39",
-},
-[86707] = {
-["expireAt"] = 1771992057,
-["rewardAmount"] = "|cff2292FF102",
-["rewardTexture"] = 7001279,
-},
 },
 ["Player-1329-05057DFC"] = {
 [42241] = {
@@ -514,67 +500,236 @@ WQTrackerDB = {
 },
 ["Player-1403-05D3A11B"] = {
 },
+["Player-1305-0B0DAE9D"] = {
+},
+["Player-1305-0D5F731C"] = {
+[92364] = {
+["expireAt"] = 1772823653,
+["rewardAmount"] = "|cff2292FF224",
+["rewardTexture"] = "Interface\\ICONS\\INV_Shoulder_25",
+},
+[93904] = {
+["expireAt"] = 1772596874,
+["rewardAmount"] = "|cff2292FF220",
+["rewardTexture"] = "Interface\\ICONS\\INV_Misc_Cape_19",
+},
+[94581] = {
+["expireAt"] = 1772596874,
+["rewardAmount"] = "",
+["rewardTexture"] = 3016076,
+},
+},
+["Player-1598-0FD17344"] = {
+[92140] = {
+["expireAt"] = 1772596846,
+["rewardAmount"] = "|cff2292FF198",
+["rewardTexture"] = "Interface\\ICONS\\INV_Boots_Cloth_03",
+},
+[92364] = {
+["expireAt"] = 1772823646,
+["rewardAmount"] = "|cff2292FF198",
+["rewardTexture"] = "Interface\\ICONS\\INV_Shoulder_25",
+},
+},
+["Player-1305-0D3ACAFE"] = {
+},
+["Player-1403-06492F48"] = {
+[89377] = {
+["expireAt"] = 1772452872,
+["rewardAmount"] = "|cff2292FF224",
+["rewardTexture"] = "Interface\\ICONS\\INV_Shoulder_25",
+},
+[91810] = {
+["expireAt"] = 1772748069,
+["rewardAmount"] = "|cff2292FF224",
+["rewardTexture"] = "Interface\\ICONS\\INV_Belt_15",
+},
+[93904] = {
+["expireAt"] = 1772596872,
+["rewardAmount"] = "|cff2292FF220",
+["rewardTexture"] = "Interface\\ICONS\\INV_Misc_Cape_19",
+},
+},
 },
 ["rarescan"] = {
 ["search_group"] = false,
 },
 ["history"] = {
-["quest"] = {
-["global"] = {
-[89293] = 1,
-[86429] = 1,
-[85863] = 1,
-[86869] = 1,
-[81802] = 1,
-[86709] = 1,
-[81819] = 1,
-[89274] = 1,
-["total"] = 9,
-[85864] = 1,
-},
-["character"] = {
-["Player-1598-0FCDC506"] = {
-[89293] = 1,
-[86429] = 1,
-[85863] = 1,
-[86869] = 1,
-[81802] = 1,
-[86709] = 1,
-[81819] = 1,
-[89274] = 1,
-["total"] = 9,
-[85864] = 1,
-},
-},
-},
 ["period"] = {
 ["global"] = {
-["260205"] = {
-["quest"] = 2,
+["260228"] = {
+["quest"] = 1,
+},
+["260303"] = {
+["quest"] = 6,
+["gold"] = 341600,
 },
 ["260131"] = {
 ["quest"] = 7,
+["resource"] = 300,
+},
+["260205"] = {
+["quest"] = 2,
+},
+["260302"] = {
+["quest"] = 25,
+["resource"] = 330,
+},
+["260301"] = {
+["quest"] = 3,
 ["resource"] = 300,
 },
 },
 ["character"] = {
-["Player-1598-0FCDC506"] = {
-["260205"] = {
+["Player-1598-0FD17344"] = {
+["260302"] = {
+["quest"] = 6,
+["resource"] = 330,
+},
+["260303"] = {
 ["quest"] = 2,
 },
+},
+["Player-1305-0D5F731C"] = {
+["260303"] = {
+["quest"] = 4,
+["gold"] = 341600,
+},
+["260302"] = {
+["quest"] = 11,
+},
+},
+["Player-1598-0FCDC506"] = {
 ["260131"] = {
 ["quest"] = 7,
 ["resource"] = 300,
 },
+["260205"] = {
+["quest"] = 2,
+},
+},
+["Player-1403-06492F48"] = {
+["260228"] = {
+["quest"] = 1,
+},
+["260302"] = {
+["quest"] = 8,
+},
+["260301"] = {
+["quest"] = 3,
+["resource"] = 300,
+},
+},
+},
+},
+["quest"] = {
+["global"] = {
+[86429] = 1,
+[91207] = 1,
+[86869] = 1,
+[92141] = 2,
+[89293] = 1,
+[93579] = 2,
+[92746] = 1,
+[91810] = 1,
+[92122] = 3,
+["total"] = 44,
+[89274] = 1,
+[90962] = 1,
+[81802] = 1,
+[91927] = 3,
+[86709] = 1,
+[89377] = 1,
+[92138] = 1,
+[91799] = 2,
+[81819] = 1,
+[91555] = 2,
+[92146] = 1,
+[91804] = 3,
+[92119] = 2,
+[92150] = 1,
+[91937] = 3,
+[85863] = 1,
+[92140] = 2,
+[91803] = 2,
+[92162] = 1,
+[85864] = 1,
+},
+["character"] = {
+["Player-1598-0FD17344"] = {
+["total"] = 8,
+[91799] = 1,
+[92146] = 1,
+[91937] = 1,
+[91803] = 1,
+[91804] = 1,
+[92122] = 1,
+[91810] = 1,
+[91927] = 1,
+},
+["Player-1305-0D5F731C"] = {
+[90962] = 1,
+["total"] = 15,
+[92119] = 1,
+[91555] = 1,
+[92746] = 1,
+[91937] = 1,
+[91207] = 1,
+[91804] = 1,
+[92122] = 1,
+[89377] = 1,
+[91927] = 1,
+[92138] = 1,
+[93579] = 1,
+[92140] = 1,
+[92141] = 1,
+[92162] = 1,
+},
+["Player-1598-0FCDC506"] = {
+[89293] = 1,
+[86429] = 1,
+[85863] = 1,
+[86869] = 1,
+[81802] = 1,
+[85864] = 1,
+[86709] = 1,
+["total"] = 9,
+[89274] = 1,
+[81819] = 1,
+},
+["Player-1403-06492F48"] = {
+["total"] = 12,
+[91799] = 1,
+[91937] = 1,
+[91803] = 1,
+[91804] = 1,
+[92150] = 1,
+[91927] = 1,
+[92122] = 1,
+[92140] = 1,
+[93579] = 1,
+[91555] = 1,
+[92141] = 1,
+[92119] = 1,
 },
 },
 },
 ["reward"] = {
 ["global"] = {
-["resource"] = 300,
+["resource"] = 930,
+["gold"] = 341600,
 },
 ["character"] = {
+["Player-1598-0FD17344"] = {
+["resource"] = 330,
+},
+["Player-1305-0D5F731C"] = {
+["gold"] = 341600,
+},
 ["Player-1598-0FCDC506"] = {
+["resource"] = 300,
+},
+["Player-1403-06492F48"] = {
 ["resource"] = 300,
 },
 },
@@ -585,52 +740,62 @@ WQTrackerDB = {
 [7823] = {
 ["poiID"] = 7823,
 ["mapID"] = 2248,
-["tooltipSetId"] = 1108,
+["zoneY"] = 0.3779747486114502,
 ["worldY"] = 0.1785767376422882,
 ["zoneX"] = 0.7312923669815063,
 ["continentID"] = 2274,
 ["worldX"] = 0.8276190161705017,
-["zoneY"] = 0.3779747486114502,
+["tooltipSetId"] = 1108,
 },
 [7825] = {
 ["poiID"] = 7825,
 ["mapID"] = 2214,
-["tooltipSetId"] = 1118,
+["zoneY"] = 0.5031269788742065,
 ["worldY"] = 0.5881654620170593,
 ["zoneX"] = 0.6342707872390747,
 ["continentID"] = 2274,
 ["worldX"] = 0.597230851650238,
-["zoneY"] = 0.5031269788742065,
-},
-[7887] = {
-["poiID"] = 7887,
-["mapID"] = 2248,
-["tooltipSetId"] = 1298,
-["worldY"] = 0.1475018858909607,
-["zoneX"] = 0.724856436252594,
-["continentID"] = 2274,
-["worldX"] = 0.8247356414794922,
-["zoneY"] = 0.3083001971244812,
-},
-[8328] = {
-["poiID"] = 8328,
-["mapID"] = 2371,
-["tooltipSetId"] = 1670,
-["worldY"] = 0,
-["zoneX"] = 0.77094966173172,
-["continentID"] = 2274,
-["worldX"] = 0,
-["zoneY"] = 0.4840457439422607,
+["tooltipSetId"] = 1118,
 },
 [8324] = {
 ["poiID"] = 8324,
 ["mapID"] = 2371,
-["zoneY"] = 0.2729568481445313,
+["tooltipSetId"] = 1596,
 ["worldY"] = 0,
 ["zoneX"] = 0.5634082555770874,
 ["continentID"] = 2274,
 ["worldX"] = 0,
-["tooltipSetId"] = 1596,
+["zoneY"] = 0.2729568481445313,
+},
+[7887] = {
+["poiID"] = 7887,
+["mapID"] = 2248,
+["zoneY"] = 0.3083001971244812,
+["worldY"] = 0.1475018858909607,
+["zoneX"] = 0.724856436252594,
+["continentID"] = 2274,
+["worldX"] = 0.8247356414794922,
+["tooltipSetId"] = 1298,
+},
+[8328] = {
+["poiID"] = 8328,
+["mapID"] = 2371,
+["zoneY"] = 0.4840457439422607,
+["worldY"] = 0,
+["zoneX"] = 0.77094966173172,
+["continentID"] = 2274,
+["worldX"] = 0,
+["tooltipSetId"] = 1670,
+},
+[8585] = {
+["poiID"] = 8585,
+["mapID"] = 2405,
+["zoneY"] = 0.6922240257263184,
+["worldY"] = 0,
+["zoneX"] = 0.3563025593757629,
+["continentID"] = 2537,
+["worldX"] = 0,
+["tooltipSetId"] = 1915,
 },
 },
 },

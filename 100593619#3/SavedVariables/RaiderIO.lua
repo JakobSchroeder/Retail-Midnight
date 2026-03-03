@@ -13,9 +13,11 @@ RaiderIO_Config = {
 ["point"] = "TOPLEFT",
 },
 }
-RaiderIO_LastCharacter = "eu-Soapshuffle-kazzak"
+RaiderIO_LastCharacter = "eu-Voidshuffle-laughing-skull"
 RaiderIO_MissingCharacters = {
-["eu-Soapshuffle-kazzak"] = true,
+["eu-Timbavati-boulderfist"] = true,
+["eu-Voidshuffle-laughing-skull"] = true,
+["eu-Tuosta-shattered-halls"] = true,
 }
 RaiderIO_MissingServers = {
 }

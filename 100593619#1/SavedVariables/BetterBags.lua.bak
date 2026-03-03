@@ -1,21 +1,53 @@
 
 BetterBagsDB = {
 ["profileKeys"] = {
+["Plantshuffle - Stormrage"] = "Default",
 ["Hemoshuffle - Kazzak"] = "Default",
 ["Avoidshuffle - Laughing Skull"] = "Default",
-["Intshuffle - Kazzak"] = "Default",
-["Hornyshuffle - Draenor"] = "Default",
-["Rageshuffle - Kazzak"] = "Default",
+["Petshuffle - Stormrage"] = "Default",
+["Osirishuffle - Stormrage"] = "Default",
+["Grapeshuffle - Stormrage"] = "Default",
+["Banishuffle - Stormrage"] = "Default",
+["Cosmoshuffle - Stormrage"] = "Default",
 ["Teashuffle - Kazzak"] = "Default",
 ["Goldshuffle - Blackrock"] = "Default",
-["Cosmoshuffle - Stormrage"] = "Default",
+["Aurashuffle - Stormrage"] = "Default",
+["Madneshuffle - Stormrage"] = "Default",
+["Blastshuffle - Stormrage"] = "Default",
 ["Spearshuffle - Kazzak"] = "Default",
+["Rageshuffle - Kazzak"] = "Default",
+["Fogshuffle - Stormrage"] = "Default",
+["Shivshuffle - Stormrage"] = "Default",
+["Gripshuffle - Stormrage"] = "Default",
+["Intshuffle - Kazzak"] = "Default",
+["Hornyshuffle - Draenor"] = "Default",
 ["Tradushuffle - Laughing Skull"] = "Default",
 },
 ["profiles"] = {
 ["Default"] = {
+["__profileSystemMigrated"] = true,
 ["groupsEnabled"] = {
 [0] = false,
+},
+["groups"] = {
+{
+{
+["bankType"] = 0,
+["name"] = "Bank",
+["id"] = 1,
+["kind"] = 1,
+["order"] = 1,
+["isDefault"] = true,
+},
+{
+["bankType"] = 2,
+["name"] = "Warbank",
+["id"] = 2,
+["kind"] = 1,
+["order"] = 2,
+["isDefault"] = true,
+},
+},
 },
 ["size"] = {
 nil,
@@ -30,16 +62,6 @@ nil,
 },
 },
 ["ephemeralCategoryFilters"] = {
-["Waist"] = {
-["enabled"] = {
-true,
-[0] = true,
-},
-["itemList"] = {
-},
-["name"] = "Waist",
-["dynamic"] = true,
-},
 ["Consumable - Other"] = {
 ["enabled"] = {
 true,
@@ -58,6 +80,16 @@ true,
 ["itemList"] = {
 },
 ["name"] = "Legs",
+["dynamic"] = true,
+},
+["Armor - Miscellaneous"] = {
+["enabled"] = {
+true,
+[0] = true,
+},
+["itemList"] = {
+},
+["name"] = "Armor - Miscellaneous",
 ["dynamic"] = true,
 },
 ["Main Hand"] = {
@@ -99,64 +131,14 @@ true,
 ["name"] = "Hands",
 ["dynamic"] = true,
 },
-["Leatherworking"] = {
+["Quest"] = {
 ["enabled"] = {
 true,
 [0] = true,
 },
 ["itemList"] = {
 },
-["name"] = "Leatherworking",
-["dynamic"] = true,
-},
-["Junk"] = {
-["enabled"] = {
-true,
-[0] = true,
-},
-["itemList"] = {
-},
-["name"] = "Junk",
-["dynamic"] = true,
-},
-["Housing"] = {
-["enabled"] = {
-true,
-[0] = true,
-},
-["itemList"] = {
-},
-["name"] = "Housing",
-["dynamic"] = true,
-},
-["Tradeskill"] = {
-["enabled"] = {
-true,
-[0] = true,
-},
-["itemList"] = {
-},
-["name"] = "Tradeskill",
-["dynamic"] = true,
-},
-["Elemental"] = {
-["enabled"] = {
-true,
-[0] = true,
-},
-["itemList"] = {
-},
-["name"] = "Elemental",
-["dynamic"] = true,
-},
-["Head"] = {
-["enabled"] = {
-true,
-[0] = true,
-},
-["itemList"] = {
-},
-["name"] = "Head",
+["name"] = "Quest",
 ["dynamic"] = true,
 },
 ["Gear: Low Serenity"] = {
@@ -169,14 +151,34 @@ true,
 ["name"] = "Gear: Low Serenity",
 ["dynamic"] = true,
 },
-["Feet"] = {
+["Miscellaneous - Holiday"] = {
 ["enabled"] = {
 true,
 [0] = true,
 },
 ["itemList"] = {
 },
-["name"] = "Feet",
+["name"] = "Miscellaneous - Holiday",
+["dynamic"] = true,
+},
+["Head"] = {
+["enabled"] = {
+true,
+[0] = true,
+},
+["itemList"] = {
+},
+["name"] = "Head",
+["dynamic"] = true,
+},
+["Gear: Vitaminute"] = {
+["enabled"] = {
+true,
+[0] = true,
+},
+["itemList"] = {
+},
+["name"] = "Gear: Vitaminute",
 ["dynamic"] = true,
 },
 ["Chest"] = {
@@ -189,34 +191,14 @@ true,
 ["name"] = "Chest",
 ["dynamic"] = true,
 },
-["Inscription"] = {
+["Quest - Quest"] = {
 ["enabled"] = {
 true,
 [0] = true,
 },
 ["itemList"] = {
 },
-["name"] = "Inscription",
-["dynamic"] = true,
-},
-["Item Enhancement"] = {
-["enabled"] = {
-true,
-[0] = true,
-},
-["itemList"] = {
-},
-["name"] = "Item Enhancement",
-["dynamic"] = true,
-},
-["Quest"] = {
-["enabled"] = {
-true,
-[0] = true,
-},
-["itemList"] = {
-},
-["name"] = "Quest",
+["name"] = "Quest - Quest",
 ["dynamic"] = true,
 },
 ["Engineering"] = {
@@ -229,84 +211,24 @@ true,
 ["name"] = "Engineering",
 ["dynamic"] = true,
 },
-["Finishing Reagents"] = {
+["Tradeskill - Cooking"] = {
 ["enabled"] = {
 true,
 [0] = true,
 },
 ["itemList"] = {
 },
-["name"] = "Finishing Reagents",
+["name"] = "Tradeskill - Cooking",
 ["dynamic"] = true,
 },
-["Recipe"] = {
+["Consumable - Potions"] = {
 ["enabled"] = {
 true,
 [0] = true,
 },
 ["itemList"] = {
 },
-["name"] = "Recipe",
-["dynamic"] = true,
-},
-["Weapon"] = {
-["enabled"] = {
-true,
-[0] = true,
-},
-["itemList"] = {
-},
-["name"] = "Weapon",
-["dynamic"] = true,
-},
-["Other"] = {
-["enabled"] = {
-true,
-[0] = true,
-},
-["itemList"] = {
-},
-["name"] = "Other",
-["dynamic"] = true,
-},
-["One-Hand"] = {
-["enabled"] = {
-true,
-[0] = true,
-},
-["itemList"] = {
-},
-["name"] = "One-Hand",
-["dynamic"] = true,
-},
-["Miscellaneous - Junk"] = {
-["enabled"] = {
-true,
-[0] = true,
-},
-["itemList"] = {
-},
-["name"] = "Miscellaneous - Junk",
-["dynamic"] = true,
-},
-["Finger"] = {
-["enabled"] = {
-true,
-[0] = true,
-},
-["itemList"] = {
-},
-["name"] = "Finger",
-["dynamic"] = true,
-},
-["Neck"] = {
-["enabled"] = {
-true,
-[0] = true,
-},
-["itemList"] = {
-},
-["name"] = "Neck",
+["name"] = "Consumable - Potions",
 ["dynamic"] = true,
 },
 ["Gear: Frawztie"] = {
@@ -319,24 +241,14 @@ true,
 ["name"] = "Gear: Frawztie",
 ["dynamic"] = true,
 },
-["Cooking"] = {
+["Battle Pets - BattlePet"] = {
 ["enabled"] = {
 true,
 [0] = true,
 },
 ["itemList"] = {
 },
-["name"] = "Cooking",
-["dynamic"] = true,
-},
-["Armor"] = {
-["enabled"] = {
-true,
-[0] = true,
-},
-["itemList"] = {
-},
-["name"] = "Armor",
+["name"] = "Battle Pets - BattlePet",
 ["dynamic"] = true,
 },
 ["Gear: Venyeanse"] = {
@@ -379,26 +291,6 @@ true,
 ["name"] = "Consumable - Food & Drink",
 ["dynamic"] = true,
 },
-["Battle Pets"] = {
-["enabled"] = {
-true,
-[0] = true,
-},
-["itemList"] = {
-},
-["name"] = "Battle Pets",
-["dynamic"] = true,
-},
-["Wrist"] = {
-["enabled"] = {
-true,
-[0] = true,
-},
-["itemList"] = {
-},
-["name"] = "Wrist",
-["dynamic"] = true,
-},
 ["WuE"] = {
 ["enabled"] = {
 true,
@@ -408,14 +300,14 @@ true,
 },
 ["name"] = "WuE",
 },
-["Container"] = {
+["Optional Reagents"] = {
 ["enabled"] = {
 true,
 [0] = true,
 },
 ["itemList"] = {
 },
-["name"] = "Container",
+["name"] = "Optional Reagents",
 ["dynamic"] = true,
 },
 ["Trinket"] = {
@@ -428,14 +320,194 @@ true,
 ["name"] = "Trinket",
 ["dynamic"] = true,
 },
-["Miscellaneous - Holiday"] = {
+["Gem"] = {
 ["enabled"] = {
 true,
 [0] = true,
 },
 ["itemList"] = {
 },
-["name"] = "Miscellaneous - Holiday",
+["name"] = "Gem",
+["dynamic"] = true,
+},
+["Gear: DPSMW"] = {
+["enabled"] = {
+true,
+[0] = true,
+},
+["itemList"] = {
+},
+["name"] = "Gear: DPSMW",
+["dynamic"] = true,
+},
+["Shoulder"] = {
+["enabled"] = {
+true,
+[0] = true,
+},
+["itemList"] = {
+},
+["name"] = "Shoulder",
+["dynamic"] = true,
+},
+["Inscription"] = {
+["enabled"] = {
+true,
+[0] = true,
+},
+["itemList"] = {
+},
+["name"] = "Inscription",
+["dynamic"] = true,
+},
+["Consumable - Flasks & Phials"] = {
+["enabled"] = {
+true,
+[0] = true,
+},
+["itemList"] = {
+},
+["name"] = "Consumable - Flasks & Phials",
+["dynamic"] = true,
+},
+["Back"] = {
+["enabled"] = {
+true,
+[0] = true,
+},
+["itemList"] = {
+},
+["name"] = "Back",
+["dynamic"] = true,
+},
+["Housing - Service Item"] = {
+["enabled"] = {
+true,
+[0] = true,
+},
+["itemList"] = {
+},
+["name"] = "Housing - Service Item",
+["dynamic"] = true,
+},
+["Leatherworking"] = {
+["enabled"] = {
+true,
+[0] = true,
+},
+["itemList"] = {
+},
+["name"] = "Leatherworking",
+["dynamic"] = true,
+},
+["Tradeskill"] = {
+["enabled"] = {
+true,
+[0] = true,
+},
+["itemList"] = {
+},
+["name"] = "Tradeskill",
+["dynamic"] = true,
+},
+["Elemental"] = {
+["enabled"] = {
+true,
+[0] = true,
+},
+["itemList"] = {
+},
+["name"] = "Elemental",
+["dynamic"] = true,
+},
+["Miscellaneous - Other"] = {
+["enabled"] = {
+true,
+[0] = true,
+},
+["itemList"] = {
+},
+["name"] = "Miscellaneous - Other",
+["dynamic"] = true,
+},
+["Item Enhancement"] = {
+["enabled"] = {
+true,
+[0] = true,
+},
+["itemList"] = {
+},
+["name"] = "Item Enhancement",
+["dynamic"] = true,
+},
+["Tradeskill - Metal & Stone"] = {
+["enabled"] = {
+true,
+[0] = true,
+},
+["itemList"] = {
+},
+["name"] = "Tradeskill - Metal & Stone",
+["dynamic"] = true,
+},
+["Weapon"] = {
+["enabled"] = {
+true,
+[0] = true,
+},
+["itemList"] = {
+},
+["name"] = "Weapon",
+["dynamic"] = true,
+},
+["Other"] = {
+["enabled"] = {
+true,
+[0] = true,
+},
+["itemList"] = {
+},
+["name"] = "Other",
+["dynamic"] = true,
+},
+["Tradeskill - Optional Reagents"] = {
+["enabled"] = {
+true,
+[0] = true,
+},
+["itemList"] = {
+},
+["name"] = "Tradeskill - Optional Reagents",
+["dynamic"] = true,
+},
+["Tailoring"] = {
+["enabled"] = {
+true,
+[0] = true,
+},
+["itemList"] = {
+},
+["name"] = "Tailoring",
+["dynamic"] = true,
+},
+["Finger"] = {
+["enabled"] = {
+true,
+[0] = true,
+},
+["itemList"] = {
+},
+["name"] = "Finger",
+["dynamic"] = true,
+},
+["Herbalism"] = {
+["enabled"] = {
+true,
+[0] = true,
+},
+["itemList"] = {
+},
+["name"] = "Herbalism",
 ["dynamic"] = true,
 },
 ["Recent Items"] = {
@@ -448,14 +520,143 @@ true,
 ["name"] = "Recent Items",
 ["dynamic"] = true,
 },
-["Optional Reagents"] = {
+["Finishing Reagents"] = {
 ["enabled"] = {
 true,
 [0] = true,
 },
 ["itemList"] = {
 },
-["name"] = "Optional Reagents",
+["name"] = "Finishing Reagents",
+["dynamic"] = true,
+},
+["Battle Pets"] = {
+["enabled"] = {
+true,
+[0] = true,
+},
+["itemList"] = {
+},
+["name"] = "Battle Pets",
+["dynamic"] = true,
+},
+["Miscellaneous - Junk"] = {
+["enabled"] = {
+true,
+[0] = true,
+},
+["itemList"] = {
+},
+["name"] = "Miscellaneous - Junk",
+["dynamic"] = true,
+},
+["Wrist"] = {
+["enabled"] = {
+true,
+[0] = true,
+},
+["itemList"] = {
+},
+["name"] = "Wrist",
+["dynamic"] = true,
+},
+["Tradeskill - Parts"] = {
+["enabled"] = {
+true,
+[0] = true,
+},
+["itemList"] = {
+},
+["name"] = "Tradeskill - Parts",
+["dynamic"] = true,
+},
+["Tradeskill - Inscription"] = {
+["enabled"] = {
+true,
+[0] = true,
+},
+["itemList"] = {
+},
+["name"] = "Tradeskill - Inscription",
+["dynamic"] = true,
+},
+["Armor"] = {
+["enabled"] = {
+true,
+[0] = true,
+},
+["itemList"] = {
+},
+["name"] = "Armor",
+["dynamic"] = true,
+},
+["Warband Bank"] = {
+["enabled"] = {
+true,
+[0] = true,
+},
+["itemList"] = {
+},
+["name"] = "Warband Bank",
+},
+["One-Hand"] = {
+["enabled"] = {
+true,
+[0] = true,
+},
+["itemList"] = {
+},
+["name"] = "One-Hand",
+["dynamic"] = true,
+},
+["Container"] = {
+["enabled"] = {
+true,
+[0] = true,
+},
+["itemList"] = {
+},
+["name"] = "Container",
+["dynamic"] = true,
+},
+["Feet"] = {
+["enabled"] = {
+true,
+[0] = true,
+},
+["itemList"] = {
+},
+["name"] = "Feet",
+["dynamic"] = true,
+},
+["Recipe"] = {
+["enabled"] = {
+true,
+[0] = true,
+},
+["itemList"] = {
+},
+["name"] = "Recipe",
+["dynamic"] = true,
+},
+["Cooking"] = {
+["enabled"] = {
+true,
+[0] = true,
+},
+["itemList"] = {
+},
+["name"] = "Cooking",
+["dynamic"] = true,
+},
+["Neck"] = {
+["enabled"] = {
+true,
+[0] = true,
+},
+["itemList"] = {
+},
+["name"] = "Neck",
 ["dynamic"] = true,
 },
 ["Mining"] = {
@@ -518,103 +719,109 @@ true,
 ["name"] = "Consumable",
 ["dynamic"] = true,
 },
-["Gem"] = {
+["Housing"] = {
 ["enabled"] = {
 true,
 [0] = true,
 },
 ["itemList"] = {
 },
-["name"] = "Gem",
+["name"] = "Housing",
 ["dynamic"] = true,
 },
-["Herbalism"] = {
+["Junk"] = {
 ["enabled"] = {
 true,
 [0] = true,
 },
 ["itemList"] = {
 },
-["name"] = "Herbalism",
+["name"] = "Junk",
 ["dynamic"] = true,
 },
-["Gear: DPSMW"] = {
+["Tradeskill - Other"] = {
 ["enabled"] = {
 true,
 [0] = true,
 },
 ["itemList"] = {
 },
-["name"] = "Gear: DPSMW",
+["name"] = "Tradeskill - Other",
 ["dynamic"] = true,
 },
-["Back"] = {
+["Waist"] = {
 ["enabled"] = {
 true,
 [0] = true,
 },
 ["itemList"] = {
 },
-["name"] = "Back",
+["name"] = "Waist",
 ["dynamic"] = true,
 },
-["Shoulder"] = {
+["Tradeskill - Cloth"] = {
 ["enabled"] = {
 true,
 [0] = true,
 },
 ["itemList"] = {
 },
-["name"] = "Shoulder",
+["name"] = "Tradeskill - Cloth",
 ["dynamic"] = true,
 },
-["Gear: Vitaminute"] = {
+["BoE"] = {
 ["enabled"] = {
 true,
 [0] = true,
 },
 ["itemList"] = {
 },
-["name"] = "Gear: Vitaminute",
-["dynamic"] = true,
+["name"] = "BoE",
 },
 },
-["itemLevelColor"] = {
-["maxItemLevelByCharacter"] = {
-["Hemoshuffle-Kazzak"] = 170,
-["Rageshuffle-Kazzak"] = 170,
-["Avoidshuffle-Laughing Skull"] = 170,
-["Goldshuffle-Blackrock"] = 11,
-["Cosmoshuffle-Stormrage"] = 128,
-["Teashuffle-Kazzak"] = 170,
-["Spearshuffle-Kazzak"] = 170,
-["Hornyshuffle-Draenor"] = 170,
-["Intshuffle-Kazzak"] = 170,
-["Tradushuffle-Laughing Skull"] = 95,
-},
-},
+["upgradeIconProvider"] = "BetterBags",
 ["showBagButton"] = false,
 ["categoryFilters"] = {
 {
 ["EquipmentLocation"] = false,
+["Subtype"] = true,
 },
 [0] = {
 ["EquipmentLocation"] = false,
 },
 },
-["upgradeIconProvider"] = "BetterBags",
-["theme"] = "elvui",
-["firstTimeMenu"] = false,
-["__profileSystemMigrated"] = true,
-["categoryOptions"] = {
-["Waist"] = {
-["shown"] = false,
+["__groupsScopedByKind"] = true,
+["__bankDefaultTabsFixed"] = true,
+["positions"] = {
+{
+["y"] = 141,
+["x"] = -204.5000915527344,
+["point"] = "CENTER",
+["scale"] = 1,
 },
+[0] = {
+["y"] = 20.19981571733661,
+["x"] = -209.0001602798729,
+["point"] = "RIGHT",
+["scale"] = 0.800000011920929,
+},
+},
+["firstTimeMenu"] = false,
+["groupCounter"] = {
+2,
+},
+["activeGroup"] = {
+2,
+},
+["categoryOptions"] = {
 ["Consumable - Other"] = {
 ["shown"] = true,
 },
 ["Legs"] = {
 ["shown"] = false,
+},
+["Armor - Miscellaneous"] = {
+["shown"] = true,
 },
 ["Main Hand"] = {
 ["shown"] = false,
@@ -628,82 +835,43 @@ true,
 ["Hands"] = {
 ["shown"] = false,
 },
-["Leatherworking"] = {
+["Quest"] = {
 ["shown"] = true,
 },
-["Junk"] = {
+["Gear: Low Serenity"] = {
 ["shown"] = true,
-},
-["Housing"] = {
-["shown"] = true,
-},
-["Tradeskill"] = {
-["shown"] = true,
-},
-["Elemental"] = {
-["shown"] = false,
-},
-["Head"] = {
-["shown"] = false,
 },
 ["Miscellaneous - Holiday"] = {
 ["shown"] = true,
 },
-["Feet"] = {
+["Head"] = {
 ["shown"] = false,
 },
-["Gear: Vitaminute"] = {
-["shown"] = true,
+["Feet"] = {
+["shown"] = false,
 },
 ["Chest"] = {
 ["shown"] = false,
 },
-["Inscription"] = {
-["shown"] = true,
-},
-["Item Enhancement"] = {
-["shown"] = true,
-},
-["Recipe"] = {
+["Quest - Quest"] = {
 ["shown"] = true,
 },
 ["Engineering"] = {
 ["shown"] = true,
 },
-["Gear: Venyeanse"] = {
+["Tradeskill - Cooking"] = {
 ["shown"] = true,
 },
-["Herbalism"] = {
+["Consumable - Potions"] = {
 ["shown"] = true,
-},
-["Weapon"] = {
-["shown"] = true,
-},
-["Other"] = {
-["shown"] = true,
-},
-["One-Hand"] = {
-["shown"] = false,
-},
-["Cooking"] = {
-["shown"] = true,
-},
-["Finger"] = {
-["shown"] = false,
-},
-["Neck"] = {
-["shown"] = false,
 },
 ["Gear: Frawztie"] = {
 ["shown"] = true,
 },
-["Soulbound"] = {
+["Battle Pets - BattlePet"] = {
 ["shown"] = true,
 },
-["Armor"] = {
-["shown"] = true,
-},
-["Finishing Reagents"] = {
+["Gear: Venyeanse"] = {
 ["shown"] = true,
 },
 ["Reagent"] = {
@@ -715,24 +883,6 @@ true,
 ["Consumable - Food & Drink"] = {
 ["shown"] = true,
 },
-["Battle Pets"] = {
-["shown"] = true,
-},
-["Wrist"] = {
-["shown"] = false,
-},
-["Mining"] = {
-["shown"] = true,
-},
-["Container"] = {
-["shown"] = true,
-},
-["WuE"] = {
-["shown"] = true,
-},
-["Back"] = {
-["shown"] = false,
-},
 ["Recent Items"] = {
 ["shown"] = true,
 },
@@ -740,6 +890,114 @@ true,
 ["shown"] = true,
 },
 ["Trinket"] = {
+["shown"] = false,
+},
+["Gem"] = {
+["shown"] = true,
+},
+["Gear: DPSMW"] = {
+["shown"] = true,
+},
+["Shoulder"] = {
+["shown"] = false,
+},
+["Inscription"] = {
+["shown"] = true,
+},
+["Consumable - Flasks & Phials"] = {
+["shown"] = true,
+},
+["Back"] = {
+["shown"] = false,
+},
+["Housing - Service Item"] = {
+["shown"] = true,
+},
+["Leatherworking"] = {
+["shown"] = true,
+},
+["Tradeskill"] = {
+["shown"] = true,
+},
+["Elemental"] = {
+["shown"] = false,
+},
+["Miscellaneous - Other"] = {
+["shown"] = true,
+},
+["Item Enhancement"] = {
+["shown"] = true,
+},
+["Tradeskill - Metal & Stone"] = {
+["shown"] = true,
+},
+["Tailoring"] = {
+["shown"] = true,
+},
+["Weapon"] = {
+["shown"] = true,
+},
+["Other"] = {
+["shown"] = true,
+},
+["Tradeskill - Optional Reagents"] = {
+["shown"] = true,
+},
+["WuE"] = {
+["shown"] = true,
+},
+["Finger"] = {
+["shown"] = false,
+},
+["Neck"] = {
+["shown"] = false,
+},
+["Soulbound"] = {
+["shown"] = true,
+},
+["Miscellaneous - Junk"] = {
+["shown"] = true,
+},
+["Armor"] = {
+["shown"] = true,
+},
+["Recipe"] = {
+["shown"] = true,
+},
+["Warband Bank"] = {
+["shown"] = true,
+},
+["Tradeskill - Parts"] = {
+["shown"] = true,
+},
+["Tradeskill - Inscription"] = {
+["shown"] = true,
+},
+["Battle Pets"] = {
+["shown"] = true,
+},
+["Wrist"] = {
+["shown"] = false,
+},
+["Gear: Vitaminute"] = {
+["shown"] = true,
+},
+["Container"] = {
+["shown"] = true,
+},
+["Cooking"] = {
+["shown"] = true,
+},
+["Finishing Reagents"] = {
+["shown"] = true,
+},
+["Herbalism"] = {
+["shown"] = true,
+},
+["Mining"] = {
+["shown"] = true,
+},
+["One-Hand"] = {
 ["shown"] = false,
 },
 ["Gear: Low"] = {
@@ -757,41 +1015,54 @@ true,
 ["Consumable"] = {
 ["shown"] = true,
 },
-["Gem"] = {
+["Housing"] = {
 ["shown"] = true,
 },
-["Miscellaneous - Junk"] = {
+["Tradeskill - Cloth"] = {
 ["shown"] = true,
 },
-["Gear: DPSMW"] = {
+["Junk"] = {
 ["shown"] = true,
 },
-["Quest"] = {
+["Tradeskill - Other"] = {
 ["shown"] = true,
 },
-["Shoulder"] = {
+["Waist"] = {
 ["shown"] = false,
 },
-["Gear: Low Serenity"] = {
+["BoE"] = {
 ["shown"] = true,
 },
 },
 ["categorySell"] = true,
-["positions"] = {
-{
-["y"] = 290.9996032714844,
-["x"] = 183.5000152587891,
-["point"] = "LEFT",
-["scale"] = 1,
-},
-[0] = {
-["y"] = 21.19988897442636,
-["x"] = -18.59976681768603,
-["point"] = "RIGHT",
-["scale"] = 0.800000011920929,
+["theme"] = "elvui",
+["itemLevelColor"] = {
+["maxItemLevelByCharacter"] = {
+["Hemoshuffle-Kazzak"] = 170,
+["Avoidshuffle-Laughing Skull"] = 170,
+["Spearshuffle-Kazzak"] = 170,
+["Teashuffle-Kazzak"] = 170,
+["Shivshuffle-Stormrage"] = 102,
+["Madneshuffle-Stormrage"] = 102,
+["Gripshuffle-Stormrage"] = 102,
+["Aurashuffle-Stormrage"] = 102,
+["Tradushuffle-Laughing Skull"] = 170,
+["Rageshuffle-Kazzak"] = 170,
+["Blastshuffle-Stormrage"] = 102,
+["Grapeshuffle-Stormrage"] = 170,
+["Cosmoshuffle-Stormrage"] = 170,
+["Osirishuffle-Stormrage"] = 102,
+["Goldshuffle-Blackrock"] = 124,
+["Banishuffle-Stormrage"] = 102,
+["Plantshuffle-Stormrage"] = 102,
+["Petshuffle-Stormrage"] = 102,
+["Hornyshuffle-Draenor"] = 170,
+["Intshuffle-Kazzak"] = 170,
+["Fogshuffle-Stormrage"] = 141,
 },
 },
 ["showFullSectionNames"] = {
+true,
 [0] = true,
 },
 },

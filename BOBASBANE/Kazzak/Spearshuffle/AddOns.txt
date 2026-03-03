@@ -36,3 +36,5 @@ LittleWigs_MistsOfPandaria: enabled
 ElvUI_Options: enabled
 LittleWigs_Shadowlands: enabled
 LittleWigs_Cataclysm: enabled
+BetterBags_WarbankUnified: enabled
+LittleWigs_TheWarWithin: enabled

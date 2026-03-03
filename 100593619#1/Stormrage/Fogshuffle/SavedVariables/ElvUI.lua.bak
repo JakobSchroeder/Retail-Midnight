@@ -2,6 +2,11 @@
 ElvCharacterDB = {
 ["ConvertKeybindings"] = true,
 ["ChatEditHistory"] = {
+"/run print(C_QuestLog.IsQuestFlaggedCompleted(84910))",
+"/run print(C_QuestLog.IsQuestFlaggedCompleted(85037))",
+"/run print(C_QuestLog.IsQuestFlaggedCompleted(84896))",
+"/run print(C_QuestLog.IsQuestFlaggedCompleted(84897))",
+"/run print(C_QuestLog.IsQuestFlaggedCompleted(84898))",
 },
 ["ChatHistoryLog"] = {
 {

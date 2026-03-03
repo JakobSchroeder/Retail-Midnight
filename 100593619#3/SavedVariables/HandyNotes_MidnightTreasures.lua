@@ -1,6 +1,7 @@
 
 HandyNotes_MidnightTreasuresDB = {
 ["profileKeys"] = {
+["Avoidshuffle - Laughing Skull"] = "Avoidshuffle - Laughing Skull",
 ["Necroshuffle - Kazzak"] = "Necroshuffle - Kazzak",
 ["Soulshuffle - Laughing Skull"] = "Soulshuffle - Laughing Skull",
 ["Feintshuffle - Kazzak"] = "Feintshuffle - Kazzak",
@@ -24,6 +25,7 @@ HandyNotes_MidnightTreasuresDB = {
 ["Yumpshuffle - Kazzak"] = "Yumpshuffle - Kazzak",
 ["Bankshuffle - Draenor"] = "Bankshuffle - Draenor",
 ["Faceshuffle - Draenor"] = "Faceshuffle - Draenor",
+["Reapshuffle - Laughing Skull"] = "Reapshuffle - Laughing Skull",
 ["Smashuffle - Laughing Skull"] = "Smashuffle - Laughing Skull",
 ["Subshuffle - Ravencrest"] = "Subshuffle - Ravencrest",
 ["Soapshuffle - Kazzak"] = "Soapshuffle - Kazzak",
@@ -41,6 +43,8 @@ HandyNotes_MidnightTreasuresDB = {
 ["Monkashuffle - Kazzak"] = "Monkashuffle - Kazzak",
 },
 ["profiles"] = {
+["Avoidshuffle - Laughing Skull"] = {
+},
 ["Necroshuffle - Kazzak"] = {
 },
 ["Soulshuffle - Laughing Skull"] = {
@@ -86,6 +90,8 @@ HandyNotes_MidnightTreasuresDB = {
 ["Bankshuffle - Draenor"] = {
 },
 ["Faceshuffle - Draenor"] = {
+},
+["Reapshuffle - Laughing Skull"] = {
 },
 ["Smashuffle - Laughing Skull"] = {
 },

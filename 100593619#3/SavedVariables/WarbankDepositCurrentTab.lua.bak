@@ -1,0 +1,2 @@
+
+WarbankDepositCurrentTabDB = nil

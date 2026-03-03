@@ -27,10 +27,10 @@ X: 111
 Y: 211
 W: 415
 H: 570
-Frame: BetterBagsBagBank
+Frame: ClassicQuestLog
 FrameLevel: 1
 Anchor: LEFT
-X: 430
-Y: 135
-W: 602
-H: 470
+X: 0
+Y: 0
+W: 675
+H: 496

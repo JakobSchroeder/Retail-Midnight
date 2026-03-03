@@ -3,7 +3,8 @@ ClassicQuestLogPerSettings = {
 ["CollapsedHeaders"] = {
 },
 ["QuestHistory"] = {
-90764,
 92429,
+90764,
+91281,
 },
 }

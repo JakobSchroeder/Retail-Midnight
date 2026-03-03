@@ -57,7 +57,7 @@ VWQL = {
 [76586] = true,
 [83718] = true,
 },
-["VERSION"] = 119,
+["VERSION"] = 120,
 },
 ["Kafirshuffle-Draenor"] = {
 ["VERSION"] = 119,
@@ -107,39 +107,49 @@ VWQL = {
 ["FilterType"] = {
 },
 ["Quests"] = {
+[82120] = true,
+[82586] = true,
+[82583] = true,
+[82088] = true,
+[82298] = true,
 [76586] = true,
-[82523] = true,
-[83930] = true,
+[81815] = true,
 },
-["VERSION"] = 119,
+["VERSION"] = 120,
 },
 ["Voidshuffle-LaughingSkull"] = {
+["VERSION"] = 120,
+["FilterType"] = {
+},
+["Quests"] = {
+[66419] = true,
+[75257] = true,
+[92146] = true,
+[91799] = true,
+[91810] = true,
+[76586] = true,
+[92364] = true,
+[91806] = true,
+},
+["Filter"] = 63,
+},
+["Avoidshuffle-LaughingSkull"] = {
+["VERSION"] = 120,
+["FilterType"] = {
+},
+["Quests"] = {
+[91806] = true,
+[82237] = true,
+[92364] = true,
+[92140] = true,
+},
+["Filter"] = 63,
+},
+["Forceshuffle-Draenor"] = {
 ["VERSION"] = 119,
 ["FilterType"] = {
 },
 ["Quests"] = {
-[82585] = true,
-[81812] = true,
-[81630] = true,
-[82041] = true,
-[66419] = true,
-[82448] = true,
-[83537] = true,
-[82258] = true,
-[83048] = true,
-[84429] = true,
-[82294] = true,
-[82658] = true,
-[81823] = true,
-[76586] = true,
-[82292] = true,
-[75257] = true,
-[82234] = true,
-[82257] = true,
-[82300] = true,
-[81806] = true,
-[83079] = true,
-[81854] = true,
 },
 ["Filter"] = 63,
 },
@@ -157,15 +167,15 @@ VWQL = {
 },
 ["Quests"] = {
 },
-["VERSION"] = 119,
+["VERSION"] = 120,
 },
-["Forceshuffle-Draenor"] = {
-["VERSION"] = 119,
+["Spellshuffel-Ravencrest"] = {
+["Filter"] = 63,
 ["FilterType"] = {
 },
 ["Quests"] = {
 },
-["Filter"] = 63,
+["VERSION"] = 119,
 },
 ["Moonshuffle-Draenor"] = {
 ["Filter"] = 63,
@@ -200,13 +210,13 @@ VWQL = {
 },
 ["Filter"] = 63,
 },
-["Spellshuffel-Ravencrest"] = {
-["Filter"] = 63,
+["Cloakshuffle-Draenor"] = {
+["VERSION"] = 119,
 ["FilterType"] = {
 },
 ["Quests"] = {
 },
-["VERSION"] = 119,
+["Filter"] = 63,
 },
 ["Bankshuffle-Draenor"] = {
 ["VERSION"] = 119,
@@ -232,14 +242,6 @@ VWQL = {
 },
 ["VERSION"] = 119,
 },
-["Cloakshuffle-Draenor"] = {
-["VERSION"] = 119,
-["FilterType"] = {
-},
-["Quests"] = {
-},
-["Filter"] = 63,
-},
 ["Subshuffle-Ravencrest"] = {
 ["Filter"] = 63,
 ["FilterType"] = {
@@ -248,6 +250,7 @@ VWQL = {
 },
 ["VERSION"] = 119,
 },
+["Scale"] = 0.8,
 ["Ratshuffle-Kazzak"] = {
 ["Filter"] = 63,
 ["FilterType"] = {
@@ -255,6 +258,18 @@ VWQL = {
 ["Quests"] = {
 },
 ["VERSION"] = 119,
+},
+["Monkashuffle-Kazzak"] = {
+["VERSION"] = 120,
+["FilterType"] = {
+},
+["Quests"] = {
+[58742] = true,
+[92140] = true,
+[92141] = true,
+[92138] = true,
+},
+["Filter"] = 63,
 },
 ["Quakeshuffle-Draenor"] = {
 ["Filter"] = 63,
@@ -264,24 +279,7 @@ VWQL = {
 },
 ["VERSION"] = 119,
 },
-["DisableIconsGeneralMap947"] = true,
-["Monkashuffle-Kazzak"] = {
-["VERSION"] = 119,
-["FilterType"] = {
-},
-["Quests"] = {
-},
-["Filter"] = 63,
-},
 ["Bobshuffle-LaughingSkull"] = {
-["VERSION"] = 119,
-["FilterType"] = {
-},
-["Quests"] = {
-},
-["Filter"] = 63,
-},
-["Tectoshuffle-Kazzak"] = {
 ["VERSION"] = 119,
 ["FilterType"] = {
 },
@@ -297,13 +295,22 @@ VWQL = {
 },
 ["Filter"] = 63,
 },
+["Tectoshuffle-Kazzak"] = {
+["VERSION"] = 119,
+["FilterType"] = {
+},
+["Quests"] = {
+},
+["Filter"] = 63,
+},
+["DisableIconsGeneralMap947"] = true,
 ["Soapshuffle-Kazzak"] = {
 ["Filter"] = 63,
 ["FilterType"] = {
 },
 ["Quests"] = {
 },
-["VERSION"] = 119,
+["VERSION"] = 120,
 },
 ["Ignore"] = {
 },
@@ -315,7 +322,6 @@ VWQL = {
 },
 ["Filter"] = 63,
 },
-["Scale"] = 0.8,
 ["Pairshuffle-Kazzak"] = {
 ["VERSION"] = 119,
 ["FilterType"] = {
@@ -324,8 +330,16 @@ VWQL = {
 },
 ["Filter"] = 63,
 },
-["VERSION"] = 119,
+["VERSION"] = 120,
 ["Roboshuffle-Ravencrest"] = {
+["Filter"] = 63,
+["FilterType"] = {
+},
+["Quests"] = {
+},
+["VERSION"] = 119,
+},
+["Bankrshuffle-LaughingSkull"] = {
 ["Filter"] = 63,
 ["FilterType"] = {
 },
@@ -341,13 +355,13 @@ VWQL = {
 },
 ["VERSION"] = 119,
 },
-["Bankrshuffle-LaughingSkull"] = {
+["Reapshuffle-LaughingSkull"] = {
 ["Filter"] = 63,
 ["FilterType"] = {
 },
 ["Quests"] = {
 },
-["VERSION"] = 119,
+["VERSION"] = 120,
 },
 ["HideLegion"] = true,
 }

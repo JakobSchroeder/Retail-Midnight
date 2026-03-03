@@ -4,6 +4,7 @@ ElvCharacterDB = {
 ["ChatEditHistory"] = {
 "/wa",
 "/myslot",
+"/run print(C_QuestLog.IsQuestFlaggedCompleted(84910))",
 },
 ["ChatHistoryLog"] = {
 {

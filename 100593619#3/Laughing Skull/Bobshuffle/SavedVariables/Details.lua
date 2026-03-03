@@ -31,9 +31,8 @@ _detalhes_database = {
 ["show_options"] = false,
 ["ignored_cooldowns"] = {
 },
-["cooldowns"] = {
-},
 ["height"] = 18,
+["framme_locked"] = false,
 ["own_frame"] = {
 ["defensive-raid"] = false,
 ["ofensive"] = false,
@@ -41,7 +40,8 @@ _detalhes_database = {
 ["utility"] = false,
 ["defensive-personal"] = false,
 },
-["framme_locked"] = false,
+["cooldowns"] = {
+},
 ["show_conditions"] = {
 ["only_inside_instance"] = true,
 ["only_in_group"] = true,
@@ -59,7 +59,7 @@ _detalhes_database = {
 ["utility"] = false,
 },
 },
-["combat_counter"] = 14,
+["combat_counter"] = 18,
 ["damage_meter_sessions"] = {
 },
 ["force_font_outline"] = "",
@@ -91,7 +91,7 @@ _detalhes_database = {
 ["attribute"] = 1,
 ["pos"] = {
 ["normal"] = {
-["y"] = -632.0008773803711,
+["y"] = -632.000846862793,
 ["x"] = 931.99560546875,
 ["w"] = 230.0002899169922,
 ["h"] = 172.0007781982422,
@@ -140,10 +140,13 @@ _detalhes_database = {
 },
 },
 },
-["character_data"] = {
-["logons"] = 7,
+["announce_firsthit"] = {
+["enabled"] = true,
+["channel"] = "SELF",
 },
-["cached_talents"] = {
+["nick_tag_cache"] = {
+["nextreset"] = 1773133727,
+["last_version"] = 16,
 },
 ["last_instance_id"] = 0,
 ["data_harvest_for_charsts"] = {
@@ -176,22 +179,14 @@ _detalhes_database = {
 ["reverse"] = false,
 },
 ["active_profile"] = "Luckyone",
-["last_day"] = "23",
-["player_stats"] = {
+["last_day"] = "27",
+["cached_talents"] = {
 },
 ["ignore_nicktag"] = false,
 ["cached_roles"] = {
 },
-["mythic_dungeon_currentsaved"] = {
-["dungeon_name"] = "",
-["started"] = false,
-["segment_id"] = 0,
-["ej_id"] = 0,
-["started_at"] = 0,
-["run_id"] = 0,
-["level"] = 0,
-["dungeon_zone_id"] = 0,
-["previous_boss_killed_at"] = 0,
+["character_data"] = {
+["logons"] = 9,
 },
 ["combat_log"] = {
 ["inverse_deathlog_overalldata"] = false,
@@ -203,7 +198,7 @@ _detalhes_database = {
 ["evoker_show_realtimedps"] = false,
 ["inverse_deathlog_mplus"] = false,
 },
-["data_harvested_for_charts"] = {
+["player_stats"] = {
 },
 ["plugin_database"] = {
 ["DETAILS_PLUGIN_COMPARETWO_WINDOW"] = {
@@ -212,35 +207,100 @@ _detalhes_database = {
 ["max_compares"] = 4,
 ["compare_type"] = 1,
 },
+["DETAILS_PLUGIN_STREAM_OVERLAY"] = {
+["use_square_mode"] = false,
+["is_first_run"] = false,
+["arrow_color"] = {
+1,
+1,
+1,
+0.5,
 },
-["SoloTablesSaved"] = {
-["Mode"] = 1,
+["author"] = "Terciob",
+["main_frame_size"] = {
+299.9999694824219,
+500.0000915527344,
+},
+["minimap"] = {
+["minimapPos"] = 160,
+["radius"] = 160,
+["hide"] = false,
+},
+["main_frame_locked"] = false,
+["arrow_anchor_x"] = 0,
+["font_size"] = 10,
+["row_texture"] = "Details Serenity",
+["square_grow_direction"] = "right",
+["arrow_anchor_y"] = 0,
+["use_spark"] = true,
+["square_amount"] = 5,
+["enabled"] = false,
+["arrow_size"] = 10,
+["row_color"] = {
+0.1,
+0.1,
+0.1,
+0.4,
+},
+["row_spacement"] = 21,
+["main_frame_color"] = {
+0,
+0,
+0,
+0.2,
+},
+["main_frame_strata"] = "LOW",
+["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
+["per_second"] = {
+["enabled"] = false,
+["point"] = "CENTER",
+["scale"] = 1,
+["font_shadow"] = true,
+["y"] = 0,
+["x"] = 0,
+["attribute_type"] = 1,
+["update_speed"] = 0.05,
+["size"] = 32,
+},
+["y"] = 1.52587890625e-05,
+["x"] = 0,
+["font_face"] = "Friz Quadrata TT",
+["square_size"] = 32,
+["point"] = "CENTER",
+["font_color"] = {
+1,
+1,
+1,
+1,
+},
+["row_height"] = 20,
+["scale"] = 1,
+},
+},
+["data_harvested_for_charts"] = {
+},
+["benchmark_db"] = {
+["frame"] = {
+},
 },
 ["mythic_plus_log"] = {
 },
+["on_death_menu"] = false,
 ["coach"] = {
 ["enabled"] = false,
 ["welcome_panel_pos"] = {
 },
 ["last_coach_name"] = false,
 },
-["announce_damagerecord"] = {
-["enabled"] = true,
-["channel"] = "SELF",
-},
-["announce_firsthit"] = {
-["enabled"] = true,
-["channel"] = "SELF",
-},
 ["last_realversion"] = 170,
-["last_version"] = "12.0.1 14631",
+["last_version"] = "12.0.1 14655",
 ["combat_id"] = 0,
 ["savedStyles"] = {
 },
 ["last_instance_time"] = 0,
-["nick_tag_cache"] = {
-["nextreset"] = 1773133727,
-["last_version"] = 16,
+["announce_damagerecord"] = {
+["enabled"] = true,
+["channel"] = "SELF",
 },
 ["announce_deaths"] = {
 ["enabled"] = false,
@@ -276,7 +336,7 @@ _detalhes_database = {
 },
 ["raid_roster"] = {
 },
-["tempo_start"] = 511572.459,
+["tempo_start"] = 853408.89,
 ["last_events_tables"] = {
 },
 ["alternate_power"] = {
@@ -344,9 +404,9 @@ _detalhes_database = {
 ["data_inicio"] = 0,
 ["amountCasts"] = {
 },
-["mapId"] = 2738,
+["mapId"] = 2552,
 ["instance_type"] = "none",
-["zoneName"] = "K'aresh",
+["zoneName"] = "Khaz Algar (Surface)",
 ["boss_hp"] = 1,
 ["is_challenge"] = false,
 ["frags"] = {
@@ -373,14 +433,23 @@ _detalhes_database = {
 ["start_time"] = 0,
 ["TimeData"] = {
 },
-["combat_counter"] = 13,
+["combat_counter"] = 17,
 },
-["on_death_menu"] = false,
+["SoloTablesSaved"] = {
+["Mode"] = 1,
+},
 ["arena_data_headers"] = {
 },
-["benchmark_db"] = {
-["frame"] = {
-},
+["mythic_dungeon_currentsaved"] = {
+["dungeon_name"] = "",
+["started"] = false,
+["segment_id"] = 0,
+["ej_id"] = 0,
+["started_at"] = 0,
+["run_id"] = 0,
+["level"] = 0,
+["dungeon_zone_id"] = 0,
+["previous_boss_killed_at"] = 0,
 },
 ["announce_cooldowns"] = {
 ["enabled"] = false,

@@ -125,3 +125,5 @@ ElvUI_SecondsToBuff: disabled
 ElvUI_BuffHighlight: disabled
 ElvUI_RatioMinimapAuras: disabled
 kExtraBossFrames: disabled
+BetterBags_WarbankUnified: enabled
+LittleWigs_TheWarWithin: enabled

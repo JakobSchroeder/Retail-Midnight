@@ -52,9 +52,17 @@ VER 3 0000000000000109 "Potion" "134400"
 /use item:212969
 /use item:212263
 END
+VER 3 000000000000011F "RXPTargeting" "Ability_eyeoftheowl"
+/targetexact Rowdy Elementals
+/targetlasttarget [dead]
+END
 VER 3 000000000000011A "Self PWS" "INV_Misc_QuestionMark"
 #showtooltip
 /cast [@player] Power Word: Shield
+END
+VER 3 0000000000000120 "SolaTP" "134400"
+/cast View Next Adventure
+/run C_PlayerChoice.SendPlayerChoiceResponse(C_PlayerChoice.GetCurrentPlayerChoiceInfo().options[2].buttons[1].id)
 END
 VER 3 000000000000011B "SWD" "INV_Misc_QuestionMark"
 #showtooltip

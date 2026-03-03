@@ -1,6 +1,7 @@
 
 MBFDB = {
 ["profileKeys"] = {
+["Avoidshuffle - Laughing Skull"] = "Default",
 ["Necroshuffle - Kazzak"] = "Default",
 ["Soulshuffle - Laughing Skull"] = "Default",
 ["Feintshuffle - Kazzak"] = "Default",
@@ -24,6 +25,7 @@ MBFDB = {
 ["Yumpshuffle - Kazzak"] = "Default",
 ["Bankshuffle - Draenor"] = "Default",
 ["Faceshuffle - Draenor"] = "Default",
+["Reapshuffle - Laughing Skull"] = "Default",
 ["Smashuffle - Laughing Skull"] = "Default",
 ["Subshuffle - Ravencrest"] = "Default",
 ["Soapshuffle - Kazzak"] = "Default",
@@ -47,8 +49,8 @@ MBFDB = {
 ["MBF_FrameLocation"] = {
 nil,
 nil,
--98.75467681884766,
--251.2498931884766,
+-100.0048980712891,
+-252.4997863769531,
 },
 ["customChildren"] = {
 "MinimapButtonFrameDragButton",
@@ -76,6 +78,9 @@ nil,
 "LibDBIcon10_DelveSpeedTracker",
 "PlumberLandingPageMinimapButton",
 "LibDBIcon10_PlumberLandingButton",
+"LibDBIcon10_WarbandStasher",
+"LibDBIcon10_RXPGuides",
+"LibDBIcon10_DetailsStreamer",
 },
 },
 },

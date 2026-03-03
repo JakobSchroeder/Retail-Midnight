@@ -35,9 +35,9 @@ _detalhes_database = {
 },
 ["damage_taken_ps"] = 592.8333333333334,
 ["end_time"] = 1771797004,
+["on_hold"] = false,
 ["damage_from"] = {
 },
-["aID"] = "1305-0B210B00",
 ["nome"] = "Rageshuffle",
 ["spells"] = {
 ["_ActorTable"] = {
@@ -253,8 +253,8 @@ _detalhes_database = {
 ["tipo"] = 2,
 },
 ["grupo"] = true,
-["on_hold"] = false,
 ["tipo"] = 1,
+["aID"] = "1305-0B210B00",
 ["custom"] = 0,
 ["last_event"] = 0,
 ["damage_taken"] = 3557,
@@ -275,11 +275,12 @@ _detalhes_database = {
 ["pets"] = {
 },
 ["iniciar_hps"] = false,
-["classe"] = "WARRIOR",
+["aID"] = "1305-0B210B00",
 ["totalover"] = 0.0083,
 ["total_without_pet"] = 0.0083,
 ["total"] = 2258,
-["spec"] = 72,
+["targets_absorbs"] = {
+},
 ["heal_enemy"] = {
 },
 ["on_hold"] = false,
@@ -290,12 +291,12 @@ _detalhes_database = {
 ["targets"] = {
 },
 ["totalover_without_pet"] = 0.0083,
-["last_event"] = 0,
+["spec"] = 72,
 ["healing_taken"] = 0.0083,
 ["end_time"] = 1771797004,
+["start_time"] = 1771797004,
 ["healing_from"] = {
 },
-["aID"] = "1305-0B210B00",
 ["nome"] = "Rageshuffle",
 ["spells"] = {
 ["_ActorTable"] = {
@@ -349,14 +350,13 @@ _detalhes_database = {
 ["tipo"] = 3,
 },
 ["grupo"] = true,
-["start_time"] = 1771797004,
 ["heal_enemy_amt"] = 0,
+["last_event"] = 0,
 ["custom"] = 0,
 ["tipo"] = 2,
 ["totaldenied"] = 0.0083,
 ["delay"] = 0,
-["targets_absorbs"] = {
-},
+["classe"] = "WARRIOR",
 },
 },
 },
@@ -524,9 +524,8 @@ _detalhes_database = {
 ["show_options"] = false,
 ["ignored_cooldowns"] = {
 },
-["cooldowns"] = {
-},
 ["height"] = 18,
+["framme_locked"] = false,
 ["own_frame"] = {
 ["defensive-raid"] = false,
 ["ofensive"] = false,
@@ -534,7 +533,8 @@ _detalhes_database = {
 ["utility"] = false,
 ["defensive-personal"] = false,
 },
-["framme_locked"] = false,
+["cooldowns"] = {
+},
 ["show_conditions"] = {
 ["only_inside_instance"] = true,
 ["only_in_group"] = true,
@@ -584,7 +584,7 @@ _detalhes_database = {
 ["attribute"] = 1,
 ["pos"] = {
 ["normal"] = {
-["y"] = -632.0008773803711,
+["y"] = -632.000846862793,
 ["x"] = 931.99560546875,
 ["w"] = 230.0002899169922,
 ["h"] = 172.0007781982422,
@@ -633,10 +633,36 @@ _detalhes_database = {
 },
 },
 },
-["character_data"] = {
-["logons"] = 7,
+["announce_firsthit"] = {
+["enabled"] = true,
+["channel"] = "SELF",
 },
-["cached_talents"] = {
+["nick_tag_cache"] = {
+["last_version"] = 16,
+["nextreset"] = 1773004037,
+["Monoroth-LaughingSkull"] = {
+"Monoroth",
+"",
+{
+0,
+1,
+0,
+1,
+},
+"",
+{
+0,
+1,
+0,
+1,
+},
+{
+1,
+1,
+1,
+},
+3,
+},
 },
 ["last_instance_id"] = 0,
 ["data_harvest_for_charsts"] = {
@@ -669,22 +695,14 @@ _detalhes_database = {
 ["reverse"] = false,
 },
 ["active_profile"] = "Luckyone",
-["last_day"] = "23",
-["player_stats"] = {
+["last_day"] = "03",
+["cached_talents"] = {
 },
 ["ignore_nicktag"] = false,
 ["cached_roles"] = {
 },
-["mythic_dungeon_currentsaved"] = {
-["dungeon_name"] = "",
-["started"] = false,
-["segment_id"] = 0,
-["ej_id"] = 0,
-["started_at"] = 0,
-["run_id"] = 0,
-["level"] = 0,
-["dungeon_zone_id"] = 0,
-["previous_boss_killed_at"] = 0,
+["character_data"] = {
+["logons"] = 9,
 },
 ["combat_log"] = {
 ["inverse_deathlog_overalldata"] = false,
@@ -696,7 +714,7 @@ _detalhes_database = {
 ["evoker_show_realtimedps"] = false,
 ["inverse_deathlog_mplus"] = false,
 },
-["data_harvested_for_charts"] = {
+["player_stats"] = {
 },
 ["plugin_database"] = {
 ["DETAILS_PLUGIN_COMPARETWO_WINDOW"] = {
@@ -705,58 +723,100 @@ _detalhes_database = {
 ["max_compares"] = 4,
 ["compare_type"] = 1,
 },
+["DETAILS_PLUGIN_STREAM_OVERLAY"] = {
+["use_square_mode"] = false,
+["is_first_run"] = false,
+["arrow_color"] = {
+1,
+1,
+1,
+0.5,
 },
-["SoloTablesSaved"] = {
-["Mode"] = 1,
+["author"] = "Terciob",
+["main_frame_size"] = {
+299.9999694824219,
+500.0000915527344,
+},
+["minimap"] = {
+["minimapPos"] = 160,
+["radius"] = 160,
+["hide"] = false,
+},
+["main_frame_locked"] = false,
+["arrow_anchor_x"] = 0,
+["font_size"] = 10,
+["row_texture"] = "Details Serenity",
+["square_grow_direction"] = "right",
+["arrow_anchor_y"] = 0,
+["use_spark"] = true,
+["square_amount"] = 5,
+["enabled"] = false,
+["arrow_size"] = 10,
+["row_color"] = {
+0.1,
+0.1,
+0.1,
+0.4,
+},
+["row_spacement"] = 21,
+["main_frame_color"] = {
+0,
+0,
+0,
+0.2,
+},
+["main_frame_strata"] = "LOW",
+["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
+["per_second"] = {
+["enabled"] = false,
+["point"] = "CENTER",
+["scale"] = 1,
+["font_shadow"] = true,
+["y"] = 0,
+["x"] = 0,
+["attribute_type"] = 1,
+["update_speed"] = 0.05,
+["size"] = 32,
+},
+["y"] = 1.52587890625e-05,
+["x"] = 0,
+["font_face"] = "Friz Quadrata TT",
+["square_size"] = 32,
+["point"] = "CENTER",
+["font_color"] = {
+1,
+1,
+1,
+1,
+},
+["row_height"] = 20,
+["scale"] = 1,
+},
+},
+["data_harvested_for_charts"] = {
+},
+["benchmark_db"] = {
+["frame"] = {
+},
 },
 ["mythic_plus_log"] = {
 },
+["on_death_menu"] = false,
 ["coach"] = {
 ["enabled"] = false,
 ["welcome_panel_pos"] = {
 },
 ["last_coach_name"] = false,
 },
-["announce_damagerecord"] = {
-["enabled"] = true,
-["channel"] = "SELF",
-},
-["announce_firsthit"] = {
-["enabled"] = true,
-["channel"] = "SELF",
-},
 ["last_realversion"] = 170,
-["last_version"] = "12.0.1 14631",
+["last_version"] = "12.0.1 14700",
 ["combat_id"] = 31,
 ["savedStyles"] = {
 },
 ["last_instance_time"] = 0,
-["nick_tag_cache"] = {
-["last_version"] = 16,
-["nextreset"] = 1773004037,
-["Monoroth-LaughingSkull"] = {
-"Monoroth",
-"",
-{
-0,
-1,
-0,
-1,
-},
-"",
-{
-0,
-1,
-0,
-1,
-},
-{
-1,
-1,
-1,
-},
-3,
-},
+["announce_damagerecord"] = {
+["enabled"] = true,
+["channel"] = "SELF",
 },
 ["announce_deaths"] = {
 ["enabled"] = false,
@@ -792,8 +852,7 @@ _detalhes_database = {
 ["raid_targets"] = {
 },
 ["end_time"] = 1771796036,
-["friendlyfire"] = {
-},
+["aID"] = "1305-0B210B00",
 ["nome"] = "Rageshuffle",
 ["spells"] = {
 ["_ActorTable"] = {
@@ -1243,7 +1302,8 @@ _detalhes_database = {
 ["tipo"] = 2,
 },
 ["grupo"] = true,
-["aID"] = "1305-0B210B00",
+["friendlyfire"] = {
+},
 ["last_event"] = 0,
 ["custom"] = 0,
 ["tipo"] = 1,
@@ -1259,7 +1319,7 @@ _detalhes_database = {
 ["_ActorTable"] = {
 {
 ["flag_original"] = 1298,
-["targets_overheal"] = {
+["healing_from"] = {
 },
 ["pets"] = {
 },
@@ -1283,7 +1343,7 @@ _detalhes_database = {
 ["healing_taken"] = 0.14424,
 ["end_time"] = 1771796036,
 ["heal_enemy_amt"] = 0,
-["healing_from"] = {
+["targets_overheal"] = {
 },
 ["nome"] = "Rageshuffle",
 ["spells"] = {
@@ -1309,6 +1369,29 @@ _detalhes_database = {
 ["c_total"] = 0,
 ["totaldenied"] = 0,
 ["n_amt"] = 0,
+["absorbed"] = 0,
+},
+[143924] = {
+["c_amt"] = 0,
+["totalabsorb"] = 0,
+["targets_overheal"] = {
+},
+["n_max"] = 0,
+["targets"] = {
+},
+["n_total"] = 0,
+["n_min"] = 0,
+["counter"] = 31,
+["overheal"] = 0,
+["total"] = 65091,
+["c_max"] = 0,
+["id"] = 143924,
+["targets_absorbs"] = {
+},
+["c_min"] = 0,
+["c_total"] = 0,
+["n_amt"] = 0,
+["totaldenied"] = 0,
 ["absorbed"] = 0,
 },
 [382551] = {
@@ -1355,29 +1438,6 @@ _detalhes_database = {
 ["c_total"] = 0,
 ["totaldenied"] = 0,
 ["n_amt"] = 0,
-["absorbed"] = 0,
-},
-[143924] = {
-["c_amt"] = 0,
-["totalabsorb"] = 0,
-["targets_overheal"] = {
-},
-["n_max"] = 0,
-["targets"] = {
-},
-["n_total"] = 0,
-["n_min"] = 0,
-["counter"] = 31,
-["overheal"] = 0,
-["total"] = 65091,
-["c_max"] = 0,
-["id"] = 143924,
-["targets_absorbs"] = {
-},
-["c_min"] = 0,
-["c_total"] = 0,
-["n_amt"] = 0,
-["totaldenied"] = 0,
 ["absorbed"] = 0,
 },
 },
@@ -1446,6 +1506,47 @@ _detalhes_database = {
 ["frags_total"] = 0,
 ["voidzone_damage"] = 0,
 },
+["player_last_events"] = {
+},
+["frags_need_refresh"] = false,
+["overall_refreshed"] = true,
+["amountCasts"] = {
+},
+["instance_type"] = "none",
+["zoneName"] = "K'aresh",
+["data_fim"] = "22:53:30",
+["cleu_timeline"] = {
+},
+["trinketProcs"] = {
+},
+["aura_timeline"] = {
+},
+["compressed_charts"] = {
+},
+["PhaseData"] = {
+{
+1,
+1,
+},
+["damage_section"] = {
+},
+["heal_section"] = {
+},
+["heal"] = {
+},
+["damage"] = {
+},
+},
+["end_time"] = 470800.115,
+["mapId"] = 2738,
+["boss_hp"] = 1,
+["spells_cast_timeline"] = {
+},
+["is_challenge"] = false,
+["frags"] = {
+},
+["combat_counter"] = 13,
+["overall_enemy_name"] = "Unknown",
 ["totals_grupo"] = {
 2949277,
 227976,
@@ -1467,48 +1568,7 @@ _detalhes_database = {
 ["dead"] = 0,
 },
 },
-["frags_need_refresh"] = false,
-["overall_refreshed"] = true,
-["amountCasts"] = {
-},
-["instance_type"] = "none",
-["zoneName"] = "K'aresh",
-["data_fim"] = "22:53:30",
-["cleu_timeline"] = {
-},
-["trinketProcs"] = {
-},
-["aura_timeline"] = {
-},
-["compressed_charts"] = {
-},
 ["data_inicio"] = "22:33:45",
-["end_time"] = 470800.115,
-["mapId"] = 2738,
-["boss_hp"] = 1,
-["PhaseData"] = {
-{
-1,
-1,
-},
-["damage_section"] = {
-},
-["heal_section"] = {
-},
-["heal"] = {
-},
-["damage"] = {
-},
-},
-["is_challenge"] = false,
-["frags"] = {
-},
-["combat_counter"] = 13,
-["overall_enemy_name"] = "Unknown",
-["player_last_events"] = {
-},
-["spells_cast_timeline"] = {
-},
 ["start_time"] = 470365.911,
 ["TimeData"] = {
 },
@@ -1701,12 +1761,21 @@ _detalhes_database = {
 },
 },
 },
-["on_death_menu"] = false,
+["SoloTablesSaved"] = {
+["Mode"] = 1,
+},
 ["arena_data_headers"] = {
 },
-["benchmark_db"] = {
-["frame"] = {
-},
+["mythic_dungeon_currentsaved"] = {
+["dungeon_name"] = "",
+["started"] = false,
+["segment_id"] = 0,
+["ej_id"] = 0,
+["started_at"] = 0,
+["run_id"] = 0,
+["level"] = 0,
+["dungeon_zone_id"] = 0,
+["previous_boss_killed_at"] = 0,
 },
 ["announce_cooldowns"] = {
 ["enabled"] = false,

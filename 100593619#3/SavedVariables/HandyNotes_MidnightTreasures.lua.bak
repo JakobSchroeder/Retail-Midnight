@@ -1,6 +1,7 @@
 
 HandyNotes_MidnightTreasuresDB = {
 ["profileKeys"] = {
+["Avoidshuffle - Laughing Skull"] = "Avoidshuffle - Laughing Skull",
 ["Necroshuffle - Kazzak"] = "Necroshuffle - Kazzak",
 ["Soulshuffle - Laughing Skull"] = "Soulshuffle - Laughing Skull",
 ["Feintshuffle - Kazzak"] = "Feintshuffle - Kazzak",
@@ -25,22 +26,25 @@ HandyNotes_MidnightTreasuresDB = {
 ["Bankshuffle - Draenor"] = "Bankshuffle - Draenor",
 ["Faceshuffle - Draenor"] = "Faceshuffle - Draenor",
 ["Monkashuffle - Kazzak"] = "Monkashuffle - Kazzak",
-["Subshuffle - Ravencrest"] = "Subshuffle - Ravencrest",
-["Soapshuffle - Kazzak"] = "Soapshuffle - Kazzak",
+["Smashuffle - Laughing Skull"] = "Smashuffle - Laughing Skull",
 ["Roboshuffle - Ravencrest"] = "Roboshuffle - Ravencrest",
+["Soapshuffle - Kazzak"] = "Soapshuffle - Kazzak",
 ["Preshuffle - Kazzak"] = "Preshuffle - Kazzak",
+["Kickshuffle - Kazzak"] = "Kickshuffle - Kazzak",
 ["Moonshuffle - Draenor"] = "Moonshuffle - Draenor",
 ["Pairshuffle - Kazzak"] = "Pairshuffle - Kazzak",
 ["Bobshuffle - Laughing Skull"] = "Bobshuffle - Laughing Skull",
 ["Forceshuffle - Draenor"] = "Forceshuffle - Draenor",
 ["Bankpshuffle - Laughing Skull"] = "Bankpshuffle - Laughing Skull",
 ["Gunshuffle - Kazzak"] = "Gunshuffle - Kazzak",
-["Kickshuffle - Kazzak"] = "Kickshuffle - Kazzak",
 ["Ratshuffle - Kazzak"] = "Ratshuffle - Kazzak",
+["Subshuffle - Ravencrest"] = "Subshuffle - Ravencrest",
 ["Floorshuffle - Ravencrest"] = "Floorshuffle - Ravencrest",
-["Smashuffle - Laughing Skull"] = "Smashuffle - Laughing Skull",
+["Reapshuffle - Laughing Skull"] = "Reapshuffle - Laughing Skull",
 },
 ["profiles"] = {
+["Avoidshuffle - Laughing Skull"] = {
+},
 ["Necroshuffle - Kazzak"] = {
 },
 ["Soulshuffle - Laughing Skull"] = {
@@ -89,13 +93,15 @@ HandyNotes_MidnightTreasuresDB = {
 },
 ["Monkashuffle - Kazzak"] = {
 },
-["Subshuffle - Ravencrest"] = {
-},
-["Soapshuffle - Kazzak"] = {
+["Smashuffle - Laughing Skull"] = {
 },
 ["Roboshuffle - Ravencrest"] = {
 },
+["Soapshuffle - Kazzak"] = {
+},
 ["Preshuffle - Kazzak"] = {
+},
+["Kickshuffle - Kazzak"] = {
 },
 ["Moonshuffle - Draenor"] = {
 },
@@ -109,13 +115,13 @@ HandyNotes_MidnightTreasuresDB = {
 },
 ["Gunshuffle - Kazzak"] = {
 },
-["Kickshuffle - Kazzak"] = {
-},
 ["Ratshuffle - Kazzak"] = {
+},
+["Subshuffle - Ravencrest"] = {
 },
 ["Floorshuffle - Ravencrest"] = {
 },
-["Smashuffle - Laughing Skull"] = {
+["Reapshuffle - Laughing Skull"] = {
 },
 },
 }

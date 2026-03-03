@@ -1,17 +1,212 @@
+VER 3 000000000000011F "AFyrakk" "134400"
+/run NSAPI:PrivateAura();
+END
+VER 3 0000000000000120 "APR_MACRO" "134400"
+/script print('no button yet')
+END
+VER 3 0000000000000121 "ASmolderon" "134400"
+/run WeakAuras.ScanEvents("NS_PA_MACRO", true)
+END
+VER 3 0000000000000122 "aWM" "236188"
+/wm [@cursor] 2
+END
 VER 3 00000000000000ED "Belt" "INV_MISC_QUESTIONMARK"
 #showtooltip 6
 /use 6
+END
+VER 3 0000000000000123 "bigdogstrike" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [talent:4/3] Summon Vilefiend; [talent:4/2] Soul Strike
+END
+VER 3 0000000000000124 "BoKnochan" "INV_Misc_QuestionMark"
+#showtooltip Blackout Kick
+/cast [nochanneling]Blackout Kick
 END
 VER 3 00000000000000D7 "bracers" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /use 9
 END
+VER 3 0000000000000125 "buyvendorslot1" "134400"
+/run BuyMerchantItem(1,200)
+END
+VER 3 0000000000000126 "cancelAlter" "INV_Misc_QuestionMark"
+#showtooltip
+/cancelaura Alter Time
+END
+VER 3 0000000000000127 "canceleverything" "134400"
+/cancelaura Glimmer of Light
+/cancelaura Essence Font
+/cancelaura Lifebloom
+/cancelaura Regrowth
+/cancelaura Rejuvenation
+/cancelaura Wild Growth
+/cancelaura Autumn Leaves
+/cancelaura Renewing Mist
+/cancelaura Power Word: Shield
+END
+VER 3 0000000000000128 "cancellust" "134400"
+/cancelaura Heroism
+/cancelaura Time Warp
+/cancelaura Bloodlust
+/cancelaura Drums of the Maelstrom
+/cancelaura Drums of Fury
+/cancelaura Ancient Hysteria
+/cancelaura Primal Rage
+END
+VER 3 0000000000000129 "car" "INV_Misc_QuestionMark"
+#showtooltip
+/cast G-99 Breakneck
+END
+VER 3 000000000000012A "catbear" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [stance:1] Cat Form(Shapeshift); [stance:2] Bear Form(Shapeshift); Cat Form(Shapeshift)
+END
+VER 3 000000000000012B "catboomkin" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [talent:3/1]Moonkin Form; [talent:3/3][talent:3/2] Cat Form
+END
+VER 3 000000000000012C "celestialblast" "INV_Misc_QuestionMark"
+#showtooltip
+/cast Ravenous Frenzy
+/cast [@cursor] Celestial Alignment
+/cast Berserking
+END
+VER 3 000000000000012D "Channelingcamera" "134400"
+/console cameraSmoothTrackingStyle 0
+END
+VER 3 000000000000012E "CircleofMouse" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [target=mouseover,help,exists]Circle of Healing; Circle of Healing
+END
 VER 3 000000000000002A "Cloak" "INV_MISC_QUESTIONMARK"
 #showtooltip 15
 /use 15
 END
+VER 3 000000000000012F "combatstm" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [combat] Surrender to Madness
+END
+VER 3 0000000000000130 "ConfirmationYes" "134400"
+/click StaticPopup1Button1
+END
+VER 3 0000000000000131 "craftbelttinker" "5648236"
+/script TradeSkillFrame.DetailsFrame:Create();
+/use 6
+/click StaticPopup1Button1
+END
+VER 3 0000000000000133 "cursorbombers" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [@cursor] Guillotine
+END
+VER 3 0000000000000132 "cursorbombers" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [talent:1/3,@cursor] Bilescourge Bombers; [talent:1/2] Demonic Strength
+END
+VER 3 0000000000000134 "cursorcrash" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [@cursor] Shadow Crash
+END
+VER 3 0000000000000135 "cursorforce" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [@mouseover,help,exists,nodead][] Shining Force
+END
+VER 3 0000000000000136 "cursorlink" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [@cursor] Spirit Link Totem
+END
+VER 3 0000000000000137 "cursorsanc" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [@cursor] Holy Word: Sanctify
+END
+VER 3 0000000000000138 "cursorvortex" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [@cursor] Ursol's Vortex
+END
+VER 3 0000000000000139 "CW" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [target=mouseover,exists,help,nodead][] Cenarion Ward
+END
+VER 3 000000000000013A "darkglareberserk" "INV_Misc_QuestionMark"
+#showtooltip Summon Darkglare
+/cast Berserking
+/cast Summon Darkglare
+END
+VER 3 000000000000013B "demonicbombers" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [talent:1/2,@cursor] Bilescourge Bombers; [talent:1/3] Demonic Strength
+END
+VER 3 000000000000013C "Detox" "INV_Misc_QuestionMark"
+#showtooltip Detox
+/cast [target=mouseover,help,nodead]Detox; Detox
+END
+VER 3 000000000000013D "devoplag" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [target=mouseover,exists,harm,nodead]Devouring Plague; Devouring Plague
+END
+VER 3 000000000000013E "dialog1" "132184"
+/script SelectGossipOption(1)
+END
+VER 3 000000000000013F "dogstrike" "INV_Misc_QuestionMark"
+#showtooltip
+/cast Soul Strike
+/cast Summon Vilefiend
+END
+VER 3 0000000000000140 "dominatecontrol" "INV_Misc_QuestionMark"
+#showtooltip
+/cast Mind Control
+/cast Dominate Mind
+END
+VER 3 0000000000000141 "Dream Chaser" "134400"
+/cleartarget
+/target Dream Pineshrew
+/target Dream Mallard
+/target Vision of Innocence
+/cleartarget [dead]
+/stopmacro [dead][noexists]
+/run if not GetRaidTargetIndex("target")then SetRaidTarget("target",8)end
+END
+VER 3 0000000000000142 "earthenmouse" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [@mouseover,help,nodead,exists][] Earth Shield
+END
+VER 3 0000000000000143 "eleimmolate" "INV_Misc_QuestionMark"
+#showtooltip
+/cast Fire Elemental
+/cast Immolate
+/cast Call Lightning
+END
+VER 3 0000000000000144 "Enveloping Mist" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [@mouseover,exists,help,nodead] []Enveloping Mist
+END
+VER 3 0000000000000145 "ferocioussun" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [stance:2] Ferocious Bite; [stance:4] Moonfire
+END
+VER 3 0000000000000146 "flashmouse" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [target=mouseover,help,exists]Flash Heal; Flash Heal
+END
+VER 3 0000000000000147 "focusbeam" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [@focus] Solar Beam
+END
 VER 3 00000000000000DD "focusmouse" "134331"
 /focus [@mouseover]
+END
+VER 3 0000000000000148 "focussear" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [@focus,exists][] Mind Sear
+END
+VER 3 0000000000000149 "focuswindshear" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [@focus,exists] Wind Shear
+END
+VER 3 000000000000014A "followerXP" "INV_Misc_QuestionMark"
+#showtooltip
+/click StaticPopup1Button1
+/use Crystalline Memory Repository
+/use Fractal Thoughtbinder
 END
 VER 3 00000000000000EC "followint" "413588"
 /tar Intshuffle
@@ -23,9 +218,34 @@ VER 3 00000000000000EC "followint" "413588"
 /tar Aliceshuffle
 /follow
 END
+VER 3 000000000000014B "followsoul" "413588"
+/tar Soulshuffle
+/tar Monkashuffle
+/tar Voidshuffle
+/tar Soapshuffle
+/tar Yumpshuffle
+/tar Feintshuffle
+/tar Bobshuffle
+/follow
+END
+VER 3 000000000000014C "fotwtnochan" "INV_Misc_QuestionMark"
+#showtooltip Fist of the White Tiger
+/cast [nochanneling] Fist of the White Tiger
+END
+VER 3 000000000000014D "frswipe" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [stance:1]Frenzied Regeneration; [stance:2]Swipe
+END
 VER 3 0000000000000035 "Gloves" "INV_MISC_QUESTIONMARK"
 #showtooltip 10
 /use 10
+END
+VER 3 000000000000014E "GO HOME" "134400"
+/run HousingDashboardFrame.HouseInfoContent.ContentFrame.HouseUpgradeFrame.TeleportToHouseButton:Click()
+END
+VER 3 000000000000014F "halostar" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [talent:6/3] Halo; [talent:6/2] Divine Star
 END
 VER 3 00000000000000A5 "HealthPot" "134829"
 #showtooltip
@@ -39,9 +259,134 @@ VER 3 00000000000000A5 "HealthPot" "134829"
 /use item:212942
 /use item:211878
 END
+VER 3 0000000000000150 "Holy Word Mouse" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [target=mouseover,help,exists] Holy Word: Serenity; Holy Word: Serenity
+END
+VER 3 0000000000000151 "instancereset" "134400"
+/script ResetInstances();
+END
+VER 3 0000000000000152 "Life Cocoon" "INV_Misc_QuestionMark"
+#showtooltip Life Cocoon
+/cast [target=mouseover,exists,help] Life Cocoon; Life Cocoon
+END
 VER 3 0000000000000119 "mainhand" "134400"
 #showtooltip
 /use 16
+END
+VER 3 0000000000000153 "MindBlast" "INV_Misc_QuestionMark"
+#showtooltip Mind Blast
+/stopmacro [channeling:Void Torrent]
+/cast Mind Blast
+END
+VER 3 0000000000000154 "MindFlay" "INV_Misc_QuestionMark"
+#showtooltip Mind Flay
+/stopmacro [channeling:Void Torrent]
+/cast Mind Flay
+END
+VER 3 0000000000000155 "MonkT6" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [talent:5/1] Healing Elixir; [talent:5/2] Diffuse Magic; [talent:5/3] Dampen Harm
+END
+VER 3 0000000000000156 "mountform" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [flyable] Travel Form; Mount Form
+END
+VER 3 0000000000000157 "MountRocket" "INV_Misc_QuestionMark"
+#showtooltip X-53 Touring Rocket
+/run local ZoneName = GetRealZoneText(); if ZoneName == "The Maw"then C_MountJournal.SummonByID(1442) else C_MountJournal.SummonByID(382) end
+END
+VER 3 0000000000000158 "MountYak" "INV_Misc_QuestionMark"
+#showtooltip Grand Expedition Yak
+/run local ZoneName = GetRealZoneText(); if ZoneName == "The Maw"then C_MountJournal.SummonByID(1442) else C_MountJournal.SummonByID(460) end
+END
+VER 3 0000000000000159 "mousedispel" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [@mouseover,help,exists,nodead] []Singe Magic(Command Demon Ability)
+END
+VER 3 000000000000015A "mousefall" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [@cursor] Starfall
+END
+VER 3 000000000000015B "mousefire" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [@mouseover,harm,exists,nodead][] Moonfire
+END
+VER 3 000000000000015C "mouseflo" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [@cursor] Efflorescence
+END
+VER 3 000000000000015D "mousegrab" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [@cursor] Earthgrab Totem
+END
+VER 3 000000000000015E "mousegrowth" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [@mouseover,help,exists,nodead][] Regrowth
+END
+VER 3 000000000000015F "mouseheal" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [target=mouseover,help,exists]Heal; Heal
+END
+VER 3 0000000000000160 "mouselight" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [@mouseover,help,exists,nodead][] Light of T'uure
+END
+VER 3 0000000000000161 "mouseMend" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [@mouseover,help,exists,nodead][] Swiftmend
+END
+VER 3 0000000000000162 "Mousenew" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [target=mouseover,help,exists]Renew; Renew
+END
+VER 3 0000000000000163 "mouseofhealing" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [target=mouseover,help,exists]Prayer of Healing; Prayer of Healing
+END
+VER 3 0000000000000164 "mouseofmending" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [target=mouseover,help,exists]Prayer of Mending; Prayer of Mending
+END
+VER 3 0000000000000165 "mousepurify" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [@mouseover,help,exists,nodead][] Purify Disease
+END
+VER 3 0000000000000166 "mousesear" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [@mouseover,help,exists][] Mind Sear
+END
+VER 3 0000000000000167 "mouseWG" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [@mouseover,help,exists,nodead][]Wild Growth
+END
+VER 3 0000000000000168 "nearrejuv" "INV_Misc_QuestionMark"
+#showtooltip
+/targetfriendplayer
+/cast Rejuvenation
+END
+VER 3 0000000000000169 "notartrinket1" "INV_Misc_QuestionMark"
+#showtooltip
+/cleartarget
+/use 13
+/targetlasttarget
+END
+VER 3 000000000000016A "notartrinket2" "INV_Misc_QuestionMark"
+#showtooltip
+/cleartarget
+/use 14
+/targetlasttarget
+END
+VER 3 000000000000016B "NS Ext Macro" "135966"
+/run NSAPI:ExternalRequest();
+END
+VER 3 000000000000016C "NS Innervate" "136048"
+/run NSAPI:InnervateRequest();
+END
+VER 3 000000000000016D "oldguild" "134331"
+/guildroster
+/run if CloseFrame == false then CloseFrame = true else CloseFrame = false end
+/run if GuildFrame:IsVisible() and CloseFrame then HideUIPanel(GuildFrame) end
 END
 VER 3 0000000000000109 "Potion" "134400"
 #showtooltip
@@ -52,22 +397,134 @@ VER 3 0000000000000109 "Potion" "134400"
 /use item:212969
 /use item:212263
 END
+VER 3 000000000000016E "Rake" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [stance:2,target=mouseover,harm,exists,nodead][stance:2]Rake; [stance:4] Starsurge
+END
+VER 3 000000000000016F "rakethrash" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [stance:1]Thrash; [stance:2]Rake
+END
+VER 3 0000000000000170 "Rebirth" "INV_Misc_QuestionMark"
+#showtooltip Rebirth
+/cast [target=mouseover,exists,help] Rebirth; Rebirth
+END
+VER 3 0000000000000171 "remove corruptio" "INV_Misc_QuestionMark"
+#showtooltip 
+/cast [@mouseover,help] Remove Corruption; Remove Corruption
+END
+VER 3 0000000000000172 "Renewing Mist" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [@mouseover,exists,help,nodead] [] Renewing Mist
+END
+VER 3 0000000000000173 "Rip" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [target=mouseover,harm,exists,nodead][]Rip
+END
+VER 3 0000000000000174 "ripmaul" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [stance:1]Maul; [stance:2,@mouseover,harm,nodead,exists]Rip; [stance:4] Sunfire; Rip
+END
+VER 3 0000000000000175 "RSKnochan" "INV_Misc_QuestionMark"
+#showtooltip Rising Sun Kick
+/cast [nochanneling]Rising Sun Kick
+END
+VER 3 0000000000000176 "Run!" "INV_Misc_QuestionMark"
+#showtooltip Healthstone
+/use Healthstone
+END
+VER 3 0000000000000177 "RXPTargeting" "132150"
+/targetexact Zur'ashar Kassameh
+/targetlasttarget [dead]
+END
 VER 3 000000000000011A "Self PWS" "INV_Misc_QuestionMark"
 #showtooltip
 /cast [@player] Power Word: Shield
+END
+VER 3 0000000000000178 "shadowmouse" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [target=help,exists,nodead][]Shadow Mend
+END
+VER 3 0000000000000179 "shamanracial" "INV_Misc_QuestionMark"
+#showtooltip
+/cast Ancestral Call(Racial)
+/cast Fireblood
+END
+VER 3 0000000000000189 "SolaTP" "134400"
+/cast View Next Adventure
+/run C_PlayerChoice.SendPlayerChoiceResponse(C_PlayerChoice.GetCurrentPlayerChoiceInfo().options[2].buttons[1].id)
+END
+VER 3 000000000000017A "SooMouse" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [@mouseover,exists,help][]Soothing Mist
+END
+VER 3 000000000000017B "SpiritofMouse" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [target=mouseover,help,exists] Guardian Spirit; Guardian Spirit
+END
+VER 3 000000000000017C "Surging Mist" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [@mouseover,exists,help][] Effuse
 END
 VER 3 000000000000011B "SWD" "INV_Misc_QuestionMark"
 #showtooltip
 /cast [@mouseover,harm,nodead,exists][] Shadow Word: Death
 END
+VER 3 000000000000017D "swiftyconvoke" "INV_Misc_QuestionMark"
+#showtooltip Convoke the Spirits
+/use Ravenous Frenzy
+/use {@cursor] Celestial Alignment
+/use Convoke the Spirits
+END
+VER 3 000000000000017E "swipebite" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [stance:1]Swipe; [stance:2]Ferocious Bite
+END
 VER 3 000000000000011C "SWP" "INV_Misc_QuestionMark"
 #showtooltip
 /cast [@mouseover,harm,nodead,exists][] Shadow Word: Pain
+END
+VER 3 000000000000017F "tigerfocus" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [target=focus,exists]Tiger's Lust; Tiger's Lust
 END
 VER 3 000000000000011D "Torrent/Halo" "INV_Misc_QuestionMark"
 #showtooltip
 /cast [nochanneling:Void Torrent] Void Torrent
 /cast Halo
+END
+VER 3 0000000000000180 "Touch" "INV_Misc_QuestionMark"
+#showtooltip 
+/cast [@mouseover,exists,nodead,help,][exists,nodead,help][@player] Healing Touch
+END
+VER 3 0000000000000181 "TPnochan" "INV_Misc_QuestionMark"
+#showtooltip Tiger Palm
+/cast [nochanneling]Tiger Palm
+END
+VER 3 0000000000000182 "trinket1" "INV_Misc_QuestionMark"
+#showtooltip
+/use 13
+END
+VER 3 0000000000000183 "trinket1cursor" "INV_Misc_QuestionMark"
+#showtooltip
+/use [@cursor] 13
+END
+VER 3 0000000000000184 "trinket1mouse" "INV_Misc_QuestionMark"
+#showtooltip
+/use [@mouseover,exists][] 13
+END
+VER 3 0000000000000185 "trinket2" "INV_Misc_QuestionMark"
+#showtooltip
+/use 14
+END
+VER 3 0000000000000186 "unleashmouse" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [@mouseover,help,exists,nodead][] Unleash Life
+END
+VER 3 0000000000000188 "voidbolt" "INV_Misc_QuestionMark"
+#showtooltip Void Eruption
+/stopmacro [channeling:Void Torrent]
+/cast [target=mouseover,exists,harm,nodead] Void Eruption; Void Eruption
 END
 VER 3 000000000000011E "VT" "INV_Misc_QuestionMark"
 #showtooltip

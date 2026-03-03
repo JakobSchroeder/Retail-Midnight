@@ -1,6 +1,7 @@
 
 TwitchEmotes_Solaris_Settings = {
 ["profileKeys"] = {
+["Avoidshuffle - Laughing Skull"] = "Default",
 ["Necroshuffle - Kazzak"] = "Default",
 ["Soulshuffle - Laughing Skull"] = "Default",
 ["Smashuffle - Laughing Skull"] = "Default",
@@ -24,6 +25,7 @@ TwitchEmotes_Solaris_Settings = {
 ["Yumpshuffle - Kazzak"] = "Default",
 ["Bankshuffle - Draenor"] = "Default",
 ["Faceshuffle - Draenor"] = "Default",
+["Reapshuffle - Laughing Skull"] = "Default",
 ["Cloakshuffle - Draenor"] = "Default",
 ["Quakeshuffle - Draenor"] = "Default",
 ["Soapshuffle - Kazzak"] = "Default",

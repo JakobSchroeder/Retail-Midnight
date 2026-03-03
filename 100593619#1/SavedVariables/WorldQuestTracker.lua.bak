@@ -9,31 +9,31 @@ WQTrackerDB = {
 ["Banishuffle - Stormrage"] = "Default",
 ["Cosmoshuffle - Stormrage"] = "Default",
 ["Fogshuffle - Stormrage"] = "Default",
-["Grapeshuffle - Stormrage"] = "Default",
+["Blastshuffle - Stormrage"] = "Default",
 ["Aurashuffle - Stormrage"] = "Default",
 ["Madneshuffle - Stormrage"] = "Default",
 ["Readyshuffle - Stormrage"] = "Default",
-["Blastshuffle - Stormrage"] = "Default",
+["Grapeshuffle - Stormrage"] = "Default",
 },
 ["profiles"] = {
 ["Default"] = {
 ["world_map_hubscale"] = {
 [875] = 0.9,
 [947] = 1,
-[619] = 0.3,
+[2274] = 0.95,
 [1550] = 1,
 [876] = 0.9,
+[619] = 0.3,
 [1978] = 0.85,
-[2274] = 0.95,
 },
 ["world_map_hubenabled"] = {
 [875] = true,
 [947] = true,
-[619] = true,
+[2274] = true,
 [1550] = true,
 [876] = true,
+[619] = true,
 [1978] = true,
-[2274] = true,
 },
 ["player_names"] = {
 ["Player-60-0FDB2890"] = {
@@ -76,9 +76,9 @@ WQTrackerDB = {
 ["name"] = "Banishuffle",
 ["realm"] = "Stormrage",
 },
-["Player-60-0FDB0CA3"] = {
-["class"] = "SHAMAN",
-["name"] = "Osirishuffle",
+["Player-60-0FDB54EF"] = {
+["class"] = "PALADIN",
+["name"] = "Aurashuffle",
 ["realm"] = "Stormrage",
 },
 ["Player-60-0FDB4DEE"] = {
@@ -91,9 +91,9 @@ WQTrackerDB = {
 ["name"] = "Plantshuffle",
 ["realm"] = "Stormrage",
 },
-["Player-60-0FDB54EF"] = {
-["class"] = "PALADIN",
-["name"] = "Aurashuffle",
+["Player-60-0FDB0CA3"] = {
+["class"] = "SHAMAN",
+["name"] = "Osirishuffle",
 ["realm"] = "Stormrage",
 },
 ["Player-60-0FC0CF56"] = {
@@ -106,6 +106,7 @@ WQTrackerDB = {
 ["groupfinder"] = {
 ["enabled"] = false,
 },
+["is_BFA_version"] = true,
 ["quests_tracked"] = {
 ["Player-60-0FDB2890"] = {
 },
@@ -123,83 +124,111 @@ WQTrackerDB = {
 },
 ["Player-60-0FD8F6CD"] = {
 },
-["Player-60-0FDB0CA3"] = {
+["Player-60-0FDB54EF"] = {
 },
 ["Player-60-0FDB4DEE"] = {
 },
 ["Player-60-0FDC19E9"] = {
 },
-["Player-60-0FDB54EF"] = {
+["Player-60-0FDB0CA3"] = {
 },
 ["Player-60-0FC0CF56"] = {
+},
+},
+["talking_heads_heard"] = {
+[305193] = true,
+},
+["quests_all_characters"] = {
+["Player-60-0FD64078"] = {
 },
 },
 ["rarescan"] = {
 ["search_group"] = false,
 },
 ["history"] = {
+["period"] = {
+["global"] = {
+["260220"] = {
+["quest"] = 4,
+["resource"] = 128,
+},
+["260225"] = {
+["quest"] = 1,
+["resource"] = 32,
+},
+["260213"] = {
+["quest"] = 4,
+["resource"] = 128,
+},
+},
+["character"] = {
+["Player-60-0FD64078"] = {
+["260220"] = {
+["quest"] = 4,
+["resource"] = 128,
+},
+["260225"] = {
+["quest"] = 1,
+["resource"] = 32,
+},
+["260213"] = {
+["quest"] = 4,
+["resource"] = 128,
+},
+},
+},
+},
 ["quest"] = {
 ["global"] = {
 [86938] = 1,
 [86941] = 1,
 [86959] = 1,
-[86945] = 1,
+[86945] = 2,
 [91778] = 1,
 [91779] = 1,
-[86948] = 1,
+["total"] = 9,
 [86951] = 1,
-["total"] = 8,
+[86948] = 1,
 },
 ["character"] = {
 ["Player-60-0FD64078"] = {
 [86938] = 1,
 [86941] = 1,
 [86959] = 1,
-[86945] = 1,
+[86945] = 2,
 [91778] = 1,
 [91779] = 1,
-[86948] = 1,
+["total"] = 9,
 [86951] = 1,
-["total"] = 8,
-},
-},
-},
-["period"] = {
-["global"] = {
-["260213"] = {
-["quest"] = 4,
-["resource"] = 128,
-},
-["260220"] = {
-["quest"] = 4,
-["resource"] = 128,
-},
-},
-["character"] = {
-["Player-60-0FD64078"] = {
-["260213"] = {
-["quest"] = 4,
-["resource"] = 128,
-},
-["260220"] = {
-["quest"] = 4,
-["resource"] = 128,
-},
+[86948] = 1,
 },
 },
 },
 ["reward"] = {
 ["global"] = {
-["resource"] = 256,
+["resource"] = 288,
 },
 ["character"] = {
 ["Player-60-0FD64078"] = {
-["resource"] = 256,
+["resource"] = 288,
 },
 },
 },
 },
-["is_BFA_version"] = true,
+["pins_discovered"] = {
+["worldquest-Capstone-questmarker-epic-Locked"] = {
+[8328] = {
+["poiID"] = 8328,
+["mapID"] = 2371,
+["tooltipSetId"] = 1670,
+["worldY"] = 0,
+["zoneX"] = 0.77094966173172,
+["continentID"] = 2274,
+["worldX"] = 0,
+["zoneY"] = 0.4840457439422607,
+},
+},
+},
 },
 },
 }

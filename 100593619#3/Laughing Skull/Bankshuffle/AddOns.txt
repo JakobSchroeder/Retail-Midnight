@@ -112,3 +112,4 @@ ElvUI_SecondsToBuff: disabled
 ElvUI_BuffHighlight: disabled
 ElvUI_RatioMinimapAuras: disabled
 kExtraBossFrames: disabled
+LittleWigs_TheWarWithin: enabled

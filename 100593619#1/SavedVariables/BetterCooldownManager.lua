@@ -2,11 +2,10 @@
 BCDMDB = {
 ["namespaces"] = {
 },
-["global"] = {
-["UseGlobalProfile"] = true,
-["GlobalProfile"] = "Default",
-},
 ["profileKeys"] = {
+["Plantshuffle - Stormrage"] = "Default",
+["Shivshuffle - Stormrage"] = "Default",
+["Petshuffle - Stormrage"] = "Default",
 ["Necroshuffle - Kazzak"] = "Default",
 ["Soulshuffle - Laughing Skull"] = "Default",
 ["Feintshuffle - Kazzak"] = "Default",
@@ -22,33 +21,42 @@ BCDMDB = {
 ["Ghostshuffle - Laughing Skull"] = "Default",
 ["Bankrshuffle - Laughing Skull"] = "Default",
 ["Angelshuffle - Kazzak"] = "Default",
+["Gripshuffle - Stormrage"] = "Default",
+["Grapeshuffle - Stormrage"] = "Default",
 ["Cloakshuffle - Draenor"] = "Default",
 ["Wingshuffle - Kazzak"] = "Default",
+["Osirishuffle - Stormrage"] = "Default",
 ["Tectoshuffle - Kazzak"] = "Default",
 ["Stalkshuffle - Laughing Skull"] = "Default",
 ["Cosmoshuffle - Stormrage"] = "Default",
+["Monkashuffle - Kazzak"] = "Default",
+["Ratshuffle - Kazzak"] = "Default",
 ["Chaosshuffle - Draenor"] = "Default",
 ["Yumpshuffle - Kazzak"] = "Default",
 ["Bankshuffle - Draenor"] = "Default",
-["Grapeshuffle - Stormrage"] = "Default",
+["Madneshuffle - Stormrage"] = "Default",
 ["Faceshuffle - Draenor"] = "Default",
 ["Smashuffle - Laughing Skull"] = "Default",
+["Fogshuffle - Stormrage"] = "Default",
 ["Subshuffle - Ravencrest"] = "Default",
 ["Roboshuffle - Ravencrest"] = "Default",
-["Kickshuffle - Kazzak"] = "Default",
 ["Soapshuffle - Kazzak"] = "Default",
-["Bankpshuffle - Laughing Skull"] = "Default",
+["Blastshuffle - Stormrage"] = "Default",
 ["Preshuffle - Kazzak"] = "Default",
 ["Moonshuffle - Draenor"] = "Default",
 ["Pairshuffle - Kazzak"] = "Default",
 ["Bobshuffle - Laughing Skull"] = "Default",
 ["Forceshuffle - Draenor"] = "Default",
-["Fogshuffle - Stormrage"] = "Default",
+["Bankpshuffle - Laughing Skull"] = "Default",
 ["Gunshuffle - Kazzak"] = "Default",
-["Ratshuffle - Kazzak"] = "Default",
-["Monkashuffle - Kazzak"] = "Default",
+["Aurashuffle - Stormrage"] = "Default",
+["Kickshuffle - Kazzak"] = "Default",
 ["Floorshuffle - Ravencrest"] = "Default",
-["Gripshuffle - Stormrage"] = "Default",
+["Banishuffle - Stormrage"] = "Default",
+},
+["global"] = {
+["UseGlobalProfile"] = true,
+["GlobalProfile"] = "Default",
 },
 ["profiles"] = {
 ["Default"] = {
@@ -56,24 +64,16 @@ BCDMDB = {
 ["Enabled"] = false,
 },
 ["General"] = {
-["Fonts"] = {
-["Font"] = "Expressway",
-},
 ["Textures"] = {
 ["Foreground"] = "Minimalist",
 ["Background"] = "Minimalist",
 },
+["Fonts"] = {
+["Font"] = "Expressway",
+},
 },
 ["CooldownManager"] = {
 ["AdditionalCustom"] = {
-["Layout"] = {
-nil,
-nil,
-nil,
--251,
--108,
-},
-["IconSize"] = 36,
 ["Spells"] = {
 ["PRIEST"] = {
 ["SHADOW"] = {
@@ -84,25 +84,25 @@ nil,
 },
 },
 },
-},
-["General"] = {
-["Glow"] = {
-["Pixel"] = {
-["Thickness"] = 5,
-["Lines"] = 30,
-["Color"] = {
+["IconSize"] = 36,
+["Layout"] = {
 nil,
-0.007843137718737125,
-0,
-},
-["XOffset"] = 1,
-["Length"] = 5,
-["YOffset"] = 1,
+nil,
+nil,
+-251,
+-108,
 },
 },
-["CooldownText"] = {
-["FontSize"] = 20,
-["ScaleByIconSize"] = true,
+["Essential"] = {
+["IconSize"] = 50,
+["Layout"] = {
+nil,
+nil,
+nil,
+-275,
+},
+["Text"] = {
+["FontSize"] = 24,
 },
 },
 ["Trinket"] = {
@@ -150,25 +150,33 @@ nil,
 ["Buffs"] = {
 ["CenterBuffs"] = true,
 ["IconSize"] = 50,
-["Text"] = {
-["FontSize"] = 24,
-},
 ["Layout"] = {
 nil,
 "NONE",
 [5] = -880,
 },
-},
-["Essential"] = {
-["IconSize"] = 50,
 ["Text"] = {
 ["FontSize"] = 24,
 },
-["Layout"] = {
+},
+["General"] = {
+["CooldownText"] = {
+["FontSize"] = 20,
+["ScaleByIconSize"] = true,
+},
+["Glow"] = {
+["Pixel"] = {
+["Thickness"] = 5,
+["Lines"] = 30,
+["XOffset"] = 1,
+["Color"] = {
 nil,
-nil,
-nil,
--275,
+0.007843137718737125,
+0,
+},
+["Length"] = 5,
+["YOffset"] = 1,
+},
 },
 },
 ["Utility"] = {
@@ -179,16 +187,6 @@ nil,
 [5] = 0,
 },
 },
-},
-["global"] = {
-["UseGlobalProfile"] = false,
-["GlobalProfileName"] = "Default",
-},
-["CastBar"] = {
-["Enabled"] = false,
-},
-["PowerBar"] = {
-["Enabled"] = false,
 },
 ["profile"] = {
 ["SecondaryPowerBar"] = {
@@ -220,15 +218,15 @@ nil,
 ["Width"] = 200,
 ["ColourByClass"] = false,
 ["HideTicks"] = false,
+["MatchWidthOfAnchor"] = true,
+["ColourBySpec"] = false,
+["Height"] = 13,
 ["ForegroundColour"] = {
 0.1333333333333333,
 0.1333333333333333,
 0.1333333333333333,
 1,
 },
-["ColourBySpec"] = false,
-["Height"] = 13,
-["MatchWidthOfAnchor"] = true,
 ["ColourByType"] = true,
 ["Layout"] = {
 "BOTTOM",
@@ -241,6 +239,7 @@ nil,
 ["General"] = {
 ["Fonts"] = {
 ["Font"] = "Friz Quadrata TT",
+["FontFlag"] = "OUTLINE",
 ["Shadow"] = {
 ["Enabled"] = false,
 ["OffsetY"] = -1,
@@ -252,7 +251,10 @@ nil,
 1,
 },
 },
-["FontFlag"] = "OUTLINE",
+},
+["Textures"] = {
+["Foreground"] = "Better Blizzard",
+["Background"] = "Better Blizzard",
 },
 ["Colours"] = {
 ["SecondaryPower"] = {
@@ -286,16 +288,16 @@ nil,
 0.41,
 1,
 },
-["CHARGED_COMBO_POINTS"] = {
-0.25,
-0.5,
-1,
-1,
-},
 [16] = {
 0.1,
 0.1,
 0.98,
+1,
+},
+["CHARGED_COMBO_POINTS"] = {
+0.25,
+0.5,
+1,
 1,
 },
 [9] = {
@@ -411,150 +413,39 @@ nil,
 0.61,
 0,
 },
-[17] = {
-0.79,
-0.26,
-0.99,
+[11] = {
+0,
+0.5,
+1,
 },
 [6] = {
 0,
 0.82,
 1,
 },
-[11] = {
-0,
-0.5,
-1,
+[17] = {
+0.79,
+0.26,
+0.99,
 },
 },
-},
-["Textures"] = {
-["Foreground"] = "Better Blizzard",
-["Background"] = "Better Blizzard",
 },
 },
 ["EditModeManager"] = {
 ["SwapOnSpecializationChange"] = false,
-["RaidLayouts"] = {
-["Normal"] = "",
-["Heroic"] = "",
-["Mythic"] = "",
-["LFR"] = "",
-},
+["SwapOnInstanceDifficulty"] = false,
 ["SpecializationLayouts"] = {
 "",
 "",
 "",
 "",
 },
-["SwapOnInstanceDifficulty"] = false,
+["RaidLayouts"] = {
+["Normal"] = "",
+["Heroic"] = "",
+["Mythic"] = "",
+["LFR"] = "",
 },
-["CastBar"] = {
-["Enabled"] = true,
-["BackgroundColour"] = {
-0.1333333333333333,
-0.1333333333333333,
-0.1333333333333333,
-1,
-},
-["ForegroundColour"] = {
-0.1333333333333333,
-0.1333333333333333,
-0.1333333333333333,
-1,
-},
-["FrameStrata"] = "LOW",
-["Width"] = 200,
-["ColourByClass"] = true,
-["Layout"] = {
-"TOP",
-"UtilityCooldownViewer",
-"BOTTOM",
-0,
--1,
-},
-["Height"] = 24,
-["Text"] = {
-["CastTime"] = {
-["FontSize"] = 12,
-["Layout"] = {
-"RIGHT",
-"RIGHT",
--3,
-0,
-},
-["Colour"] = {
-1,
-1,
-1,
-},
-},
-["SpellName"] = {
-["Layout"] = {
-"LEFT",
-"LEFT",
-3,
-0,
-},
-["FontSize"] = 12,
-["MaxCharacters"] = 12,
-["Colour"] = {
-1,
-1,
-1,
-},
-},
-},
-["Icon"] = {
-["Enabled"] = true,
-["Layout"] = "LEFT",
-},
-["MatchWidthOfAnchor"] = true,
-},
-["PowerBar"] = {
-["Enabled"] = true,
-["FrequentUpdates"] = true,
-["BackgroundColour"] = {
-0.1333333333333333,
-0.1333333333333333,
-0.1333333333333333,
-1,
-},
-["ForegroundColour"] = {
-0.1333333333333333,
-0.1333333333333333,
-0.1333333333333333,
-1,
-},
-["FrameStrata"] = "LOW",
-["Width"] = 200,
-["ColourByClass"] = false,
-["Text"] = {
-["Enabled"] = true,
-["FontSize"] = 18,
-["Layout"] = {
-"BOTTOM",
-"BOTTOM",
-0,
-1,
-},
-["Colour"] = {
-1,
-1,
-1,
-},
-},
-["Layout"] = {
-"BOTTOM",
-"EssentialCooldownViewer",
-"TOP",
-0,
-1,
-},
-["Height"] = 13,
-["MatchWidthOfAnchor"] = true,
-["ColourByType"] = true,
-["HeightWithoutSecondary"] = 20,
 },
 ["CooldownManager"] = {
 ["AdditionalCustom"] = {
@@ -585,9 +476,9 @@ nil,
 ["PALADIN"] = {
 ["RETRIBUTION"] = {
 },
-["PROTECTION"] = {
-},
 ["HOLY"] = {
+},
+["PROTECTION"] = {
 },
 },
 ["MAGE"] = {
@@ -601,25 +492,25 @@ nil,
 ["PRIEST"] = {
 ["HOLY"] = {
 },
-["DISCIPLINE"] = {
-},
 ["SHADOW"] = {
 },
-},
-["ROGUE"] = {
-["OUTLAW"] = {
-},
-["SUBTLETY"] = {
-},
-["ASSASSINATION"] = {
+["DISCIPLINE"] = {
 },
 },
-["EVOKER"] = {
-["DEVASTATION"] = {
+["SHAMAN"] = {
+["RESTORATION"] = {
 },
-["PRESERVATION"] = {
+["ELEMENTAL"] = {
 },
-["AUGMENTATION"] = {
+["ENHANCEMENT"] = {
+},
+},
+["MONK"] = {
+["MISTWEAVER"] = {
+},
+["BREWMASTER"] = {
+},
+["WINDWALKER"] = {
 },
 },
 ["WARLOCK"] = {
@@ -656,20 +547,20 @@ nil,
 ["GUARDIAN"] = {
 },
 },
-["MONK"] = {
-["MISTWEAVER"] = {
+["EVOKER"] = {
+["DEVASTATION"] = {
 },
-["BREWMASTER"] = {
+["PRESERVATION"] = {
 },
-["WINDWALKER"] = {
+["AUGMENTATION"] = {
 },
 },
-["SHAMAN"] = {
-["RESTORATION"] = {
+["ROGUE"] = {
+["OUTLAW"] = {
 },
-["ELEMENTAL"] = {
+["ASSASSINATION"] = {
 },
-["ENHANCEMENT"] = {
+["SUBTLETY"] = {
 },
 },
 },
@@ -701,19 +592,23 @@ nil,
 ["Scale"] = 1,
 ["YOffset"] = -1,
 ["Thickness"] = 1,
-["Frequency"] = 0.25,
-["XOffset"] = -1,
-["Particles"] = 10,
 ["Colour"] = {
 1,
 1,
 1,
 1,
 },
+["XOffset"] = -1,
+["Particles"] = 10,
+["Frequency"] = 0.25,
 },
 ["IconZoom"] = 0.1,
 ["CooldownText"] = {
-["ScaleByIconSize"] = false,
+["Colour"] = {
+1,
+1,
+1,
+},
 ["FontSize"] = 15,
 ["Layout"] = {
 "CENTER",
@@ -721,11 +616,7 @@ nil,
 0,
 0,
 },
-["Colour"] = {
-1,
-1,
-1,
-},
+["ScaleByIconSize"] = false,
 },
 },
 ["Enable"] = true,
@@ -744,22 +635,22 @@ nil,
 },
 ["Width"] = 300,
 ["ColourByClass"] = true,
-["Text"] = {
-["Duration"] = {
-["Enabled"] = true,
-["FontSize"] = 12,
+["GrowthDirection"] = "UP",
+["Height"] = 24,
+["Spacing"] = 1,
+["MatchWidthOfAnchor"] = true,
 ["Layout"] = {
-"RIGHT",
-"RIGHT",
--3,
+"BOTTOM",
+"NONE",
+"TOP",
 0,
+1.1,
 },
-["Colour"] = {
-1,
-1,
-1,
+["Icon"] = {
+["Enabled"] = true,
+["Layout"] = "LEFT",
 },
-},
+["Text"] = {
 ["SpellName"] = {
 ["Enabled"] = true,
 ["FontSize"] = 12,
@@ -775,26 +666,36 @@ nil,
 1,
 },
 },
-},
-["MatchWidthOfAnchor"] = true,
-["Spacing"] = 1,
-["Height"] = 24,
-["Layout"] = {
-"BOTTOM",
-"NONE",
-"TOP",
-0,
-1.1,
-},
-["Icon"] = {
+["Duration"] = {
 ["Enabled"] = true,
-["Layout"] = "LEFT",
+["FontSize"] = 12,
+["Layout"] = {
+"RIGHT",
+"RIGHT",
+-3,
+0,
 },
-["GrowthDirection"] = "UP",
+["Colour"] = {
+1,
+1,
+1,
+},
+},
+},
 },
 ["ItemSpell"] = {
 ["ItemsSpells"] = {
 },
+["Layout"] = {
+"CENTER",
+"NONE",
+"CENTER",
+0,
+0,
+},
+["OffsetByParentHeight"] = true,
+["Spacing"] = 1,
+["IconSize"] = 38,
 ["Text"] = {
 ["FontSize"] = 12,
 ["Layout"] = {
@@ -808,16 +709,6 @@ nil,
 1,
 1,
 },
-},
-["OffsetByParentHeight"] = true,
-["Spacing"] = 1,
-["IconSize"] = 38,
-["Layout"] = {
-"CENTER",
-"NONE",
-"CENTER",
-0,
-0,
 },
 ["FrameStrata"] = "LOW",
 ["GrowthDirection"] = "LEFT",
@@ -850,9 +741,9 @@ nil,
 ["PALADIN"] = {
 ["RETRIBUTION"] = {
 },
-["PROTECTION"] = {
-},
 ["HOLY"] = {
+},
+["PROTECTION"] = {
 },
 },
 ["MAGE"] = {
@@ -866,25 +757,25 @@ nil,
 ["PRIEST"] = {
 ["HOLY"] = {
 },
-["DISCIPLINE"] = {
-},
 ["SHADOW"] = {
 },
-},
-["ROGUE"] = {
-["OUTLAW"] = {
-},
-["SUBTLETY"] = {
-},
-["ASSASSINATION"] = {
+["DISCIPLINE"] = {
 },
 },
-["EVOKER"] = {
-["DEVASTATION"] = {
+["SHAMAN"] = {
+["RESTORATION"] = {
 },
-["PRESERVATION"] = {
+["ELEMENTAL"] = {
 },
-["AUGMENTATION"] = {
+["ENHANCEMENT"] = {
+},
+},
+["MONK"] = {
+["MISTWEAVER"] = {
+},
+["BREWMASTER"] = {
+},
+["WINDWALKER"] = {
 },
 },
 ["WARLOCK"] = {
@@ -921,20 +812,20 @@ nil,
 ["GUARDIAN"] = {
 },
 },
-["MONK"] = {
-["MISTWEAVER"] = {
+["EVOKER"] = {
+["DEVASTATION"] = {
 },
-["BREWMASTER"] = {
+["PRESERVATION"] = {
 },
-["WINDWALKER"] = {
+["AUGMENTATION"] = {
 },
 },
-["SHAMAN"] = {
-["RESTORATION"] = {
+["ROGUE"] = {
+["OUTLAW"] = {
 },
-["ELEMENTAL"] = {
+["ASSASSINATION"] = {
 },
-["ENHANCEMENT"] = {
+["SUBTLETY"] = {
 },
 },
 },
@@ -988,16 +879,21 @@ nil,
 },
 },
 },
-["Item"] = {
-["Items"] = {
+["Essential"] = {
+["IconSize"] = 42,
+["Layout"] = {
+"CENTER",
+"CENTER",
+0,
+-275.1,
 },
 ["Text"] = {
-["FontSize"] = 12,
+["FontSize"] = 15,
 ["Layout"] = {
 "BOTTOMRIGHT",
 "BOTTOMRIGHT",
 0,
-2,
+3,
 },
 ["Colour"] = {
 1,
@@ -1005,18 +901,6 @@ nil,
 1,
 },
 },
-["OffsetByParentHeight"] = true,
-["Spacing"] = 1,
-["IconSize"] = 38,
-["Layout"] = {
-"CENTER",
-"NONE",
-"CENTER",
-0,
-0,
-},
-["FrameStrata"] = "LOW",
-["GrowthDirection"] = "LEFT",
 },
 ["Buffs"] = {
 ["IconSize"] = 32,
@@ -1043,21 +927,26 @@ nil,
 },
 },
 },
-["Essential"] = {
-["IconSize"] = 42,
-["Layout"] = {
-"CENTER",
-"CENTER",
-0,
--275.1,
+["Item"] = {
+["Items"] = {
 },
+["Layout"] = {
+"CENTER",
+"NONE",
+"CENTER",
+0,
+0,
+},
+["OffsetByParentHeight"] = true,
+["Spacing"] = 1,
+["IconSize"] = 38,
 ["Text"] = {
-["FontSize"] = 15,
+["FontSize"] = 12,
 ["Layout"] = {
 "BOTTOMRIGHT",
 "BOTTOMRIGHT",
 0,
-3,
+2,
 },
 ["Colour"] = {
 1,
@@ -1065,6 +954,8 @@ nil,
 1,
 },
 },
+["FrameStrata"] = "LOW",
+["GrowthDirection"] = "LEFT",
 },
 ["Utility"] = {
 ["IconSize"] = 36,
@@ -1091,6 +982,123 @@ nil,
 },
 },
 },
+["PowerBar"] = {
+["Enabled"] = true,
+["FrequentUpdates"] = true,
+["BackgroundColour"] = {
+0.1333333333333333,
+0.1333333333333333,
+0.1333333333333333,
+1,
+},
+["ForegroundColour"] = {
+0.1333333333333333,
+0.1333333333333333,
+0.1333333333333333,
+1,
+},
+["FrameStrata"] = "LOW",
+["Width"] = 200,
+["ColourByClass"] = false,
+["HeightWithoutSecondary"] = 20,
+["Layout"] = {
+"BOTTOM",
+"EssentialCooldownViewer",
+"TOP",
+0,
+1,
+},
+["Height"] = 13,
+["MatchWidthOfAnchor"] = true,
+["ColourByType"] = true,
+["Text"] = {
+["Enabled"] = true,
+["FontSize"] = 18,
+["Layout"] = {
+"BOTTOM",
+"BOTTOM",
+0,
+1,
+},
+["Colour"] = {
+1,
+1,
+1,
+},
+},
+},
+["CastBar"] = {
+["Enabled"] = true,
+["BackgroundColour"] = {
+0.1333333333333333,
+0.1333333333333333,
+0.1333333333333333,
+1,
+},
+["ForegroundColour"] = {
+0.1333333333333333,
+0.1333333333333333,
+0.1333333333333333,
+1,
+},
+["FrameStrata"] = "LOW",
+["Width"] = 200,
+["ColourByClass"] = true,
+["MatchWidthOfAnchor"] = true,
+["Height"] = 24,
+["Text"] = {
+["CastTime"] = {
+["FontSize"] = 12,
+["Layout"] = {
+"RIGHT",
+"RIGHT",
+-3,
+0,
+},
+["Colour"] = {
+1,
+1,
+1,
+},
+},
+["SpellName"] = {
+["FontSize"] = 12,
+["Layout"] = {
+"LEFT",
+"LEFT",
+3,
+0,
+},
+["MaxCharacters"] = 12,
+["Colour"] = {
+1,
+1,
+1,
+},
+},
+},
+["Icon"] = {
+["Enabled"] = true,
+["Layout"] = "LEFT",
+},
+["Layout"] = {
+"TOP",
+"UtilityCooldownViewer",
+"BOTTOM",
+0,
+-1,
+},
+},
+},
+["CastBar"] = {
+["Enabled"] = false,
+},
+["PowerBar"] = {
+["Enabled"] = false,
+},
+["global"] = {
+["UseGlobalProfile"] = false,
+["GlobalProfileName"] = "Default",
 },
 },
 },

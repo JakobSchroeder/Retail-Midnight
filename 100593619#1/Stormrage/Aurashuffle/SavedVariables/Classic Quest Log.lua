@@ -4,5 +4,6 @@ ClassicQuestLogPerSettings = {
 },
 ["QuestHistory"] = {
 90759,
+91281,
 },
 }

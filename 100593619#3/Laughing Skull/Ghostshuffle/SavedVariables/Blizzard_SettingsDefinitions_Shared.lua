@@ -4,6 +4,6 @@ NewSettingsSeen = {
 ["raidFramesDispelIndicatorOverlay"] = true,
 ["raidFramesDisplayClassColor"] = true,
 ["raidFramesCenterBigDefensive"] = true,
-["raidFramesDisplayLargerRoleSpecificDebuffs"] = true,
 ["raidFramesDispelIndicatorType"] = true,
+["raidFramesDisplayLargerRoleSpecificDebuffs"] = true,
 }

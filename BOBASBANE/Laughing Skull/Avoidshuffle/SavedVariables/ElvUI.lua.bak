@@ -2,11 +2,11 @@
 ElvCharacterDB = {
 ["ConvertKeybindings"] = true,
 ["ChatEditHistory"] = {
-"/g It is I",
 "/g The other account",
 "/cw Lucky inv",
 "/tt",
 "/cw Zzamke-Kazzak np, I inhaled a full myth tier set on one priest already, not gonna yoink more if others actually need xd",
+"/simc",
 },
 ["ChatHistoryLog"] = {
 {

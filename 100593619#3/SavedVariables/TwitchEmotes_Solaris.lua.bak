@@ -1,6 +1,7 @@
 
 TwitchEmotes_Solaris_Settings = {
 ["profileKeys"] = {
+["Avoidshuffle - Laughing Skull"] = "Default",
 ["Necroshuffle - Kazzak"] = "Default",
 ["Soulshuffle - Laughing Skull"] = "Default",
 ["Smashuffle - Laughing Skull"] = "Default",
@@ -25,20 +26,21 @@ TwitchEmotes_Solaris_Settings = {
 ["Bankshuffle - Draenor"] = "Default",
 ["Faceshuffle - Draenor"] = "Default",
 ["Subshuffle - Ravencrest"] = "Default",
-["Quakeshuffle - Draenor"] = "Default",
-["Soapshuffle - Kazzak"] = "Default",
+["Cloakshuffle - Draenor"] = "Default",
 ["Kafirshuffle - Draenor"] = "Default",
+["Soapshuffle - Kazzak"] = "Default",
 ["Monkashuffle - Kazzak"] = "Default",
+["Feintshuffle - Kazzak"] = "Default",
 ["Moonshuffle - Draenor"] = "Default",
 ["Pairshuffle - Kazzak"] = "Default",
 ["Bobshuffle - Laughing Skull"] = "Default",
 ["Forceshuffle - Draenor"] = "Default",
 ["Bankpshuffle - Laughing Skull"] = "Default",
 ["Gunshuffle - Kazzak"] = "Default",
-["Feintshuffle - Kazzak"] = "Default",
 ["Chaosshuffle - Draenor"] = "Default",
+["Quakeshuffle - Draenor"] = "Default",
 ["Floorshuffle - Ravencrest"] = "Default",
-["Cloakshuffle - Draenor"] = "Default",
+["Reapshuffle - Laughing Skull"] = "Default",
 },
 ["profiles"] = {
 ["Default"] = {

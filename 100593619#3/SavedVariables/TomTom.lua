@@ -1,6 +1,7 @@
 
 TomTomDB = {
 ["profileKeys"] = {
+["Avoidshuffle - Laughing Skull"] = "Default",
 ["Necroshuffle - Kazzak"] = "Default",
 ["Soulshuffle - Laughing Skull"] = "Default",
 ["Smashuffle - Laughing Skull"] = "Default",
@@ -24,6 +25,7 @@ TomTomDB = {
 ["Yumpshuffle - Kazzak"] = "Default",
 ["Bankshuffle - Draenor"] = "Default",
 ["Faceshuffle - Draenor"] = "Default",
+["Reapshuffle - Laughing Skull"] = "Default",
 ["Cloakshuffle - Draenor"] = "Default",
 ["Quakeshuffle - Draenor"] = "Default",
 ["Soapshuffle - Kazzak"] = "Default",
@@ -72,6 +74,7 @@ nil,
 TomTomWaypoints = nil
 TomTomWaypointsM = {
 ["profileKeys"] = {
+["Avoidshuffle - Laughing Skull"] = "Avoidshuffle - Laughing Skull",
 ["Necroshuffle - Kazzak"] = "Necroshuffle - Kazzak",
 ["Soulshuffle - Laughing Skull"] = "Soulshuffle - Laughing Skull",
 ["Smashuffle - Laughing Skull"] = "Smashuffle - Laughing Skull",
@@ -95,6 +98,7 @@ TomTomWaypointsM = {
 ["Yumpshuffle - Kazzak"] = "Yumpshuffle - Kazzak",
 ["Bankshuffle - Draenor"] = "Bankshuffle - Draenor",
 ["Faceshuffle - Draenor"] = "Faceshuffle - Draenor",
+["Reapshuffle - Laughing Skull"] = "Reapshuffle - Laughing Skull",
 ["Cloakshuffle - Draenor"] = "Cloakshuffle - Draenor",
 ["Quakeshuffle - Draenor"] = "Quakeshuffle - Draenor",
 ["Soapshuffle - Kazzak"] = "Soapshuffle - Kazzak",
@@ -112,6 +116,8 @@ TomTomWaypointsM = {
 ["Subshuffle - Ravencrest"] = "Subshuffle - Ravencrest",
 },
 ["profiles"] = {
+["Avoidshuffle - Laughing Skull"] = {
+},
 ["Necroshuffle - Kazzak"] = {
 },
 ["Soulshuffle - Laughing Skull"] = {
@@ -157,6 +163,8 @@ TomTomWaypointsM = {
 ["Bankshuffle - Draenor"] = {
 },
 ["Faceshuffle - Draenor"] = {
+},
+["Reapshuffle - Laughing Skull"] = {
 },
 ["Cloakshuffle - Draenor"] = {
 },

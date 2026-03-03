@@ -9,13 +9,13 @@ RaiderIO_Config = {
 ["minimapIcon"] = {
 ["minimapPos"] = 180,
 ["showInCompartment"] = true,
-["lock"] = false,
 ["hide"] = false,
+["lock"] = false,
 },
 }
-RaiderIO_LastCharacter = "eu-Tradushuffle-laughing-skull"
+RaiderIO_LastCharacter = "eu-Rageshuffle-kazzak"
 RaiderIO_MissingCharacters = {
-["eu-Tradushuffle-laughing-skull"] = true,
+["eu-Rageshuffle-kazzak"] = true,
 }
 RaiderIO_MissingServers = {
 }

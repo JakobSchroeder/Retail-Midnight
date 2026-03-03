@@ -1,16 +1,18 @@
 
 MapzerothDB = {
 ["hearthstone"] = {
-["y"] = 0.4656848311424255,
-["mapID"] = 2339,
-["setAt"] = 1769885145,
-["locationName"] = "Dornogal",
-["x"] = 0.4481925368309021,
+["y"] = 0.5561416149139404,
+["mapID"] = 2413,
+["setAt"] = 1772527861,
+["locationName"] = "The Den",
+["x"] = 0.5087646245956421,
 },
 ["settings"] = {
 ["maxCooldownValue"] = 8,
-["loadingScreenTax"] = 15,
 ["windowScale"] = 1,
+["mapClickModifier"] = "ALT",
+["mapClickMouseButton"] = "LeftButton",
+["loadingScreenTax"] = 15,
 },
 ["minimap"] = {
 ["minimapPos"] = 194.8264451210506,

@@ -434,10 +434,7 @@ VER 3 0000000000000176 "Run!" "INV_Misc_QuestionMark"
 /use Healthstone
 END
 VER 3 0000000000000177 "RXPTargeting" "132150"
-/targetexact Subjugated Murloc
-/targetexact Hatecoil Fathom-Stalker
-/targetexact Hatecoil Spitespeaker
-/targetexact Hatecoil Skrog
+/targetexact Rowdy Elementals
 /targetlasttarget [dead]
 END
 VER 3 000000000000011A "Self PWS" "INV_Misc_QuestionMark"
@@ -452,6 +449,10 @@ VER 3 0000000000000179 "shamanracial" "INV_Misc_QuestionMark"
 #showtooltip
 /cast Ancestral Call(Racial)
 /cast Fireblood
+END
+VER 3 0000000000000189 "SolaTP" "134400"
+/cast View Next Adventure
+/run C_PlayerChoice.SendPlayerChoiceResponse(C_PlayerChoice.GetCurrentPlayerChoiceInfo().options[2].buttons[1].id)
 END
 VER 3 000000000000017A "SooMouse" "INV_Misc_QuestionMark"
 #showtooltip
@@ -519,10 +520,6 @@ END
 VER 3 0000000000000186 "unleashmouse" "INV_Misc_QuestionMark"
 #showtooltip
 /cast [@mouseover,help,exists,nodead][] Unleash Life
-END
-VER 3 0000000000000187 "Vivifymouse" "INV_Misc_QuestionMark"
-#showtooltip
-/cast [@mouseover,exists,help][]Vivify
 END
 VER 3 0000000000000188 "voidbolt" "INV_Misc_QuestionMark"
 #showtooltip Void Eruption

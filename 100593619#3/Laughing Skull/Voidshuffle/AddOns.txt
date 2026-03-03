@@ -112,3 +112,4 @@ TwitchEmotes_Solaris: enabled
 WarbandMiser: enabled
 OPie_Classic: disabled
 Blizzard_CombatText: enabled
+LittleWigs_TheWarWithin: enabled

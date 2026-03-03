@@ -115,3 +115,5 @@ Blizzard_CombatText: enabled
 Blizzard_ObjectiveTracker: enabled
 Blizzard_CompactRaidFrames: enabled
 OPie_Classic: disabled
+BetterBags_WarbankUnified: enabled
+LittleWigs_TheWarWithin: enabled

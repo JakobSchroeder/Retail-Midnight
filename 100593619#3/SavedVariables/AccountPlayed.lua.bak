@@ -109,8 +109,12 @@ AccountPlayedDB = {
 ["class"] = "ROGUE",
 },
 ["LaughingSkull-Avoidshuffle"] = {
-["time"] = 52529,
+["time"] = 131206,
 ["class"] = "PRIEST",
+},
+["Ravencrest-Blindshuffle"] = {
+["time"] = 46394,
+["class"] = "DEMONHUNTER",
 },
 ["Draenor-Kafirshuffle"] = {
 ["time"] = 61601,
@@ -120,10 +124,6 @@ AccountPlayedDB = {
 ["time"] = 2347509,
 ["class"] = "PRIEST",
 },
-["Ravencrest-Blindshuffle"] = {
-["time"] = 46394,
-["class"] = "DEMONHUNTER",
-},
 ["Stormrage-Gripshuffle"] = {
 ["time"] = 13799,
 ["class"] = "DEATHKNIGHT",
@@ -131,6 +131,10 @@ AccountPlayedDB = {
 ["Stormrage-Fogshuffle"] = {
 ["time"] = 845203,
 ["class"] = "MONK",
+},
+["Stormrage-Banishuffle"] = {
+["time"] = 18332,
+["class"] = "WARLOCK",
 },
 ["Draenor-Cloakshuffle"] = {
 ["time"] = 43990,
@@ -148,10 +152,6 @@ AccountPlayedDB = {
 ["time"] = 1240419,
 ["class"] = "HUNTER",
 },
-["Stormrage-Banishuffle"] = {
-["time"] = 18332,
-["class"] = "WARLOCK",
-},
 ["Stormrage-Madneshuffle"] = {
 ["time"] = 19402,
 ["class"] = "PRIEST",
@@ -160,37 +160,41 @@ AccountPlayedDB = {
 ["time"] = 31976,
 ["class"] = "ROGUE",
 },
+["Stormrage-Plantshuffle"] = {
+["time"] = 7308,
+["class"] = "DRUID",
+},
 ["TwistingNether-Kafirshuffle"] = {
 ["time"] = 99648,
 ["class"] = "PRIEST",
 },
 ["LaughingSkull-Smashuffle"] = {
-["time"] = 21107,
+["time"] = 21152,
 ["class"] = "WARRIOR",
 },
 ["Auchindoun-Fokshuffle"] = {
 ["time"] = 505152,
 ["class"] = "ROGUE",
 },
-["Stormrage-Plantshuffle"] = {
-["time"] = 7308,
-["class"] = "DRUID",
+["Kazzak-Spearshuffle"] = {
+["time"] = 1694689,
+["class"] = "HUNTER",
 },
 ["TwistingNether-Shóckadin"] = {
 ["time"] = 705576,
 ["class"] = "SHAMAN",
 },
-["Kazzak-Spearshuffle"] = {
-["time"] = 1694689,
-["class"] = "HUNTER",
-},
 ["Kazzak-Monkashuffle"] = {
-["time"] = 7932243,
+["time"] = 7966681,
 ["class"] = "SHAMAN",
 },
 ["Kazzak-Hourshuffle"] = {
 ["time"] = 31910,
 ["class"] = "DEMONHUNTER",
+},
+["Stormrage-Osirishuffle"] = {
+["time"] = 8340,
+["class"] = "SHAMAN",
 },
 ["TwistingNether-Respeccable"] = {
 ["time"] = 1091906,
@@ -208,25 +212,25 @@ AccountPlayedDB = {
 ["time"] = 10509,
 ["class"] = "HUNTER",
 },
-["Stormrage-Osirishuffle"] = {
-["time"] = 8340,
-["class"] = "SHAMAN",
+["LaughingSkull-Reapshuffle"] = {
+["time"] = 1229,
+["class"] = "DEATHKNIGHT",
 },
 ["TwistingNether-Punctuation"] = {
 ["time"] = 745994,
 ["class"] = "PRIEST",
 },
-["LaughingSkull-Bobshuffle"] = {
-["time"] = 135705,
-["class"] = "EVOKER",
+["TwistingNether-Mórtarion"] = {
+["time"] = 6555320,
+["class"] = "DEATHKNIGHT",
 },
 ["LaughingSkull-Soulshuffle"] = {
-["time"] = 3624099,
+["time"] = 3624386,
 ["class"] = "WARLOCK",
 },
-["Kazzak-Preshuffle"] = {
-["time"] = 17497,
-["class"] = "MAGE",
+["Kazzak-Jumpshuffle"] = {
+["time"] = 66130,
+["class"] = "DEMONHUNTER",
 },
 ["Stormrage-Grapeshuffle"] = {
 ["time"] = 271232,
@@ -236,9 +240,9 @@ AccountPlayedDB = {
 ["time"] = 12793,
 ["class"] = "MAGE",
 },
-["Kazzak-Jumpshuffle"] = {
-["time"] = 66130,
-["class"] = "DEMONHUNTER",
+["Kazzak-Preshuffle"] = {
+["time"] = 17497,
+["class"] = "MAGE",
 },
 ["Ravencrest-Mightshuffle"] = {
 ["time"] = 243177,
@@ -272,9 +276,9 @@ AccountPlayedDB = {
 ["time"] = 110161,
 ["class"] = "DEATHKNIGHT",
 },
-["Draenor-Forceshuffle"] = {
-["time"] = 27312,
-["class"] = "MAGE",
+["Kazzak-Tectoshuffle"] = {
+["time"] = 117229,
+["class"] = "SHAMAN",
 },
 ["TwistingNether-Vroomshuffle"] = {
 ["time"] = 382819,
@@ -284,13 +288,13 @@ AccountPlayedDB = {
 ["time"] = 7365,
 ["class"] = "ROGUE",
 },
-["Kazzak-Tectoshuffle"] = {
-["time"] = 117229,
-["class"] = "SHAMAN",
-},
 ["Kazzak-Rageshuffle"] = {
 ["time"] = 8689115,
 ["class"] = "WARRIOR",
+},
+["Kazzak-Moleshuffle"] = {
+["time"] = 19427,
+["class"] = "PRIEST",
 },
 ["Ravencrest-Unshuffle"] = {
 ["time"] = 1816014,
@@ -308,45 +312,45 @@ AccountPlayedDB = {
 ["time"] = 22305,
 ["class"] = "DEMONHUNTER",
 },
-["TwistingNether-Spamtothetop"] = {
-["time"] = 2293450,
-["class"] = "MAGE",
+["LaughingSkull-Aliceshuffle"] = {
+["time"] = 10084,
+["class"] = "EVOKER",
 },
 ["Auchindoun-Bankshuffle"] = {
 ["time"] = 175048,
 ["class"] = "PALADIN",
 },
-["LaughingSkull-Aliceshuffle"] = {
-["time"] = 10084,
-["class"] = "EVOKER",
+["Draenor-Lavashuffle"] = {
+["time"] = 770296,
+["class"] = "SHAMAN",
 },
 ["Kazzak-Gunshuffle"] = {
 ["time"] = 133048,
 ["class"] = "HUNTER",
 },
-["Draenor-Lavashuffle"] = {
-["time"] = 770296,
-["class"] = "SHAMAN",
-},
 ["Ravencrest-Justshuffle"] = {
 ["time"] = 3920894,
 ["class"] = "PALADIN",
 },
+["TwistingNether-Spamtothetop"] = {
+["time"] = 2293450,
+["class"] = "MAGE",
+},
 ["Kazzak-Feintshuffle"] = {
-["time"] = 2205439,
+["time"] = 2205516,
 ["class"] = "ROGUE",
 },
 ["Draenor-Hornyshuffle"] = {
 ["time"] = 1879853,
 ["class"] = "DEMONHUNTER",
 },
-["Kazzak-Moleshuffle"] = {
-["time"] = 19427,
-["class"] = "PRIEST",
-},
 ["TwistingNether-Apollumi"] = {
 ["time"] = 1175832,
 ["class"] = "WARLOCK",
+},
+["Draenor-Forceshuffle"] = {
+["time"] = 27312,
+["class"] = "MAGE",
 },
 ["Kazzak-Kickshuffle"] = {
 ["time"] = 197275,
@@ -357,19 +361,19 @@ AccountPlayedDB = {
 ["class"] = "DRUID",
 },
 ["LaughingSkull-Ghostshuffle"] = {
-["time"] = 132631,
+["time"] = 141998,
 ["class"] = "PRIEST",
 },
-["TwistingNether-Mórtarion"] = {
-["time"] = 6555320,
-["class"] = "DEATHKNIGHT",
+["LaughingSkull-Bobshuffle"] = {
+["time"] = 135805,
+["class"] = "EVOKER",
 },
 ["Draenor-Spaceshuffle"] = {
 ["time"] = 603144,
 ["class"] = "WARLOCK",
 },
 ["Kazzak-Soapshuffle"] = {
-["time"] = 1892356,
+["time"] = 1892553,
 ["class"] = "PALADIN",
 },
 ["Draenor-Faithshuffle"] = {
@@ -377,7 +381,7 @@ AccountPlayedDB = {
 ["class"] = "PRIEST",
 },
 ["LaughingSkull-Postshuffle"] = {
-["time"] = 12877,
+["time"] = 12923,
 ["class"] = "MAGE",
 },
 ["Kazzak-Hemoshuffle"] = {
@@ -401,11 +405,11 @@ AccountPlayedDB = {
 ["class"] = "WARRIOR",
 },
 ["LaughingSkull-Voidshuffle"] = {
-["time"] = 20168839,
+["time"] = 20236614,
 ["class"] = "PRIEST",
 },
 ["LaughingSkull-Stalkshuffle"] = {
-["time"] = 15984,
+["time"] = 16022,
 ["class"] = "ROGUE",
 },
 }

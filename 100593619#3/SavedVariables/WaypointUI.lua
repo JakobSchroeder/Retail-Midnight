@@ -1,6 +1,6 @@
 
 WaypointDB_Global = {
-["lastLoadedVersion"] = 10306,
+["lastLoadedVersion"] = 10308,
 }
 WaypointDB_Global_Persistent = {
 }

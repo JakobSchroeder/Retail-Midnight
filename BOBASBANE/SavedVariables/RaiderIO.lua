@@ -9,17 +9,14 @@ RaiderIO_Config = {
 ["minimapIcon"] = {
 ["minimapPos"] = 180,
 ["showInCompartment"] = true,
-["hide"] = false,
 ["lock"] = false,
+["hide"] = false,
 },
 }
-RaiderIO_LastCharacter = "eu-Tradushuffle-laughing-skull"
+RaiderIO_LastCharacter = "eu-Teashuffle-kazzak"
 RaiderIO_MissingCharacters = {
-["eu-Gothe-shattered-halls"] = true,
-["eu-Victrina-chromaggus"] = true,
-["eu-Gímley-outland"] = true,
-["eu-Blekspel-outland"] = true,
-["eu-Tradushuffle-laughing-skull"] = true,
+["eu-Lavendór-kazzak"] = true,
+["eu-Teashuffle-kazzak"] = true,
 }
 RaiderIO_MissingServers = {
 }

@@ -13,10 +13,11 @@ RaiderIO_Config = {
 ["hide"] = false,
 },
 }
-RaiderIO_LastCharacter = "eu-Teashuffle-kazzak"
+RaiderIO_LastCharacter = "eu-Spearshuffle-kazzak"
 RaiderIO_MissingCharacters = {
-["eu-Lavendór-kazzak"] = true,
-["eu-Teashuffle-kazzak"] = true,
+["eu-Darlethtwo-kazzak"] = true,
+["eu-Spearshuffle-kazzak"] = true,
+["eu-Formrunner-silvermoon"] = true,
 }
 RaiderIO_MissingServers = {
 }

@@ -200,13 +200,13 @@ NSRT = {
 ["TTSVoice"] = 1,
 ["NickNamesSyncAccept"] = 2,
 ["ShareNickNames"] = 4,
+["Cell"] = false,
 ["UnreadyOnCooldown"] = true,
-["AcceptNickNames"] = 4,
 ["MyNickName"] = "Tradu",
 ["GlobalFont"] = "Expressway",
 ["TTS"] = false,
 ["Translit"] = false,
-["Unhalted"] = false,
+["Debug"] = false,
 ["TTSVolume"] = 50,
 ["VersionCheckRemoveResponse"] = false,
 ["GenericDisplay"] = {
@@ -222,10 +222,10 @@ NSRT = {
 ["NickNamesSyncSend"] = 3,
 ["VersionCheckPresets"] = {
 },
-["Debug"] = false,
 ["DebugLogs"] = false,
+["Unhalted"] = false,
 ["CheckCooldowns"] = true,
-["Cell"] = false,
+["AcceptNickNames"] = 4,
 },
 ["PATextSettings"] = {
 ["enabled"] = false,
@@ -425,5 +425,9 @@ NSRT = {
 ["yOffset"] = -199,
 },
 ["EncounterAlerts"] = {
+[3179] = {
+["enabled"] = false,
+["CCAddsDisplay"] = false,
+},
 },
 }

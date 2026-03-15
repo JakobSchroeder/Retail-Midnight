@@ -207,6 +207,7 @@ nil,
 0.1333333333333333,
 1,
 },
+["ColourByState"] = true,
 ["Text"] = {
 ["Enabled"] = false,
 ["FontSize"] = 12,
@@ -223,13 +224,6 @@ nil,
 1,
 },
 },
-["Layout"] = {
-"BOTTOM",
-"BCDM_PowerBar",
-"TOP",
-0,
-1,
-},
 ["FrameStrata"] = "LOW",
 ["Width"] = 200,
 ["ColourByClass"] = false,
@@ -244,7 +238,13 @@ nil,
 ["Height"] = 13,
 ["MatchWidthOfAnchor"] = true,
 ["ColourByType"] = true,
-["ColourByState"] = true,
+["Layout"] = {
+"BOTTOM",
+"BCDM_PowerBar",
+"TOP",
+0,
+1,
+},
 },
 ["General"] = {
 ["Fonts"] = {
@@ -566,20 +566,6 @@ nil,
 },
 ["CooldownManager"] = {
 ["AdditionalCustom"] = {
-["Text"] = {
-["FontSize"] = 12,
-["Layout"] = {
-"BOTTOMRIGHT",
-"BOTTOMRIGHT",
-0,
-2,
-},
-["Colour"] = {
-1,
-1,
-1,
-},
-},
 ["Layout"] = {
 "CENTER",
 "NONE",
@@ -587,8 +573,6 @@ nil,
 0,
 0,
 },
-["Spacing"] = 1,
-["IconSize"] = 38,
 ["Spells"] = {
 ["DEATHKNIGHT"] = {
 ["BLOOD"] = {
@@ -697,10 +681,27 @@ nil,
 },
 },
 },
+["Spacing"] = 1,
+["IconSize"] = 38,
+["Text"] = {
+["FontSize"] = 12,
+["Layout"] = {
+"BOTTOMRIGHT",
+"BOTTOMRIGHT",
+0,
+2,
+},
+["Colour"] = {
+1,
+1,
+1,
+},
+},
 ["FrameStrata"] = "LOW",
 ["GrowthDirection"] = "RIGHT",
 },
 ["General"] = {
+["BorderSize"] = 1,
 ["Glow"] = {
 ["Enabled"] = true,
 ["Lines"] = 5,
@@ -718,6 +719,7 @@ nil,
 1,
 },
 },
+["IconZoom"] = 0.1,
 ["CooldownText"] = {
 ["ScaleByIconSize"] = false,
 ["FontSize"] = 15,
@@ -733,8 +735,6 @@ nil,
 1,
 },
 },
-["IconZoom"] = 0.1,
-["BorderSize"] = 1,
 },
 ["Enable"] = true,
 ["BuffBar"] = {
@@ -831,20 +831,6 @@ nil,
 ["GrowthDirection"] = "LEFT",
 },
 ["Custom"] = {
-["Text"] = {
-["FontSize"] = 12,
-["Layout"] = {
-"BOTTOMRIGHT",
-"BOTTOMRIGHT",
-0,
-2,
-},
-["Colour"] = {
-1,
-1,
-1,
-},
-},
 ["Layout"] = {
 "CENTER",
 "NONE",
@@ -852,8 +838,6 @@ nil,
 0,
 0,
 },
-["Spacing"] = 1,
-["IconSize"] = 38,
 ["Spells"] = {
 ["DEATHKNIGHT"] = {
 ["BLOOD"] = {
@@ -960,6 +944,22 @@ nil,
 },
 ["ENHANCEMENT"] = {
 },
+},
+},
+["Spacing"] = 1,
+["IconSize"] = 38,
+["Text"] = {
+["FontSize"] = 12,
+["Layout"] = {
+"BOTTOMRIGHT",
+"BOTTOMRIGHT",
+0,
+2,
+},
+["Colour"] = {
+1,
+1,
+1,
 },
 },
 ["FrameStrata"] = "LOW",

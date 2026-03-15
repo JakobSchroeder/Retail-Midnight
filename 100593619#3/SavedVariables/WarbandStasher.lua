@@ -6,6 +6,7 @@ WarbandStasherDB = {
 },
 ["depositElixirs"] = true,
 ["depositPotions"] = true,
+["depositMaterials"] = true,
 ["depositFlasks"] = true,
 ["keepList"] = {
 },

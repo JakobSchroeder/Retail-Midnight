@@ -362,6 +362,16 @@ true,
 ["name"] = "Inscription",
 ["dynamic"] = true,
 },
+["Weapon - Warglaives"] = {
+["enabled"] = {
+true,
+[0] = true,
+},
+["itemList"] = {
+},
+["name"] = "Weapon - Warglaives",
+["dynamic"] = true,
+},
 ["Consumable - Flasks & Phials"] = {
 ["enabled"] = {
 true,
@@ -795,7 +805,7 @@ true,
 ["Hornyshuffle-Draenor"] = 170,
 ["Blastshuffle-Stormrage"] = 102,
 ["Petshuffle-Stormrage"] = 102,
-["Cosmoshuffle-Stormrage"] = 170,
+["Cosmoshuffle-Stormrage"] = 278,
 ["Grapeshuffle-Stormrage"] = 170,
 ["Goldshuffle-Blackrock"] = 124,
 ["Banishuffle-Stormrage"] = 102,
@@ -816,14 +826,12 @@ true,
 ["EquipmentLocation"] = false,
 },
 },
-["__groupsScopedByKind"] = true,
+["upgradeIconProvider"] = "BetterBags",
 ["__bankDefaultTabsFixed"] = true,
 ["theme"] = "elvui",
 ["firstTimeMenu"] = false,
 ["__profileSystemMigrated"] = true,
-["activeGroup"] = {
-2,
-},
+["__groupsScopedByKind"] = true,
 ["categoryOptions"] = {
 ["Consumable - Other"] = {
 ["shown"] = true,
@@ -913,6 +921,9 @@ true,
 ["shown"] = false,
 },
 ["Inscription"] = {
+["shown"] = true,
+},
+["Weapon - Warglaives"] = {
 ["shown"] = true,
 },
 ["Consumable - Flasks & Phials"] = {
@@ -1054,13 +1065,12 @@ true,
 ["scale"] = 1,
 },
 [0] = {
-["y"] = 20.19981571733661,
-["x"] = -209.0001602798729,
+["y"] = -174.8006510555842,
+["x"] = -273.6003565549909,
 ["point"] = "RIGHT",
 ["scale"] = 0.800000011920929,
 },
 },
-["upgradeIconProvider"] = "BetterBags",
 ["showFullSectionNames"] = {
 true,
 [0] = true,

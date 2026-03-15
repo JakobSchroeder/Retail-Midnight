@@ -6,6 +6,13 @@ X: -436
 Y: 221
 W: 32
 H: 32
+Frame: RXPTargetFrame
+FrameLevel: 1
+Anchor: CENTER
+X: -345
+Y: 197
+W: 116
+H: 43
 Frame: ColorPickerFrame
 FrameLevel: 1
 Anchor: CENTER
@@ -41,3 +48,10 @@ X: 0
 Y: 0
 W: 675
 H: 496
+Frame: RXPItemFrame
+FrameLevel: 1
+Anchor: CENTER
+X: -351
+Y: 220
+W: 73
+H: 40

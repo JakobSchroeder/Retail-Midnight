@@ -21,7 +21,7 @@ AccountPlayedDB = {
 ["class"] = "PRIEST",
 },
 ["LaughingSkull-Tradushuffle"] = {
-["time"] = 23647960,
+["time"] = 23652627,
 ["class"] = "DRUID",
 },
 ["Draenor-Moonshuffle"] = {
@@ -105,7 +105,7 @@ AccountPlayedDB = {
 ["class"] = "PRIEST",
 },
 ["Kazzak-Teashuffle"] = {
-["time"] = 11752230,
+["time"] = 11755910,
 ["class"] = "MONK",
 },
 ["Kazzak-Vanishuffle"] = {
@@ -145,7 +145,7 @@ AccountPlayedDB = {
 ["class"] = "WARLOCK",
 },
 ["Kazzak-Intshuffle"] = {
-["time"] = 6817125,
+["time"] = 6835205,
 ["class"] = "MAGE",
 },
 ["Ravencrest-Bowshuffle"] = {
@@ -337,15 +337,15 @@ AccountPlayedDB = {
 ["class"] = "EVOKER",
 },
 ["Kazzak-Feintshuffle"] = {
-["time"] = 2204809,
+["time"] = 2210234,
 ["class"] = "ROGUE",
 },
 ["Draenor-Hornyshuffle"] = {
-["time"] = 1996964,
+["time"] = 2041074,
 ["class"] = "DEMONHUNTER",
 },
 ["Kazzak-Rageshuffle"] = {
-["time"] = 8691892,
+["time"] = 8695399,
 ["class"] = "WARRIOR",
 },
 ["Kazzak-Tectoshuffle"] = {
@@ -381,7 +381,7 @@ AccountPlayedDB = {
 ["class"] = "PRIEST",
 },
 ["Kazzak-Spearshuffle"] = {
-["time"] = 1706404,
+["time"] = 1782359,
 ["class"] = "HUNTER",
 },
 ["Stormrage-Plantshuffle"] = {

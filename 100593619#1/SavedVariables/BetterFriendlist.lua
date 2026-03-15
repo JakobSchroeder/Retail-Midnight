@@ -220,7 +220,7 @@ BetterFriendlistDB = {
 },
 ["notificationQuietManual"] = false,
 ["fontShadowFriendName"] = false,
-["version"] = "2.4.2",
+["version"] = "2.4.4",
 ["simpleMode"] = false,
 ["fontShadowFriendInfo"] = false,
 ["notificationMessageWowLogin"] = "%name% logged into World of Warcraft",

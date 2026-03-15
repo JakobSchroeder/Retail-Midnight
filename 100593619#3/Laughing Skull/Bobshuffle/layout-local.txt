@@ -29,8 +29,8 @@ W: 415
 H: 570
 Frame: ClassicQuestLog
 FrameLevel: 1
-Anchor: CENTER
+Anchor: LEFT
 X: 0
 Y: 0
-W: 695
+W: 675
 H: 496

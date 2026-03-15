@@ -61,8 +61,8 @@ LuckyoneDB = {
 },
 ["skins"] = {
 ["LFGBulletinBoard"] = true,
-["WhatsTraining"] = true,
 ["DejaClassicStats"] = true,
+["WhatsTraining"] = true,
 ["BugSack"] = true,
 ["NovaWorldBuffs"] = true,
 ["LeatrixPlus"] = true,

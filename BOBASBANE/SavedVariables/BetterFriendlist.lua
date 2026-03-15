@@ -90,43 +90,43 @@ BetterFriendlistDB = {
 ["Horde"] = {
 ["Feintshuffle-Kazzak"] = {
 ["notes"] = "",
+["lastSeen"] = 1772804891,
 ["guid"] = "Player-1305-0BC45722",
-["lastSeen"] = 1772534332,
 },
 ["Moonshuffle-Draenor"] = {
 ["notes"] = "",
 ["guid"] = "Player-1403-05DD3DAE",
-["lastSeen"] = 1772448685,
+["lastSeen"] = 1773515112,
 },
 ["Wingshuffle-Kazzak"] = {
 ["notes"] = "",
 ["guid"] = "Player-1305-0B319599",
-["lastSeen"] = 1772534332,
+["lastSeen"] = 1772827203,
 },
 ["Angelshuffle-Kazzak"] = {
 ["notes"] = "",
 ["guid"] = "Player-1305-0CF302D7",
-["lastSeen"] = 1772534332,
+["lastSeen"] = 1772827203,
 },
 ["Gunshuffle-Kazzak"] = {
 ["notes"] = "",
 ["guid"] = "Player-1305-0B11C75F",
-["lastSeen"] = 1772534332,
+["lastSeen"] = 1772827203,
 },
 ["Quakeshuffle-Draenor"] = {
 ["notes"] = "",
 ["guid"] = "Player-1403-05DD3C64",
-["lastSeen"] = 1772448685,
+["lastSeen"] = 1773515112,
 },
 ["Faceshuffle-Draenor"] = {
 ["notes"] = "",
 ["guid"] = "Player-1403-05E09FDB",
-["lastSeen"] = 1772448685,
+["lastSeen"] = 1773515112,
 },
 ["Preshuffle-Kazzak"] = {
 ["notes"] = "",
 ["guid"] = "Player-1305-0BA4B289",
-["lastSeen"] = 1772534332,
+["lastSeen"] = 1772827203,
 },
 ["Soulshuffle-LaughingSkull"] = {
 ["notes"] = "",
@@ -136,67 +136,72 @@ BetterFriendlistDB = {
 ["Kafirshuffle-Draenor"] = {
 ["notes"] = "",
 ["guid"] = "Player-1403-05DD3CEA",
-["lastSeen"] = 1772448685,
+["lastSeen"] = 1773515112,
 },
 ["Ratshuffle-Kazzak"] = {
 ["notes"] = "",
 ["guid"] = "Player-1305-0CF2D252",
-["lastSeen"] = 1772534332,
+["lastSeen"] = 1772827203,
 },
 ["Tectoshuffle-Kazzak"] = {
 ["notes"] = "",
 ["guid"] = "Player-1305-0B2E4A68",
-["lastSeen"] = 1772534332,
-},
-["Soapshuffle-Kazzak"] = {
-["notes"] = "",
-["guid"] = "Player-1305-0BC45719",
-["lastSeen"] = 1772534332,
-},
-["Kickshuffle-Kazzak"] = {
-["notes"] = "",
-["guid"] = "Player-1305-0B10854A",
-["lastSeen"] = 1772534332,
+["lastSeen"] = 1772827203,
 },
 ["Yumpshuffle-Kazzak"] = {
 ["notes"] = "",
 ["guid"] = "Player-1305-0B12EC6A",
-["lastSeen"] = 1772534332,
+["lastSeen"] = 1772827203,
 },
-["Monkashuffle-Kazzak"] = {
+["Soapshuffle-Kazzak"] = {
 ["notes"] = "",
-["guid"] = "Player-1305-0BBA7557",
-["lastSeen"] = 1772534332,
-},
-["Chaosshuffle-Draenor"] = {
-["notes"] = "",
-["guid"] = "Player-1403-05DD3C51",
-["lastSeen"] = 1772448685,
-},
-["Trickshuffle-Kazzak"] = {
-["notes"] = "",
-["guid"] = "Player-1305-0B33D242",
-["lastSeen"] = 1772534332,
-},
-["Cloakshuffle-Draenor"] = {
-["notes"] = "",
-["guid"] = "Player-1403-05DE6919",
-["lastSeen"] = 1772448685,
-},
-["Forceshuffle-Draenor"] = {
-["notes"] = "",
-["guid"] = "Player-1403-05DD3C58",
-["lastSeen"] = 1772448685,
-},
-["Necroshuffle-Kazzak"] = {
-["notes"] = "",
-["guid"] = "Player-1305-0B162365",
-["lastSeen"] = 1772534332,
+["guid"] = "Player-1305-0BC45719",
+["lastSeen"] = 1772827203,
 },
 ["Bobshuffle-LaughingSkull"] = {
 ["notes"] = "",
 ["guid"] = "Player-1598-0F478A73",
 ["lastSeen"] = 1771842731,
+},
+["Feints62620!-Kazzak"] = {
+["notes"] = "",
+["guid"] = "Player-1305-0BC45722",
+["lastSeen"] = 1772827203,
+},
+["Monkashuffle-Kazzak"] = {
+["notes"] = "",
+["guid"] = "Player-1305-0BBA7557",
+["lastSeen"] = 1772827203,
+},
+["Chaosshuffle-Draenor"] = {
+["notes"] = "",
+["guid"] = "Player-1403-05DD3C51",
+["lastSeen"] = 1773515112,
+},
+["Trickshuffle-Kazzak"] = {
+["notes"] = "",
+["guid"] = "Player-1305-0B33D242",
+["lastSeen"] = 1772827203,
+},
+["Cloakshuffle-Draenor"] = {
+["notes"] = "",
+["guid"] = "Player-1403-05DE6919",
+["lastSeen"] = 1773515112,
+},
+["Forceshuffle-Draenor"] = {
+["notes"] = "",
+["guid"] = "Player-1403-05DD3C58",
+["lastSeen"] = 1773515112,
+},
+["Necroshuffle-Kazzak"] = {
+["notes"] = "",
+["guid"] = "Player-1305-0B162365",
+["lastSeen"] = 1772827203,
+},
+["Kickshuffle-Kazzak"] = {
+["notes"] = "",
+["guid"] = "Player-1305-0B10854A",
+["lastSeen"] = 1772827203,
 },
 },
 ["Alliance"] = {
@@ -297,7 +302,7 @@ BetterFriendlistDB = {
 },
 ["whoSearchHistory"] = {
 },
-["version"] = "2.4.3",
+["version"] = "2.4.4",
 ["notificationCharSwitchEnabled"] = false,
 ["wowUIDMigrationDone_v1"] = true,
 ["useUIPanelSystem"] = false,

@@ -49,7 +49,7 @@ AccountPlayedDB = {
 ["class"] = "PRIEST",
 },
 ["Stormrage-Aurashuffle"] = {
-["time"] = 8168,
+["time"] = 8191,
 ["class"] = "PALADIN",
 },
 ["Draenor-Quakeshuffle"] = {
@@ -305,7 +305,7 @@ AccountPlayedDB = {
 ["class"] = "ROGUE",
 },
 ["Stormrage-Cosmoshuffle"] = {
-["time"] = 79128,
+["time"] = 158245,
 ["class"] = "DEMONHUNTER",
 },
 ["TwistingNether-Spamtothetop"] = {

@@ -53,6 +53,48 @@ BigWigs3DB = {
 ["Gripshuffle - Stormrage"] = "Default",
 },
 ["namespaces"] = {
+["BigWigs_Plugins_PrivateAuras"] = {
+["global"] = {
+["showHelpTip"] = false,
+},
+},
+["BigWigs_Plugins_BattleRes"] = {
+["profiles"] = {
+["Luckyone Main"] = {
+["disabled"] = false,
+["durationAlign"] = "CENTER",
+["fontName"] = "Expressway",
+["textXPositionDuration"] = 1,
+["textYPositionDuration"] = 1,
+["textXPositionCharges"] = 1,
+["lock"] = true,
+["cooldownEdge"] = false,
+["position"] = {
+"BOTTOMRIGHT",
+"BOTTOMRIGHT",
+51,
+0,
+"LeftChatPanel",
+},
+["chargesAlign"] = "CENTER",
+},
+},
+},
+["BigWigs_Plugins_Countdown"] = {
+["profiles"] = {
+["Luckyone Main"] = {
+["outline"] = "OUTLINE",
+["fontSize"] = 50,
+["fontName"] = "Expressway",
+["position"] = {
+nil,
+nil,
+nil,
+-385,
+},
+},
+},
+},
 ["BigWigs_Plugins_Colors"] = {
 ["profiles"] = {
 ["Luckyone Main"] = {
@@ -66,14 +108,6 @@ BigWigs3DB = {
 },
 },
 },
-},
-},
-},
-["BigWigs_Plugins_BossBlock"] = {
-["global"] = {
-["tableNeedsCopied"] = false,
-["watchedMovies"] = {
-[1034] = true,
 },
 },
 },
@@ -105,30 +139,11 @@ nil,
 },
 },
 },
-["BigWigs_Plugins_PrivateAuras"] = {
+["BigWigs_Plugins_BossBlock"] = {
 ["global"] = {
-["showHelpTip"] = false,
-},
-},
-["BigWigs_Plugins_BattleRes"] = {
-["profiles"] = {
-["Luckyone Main"] = {
-["disabled"] = false,
-["durationAlign"] = "CENTER",
-["fontName"] = "Expressway",
-["textXPositionDuration"] = 1,
-["textYPositionDuration"] = 1,
-["textXPositionCharges"] = 1,
-["lock"] = true,
-["cooldownEdge"] = false,
-["position"] = {
-"BOTTOMRIGHT",
-"BOTTOMRIGHT",
-51,
-0,
-"LeftChatPanel",
-},
-["chargesAlign"] = "CENTER",
+["tableNeedsCopied"] = false,
+["watchedMovies"] = {
+[1034] = true,
 },
 },
 },
@@ -171,21 +186,6 @@ nil,
 },
 },
 },
-["BigWigs_Plugins_Countdown"] = {
-["profiles"] = {
-["Luckyone Main"] = {
-["outline"] = "OUTLINE",
-["fontSize"] = 50,
-["fontName"] = "Expressway",
-["position"] = {
-nil,
-nil,
-nil,
--385,
-},
-},
-},
-},
 },
 ["myKeystones"] = {
 ["Player-60-0FD64078"] = {
@@ -197,7 +197,7 @@ nil,
 ["realm"] = "Stormrage",
 },
 },
-["prevWeeklyReset"] = 1771945200,
+["prevWeeklyReset"] = 1773154800,
 ["profiles"] = {
 ["Default"] = {
 },
@@ -258,18 +258,25 @@ BigWigsStatsDB = {
 ["fkDate"] = "2026/02/01",
 },
 },
-[2747] = {
+[2691] = {
 ["heroic"] = {
 ["kills"] = 1,
 ["fkDate"] = "2026/01/31",
 ["bestDate"] = "2026/01/31",
-["best"] = 115.0120000001043,
-["fkDuration"] = 115.0120000001043,
+["fkWipes"] = 1,
+["best"] = 328.469000000041,
+["wipes"] = 1,
+["fkDuration"] = 328.469000000041,
+},
+["story"] = {
+["wipes"] = 1,
 },
 ["mythic"] = {
 ["kills"] = 1,
-["fkDuration"] = 72.56699999980628,
-["best"] = 72.56699999980628,
+["fkDuration"] = 254.0770000000484,
+["wipes"] = 2,
+["fkWipes"] = 2,
+["best"] = 254.0770000000484,
 ["bestDate"] = "2026/02/01",
 ["fkDate"] = "2026/02/01",
 },
@@ -290,18 +297,18 @@ BigWigsStatsDB = {
 ["fkDate"] = "2026/02/01",
 },
 },
-[2684] = {
+[2747] = {
 ["heroic"] = {
 ["kills"] = 1,
 ["fkDate"] = "2026/01/31",
 ["bestDate"] = "2026/01/31",
-["best"] = 117.6650000000373,
-["fkDuration"] = 117.6650000000373,
+["best"] = 115.0120000001043,
+["fkDuration"] = 115.0120000001043,
 },
 ["mythic"] = {
 ["kills"] = 1,
-["fkDuration"] = 57.69200000027195,
-["best"] = 57.69200000027195,
+["fkDuration"] = 72.56699999980628,
+["best"] = 72.56699999980628,
 ["bestDate"] = "2026/02/01",
 ["fkDate"] = "2026/02/01",
 },
@@ -322,25 +329,18 @@ BigWigsStatsDB = {
 ["fkDate"] = "2026/02/01",
 },
 },
-[2691] = {
+[2684] = {
 ["heroic"] = {
 ["kills"] = 1,
 ["fkDate"] = "2026/01/31",
 ["bestDate"] = "2026/01/31",
-["fkWipes"] = 1,
-["best"] = 328.469000000041,
-["wipes"] = 1,
-["fkDuration"] = 328.469000000041,
-},
-["story"] = {
-["wipes"] = 1,
+["best"] = 117.6650000000373,
+["fkDuration"] = 117.6650000000373,
 },
 ["mythic"] = {
 ["kills"] = 1,
-["fkDuration"] = 254.0770000000484,
-["wipes"] = 2,
-["fkWipes"] = 2,
-["best"] = 254.0770000000484,
+["fkDuration"] = 57.69200000027195,
+["best"] = 57.69200000027195,
 ["bestDate"] = "2026/02/01",
 ["fkDate"] = "2026/02/01",
 },

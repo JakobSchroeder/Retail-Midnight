@@ -96,6 +96,10 @@ VER 3 0100000000000001 "SWP" "134400"
 #showtooltip
 /cast [@mouseover,harm,nodead,exists][] Shadow Word: Pain
 END
+VER 3 010000000000001C "Teleport Home" "236350"
+#plumber:home
+/click PLMR_HOME4
+END
 VER 3 0100000000000010 "Torrent/Halo" "134400"
 #showtooltip
 /cast [nochanneling:Void Torrent] Void Torrent

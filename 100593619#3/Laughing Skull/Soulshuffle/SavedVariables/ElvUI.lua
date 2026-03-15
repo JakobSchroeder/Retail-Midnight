@@ -2,11 +2,11 @@
 ElvCharacterDB = {
 ["ConvertKeybindings"] = true,
 ["ChatEditHistory"] = {
-"/inv Izzumi-Silvermoon",
 "/inv Markus-Thrall",
 "/inv althara-dentarg",
 "/inv Cyze-Draenor",
 "/simc",
+"/wa",
 },
 ["ChatHistoryLog"] = {
 {

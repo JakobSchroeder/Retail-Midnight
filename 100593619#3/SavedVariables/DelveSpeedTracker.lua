@@ -2,9 +2,9 @@
 DelveSpeedTrackerDB = {
 ["viewLegacy"] = false,
 ["framePosition"] = {
-"TOPLEFT",
-231.3,
--90.3,
+"TOPRIGHT",
+-1792.166748046875,
+-56.300048828125,
 },
 ["helpTipShown"] = true,
 ["windowShown"] = false,

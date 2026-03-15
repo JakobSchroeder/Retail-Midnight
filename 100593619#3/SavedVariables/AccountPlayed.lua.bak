@@ -109,7 +109,7 @@ AccountPlayedDB = {
 ["class"] = "ROGUE",
 },
 ["LaughingSkull-Avoidshuffle"] = {
-["time"] = 131206,
+["time"] = 135998,
 ["class"] = "PRIEST",
 },
 ["Ravencrest-Blindshuffle"] = {
@@ -169,7 +169,7 @@ AccountPlayedDB = {
 ["class"] = "PRIEST",
 },
 ["LaughingSkull-Smashuffle"] = {
-["time"] = 21152,
+["time"] = 21200,
 ["class"] = "WARRIOR",
 },
 ["Auchindoun-Fokshuffle"] = {
@@ -185,16 +185,16 @@ AccountPlayedDB = {
 ["class"] = "SHAMAN",
 },
 ["Kazzak-Monkashuffle"] = {
-["time"] = 7966681,
+["time"] = 7982884,
+["class"] = "SHAMAN",
+},
+["Stormrage-Osirishuffle"] = {
+["time"] = 8340,
 ["class"] = "SHAMAN",
 },
 ["Kazzak-Hourshuffle"] = {
 ["time"] = 31910,
 ["class"] = "DEMONHUNTER",
-},
-["Stormrage-Osirishuffle"] = {
-["time"] = 8340,
-["class"] = "SHAMAN",
 },
 ["TwistingNether-Respeccable"] = {
 ["time"] = 1091906,
@@ -213,7 +213,7 @@ AccountPlayedDB = {
 ["class"] = "HUNTER",
 },
 ["LaughingSkull-Reapshuffle"] = {
-["time"] = 1229,
+["time"] = 36564,
 ["class"] = "DEATHKNIGHT",
 },
 ["TwistingNether-Punctuation"] = {
@@ -225,7 +225,7 @@ AccountPlayedDB = {
 ["class"] = "DEATHKNIGHT",
 },
 ["LaughingSkull-Soulshuffle"] = {
-["time"] = 3624386,
+["time"] = 3628069,
 ["class"] = "WARLOCK",
 },
 ["Kazzak-Jumpshuffle"] = {
@@ -337,7 +337,7 @@ AccountPlayedDB = {
 ["class"] = "MAGE",
 },
 ["Kazzak-Feintshuffle"] = {
-["time"] = 2205516,
+["time"] = 2205850,
 ["class"] = "ROGUE",
 },
 ["Draenor-Hornyshuffle"] = {
@@ -361,11 +361,11 @@ AccountPlayedDB = {
 ["class"] = "DRUID",
 },
 ["LaughingSkull-Ghostshuffle"] = {
-["time"] = 141998,
+["time"] = 145259,
 ["class"] = "PRIEST",
 },
 ["LaughingSkull-Bobshuffle"] = {
-["time"] = 135805,
+["time"] = 140379,
 ["class"] = "EVOKER",
 },
 ["Draenor-Spaceshuffle"] = {
@@ -373,7 +373,7 @@ AccountPlayedDB = {
 ["class"] = "WARLOCK",
 },
 ["Kazzak-Soapshuffle"] = {
-["time"] = 1892553,
+["time"] = 1895271,
 ["class"] = "PALADIN",
 },
 ["Draenor-Faithshuffle"] = {
@@ -405,7 +405,7 @@ AccountPlayedDB = {
 ["class"] = "WARRIOR",
 },
 ["LaughingSkull-Voidshuffle"] = {
-["time"] = 20236614,
+["time"] = 20303222,
 ["class"] = "PRIEST",
 },
 ["LaughingSkull-Stalkshuffle"] = {

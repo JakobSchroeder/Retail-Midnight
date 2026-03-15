@@ -4,8 +4,15 @@ FrameLevel: 1
 Anchor: CENTER
 X: -424
 Y: 217
-W: 83
+W: 116
 H: 43
+Frame: RXPFrame
+FrameLevel: 1
+Anchor: LEFT
+X: 0
+Y: 35
+W: 235
+H: 125
 Frame: ColorPickerFrame
 FrameLevel: 1
 Anchor: CENTER

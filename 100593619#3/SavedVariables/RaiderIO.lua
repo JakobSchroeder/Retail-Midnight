@@ -15,9 +15,8 @@ RaiderIO_Config = {
 }
 RaiderIO_LastCharacter = "eu-Voidshuffle-laughing-skull"
 RaiderIO_MissingCharacters = {
-["eu-Timbavati-boulderfist"] = true,
+["eu-Crúmpet-daggerspine"] = true,
 ["eu-Voidshuffle-laughing-skull"] = true,
-["eu-Tuosta-shattered-halls"] = true,
 }
 RaiderIO_MissingServers = {
 }

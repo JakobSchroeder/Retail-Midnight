@@ -413,5 +413,9 @@ NSRT = {
 ["yOffset"] = -199,
 },
 ["EncounterAlerts"] = {
+[3179] = {
+["enabled"] = false,
+["CCAddsDisplay"] = false,
+},
 },
 }

@@ -53,7 +53,10 @@ VER 3 0000000000000109 "Potion" "134400"
 /use item:212263
 END
 VER 3 000000000000011F "RXPTargeting" "Ability_eyeoftheowl"
-/targetexact Rowdy Elementals
+/targetexact Rotting Vilefeaster
+/targetexact Vilebranch Lynxstalker
+/targetexact Vilebranch Enthraller
+/targetexact Shambling Berserker
 /targetlasttarget [dead]
 END
 VER 3 000000000000011A "Self PWS" "INV_Misc_QuestionMark"

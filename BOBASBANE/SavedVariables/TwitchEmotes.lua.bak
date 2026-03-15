@@ -60,8 +60,8 @@ true,
 TwitchEmoteStatistics = {
 ["KEKW"] = {
 0,
-1,
-1,
+2,
+3,
 },
 ["Susge"] = {
 0,
@@ -70,7 +70,7 @@ TwitchEmoteStatistics = {
 },
 ["ICANT"] = {
 0,
-0,
+1,
 5,
 },
 ["potter"] = {
@@ -113,6 +113,16 @@ TwitchEmoteStatistics = {
 0,
 1,
 },
+["smileW"] = {
+0,
+0,
+1,
+},
+["NA"] = {
+0,
+0,
+1,
+},
 ["Life"] = {
 0,
 0,
@@ -131,7 +141,7 @@ TwitchEmoteStatistics = {
 ["Okay"] = {
 0,
 1,
-1,
+2,
 },
 ["monkaTOS"] = {
 0,

@@ -54,6 +54,7 @@ END
 VER 3 010000000000000E "PI" "INV_Misc_QuestionMark"
 #showtooltip
 /cast [@focus,help,nodead,exists][@mouseover,help,nodead,exists][] Power Infusion
+/use 13
 END
 VER 3 010000000000000F "Plea" "INV_Misc_QuestionMark"
 #showtooltip

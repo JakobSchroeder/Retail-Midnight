@@ -90,42 +90,42 @@ BetterFriendlistDB = {
 ["Horde"] = {
 ["Feintshuffle-Kazzak"] = {
 ["notes"] = "",
-["lastSeen"] = 1772534332,
 ["guid"] = "Player-1305-0BC45722",
+["lastSeen"] = 1772804891,
 },
 ["Moonshuffle-Draenor"] = {
 ["notes"] = "",
-["lastSeen"] = 1772448685,
+["lastSeen"] = 1773515112,
 ["guid"] = "Player-1403-05DD3DAE",
 },
 ["Wingshuffle-Kazzak"] = {
 ["notes"] = "",
-["lastSeen"] = 1772534332,
+["lastSeen"] = 1772827203,
 ["guid"] = "Player-1305-0B319599",
 },
 ["Angelshuffle-Kazzak"] = {
 ["notes"] = "",
-["lastSeen"] = 1772534332,
+["lastSeen"] = 1772827203,
 ["guid"] = "Player-1305-0CF302D7",
 },
 ["Gunshuffle-Kazzak"] = {
 ["notes"] = "",
-["lastSeen"] = 1772534332,
+["lastSeen"] = 1772827203,
 ["guid"] = "Player-1305-0B11C75F",
 },
 ["Quakeshuffle-Draenor"] = {
 ["notes"] = "",
-["lastSeen"] = 1772448685,
+["lastSeen"] = 1773515112,
 ["guid"] = "Player-1403-05DD3C64",
 },
 ["Faceshuffle-Draenor"] = {
 ["notes"] = "",
-["lastSeen"] = 1772448685,
+["lastSeen"] = 1773515112,
 ["guid"] = "Player-1403-05E09FDB",
 },
 ["Preshuffle-Kazzak"] = {
 ["notes"] = "",
-["lastSeen"] = 1772534332,
+["lastSeen"] = 1772827203,
 ["guid"] = "Player-1305-0BA4B289",
 },
 ["Soulshuffle-LaughingSkull"] = {
@@ -135,67 +135,72 @@ BetterFriendlistDB = {
 },
 ["Kafirshuffle-Draenor"] = {
 ["notes"] = "",
-["lastSeen"] = 1772448685,
+["lastSeen"] = 1773515112,
 ["guid"] = "Player-1403-05DD3CEA",
 },
 ["Ratshuffle-Kazzak"] = {
 ["notes"] = "",
-["lastSeen"] = 1772534332,
+["lastSeen"] = 1772827203,
 ["guid"] = "Player-1305-0CF2D252",
 },
 ["Tectoshuffle-Kazzak"] = {
 ["notes"] = "",
-["lastSeen"] = 1772534332,
+["lastSeen"] = 1772827203,
 ["guid"] = "Player-1305-0B2E4A68",
-},
-["Soapshuffle-Kazzak"] = {
-["notes"] = "",
-["lastSeen"] = 1772534332,
-["guid"] = "Player-1305-0BC45719",
-},
-["Kickshuffle-Kazzak"] = {
-["notes"] = "",
-["lastSeen"] = 1772534332,
-["guid"] = "Player-1305-0B10854A",
 },
 ["Bobshuffle-LaughingSkull"] = {
 ["notes"] = "",
 ["lastSeen"] = 1771842731,
 ["guid"] = "Player-1598-0F478A73",
 },
+["Soapshuffle-Kazzak"] = {
+["notes"] = "",
+["lastSeen"] = 1772827203,
+["guid"] = "Player-1305-0BC45719",
+},
+["Kickshuffle-Kazzak"] = {
+["notes"] = "",
+["lastSeen"] = 1772827203,
+["guid"] = "Player-1305-0B10854A",
+},
+["Feints62620!-Kazzak"] = {
+["notes"] = "",
+["lastSeen"] = 1772827203,
+["guid"] = "Player-1305-0BC45722",
+},
 ["Necroshuffle-Kazzak"] = {
 ["notes"] = "",
-["lastSeen"] = 1772534332,
+["lastSeen"] = 1772827203,
 ["guid"] = "Player-1305-0B162365",
 },
 ["Chaosshuffle-Draenor"] = {
 ["notes"] = "",
-["lastSeen"] = 1772448685,
+["lastSeen"] = 1773515112,
 ["guid"] = "Player-1403-05DD3C51",
 },
 ["Forceshuffle-Draenor"] = {
 ["notes"] = "",
-["lastSeen"] = 1772448685,
+["lastSeen"] = 1773515112,
 ["guid"] = "Player-1403-05DD3C58",
 },
 ["Cloakshuffle-Draenor"] = {
 ["notes"] = "",
-["lastSeen"] = 1772448685,
+["lastSeen"] = 1773515112,
 ["guid"] = "Player-1403-05DE6919",
 },
 ["Trickshuffle-Kazzak"] = {
 ["notes"] = "",
-["lastSeen"] = 1772534332,
+["lastSeen"] = 1772827203,
 ["guid"] = "Player-1305-0B33D242",
 },
 ["Monkashuffle-Kazzak"] = {
 ["notes"] = "",
-["lastSeen"] = 1772534332,
+["lastSeen"] = 1772827203,
 ["guid"] = "Player-1305-0BBA7557",
 },
 ["Yumpshuffle-Kazzak"] = {
 ["notes"] = "",
-["lastSeen"] = 1772534332,
+["lastSeen"] = 1772827203,
 ["guid"] = "Player-1305-0B12EC6A",
 },
 },
@@ -281,7 +286,7 @@ BetterFriendlistDB = {
 },
 ["fontSizeRaidName"] = 12,
 ["showFavoritesGroup"] = true,
-["version"] = "2.4.3",
+["version"] = "2.4.4",
 ["nameFormatPreset"] = "default",
 ["groupStates"] = {
 ["nogroup"] = false,

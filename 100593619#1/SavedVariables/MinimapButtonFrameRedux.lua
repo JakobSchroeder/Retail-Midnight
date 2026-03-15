@@ -22,7 +22,7 @@ MBFDB = {
 ["MBF_FrameLocation"] = {
 nil,
 nil,
--105.0005569458008,
+-103.7503356933594,
 -248.7499694824219,
 },
 ["customChildren"] = {

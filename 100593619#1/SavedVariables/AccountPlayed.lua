@@ -305,7 +305,7 @@ AccountPlayedDB = {
 ["class"] = "ROGUE",
 },
 ["Stormrage-Cosmoshuffle"] = {
-["time"] = 79128,
+["time"] = 158624,
 ["class"] = "DEMONHUNTER",
 },
 ["TwistingNether-Spamtothetop"] = {

@@ -398,6 +398,10 @@ NSRT = {
 },
 ["HasLoggedIntoMidnight"] = true,
 ["EncounterAlerts"] = {
+[3179] = {
+["enabled"] = false,
+["CCAddsDisplay"] = false,
+},
 },
 ["PATankSettings"] = {
 ["enabled"] = false,

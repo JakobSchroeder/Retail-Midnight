@@ -13,9 +13,25 @@ RaiderIO_Config = {
 ["lock"] = false,
 },
 }
-RaiderIO_LastCharacter = "eu-Rageshuffle-kazzak"
+RaiderIO_LastCharacter = "eu-Spearshuffle-kazzak"
 RaiderIO_MissingCharacters = {
-["eu-Rageshuffle-kazzak"] = true,
+["eu-Paximeron-kazzak"] = true,
+["eu-Spearshuffle-kazzak"] = true,
+["eu-Covi-draenor"] = true,
+["eu-Hart-kazzak"] = true,
+["eu-Sudac-darksorrow"] = true,
+["eu-Ellennoir-auchindoun"] = true,
+["eu-Vizida-kazzak"] = true,
+["eu-Draconorea-laughing-skull"] = true,
+["eu-Illyriana-kazzak"] = true,
+["eu-Taylorswift-kazzak"] = true,
+["eu-Celevoker-stormscale"] = true,
+["eu-Jayjãr-silvermoon"] = true,
+["eu-Nalgust-laughing-skull"] = true,
+["eu-Lucky-laughing-skull"] = true,
+["eu-Lemmifulz-ragnaros"] = true,
+["eu-Tokziksama-kazzak"] = true,
+["eu-Dkdozer-laughing-skull"] = true,
 }
 RaiderIO_MissingServers = {
 }

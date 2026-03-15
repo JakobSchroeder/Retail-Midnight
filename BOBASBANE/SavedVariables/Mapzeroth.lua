@@ -1,11 +1,11 @@
 
 MapzerothDB = {
 ["hearthstone"] = {
-["y"] = 0.5561319589614868,
-["mapID"] = 2413,
-["setAt"] = 1772527862,
-["locationName"] = "The Den",
-["x"] = 0.508391261100769,
+["y"] = 0.704113245010376,
+["mapID"] = 2393,
+["setAt"] = 1773063683,
+["locationName"] = "Wayfarer's Rest",
+["x"] = 0.5630050897598267,
 },
 ["settings"] = {
 ["maxCooldownValue"] = 8,

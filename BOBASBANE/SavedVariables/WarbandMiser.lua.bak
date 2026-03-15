@@ -153,7 +153,7 @@ WarbandMiserDB = {
 ["Voidshuffle"] = {
 ["GoldCap"] = 10000,
 ["Defaults"] = true,
-["Gold"] = 193847816,
+["Gold"] = 100000000,
 ["Include"] = true,
 ["Level"] = 90,
 ["ServerDefault"] = false,
@@ -180,9 +180,9 @@ WarbandMiserDB = {
 ["Tradushuffle"] = {
 ["GoldCap"] = 10000,
 ["Defaults"] = true,
-["Gold"] = 103680724,
+["Gold"] = 145835634,
 ["Include"] = true,
-["Level"] = 80,
+["Level"] = 90,
 ["ServerDefault"] = false,
 ["AllGold"] = false,
 },
@@ -490,7 +490,7 @@ WarbandMiserDB = {
 ["Hornyshuffle"] = {
 ["GoldCap"] = 10000,
 ["Defaults"] = true,
-["Gold"] = 100500000,
+["Gold"] = 91863783,
 ["Include"] = true,
 ["Level"] = 90,
 ["ServerDefault"] = false,
@@ -528,7 +528,7 @@ WarbandMiserDB = {
 ["Intshuffle"] = {
 ["GoldCap"] = 10000,
 ["Defaults"] = true,
-["Gold"] = 198146563,
+["Gold"] = 217260960,
 ["Include"] = true,
 ["Level"] = 90,
 ["ServerDefault"] = false,
@@ -537,9 +537,9 @@ WarbandMiserDB = {
 ["Feintshuffle"] = {
 ["GoldCap"] = 10000,
 ["Defaults"] = true,
-["Gold"] = 107078347,
+["Gold"] = 500000,
 ["Include"] = true,
-["Level"] = 80,
+["Level"] = 81,
 ["ServerDefault"] = false,
 ["AllGold"] = false,
 },
@@ -573,9 +573,9 @@ WarbandMiserDB = {
 ["Teashuffle"] = {
 ["GoldCap"] = 10000,
 ["Defaults"] = true,
-["Gold"] = 100009600,
+["Gold"] = 514198,
 ["Include"] = true,
-["Level"] = 80,
+["Level"] = 81,
 ["ServerDefault"] = false,
 ["AllGold"] = false,
 },
@@ -584,7 +584,7 @@ WarbandMiserDB = {
 ["Defaults"] = true,
 ["Gold"] = 100000000,
 ["Include"] = true,
-["Level"] = 80,
+["Level"] = 90,
 ["ServerDefault"] = false,
 ["AllGold"] = false,
 },
@@ -688,9 +688,9 @@ WarbandMiserDB = {
 ["Rageshuffle"] = {
 ["GoldCap"] = 10000,
 ["Defaults"] = true,
-["Gold"] = 100000000,
+["Gold"] = 2882086,
 ["Include"] = true,
-["Level"] = 80,
+["Level"] = 81,
 ["ServerDefault"] = false,
 ["AllGold"] = false,
 },
@@ -863,7 +863,7 @@ WarbandMiserDB = {
 ["Range"] = {
 {
 ["low"] = 1,
-["high"] = 90,
+["high"] = 89,
 },
 {
 ["low"] = 80,
@@ -871,7 +871,7 @@ WarbandMiserDB = {
 },
 {
 ["low"] = 80,
-["high"] = 80,
+["high"] = 90,
 },
 {
 ["low"] = 80,
@@ -889,9 +889,9 @@ WarbandMiserDB = {
 ["IncludeNew"] = true,
 ["DepositOnly"] = false,
 ["MinGold"] = 2000,
-["Bracket5"] = 2000,
-["Bracket4"] = 1000,
-["Bracket3"] = 750,
+["Bracket5"] = 10000,
+["Bracket4"] = 10000,
+["Bracket3"] = 10000,
 },
 ["wbMinumum"] = 0,
 }

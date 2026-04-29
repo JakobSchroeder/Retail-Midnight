@@ -7,18 +7,18 @@ Emoticons_Settings = {
 ["ENABLE_ANIMATEDEMOTES"] = true,
 ["CHAT_MSG_RAID_WARNING"] = true,
 ["CHAT_MSG_CHANNEL"] = true,
-["CHAT_MSG_PARTY_GUIDE"] = true,
-["CHAT_MSG_WHISPER"] = true,
 ["CHAT_MSG_BN_WHISPER"] = true,
+["CHAT_MSG_WHISPER"] = true,
+["CHAT_MSG_PARTY_GUIDE"] = true,
 ["CHAT_MSG_PARTY"] = true,
-["LARGEEMOTES"] = false,
+["CHAT_MSG_WHISPER_INFORM"] = true,
 ["CHAT_MSG_INSTANCE_CHAT_LEADER"] = true,
 ["CHAT_MSG_RAID"] = true,
-["ENABLE_AUTOCOMPLETE"] = true,
-["MINIMAPBUTTON"] = true,
-["CHAT_MSG_RAID_LEADER"] = true,
+["CHAT_MSG_BN_WHISPER_INFORM"] = true,
 ["CHAT_MSG_YELL"] = true,
-["CHAT_MSG_SAY"] = true,
+["CHAT_MSG_RAID_LEADER"] = true,
+["MINIMAPBUTTON"] = true,
+["CHAT_MSG_BN_CONVERSATION"] = true,
 ["FAVEMOTES"] = {
 true,
 true,
@@ -49,71 +49,71 @@ true,
 true,
 },
 ["MAIL"] = true,
-["CHAT_MSG_BN_CONVERSATION"] = true,
+["CHAT_MSG_SAY"] = true,
 ["ENABLE_CLICKABLEEMOTES"] = true,
-["CHAT_MSG_BN_WHISPER_INFORM"] = true,
-["CHAT_MSG_WHISPER_INFORM"] = true,
+["ENABLE_AUTOCOMPLETE"] = true,
+["LARGEEMOTES"] = false,
 ["MINIMAPDATA"] = {
 ["minimapPos"] = 135,
 },
 }
 TwitchEmoteStatistics = {
-["KEKW"] = {
-0,
-2,
-3,
-},
-["Susge"] = {
+["peepo2"] = {
 0,
 0,
 1,
 },
-["ICANT"] = {
+["ClownPain"] = {
+0,
 0,
 1,
+},
+["arnoldHalt"] = {
+0,
+0,
+1,
+},
+["Bedge"] = {
+0,
+1,
+0,
+},
+["WideHardo"] = {
+0,
+0,
+7,
+},
+["PepeClown"] = {
+0,
+0,
+1,
+},
+["NA"] = {
+0,
+0,
 5,
 },
-["potter"] = {
+["Okay"] = {
+0,
+9,
+7,
+},
+["KEKLeo"] = {
 0,
 0,
 1,
-},
-["monkaS"] = {
-0,
-0,
-1,
-},
-["LMAO"] = {
-0,
-0,
-3,
 },
 ["LUL"] = {
 0,
-0,
-1,
+6,
+3,
 },
 ["HUH"] = {
 0,
 0,
-1,
+2,
 },
 ["SNIFFA"] = {
-0,
-0,
-1,
-},
-["YEP"] = {
-0,
-0,
-1,
-},
-["Prayge"] = {
-0,
-0,
-1,
-},
-["smileW"] = {
 0,
 0,
 1,
@@ -123,7 +123,27 @@ TwitchEmoteStatistics = {
 0,
 1,
 },
-["Life"] = {
+["Prayge"] = {
+0,
+0,
+1,
+},
+["Kappa"] = {
+0,
+0,
+2,
+},
+["smileW"] = {
+0,
+0,
+5,
+},
+["CringeW"] = {
+0,
+0,
+2,
+},
+["widepeepoPride"] = {
 0,
 0,
 1,
@@ -131,29 +151,184 @@ TwitchEmoteStatistics = {
 ["D:"] = {
 0,
 0,
+10,
+},
+["WideHard"] = {
+0,
+0,
+1,
+},
+["GAMING"] = {
+0,
+0,
+1,
+},
+[":thumbsup:"] = {
+0,
+0,
+3,
+},
+[":soy:"] = {
+0,
+0,
 2,
+},
+["5Head"] = {
+0,
+1,
+0,
+},
+["KEKW"] = {
+0,
+7,
+31,
+},
+["Krug"] = {
+0,
+0,
+2,
+},
+["cmon"] = {
+0,
+0,
+1,
+},
+["YEP"] = {
+0,
+3,
+6,
+},
+["Copium"] = {
+0,
+1,
+0,
+},
+["ICANT"] = {
+0,
+6,
+10,
+},
+["LMAO"] = {
+0,
+0,
+7,
+},
+[":Clueless:"] = {
+0,
+0,
+1,
+},
+["potter"] = {
+0,
+0,
+1,
+},
+["monkaS"] = {
+0,
+1,
+3,
+},
+["LULW"] = {
+0,
+1,
+3,
+},
+[":heart_eyes:"] = {
+0,
+0,
+1,
+},
+["Pog"] = {
+0,
+3,
+6,
+},
+["pokiW"] = {
+0,
+0,
+1,
+},
+["OhMyDog"] = {
+0,
+0,
+1,
+},
+["OMEGALUL"] = {
+0,
+0,
+1,
+},
+["peepoPee"] = {
+0,
+0,
+2,
+},
+["HeyGuys"] = {
+0,
+0,
+1,
 },
 ["EZ"] = {
 0,
+1,
+5,
+},
+[":skull:"] = {
 0,
-2,
+0,
+3,
+},
+["Susge"] = {
+0,
+0,
+1,
+},
+["peepoPoo"] = {
+0,
+0,
+1,
 },
 ["monkaTOS"] = {
 0,
 0,
 1,
 },
-["Okay"] = {
+["FeelsGoodEnoughMan"] = {
+0,
 0,
 1,
+},
+["Life"] = {
+0,
+0,
+1,
+},
+[":xdd:"] = {
+0,
+0,
+1,
+},
+["Madge"] = {
+0,
+2,
+4,
+},
+["KEKL"] = {
+0,
+0,
 2,
 },
-["Pog"] = {
+["WideBrug"] = {
 0,
 0,
 1,
 },
-["NA"] = {
+["PepePoint"] = {
+0,
+1,
+0,
+},
+[":eyes:"] = {
 0,
 0,
 1,

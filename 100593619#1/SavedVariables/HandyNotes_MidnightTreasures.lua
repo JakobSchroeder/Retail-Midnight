@@ -9,11 +9,11 @@ HandyNotes_MidnightTreasuresDB = {
 ["Banishuffle - Stormrage"] = "Banishuffle - Stormrage",
 ["Cosmoshuffle - Stormrage"] = "Cosmoshuffle - Stormrage",
 ["Fogshuffle - Stormrage"] = "Fogshuffle - Stormrage",
-["Grapeshuffle - Stormrage"] = "Grapeshuffle - Stormrage",
+["Blastshuffle - Stormrage"] = "Blastshuffle - Stormrage",
 ["Aurashuffle - Stormrage"] = "Aurashuffle - Stormrage",
 ["Madneshuffle - Stormrage"] = "Madneshuffle - Stormrage",
 ["Readyshuffle - Stormrage"] = "Readyshuffle - Stormrage",
-["Blastshuffle - Stormrage"] = "Blastshuffle - Stormrage",
+["Grapeshuffle - Stormrage"] = "Grapeshuffle - Stormrage",
 },
 ["profiles"] = {
 ["Plantshuffle - Stormrage"] = {
@@ -32,7 +32,7 @@ HandyNotes_MidnightTreasuresDB = {
 },
 ["Fogshuffle - Stormrage"] = {
 },
-["Grapeshuffle - Stormrage"] = {
+["Blastshuffle - Stormrage"] = {
 },
 ["Aurashuffle - Stormrage"] = {
 },
@@ -40,7 +40,7 @@ HandyNotes_MidnightTreasuresDB = {
 },
 ["Readyshuffle - Stormrage"] = {
 },
-["Blastshuffle - Stormrage"] = {
+["Grapeshuffle - Stormrage"] = {
 },
 },
 }

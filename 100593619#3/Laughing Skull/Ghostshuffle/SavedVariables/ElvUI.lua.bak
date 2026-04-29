@@ -2,11 +2,11 @@
 ElvCharacterDB = {
 ["ConvertKeybindings"] = true,
 ["ChatEditHistory"] = {
-"/inv mangotini-tarrenmill",
 "/inv kornax-hyjal",
 "/inv mangotini-hyjal",
 "/g No",
 "/simc",
+"/macro",
 },
 ["ChatHistoryLog"] = {
 {

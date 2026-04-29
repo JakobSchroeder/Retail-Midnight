@@ -7,6 +7,222 @@ _detalhes_database = {
 ["tabelas"] = {
 {
 {
+["combatId"] = 16,
+["tipo"] = 2,
+["_ActorTable"] = {
+{
+["flag_original"] = 1298,
+["totalabsorbed"] = 0.00581,
+["pets"] = {
+},
+["classe"] = "DEATHKNIGHT",
+["total_without_pet"] = 0.00581,
+["last_dps_realtime"] = 0,
+["dps_started"] = false,
+["total"] = 1699,
+["spec"] = 251,
+["on_hold"] = false,
+["total_extra"] = 0,
+["serial"] = "Player-1305-0B16234D",
+["avoidable_damage"] = {
+},
+["aID"] = "1305-0B16234D",
+["damage_from"] = {
+},
+["targets"] = {
+},
+["specIcon"] = 135773,
+["grupo"] = true,
+["friendlyfire_total"] = 0,
+["raid_targets"] = {
+},
+["end_time"] = 1773661176,
+["nome"] = "Hemoshuffle",
+["spells"] = {
+["tipo"] = 2,
+["_ActorTable"] = {
+[6603] = {
+["c_amt"] = 0,
+["b_amt"] = 0,
+["g_amt"] = 0,
+["n_max"] = 0,
+["targets"] = {
+},
+["n_total"] = 0,
+["n_min"] = 0,
+["g_dmg"] = 0,
+["counter"] = 1,
+["total"] = 1699,
+["c_max"] = 0,
+["id"] = 6603,
+["r_dmg"] = 0,
+["extra"] = {
+},
+["a_dmg"] = 0,
+["a_amt"] = 0,
+["c_min"] = 0,
+["successful_casted"] = 0,
+["c_total"] = 0,
+["n_amt"] = 0,
+["b_dmg"] = 0,
+["r_amt"] = 0,
+},
+},
+},
+["friendlyfire"] = {
+},
+["last_dps"] = 339.8,
+["custom"] = 0,
+["tipo"] = 1,
+["damage_taken"] = 0.00581,
+["start_time"] = 1773661176,
+["delay"] = 0,
+["last_event"] = 0,
+},
+},
+},
+{
+["combatId"] = 16,
+["tipo"] = 3,
+["_ActorTable"] = {
+},
+},
+{
+["combatId"] = 16,
+["tipo"] = 7,
+["_ActorTable"] = {
+},
+},
+{
+["combatId"] = 16,
+["tipo"] = 9,
+["_ActorTable"] = {
+},
+},
+{
+["combatId"] = 16,
+["tipo"] = 2,
+["_ActorTable"] = {
+},
+},
+["boss_hp"] = 1,
+["tempo_start"] = 1773661176,
+["last_events_tables"] = {
+},
+["alternate_power"] = {
+},
+["bossTimers"] = {
+},
+["combat_counter"] = 32,
+["playerTalents"] = {
+},
+["totals"] = {
+1699,
+0,
+{
+0,
+[0] = 0,
+["alternatepower"] = 0,
+[3] = 0,
+[6] = 0,
+},
+{
+["buff_uptime"] = 0,
+["ress"] = 0,
+["debuff_uptime"] = 0,
+["cooldowns_defensive"] = 0,
+["interrupt"] = 0,
+["dispell"] = 0,
+["cc_break"] = 0,
+["dead"] = 0,
+},
+["frags_total"] = 0,
+["voidzone_damage"] = 0,
+},
+["player_last_events"] = {
+},
+["frags_need_refresh"] = false,
+["amountCasts"] = {
+},
+["instance_type"] = "neighborhood",
+["zoneName"] = "Razorwind Shores",
+["data_fim"] = "12:39:37",
+["timeEnd"] = 1773661177,
+["combatSessionId"] = "Lizard1",
+["bIsClosed"] = true,
+["cleu_timeline"] = {
+},
+["enemy"] = "Unknown",
+["trinketProcs"] = {
+},
+["TotalElapsedCombatTime"] = 621873.324,
+["CombatEndedAt"] = 621873.324,
+["aura_timeline"] = {
+},
+["compressed_charts"] = {
+},
+["PhaseData"] = {
+{
+1,
+1,
+},
+["heal_section"] = {
+},
+["heal"] = {
+{
+},
+},
+["damage_section"] = {
+},
+["damage"] = {
+{
+["Hemoshuffle"] = 1699,
+},
+},
+},
+["end_time"] = 621873.324,
+["mapId"] = 2736,
+["combat_id"] = 16,
+["timeStart"] = 1773661177,
+["playing_solo"] = true,
+["is_challenge"] = false,
+["spells_cast_timeline"] = {
+},
+["raid_roster"] = {
+},
+["cleu_events"] = {
+["n"] = 1,
+},
+["totals_grupo"] = {
+1699,
+0,
+{
+0,
+[0] = 0,
+["alternatepower"] = 0,
+[3] = 0,
+[6] = 0,
+},
+{
+["buff_uptime"] = 0,
+["ress"] = 0,
+["debuff_uptime"] = 0,
+["cooldowns_defensive"] = 0,
+["interrupt"] = 0,
+["dispell"] = 0,
+["cc_break"] = 0,
+["dead"] = 0,
+},
+},
+["data_inicio"] = "12:39:31",
+["start_time"] = 621868.059,
+["TimeData"] = {
+},
+["frags"] = {
+},
+},
+{
+{
 ["tipo"] = 2,
 ["combatId"] = 15,
 ["_ActorTable"] = {
@@ -15,19 +231,19 @@ _detalhes_database = {
 ["totalabsorbed"] = 0.008355,
 ["pets"] = {
 },
-["classe"] = "DEATHKNIGHT",
+["aID"] = "1305-0B16234D",
 ["total_without_pet"] = 0.008355,
 ["last_dps_realtime"] = 0,
 ["dps_started"] = false,
 ["total"] = 30903,
 ["spec"] = 251,
-["friendlyfire"] = {
-},
+["on_hold"] = false,
 ["total_extra"] = 0,
 ["serial"] = "Player-1305-0B16234D",
 ["avoidable_damage"] = {
 },
-["specIcon"] = 135773,
+["damage_from"] = {
+},
 ["targets"] = {
 },
 ["friendlyfire_total"] = 0,
@@ -35,9 +251,9 @@ _detalhes_database = {
 },
 ["damage_taken_ps"] = 1137.317073170732,
 ["end_time"] = 1771842321,
-["damage_from"] = {
+["friendlyfire"] = {
 },
-["aID"] = "1305-0B16234D",
+["specIcon"] = 135773,
 ["nome"] = "Hemoshuffle",
 ["spells"] = {
 ["_ActorTable"] = {
@@ -45,7 +261,7 @@ _detalhes_database = {
 ["c_amt"] = 0,
 ["b_amt"] = 0,
 ["g_amt"] = 0,
-["b_dmg"] = 0,
+["n_max"] = 0,
 ["targets"] = {
 },
 ["n_total"] = 0,
@@ -64,14 +280,14 @@ _detalhes_database = {
 ["successful_casted"] = 0,
 ["c_total"] = 0,
 ["n_amt"] = 0,
-["n_max"] = 0,
+["b_dmg"] = 0,
 ["r_amt"] = 0,
 },
 [1217091] = {
 ["c_amt"] = 0,
 ["b_amt"] = 0,
 ["g_amt"] = 0,
-["b_dmg"] = 0,
+["n_max"] = 0,
 ["targets"] = {
 },
 ["n_total"] = 0,
@@ -90,14 +306,14 @@ _detalhes_database = {
 ["successful_casted"] = 0,
 ["c_total"] = 0,
 ["n_amt"] = 0,
-["n_max"] = 0,
+["b_dmg"] = 0,
 ["r_amt"] = 0,
 },
 [55095] = {
 ["c_amt"] = 0,
 ["b_amt"] = 0,
 ["g_amt"] = 0,
-["b_dmg"] = 0,
+["n_max"] = 0,
 ["targets"] = {
 },
 ["n_total"] = 0,
@@ -116,14 +332,14 @@ _detalhes_database = {
 ["successful_casted"] = 0,
 ["c_total"] = 0,
 ["n_amt"] = 0,
-["n_max"] = 0,
+["b_dmg"] = 0,
 ["r_amt"] = 0,
 },
 [6603] = {
 ["c_amt"] = 0,
 ["b_amt"] = 0,
 ["g_amt"] = 0,
-["b_dmg"] = 0,
+["n_max"] = 0,
 ["targets"] = {
 },
 ["n_total"] = 0,
@@ -142,15 +358,15 @@ _detalhes_database = {
 ["successful_casted"] = 0,
 ["c_total"] = 0,
 ["n_amt"] = 0,
-["n_max"] = 0,
+["b_dmg"] = 0,
 ["r_amt"] = 0,
 },
 },
 ["tipo"] = 2,
 },
 ["grupo"] = true,
-["on_hold"] = false,
 ["tipo"] = 1,
+["classe"] = "DEATHKNIGHT",
 ["custom"] = 0,
 ["last_event"] = 0,
 ["damage_taken"] = 46630,
@@ -185,6 +401,7 @@ _detalhes_database = {
 },
 },
 ["boss_hp"] = 1,
+["CombatStartedAt"] = 621868.059,
 ["overall_added"] = true,
 ["last_events_tables"] = {
 },
@@ -264,7 +481,7 @@ _detalhes_database = {
 ["mapId"] = 0,
 ["combat_id"] = 15,
 ["timeStart"] = 1771842322,
-["is_world_trash_combat"] = true,
+["tempo_start"] = 1771842321,
 ["spells_cast_timeline"] = {
 },
 ["is_challenge"] = false,
@@ -300,471 +517,17 @@ _detalhes_database = {
 ["start_time"] = 515870.522,
 ["TimeData"] = {
 },
-["tempo_start"] = 1771842321,
-},
-{
-{
-["tipo"] = 2,
-["combatId"] = 14,
-["_ActorTable"] = {
-{
-["flag_original"] = 1298,
-["totalabsorbed"] = 0.005712,
-["pets"] = {
-},
-["classe"] = "DEATHKNIGHT",
-["total_without_pet"] = 0.005712,
-["last_dps_realtime"] = 0,
-["dps_started"] = false,
-["total"] = 68596,
-["spec"] = 251,
-["friendlyfire"] = {
-},
-["total_extra"] = 0,
-["serial"] = "Player-1305-0B16234D",
-["avoidable_damage"] = {
-},
-["specIcon"] = 135773,
-["targets"] = {
-},
-["friendlyfire_total"] = 0,
-["raid_targets"] = {
-},
-["damage_taken_ps"] = 1049.649122807018,
-["end_time"] = 1771841973,
-["damage_from"] = {
-},
-["aID"] = "1305-0B16234D",
-["nome"] = "Hemoshuffle",
-["spells"] = {
-["_ActorTable"] = {
-[253597] = {
-["c_amt"] = 0,
-["b_amt"] = 0,
-["g_amt"] = 0,
-["b_dmg"] = 0,
-["targets"] = {
-},
-["n_total"] = 0,
-["n_min"] = 0,
-["g_dmg"] = 0,
-["counter"] = 1,
-["total"] = 1102,
-["c_max"] = 0,
-["id"] = 253597,
-["r_dmg"] = 0,
-["extra"] = {
-},
-["a_dmg"] = 0,
-["a_amt"] = 0,
-["c_min"] = 0,
-["successful_casted"] = 0,
-["c_total"] = 0,
-["n_amt"] = 0,
-["n_max"] = 0,
-["r_amt"] = 0,
-},
-[222024] = {
-["c_amt"] = 0,
-["b_amt"] = 0,
-["g_amt"] = 0,
-["b_dmg"] = 0,
-["targets"] = {
-},
-["n_total"] = 0,
-["n_min"] = 0,
-["g_dmg"] = 0,
-["counter"] = 1,
-["total"] = 632,
-["c_max"] = 0,
-["id"] = 222024,
-["r_dmg"] = 0,
-["extra"] = {
-},
-["a_dmg"] = 0,
-["a_amt"] = 0,
-["c_min"] = 0,
-["successful_casted"] = 0,
-["c_total"] = 0,
-["n_amt"] = 0,
-["n_max"] = 0,
-["r_amt"] = 0,
-},
-[55095] = {
-["c_amt"] = 0,
-["b_amt"] = 0,
-["g_amt"] = 0,
-["b_dmg"] = 0,
-["targets"] = {
-},
-["n_total"] = 0,
-["n_min"] = 0,
-["g_dmg"] = 0,
-["counter"] = 1,
-["total"] = 6561,
-["c_max"] = 0,
-["id"] = 55095,
-["r_dmg"] = 0,
-["extra"] = {
-},
-["a_dmg"] = 0,
-["a_amt"] = 0,
-["c_min"] = 0,
-["successful_casted"] = 0,
-["c_total"] = 0,
-["n_amt"] = 0,
-["n_max"] = 0,
-["r_amt"] = 0,
-},
-[1264082] = {
-["c_amt"] = 0,
-["b_amt"] = 0,
-["g_amt"] = 0,
-["b_dmg"] = 0,
-["targets"] = {
-},
-["n_total"] = 0,
-["n_min"] = 0,
-["g_dmg"] = 0,
-["counter"] = 1,
-["total"] = 1503,
-["c_max"] = 0,
-["id"] = 1264082,
-["r_dmg"] = 0,
-["extra"] = {
-},
-["a_dmg"] = 0,
-["a_amt"] = 0,
-["c_min"] = 0,
-["successful_casted"] = 0,
-["c_total"] = 0,
-["n_amt"] = 0,
-["n_max"] = 0,
-["r_amt"] = 0,
-},
-[1264083] = {
-["c_amt"] = 0,
-["b_amt"] = 0,
-["g_amt"] = 0,
-["b_dmg"] = 0,
-["targets"] = {
-},
-["n_total"] = 0,
-["n_min"] = 0,
-["g_dmg"] = 0,
-["counter"] = 1,
-["total"] = 737,
-["c_max"] = 0,
-["id"] = 1264083,
-["r_dmg"] = 0,
-["extra"] = {
-},
-["a_dmg"] = 0,
-["a_amt"] = 0,
-["c_min"] = 0,
-["successful_casted"] = 0,
-["c_total"] = 0,
-["n_amt"] = 0,
-["n_max"] = 0,
-["r_amt"] = 0,
-},
-[6603] = {
-["c_amt"] = 0,
-["b_amt"] = 0,
-["g_amt"] = 0,
-["b_dmg"] = 0,
-["targets"] = {
-},
-["n_total"] = 0,
-["n_min"] = 0,
-["g_dmg"] = 0,
-["counter"] = 1,
-["total"] = 2130,
-["c_max"] = 0,
-["id"] = 6603,
-["r_dmg"] = 0,
-["extra"] = {
-},
-["a_dmg"] = 0,
-["a_amt"] = 0,
-["c_min"] = 0,
-["successful_casted"] = 0,
-["c_total"] = 0,
-["n_amt"] = 0,
-["n_max"] = 0,
-["r_amt"] = 0,
-},
-[1217091] = {
-["c_amt"] = 0,
-["b_amt"] = 0,
-["g_amt"] = 0,
-["b_dmg"] = 0,
-["targets"] = {
-},
-["n_total"] = 0,
-["n_min"] = 0,
-["g_dmg"] = 0,
-["counter"] = 1,
-["total"] = 53233,
-["c_max"] = 0,
-["id"] = 1217091,
-["r_dmg"] = 0,
-["extra"] = {
-},
-["a_dmg"] = 0,
-["a_amt"] = 0,
-["c_min"] = 0,
-["successful_casted"] = 0,
-["c_total"] = 0,
-["n_amt"] = 0,
-["n_max"] = 0,
-["r_amt"] = 0,
-},
-[194913] = {
-["c_amt"] = 0,
-["b_amt"] = 0,
-["g_amt"] = 0,
-["b_dmg"] = 0,
-["targets"] = {
-},
-["n_total"] = 0,
-["n_min"] = 0,
-["g_dmg"] = 0,
-["counter"] = 1,
-["total"] = 641,
-["c_max"] = 0,
-["id"] = 194913,
-["r_dmg"] = 0,
-["extra"] = {
-},
-["a_dmg"] = 0,
-["a_amt"] = 0,
-["c_min"] = 0,
-["successful_casted"] = 0,
-["c_total"] = 0,
-["n_amt"] = 0,
-["n_max"] = 0,
-["r_amt"] = 0,
-},
-[49020] = {
-["c_amt"] = 0,
-["b_amt"] = 0,
-["g_amt"] = 0,
-["b_dmg"] = 0,
-["targets"] = {
-},
-["n_total"] = 0,
-["n_min"] = 0,
-["g_dmg"] = 0,
-["counter"] = 1,
-["total"] = 1268,
-["c_max"] = 0,
-["id"] = 49020,
-["r_dmg"] = 0,
-["extra"] = {
-},
-["a_dmg"] = 0,
-["a_amt"] = 0,
-["c_min"] = 0,
-["successful_casted"] = 0,
-["c_total"] = 0,
-["n_amt"] = 0,
-["n_max"] = 0,
-["r_amt"] = 0,
-},
-[49184] = {
-["c_amt"] = 0,
-["b_amt"] = 0,
-["g_amt"] = 0,
-["b_dmg"] = 0,
-["targets"] = {
-},
-["n_total"] = 0,
-["n_min"] = 0,
-["g_dmg"] = 0,
-["counter"] = 1,
-["total"] = 789,
-["c_max"] = 0,
-["id"] = 49184,
-["r_dmg"] = 0,
-["extra"] = {
-},
-["a_dmg"] = 0,
-["a_amt"] = 0,
-["c_min"] = 0,
-["successful_casted"] = 0,
-["c_total"] = 0,
-["n_amt"] = 0,
-["n_max"] = 0,
-["r_amt"] = 0,
-},
-},
-["tipo"] = 2,
-},
-["grupo"] = true,
-["on_hold"] = false,
-["tipo"] = 1,
-["custom"] = 0,
-["last_event"] = 0,
-["damage_taken"] = 59830,
-["start_time"] = 1771841973,
-["delay"] = 0,
-["last_dps"] = 1203.438596491228,
-},
-},
-},
-{
-["tipo"] = 3,
-["combatId"] = 14,
-["_ActorTable"] = {
-},
-},
-{
-["tipo"] = 7,
-["combatId"] = 14,
-["_ActorTable"] = {
-},
-},
-{
-["tipo"] = 9,
-["combatId"] = 14,
-["_ActorTable"] = {
-},
-},
-{
-["tipo"] = 2,
-["combatId"] = 14,
-["_ActorTable"] = {
-},
-},
-["boss_hp"] = 1,
-["CombatStartedAt"] = 515870.522,
-["tempo_start"] = 1771841973,
-["last_events_tables"] = {
-},
-["alternate_power"] = {
-},
-["bossTimers"] = {
-},
-["combat_counter"] = 30,
-["playerTalents"] = {
-},
-["totals"] = {
-68596,
-0,
-{
-0,
-[0] = 0,
-["alternatepower"] = 0,
-[3] = 0,
-[6] = 0,
-},
-{
-["buff_uptime"] = 0,
-["ress"] = 0,
-["cooldowns_defensive"] = 0,
-["dispell"] = 0,
-["interrupt"] = 0,
-["debuff_uptime"] = 0,
-["cc_break"] = 0,
-["dead"] = 0,
-},
-["frags_total"] = 0,
-["voidzone_damage"] = 0,
-},
-["player_last_events"] = {
-},
-["frags_need_refresh"] = false,
-["amountCasts"] = {
-},
-["instance_type"] = "none",
-["zoneName"] = "Eastern Kingdoms",
-["data_fim"] = "11:19:34",
-["timeEnd"] = 1771841974,
-["combatSessionId"] = "Asira Dawnslayer12",
-["bIsClosed"] = true,
-["cleu_timeline"] = {
-},
-["enemy"] = "Unknown",
-["trinketProcs"] = {
-},
-["TotalElapsedCombatTime"] = 515564.246,
-["playing_solo"] = true,
-["CombatEndedAt"] = 515564.246,
-["aura_timeline"] = {
-},
-["compressed_charts"] = {
-},
-["PhaseData"] = {
-{
-1,
-1,
-},
-["damage_section"] = {
-},
-["heal_section"] = {
-},
-["heal"] = {
-{
-},
-},
-["damage"] = {
-{
-["Hemoshuffle"] = 68596,
-},
-},
-},
-["end_time"] = 515564.246,
-["mapId"] = 0,
-["combat_id"] = 14,
-["timeStart"] = 1771841974,
 ["is_world_trash_combat"] = true,
-["spells_cast_timeline"] = {
-},
-["is_challenge"] = false,
-["frags"] = {
-},
-["raid_roster"] = {
-},
-["cleu_events"] = {
-["n"] = 1,
-},
-["totals_grupo"] = {
-68596,
-0,
-{
-0,
-[0] = 0,
-["alternatepower"] = 0,
-[3] = 0,
-[6] = 0,
-},
-{
-["buff_uptime"] = 0,
-["ress"] = 0,
-["cooldowns_defensive"] = 0,
-["dispell"] = 0,
-["interrupt"] = 0,
-["debuff_uptime"] = 0,
-["cc_break"] = 0,
-["dead"] = 0,
-},
-},
-["data_inicio"] = "11:18:36",
-["start_time"] = 515506.349,
-["TimeData"] = {
-},
-["overall_added"] = true,
 },
 },
 },
 ["ocd_tracker"] = {
-["enabled"] = false,
+["show_title"] = true,
 ["current_cooldowns"] = {
 },
 ["lines_per_column"] = 12,
 ["group_frames"] = true,
-["width"] = 120,
+["show_options"] = false,
 ["frames"] = {
 ["defensive-raid"] = {
 },
@@ -779,12 +542,12 @@ _detalhes_database = {
 ["defensive-personal"] = {
 },
 },
-["show_options"] = false,
+["width"] = 120,
 ["ignored_cooldowns"] = {
 },
+["framme_locked"] = false,
 ["cooldowns"] = {
 },
-["height"] = 18,
 ["own_frame"] = {
 ["defensive-raid"] = false,
 ["ofensive"] = false,
@@ -792,12 +555,12 @@ _detalhes_database = {
 ["utility"] = false,
 ["defensive-personal"] = false,
 },
-["framme_locked"] = false,
+["height"] = 18,
 ["show_conditions"] = {
 ["only_inside_instance"] = true,
 ["only_in_group"] = true,
 },
-["show_title"] = true,
+["enabled"] = false,
 ["filters"] = {
 ["itemutil"] = false,
 ["itempower"] = false,
@@ -810,8 +573,20 @@ _detalhes_database = {
 ["utility"] = false,
 },
 },
-["combat_counter"] = 31,
+["combat_counter"] = 32,
 ["damage_meter_sessions"] = {
+{
+["endUnixTime"] = 1773661177,
+["endTime"] = 621873.324,
+["added"] = true,
+["endDate"] = "12:39:37",
+["startUnixTime"] = 1773661171,
+["sessionName"] = "Lizard",
+["startDate"] = "12:39:31",
+["startTime"] = 621868.059,
+["sessionId"] = 1,
+["detailsId"] = "Lizard1",
+},
 },
 ["force_font_outline"] = "",
 ["tabela_instancias"] = {
@@ -842,7 +617,7 @@ _detalhes_database = {
 ["attribute"] = 1,
 ["pos"] = {
 ["normal"] = {
-["y"] = -632.000846862793,
+["y"] = -632.0008773803711,
 ["x"] = 931.99560546875,
 ["w"] = 230.0002899169922,
 ["h"] = 172.0007781982422,
@@ -891,8 +666,9 @@ _detalhes_database = {
 },
 },
 },
-["character_data"] = {
-["logons"] = 7,
+["nick_tag_cache"] = {
+["nextreset"] = 1774957112,
+["last_version"] = 16,
 },
 ["cached_talents"] = {
 },
@@ -900,10 +676,10 @@ _detalhes_database = {
 ["data_harvest_for_charsts"] = {
 ["players"] = {
 {
-["name"] = "Damage of Each Individual Player",
-["playerOnly"] = true,
 ["playerKey"] = "total",
 ["combatObjectContainer"] = 1,
+["name"] = "Damage of Each Individual Player",
+["playerOnly"] = true,
 },
 },
 ["totals"] = {
@@ -927,11 +703,24 @@ _detalhes_database = {
 ["reverse"] = false,
 },
 ["active_profile"] = "Luckyone",
-["last_day"] = "27",
-["player_stats"] = {
+["last_day"] = "16",
+["character_data"] = {
+["logons"] = 8,
 },
 ["ignore_nicktag"] = false,
-["cached_roles"] = {
+["damage_meter_session_info"] = {
+},
+["player_stats"] = {
+},
+["combat_log"] = {
+["inverse_deathlog_overalldata"] = false,
+["merge_gemstones_1007"] = false,
+["track_hunter_frenzy"] = false,
+["merge_critical_heals"] = false,
+["inverse_deathlog_raid"] = false,
+["calc_evoker_damage"] = true,
+["evoker_show_realtimedps"] = false,
+["inverse_deathlog_mplus"] = false,
 },
 ["mythic_dungeon_currentsaved"] = {
 ["dungeon_name"] = "",
@@ -943,18 +732,6 @@ _detalhes_database = {
 ["level"] = 0,
 ["dungeon_zone_id"] = 0,
 ["previous_boss_killed_at"] = 0,
-},
-["combat_log"] = {
-["inverse_deathlog_overalldata"] = false,
-["track_hunter_frenzy"] = false,
-["merge_gemstones_1007"] = false,
-["merge_critical_heals"] = false,
-["inverse_deathlog_raid"] = false,
-["calc_evoker_damage"] = true,
-["evoker_show_realtimedps"] = false,
-["inverse_deathlog_mplus"] = false,
-},
-["data_harvested_for_charts"] = {
 },
 ["plugin_database"] = {
 ["DETAILS_PLUGIN_COMPARETWO_WINDOW"] = {
@@ -972,7 +749,7 @@ _detalhes_database = {
 1,
 0.5,
 },
-["scale"] = 1,
+["author"] = "Terciob",
 ["main_frame_size"] = {
 299.9999694824219,
 500.0000915527344,
@@ -982,22 +759,22 @@ _detalhes_database = {
 ["radius"] = 160,
 ["hide"] = false,
 },
-["point"] = "CENTER",
+["main_frame_locked"] = false,
 ["arrow_anchor_x"] = 0,
-["y"] = 1.52587890625e-05,
+["font_size"] = 10,
 ["row_texture"] = "Details Serenity",
 ["square_grow_direction"] = "right",
-["font_color"] = {
-1,
-1,
-1,
-1,
-},
-["row_height"] = 20,
+["arrow_anchor_y"] = 0,
+["use_spark"] = true,
 ["square_amount"] = 5,
 ["enabled"] = false,
 ["arrow_size"] = 10,
-["use_spark"] = true,
+["row_color"] = {
+0.1,
+0.1,
+0.1,
+0.4,
+},
 ["row_spacement"] = 21,
 ["main_frame_color"] = {
 0,
@@ -1007,12 +784,6 @@ _detalhes_database = {
 },
 ["main_frame_strata"] = "LOW",
 ["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
-["row_color"] = {
-0.1,
-0.1,
-0.1,
-0.4,
-},
 ["per_second"] = {
 ["enabled"] = false,
 ["point"] = "CENTER",
@@ -1020,24 +791,33 @@ _detalhes_database = {
 ["font_shadow"] = true,
 ["y"] = 0,
 ["x"] = 0,
+["attribute_type"] = 1,
 ["update_speed"] = 0.05,
 ["size"] = 32,
-["attribute_type"] = 1,
 },
+["y"] = 1.52587890625e-05,
 ["x"] = 0,
 ["font_face"] = "Friz Quadrata TT",
 ["square_size"] = 32,
-["arrow_anchor_y"] = 0,
-["font_size"] = 10,
-["main_frame_locked"] = false,
-["author"] = "Terciob",
+["point"] = "CENTER",
+["font_color"] = {
+1,
+1,
+1,
+1,
+},
+["row_height"] = 20,
+["scale"] = 1,
+},
+},
+["benchmark_db"] = {
+["frame"] = {
 },
 },
 ["SoloTablesSaved"] = {
 ["Mode"] = 1,
 },
-["mythic_plus_log"] = {
-},
+["on_death_menu"] = false,
 ["coach"] = {
 ["enabled"] = false,
 ["welcome_panel_pos"] = {
@@ -1048,19 +828,15 @@ _detalhes_database = {
 ["enabled"] = true,
 ["channel"] = "SELF",
 },
+["last_instance_time"] = 1769955825,
+["last_version"] = "12.0.1 14718",
+["combat_id"] = 16,
+["savedStyles"] = {
+},
+["last_realversion"] = 170,
 ["announce_firsthit"] = {
 ["enabled"] = true,
 ["channel"] = "SELF",
-},
-["last_realversion"] = 170,
-["last_version"] = "12.0.1 14655",
-["combat_id"] = 15,
-["savedStyles"] = {
-},
-["last_instance_time"] = 1769955825,
-["nick_tag_cache"] = {
-["nextreset"] = 1773135680,
-["last_version"] = 16,
 },
 ["announce_deaths"] = {
 ["enabled"] = false,
@@ -1077,14 +853,13 @@ _detalhes_database = {
 ["totalabsorbed"] = 0.054465,
 ["pets"] = {
 },
-["classe"] = "DEATHKNIGHT",
+["aID"] = "1305-0B16234D",
 ["total_without_pet"] = 0.054465,
 ["last_dps_realtime"] = 0,
 ["dps_started"] = false,
 ["total"] = 441230.001579,
 ["spec"] = 251,
-["friendlyfire"] = {
-},
+["on_hold"] = false,
 ["total_extra"] = 0,
 ["serial"] = "Player-1305-0B16234D",
 ["avoidable_damage"] = {
@@ -1097,7 +872,7 @@ _detalhes_database = {
 ["raid_targets"] = {
 },
 ["end_time"] = 1771840235,
-["on_hold"] = false,
+["classe"] = "DEATHKNIGHT",
 ["nome"] = "Hemoshuffle",
 ["spells"] = {
 ["_ActorTable"] = {
@@ -1105,7 +880,7 @@ _detalhes_database = {
 ["c_amt"] = 0,
 ["b_amt"] = 0,
 ["g_amt"] = 0,
-["b_dmg"] = 0,
+["n_max"] = 0,
 ["targets"] = {
 },
 ["n_total"] = 0,
@@ -1124,14 +899,14 @@ _detalhes_database = {
 ["successful_casted"] = 0,
 ["c_total"] = 0,
 ["n_amt"] = 0,
-["n_max"] = 0,
+["b_dmg"] = 0,
 ["r_amt"] = 0,
 },
 [222024] = {
 ["c_amt"] = 0,
 ["b_amt"] = 0,
 ["g_amt"] = 0,
-["b_dmg"] = 0,
+["n_max"] = 0,
 ["targets"] = {
 },
 ["n_total"] = 0,
@@ -1150,14 +925,14 @@ _detalhes_database = {
 ["successful_casted"] = 0,
 ["c_total"] = 0,
 ["n_amt"] = 0,
-["n_max"] = 0,
+["b_dmg"] = 0,
 ["r_amt"] = 0,
 },
 [55095] = {
 ["c_amt"] = 0,
 ["b_amt"] = 0,
 ["g_amt"] = 0,
-["b_dmg"] = 0,
+["n_max"] = 0,
 ["targets"] = {
 },
 ["n_total"] = 0,
@@ -1176,40 +951,14 @@ _detalhes_database = {
 ["successful_casted"] = 0,
 ["c_total"] = 0,
 ["n_amt"] = 0,
-["n_max"] = 0,
-["r_amt"] = 0,
-},
-[49143] = {
-["c_amt"] = 0,
-["b_amt"] = 0,
-["g_amt"] = 0,
 ["b_dmg"] = 0,
-["targets"] = {
-},
-["n_total"] = 0,
-["n_min"] = 0,
-["g_dmg"] = 0,
-["counter"] = 3,
-["total"] = 6928,
-["c_max"] = 0,
-["id"] = 49143,
-["r_dmg"] = 0,
-["extra"] = {
-},
-["a_dmg"] = 0,
-["a_amt"] = 0,
-["c_min"] = 0,
-["successful_casted"] = 0,
-["c_total"] = 0,
-["n_amt"] = 0,
-["n_max"] = 0,
 ["r_amt"] = 0,
 },
 [222026] = {
 ["c_amt"] = 0,
 ["b_amt"] = 0,
 ["g_amt"] = 0,
-["b_dmg"] = 0,
+["n_max"] = 0,
 ["targets"] = {
 },
 ["n_total"] = 0,
@@ -1228,14 +977,14 @@ _detalhes_database = {
 ["successful_casted"] = 0,
 ["c_total"] = 0,
 ["n_amt"] = 0,
-["n_max"] = 0,
+["b_dmg"] = 0,
 ["r_amt"] = 0,
 },
 [409632] = {
 ["c_amt"] = 0,
 ["b_amt"] = 0,
 ["g_amt"] = 0,
-["b_dmg"] = 0,
+["n_max"] = 0,
 ["targets"] = {
 },
 ["n_total"] = 0,
@@ -1254,14 +1003,40 @@ _detalhes_database = {
 ["successful_casted"] = 0,
 ["c_total"] = 0,
 ["n_amt"] = 0,
+["b_dmg"] = 0,
+["r_amt"] = 0,
+},
+[49143] = {
+["c_amt"] = 0,
+["b_amt"] = 0,
+["g_amt"] = 0,
 ["n_max"] = 0,
+["targets"] = {
+},
+["n_total"] = 0,
+["n_min"] = 0,
+["g_dmg"] = 0,
+["counter"] = 3,
+["total"] = 6928,
+["c_max"] = 0,
+["id"] = 49143,
+["r_dmg"] = 0,
+["extra"] = {
+},
+["a_dmg"] = 0,
+["a_amt"] = 0,
+["c_min"] = 0,
+["successful_casted"] = 0,
+["c_total"] = 0,
+["n_amt"] = 0,
+["b_dmg"] = 0,
 ["r_amt"] = 0,
 },
 [1264082] = {
 ["c_amt"] = 0,
 ["b_amt"] = 0,
 ["g_amt"] = 0,
-["b_dmg"] = 0,
+["n_max"] = 0,
 ["targets"] = {
 },
 ["n_total"] = 0,
@@ -1280,14 +1055,14 @@ _detalhes_database = {
 ["successful_casted"] = 0,
 ["c_total"] = 0,
 ["n_amt"] = 0,
-["n_max"] = 0,
+["b_dmg"] = 0,
 ["r_amt"] = 0,
 },
 [1264083] = {
 ["c_amt"] = 0,
 ["b_amt"] = 0,
 ["g_amt"] = 0,
-["b_dmg"] = 0,
+["n_max"] = 0,
 ["targets"] = {
 },
 ["n_total"] = 0,
@@ -1306,14 +1081,14 @@ _detalhes_database = {
 ["successful_casted"] = 0,
 ["c_total"] = 0,
 ["n_amt"] = 0,
-["n_max"] = 0,
+["b_dmg"] = 0,
 ["r_amt"] = 0,
 },
 [194913] = {
 ["c_amt"] = 0,
 ["b_amt"] = 0,
 ["g_amt"] = 0,
-["b_dmg"] = 0,
+["n_max"] = 0,
 ["targets"] = {
 },
 ["n_total"] = 0,
@@ -1332,14 +1107,14 @@ _detalhes_database = {
 ["successful_casted"] = 0,
 ["c_total"] = 0,
 ["n_amt"] = 0,
-["n_max"] = 0,
+["b_dmg"] = 0,
 ["r_amt"] = 0,
 },
 [49020] = {
 ["c_amt"] = 0,
 ["b_amt"] = 0,
 ["g_amt"] = 0,
-["b_dmg"] = 0,
+["n_max"] = 0,
 ["targets"] = {
 },
 ["n_total"] = 0,
@@ -1358,14 +1133,14 @@ _detalhes_database = {
 ["successful_casted"] = 0,
 ["c_total"] = 0,
 ["n_amt"] = 0,
-["n_max"] = 0,
+["b_dmg"] = 0,
 ["r_amt"] = 0,
 },
 [1217091] = {
 ["c_amt"] = 0,
 ["b_amt"] = 0,
 ["g_amt"] = 0,
-["b_dmg"] = 0,
+["n_max"] = 0,
 ["targets"] = {
 },
 ["n_total"] = 0,
@@ -1384,14 +1159,14 @@ _detalhes_database = {
 ["successful_casted"] = 0,
 ["c_total"] = 0,
 ["n_amt"] = 0,
-["n_max"] = 0,
+["b_dmg"] = 0,
 ["r_amt"] = 0,
 },
 [6603] = {
 ["c_amt"] = 0,
 ["b_amt"] = 0,
 ["g_amt"] = 0,
-["b_dmg"] = 0,
+["n_max"] = 0,
 ["targets"] = {
 },
 ["n_total"] = 0,
@@ -1410,14 +1185,14 @@ _detalhes_database = {
 ["successful_casted"] = 0,
 ["c_total"] = 0,
 ["n_amt"] = 0,
-["n_max"] = 0,
+["b_dmg"] = 0,
 ["r_amt"] = 0,
 },
 [49184] = {
 ["c_amt"] = 0,
 ["b_amt"] = 0,
 ["g_amt"] = 0,
-["b_dmg"] = 0,
+["n_max"] = 0,
 ["targets"] = {
 },
 ["n_total"] = 0,
@@ -1436,14 +1211,15 @@ _detalhes_database = {
 ["successful_casted"] = 0,
 ["c_total"] = 0,
 ["n_amt"] = 0,
-["n_max"] = 0,
+["b_dmg"] = 0,
 ["r_amt"] = 0,
 },
 },
 ["tipo"] = 2,
 },
 ["grupo"] = true,
-["aID"] = "1305-0B16234D",
+["friendlyfire"] = {
+},
 ["last_event"] = 0,
 ["custom"] = 0,
 ["tipo"] = 1,
@@ -1459,16 +1235,17 @@ _detalhes_database = {
 ["_ActorTable"] = {
 {
 ["flag_original"] = 1298,
-["targets_overheal"] = {
+["healing_from"] = {
 },
 ["pets"] = {
 },
 ["iniciar_hps"] = false,
-["classe"] = "DEATHKNIGHT",
+["heal_enemy_amt"] = 0,
 ["totalover"] = 0.006710000000000001,
 ["total_without_pet"] = 0.006710000000000001,
 ["total"] = 19145.004105,
-["spec"] = 251,
+["targets_absorbs"] = {
+},
 ["heal_enemy"] = {
 },
 ["on_hold"] = false,
@@ -1481,9 +1258,9 @@ _detalhes_database = {
 ["last_event"] = 0,
 ["healing_taken"] = 0.006710000000000001,
 ["end_time"] = 1771841647,
-["healing_from"] = {
-},
 ["aID"] = "1305-0B16234D",
+["targets_overheal"] = {
+},
 ["nome"] = "Hemoshuffle",
 ["spells"] = {
 ["_ActorTable"] = {
@@ -1515,13 +1292,12 @@ _detalhes_database = {
 },
 ["grupo"] = true,
 ["start_time"] = 1771841644,
-["heal_enemy_amt"] = 0,
+["classe"] = "DEATHKNIGHT",
 ["custom"] = 0,
 ["tipo"] = 2,
 ["totaldenied"] = 0.006710000000000001,
 ["delay"] = 0,
-["targets_absorbs"] = {
-},
+["spec"] = 251,
 },
 },
 },
@@ -1549,9 +1325,7 @@ _detalhes_database = {
 },
 ["bossTimers"] = {
 },
-["cleu_events"] = {
-["n"] = 1,
-},
+["combat_counter"] = 19,
 ["playerTalents"] = {
 },
 ["totals"] = {
@@ -1613,10 +1387,6 @@ _detalhes_database = {
 },
 ["compressed_charts"] = {
 },
-["data_inicio"] = "10:50:12",
-["end_time"] = 515912.09,
-["mapId"] = 0,
-["boss_hp"] = 1,
 ["PhaseData"] = {
 {
 1,
@@ -1631,18 +1401,12 @@ _detalhes_database = {
 ["damage"] = {
 },
 },
-["is_challenge"] = false,
-["frags"] = {
-},
-["combat_counter"] = 19,
-["overall_enemy_name"] = "Unknown",
+["end_time"] = 515912.09,
+["mapId"] = 0,
+["boss_hp"] = 1,
 ["player_last_events"] = {
 },
-["spells_cast_timeline"] = {
-},
-["start_time"] = 515570.8399999999,
-["TimeData"] = {
-},
+["is_challenge"] = false,
 ["segments_added"] = {
 {
 ["elapsed"] = 41.56800000002841,
@@ -1717,18 +1481,29 @@ _detalhes_database = {
 ["clock"] = "10:50:12",
 },
 },
+["cleu_events"] = {
+["n"] = 1,
 },
-["on_death_menu"] = false,
+["overall_enemy_name"] = "Unknown",
+["spells_cast_timeline"] = {
+},
+["data_inicio"] = "10:50:12",
+["start_time"] = 515570.8399999999,
+["TimeData"] = {
+},
+["frags"] = {
+},
+},
+["mythic_plus_log"] = {
+},
 ["arena_data_headers"] = {
 },
-["benchmark_db"] = {
-["frame"] = {
-},
+["data_harvested_for_charts"] = {
 },
 ["announce_cooldowns"] = {
-["enabled"] = false,
 ["ignored_cooldowns"] = {
 },
+["enabled"] = false,
 ["custom"] = "",
 ["channel"] = "RAID",
 },
@@ -1736,7 +1511,7 @@ _detalhes_database = {
 ["last_difficulty"] = 15,
 ["last_raid"] = "",
 },
-["damage_meter_session_info"] = {
+["cached_roles"] = {
 },
 ["cached_specs"] = {
 ["Player-1305-0B16234D"] = 251,

@@ -6,7 +6,9 @@ DelveSpeedTrackerDB = {
 -1987.999389648438,
 -43,
 },
+["layoutDebugOverlay"] = false,
 ["helpTipShown"] = true,
+["tomtomArrowsEnabled"] = true,
 ["windowShown"] = false,
 ["minimap"] = {
 ["minimapPos"] = 220,

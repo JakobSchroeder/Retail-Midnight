@@ -1,13 +1,14 @@
 
 ClassicQuestLogSettings = {
 ["HighContrast"] = false,
-["XPos"] = 932.4999389648438,
+["XPos"] = 931.4999389648438,
 ["ShowFromObjectiveTracker"] = true,
 ["UseLargerScale"] = false,
 ["LastVersion"] = 30111,
 ["PerCharacterPosition"] = false,
 ["MinimapPosition"] = 164,
-["ShowResizeGrip"] = true,
+["LockWindow"] = false,
+["HideWarbandNotice"] = false,
 ["HideExtraLogBadges"] = false,
 ["HideExtraDetailBadges"] = false,
 ["ShowDefaultQuestPortrait"] = false,
@@ -20,6 +21,6 @@ ClassicQuestLogSettings = {
 ["ShowLevels"] = false,
 ["Height"] = 496.0000610351563,
 ["YPos"] = 471.9999694824219,
-["HideWarbandNotice"] = false,
-["LockWindow"] = false,
+["ShowResizeGrip"] = true,
+["ShowQuestID"] = false,
 }

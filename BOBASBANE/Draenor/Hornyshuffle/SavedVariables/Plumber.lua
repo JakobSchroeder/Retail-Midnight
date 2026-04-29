@@ -2,40 +2,28 @@
 PlumberDB_PC = {
 ["DelvesRecords"] = {
 {
-["instanceID"] = 2963,
-["uiMapID"] = 2510,
-["time"] = 1772401785,
-["tier"] = 3,
+["instanceID"] = 3003,
+["uiMapID"] = 2525,
+["time"] = 1776954648,
+["tier"] = 8,
 },
 {
-["instanceID"] = 2961,
-["uiMapID"] = 2504,
-["time"] = 1772394482,
-["tier"] = 3,
+["instanceID"] = 2965,
+["uiMapID"] = 2571,
+["time"] = 1776851336,
+["tier"] = 8,
 },
 {
 ["instanceID"] = 2962,
 ["uiMapID"] = 2535,
-["time"] = 1772381549,
-["tier"] = 3,
-},
-{
-["instanceID"] = 2933,
-["uiMapID"] = 2547,
-["time"] = 1772317074,
-["tier"] = 3,
+["time"] = 1776850360,
+["tier"] = 8,
 },
 {
 ["instanceID"] = 2952,
 ["uiMapID"] = 2502,
-["time"] = 1772315027,
-["tier"] = 3,
-},
-{
-["instanceID"] = 2952,
-["uiMapID"] = 2502,
-["time"] = 1772314121,
-["tier"] = 3,
+["time"] = 1776268598,
+["tier"] = 8,
 },
 },
 }

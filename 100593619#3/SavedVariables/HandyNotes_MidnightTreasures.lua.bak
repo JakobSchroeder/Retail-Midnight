@@ -25,11 +25,11 @@ HandyNotes_MidnightTreasuresDB = {
 ["Yumpshuffle - Kazzak"] = "Yumpshuffle - Kazzak",
 ["Bankshuffle - Draenor"] = "Bankshuffle - Draenor",
 ["Faceshuffle - Draenor"] = "Faceshuffle - Draenor",
-["Monkashuffle - Kazzak"] = "Monkashuffle - Kazzak",
+["Reapshuffle - Laughing Skull"] = "Reapshuffle - Laughing Skull",
 ["Smashuffle - Laughing Skull"] = "Smashuffle - Laughing Skull",
-["Roboshuffle - Ravencrest"] = "Roboshuffle - Ravencrest",
+["Subshuffle - Ravencrest"] = "Subshuffle - Ravencrest",
 ["Soapshuffle - Kazzak"] = "Soapshuffle - Kazzak",
-["Preshuffle - Kazzak"] = "Preshuffle - Kazzak",
+["Ratshuffle - Kazzak"] = "Ratshuffle - Kazzak",
 ["Kickshuffle - Kazzak"] = "Kickshuffle - Kazzak",
 ["Moonshuffle - Draenor"] = "Moonshuffle - Draenor",
 ["Pairshuffle - Kazzak"] = "Pairshuffle - Kazzak",
@@ -37,10 +37,10 @@ HandyNotes_MidnightTreasuresDB = {
 ["Forceshuffle - Draenor"] = "Forceshuffle - Draenor",
 ["Bankpshuffle - Laughing Skull"] = "Bankpshuffle - Laughing Skull",
 ["Gunshuffle - Kazzak"] = "Gunshuffle - Kazzak",
-["Ratshuffle - Kazzak"] = "Ratshuffle - Kazzak",
-["Subshuffle - Ravencrest"] = "Subshuffle - Ravencrest",
+["Preshuffle - Kazzak"] = "Preshuffle - Kazzak",
+["Roboshuffle - Ravencrest"] = "Roboshuffle - Ravencrest",
 ["Floorshuffle - Ravencrest"] = "Floorshuffle - Ravencrest",
-["Reapshuffle - Laughing Skull"] = "Reapshuffle - Laughing Skull",
+["Monkashuffle - Kazzak"] = "Monkashuffle - Kazzak",
 },
 ["profiles"] = {
 ["Avoidshuffle - Laughing Skull"] = {
@@ -91,15 +91,15 @@ HandyNotes_MidnightTreasuresDB = {
 },
 ["Faceshuffle - Draenor"] = {
 },
-["Monkashuffle - Kazzak"] = {
+["Reapshuffle - Laughing Skull"] = {
 },
 ["Smashuffle - Laughing Skull"] = {
 },
-["Roboshuffle - Ravencrest"] = {
+["Subshuffle - Ravencrest"] = {
 },
 ["Soapshuffle - Kazzak"] = {
 },
-["Preshuffle - Kazzak"] = {
+["Ratshuffle - Kazzak"] = {
 },
 ["Kickshuffle - Kazzak"] = {
 },
@@ -115,13 +115,13 @@ HandyNotes_MidnightTreasuresDB = {
 },
 ["Gunshuffle - Kazzak"] = {
 },
-["Ratshuffle - Kazzak"] = {
+["Preshuffle - Kazzak"] = {
 },
-["Subshuffle - Ravencrest"] = {
+["Roboshuffle - Ravencrest"] = {
 },
 ["Floorshuffle - Ravencrest"] = {
 },
-["Reapshuffle - Laughing Skull"] = {
+["Monkashuffle - Kazzak"] = {
 },
 },
 }

@@ -99,3 +99,14 @@ Blizzard_ObjectiveTracker: enabled
 Blizzard_CompactRaidFrames: enabled
 OPie_Classic: disabled
 Blizzard_CombatText: enabled
+!Swatter: disabled
+!ImprovedErrorFrame: disabled
+M33Auras: enabled
+WeakAuras: enabled
+M33kAurasCompanion: enabled
+M33kAurasArchive: enabled
+BigWigs_MidnightWorld: enabled
+Blizzard_CharacterFrame: enabled
+Blizzard_ChallengesUI: enabled
+Blizzard_EncounterJournal: enabled
+Blizzard_Transmog: enabled

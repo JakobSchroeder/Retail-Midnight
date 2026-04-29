@@ -1,5 +1,11 @@
 
 LuckyoneDB = {
+["global"] = {
+["dev"] = true,
+["install_version"] = 3.33,
+["DebugDisabledAddOns"] = {
+},
+},
 ["profileKeys"] = {
 ["Avoidshuffle - Laughing Skull"] = "Default",
 ["Necroshuffle - Kazzak"] = "Default",
@@ -25,11 +31,11 @@ LuckyoneDB = {
 ["Yumpshuffle - Kazzak"] = "Default",
 ["Bankshuffle - Draenor"] = "Default",
 ["Faceshuffle - Draenor"] = "Default",
-["Reapshuffle - Laughing Skull"] = "Default",
+["Subshuffle - Ravencrest"] = "Default",
 ["Cloakshuffle - Draenor"] = "Default",
-["Quakeshuffle - Draenor"] = "Default",
+["Kafirshuffle - Draenor"] = "Default",
 ["Soapshuffle - Kazzak"] = "Default",
-["Chaosshuffle - Draenor"] = "Default",
+["Monkashuffle - Kazzak"] = "Default",
 ["Feintshuffle - Kazzak"] = "Default",
 ["Moonshuffle - Draenor"] = "Default",
 ["Pairshuffle - Kazzak"] = "Default",
@@ -37,16 +43,10 @@ LuckyoneDB = {
 ["Forceshuffle - Draenor"] = "Default",
 ["Bankpshuffle - Laughing Skull"] = "Default",
 ["Gunshuffle - Kazzak"] = "Default",
-["Monkashuffle - Kazzak"] = "Default",
-["Kafirshuffle - Draenor"] = "Default",
+["Chaosshuffle - Draenor"] = "Default",
+["Quakeshuffle - Draenor"] = "Default",
 ["Floorshuffle - Ravencrest"] = "Default",
-["Subshuffle - Ravencrest"] = "Default",
-},
-["global"] = {
-["dev"] = true,
-["install_version"] = 3.33,
-["DebugDisabledAddOns"] = {
-},
+["Reapshuffle - Laughing Skull"] = "Default",
 },
 ["profiles"] = {
 ["Default"] = {
@@ -56,22 +56,22 @@ LuckyoneDB = {
 },
 ["disabledFrames"] = {
 ["HousingDecorAlerts"] = true,
-["BossBanner"] = true,
 ["AlertFrame"] = true,
+["BossBanner"] = true,
 },
 ["skins"] = {
 ["LFGBulletinBoard"] = true,
+["NovaSpellRankChecker"] = true,
 ["DejaClassicStats"] = true,
-["WhatsTraining"] = true,
 ["BugSack"] = true,
 ["NovaWorldBuffs"] = true,
 ["LeatrixPlus"] = true,
 ["Tabardy"] = true,
-["NovaSpellRankChecker"] = true,
+["WhatsTraining"] = true,
 },
 ["qualityOfLife"] = {
-["easyDelete"] = true,
 ["privacyOverlay"] = true,
+["easyDelete"] = true,
 },
 ["minimap"] = {
 ["minimapPos"] = 358.5312238871533,

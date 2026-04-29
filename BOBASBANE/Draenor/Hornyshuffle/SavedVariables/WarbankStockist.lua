@@ -1,0 +1,4 @@
+
+WarbandStorageCharData = {
+["enableExcessDeposit"] = true,
+}

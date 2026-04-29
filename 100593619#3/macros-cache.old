@@ -53,10 +53,7 @@ VER 3 0000000000000109 "Potion" "134400"
 /use item:212263
 END
 VER 3 000000000000011F "RXPTargeting" "Ability_eyeoftheowl"
-/targetexact Opportunistic Sporeglider
-/targetexact Battling Moldstalker
-/targetexact Battling Mycomancer
-/targetexact Battling Rotseeker
+/targetexact Recruit Dar'rak
 /targetlasttarget [dead]
 END
 VER 3 000000000000011A "Self PWS" "INV_Misc_QuestionMark"

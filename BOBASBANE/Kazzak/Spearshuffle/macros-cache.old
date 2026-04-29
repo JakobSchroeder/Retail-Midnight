@@ -1,6 +1,21 @@
+VER 3 0100000000000005 "binding" "134400"
+#showtooltip
+/cast [@cursor] Binding Shot
+END
+VER 3 0100000000000004 "Countershot" "134400"
+#showtooltip
+/cast [@focus,nodead,exists,harm] Counter Shot
+END
 VER 3 0100000000000002 "Flare" "134400"
 #showtooltip
 /cast [@cursor] Flare
+END
+VER 3 0100000000000003 "MD" "134400"
+#showtooltip
+/cast [@party1,nodead,help,exists][] Misdirection
+END
+VER 3 0100000000000006 "noturtle" "134400"
+/cancelaura Aspect of the Turtle
 END
 VER 3 0100000000000001 "Volley" "134400"
 #showtooltip

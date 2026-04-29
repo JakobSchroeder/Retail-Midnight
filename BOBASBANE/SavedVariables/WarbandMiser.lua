@@ -1,65 +1,5 @@
 
 WarbandMiserDB = {
-["Settings"] = {
-["Bracket1"] = 50,
-["Bracket2"] = 10000,
-["Bracket6"] = 10000,
-["Servers"] = {
-["TwistingNether"] = {
-["Default"] = 0,
-},
-["Blackrock"] = {
-["Default"] = 0,
-},
-["LaughingSkull"] = {
-["Default"] = 0,
-},
-["Ravencrest"] = {
-["Default"] = 0,
-},
-["Draenor"] = {
-["Default"] = 0,
-},
-["Kazzak"] = {
-["Default"] = 0,
-},
-["Auchindoun"] = {
-["Default"] = 0,
-},
-},
-["Range"] = {
-{
-["low"] = 1,
-["high"] = 89,
-},
-{
-["low"] = 80,
-["high"] = 90,
-},
-{
-["low"] = 80,
-["high"] = 90,
-},
-{
-["low"] = 80,
-["high"] = 80,
-},
-{
-["low"] = 80,
-["high"] = 90,
-},
-{
-["low"] = 80,
-["high"] = 90,
-},
-},
-["IncludeNew"] = true,
-["DepositOnly"] = false,
-["MinGold"] = 2000,
-["Bracket5"] = 10000,
-["Bracket3"] = 10000,
-["Bracket4"] = 10000,
-},
 ["Toons"] = {
 ["TwistingNether"] = {
 ["Udartton"] = {
@@ -116,7 +56,7 @@ WarbandMiserDB = {
 ["ServerDefault"] = false,
 ["AllGold"] = false,
 },
-["Apollumi"] = {
+["Punctuation"] = {
 ["GoldCap"] = 50,
 ["Defaults"] = true,
 ["Gold"] = 500000,
@@ -152,7 +92,7 @@ WarbandMiserDB = {
 ["ServerDefault"] = false,
 ["AllGold"] = false,
 },
-["Punctuation"] = {
+["Apollumi"] = {
 ["GoldCap"] = 50,
 ["Defaults"] = true,
 ["Gold"] = 500000,
@@ -219,16 +159,16 @@ WarbandMiserDB = {
 ["ServerDefault"] = false,
 ["AllGold"] = false,
 },
-["Bankshuffle"] = {
-["GoldCap"] = 50,
+["Ghostshuffle"] = {
+["GoldCap"] = 10000,
 ["Defaults"] = true,
-["Gold"] = 500000,
+["Gold"] = 87202374,
 ["Include"] = true,
-["Level"] = 1,
+["Level"] = 80,
 ["ServerDefault"] = false,
 ["AllGold"] = false,
 },
-["Postshuffle"] = {
+["Smashuffle"] = {
 ["GoldCap"] = 10000,
 ["Defaults"] = true,
 ["Gold"] = 0,
@@ -240,18 +180,18 @@ WarbandMiserDB = {
 ["Tradushuffle"] = {
 ["GoldCap"] = 10000,
 ["Defaults"] = true,
-["Gold"] = 145835634,
+["Gold"] = 191236689,
 ["Include"] = true,
 ["Level"] = 90,
 ["ServerDefault"] = false,
 ["AllGold"] = false,
 },
-["Ghostshuffle"] = {
-["GoldCap"] = 10000,
+["Bankshuffle"] = {
+["GoldCap"] = 50,
 ["Defaults"] = true,
-["Gold"] = 87202374,
+["Gold"] = 500000,
 ["Include"] = true,
-["Level"] = 80,
+["Level"] = 1,
 ["ServerDefault"] = false,
 ["AllGold"] = false,
 },
@@ -264,7 +204,7 @@ WarbandMiserDB = {
 ["ServerDefault"] = false,
 ["AllGold"] = false,
 },
-["Smashuffle"] = {
+["Postshuffle"] = {
 ["GoldCap"] = 10000,
 ["Defaults"] = true,
 ["Gold"] = 0,
@@ -311,7 +251,7 @@ WarbandMiserDB = {
 ["ServerDefault"] = false,
 ["AllGold"] = false,
 },
-["Floorshuffle"] = {
+["Cantshuffle"] = {
 ["GoldCap"] = 50,
 ["Defaults"] = true,
 ["Gold"] = 500000,
@@ -329,7 +269,7 @@ WarbandMiserDB = {
 ["ServerDefault"] = false,
 ["AllGold"] = false,
 },
-["Cantshuffle"] = {
+["Ripinpeach"] = {
 ["GoldCap"] = 50,
 ["Defaults"] = true,
 ["Gold"] = 500000,
@@ -383,7 +323,7 @@ WarbandMiserDB = {
 ["ServerDefault"] = false,
 ["AllGold"] = false,
 },
-["Unshuffle"] = {
+["Justshuffle"] = {
 ["GoldCap"] = 50,
 ["Defaults"] = true,
 ["Gold"] = 500000,
@@ -401,7 +341,7 @@ WarbandMiserDB = {
 ["ServerDefault"] = false,
 ["AllGold"] = false,
 },
-["Justshuffle"] = {
+["Unshuffle"] = {
 ["GoldCap"] = 50,
 ["Defaults"] = true,
 ["Gold"] = 500000,
@@ -410,7 +350,7 @@ WarbandMiserDB = {
 ["ServerDefault"] = false,
 ["AllGold"] = false,
 },
-["Ripinpeach"] = {
+["Floorshuffle"] = {
 ["GoldCap"] = 50,
 ["Defaults"] = true,
 ["Gold"] = 500000,
@@ -421,7 +361,7 @@ WarbandMiserDB = {
 },
 },
 ["Draenor"] = {
-["Kafirshuffle"] = {
+["Polyshuffle"] = {
 ["GoldCap"] = 50,
 ["Defaults"] = true,
 ["Gold"] = 500000,
@@ -430,12 +370,12 @@ WarbandMiserDB = {
 ["ServerDefault"] = false,
 ["AllGold"] = false,
 },
-["Hornyshuffle"] = {
-["GoldCap"] = 10000,
+["Moonshuffle"] = {
+["GoldCap"] = 50,
 ["Defaults"] = true,
-["Gold"] = 91863783,
+["Gold"] = 500000,
 ["Include"] = true,
-["Level"] = 90,
+["Level"] = 70,
 ["ServerDefault"] = false,
 ["AllGold"] = false,
 },
@@ -466,6 +406,33 @@ WarbandMiserDB = {
 ["ServerDefault"] = false,
 ["AllGold"] = false,
 },
+["Faithshuffle"] = {
+["GoldCap"] = 50,
+["Defaults"] = true,
+["Gold"] = 778296,
+["Include"] = true,
+["Level"] = 70,
+["ServerDefault"] = false,
+["AllGold"] = false,
+},
+["Forceshuffle"] = {
+["GoldCap"] = 50,
+["Defaults"] = true,
+["Gold"] = 500000,
+["Include"] = true,
+["Level"] = 70,
+["ServerDefault"] = false,
+["AllGold"] = false,
+},
+["Kafirshuffle"] = {
+["GoldCap"] = 50,
+["Defaults"] = true,
+["Gold"] = 500000,
+["Include"] = true,
+["Level"] = 70,
+["ServerDefault"] = false,
+["AllGold"] = false,
+},
 ["Chaosshuffle"] = {
 ["GoldCap"] = 50,
 ["Defaults"] = true,
@@ -481,33 +448,6 @@ WarbandMiserDB = {
 ["Gold"] = 500000,
 ["Include"] = true,
 ["Level"] = 70,
-["ServerDefault"] = false,
-["AllGold"] = false,
-},
-["Polyshuffle"] = {
-["GoldCap"] = 50,
-["Defaults"] = true,
-["Gold"] = 500000,
-["Include"] = true,
-["Level"] = 70,
-["ServerDefault"] = false,
-["AllGold"] = false,
-},
-["Cryoshuffle"] = {
-["GoldCap"] = 50,
-["Defaults"] = true,
-["Gold"] = 500000,
-["Include"] = true,
-["Level"] = 70,
-["ServerDefault"] = false,
-["AllGold"] = false,
-},
-["Leshuffle"] = {
-["GoldCap"] = 10000,
-["Defaults"] = true,
-["Gold"] = 0,
-["Include"] = true,
-["Level"] = 80,
 ["ServerDefault"] = false,
 ["AllGold"] = false,
 },
@@ -529,7 +469,16 @@ WarbandMiserDB = {
 ["ServerDefault"] = false,
 ["AllGold"] = false,
 },
-["Forceshuffle"] = {
+["Leshuffle"] = {
+["GoldCap"] = 10000,
+["Defaults"] = true,
+["Gold"] = 0,
+["Include"] = true,
+["Level"] = 80,
+["ServerDefault"] = false,
+["AllGold"] = false,
+},
+["Cryoshuffle"] = {
 ["GoldCap"] = 50,
 ["Defaults"] = true,
 ["Gold"] = 500000,
@@ -538,21 +487,12 @@ WarbandMiserDB = {
 ["ServerDefault"] = false,
 ["AllGold"] = false,
 },
-["Faithshuffle"] = {
-["GoldCap"] = 50,
+["Hornyshuffle"] = {
+["GoldCap"] = 10000,
 ["Defaults"] = true,
-["Gold"] = 778296,
+["Gold"] = 2156657310,
 ["Include"] = true,
-["Level"] = 70,
-["ServerDefault"] = false,
-["AllGold"] = false,
-},
-["Moonshuffle"] = {
-["GoldCap"] = 50,
-["Defaults"] = true,
-["Gold"] = 500000,
-["Include"] = true,
-["Level"] = 70,
+["Level"] = 90,
 ["ServerDefault"] = false,
 ["AllGold"] = false,
 },
@@ -562,6 +502,17 @@ WarbandMiserDB = {
 ["Gold"] = 500000,
 ["Include"] = true,
 ["Level"] = 70,
+["ServerDefault"] = false,
+["AllGold"] = false,
+},
+},
+["Eredar"] = {
+["Legshuffle"] = {
+["GoldCap"] = 50,
+["Defaults"] = true,
+["Gold"] = 0,
+["Include"] = true,
+["Level"] = 10,
 ["ServerDefault"] = false,
 ["AllGold"] = false,
 },
@@ -585,12 +536,12 @@ WarbandMiserDB = {
 ["ServerDefault"] = false,
 ["AllGold"] = false,
 },
-["Dotshuffle"] = {
-["GoldCap"] = 50,
+["Intshuffle"] = {
+["GoldCap"] = 10000,
 ["Defaults"] = true,
-["Gold"] = 669362,
+["Gold"] = 320856545,
 ["Include"] = true,
-["Level"] = 70,
+["Level"] = 90,
 ["ServerDefault"] = false,
 ["AllGold"] = false,
 },
@@ -603,12 +554,12 @@ WarbandMiserDB = {
 ["ServerDefault"] = false,
 ["AllGold"] = false,
 },
-["Intshuffle"] = {
-["GoldCap"] = 10000,
+["Trickshuffle"] = {
+["GoldCap"] = 50,
 ["Defaults"] = true,
-["Gold"] = 217260960,
+["Gold"] = 500000,
 ["Include"] = true,
-["Level"] = 90,
+["Level"] = 70,
 ["ServerDefault"] = false,
 ["AllGold"] = false,
 },
@@ -621,41 +572,39 @@ WarbandMiserDB = {
 ["ServerDefault"] = false,
 ["AllGold"] = false,
 },
-["Hemoshuffle"] = {
-["GoldCap"] = 10000,
+["Preshuffle"] = {
+["GoldCap"] = 50,
 ["Defaults"] = true,
-["Gold"] = 100000000,
+["Gold"] = 500000,
 ["Include"] = true,
-["Level"] = 80,
+["Level"] = 70,
 ["ServerDefault"] = false,
 ["AllGold"] = false,
 },
 ["Teashuffle"] = {
 ["GoldCap"] = 10000,
 ["Defaults"] = true,
-["Gold"] = 514198,
+["Gold"] = 500000,
 ["Include"] = true,
 ["Level"] = 81,
 ["ServerDefault"] = false,
 ["AllGold"] = false,
 },
-["Angelshuffle"] = {
-["GoldCap"] = 50,
+["Spearshuffle"] = {
+["GoldCap"] = 10000,
 ["Defaults"] = true,
-["Gold"] = 500000,
+["Gold"] = 101516161,
 ["Include"] = true,
-["Level"] = 70,
+["Level"] = 90,
 ["ServerDefault"] = false,
 ["AllGold"] = false,
 },
-["Jumpshuffle"] = {
+["Rockshuffle"] = {
 ["GoldCap"] = 50,
 ["Defaults"] = true,
-["Gold"] = 500000,
+["Gold"] = 23430,
+["Level"] = 50,
 ["Include"] = true,
-["Level"] = 70,
-["ServerDefault"] = false,
-["AllGold"] = false,
 },
 ["Necroshuffle"] = {
 ["GoldCap"] = 50,
@@ -666,12 +615,12 @@ WarbandMiserDB = {
 ["ServerDefault"] = false,
 ["AllGold"] = false,
 },
-["Tectoshuffle"] = {
-["GoldCap"] = 50,
+["Soapshuffle"] = {
+["GoldCap"] = 10000,
 ["Defaults"] = true,
-["Gold"] = 500000,
+["Gold"] = 100000000,
 ["Include"] = true,
-["Level"] = 70,
+["Level"] = 80,
 ["ServerDefault"] = false,
 ["AllGold"] = false,
 },
@@ -684,23 +633,7 @@ WarbandMiserDB = {
 ["ServerDefault"] = false,
 ["AllGold"] = false,
 },
-["Rockshuffle"] = {
-["GoldCap"] = 50,
-["Defaults"] = true,
-["Gold"] = 23430,
-["Level"] = 50,
-["Include"] = true,
-},
-["Soapshuffle"] = {
-["GoldCap"] = 10000,
-["Defaults"] = true,
-["Gold"] = 100000000,
-["Include"] = true,
-["Level"] = 80,
-["ServerDefault"] = false,
-["AllGold"] = false,
-},
-["Angleshuffle"] = {
+["Jumpshuffle"] = {
 ["GoldCap"] = 50,
 ["Defaults"] = true,
 ["Gold"] = 500000,
@@ -719,6 +652,24 @@ WarbandMiserDB = {
 ["AllGold"] = false,
 },
 ["Banishuffle"] = {
+["GoldCap"] = 50,
+["Defaults"] = true,
+["Gold"] = 500000,
+["Include"] = true,
+["Level"] = 70,
+["ServerDefault"] = false,
+["AllGold"] = false,
+},
+["Tectoshuffle"] = {
+["GoldCap"] = 50,
+["Defaults"] = true,
+["Gold"] = 500000,
+["Include"] = true,
+["Level"] = 70,
+["ServerDefault"] = false,
+["AllGold"] = false,
+},
+["Angleshuffle"] = {
 ["GoldCap"] = 50,
 ["Defaults"] = true,
 ["Gold"] = 500000,
@@ -748,9 +699,9 @@ WarbandMiserDB = {
 ["Rageshuffle"] = {
 ["GoldCap"] = 10000,
 ["Defaults"] = true,
-["Gold"] = 2882086,
+["Gold"] = 435598915,
 ["Include"] = true,
-["Level"] = 81,
+["Level"] = 90,
 ["ServerDefault"] = false,
 ["AllGold"] = false,
 },
@@ -790,12 +741,12 @@ WarbandMiserDB = {
 ["ServerDefault"] = false,
 ["AllGold"] = false,
 },
-["Spearshuffle"] = {
-["GoldCap"] = 10000,
+["Angelshuffle"] = {
+["GoldCap"] = 50,
 ["Defaults"] = true,
-["Gold"] = 100000000,
+["Gold"] = 500000,
 ["Include"] = true,
-["Level"] = 90,
+["Level"] = 70,
 ["ServerDefault"] = false,
 ["AllGold"] = false,
 },
@@ -808,19 +759,19 @@ WarbandMiserDB = {
 ["ServerDefault"] = false,
 ["AllGold"] = false,
 },
-["Preshuffle"] = {
-["GoldCap"] = 50,
+["Hemoshuffle"] = {
+["GoldCap"] = 10000,
 ["Defaults"] = true,
-["Gold"] = 500000,
+["Gold"] = 100017400,
 ["Include"] = true,
-["Level"] = 70,
+["Level"] = 80,
 ["ServerDefault"] = false,
 ["AllGold"] = false,
 },
-["Trickshuffle"] = {
+["Dotshuffle"] = {
 ["GoldCap"] = 50,
 ["Defaults"] = true,
-["Gold"] = 500000,
+["Gold"] = 669362,
 ["Include"] = true,
 ["Level"] = 70,
 ["ServerDefault"] = false,
@@ -892,6 +843,69 @@ WarbandMiserDB = {
 ["AllGold"] = false,
 },
 },
+},
+["Settings"] = {
+["Bracket1"] = 50,
+["Bracket2"] = 10000,
+["Bracket6"] = 10000,
+["Servers"] = {
+["TwistingNether"] = {
+["Default"] = 0,
+},
+["Blackrock"] = {
+["Default"] = 0,
+},
+["LaughingSkull"] = {
+["Default"] = 0,
+},
+["Ravencrest"] = {
+["Default"] = 0,
+},
+["Draenor"] = {
+["Default"] = 0,
+},
+["Eredar"] = {
+["Default"] = 0,
+},
+["Kazzak"] = {
+["Default"] = 0,
+},
+["Auchindoun"] = {
+["Default"] = 0,
+},
+},
+["Range"] = {
+{
+["low"] = 1,
+["high"] = 89,
+},
+{
+["low"] = 80,
+["high"] = 90,
+},
+{
+["low"] = 80,
+["high"] = 90,
+},
+{
+["low"] = 80,
+["high"] = 80,
+},
+{
+["low"] = 80,
+["high"] = 90,
+},
+{
+["low"] = 80,
+["high"] = 90,
+},
+},
+["IncludeNew"] = true,
+["DepositOnly"] = false,
+["MinGold"] = 2000,
+["Bracket5"] = 10000,
+["Bracket4"] = 10000,
+["Bracket3"] = 10000,
 },
 ["wbMinumum"] = 0,
 }

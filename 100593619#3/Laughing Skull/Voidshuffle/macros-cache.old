@@ -38,6 +38,10 @@ VER 3 010000000000000E "Leap of Faith" "134400"
 #showtooltip
 /cast [@mouseover,help,nodead,exists][] Leap of Faith
 END
+VER 3 010000000000001D "Leap of Faith" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [@cursor,help,nodead,exists][] Leap of Faith
+END
 VER 3 010000000000000A "Mass Dispel" "134400"
 #showtooltip
 /cast [@cursor] Mass Dispel
@@ -50,6 +54,10 @@ VER 3 0100000000000016 "Penintence/Barri" "134400"
 #showtooltip
 /cast Ultimate Penitence
 /cast [@cursor] Power Word: Barrier
+END
+VER 3 010000000000001E "PI" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [@focus,help,nodead,exists][@mouseover,help,nodead,exists][] Power Infusion
 END
 VER 3 0100000000000007 "PI" "134400"
 #showtooltip
@@ -96,9 +104,9 @@ VER 3 0100000000000001 "SWP" "134400"
 #showtooltip
 /cast [@mouseover,harm,nodead,exists][] Shadow Word: Pain
 END
-VER 3 010000000000001C "Teleport Home" "236350"
+VER 3 010000000000001C "Teleport Home" "7252953"
 #plumber:home
-/click PLMR_HOME4
+/click PLMR_HOME1
 END
 VER 3 0100000000000010 "Torrent/Halo" "134400"
 #showtooltip

@@ -46,6 +46,17 @@ VER 3 010000000000000C "Reaper" "INV_Misc_QuestionMark"
 #showtooltip
 /cast [known:Reaper's Toll] Reaper's Toll; [known:Hungering Slash] Hungering Slash
 END
+VER 3 010000000000000F "RXPTargeting" "132150"
+/targetexact Subjugated Murloc
+/targetexact Hatecoil Fathom-Stalker
+/targetexact Hatecoil Spitespeaker
+/targetexact Hatecoil Skrog
+/targetlasttarget [dead]
+END
+VER 3 010000000000000E "selfshift" "134400"
+#showtooltip
+/cast [@player] Shift
+END
 VER 3 010000000000000D "Voidblade" "INV_Misc_QuestionMark"
 #showtooltip
 /cast [noknown:Reaper's Toll/Hungering Slash] Voidblade

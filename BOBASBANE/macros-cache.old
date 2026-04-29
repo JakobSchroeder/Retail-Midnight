@@ -22,6 +22,9 @@ VER 3 0000000000000124 "BoKnochan" "INV_Misc_QuestionMark"
 #showtooltip Blackout Kick
 /cast [nochanneling]Blackout Kick
 END
+VER 3 000000000000018A "boss3" "134400"
+/focus boss3
+END
 VER 3 00000000000000D7 "bracers" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /use 9
@@ -56,10 +59,6 @@ END
 VER 3 0000000000000129 "car" "INV_Misc_QuestionMark"
 #showtooltip
 /cast G-99 Breakneck
-END
-VER 3 000000000000012A "catbear" "INV_Misc_QuestionMark"
-#showtooltip
-/cast [stance:1] Cat Form(Shapeshift); [stance:2] Bear Form(Shapeshift); Cat Form(Shapeshift)
 END
 VER 3 000000000000012B "catboomkin" "INV_Misc_QuestionMark"
 #showtooltip
@@ -434,8 +433,7 @@ VER 3 0000000000000176 "Run!" "INV_Misc_QuestionMark"
 /use Healthstone
 END
 VER 3 0000000000000177 "RXPTargeting" "132150"
-/targetexact Captured Witherbark Lynx
-/targetexact Captured Witherbark
+/targetexact Recruit Dar'rak
 /targetlasttarget [dead]
 END
 VER 3 000000000000011A "Self PWS" "INV_Misc_QuestionMark"

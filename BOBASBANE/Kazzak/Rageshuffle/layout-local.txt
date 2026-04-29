@@ -13,6 +13,13 @@ X: 418
 Y: -103
 W: 261
 H: 590
+Frame: ItemRefTooltip
+FrameLevel: 1
+Anchor: BOTTOM
+X: -35
+Y: 281
+W: 128
+H: 64
 Frame: BetterFriendsFrame
 FrameLevel: 1
 Anchor: LEFT
@@ -27,3 +34,10 @@ X: -385
 Y: -231
 W: 675
 H: 496
+Frame: SimpleAddonManager
+FrameLevel: 1
+Anchor: CENTER
+X: 0
+Y: 24
+W: 470
+H: 400

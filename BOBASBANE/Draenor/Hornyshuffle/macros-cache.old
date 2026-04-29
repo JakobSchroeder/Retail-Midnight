@@ -42,30 +42,27 @@ VER 3 0100000000000011 "playerstrike" "INV_Misc_QuestionMark"
 #showtooltip
 /cast [@player] Infernal Strike
 END
-VER 3 0100000000000001 "WarriorofElune" "INV_Misc_QuestionMark"
+VER 3 0100000000000012 "Reaper" "134400"
 #showtooltip
-/cast Warrior of Elune
+/cast [known:Reaper's Toll] Reaper's Toll; [known:Hungering Slash] Hungering Slash
 END
-VER 3 0100000000000002 "WDPnochan" "INV_Misc_QuestionMark"
-#showtooltip Whirling Dragon Punch
-/cast [nochanneling]Whirling Dragon Punch
-END
-VER 3 0100000000000003 "weeklychest" "134331"
-/run LoadAddOn("Blizzard_WeeklyRewards"); WeeklyRewardsFrame:Show()
-END
-VER 3 0100000000000004 "WG" "INV_Misc_QuestionMark"
-#showtooltip
-/cast [target=mouseover,exists,help]Wild Growth; [stance:2,harm] Ferocious Bite; [stance:4,target=mouseover,exists,harm][stance:4,harm] Sunfire;  [stance:0] Wild Growth
-END
-VER 3 0100000000000005 "wild charge" "INV_Misc_QuestionMark"
-#showtooltip
-/cast [talent:2/2] Renewal
-/cancelform [@mouseover,help,nostance:0]
-/cast [@mouseover,exists,help] Wild Charge
-/cast [@target, stance: 0/1/2/3/4/5/6] Wild Charge
-END
-VER 3 0100000000000006 "zerktrinket" "INV_Misc_QuestionMark"
-#showtooltip
+VER 3 0100000000000015 "TPStar" "134400"
+#showtooltip Collapsing Star
+/stopmacro [channeling]
 /use 13
-/cast Berserking
+/use item:245902
+/use item:241288
+/use item:245903
+/use item:241289
+/cast Collapsing Star
+END
+VER 3 0100000000000014 "TStar" "134400"
+#showtooltip Collapsing Star
+/stopmacro [channeling]
+/use 13
+/cast Collapsing Star
+END
+VER 3 0100000000000013 "Voidblade" "134400"
+#showtooltip
+/cast [noknown:Reaper's Toll/Hungering Slash] Voidblade
 END

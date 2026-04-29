@@ -1,0 +1,12 @@
+VER 3 0100000000000002 "AMZ" "134400"
+#showtooltip
+/cast [@cursor] Anti-Magic Zone
+END
+VER 3 0100000000000001 "Focus Freeze" "134400"
+#showtooltip
+/cast [@focus,nodead,exists,harm] Mind Freeze
+END
+VER 3 0100000000000003 "Raise" "134400"
+#showtooltip
+/cast [@mouseover,help,dead,exists][] Raise Ally
+END

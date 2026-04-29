@@ -1,20 +1,26 @@
 
 MapzerothDB = {
-["hearthstone"] = {
-["y"] = 0.704113245010376,
-["mapID"] = 2393,
-["setAt"] = 1773063683,
-["locationName"] = "Wayfarer's Rest",
-["x"] = 0.5630050897598267,
+["minimap"] = {
+["hide"] = false,
 },
 ["settings"] = {
 ["maxCooldownValue"] = 8,
 ["windowScale"] = 1,
+["mainFramePoint"] = {
+["y"] = -306,
+["x"] = 395,
+["point"] = "TOPLEFT",
+["relativePoint"] = "TOPLEFT",
+},
 ["mapClickModifier"] = "ALT",
 ["mapClickMouseButton"] = "LeftButton",
 ["loadingScreenTax"] = 15,
 },
-["minimap"] = {
-["hide"] = false,
+["hearthstone"] = {
+["y"] = 0.7037786245346069,
+["mapID"] = 2393,
+["setAt"] = 1774050719,
+["locationName"] = "Wayfarer's Rest",
+["x"] = 0.5628547668457031,
 },
 }

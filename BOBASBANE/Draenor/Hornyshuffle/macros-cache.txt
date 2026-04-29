@@ -46,6 +46,22 @@ VER 3 0100000000000012 "Reaper" "134400"
 #showtooltip
 /cast [known:Reaper's Toll] Reaper's Toll; [known:Hungering Slash] Hungering Slash
 END
+VER 3 0100000000000015 "TPStar" "134400"
+#showtooltip Collapsing Star
+/stopmacro [channeling]
+/use item:245902
+/use item:241288
+/use item:245903
+/use item:241289
+/use 13
+/cast Collapsing Star
+END
+VER 3 0100000000000014 "TStar" "134400"
+#showtooltip Collapsing Star
+/stopmacro [channeling]
+/use 13
+/cast Collapsing Star
+END
 VER 3 0100000000000013 "Voidblade" "134400"
 #showtooltip
 /cast [noknown:Reaper's Toll/Hungering Slash] Voidblade

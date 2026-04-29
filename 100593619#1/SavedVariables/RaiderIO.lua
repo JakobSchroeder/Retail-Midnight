@@ -1,11 +1,13 @@
 
 RaiderIO_Config = {
+["previouslyEnabledLogging"] = false,
 ["minimapIcon"] = {
 ["minimapPos"] = 180,
 ["showInCompartment"] = true,
-["hide"] = false,
 ["lock"] = false,
+["hide"] = false,
 },
+["enableReplay"] = false,
 ["profilePoint"] = {
 ["y"] = 0,
 ["x"] = -16,
@@ -14,24 +16,11 @@ RaiderIO_Config = {
 }
 RaiderIO_LastCharacter = "us-Cosmoshuffle-stormrage"
 RaiderIO_MissingCharacters = {
-["us-Elödin-stormrage"] = true,
-["us-Cosmoshuffle-stormrage"] = true,
-["us-Adriàne-stormrage"] = true,
-["us-Egorest-stormrage"] = true,
-["us-Dumbledouche-stormrage"] = true,
-["us-Deevoge-stormrage"] = true,
-["us-Babysockzxd-stormrage"] = true,
-["us-Egoker-stormrage"] = true,
-["us-Defarus-stormrage"] = true,
-["us-Vajina-stormrage"] = true,
-["us-Thyranar-stormrage"] = true,
-["us-Nerae-stormrage"] = true,
-["us-Angrydrunk-stormrage"] = true,
-["us-Amookamook-stormrage"] = true,
-["us-Erieann-zuljin"] = true,
-["us-Mohchi-stormrage"] = true,
-["us-Phraezs-stormrage"] = true,
-["us-Kevsdh-stormrage"] = true,
+["us-Mythilthune-stormrage"] = true,
+["us-Minidudu-stormrage"] = true,
+["us-Brotherchef-stormrage"] = true,
+["us-Archaleus-stormrage"] = true,
+["us-Mikefurion-stormrage"] = true,
 }
 RaiderIO_MissingServers = {
 }

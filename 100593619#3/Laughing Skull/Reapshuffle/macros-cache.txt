@@ -1,0 +1,26 @@
+VER 3 0100000000000002 "AMZ" "134400"
+#showtooltip
+/cast [@cursor] Anti-Magic Zone
+END
+VER 3 0100000000000004 "Breath" "134400"
+#showtooltip
+/cast Pillar of Frost
+/cast Reaper's Mark
+/use Empower Rune Weapon
+/use 13
+/use Breath of Sindragosa
+/use Raise Dead
+END
+VER 3 0100000000000001 "Focus Freeze" "134400"
+#showtooltip
+/cast [@focus,nodead,exists,harm] Mind Freeze
+END
+VER 3 0100000000000005 "Pillar" "134400"
+#showtooltip
+/cast Pillar of Frost
+/cast Reaper's Mark
+END
+VER 3 0100000000000003 "Raise" "134400"
+#showtooltip
+/cast [@mouseover,help,dead,exists][] Raise Ally
+END

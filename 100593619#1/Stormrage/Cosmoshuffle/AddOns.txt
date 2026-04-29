@@ -114,3 +114,16 @@ ElvUI_BuffHighlight: disabled
 ElvUI_RatioMinimapAuras: disabled
 kExtraBossFrames: disabled
 Blizzard_CombatText: enabled
+!Swatter: disabled
+!ImprovedErrorFrame: disabled
+PatchWerk: disabled
+!PatchWerk: disabled
+M33Auras: enabled
+WeakAuras: enabled
+M33kAurasCompanion: enabled
+M33kAurasArchive: enabled
+BigWigs_MidnightWorld: enabled
+Blizzard_CharacterFrame: enabled
+Blizzard_ChallengesUI: enabled
+Blizzard_EncounterJournal: enabled
+Blizzard_Transmog: enabled

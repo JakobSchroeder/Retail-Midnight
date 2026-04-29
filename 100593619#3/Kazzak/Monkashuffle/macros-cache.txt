@@ -39,13 +39,13 @@ VER 3 0100000000000004 "mouseslow" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /cast [@cursor] Earthbind Totem
 END
-VER 3 0100000000000007 "mousewave" "INV_MISC_QUESTIONMARK"
-#showtooltip
-/cast [@mouseover,help,nodead,exists][] Healing Wave
-END
 VER 3 0100000000000015 "mousewave" "134400"
 #showtooltip
 /cast [@mouseover,help,nodead,exists][] Primordial Wave
+END
+VER 3 0100000000000007 "mousewave" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@mouseover,help,nodead,exists][] Healing Wave
 END
 VER 3 0100000000000016 "projectme" "134400"
 #showtooltip

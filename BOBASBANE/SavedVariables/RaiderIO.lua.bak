@@ -6,32 +6,19 @@ RaiderIO_Config = {
 ["x"] = -16,
 ["point"] = "TOPLEFT",
 },
+["enableReplay"] = false,
 ["minimapIcon"] = {
 ["minimapPos"] = 180,
 ["showInCompartment"] = true,
-["hide"] = false,
 ["lock"] = false,
+["hide"] = false,
 },
 }
 RaiderIO_LastCharacter = "eu-Spearshuffle-kazzak"
 RaiderIO_MissingCharacters = {
-["eu-Paximeron-kazzak"] = true,
-["eu-Spearshuffle-kazzak"] = true,
-["eu-Covi-draenor"] = true,
-["eu-Hart-kazzak"] = true,
-["eu-Sudac-darksorrow"] = true,
-["eu-Ellennoir-auchindoun"] = true,
-["eu-Vizida-kazzak"] = true,
-["eu-Draconorea-laughing-skull"] = true,
-["eu-Illyriana-kazzak"] = true,
-["eu-Taylorswift-kazzak"] = true,
-["eu-Celevoker-stormscale"] = true,
-["eu-Jayjãr-silvermoon"] = true,
-["eu-Nalgust-laughing-skull"] = true,
-["eu-Lucky-laughing-skull"] = true,
-["eu-Lemmifulz-ragnaros"] = true,
-["eu-Tokziksama-kazzak"] = true,
-["eu-Dkdozer-laughing-skull"] = true,
+["eu-Hermavoidhim-kazzak"] = true,
+["eu-Notcatafu-ravencrest"] = true,
+["eu-Riplocks-kazzak"] = true,
 }
 RaiderIO_MissingServers = {
 }

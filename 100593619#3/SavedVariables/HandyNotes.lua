@@ -25,11 +25,11 @@ HandyNotesDB = {
 ["Yumpshuffle - Kazzak"] = "Yumpshuffle - Kazzak",
 ["Bankshuffle - Draenor"] = "Bankshuffle - Draenor",
 ["Faceshuffle - Draenor"] = "Faceshuffle - Draenor",
-["Reapshuffle - Laughing Skull"] = "Reapshuffle - Laughing Skull",
+["Subshuffle - Ravencrest"] = "Subshuffle - Ravencrest",
 ["Cloakshuffle - Draenor"] = "Cloakshuffle - Draenor",
-["Quakeshuffle - Draenor"] = "Quakeshuffle - Draenor",
+["Kafirshuffle - Draenor"] = "Kafirshuffle - Draenor",
 ["Soapshuffle - Kazzak"] = "Soapshuffle - Kazzak",
-["Chaosshuffle - Draenor"] = "Chaosshuffle - Draenor",
+["Monkashuffle - Kazzak"] = "Monkashuffle - Kazzak",
 ["Feintshuffle - Kazzak"] = "Feintshuffle - Kazzak",
 ["Moonshuffle - Draenor"] = "Moonshuffle - Draenor",
 ["Pairshuffle - Kazzak"] = "Pairshuffle - Kazzak",
@@ -37,10 +37,10 @@ HandyNotesDB = {
 ["Forceshuffle - Draenor"] = "Forceshuffle - Draenor",
 ["Bankpshuffle - Laughing Skull"] = "Bankpshuffle - Laughing Skull",
 ["Gunshuffle - Kazzak"] = "Gunshuffle - Kazzak",
-["Monkashuffle - Kazzak"] = "Monkashuffle - Kazzak",
-["Kafirshuffle - Draenor"] = "Kafirshuffle - Draenor",
+["Chaosshuffle - Draenor"] = "Chaosshuffle - Draenor",
+["Quakeshuffle - Draenor"] = "Quakeshuffle - Draenor",
 ["Floorshuffle - Ravencrest"] = "Floorshuffle - Ravencrest",
-["Subshuffle - Ravencrest"] = "Subshuffle - Ravencrest",
+["Reapshuffle - Laughing Skull"] = "Reapshuffle - Laughing Skull",
 },
 ["profiles"] = {
 ["Avoidshuffle - Laughing Skull"] = {
@@ -91,15 +91,15 @@ HandyNotesDB = {
 },
 ["Faceshuffle - Draenor"] = {
 },
-["Reapshuffle - Laughing Skull"] = {
+["Subshuffle - Ravencrest"] = {
 },
 ["Cloakshuffle - Draenor"] = {
 },
-["Quakeshuffle - Draenor"] = {
+["Kafirshuffle - Draenor"] = {
 },
 ["Soapshuffle - Kazzak"] = {
 },
-["Chaosshuffle - Draenor"] = {
+["Monkashuffle - Kazzak"] = {
 },
 ["Feintshuffle - Kazzak"] = {
 },
@@ -115,13 +115,13 @@ HandyNotesDB = {
 },
 ["Gunshuffle - Kazzak"] = {
 },
-["Monkashuffle - Kazzak"] = {
+["Chaosshuffle - Draenor"] = {
 },
-["Kafirshuffle - Draenor"] = {
+["Quakeshuffle - Draenor"] = {
 },
 ["Floorshuffle - Ravencrest"] = {
 },
-["Subshuffle - Ravencrest"] = {
+["Reapshuffle - Laughing Skull"] = {
 },
 },
 }
@@ -151,11 +151,11 @@ HandyNotes_HandyNotesDB = {
 ["Yumpshuffle - Kazzak"] = "Yumpshuffle - Kazzak",
 ["Bankshuffle - Draenor"] = "Bankshuffle - Draenor",
 ["Faceshuffle - Draenor"] = "Faceshuffle - Draenor",
-["Reapshuffle - Laughing Skull"] = "Reapshuffle - Laughing Skull",
+["Subshuffle - Ravencrest"] = "Subshuffle - Ravencrest",
 ["Cloakshuffle - Draenor"] = "Cloakshuffle - Draenor",
-["Quakeshuffle - Draenor"] = "Quakeshuffle - Draenor",
+["Kafirshuffle - Draenor"] = "Kafirshuffle - Draenor",
 ["Soapshuffle - Kazzak"] = "Soapshuffle - Kazzak",
-["Chaosshuffle - Draenor"] = "Chaosshuffle - Draenor",
+["Monkashuffle - Kazzak"] = "Monkashuffle - Kazzak",
 ["Feintshuffle - Kazzak"] = "Feintshuffle - Kazzak",
 ["Moonshuffle - Draenor"] = "Moonshuffle - Draenor",
 ["Pairshuffle - Kazzak"] = "Pairshuffle - Kazzak",
@@ -163,10 +163,10 @@ HandyNotes_HandyNotesDB = {
 ["Forceshuffle - Draenor"] = "Forceshuffle - Draenor",
 ["Bankpshuffle - Laughing Skull"] = "Bankpshuffle - Laughing Skull",
 ["Gunshuffle - Kazzak"] = "Gunshuffle - Kazzak",
-["Monkashuffle - Kazzak"] = "Monkashuffle - Kazzak",
-["Kafirshuffle - Draenor"] = "Kafirshuffle - Draenor",
+["Chaosshuffle - Draenor"] = "Chaosshuffle - Draenor",
+["Quakeshuffle - Draenor"] = "Quakeshuffle - Draenor",
 ["Floorshuffle - Ravencrest"] = "Floorshuffle - Ravencrest",
-["Subshuffle - Ravencrest"] = "Subshuffle - Ravencrest",
+["Reapshuffle - Laughing Skull"] = "Reapshuffle - Laughing Skull",
 },
 ["profiles"] = {
 ["Avoidshuffle - Laughing Skull"] = {
@@ -217,15 +217,15 @@ HandyNotes_HandyNotesDB = {
 },
 ["Faceshuffle - Draenor"] = {
 },
-["Reapshuffle - Laughing Skull"] = {
+["Subshuffle - Ravencrest"] = {
 },
 ["Cloakshuffle - Draenor"] = {
 },
-["Quakeshuffle - Draenor"] = {
+["Kafirshuffle - Draenor"] = {
 },
 ["Soapshuffle - Kazzak"] = {
 },
-["Chaosshuffle - Draenor"] = {
+["Monkashuffle - Kazzak"] = {
 },
 ["Feintshuffle - Kazzak"] = {
 },
@@ -241,13 +241,13 @@ HandyNotes_HandyNotesDB = {
 },
 ["Gunshuffle - Kazzak"] = {
 },
-["Monkashuffle - Kazzak"] = {
+["Chaosshuffle - Draenor"] = {
 },
-["Kafirshuffle - Draenor"] = {
+["Quakeshuffle - Draenor"] = {
 },
 ["Floorshuffle - Ravencrest"] = {
 },
-["Subshuffle - Ravencrest"] = {
+["Reapshuffle - Laughing Skull"] = {
 },
 },
 }

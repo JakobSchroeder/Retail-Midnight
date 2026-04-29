@@ -2,8 +2,15 @@
 BCDMDB = {
 ["namespaces"] = {
 },
+["global"] = {
+["DisplayLoginMessage"] = false,
+["UseGlobalProfile"] = true,
+["GlobalProfile"] = "Default",
+},
 ["profileKeys"] = {
+["Hemoshuffle - Kazzak"] = "Default",
 ["Avoidshuffle - Laughing Skull"] = "Default",
+["Intshuffle - Kazzak"] = "Default",
 ["Necroshuffle - Kazzak"] = "Default",
 ["Soulshuffle - Laughing Skull"] = "Default",
 ["Feintshuffle - Kazzak"] = "Default",
@@ -14,40 +21,43 @@ BCDMDB = {
 ["Kafirshuffle - Draenor"] = "Default",
 ["Trickshuffle - Kazzak"] = "Default",
 ["Moleshuffle - Kazzak"] = "Default",
+["Hornyshuffle - Draenor"] = "Default",
 ["Quakeshuffle - Draenor"] = "Default",
 ["Postshuffle - Laughing Skull"] = "Default",
 ["Ghostshuffle - Laughing Skull"] = "Default",
 ["Bankrshuffle - Laughing Skull"] = "Default",
 ["Angelshuffle - Kazzak"] = "Default",
-["Cloakshuffle - Draenor"] = "Default",
+["Rageshuffle - Kazzak"] = "Default",
+["Ratshuffle - Kazzak"] = "Default",
 ["Wingshuffle - Kazzak"] = "Default",
+["Monkashuffle - Kazzak"] = "Default",
 ["Tectoshuffle - Kazzak"] = "Default",
 ["Stalkshuffle - Laughing Skull"] = "Default",
+["Subshuffle - Ravencrest"] = "Default",
+["Teashuffle - Kazzak"] = "Default",
+["Goldshuffle - Blackrock"] = "Default",
 ["Chaosshuffle - Draenor"] = "Default",
 ["Yumpshuffle - Kazzak"] = "Default",
 ["Bankshuffle - Draenor"] = "Default",
-["Faceshuffle - Draenor"] = "Default",
-["Reapshuffle - Laughing Skull"] = "Default",
-["Smashuffle - Laughing Skull"] = "Default",
-["Subshuffle - Ravencrest"] = "Default",
-["Soapshuffle - Kazzak"] = "Default",
-["Ratshuffle - Kazzak"] = "Default",
 ["Kickshuffle - Kazzak"] = "Default",
-["Moonshuffle - Draenor"] = "Default",
+["Faceshuffle - Draenor"] = "Default",
+["Roboshuffle - Ravencrest"] = "Default",
+["Goatshuffle - Kazzak"] = "Default",
+["Preshuffle - Kazzak"] = "Default",
+["Tradushuffle - Laughing Skull"] = "Default",
+["Soapshuffle - Kazzak"] = "Default",
+["Spearshuffle - Kazzak"] = "Default",
+["Hourshuffle - Kazzak"] = "Default",
+["Leshuffle - Draenor"] = "Default",
 ["Pairshuffle - Kazzak"] = "Default",
 ["Bobshuffle - Laughing Skull"] = "Default",
 ["Forceshuffle - Draenor"] = "Default",
 ["Bankpshuffle - Laughing Skull"] = "Default",
 ["Gunshuffle - Kazzak"] = "Default",
-["Preshuffle - Kazzak"] = "Default",
-["Roboshuffle - Ravencrest"] = "Default",
+["Moonshuffle - Draenor"] = "Default",
+["Smashuffle - Laughing Skull"] = "Default",
 ["Floorshuffle - Ravencrest"] = "Default",
-["Monkashuffle - Kazzak"] = "Default",
-},
-["global"] = {
-["DisplayLoginMessage"] = false,
-["UseGlobalProfile"] = true,
-["GlobalProfile"] = "Default",
+["Cloakshuffle - Draenor"] = "Default",
 },
 ["profiles"] = {
 ["Default"] = {
@@ -55,76 +65,4272 @@ BCDMDB = {
 ["Enabled"] = false,
 },
 ["General"] = {
+["Fonts"] = {
+["Font"] = "Expressway",
+},
 ["Textures"] = {
 ["Foreground"] = "Minimalist",
 ["Background"] = "Minimalist",
 },
-["Fonts"] = {
-["Font"] = "Expressway",
-},
 },
 ["CooldownManager"] = {
 ["AdditionalCustom"] = {
+["Layout"] = {
+nil,
+"UtilityCooldownViewer",
+nil,
+37,
+55,
+},
+["IconSize"] = 36,
 ["Spells"] = {
+["HUNTER"] = {
+["SURVIVAL"] = {
+[436344] = {
+["isActive"] = true,
+["layoutIndex"] = 24,
+},
+[20594] = {
+["isActive"] = true,
+["layoutIndex"] = 2,
+},
+[202719] = {
+["isActive"] = true,
+["layoutIndex"] = 11,
+},
+[58984] = {
+["isActive"] = true,
+["layoutIndex"] = 3,
+},
+[68992] = {
+["isActive"] = true,
+["layoutIndex"] = 6,
+},
+[1237885] = {
+["isActive"] = true,
+["layoutIndex"] = 25,
+},
+[20549] = {
+["isActive"] = true,
+["layoutIndex"] = 9,
+},
+[20572] = {
+["isActive"] = true,
+["layoutIndex"] = 7,
+},
+[59752] = {
+["isActive"] = true,
+["layoutIndex"] = 1,
+},
+[69070] = {
+["isActive"] = true,
+["layoutIndex"] = 12,
+},
+[69041] = {
+["isActive"] = true,
+["layoutIndex"] = 13,
+},
+[368970] = {
+["isActive"] = true,
+["layoutIndex"] = 22,
+},
+[265221] = {
+["isActive"] = true,
+["layoutIndex"] = 17,
+},
+[28880] = {
+["isActive"] = true,
+["layoutIndex"] = 5,
+},
+[357214] = {
+["isActive"] = true,
+["layoutIndex"] = 23,
+},
+[256948] = {
+["isActive"] = true,
+["layoutIndex"] = 14,
+},
+[291944] = {
+["isActive"] = true,
+["layoutIndex"] = 18,
+},
+[287712] = {
+["isActive"] = true,
+["layoutIndex"] = 16,
+},
+[7744] = {
+["isActive"] = true,
+["layoutIndex"] = 8,
+},
+[312924] = {
+["isActive"] = true,
+["layoutIndex"] = 20,
+},
+[312411] = {
+["isActive"] = true,
+["layoutIndex"] = 19,
+},
+[20589] = {
+["isActive"] = true,
+["layoutIndex"] = 4,
+},
+[255647] = {
+["isActive"] = true,
+["layoutIndex"] = 15,
+},
+[107079] = {
+["isActive"] = true,
+["layoutIndex"] = 21,
+},
+[26297] = {
+["isActive"] = true,
+["layoutIndex"] = 10,
+},
+},
+["MARKSMANSHIP"] = {
+[436344] = {
+["isActive"] = true,
+["layoutIndex"] = 24,
+},
+[20594] = {
+["isActive"] = true,
+["layoutIndex"] = 2,
+},
+[202719] = {
+["isActive"] = true,
+["layoutIndex"] = 11,
+},
+[58984] = {
+["isActive"] = true,
+["layoutIndex"] = 3,
+},
+[68992] = {
+["isActive"] = true,
+["layoutIndex"] = 6,
+},
+[1237885] = {
+["isActive"] = true,
+["layoutIndex"] = 25,
+},
+[20549] = {
+["isActive"] = true,
+["layoutIndex"] = 9,
+},
+[20572] = {
+["isActive"] = true,
+["layoutIndex"] = 7,
+},
+[59752] = {
+["isActive"] = true,
+["layoutIndex"] = 1,
+},
+[69070] = {
+["isActive"] = true,
+["layoutIndex"] = 12,
+},
+[69041] = {
+["isActive"] = true,
+["layoutIndex"] = 13,
+},
+[368970] = {
+["isActive"] = true,
+["layoutIndex"] = 22,
+},
+[265221] = {
+["isActive"] = true,
+["layoutIndex"] = 17,
+},
+[28880] = {
+["isActive"] = true,
+["layoutIndex"] = 5,
+},
+[357214] = {
+["isActive"] = true,
+["layoutIndex"] = 23,
+},
+[256948] = {
+["isActive"] = true,
+["layoutIndex"] = 14,
+},
+[291944] = {
+["isActive"] = true,
+["layoutIndex"] = 18,
+},
+[287712] = {
+["isActive"] = true,
+["layoutIndex"] = 16,
+},
+[7744] = {
+["isActive"] = true,
+["layoutIndex"] = 8,
+},
+[312924] = {
+["isActive"] = true,
+["layoutIndex"] = 20,
+},
+[312411] = {
+["isActive"] = true,
+["layoutIndex"] = 19,
+},
+[20589] = {
+["isActive"] = true,
+["layoutIndex"] = 4,
+},
+[255647] = {
+["isActive"] = true,
+["layoutIndex"] = 15,
+},
+[107079] = {
+["isActive"] = true,
+["layoutIndex"] = 21,
+},
+[26297] = {
+["isActive"] = true,
+["layoutIndex"] = 10,
+},
+},
+["BEASTMASTERY"] = {
+[436344] = {
+["isActive"] = true,
+["layoutIndex"] = 24,
+},
+[20594] = {
+["isActive"] = true,
+["layoutIndex"] = 2,
+},
+[202719] = {
+["isActive"] = true,
+["layoutIndex"] = 11,
+},
+[58984] = {
+["isActive"] = true,
+["layoutIndex"] = 3,
+},
+[68992] = {
+["isActive"] = true,
+["layoutIndex"] = 6,
+},
+[1237885] = {
+["isActive"] = true,
+["layoutIndex"] = 25,
+},
+[20549] = {
+["isActive"] = true,
+["layoutIndex"] = 9,
+},
+[20572] = {
+["isActive"] = true,
+["layoutIndex"] = 7,
+},
+[59752] = {
+["isActive"] = true,
+["layoutIndex"] = 1,
+},
+[69070] = {
+["isActive"] = true,
+["layoutIndex"] = 12,
+},
+[69041] = {
+["isActive"] = true,
+["layoutIndex"] = 13,
+},
+[368970] = {
+["isActive"] = true,
+["layoutIndex"] = 22,
+},
+[265221] = {
+["isActive"] = true,
+["layoutIndex"] = 17,
+},
+[28880] = {
+["isActive"] = true,
+["layoutIndex"] = 5,
+},
+[357214] = {
+["isActive"] = true,
+["layoutIndex"] = 23,
+},
+[256948] = {
+["isActive"] = true,
+["layoutIndex"] = 14,
+},
+[291944] = {
+["isActive"] = true,
+["layoutIndex"] = 18,
+},
+[287712] = {
+["isActive"] = true,
+["layoutIndex"] = 16,
+},
+[7744] = {
+["isActive"] = true,
+["layoutIndex"] = 8,
+},
+[312924] = {
+["isActive"] = true,
+["layoutIndex"] = 20,
+},
+[312411] = {
+["isActive"] = true,
+["layoutIndex"] = 19,
+},
+[20589] = {
+["isActive"] = true,
+["layoutIndex"] = 4,
+},
+[255647] = {
+["isActive"] = true,
+["layoutIndex"] = 15,
+},
+[107079] = {
+["isActive"] = true,
+["layoutIndex"] = 21,
+},
+[26297] = {
+["isActive"] = true,
+["layoutIndex"] = 10,
+},
+},
+},
+["WARRIOR"] = {
+["FURY"] = {
+[436344] = {
+["isActive"] = true,
+["layoutIndex"] = 24,
+},
+[20594] = {
+["isActive"] = true,
+["layoutIndex"] = 2,
+},
+[202719] = {
+["isActive"] = true,
+["layoutIndex"] = 11,
+},
+[58984] = {
+["isActive"] = true,
+["layoutIndex"] = 3,
+},
+[68992] = {
+["isActive"] = true,
+["layoutIndex"] = 6,
+},
+[1237885] = {
+["isActive"] = true,
+["layoutIndex"] = 25,
+},
+[20549] = {
+["isActive"] = true,
+["layoutIndex"] = 9,
+},
+[20572] = {
+["isActive"] = true,
+["layoutIndex"] = 7,
+},
+[59752] = {
+["isActive"] = true,
+["layoutIndex"] = 1,
+},
+[69070] = {
+["isActive"] = true,
+["layoutIndex"] = 12,
+},
+[69041] = {
+["isActive"] = true,
+["layoutIndex"] = 13,
+},
+[368970] = {
+["isActive"] = true,
+["layoutIndex"] = 22,
+},
+[265221] = {
+["isActive"] = true,
+["layoutIndex"] = 17,
+},
+[28880] = {
+["isActive"] = true,
+["layoutIndex"] = 5,
+},
+[357214] = {
+["isActive"] = true,
+["layoutIndex"] = 23,
+},
+[256948] = {
+["isActive"] = true,
+["layoutIndex"] = 14,
+},
+[291944] = {
+["isActive"] = true,
+["layoutIndex"] = 18,
+},
+[287712] = {
+["isActive"] = true,
+["layoutIndex"] = 16,
+},
+[7744] = {
+["isActive"] = true,
+["layoutIndex"] = 8,
+},
+[312924] = {
+["isActive"] = true,
+["layoutIndex"] = 20,
+},
+[312411] = {
+["isActive"] = true,
+["layoutIndex"] = 19,
+},
+[20589] = {
+["isActive"] = true,
+["layoutIndex"] = 4,
+},
+[255647] = {
+["isActive"] = true,
+["layoutIndex"] = 15,
+},
+[107079] = {
+["isActive"] = true,
+["layoutIndex"] = 21,
+},
+[26297] = {
+["isActive"] = true,
+["layoutIndex"] = 10,
+},
+},
+["ARMS"] = {
+[436344] = {
+["isActive"] = true,
+["layoutIndex"] = 24,
+},
+[20594] = {
+["isActive"] = true,
+["layoutIndex"] = 2,
+},
+[202719] = {
+["isActive"] = true,
+["layoutIndex"] = 11,
+},
+[58984] = {
+["isActive"] = true,
+["layoutIndex"] = 3,
+},
+[68992] = {
+["isActive"] = true,
+["layoutIndex"] = 6,
+},
+[1237885] = {
+["isActive"] = true,
+["layoutIndex"] = 25,
+},
+[20549] = {
+["isActive"] = true,
+["layoutIndex"] = 9,
+},
+[20572] = {
+["isActive"] = true,
+["layoutIndex"] = 7,
+},
+[59752] = {
+["isActive"] = true,
+["layoutIndex"] = 1,
+},
+[69070] = {
+["isActive"] = true,
+["layoutIndex"] = 12,
+},
+[69041] = {
+["isActive"] = true,
+["layoutIndex"] = 13,
+},
+[368970] = {
+["isActive"] = true,
+["layoutIndex"] = 22,
+},
+[265221] = {
+["isActive"] = true,
+["layoutIndex"] = 17,
+},
+[28880] = {
+["isActive"] = true,
+["layoutIndex"] = 5,
+},
+[357214] = {
+["isActive"] = true,
+["layoutIndex"] = 23,
+},
+[256948] = {
+["isActive"] = true,
+["layoutIndex"] = 14,
+},
+[291944] = {
+["isActive"] = true,
+["layoutIndex"] = 18,
+},
+[287712] = {
+["isActive"] = true,
+["layoutIndex"] = 16,
+},
+[7744] = {
+["isActive"] = true,
+["layoutIndex"] = 8,
+},
+[312924] = {
+["isActive"] = true,
+["layoutIndex"] = 20,
+},
+[312411] = {
+["isActive"] = true,
+["layoutIndex"] = 19,
+},
+[20589] = {
+["isActive"] = true,
+["layoutIndex"] = 4,
+},
+[255647] = {
+["isActive"] = true,
+["layoutIndex"] = 15,
+},
+[107079] = {
+["isActive"] = true,
+["layoutIndex"] = 21,
+},
+[26297] = {
+["isActive"] = true,
+["layoutIndex"] = 10,
+},
+},
+["PROTECTION"] = {
+[436344] = {
+["isActive"] = true,
+["layoutIndex"] = 24,
+},
+[20594] = {
+["isActive"] = true,
+["layoutIndex"] = 2,
+},
+[202719] = {
+["isActive"] = true,
+["layoutIndex"] = 11,
+},
+[58984] = {
+["isActive"] = true,
+["layoutIndex"] = 3,
+},
+[68992] = {
+["isActive"] = true,
+["layoutIndex"] = 6,
+},
+[1237885] = {
+["isActive"] = true,
+["layoutIndex"] = 25,
+},
+[20549] = {
+["isActive"] = true,
+["layoutIndex"] = 9,
+},
+[20572] = {
+["isActive"] = true,
+["layoutIndex"] = 7,
+},
+[59752] = {
+["isActive"] = true,
+["layoutIndex"] = 1,
+},
+[69070] = {
+["isActive"] = true,
+["layoutIndex"] = 12,
+},
+[69041] = {
+["isActive"] = true,
+["layoutIndex"] = 13,
+},
+[368970] = {
+["isActive"] = true,
+["layoutIndex"] = 22,
+},
+[265221] = {
+["isActive"] = true,
+["layoutIndex"] = 17,
+},
+[28880] = {
+["isActive"] = true,
+["layoutIndex"] = 5,
+},
+[357214] = {
+["isActive"] = true,
+["layoutIndex"] = 23,
+},
+[256948] = {
+["isActive"] = true,
+["layoutIndex"] = 14,
+},
+[291944] = {
+["isActive"] = true,
+["layoutIndex"] = 18,
+},
+[287712] = {
+["isActive"] = true,
+["layoutIndex"] = 16,
+},
+[7744] = {
+["isActive"] = true,
+["layoutIndex"] = 8,
+},
+[312924] = {
+["isActive"] = true,
+["layoutIndex"] = 20,
+},
+[312411] = {
+["isActive"] = true,
+["layoutIndex"] = 19,
+},
+[20589] = {
+["isActive"] = true,
+["layoutIndex"] = 4,
+},
+[255647] = {
+["isActive"] = true,
+["layoutIndex"] = 15,
+},
+[107079] = {
+["isActive"] = true,
+["layoutIndex"] = 21,
+},
+[26297] = {
+["isActive"] = true,
+["layoutIndex"] = 10,
+},
+},
+},
+["ROGUE"] = {
+["OUTLAW"] = {
+[436344] = {
+["isActive"] = true,
+["layoutIndex"] = 24,
+},
+[20594] = {
+["isActive"] = true,
+["layoutIndex"] = 2,
+},
+[202719] = {
+["isActive"] = true,
+["layoutIndex"] = 11,
+},
+[58984] = {
+["isActive"] = true,
+["layoutIndex"] = 3,
+},
+[68992] = {
+["isActive"] = true,
+["layoutIndex"] = 6,
+},
+[1237885] = {
+["isActive"] = true,
+["layoutIndex"] = 25,
+},
+[20549] = {
+["isActive"] = true,
+["layoutIndex"] = 9,
+},
+[20572] = {
+["isActive"] = true,
+["layoutIndex"] = 7,
+},
+[59752] = {
+["isActive"] = true,
+["layoutIndex"] = 1,
+},
+[69070] = {
+["isActive"] = true,
+["layoutIndex"] = 12,
+},
+[69041] = {
+["isActive"] = true,
+["layoutIndex"] = 13,
+},
+[368970] = {
+["isActive"] = true,
+["layoutIndex"] = 22,
+},
+[265221] = {
+["isActive"] = true,
+["layoutIndex"] = 17,
+},
+[28880] = {
+["isActive"] = true,
+["layoutIndex"] = 5,
+},
+[357214] = {
+["isActive"] = true,
+["layoutIndex"] = 23,
+},
+[256948] = {
+["isActive"] = true,
+["layoutIndex"] = 14,
+},
+[291944] = {
+["isActive"] = true,
+["layoutIndex"] = 18,
+},
+[287712] = {
+["isActive"] = true,
+["layoutIndex"] = 16,
+},
+[7744] = {
+["isActive"] = true,
+["layoutIndex"] = 8,
+},
+[312924] = {
+["isActive"] = true,
+["layoutIndex"] = 20,
+},
+[312411] = {
+["isActive"] = true,
+["layoutIndex"] = 19,
+},
+[20589] = {
+["isActive"] = true,
+["layoutIndex"] = 4,
+},
+[255647] = {
+["isActive"] = true,
+["layoutIndex"] = 15,
+},
+[107079] = {
+["isActive"] = true,
+["layoutIndex"] = 21,
+},
+[26297] = {
+["isActive"] = true,
+["layoutIndex"] = 10,
+},
+},
+["ASSASSINATION"] = {
+[436344] = {
+["isActive"] = true,
+["layoutIndex"] = 24,
+},
+[20594] = {
+["isActive"] = true,
+["layoutIndex"] = 2,
+},
+[202719] = {
+["isActive"] = true,
+["layoutIndex"] = 11,
+},
+[58984] = {
+["isActive"] = true,
+["layoutIndex"] = 3,
+},
+[68992] = {
+["isActive"] = true,
+["layoutIndex"] = 6,
+},
+[1237885] = {
+["isActive"] = true,
+["layoutIndex"] = 25,
+},
+[20549] = {
+["isActive"] = true,
+["layoutIndex"] = 9,
+},
+[20572] = {
+["isActive"] = true,
+["layoutIndex"] = 7,
+},
+[59752] = {
+["isActive"] = true,
+["layoutIndex"] = 1,
+},
+[69070] = {
+["isActive"] = true,
+["layoutIndex"] = 12,
+},
+[69041] = {
+["isActive"] = true,
+["layoutIndex"] = 13,
+},
+[368970] = {
+["isActive"] = true,
+["layoutIndex"] = 22,
+},
+[265221] = {
+["isActive"] = true,
+["layoutIndex"] = 17,
+},
+[28880] = {
+["isActive"] = true,
+["layoutIndex"] = 5,
+},
+[357214] = {
+["isActive"] = true,
+["layoutIndex"] = 23,
+},
+[256948] = {
+["isActive"] = true,
+["layoutIndex"] = 14,
+},
+[291944] = {
+["isActive"] = true,
+["layoutIndex"] = 18,
+},
+[287712] = {
+["isActive"] = true,
+["layoutIndex"] = 16,
+},
+[7744] = {
+["isActive"] = true,
+["layoutIndex"] = 8,
+},
+[312924] = {
+["isActive"] = true,
+["layoutIndex"] = 20,
+},
+[312411] = {
+["isActive"] = true,
+["layoutIndex"] = 19,
+},
+[20589] = {
+["isActive"] = true,
+["layoutIndex"] = 4,
+},
+[255647] = {
+["isActive"] = true,
+["layoutIndex"] = 15,
+},
+[107079] = {
+["isActive"] = true,
+["layoutIndex"] = 21,
+},
+[26297] = {
+["isActive"] = true,
+["layoutIndex"] = 10,
+},
+},
+["SUBTLETY"] = {
+[436344] = {
+["isActive"] = true,
+["layoutIndex"] = 24,
+},
+[20594] = {
+["isActive"] = true,
+["layoutIndex"] = 2,
+},
+[202719] = {
+["isActive"] = true,
+["layoutIndex"] = 11,
+},
+[58984] = {
+["isActive"] = true,
+["layoutIndex"] = 3,
+},
+[68992] = {
+["isActive"] = true,
+["layoutIndex"] = 6,
+},
+[1237885] = {
+["isActive"] = true,
+["layoutIndex"] = 25,
+},
+[20549] = {
+["isActive"] = true,
+["layoutIndex"] = 9,
+},
+[20572] = {
+["isActive"] = true,
+["layoutIndex"] = 7,
+},
+[59752] = {
+["isActive"] = true,
+["layoutIndex"] = 1,
+},
+[69070] = {
+["isActive"] = true,
+["layoutIndex"] = 12,
+},
+[69041] = {
+["isActive"] = true,
+["layoutIndex"] = 13,
+},
+[368970] = {
+["isActive"] = true,
+["layoutIndex"] = 22,
+},
+[265221] = {
+["isActive"] = true,
+["layoutIndex"] = 17,
+},
+[28880] = {
+["isActive"] = true,
+["layoutIndex"] = 5,
+},
+[357214] = {
+["isActive"] = true,
+["layoutIndex"] = 23,
+},
+[256948] = {
+["isActive"] = true,
+["layoutIndex"] = 14,
+},
+[291944] = {
+["isActive"] = true,
+["layoutIndex"] = 18,
+},
+[287712] = {
+["isActive"] = true,
+["layoutIndex"] = 16,
+},
+[7744] = {
+["isActive"] = true,
+["layoutIndex"] = 8,
+},
+[312924] = {
+["isActive"] = true,
+["layoutIndex"] = 20,
+},
+[312411] = {
+["isActive"] = true,
+["layoutIndex"] = 19,
+},
+[20589] = {
+["isActive"] = true,
+["layoutIndex"] = 4,
+},
+[255647] = {
+["isActive"] = true,
+["layoutIndex"] = 15,
+},
+[107079] = {
+["isActive"] = true,
+["layoutIndex"] = 21,
+},
+[26297] = {
+["isActive"] = true,
+["layoutIndex"] = 10,
+},
+},
+},
+["MAGE"] = {
+["FIRE"] = {
+[436344] = {
+["isActive"] = true,
+["layoutIndex"] = 24,
+},
+[20594] = {
+["isActive"] = true,
+["layoutIndex"] = 2,
+},
+[202719] = {
+["isActive"] = true,
+["layoutIndex"] = 11,
+},
+[58984] = {
+["isActive"] = true,
+["layoutIndex"] = 3,
+},
+[68992] = {
+["isActive"] = true,
+["layoutIndex"] = 6,
+},
+[1237885] = {
+["isActive"] = true,
+["layoutIndex"] = 25,
+},
+[20549] = {
+["isActive"] = true,
+["layoutIndex"] = 9,
+},
+[20572] = {
+["isActive"] = true,
+["layoutIndex"] = 7,
+},
+[59752] = {
+["isActive"] = true,
+["layoutIndex"] = 1,
+},
+[69070] = {
+["isActive"] = true,
+["layoutIndex"] = 12,
+},
+[69041] = {
+["isActive"] = true,
+["layoutIndex"] = 13,
+},
+[368970] = {
+["isActive"] = true,
+["layoutIndex"] = 22,
+},
+[265221] = {
+["isActive"] = true,
+["layoutIndex"] = 17,
+},
+[28880] = {
+["isActive"] = true,
+["layoutIndex"] = 5,
+},
+[357214] = {
+["isActive"] = true,
+["layoutIndex"] = 23,
+},
+[256948] = {
+["isActive"] = true,
+["layoutIndex"] = 14,
+},
+[291944] = {
+["isActive"] = true,
+["layoutIndex"] = 18,
+},
+[287712] = {
+["isActive"] = true,
+["layoutIndex"] = 16,
+},
+[7744] = {
+["isActive"] = true,
+["layoutIndex"] = 8,
+},
+[312924] = {
+["isActive"] = true,
+["layoutIndex"] = 20,
+},
+[312411] = {
+["isActive"] = true,
+["layoutIndex"] = 19,
+},
+[20589] = {
+["isActive"] = true,
+["layoutIndex"] = 4,
+},
+[255647] = {
+["isActive"] = true,
+["layoutIndex"] = 15,
+},
+[107079] = {
+["isActive"] = true,
+["layoutIndex"] = 21,
+},
+[26297] = {
+["isActive"] = true,
+["layoutIndex"] = 10,
+},
+},
+["FROST"] = {
+[436344] = {
+["isActive"] = true,
+["layoutIndex"] = 24,
+},
+[20594] = {
+["isActive"] = true,
+["layoutIndex"] = 2,
+},
+[202719] = {
+["isActive"] = true,
+["layoutIndex"] = 11,
+},
+[58984] = {
+["isActive"] = true,
+["layoutIndex"] = 3,
+},
+[68992] = {
+["isActive"] = true,
+["layoutIndex"] = 6,
+},
+[1237885] = {
+["isActive"] = true,
+["layoutIndex"] = 25,
+},
+[20549] = {
+["isActive"] = true,
+["layoutIndex"] = 9,
+},
+[20572] = {
+["isActive"] = true,
+["layoutIndex"] = 7,
+},
+[59752] = {
+["isActive"] = true,
+["layoutIndex"] = 1,
+},
+[69070] = {
+["isActive"] = true,
+["layoutIndex"] = 12,
+},
+[69041] = {
+["isActive"] = true,
+["layoutIndex"] = 13,
+},
+[368970] = {
+["isActive"] = true,
+["layoutIndex"] = 22,
+},
+[265221] = {
+["isActive"] = true,
+["layoutIndex"] = 17,
+},
+[28880] = {
+["isActive"] = true,
+["layoutIndex"] = 5,
+},
+[357214] = {
+["isActive"] = true,
+["layoutIndex"] = 23,
+},
+[256948] = {
+["isActive"] = true,
+["layoutIndex"] = 14,
+},
+[291944] = {
+["isActive"] = true,
+["layoutIndex"] = 18,
+},
+[287712] = {
+["isActive"] = true,
+["layoutIndex"] = 16,
+},
+[7744] = {
+["isActive"] = true,
+["layoutIndex"] = 8,
+},
+[312924] = {
+["isActive"] = true,
+["layoutIndex"] = 20,
+},
+[312411] = {
+["isActive"] = true,
+["layoutIndex"] = 19,
+},
+[20589] = {
+["isActive"] = true,
+["layoutIndex"] = 4,
+},
+[255647] = {
+["isActive"] = true,
+["layoutIndex"] = 15,
+},
+[107079] = {
+["isActive"] = true,
+["layoutIndex"] = 21,
+},
+[26297] = {
+["isActive"] = true,
+["layoutIndex"] = 10,
+},
+},
+["ARCANE"] = {
+[436344] = {
+["isActive"] = true,
+["layoutIndex"] = 24,
+},
+[20594] = {
+["isActive"] = true,
+["layoutIndex"] = 2,
+},
+[202719] = {
+["isActive"] = true,
+["layoutIndex"] = 11,
+},
+[58984] = {
+["isActive"] = true,
+["layoutIndex"] = 3,
+},
+[68992] = {
+["isActive"] = true,
+["layoutIndex"] = 6,
+},
+[1237885] = {
+["isActive"] = true,
+["layoutIndex"] = 25,
+},
+[20549] = {
+["isActive"] = true,
+["layoutIndex"] = 9,
+},
+[20572] = {
+["isActive"] = true,
+["layoutIndex"] = 7,
+},
+[59752] = {
+["isActive"] = true,
+["layoutIndex"] = 1,
+},
+[69070] = {
+["isActive"] = true,
+["layoutIndex"] = 12,
+},
+[69041] = {
+["isActive"] = true,
+["layoutIndex"] = 13,
+},
+[368970] = {
+["isActive"] = true,
+["layoutIndex"] = 22,
+},
+[265221] = {
+["isActive"] = true,
+["layoutIndex"] = 17,
+},
+[28880] = {
+["isActive"] = true,
+["layoutIndex"] = 5,
+},
+[357214] = {
+["isActive"] = true,
+["layoutIndex"] = 23,
+},
+[256948] = {
+["isActive"] = true,
+["layoutIndex"] = 14,
+},
+[291944] = {
+["isActive"] = true,
+["layoutIndex"] = 18,
+},
+[287712] = {
+["isActive"] = true,
+["layoutIndex"] = 16,
+},
+[7744] = {
+["isActive"] = true,
+["layoutIndex"] = 8,
+},
+[312924] = {
+["isActive"] = true,
+["layoutIndex"] = 20,
+},
+[312411] = {
+["isActive"] = true,
+["layoutIndex"] = 19,
+},
+[20589] = {
+["isActive"] = true,
+["layoutIndex"] = 4,
+},
+[255647] = {
+["isActive"] = true,
+["layoutIndex"] = 15,
+},
+[107079] = {
+["isActive"] = true,
+["layoutIndex"] = 21,
+},
+[26297] = {
+["isActive"] = true,
+["layoutIndex"] = 10,
+},
+},
+},
 ["PRIEST"] = {
+["HOLY"] = {
+[436344] = {
+["isActive"] = true,
+["layoutIndex"] = 24,
+},
+[20594] = {
+["isActive"] = true,
+["layoutIndex"] = 2,
+},
+[202719] = {
+["isActive"] = true,
+["layoutIndex"] = 11,
+},
+[58984] = {
+["isActive"] = true,
+["layoutIndex"] = 3,
+},
+[68992] = {
+["isActive"] = true,
+["layoutIndex"] = 6,
+},
+[1237885] = {
+["isActive"] = true,
+["layoutIndex"] = 25,
+},
+[20549] = {
+["isActive"] = true,
+["layoutIndex"] = 9,
+},
+[20572] = {
+["isActive"] = true,
+["layoutIndex"] = 7,
+},
+[59752] = {
+["isActive"] = true,
+["layoutIndex"] = 1,
+},
+[69070] = {
+["isActive"] = true,
+["layoutIndex"] = 12,
+},
+[69041] = {
+["isActive"] = true,
+["layoutIndex"] = 13,
+},
+[368970] = {
+["isActive"] = true,
+["layoutIndex"] = 22,
+},
+[265221] = {
+["isActive"] = true,
+["layoutIndex"] = 17,
+},
+[28880] = {
+["isActive"] = true,
+["layoutIndex"] = 5,
+},
+[357214] = {
+["isActive"] = true,
+["layoutIndex"] = 23,
+},
+[256948] = {
+["isActive"] = true,
+["layoutIndex"] = 14,
+},
+[291944] = {
+["isActive"] = true,
+["layoutIndex"] = 18,
+},
+[287712] = {
+["isActive"] = true,
+["layoutIndex"] = 16,
+},
+[7744] = {
+["isActive"] = true,
+["layoutIndex"] = 8,
+},
+[312924] = {
+["isActive"] = true,
+["layoutIndex"] = 20,
+},
+[312411] = {
+["isActive"] = true,
+["layoutIndex"] = 19,
+},
+[20589] = {
+["isActive"] = true,
+["layoutIndex"] = 4,
+},
+[255647] = {
+["isActive"] = true,
+["layoutIndex"] = 15,
+},
+[107079] = {
+["isActive"] = true,
+["layoutIndex"] = 21,
+},
+[26297] = {
+["isActive"] = true,
+["layoutIndex"] = 10,
+},
+},
+["DISCIPLINE"] = {
+[436344] = {
+["isActive"] = true,
+["layoutIndex"] = 24,
+},
+[20594] = {
+["isActive"] = true,
+["layoutIndex"] = 2,
+},
+[202719] = {
+["isActive"] = true,
+["layoutIndex"] = 11,
+},
+[58984] = {
+["isActive"] = true,
+["layoutIndex"] = 3,
+},
+[68992] = {
+["isActive"] = true,
+["layoutIndex"] = 6,
+},
+[1237885] = {
+["isActive"] = true,
+["layoutIndex"] = 25,
+},
+[20549] = {
+["isActive"] = true,
+["layoutIndex"] = 9,
+},
+[20572] = {
+["isActive"] = true,
+["layoutIndex"] = 7,
+},
+[59752] = {
+["isActive"] = true,
+["layoutIndex"] = 1,
+},
+[69070] = {
+["isActive"] = true,
+["layoutIndex"] = 12,
+},
+[69041] = {
+["isActive"] = true,
+["layoutIndex"] = 13,
+},
+[368970] = {
+["isActive"] = true,
+["layoutIndex"] = 22,
+},
+[265221] = {
+["isActive"] = true,
+["layoutIndex"] = 17,
+},
+[28880] = {
+["isActive"] = true,
+["layoutIndex"] = 5,
+},
+[357214] = {
+["isActive"] = true,
+["layoutIndex"] = 23,
+},
+[256948] = {
+["isActive"] = true,
+["layoutIndex"] = 14,
+},
+[291944] = {
+["isActive"] = true,
+["layoutIndex"] = 18,
+},
+[287712] = {
+["isActive"] = true,
+["layoutIndex"] = 16,
+},
+[7744] = {
+["isActive"] = true,
+["layoutIndex"] = 8,
+},
+[312924] = {
+["isActive"] = true,
+["layoutIndex"] = 20,
+},
+[312411] = {
+["isActive"] = true,
+["layoutIndex"] = 19,
+},
+[20589] = {
+["isActive"] = true,
+["layoutIndex"] = 4,
+},
+[255647] = {
+["isActive"] = true,
+["layoutIndex"] = 15,
+},
+[107079] = {
+["isActive"] = true,
+["layoutIndex"] = 21,
+},
+[26297] = {
+["isActive"] = true,
+["layoutIndex"] = 10,
+},
+},
 ["SHADOW"] = {
+[50613] = {
+["isActive"] = true,
+["layoutIndex"] = 9,
+},
+[202719] = {
+["isActive"] = true,
+["layoutIndex"] = 5,
+},
+[255647] = {
+["isActive"] = true,
+["layoutIndex"] = 15,
+},
+[69041] = {
+["isActive"] = true,
+["layoutIndex"] = 13,
+},
+[291944] = {
+["isActive"] = true,
+["layoutIndex"] = 18,
+},
+[69179] = {
+["isActive"] = true,
+["layoutIndex"] = 10,
+},
+[28880] = {
+["isActive"] = true,
+["layoutIndex"] = 5,
+},
+[312924] = {
+["isActive"] = true,
+["layoutIndex"] = 20,
+},
 [256948] = {
 ["isActive"] = true,
 ["layoutIndex"] = 1,
 },
+[20572] = {
+["isActive"] = true,
+["layoutIndex"] = 7,
+},
+[7744] = {
+["isActive"] = true,
+["layoutIndex"] = 8,
+},
+[436344] = {
+["isActive"] = true,
+["layoutIndex"] = 24,
+},
+[129597] = {
+["isActive"] = true,
+["layoutIndex"] = 4,
+},
+[265221] = {
+["isActive"] = true,
+["layoutIndex"] = 11,
+},
+[69070] = {
+["isActive"] = true,
+["layoutIndex"] = 12,
+},
+[107079] = {
+["isActive"] = true,
+["layoutIndex"] = 21,
+},
+[20589] = {
+["isActive"] = true,
+["layoutIndex"] = 4,
+},
+[312411] = {
+["isActive"] = true,
+["layoutIndex"] = 19,
+},
+[232633] = {
+["isActive"] = true,
+["layoutIndex"] = 13,
+},
+[68992] = {
+["isActive"] = true,
+["layoutIndex"] = 6,
+},
+[368970] = {
+["isActive"] = true,
+["layoutIndex"] = 22,
+},
+[274738] = {
+["isActive"] = true,
+["layoutIndex"] = 14,
+},
+[28730] = {
+["isActive"] = true,
+["layoutIndex"] = 3,
+},
+[287712] = {
+["isActive"] = true,
+["layoutIndex"] = 16,
+},
+[26297] = {
+["isActive"] = true,
+["layoutIndex"] = 10,
+},
+[59752] = {
+["isActive"] = true,
+["layoutIndex"] = 1,
+},
+[20594] = {
+["isActive"] = true,
+["layoutIndex"] = 2,
+},
+[80483] = {
+["isActive"] = true,
+["layoutIndex"] = 8,
+},
+[155145] = {
+["isActive"] = true,
+["layoutIndex"] = 7,
+},
+[25046] = {
+["isActive"] = true,
+["layoutIndex"] = 6,
+},
+[20549] = {
+["isActive"] = true,
+["layoutIndex"] = 9,
+},
+[58984] = {
+["isActive"] = true,
+["layoutIndex"] = 12,
+},
+[1237885] = {
+["isActive"] = true,
+["layoutIndex"] = 25,
+},
+[357214] = {
+["isActive"] = true,
+["layoutIndex"] = 23,
 },
 },
 },
-["IconSize"] = 36,
-["Layout"] = {
-nil,
-nil,
-nil,
--251,
--108,
+["SHAMAN"] = {
+["RESTORATION"] = {
+[436344] = {
+["isActive"] = true,
+["layoutIndex"] = 24,
+},
+[20594] = {
+["isActive"] = true,
+["layoutIndex"] = 2,
+},
+[202719] = {
+["isActive"] = true,
+["layoutIndex"] = 11,
+},
+[58984] = {
+["isActive"] = true,
+["layoutIndex"] = 3,
+},
+[68992] = {
+["isActive"] = true,
+["layoutIndex"] = 6,
+},
+[1237885] = {
+["isActive"] = true,
+["layoutIndex"] = 25,
+},
+[20549] = {
+["isActive"] = true,
+["layoutIndex"] = 9,
+},
+[20572] = {
+["isActive"] = true,
+["layoutIndex"] = 7,
+},
+[59752] = {
+["isActive"] = true,
+["layoutIndex"] = 1,
+},
+[69070] = {
+["isActive"] = true,
+["layoutIndex"] = 12,
+},
+[69041] = {
+["isActive"] = true,
+["layoutIndex"] = 13,
+},
+[368970] = {
+["isActive"] = true,
+["layoutIndex"] = 22,
+},
+[265221] = {
+["isActive"] = true,
+["layoutIndex"] = 17,
+},
+[28880] = {
+["isActive"] = true,
+["layoutIndex"] = 5,
+},
+[357214] = {
+["isActive"] = true,
+["layoutIndex"] = 23,
+},
+[256948] = {
+["isActive"] = true,
+["layoutIndex"] = 14,
+},
+[291944] = {
+["isActive"] = true,
+["layoutIndex"] = 18,
+},
+[287712] = {
+["isActive"] = true,
+["layoutIndex"] = 16,
+},
+[7744] = {
+["isActive"] = true,
+["layoutIndex"] = 8,
+},
+[312924] = {
+["isActive"] = true,
+["layoutIndex"] = 20,
+},
+[312411] = {
+["isActive"] = true,
+["layoutIndex"] = 19,
+},
+[20589] = {
+["isActive"] = true,
+["layoutIndex"] = 4,
+},
+[255647] = {
+["isActive"] = true,
+["layoutIndex"] = 15,
+},
+[107079] = {
+["isActive"] = true,
+["layoutIndex"] = 21,
+},
+[26297] = {
+["isActive"] = true,
+["layoutIndex"] = 10,
 },
 },
-["Essential"] = {
-["IconSize"] = 50,
-["Layout"] = {
-nil,
-nil,
-nil,
--275,
+["ELEMENTAL"] = {
+[436344] = {
+["isActive"] = true,
+["layoutIndex"] = 24,
 },
-["Text"] = {
-["FontSize"] = 24,
+[20594] = {
+["isActive"] = true,
+["layoutIndex"] = 2,
+},
+[202719] = {
+["isActive"] = true,
+["layoutIndex"] = 11,
+},
+[58984] = {
+["isActive"] = true,
+["layoutIndex"] = 3,
+},
+[68992] = {
+["isActive"] = true,
+["layoutIndex"] = 6,
+},
+[1237885] = {
+["isActive"] = true,
+["layoutIndex"] = 25,
+},
+[20549] = {
+["isActive"] = true,
+["layoutIndex"] = 9,
+},
+[20572] = {
+["isActive"] = true,
+["layoutIndex"] = 7,
+},
+[59752] = {
+["isActive"] = true,
+["layoutIndex"] = 1,
+},
+[69070] = {
+["isActive"] = true,
+["layoutIndex"] = 12,
+},
+[69041] = {
+["isActive"] = true,
+["layoutIndex"] = 13,
+},
+[368970] = {
+["isActive"] = true,
+["layoutIndex"] = 22,
+},
+[265221] = {
+["isActive"] = true,
+["layoutIndex"] = 17,
+},
+[28880] = {
+["isActive"] = true,
+["layoutIndex"] = 5,
+},
+[357214] = {
+["isActive"] = true,
+["layoutIndex"] = 23,
+},
+[256948] = {
+["isActive"] = true,
+["layoutIndex"] = 14,
+},
+[291944] = {
+["isActive"] = true,
+["layoutIndex"] = 18,
+},
+[287712] = {
+["isActive"] = true,
+["layoutIndex"] = 16,
+},
+[7744] = {
+["isActive"] = true,
+["layoutIndex"] = 8,
+},
+[312924] = {
+["isActive"] = true,
+["layoutIndex"] = 20,
+},
+[312411] = {
+["isActive"] = true,
+["layoutIndex"] = 19,
+},
+[20589] = {
+["isActive"] = true,
+["layoutIndex"] = 4,
+},
+[255647] = {
+["isActive"] = true,
+["layoutIndex"] = 15,
+},
+[107079] = {
+["isActive"] = true,
+["layoutIndex"] = 21,
+},
+[26297] = {
+["isActive"] = true,
+["layoutIndex"] = 10,
+},
+},
+["ENHANCEMENT"] = {
+[436344] = {
+["isActive"] = true,
+["layoutIndex"] = 24,
+},
+[20594] = {
+["isActive"] = true,
+["layoutIndex"] = 2,
+},
+[202719] = {
+["isActive"] = true,
+["layoutIndex"] = 11,
+},
+[58984] = {
+["isActive"] = true,
+["layoutIndex"] = 3,
+},
+[68992] = {
+["isActive"] = true,
+["layoutIndex"] = 6,
+},
+[1237885] = {
+["isActive"] = true,
+["layoutIndex"] = 25,
+},
+[20549] = {
+["isActive"] = true,
+["layoutIndex"] = 9,
+},
+[20572] = {
+["isActive"] = true,
+["layoutIndex"] = 7,
+},
+[59752] = {
+["isActive"] = true,
+["layoutIndex"] = 1,
+},
+[69070] = {
+["isActive"] = true,
+["layoutIndex"] = 12,
+},
+[69041] = {
+["isActive"] = true,
+["layoutIndex"] = 13,
+},
+[368970] = {
+["isActive"] = true,
+["layoutIndex"] = 22,
+},
+[265221] = {
+["isActive"] = true,
+["layoutIndex"] = 17,
+},
+[28880] = {
+["isActive"] = true,
+["layoutIndex"] = 5,
+},
+[357214] = {
+["isActive"] = true,
+["layoutIndex"] = 23,
+},
+[256948] = {
+["isActive"] = true,
+["layoutIndex"] = 14,
+},
+[291944] = {
+["isActive"] = true,
+["layoutIndex"] = 18,
+},
+[287712] = {
+["isActive"] = true,
+["layoutIndex"] = 16,
+},
+[7744] = {
+["isActive"] = true,
+["layoutIndex"] = 8,
+},
+[312924] = {
+["isActive"] = true,
+["layoutIndex"] = 20,
+},
+[312411] = {
+["isActive"] = true,
+["layoutIndex"] = 19,
+},
+[20589] = {
+["isActive"] = true,
+["layoutIndex"] = 4,
+},
+[255647] = {
+["isActive"] = true,
+["layoutIndex"] = 15,
+},
+[107079] = {
+["isActive"] = true,
+["layoutIndex"] = 21,
+},
+[26297] = {
+["isActive"] = true,
+["layoutIndex"] = 10,
+},
+},
+},
+["MONK"] = {
+["MISTWEAVER"] = {
+[436344] = {
+["isActive"] = true,
+["layoutIndex"] = 24,
+},
+[20594] = {
+["isActive"] = true,
+["layoutIndex"] = 2,
+},
+[202719] = {
+["isActive"] = true,
+["layoutIndex"] = 11,
+},
+[58984] = {
+["isActive"] = true,
+["layoutIndex"] = 3,
+},
+[68992] = {
+["isActive"] = true,
+["layoutIndex"] = 6,
+},
+[1237885] = {
+["isActive"] = true,
+["layoutIndex"] = 25,
+},
+[20549] = {
+["isActive"] = true,
+["layoutIndex"] = 9,
+},
+[20572] = {
+["isActive"] = true,
+["layoutIndex"] = 7,
+},
+[59752] = {
+["isActive"] = true,
+["layoutIndex"] = 1,
+},
+[69070] = {
+["isActive"] = true,
+["layoutIndex"] = 12,
+},
+[69041] = {
+["isActive"] = true,
+["layoutIndex"] = 13,
+},
+[368970] = {
+["isActive"] = true,
+["layoutIndex"] = 22,
+},
+[265221] = {
+["isActive"] = true,
+["layoutIndex"] = 17,
+},
+[28880] = {
+["isActive"] = true,
+["layoutIndex"] = 5,
+},
+[357214] = {
+["isActive"] = true,
+["layoutIndex"] = 23,
+},
+[256948] = {
+["isActive"] = true,
+["layoutIndex"] = 14,
+},
+[291944] = {
+["isActive"] = true,
+["layoutIndex"] = 18,
+},
+[287712] = {
+["isActive"] = true,
+["layoutIndex"] = 16,
+},
+[7744] = {
+["isActive"] = true,
+["layoutIndex"] = 8,
+},
+[312924] = {
+["isActive"] = true,
+["layoutIndex"] = 20,
+},
+[312411] = {
+["isActive"] = true,
+["layoutIndex"] = 19,
+},
+[20589] = {
+["isActive"] = true,
+["layoutIndex"] = 4,
+},
+[255647] = {
+["isActive"] = true,
+["layoutIndex"] = 15,
+},
+[107079] = {
+["isActive"] = true,
+["layoutIndex"] = 21,
+},
+[26297] = {
+["isActive"] = true,
+["layoutIndex"] = 10,
+},
+},
+["BREWMASTER"] = {
+[436344] = {
+["isActive"] = true,
+["layoutIndex"] = 24,
+},
+[20594] = {
+["isActive"] = true,
+["layoutIndex"] = 2,
+},
+[202719] = {
+["isActive"] = true,
+["layoutIndex"] = 11,
+},
+[58984] = {
+["isActive"] = true,
+["layoutIndex"] = 3,
+},
+[68992] = {
+["isActive"] = true,
+["layoutIndex"] = 6,
+},
+[1237885] = {
+["isActive"] = true,
+["layoutIndex"] = 25,
+},
+[20549] = {
+["isActive"] = true,
+["layoutIndex"] = 9,
+},
+[20572] = {
+["isActive"] = true,
+["layoutIndex"] = 7,
+},
+[59752] = {
+["isActive"] = true,
+["layoutIndex"] = 1,
+},
+[69070] = {
+["isActive"] = true,
+["layoutIndex"] = 12,
+},
+[69041] = {
+["isActive"] = true,
+["layoutIndex"] = 13,
+},
+[368970] = {
+["isActive"] = true,
+["layoutIndex"] = 22,
+},
+[265221] = {
+["isActive"] = true,
+["layoutIndex"] = 17,
+},
+[28880] = {
+["isActive"] = true,
+["layoutIndex"] = 5,
+},
+[357214] = {
+["isActive"] = true,
+["layoutIndex"] = 23,
+},
+[256948] = {
+["isActive"] = true,
+["layoutIndex"] = 14,
+},
+[291944] = {
+["isActive"] = true,
+["layoutIndex"] = 18,
+},
+[287712] = {
+["isActive"] = true,
+["layoutIndex"] = 16,
+},
+[7744] = {
+["isActive"] = true,
+["layoutIndex"] = 8,
+},
+[312924] = {
+["isActive"] = true,
+["layoutIndex"] = 20,
+},
+[312411] = {
+["isActive"] = true,
+["layoutIndex"] = 19,
+},
+[20589] = {
+["isActive"] = true,
+["layoutIndex"] = 4,
+},
+[255647] = {
+["isActive"] = true,
+["layoutIndex"] = 15,
+},
+[107079] = {
+["isActive"] = true,
+["layoutIndex"] = 21,
+},
+[26297] = {
+["isActive"] = true,
+["layoutIndex"] = 10,
+},
+},
+["WINDWALKER"] = {
+[436344] = {
+["isActive"] = true,
+["layoutIndex"] = 24,
+},
+[20594] = {
+["isActive"] = true,
+["layoutIndex"] = 2,
+},
+[202719] = {
+["isActive"] = true,
+["layoutIndex"] = 11,
+},
+[58984] = {
+["isActive"] = true,
+["layoutIndex"] = 3,
+},
+[68992] = {
+["isActive"] = true,
+["layoutIndex"] = 6,
+},
+[1237885] = {
+["isActive"] = true,
+["layoutIndex"] = 25,
+},
+[20549] = {
+["isActive"] = true,
+["layoutIndex"] = 9,
+},
+[20572] = {
+["isActive"] = true,
+["layoutIndex"] = 7,
+},
+[59752] = {
+["isActive"] = true,
+["layoutIndex"] = 1,
+},
+[69070] = {
+["isActive"] = true,
+["layoutIndex"] = 12,
+},
+[69041] = {
+["isActive"] = true,
+["layoutIndex"] = 13,
+},
+[368970] = {
+["isActive"] = true,
+["layoutIndex"] = 22,
+},
+[265221] = {
+["isActive"] = true,
+["layoutIndex"] = 17,
+},
+[28880] = {
+["isActive"] = true,
+["layoutIndex"] = 5,
+},
+[357214] = {
+["isActive"] = true,
+["layoutIndex"] = 23,
+},
+[256948] = {
+["isActive"] = true,
+["layoutIndex"] = 14,
+},
+[291944] = {
+["isActive"] = true,
+["layoutIndex"] = 18,
+},
+[287712] = {
+["isActive"] = true,
+["layoutIndex"] = 16,
+},
+[7744] = {
+["isActive"] = true,
+["layoutIndex"] = 8,
+},
+[312924] = {
+["isActive"] = true,
+["layoutIndex"] = 20,
+},
+[312411] = {
+["isActive"] = true,
+["layoutIndex"] = 19,
+},
+[20589] = {
+["isActive"] = true,
+["layoutIndex"] = 4,
+},
+[255647] = {
+["isActive"] = true,
+["layoutIndex"] = 15,
+},
+[107079] = {
+["isActive"] = true,
+["layoutIndex"] = 21,
+},
+[26297] = {
+["isActive"] = true,
+["layoutIndex"] = 10,
+},
+},
+},
+["WARLOCK"] = {
+["AFFLICTION"] = {
+[436344] = {
+["isActive"] = true,
+["layoutIndex"] = 24,
+},
+[20594] = {
+["isActive"] = true,
+["layoutIndex"] = 2,
+},
+[202719] = {
+["isActive"] = true,
+["layoutIndex"] = 11,
+},
+[58984] = {
+["isActive"] = true,
+["layoutIndex"] = 3,
+},
+[68992] = {
+["isActive"] = true,
+["layoutIndex"] = 6,
+},
+[1237885] = {
+["isActive"] = true,
+["layoutIndex"] = 25,
+},
+[20549] = {
+["isActive"] = true,
+["layoutIndex"] = 9,
+},
+[20572] = {
+["isActive"] = true,
+["layoutIndex"] = 7,
+},
+[59752] = {
+["isActive"] = true,
+["layoutIndex"] = 1,
+},
+[69070] = {
+["isActive"] = true,
+["layoutIndex"] = 12,
+},
+[69041] = {
+["isActive"] = true,
+["layoutIndex"] = 13,
+},
+[368970] = {
+["isActive"] = true,
+["layoutIndex"] = 22,
+},
+[265221] = {
+["isActive"] = true,
+["layoutIndex"] = 17,
+},
+[28880] = {
+["isActive"] = true,
+["layoutIndex"] = 5,
+},
+[357214] = {
+["isActive"] = true,
+["layoutIndex"] = 23,
+},
+[256948] = {
+["isActive"] = true,
+["layoutIndex"] = 14,
+},
+[291944] = {
+["isActive"] = true,
+["layoutIndex"] = 18,
+},
+[287712] = {
+["isActive"] = true,
+["layoutIndex"] = 16,
+},
+[7744] = {
+["isActive"] = true,
+["layoutIndex"] = 8,
+},
+[312924] = {
+["isActive"] = true,
+["layoutIndex"] = 20,
+},
+[312411] = {
+["isActive"] = true,
+["layoutIndex"] = 19,
+},
+[20589] = {
+["isActive"] = true,
+["layoutIndex"] = 4,
+},
+[255647] = {
+["isActive"] = true,
+["layoutIndex"] = 15,
+},
+[107079] = {
+["isActive"] = true,
+["layoutIndex"] = 21,
+},
+[26297] = {
+["isActive"] = true,
+["layoutIndex"] = 10,
+},
+},
+["DESTRUCTION"] = {
+[436344] = {
+["isActive"] = true,
+["layoutIndex"] = 24,
+},
+[20594] = {
+["isActive"] = true,
+["layoutIndex"] = 2,
+},
+[202719] = {
+["isActive"] = true,
+["layoutIndex"] = 11,
+},
+[58984] = {
+["isActive"] = true,
+["layoutIndex"] = 3,
+},
+[68992] = {
+["isActive"] = true,
+["layoutIndex"] = 6,
+},
+[1237885] = {
+["isActive"] = true,
+["layoutIndex"] = 25,
+},
+[20549] = {
+["isActive"] = true,
+["layoutIndex"] = 9,
+},
+[20572] = {
+["isActive"] = true,
+["layoutIndex"] = 7,
+},
+[59752] = {
+["isActive"] = true,
+["layoutIndex"] = 1,
+},
+[69070] = {
+["isActive"] = true,
+["layoutIndex"] = 12,
+},
+[69041] = {
+["isActive"] = true,
+["layoutIndex"] = 13,
+},
+[368970] = {
+["isActive"] = true,
+["layoutIndex"] = 22,
+},
+[265221] = {
+["isActive"] = true,
+["layoutIndex"] = 17,
+},
+[28880] = {
+["isActive"] = true,
+["layoutIndex"] = 5,
+},
+[357214] = {
+["isActive"] = true,
+["layoutIndex"] = 23,
+},
+[256948] = {
+["isActive"] = true,
+["layoutIndex"] = 14,
+},
+[291944] = {
+["isActive"] = true,
+["layoutIndex"] = 18,
+},
+[287712] = {
+["isActive"] = true,
+["layoutIndex"] = 16,
+},
+[7744] = {
+["isActive"] = true,
+["layoutIndex"] = 8,
+},
+[312924] = {
+["isActive"] = true,
+["layoutIndex"] = 20,
+},
+[312411] = {
+["isActive"] = true,
+["layoutIndex"] = 19,
+},
+[20589] = {
+["isActive"] = true,
+["layoutIndex"] = 4,
+},
+[255647] = {
+["isActive"] = true,
+["layoutIndex"] = 15,
+},
+[107079] = {
+["isActive"] = true,
+["layoutIndex"] = 21,
+},
+[26297] = {
+["isActive"] = true,
+["layoutIndex"] = 10,
+},
+},
+["DEMONOLOGY"] = {
+[436344] = {
+["isActive"] = true,
+["layoutIndex"] = 24,
+},
+[20594] = {
+["isActive"] = true,
+["layoutIndex"] = 2,
+},
+[202719] = {
+["isActive"] = true,
+["layoutIndex"] = 11,
+},
+[58984] = {
+["isActive"] = true,
+["layoutIndex"] = 3,
+},
+[68992] = {
+["isActive"] = true,
+["layoutIndex"] = 6,
+},
+[1237885] = {
+["isActive"] = true,
+["layoutIndex"] = 25,
+},
+[20549] = {
+["isActive"] = true,
+["layoutIndex"] = 9,
+},
+[20572] = {
+["isActive"] = true,
+["layoutIndex"] = 7,
+},
+[59752] = {
+["isActive"] = true,
+["layoutIndex"] = 1,
+},
+[69070] = {
+["isActive"] = true,
+["layoutIndex"] = 12,
+},
+[69041] = {
+["isActive"] = true,
+["layoutIndex"] = 13,
+},
+[368970] = {
+["isActive"] = true,
+["layoutIndex"] = 22,
+},
+[265221] = {
+["isActive"] = true,
+["layoutIndex"] = 17,
+},
+[28880] = {
+["isActive"] = true,
+["layoutIndex"] = 5,
+},
+[357214] = {
+["isActive"] = true,
+["layoutIndex"] = 23,
+},
+[256948] = {
+["isActive"] = true,
+["layoutIndex"] = 14,
+},
+[291944] = {
+["isActive"] = true,
+["layoutIndex"] = 18,
+},
+[287712] = {
+["isActive"] = true,
+["layoutIndex"] = 16,
+},
+[7744] = {
+["isActive"] = true,
+["layoutIndex"] = 8,
+},
+[312924] = {
+["isActive"] = true,
+["layoutIndex"] = 20,
+},
+[312411] = {
+["isActive"] = true,
+["layoutIndex"] = 19,
+},
+[20589] = {
+["isActive"] = true,
+["layoutIndex"] = 4,
+},
+[255647] = {
+["isActive"] = true,
+["layoutIndex"] = 15,
+},
+[107079] = {
+["isActive"] = true,
+["layoutIndex"] = 21,
+},
+[26297] = {
+["isActive"] = true,
+["layoutIndex"] = 10,
+},
+},
+},
+["DEMONHUNTER"] = {
+["VENGEANCE"] = {
+[436344] = {
+["isActive"] = true,
+["layoutIndex"] = 24,
+},
+[20594] = {
+["isActive"] = true,
+["layoutIndex"] = 2,
+},
+[202719] = {
+["isActive"] = true,
+["layoutIndex"] = 11,
+},
+[58984] = {
+["isActive"] = true,
+["layoutIndex"] = 3,
+},
+[68992] = {
+["isActive"] = true,
+["layoutIndex"] = 6,
+},
+[1237885] = {
+["isActive"] = true,
+["layoutIndex"] = 25,
+},
+[20549] = {
+["isActive"] = true,
+["layoutIndex"] = 9,
+},
+[20572] = {
+["isActive"] = true,
+["layoutIndex"] = 7,
+},
+[59752] = {
+["isActive"] = true,
+["layoutIndex"] = 1,
+},
+[69070] = {
+["isActive"] = true,
+["layoutIndex"] = 12,
+},
+[69041] = {
+["isActive"] = true,
+["layoutIndex"] = 13,
+},
+[368970] = {
+["isActive"] = true,
+["layoutIndex"] = 22,
+},
+[265221] = {
+["isActive"] = true,
+["layoutIndex"] = 17,
+},
+[28880] = {
+["isActive"] = true,
+["layoutIndex"] = 5,
+},
+[357214] = {
+["isActive"] = true,
+["layoutIndex"] = 23,
+},
+[256948] = {
+["isActive"] = true,
+["layoutIndex"] = 14,
+},
+[291944] = {
+["isActive"] = true,
+["layoutIndex"] = 18,
+},
+[287712] = {
+["isActive"] = true,
+["layoutIndex"] = 16,
+},
+[7744] = {
+["isActive"] = true,
+["layoutIndex"] = 8,
+},
+[312924] = {
+["isActive"] = true,
+["layoutIndex"] = 20,
+},
+[312411] = {
+["isActive"] = true,
+["layoutIndex"] = 19,
+},
+[20589] = {
+["isActive"] = true,
+["layoutIndex"] = 4,
+},
+[255647] = {
+["isActive"] = true,
+["layoutIndex"] = 15,
+},
+[107079] = {
+["isActive"] = true,
+["layoutIndex"] = 21,
+},
+[26297] = {
+["isActive"] = true,
+["layoutIndex"] = 10,
+},
+},
+["HAVOC"] = {
+[436344] = {
+["isActive"] = true,
+["layoutIndex"] = 24,
+},
+[20594] = {
+["isActive"] = true,
+["layoutIndex"] = 2,
+},
+[202719] = {
+["isActive"] = true,
+["layoutIndex"] = 11,
+},
+[58984] = {
+["isActive"] = true,
+["layoutIndex"] = 3,
+},
+[68992] = {
+["isActive"] = true,
+["layoutIndex"] = 6,
+},
+[1237885] = {
+["isActive"] = true,
+["layoutIndex"] = 25,
+},
+[20549] = {
+["isActive"] = true,
+["layoutIndex"] = 9,
+},
+[20572] = {
+["isActive"] = true,
+["layoutIndex"] = 7,
+},
+[59752] = {
+["isActive"] = true,
+["layoutIndex"] = 1,
+},
+[69070] = {
+["isActive"] = true,
+["layoutIndex"] = 12,
+},
+[69041] = {
+["isActive"] = true,
+["layoutIndex"] = 13,
+},
+[368970] = {
+["isActive"] = true,
+["layoutIndex"] = 22,
+},
+[265221] = {
+["isActive"] = true,
+["layoutIndex"] = 17,
+},
+[28880] = {
+["isActive"] = true,
+["layoutIndex"] = 5,
+},
+[357214] = {
+["isActive"] = true,
+["layoutIndex"] = 23,
+},
+[256948] = {
+["isActive"] = true,
+["layoutIndex"] = 14,
+},
+[291944] = {
+["isActive"] = true,
+["layoutIndex"] = 18,
+},
+[287712] = {
+["isActive"] = true,
+["layoutIndex"] = 16,
+},
+[7744] = {
+["isActive"] = true,
+["layoutIndex"] = 8,
+},
+[312924] = {
+["isActive"] = true,
+["layoutIndex"] = 20,
+},
+[312411] = {
+["isActive"] = true,
+["layoutIndex"] = 19,
+},
+[20589] = {
+["isActive"] = true,
+["layoutIndex"] = 4,
+},
+[255647] = {
+["isActive"] = true,
+["layoutIndex"] = 15,
+},
+[107079] = {
+["isActive"] = true,
+["layoutIndex"] = 21,
+},
+[26297] = {
+["isActive"] = true,
+["layoutIndex"] = 10,
+},
+},
+["DEVOURER"] = {
+[436344] = {
+["isActive"] = true,
+["layoutIndex"] = 24,
+},
+[20594] = {
+["isActive"] = true,
+["layoutIndex"] = 2,
+},
+[202719] = {
+["isActive"] = true,
+["layoutIndex"] = 11,
+},
+[58984] = {
+["isActive"] = true,
+["layoutIndex"] = 3,
+},
+[68992] = {
+["isActive"] = true,
+["layoutIndex"] = 6,
+},
+[1237885] = {
+["isActive"] = true,
+["layoutIndex"] = 25,
+},
+[20549] = {
+["isActive"] = true,
+["layoutIndex"] = 9,
+},
+[20572] = {
+["isActive"] = true,
+["layoutIndex"] = 7,
+},
+[59752] = {
+["isActive"] = true,
+["layoutIndex"] = 1,
+},
+[69070] = {
+["isActive"] = true,
+["layoutIndex"] = 12,
+},
+[69041] = {
+["isActive"] = true,
+["layoutIndex"] = 13,
+},
+[368970] = {
+["isActive"] = true,
+["layoutIndex"] = 22,
+},
+[265221] = {
+["isActive"] = true,
+["layoutIndex"] = 17,
+},
+[28880] = {
+["isActive"] = true,
+["layoutIndex"] = 5,
+},
+[357214] = {
+["isActive"] = true,
+["layoutIndex"] = 23,
+},
+[256948] = {
+["isActive"] = true,
+["layoutIndex"] = 14,
+},
+[291944] = {
+["isActive"] = true,
+["layoutIndex"] = 18,
+},
+[287712] = {
+["isActive"] = true,
+["layoutIndex"] = 16,
+},
+[7744] = {
+["isActive"] = true,
+["layoutIndex"] = 8,
+},
+[312924] = {
+["isActive"] = true,
+["layoutIndex"] = 20,
+},
+[312411] = {
+["isActive"] = true,
+["layoutIndex"] = 19,
+},
+[20589] = {
+["isActive"] = true,
+["layoutIndex"] = 4,
+},
+[255647] = {
+["isActive"] = true,
+["layoutIndex"] = 15,
+},
+[107079] = {
+["isActive"] = true,
+["layoutIndex"] = 21,
+},
+[26297] = {
+["isActive"] = true,
+["layoutIndex"] = 10,
+},
+},
+},
+["DEATHKNIGHT"] = {
+["BLOOD"] = {
+[436344] = {
+["isActive"] = true,
+["layoutIndex"] = 24,
+},
+[20594] = {
+["isActive"] = true,
+["layoutIndex"] = 2,
+},
+[202719] = {
+["isActive"] = true,
+["layoutIndex"] = 11,
+},
+[58984] = {
+["isActive"] = true,
+["layoutIndex"] = 3,
+},
+[68992] = {
+["isActive"] = true,
+["layoutIndex"] = 6,
+},
+[1237885] = {
+["isActive"] = true,
+["layoutIndex"] = 25,
+},
+[20549] = {
+["isActive"] = true,
+["layoutIndex"] = 9,
+},
+[20572] = {
+["isActive"] = true,
+["layoutIndex"] = 7,
+},
+[59752] = {
+["isActive"] = true,
+["layoutIndex"] = 1,
+},
+[69070] = {
+["isActive"] = true,
+["layoutIndex"] = 12,
+},
+[69041] = {
+["isActive"] = true,
+["layoutIndex"] = 13,
+},
+[368970] = {
+["isActive"] = true,
+["layoutIndex"] = 22,
+},
+[265221] = {
+["isActive"] = true,
+["layoutIndex"] = 17,
+},
+[28880] = {
+["isActive"] = true,
+["layoutIndex"] = 5,
+},
+[357214] = {
+["isActive"] = true,
+["layoutIndex"] = 23,
+},
+[256948] = {
+["isActive"] = true,
+["layoutIndex"] = 14,
+},
+[291944] = {
+["isActive"] = true,
+["layoutIndex"] = 18,
+},
+[287712] = {
+["isActive"] = true,
+["layoutIndex"] = 16,
+},
+[7744] = {
+["isActive"] = true,
+["layoutIndex"] = 8,
+},
+[312924] = {
+["isActive"] = true,
+["layoutIndex"] = 20,
+},
+[312411] = {
+["isActive"] = true,
+["layoutIndex"] = 19,
+},
+[20589] = {
+["isActive"] = true,
+["layoutIndex"] = 4,
+},
+[255647] = {
+["isActive"] = true,
+["layoutIndex"] = 15,
+},
+[107079] = {
+["isActive"] = true,
+["layoutIndex"] = 21,
+},
+[26297] = {
+["isActive"] = true,
+["layoutIndex"] = 10,
+},
+},
+["FROST"] = {
+[436344] = {
+["isActive"] = true,
+["layoutIndex"] = 24,
+},
+[20594] = {
+["isActive"] = true,
+["layoutIndex"] = 2,
+},
+[202719] = {
+["isActive"] = true,
+["layoutIndex"] = 11,
+},
+[58984] = {
+["isActive"] = true,
+["layoutIndex"] = 3,
+},
+[68992] = {
+["isActive"] = true,
+["layoutIndex"] = 6,
+},
+[1237885] = {
+["isActive"] = true,
+["layoutIndex"] = 25,
+},
+[20549] = {
+["isActive"] = true,
+["layoutIndex"] = 9,
+},
+[20572] = {
+["isActive"] = true,
+["layoutIndex"] = 7,
+},
+[59752] = {
+["isActive"] = true,
+["layoutIndex"] = 1,
+},
+[69070] = {
+["isActive"] = true,
+["layoutIndex"] = 12,
+},
+[69041] = {
+["isActive"] = true,
+["layoutIndex"] = 13,
+},
+[368970] = {
+["isActive"] = true,
+["layoutIndex"] = 22,
+},
+[265221] = {
+["isActive"] = true,
+["layoutIndex"] = 17,
+},
+[28880] = {
+["isActive"] = true,
+["layoutIndex"] = 5,
+},
+[357214] = {
+["isActive"] = true,
+["layoutIndex"] = 23,
+},
+[256948] = {
+["isActive"] = true,
+["layoutIndex"] = 14,
+},
+[291944] = {
+["isActive"] = true,
+["layoutIndex"] = 18,
+},
+[287712] = {
+["isActive"] = true,
+["layoutIndex"] = 16,
+},
+[7744] = {
+["isActive"] = true,
+["layoutIndex"] = 8,
+},
+[312924] = {
+["isActive"] = true,
+["layoutIndex"] = 20,
+},
+[312411] = {
+["isActive"] = true,
+["layoutIndex"] = 19,
+},
+[20589] = {
+["isActive"] = true,
+["layoutIndex"] = 4,
+},
+[255647] = {
+["isActive"] = true,
+["layoutIndex"] = 15,
+},
+[107079] = {
+["isActive"] = true,
+["layoutIndex"] = 21,
+},
+[26297] = {
+["isActive"] = true,
+["layoutIndex"] = 10,
+},
+},
+["UNHOLY"] = {
+[436344] = {
+["isActive"] = true,
+["layoutIndex"] = 24,
+},
+[20594] = {
+["isActive"] = true,
+["layoutIndex"] = 2,
+},
+[202719] = {
+["isActive"] = true,
+["layoutIndex"] = 11,
+},
+[58984] = {
+["isActive"] = true,
+["layoutIndex"] = 3,
+},
+[68992] = {
+["isActive"] = true,
+["layoutIndex"] = 6,
+},
+[1237885] = {
+["isActive"] = true,
+["layoutIndex"] = 25,
+},
+[20549] = {
+["isActive"] = true,
+["layoutIndex"] = 9,
+},
+[20572] = {
+["isActive"] = true,
+["layoutIndex"] = 7,
+},
+[59752] = {
+["isActive"] = true,
+["layoutIndex"] = 1,
+},
+[69070] = {
+["isActive"] = true,
+["layoutIndex"] = 12,
+},
+[69041] = {
+["isActive"] = true,
+["layoutIndex"] = 13,
+},
+[368970] = {
+["isActive"] = true,
+["layoutIndex"] = 22,
+},
+[265221] = {
+["isActive"] = true,
+["layoutIndex"] = 17,
+},
+[28880] = {
+["isActive"] = true,
+["layoutIndex"] = 5,
+},
+[357214] = {
+["isActive"] = true,
+["layoutIndex"] = 23,
+},
+[256948] = {
+["isActive"] = true,
+["layoutIndex"] = 14,
+},
+[291944] = {
+["isActive"] = true,
+["layoutIndex"] = 18,
+},
+[287712] = {
+["isActive"] = true,
+["layoutIndex"] = 16,
+},
+[7744] = {
+["isActive"] = true,
+["layoutIndex"] = 8,
+},
+[312924] = {
+["isActive"] = true,
+["layoutIndex"] = 20,
+},
+[312411] = {
+["isActive"] = true,
+["layoutIndex"] = 19,
+},
+[20589] = {
+["isActive"] = true,
+["layoutIndex"] = 4,
+},
+[255647] = {
+["isActive"] = true,
+["layoutIndex"] = 15,
+},
+[107079] = {
+["isActive"] = true,
+["layoutIndex"] = 21,
+},
+[26297] = {
+["isActive"] = true,
+["layoutIndex"] = 10,
+},
+},
+},
+["DRUID"] = {
+["RESTORATION"] = {
+[436344] = {
+["isActive"] = true,
+["layoutIndex"] = 24,
+},
+[20594] = {
+["isActive"] = true,
+["layoutIndex"] = 2,
+},
+[202719] = {
+["isActive"] = true,
+["layoutIndex"] = 11,
+},
+[58984] = {
+["isActive"] = true,
+["layoutIndex"] = 3,
+},
+[68992] = {
+["isActive"] = true,
+["layoutIndex"] = 6,
+},
+[1237885] = {
+["isActive"] = true,
+["layoutIndex"] = 25,
+},
+[20549] = {
+["isActive"] = true,
+["layoutIndex"] = 9,
+},
+[20572] = {
+["isActive"] = true,
+["layoutIndex"] = 7,
+},
+[59752] = {
+["isActive"] = true,
+["layoutIndex"] = 1,
+},
+[69070] = {
+["isActive"] = true,
+["layoutIndex"] = 12,
+},
+[69041] = {
+["isActive"] = true,
+["layoutIndex"] = 13,
+},
+[368970] = {
+["isActive"] = true,
+["layoutIndex"] = 22,
+},
+[265221] = {
+["isActive"] = true,
+["layoutIndex"] = 17,
+},
+[28880] = {
+["isActive"] = true,
+["layoutIndex"] = 5,
+},
+[357214] = {
+["isActive"] = true,
+["layoutIndex"] = 23,
+},
+[256948] = {
+["isActive"] = true,
+["layoutIndex"] = 14,
+},
+[291944] = {
+["isActive"] = true,
+["layoutIndex"] = 18,
+},
+[287712] = {
+["isActive"] = true,
+["layoutIndex"] = 16,
+},
+[7744] = {
+["isActive"] = true,
+["layoutIndex"] = 8,
+},
+[312924] = {
+["isActive"] = true,
+["layoutIndex"] = 20,
+},
+[312411] = {
+["isActive"] = true,
+["layoutIndex"] = 19,
+},
+[20589] = {
+["isActive"] = true,
+["layoutIndex"] = 4,
+},
+[255647] = {
+["isActive"] = true,
+["layoutIndex"] = 15,
+},
+[107079] = {
+["isActive"] = true,
+["layoutIndex"] = 21,
+},
+[26297] = {
+["isActive"] = true,
+["layoutIndex"] = 10,
+},
+},
+["FERAL"] = {
+[436344] = {
+["isActive"] = true,
+["layoutIndex"] = 24,
+},
+[20594] = {
+["isActive"] = true,
+["layoutIndex"] = 2,
+},
+[202719] = {
+["isActive"] = true,
+["layoutIndex"] = 11,
+},
+[58984] = {
+["isActive"] = true,
+["layoutIndex"] = 3,
+},
+[68992] = {
+["isActive"] = true,
+["layoutIndex"] = 6,
+},
+[1237885] = {
+["isActive"] = true,
+["layoutIndex"] = 25,
+},
+[20549] = {
+["isActive"] = true,
+["layoutIndex"] = 9,
+},
+[20572] = {
+["isActive"] = true,
+["layoutIndex"] = 7,
+},
+[59752] = {
+["isActive"] = true,
+["layoutIndex"] = 1,
+},
+[69070] = {
+["isActive"] = true,
+["layoutIndex"] = 12,
+},
+[69041] = {
+["isActive"] = true,
+["layoutIndex"] = 13,
+},
+[368970] = {
+["isActive"] = true,
+["layoutIndex"] = 22,
+},
+[265221] = {
+["isActive"] = true,
+["layoutIndex"] = 17,
+},
+[28880] = {
+["isActive"] = true,
+["layoutIndex"] = 5,
+},
+[357214] = {
+["isActive"] = true,
+["layoutIndex"] = 23,
+},
+[256948] = {
+["isActive"] = true,
+["layoutIndex"] = 14,
+},
+[291944] = {
+["isActive"] = true,
+["layoutIndex"] = 18,
+},
+[287712] = {
+["isActive"] = true,
+["layoutIndex"] = 16,
+},
+[7744] = {
+["isActive"] = true,
+["layoutIndex"] = 8,
+},
+[312924] = {
+["isActive"] = true,
+["layoutIndex"] = 20,
+},
+[312411] = {
+["isActive"] = true,
+["layoutIndex"] = 19,
+},
+[20589] = {
+["isActive"] = true,
+["layoutIndex"] = 4,
+},
+[255647] = {
+["isActive"] = true,
+["layoutIndex"] = 15,
+},
+[107079] = {
+["isActive"] = true,
+["layoutIndex"] = 21,
+},
+[26297] = {
+["isActive"] = true,
+["layoutIndex"] = 10,
+},
+},
+["BALANCE"] = {
+[436344] = {
+["isActive"] = true,
+["layoutIndex"] = 24,
+},
+[20594] = {
+["isActive"] = true,
+["layoutIndex"] = 2,
+},
+[202719] = {
+["isActive"] = true,
+["layoutIndex"] = 11,
+},
+[58984] = {
+["isActive"] = true,
+["layoutIndex"] = 3,
+},
+[68992] = {
+["isActive"] = true,
+["layoutIndex"] = 6,
+},
+[1237885] = {
+["isActive"] = true,
+["layoutIndex"] = 25,
+},
+[20549] = {
+["isActive"] = true,
+["layoutIndex"] = 9,
+},
+[20572] = {
+["isActive"] = true,
+["layoutIndex"] = 7,
+},
+[59752] = {
+["isActive"] = true,
+["layoutIndex"] = 1,
+},
+[69070] = {
+["isActive"] = true,
+["layoutIndex"] = 12,
+},
+[69041] = {
+["isActive"] = true,
+["layoutIndex"] = 13,
+},
+[368970] = {
+["isActive"] = true,
+["layoutIndex"] = 22,
+},
+[265221] = {
+["isActive"] = true,
+["layoutIndex"] = 17,
+},
+[28880] = {
+["isActive"] = true,
+["layoutIndex"] = 5,
+},
+[357214] = {
+["isActive"] = true,
+["layoutIndex"] = 23,
+},
+[256948] = {
+["isActive"] = true,
+["layoutIndex"] = 14,
+},
+[291944] = {
+["isActive"] = true,
+["layoutIndex"] = 18,
+},
+[287712] = {
+["isActive"] = true,
+["layoutIndex"] = 16,
+},
+[7744] = {
+["isActive"] = true,
+["layoutIndex"] = 8,
+},
+[312924] = {
+["isActive"] = true,
+["layoutIndex"] = 20,
+},
+[312411] = {
+["isActive"] = true,
+["layoutIndex"] = 19,
+},
+[20589] = {
+["isActive"] = true,
+["layoutIndex"] = 4,
+},
+[255647] = {
+["isActive"] = true,
+["layoutIndex"] = 15,
+},
+[107079] = {
+["isActive"] = true,
+["layoutIndex"] = 21,
+},
+[26297] = {
+["isActive"] = true,
+["layoutIndex"] = 10,
+},
+},
+["GUARDIAN"] = {
+[436344] = {
+["isActive"] = true,
+["layoutIndex"] = 24,
+},
+[20594] = {
+["isActive"] = true,
+["layoutIndex"] = 2,
+},
+[202719] = {
+["isActive"] = true,
+["layoutIndex"] = 11,
+},
+[58984] = {
+["isActive"] = true,
+["layoutIndex"] = 3,
+},
+[68992] = {
+["isActive"] = true,
+["layoutIndex"] = 6,
+},
+[1237885] = {
+["isActive"] = true,
+["layoutIndex"] = 25,
+},
+[20549] = {
+["isActive"] = true,
+["layoutIndex"] = 9,
+},
+[20572] = {
+["isActive"] = true,
+["layoutIndex"] = 7,
+},
+[59752] = {
+["isActive"] = true,
+["layoutIndex"] = 1,
+},
+[69070] = {
+["isActive"] = true,
+["layoutIndex"] = 12,
+},
+[69041] = {
+["isActive"] = true,
+["layoutIndex"] = 13,
+},
+[368970] = {
+["isActive"] = true,
+["layoutIndex"] = 22,
+},
+[265221] = {
+["isActive"] = true,
+["layoutIndex"] = 17,
+},
+[28880] = {
+["isActive"] = true,
+["layoutIndex"] = 5,
+},
+[357214] = {
+["isActive"] = true,
+["layoutIndex"] = 23,
+},
+[256948] = {
+["isActive"] = true,
+["layoutIndex"] = 14,
+},
+[291944] = {
+["isActive"] = true,
+["layoutIndex"] = 18,
+},
+[287712] = {
+["isActive"] = true,
+["layoutIndex"] = 16,
+},
+[7744] = {
+["isActive"] = true,
+["layoutIndex"] = 8,
+},
+[312924] = {
+["isActive"] = true,
+["layoutIndex"] = 20,
+},
+[312411] = {
+["isActive"] = true,
+["layoutIndex"] = 19,
+},
+[20589] = {
+["isActive"] = true,
+["layoutIndex"] = 4,
+},
+[255647] = {
+["isActive"] = true,
+["layoutIndex"] = 15,
+},
+[107079] = {
+["isActive"] = true,
+["layoutIndex"] = 21,
+},
+[26297] = {
+["isActive"] = true,
+["layoutIndex"] = 10,
+},
+},
+},
+["EVOKER"] = {
+["DEVASTATION"] = {
+[436344] = {
+["isActive"] = true,
+["layoutIndex"] = 24,
+},
+[20594] = {
+["isActive"] = true,
+["layoutIndex"] = 2,
+},
+[202719] = {
+["isActive"] = true,
+["layoutIndex"] = 11,
+},
+[58984] = {
+["isActive"] = true,
+["layoutIndex"] = 3,
+},
+[68992] = {
+["isActive"] = true,
+["layoutIndex"] = 6,
+},
+[1237885] = {
+["isActive"] = true,
+["layoutIndex"] = 25,
+},
+[20549] = {
+["isActive"] = true,
+["layoutIndex"] = 9,
+},
+[20572] = {
+["isActive"] = true,
+["layoutIndex"] = 7,
+},
+[59752] = {
+["isActive"] = true,
+["layoutIndex"] = 1,
+},
+[69070] = {
+["isActive"] = true,
+["layoutIndex"] = 12,
+},
+[69041] = {
+["isActive"] = true,
+["layoutIndex"] = 13,
+},
+[368970] = {
+["isActive"] = true,
+["layoutIndex"] = 22,
+},
+[265221] = {
+["isActive"] = true,
+["layoutIndex"] = 17,
+},
+[28880] = {
+["isActive"] = true,
+["layoutIndex"] = 5,
+},
+[357214] = {
+["isActive"] = true,
+["layoutIndex"] = 23,
+},
+[256948] = {
+["isActive"] = true,
+["layoutIndex"] = 14,
+},
+[291944] = {
+["isActive"] = true,
+["layoutIndex"] = 18,
+},
+[287712] = {
+["isActive"] = true,
+["layoutIndex"] = 16,
+},
+[7744] = {
+["isActive"] = true,
+["layoutIndex"] = 8,
+},
+[312924] = {
+["isActive"] = true,
+["layoutIndex"] = 20,
+},
+[312411] = {
+["isActive"] = true,
+["layoutIndex"] = 19,
+},
+[20589] = {
+["isActive"] = true,
+["layoutIndex"] = 4,
+},
+[255647] = {
+["isActive"] = true,
+["layoutIndex"] = 15,
+},
+[107079] = {
+["isActive"] = true,
+["layoutIndex"] = 21,
+},
+[26297] = {
+["isActive"] = true,
+["layoutIndex"] = 10,
+},
+},
+["PRESERVATION"] = {
+[436344] = {
+["isActive"] = true,
+["layoutIndex"] = 24,
+},
+[20594] = {
+["isActive"] = true,
+["layoutIndex"] = 2,
+},
+[202719] = {
+["isActive"] = true,
+["layoutIndex"] = 11,
+},
+[58984] = {
+["isActive"] = true,
+["layoutIndex"] = 3,
+},
+[68992] = {
+["isActive"] = true,
+["layoutIndex"] = 6,
+},
+[1237885] = {
+["isActive"] = true,
+["layoutIndex"] = 25,
+},
+[20549] = {
+["isActive"] = true,
+["layoutIndex"] = 9,
+},
+[20572] = {
+["isActive"] = true,
+["layoutIndex"] = 7,
+},
+[59752] = {
+["isActive"] = true,
+["layoutIndex"] = 1,
+},
+[69070] = {
+["isActive"] = true,
+["layoutIndex"] = 12,
+},
+[69041] = {
+["isActive"] = true,
+["layoutIndex"] = 13,
+},
+[368970] = {
+["isActive"] = true,
+["layoutIndex"] = 22,
+},
+[265221] = {
+["isActive"] = true,
+["layoutIndex"] = 17,
+},
+[28880] = {
+["isActive"] = true,
+["layoutIndex"] = 5,
+},
+[357214] = {
+["isActive"] = true,
+["layoutIndex"] = 23,
+},
+[256948] = {
+["isActive"] = true,
+["layoutIndex"] = 14,
+},
+[291944] = {
+["isActive"] = true,
+["layoutIndex"] = 18,
+},
+[287712] = {
+["isActive"] = true,
+["layoutIndex"] = 16,
+},
+[7744] = {
+["isActive"] = true,
+["layoutIndex"] = 8,
+},
+[312924] = {
+["isActive"] = true,
+["layoutIndex"] = 20,
+},
+[312411] = {
+["isActive"] = true,
+["layoutIndex"] = 19,
+},
+[20589] = {
+["isActive"] = true,
+["layoutIndex"] = 4,
+},
+[255647] = {
+["isActive"] = true,
+["layoutIndex"] = 15,
+},
+[107079] = {
+["isActive"] = true,
+["layoutIndex"] = 21,
+},
+[26297] = {
+["isActive"] = true,
+["layoutIndex"] = 10,
+},
+},
+["AUGMENTATION"] = {
+[436344] = {
+["isActive"] = true,
+["layoutIndex"] = 24,
+},
+[20594] = {
+["isActive"] = true,
+["layoutIndex"] = 2,
+},
+[202719] = {
+["isActive"] = true,
+["layoutIndex"] = 11,
+},
+[58984] = {
+["isActive"] = true,
+["layoutIndex"] = 3,
+},
+[68992] = {
+["isActive"] = true,
+["layoutIndex"] = 6,
+},
+[1237885] = {
+["isActive"] = true,
+["layoutIndex"] = 25,
+},
+[20549] = {
+["isActive"] = true,
+["layoutIndex"] = 9,
+},
+[20572] = {
+["isActive"] = true,
+["layoutIndex"] = 7,
+},
+[59752] = {
+["isActive"] = true,
+["layoutIndex"] = 1,
+},
+[69070] = {
+["isActive"] = true,
+["layoutIndex"] = 12,
+},
+[69041] = {
+["isActive"] = true,
+["layoutIndex"] = 13,
+},
+[368970] = {
+["isActive"] = true,
+["layoutIndex"] = 22,
+},
+[265221] = {
+["isActive"] = true,
+["layoutIndex"] = 17,
+},
+[28880] = {
+["isActive"] = true,
+["layoutIndex"] = 5,
+},
+[357214] = {
+["isActive"] = true,
+["layoutIndex"] = 23,
+},
+[256948] = {
+["isActive"] = true,
+["layoutIndex"] = 14,
+},
+[291944] = {
+["isActive"] = true,
+["layoutIndex"] = 18,
+},
+[287712] = {
+["isActive"] = true,
+["layoutIndex"] = 16,
+},
+[7744] = {
+["isActive"] = true,
+["layoutIndex"] = 8,
+},
+[312924] = {
+["isActive"] = true,
+["layoutIndex"] = 20,
+},
+[312411] = {
+["isActive"] = true,
+["layoutIndex"] = 19,
+},
+[20589] = {
+["isActive"] = true,
+["layoutIndex"] = 4,
+},
+[255647] = {
+["isActive"] = true,
+["layoutIndex"] = 15,
+},
+[107079] = {
+["isActive"] = true,
+["layoutIndex"] = 21,
+},
+[26297] = {
+["isActive"] = true,
+["layoutIndex"] = 10,
+},
+},
+},
+["PALADIN"] = {
+["RETRIBUTION"] = {
+[436344] = {
+["isActive"] = true,
+["layoutIndex"] = 24,
+},
+[20594] = {
+["isActive"] = true,
+["layoutIndex"] = 2,
+},
+[202719] = {
+["isActive"] = true,
+["layoutIndex"] = 11,
+},
+[58984] = {
+["isActive"] = true,
+["layoutIndex"] = 3,
+},
+[68992] = {
+["isActive"] = true,
+["layoutIndex"] = 6,
+},
+[1237885] = {
+["isActive"] = true,
+["layoutIndex"] = 25,
+},
+[20549] = {
+["isActive"] = true,
+["layoutIndex"] = 9,
+},
+[20572] = {
+["isActive"] = true,
+["layoutIndex"] = 7,
+},
+[59752] = {
+["isActive"] = true,
+["layoutIndex"] = 1,
+},
+[69070] = {
+["isActive"] = true,
+["layoutIndex"] = 12,
+},
+[69041] = {
+["isActive"] = true,
+["layoutIndex"] = 13,
+},
+[368970] = {
+["isActive"] = true,
+["layoutIndex"] = 22,
+},
+[265221] = {
+["isActive"] = true,
+["layoutIndex"] = 17,
+},
+[28880] = {
+["isActive"] = true,
+["layoutIndex"] = 5,
+},
+[357214] = {
+["isActive"] = true,
+["layoutIndex"] = 23,
+},
+[256948] = {
+["isActive"] = true,
+["layoutIndex"] = 14,
+},
+[291944] = {
+["isActive"] = true,
+["layoutIndex"] = 18,
+},
+[287712] = {
+["isActive"] = true,
+["layoutIndex"] = 16,
+},
+[7744] = {
+["isActive"] = true,
+["layoutIndex"] = 8,
+},
+[312924] = {
+["isActive"] = true,
+["layoutIndex"] = 20,
+},
+[312411] = {
+["isActive"] = true,
+["layoutIndex"] = 19,
+},
+[20589] = {
+["isActive"] = true,
+["layoutIndex"] = 4,
+},
+[255647] = {
+["isActive"] = true,
+["layoutIndex"] = 15,
+},
+[107079] = {
+["isActive"] = true,
+["layoutIndex"] = 21,
+},
+[26297] = {
+["isActive"] = true,
+["layoutIndex"] = 10,
+},
+},
+["HOLY"] = {
+[436344] = {
+["isActive"] = true,
+["layoutIndex"] = 24,
+},
+[20594] = {
+["isActive"] = true,
+["layoutIndex"] = 2,
+},
+[202719] = {
+["isActive"] = true,
+["layoutIndex"] = 11,
+},
+[58984] = {
+["isActive"] = true,
+["layoutIndex"] = 3,
+},
+[68992] = {
+["isActive"] = true,
+["layoutIndex"] = 6,
+},
+[1237885] = {
+["isActive"] = true,
+["layoutIndex"] = 25,
+},
+[20549] = {
+["isActive"] = true,
+["layoutIndex"] = 9,
+},
+[20572] = {
+["isActive"] = true,
+["layoutIndex"] = 7,
+},
+[59752] = {
+["isActive"] = true,
+["layoutIndex"] = 1,
+},
+[69070] = {
+["isActive"] = true,
+["layoutIndex"] = 12,
+},
+[69041] = {
+["isActive"] = true,
+["layoutIndex"] = 13,
+},
+[368970] = {
+["isActive"] = true,
+["layoutIndex"] = 22,
+},
+[265221] = {
+["isActive"] = true,
+["layoutIndex"] = 17,
+},
+[28880] = {
+["isActive"] = true,
+["layoutIndex"] = 5,
+},
+[357214] = {
+["isActive"] = true,
+["layoutIndex"] = 23,
+},
+[256948] = {
+["isActive"] = true,
+["layoutIndex"] = 14,
+},
+[291944] = {
+["isActive"] = true,
+["layoutIndex"] = 18,
+},
+[287712] = {
+["isActive"] = true,
+["layoutIndex"] = 16,
+},
+[7744] = {
+["isActive"] = true,
+["layoutIndex"] = 8,
+},
+[312924] = {
+["isActive"] = true,
+["layoutIndex"] = 20,
+},
+[312411] = {
+["isActive"] = true,
+["layoutIndex"] = 19,
+},
+[20589] = {
+["isActive"] = true,
+["layoutIndex"] = 4,
+},
+[255647] = {
+["isActive"] = true,
+["layoutIndex"] = 15,
+},
+[107079] = {
+["isActive"] = true,
+["layoutIndex"] = 21,
+},
+[26297] = {
+["isActive"] = true,
+["layoutIndex"] = 10,
+},
+},
+["PROTECTION"] = {
+[436344] = {
+["isActive"] = true,
+["layoutIndex"] = 24,
+},
+[20594] = {
+["isActive"] = true,
+["layoutIndex"] = 2,
+},
+[202719] = {
+["isActive"] = true,
+["layoutIndex"] = 11,
+},
+[58984] = {
+["isActive"] = true,
+["layoutIndex"] = 3,
+},
+[68992] = {
+["isActive"] = true,
+["layoutIndex"] = 6,
+},
+[1237885] = {
+["isActive"] = true,
+["layoutIndex"] = 25,
+},
+[20549] = {
+["isActive"] = true,
+["layoutIndex"] = 9,
+},
+[20572] = {
+["isActive"] = true,
+["layoutIndex"] = 7,
+},
+[59752] = {
+["isActive"] = true,
+["layoutIndex"] = 1,
+},
+[69070] = {
+["isActive"] = true,
+["layoutIndex"] = 12,
+},
+[69041] = {
+["isActive"] = true,
+["layoutIndex"] = 13,
+},
+[368970] = {
+["isActive"] = true,
+["layoutIndex"] = 22,
+},
+[265221] = {
+["isActive"] = true,
+["layoutIndex"] = 17,
+},
+[28880] = {
+["isActive"] = true,
+["layoutIndex"] = 5,
+},
+[357214] = {
+["isActive"] = true,
+["layoutIndex"] = 23,
+},
+[256948] = {
+["isActive"] = true,
+["layoutIndex"] = 14,
+},
+[291944] = {
+["isActive"] = true,
+["layoutIndex"] = 18,
+},
+[287712] = {
+["isActive"] = true,
+["layoutIndex"] = 16,
+},
+[7744] = {
+["isActive"] = true,
+["layoutIndex"] = 8,
+},
+[312924] = {
+["isActive"] = true,
+["layoutIndex"] = 20,
+},
+[312411] = {
+["isActive"] = true,
+["layoutIndex"] = 19,
+},
+[20589] = {
+["isActive"] = true,
+["layoutIndex"] = 4,
+},
+[255647] = {
+["isActive"] = true,
+["layoutIndex"] = 15,
+},
+[107079] = {
+["isActive"] = true,
+["layoutIndex"] = 21,
+},
+[26297] = {
+["isActive"] = true,
+["layoutIndex"] = 10,
+},
+},
+},
+},
+},
+["General"] = {
+["Glow"] = {
+["Pixel"] = {
+["Thickness"] = 5,
+["Lines"] = 30,
+["Color"] = {
+nil,
+0.007843137718737125,
+0,
+},
+["XOffset"] = 1,
+["Length"] = 5,
+["YOffset"] = 1,
+},
+},
+["CooldownText"] = {
+["FontSize"] = 20,
+["ScaleByIconSize"] = true,
 },
 },
 ["Trinket"] = {
 ["Layout"] = {
 nil,
+"UtilityCooldownViewer",
 nil,
-nil,
--177,
--108,
+111,
+55,
 },
 ["IconSize"] = 36,
 },
 ["ItemSpell"] = {
 ["Layout"] = {
 nil,
+"UtilityCooldownViewer",
 nil,
-nil,
--399,
--108,
+-111,
+55,
 },
 ["GrowthDirection"] = "RIGHT",
 ["ItemsSpells"] = {
-[244839] = {
+[241309] = {
+["entryType"] = "item",
+["layoutIndex"] = 2,
+["isActive"] = true,
+},
+[241305] = {
 ["entryType"] = "item",
 ["layoutIndex"] = 1,
 ["isActive"] = true,
 },
-[212265] = {
+[224464] = {
 ["entryType"] = "item",
-["layoutIndex"] = 2,
+["layoutIndex"] = 4,
 ["isActive"] = true,
+["classSpecFilters"] = {
+["WARLOCK:DEMONOLOGY"] = true,
+["WARLOCK:AFFLICTION"] = true,
+["WARLOCK:DESTRUCTION"] = true,
+},
+},
+[5512] = {
+["entryType"] = "item",
+["layoutIndex"] = 3,
+["isActive"] = true,
+["classSpecFilters"] = {
+["HUNTER:MARKSMANSHIP"] = true,
+["EVOKER:DEVASTATION"] = true,
+["WARRIOR:PROTECTION"] = true,
+["SHAMAN:ENHANCEMENT"] = true,
+["DEATHKNIGHT:FROST"] = true,
+["DEATHKNIGHT:UNHOLY"] = true,
+["MONK:WINDWALKER"] = true,
+["ROGUE:OUTLAW"] = true,
+["HUNTER:SURVIVAL"] = true,
+["PRIEST:HOLY"] = true,
+["PALADIN:RETRIBUTION"] = true,
+["DRUID:GUARDIAN"] = true,
+["DEMONHUNTER:VENGEANCE"] = true,
+["EVOKER:PRESERVATION"] = true,
+["DRUID:BALANCE"] = true,
+["PALADIN:PROTECTION"] = true,
+["ROGUE:ASSASSINATION"] = true,
+["EVOKER:AUGMENTATION"] = true,
+["DEMONHUNTER:HAVOC"] = true,
+["DEATHKNIGHT:BLOOD"] = true,
+["MAGE:ARCANE"] = true,
+["WARRIOR:FURY"] = true,
+["SHAMAN:ELEMENTAL"] = true,
+["DRUID:FERAL"] = true,
+["PRIEST:SHADOW"] = true,
+["MAGE:FIRE"] = true,
+["MAGE:FROST"] = true,
+["DRUID:RESTORATION"] = true,
+["PALADIN:HOLY"] = true,
+["MONK:BREWMASTER"] = true,
+["ROGUE:SUBTLETY"] = true,
+["SHAMAN:RESTORATION"] = true,
+["HUNTER:BEASTMASTERY"] = true,
+["DEMONHUNTER:DEVOURER"] = true,
+["PRIEST:DISCIPLINE"] = true,
+["MONK:MISTWEAVER"] = true,
+["WARRIOR:ARMS"] = true,
+},
 },
 },
 ["IconSize"] = 36,
@@ -141,33 +4347,25 @@ nil,
 ["Buffs"] = {
 ["CenterBuffs"] = true,
 ["IconSize"] = 50,
+["Text"] = {
+["FontSize"] = 24,
+},
 ["Layout"] = {
 nil,
 "NONE",
 [5] = -880,
 },
+},
+["Essential"] = {
+["IconSize"] = 50,
 ["Text"] = {
 ["FontSize"] = 24,
 },
-},
-["General"] = {
-["CooldownText"] = {
-["FontSize"] = 20,
-["ScaleByIconSize"] = true,
-},
-["Glow"] = {
-["Pixel"] = {
-["Thickness"] = 5,
-["Lines"] = 30,
-["XOffset"] = 1,
-["Color"] = {
+["Layout"] = {
 nil,
-0.007843137718737125,
-0,
-},
-["Length"] = 5,
-["YOffset"] = 1,
-},
+nil,
+nil,
+-275,
 },
 },
 ["Utility"] = {
@@ -179,6 +4377,16 @@ nil,
 },
 },
 },
+["global"] = {
+["UseGlobalProfile"] = false,
+["GlobalProfileName"] = "Default",
+},
+["CastBar"] = {
+["Enabled"] = false,
+},
+["PowerBar"] = {
+["Enabled"] = false,
+},
 ["profile"] = {
 ["SecondaryPowerBar"] = {
 ["Enabled"] = true,
@@ -188,28 +4396,6 @@ nil,
 0.1333333333333333,
 1,
 },
-["Layout"] = {
-"BOTTOM",
-"BCDM_PowerBar",
-"TOP",
-0,
-1,
-},
-["ColourByState"] = true,
-["FrameStrata"] = "LOW",
-["Width"] = 200,
-["ColourByClass"] = false,
-["HideTicks"] = false,
-["MatchWidthOfAnchor"] = true,
-["ColourBySpec"] = false,
-["Height"] = 13,
-["ForegroundColour"] = {
-0.1333333333333333,
-0.1333333333333333,
-0.1333333333333333,
-1,
-},
-["ColourByType"] = true,
 ["Text"] = {
 ["Enabled"] = false,
 ["FontSize"] = 12,
@@ -226,11 +4412,32 @@ nil,
 1,
 },
 },
+["Layout"] = {
+"BOTTOM",
+"BCDM_PowerBar",
+"TOP",
+0,
+1,
+},
+["FrameStrata"] = "LOW",
+["Width"] = 200,
+["ColourByClass"] = false,
+["HideTicks"] = false,
+["ForegroundColour"] = {
+0.1333333333333333,
+0.1333333333333333,
+0.1333333333333333,
+1,
+},
+["ColourBySpec"] = false,
+["Height"] = 13,
+["MatchWidthOfAnchor"] = true,
+["ColourByType"] = true,
+["ColourByState"] = true,
 },
 ["General"] = {
 ["Fonts"] = {
 ["Font"] = "Friz Quadrata TT",
-["FontFlag"] = "OUTLINE",
 ["Shadow"] = {
 ["Enabled"] = false,
 ["OffsetY"] = -1,
@@ -242,10 +4449,7 @@ nil,
 1,
 },
 },
-},
-["Textures"] = {
-["Foreground"] = "Better Blizzard",
-["Background"] = "Better Blizzard",
+["FontFlag"] = "OUTLINE",
 },
 ["Colours"] = {
 ["SecondaryPower"] = {
@@ -279,16 +4483,16 @@ nil,
 0.41,
 1,
 },
-[16] = {
-0.1,
-0.1,
-0.98,
-1,
-},
 ["CHARGED_COMBO_POINTS"] = {
 0.25,
 0.5,
 1,
+1,
+},
+[16] = {
+0.1,
+0.1,
+0.98,
 1,
 },
 [9] = {
@@ -404,42 +4608,176 @@ nil,
 0.61,
 0,
 },
-[11] = {
-0,
-0.5,
-1,
+[17] = {
+0.79,
+0.26,
+0.99,
 },
 [6] = {
 0,
 0.82,
 1,
 },
-[17] = {
-0.79,
-0.26,
-0.99,
+[11] = {
+0,
+0.5,
+1,
 },
 },
+},
+["Textures"] = {
+["Foreground"] = "Better Blizzard",
+["Background"] = "Better Blizzard",
 },
 },
 ["EditModeManager"] = {
 ["SwapOnSpecializationChange"] = false,
-["SwapOnInstanceDifficulty"] = false,
-["SpecializationLayouts"] = {
-"",
-"",
-"",
-"",
-},
 ["RaidLayouts"] = {
 ["Normal"] = "",
 ["Heroic"] = "",
 ["Mythic"] = "",
 ["LFR"] = "",
 },
+["SpecializationLayouts"] = {
+"",
+"",
+"",
+"",
+},
+["SwapOnInstanceDifficulty"] = false,
+},
+["CastBar"] = {
+["Enabled"] = true,
+["BackgroundColour"] = {
+0.1333333333333333,
+0.1333333333333333,
+0.1333333333333333,
+1,
+},
+["ForegroundColour"] = {
+0.1333333333333333,
+0.1333333333333333,
+0.1333333333333333,
+1,
+},
+["FrameStrata"] = "LOW",
+["Width"] = 200,
+["ColourByClass"] = true,
+["Layout"] = {
+"TOP",
+"UtilityCooldownViewer",
+"BOTTOM",
+0,
+-1,
+},
+["Height"] = 24,
+["Text"] = {
+["CastTime"] = {
+["FontSize"] = 12,
+["Layout"] = {
+"RIGHT",
+"RIGHT",
+-3,
+0,
+},
+["Colour"] = {
+1,
+1,
+1,
+},
+},
+["SpellName"] = {
+["Layout"] = {
+"LEFT",
+"LEFT",
+3,
+0,
+},
+["FontSize"] = 12,
+["MaxCharacters"] = 12,
+["Colour"] = {
+1,
+1,
+1,
+},
+},
+},
+["Icon"] = {
+["Enabled"] = true,
+["Layout"] = "LEFT",
+},
+["MatchWidthOfAnchor"] = true,
+},
+["PowerBar"] = {
+["Enabled"] = true,
+["FrequentUpdates"] = true,
+["BackgroundColour"] = {
+0.1333333333333333,
+0.1333333333333333,
+0.1333333333333333,
+1,
+},
+["ForegroundColour"] = {
+0.1333333333333333,
+0.1333333333333333,
+0.1333333333333333,
+1,
+},
+["FrameStrata"] = "LOW",
+["Width"] = 200,
+["ColourByClass"] = false,
+["Text"] = {
+["Enabled"] = true,
+["FontSize"] = 18,
+["Layout"] = {
+"BOTTOM",
+"BOTTOM",
+0,
+1,
+},
+["Colour"] = {
+1,
+1,
+1,
+},
+},
+["Layout"] = {
+"BOTTOM",
+"EssentialCooldownViewer",
+"TOP",
+0,
+1,
+},
+["Height"] = 13,
+["MatchWidthOfAnchor"] = true,
+["ColourByType"] = true,
+["HeightWithoutSecondary"] = 20,
 },
 ["CooldownManager"] = {
 ["AdditionalCustom"] = {
+["Text"] = {
+["FontSize"] = 12,
+["Layout"] = {
+"BOTTOMRIGHT",
+"BOTTOMRIGHT",
+0,
+2,
+},
+["Colour"] = {
+1,
+1,
+1,
+},
+},
+["Layout"] = {
+"CENTER",
+"NONE",
+"CENTER",
+0,
+0,
+},
+["Spacing"] = 1,
+["IconSize"] = 38,
 ["Spells"] = {
 ["DEATHKNIGHT"] = {
 ["BLOOD"] = {
@@ -460,9 +4798,9 @@ nil,
 ["PALADIN"] = {
 ["RETRIBUTION"] = {
 },
-["HOLY"] = {
-},
 ["PROTECTION"] = {
+},
+["HOLY"] = {
 },
 },
 ["MAGE"] = {
@@ -476,25 +4814,25 @@ nil,
 ["PRIEST"] = {
 ["HOLY"] = {
 },
-["SHADOW"] = {
-},
 ["DISCIPLINE"] = {
 },
-},
-["SHAMAN"] = {
-["RESTORATION"] = {
-},
-["ELEMENTAL"] = {
-},
-["ENHANCEMENT"] = {
+["SHADOW"] = {
 },
 },
-["MONK"] = {
-["MISTWEAVER"] = {
+["ROGUE"] = {
+["OUTLAW"] = {
 },
-["BREWMASTER"] = {
+["SUBTLETY"] = {
 },
-["WINDWALKER"] = {
+["ASSASSINATION"] = {
+},
+},
+["EVOKER"] = {
+["DEVASTATION"] = {
+},
+["PRESERVATION"] = {
+},
+["AUGMENTATION"] = {
 },
 },
 ["WARLOCK"] = {
@@ -531,67 +4869,27 @@ nil,
 ["GUARDIAN"] = {
 },
 },
-["EVOKER"] = {
-["DEVASTATION"] = {
+["MONK"] = {
+["MISTWEAVER"] = {
 },
-["PRESERVATION"] = {
+["BREWMASTER"] = {
 },
-["AUGMENTATION"] = {
-},
-},
-["ROGUE"] = {
-["OUTLAW"] = {
-},
-["ASSASSINATION"] = {
-},
-["SUBTLETY"] = {
+["WINDWALKER"] = {
 },
 },
+["SHAMAN"] = {
+["RESTORATION"] = {
 },
-["Text"] = {
-["FontSize"] = 12,
-["Layout"] = {
-"BOTTOMRIGHT",
-"BOTTOMRIGHT",
-0,
-2,
+["ELEMENTAL"] = {
 },
-["Colour"] = {
-1,
-1,
-1,
+["ENHANCEMENT"] = {
 },
 },
-["Spacing"] = 1,
-["IconSize"] = 38,
-["Layout"] = {
-"CENTER",
-"NONE",
-"CENTER",
-0,
-0,
 },
 ["FrameStrata"] = "LOW",
 ["GrowthDirection"] = "RIGHT",
 },
 ["General"] = {
-["CooldownText"] = {
-["Colour"] = {
-1,
-1,
-1,
-},
-["FontSize"] = 15,
-["Layout"] = {
-"CENTER",
-"CENTER",
-0,
-0,
-},
-["ScaleByIconSize"] = false,
-},
-["BorderSize"] = 1,
-["IconZoom"] = 0.1,
 ["Glow"] = {
 ["Enabled"] = true,
 ["Lines"] = 5,
@@ -599,16 +4897,33 @@ nil,
 ["Scale"] = 1,
 ["YOffset"] = -1,
 ["Thickness"] = 1,
+["Frequency"] = 0.25,
+["XOffset"] = -1,
+["Particles"] = 10,
 ["Colour"] = {
 1,
 1,
 1,
 1,
 },
-["XOffset"] = -1,
-["Particles"] = 10,
-["Frequency"] = 0.25,
 },
+["CooldownText"] = {
+["ScaleByIconSize"] = false,
+["FontSize"] = 15,
+["Layout"] = {
+"CENTER",
+"CENTER",
+0,
+0,
+},
+["Colour"] = {
+1,
+1,
+1,
+},
+},
+["IconZoom"] = 0.1,
+["BorderSize"] = 1,
 },
 ["Enable"] = true,
 ["BuffBar"] = {
@@ -626,37 +4941,7 @@ nil,
 },
 ["Width"] = 300,
 ["ColourByClass"] = true,
-["GrowthDirection"] = "UP",
-["Height"] = 24,
-["Spacing"] = 1,
-["MatchWidthOfAnchor"] = true,
-["Layout"] = {
-"BOTTOM",
-"NONE",
-"TOP",
-0,
-1.1,
-},
-["Icon"] = {
-["Enabled"] = true,
-["Layout"] = "LEFT",
-},
 ["Text"] = {
-["SpellName"] = {
-["Enabled"] = true,
-["FontSize"] = 12,
-["Layout"] = {
-"LEFT",
-"LEFT",
-3,
-0,
-},
-["Colour"] = {
-1,
-1,
-1,
-},
-},
 ["Duration"] = {
 ["Enabled"] = true,
 ["FontSize"] = 12,
@@ -672,21 +4957,41 @@ nil,
 1,
 },
 },
+["SpellName"] = {
+["Enabled"] = true,
+["FontSize"] = 12,
+["Layout"] = {
+"LEFT",
+"LEFT",
+3,
+0,
 },
+["Colour"] = {
+1,
+1,
+1,
+},
+},
+},
+["MatchWidthOfAnchor"] = true,
+["Spacing"] = 1,
+["Height"] = 24,
+["Layout"] = {
+"BOTTOM",
+"NONE",
+"TOP",
+0,
+1.1,
+},
+["Icon"] = {
+["Enabled"] = true,
+["Layout"] = "LEFT",
+},
+["GrowthDirection"] = "UP",
 },
 ["ItemSpell"] = {
 ["ItemsSpells"] = {
 },
-["Layout"] = {
-"CENTER",
-"NONE",
-"CENTER",
-0,
-0,
-},
-["OffsetByParentHeight"] = true,
-["Spacing"] = 1,
-["IconSize"] = 38,
 ["Text"] = {
 ["FontSize"] = 12,
 ["Layout"] = {
@@ -701,10 +5006,43 @@ nil,
 1,
 },
 },
+["OffsetByParentHeight"] = true,
+["Spacing"] = 1,
+["IconSize"] = 38,
+["Layout"] = {
+"CENTER",
+"NONE",
+"CENTER",
+0,
+0,
+},
 ["FrameStrata"] = "LOW",
 ["GrowthDirection"] = "LEFT",
 },
 ["Custom"] = {
+["Text"] = {
+["FontSize"] = 12,
+["Layout"] = {
+"BOTTOMRIGHT",
+"BOTTOMRIGHT",
+0,
+2,
+},
+["Colour"] = {
+1,
+1,
+1,
+},
+},
+["Layout"] = {
+"CENTER",
+"NONE",
+"CENTER",
+0,
+0,
+},
+["Spacing"] = 1,
+["IconSize"] = 38,
 ["Spells"] = {
 ["DEATHKNIGHT"] = {
 ["BLOOD"] = {
@@ -725,9 +5063,9 @@ nil,
 ["PALADIN"] = {
 ["RETRIBUTION"] = {
 },
-["HOLY"] = {
-},
 ["PROTECTION"] = {
+},
+["HOLY"] = {
 },
 },
 ["MAGE"] = {
@@ -741,25 +5079,25 @@ nil,
 ["PRIEST"] = {
 ["HOLY"] = {
 },
-["SHADOW"] = {
-},
 ["DISCIPLINE"] = {
 },
-},
-["SHAMAN"] = {
-["RESTORATION"] = {
-},
-["ELEMENTAL"] = {
-},
-["ENHANCEMENT"] = {
+["SHADOW"] = {
 },
 },
-["MONK"] = {
-["MISTWEAVER"] = {
+["ROGUE"] = {
+["OUTLAW"] = {
 },
-["BREWMASTER"] = {
+["SUBTLETY"] = {
 },
-["WINDWALKER"] = {
+["ASSASSINATION"] = {
+},
+},
+["EVOKER"] = {
+["DEVASTATION"] = {
+},
+["PRESERVATION"] = {
+},
+["AUGMENTATION"] = {
 },
 },
 ["WARLOCK"] = {
@@ -796,45 +5134,22 @@ nil,
 ["GUARDIAN"] = {
 },
 },
-["EVOKER"] = {
-["DEVASTATION"] = {
+["MONK"] = {
+["MISTWEAVER"] = {
 },
-["PRESERVATION"] = {
+["BREWMASTER"] = {
 },
-["AUGMENTATION"] = {
-},
-},
-["ROGUE"] = {
-["OUTLAW"] = {
-},
-["ASSASSINATION"] = {
-},
-["SUBTLETY"] = {
+["WINDWALKER"] = {
 },
 },
+["SHAMAN"] = {
+["RESTORATION"] = {
 },
-["Text"] = {
-["FontSize"] = 12,
-["Layout"] = {
-"BOTTOMRIGHT",
-"BOTTOMRIGHT",
-0,
-2,
+["ELEMENTAL"] = {
 },
-["Colour"] = {
-1,
-1,
-1,
+["ENHANCEMENT"] = {
 },
 },
-["Spacing"] = 1,
-["IconSize"] = 38,
-["Layout"] = {
-"CENTER",
-"NONE",
-"CENTER",
-0,
-0,
 },
 ["FrameStrata"] = "LOW",
 ["GrowthDirection"] = "RIGHT",
@@ -870,21 +5185,16 @@ nil,
 },
 },
 },
-["Essential"] = {
-["IconSize"] = 42,
-["Layout"] = {
-"CENTER",
-"CENTER",
-0,
--275.1,
+["Item"] = {
+["Items"] = {
 },
 ["Text"] = {
-["FontSize"] = 15,
+["FontSize"] = 12,
 ["Layout"] = {
 "BOTTOMRIGHT",
 "BOTTOMRIGHT",
 0,
-3,
+2,
 },
 ["Colour"] = {
 1,
@@ -892,6 +5202,18 @@ nil,
 1,
 },
 },
+["OffsetByParentHeight"] = true,
+["Spacing"] = 1,
+["IconSize"] = 38,
+["Layout"] = {
+"CENTER",
+"NONE",
+"CENTER",
+0,
+0,
+},
+["FrameStrata"] = "LOW",
+["GrowthDirection"] = "LEFT",
 },
 ["Buffs"] = {
 ["IconSize"] = 32,
@@ -918,26 +5240,21 @@ nil,
 },
 },
 },
-["Item"] = {
-["Items"] = {
-},
+["Essential"] = {
+["IconSize"] = 42,
 ["Layout"] = {
 "CENTER",
-"NONE",
 "CENTER",
 0,
-0,
+-275.1,
 },
-["OffsetByParentHeight"] = true,
-["Spacing"] = 1,
-["IconSize"] = 38,
 ["Text"] = {
-["FontSize"] = 12,
+["FontSize"] = 15,
 ["Layout"] = {
 "BOTTOMRIGHT",
 "BOTTOMRIGHT",
 0,
-2,
+3,
 },
 ["Colour"] = {
 1,
@@ -945,8 +5262,6 @@ nil,
 1,
 },
 },
-["FrameStrata"] = "LOW",
-["GrowthDirection"] = "LEFT",
 },
 ["Utility"] = {
 ["IconSize"] = 36,
@@ -973,123 +5288,6 @@ nil,
 },
 },
 },
-["PowerBar"] = {
-["Enabled"] = true,
-["FrequentUpdates"] = true,
-["BackgroundColour"] = {
-0.1333333333333333,
-0.1333333333333333,
-0.1333333333333333,
-1,
-},
-["ForegroundColour"] = {
-0.1333333333333333,
-0.1333333333333333,
-0.1333333333333333,
-1,
-},
-["FrameStrata"] = "LOW",
-["Width"] = 200,
-["ColourByClass"] = false,
-["HeightWithoutSecondary"] = 20,
-["Layout"] = {
-"BOTTOM",
-"EssentialCooldownViewer",
-"TOP",
-0,
-1,
-},
-["Height"] = 13,
-["MatchWidthOfAnchor"] = true,
-["ColourByType"] = true,
-["Text"] = {
-["Enabled"] = true,
-["FontSize"] = 18,
-["Layout"] = {
-"BOTTOM",
-"BOTTOM",
-0,
-1,
-},
-["Colour"] = {
-1,
-1,
-1,
-},
-},
-},
-["CastBar"] = {
-["Enabled"] = true,
-["BackgroundColour"] = {
-0.1333333333333333,
-0.1333333333333333,
-0.1333333333333333,
-1,
-},
-["ForegroundColour"] = {
-0.1333333333333333,
-0.1333333333333333,
-0.1333333333333333,
-1,
-},
-["FrameStrata"] = "LOW",
-["Width"] = 200,
-["ColourByClass"] = true,
-["MatchWidthOfAnchor"] = true,
-["Height"] = 24,
-["Text"] = {
-["CastTime"] = {
-["FontSize"] = 12,
-["Layout"] = {
-"RIGHT",
-"RIGHT",
--3,
-0,
-},
-["Colour"] = {
-1,
-1,
-1,
-},
-},
-["SpellName"] = {
-["FontSize"] = 12,
-["Layout"] = {
-"LEFT",
-"LEFT",
-3,
-0,
-},
-["MaxCharacters"] = 12,
-["Colour"] = {
-1,
-1,
-1,
-},
-},
-},
-["Icon"] = {
-["Enabled"] = true,
-["Layout"] = "LEFT",
-},
-["Layout"] = {
-"TOP",
-"UtilityCooldownViewer",
-"BOTTOM",
-0,
--1,
-},
-},
-},
-["CastBar"] = {
-["Enabled"] = false,
-},
-["PowerBar"] = {
-["Enabled"] = false,
-},
-["global"] = {
-["UseGlobalProfile"] = false,
-["GlobalProfileName"] = "Default",
 },
 },
 },

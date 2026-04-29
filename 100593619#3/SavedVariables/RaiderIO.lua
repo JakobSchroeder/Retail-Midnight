@@ -4,9 +4,10 @@ RaiderIO_Config = {
 ["minimapIcon"] = {
 ["minimapPos"] = 180,
 ["showInCompartment"] = true,
-["hide"] = false,
 ["lock"] = false,
+["hide"] = false,
 },
+["enableReplay"] = false,
 ["profilePoint"] = {
 ["y"] = 0,
 ["x"] = -16,
@@ -15,8 +16,6 @@ RaiderIO_Config = {
 }
 RaiderIO_LastCharacter = "eu-Voidshuffle-laughing-skull"
 RaiderIO_MissingCharacters = {
-["eu-Crúmpet-daggerspine"] = true,
-["eu-Voidshuffle-laughing-skull"] = true,
 }
 RaiderIO_MissingServers = {
 }

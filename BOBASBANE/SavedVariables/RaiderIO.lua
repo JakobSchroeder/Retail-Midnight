@@ -6,18 +6,16 @@ RaiderIO_Config = {
 ["x"] = -16,
 ["point"] = "TOPLEFT",
 },
+["enableReplay"] = false,
 ["minimapIcon"] = {
 ["minimapPos"] = 180,
 ["showInCompartment"] = true,
-["lock"] = false,
 ["hide"] = false,
+["lock"] = false,
 },
 }
-RaiderIO_LastCharacter = "eu-Spearshuffle-kazzak"
+RaiderIO_LastCharacter = "eu-Hornyshuffle-draenor"
 RaiderIO_MissingCharacters = {
-["eu-Darlethtwo-kazzak"] = true,
-["eu-Spearshuffle-kazzak"] = true,
-["eu-Formrunner-silvermoon"] = true,
 }
 RaiderIO_MissingServers = {
 }

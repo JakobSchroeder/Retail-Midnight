@@ -124,7 +124,7 @@ RaiderIO: enabled
 RaiderIO_DB_EU_R: enabled
 RaiderIO_DB_EU_F: enabled
 RCLootCouncil: enabled
-RXPGuides_DRMShim: enabled
+RXPGuides_DRMShim: disabled
 EnhanceQoLSharedMedia: enabled
 SimpleAddonManager: enabled
 Simulationcraft: enabled
@@ -137,7 +137,7 @@ TrufiGCD: enabled
 TwintopInsanityBar: enabled
 TwitchEmotes: enabled
 TwitchEmotes_Solaris: enabled
-WagoAppCompanion: enabled
+WagoAppCompanion: disabled
 WarbandMiser: enabled
 WarpDeplete: enabled
 WaypointUI: enabled
@@ -156,3 +156,6 @@ Blizzard_CharacterFrame: enabled
 Blizzard_ChallengesUI: enabled
 Blizzard_EncounterJournal: enabled
 Blizzard_Transmog: enabled
+SkironCooldownManager: disabled
+ChonkyCharacterSheet: enabled
+WarbankStockist: enabled

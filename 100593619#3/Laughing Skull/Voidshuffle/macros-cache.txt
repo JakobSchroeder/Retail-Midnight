@@ -34,13 +34,13 @@ VER 3 010000000000001A "Holy Word: Seren" "134400"
 #showtooltip
 /cast [@mouseover,help,nodead,exists][] Holy Word: Serenity
 END
-VER 3 010000000000001D "Leap of Faith" "INV_Misc_QuestionMark"
-#showtooltip
-/cast [@cursor,help,nodead,exists][] Leap of Faith
-END
 VER 3 010000000000000E "Leap of Faith" "134400"
 #showtooltip
 /cast [@mouseover,help,nodead,exists][] Leap of Faith
+END
+VER 3 010000000000001D "Leap of Faith" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [@cursor,help,nodead,exists][] Leap of Faith
 END
 VER 3 010000000000000A "Mass Dispel" "134400"
 #showtooltip
@@ -67,6 +67,10 @@ END
 VER 3 0100000000000017 "Plea" "134400"
 #showtooltip
 /cast [@mouseover,help,nodead,exists][] Plea
+END
+VER 3 010000000000001C "Plumber Housing Macro" "7252953"
+#plumber:home
+/click PLMR_HOME1
 END
 VER 3 010000000000001B "Prayer of Healin" "134400"
 #showtooltip
@@ -103,10 +107,6 @@ END
 VER 3 0100000000000001 "SWP" "134400"
 #showtooltip
 /cast [@mouseover,harm,nodead,exists][] Shadow Word: Pain
-END
-VER 3 010000000000001C "Teleport Home" "7252953"
-#plumber:home
-/click PLMR_HOME1
 END
 VER 3 0100000000000010 "Torrent/Halo" "134400"
 #showtooltip

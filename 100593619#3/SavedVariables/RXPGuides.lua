@@ -20,33 +20,45 @@ RXPData = {
 [0] = 74,
 },
 ["cacheVersion"] = 29,
-["defaultProfile"] = false,
-["trainGenericSpells"] = true,
-["release"] = "v4.10.10",
 ["realmData"] = {
 ["Laughing Skull"] = {
 },
+["Dentarg"] = {
+},
+["Ragnaros"] = {
+},
+["Medivh"] = {
+},
 ["Kazzak"] = {
 },
+["Ğ¡ĞµĞ´Ğ¾Ğ³Ñ€Ğ¸Ğ²"] = {
 },
+},
+["trainGenericSpells"] = true,
+["release"] = "v4.10.11",
 ["questNames"] = {
 ["locale"] = "enUS",
 },
+["defaultProfile"] = false,
 }
 RXPDB = {
 ["profileKeys"] = {
-["Avoidshuffle - Laughing Skull"] = "global",
+["Legshuffle - Medivh"] = "global",
 ["Soapshuffle - Kazzak"] = "global",
+["Avoidshuffle - Laughing Skull"] = "global",
+["Legshuffle - Ragnaros"] = "global",
+["Smashuffle - Laughing Skull"] = "global",
+["Monkashuffle - Kazzak"] = "global",
 ["Soulshuffle - Laughing Skull"] = "global",
 ["Feintshuffle - Kazzak"] = "global",
 ["Bobshuffle - Laughing Skull"] = "global",
-["Monkashuffle - Kazzak"] = "global",
-["Postshuffle - Laughing Skull"] = "global",
-["Reapshuffle - Laughing Skull"] = "global",
-["Ghostshuffle - Laughing Skull"] = "global",
-["Smashuffle - Laughing Skull"] = "global",
-["Voidshuffle - Laughing Skull"] = "global",
 ["Stalkshuffle - Laughing Skull"] = "global",
+["Reapshuffle - Laughing Skull"] = "global",
+["Postshuffle - Laughing Skull"] = "global",
+["Ghostshuffle - Laughing Skull"] = "global",
+["Ğ˜ÑĞºÑƒÑĞ½Ğ¾ÑÑ‚ÑŒ - Ğ¡ĞµĞ´Ğ¾Ğ³Ñ€Ğ¸Ğ²"] = "global",
+["Voidshuffle - Laughing Skull"] = "global",
+["Legshuffle - Dentarg"] = "global",
 },
 ["profiles"] = {
 ["global"] = {
@@ -83,8 +95,8 @@ RXPDB = {
 ["subgroup"] = "|cFF1EFF00(80-90)|r Adventure Mode",
 ["next"] = "cd) Voidstorm Route 4 (H)",
 ["group"] = "RestedXP Midnight",
-["imported"] = true,
 ["key"] = "RestedXP Midnight||cFF1EFF00(80-90)|r Adventure Mode|ccb) Harandar Route 4 (H) 2",
+["imported"] = true,
 ["name"] = "ccb) Harandar Route 4 (H) 2",
 ["version"] = 1,
 ["length"] = "616891112",
@@ -139,13 +151,13 @@ RXPDB = {
 ["subgroup"] = "|cFFFCDC00(1-90)|r Default",
 ["next"] = "bh) Horde Draenor Garrison",
 ["group"] = "RestedXP Speed Leveling",
-["imported"] = true,
 ["key"] = "RestedXP Speed Leveling||cFFFCDC00(1-90)|r Default|bg) Horde Draenor Scenario",
+["imported"] = true,
 ["name"] = "bg) Horde Draenor Scenario",
 ["version"] = 1,
 ["length"] = "616891112",
 ["enabledFor"] = "Horde",
-["displayname"] = "|cFF1EFF0010|r - Draenor Scenario",
+["displayname"] = "|cFF1EFF009|r - Draenor Scenario",
 },
 },
 ["RestedXP Midnight||a) Shadowguard Point|823"] = {
@@ -177,8 +189,8 @@ RXPDB = {
 ["retail"] = "",
 ["group"] = "RestedXP Midnight",
 ["internal"] = "",
-["imported"] = true,
 ["version"] = 1,
+["imported"] = true,
 ["key"] = "RestedXP Midnight||a) Tirisfal Midnight Prep",
 ["enabledFor"] = "Horde",
 ["length"] = "616891112",
@@ -225,9 +237,9 @@ RXPDB = {
 ["next"] = "a) Shadowfall (H)",
 ["enabledFor"] = "Horde",
 ["chapter"] = "",
+["group"] = "RestedXP Midnight",
 ["imported"] = true,
 ["key"] = "RestedXP Midnight||a) Whispers in the Twilight (H)",
-["group"] = "RestedXP Midnight",
 ["version"] = 20,
 ["length"] = "616891112",
 ["name"] = "a) Whispers in the Twilight (H)",
@@ -323,13 +335,13 @@ RXPDB = {
 ["subgroup"] = "|cFFFCDC00(1-90)|r Default",
 ["next"] = "bc) Horde Kun-Lai Summit",
 ["group"] = "RestedXP Speed Leveling",
-["imported"] = true,
 ["key"] = "RestedXP Speed Leveling||cFFFCDC00(1-90)|r Default|bba) Horde Highmountain 2",
+["imported"] = true,
 ["name"] = "bba) Horde Highmountain 2",
 ["version"] = 1,
 ["length"] = "616891112",
 ["enabledFor"] = "Horde",
-["displayname"] = "|cFF1EFF005.2|r - Highmountain",
+["displayname"] = "|cFF1EFF004.2|r - Highmountain",
 },
 },
 ["RestedXP Midnight||a) Guild Items|699"] = {
@@ -380,9 +392,9 @@ RXPDB = {
 ["subgroup"] = "|cFFE74C3C(90)|r Delves",
 ["next"] = "a) Sunkiller Sanctum (H)",
 ["group"] = "RestedXP Midnight",
+["key"] = "RestedXP Midnight||cFFE74C3C(90)|r Delves|a) The Gulf of Memory (H)",
 ["chapter"] = "",
 ["imported"] = true,
-["key"] = "RestedXP Midnight||cFFE74C3C(90)|r Delves|a) The Gulf of Memory (H)",
 ["version"] = 1,
 ["enabledFor"] = "Horde",
 ["length"] = "616891112",
@@ -458,9 +470,9 @@ RXPDB = {
 ["next"] = "a) Dawn of Reckoning (H)",
 ["enabledFor"] = "Horde",
 ["chapter"] = "",
+["group"] = "RestedXP Midnight",
 ["imported"] = true,
 ["key"] = "RestedXP Midnight||a) The Night's Veil (H)",
-["group"] = "RestedXP Midnight",
 ["version"] = 20,
 ["length"] = "616891112",
 ["name"] = "a) The Night's Veil (H)",
@@ -539,8 +551,8 @@ RXPDB = {
 ["group"] = "RestedXP Midnight",
 ["name"] = "cab) Eversong Woods Route 5 (A)",
 ["version"] = 0,
-["subweight"] = "998",
 ["enabledFor"] = "Alliance",
+["subweight"] = "998",
 ["length"] = "616891112",
 ["key"] = "RestedXP Midnight||cFF1EFF00(80-88)|r Campaign & Delves|cab) Eversong Woods Route 5 (A)",
 ["displayname"] = "|cFFFCDC002|r - Eversong Woods",
@@ -558,8 +570,8 @@ RXPDB = {
 ["subgroup"] = "|cFF1EFF00(80-90)|r Adventure Mode",
 ["next"] = "RestedXP Midnight\\a) 90 Unlocking Systems (H)",
 ["group"] = "RestedXP Midnight",
-["imported"] = true,
 ["key"] = "RestedXP Midnight||cFF1EFF00(80-90)|r Adventure Mode|cd) Voidstorm Route 4 (H)",
+["imported"] = true,
 ["name"] = "cd) Voidstorm Route 4 (H)",
 ["version"] = 1,
 ["length"] = "616891112",
@@ -617,8 +629,8 @@ RXPDB = {
 ["subgroup"] = "|cFF1EFF00(80-88)|r Campaign & Delves",
 ["next"] = "ce) Voidstorm Route 5 (H)",
 ["group"] = "RestedXP Midnight",
-["imported"] = true,
 ["key"] = "RestedXP Midnight||cFF1EFF00(80-88)|r Campaign & Delves|cd) Zul'Aman Route 5 (H)",
+["imported"] = true,
 ["name"] = "cd) Zul'Aman Route 5 (H)",
 ["version"] = 1,
 ["length"] = "616891112",
@@ -638,9 +650,9 @@ RXPDB = {
 ["next"] = "a) Runestone Rumbles (H)",
 ["enabledFor"] = "Horde",
 ["chapter"] = "",
+["group"] = "RestedXP Midnight",
 ["imported"] = true,
 ["key"] = "RestedXP Midnight||a) Far Striding (H)",
-["group"] = "RestedXP Midnight",
 ["version"] = 1,
 ["length"] = "616891112",
 ["name"] = "a) Far Striding (H)",
@@ -677,9 +689,9 @@ RXPDB = {
 ["next"] = "a) Darkening Sky (H)",
 ["enabledFor"] = "Horde",
 ["chapter"] = "",
+["group"] = "RestedXP Midnight",
 ["imported"] = true,
 ["key"] = "RestedXP Midnight||a) De Amani Never Die (H)",
-["group"] = "RestedXP Midnight",
 ["version"] = 20,
 ["length"] = "616891112",
 ["name"] = "a) De Amani Never Die (H)",
@@ -698,8 +710,8 @@ RXPDB = {
 ["subgroup"] = "|cFFFCDC00(1-90)|r Default",
 ["next"] = "cab) Eversong Woods Route 2 (H)",
 ["group"] = "RestedXP Speed Leveling",
-["imported"] = true,
 ["key"] = "RestedXP Speed Leveling||cFFFCDC00(1-90)|r Default|caa) Midnight Intro Route 2 (H)",
+["imported"] = true,
 ["name"] = "caa) Midnight Intro Route 2 (H)",
 ["version"] = 1,
 ["length"] = "616891112",
@@ -795,9 +807,9 @@ RXPDB = {
 ["retail"] = "",
 ["subgroup"] = "|cFFFCDC00(80-87)|r Campaigns",
 ["group"] = "RestedXP Midnight",
+["key"] = "RestedXP Midnight||cFFFCDC00(80-87)|r Campaigns|ae) Voidstorm Campaign (H)",
 ["enabledFor"] = "Horde",
 ["imported"] = true,
-["key"] = "RestedXP Midnight||cFFFCDC00(80-87)|r Campaigns|ae) Voidstorm Campaign (H)",
 ["version"] = 20,
 ["chapters"] = "a) Darkening Sky (H);a) Into the Abyss (H);a) The Night's Veil (H);a) Dawn of Reckoning (H)",
 ["length"] = "616891112",
@@ -817,9 +829,9 @@ RXPDB = {
 ["subgroup"] = "|cFF1EFF00(80-90)|r Campaign & Sidequests",
 ["next"] = "cb) Arator Route 3 (H)",
 ["group"] = "RestedXP Midnight",
+["key"] = "RestedXP Midnight||cFF1EFF00(80-90)|r Campaign & Sidequests|cac) Eversong Woods Route 3 (H) 2",
 ["enabledFor"] = "Horde",
 ["imported"] = true,
-["key"] = "RestedXP Midnight||cFF1EFF00(80-90)|r Campaign & Sidequests|cac) Eversong Woods Route 3 (H) 2",
 ["version"] = 1,
 ["subweight"] = "999",
 ["length"] = "616891112",
@@ -878,9 +890,9 @@ RXPDB = {
 ["next"] = "a) The Night's Veil (H)",
 ["enabledFor"] = "Horde",
 ["chapter"] = "",
+["group"] = "RestedXP Midnight",
 ["imported"] = true,
 ["key"] = "RestedXP Midnight||a) Into the Abyss (H)",
-["group"] = "RestedXP Midnight",
 ["version"] = 20,
 ["length"] = "616891112",
 ["name"] = "a) Into the Abyss (H)",
@@ -898,8 +910,8 @@ RXPDB = {
 ["retail"] = "",
 ["group"] = "RestedXP Speed Leveling",
 ["internal"] = "",
-["imported"] = true,
 ["version"] = 1,
+["imported"] = true,
 ["key"] = "RestedXP Speed Leveling||a) Horde Gorgrond",
 ["enabledFor"] = "Horde",
 ["length"] = "616891112",
@@ -937,12 +949,12 @@ RXPDB = {
 ["subgroup"] = "Sojourner",
 ["enabledFor"] = "Alliance",
 ["group"] = "RestedXP Midnight",
-["version"] = 20,
 ["key"] = "RestedXP Midnight|Sojourner|a) Eversong Woods Storylines (A)",
+["name"] = "a) Eversong Woods Storylines (A)",
 ["subweight"] = "994",
 ["chapters"] = "a) The Drinking Debt (A);a) Fear and Fel (A);a) Lesser Evil (A);a) Tailor Troubles (A);a) Scootin' Through Silvermoon (A);a) How to Train Your Protege (A);a) Aspiring Academic (A);a) One Adventurous Hatchling (A);a) Far Striding (A);a) Runestone Rumbles (A);a) Theft Tracking (A);a) Port Detective (A);a) Daggerspine Landing (A);a) Flowers for Amalthea (A);a) Sunbath, Take Me Away (A);a) Blinding Sun (A);a) Paladin Rescue (A)",
 ["length"] = "616891112",
-["name"] = "a) Eversong Woods Storylines (A)",
+["version"] = 20,
 ["displayname"] = "|cFF00FF001|r - Eversong Woods",
 },
 },
@@ -994,9 +1006,9 @@ RXPDB = {
 ["next"] = "a) River-Walkers of the Prowl (H)",
 ["enabledFor"] = "Horde",
 ["chapter"] = "",
+["group"] = "RestedXP Midnight",
 ["imported"] = true,
 ["key"] = "RestedXP Midnight||a) Something Vile This Way Comes (H)",
-["group"] = "RestedXP Midnight",
 ["version"] = 1,
 ["length"] = "616891112",
 ["name"] = "a) Something Vile This Way Comes (H)",
@@ -1071,9 +1083,9 @@ RXPDB = {
 ["next"] = "a) A Favor for the Lion (H)",
 ["enabledFor"] = "Horde",
 ["chapter"] = "",
+["group"] = "RestedXP Midnight",
 ["imported"] = true,
 ["key"] = "RestedXP Midnight||a) The Regent's Request (H)",
-["group"] = "RestedXP Midnight",
 ["version"] = 1,
 ["length"] = "616891112",
 ["name"] = "a) The Regent's Request (H)",
@@ -1119,8 +1131,8 @@ RXPDB = {
 ["subgroup"] = "|cFF1EFF00(80-90)|r Adventure Mode",
 ["next"] = "cca) Harandar Route 4 (H)",
 ["enabledFor"] = "Horde",
-["imported"] = true,
 ["version"] = 0,
+["imported"] = true,
 ["name"] = "cb) Zul'Aman Route 4 (H)",
 ["group"] = "RestedXP Midnight",
 ["length"] = "616891112",
@@ -1140,8 +1152,8 @@ RXPDB = {
 ["subgroup"] = "|cFFFCDC00(1-90)|r Default",
 ["next"] = "cca) Harandar Route 2 (H)",
 ["group"] = "RestedXP Speed Leveling",
-["imported"] = true,
 ["key"] = "RestedXP Speed Leveling||cFFFCDC00(1-90)|r Default|cb) Arator Route 2 (H)",
+["imported"] = true,
 ["name"] = "cb) Arator Route 2 (H)",
 ["version"] = 1,
 ["length"] = "616891112",
@@ -1221,8 +1233,8 @@ RXPDB = {
 ["subgroup"] = "|cFF1EFF00(1-90)|r Default",
 ["next"] = "ccb) Harandar Route (H) 2",
 ["group"] = "RestedXP Midnight",
-["imported"] = true,
 ["key"] = "RestedXP Midnight||cFF1EFF00(1-90)|r Default|cca) Harandar Route (H)",
+["imported"] = true,
 ["name"] = "cca) Harandar Route (H)",
 ["version"] = 1,
 ["length"] = "616891112",
@@ -1319,9 +1331,9 @@ RXPDB = {
 ["next"] = "a) Vengeance for Tolbani (H)",
 ["enabledFor"] = "Horde",
 ["chapter"] = "",
+["group"] = "RestedXP Midnight",
 ["imported"] = true,
 ["key"] = "RestedXP Midnight||a) Reclaiming de Honor (H)",
-["group"] = "RestedXP Midnight",
 ["version"] = 1,
 ["length"] = "616891112",
 ["name"] = "a) Reclaiming de Honor (H)",
@@ -1395,8 +1407,8 @@ RXPDB = {
 ["retail"] = "",
 ["group"] = "RestedXP Speed Leveling",
 ["internal"] = "",
-["imported"] = true,
 ["version"] = 1,
+["imported"] = true,
 ["key"] = "RestedXP Speed Leveling||a) Battle for Azeroth",
 ["enabledFor"] = "Horde",
 ["length"] = "616891112",
@@ -1436,8 +1448,8 @@ RXPDB = {
 ["subgroup"] = "|cFF1EFF00(80-90)|r Campaign & Sidequests",
 ["next"] = "cab) Eversong Woods Route 3 (H)",
 ["group"] = "RestedXP Midnight",
-["imported"] = true,
 ["key"] = "RestedXP Midnight||cFF1EFF00(80-90)|r Campaign & Sidequests|caa) Midnight Intro Route 3 (H)",
+["imported"] = true,
 ["name"] = "caa) Midnight Intro Route 3 (H)",
 ["version"] = 1,
 ["length"] = "616891112",
@@ -1515,8 +1527,8 @@ RXPDB = {
 ["retail"] = "",
 ["group"] = "RestedXP Speed Leveling",
 ["internal"] = "",
-["imported"] = true,
 ["version"] = 1,
+["imported"] = true,
 ["key"] = "RestedXP Speed Leveling||a) Horde Hinterlands",
 ["enabledFor"] = "Horde",
 ["length"] = "616891112",
@@ -1575,13 +1587,13 @@ RXPDB = {
 ["retail"] = "",
 ["subgroup"] = "|cFF1EFF00(1-90)|r Default",
 ["group"] = "RestedXP Midnight",
-["imported"] = true,
 ["key"] = "RestedXP Midnight||cFF1EFF00(1-90)|r Default|bk) 70-80 First Crafts (H) 2",
+["imported"] = true,
 ["name"] = "bk) 70-80 First Crafts (H) 2",
 ["version"] = 3,
 ["length"] = "616891112",
 ["enabledFor"] = "Horde",
-["displayname"] = "|cFF1EFF0014|r - First Crafts",
+["displayname"] = "|cFF1EFF0013|r - First Crafts",
 },
 },
 ["RestedXP Midnight||a) Shadowfall|955"] = {
@@ -1614,9 +1626,9 @@ RXPDB = {
 ["subgroup"] = "|cFFE74C3C(90)|r Delves",
 ["next"] = "a) Shadowguard Point (H)",
 ["group"] = "RestedXP Midnight",
+["key"] = "RestedXP Midnight||cFFE74C3C(90)|r Delves|a) Sunkiller Sanctum (H)",
 ["chapter"] = "",
 ["imported"] = true,
-["key"] = "RestedXP Midnight||cFFE74C3C(90)|r Delves|a) Sunkiller Sanctum (H)",
 ["version"] = 1,
 ["enabledFor"] = "Horde",
 ["length"] = "616891112",
@@ -1681,13 +1693,13 @@ RXPDB = {
 ["subgroup"] = "|cFFFCDC00(1-90)|r Default",
 ["next"] = "be) Horde Hillsbrad Foothills",
 ["group"] = "RestedXP Speed Leveling",
-["imported"] = true,
 ["key"] = "RestedXP Speed Leveling||cFFFCDC00(1-90)|r Default|bd) Horde Silverpine Forest",
+["imported"] = true,
 ["name"] = "bd) Horde Silverpine Forest",
 ["version"] = 1,
 ["length"] = "616891112",
 ["enabledFor"] = "Horde",
-["displayname"] = "|cFF1EFF007|r - Silverpine Forest",
+["displayname"] = "|cFF1EFF006|r - Silverpine Forest",
 },
 },
 ["RestedXP Midnight||cFF1EFF00(1-90)|r Default|c) Turnin Route Alliance (A)|1175"] = {
@@ -1722,9 +1734,9 @@ RXPDB = {
 ["next"] = "a) Aspiring Academic (H)",
 ["enabledFor"] = "Horde",
 ["chapter"] = "",
+["group"] = "RestedXP Midnight",
 ["imported"] = true,
 ["key"] = "RestedXP Midnight||a) How to Train Your Protege (H)",
-["group"] = "RestedXP Midnight",
 ["version"] = 1,
 ["length"] = "616891112",
 ["name"] = "a) How to Train Your Protege (H)",
@@ -1761,9 +1773,9 @@ RXPDB = {
 ["next"] = "a) Unlikely Friends (H)",
 ["enabledFor"] = "Horde",
 ["chapter"] = "",
+["group"] = "RestedXP Midnight",
 ["imported"] = true,
 ["key"] = "RestedXP Midnight||a) Sorrowing Kin (H)",
-["group"] = "RestedXP Midnight",
 ["version"] = 1,
 ["length"] = "616891112",
 ["name"] = "a) Sorrowing Kin (H)",
@@ -1854,9 +1866,9 @@ RXPDB = {
 ["next"] = "a) The Nightbreaker (H)",
 ["enabledFor"] = "Horde",
 ["chapter"] = "",
+["group"] = "RestedXP Midnight",
 ["imported"] = true,
 ["key"] = "RestedXP Midnight||a) The Nethersent (H)",
-["group"] = "RestedXP Midnight",
 ["version"] = 1,
 ["length"] = "616891112",
 ["name"] = "a) The Nethersent (H)",
@@ -1988,10 +2000,10 @@ RXPDB = {
 ["chapter"] = "",
 ["retail"] = "",
 ["enabledFor"] = "Horde",
-["key"] = "RestedXP Midnight||a) Shopping List (H)",
-["imported"] = true,
 ["name"] = "a) Shopping List (H)",
 ["group"] = "RestedXP Midnight",
+["imported"] = true,
+["key"] = "RestedXP Midnight||a) Shopping List (H)",
 ["guideId"] = 537071043,
 ["length"] = "616891112",
 ["version"] = 1,
@@ -2010,9 +2022,9 @@ RXPDB = {
 ["subgroup"] = "|cFF1EFF00(80-90)|r Campaign & Sidequests",
 ["next"] = "cac) Eversong Woods Route 3 (H) 2",
 ["group"] = "RestedXP Midnight",
+["key"] = "RestedXP Midnight||cFF1EFF00(80-90)|r Campaign & Sidequests|cab) Eversong Woods Route 3 (H)",
 ["enabledFor"] = "Horde",
 ["imported"] = true,
-["key"] = "RestedXP Midnight||cFF1EFF00(80-90)|r Campaign & Sidequests|cab) Eversong Woods Route 3 (H)",
 ["version"] = 1,
 ["subweight"] = "999",
 ["length"] = "616891112",
@@ -2032,9 +2044,9 @@ RXPDB = {
 ["next"] = "a) Fishing (H)",
 ["enabledFor"] = "Horde",
 ["chapter"] = "",
+["group"] = "RestedXP Midnight",
 ["imported"] = true,
 ["key"] = "RestedXP Midnight||a) Furniture Favor (H)",
-["group"] = "RestedXP Midnight",
 ["version"] = 1,
 ["length"] = "616891112",
 ["name"] = "a) Furniture Favor (H)",
@@ -2071,8 +2083,8 @@ RXPDB = {
 ["subgroup"] = "|cFF1EFF00(80-90)|r Adventure Mode",
 ["next"] = "cab) Eversong Woods Route 4 (H)",
 ["enabledFor"] = "Horde",
-["imported"] = true,
 ["version"] = 0,
+["imported"] = true,
 ["name"] = "caa) Midnight Intro Route 4 (H)",
 ["group"] = "RestedXP Midnight",
 ["length"] = "616891112",
@@ -2092,10 +2104,10 @@ RXPDB = {
 ["subgroup"] = "|cFF1EFF00(80-90)|r Adventure Mode",
 ["next"] = "cac) Eversong Woods Route 4 (H) 2",
 ["group"] = "RestedXP Midnight",
-["version"] = 0,
-["imported"] = true,
 ["key"] = "RestedXP Midnight||cFF1EFF00(80-90)|r Adventure Mode|cab) Eversong Woods Route 4 (H)",
 ["enabledFor"] = "Horde",
+["imported"] = true,
+["version"] = 0,
 ["subweight"] = "997",
 ["length"] = "616891112",
 ["name"] = "cab) Eversong Woods Route 4 (H)",
@@ -2132,9 +2144,9 @@ RXPDB = {
 ["next"] = "a) Tailor Troubles (H)",
 ["enabledFor"] = "Horde",
 ["chapter"] = "",
+["group"] = "RestedXP Midnight",
 ["imported"] = true,
 ["key"] = "RestedXP Midnight||a) Lesser Evil (H)",
-["group"] = "RestedXP Midnight",
 ["version"] = 1,
 ["length"] = "616891112",
 ["name"] = "a) Lesser Evil (H)",
@@ -2197,9 +2209,9 @@ RXPDB = {
 ["next"] = "a) Begin Your Training: Master Cheng (H)",
 ["enabledFor"] = "Horde",
 ["chapter"] = "",
+["group"] = "RestedXP Midnight",
 ["imported"] = true,
 ["key"] = "RestedXP Midnight||a) Trading Post (H)",
-["group"] = "RestedXP Midnight",
 ["version"] = 1,
 ["length"] = "616891112",
 ["name"] = "a) Trading Post (H)",
@@ -2254,9 +2266,9 @@ RXPDB = {
 ["next"] = "a) Port Detective (H)",
 ["enabledFor"] = "Horde",
 ["chapter"] = "",
+["group"] = "RestedXP Midnight",
 ["imported"] = true,
 ["key"] = "RestedXP Midnight||a) Theft Tracking (H)",
-["group"] = "RestedXP Midnight",
 ["version"] = 1,
 ["length"] = "616891112",
 ["name"] = "a) Theft Tracking (H)",
@@ -2275,9 +2287,9 @@ RXPDB = {
 ["next"] = "a) Theft Tracking (H)",
 ["enabledFor"] = "Horde",
 ["chapter"] = "",
+["group"] = "RestedXP Midnight",
 ["imported"] = true,
 ["key"] = "RestedXP Midnight||a) Runestone Rumbles (H)",
-["group"] = "RestedXP Midnight",
 ["version"] = 1,
 ["length"] = "616891112",
 ["name"] = "a) Runestone Rumbles (H)",
@@ -2389,9 +2401,9 @@ RXPDB = {
 ["next"] = "a) Shadowguard's Shadow (H)",
 ["enabledFor"] = "Horde",
 ["chapter"] = "",
+["group"] = "RestedXP Midnight",
 ["imported"] = true,
 ["key"] = "RestedXP Midnight||a) A Voice Inside (H)",
-["group"] = "RestedXP Midnight",
 ["version"] = 1,
 ["length"] = "616891112",
 ["name"] = "a) A Voice Inside (H)",
@@ -2428,9 +2440,9 @@ RXPDB = {
 ["next"] = "a) Bitter Honor (H)",
 ["enabledFor"] = "Horde",
 ["chapter"] = "",
+["group"] = "RestedXP Midnight",
 ["imported"] = true,
 ["key"] = "RestedXP Midnight||a) No Fear (H)",
-["group"] = "RestedXP Midnight",
 ["version"] = 1,
 ["length"] = "616891112",
 ["name"] = "a) No Fear (H)",
@@ -2448,8 +2460,8 @@ RXPDB = {
 ["retail"] = "",
 ["group"] = "RestedXP Speed Leveling",
 ["internal"] = "",
-["imported"] = true,
 ["version"] = 1,
+["imported"] = true,
 ["key"] = "RestedXP Speed Leveling||a) Horde Silverpine Forest",
 ["enabledFor"] = "Horde",
 ["length"] = "616891112",
@@ -2489,9 +2501,9 @@ RXPDB = {
 ["next"] = "a) A Gift, Given Freely (H)",
 ["enabledFor"] = "Horde",
 ["chapter"] = "",
+["group"] = "RestedXP Midnight",
 ["imported"] = true,
 ["key"] = "RestedXP Midnight||a) Shadowguard's Shadow (H)",
-["group"] = "RestedXP Midnight",
 ["version"] = 1,
 ["length"] = "616891112",
 ["name"] = "a) Shadowguard's Shadow (H)",
@@ -2546,9 +2558,9 @@ RXPDB = {
 ["subgroup"] = "|cFFE74C3C(90)|r Delves",
 ["next"] = "a) Tormentâ€™s Rise (H)",
 ["group"] = "RestedXP Midnight",
+["key"] = "RestedXP Midnight||cFFE74C3C(90)|r Delves|a) Shadowguard Point (H)",
 ["chapter"] = "",
 ["imported"] = true,
-["key"] = "RestedXP Midnight||cFFE74C3C(90)|r Delves|a) Shadowguard Point (H)",
 ["version"] = 1,
 ["enabledFor"] = "Horde",
 ["length"] = "616891112",
@@ -2605,13 +2617,13 @@ RXPDB = {
 ["retail"] = "",
 ["disabled"] = "",
 ["enabledFor"] = "!Harronir/!Nightborne/!HighmountainTauren/!MagharOrc/!EarthenDwarf/!ZandalariTroll/!Vulpera/!Dracthyr/!VoidElf/!KulTiran/!LightforgedDraenei/!Mechagnome/!Pandaren DK",
+["name"] = "b1",
 ["group"] = "RestedXP Speed Leveling",
-["version"] = 0,
 ["imported"] = true,
-["key"] = "RestedXP Speed Leveling||cFFFCDC00(1-90)|r Default|b1",
+["version"] = 0,
 ["subgroup"] = "|cFFFCDC00(1-90)|r Default",
 ["length"] = "616891112",
-["name"] = "b1",
+["key"] = "RestedXP Speed Leveling||cFFFCDC00(1-90)|r Default|b1",
 ["displayname"] = "|cFFFCDC00LEVEL 10-80|r",
 },
 },
@@ -2633,8 +2645,8 @@ RXPDB = {
 ["retail"] = "",
 ["group"] = "RestedXP Speed Leveling",
 ["internal"] = "",
-["imported"] = true,
 ["version"] = 1,
+["imported"] = true,
 ["key"] = "RestedXP Speed Leveling||a) Highmountain Speedrun Midnight Horde",
 ["enabledFor"] = "Horde",
 ["length"] = "616891112",
@@ -2655,8 +2667,8 @@ RXPDB = {
 ["group"] = "RestedXP Midnight",
 ["name"] = "ca) Delves Worldtour (A)",
 ["version"] = 0,
-["subweight"] = "0",
 ["enabledFor"] = "Alliance",
+["subweight"] = "0",
 ["length"] = "616891112",
 ["key"] = "RestedXP Midnight|Delve Worldtour|ca) Delves Worldtour (A)",
 ["displayname"] = "|cFFFCDC001|r - Delves Worldtour",
@@ -2712,12 +2724,12 @@ RXPDB = {
 ["subgroup"] = "|cFFFCDC00(80-87)|r Campaigns",
 ["enabledFor"] = "Alliance",
 ["group"] = "RestedXP Midnight",
-["version"] = 1,
 ["key"] = "RestedXP Midnight||cFFFCDC00(80-87)|r Campaigns|a) Eversong Woods Campaign(A)",
+["name"] = "a) Eversong Woods Campaign(A)",
 ["subweight"] = "995",
 ["chapters"] = "a) The Light's Summons (A);a) Whispers in the Twilight (A);a) Shadowfall (A);a) Ripple Effects (A)",
 ["length"] = "616891112",
-["name"] = "a) Eversong Woods Campaign(A)",
+["version"] = 1,
 ["displayname"] = "|cFF00FF001|r - Eversong Woods",
 },
 },
@@ -2897,9 +2909,9 @@ RXPDB = {
 ["next"] = "a) Something Vile This Way Comes (H)",
 ["enabledFor"] = "Horde",
 ["chapter"] = "",
+["group"] = "RestedXP Midnight",
 ["imported"] = true,
 ["key"] = "RestedXP Midnight||a) Beyond the Walls (H)",
-["group"] = "RestedXP Midnight",
 ["version"] = 1,
 ["length"] = "616891112",
 ["name"] = "a) Beyond the Walls (H)",
@@ -2918,9 +2930,9 @@ RXPDB = {
 ["next"] = "a) A Domanaar's Best Friend (H)",
 ["enabledFor"] = "Horde",
 ["chapter"] = "",
+["group"] = "RestedXP Midnight",
 ["imported"] = true,
 ["key"] = "RestedXP Midnight||a) A Dance with the Devil (H)",
-["group"] = "RestedXP Midnight",
 ["version"] = 1,
 ["length"] = "616891112",
 ["name"] = "a) A Dance with the Devil (H)",
@@ -2939,9 +2951,9 @@ RXPDB = {
 ["next"] = "a) Pathogenic Problem (H)",
 ["enabledFor"] = "Horde",
 ["chapter"] = "",
+["group"] = "RestedXP Midnight",
 ["imported"] = true,
 ["key"] = "RestedXP Midnight||a) The Nightbreaker (H)",
-["group"] = "RestedXP Midnight",
 ["version"] = 1,
 ["length"] = "616891112",
 ["name"] = "a) The Nightbreaker (H)",
@@ -2998,9 +3010,9 @@ RXPDB = {
 ["next"] = "a) The Legend of Aln'sharan (H)",
 ["enabledFor"] = "Horde",
 ["chapter"] = "",
+["group"] = "RestedXP Midnight",
 ["imported"] = true,
 ["key"] = "RestedXP Midnight||a) A Goblin in Harandar (H)",
-["group"] = "RestedXP Midnight",
 ["version"] = 1,
 ["length"] = "616891112",
 ["name"] = "a) A Goblin in Harandar (H)",
@@ -3076,8 +3088,8 @@ RXPDB = {
 ["retail"] = "",
 ["subgroup"] = "Miscellaneous",
 ["group"] = "RestedXP Midnight",
-["imported"] = true,
 ["key"] = "RestedXP Midnight|Miscellaneous|a) Old Soldiers (H)",
+["imported"] = true,
 ["name"] = "a) Old Soldiers (H)",
 ["version"] = 1,
 ["length"] = "616891112",
@@ -3149,8 +3161,8 @@ RXPDB = {
 ["retail"] = "",
 ["subgroup"] = "Pre-Turnins",
 ["group"] = "RestedXP Midnight",
-["imported"] = true,
 ["key"] = "RestedXP Midnight|Pre-Turnins|a) 4PoP-UP Quests Turnins (H)",
+["imported"] = true,
 ["name"] = "a) 4PoP-UP Quests Turnins (H)",
 ["version"] = 20,
 ["length"] = "616891112",
@@ -3190,9 +3202,9 @@ RXPDB = {
 ["next"] = "a) Call of the Goddess (H)",
 ["enabledFor"] = "Horde",
 ["chapter"] = "",
+["group"] = "RestedXP Midnight",
 ["imported"] = true,
 ["key"] = "RestedXP Midnight||a) Of Caves and Cradles (H)",
-["group"] = "RestedXP Midnight",
 ["version"] = 20,
 ["length"] = "616891112",
 ["name"] = "a) Of Caves and Cradles (H)",
@@ -3250,9 +3262,9 @@ RXPDB = {
 ["next"] = "a) The Grudge Pit 2 (H)",
 ["enabledFor"] = "Horde",
 ["chapter"] = "",
+["group"] = "RestedXP Midnight",
 ["imported"] = true,
 ["key"] = "RestedXP Midnight||a) Bloomtown (H)",
-["group"] = "RestedXP Midnight",
 ["version"] = 1,
 ["length"] = "616891112",
 ["name"] = "a) Bloomtown (H)",
@@ -3271,9 +3283,9 @@ RXPDB = {
 ["subgroup"] = "|cFFE74C3C(90)|r Delves",
 ["next"] = "a) Collegiate Calamity (H)",
 ["group"] = "RestedXP Midnight",
+["key"] = "RestedXP Midnight||cFFE74C3C(90)|r Delves|a) The Shadow Enclave (H)",
 ["chapter"] = "",
 ["imported"] = true,
-["key"] = "RestedXP Midnight||cFFE74C3C(90)|r Delves|a) The Shadow Enclave (H)",
 ["version"] = 1,
 ["enabledFor"] = "Horde",
 ["length"] = "616891112",
@@ -3293,9 +3305,9 @@ RXPDB = {
 ["next"] = "a) Go Low, Go Loud (H)",
 ["enabledFor"] = "Horde",
 ["chapter"] = "",
+["group"] = "RestedXP Midnight",
 ["imported"] = true,
 ["key"] = "RestedXP Midnight||a) Breaking the Triad (H)",
-["group"] = "RestedXP Midnight",
 ["version"] = 1,
 ["length"] = "616891112",
 ["name"] = "a) Breaking the Triad (H)",
@@ -3369,9 +3381,9 @@ RXPDB = {
 ["next"] = "a) Lesser Evil (H)",
 ["enabledFor"] = "Horde",
 ["chapter"] = "",
+["group"] = "RestedXP Midnight",
 ["imported"] = true,
 ["key"] = "RestedXP Midnight||a) Fear and Fel (H)",
-["group"] = "RestedXP Midnight",
 ["version"] = 1,
 ["length"] = "616891112",
 ["name"] = "a) Fear and Fel (H)",
@@ -3542,9 +3554,9 @@ RXPDB = {
 ["next"] = "a) How to Train Your Protege (H)",
 ["enabledFor"] = "Horde",
 ["chapter"] = "",
+["group"] = "RestedXP Midnight",
 ["imported"] = true,
 ["key"] = "RestedXP Midnight||a) Scootin' Through Silvermoon (H)",
-["group"] = "RestedXP Midnight",
 ["version"] = 1,
 ["length"] = "616891112",
 ["name"] = "a) Scootin' Through Silvermoon (H)",
@@ -3561,10 +3573,10 @@ RXPDB = {
 ["chapter"] = "",
 ["retail"] = "",
 ["enabledFor"] = "Horde",
-["key"] = "RestedXP Midnight||a) A Favor for the Lion (H)",
-["imported"] = true,
 ["name"] = "a) A Favor for the Lion (H)",
 ["group"] = "RestedXP Midnight",
+["imported"] = true,
+["key"] = "RestedXP Midnight||a) A Favor for the Lion (H)",
 ["guideId"] = 2165837720,
 ["length"] = "616891112",
 ["version"] = 1,
@@ -3583,8 +3595,8 @@ RXPDB = {
 ["subgroup"] = "|cFF1EFF00(1-90)|r Default",
 ["next"] = "cd) Zul'Aman Route (H)",
 ["group"] = "RestedXP Midnight",
-["imported"] = true,
 ["key"] = "RestedXP Midnight||cFF1EFF00(1-90)|r Default|ccb) Harandar Route (H) 2",
+["imported"] = true,
 ["name"] = "ccb) Harandar Route (H) 2",
 ["version"] = 1,
 ["length"] = "616891112",
@@ -3602,10 +3614,10 @@ RXPDB = {
 ["chapter"] = "",
 ["retail"] = "",
 ["enabledFor"] = "Horde",
-["key"] = "RestedXP Midnight||a) Item Information (H)",
-["imported"] = true,
 ["name"] = "a) Item Information (H)",
 ["group"] = "RestedXP Midnight",
+["imported"] = true,
+["key"] = "RestedXP Midnight||a) Item Information (H)",
 ["guideId"] = 1273237236,
 ["length"] = "616891112",
 ["version"] = 1,
@@ -3716,9 +3728,9 @@ RXPDB = {
 ["next"] = "a) Silence at Fungara Village (H)",
 ["enabledFor"] = "Horde",
 ["chapter"] = "",
+["group"] = "RestedXP Midnight",
 ["imported"] = true,
 ["key"] = "RestedXP Midnight||a) Harandar's Kitchen (H)",
-["group"] = "RestedXP Midnight",
 ["version"] = 1,
 ["length"] = "616891112",
 ["name"] = "a) Harandar's Kitchen (H)",
@@ -3755,8 +3767,8 @@ RXPDB = {
 ["subgroup"] = "|cFF1EFF00(80-88)|r Campaign & Delves",
 ["next"] = "ca) Eversong Woods Route 4 (H)",
 ["group"] = "RestedXP Midnight",
-["imported"] = true,
 ["key"] = "RestedXP Midnight||cFF1EFF00(80-88)|r Campaign & Delves|a) Turnin Route Horde 4 (H)",
+["imported"] = true,
 ["name"] = "a) Turnin Route Horde 4 (H)",
 ["version"] = 20,
 ["length"] = "616891112",
@@ -3814,9 +3826,9 @@ RXPDB = {
 ["next"] = "a) Where War Slumbers (H)",
 ["enabledFor"] = "Horde",
 ["chapter"] = "",
+["group"] = "RestedXP Midnight",
 ["imported"] = true,
 ["key"] = "RestedXP Midnight||a) Path of de Hash'ey (H)",
-["group"] = "RestedXP Midnight",
 ["version"] = 20,
 ["length"] = "616891112",
 ["name"] = "a) Path of de Hash'ey (H)",
@@ -4028,9 +4040,9 @@ RXPDB = {
 ["retail"] = "",
 ["subgroup"] = "Pre-Expansion Preparations",
 ["group"] = "RestedXP Midnight",
+["key"] = "RestedXP Midnight|Pre-Expansion Preparations|a1) Quest Preparations (H)",
 ["enabledFor"] = "Horde",
 ["imported"] = true,
-["key"] = "RestedXP Midnight|Pre-Expansion Preparations|a1) Quest Preparations (H)",
 ["version"] = 1,
 ["chapters"] = "a) Quest Booklet (H);a) Furniture Favor (H);a) Fishing (H);a) Cooking (H);a) Balloon (H);a) Selfie Cam (H);a) Warbanding Together (H);a) Squally (H);a) Blade in Twillight (H);a) Delve Quests (H);a) Burning Steppes Prep (H);a) Gidwin (H);a) Tirisfal Midnight Prep (H);a) Alterac Valley Quests (H);a) Pet Battle Setup (H);a) Orc Heritage Quests (H);a) Undead Heritage Armor (H);a) Tauren Heritage Quests (H);a) Troll Heritage Quests (H);a) Blood Elf Heritage Quests (H);a) Goblin Heritage Quests (H);a) Heritage Pandaren (H);a) Trading Post (H);a) Begin Your Training: Master Cheng (H)",
 ["length"] = "616891112",
@@ -4128,9 +4140,9 @@ RXPDB = {
 ["next"] = "a) No Fear (H)",
 ["enabledFor"] = "Horde",
 ["chapter"] = "",
+["group"] = "RestedXP Midnight",
 ["imported"] = true,
 ["key"] = "RestedXP Midnight||a) The Loa of Murlocs (H)",
-["group"] = "RestedXP Midnight",
 ["version"] = 1,
 ["length"] = "616891112",
 ["name"] = "a) The Loa of Murlocs (H)",
@@ -4169,9 +4181,9 @@ RXPDB = {
 ["next"] = "a) Between Two Trolls (H)",
 ["enabledFor"] = "Horde",
 ["chapter"] = "",
+["group"] = "RestedXP Midnight",
 ["imported"] = true,
 ["key"] = "RestedXP Midnight||a) Sawdust to Sawdust (H)",
-["group"] = "RestedXP Midnight",
 ["version"] = 1,
 ["length"] = "616891112",
 ["name"] = "a) Sawdust to Sawdust (H)",
@@ -4190,8 +4202,8 @@ RXPDB = {
 ["subgroup"] = "|cFF1EFF00(80-90)|r Campaign & Sidequests",
 ["next"] = "ce) Voidstorm Route 3 (H)",
 ["group"] = "RestedXP Midnight",
-["imported"] = true,
 ["key"] = "RestedXP Midnight||cFF1EFF00(80-90)|r Campaign & Sidequests|cd) Zul'Aman Route 3 (H)",
+["imported"] = true,
 ["name"] = "cd) Zul'Aman Route 3 (H)",
 ["version"] = 1,
 ["length"] = "616891112",
@@ -4211,9 +4223,9 @@ RXPDB = {
 ["next"] = "a) Blinding Sun (H)",
 ["enabledFor"] = "Horde",
 ["chapter"] = "",
+["group"] = "RestedXP Midnight",
 ["imported"] = true,
 ["key"] = "RestedXP Midnight||a) Sunbath, Take Me Away (H)",
-["group"] = "RestedXP Midnight",
 ["version"] = 1,
 ["length"] = "616891112",
 ["name"] = "a) Sunbath, Take Me Away (H)",
@@ -4231,14 +4243,14 @@ RXPDB = {
 ["retail"] = "",
 ["subgroup"] = "Miscellaneous",
 ["enabledFor"] = "Horde",
-["group"] = "RestedXP Midnight",
-["key"] = "RestedXP Midnight|Miscellaneous|ae) Crimson Rogue (H)",
-["imported"] = true,
-["name"] = "ae) Crimson Rogue (H)",
 ["subweight"] = "993.5",
+["group"] = "RestedXP Midnight",
+["version"] = 1,
+["imported"] = true,
+["key"] = "RestedXP Midnight|Miscellaneous|ae) Crimson Rogue (H)",
 ["chapters"] = "a) The Regent's Request (H); a) A Favor for the Lion (H)",
 ["length"] = "616891112",
-["version"] = 1,
+["name"] = "ae) Crimson Rogue (H)",
 ["displayname"] = "The Crimson Rogue",
 },
 },
@@ -4272,9 +4284,9 @@ RXPDB = {
 ["next"] = "a) Shadow Puppets (H)",
 ["enabledFor"] = "Horde",
 ["chapter"] = "",
+["group"] = "RestedXP Midnight",
 ["imported"] = true,
 ["key"] = "RestedXP Midnight||a) The Void Peers Back (H)",
-["group"] = "RestedXP Midnight",
 ["version"] = 1,
 ["length"] = "616891112",
 ["name"] = "a) The Void Peers Back (H)",
@@ -4293,9 +4305,9 @@ RXPDB = {
 ["next"] = "a) Bloomtown (H)",
 ["enabledFor"] = "Horde",
 ["chapter"] = "",
+["group"] = "RestedXP Midnight",
 ["imported"] = true,
 ["key"] = "RestedXP Midnight||a) Predator Reintroduction (H)",
-["group"] = "RestedXP Midnight",
 ["version"] = 1,
 ["length"] = "616891112",
 ["name"] = "a) Predator Reintroduction (H)",
@@ -4370,9 +4382,9 @@ RXPDB = {
 ["next"] = "a) Secrets in the Dark (H)",
 ["enabledFor"] = "Horde",
 ["chapter"] = "",
+["group"] = "RestedXP Midnight",
 ["imported"] = true,
 ["key"] = "RestedXP Midnight||a) Go Low, Go Loud (H)",
-["group"] = "RestedXP Midnight",
 ["version"] = 1,
 ["length"] = "616891112",
 ["name"] = "a) Go Low, Go Loud (H)",
@@ -4467,12 +4479,12 @@ RXPDB = {
 ["subgroup"] = "Miscellaneous",
 ["enabledFor"] = "Alliance",
 ["group"] = "RestedXP Midnight",
-["version"] = 20,
 ["key"] = "RestedXP Midnight|Miscellaneous|ad) Crimson Rogue (A)",
+["name"] = "ad) Crimson Rogue (A)",
 ["subweight"] = "993.5",
 ["chapters"] = "a) The Regent's Request (A); a) A Favor for the Lion (A)",
 ["length"] = "616891112",
-["name"] = "ad) Crimson Rogue (A)",
+["version"] = 20,
 ["displayname"] = "The Crimson Rogue",
 },
 },
@@ -4504,10 +4516,10 @@ RXPDB = {
 ["chapter"] = "",
 ["retail"] = "",
 ["enabledFor"] = "Horde",
-["key"] = "RestedXP Midnight||a) Dawn of Reckoning (H)",
-["imported"] = true,
 ["name"] = "a) Dawn of Reckoning (H)",
 ["group"] = "RestedXP Midnight",
+["imported"] = true,
+["key"] = "RestedXP Midnight||a) Dawn of Reckoning (H)",
 ["guideId"] = 1466633982,
 ["length"] = "616891112",
 ["version"] = 20,
@@ -4525,14 +4537,14 @@ RXPDB = {
 ["retail"] = "",
 ["subgroup"] = "|cFFE74C3C(90)|r Delves",
 ["enabledFor"] = "Horde",
-["group"] = "RestedXP Midnight",
-["key"] = "RestedXP Midnight||cFFE74C3C(90)|r Delves|ab) Eversong Forest Delves (H)",
-["imported"] = true,
-["name"] = "ab) Eversong Forest Delves (H)",
 ["subweight"] = "991",
+["group"] = "RestedXP Midnight",
+["version"] = 1,
+["imported"] = true,
+["key"] = "RestedXP Midnight||cFFE74C3C(90)|r Delves|ab) Eversong Forest Delves (H)",
 ["chapters"] = "a) The Shadow Enclave (H);a) Collegiate Calamity (H);a) The Darkway (H)",
 ["length"] = "616891112",
-["version"] = 1,
+["name"] = "ab) Eversong Forest Delves (H)",
 ["displayname"] = "Eversong Forest",
 },
 },
@@ -4548,10 +4560,10 @@ RXPDB = {
 ["subgroup"] = "|cFF1EFF00(80-90)|r Adventure Mode",
 ["next"] = "cb) Zul'Aman Route 4 (H)",
 ["group"] = "RestedXP Midnight",
-["version"] = 0,
-["imported"] = true,
 ["key"] = "RestedXP Midnight||cFF1EFF00(80-90)|r Adventure Mode|cac) Eversong Woods Route 4 (H) 2",
 ["enabledFor"] = "Horde",
+["imported"] = true,
+["version"] = 0,
 ["subweight"] = "997",
 ["length"] = "616891112",
 ["name"] = "cac) Eversong Woods Route 4 (H) 2",
@@ -4570,8 +4582,8 @@ RXPDB = {
 ["subgroup"] = "|cFF1EFF00(80-88)|r Campaign & Delves",
 ["next"] = "cd) Zul'Aman Route 5 (H)",
 ["group"] = "RestedXP Midnight",
-["imported"] = true,
 ["key"] = "RestedXP Midnight||cFF1EFF00(80-88)|r Campaign & Delves|cc) Harandar Route 5 (H)",
+["imported"] = true,
 ["name"] = "cc) Harandar Route 5 (H)",
 ["version"] = 1,
 ["length"] = "616891112",
@@ -4591,8 +4603,8 @@ RXPDB = {
 ["subgroup"] = "|cFF1EFF00(80-88)|r Campaign & Delves",
 ["next"] = "RestedXP Midnight\\a) 90 Unlocking Systems (H)",
 ["group"] = "RestedXP Midnight",
-["imported"] = true,
 ["key"] = "RestedXP Midnight||cFF1EFF00(80-88)|r Campaign & Delves|ce) Voidstorm Route 5 (H)",
+["imported"] = true,
 ["name"] = "ce) Voidstorm Route 5 (H)",
 ["version"] = 1,
 ["length"] = "616891112",
@@ -4632,13 +4644,13 @@ RXPDB = {
 ["subgroup"] = "|cFF1EFF00(1-90)|r Default",
 ["next"] = "bb) Horde Highmountain 2",
 ["group"] = "RestedXP Midnight",
-["imported"] = true,
 ["key"] = "RestedXP Midnight||cFF1EFF00(1-90)|r Default|ba) Horde Val'sharah 2",
+["imported"] = true,
 ["name"] = "ba) Horde Val'sharah 2",
 ["version"] = 1,
 ["length"] = "616891112",
 ["enabledFor"] = "Horde",
-["displayname"] = "|cFF1EFF004|r - Val'sharah",
+["displayname"] = "|cFF1EFF003|r - Val'sharah",
 },
 },
 ["RestedXP Speed Leveling||a) Thaldraszus Midnight|821"] = {
@@ -4838,14 +4850,14 @@ RXPDB = {
 ["retail"] = "",
 ["subgroup"] = "Sojourner",
 ["enabledFor"] = "Horde",
-["group"] = "RestedXP Midnight",
-["key"] = "RestedXP Midnight|Sojourner|a) Eversong Woods Storylines (H)",
-["imported"] = true,
-["name"] = "a) Eversong Woods Storylines (H)",
 ["subweight"] = "994",
+["group"] = "RestedXP Midnight",
+["version"] = 1,
+["imported"] = true,
+["key"] = "RestedXP Midnight|Sojourner|a) Eversong Woods Storylines (H)",
 ["chapters"] = "a) The Drinking Debt (H);a) Fear and Fel (H);a) Lesser Evil (H);a) Tailor Troubles (H);a) Scootin' Through Silvermoon (H);a) How to Train Your Protege (H);a) Aspiring Academic (H);a) One Adventurous Hatchling (H);a) Far Striding (H);a) Runestone Rumbles (H);a) Theft Tracking (H);a) Port Detective (H);a) Daggerspine Landing (H);a) Flowers for Amalthea (H);a) Sunbath, Take Me Away (H);a) Blinding Sun (H);a) Paladin Rescue (H)",
 ["length"] = "616891112",
-["version"] = 1,
+["name"] = "a) Eversong Woods Storylines (H)",
 ["displayname"] = "|cFF00FF001|r - Eversong Woods",
 },
 },
@@ -4978,8 +4990,8 @@ RXPDB = {
 ["subgroup"] = "|cFFFCDC00(1-90)|r Default",
 ["next"] = "ca) Eversong Woods Route 2 (H)",
 ["group"] = "RestedXP Speed Leveling",
-["imported"] = true,
 ["key"] = "RestedXP Speed Leveling||cFFFCDC00(1-90)|r Default|c) Turnin Route Horde 2 (H)",
+["imported"] = true,
 ["name"] = "c) Turnin Route Horde 2 (H)",
 ["version"] = 20,
 ["length"] = "616891112",
@@ -5078,9 +5090,9 @@ RXPDB = {
 ["next"] = "a) Reclaiming de Honor (H)",
 ["enabledFor"] = "Horde",
 ["chapter"] = "",
+["group"] = "RestedXP Midnight",
 ["imported"] = true,
 ["key"] = "RestedXP Midnight||a) The Voice of Nalorakk (H)",
-["group"] = "RestedXP Midnight",
 ["version"] = 1,
 ["length"] = "616891112",
 ["name"] = "a) The Voice of Nalorakk (H)",
@@ -5210,13 +5222,13 @@ RXPDB = {
 ["retail"] = "",
 ["disabled"] = "",
 ["enabledFor"] = "!Harronir/!Nightborne/!HighmountainTauren/!MagharOrc/!EarthenDwarf/!ZandalariTroll/!Vulpera/!Dracthyr/!VoidElf/!KulTiran/!LightforgedDraenei/!Mechagnome/!Pandaren DK",
+["name"] = "b1 2",
 ["group"] = "RestedXP Midnight",
-["version"] = 0,
 ["imported"] = true,
-["key"] = "RestedXP Midnight||cFF1EFF00(1-90)|r Default|b1 2",
+["version"] = 0,
 ["subgroup"] = "|cFF1EFF00(1-90)|r Default",
 ["length"] = "616891112",
-["name"] = "b1 2",
+["key"] = "RestedXP Midnight||cFF1EFF00(1-90)|r Default|b1 2",
 ["displayname"] = "|cFFFCDC00LEVEL 10-80|r",
 },
 },
@@ -5290,8 +5302,8 @@ RXPDB = {
 ["retail"] = "",
 ["subgroup"] = "Pre-Turnins",
 ["group"] = "RestedXP Midnight",
-["imported"] = true,
 ["key"] = "RestedXP Midnight|Pre-Turnins|a) 2Turnin Route Horde (H)",
+["imported"] = true,
 ["name"] = "a) 2Turnin Route Horde (H)",
 ["version"] = 20,
 ["length"] = "616891112",
@@ -5365,13 +5377,13 @@ RXPDB = {
 ["retail"] = "",
 ["subgroup"] = "|cFFFCDC00(1-90)|r Default",
 ["group"] = "RestedXP Speed Leveling",
-["imported"] = true,
 ["key"] = "RestedXP Speed Leveling||cFFFCDC00(1-90)|r Default|bj) Horde Gorgrond",
+["imported"] = true,
 ["name"] = "bj) Horde Gorgrond",
 ["version"] = 1,
 ["length"] = "616891112",
 ["enabledFor"] = "Horde",
-["displayname"] = "|cFF1EFF0013|r - Gorgrond",
+["displayname"] = "|cFF1EFF0012|r - Gorgrond",
 },
 },
 ["RestedXP Midnight||a) Shadowfall (H)|1112"] = {
@@ -5386,9 +5398,9 @@ RXPDB = {
 ["next"] = "a) Ripple Effects (H)",
 ["enabledFor"] = "Horde",
 ["chapter"] = "",
+["group"] = "RestedXP Midnight",
 ["imported"] = true,
 ["key"] = "RestedXP Midnight||a) Shadowfall (H)",
-["group"] = "RestedXP Midnight",
 ["version"] = 20,
 ["length"] = "616891112",
 ["name"] = "a) Shadowfall (H)",
@@ -5502,9 +5514,9 @@ RXPDB = {
 ["next"] = "a) Furniture Favor (H)",
 ["enabledFor"] = "Horde",
 ["chapter"] = "",
+["group"] = "RestedXP Midnight",
 ["imported"] = true,
 ["key"] = "RestedXP Midnight||a) Quest Booklet (H)",
-["group"] = "RestedXP Midnight",
 ["version"] = 1,
 ["length"] = "616891112",
 ["name"] = "a) Quest Booklet (H)",
@@ -5522,9 +5534,9 @@ RXPDB = {
 ["retail"] = "",
 ["subgroup"] = "|cFFE74C3C(90)|r Delves",
 ["group"] = "RestedXP Midnight",
+["key"] = "RestedXP Midnight||cFFE74C3C(90)|r Delves|ae) Voidstorm Delves (H)",
 ["enabledFor"] = "Horde",
 ["imported"] = true,
-["key"] = "RestedXP Midnight||cFFE74C3C(90)|r Delves|ae) Voidstorm Delves (H)",
 ["version"] = 1,
 ["chapters"] = "a) Sunkiller Sanctum (H);a) Shadowguard Point (H);a) Tormentâ€™s Rise (H)",
 ["length"] = "616891112",
@@ -5581,8 +5593,8 @@ RXPDB = {
 ["group"] = "RestedXP Midnight",
 ["name"] = "cac) Eversong Woods Route 4 (A) 2",
 ["version"] = 0,
-["subweight"] = "997",
 ["enabledFor"] = "Alliance",
+["subweight"] = "997",
 ["length"] = "616891112",
 ["key"] = "RestedXP Midnight||cFF1EFF00(80-90)|r Adventure Mode|cac) Eversong Woods Route 4 (A) 2",
 ["displayname"] = "|cFFFCDC003|r - Eversong Woods 2",
@@ -5795,9 +5807,9 @@ RXPDB = {
 ["next"] = "a) Path of de Hash'ey (H)",
 ["enabledFor"] = "Horde",
 ["chapter"] = "",
+["group"] = "RestedXP Midnight",
 ["imported"] = true,
 ["key"] = "RestedXP Midnight||a) Dis Was Our Land (H)",
-["group"] = "RestedXP Midnight",
 ["version"] = 20,
 ["length"] = "616891112",
 ["name"] = "a) Dis Was Our Land (H)",
@@ -5815,10 +5827,10 @@ RXPDB = {
 ["retail"] = "",
 ["next"] = "a) Whispers in the Twilight (H)",
 ["group"] = "RestedXP Midnight",
+["key"] = "RestedXP Midnight||a) The Light's Summons (H)",
 ["groupweight"] = "999",
 ["chapter"] = "",
 ["imported"] = true,
-["key"] = "RestedXP Midnight||a) The Light's Summons (H)",
 ["version"] = 20,
 ["enabledFor"] = "Horde",
 ["length"] = "616891112",
@@ -5900,25 +5912,24 @@ RXPDB = {
 ["displayname"] = "|cFFFCDC002|r - Eversong Woods",
 },
 },
-["RestedXP Midnight||cFF1EFF00(80-90)|r Adventure Mode|cab) Eversong Woods Route 4 (A)|1138"] = {
-["version"] = 0,
+["RestedXP Midnight||a) The Grudge Pit 2 (A)|1201"] = {
+["version"] = 20,
 ["cache"] = true,
 ["enabledFor"] = "Alliance",
-["key"] = "RestedXP Midnight||cFF1EFF00(80-90)|r Adventure Mode|cab) Eversong Woods Route 4 (A)",
-["groupOrContent"] = "}‘ÑŠê0†ïóå€rPY<D(®½s‘î½X´™¶4)IÚ®‹¿Ñî•ÂŞ2óıßÌÌfK¶\\ÅŒ±!‘EÏ¥\"QeM×B†Î£8`/…–UíIäº|ü»iÊviJédEg1^-$¢Gí;‹°7ïÅŞú ÿ‘Hó¡àùv=ZgtGc„ƒÌtá&É”DBºVñË½ø’n_·”.~öØÇ?}`¿1aAÖkH”’\\HÂL-‰\nÓ´\n=Ò×ğ^sÛ6|H¹´¹EüÂ”÷Æº„üı_KU'Bx”ÆÂÍ.DÂ•¾Fi+ïÀˆé<xg§Ãù˜doçlr´p1]Õ ”Òº`myéGdØ £ô˜r¤Â*_í©Ô…êBüÓ5>øÓÔu¤f ›\r#ß",
+["key"] = "RestedXP Midnight||a) The Grudge Pit 2 (A)",
+["groupOrContent"] = "mÎ1‹Â@Åñ~>ÅÀš\"\rÒ„@¬‚w……Í°;&Ã­›°Ùˆ~xƒ×©ı{~iZèb»ÓZç\000*p$q ®&<æ¨.óˆ\"Ûc‹_b½t}åéÂH	şôŒû0Û±•ˆ9®«”•itô÷İMÓdY]7ŞÜ¦/—%Å·øL!7ápÆ¸,¾ûÙ­~é¿gz#(K¬œò†a! Ä7[~'>ààñ",
 ["metadata"] = {
-["guideId"] = 3122535410,
+["guideId"] = 1144327670,
 ["retail"] = "",
-["subgroup"] = "|cFF1EFF00(80-90)|r Adventure Mode",
-["next"] = "cac) Eversong Woods Route 4 (A) 2",
-["group"] = "RestedXP Midnight",
-["name"] = "cab) Eversong Woods Route 4 (A)",
-["version"] = 0,
-["subweight"] = "997",
+["next"] = "a) Trials of the Shul'ka (A)",
 ["enabledFor"] = "Alliance",
+["name"] = "a) The Grudge Pit 2 (A)",
+["key"] = "RestedXP Midnight||a) The Grudge Pit 2 (A)",
+["group"] = "RestedXP Midnight",
+["version"] = 20,
 ["length"] = "616891112",
-["key"] = "RestedXP Midnight||cFF1EFF00(80-90)|r Adventure Mode|cab) Eversong Woods Route 4 (A)",
-["displayname"] = "|cFFFCDC002|r - Eversong Woods 1",
+["chapter"] = "",
+["displayname"] = "|cFF00CCFF14|r - The Grudge Pit",
 },
 },
 ["RestedXP Midnight||cFFFCDC00(80-87)|r Campaigns|ad) Zul'aman Campaign(A)|1261"] = {
@@ -5953,9 +5964,9 @@ RXPDB = {
 ["next"] = "a) Paladin Rescue (H)",
 ["enabledFor"] = "Horde",
 ["chapter"] = "",
+["group"] = "RestedXP Midnight",
 ["imported"] = true,
 ["key"] = "RestedXP Midnight||a) Blinding Sun (H)",
-["group"] = "RestedXP Midnight",
 ["version"] = 1,
 ["length"] = "616891112",
 ["name"] = "a) Blinding Sun (H)",
@@ -5972,31 +5983,32 @@ RXPDB = {
 ["chapter"] = "",
 ["retail"] = "",
 ["enabledFor"] = "Horde",
-["key"] = "RestedXP Midnight||a) Pet Battle Setup (H)",
-["imported"] = true,
 ["name"] = "a) Pet Battle Setup (H)",
 ["group"] = "RestedXP Midnight",
+["imported"] = true,
+["key"] = "RestedXP Midnight||a) Pet Battle Setup (H)",
 ["guideId"] = 1202065045,
 ["length"] = "616891112",
 ["version"] = 1,
 ["displayname"] = "Pet Battles",
 },
 },
-["RestedXP Speed Leveling||a) Zaralek Cavern|777"] = {
-["version"] = 1,
+["RestedXP Midnight||a) Go Low, Go Loud|882"] = {
+["version"] = 20,
 ["cache"] = true,
-["key"] = "RestedXP Speed Leveling||a) Zaralek Cavern",
-["groupOrContent"] = "\rË¡1`ß§hR…8QÄåĞØÁ5¹?ËÂè–mìùoêSß²¬ºn7U½IE·˜Hj‹ÙYIBÍÿÂO´ãıàWŞ1¢·Ø.ü±j	_¾Û¼N½O-Ñù",
+["key"] = "RestedXP Midnight||a) Go Low, Go Loud",
+["groupOrContent"] = "íWİnÛ6¾×SğÕ:U‘(‹’: @ê¦[P§	boh·%16™ô(*^?ü%ÿÈ–Ò:…{1` €üxxş¿C¿|I<ÅçaËê)¦)Ï­ŞS—a×êM”,çè†še®Ñ%ÏŸLµÕtÆıı,ÑP.ìú™Y=.4S‚æˆÌ­^N–\n‡Ì§ÌÎ¬UJ.4û[£1Íï‘–ŠezóáúöíÍÅùû7Ã·ÃÇ‚ßÓb©,g\"µD¸ï¶O×·ƒØ‰ˆuzºWšîhÊNRåÙŒÎOÒ)ÕI™$9»%ı‰bN’Ï_aw©WšĞÓŠhš²¹F1&AˆNOÏêåxÊĞkÅ\\LĞHK5³MÕ„i´]ùù>aâø}›DNßû>éR	.6>a‰`İáTÃû¨á=M5OiÎÒ¿J^p\ru±s6Ş…\"‘¥JzÃ‡üwÇ©U¯­Ş”gÆ–L.¬^*góœiXë)úMòì\\05yA)ç;‘‹\"ç;oc×vw*ÅuBb°¨\ry‰mÒwÜ¸‹°MÇëÃ!#êÀˆ#]Xú ÍrØé‡ë{`rË/0.„m‡Ù;QPc?z«èîDO@5BQ½ãy¾*‘ó÷ç—oMT¹7%òb(¥FzÊfèN*´{>¢à”×µĞğêj|[ga©>9Ö‹åøbS¥i©\n©NR%‹bJ¹:©\nª¦*R/XêAÎÓ{tRßv}1xw; ‚ƒÁªªÑµÍuíÙåÌd‚F)}`bb*ÔØ[ÌéB¬ÆôÔì_¢bLÕÛ7t2añùTŠõæ&R­ïX@»\000PEÊôÚ¡^˜VëòâJ%à€³çAl{;¥Ş¨áÿsÑ™‹oåN.2íß™;£&wvRâ×5…ã†p‹#·TJÜ-•¾/¡L.L*fLèÃGÌ\r¿ÓIN3†.)ËsÚŠWˆM¼â£…«KaÃ%oëÒ/t6c\n]BÁ 3ñÀ·óaÿ•·O…1ËË™(‹öHğ«a@B'ôm¯ÍµQl° ìÂ€eC`Ü.ˆ 8îÂ`FpóâÙ$6ßµÃ\\ªf~Ğÿ}_%ŸY\nÉï`uö[”­Zv¤ç]\\=¨‚’îº¯š~sÊäs9¡°Ñ‚Î´f\"£B×È —°‘¡bl\r´”æw<İ°BMŸ[c§ºÂ:mÒ]ÕZ#Mó˜Z*»‰ÖÔôˆ*ŠZ\\*DEÖ<1ÓË,Öè­„V·g\000qMövpkÇÎĞ~nÊÿÉİ˜|‡ Ç\r¹7’z(wz6-‹ûGãÎg[³)Õ¬XÏ”ıañ…YTòZîŒÜät¼åôT>pb^°ub÷9Ù3Œk~àtprı‡¨’.,¬\"tAA%FVbÇâ†ëÇ¼«7pÕÍS)†B~°·Æ{kÊ7ì	Ø¿–«—B¥=?c3(‚ãù1–2ïr·µc“eö_ÁPóèÂÀ¯¯ÁFS©?5)ÜóXü„$hT^ÇıØIuNš£T?ıÆİ·Éêwáï‡tô×›Ö­êË=Z×~¥1q£ÁvÛãÉæú÷",
 ["metadata"] = {
+["guideId"] = 4214885572,
 ["retail"] = "",
-["group"] = "RestedXP Speed Leveling",
+["group"] = "RestedXP Midnight",
 ["internal"] = "",
 ["imported"] = true,
-["key"] = "RestedXP Speed Leveling||a) Zaralek Cavern",
-["name"] = "a) Zaralek Cavern",
+["version"] = 20,
+["key"] = "RestedXP Midnight||a) Go Low, Go Loud",
 ["length"] = "616891112",
-["version"] = 1,
-["displayname"] = "a) Zaralek Cavern",
+["name"] = "a) Go Low, Go Loud",
+["displayname"] = "a) Go Low, Go Loud",
 },
 },
 ["RestedXP Midnight||a) De Amani Never Die (A)|1257"] = {
@@ -6037,40 +6049,40 @@ RXPDB = {
 ["displayname"] = "a) Archdruid of the Claw Midnight",
 },
 },
-["RestedXP Speed Leveling||a) Black Rook Hold Midnight|1385"] = {
+["RestedXP Speed Leveling||a) Into the Nightmare Midnight|1388"] = {
 ["version"] = 1,
 ["cache"] = true,
-["key"] = "RestedXP Speed Leveling||a) Black Rook Hold Midnight",
-["groupOrContent"] = "İYYS¹~÷¯PRwnGô¾ä*³å2!À€+3¹·¦(¹[Ø*äVºÃ-~üu{éE&!P5/	ÆÒÑ÷å;Gâı{ßòÃÈ²,{0JZÆÃ[*s&Rd\r†S)Ê]Ğ¼ Éïçè2£4A'ô–r–NÃ”Ì)\"ÿB{œÄ7èBˆôÁô™%)›ÎŠÁ¥•)á°\r†œL(¯—«Õjñh€§¢Èw-Ãµ±ë^ˆ£`°»û0®v_“˜î,„äÉœd;ñŒ“r2áôÊw§’Şã	Ï>ØæC1&ü¡‡øâ÷ó«£‹ãÃÓƒ“¯Wûb>'iB%ú…H‘ ËIÄ\"éôA0‰cšÈ	ıÈB»»£úcµò]<rå‰.ˆœÒı{»±šà[R‰Å<ã´ 5ÃZ£~4ÎoX6À2c	rİÀö—DX~–şZBàksƒaÁ\nNÑÑÑÑşÁ¾iPrKQ1£è–ÎXÌ)`®0,X1C)½+V!¯NÎ—ş„Ó;V,÷ÛÏ%ÍóÊÖgK¡¨ó®yŒ	K«_ş4Š:ÏB–%<ÀójíK½Ñğ}ÏwÎÙ©¬.\r.S²¹s8c	­m7BëDØ‚Ğ:ØôO™µ–¦$ı³d@¥gæynÙk¦‰C¯:Ã2LÃ|¥*J™‚ƒWÕ0†Êá½rXWM`…›ªùTÊwá\"Gàå4OÏIÂ¿ã¼ÃzYy¨|TeÈœ”¹à´œ+bÚØY`¯ıóÛèâôJ¿÷1t[\"öÏV›vÔ }¼¦—2rê1Ïg„ÉÊ#$.Ö¬÷9ƒ¶¦¦}~¼ÿéj\rë]ºdSÆ;\"lK'pß&\nµwWQĞ»·\nwŠÏ„Ñ[ˆØXªşÛ\\äm!/UÏ„uK\"“gÇj»ú\\‚~ŸÃÿVO@ävw?1Î—8<=üüõª·¨Oõš¹˜hìi\000ô=ÒZ¶qˆC«\nr`Xf»ˆõ{;EÜÇĞRˆÈ1<›şqG+Y=Óğ,ì¹ß^;Šj'a÷$IhšO¤È¾\0002¥²‡ÓmŒÚ=¸6®mWç™OjJ”èˆÈœÒÍa×é®ÔiŠ¯r‚o÷KCST è=…Ê9“P'¹ÆöÖZÑ0KÊI\n…Æ(O&’=[§f«[­™MWe‚ë};ãM&T¬‘ ©’N`TÒvVS¹8G¶ª€(4l5|´p†Â	‰`×sÉóî²Ğj¸¦‰íèõ¥ŞmH}G¾«¼Æª¾~7t>Øè|ã.u.YŞ¸}<)ô‡í·ƒ1s}ì†º¸$¹»#PQ ›£kQDcËqm×û\000®û_½éäìl|U#„‚¾‡}àÁÏ\r%>=~xèøZb9Já°/)ZV¬ÎÈ\"EğÒCLw$¥ëáìÿ\"¥¸“NÁJs—ÖŸê|kÕö_?‚FjhB¾É\r»1(ìI¡¼Åï!B·ôù‰ÑòC‡ûh‹O®ˆ¼É a´Ú2è†í®‡İ~[Önítå>€-Áêû¥œg(§(¥¿.9¿o#ƒFë®‹£5ÍV Ó]Â¿mÌz«ƒ5MÃ€¡…­×zx£üjQ‰	¡›Ù/Fy$“’B‡%ŸpSZÏ6màsÎ\":½HÄ|M k¢;Tá÷#ì©[a+?ÛzÇñ=#lcbß5|‡üãzÉ$+st8é‚©˜\"ğ;Jè5%• wd/jŒp­½§Ç´»´û0êzj¢Sv¤Z<ôŠÀë}nª]÷b¼G0ÛÔ%Ík–âélbÙZª¡éwiÚT`5T:/¸êù[«Ïn½¢bs¨$Ë2jpGÉ8¹oÕdã-ò„Ñ² )I$®+‹•kt‘<ÕúVE²¬‘Ñ÷Í›±YN²®P	wªŞ‹™©&ªöFbzË5‘uuÜz|zİá£@eV¡Í`ÔlZvõ ¨»$è–e·[ƒ©ÊÃy©W Nõ•iöZİ‘à\\,ªóˆ”ğS÷ğNéØã[ØñÕˆk}çµà-Â´¡áp“S6ìùØñ\nuqàèfÒFòĞ<Y¾YÀ]Pşü5¼^¹F–Y5Oª?TÄ…$j¹óJDÓë\\p\000J:ër´­Õü¸õÀ§Êj³ñìFıªFG/&7}}l´ú¨!6Û[`[65lô¡Šª÷è@5„«Ñ\n}WZ6n«	„NR¿n<üíÓ9à“Õ8×N4ÏôÌn)é)èîE_Û/>ĞôáRk½Ü›á\n˜†É;c•^D/7~=Ñéš/Ï»Uıõ",
+["key"] = "RestedXP Speed Leveling||a) Into the Nightmare Midnight",
+["groupOrContent"] = "ÅW]oÛ6}×¯ ê‡a˜ªè[ò¸ş\000‚&Y–zh³ah™±	Ó¢FQqøÇï’Jd}ÅA1·{³Lêòsî¹W|ÿ>tÂxè8kA$¦Ì<‘S\"Ç¬/2tKrI–_nĞ§Œ%º$„ÑteR¼%ÿŒ.RÉ‘\\tMWk¹Å‚ +ºLÕƒ1 ©$\"ÅÌ€ ™1`xA˜~c¾&Õş‘a­8	}Çkèš¡oÙCãü|?×pBÎv\\°åggÉËE±X0rú+A¬Ë~uí½œc¶AhŸÜ~¹¹Ÿİ^L¯'—w÷W˜=B¡ú$¹Ø\n¼\"{aN’IäÅ^¡óóQù™¡é–Ì–è÷‚Ô°$+\"QOœ×ÿ‘>º$ÏÑ»é§ñ;õR¾¡™–¡È¾…PRÈ<!)¤ğOÆˆ$%VÓ9\nÉR¡V<Ï! ”‡=„ıæw„pºlo¼ËA-•,DJÓJª9<\"xîÑê …kZ\n'¨àşÒ‹·ªx­Ys¢xCüMY‘’VtÇ=Ë·Ñu¾GKıC3„ë›Ah…¾é9¦İ)£ ²<ÛtlX:õ—O8¥9ºâ<}ÀŒõÓ~‘sIZ:p°­Üòyt{}OÓœ.‰®µ5/rÒ¨ä°.P‡Äß¡[ã›`‘£.ĞLıj²á{Š¨áğÀuI=j¢Şr.ÑCš­€±\nû‡€ÔÏB¾xgGå¥ä«|MÛ±Vé¢R))„<KXi©8ÓâDV\"M6ŠQqY2|s1şx?ßQÕtuò¹¦·f`€÷bÈ¢ØŠô×H*™Š7›ÍÆ“±mÏ8c|§	Áw{Ñº/ŒóVØÈQa‡¶éÚÍá,µäö-9¥CâÎRd…Zò£%ìX~X.ıh6_“ut2÷õ«Ç“6ü¥«ûÅ_o”wp¬¼k1µ+Ï¶Xó«×ìJd:Æ¹lï¿å×£”·Ú$‹ê´îÉ„x,\r\n¼VÛj`«(†µæRM“Ÿr4+ÄS…¶>zúÇúç¦K¾{§U_I5ª|?ŠB8Um\nÓy9cŠ,4)V{Úı ´­ 4C\":=i5û\000êkâğÅ@—eº?4¡JÅR»òdŒë“‡£ßàb&(I—y¯ˆ­¾*¹±Bãx¦4Ú,Åj~wÉµbİMßô[KÛÊ2ğÛoöEø‚’C=ı²/ş‘—ãw?w¼ Æ¿GÕ&ôô«x”¨ÂøPHÉÓ½ø[ñ·¡ŒÕºãôzzuw?æB™j7§İ	TuçM* _'üæy£ºGı?©Ÿ=ŸÂwk‹4Xêi£:ÃG®ìò	¼±æ9š`±ËÌ#éIÄ3¬-_ îŞoşÓ.—?h åÁ´]Èë \n­(Ğ´vÁB…Dj	†ª^ú.Šã åÊCQĞd«½6ê*i-i!dM’Í‚}»9şJk¨'N\000—²ª™¡|EcR¾V,È?…+TÏ©Mï¹Ê{îwíZ§á»¯mõ–ê]³}]qpaıV#CBf5“œØ¼½9zìŸ¯{*bçàá.&Ÿ×4ÏˆP¶AsÉ_cÄ÷ØÇø÷",
 ["metadata"] = {
-["guideId"] = 4001764012,
+["guideId"] = 785126439,
 ["retail"] = "",
 ["group"] = "RestedXP Speed Leveling",
 ["internal"] = "",
 ["imported"] = true,
 ["version"] = 1,
-["key"] = "RestedXP Speed Leveling||a) Black Rook Hold Midnight",
+["key"] = "RestedXP Speed Leveling||a) Into the Nightmare Midnight",
 ["length"] = "616891112",
-["name"] = "a) Black Rook Hold Midnight",
-["displayname"] = "a) Black Rook Hold Midnight",
+["name"] = "a) Into the Nightmare Midnight",
+["displayname"] = "a) Into the Nightmare Midnight",
 },
 },
-["RestedXP Speed Leveling||a) Riverbend Midnight|1383"] = {
+["RestedXP Speed Leveling||a) All Nightmare Long Midnight|1387"] = {
 ["version"] = 1,
 ["cache"] = true,
-["key"] = "RestedXP Speed Leveling||a) Riverbend Midnight",
-["groupOrContent"] = "åXmoÛ6şî_AÀŸ6¨Œ¨wõC€ÄqÖ¬M—9.Ò¢Zbl\"²èQTÒşñ;J–­7çeKlû‡äñîásÏİéÍxAH±ƒ¡dŠòd0¼c2ã\"Ed0œK‘¯Ğ„eŠÅŸ/ĞåŠ±}`w,áé|0Lé’!úšp83ciŒÎyœòùB\r†<UL¦4ÀÙÕ`˜ĞKv/•Š×Óbã\rØÁ½I¼¤«ƒhAÕ,ŸÍví9sÉ¾ãY²zk™k5¥É-R­£Éç‹ëÓÉÙøãÉ‡/×¿Ò„•Æ—4ek‰x.`›çš†cbÛ3|‚}s€U.S\";tÂ\000Ná'‚ßïÀgtEÁØBåœ)Ô4YFÑoôA£ˆ­r,b:àîQùsº`èS3y¯€FbÉ²İ&B´œwˆá…8°\rË5ÌÚ’bâ2±¶—ô)[Ÿ2SAhx¶6?e)ğ³Œñêhòñúëø›’ô(R@®ã\\)‘ş±–h=%¶cYş[\000æë;ï!nŠ(ôbÊ¨lÃ´\rMi.Yªú¹vÍ‘£ˆ¦(ßx0+®B÷È,E/àFb¹J˜b%¼`8’­X’ ø¤ÅÔö•X+÷\\-ÀÕoª¢yß½K.W\\ru‹L¢ñL¤À¬ˆgÃíŠ,·bK¯±¾èzìŞ?À§ßßs\rbÂİch¾b©Ú”ìÏœK–=nÌõÙÿrĞê”øEÒl¥©­ê–_!À„Ø¡i¹;	ÙãN}·×œ)æ3*ŸÂ¾«ì±4{§dÏFïØ^ö<ÃõÀW×®BÖ(OKy*.7puhï9ÛN’ÇÇç_®A3G–5%±pPKâRÌĞ1Wå&4Ñm$ól¡ek‰r¸«tP£~¶E=Êe&äA$E–-(—ÅƒĞHmA%<ºE Ò;÷.ÎFï¯·(H:—y²–Í¢SÑ¦å¸kX¥w»ó€)œ]ïlRÒ ãyÈ»^<õU_!İëXº×	º@ÛOeÛôÓ˜ô6#`İÆÀ7Ûlv[–Æô¬˜P#|tVLlººzxN{	t!ôôRuÓ«æDo<åÙï9l?ºƒŞ›‚ UÀêË¶ÎƒìĞ\\AÏöb¢vEåLj©ıMŠz1¬´¬*†ûÄ¬¶İkÕÎ­šíÏ±w‚·ƒhœF	¸°•½ºO›¦{ƒ6Ïâ³t@-Ãq°ûrSEŸÌşáœ¦€2+Ç4ã	ÏnkÁY¶¡ëö°myÕ 1Ğ.¹†ëáÀm¶åDçÎ@sî7ß${å|\\>tİ¹ú®kÄ€É€tş³Qá¾Èº)4cåøÕ\\¹Ôƒæ#‰Õ€´ç²¡â*Ñ)~zz::™fÙàaj:G×ÔSŒ-Ü.Vïm÷!}75´­i±õ6CÇpl·WüP¿šëwììøúß>äºØ$Z£Ã sS€MO[…½}p‡hõ:Ü	\\ìƒ¶·#İ;Mù°µ~x/7Ğ? ¯…~T‚Ù# µ>Ñß)Í¦º kZ¾£Ëeí“Åsäf$Ò)ÒÍî\\ò£‹FAõáí{\\}Ä½NJŸŠ$÷Å®#)Å}#±=0‹¾UÎíÍ\000 ‘mL.ÚYşˆ#5‰†„±µP·-Ñ¤ŒA½İÀ n§Å<yw æzGŠ’íXÁíÎÆ¸in·/½óÖËµ&ìUfT9´/5ªD\nB3¬g-piñÙï	mv¼?_ ÷<'`>[Ú´µé\"×¼@S¡Ør‹eX¾®ZÖAè\nfì€×nõgÀ3/¥L]U,à˜Ù¬^@vĞxÿ;p¶aWì‡rÓ¥ÿÓ¼èô°€º] q|RóÒ³t‚‚Ù\"\nNÙ¶§[Í}\\¾\\R(:SÉh3-ààóˆ}[1ÉY±âÑW¤Ìğß\n gP±ú±}’ò@ì>G^Q®\nõ‰HØ*¡ß[5°`Õ,IÍk_*¯Îé÷„6†ËFRm²dÛøwÓ¤–PÄj~Á8†î'VPx0>c½vsïåíwÑ­é’ÚG”#¨hÅ•N^)\n»qİ`ı",
+["key"] = "RestedXP Speed Leveling||a) All Nightmare Long Midnight",
+["groupOrContent"] = "İZ[oÛÈ~ç¯ÀmZeÂû%XğJrâÚSY»Ş´]cj$Lq´Ã‘µüã{†o\"iÉ©¶ûXâğ\\¾óÛ(oßº†ë†a˜šv$¨$,Öî©HO¡-_¯Ğ„¦’Î~ù‚®V”ÎĞ9½§1KÚQB–‘7è8Ñg¶ˆä’ŠÎy²@l–¨o´#–H*k d¥Åä–ÆêòuşXÃ!O@³üm\rÚmè=Pÿºè‡ÔqF’¶Nù§<İâ”å»£N™ö“²<;(‰ÖÓ§\\k\000}¯yjÁ%G®m\\ÛÎÀq±h><N3÷ç$¤ï6\\Ä³%Y½#\"o×··1½qí… ø6^½7õG9%ñAáä—/7'“ÓñçÑù×›éƒ ÉŒ¢ëˆ¥+*6,™=\n\r“0¤«-VèÃ‡ãüã9¿W1\000cÁÀO\\Ìhã¤Ûs²rE± u(İ†0äËUL%İ0¡„ş.û¢úãQ}eœäZ$,)qšÂGŸK÷kø\000Ÿ*|FDÜ¡+ùÉˆ¢Î\rÏXJÀ¦0¢áİ-ÿı¹€µA:’LÆœ999†º>VX !¹§ÊüŠZ¶Ì`ÏÊÎÜıëãÉç›üed˜¿–kô·54íÒÚ³á¡9V7KEş5ÿÏ\"¹7pİêÎ»80\r«ÇÇ|“)<‚o”¶ÀûrJ™®,¿œO#ªÌ>ÏT\\%6‡müy|ñõæš‹¥$1Tî\"#\"Œ\"2;HÁ§]İ¦†—üu¼×eT‡!İ0À·iÊV|%U±;T¬èZåjÉò¿AVIÚ¤èp©'äã_k¡`	Àmm SE4šĞ%ƒ?Á¨ƒ%!OY­(i-r¸+t’-!ã\rgP¸=á1]Åä¡?ª;®™lùiHÀ&}2Nvà°J8¾OúçÉ]¤Ov¥Àr¼ZÓ›Ğ|¨Ù¢;¡óõâ€¦wàHñß,Š[?Tzİ¢’yP¡ò	'øÊP$sı’íE¬ÎÓØ6ô-­Ñ´®	“…}ò°â€Zñ”©loËpcäï€r[r/pûĞ9høìI¿]8ú‹A0¹Œ˜¨Í˜jâµëIDfªÔ)§Ï©ªwµÎ®T'?²{š(C.Ä:+ã%8[5OVšO]­±§N)4YqÏ0Š¤¬1Ã\\À3†-ÑœçÒãÔ€\\ñ\rç=@ğÏ\\Âùååôfk#ì8_`Šáõ_q“„¾\r$Ì*fKÙ¾F!1åe#¯ûğ3ø-#îŒ\nŠ[ÅÅ‰.}:.]ìzËÁä™ó¼á²CmM°!uA°e¾¼Ãu€·¤„VS²wPêâIÖ¤‡6Lm½èŒRHÜïJ¤üë†ş.ßÛş¶b=x^¬óWúcİ¡µ;sOáçjí`ÇXlP>Ğ›)’À‚ã¶ùØ	Ô##Èıá¢Úßß:‹¼ıE¾êm¾İ˜ ÚU¾Áò*_=¸Ì7}Ò¿Oï.'AO7«ÖtÅç’&…ƒÓÌØı»¿ş”ò 7riªı”*F9–ãfF¨œss=±|„£¿¢?o2¶¶DÕT´€ıQYXçpuÓ6”@@¨êsõê©üìŞ,»ll„òBâÛ¾§¡šzà›*ÓÓ2DáZ¤\\¼¬gaâ]=Ê2BÃ˜…wŠ*OË0]­ogkÈ‚Ìå_»Ìüo‚ùìË@+ã¸‰ÍWŞpm\rÈI^df7Ë«aÍµªŒÆ\000'|½ˆ”æ)_«1_l÷?[Lì©ÚoBËÑ›ŞÂ:Àèbß?`=(ª´ØÚ°­,${/U.H<_u¥°š$(¯š|Ñk–şVï_IØœYĞ.•İjº=Ç!J™¦ay*\"eúäx|9İthUŞïdÎ^¥&v,V+&¶ÁÎK€Ñ'øÉ~$vm´öÛØÓ|Ï:É±UÜæ›–*û\000UO^ŸÕàr`Ø1–‰§Î§Í‹²*ô!²×¨Şâ†A>¶2Îú³o9E§;ç/h…³KKÇÃ>à¬Ì×-Ïõ¹)+¸Euî©¸åÖíÙµò­™]sıLâ?AÂ=§¿¢Ã;×5`¸…·÷GöŞÖ¡áô­òÛ^6C¶cùzËz»îÀq°§ÅˆÎ¡a7šù×Jò—·hÄgÚ¼”A?ª©§YıQsjvb(X~a{š¤$aò¡åÉö¦<“ÿ$]¿î˜ë+sı»÷r*çKÁ®>Âİ_w\\¯ù#I”]gMaò»£ò=ªÿg\\mõ@ó&4°ß;jıö~P\r–YOŠ‡¶²¬ê•6~RpL³«uÀc¯“š3Í¯sâ±ô2ù{>é)A…ı¦§îu­``+ÖîFhö'‘€nôL½öcO¯`é(ÎÀ¢¬û/Ç™†oõb¤7ïÑÇ§æ˜mY~9på¿ÓX¹˜98lœÓşZ›î®6êçe/l‡)Z¬Õ>|‚[²d'ï¥`°,…^ñ³ÜúP@5ä¾ÿ˜ğ/òfûb\n\róÈ>'ctr9A:µÿ",
 ["metadata"] = {
-["guideId"] = 2348224782,
+["guideId"] = 731321333,
 ["retail"] = "",
 ["group"] = "RestedXP Speed Leveling",
 ["internal"] = "",
 ["imported"] = true,
 ["version"] = 1,
-["key"] = "RestedXP Speed Leveling||a) Riverbend Midnight",
+["key"] = "RestedXP Speed Leveling||a) All Nightmare Long Midnight",
 ["length"] = "616891112",
-["name"] = "a) Riverbend Midnight",
-["displayname"] = "a) Riverbend Midnight",
+["name"] = "a) All Nightmare Long Midnight",
+["displayname"] = "a) All Nightmare Long Midnight",
 },
 },
 ["RestedXP Midnight||a) Alterac Valley Quests (H)|732"] = {
@@ -6085,9 +6097,9 @@ RXPDB = {
 ["next"] = "a) Pet Battle Setup (H)",
 ["enabledFor"] = "Horde",
 ["chapter"] = "",
+["group"] = "RestedXP Midnight",
 ["imported"] = true,
 ["key"] = "RestedXP Midnight||a) Alterac Valley Quests (H)",
-["group"] = "RestedXP Midnight",
 ["version"] = 1,
 ["length"] = "616891112",
 ["name"] = "a) Alterac Valley Quests (H)",
@@ -6142,31 +6154,31 @@ RXPDB = {
 ["next"] = "a) Late Bloomers (H)",
 ["enabledFor"] = "Horde",
 ["chapter"] = "",
+["group"] = "RestedXP Midnight",
 ["imported"] = true,
 ["key"] = "RestedXP Midnight||a) The Legend of Aln'sharan (H)",
-["group"] = "RestedXP Midnight",
 ["version"] = 1,
 ["length"] = "616891112",
 ["name"] = "a) The Legend of Aln'sharan (H)",
 ["displayname"] = "|cFF00CCFF2|r - The Legend of Aln'sharan",
 },
 },
-["RestedXP Speed Leveling||a) Lunarwing Shallows Midnight|1372"] = {
+["RestedXP Speed Leveling||a) Secrets of Highmountain Midnight|1381"] = {
 ["version"] = 1,
 ["cache"] = true,
-["key"] = "RestedXP Speed Leveling||a) Lunarwing Shallows Midnight",
-["groupOrContent"] = "İU]kÛ0}×¯øi›«Xã:{´k\neé‰ÚdûÆU$#ËÍ2òã§|»KZ6Æ`ü\"ß£{}Ï9×÷ä$¤aÔ¥”ú9ã9O +®$¦ÈÉµªK<„Ê@v‡G%@†ğ‚Ë9’M³wxPK¦göL5«ğ5Ï$Ïƒ.\rhÉ²IJä–€ØßØ^8C$WFá0 n§MN;îi—DmÔë-âU†	K¡5SZdSV¶Ò‚™¤Nã0È5ÌI\"Ê¾·01Ø&Z¤Ãû»ñåğªs1xØ\\0)rÛ_¢~ÀBDXšBipàù¾‡{½³õ1.”–s|Ádºì´‰¢{Ô¨ÔÀ2ü j½ï¨ÂLføRÌ1Lç`aGjoØHÕ´``ÆMqHÊ9r\nÙ ÌÔÌR§TÙ¤‰’nàF	<·í¹^3ä“ t£6¡ÑA¨MÂS7ênxêlB=¤¹%¡¿} Ç:ğİXÉ>s!6ôoú×ã¸à• €M*Ë:(e°)`Š'Jã¯kèàö6ï­ÔÏs‹ı¶—¨E¡ß”ˆÃÓØHÈösÖh—\"2UI‚‡õdÂ™<\\ƒ´{¥-;i\r¿:+Ö¬,—c±3ÀB£÷'x_í|›ÖºRº•jUUãºµ²4KÍÎ¶ŸO±:ûXb°¶Ù¤¿Yë5Â·\r[(Ö<[2Æö	Hƒ²•»—”m|{Píe2W¤½.üz¦2;Qöÿ²½g…½cZ5®¼i»ı‰·°máñ¿Ğû¥ùù›Ğä¥î¾İTş¿ßT¦Ö’Ë±=b{>NÂ¼]k{ğó½Ö€ÑìoÛÏ",
+["key"] = "RestedXP Speed Leveling||a) Secrets of Highmountain Midnight",
+["groupOrContent"] = "İXÛnã6}÷WğS[•ÑıÒ‰ã é&iİM_Z¢m\"´èRT¼.òĞßèïõK:”,[’åÄ(6t €=$çÌ™ÃáŒüÑ·ü0²,Ëîõú’*Âx¯ÿLeÆDŠ¬^&E¾Dw4S4ùt‹î—”&èŠ>SÎÒY¯Ÿ’Eä;tOcØœ!1E?³Ù|!òJÑ5KRø¬z}–**SÂ{pÒ²‡gB	ä{¶¸Ø÷ŒÀÃ€`0xë¦$¦'+!y² Ë“xNÔ$ŸL8}ôİ™¤k<áËŸlóE	BpĞK|÷éöñâîrts~õğx¿d’©©D£‰HçB¦/²‡IÓ¥BDì£Áà´üx\000|+\"gì]Ç•qôc±XrªèŠ©9Jégˆ”“	å‡ı½ºïbÇ1‚\000;ay†Y3¹à¦ı½íáĞ2B‡`2Áôî”©\\¦ÈŠ²1|Dğù¿q¶M@äŞ.ã9E·Ô§åÖ%,#\000>Óøi\">w‘}à¾bŠSğââbx>4Í+J):ËO@´:¨\rŸ¦áº8\rßÃeX¡†T.V€h²Ù€7Ş%ı#g’f¯xn¤^LëÖQšXİ¿Õ*¶€}~hÜİ–‚s±:w•ïÒ—au#_ÉÁ=lWvKGø‰Ÿ!dï‡ÚÇÓ»›Ç‘£˜¤(SŒs”=­%K(šSI\r0‘ˆ|6GLıó×ß\"°ø™¾HÜ¬pá:Øv;„ÿûÚÜ0¢õv*¥XAØƒÁ/ùb		‚ıú{2YgŞcÃ~;^Ğœ}\000ÈWÓÜF%•æ:drŒØ\\Ó¶¢Ø.StN§Œ¤1ÕS8q¥¤õNˆ}ßpì•·ìrqœËLÈ“XŠ,›&O\n2H¬¶9‹ŸH‹”Qß^?<Iò'£²¡ÏèóÍŒ\ntj=»–á˜Øw¿B{O›†bäA1\n¾‚{§ªïª=T»ÃúEÖ;×\"×7³Re%§J•õtœ:µÈÃZ)dŠ¤,F÷s±JÄ*İ#=ÀQh&v£w%½€U©²!9'0ü[!¸ÿ ‹[yĞèftığø+z¿:\r§B]Yˆ	êXÜ!1Z;î{g¾QuÂzÕigäø¼»¼¦ğ3šV-ã³>öİĞén¢Ş¸)Âğ‚ÉzßJT@.^Êâõµ£íë»ÃâÛ8*ZnÛëÀ¯“Œ%p ë9ÑÇdp©HšÔ/ÖŠ0…¦B˜î§KNÖÅkA±+(–…=\r¦ĞÍ¾= R­šB4;¿õëtãıV§ÛßéH¿ÛcK—AM—ûŠª„Ymnh1j¶[Û®åQ¤±¶&IS· a¡YÛ¬©54<G‘î\\·m‚ëìÚFèA2³xf]#„¡&*M_ŠÈk²æ¤‘·¥Q«ÁØ»asÿ„:¯¡ÙäU¯CÃ9£ÓråÃHÃëdX´‡MÂÜ@İœc6f½¶=v4}¼Şö9İn¾•”¼!øvwTøê2ŒÏ‘e¸^S½67¿Cì™€:ßğC}ÜÖ<àÊ<qÎ—Çß\"¸ ¨Np;æÃ4w×Úü}­àNù‰gZÜ:–-º{t\r¿.<\rk¤ã/ÖÃhC3…¸ş½H×Şñ<O°…¢‹½¹ú@Úşÿû",
 ["metadata"] = {
-["guideId"] = 931009681,
+["guideId"] = 2645235270,
 ["retail"] = "",
 ["group"] = "RestedXP Speed Leveling",
 ["internal"] = "",
 ["imported"] = true,
 ["version"] = 1,
-["key"] = "RestedXP Speed Leveling||a) Lunarwing Shallows Midnight",
+["key"] = "RestedXP Speed Leveling||a) Secrets of Highmountain Midnight",
 ["length"] = "616891112",
-["name"] = "a) Lunarwing Shallows Midnight",
-["displayname"] = "a) Lunarwing Shallows Midnight",
+["name"] = "a) Secrets of Highmountain Midnight",
+["displayname"] = "a) Secrets of Highmountain Midnight",
 },
 },
 ["RestedXP Midnight||a) Delve Quests (A)|764"] = {
@@ -6245,22 +6257,22 @@ RXPDB = {
 ["displayname"] = "|cFF1EFF002|r - Dragonflight Intro",
 },
 },
-["RestedXP Midnight||a) Selfie Cam|710"] = {
+["RestedXP Speed Leveling||a) Lostlight Grotto Midnight|1371"] = {
 ["version"] = 1,
 ["cache"] = true,
-["key"] = "RestedXP Midnight||a) Selfie Cam",
-["groupOrContent"] = "İ“]kÛ>Æïõ)äbl¸Šß—HÓvM_–„?-£„cE‰EËÈr¶B>üd7íhÿ[¯vgƒ£ç÷<G±wÏó|BZš’´Ö\\—Båà‘ÖR«ª€1/\rŸß\\Ã…˜çb™ÒÊqÅ?Â„Ë…à0Ài‰Üp£$ötGGĞ—R`Î8¡¢üZÙ!ıµ½\000SÉ!ğÃKèRİĞ‰=„ïÓ8&½ŞfÚŒZ ãíïJËù\n‹6ËĞ¤UjÅ³8\\jş@SYúîÆLQŞƒ³aã›ëÙÙxxzy2ºõµàÒ^5É±XH,³¦„\"c¼0÷C¯×üÕT5×}f,>¡õ’x1gÇ÷Eéù«p‘„4LœK»Ş»Áı'Ö‚!L¬Ç2SæÑ~›²·¸«¼¡{ÑX—º'îP»:5ÔpÅ*]*İfZ•e†B·^dfÇ4‚İƒİ0“ñ-Øõpp>;V?jO#¥¥a3õ‚À÷¢C«ûöxvtu5\rµÕ7‚;«8R>™vzyzq;ûlŒÑ¦bª‚ÚÚQÀÔ*EcC³…äf[šãºR)ì¤ÿ'’( ~àt}êïÖóI•3ÌaPI‰yÓ2Sv™½<J‚ÚnZ=ì¾·µ>½ÜÖ½ö#'viâ;QB“÷³?UúC‘íœ?‹:Øëı—âí¶Ú‰/¡Qòo-âë›×ëÛ\000±±†¡×X³9Ÿ£Ã„©‚ßÁB«Uã¨_5ßZ•üÉ\"…¡?)`{Œs\rgÂ°ìíEÄuAL½ä¯=‹Âßçí¼Zòó",
+["key"] = "RestedXP Speed Leveling||a) Lostlight Grotto Midnight",
+["groupOrContent"] = "íXßoâ8~Ï_a‰§Ó±iBûP‰ÒvU•ö*Ê©Û;I°pbÖqÚ=‰?şÆ	?j÷ÄŞŞÃ¾Tr<óÍç™)>øÔº”R×²\n4ãÂj¼€J¹Lµ3%³%Bª!úü@—\000ÀÌ¬FÂb ì2©|6×ä“’ZKrÇ£Ä¬­O4¨„	],­†`;ûÂ¼gÙ3‰§|6Û]ÿM©u~¾åç§,„³W©D³åY8gz’M&Æ¾7Sğ·=Ë®³Ò#&­Âáç‡ñõğæêşrğ<ş”½pH¹,‚T&³•²l†°ÔÄs;^@ÎÏ{Åò*ÅDD9âUiÅ¬³3{šƒ¢ç@¸ˆ<!=–­™š’°ß:øPÆK^¹“K,™ÑUC½åB¬_İ_İ=ï¤LE~{`©NWŠ°$ªıD™`³A.d©à1 Km\000Æd*Ut5ò=ßï8‘¨?\rñ~É\000“3¤Yö^l“|qÍ! Ô„¶óD›¸øM§LTàïˆ:¸Ç²c9!u°‹M°ï¡l5ºÙª#ÌT*ÕY¨dšÎWg¹pX¨·âè.ê:'£ª\"İDNóMÃ¼‘H%üÀ²Nğ¡y·*ãN3pm§u2€+–°ªxÛÎì2?[¬ëS5\000İV3 vĞ9“7ıÛñã\\qXh&pk„y÷Il;HbMbøª7µ¡ÄÅÉ ]SS`øU…æ¾¥¹«¡¹Æñõõuÿ²ï8W\000é³0wìvlß3ìº(“¡ÊSox?.|aq¬¸UÁ—Œ+H÷n,ùô7ôIOË±ŒõOmÈÂZ°8Š¬õVÂúïOX7'×±],|î¿OX¿”½şÖu›¼®İ¤mS8·[¾cûm³¸[Ôv<Ïïşp‚óŞ7šÃºóaãëY9p7‰ä+ eM¥ql:ûayyêÒı-T»Ÿ«İi[¿¯?›gmó<PNİ ×£NB?“X›ÄêHáş“±ÎT‚ífäá’àúØÌ»³JÖƒôÎ.ggcWCÏÎ2n6–Õé¦4ÑÙF1¤(lß6—û™qRø¨U¥I×Td_Q‹¥&Á“r‡¨Rj”dR»9Z‡ |ë{»ÖO×im›~û˜Q¾¯Şã^AÆÆ…µºeûø0œıÆÕ¢fØm·¾/aµÿ=^T‘`—A$şéŞÈ-À™DyJ‘¥5Xİ­Ôª¦–.ør†õ–/yD¼v§óæ,µ[ÿ;D‘aI­>óümYİª®‹á\000w}<Ï‡Ò˜«j²nş;@Ë;À4×hç@õ…·ãª'Î?ªHZyİuœÿe6şù",
 ["metadata"] = {
-["guideId"] = 3265268623,
+["guideId"] = 247272390,
 ["retail"] = "",
-["group"] = "RestedXP Midnight",
+["group"] = "RestedXP Speed Leveling",
 ["internal"] = "",
 ["imported"] = true,
 ["version"] = 1,
-["key"] = "RestedXP Midnight||a) Selfie Cam",
+["key"] = "RestedXP Speed Leveling||a) Lostlight Grotto Midnight",
 ["length"] = "616891112",
-["name"] = "a) Selfie Cam",
-["displayname"] = "a) Selfie Cam",
+["name"] = "a) Lostlight Grotto Midnight",
+["displayname"] = "a) Lostlight Grotto Midnight",
 },
 },
 ["RestedXP Speed Leveling||a) DF Alliance Intro Midnight|1328"] = {
@@ -6281,24 +6293,22 @@ RXPDB = {
 ["displayname"] = "a) DF Alliance Intro Midnight",
 },
 },
-["RestedXP Midnight|Pre-Expansion Preparations|a1) Quest Preparations (A)|775"] = {
+["RestedXP Speed Leveling||a) Grizzleweald Midnight|1370"] = {
 ["version"] = 1,
 ["cache"] = true,
-["enabledFor"] = "Alliance",
-["key"] = "RestedXP Midnight|Pre-Expansion Preparations|a1) Quest Preparations (A)",
-["groupOrContent"] = "uRMoÛ0½ëWğeÅ Ú¡ØG/MÚ´—Ş,Û‘±›˜\"¹””,@üh§ÖÖ>0ùø5›]™«ŸŒ1”*#UÅ9wÚ¨¢aŸ:ıCÄúg©©vÔ´Q!mÏXÉ8»ûÓ(RuÀå?¨ÂÁ5˜ı-‰Â+P¿»¹PEM¡³pæ«åòò²ÿÌ3ëÙ™#\"U]GF¹÷¿-Æ^â‹4—‰ÅÄ¨—pğœÛZrÍX.„ô_9k½~)Whw„zû±³Ş‚«{ÊÚ7[ÌÊ«§$ìS–²P£&§×G²}:#p‹ö€/÷ÈÃ½YÑ\\Eì:C&#vOõ‘²¥51…Øú«Ù+™@¥ˆ<½9¤”pæ£E¹XL™ôöàô2EhŞ:û:œqgwS·GàIğŞyÙá“Ò¼ñÜà¤¯Ü.eÀø/ †a=¥9ò96’à/Ÿ¸‡©ú³~y¾¬-÷¯®¯%?Kà*Tuê½Qÿ",
+["key"] = "RestedXP Speed Leveling||a) Grizzleweald Midnight",
+["groupOrContent"] = "å•]oÚ<Çïó),q±UJ\rÎ{{Äú°®êËPKõ´›&ä$‡`abd›V­øğs Ğ©ÓªİìçŸãßùŸcŸÃÃ€Ñ!Ä±¬–M·Z 9\"V+“b1G× 4¤wt3HÑ<\000gyfµr:DĞ©dÏÏò]²4gÙD[-–k9å–ù|nµ8oi{Î„(ğˆ8ˆì0ÄNhu»Ëaùñ˜&Ğ~’§3:o'ªãEs^&á	Ç|~ìt–zHù™@Ëäún0ú|}Ö¿úïâ~ôÕà¬ö‹i2]JÓ$¹FE.êv{Õc``~?I1t!„‚-±÷\">•T))„V¨?©ëÂÀ¯‹ˆk@Ÿ,¬©Ì@£¦Ê›-\"b‡>ŞÏ†KÁ”^ošˆY¼m„¾ WÒ){\"=ôÒÔ†¾jU[ówÎAÃ#Ó“šA•?½2“³M&ÉB*!Û‰JM(“í2IšèM\"'œ%Sdz°@¨²œœïÍ¤Û=gÆæJÕ¿ê_Şşg<…'Óª·y\n2+Ê –eÕEÈ2XUìaàAä›M¿7¢ÿ°ğ:±ªcl²½â‡ÅÊLÄhÏ–+k4ÓL_Ñ™©˜B)SkšgÜˆ?’¶P¯~„×=ì¹&¯[+HÇ\r;\nr§>(t£éx¼‹êÙ¤@[˜Ä\"â¿…ÆmĞ¡º8pŞÆı]¯IãØ¡c®‰w ñš4[[s	ööµW¿(ñ”åiqê‘İÉÎİ·{0~í€¿ã@ˆıÒ¯óçì©Fó‚¾7‹BìÜOG%CÙNdw¶ñH§¸º\\·ñ**É]uªWÿò…Ğ´ùÛßŸƒz!s–oæàĞ<\"óüÊ ¬©½šzÏ$|Q–ce­|}®lôåä|‰ü†Ñùó",
 ["metadata"] = {
-["guideId"] = 3292731956,
+["guideId"] = 3292533345,
 ["retail"] = "",
-["subgroup"] = "Pre-Expansion Preparations",
-["group"] = "RestedXP Midnight",
-["name"] = "a1) Quest Preparations (A)",
-["key"] = "RestedXP Midnight|Pre-Expansion Preparations|a1) Quest Preparations (A)",
+["group"] = "RestedXP Speed Leveling",
+["internal"] = "",
+["imported"] = true,
 ["version"] = 1,
-["chapters"] = "a) Quest Booklet (A);a) Furniture Favor (A);a) Fishing (A);a) Cooking (A);a) Balloon (A);a) Selfie Cam (A);a) Warbanding Together (A);a) Squally (A);a) Blade in Twilight (A);a) Delve Quests (A);a) Burning Steppes Prep (A);a) Gidwin (A);a) Tirisfal Midnight Prep (A);a) Alterac Valley Quests (A);a) Pet Battle Setup (A);a) Human Heritage Quests (A);a) Night Elf Heritage Quests (A);a) Dwarf Heritage Quests (A);a) Gnome Heritage Quests (A);a) Draenei Heritage Quests (A);a) Worgen Heritage Quests (A);a) Heritage Pandaren (A);a) Trading Post (A);a) Begin Your Training: Master Cheng (A)",
+["key"] = "RestedXP Speed Leveling||a) Grizzleweald Midnight",
 ["length"] = "616891112",
-["enabledFor"] = "Alliance",
-["displayname"] = "|cFF00FF001|r - Quests",
+["name"] = "a) Grizzleweald Midnight",
+["displayname"] = "a) Grizzleweald Midnight",
 },
 },
 ["RestedXP Midnight||a) Balloon (H)|739"] = {
@@ -6313,9 +6323,9 @@ RXPDB = {
 ["next"] = "a) Selfie Cam (H)",
 ["enabledFor"] = "Horde",
 ["chapter"] = "",
+["group"] = "RestedXP Midnight",
 ["imported"] = true,
 ["key"] = "RestedXP Midnight||a) Balloon (H)",
-["group"] = "RestedXP Midnight",
 ["version"] = 1,
 ["length"] = "616891112",
 ["name"] = "a) Balloon (H)",
@@ -6371,9 +6381,9 @@ RXPDB = {
 ["next"] = "a) Oaths to Family (H)",
 ["enabledFor"] = "Horde",
 ["chapter"] = "",
+["group"] = "RestedXP Midnight",
 ["imported"] = true,
 ["key"] = "RestedXP Midnight||a) Secrets in the Dark (H)",
-["group"] = "RestedXP Midnight",
 ["version"] = 1,
 ["length"] = "616891112",
 ["name"] = "a) Secrets in the Dark (H)",
@@ -6519,8 +6529,8 @@ RXPDB = {
 ["subgroup"] = "|cFF1EFF00(80-90)|r Campaign & Sidequests",
 ["next"] = "ccb) Harandar Route 3 (H) 2",
 ["group"] = "RestedXP Midnight",
-["imported"] = true,
 ["key"] = "RestedXP Midnight||cFF1EFF00(80-90)|r Campaign & Sidequests|cca) Harandar Route 3 (H)",
+["imported"] = true,
 ["name"] = "cca) Harandar Route 3 (H)",
 ["version"] = 1,
 ["length"] = "616891112",
@@ -6528,151 +6538,136 @@ RXPDB = {
 ["displayname"] = "|cFFFCDC005|r - Harandar 1",
 },
 },
-["RestedXP Midnight||cFFE74C3C(90)|r Delves|a) The Darkway (H)|967"] = {
+["RestedXP Speed Leveling||a) Moozy's Family Reunion Midnight|1365"] = {
 ["version"] = 1,
 ["cache"] = true,
-["enabledFor"] = "Horde",
-["key"] = "RestedXP Midnight||cFFE74C3C(90)|r Delves|a) The Darkway (H)",
-["groupOrContent"] = "e=«Â0@÷û+.diÁè£¾B·Vqy ò†7¸Äæbƒ1\r7ik¡?Ş¯Å‡óápÎl–Éì;—R.\000STÆ‚è‰ƒiJ'n;{\n‘ôßŒvæÔD¡;¾ØTo6ëÕW¹,“|NŒÙ§.„*Åß†°R|ÔˆÉ6¡MğVOşï]ãÓŒ}T°äÑÇğ²êFùHEÛ–5Á}Éƒ0®¶¦ÏÅÃÿ4Üş",
+["key"] = "RestedXP Speed Leveling||a) Moozy's Family Reunion Midnight",
+["groupOrContent"] = "Õ•[oÚ0€ßó+,ñPMJMnN`H]G¥jí„(Òº'ä$†x;sœ2&~üN¤ÖËC;iO(±9ş¾sqÎÏC7ìõ]×õ,«£™¡\\X¦®$r­Î\\«2GcV–ŞĞ]ÎXŠnØ\\Î­¤K†èt«ÔïõY®è’‹5ì/eà–§’Ï3cu¸4LK*,”[x®ŒB!qìÀÁ±Ã\000;Ä6“zßŒ&¬»RZ¤Kšw“Œš¸ŒcÁ¦a0×lc‘ôœ™P±@h“ŒïGÓ«ñõğëç›ïÓ±Ò)•è…P+^°¶0M–ä÷}ÏGƒÁÅöq}§~¨RKªçÌ v„6µá ¬¨}§¦¾n¨“RJw­Š\"£\\wk!š˜úRğd 9&c;òÑõå—é§2Y0S±@á²aÀ#‚ç§`ë÷¬®$òN]/Ò&áˆ)(…ãÚ$ÂıèÍJqÇ„ Ç•hì¶tm»G¼½_+Æ»“¨e.˜a+n2$Ù/è1Ac&š@»Ü	F• Á!±IzÍöÛyOË]\rôÓ4l¯W|Z‹8¸o“\000G.XÁYÃÊ¨î®2©©@Z©%¢¦~—Á<Â4#QÍ0R34ÉJ™Â&Ê°%Ş­ÙÏ’kV<ŸÍ^TÛş«DöÊ2\"Gç1©.öz6ñq¸m•ƒ‚]^bÏµİ·ì¢L%¿ßêÛîß|qğ±ïU¤a¤¼+%„ZÕmp¡µZµ‹ıªPÿÔ¾„Ştá1Y¸Xğ|7+ÏyŠÒ#½¦òmö­Úñ•püu‘a‘(m^C©’g†ÊÅ,ãğ“+º.àöši%\rŠKƒ¤‚1S\nÍ(,Ãê‰“÷<ñÑ|ÁöwŸ¯İu¼Ÿ¯öuüÒ€ıù",
 ["metadata"] = {
-["guideId"] = 1914508242,
+["guideId"] = 2203194791,
 ["retail"] = "",
-["subgroup"] = "|cFFE74C3C(90)|r Delves",
-["next"] = "a) Twilight Crypts (H)",
-["group"] = "RestedXP Midnight",
-["chapter"] = "",
-["imported"] = true,
-["key"] = "RestedXP Midnight||cFFE74C3C(90)|r Delves|a) The Darkway (H)",
-["version"] = 1,
-["enabledFor"] = "Horde",
-["length"] = "616891112",
-["name"] = "a) The Darkway (H)",
-["displayname"] = "The Darkway",
-},
-},
-["RestedXP Midnight||cFFE74C3C(90)|r Delves|ac) Zul'aman Delves|966"] = {
-["version"] = 1,
-["cache"] = true,
-["enabledFor"] = "Horde",
-["key"] = "RestedXP Midnight||cFFE74C3C(90)|r Delves|ac) Zul'aman Delves",
-["groupOrContent"] = "=ÎÍŠƒ0àı}ŠYÔP„¦-ıaÜˆSé¦P†Y³»cB\rD\rI´>üÄ\nİïÀ9iz‡ÓY±`NÒØ œ×]‹ØÃu½Å/åƒ’?w¼iÙêG€ùşo±©*ËËq_ìŠä¼á“ÃOeåµÔ(¤ŠãooVÔPû©½54¾\n3æU5Ù—‘8~?µ™w°p£\r“+ÿˆqhiÏd^;'ÄsÖşÿ",
-["metadata"] = {
-["guideId"] = 2314147050,
-["retail"] = "",
-["subgroup"] = "|cFFE74C3C(90)|r Delves",
-["group"] = "RestedXP Midnight",
-["enabledFor"] = "Horde",
-["imported"] = true,
-["key"] = "RestedXP Midnight||cFFE74C3C(90)|r Delves|ac) Zul'aman Delves",
-["version"] = 1,
-["chapters"] = "a) Twilight Crypts (H);a) Atal'Aman (H)",
-["length"] = "616891112",
-["name"] = "ac) Zul'aman Delves",
-["displayname"] = "Zul'Aman",
-},
-},
-["RestedXP Midnight||a) Bloodstains (H)|1058"] = {
-["version"] = 1,
-["cache"] = true,
-["enabledFor"] = "Horde",
-["key"] = "RestedXP Midnight||a) Bloodstains (H)",
-["groupOrContent"] = "e1«Â0…÷û+.d±C¡q¨>è¢…ÚEx89¸\\›KˆIHÒÇúã_.Šp¶sÎÇW–µ¬·_RÊ5€œH?¢v%ˆ1¸Ùã‰cbuşÆ£VVSaéÆHîs*æŸ¸êJGoèşè—¡ëªªm»Nn–€åë:#ø7ı#vxpW£-æôÈ*\nOÖ0‘O i°wA1d\rBÛÁÌŠ?µ.ïBğ÷",
-["metadata"] = {
-["guideId"] = 81202497,
-["retail"] = "",
-["next"] = "a) A Goblin in Harandar (H)",
-["enabledFor"] = "Horde",
-["chapter"] = "",
-["imported"] = true,
-["key"] = "RestedXP Midnight||a) Bloodstains (H)",
-["group"] = "RestedXP Midnight",
-["version"] = 1,
-["length"] = "616891112",
-["name"] = "a) Bloodstains (H)",
-["displayname"] = "|cFF00CCFF17|r - Bloodstains",
-},
-},
-["RestedXP Speed Leveling||cFFFCDC00(1-90)|r Default|ce) Voidstorm Route 2 (H)|1000"] = {
-["version"] = 1,
-["cache"] = true,
-["enabledFor"] = "Horde",
-["key"] = "RestedXP Speed Leveling||cFFFCDC00(1-90)|r Default|ce) Voidstorm Route 2 (H)",
-["groupOrContent"] = "m’Ak1…ïú{ˆ—âàÍ!ÄÁ©I¡¡%¡¥‡^äÕìîPíh‘Fvüã+iK¥!if¾÷ôĞz}ÛÜŞm›¦¹Qªò(š¬ªè9†FU½wq‚W‚æÇWx›\r|Æ#Zâ^U!–s»ßïwO»ÍfÕ¬·›úìá	;­¨ŠõˆĞb\rß™ Îğê¢ ÜÀê¹V•¡0Y=—¶ç.!Ö—‘„ÁßrqòB†©ä§®a»ol]û+y‚·9uŒ¡ ïïáÙyƒ*]Mª\"nm4øÈ?æ–‘Ÿ:˜]¼òAÈZ`'YNä\\€V3—·:òA õº“$O¼Ü–s66y×aÈÁ†:qN@…\rƒ>\"_IÂ0fğÚzÔf¾†/éèO²ºö’«ğhR»ÄäèÅ¥·ô‘Òê’º³6AsKIj)¬3´nœ,2P€ü²ÄA,¡•dÓçüÃ’ŞõßÄ¬> }i§ÇISÏåøÈÙ<ªjH:'bãNêá¡Qş",
-["metadata"] = {
-["guideId"] = 3900315975,
-["retail"] = "",
-["subgroup"] = "|cFFFCDC00(1-90)|r Default",
-["next"] = "RestedXP Midnight\\a) 90 Unlocking Systems (H)",
 ["group"] = "RestedXP Speed Leveling",
-["imported"] = true,
-["key"] = "RestedXP Speed Leveling||cFFFCDC00(1-90)|r Default|ce) Voidstorm Route 2 (H)",
-["name"] = "ce) Voidstorm Route 2 (H)",
-["version"] = 1,
-["length"] = "616891112",
-["enabledFor"] = "Horde",
-["displayname"] = "|cFFFCDC008|r - Voidstorm",
-},
-},
-["RestedXP Speed Leveling||a) Horde Kun-Lai Summit|1334"] = {
-["version"] = 1,
-["cache"] = true,
-["enabledFor"] = "Horde",
-["key"] = "RestedXP Speed Leveling||a) Horde Kun-Lai Summit",
-["groupOrContent"] = "í=ksÜ6’ßõ+ò‡Ü&c†ïGjËW’,Ç-[+)ëMîR.hÒpÅ!fI•qùÇ_7ø\000G#›’}Ùı’”èw7º˜ÇC'ŒÇqÜ½½G«hší=zÏŠ2å9qö]|µ$§¬¬Øì'älÉØŒ¼bïY–æW{rº`„ş…<çÅŒ‘—«üñ+š’³Õb‘V{Ò¼bEN³½¿şµ±Ë,÷Mùb™±Šİ¤Õ?ÊhZ\"&å³½GótÃùŒßì}ïìY«’•K–eÄq=Çwœz!kÊs€µú×\nà#8şÿnCmJìM<Ç\rœ-SWIüá)¡“À”Ğµ·L	\\œDÛ¦ØbÊpÃÀSÂ-SB±J(aTçÏYy.IìYiù7œ¿ÿL/2ú¡-Kßv·ş€„nD<ùşü”f´ 9yÎhQÍË\nF›•‡»âÇ&A`¹ñÄõ¬$h–Xõœ^3RÍYò¢¢ÙoŠ«\"],hÑ,-–ˆƒ‰o[±;‰mËñö<ùx.Dé’NÙ7¼Èfºüa:§ÕÅêöúW[[ÙòG×şXÓìÿ8=ıÇÉ»g§/^?}õë»ÃyÁ)ûXX{NÙ²\"¡í¸!@¶_ÿó8-«’ğKrBó-Rú#9çİ?¾Ú×KT)ˆ}¼g!y¯xY¦ËtF'±Ãß€²-®XE\000TT+'Q`¢*`~»úúİ3eüFŒ¿±>ÈıZwjĞ'&<yr˜¥ÓkJ‹ÓkÙXò%èî*Ÿ±‚¬ùª ‹4Or€~µ*ò4ïĞ?‡ø÷­ø7ˆ¼fø‡£» D–L×r[1ó\"Gˆ“N ~¦`Hñ\000ˆúò\"~Ìók4-Ól3,Óÿ‚MÂ‰DÀUÊ÷¢d9@l„'vF“®ı%L¦´XŸY~%‹™ ÇFÌ§ jl–NSP©–¦ê÷Ì@=€Ù±âñ4â˜®yA\nº€oÊŠ^^*PÑêC\nö÷Íª\"çs–@jàTÑ¯/¥!`[myáhr\r!àÏË”ÍUè“\rôû\000<6\nÛ>*S¹ÑÊş&õö”’ŸÁ!ä/:È§«¢äÅÓ~NÓâVà^ÖŸ¼8|ù®@\000Û©³\000·Uç-»£eşxîxn”Ä?Âúÿ³ı}³MG ù?W(ÆAšƒ)v$åîüdhNği•~`µà79™3ŠŠD„Û-'$½Ä12§ïÁåk\rxğBµŸ&\000˜“tÔ5Ğ`™q®8Í8±|oâ»?äÙñ}u(L,×Š, ),:¦¡xvWı{l…á$­¤yòäe\n’SëèõÑñ¯ïÎ) ”—=c,T	°àä€VÌ#y–At4­A5‘~¥«üŠg-èËd&«t˜ì\000`µ¼À€¼\"†n=ò¨J+0¿§Ï=;|zhÛ¯OÁ~WÏ`6°iÁwò¡¡æ6ÀJqY_HU-ÒˆAqd…„+*s#ÁwğgÊà—øhôOŠS8äjC!r´ızè{£^åìêaôùO¦¶B`Í3¶HØy‘^0ğ{‹8^|,\000œÙ’h	c0Şå’Şä%¡—Àr\r{!¶ıÇ.[ê:«‰úv-¾h.Î›ï[õ[Õ‘»¾…Âù÷ê|›À²u¾m`yGïkŠzÆ¢	ôHı³Ã.Ö/n3ÆšøE¬ÙÂ¿[°¹‰šÇÙDM?±Ä0#¯éŒÃÁ”dÿ¢öœÍˆúñ$ñ,'(ŞÛ±Â@ŒØ£‘@¬O‡–[‘÷6ˆÑ²B?'Ù”•oÏ\"pæèg@Èñšœñ\\#œôçîx2ı–Â`ô«‚üÄš*±p,?@’ÉiZ­hÖa¦ÿ¡–Y,¸âù“Ó“m ÷ß^ìØ±††oÅ>¢ƒ»£?–/Sğ–Ï!jb3<^SÃƒ¦_ıÎ°mbã¶ArßÔÛØX¶w`ú‰~ÊÊ%OÑ*†Æ8‡şh>£ÅbaÂK®ò”UÈEˆ4Q–zQàèÎ0t,˜!ÒcÁz”¡;›§Ô««À@,¿_úØ\000«“Ü3¬’İô$‰Ql d()+0ÇĞ(¿Ç.ş€&u+Cø½A4ˆ¢¾å`H[“Ø‹19õ‰qÆR¬t@s°İvÂv%ÈrIÕzÿKñ¸Ş`†pv“7¨6ßD®	ıº¹­ÁAĞn \"/µ¸·l_†üöx¹YÎ°ïfğÁ)Û€S°­ 2.‡@AÍóë0ttbHYrYğ¤oCXò\nÈ¡ãîºa„Ü³l[@>Ï0…M­b;n åÂOù\nøñíÑ‚ü²Ü\000Aw­H€—`=›Cä½\000ñÂ½L‹uŞp°`Óÿ”QLuWuvù´ı×†şÚb[Q‰'QbÅãqá…\nlg¶ª¦ó%_ªl\"ğL„Ã©bÖ|}3gÛäáÕu¶!xˆ„?Q½ó†‘k|…ÆnàG\000$}÷ğ=~88©:Üe½MEˆ_­şûòfN^óÇW«oîäÜñ%†S„SoÓl–¥—¢õİ+Î+¤Î‚\\Âaòã¹ëEŠ4Qıí«7oÎßµ‘Cµ&i'ÿßÃ{­a|^Í3 k‰ØKõoÇ+0òyı×Sú`³Ò^LWKqPÄ‘&æ;ÀBbU¤Ë¥ö\"¹¡Y3”“ŸSªé·uœü2­0õÃ//ÛÌÂ	•jí\"æT3ø!8D¡å&¿Ÿ<\"+Šp(Ö‡ ºuqtIjŠxúPd%!\000[J°NyD©úPÒT'®2$?ùØC0<í¨ÆC*Ñ·¥QÔıÀ·Ã@uü\000¬6BÄï©8Ñp¤\"VT÷Xîw”¿­³VæUEÉO+ZÌÒVi¤^r´uy˜wKÜ!šü3¥äŒ¯²ÇuzQ\rs°Ë Ã0Û¤‰¶ĞÄñòL=MÜ9‰äÜYÿìäX|@	ŞæpÎoz‰ónÂ/k–7Ã=NE½À€+–<®äÃ¥¤sÑÏ\nÆf|!{fÛrƒI`%]ú:–¾¶,K€\\×ù«	9çü›şN„K$^'2>½0¡!I6Èœex˜èWªÔZ”†‹|‘jv15à1ô¡ÄÅ\n–†â‡bÓçù\"£æé`@äœà­ù»®æ3bFŒ.Yò°ŞiùºŠ„	cµUÇ4ƒC`AaAˆ›uà;Ê‘}ˆæC¢ö©‡è<Dä!\n‘wˆ¶C„¢êIo)gj¦ôM1ãä\röô±6ÇóéŠ™¬Œ¬CÚ±;rZ«)Ö<¥é¬-Šõ6iŸÊ[Z¢óZƒYmÎÍF=€\\‹NqÖßXì/ª-úw#EêÒª¯è°VÀoCK‘äÑĞWÄ‰\\ÛBŞ]_©Ñàˆ+$8¸S¼5T›ìSµŸUKóà|(X^›óUÉL„oj±‡œ_§ŒOM•Õ:>ó-“Ó•c¹^É³šoÏ3÷\\o,— v÷nÏ}Ëkè^XÊH¥«–JúVŞ¸.ûNîV=AÕ\r4‘¡i#ğ›~•È×†<œö-Ñ‡ÀÔ‹‰ÖÎ¸hcëObèAâÅOVïY r å%ù•^«‡ûDkËÕ‡B3®s\\xV9Æ®ÌrU°\r*›š?]V¢íCàB(Lºmªx\000XóU¿CåÅ%ÉÓIÄùî À•ÓteìTà€÷	‰©K©\"C©'šô\"K›ãKÆËbs|­j79¾Vµïäëø\"·w•7	n¹B4`j2{}˜=s8Á“òuB¯ëqÖ2z›Ì_ §˜D×3ÃnZ‚BåNå:$‘©LÆcÆÖl±¸ Ùş¢`™há~¶Êw¡¶Ò0bo[ƒFSihY²S©AÆXêJ~çZ–W%[ò¼¾–¢ó$LD1b¼ä·¹!¥H|	¿O¬F(ñ½ìŞÒâ-$+>İAI&Xr-	Ø’aÕæßVû<HåäMš^õåımsó³º@/`pT57Â¥²ŒM+ÛOêK3°âˆENT¬M±·«rjîJ\nw'Zì¸¶¶D&Û@¦Àkª¿šÄº)Õ\r\\'ª£¢®‹¥l,Éï”¤G‘^Yu³¨ ó- º-â»PŒ]d|ÌT†¡13*¦‹\r2úMÅ²º\\ºmä´Ø|p±ù@µ>:HÜÕOL»>§`lhClê®Ó®^½ë|óÁåæƒÛôáŒ¯à‹Â5­¦­ĞC1ˆÅ$Ò÷ş5BGqgjl×	÷;é«÷HÂq×±lÿµÂ€ã =N(|\r~Û ŸÍP}‚\\|Aó)+Œê×jşâ®àµ õHç‚tƒv×»)3Â…ghÛòâ‡$`È0W11±«Ê{&•Wp¬8D^ø®IŒ1Çå­pÔıv`¢ış5ÏWb‡#lÅ(wå›|q¾fĞÁÎÕÕÎO…pqY2ãW‚MÄÖı½w\\)¨3RŒ*ı¶jôv‹ŸP§›Ğ8ÉåcĞõ¥$4Ç™7*Tõ%¢#¤¥ß³[Ñl¨@ƒ0¸x–jArNa!M‹Õ¥ÌØ»æ-îu%Ëå·EÕP+Aøéˆœ‰§WT¼w†é­æã‹R\000(J¢•MP‡Ä«í%ƒ1Ã\000C»mmº6İÃÁb['ò%ËÁRáÙ‰?>¡Z›=æÄrw¼¦¡­·êôAW7åº©¡œş1Ù‡­Wúùİ'ã!¹5sÕä6 OK8´Gòp¼ËÛûŞmàÃ9ÿ¶Äëîèo;†ÿ»‰T€÷x°R;^\në,Kkp™×eES%W:r®c‹³Šoò@ıO5`}´\\¡ƒ·ÛìÉxÙ«W«éõš¥WójÊÓ¼ìƒÛ±ò>ù©\000›”1)ü®]]Ä\000|\\×šGƒûlÁ¯Ş:â-ËŒ©¤{ı ôò2’e	¡¼8R‚í”Ó™(×íƒ²\000 ŞğFÙÍìDCì<Çş$[ke…Wÿµ=Ãx/ÌL†¡H$-cÛ´`€;êms0äû8ä›´ÅP¢/è`BtÂÓtğª¯U‡lœ†˜VU»÷ì®ƒ¯\\½±/Á®\000rô¯bA('è_Á.H\rÇğïaÑ×ĞD((º®y>9ú^â: šøÕ±rˆCLâàû†x7Ä¸!®\r±lˆ_CÌâÔ›†x4Ä !î±fœ®6_«\"£K0ÀS·ú…üÿZâ}&ì)»™§ğß_ÁÂ³¿h±é·°°AR4æŒw/ã Àk­Z¶4+à6q(YÀ¨Wx0Ø6©ãØíŸáRˆÕÅË8ÍŞÒ5|\\¥|\000™ Ñ	NÇÆ»YğŠì†êÚ}¿èÒ¿’­„@ÖI’ÈE08ï½be‰ˆ¼g™T³èïdÀÍõD[×x‘Ò/p`Sò÷¬ÈUnm×poB%ğ³¹€„ŒÇ‹è«‚^m|›ºÛm'öSV®–Ëlåë79#/ÙUŸaÒÜE\n&ãÅ)é9£™RtbÉ›àj¥´şÚ„Ú­èD®0± Ø˜éØœóŸc/zÎßyµ¯Ÿ02ÏÁ(¬1ZA9^‹pï›>ZAÓÙ3&ËN¿ª“cÂ@¶Vmšª¤«-NÏ¢éÀ7ø+{˜èp+îèñîÚN²ój2¾¡#‹Ví|ÿ.\rÁN?ƒ»L8.6FÅa‡ÉŞÖ¨¥nY‚0‰‚Iìa8â÷Y&’€\nÇL‹\r£v–ór1BÙ?(ûÊ1%Õ¯–àOnïå#Bƒã%Oq0M¹øÚ˜2äCt‹×èôõ|¬&ÃÁ¢©_Õ§	_úCıÉ®xÕH²1nô+ÔÖ\000'¾g)¯Oá7í%8h¤€¼Dü7P‡0«‡Ûµçšïµâ±‘W}ş \000çälY¤ Cç£Ø\000ÖfXÎ{iÖzèLÉ–HV,[ZBüÿw-È”ædVğ%¡¡L0wäµ¥‰zyÑ‘wÀ2_‰S·rqEÛ7»úWûKSµ…xg:OÙ{PêZ&kLÚö¹r™NÓnåuDR~~D~†+ÕûÁ¯éŸéö§XV[0lóBg-Ÿ§3ôÅâ³iŠÈf,¤¸W\\Ê&ŸH~¥ Ù®¿)IöHÚÃá?Ú³‰>‘-wÔŠZT´­¿1×£\000Ci«¦µùe8^ı’ğ°ì–‚?)=Û—w{‹*¢m÷NPWd_1|\nP	ê£Pn…}=^×™í¯áp£Ş‘}•Èó¶¢î¹íÙ&ØílsëJ\n\nšôãøä#½”Ğ“K1;Ÿéû™*÷A3UuúiÓG¢äŸ¤7Ûä×—ù\"Í¿mZ¥‘ìÇ˜kÅŠØö„Xˆ7ùßš·âaEEÊ[e3úÀês†ç—§ìÅ´S¶›\\?-zÅúÏøDøF/r7Ø³Ş38ï“›¶Hx}ö}²¾h‹dŠJµş€Ú¤{(Îs•ôRœü\n§/®écS\r6‡¿¥i%\\€è†Á_ft­íã,‚Î&CMö=[‰«<ÚqïÊ[…C]MÎfÄÒå1Tš&cZÔéa FµÊ™Æ_Ëy€²ûÙü­ß2½  F9›‘·a_ƒ&hş½¾+Us8AşäEF¿`Ğ=ã€/Ğ¥ú¯€µ•ñ³9'¯Òú‚ª\nBÓ¢vÕL-a*D#ÍÕ¬ş&1ñ…˜ŒWğİ.&5o»Úú swé}¥3Æ®Åøšñ÷}qõû1?]6”s×Ùà1È„¯–|SC^¢~€íucà‰ È±’ø¶÷Û×I°1mÑpU©‘‹VÄÁØˆOì&ıbÚ9„Ò+†Cô1(\\¾µ²´­î2Í¨°	¿­àĞ¼oRış•Œ\000ZÛØŸXÿíW8¾§&(´{L@ƒT÷H×ç?¾Ä!ñí .AîNi±…kËÍH\"©Ú²\r0?DÀ|ã«4;ª÷ÈªÀg'âõ©ÕÍ‹\"¢µìÉ­Qáë$5’š:«¨&y³iu—ú'>ŒùjÜáªgÀsş~A\"Jäqø°kIö³/ñw/ä7y‰Û@ş$»%gÊxuXİ‘´†n€ŞîõŒÀqı(§p#Ó°yÖ±Úç×ê.â'ÑÌîDf¦ïƒC/€.¨Kãù—}~©)v@P>»ÕOùOişmEJ¦=1¸y_¢ŞëMù–¤JºYºŸ“#.99‚óÅºš‹è@ZUG\"(­«¹‚Å.Zyñmø\rÓZÁ@®M÷ho8qk\rL¡(o‰îu(BÓC~Ó}eúí	h 9[¦…x*@•º°õ%U7·¬çŞæÉ®sZVkr\n\"'¨»-Àb‘âı9í=j6çĞÎRÀ î\"Š| >!*l:ñx€aq¿ Ø¬¤ø­–z8Üûå	ßù¦q`{YÅå»8ØQ´2ØNÃ;€P{¢¢ø9o·ì\000^ıSb8qÉ3#hÆ‹²ŒÍÈ˜_ÙRÉ=°·š5=rPl•dÖ¤æ’<Ä¦õKäh±dÇ¨øl²lì,-‘¾Ó9›^_ğ?n5sªëØŒDs,Nº_ôÛÅáTİóØTÿUšaú*šl†ÈdÏ‚ù_‘ïı\ndï³DMÖå—°fÕøåeïXàa“¦†oÕ²Cd<ŞŞ–{êÑÇk»½¯pÈ¶BñûAıÑ'Û8É¾õ€×:¶mî 1¢Œ?p(~6,/±$»¸ºzP47x‰¸Q‘`§ŒÂO45cÃêgäuL>¦q? …™a“p“ŸbÍè,¥¿õåYÕüVıÛ=çóÚƒ½|p§xô‚îa°¤Œ‰Ü¥Š­¬</ÉeÁäyZòëÏTå­P|Içñ®™¬_HÿZ	e-;œÓ²u7gxêy.}5>=îUóÌ—¤CºR Ómä¸Ğ°Á—Ôk8ÑöÄílÚ|é¹'öİ•[½NØ\000££HüärQ®‰|´1²Õ!üµKñ\\»«‰}|·]Šq¥<ÀËVê^C00´ûĞÖÆ,ËoxÏ5Ã_R”ùR{:Şw_ïÑšÎŸ²÷`¬ÙŒÓ¥Ö¬ÛİÓAÚN·Ùºgi9gÅ‚b\"ˆİx]dÿ?Lü\000Æòß#³FÚö˜±Ê3šÖ·şÅ3åphú²†ìKÁ½páÿş",
-["metadata"] = {
-["guideId"] = 2808549691,
-["retail"] = "",
-["enabledFor"] = "Horde",
 ["internal"] = "",
 ["imported"] = true,
-["key"] = "RestedXP Speed Leveling||a) Horde Kun-Lai Summit",
+["version"] = 1,
+["key"] = "RestedXP Speed Leveling||a) Moozy's Family Reunion Midnight",
+["length"] = "616891112",
+["name"] = "a) Moozy's Family Reunion Midnight",
+["displayname"] = "a) Moozy's Family Reunion Midnight",
+},
+},
+["RestedXP Speed Leveling||a) Thunder Totem Troubles Midnight|1364"] = {
+["version"] = 1,
+["cache"] = true,
+["key"] = "RestedXP Speed Leveling||a) Thunder Totem Troubles Midnight",
+["groupOrContent"] = "ÕX[oÛ6~×¯ ‡­ƒÂH¢®}0ëÔ	ÇİC@ËLL„=Šr’!?~‡’o’/Íä¢}1`“>—ï|ßá!÷÷C7Œ×u=ËÚSLS.¬½)S9—r­½{%‹	ê±\\³á—+t=alˆºlÊÏî­½Œ¢PTdC¦P_j6F}øÓ@°]ğaÆïGÚÚã™f*£ÂCßK-Qxvàã8±£'Äêt^úå¾;š²ƒG©ÄpL'éˆêA1\000ƒ·¡¯Ø3ˆÉGÏyÑ}*zI{_®nÏzç§—'İ›Û¾TStRr-Ç“…¨FB>B\nH˜À‘¼«Ç‹-LÓ”M4ò½ĞóP§sX}=fŠeÆ©@'ªçÖTİ3jš)…>öˆøeJç‹”ÒBåR¤JæùˆruPfKS½ÈèXğôôzÄfi]º-İ¿(§àP0ÍªPm×v›îıGğ	¸z;wïÍİïÍ¹¡Œ=AÉ\000ØGRĞÑ\\£Z+qeõúáùQˆU™Ø–5$Î²†uÿó6ÿ¿)‹Æ?K€£À±}×&NBÛ7ºŒNYR3{Šı]pBØb+‰mbJ¶Clæß(ƒv \\%Â±œ²jMÓØİé|âBÌb?½<½¸¹­ïhÒ8@6<–ƒ¦¥\r~;Vğ&˜$6vãYxÊF<µ¥’\n‘.-²´¢äoÕâŸ‡½ËÛe‘iD³!‚¶By†rM\r¤T=£»“Š¡Ô˜†ÎjÊJ§’ÑJ“iÓ‚†<Oe–±TƒqEİe“u[aˆ\r±…øœC}—±„ü¾	:6A”Öÿªgº©TâÕ&\000­`‘=ñy²ûÌ@X®‹Y¨&Axd~M¥Cù˜ád¿ŞÈ¥4CX7şFp\000)”x3EpùT	õªìv¡_ò³2ãÃjCk40ıjtU¨Pœ‹¯_\rªÿS}tv$\nöHŸÊ3MÓYıÀØyFù„¥ü§Tˆg\000_7W(~=†ßÑkÇ™‘²i¿‰h@ÊŞà8h\rÑ.ÿ‡¢ß)LZñ!«A.»Ù…Q!¨¯Ú§P¾÷?OĞ6,ıW_;SfÂaĞ²aÚh«ÇLYW!|}Qˆzy¾×ıoó¹s„İÈ\\ì%í7»íiÌ |}S³U½1#G¤œaòpl§¶TªMÌ—ÆC»™¬²ó™Êµ½÷SÎk#ış·ù\\ÊÁ¾_ ä'¦œ÷ı)çm œ§N`ÄÛ€¯ñKn¶wáÜù1ÏØœ!^ˆİKÒDµî>òm®»¿e¹s÷3ù/ê²N‚	Ğ(ÁA¸ópàr¹!DÿıM‹´! òmM‹ÔÏÉ ¶= ü‰›V-#xi“,Ûk4-˜½¢²oµrV¬ìW}±½iyÃl·–«Ùn>,¿s¸R.Ôµù)«®“˜ }[¸)¸¡¹\\…ŞÚ’ƒÃØ0-n®NŒ~`m…˜Á]VK?NŞrÍ_{3[¼LA³v];v°U¬l‹ïxğ[^¶Ê¿9¾åÅ¯ñäğzŞ0<€$¢¸¬¦¹Ú–×á:Ñ f®ÉkãµıV'Q\\>¤¶w§úî¸şû",
+["metadata"] = {
+["guideId"] = 2291340768,
+["retail"] = "",
 ["group"] = "RestedXP Speed Leveling",
+["internal"] = "",
+["imported"] = true,
 ["version"] = 1,
+["key"] = "RestedXP Speed Leveling||a) Thunder Totem Troubles Midnight",
 ["length"] = "616891112",
-["name"] = "a) Horde Kun-Lai Summit",
-["displayname"] = "a) Horde Kun-Lai Summit",
+["name"] = "a) Thunder Totem Troubles Midnight",
+["displayname"] = "a) Thunder Totem Troubles Midnight",
 },
 },
-["RestedXP Midnight||a) Selfie Cam (H)|738"] = {
+["RestedXP Midnight||cFF1EFF00(1-90)|r Default|bc) Horde Silverpine Forest 2|1282"] = {
 ["version"] = 1,
 ["cache"] = true,
 ["enabledFor"] = "Horde",
-["key"] = "RestedXP Midnight||a) Selfie Cam (H)",
-["groupOrContent"] = "íSÁNA½÷WT2E]²cY!1«+”À&p0!½Ó53zº‡ên–5{à<ù{|‰ÕDÏ^_ê½Wïu×h´[îNöÊ²|«TÁ5YU\\#òJU4ìS'\"šóc8\"ã¨i£*œîôœ¢­	aª;xy¸%8ŞÄŒŸi^hgÈ50÷\rÆù~ÀPè­^\rü_dUT­î#²Úß‡CÏ•Xöû®·qI±…,®\n«h³õù\000EŠa]Íf³é‡éx|zI=Ä–dˆzö¢Y³z=pŒ$š† *B¾JR8:ãR³	P'kAR×ì;°x6Àd|wû}o¬^­«“óã‹³÷'Ÿ/(B¥,·5à]…ĞKh£Wo@¸¨†•Ow·?®ŒwÂ[`í×¼½!ø1DêtÌEÙqN¾ƒr´Ó‘KÃóñgi—­˜\rŒzxÉeDŒÙ/³Àê}Zéö·,0ÙƒƒO>|á†©ë4?0¯1†\rÖÿnŸtK®²Éàï×óuãn¦ÿåW1Ÿ©¯÷&‘˜	şXÈıå]_Hõ‰¥#7Ìİ?Fr‘,Üô™œõÕ%šÍäGÚ%mí\nÂ_6ùù",
+["key"] = "RestedXP Midnight||cFF1EFF00(1-90)|r Default|bc) Horde Silverpine Forest 2",
+["groupOrContent"] = "u‘Kkã@Çïó)fñes06Sq\\ÃnÚĞ´KYö\"{{`¢1ò¸è‡¯ìĞÇ¡9H#é§¿¤4]fË_«,ËJ%ŒœWÉ#rïéL%\r‡¡Ó·ØG´;½u–\\ÓF•ôCuŠ½ÖE‘mŠb>ÿ™¥«ùì•u¼$QWõL—-ê½ó‚î¡.S/Tb]ßyx™R?YKÁ¤ß¬×ú†kı#ÿmî8x?Y÷dìéFšÌK‚İøÃèÈÃc r ˆ|®çÅùW¡òÌÈ‚ğà¯Ç=T	M)æ1˜-4-°H5àØ\"åOÀóox`7‰7ß!ƒÉêØ¾°ù¢Ò”ÀÈ‰\\Âç¨+û¾ÆÒyßW,!Ävôd‘¢r\n+9U§Gµ$ùãtûÑê?øˆ2IóÎE½ı",
 ["metadata"] = {
-["guideId"] = 4069329992,
+["guideId"] = 2930383162,
 ["retail"] = "",
-["next"] = "a) Warbanding Together (H)",
-["enabledFor"] = "Horde",
-["chapter"] = "",
-["imported"] = true,
-["key"] = "RestedXP Midnight||a) Selfie Cam (H)",
+["subgroup"] = "|cFF1EFF00(1-90)|r Default",
+["next"] = "bd) Horde Hillsbrad Foothills 2",
 ["group"] = "RestedXP Midnight",
+["key"] = "RestedXP Midnight||cFF1EFF00(1-90)|r Default|bc) Horde Silverpine Forest 2",
+["imported"] = true,
+["name"] = "bc) Horde Silverpine Forest 2",
 ["version"] = 1,
 ["length"] = "616891112",
-["name"] = "a) Selfie Cam (H)",
-["displayname"] = "Selfie Cam",
+["enabledFor"] = "Horde",
+["displayname"] = "|cFF1EFF005|r - Silverpine Forest",
 },
 },
-["RestedXP Midnight||a) Pathogenic Problem (H)|1036"] = {
+["RestedXP Speed Leveling||a) Isle of Dorn Campaign Midnight|1376"] = {
+["version"] = 3,
+["cache"] = true,
+["key"] = "RestedXP Speed Leveling||a) Isle of Dorn Campaign Midnight",
+["groupOrContent"] = "İ=moÛ¶ºßó+;]]Oï’‡¡@â4m·´É’t=;C!ÛŒ­E}))Y†şøû<¤$Se»ÒvºÖ–ÉçıÔóç¾å‡#Ë²ìƒƒ'ŒäQœ<¹%,‹ij8OæŒ+ã‚d9™ıûÜ¸\\23NÉ-Iât~ğ$–Äˆo²„ôÚ8¦,5ÆÑrÅóÔxÏÒx¾ÈÄiNX%°ÎÊøé'ã5e3rğâÅ§+şÕu4%?ÜQ–Ì–Ñê‡é\"Ê'Åd’¾;gä~8IV?Úæ§ü*JnŒœŸ¦ÿ>ÿxrñæå»ãÓß?^-X”$Ÿ˜¥3õ»ÓhvoüÅidœ2³%¥Œ|bÃƒa^°4N ôì‘ñâÅüÓ€ÿÓ„¤¹ñ°˜æÃh:%«s,xìPüó=›ãCdJ\\÷Ã9¸lÛ\röhèzÏšlÁƒ¹ñL€ØXÍ\\¯v™D÷F¾ Æe4¡9)X¦,è™|Ak½ ¯š¾‡IGé´?wQGñŠ{‘ø1ˆÒ/‘ÄO¦t¹JHNîâ|a\\)#,rÂ@?€æ¿ÄIR’åå»—oÿø°bÉ8YªŒ€À’NŒ#Ê½½ªŸ“Û˜™ñL²Uœ¦¤ûs[ç —»o)3É¦¨í¿¬‚§2–9´íç}“ËÉ›ZN¦@lÊ~˜2še‹(f?p^Õb2NâéFB`yşfüËÇ‹8Ï³ûô»Ì¸¤E’å4åŠö½xäÃáÅ»o®{Z3š~—×4Iègq„¨ãß@>rãÉ—-ğjÜ1\n$YÑ,ÎÁ(ih\rà¿õ$šÄ³([Tøg‡ñŒÌ7³¬“f6ÒìN»!{¢R¤3Ÿ.H¢TOsÁ…ØÃ8;K-À©™Y¨y–˜Dğˆãø±7~ZX Åuù¿\"¾· mÇÍ¸Ë¾ë!›.–Ñœ‡$_DÒîœ—’å²×–ë%cQOC–Ç°}ÕFªs5Ù:ğÑü&JÉ¸ôiÖ£í’e/nÌ€ãŒŞSä©¦(ô‘² \r}ñºDÏø	²/¡s67HKt`l1Ôj¨­¡)¨ãõAZöÎir¿¤lµ€M‹§y¼üäA“äÔäiÃ°YrlUr¬¡5B'6rú Í×—{wÉiÇi'°8AğßAgwâ´ÕÊm«•k\"uì|üãn–·-¶ƒ˜›şş˜=¹W„}èÜˆÅº°3¬»?>K½Ô¹»Hut>µ‹+^›+f€\\qí\"WZtÛ…j]ºê·s/x„	ûÓæÛĞUêAu¼¿=Ü8ê%âH VœÑ»ƒ'Ä±7÷J`ZGœU0y™@N*FéJMÓ¹wGø‹©P\rc&Uªõ5&ß8^ûwîÀ³†#[üî™¥‹SòWŞ{°Ü™½íÏxd[V-f€œ•ŸÑÉŸ2ò­şÿ’şNö	(;xÔ7IªœuÏTëäÄ4ONl×„êrUõéºRÕW6÷Ğ2¯Ue2]LzÔ–Õd„ºR™¹µT&­oIë?¨VÖÓY |`÷iÚ'ÏÔuå¤Û‘Ê‘´«†qD¢éB¥0§F£u*.-Û$`t2>VkËzˆòÏwo~“›°PÑ§RF€.Ï#ĞtYá~-I³y±™ñŸ˜Å\000i'Fèıºƒíâö¨µæ!ñ’0#\\Ğ„¬P3š\n¥mí#`j®É™?t¸ëZ;˜QŒ…qÜY¹|Û>8ğkÖtm”· ¿\"ÌQD’9é¯¬¬-şKrâ®åäŠò6GI-Õú\r98Iî”úaƒ)mí[Bòj‰ÃİÄèûßE8lDIÆ=º!ºÀ\0001ÇeNÙ’Qz’Ë¾ÿ.J¹w¸XáS–‘äÚ˜9¸ˆ2Ø–´˜æVL“ñ\\€™/&>S0mb§]Åo{<×¿m©~;Oi@ÑŠÊÛ\"ê×1ƒ5\000JÅOK_•=å^38ÂxCÛûçp£şÇV!WR¡†jHÚãIÚ³ ÷Æ˜._Œ.AÓ\000©Íj´g\\´ö+§ô†‘T²½%‰BN¢àe%58¨7zœ6ÎÛÔ“Ò0±å8:ã4àÔm4#,Nö}†4¶ß²¬a»ÿåâi%Q–ÿaüË~Š[O)M Ï%Éë²%„ ÖÅäÏbÁ¯›{£‘É>ÅfqŠAàMpmÖ†ÕØ]œ‘^¶pBíÕÅço	\\ëÄj‘ì¦*‚Ë\\şúü¶_d{¶x ã8[Rğœk ü§-P4.ÕÂ…mçÑ5Ì“5L«>’ªùkU{³„l-‹\000ãl6Ë:´¬‰”7ğë*t8IApƒ¦¾$¶Uë<»‰Ws„xeØÖ(ğ‚*úJt÷%º·hY“Üõ¥–öëû„i³M{1dK­Ûğ©\"¸àç|è†û›'ƒ.İA ÷¢¾¨|\\­æÓ›1°Uœ¡ ©jì‰½NÏæÆ£¿UÏP=ôÎf0]\r¡Ê^:\0005™I4«öÖƒéVS\në7îµ÷¹q6G½‚¾‹„x{Iˆ¯b`AB8ğí¡ßñw–3˜ALÙú½zg0ƒÍ`†m0!è÷ ÕîÅbìfØò2îƒd$%ÁÏËïQy™­î£	£‹ úsÖ—+™3 ‰:6k%®6¢x>Šß’Rå×šZp;ÿm$ƒ°C9âº¾ïayÊªj¦FÑUµ-“êsÑÍÆtFş‚ØovXÆ€káúË¿rNqÍ£\"Ï©ÆŞ…m‘X·Å6”v@ îâuÂû8¸o\\^MeÓíO6ßÆ]\r‘ô©|‡}¬RmTgÄou„MÒ‘°Ş$NçºÒz¯¨Q¬²¦^ûfŠ…j%ÆáÍÊZu6ÓşZD2ua3‘ÙÍ‚ÈÂÂŸè Àh¯«CåW>÷©xhb‰³(_dw8õ|N`µBVš‚§*ÚŸÈÙM<3,ÛB¿… ëUøA,T¿ÃH»í¯ƒdşHBsqÙû&M~¨|—À¸>s±ÍÖ>õ–†ØS‡ÚzŠD}º‘ 8Âp$Xšàsğ\n¶-æİ({Cş†Î\000sG±<\n•º…bNw£â·BÁ¶œXíúÈƒ{µ/.R¬˜¯	†™¼éK¨”ßI.Nq¢r‹\\±(MáOšşM&°çìs$ClĞ-B¹4[H+`½Ê®Û}[ûéÃm[2ËI¦D…¹eÄGCHĞİ¡ôøa1C¿±rrW°¿u`¯ó=åa|¡?°ı¡ÙŸäJÁËÚòà¥n>i¢)ÎÉqN”ó³8(>ïSŞ¬kÆ9-9fÛÕ<2š\ròĞ;ê€Ú =2Œ+F\rVl#pËØ™CÏØŞ0ìOßÒ˜E%EÄÚY”ªÉ˜ÕLÆNÀöá©­mœºDÃÆñZxİÓªró+¹e9)Køı„¨úÕ›ÜmP	\\Õ©<ˆvv:r´[g®¹‹aoÀ”]ì]ÆŸÏP)à?Q&«ÊA‘|W–£8ÎH2§iZ£‚ÍP×BÍì¡ï´Pqtº¶İ¨Öë@ø¸k›Ï¦C—±.÷W“KI-	¾Ô‰?&	¸Q\000J„î\\ÌvÅóåg‰o@‡8T8C[w=­Ñ¶{bØÓî® yá6İ›ªÿµJ(#ì»£¨yó«U“Öp¢ Uß7¼F&Ç+¬\000/(ã^á›¤mQfŸ_~bœ‚ƒ¿)ß‰èÀp7î¸“œ`ši.ïy|V5¶yy¡Š!8€oä¶ñ®ÉöyîúËZıö‘_şöòâ»Kc|xzú£P½)‹îãmœ\"³k\r=ß\rEñGIÒşa-§[6(mÖÚÜæÎĞïá\rGı' ÚËûøö†R6%iÄbjø¡ˆrJèåÛúè8æğ[Øºøı^Îqíü@&23^Sz“-h®AÁŞ*v,óA¯r(à.º_Q\000ÆHè´#“V_›É-«‡.ùpfCAûŠE«i´³ä›àp+RÇ2dR®!¦.oâöÃ‰ƒÃå¤ÈhKÊéU„“ å‘ÖƒÅTÚ†V£³ª€´.¼¸Hu¯¿fä7C{º@ŒâÎ\r(ty…@€É?GaÖ\000¼ƒ’`Jà\"Xî!»œıÙt	yµ¶Ÿo]Z »\000'VËùÑîö.tv±w`æÑ©Û¢ÕÈg¶piÎd’Ì»æ ½¼•[ÍÙ5{O º[Òt^]'P]&²]ùôjÁHn1V_¦7 Gq^} ‘Öo¨)QÖG«è©Ñ<ö!tó˜pèlùd‡øÊ«„[ı.Z.ú}Ì%Õï ëãÓC#»ıÁ/¾zD¹”õµÙpjà2† KPeã:Ò1cBò;ZãÉ¨Ù_ÇøüX§œt°¾³³À{Aø)¡¾D\000]Ü.°7á•¥Ë:æ<1·Ì»€]k®/)ø2øKp:x1\000z:²ğf´eê\nl‰y\rÛò ¶ÜÅ‚vÛÜÀû<S~şêµ©İÍÂ*Û2jìîV =÷äÄµÛ@ÂÒ~iJ’&€£rr¯ÄmFú8b7Sng¶ºÙ3ì‚£=Âé#ˆ=G{?l>dÏ†ôë^ö¨ûr¿{Ê˜çã0SŠD²59¡ñŠ¤àÒãpòB®\nÿ¨–,ÍÃ­’ì˜¸Ÿg¶\n~ëiO­\rÂàÁ×;0l¢-i–Ëu¼\000’èJ>ÕhZÃ†ó¶/P¬Ë\r¼ÚpØğJXB;+ò,‰‡{³Îš²ŸAÅFÅîÖÆ%ÔTüü­-9ûj!VbÍ‹Pœ8gG4o8¹\n?Ñ ùµ]·dOAˆmÓsG~o—üpPŸ=`ŒÀ4MQJØªß•ÈÖ~UÅ¥Dqëw ÔFûç!¬Ä„Ã¿±-e¼~i!ªj -×tŞ¾îHq£¢ğŠ¢İã´£F”¥@µ%Õ:İO®%V„®gLñĞ¯íJ_W–ŒlWœ	9bEİ6%Æ›Mş82ÍGrwŠ/®	;¶lÚ×7•Ùyø‰jôèE:ƒĞnL—ˆµÆ˜ü–¶¾Nß°åvQ}Ğ®v‘|ìLßªzF#Ï“Nùï\"X†ÏË-Éì~×~Ñ‰‚hpD{œÓ’çƒ¥~—ûQ'üÈÓDÁ7]zZ ¿RGšêo^7çsÕëDº¸CÓ8ê9Ş04¶zTÓÃT\"ğq$¯õ;s{l_h¾¿s0\"àk>ëjş¾RÍr×u\r—Óˆ%8Z˜Ç)Äƒ«¬qV_<sTÌG‚FáQ%ã”R®:Ëú3êëÙ!W!ñÛÓ³³«'E:‡ 	CíE‘ŞÀê4ìÊ^;© ”#È›lû2ïÓ›í3ãŒÈÊ’ê‚æm!øå	‹æKÂKªv:ğ¯¿½U\"ÿñ`\n·py£j·‡Ú]ûé]»%3&@ßM½µöö‘Ûó¥	­\000mÛPÉ^É×NT5wYEY&—T{«ØdÂqÃh²i& ƒ7…õµ[_ñk]Şúû)åIã‡Œl8%ßˆ¤<¬c@oô€îZÜA3ÎZuÆßëcÇ+üİ\"^ÅÊ¸[€A0`‡Éñ5˜	ÔÄŸ~:fE<ûárA*ÚÂ¯˜~¸nŞ”\000ô`Åà™ŸÁêFQÑ.ßÙéĞøŸõŠÔŸ?9¡x#M[HÜºš¦½x£M`·…_zƒu­ôº‹l´£h’\rkÜS£Uy½ÉªÄæYm\n$;˜Í·sœ)Iãb©.ÇÕHÊuÌ½©ä;í|šÁ-\r;\\@`*ƒOzL=Ÿß@¦ÏÙ€é:è\rLeBpİF	»7bœ„aD]›_@f®uùY§×ÁzRÀŸî/]ü@Ò	¤s³¼ı[Bâ²ÙªÔöô¦µş±Ô\n±Ù#¹¤c¾4aäÎø…ÌGˆ•A%‹pXN™wòYuÉHk‰6Xëu|Rà¼Q{G[WÒ©J‹GüGÙ˜&	ÄcëëË»*šÒõ¹#F\"eW³®	šßñ*Ä‡Óˆ²®	¤½ ˜¹ Ñª.iVw9LÇ¤úô7’bò™B»âNµ`z±¥r4W eL+¤ğ½ó´âJ|ùê¦RÊä4_Æ]Ù‘	6|\rDÊEà»N6âıP>¢iû-&7c;eª“ÎcÁÃ+ü€î¨M„xp´¸Õ\nìÖuün3<v…y®’Ëâï|Üp”hÄÃ\n‘nø„èï§YõõAÅdîğ¬_dùmhf_¾`í'u^´é)êE¸;Ùnöw®7pCô`m'-jË‹¶ıOsEÏäŒÖM)~©€¼UWËú¢ä–3ä\\Ç4½%\0006¾RdËùw¯ Q9¿ƒ8>(#€’™´;ÒÂÕ9“şÑVöi\nöíÎËëkÊ¤óÒéİYù%‡Ÿ—¨^¢à:–gá)C3V¢?¡RAœ‚MóıfqÜ3}×WCá%ÆCö‡ÆV+dxŸNh‰«5²f@¤¤3Zf¢ü&Òtª‰/¯Á[¬sìæòm®†xÜÃsÄİèß>î^ø€àó;(ío/|ğğ\"ú^>ùöMáî‰Ş¥4¿5|,s/„|,£B^ø–QºiK¾`»iTĞ™\n´‡@÷³®3š¦-U:ñ0Vn‘‰â.¹y¼k‡æü³Bv&JÅëí,¹[‡PénM“~ª(Ø-Äq£SşÂÖâê<DÓëıFã?Èı–¦x§~ç÷í Â» ¤ö~L+Vã'ã\n$œ¸Øœ0cV¤sBÓƒïŸšk>ş[È‘uNçsàE5l™qÏ eå‚£«å³şšsM–æÌX×EùåÅğ[ íó@`­¬‚ßËËû+Œk±Æ€Ô×Š7<ß÷’OàlUİ34«oÈ6Q'üb“hv‹óQœG˜ÂŠUib=­Œ\\©_¯ 2—’°»s‚ÿ^Ü€ü\n—ı9O~.–+CÜˆ¹ÿé.…®5°8ß•/D˜{ÓÙ\\Híª`+M07™Š´İ…t‡†ÒkYCõÊ¶ùêÅ\riõŠ„Ú\\a\"f³ˆ’÷ÏŠØÃÎßİâïHJ–bbBÀáb×êÁ%¤GŒ9/âeKrœÏ%b=fÓA$Éó»¸][¼ï«ª¶¥Şd©º‡³KwkËÎ®/ÏRÅÙ·Ä•8T.¸Nı¶øàÆá}Uv•wİiñ+§·€—+<*Èñ.Õ]à âs¡ã¼–ƒ\ràí5‹–äik<«c¯fDc—aX;LHî÷+´}S¿'BKxğé¬À=R\"¥ÚÒ}§Ç¼ÚµÂ‹·:B²/	g#<—O®KP-ôºš€¿~QĞ¥˜]¾2£Eã5+\\¹'üö[‚EĞû]ƒã‹G@e÷Êb‰tÃy	QK–9ñ^<#ù|ÿ!P²]áQZL¢¸¦oC&@\"ızAwÙ±aÙ\0002pT®b­LérWe«Í1„«Eœa164Î^Xµ\"9ş.‹$1°<˜‚)Ôï’®Á/½\\®{‹—+Ï^´ÙæÏN 9Ó4%Óœ¿ÕTŠkn#¿Š¶|‹\000æÕÓê·Ø†rŸ*;)«7f…aÉCÅµYõå^ü‰ä˜²”T`ülV½s´`‘á:®ŒzC¾ +AÔ­køÑ&'Í\"c… Ÿà	ìÍ¬ı£B½/%òÿş›û´vKWáún2t´E†ì2do‘¡£m2ä™Hâ‡¼õp7òLq§é›ì/C?Çe›)¨—¡£¯&CÚ6}§·È³Q†œ-24Ş&C®/!¿„Ù_C†€ˆ¼å±™‚z5r>K†7ËĞF	r·HĞñ6	\nDOé ì.AÎ×  ß)Aî	:®OÉÙW‘©*îV&& ¸´¸™…?Õ	4Á<ÃÖÄ|ç˜|2ÏÑ}'î<°}±f\\ûg¡}å2R¶²û°¡È+êYÍ½yE«‘Êy”ÎH‡XÎéM]<XaáÀxG²\\İÜîÌ’j*>Pl¸n€JğYÕõLòKêµTÂî`Ï}ä+—^Ó·ÛõášßëH$…GEu«A>t4Äke_[kTW§¿ÃW]R$èâ§Ä}éÊ¾#V=|µàÏ6×c9Qİ÷ştå¹¡ú¢§z\000’xæczs_rrASr/Ş/%ñÎ/Î(¯öä72.€İY%s^)æ6·¹r¼D£~!YF1¿•%¿£\nK\\ÍØçã²¿œy9‘4#×$Íˆj’\\M/N3cØµ^­éõûÀOW¶xaP¾Œ¿…ô¼H2ôuôxnt¥y>%†T»¼¹0|?Xy¿~Z^1²~_Ø(ğ@zÙá_D¼‡¬Ú@^üeÊø«§q‘f…òN³_=öY/µuE—@Œğ{]ïÎ<gô–Ş\000`b$ò:&éL|#A,(2ñéEô7e|,¯~A®è;\000ñnÄÓpj··mºî «Šx©:~íoØ_QŒS˜†úüSÛ6HFDz‡àÁª6`ùŠ—ZÌ•ƒEÒu·x¨Ìµ\\.Ò=ál›¶á8s‹÷\nñÙÑEĞˆ%ŒúÎf=u¯öiï›Õhš<ôôí}³ï×Õh5\\ùUt\\XæË,C,ĞBÕªc\rµÊ³¥‰\000a¥xÏCÓzòéøZ¤ê¿üHùÄnË^û\n^¿ıš¡Gæ›e»Õg~×½Çï¿ œ’|ù\rù’D¦!ÿÿ",
+["metadata"] = {
+["guideId"] = 1694897378,
+["retail"] = "",
+["group"] = "RestedXP Speed Leveling",
+["internal"] = "",
+["imported"] = true,
+["version"] = 3,
+["key"] = "RestedXP Speed Leveling||a) Isle of Dorn Campaign Midnight",
+["length"] = "616891112",
+["name"] = "a) Isle of Dorn Campaign Midnight",
+["displayname"] = "a) Isle of Dorn Campaign Midnight",
+},
+},
+["RestedXP Speed Leveling||a) Murky Waters Midnight|1358"] = {
+["version"] = 1,
+["cache"] = true,
+["key"] = "RestedXP Speed Leveling||a) Murky Waters Midnight",
+["groupOrContent"] = "ÍVïoÛ6ı®¿‚ƒ?ÃTFÔ/Kù p.Hâd±±¶ƒ–‹°,ze×€ÿøE;–%e[v+`”îøîx÷îQoŞ„$ŒbBˆkY=Éå™ÕÛ0Yp‘#bõR”kôÄ\nÅæÑxÍØİ±\rËx¾°z9]1DB÷¥\\îĞª`'ºçóœ/Reõx/ršY°}ma^<ä¿–€…|Çõ}«§¸ÊÚ'×××ƒwÇ/w’ÏR¥|µ—^X‡cû.î{6qpì[WWûIıLv±2›¯èú\"I©š•³YÆ¦¡¿l‡gÙúÒuöjB³¥İ'O§×O7ÃÑ»»OÓ[8º—‹ìşÓáT)s›ôĞÕÕ<O\000½/wz­R†¢PåŠ?•¦Ğ9…i’°µ>¥ã÷æ­y¼ù1ËĞ/åó³m–°ÄŸ¹Ç'÷qÆ¡¸®ãÔ<‚“ÇˆB¾m\nŒF¥ÔkSèï°®ßg2:c™!¯áîU@ûªµåù\\l­^\"VëŒ)xV)šĞùZ@m•,å‚ëz5=EvŒ£ĞöÛ©[|ƒÁw[†\000ûa¯½%À$°Ãn0ÇKuX´ÀkY\\‡vGA‡‚G8Š[‚=²öYÿL…{½&@¢[M3”†÷Ÿ¦º@*^¤{‰ÑJOÑ\n=‰ö“¸ïD¹:ın6İ=<Lj{Ğp±ØË? ÿÇ¨†06±ğJÌĞÉóß$7$Ìİ‚5€c›œÑ£‰°ŸÜ¼ÌHRÊBÈ‹DŠ¢H)—ÕøĞD½ŒÈ ãÉòĞœïñfp;oéj-ØøzLÎòôƒÓòî:jÎ>á	ÿÿ^u”Øı²3´‡x˜ÏICáüJá¼o©pÇ›ÃHÙñæxUË^QÄL\\ƒ©k\\Í%¨¹tˆÜI‰ãäJ•‰¤¸„k¡½g9°VÁ_ÛãzÎiÏCj››/£Û9M¸ÚıĞq©C˜FáûUááí†¥<­ù©ˆvÆ	~äÄ+9°Ï\\Õò¨À>¼}Mïİ°*ÂÁl¥2†ßÌK;ƒĞ¯ªr‘iÃÑ¹c`^Á¡tÁ’%“í›¢=HÌÅ®g»Á¹êF¸ïjSŸ´L•_veê˜àfè2¹f[I¾&*‡3ÍßiYt>™1JG¨ctÕ­fn}Æ59ª¬Ï?ab„6	ôıêî¿Š®à{#ÙŸ%—¬8q8X³à_ñÌ\r2ÀxØšíìB»ÉK»Ïøã†š$¤µøj¼ úv©‰îá³¿ÁÒH³4l×i8èWåş16v”È.ûG!6Òy„ø[íüë",
+["metadata"] = {
+["guideId"] = 3213562395,
+["retail"] = "",
+["group"] = "RestedXP Speed Leveling",
+["internal"] = "",
+["imported"] = true,
+["version"] = 1,
+["key"] = "RestedXP Speed Leveling||a) Murky Waters Midnight",
+["length"] = "616891112",
+["name"] = "a) Murky Waters Midnight",
+["displayname"] = "a) Murky Waters Midnight",
+},
+},
+["RestedXP Midnight||cFF1EFF00(1-90)|r Default|be) Horde Hinterlands 2|1280"] = {
 ["version"] = 1,
 ["cache"] = true,
 ["enabledFor"] = "Horde",
-["key"] = "RestedXP Midnight||a) Pathogenic Problem (H)",
-["groupOrContent"] = "mÎ±jÃ0…áı>Å-ñ`°1)x	‘“¡dè¢Jû‚,	Y.	øáã´c¼Ÿóó•e-ëã‡”r eÍÄ/¥‰ƒG	¢Oax¥)“½uxaë¹2¯GB]`§ózòl°KáÇÑˆ»sÂò~üÍ£TUµ­R‡%a¹ñY{tÏ¯Ş	¿ÂO?±¥ÿ–tÌ” iğ’%X5{ãæuó¦ûŞtÁó",
+["key"] = "RestedXP Midnight||cFF1EFF00(1-90)|r Default|be) Horde Hinterlands 2",
+["groupOrContent"] = "u‘Ájã0†ïz\n_šƒQœCš@NÅI\rMº¡i—eÙËØšØydÆR»…<üÊm·3šŸoş™IÓy6_,³,›	‘0z0V$/È½q$3‘ÔìB'±÷¨íåÎh2uãEÒ‡ò\\;U›M¶Şl¦Óë,]N''–9!Ø(\"hQ–8‘…c²0ä‘-îåL$Úô…·QôIYD@úEºZÉ\\É«ü^=±³vŒI#èó'FÃ[ëœ^ÛãÄ‡­£\"¤ïºİ\\êvçJkHíc‘¬\"øa˜ºtL¨Š¶.RÁĞ¹µÚAİ\000G“j\rì¤üø¨~\000lFÛêg°2¨œ¡òÍ«ÿü©˜™h”ğ¯—åñ}i÷Ò-ymk|Ü[48VD¼I'C•\rQ÷q£C‡¨å_0QÿÛÿş",
 ["metadata"] = {
-["guideId"] = 1851985842,
+["guideId"] = 456005380,
 ["retail"] = "",
-["next"] = "a) A Voice Inside (H)",
-["enabledFor"] = "Horde",
-["chapter"] = "",
-["imported"] = true,
-["key"] = "RestedXP Midnight||a) Pathogenic Problem (H)",
+["subgroup"] = "|cFF1EFF00(1-90)|r Default",
+["next"] = "bf) Horde Kun-Lai Summit 2",
 ["group"] = "RestedXP Midnight",
+["key"] = "RestedXP Midnight||cFF1EFF00(1-90)|r Default|be) Horde Hinterlands 2",
+["imported"] = true,
+["name"] = "be) Horde Hinterlands 2",
 ["version"] = 1,
 ["length"] = "616891112",
-["name"] = "a) Pathogenic Problem (H)",
-["displayname"] = "|cFF00CCFF5|r - Pathogenic Problem",
+["enabledFor"] = "Horde",
+["displayname"] = "|cFF1EFF007|r - Hinterlands",
+},
+},
+["RestedXP Speed Leveling||a) Tian Monastery|1353"] = {
+["version"] = 1,
+["cache"] = true,
+["key"] = "RestedXP Speed Leveling||a) Tian Monastery",
+["groupOrContent"] = "íZ[oÛ8~÷¯ ‡¶;®FÔÕ\n$™´É6i³‰wÛî h™¶µ•EEÕu‘¿‡”dS&iÇÍìÃhR‹y.ß9ç;¤Ÿ?p0Š0ÆÎ`pÀ© I:8øLy°áÁÁœ³b…®h.èôı%º^Q:Eçô3M“l>8ÈÈ’\"ò’¡–˜Ç7ƒƒ$ƒ¿Iğy58ˆÙr•RA×‰X Œ~+†©Èó0ö=ôâúgNÑí»á_ì[ñû–‹u’=ÉÑ¿X/(ÿˆC‚¦tÅ¸ÿ?ËfI–ŠÈWB¸5°\nXÄÁaäÚ–1+2Q=âRkÎà]7ÄCÏ±¢`è„–ç\r^¼¸+™g$¦?¯O§K²ú9^1)&“”ŞŞœÓ5IW¿8 ß˜¤Ÿ¤·ñÕûË›—Wg'o~;ÿpsÈEÁY~+¥!qLWlÏ@ÅÃòã9cŸÀthÆ8z%;°ás*Põne²E2seS¶n™ï0¥dBSDÒÔ‘û,pÈ’J]mÛö‡vó!F#Ü~(g}½öCÏvö¸²`gQ×²±´¨?j,q\\½S-…Áû,Mi,7ù¾?Ä`ƒEÏ“)Y2ÎQÜrD²)š€Jàz6vTÆÉ’ò\"Ë(´œMYj}Xù§d5gy€åõN[skïCµÒtMÕ¼Qø]ª9Q]Õ®\0007ÕÔN?R5¿­Z„¿K5ÏÇÛUíš“×ÔN?Rµ ¡¶}	ÑïPÍu@Ö®j‡Ë¶êU®Úë›”«B_foĞs›ç}QˆQØÕóˆ’˜eÆĞóîÒóØÙ÷(döêƒí×JP¶Á´ûªı¦ŠşC×Ä7V7Úº íº³›Y»	©4šÙÑğÉÓß+¥iBXwºÉÍû²ßåF,Èœñ\"¯Ì×¶/ádÆœÒ	Í¦”·ËqØ_/§-~àKÏ‡îV¥Ÿv[7VíV<D/9Íè:¦Yk¹‘Ràì–kKjæKú:J*×b[Bõ3¼	Òù‚IˆomU¬æœL)Ú°‚£9%¼šÿîğêÍÍ™€Hæö_Jy¦Ê.3ÅêPZ±>\000«@@µr4á,ûJ‡ˆ ˜åK*’Åç4‹7Êä=˜¨…é1ÏŠ¢¡¿ı½Áä<ÉĞX™uEÖJ -0µ­¡êbÍcÇÓd¾@'éÖ1š¼¾å8CÇ·ì`oòîvCÇ)+¦3Hø·\r÷\000'—YbBRHµ¥3f N-ü>\"©^SúZó¾-Ì®ØŸj]WhFôà9X\nÊŠ½* ë0ø¬“”±–O‚pè–ÌOv3‹û×ÇQß£ârÔ3¸*÷Û}Cõ^¦L»˜¶°ÁÜ¯“4­ŒwòæäâÃÍ+È\rÙš±)¸T–+Ù[È¬%$–*>/çŸ¿};¾¹JV½å$›Ó[şQU‘ºîIKËL½dÔ\\uöEãº‘İ‡b@ƒc7ãÔ#úÂì‚Šû*•_+Zu\rK…Ç.:¬2ƒ±•-±y‘kÎµı!l¡§ÒO2teJ|ÖZÓ³İÀÛÇš»\nB‰p-VMò·Ù?¤)Kc\nLKÍ;¸¡A$p”d„Î]]> ëì\\FzÒ\nÇÖ˜éƒò#¬äU+ıpùw1¢0®§÷&È+ÓhøÁÅ®TxÉ¾ÔyŸÖÊò³Ñ’zŒ9I2I'®AX‘£7¬ÒÚ™‰<'É¦ù'JW É»b«ŸÜ§GÇ“¹+Ü_ùº(Ğµ`E/“\\´”s5å${’z!RúüŠ’éfÇÚ+J(Hzåùí†Äå×7$)¦o¹AgÈS^¾âŞƒá¡­&L˜v7mmïÍ[ê0ò²X%’=Á0,\000TÄ²dÂ“iASK'V€HÃ[3 c	$ñÅ²˜¢d&é2šN•çõü!yx/Õİ‰ñ×At—>Dëôñ­Õ¡îî şïEòş\rUú\rªÄiŞ˜ìí&Ÿy¾(²rò»ä+tGÓ‡´;Ğ’hÙ¸S6ıH,RI§ÿêQ]{:dK¥_‚†çİšN5Ö½[ÏòCézèºêøw¨SÙOW§zÔÃŞ¶{ô(©/ÔPÇ«Õi¬ûh\000u5€¥Íö´Ù½ĞÒaèï`(KF9ñ„ÙõFå=éºI¨\\÷Qğz_˜TUÜï²K7¼cÛm­¾»¦nWïAÔv‰œüN¦*í>v\nô5Ìtpğ äè­êXúŸÍĞI6- ãŠi¥dÎR¦«Š­\000ŠÜÈr÷wÏt–å‚±€à=É²6UÔs½™lU·Öª=UŞMıïk¡QF­4]‚p4–ğçôÜQ„— kyhv¿„~@cNb!OY“\ršq¶T µ¨ó’»ª£7’,;+`íDñ”5á0/Q¨ıÛáL¢P®ÔGn®E1¥™Gz1[mªyõšKá'°§2À-ÕíªÙå½Òe‘Å‹§øÙGu€@ĞJ~ª9ƒË[Œ×Iüé©³’îayÜ:vÜ\000å4 çëô©»7—Ÿ[¹ qË¡kğ0'<Øôêó\000ğè°ÓHÎ¡ •|Ñ¨V§·Ñ¨/‘n~Dæy'£:Û½E×„Ìï5¡ûX&ÔKòÎ÷„_K^(1ÑŞäm÷mM`cÙĞ\\êõà’35…’U\r€FÍ½S*Tã–Ò^¿¾9\"ËIÑãñ°çkØòlY9ñş*çß(vï‰ “¸[*IäOèDõ½RC¬İFçİº£•jM¹CÅJ¼7¹8]—ÙÓ½&Ù<¥‰.|\rİğ»ûœş=9¶FT`j´NƒË)İ¼ÎVó]u Úr«#©!lË!»;d[£H…NÏ[¶j§q¯µğ&ÉMb›d6	l’Ö$ª½·ÀµÕşîË aãÜº™\000ô<Ñ¸â¸²İF§PJäR;Ä>”lRòyS‘PS6jÁYQÙûíïä^ËÜˆ6­Fè²â\n Öé‘İVíÑ°*t½\000ÊqÎ*Ñ5“cíÜN)¥—Ë3 Á›Üw™ğ|Q×*§…¾“CÜĞÂn64RC§yÖæ–ñˆ;Cê@\rãu‡¼\nôAß«”Ü‚¸†î2²Û3äGjÈî’w^¹]á¡‹†8R7æ¡P¦>ï	UVTÂt¬!wÁêÖLı„ûºà£´È)%\000·/BRñ{®Ğ8d™\\Tßht«vÍ­æÛÙ¢ıİ;7ÑĞİ×›®«‰‹6ZíÙ¨Nv3’¤ë)¸FŒ™\000fBWZNOV×!gÂ›	l&¤™`fÂ˜	`&t5ª^yj³ƒÊOëe´&‰@à°$UUrS–Ã’±ÏœŸB«÷„S”1!¿ºÅÖt*Ô‘¼¹“şª†pÛH>ë–ºhØ}u\000ôãĞşídU4·êÃşsF§ŞŒ ÷–t›ÂLñ¶åú†|ia¿ûV JWY9ì<àPMè,¸Ã$ƒI\000Óî¦­ïûÅŸ	Š:%·¨‚.GÅ`~(Ñ¸Öou¾Á€æ$)ñG}ˆíAhÊßè×_Ñ)ãÓÆW×€YÛÜ›7¿Ò ÌšúúøÃ9óÿ",
+["metadata"] = {
+["guideId"] = 1215827847,
+["retail"] = "",
+["group"] = "RestedXP Speed Leveling",
+["internal"] = "",
+["imported"] = true,
+["key"] = "RestedXP Speed Leveling||a) Tian Monastery",
+["version"] = 1,
+["length"] = "616891112",
+["name"] = "a) Tian Monastery",
+["displayname"] = "a) Tian Monastery",
 },
 },
 ["RestedXP Midnight||a) Cultivating Hope|898"] = {
@@ -6729,81 +6724,76 @@ RXPDB = {
 ["displayname"] = "a) Townlong Steppes Midnight",
 },
 },
-["RestedXP Midnight||a) Dawn of Reckoning (A)|1252"] = {
-["version"] = 1,
+["RestedXP Speed Leveling||a) Save the Hippos!|1350"] = {
+["version"] = 4,
 ["cache"] = true,
-["enabledFor"] = "Alliance",
-["key"] = "RestedXP Midnight||a) Dawn of Reckoning (A)",
-["groupOrContent"] = "mÎ1ËÂ0Æñı>ÅA;‘¢Ğ¥ô%› N.!¹·=Œ—¶ŠĞ¯¸Öıÿğ{Ê²Öõş µŞ¨L“å\000êAyä(¨Aõ9Î	Ï4Nä/'<²î‡	”Ø;¡-ğÏ>ãÿ'q·(,=nÚ”ç1ûúV‹3¦ªºÎ˜İ’±\\O@¹Á¦‰24\r¶!°Gğ!(fOë×_8¼ÿ",
+["key"] = "RestedXP Speed Leveling||a) Save the Hippos!",
+["groupOrContent"] = "İWmoÛ6ş®_ÁÁ†µªbÊ´^ú!@š8hĞ¤Íln1-ÓaZT)*ÿø‘’ü\"‹i–Á†}byºçî¹ç.ïŞyĞB¡kYA$¦Ìê<‘SdubÁ‹I.Éüë#e„ÌÁ=y\"Œ¦±ÕIñŠ\000üá'dBÀGše<ÿÉêĞT‘bf©›™åÄ\\ràv]×ö¡ãú6ê:½Ğº¼ÜËƒ‘‹5l¾ÂÙE”`9+f3F¦ŠÙ83–½w»[9Æl	”§m4üú8½Ş\r>ßÜ›>tNäKÁó­p,GÉ$ğ]èºàòòªú9¹\\'”0ˆ8ã1Íen9‹˜HĞpR…}®øö_ã‹b+\000NçÏºË—	.aÈB¤4İÃ«Ÿ@ı6ã¨1{ìö˜¯À(Â,#ğÀ`ÄY!Uq%AêÙÈu`oŸ·'17Üû÷ÊæŒ.ˆæHT·}·të›Ü–(«<w\"¾Ê‘dMe†x•áXñk‚Uê'4[„Î•1óµÕaœ7å©Àõw<×vûv÷Äæ#õ?0Ù\\h£¾ãlÓíi[€L6_áò ×¶…ôl¤íX‚®C}/„¦{ú{*¢°²½…¦Ô¤ä©Xù‰2VÓgğyğğmªR†32Pæ¬A°Ö	•Æ’\\;ÏclØzãºànßQ!r..\"Õ$y‚©¸(Grß×ŒFK ôCBÃãİõ§éXà,Sòq•Òfy;_ÇPåš¯‰Ğá^<Û¿ıH˜:çÌ_×úÒax¦n`9YÕ©%kwâÉrV|Nœ·^ê˜şSÚ²ëç¶¼ĞĞ°lèà:qä·ä÷Y:ÒtĞ•[.HšÓ¨V¸Í©^UÂ‚^–“K¾ävÏÆèk.²œ(&Ÿ°µøvÍôG4Jc¦€zÆÏ÷ê,ŸŒF¡#>´|D„ 1¿™Ç$Á«•Ï'ä©«ÿŠ¿gîù±Ö×@àÜğôg	>6(ë³ yb½êƒêx³•~˜äì¡ŒG¥œ¾¹ç\\jJ¬À‚°CAß}¯PüVİ¹ÿòe¼gÉïÎ«ˆıç‰÷¨¶ƒ¤{ZOŞÀJµnŠ	£åf†ód'–û÷ú™-Ëè{\000©\n³³émVx­d÷‰ìnµh:¾o÷B'èš29I¨ˆY\\¨GI`è`=ÑË\n¼³ÑêCyxnŠh©—ì&¯Bï¸3~-°*†ê¤r0î)uê¢1#ÈÔD¢\"ä@cf—L‰Ù­*­ÅL-JP/_}Ã¢8½RÃCÃ‚å;È×÷PhX”lõeØ®4½Äšlªîj›C}c P#÷ê@ÎŞboşïfØQk²µ˜x¼È7¢=Û¸ñ¶<˜'˜\rõ®qËãë2qWBèOHª‡†ïôíácí^ï$o»>W$ı…y4÷£Ì¹¿³üœN=èš ¼#ÏŒ:Ó 6şOx4ŸßTÊè&WÃÏÓ	¦²lC]ñ!g$cxÓj‘µşŒ„^£¬§\"ıÊdüù",
 ["metadata"] = {
-["chapter"] = "",
-["retail"] = "",
-["enabledFor"] = "Alliance",
-["version"] = 1,
-["key"] = "RestedXP Midnight||a) Dawn of Reckoning (A)",
-["group"] = "RestedXP Midnight",
-["guideId"] = 1465716471,
-["length"] = "616891112",
-["name"] = "a) Dawn of Reckoning (A)",
-["displayname"] = "|cFF00CCFF4|r - Dawn of Reckoning",
-},
-},
-["RestedXP Midnight|Sojourner|ac) Harandar Storylines (H)|1057"] = {
-["version"] = 1,
-["cache"] = true,
-["enabledFor"] = "Horde",
-["key"] = "RestedXP Midnight|Sojourner|ac) Harandar Storylines (H)",
-["groupOrContent"] = "URÑjÛ@|¿¯XĞƒkŠ!J!¤Ô/n‚c¨„J^×º­´ÍùN¬öùø®ÔFm@‚“fwfvöV««òêúsY–—ÎBŠ\\ñL2pŠPº¢•”{8Ğ ä+øÎ>rÛ©+†|üƒÕéWÊI\\ñD€Ív(=\nÔšä8Ò\000vKWxú€ç©ğµÙn/.Æ÷Ó«ÀjnrEÓa¯æp	¸KGc\000{fZãúbØCG°§–¢‡ô6!.†n,yÃ÷¨_CJ§‘ì¿¦;!ŠCOøD²à·ŞğŠÄ>6§[;+†¹s’g{²€ Æ3Ü2½Í›Ñ}cm:š]Ô(6ŒÂ6ÇÖêL0lçŞ›”ŸQÙ$w©ÿÇ™£Ncæ³\rTHm6›zKdé´3X	y´ÔmgU’Ï»üOihz‰ïãÈŞÜT¬p9ÿG7µŠºËañ„Ó×k3)œİ‰Ş},İï",
-["metadata"] = {
-["guideId"] = 1260262502,
-["retail"] = "",
-["subgroup"] = "Sojourner",
-["group"] = "RestedXP Midnight",
-["enabledFor"] = "Horde",
-["imported"] = true,
-["key"] = "RestedXP Midnight|Sojourner|ac) Harandar Storylines (H)",
-["version"] = 1,
-["chapters"] = "a) A Goblin in Harandar (H);a) The Legend of Aln'sharan (H);a) Late Bloomers (H);a) The Greenspeaker's Vigil (H);a) Peril Among Petals (H);a) Haranir Never Say Die (H);a) Harandar's Kitchen (H);a) Silence at Fungara Village (H);a) Cultivating Hope (H);a) Hunter's Rights (H);a) A Palette of Feelings (H);a) Predator Reintroduction (H);a) Bloomtown (H);a) The Grudge Pit 2 (H);a) Trials of the Shul'ka (H)",
-["length"] = "616891112",
-["name"] = "ac) Harandar Storylines (H)",
-["displayname"] = "|cFF00FF003|r - Harandar",
-},
-},
-["RestedXP Speed Leveling||a) Redridge Mountains Midnight|811"] = {
-["version"] = 1,
-["cache"] = true,
-["enabledFor"] = "Alliance",
-["key"] = "RestedXP Speed Leveling||a) Redridge Mountains Midnight",
-["groupOrContent"] = "í=isÛF–ßõ+0åªÍÌ„A€n4TÊU:|Å–­•äõdS©D¶D¬@€€R4å¿ï5®¾HQ6ÇG2fb±Ñ×»¯îşî»ĞãÄ÷}²·÷¨âMšå{nxUgeáø{®ªrµtNyİğÙ?Nœ³%ç3ç¿áyV\\í=*ÒwÒ¿Á³*›]qç¸\\0HQ;ÇÙ¬È®æÍŞ£¬hxU¤ùŞ?:ûy¥Å”ïÁ€Ë=÷ªlJ'H&~èztnH÷?~ş»\\¦SşıtUÕeõı´*ëzfÕ÷b´tÚ¸ùòâ½oólzíÀr›9wŞOOÿqòÛÓÓO^½úù·w)|=sNJ˜®z_¹{n:òeãyóøñ~ûç»ı×çO~÷ñ¬(ó¼ÖWÉÜIÈ\\J\"±ÎlXçmYå³Eºü~:O›‹ÕÅEÎƒ«Šß\r=OókFÒÖx”VÓ;ç$­®Í%†ãŸViq];i1sxZÔ{n“VW¼qäşæ‚©—¸&şÎü.m¦sç0]\"¢‡…;iS.óò–WøBİ	wrÖdyîì×5¯k \"·óyÅÓfØ“mŠvoò²”wH]\000å„nDÉ„yOj#.ÃI˜¸4ô¶À\r\"1×÷C½¹„x“ˆºˆR´=~ü×ÜâÉë'Ç?ÿvBšUÖˆ´¿¿*Ëw²p.Ë\nÿ‘UÎ/í÷¯Ş¼9?wÜqèò+€gZ.–9ox‹ê‰¿ç.Êgø²ÛpÿÕmÖÌã´j2®0Nú¸,äMÏõ“dÂb7™ÖÇ~KÄ¾ŞƒP†>UàºI\rÔ\rh¨4P «hÆøjli7ˆ•¡HäÓÄ}uU‰ë€@˜ÜSæ 0¥¸AÉ\r09´Fnä)û °³(F¢'„iC	n€Q M0‚=XäÛ±}”UÜ9,‹YYòœËü)7½(o¸ø®³¦Á@\n-y5óÚuî£ˆv4çYœ×´a™øò…ó¬Ù¼ª¯‘Öî¸ÿØy	\"˜ßÙ‰ì¹«\"kêiZ8ßJ»3>¤-U~«.ÄF›ÿ½‘€»‰'Q\000ä¦P&õ€-)Gä+|G@¼zb4\000'_†ÔŸApƒ Ië9G,Mì_—H¹\\|€ÒÔúÑAµj¸àlAÏ¥7fÔïæÑ#›êoÜ l¯Çp·¶“‡/É9H›&çÎI\000è°Óz¨¥‹™¾V\nkídfzÁsCvâz ;\\îL;´³8?àÍu–Œz`¿pŞ·<‡EƒÂ]1Èm\\‰ŸLæFD•Ü‘€c¸	eUÂ¨´¶DÃ¶˜Å›úÙHï€çùİUµºxˆA°¦Ì”ÃWßÔÎ90…)“¶†oµ}:„5«ª\000ÅÛ#ìştàï‡bìQ¹lÀÓïIAb2	|\000´7‰5}‘D¢‰…Ñ$†¥8OpË‚ê_¥×¼£è«£p§yŞN»+È€5œ]^¢dLA¦#gü®²º©RÀâY™—‹²ĞhŞ÷GšÇ5;OĞÀFĞa¦œóv)}‘xüü9¯J ˜CØÚÎÍmYÎş¢€.ex ÀØ€‹oõ…+«ñ$³¤Ôªnœ“Š/ÓŠ«' ğ`Œ›{}¢›¡'°	¥\":v©ïÙi Û&T€øe‚~ÏšÍ4 Œı‚Ø£`g¤q6Oou<{â^g³÷šO¯s˜i€ èg·d7BàD‚äıLÀë€\r‰jâQs\0000¦<¢)R´í P¦5$1È¹Ğ0¿\"×KĞ‚S5\"0`(év™\"zHµËØG„=Õ(»,[BOÙ‡ºóÀ[¿y­MÙ ÛŒ6	\nZ›­M…Ú¦‚CkS ¢µ)@	Z_£¥µwû§¯;»Íèv^İ¦(÷Pş\000GƒÃ‹Ô_/šœ¼œ¦È}`s³ƒCÿ6~w/’öóÚ‡,¹¼p$àÇß,yaXàß‹öx5ôğœ®Ö4:·hµµZV¿)şõEû“b–ÒğxUÁ’k1(Øƒ¾àŸ)‚ĞHˆx<Å§! Q¨sÏ3‚4bCçÎ@øI,„Ó‰‚ü„€\n#ªµø\r°ºÙ±ŞN(¶E Hu‚‚~©dmlYgPAP‰g¶…¸pzYĞa—´àtæ  9O­è/å£³i¹jLs×÷{“ÄLùYtˆ&@Hƒ»‡8Ğót¢ÿåtÿôÉ¯Î¡ s¤8yÅgÿ\\e³Y6…Í€ErY•Ğò¥ÅZ^ğiYÍDLÅÀ™+e—`}ƒ< 6;¸@ı¨{nQ‚s—‚&ĞôˆB†ëmôqÖÆ9(¹Ş8¯8Ì]ñÚd„Qò€…E­Û]yW·öbÉÚ3tXV>TØ{Pmø¹NnzWcïwëc?€vvn.nÀÀ®@ıá–$ ¢Îf|İì	C³ÇŞZKS‚ãv¶£4'M`’‘IFSè˜¬‹òIü¡¬c¦&8 UV«´ğ9ŒÍ˜†¨]X´»ñK\000oáœ§wyÙFˆo¸=~ü?í?–NY5ÀOî#ëß(Kv~üÇ×/@~İ¦ÕåZ¸¾K«E9ã 	¦i«Á	AÀâ_ïÏı(m”ü\000ëÿå¸Ì*€n²‚£%ğ;L„Şö»¼á;[Æ¿Ê‚;1†ï{€YBÿòR€ğ£*½{şuÖ”Õâ6R¹¾Î–We]gKÇhJÚÇàØ6+ÿ‹²tø\\o¿~%##Pä! ü_@ÛI–_UÙ\"½ÚˆºA¸MVàB4R©KÃøs0š6<)«&Uá-¨w›ı<lq ¬k6‰1~,qtÛÀ|ÑM„üØ$o!‹KÑà»ıÊZ·!\000	Ä(XkÉÎdÂ~•ñ\"m!{	Ù¼Kñ2‚vûş–10Ë\000÷£FŞxk½K;şV2á„OñvéÜ•«\n¤PÎ‹¦vşzÄ/ÓU¦Âß„ÈBÅ‚VR7®tÔ?Nœ‹( ü•:MÛßÕ\\#`\\ÀcV;U`ÙÁdß4Îm\nV!²¼:ƒ€ØÙ°Ñ:å§´^r°füI1“ˆ-ò„ç7ˆÈÎPz´*®Ò\n\\­âjVeÅõ€Ïge>kõÎ€Ïá§1\r¨õnÅJ7\\±ÿQ[ş,T¼Õ®­T<l<H6n¼¥`ëi$,}a¢,Ùa¶Ì¡9 ëj²ù…’q¼´0ç”˜j•†Ø±Š}„ÛóİÈgmÎ}wÁäƒ´j`ÊVÀ Âğ9ZO>‡Ÿ†½™ıtÊjZ5 –5|1	“ üèmƒyvİs“Íµul?ÙcÏÌ¯((õİ˜…ˆ“İE{ì·³é¡f)Íş* uÂ&‘¢ ïd ¤{»Ä¥ÔÃpíÏJ£3´FD^!‚îÒj¦9·A&¹\rD¦ì5î€´	©0ã0-î@~ŸÂè¬Á™^ßõ0?Êªæ°ÄåğÆÅ<£Å\\rNHà&³ô\\ŒLYúºC0Šÿ!	Ñ\"C{^iË¸ˆ–dË*ñ&$t=O„XoÓ»e	@5—Ü–#(íÊÊ-íÊÌvuööq;–veW–vesëJ&´êk.\n$A Œa)Òˆ˜şîëAøÌiQŞåÌ%›àmÍ>2Yİ ›`×¢½ÓÇ1óœO<Â$F· DWÒWh5‘“5Î»y‰s×b´'XP·Á²aûGÕ\nşSi¿ß!ik?H©åáÇı|9OõEZÙ]\000Är­9†¯„3ìËezÀİàû¢™à78Á¾t¦'\"°o £ş!>(Óß€®³Õr	:ğã¢@Cnä|6T8JZß~pO…„ ¯-ë#î­FQ™¸#ÏÓª6Ywÿ¦ÌfÎr•ç½z'îô@ËNÈ² 6eŠŒ&¾M+šák¬€pgYá\\‘5¹(×>\n:>	wöáfy;zÉsŠ²Æ\rSA4zÙËrùİj‰êT8XBfåå•ÍŠ´×»²&•X )[0:ï¾¹A3¡ñøvéºîC³_‡tùxÎüD»RTìW³RŠ`Ûì!•¢Üzu!P‰?åÍüBÌxÃ+ÔYJÒ¬@Õş²MÙÂY]g7Ü×Õ,„|æzŠ# ˆ2B†È]cœz2™a$•¤<×|ÑÑÓ«Ë¢˜bÇ -TSeÉÄ4|”•¯i6`iWöa¶«Û±ôWveé¯l¬1Ìòtz]• \\Ş`Â€·¹Â.ó Ñ…ÍfS\nÆ±ªiO\nf^8+éÌÙ­¦~7‘Ho ´“A :Ş†”Å%ÅåÏåm¼#’ GÿË²r3£\"²Ar²iÜËĞ»>ñE	ô¶8ÛÃÿÄ‘¯·%nõ0´Ë?ïãà·à¹)t€ÂD¬l™Ş®'\000=kf\n\000!”ä¥cáî@DËòS§uÄ…¼ìMq ÄØb\000mıy¶Ğl_Ÿ?9;—3ÎÚpĞ€N2ÄP‘]Âÿ9eE˜wÁˆ¶¬VŞ»¢»åº»MÅH›Dªì:KoP#=-+¾\000Ô½©óòV!˜¤,$ôcSÙÈD-ªÉCAw£^ÆZ%À¾Y£OÔÙ¸¾UÇ­6şJİ™?¼£ÿµT:é	™!ÈTO”¡‰„®!»Z%0–şf÷iÅÅM*NWu5Ü†bdm¼Qù¥“íd63PÓ.›¸P³úT+$n†¢\\-Py¨…¬U‹‰-€Ì€¨õBC¬¤Ô3aĞ:¹99VğETpCÂğ¯($¢”.ÖWmøj°ŸÂ\\ÑJQQúÚò‹)…u±À_â‰Rª¯Ë\000˜ õÀ÷DåÚó&DÛ\000ü%sìÆ!Ã1År±;ŠCXCc1ŒÊF¼@Ú¶Ñ&AkS@bô“\000d´IàÒÚàim\n(µ6°Z›f£Mº‘P`´I1Ú$ôë”eìoD]×&Jb/§Aëf9ü]7i1C$ji&Îj3RJ¯MÜ&Ç¯(èÒµ¬-@ëâul„2t¦&²Nõœö¾‡©*Â÷6“oÈ((FJ²·[nO²†œÛR˜‚vß¤úDg«‹Ù\n¬j\n²´kó-#\\´¼Ä§Ê©H–•«ª> ©rO1Û—X0t¿'#ï`·åx»‚µšÎRuw0ÇyU6Èú‰\\óf7«%W’Iş¡³-KŞ$ó>ŒFóş§r^8?¹ÎK0Ä°4rÈDeq6Ó$oœ`É3²Ñ4ö×£CæAdñ	ËïÖ­¨ƒÎævà%âVŞûº¶ğ©˜ŸúL[Zî!6áµÄü¢0ºĞçó1´3ê†y®9_ÂüU–Ek÷Îñ`¬ìŒ7mÈ£Íq×\rü[Âİg(óİ¿I³#ç¶âŸM˜µÏ°DŞÅèz¬)Ü,Š)Â	Ö;Èyåa\"—‹	şU8W¥ƒwĞ½YU¯Q] äŒüZ â0	àzwÕÔÆRzı Ğl²æ^4ŠŒ¬İ‹\rƒ·%ËÁú¬vö3¬v:¾Ã§¥ú\000Á‚ ş×¢UeíJáÃ5¼>0Ô–;Øµ:Z#$wE6¦öéÂn*ÄJˆÒÀüH\"‘tØğO—xü§¼Ô¿Š¥‹%^€Z)1ãwXrƒ¦Ål´¢¾E°+¤h±½VCN(Uœ­ª.nx&ûy_Úf4EĞœeÁx’â[Í¾°+…øN9ûH¡ZÜ)CFÔCú‰l[XÓñœÆ`_¶À÷ÂøÅÈÁœC€r³åq›î[Í»‰<ãøV^+¶<®6I:§ĞWN'¢²e1z®!U€-¤…»›¨=`ãàRpÍc_k£ö˜D¢Äù¸\"DÈ¯€)s0Ãó”~‚D½1á[âWéŒÛg_­9ŸyÃ‘qõSıÇ~–û´I16ò(©8pQğ 2’P	á1;ÏL'ÁP˜« í	¸‡^«qeå\rË-ù~U¨v1Ä\"ˆíÎ8;æu]t¥¬£åÏMRW’Ó’ÍPñôÁóf¾g\rbì!˜û¨½ÏvŞ^ÚÎVXXlÚór±ª®ÍzŞ=ì| IE­E^vÂæe‘]Zr‘8a!ñ¦84‰»¬H»£—¯ô§—|¬SìzuÛ³æ„!üqyÂH>^µ^·FR\ræsÄÎÜzhÎ8/ñ”r€GL=‰PÏKÙ§‘_ò;ç¤\\Mç£yY7«Årıİ$Ä%WXWz£ÛÇYß•ÕUÓF1ÕİN‚ß?â*”H¼}]tIcê±¯§ŸŠ—{€O‹r‹ÿ?g.—°˜z‰)¬/ø9[€AJ'İ¬Îé‰bWxr\000X¾¨yaç~-èÿoëkæPC­ê4Z›2“Ö¦LÆÖÔ/|5ÒŸ²Ğ5‰ªKß6Uy*ÛöÈ-ß%¾¯Áƒ„hØºA¤j§\000DãÕªåBÄe³c\r|>xdÖ¨Ù×%RİİPÖ«¡ŒƒBºíF]? \"ßøAÙj”y\r­ë¬j„œŞÃkØÓ1¼Ït<JØh3òÊË»«<­k_°Hù}!´TÌYø`\"&¾†·¸^ ŞA†!Ñ›Äzf:Ä:¼Üg­ğ»¬÷Ç¯\000jÓkñÑˆÕ{?]ƒuiî>¶»ê\"OOQ†‰iˆv“öi·)@ ø’S¼/Òa1Ş¿ö#ÛìW(³D,Şoã?´L	‹Y¤0nTbÛLÛARƒ®y¿é¾«A=é–‡J7ÃæìS˜²DÕjŸA¼*åê˜Qî¡®ÃlW—cé¯¬ÊÒ®,±/Qüop6ÑT ÁãSıRtÑ‘(Áa'Şğ\000°ÇxªWD‡6¦8jì¥+\nKD`g¦¤´\nÙ˜Ra£)©—«aÆù/§«ZÇk‰gùP˜›ê×tùó2ıWwÉ„z“Jƒêµa).é)ëÑ\"íÌØá'İ•¢”/«ô:]q9~=Œ3ø\nb¡6½>H¿CÕĞ¨Oá7	¡ ÛB’€ÀöÚûfºØï`T´ß«ÙöĞ^“†7´^KZÈ:#†·Qİàİ@@¼vÎ<ÍšUšƒ°kÇ”‚¿ÖúD¦S  Äœ¡MÂáFŸoµ¹7ó­æÍûj@š2*A %ªXò(@b±Ğ<Œz¶êTG]wX^^v^Y0YÁI«µOµg¿õÊ2¼R«ÖO¶ÖÛc §|†şéï»Ù+ù)qg±H[-ªZğÑİà}ãFÁ\\ñÄFÁ\000Ú™ìê¹tIš¿ö5Â÷Š0EjÈ‰ı;¡Ñÿ¢ËéN™}˜îVê\000¼\\¼âğ—ëº£‘8Ô5ôã?@/a¥«ÏğcŠ„ô;ôXT —¢ˆ˜mX‚—2ãí«zI\\ˆVfŒĞb¯¯ÃÆ:ø¼„Òê\"­²U­º}X›ˆÙ4Ö¶5‹xá{eã5Cõ\n¼b:{¶‚½diQƒ\nÉù0!’¸-m`qĞÿ­Kñ“)šˆáU>€knâşH6VŒ…LØû\n»bŠ‘6`-?œã½ãbÛkd€X¾ê‚E„8,¬<ŠR|‡·FtóŒõúi1^¸=cÊµ·â±eû_t–¥rºª½Œ£50ìyÆaàğ*èßóÄİü¨nÕ¤ ‹ğÊfâ&D¿×4RL„F¢Abö£ÀÜ ³|cH,fĞâñø1i­Ú÷¸-ŸÁEUü&\nj“°w)ìÓÚ|×@šm¡X7^-¯µ){ÒÚpÄuñ	@Ó3NÄn€±N	Z›'\n\000@S?ÑÚğÇ¸=/é{W!©µÁ:©Xgìı0)\\…„m\nÖ¹g*øª>k%öúë84]z•µu&4Ş™\000}™-.@»Ü9Ï3Ş4kêv¶¬¡T†Ò³Ûô!bíë¯cQE¹ˆv³*ómrŸu™´QÛ„”,Åc|ÎQÅo§Y…ßƒ}uõ,÷6ªçT>EQã– úâ*\000UHQˆê¿ZaQı×Ò­|şÔB¸#•ûréV#îPEã-ä€pÕ\"Ùû\"n|$_ùäË¹ñ±çƒ¯öÆÇ~_Ş²ˆùäwå}–ÉıÆG‰Øş,7>~V*Şj×»¾ñq‰´Ê´‘6÷ç¸ïQªö›¿:ó­ Ùõõãìjiše†¡üa'|O4EA´ùà„í‚…]¡şÃŠä%—P¾ábUò’ãè)ÎæG—ÉwI¥‘Ú°¸ğd…`p`MsqöêoZF2Œ¤¼P†úÕBCÄO:Ñ,yG•£`ökn<#¢Êÿ“ x~—`R©\000ºkQúb^å“s`±Ö×‚5´‘a‘ğéIÕ¨B	Ñ©´pWÓëÙ-Ïs^ÕêÚ€qX€ï”ìŒàö+0\n„,lúB™Ë%z¼İ4–…I/<ÍñùYç$•’Aê»åÃœ¬Ï¡MC•éÄÆGcŒ_q}¥ \\÷G—‘JÇQNDéH)ŞwhÀ ÿï¦»H¯åÒ<†Õ–Wm¯4èycıÁ4Ğ(T§.ÅsÀ‹åùÌy™ÁD€Ÿru™ƒ\r®L`Ñ'NSIAih›9æyY•\000¬…:s°À—X½+—•§Ÿ^[µ !eá¿ugT<ØÈ˜´l-Ñİ[%³ˆ	ÀçYd”D}^+İ„…â=Ô8ÖÂé¾ˆÛ»>QŸÕLÄÍ/,r½Xo ¯7p}õ1V¬»õ…»DbµèVY•^ÅIøìªzÇËÆB|s6 F8_Ù‘}!.âĞH-.ÅÁ@Ù%ÆZXéƒ'X¯qdŒé¹6óÑH_§\nF3}€	åaÏlópñí³Æ˜Œµ0&?£Fú\0004|Œ¡ÆDÜ»¤µ)È[—ZiTôøØı`RWçYB©^spà½zìMşólµXXjñf!¿8j]ªò‘úv,¤âèøPã\"†——|¹˜…\n³\000ö½X¼\000M˜’6Ã÷İÚ—¼uö‚OÁé	ñ4˜Ê,‘ëÃ0>&­\"\"Do‰hÔF	z±Qƒˆ±Ú0RÖS+úÔ½˜úÑÔÃÎAd»á³È.'&kÚ%XÚÛ‹gğÑlYÚÅk{¶ûÄv¡¡\nYk;õÅ+Ó^b»ğÆÇÃ\000¸°9¬í‚,í±xô\rß¤&¶ıa;Â/›–vÏ–öĞA™@ÿÀŞÎÄ%|Ğ?&Vø…¢^¨\"¢kúKädiüÃ#|\"+|ª³´ûâ©[¤+~Uâ$kêÖÆì^Ç’ÈêŠh8ÀÚÆŠ_®r'Öİáí\\(+Î}z/BŸ£I0ûU—±™al'ÓaØq„ï–ãèTç³Xj©¼Œ÷nlHÔ[ETë§İé†IsÄ\nŞÄ4±€ï>â£é‰®u¥ÉµòUè±àÑD$â”=q¡(Ò¯ñà¥ºn£\rOÈ¼c¡$p-ÑOÙ²Ö\000-xØæ'Fè‰‘\"f¼k¨@KkkË\"a-^¤¿¿¨³{×Ğz¹ÜI–sq&äú3µY`÷´üLİryß}s›*+½&¨­­ì;İÓ‡ètls$˜ÈZ!ºSGA,…UíVÛLˆx‡—ˆô¦¿Á½;½stX¨ìòoòDF“<¼½-ê%Ç\000ï$Ùo@\"dM†·^õ±¤¾»•ç9¯VÙŒËšÎ–Ø,%n{·otì¬~Ÿ%¹)CS=T¸CHš#Üjñì¤IäÛ->Êï’\rä Ğ:Ê‘èLò`Oª¬e8Ãé^yş-<ã–\000ÿCjÿ!µ‘Ô>€„> WN¿Œ”=ıÊSöôËIÙ÷‡(¾Ú”}¿//e¯OùÄÉÎÏ’²§ô”½Dl–”ıg¥â­v½ë”ı(ÿh)ûşÒtãŞ?Kúşhüû2÷ıÙQ+üq9¡ÖÛšã±cé©(<xŸfÆƒ^ÿ„Î\rGÍ,İÚJA¡‹Û\r¿=R§w†k¿I\"Ï19œsÜ'ÁâöŞİ>Ö9LìIéo7×pu(2Ÿ½(à»Ä/¸í?Û\n\n †ğX¹u¶„Ì—Jë“C-biˆyÉfYÈÄo#>Äg÷¬L…o\"¡·T3¨®L¾6\nÏQ/ÄW¶K¥íV©ãõÒ* •])iÅÜÄ³j Õ˜GüşßÖ¬­®äz>¯ìïÁõo¼™ÏÀµ$˜›—UxB‰u@5f0[ºwÑôŸ»ñµà˜Ä‚íÉ+û=„gEZåà!b´Ùuşz\nÿø›#!²‹ö\\*ö0d ÆÎk˜w\\\r¾¼4	}—x›Vsš]\000ëÖí½ˆæb²ş€…vCâĞo‹u`%=ş GPç SX†Y€¹B\n}¦W&QàÆêŸ˜«il§ÒOcºRˆríIø‹;L©y¥ÄÉ$Âì‰yÙúBÓêó‘ò„àÈD¶—Õ·\n­ìƒÏJE“Hl°`´/a®FĞlK²2e¶pñÁâÜ•nzg/-;WÏ¸aÑ“­³§ Â¯kÑ÷€§…‚Á³¢\"EI©Ò[>ot&jˆöñ<\\İÇˆ\000kÀ¤.òÓaïö_Ÿ?9úÁQ_¼Thò¤çÃ0.6!nÀ£ÒÊ\n±ÂÄWkÿ ³ËÆ¢5¥n¬áÇwi3÷wêõÿÿ",
-["metadata"] = {
-["guideId"] = 878253169,
+["guideId"] = 1717964733,
 ["retail"] = "",
 ["group"] = "RestedXP Speed Leveling",
 ["internal"] = "",
-["key"] = "RestedXP Speed Leveling||a) Redridge Mountains Midnight",
-["version"] = 1,
-["enabledFor"] = "Alliance",
+["imported"] = true,
+["version"] = 4,
+["key"] = "RestedXP Speed Leveling||a) Save the Hippos!",
 ["length"] = "616891112",
-["name"] = "a) Redridge Mountains Midnight",
-["displayname"] = "a) Redridge Mountains Midnight",
+["name"] = "a) Save the Hippos!",
+["displayname"] = "a) Save the Hippos!",
 },
 },
-["RestedXP Midnight||a) Item Booklet|701"] = {
+["RestedXP Speed Leveling||a) A Ruby Lifecalling|1349"] = {
+["version"] = 4,
+["cache"] = true,
+["key"] = "RestedXP Speed Leveling||a) A Ruby Lifecalling",
+["groupOrContent"] = "½ĞÁn‚@àû>Å$œš(*ÅHŒmSÓÊÁÈ°Œ¸u2,66<|	¶^ê¥—ÿìîì7ÿpè»~0s]×Âb2¨´°Äµ*˜+ç²© ¢ÚP¶YÃkE”ÁŠ¤U‘«ÀŞÀ¢&=ÁJmI¢>Ÿ©Â¨E÷¶v^š¼‘ç\r|×·c;ğD¶qq‹’œ’uvÀÊ‘;4i“¦š’3ìTWwŞ¨51ê=t“ZmÖÉc´|x¾_½%??Cü‰ã¾e[Ø(%U|?ğ¦†ós¼¢µ\rrN~Ï¹Æ¦=Üó—¾l¸.Ù‘\\Öõ;ıf(ÍE¿ĞJî¡«Öìè{…õrñ”¼¤ï$Mİ›ey¨4:«îUÀìú3\rª¸ôwºü·¿ş",
+["metadata"] = {
+["guideId"] = 2204635286,
+["retail"] = "",
+["group"] = "RestedXP Speed Leveling",
+["internal"] = "",
+["imported"] = true,
+["version"] = 4,
+["key"] = "RestedXP Speed Leveling||a) A Ruby Lifecalling",
+["length"] = "616891112",
+["name"] = "a) A Ruby Lifecalling",
+["displayname"] = "a) A Ruby Lifecalling",
+},
+},
+["RestedXP Speed Leveling||a) The Rivermane Tribe Midnight|1384"] = {
 ["version"] = 1,
 ["cache"] = true,
-["key"] = "RestedXP Midnight||a) Item Booklet",
-["groupOrContent"] = "uUaoÚHüÎ¯xQTµé…c ĞoizM¢^®iÕN¨Zìg{Åz×İ]C}Ê¿Y\nIîøËóÛ7ófÆış$šLgQ\r{½cË^HÕ;^³uÒhŠzÇ¹5uEsvÓowt+S-óÂ÷µ(™Ä	İx.é1+Å8•Ú³ÕBõP_õ—Éªé½~Hæßî¾½˜ÿùı²jhüöÁvßf“Ç½××h­B{Gµã¬V$Qà(3–¯YIŸ’PÊlğS“7”Æ8¦M!“‚Œf«ÚºšÏº9~{ø<fÑ`øvğàÿ¾´óè\"ÿá”.ê¼díi^k^Ô‰eÌâBsK·BjB­ïÑÑ}!J¡ßİŠœß]×î›£ß×fÅ¶»f<ãöšÏE­SŞÛºt‡İ¯úÑ²¡hü¢…°v×VÂúæ•+„Ei’ÒFz óh[*cRU;OœeœxwòbOÇÃÑ¨½ûF¯en¬ğ§k9º3[ÅÛÃª=<;è2D]€MÍfÉÖJÆô‰Ğd9gÍèËY€çhğ‚Jñ³m‡!±$ÛĞ˜'F§î¬wVš%İv³*_Z±ßÈhv>LÚ›ºÉÈdth\000VŠ*k*V-3`h#lŠ±]a¬§Tb):9Øo4Œ§ƒYÛíªÖ(#;™k™ILîUCKèÄokÖÜ®İUæ[Yí4å­€Ü &Úˆ Ö°¢İå[iÒ0¬—åáq<‰;…]™%È¥+%!\000ú(é¿Ğ<½Õá{†“öº!•R×\nÀMÁº­*¤'IÁ—:}‚?ŠÚÛÿ`èF wµi“à¡ƒIXè—\\m3ñˆÊø<\rºÅ|`åTØö…†Íì®Y­ºV<¿>êI4j¬7‰§³é“=¿g®\n£ÊyV\\×Ö¶»ãıÓñä<šÎ:G}€S„æLºbAåã-.Ãz[¦V˜2ˆÃ@®e³o7NaÑmˆd…Çæ\"•¾4Ú[£èŠ1• ¥ÌŸ_€\\gÇ¹#lÎîèù0šv;¸ãª£ûAlı{ü¿Ø=ü¸åşáa|>œu¤_iS]Ø²¡0‚)(;ÌØµÉì…[¹Ç¦uÒû¢E.é~ÅÆºRØÒQŠĞÊ9ğ+¼ ­{Õ\n“¥P”#çNöífÓ	Ò²Ó’1¾ÑŸ/’øğ		jz,pÖ6­ÓÚÖÔx]´ô;x'q·“´áAÂ©nM	3kmDCwğÃ/á|†§`´£åĞˆ K1‡pCšîŠÎ»ÌB.¤Á\\(û¢¥oP|¶-šn;y¯˜kÑÒt		¦×°n°ü>Aï¿v‰§» ƒìñG`\ni1•F‚u!ß·)‰”Êt¤tÖä $äD4PƒA\\*h¸l¡ºi9Š·îÎƒŞ%ÀXwë‹Öï‡^Ú²ı¸øPª #Ş¦<¢$ı_Z»WÁW+ª=¥‡Œn_©ÊˆÕsŸÍsï-ñòNC¨}²¹•e)\000ôß",
+["key"] = "RestedXP Speed Leveling||a) The Rivermane Tribe Midnight",
+["groupOrContent"] = "íY[O$»~Ÿ_a‰‡ädû˜¾_ÎË2{ÈÂ‚€„³ŠgÆÌXtÛw7\"~|Êí÷…Ën€DQ^@3¶ëò¹\\_UÍÏ?‡N'ã¸“É¤%aédçÊ‚	œÉÎRŠ*Gç´(éâ·3t‘Sº@Çô¦Œ/';œd‘ŸĞåŠ¢sç2Â)º”lFÑ	[p¶\\•“ÆK*9I' %Ÿà¥(\nÛòœDVà(˜ìí=\\ÖûnÈœî®…LÉwç+RÎªÙ,¥×¡¿”ôÏÒü×~(/Iz‹@ĞÃüü·³ëéùÑá×OÇß®¯ˆœIrGÑ©OpIä’–Èü~‚É|NóyqbGhoo_üBi®#qƒJpèW’eTj£wæ\"ËSZÒ5+WˆÓ€[+¶€|!Ö“”Ìhª`hQ¨A¸\000í¥3Á›ÓZ£å>.Tj,9½‰ÚŒı7×r#lûV”àĞµÛ²';%+S\nPL§ÓƒO¶=i*ÖµûRŠõƒØàŒÙğ´ŞÀÇ±zØõ­ÄØÕ}Ó_¨ÿ¢¤\"e­´ÃW©\nÜ(’ôï“´x±õå^íŸ½6\\\"O»Ô•*aŞ¯`'ä>%èWˆìLT7Ãl¸\nK•äŒ·Áv	|6#4gš#ì¹£‰²oã$±‚\000»M½<&©aéƒD„/ú{¦D‚«\n+¢±kª]Ş\0004æsOâ'<§2[Viãä*–R^¶wò¡k“!ÃÜ­Œ3Á\nÁ!½H‘Möv×¿¤„ü¸U`84v+#7Ñ¼ØcªRRçùÑ÷pè[A‚¸$/\000#Æö÷^×ˆ²ÿÅ»én¼£6©ÕÚ/­-DŠ SŠ{º€ÛùÂÒ´ÁñğëáÉ·ëO¬ ¤\000Ã>ËjVt€ÖNÁ3 æ5GÇDŞ‘z05ìº6£òÅrß\000V™˜¡\"ıUOtã‡WÓ?:»şO]@ ‘\000 N&GmÀÍ+Y¹;—¢(V„Éİ:É¼lãí eó[’Õ%k?Ï¾\\úê`2œ€‹´œ–Äš×$D‰>VK(S$¹WÉtk‹=àƒ{Éà*Æd?È@¥¹bºR[wÚ	M¿€ÙÓ\"OO/¯\rµò÷ş(K5ºcŠ&¸*(rÜ(‰ãÇñvx»„ğ÷ığv7ÏšáaÏ{?ó¼Æ<M€ãÏmÌv`»ÕÁ¼Ÿí¾¶ıu²îzãÕ7zo©5ùÂy5ŞépÊéô‰Éà&ãox§ŸòÛm:åo¶½$çoOšÄ6ÎV³„İ¢nªŠÚ¦¬=¥6§å“b6ßõØ®‰£×Á~Ÿ/SĞw )M¿|í®Iú#ş¶àx	$yuI*I¹±+tüí®)+Vè´*•È+Rvás°ã[¡ƒƒ¸S_±k§Î\000‹ŞÙHõ“fŠ'±ï²¾Ùhg×Ïöö KêÍÛ¬±íhW$)ßĞ‘9\\ÂŒ–kJ¹âúÚvuHoPŸ6)Ide7Ù\000zã­ßófşHj@ïıÖ+ˆwDXÆøRu‚,&ÅrF$º2[	q«™ÑŞ)_æ„£…\000“AkI¤BêOÆÖO‚ÿ¡D·*M‚9ÀäLQU(­Ê@À+&YÕšD«ó\\Ïªî·õ½o¤i;Ğùîy°^‡5®„X Ğï²9YĞ^^wqÔÍ­ßñ^Q{Ãæˆ¢sÛ½ ¿„È»ñºuXê©\rä#µ9ƒ•Z\nGÎğ]U²ô–@“ª%;9å9õ|(,EjJàcÛÕ+Fcºn‡ÿcïëÿ/Æx1ı€{­¢\000pÑîƒ¬GZDË­:\0001şÄEı7p¥f¿–+{ô×nÓô·Ùöÿy5ÿEzÈBõ	pË²¡Ñ‚3(‡r©°= `<ïi‰˜)Ÿš›¾ŞÌnv3iù¶²ßuM”C³¨ñ[ÑÅñ¨$%|NÕm¦4ƒÚ¯3Vˆs¬pGJâENÓŠßRY|GQ1Vp»“Æ›ÿÖ¤Yq$`ç ¨†BL©‡—«Äªä¢z\\‚N`·²¼ö3>—ªP¨=C*eB•»pïdIU0=^	¬ÈÆõ:âÀÈèb€8V[7,©¶½îÊÜşô¿a¤îşö–üX\raÉœòhíÔô3rÛDÀWaw	D…Xyád`!œruÇ8àŠx'ñÈ) Y7n>Ébƒ¾p7Ü¡£rB8)WL‚xÙOô–f&ü¡¬ldä–¯¯ßŠ¼‡&*İ´¬©š¥Ôüs#EöF®Ä›IË@d—¨L)\\4Äo½¾ª†<¿tã­r¦Yz¨ˆTG éõ{u†ÛvÑc)n»76ö>—9¦­	+4­äıw¤Ló·‘Ï4ÍÄrioã¸îí}Ïr»ï–ÂúgJß×ÅæH<4‡×mâq£rÄ²¾5aÀšX\r&>Tåua#I–÷gş[:×Ÿ±yLóË<y|\000ôvüıÂX4nĞóƒ½UW·©¢~(¬oå:6yQ€÷X§®jTëµ™şyÏÉ˜Ïî….ã\nN‹[–+á#ƒƒFÄ‹~‡ŞV6öB+Âµ­ÀµÛŸ·ÔnUfõ£ü]Ñí˜÷oÀ÷¯",
 ["metadata"] = {
-["guideId"] = 3670019205,
+["guideId"] = 1111430253,
 ["retail"] = "",
-["group"] = "RestedXP Midnight",
+["group"] = "RestedXP Speed Leveling",
 ["internal"] = "",
 ["imported"] = true,
 ["version"] = 1,
-["key"] = "RestedXP Midnight||a) Item Booklet",
+["key"] = "RestedXP Speed Leveling||a) The Rivermane Tribe Midnight",
 ["length"] = "616891112",
-["name"] = "a) Item Booklet",
-["displayname"] = "a) Item Booklet",
+["name"] = "a) The Rivermane Tribe Midnight",
+["displayname"] = "a) The Rivermane Tribe Midnight",
+},
+},
+["RestedXP Speed Leveling||a) Professional Protographer|1347"] = {
+["version"] = 4,
+["cache"] = true,
+["key"] = "RestedXP Speed Leveling||a) Professional Protographer",
+["groupOrContent"] = "ÕX]oÛ6}×¯ ``]WE±$[–ú sl,K—IwŠ€–h™M\n/€ü.%Ç¦%%M§Xe’÷ãÜs/}p¸A¹®ëYVG…)³:wDæTpÔ³:©E†.I®Hòå]e„$è¹#ŒòÔêp¼ ¿GRÌH®a¦?”H%ÎæDZÊ‘ğ³&2«Ãğ”0ô¹Pc!OÀ\nøº?c’)ËIáòºg÷B§ÚƒĞ	ûÖÑÑêº42Ã19\\\nÉ’Îã9VÓb:eä&è¥’Ü;S–}ôº+uÙ-K«øòËÅÍøòtt~òé¯›ßpÁˆD¿Î‰ZIÇrpéAøèè¨\nCÇ† 8ôå(,S¢Ğ'Ò¹.$§¼™Nè9woé±ÂL¤Ğ¤`3\"“2%UúŞ¤¤CAğİÌi“{ßëms?^`E\ni”p›~Ãá&L\\Áiåî€á;aÏ]Ç\000æ­®]·¹İîGH÷ï!pJâ¯ë|'Ç—ç7_ˆ0KĞOˆ1c±˜b¨¡4ˆ\000ÎË$GjNê(}Î]Ğ\\ÑMæ„e+iıbï+ùà?×şË<¿şì¾7cXÎ	@©ĞŒQ’—XC#ŠT ÚŞ©ºSË) K7òzA¿Í„£çt]{9¿g8ğúÌè|ôĞ¿à©¼¯*{p\"ñ-y=1.Ò¹G3šÏÛ0ñ-gc)€<<–TÉØhíˆw—+¸xË°wùz'SÔıiD}§çén÷è–`¦›ˆR83JÓ—!Ú„Ë}5\\uXŞPmæI}Û	‘w@Šù®U\"ó F­*cR+HC\000ˆ(ª@µv·oËíGN×·Cßñú›üĞ+ÓA°up!I®ƒæiYİ	eI^·–Ö[ëÛ4×øPÇ%UsÄÉ?\n€?£ŒÕØB˜.´ÈGPÖ¸>¡<™\nÉuºëíÕÂtt>–&ÆJú~èø};ì:ƒà‡¢~_§_çngN@”'bYC¸r^jk„4•!‡Iˆ:(á@ƒâ{6xêÖÖJñÂ¶¥VPçréƒû_‹½ÇZ¿mQOùŠì^ÎK\nk[OgúHÉù;…@{@X@Æ_İD1ĞxÍNèë‹Ô B	HK`õéãqBÔúÃÛôÇ÷+Ú~DØT×6õıÆHX	ëƒ?SY£'´Ï4¦Û5ÕĞß©¿­/‡F^‡ÿ”Â·ˆaÔ×ÇüH—`KÌß‹E†‡}:¼<“i“ˆÛm39\000)‘\rŞF\000Óı3‡'Ãnw,ËµM¡…ÙHém{öŠ‹)Ñ) S“_Ø·Íä½ŠÕ˜ÿOƒ&>]Õü<w~·ü=ÓÈLà&…„‡R,ù‹zèu_AõãÊwúÕKótS‘¸¹‡à,Ïç˜ÊÃ²X8V›‚o¡/Š]œÏn†/›ífÓ{ä¸%”QooŞ¯2ÊI›û–îŒ ÕËîô÷æş’NÛœûmÎ×ƒb¸·^xœä¡Aòv\ntŒ>º†m¹n¨‰Z–×œ¬´5-å·ïíYËL÷ê½ÁKêÿsŒxâÖoŠ´ útˆÌ×Õ3Jüï",
+["metadata"] = {
+["guideId"] = 320345131,
+["retail"] = "",
+["group"] = "RestedXP Speed Leveling",
+["internal"] = "",
+["imported"] = true,
+["version"] = 4,
+["key"] = "RestedXP Speed Leveling||a) Professional Protographer",
+["length"] = "616891112",
+["name"] = "a) Professional Protographer",
+["displayname"] = "a) Professional Protographer",
 },
 },
 ["RestedXP Midnight||a) A Gift, Given Freely (H)|1033"] = {
@@ -6818,71 +6808,72 @@ RXPDB = {
 ["next"] = "a) Breaking the Triad (H)",
 ["enabledFor"] = "Horde",
 ["chapter"] = "",
+["group"] = "RestedXP Midnight",
 ["imported"] = true,
 ["key"] = "RestedXP Midnight||a) A Gift, Given Freely (H)",
-["group"] = "RestedXP Midnight",
 ["version"] = 1,
 ["length"] = "616891112",
 ["name"] = "a) A Gift, Given Freely (H)",
 ["displayname"] = "|cFF00CCFF8|r - A Gift, Given Freely",
 },
 },
-["RestedXP Speed Leveling||a) Horde Spires of Arak|1333"] = {
-["version"] = 1,
+["RestedXP Speed Leveling||a) Brave Researchers|1345"] = {
+["version"] = 4,
 ["cache"] = true,
-["enabledFor"] = "Horde",
-["key"] = "RestedXP Speed Leveling||a) Horde Spires of Arak",
-["groupOrContent"] = "Í<isÛ8²ßı+ğ*µ•dVax[[~e'¾6Nìµñ5•‚$Hâˆ\"ô@ÒRùñ¯¤H€¤lùÈd>LjL‚¾/4ôæoùadY–½³óB°œÆÉÎ‹&²˜§ÄÚy1¼X’–ålü¯sr¹dlLNÙ\rKâtºó\"¥FèkrÌÅ˜ÁÛX°Œğ	Ùt¾ó\"Ns&RšìüıïåŠ\000³Üy1â‹eÂrvç³ê£³	~\"¤ã³x¯Ó1¿İù«µcË–,Iˆe;–kY% ãOY6—Ä‹ÌØ”}ÍwŒÍrb–í9dw÷sÆÈŠ‚Q!â(<fTä³,8È)Ï9‚x¦zø¯îìî~¿’ÄLèˆ½½å\"/èòíhFóa1&ì‹ïN[Ãdù7Ûü_ÑdN\000Ğ÷ÑÅ¿Î¿^œ|zúï/‘PrÊÓ)[±ïÂØ1èhÄ–9qüĞ·Ã½òÏó8Íngq–'Œ°å<Û1r*¦,'˜ïİİ³%KI>cdo|ÃÒ¼ğe\\$¯.gñ$'%ÿx= ß¯Nj:F…È¸x;<Ëf4o%‰t”×d¼KâÑœğ®ˆ§³œ\000çø-)Ò<N—$cŒ¼ÔÿòqÛ¼¼òròÏ”í¥Â™È³Î ü9§äà+Ùšöç‘Î¾\000J/ç«éw!i>L$ÑA˜ÀO†ŒL~›^äø·N9Õq\n”‚R: °B¤qZA®àoZdÔÄº¾çáºµĞ,zÆ$[ò9Š—£)Îèx­§®=p#ŒVh˜v­ *%š^ãzß­–«àg»h §œç’î³\"GÓy™‘}–€±gí*.uaÁAhœ>³Jâ¤aT”tÈuÃ÷–mDÆì\0008ÁW> $i`ı\\üÖì­Äº–şpğ>ã·Rs.ç,Ïc]üFåãñ˜ÉïÎ`9¹D•ÔŠ}ŒgL€ùKÀ(©Ë\"%G|¼ÙóòÒóÊMNR¹E¹Ãîî‡<nÉ‚ƒOÿıe\rì'Túçi&™Ñp±i¸~v\rñ¹†ÕCü,S¹e6HÉ7ì ÅWd'1¸Ş»øôåc%´8g2á‚$Ä*‘PE†{†©Z ¡TŒ’øk,¤¤0*Î–œJè%÷³H…wA§Sˆà,æ*6.¨bƒöÖ\"Ñ^“¸5§°áÛË1L\000ã\rÌ–\nÂ®aùÇÔ_Yrømw^5\0007ô§›‘¯˜ÑÃPVÊê–¡ZRØXÒ¤\"\"#‡‚/Èn6m”€zsI§¨ùlõÕ Ò‘ÎâREq³¥à£„.hyÕÎ/×3ÀÂKòdƒ‹—©Ê>¤Uc6šÍŞÊÉ>…Š$œÏ	½¥+äà/ÊsEÈ_ò„\nÀfÓt)€gşö£ÉëEê¦ë´dş™{†##™íkR)öIE`Ô½ì;Qgv&¤Ä“Ğ)èØ&l•@Ùj.PƒĞLD]şµ·\\¢öÅ =›2ğéªœ]PxiŸN ç¶ëº€ü{Tkr­³h‰(:¶ÍmAûgË¸2&—¥%IdÁ5°mÃ25@¾ç³:H<Çh[2©&U¾p‹^z-‡+±B¾¦`\"	ÚIœ“ßPşQÂ!AÇåòq™ş G0dp&ßÍS>š-ìœ ªØ¹2O0+*+•ƒ¯KØ,¾a}¤ŞÀ@O‚°S31$—4ÍXòD-k™Ë™HÙ|NU{©©¸Zè²Kj‹–…PÀX-“lÒ„¦ã®õjÈ(ÖµŸÒ$›\rÔ\\g¼›Q±@øát—õZÏwÔµà„ßhPÔŒ(4½fÙÁhÆÉqôf÷eA\000 ®ö8zX;ó]×~‘ÇX¹$I!iIx†–>j¯u·Œ¬Ôe`ì¾{{ë=úÀq/ìÙÃ¾kç{„®Ù³‡s×îö°ä^ßîZãOªšS1âˆ‹%¸ÌşVùLç¾í#DGã*_cA:<„€µfpÄÌ\000å0Z–RùL0ôƒ\000	Õú–‚Ó!tŸßR1Îv~9™Ô…´¢^$…²¸9ê \000j)ˆ)+¹Àé hoL`ÛÚıH/ğğÀ\r%ºŠƒ®Œ¹NÏ6Y³çûJVVqú’Ëï3g\\œUK·1faTÀE3´õ4ôÍÛ„ø`UôC\\€·µZæÀ9{=jíu\"}d\000N`8zTó†½,£Rdß”«{e×Låi°+æ2R5¥ù€oÔ´{é2h}6dbõ˜¯gÌñÙŠAvû§eN\000Š9t‘‘W7<Ùú{­â\ni‹)Oè6á+¹ìtÀ\rŒ Bxğ}»À\n\rˆ¯P¢˜Wh™îÀ¾Y›4ã4<@ô*P7Tbr UQı!·^\\ÆÒõb-˜*¦ì«9ºn£Š!j#A­Äî[Wà½ºÔÉ|µey®ïÔ]]Ó\n×]İºœgêy'¡äI¤vB¿•àaÓûzé·b-¸k\n¹jå×¡şZr£\nÚÇ4iKWÁÀz²ğK’Ê*ó$›ƒùnØ·Šdw#æÍü~4R-¬Ø^°Ïsº2U?ûŞëU!1˜AÖZcJcü,•û¬äì6}\"ö[³´I­5±fOëâ RAW¬+h…*£•¬ù$•aµ•ıJp¾ü“ixÚ\000í#¤B«ê®ş\000*®h6_”ÇGë#•„ÎK+Â ‚‰«\"„ İ‚w|±€š‹‰ÿİœÎ¾S\"¡W—%ZÆ ¼<æFöÀ_•müó%yU}M hÃ'7Vó$l’¿Ş„¨¦ş^cÊ'öŸˆ½ákE=‚N3Ião-‰À±•ZsŸMDÌÊÖ\\YıhòÌštÎÄh¥’'´H’iG¤úGßR¢êCRø¯,NÈ|>\"šï‹lşæ’“ODüí›î&™	A>¤DŠuk.oà]Ãi;Ò:\000§Ï'äšf±v·ëƒ\\ÓÊÛ\\ì~Cæê™íÜ°µÙÌò{^yæ|¶¦äˆÛ“}üvTZtGšĞ­³DÕQ¥4úÄeCŠ\räÿ}â·OD{İ÷OÒ)›4ÃRÓŒ~lZ3Q¤`\\Ö\000×Ø?S»7¡K´&îšÄ\"&×P,>Ñ\nxş‹…pÁVœè)&‹U£Tn¸mÄf©%r%”°“-–¯\\ÃR²§öû›±õ±9_>¶İj2ÌAyâyVu.t$]ÙÁ>o²‚\\}²\"WH•ÈÁL§šø”4â#ÇœYs…gÑÙ&¤›¯E?Næó¾úÉf‚ÛóğiƒJ:l#lyÎÓÎCÖD‚6m×T\\ZL©<Px¬Æ&:\\‘ıXôñÊâ©¯‹fCt+ôÌ«_)×åZ©ËÇäHÃ¬ÕèıVsdŞª±‘·ıûIEXH½è8nÈ3œÀˆüğöAédÒ!à.üÉ«lAáÃÂvÙëÖ˜%['è·§òZĞóQºjÈï*ˆkJñT	µğª‹_o`ø±e©=!é®;'ãÃšuuııÊrÜÀ²şÄü·Sjg¿­+tÛ2M‰(ÄNšé¼´ŸıTYqî¤f”&z®Ø~«÷L±Ô“Ç2Œ¬ù¼9(qGu^r0İ31ÔÖ(G”ŸØ-üOgC.9›\\ë?8­EÔ<Ö¥„MtËğ}eğÊµÕc”é”œC)ÖçdÔÖ_Iv†D÷»hccrŒÆz&Fİc»>¨Úr—'¸…uÀÆ‘Çt¬â„œXã¤«60Í”LkR¿m_-š!ıù×ŠÂnïT#m\rGW&Mo#<¬tƒÃ~Şúä¢4X9’B“B  îáÓ,³;dùÃÄ¤¶l|{`G†t¶8í†úíu‡eÃ‘RôüM\"ßİ=ŒÓ8›É£˜¸Å¸[£ïÛ@Óó,bW}Ú\000K«{ûşG*×Ş½ü#áSR`É[Ä.€@p3jœ°µ¾¯fıÏå£Åck‘ÑÖR'Íh”Eê‘´î‚ÕDÔTËÿY\\å¼XÖt<É\"cºÚéK»¥ÜLUs:š‘	¶cğÅ˜A¡µ'@Şœ®W­…—ÆîÆéï\\t†Ù”ˆlF‘f¹áÀv;'ù##òX’´»7í·›°TRcSk,Ü-Çmáëc€íI»Æ\000õŞ5°m8	\nÁí&sÀŞFU×FˆB…¬z“‡®N8üêeRŠ½§‰G^)îù?8m³7Œ“8_ÉÑi×Ê|;°şõs‹÷	½¹¨İ›«šµ]>s7ã‰·ç©ØşTõ‹Ú•Ùó\"µÍ‰^İğĞJFÙ2Q§lº=e±êÙ;z[ïCÃñ­-ù®ÙÖû³É¤>\\ªB6[Cß¬ç¥‡\nm?¨Oõ\\Ó±Hãê$œ²\\¬÷èÁ1²Çÿı‰8z©yáé8:\"}9wäƒßµŠÑüé8>ÚÂ>Ä‹oŒéj0O;À;\rØ’=¢ß\000Ço*,H§mDj4/ïç¬­fÓº+oªç8ïÙ¤ÀıhkœÍ”ZğrÉ{3do>²Úò+_Æ÷‡Dá”-šëë¾U™a0Ã‘\rşº2´TÄ?§·4ÅØvÎêÔ;frÌ!“Dö\"ğ&bÂ¹=9íqü£	9.’¹ŞŒBTî/õMµ,ÊsBÌ¢Èÿyá…8v½®ß•C”8®^AŠÂoß¿A×3Ø)Eª|Ëõ©,3ZSA F8{£<¾Ô Läs•ıñ#ûíö‰¼ò¢A\000RØÚ-ê	VûÙ÷ï‡cÔö{€Ú}@m€¾ÚæKÔ¬€ºÛ\000u\000¨‡e€åµ9Ø¸_äöìçöíçİ¿ŸSíô±ÛÛXÎ«ª§ïéo³§ïßp­î*ï·°*™6¨FP&o4É8ÓÔßrş:ÃË_Ãc„ÏmƒªóCÉÈÎ™ òØD¹:nç•+}Ÿ‡Éİ¯UÌ17šú³Iæ'¢JôÑQè‘±×—±Wê0µSûV4UV©u½N›8ni«Z±K	Í¡Rş£eTyò)_ßb6ğ\nÚïAË±=OzK9Î“1ŞÅõƒjén9YmÚ¡¼ª€Ö\000©uhFÒŠ4›q¥|%ˆCú/õ]ŞÃUóËÈ°ÀéÁ¿-ÿ>½¬ß^0B³U‘¨Tù¬Lwá=ÈjJà`·àƒğÀˆC–2Ó}5bXÊ$Ä»²2%8 €6Èg)>û¼l3˜íÜçÂ*D±«‘ë±íw\"^d<ÅË{Ê ‚&›v –T_°›øtÒzZ×ï$ı]ŞÅA˜ª½B¢o{Hr´²;¹ƒ†’ı#QrAXvÓ;(Ù›Qr~$JV4-9)ÚAÉÙŒ’û#Qò\\DÉ÷zPr7£äıH”Pp¶á8=(mNŒî°¥>üI€i\"f˜×sKãV\nDZTµO°Ê¶p?»“ÓÃWøÊ”7ÙúÅàÄ5ÏhIÏhj®]­„ïóÙÊgêœĞ½î¹™ˆTçIê\000HsrÌsÁÇÿ³fË}tn|.â¯ šêsk[k–õm¯ÄŸ¨•3\\È8§\"Ïê‹ÀÿàC-d©€y¼søg“ê˜™kq*Ä–xTZ]Š;ê´ÔaÌ’1¹±vV‚Fø!ˆqcwF]\rÚYÜ°tÌE§—zá\r\"³ÕY÷Ûı¶!Ï‘ËUÏ»Áq2®û:Û%É¿ò’=€t™ã)«¯‹\000Ôæ†5“vtURXµÜpLÇ.ó«7–KöYç\\ğÑœå²ÜC.(ø\nEtãrOÊÔñIĞ’ŞJ}‚.g:{F8Ú×µpàn o¿\n!ë„¡¼jÛyeG°çU€j ù^?Q+ŒÌ;<Ù¸«Qh!®‘u7Ï¿_ùfFä÷¯ —Ø3üş+Ã¬û’‰bñúhŠÃÚ6Â§§ÅbÈÄïàGtø.2¯ ¯/ƒxZú‚¶ğd7Ùjõx‡–£¯Kíë:ZC^3ËªëÖçvó®¿S»~=¯[NÀAªBWsáZ…Õë®šÅQ»ØÂF–ŞGñø¹ù²A¢wÈ¥ÇÛÚĞ¾:‚}.şşÒ:&^s‘åÚP2#ô®1ğß!£ŞÈº«u §K@|ç:2òkÌ}å{(kk{Á&$¨«bR[î¾(â¬œ%ùö/¡T\000ükŠ« )„xê˜!ÇçFm×J\"ÏÖ¤´·j?­¡k©ğ>_ñGBğ'¬·ò&şQF‰åùÉ»_†°ŠSœeé‰YšİËiôñzÖºĞ)¡Ôííû¶omâú¸‰ëõl²ù×cúT£êÊ$3×«0j&ßh<TêûOT¥-4i“lœÉ‡1ğö*€³q÷A›øø!kİ(,7q7W=\"éAÅ{ *‹¨èsL%*=!ÿgK]ã¡‰‚\nºÙXˆÓC¼6=p[¯š¯É=:€=®r)c©Ú-ƒ©ämäµâÑîsôG³ælX›Ùè†3%Fª?ÊÿYzW‘¢—ûGòFÃ¡€ïŞ3\n^©|r2â)*Z÷Bœ¢ÌçI‘NÛãæL´qC[×ç¨qªaµ~¡rw÷£ìı6[)cKc³á0Y!?>ÒÑ,N»ycHæûímeş£ÔjËL±éXXòhpÕ®ZjÓ0Hkå0µ#óŞ„ódôÿÿ",
+["key"] = "RestedXP Speed Leveling||a) Brave Researchers",
+["groupOrContent"] = "½’A‹Û0…ïúÃúĞ.xåÈvœ¸‡À&mih(!»Ğí)L”©-\"[BVRùñU%–Rè!'cæÍ›÷iæá¡Å¸B¤ŒE<*Í¢¹N™rUÎì-¬¨ó´}YÂ“%ÚÂ‚¤U[±¨Å†\000ïaêğ@¿d„NÖ¡EªõäZÔ,´ZÆ+ã\r¤ƒ4ó!/³x,x^°ÉäôÜ¿£¤ä‡qzÛ Md~³ßl4­‹¼rtämß¥ƒ“F½ƒàt’«—åúãjşáËûÅ·õüˆZg¥$ë¡(Çå&“Çóï”j<(ãà1$:vªƒ»O¦¡0pwÇ¸GW‘‡Şä7òÊk‚'Md(|­I[°AôV$ÙıNÊ‡ÃxTòìŒ3¿àÈ½ëŒK¤3]W£rIOŠÒ_hfZÉ„—ö5½\"-ç³Ïëë¹=—4ÕäéL‹X\\r_«ÿ	ş	âqÀİ e¼Áà\r3l%éği‚yBÊp”ay‰ì+¸wªµ©È½é^•ÿËŸıÎŸña¸Çœ—7]àßâÿü",
 ["metadata"] = {
-["guideId"] = 2849837365,
+["guideId"] = 2023297184,
 ["retail"] = "",
 ["group"] = "RestedXP Speed Leveling",
 ["internal"] = "",
 ["imported"] = true,
+["version"] = 4,
+["key"] = "RestedXP Speed Leveling||a) Brave Researchers",
+["length"] = "616891112",
+["name"] = "a) Brave Researchers",
+["displayname"] = "a) Brave Researchers",
+},
+},
+["RestedXP Speed Leveling||a) Horde Zuldazar|1340"] = {
 ["version"] = 1,
-["key"] = "RestedXP Speed Leveling||a) Horde Spires of Arak",
+["cache"] = true,
+["enabledFor"] = "Horde",
+["key"] = "RestedXP Speed Leveling||a) Horde Zuldazar",
+["groupOrContent"] = "í}érãF’ğ=fü£wÆ4Œû˜Øè]}ú${í\r‡£D–HX ÀÅ!Yığ_fº(QÛVwOÄ„GM\000UYYyWVæ?Dn”¤®ëz;;ßU´!Y¾óİ%­ê¬,,wç»yU¶+ë˜Ö\rıÏ‘u²¢tf½¡—4ÏŠùÎwYR‹üÃzQV3jıÒæ3ò‘T;ßeEC«‚ä;ÿıßüÙ°ÚùnZ.W9mèUÖ,¬=Ò49}VV»iU6öâa1Ûùn‘Íà•bV^í|ïîØmMëÍsËõ|7p]6˜CÿíRÌHNªì´*ó|ÇÎêÿ×¬»—°r–S+tƒÀß±çeSZI8	;ñ'‰c»ÑÎÓ§ŸNœçdJ¼*«|¶$«§ÒœµgğñoQ0¯èµ}–¯şå9ŸšS’_X0Î§éñÿıöìøåá»ƒ7?ÿ¶¿¨ÊeF?U6É}Ø=~÷Û	Íé´±şÎ—i—•Õ-ôïÖ>Y®H6/ğ£\nß¼lÔÖª¬ëo\000+k¬³v^[eÛX°ZkVÒºxÒXóì’Z×eoQëÿpÕ¶õòş•Õü’šZ5ÿı÷}Òi~]/ÿÏ8lÌúŠ¬¬32eËcoš€.jµE“ålÚ9mÆ©q6™Néªá(·>İåÿÔGú—õ6«4¤¡KZ4;v}‘­æ¸ğÕİ\nGï{Ón¿/Ø~wÛüôé!î'ë¬ÍòÒè¸÷©ø“8´€şù3¬`J\n§µ–%1Í\nº$M6­œ¶M=¥°Ú³kkUÑº¦0ux²Ï£Ö4Ï¦øë5­wì¬9“	Ty€.t‰Ä°ç¥¤É÷âeQh3xwa'RÓDşÖXàR-ÊÚÚ{“ÍÍ”ä9­M4mUd…õCO§ğoXÚ¦TÑ“.a$©SÀÊISVK”ÖáME¦\r|9PÎO>Â³Ñ¦p\\u8D`éìea…^Š?`“DŞÎ÷ÛF].¢Î\"s’²p8(‘ïrA]¬J\\3czäÇYÖ‘&9ƒåædTÛa¤	™m‰öFù¿-„J˜{úôMYráÁWwôrÿõo|9°òô‰W2LH?ÙÇßáTPBønÍV?}Š¢)Ë	Õ»*j'VEÌAW±Ç8Å°7ğR_[W¤hfœ±QÆ\000 %ß¾y2&Ã™Â´ûÍäÀo¼JYÑôf¢F|ü‡ª7G²‚º?™¬$ûÒŸAçfyŞä^œ¯—Èl®h{¹î$ví0šüàöˆ¼IÛi4‰<;æ¶¾;\\æPrI%ÓÀ¶Ã4%êY¢bàäâzQÂÚÉ<§¸{`€Qj[ª±H›•hÈLİX9%5N0…ŸKFÎƒÉ‘áïVİÕ¨Äìâ,o™ˆ]ÛM'‰o‡±FŞ€*	Úû¢È@÷c7¹§Le¨ştúr ÂçŒéUà(üøÄ ­ø//§eñ/ À¦*¯9o\\•\"ë‘Y^N/\000!L‚õ¶é¹^º´Î3Œs×Dô9Ì|EªY\rÆE—WìRUğ×`Ry®feYÉkfåôê¸Ş$ˆlß„‰íyê{®á=$â‡ ìN|ÒqğÀˆ/+X\"øGËò¬XåŠrYƒKD:Ä¿)JKÀ	R$|fÑš¥À	i bÎR@€çˆğ'>°´‡üëâˆBÇNÓ‰ŸÚşëW„wâ©?HÈ\nÛ”ù(]GÁVh§€ÈÀvX¶Õû($ûa†æê92cˆU•Õ@øSŠX¨{cúƒ0ÃÀf£ËÇ¤í„(°T¾Öà1èø»âóYV“ÕŠ’ª–ÑâÉh—~oğae†VQ\nú\"Ë94¸ù¨§Î+÷æ¬@yÎAÍæàıUÓ¦²ª²\\öÖÇ úÇŠÂB@†ÏtT…ß‚ãBQ·ƒøÏ»ˆ½}\\½M È¼Q‰Ğ+=%àHª¶ŠHOB¤oGÉ$\000Û'˜„2y%±íÆÏ·½àX´Ü²z	.¢¥²V”ñ±^´Ìîú@*”ßÀ\"8ÿıÇîÇ»³õSå¸¼\000+á'ÄNâ/2ØBğ\"¯Å]®UÙªÈ‹eQÆ‰£@].ÉQ	>áıøLÕJ8#TF¤WÈKHh£-í»£jwkkÄWo[iâKÑmÀ–	è¶ÈNBõ=IW†HTøv\000|-‘èÇØö4d`$Yây,&ÿõlÏ×¿Ñ~|ÛMŒ±eûPİ—	¨ˆÙ¼£«¬Ê3Z÷‹QQÔìäÃw‡oşí%}{\\ªHöÉ ãÍã \"°„o·¹Fd½*ì—bŞ¶˜ÜÇXşòîh¿F’!MÃ\"‚@ƒV6ÈÃ\\açÀVèÌb„²‹½´]Â$\000‹´æ$QÖÙğX€Dá)D¿ş7\n5‚[pÿTõ	r0±cöFhcz)›);zâ)„æ¦6¸'^hÇ÷–‹û{)ÄˆˆÂŠ‚ÙÑGÅ\000£hÔşŠå0İYlt£ˆŠ£*+PY €Iñ{Ö‰Ú^°€ú³dún…iƒ¶5‰ú2G+ÏÙ@™!¢¾‘ãGîİ×~gGXò^Cî½î1âîÑÎû\n¶ÿ„dŒl€“í|—“3š‡ShäF›r8­ÚªtNE‚(\rã1‚İƒ`H*ˆnà„[Í¨âB> Biš—55,fävšã)ª\n”ïuSâÉeÖù>ı¦†èë9`Â;vZ[àüîYœLRØWã3?œ¤à)êÏÀ>HƒIVH ?Kì„…FR×ø]2I<Û÷éÂP²ATm<;/|GEâšy¶EFÏAET$·^‘‹Š<ùHé ¥'¤İŒ”4ïŒDwş-aÆkÏWÚTÖf8	Å_xo½{jU½E~¸ªÊjFşèÎNï†¾—\000Kf“u6®‘EZàv˜¨‡îÊkjqoÁŒ‹Ön|í¼†Z^£¡0ì¬J*lû{Rö_ w$ğÓ/Ğw;gûÃî{Z‘'Ú”P\\“iô]“¡:ü4}öìÙşÁ¾ã¶ê.Úª uĞzš±£Ş™?7š'¿”°K™\"ŠøQ/8ÁQ,!Ø\000ÓŸÉ–g¿A>ÚãI¤Š»Y<´£\000óˆwŒJ‚zA€iº}Â<ïbE§” 7Šº­İ'­ÌgåP˜(×÷B7š<el3Å`™çxI\000ı»¦<ğéÔ\rœ0qR\\Âÿ>o‹zQÒúWÜ?P”ÅØ@ucJ‡ÅÇH`ğ)8TM÷Ë]P-•7‹\n¼fáÔ*üq[|ÜĞG±o‡öb ¾ÅHC1¨¯P{1”U6¨ *?¾ğw”°ÖvuSXRuâˆİÃSa­KZ]ó€gÓ_¥äI\r˜Ìé*+Ü”Šæå|>fTpC.èĞãû\n3Á3×öÀˆê:™Ôœ^$İ(qŒ’¸Çyˆ1?A»!HE&çgj‰ƒO0Rmx’Ä¶£=‰l'b!2W}£õ‘\000û\\¶ã†[b®‰xfQV°5¢6fl)Ÿ²u(f)ÁŠ1ØãÜÚ(ímŒ{Š1ÈÜÖ 8KV;×)„~~ÁpC7U„jc\000½òWÄÍÑ¶ÿÎ„¾FÙ‰š¼§¨¾¢t#(ÜPÈ©Z<“;·Óh·›Iyñ}cã¼?ßÅAv·¶@U›OÖ©»	Û5åáÏäã’À†\nœß®`¬¬;TìQÖadğØT”˜’DÀÉŸÌÛª=»É$P0&cI Ïc‚Ã³DSw\nè$KêéÊ;E—¥ğ/ÂvÚç\rĞœ^p;1ğ|_£œ¼½vsEÿ¯Í*Z¯ƒ·×ãAdß'°òÕnö¨ÿ¢YU.¸r÷ÇÏ(¦†UÀ¶°£í¤™.òŞë„“çEr^ØûjàÅ8|0¬@K[E„QB0ĞÃ{(ç5»¼‡I\0009(6ëÍ“-²ğâğ‹±ÓÆå†BÜ°r=%ßKB/ı¾KZ”mm½2K²º¨œ¨Ğ­{’ô×ƒûÙóéÓ×‚ßU•±D€‘.iS‘YY(ö)Âˆ†$x›Şç ÜGã©ê®,›Rï›,¿>kgŒ?şùaÑƒ¦çÅØâ<–Õ	öĞ‚å‹À~\nóOÛª.«§Ìº\000Vû‘Q™6pú„$mNŠÇü=ÚüIìà“4ÕŸ¤LÜ9±úä‘ƒO<m4‘Ì÷Á’ú\"Ø¸ĞÕçI|âú”~$ú0•Ğâ5Œæ³ÑâDÜp$ŞŞø‘€r<#Š’‰ï¨ğFl† ÔqÄøv’nLõığÏ–&Y\nğàapNÿøC±~¸Dèˆ.ú;‘0Æî*î½bÍBFĞ¼ÎÀ{ª¬wÙ%½E}è¦‰Ëú°ûîôğà_Ö+rV€²PH*f©ş¡ :}×?/Œç”\000l•ò¥‡_âaJ‡\r&•(b×vY@Û‹L”(N„á,ESğ,\000ÿÿùÛoŞ¿?ım•·Kú©úU\"S¼'S	l•:c\\µŒ	Q…`3¼E¯œ\\w^•K0ˆAîJ—WµÕïå'Ôš‘%™Sş>fªşÎ-½V}Î)“O\\J<?ÛlÖV(g1»¥®I›72s²İîW=€Î£†%™Ë×?ğÃ5;zo\nŞ€JûÃJ‡è¬N¦çr‚ìß”)r3Úû³7$!÷<Øıû3¯.°1¹,ÄÊöV6•uPNÑSxEŠ9†g$‹2M\\AÌ¼µÑT('ß¢5¶Ä`…\000¿a0m>Æ-Ñ{ÿw—şéÔR/J\"&ë¿}‚¼TÎÊÒ:-º”å\0006q»ÈY¦®®J™5€ÉvÉ¦òn™êOÜ›Á•á{Ó•ys„d×àdŠ)(x‰µWµM	‚§î˜¸¡üÁµub‘eùë€‚aG¦×wÜ}fº‚íái&²ö«öãªlÒu„`şî|Î@¼zPØ€YÓĞù¸q$£÷¾ gxEo@Øn¯]ÔŒÅÔ²úløåY¤ˆÔ3JôŞ©šŒİ8Èæ ÍÁù9*ÑL—È’mP¯~.[X‘h¬±Ÿs'ÚÏšQ×@·õ¼ş)*°)Nû_îñ?¬ñ`â¿)™Yï€EşñI2<;p_PñP6õô¨Ü-îÀZÄERÆ8i…×üÀr›MË7&¸ÅÅïH\000—k–ŸÓ\niŸÖôÏâÉNvÏà‡ª,æª(\000œ1Ëuhó6F[bîë~hónA›¿1Úb–2•ÆßÚü[ĞlŒ¶˜4ùV¨-¸máÆh‹|D[òm -¼mÑÆh‹CD[ªô~h‹¤c¬5¦ÂZ¤Æ#5Ñ¤Õî}•HíQZ–+	IÀr@	„rÌ³½Se‘ôÂ1ûEÛfêò]LÇ<<¹õ”åàúâ#'¹qù/‹KÂ,ácò±¬0Â»n ba/*>!SuİÌæ‚ˆÚ,‰;0zKxÔ~/Àäñ%[}#/PÎGÖxqC6*÷â„/Ö¸q‚Û'8ü'´a¸Abxòãu÷BÇ‰QArk¯,ëfÓ\rõ¦¯¶'Z»ÂŒ)¾,`£jªÄõÛ†C€€İLmGMq¸?,Çå’M6‰ÄzKIn‚/ÒfKNn8y]”Ó,…b\näÄ†@Çw™ÀèY€=¸lsò«˜˜ã‰zqO~Ï\n&ØØÉ˜ü,¿ÛGe¢ ×“ß«Û¬/=ù\r)î÷ ¿?_ ôÜ>äiì>p—\nç½Ä¤/\\¾ ù9Ì…ÃŸ¸`œ`%Â]q3¬Bl6³‚Ä‹=ı7/0üö×P¡²<×Lrúª\\Ã\nL+õÿÚİÈ•SáñÜ~şí¹(’J£ñGãÖ›Œ]ˆyÕfSzGi±=\rÑi«}Òæ³JÍO` ›5Õg×ğãî3ìõ»¿}cü7-™ì#³ô\000¾z3'Ş:Ç1ö|€ÍU ,°œÒ’®Qã1È6~2(¾$ŠM'!f¥è¾œz	ÒFïR™×ÓFYJ‚g»Æä–çàŸ,±PŞàBt—'Á…ò=ÏñTçaø\000,Ğàçê>@ÑİyŞ},'.±¤.%š™<å“\\%æ˜½\000›ê° Ë»Ÿš¸)3Mƒ»l'ÄÈ²nŒÆ%ÛÎíˆı­uE³‹¦äqŸ=}Ğ‚£•Jä=×)İÇí“°M‹•ÔKTÄ`7ñ=;|@J¡“İ†0HğÀóBTî\røíŞn‹Õ·µU+nƒ’is™ny2ãàÙŒBº£J÷ÒY=\nÖ½rv-¾š:2}ÿ†òş©ù;\nW\000¢‹`H§h}F2ì¸õo1®V¼\"Ë3–ö)dÈğ'oIÍªát”‘UV]¶y­lF:$N¼(¯0°?éÅÏûŒ\n6…u²Ê* ´Ó«à®äg %jSš‰oGüöövïåÇ¬! 98ò™f\ngšÏZš|ÁW5`_DŠé2œãÙ^²QÌ‘K¤Òûs\"/#ĞÕô:y#(fœ&_/‚<+³LØ­/YŸ\\>\000Û/‹)«\"‡$ìm´C!+2ô°Ò•@şäwÖ¿‹yùHö*I1ºGÒDäşÆD&….ŞD¿7;ûké¼;ÙA™&>ÀÆî®‚Ïà&|~µhLhÓQ%‡[#¬û…ç<Ê)†ÏÎ©Yn„‡–Æó’c&S²³*›Íé¤Íš\nm,¹Ôc.û[üHàpµåAû(ë¢şßbØøÑî®„ pcajÿzšmŒ ×Ey_1Eë4¸·¡g§\r^Š!×SÅ…çğG÷Çßzåş²Z{}øOFd’š5;@h\"¿xCòóğ¶\r¢/½?ú;ùu2å±æÊL6F øûXáé+6‹’Z*FO<bÍE¬õ*Áğ¨W§Ú£Ñ5<ê=0şè\n%Ü;h Ì^E>fë.éñ TÌ…0Æ¤MfeÊ°?ƒQ/ZFÂl’µ DŒ„ğ†pÊˆµOæËE³W;y§°^„áIœu’yñ^7%{ª({vÉsÛâÚa£ªk‹œaN0XDY#˜±¬k/Àë8Ú{ÌaÈŞK´÷|…%X??îã¬ \nÖñ‘!¸ê31ŞãFò€5Ñãe»ìm¹*^¶”©O<Å[·ÍQıS`Ê'µuØ,²)É­ƒ,§Ë¥ü²Tá’.Ï2k¯¢W›Æ%;.=iÊéÅ\n†¯ÕÓ?IØ‘ÆÛ¬˜U¼`Çş‚Í¯ÖÕ£\000TÇÅ-i%XH1gË“d|_çä’Î¬=ZÕ´º`ÕÎuÙ4¾÷ƒ¶¤^ IbnÏ±ÆË²Í›Ö‚Sâ4,G£Ò¢ß/ÓÄÚ“aªáŞK&¢Bİó\nÍÚÑˆ~@Ò/ôBM8aûÕÃez]²l†=éËŒò+\n›©éĞÆ*­	(‘­©éAØ÷p!3\\HûË÷p;4Š9ªèŠ°†½F°\000Ïxz‚ïkaP#º7\rŠ†¶Ÿ\"eh…¶Šî¿Ñê¼ÛQ·i¨-Är<(Õƒouşí¨Û4Ãª¤x¬{È7ºàvÔm§	°b	º1ßÕ…·£nÓ/—nó„ìQ£.ºu›FB¼²ímõBÃ£F9¡Ûœ7ávÓÀDh‡)âÖı68zMˆ\"Âò<€…P¯šÙAÌ\\¢ÈğÈábíÑ((M:AÀıÇsXë9„¬©„c{Û+cˆrˆ=×xÂÛrá<ÉuìR;»ºia-x£B­½ÃŞšâÛÏHCuT,ˆ‰_îHIPo±´[İV¬S7ÁÈCÌ…Å†QlSÏÈÜªó²©†ãí3€—´®	ïãPğ—Ám¯±d2ûh[0YÓ]Nèí×yqìşšåFNè1k¡fÕPÅ'ğD§‚„µ/Øbğùy‰­Î­ı¶·Ğ“³n€Ã±£íİ(®Åµ@/&@†ô¸h\"EÄLñ›c]âö®Øë v½Y×L­å­ŠtÀõ|ğIQ×ö·—U¸®W KğÉ±Œ ÊÚƒ\000HA\000Kòp¿ï %Æq×u¡ .‹‚¹üV9'ÒÚå]JD-0„ÔT\nØzÁ>†İnœT‹ğàw¯Öíİ>vˆUÎ¶Y@LÛ'¾ƒÀv`,ˆ*ÆJ@€ƒÒ:ªÊÕ‚N3S:ã½AUÈ›w€•´WL\"Õê]¾À› Ö;ŠİP®Humxå°\"k\nb¡±×‚––’ãØªD\"ŒXEË×O’‹{cç,7ÆTò1Ã9ˆÄ°Õs´Ş’Ùßäoñv[Œdz,~¯.J\000+L„Ğí.˜%ß4ÄÛI†•%°B6ôx“ç{D†4œ°­¨µş?ã[	Öˆ\rèJ(Ô¨7±±zqŠøá¶ŞÈb†&¼¾ ~årL°¨PŠëÍ°Èë˜OŞ}cí·ìØé†0÷‡,Ÿ5m}aäjº,—XHH¾'­Ù—»ÅÅu^j	\"î¹ ü2Äy¢…><4h‚WŞÌ3^skÍaÛO3‰àïÀÁ¿ÁX…¿±ş¶‹:›ª8X^7p±.wÂKízø·ËşNV=1e¿ø·á·X.2ÆE5rÄ¿}üÛg;ï²1S‡½âß1û6ğ°¡œãc-²8ÂßÁæ5a{ä»OCE¼ŒßÁFƒM¼:Q_´y÷%¬gØM†°Î[«îUÖ–\n» Ÿ¥—›ë*·«ëˆæ¿8D‰'yR#ì[Œ’iŠ?ñİ$†Â1k{‚¨{€a§ğÃ1ºB•uDHŞêô\nÉâ›F{ ~	â4ÀXcáÂQ^óê¿’'gÒ°'íaàuÔkä6;¬a¨õì£J§˜5ø\nt…XÙ€·XljëU›_SÁ0ãıßôe³òéW=aïˆWÔ*²F¼'™éVB0%$Èö	†G ï=–S >Š±<òõ¯b6`€ÀèÊÀŞş`ü’£Féœ;=Üˆ Té³-\\Ö±E{„BÕA‹C}³ ”c³F‘êW°qn‚½æÔG)kï°‚\"¡™foÒñƒF^ºÉâm¾ú´¢§ÌB¯×áÆ·ıXå1¤ß”á&1p¦üÕWMO÷¶5÷C2nñ*&iîæ` ã°dık˜‹w¡”rçæ÷X‰ùvû{`kq1$w‹K\000˜³ãK#„r¼n0˜û7¸3Ô¿aô††ÈÜïŞUÁHWü«¾¦wùL.6œW‹÷vĞ©PîİtÿĞpo4sÖpÜ©ç˜²{€yñ	v‡ ¶õ’ÖmÄp;>”\\î@CÉâÜ­¾f±‰ŞoáüÆ±à½Äì3^×˜Î¬Ÿ²;˜`÷4²Jzëp>¯åİlëÈ¸B;ºVmm7Nz¥£ÌcüÑ‚iFË|W3—=OH¹õÿ s™q€Ä'ûd¹:Ï*z›ÁÓL×aøe{Qß\000ëœE\nnÈ3Ê\n$D‚!èFv²½Hº„Ìãì<ß\000“şÃ‹µRuYôHµ ˜Éİûÿ§hO²’Y|ÌÓıˆœYèÌğ[Ï;¶®µV¾H6òY÷1p‚î‘dº&¢«GA-¡ıY\000eì<X¸ªFWª zc1IfŞ®ÿÕx‘ZXê¢#’\ny}Pm¥Auzh¹!Oş—àUÆa,)·û`;İ{è~»ÛëËšq,K$N¬³O¹­pÅBV6ĞX\rk¼Ü¯µãz5'3:oISömÚDä Œ}i$ğ…ú@/­“Õ58x—@<SŠÄÎ'×¼ÿ3L’7åh\n¨Ó›Ôúğ1ÿvm-ó‰]X}úº*sëÍ'RQ\"Á¶ô„>nÈ%vq‘\000êü>²õTÓŠ\\åzı… b·¿ü5ÚR6îM–?9Í:£SÀºPy_±ğİıG·¸\r…ØckŸÌ©zğ`ªi¼H>rÆt°Iş@î°hNü€[ók g0=†Ü!Ærzæ³Š2oC”…Bc®¯eŞÍ(ó7F™ËBª¹¾ù¥ Ì¿eÁ†(°1 ,xÀáÊ‚2Mœbu(³È3Qäış\"£ç,ïIÓ‹}E¢Ê~¦6erNÑæÁ4#Ùè°=FwBªO°95hŠĞdBª*~ô~j:-A!Ÿƒ—£=ÜUÔ,Á3úòô½`6mKß\rµ!„›d½%¬Ødã[RŸ«;e²Éì3“9ØŞòÌ&³°@ñ&ç:›y\\¨xsT·ƒ>·U­v‰5^w›àpK‰›z–Û­·í\n¢´{Sa?”ly9u}]}eè„Va8Í¡œÒ P†„¡¦‹6Ï¬ı²-¦Y®3hÃñüû{ÖW¤-şjÈğ@Õn¯i/pê¬j³™õ¦Tèª[†HWú:Æ5{bVYe³Åp)p©ªœ4¡äá±–·çbOe!E»o§ì°³Ñ>G[~†7vÙ)¦ö,Å³JŒæèß…Êo—İÛ2<@ûkE¨&øuxå™Û=óCu}<ÏnFÃsÌ=£ÇJ¿Z%rÜhØŠİi™_7Øöw·¢—”0} œN/$X¨_÷™Ş^äÅÙ…X‡tâº¼9évÈîıƒuä<&$W¨Î“øüJÇĞyÅ±½C~ÎöbïÊR”r>W^åN#|üu\r2Ÿ¸‘¦FcáŒ™KV'Å˜>&nd04hP_Õ§\n‘úâ.+z´o)#Ëæğnm+}¥ŠùŸÃiG¨€m¡¼À>è6–ıüŠ‰ßëì¢•œu²ª˜±Šæ+fÁ/ú€âyV­Ëº´Tì„Â›oJˆñd“¶§5—…—Y C¯@8Ê`]Ší:RÁªÖ€ñx{ùµ&Œ‹—ùoCêhê €c¦o°½ÀïÀiñ„Z[¸íÄŸõ:‡8¶u¸\\aıféOÿà¨Ê–ø¦]®.Švz‘kY¡¡ÇZ°tğwi/õ!P‰½Nß¾´^ìX4Ï:±°;f4eÉÜ.%š°ö<½„xŒóŠ¥5¬h\000ştxü³`Yä×VS]ãa] !®€¼ˆÀ3kèGlR‚™0¶ğ(«;ó†C‡—ÀZ,&9ün±¬\n6ƒ5%z‰—æ@§2›¶y®óŠòûR@\n0ieMs‚»(áfwúvsÔŒ)ìuS]ö³DºL{‡ÛS'òñÉ…Ä[=Õö¼uÙv|Ö\rb\\—!Á ûùó®Ë¸,Ï°,éë—5¶ßí˜Zi¿kâjáÏğÉ\\ãâÕ>DÍö´×v2¹¶ƒF©é9¸\nrš~šºÂYÆkò;y²D^x,´×J7ROVÌU9ÀÄ‚S¦Î$Å3úsİçeâ€ÀÿÍéš€#Ğ~ôM‰fC÷vm²BúgZŒ@XœØ	¿n±™­ÿÚ+‹¶¶ŞŸıNÁd»¤ÿBğaÏĞl‘Efµó,gw:Ä__dóÅX'ü×_ÈuYÖB:Ç¨éÂ@U\r¢¦àQòp“`Úşñ${§jjlÜë“†’%ìqÄä€$Ç`¹„l“;Në¶˜+g0©çèDá9ïíßİ`v;k$â‚2Ğ¯MÚŠX^”Æx^ÿ=Ìp„ûÒ®Å¨ìÊş¢-0üÅ»nuıßÏÚós[¢§ÀŠæÈwŒ¦¢Mh\n#!¢3İŞÍíş¬èĞçh.2ëy›± )tMñ·ÃzŞ-æmLaa„Rë!ùNœÂ¼(Ìß˜Â&ÜıíÕv|ìæßBaş†–`¼,ÄD§­¡î±QØm¨\n6DF™˜ÛŞyŞcCUp32cb»¢ÉyÀÑßÆŒÁ-nHaìæHˆÅU·†ºÇFaá-¨ŠnB•â™¼™Ä¦ûÕ*Ï¸5Ü˜[lŠ¿n5¹bët;Ñõ8ÉI&^P\"<\000ÂØB“Ü|u‰y¬jv¸ş½;¬¹µ$òìİÖ\"ê­}r)^wb<\000];I¢ÃÅßB\\LñM>øĞIaƒemmIú¤×ÏásŠØ!Kå¹'Ú‡°6rEe£ø w‰¡ÙñYÊŒØ¬x?ğÏ,‘cbÛàíõ¾ZñîŠÉ\n¦ ˜°Eb”ñşQ1<Ğ/Ïûmm¥}’‚)ßK1Ó.Ï@<M×\rú8I”zÂ¢“¹ ³òªel¥„àßß%A$g|ÀRœ£ÍÕ¯ÃIàÂp&Ü¥1tÿRÖaÊé¦ñŸ.Ú¹™şÇ’eéÁî’!N¿ôp?œ·ÕµÅÆTÄ\n\"¥ç…ahöfw‡Gş-\r¦­qé˜ºÛ>ÎY6AŸ”¨4k‡(W¯­­®¶M8œçÃˆM|×*&qA>Ş4J–ÀŠ²ÍzÕ.WlR=UÙÎLÍÉªGX]GŒ—š1[Ë?•ùEÖ;*ËStº—ôuo\n$Øînİ~yVZ¢O®ñİIœb¶´\näXRFÃ°IŠ–˜DœµxM¼mŞQš‘ærğ5	Äà(ÁÄÂtìp®\r±–ô¿_eKlä¼%	ëÉœßÒb[\n­>aâ…‘ÚXö\000`±Qøvù,rWY¿ge\"†vK,ñ±îĞm†?ó±Ii‚ıh¶f×î/€ayıû}à)ĞT\n©3à‡T5ÛÉÅ\\& …Ä×3…XP3šÆ•ôYDlK>/a›™i°:z5®Hğ[U«/Y»Vğw~+ch›ÉÄHâ(·û´/@XcŸ¶™‘Æ“$åuµ´¶ Ä\répÂ|şšOo‹0îdƒõfÕä;ÚUÍˆ·ÊujXc€©© ÃŒÜ iP²ÈƒO8M=jà·%seÏY³_pJØ-ñ›-¸ï×Úl¢;şşÆæCïé†,>>©Èœõ’—ëm0ÈJâ‰*3NÁ»nÎÄ~UihplÆ·L ¯Wf4·W–m,kù~„Æöv„ûn1Íp+°.)O²¬Ûår¸… £Jõ¯×¬ Ûüò?ÔÖäOb7¥z4;£I;z­AÚÅ..A®ÓK-PyqÌRŸuiç§ø¬ï.eºQ1ˆ”ªÌs³Vcé´kX>Æ[±šRƒõ§}ZŞğæî˜]îõpÿA|rĞ´ÊfÆg'+V&z\rşÀ‰\\kjx¬ˆiâêÏâNê'ÎZubøvÅ*‚ø—ë±ãŠrşsVê¹§¢€Ú–¸ïDú†W:¡:ä’®•ª²ø¿c€€\nã‹†U†¬Ó“¢¶ªé^—gkV¾GšV2ôaÙâıƒ¬@6¡KO‹QpàZ/æüGĞqi$Á6:‚E`QèÓSöÔ¡Ö¼C¸p™ú~Ş‚;TQj\"Ú·m•—Ó¾VeÕL —«±‚úë#³U™÷‰ïõ35ï=õ]C¹èØÅK^\000o¸½›±gD5ú{Æ¹£ˆ•Ø^ÚìÔpØKL÷PÒ`3ÎíM^OQÄ˜ÖîiÓûèÇ`Ó©c	SŸ¬²æãµiåZ}kœ:Åú;[ìÒº›OŞ°ğóISÆï¤/\000†×y°…³=Z<a[¾hm\000*0\"'şuìt{7<öåu@¯ËB\n{R%Udõ‡”>muM:	BLŠâ9İ¼¹zV.Ç‘H&¬DˆÖÇZºğ	›†‘ó”·xz^ZBE<b±-İdÉò'Í¢jë5¨b/pUUü|¤è]!ØÖkz­êc\\ÜİÏpÛö$v¯®Š\\Úô½»×ÄÚ†=V`õ¤\r#yg„İ*¼¼)Ùö4/‹Œò&§^ğd¤a“Ím]üVõ$>yGæ„gÂoUiİÒpNérEëæ‡Íg¬\nÑK0tœ$ÒèïÏNr0g:œj!\"¾'À5sÈë‹‚°=%dª¤áñâ<İî¿.­,OŒ¥m°WLøù!¬cÒ‚ Á£%‰-mT=po&í¨Œ5	Qèp÷¢Rk03(ÇH7¾ai+´'­ÀcVÕ›·™Ò*Ş³•£¿yƒÒv7µßQ\000L¬FÈj+§—\000tä˜V9v›İf+•Âê@[ÓPD3l£‘Ÿ,Ş›«Áw_À¼WY1+¯´eqÄÔFÈ.wÊuºG¬é¦úhDôıút„G!˜¾™3˜]7íå£À¦$“<^7p{¶˜ÑâëƒizUxOô¡Å*h_á¦Ë.=¦É¹YlÒ¿2KÄl¹Û³ËÙ´Ìù²K02İ³FÛ/uT4Zf´’,³ÔKÃP%Ó÷˜eTƒt-—øıï–É(õŸ?—-»ğÖö½Ã4Ë(€¬–Ö~Y4ğK¡°€¿+b‘³,Ïšk•êY`Jù¥¿¬/§¿Ô‡~úgR™ÅZÛtµ­ã#$qÑÈÄ'Vtza­uÀS<îÚâXmE±ö›™–²(©Ïñ‘ZW]%o´dNG0TYÕéSv´†£*ÅOBŸÅO¶wæ>høáÖp¸Y¯A8”Äğ}Wäæƒ!±î}Û\000õQƒ0®%qñ–xÚ±zé<gMëš…‘R–í«|A KFeä­`é¸¼(+	MİêGâ4,8;t\\¥ÒG§±Xˆ½\"¹ôªJCÔQŒ^‘óóÑ:DˆLª†ïFc5×È‹s&©Á\rÅ.Šıƒpô2CYC¹ƒ'–xz{I '¦xbÒ°ãy¾ím;6bšŞ—Œİ¿¦Ø?!0¥ğóÃeÈPöFíc)àM}$€¾6i`+D´-=­°êV–2G“ºMÂøÈóR©ıÔ1İa0pˆl@â>Æ…ÆÉ¥AÕL¾¸ŞÄ	aÕ:PÉ¼!Tgwpv×gW–¶Øñve$ZaWä‚b^ôórf\\AÄp\000Ÿ•om5Q4‚×Úôª™ÄîZ2ÔàgÖ³œZŠAi®h¢OË¬J‡ö¤ã¯o¯«e6Óu(h‡˜åË°¦cÛV×u|'JX£õõ2Ï[,Œ¥$´Àv¡sÈí&7	5»)ñ‘éü”oyÀ,á³€¦KpÇyØ,şM³\0007êGüúåfñôYúB{\nA	“'XÉyÖ&wM“+’ÒE	¤‘j9ì':Ü	6V=òO®B7•2k¾n`p  üí•yv\n°ŸÀÇ j›ÆH2éMÂGùşÏ\000ùdQaO¥N.OIx„c=Z`Åt¶m@‰%9Ä!ò ê\nzš4é‡EV¯ø¢_”U…¦¦kÅ²I@(Ÿdä’Ôj¶Â)»}ì—>´	º£\000eLØ.K›»‡§´×«¬Ê	×£Ê”¯È¼¨Ğâø,WŠ9ØøêÅ5ôÛ\"Í&	=Ò49¡³û‘Ve³x÷‹Ùu»µõßhˆx¢Í ƒ“Æ×?”V1 @@• î_b[ş[ïßFL)V„@\n®‹y;ì0ót¶—	¿Ggö@Ïey.û¡î~‰ëWÙùÿ",
+["metadata"] = {
+["guideId"] = 1222840184,
+["retail"] = "",
+["group"] = "RestedXP Speed Leveling",
+["internal"] = "",
+["version"] = 1,
+["imported"] = true,
+["key"] = "RestedXP Speed Leveling||a) Horde Zuldazar",
 ["enabledFor"] = "Horde",
 ["length"] = "616891112",
-["name"] = "a) Horde Spires of Arak",
-["displayname"] = "a) Horde Spires of Arak",
+["name"] = "a) Horde Zuldazar",
+["displayname"] = "a) Horde Zuldazar",
 },
 },
-["RestedXP Midnight||a) The Night's Veil|942"] = {
-["version"] = 20,
+["RestedXP Midnight||a) Delve Quests (H)|734"] = {
+["version"] = 1,
 ["cache"] = true,
-["key"] = "RestedXP Midnight||a) The Night's Veil",
-["groupOrContent"] = "í[msÛ¸ş®_§sI£0|'uÓÉŒÎ/¿U±“»kn<I¬)RÉ8îøÇw”,-*¡“ëL¿äÎ¹Øg±/ÏĞË—®áúÃ0Ì^o³Œ†Qoïãi˜ÄÄÔ{{3äK2biÆ&¿\\Óp‡³yÖÛ‹é‚úœ\\Î9ÃG?¦ä=ÃÏÃ8c<¦Q¾Yöö’eÂàO-Lÿ‘ƒ á'˜…#F|×qŞ‹û`ôËÅõ‡áèìú×$'sú‰‘,!“„d ü‡ã8+şo8¾KÓÈşœ.a2\ryšİóDap³ÏY]Ï aù{òløœ¼~½r¼ÿ–¼9’£óùÛÕñÁ!ùë_É0ŠBlg©o“ú&á¶²@gšMX-E›\r{{”óä6ÃÙ.itğ?Æ…YFÇ‡g'¿^Ÿ$ÙœÓÏ`KÄ<K`zÓÖ¾åh–×wš>è½~})Ì?¥{u›ğh² ËWÁœfã|&¿vígwÚ8Zşdê÷Ùj2òÈ\\ZO£AÀ–.—åÊañçˆ©pc¶YÚÓ2Êg,#›¯›!ÿÜòÂE~Ï×‡g‡§¿^?;;¿$ïŞG‡Ï•¦ğµAw¦Xë\000f’Å2b+Ñ7\000ï€Ò›p9KÒ4\\†bX¦oû+¬¿½\r³9A¯RZe¿·7'ğR<Ine0kçäôüêì’ü'‰Y¼c¢ƒ¾Ó×kêš*M*³Ëâ\\Í3û©\r¬şÀ6aÙ%ršäqF~C\n±œı;9KÛ‰ìíea®síìëúQEÉmQ[¶A[ÇIwğIµn='U¹µÕuÛÕU­m\000™Œñ’àL<cÆk][@v;ƒ¬šĞg9Ãø!\\ÂŸş®')Ñ›Dó!á7ä Ly.JÉƒíê³µ6Nc2?0ú¥é^gFiN¦úã³¾¨¦ïæ,ŠË¦I²¬èlPgÇƒ$€‘/ùšnõ=_3üú˜£ùàóP8Üú˜­¹0æh¶ß·qL²éÛ0ŠˆV§4¦Ó”%ğoÀDØ$I†’ûKÓr}Ïş	ôÏâ«“óóËëÃÅ2»#øi€pïùïã},¹˜GñŞÓëóñ¿XÁ8¬G‹™µŞ_^19d’…Ğ\000SJ{-„€ûËã‡…r&üUÀ!ç4ä¯„OĞ ënx÷ÙƒÚb¦êWqš	ÿŞ‡Ü ˆBã‰üÎû<¿o]@”Ç³zºĞ±Ò”ødãG¦¿ñ£!ÙİnØ8G”Ü°»¶HÆj `¦Èë`ì”ób`cÁwár`UŸ1€Å'<œfõÁˆÍêéû”ä @<‹å€çyÊÀ¡]×[‡¦*‡HVS‡pW±ú%“—œ!%¸zâzxO¬Ùú=Å¢•ÃÛïûºfoªÆEê“•Ğ%áŠÌ\"¥ ÉuŞÄ“âÍ£œEU%\\TÂl”2“,ÒÛˆß¹EÇ)ƒ8\n³/B¦à-+Á¹CS•Ş'ádÌÀ%ËÈÓœZfò€ÆgÓ8û’Ìà4g†šğjÌûáTG\"ÌD‚‚®'çõ<ŒgaÌÖÏ÷“xåŸŸAòÅ„É×À(X0lpªñØ¤+HL“ˆíÀ¥lÍÔqYuGÄe[ƒaXnU¢j(õtH ¦Z}ßĞ÷[ ©óÛ­Bv@â:Xë-ÿ[ ±vGReÀÂ<mğÚBNL¡Çãã<Œ&êìRëªJ7e}Y–^'J5Š5ºd‹%Ka±%V—Ur-×èz¥Ä¿[fP Æ†€ø}í¶‰ßd½y('½ö3Õmã¥<U9u4O$ƒ‚dZšaˆüo¨Æà¸€>P‘S ³H\\Wßµ#§#6…DÉïÔ,µmh2ü#óü¿ò<^y¾ I3=AFüÎˆ_3¡“‰Z\"55iÛÑµèÏØQW(·÷ç„VÅŞ²pÁ81\\Íé.¸ÒE&ûêÂ2¢wåæ| 7Ug”òüO_³Ü8˜è|S3'ÁY^ŞA©ëX£Ú ¶¥-‰ËyÈÁ×Æm¹ãŒ\\-¿~ÛÆêaÓ¬3cì<³ä¾çÊ½õŒAÊ$É”P~³4­,¤­ãBƒÇû4ÉÚÒ&×ßs(¥Ç1Ù§)Ó4­*Y¸ˆao$¯7ÍjÇ°Í¿ŠÇIOšJV¥;RU(W7L]w«%êˆÓÙŒs¼ewi–Ä\n¦`Ü|›zíkÛcOÚÆ©ª¢«U‘7â›¬&[2!ÍŠ=Ë4æèKıÒU)%_+^)6T8èO²ÕÆPIcô»ò®xb®6ZªšŠ§uİŠçªéZ-‹|!y£mh†Ù÷M·ûf}»Ñƒ†ÉCFg:àÜFõt >K1\nÎçû…ŒŠ|,Æ|«kÑa¬½b•R¾™£É9%C+‚GiÏC+CäW­€+àˆ0•+àá\nX«ï^4;ş÷NÈ\000«<±:¹\"×¨\\àû¯ÆUÊbBÌÕ^¯åùg[ª-\néùt]FKçßqà0^S´kgTaN>xú–æÙ}CWJÆ Ñ¨)x Q\nV°—,Ó‘5<l±}Ñ6»˜zıR«æåG•Ø…Ô5èô?´8ÛqoHj¬pG£;°2'İ°x[>c¨ñÆÊÁr[Lı	Àò–iw«±?±åƒEÿ!QgS:;Å2ÍpcOø8®t›VeëN¡ru-³3Ñ´j›ëœ\\Év†ÈvzıòÄæjÆ&5T$šMt<!2YÔÒkdÂö›Ç\\1fŠ1E5Ç• ï–‘°ˆ\n¦T]Ş«­Ó]ĞYe—óG°0nàåqFÄtş\\å@¨™ƒxÀ¦Œfª¯ëêØ«Mo8Û’ °5WÇÍa¯»KI[÷qDx<œ\000>_‘‡œ\nbUku\rv5Ô—L[Ú9ÿÄøíœE6Ùàm#\"ò—êÛV¥›N >u ºä°ëÕ\\]¯f	­”íA.’4{yšğŒ-zÚ$L‘¡;\rnÆÉç*ÍP‚Œw¤l¼!cº;Ük°ò~µûlj•e·ã…ÓìÆ Bß„ŒcQl{¬fñma–î6IêT3¥t¶özı¤ç\rÅÇ6ñÈsp«×¨³lqiEï%S¾’h…9RlL™¯¬ç£­‘²õº*ŞB…ÕÙÎªÆˆ¶,œâïº™ƒw„«ÛO¶ äe°<ga›yJYÑÇGh¶fvGVëÚÔq[%¿‘ßV¹Í^øÄümã¥9£»Èiºğ	¸İ/WÀõZÃ•	ôˆmwXš+D¾ÚQ±pn·†»ßÖ*¾×„÷ÙˆÑ	TŒ=¯Y !ğ+‹ï¢÷wx¯c“Š‡¢ñ\rºç¤¸ÄB±Ä\000KÉ4üÌ&‘®=s€/[z·LBì[o‘QÔ¢ áD(2Iyä;VÜU5]WÜr9gåƒÆİJëw\000&ÑG>Kcädõ+™Ÿ9ÕDµ¬¥îâílÏİı®¼íô+®Q.ŞÒ©V\\CÃ\000¥pUC…Ÿ9jşEUõ>ÜpQ4_§d|G°±À{¡’|6…RNü¹O@cÂ™(—ùmëßAA¥] /6x\ræd	±/MR\nÎh\n‚£;²H8#Ñ)®nK´^W¼.±e]‹;\"›¸ƒª»º`xkí·ƒÕy%ßY@2›·\"¤„ò%%ÍğpÜ¯¸w§R@}T^Ám¯q»š¸åíîÒOB~k¸ÊCÛšUøâ÷Ù]\\·S£œÏœÒVcÜ×ïÿş",
+["enabledFor"] = "Horde",
+["key"] = "RestedXP Midnight||a) Delve Quests (H)",
+["groupOrContent"] = "åSÍN1¾û)FÚCK+P¶QZEHUhàB¡!*!w=ìğÚËxœ…j¾ö’JV=ôÚëx¾_ÛûûÓr:ûP–å;¥\nFÑdU±Aä”ª¨ÙÇVÍõœ‘qT7¢\n§[½Çh7_cÚğút/àƒä“2=¹§™¡ĞYı8‚vª¨İ	²šÏáÔ³A•”º4ömgQ°'i 3ªÂêïháJ³#W¯Ç‘X„¡Z.—‹ãÅdryGHC2ˆ‡}…hVo×ã“Í”h¨V×7WŸV_nÊ÷ÃıS\000i´\000c¯Ù¸ÖB\nš°¸IÚ³‰z³ü„Z-—(‰rM-~„yàƒg«/Œõ\r:0ŞaÒÒ&ÅÉVbZI¥2û>ü¡‰İô?2ÁìN|&8çš©m5o‘Œ÷‘Ãÿ×¹ÊFƒ¿¿Ûo/^ìvÿ_:©$;ê×‘’\\šÿº-ĞÎd·¯$²ƒôòŞXD'dá¡Ë€è¬¯îĞ<Ï~¦]ÔÖ>Bø‹“Ÿ",
 ["metadata"] = {
-["guideId"] = 219549067,
+["guideId"] = 257953108,
 ["retail"] = "",
+["next"] = "a) Gidwin (H)",
+["enabledFor"] = "Horde",
+["chapter"] = "",
 ["group"] = "RestedXP Midnight",
-["internal"] = "",
 ["imported"] = true,
-["version"] = 20,
-["key"] = "RestedXP Midnight||a) The Night's Veil",
-["length"] = "616891112",
-["name"] = "a) The Night's Veil",
-["displayname"] = "a) The Night's Veil",
-},
-},
-["RestedXP Speed Leveling||a) Val'sharah Speedrun Midnight Horde|1331"] = {
+["key"] = "RestedXP Midnight||a) Delve Quests (H)",
 ["version"] = 1,
-["cache"] = true,
-["enabledFor"] = "Horde",
-["key"] = "RestedXP Speed Leveling||a) Val'sharah Speedrun Midnight Horde",
-["groupOrContent"] = "íZ{oÛ8ÿßŸ‚@pèî­£Šzk±(Î±“6×6í9ÙvÛ»CÀØŒ-D}”¯ø›¡ü %ÙMÒ¤×?Š˜ÃÇ<3êğ0 ASJVë@ò‚%iëà–Ë<¡­ƒ‘³)éó¼àÃ?Ş“ó)çCò†ßò4ÉF­ƒŒM8a?“,}–™dãrŠœeäm2Ì’Ñ¸ ¯„òÖA’\\f,mıöÛj6¶b2MyÁçI1ÆÊ}ÔŒãlØ:'C eC1oıB[Ö,çù”§)¡K=JË]¬/\"ãùM2%‘¯æêÙ4vJ	œ¼xñ;÷X\nÛgäg²çPW;Lo¹±MÄ/’\"åä¥ … ïäH&“	“éŠä–“L’·bÈ-rK’k²32Ù³‚ÌYVÀ*«õËrĞÿãıåÇNÿìrç4ÂpGVl÷\\Â1?‰¢ÒWjƒÀ:I.XÊaÑG¥òÓÙÏ?°GFŠ±˜Æ$)H’\r$g §rÿsÊeÂ³'#–däjAXAR˜Qjÿe%şH\000GÛ¾gq;t¬Èk½x±¼Pv»fş|.d:œ°éóÁ˜W³««”_ŞHò…u•NuìeÌİ <¥Ğ'ıÓã³Ş›O—oYz=“èSç…ÉF `ËbƒŸ,å8`ŸNù³Ë3&“YŞ&¯9Ö‰¸áÀR ‰\n&G¼ \r[®\nÄOgC¾ËkÿeúëiVH±qÖ¿mPwÍßŸWÊJòÌ`÷Î-Ä57¶c×T\"Ú¡mùp<“è]Í1»i2¸As¢P¥¢ŞŸv__O¸õšn&9éá„¥$³l:À¹…äÜº»9C$&CTà[n¤ÜÄ5:‡•£¦ØÌøŸEë\000äå)h_fBâ®àG×FZëEÄÃhk2cQÃ•[}z®Ù¨OÃÊs#‡RŒêåÅéÆC3™ù| EVKäså¼\\İ(¿æ¡úÉ}+ö$ÿÏ,‘JU‰wªæ<q.Äp¯RÜRz<}VŒ¸üvå}Ş,ª)Ë·\\ûi”ÕÀsƒÆ¶Š0>–¨ğÅ¼¸æ™ó:¿ßÃñÙñÛO—çÍW)¬¨+‰=pw)ÕĞyÅ`¸=yÅä”F0™¨Ó\000ê;ï	»JÒ¤XX­« rbO.Ôar,áq„ªè©3é¢\000U@\000§¢'õ¤;ƒ:Z„¬hó[ÖD\\M|2 Èóå8 ˜£®vZ¢¸\"7pMßñ”ïÄö¸pÎ½kíkÀÍRÖ6e’]NNNº½®m£\rH—İª±åÌ·¼°V·©ß¶×£;My\nıW-íş}6™bR’|\"pS²¼ n\000`ü+øŸšß‹$Ù¿M9Â0TöJˆFàRƒÛ²hhA!áÛ ¼R*ÔJVñİë(Au¤3#ÙÄ;]Ì–6«â ÓtFuß¦ÓıˆÀ\n)z†÷4pg¬\"x¯N+F­É!Ä´bb`[•[R…aÕ(å€:#(,j$Oü’ôd}\"dÕta€C]âØV,ëòl‚üù~ByÆb`XŠºSFœÀ.õ®¾à\\¤P²œ0Òƒ›­¯t±«¬äLqñnà6Ù!¸wvx¤²VáiÊæ\r¥í»ë‹1GšVİnÆvKì„¡‰-ßËutå†á½%~J»\r\"öVç•éõ´ä2W¬\r05ÉEkC®Ù©¯És~(Ùdÿ|÷óŞÌ Œ#Âu1Ï·‡mhkRç°6tÔ¤æİ\n¨~K,ÛmGN†‚úPÃ‘ï2u(îã9µœãS+öÚ‘EkéÃw,/@fàâZ%A:\nÛ…Aä¯H­‘<+Úµ§$íÈGcH)Ç»\r¹r ò‘å I›Öú¨¶v[‘óhĞ{Î)Ë2\000Éä–Ë+\000¦/ÜÄá(p4XÖù-ú&Ãf²g;mL2[ËØ<Ó§Qª§`Û!ù„­›·å*	¤‹\rr7±z¯À®j+½”ØdÒ|~M)	àñæÀQÍÓ<'ôi³·=‘\000¼àÄ©ÀÉz\"VSÕXáSMí®‹Ç&bçB|v;ûØ=ªß”ŞpÀ™úMÉ­˜¶#Ïr½65c2 ¥®\nrtNíöPî¶†¯¥¬–³;˜ú6©º:såÈ\\èµ“·`«˜cRÂ_íbÃ«u7fïcp©ĞF¦œàqÜ ±ÊŠbıH×r8#\000i½ÊŠâ‡¹rœß’‹H!Š¼¹—z:;¾b'€‹‡ŞË½=ìì’]÷Q×Aµ¯p^µ‹û|2KE¾ÜVÃÊÖÄ¾Àqİ]nğÔ\\\\Mêì+•Sl›¤–M17Q£ı»×‚/Ód2áRe“;{ìšç®ªÏmãÜï[­~`iS¯YUgH«ä8öÕ3Ìû˜¤Clcmƒ¹Ás©á£û*©ıÁ²í×Ì™rÍµõMØÒ¡Ã¶ÛA¨J®ûà¹âcì§7€\\ıp³­p¾SaÇrì†ß¬Æ§ğœê=Çzı8ˆğ\\Ô\"£¨Qš‰ÚÚ}=@û9êìäèÈÌÛ+ök¹Ü±â°DŒ«\\¾Màë-Um 3Ã±«ÖWb–c¶×š‘u†,K×”¼Ğ)°ïßÇÈ^ƒï7ñ`8¿Z¸Û¶:WØQƒLD¿Õâ†m¼²%‰íÛ=‚.%&²W?ËIgÚåÇ³ıĞ]·I›Ø®¨ØSMòÀ`û‡J\000Õ+;ì©bj–#Q¨r«ÑƒŠ|i¾‹ˆ/eòåKÊçœ¥Ã­dúhçPÿUy(ÆÂƒOË2®~+<+\nĞ¸•›M]¸4…N;ˆ1‡TIjR'ø¿JÔğ°ØáîiŸ¡*9LÍVk9¡ÇäÍuÂaôœÕ“|¬>ïöìQğÉFïÉzè-ÕÎ@ÿÖo†,åĞ–û®r6-„¬>ƒµD±}¢6«­ÔŠ´–?ZÑÚøi„ŞqpW+]û	ëÖï#~qºÜ­7~4Ó\r¥sXÙİOğqÌ–—ã¶}¨0ÌBmÚ~sôŞG¶nM¶n§¡¹æC7aU¹%Ä†»~uÂ9È-u(ê\r¾Ûm¾gùq@õ‡>¼\n)ÆG#X¹ÆÛƒ=~¤ \\åwsphĞ6¦t²A‚ß'u²,ƒZÀ«S.8d>YÆß+¾3î@ÕÃ²ºùdµfcl;ñRÄ-	\rBVEñ]Vå½»ãI6ò,¿‚»úÍÖgáÎ¡ñ³ÚÎ“!ÿJ=d›/vtÁl3BŸôyA»¦ Õ÷ ¦LšáxŞë³n¤ŠmßxìÁ9ÿÑÏÇ2á7äL@N’ÜıÏG)¶û¸õ+¡×.Š€ã8>¤ÿ\\ûPYÓ×¿ÉlÀ¢FõnÛ¢bQUÇs±É‡ï\nQ¦<UĞ”oú]}üÆÏ)(Ö¸û`Jzı PC˜~’sH” á£¢ËGÎ¦Ø\\ÌSõ5”†`ÍJIı™#¤ÁyúœeÉ®ïCU]¯qgÅ4˜(©¡«wk.oñ«R¨ÅûpûÃoAóâ±¦k:ÌçZ¥äà·X†>ŞãÌ§L°Ôß¸ƒÀ5ŞW8é%œ$9\\{ómM§Öµşû",
-["metadata"] = {
-["guideId"] = 3317438118,
-["retail"] = "",
-["group"] = "RestedXP Speed Leveling",
-["internal"] = "",
-["imported"] = true,
-["version"] = 1,
-["key"] = "RestedXP Speed Leveling||a) Val'sharah Speedrun Midnight Horde",
-["enabledFor"] = "Horde",
 ["length"] = "616891112",
-["name"] = "a) Val'sharah Speedrun Midnight Horde",
-["displayname"] = "a) Val'sharah Speedrun Midnight Horde",
+["name"] = "a) Delve Quests (H)",
+["displayname"] = "Delve Quests",
 },
 },
 ["RestedXP Midnight||a) Tailor Troubles|937"] = {
@@ -6973,33 +6964,31 @@ RXPDB = {
 ["next"] = "a) Blade in Twillight (H)",
 ["enabledFor"] = "Horde",
 ["chapter"] = "",
+["group"] = "RestedXP Midnight",
 ["imported"] = true,
 ["key"] = "RestedXP Midnight||a) Squally (H)",
-["group"] = "RestedXP Midnight",
 ["version"] = 1,
 ["length"] = "616891112",
 ["name"] = "a) Squally (H)",
 ["displayname"] = "Squally",
 },
 },
-["RestedXP Midnight||a) Harandar's Kitchen (A)|1208"] = {
-["version"] = 20,
+["RestedXP Speed Leveling||a) Defiance|1354"] = {
+["version"] = 1,
 ["cache"] = true,
-["enabledFor"] = "Alliance",
-["key"] = "RestedXP Midnight||a) Harandar's Kitchen (A)",
-["groupOrContent"] = "mÎ1kÃ0Åñı>Å†$ƒÁÎ¤àÅD B!C—C:ìåb$¹4à_µëı½ÿªÚ5»ÃKÓ4[\0009“0Ÿ“<·5˜>>¦ß8eö·Å«ôC£tg¤\r(’zŠ«„¯’İÀŠënÆK=g³³¶®Gk÷sÄjáS<şÊ?Ş»VWèŒvÒ¾,ñ*!PÏ®hÌ¡m±A¨l¡Ä`D]˜<ÿıXÌ„ï",
+["key"] = "RestedXP Speed Leveling||a) Defiance",
+["groupOrContent"] = "İWİnÛ6¾×SğÍº)Šş)õ\"@àÄKÑ$3bë0-36ZÔ(*^?üHZ¶e‰j‚.–]ÚŸÎá9ßù?9‰½8I=Ïó-kÀ±@„Zƒ'ÌKÂràYƒgUîp)ğüóL\nŒçà?aJò…5ÈÑ\nô\\à‚ò[’ÌsD-)QXÎ‚	èÙaà„©\r#'\r¬³³ÍT÷€2|ºfœÎW¨8Í–HÌªÙŒâû8\\püÅ™Ñâ½ïnÄÑG m²»ÏãûÑİ‡ËÛ‹ë_î'KÄ€Xâúy±áå ,Ã…\000~Áœoî\rlâé¿C”~Ñº&\"OŒ—–#_`ÚÏl]\"(–&F£áÅĞuoÇC0F‚3Znø±ç~hÃØqc;²İ¢9‰¼/?â\\™vÃ¤Ñ\\¡á5‰{pı'.àó“IU”Èğ^É_kÄ¸J¢ƒÀ¤ â(¼&ÈğŞ¼&)c«‚b×D,Á´â9 y#[–d.¡|ÎÖÖ€2ÖNW‘Ä¶ï¶y“\\ÂĞIä{6h’‚¾\r}Çëƒ<Ç;PèøPCİ·B'ÔR‰o€‚P½y(•…AdR˜*¿Â.8©§Øp¡Ia¬³¨û–”JTêE]¿ôöqÛGl«}”öñÙGf“}4öqØG`{}Ô¹Ö)ŸëÊ#Y¥¬Ş„Òº/o/od!2¾B””ªú¾ß?ŸßİŞ9aœò–}…•<ÅRÈªÛL«šoq&ëlÆ1–Ÿ_Éî¬ËygË¶×Ù^çßrVl[+dåe$Ç	Æ_âÍ’ìÈ1p°iüaøñ~Êt‡k¸ö‹8zgà¤KIª()I±`eIŠ}»2×–S4Ã´cò' Í4Œƒ$ŞK›~=R0”-ŒÿÖîw<p–DyªQ¾ë²)Û*©ú2R&âsè­'VÓ“oNªmhšªşÓ™tD@ÿo0Šÿ8Zyÿö80-°ş«%Ÿq’5IÚníØü m|ğÿ_aA#?H^ÊÆ«}Z2ÙH[ÔéwÇÌW6Ü†DÔxÉŠkH_oiøj4L9ªVHUÁÜÔlÚ[}|XÒ§*¤·Ê),£ºÜ;óŒÖŞV—õ\r[T`ˆVíê€Úyo—‡X¥l­cuÎ9[w;Gl^Œ/y«ÑÚTA»Æèi›	W*jEÿQ©şœ’o6õX›«µ%¯ùgZƒõ.[±n¤<¤Å§|Æª|Ş€cØ¸oPEÁ¶%?×;Ln3ı°w=«xÉøiÆåÈ\\\"ÂOµy({Ïû¦K_O jàª]×CL¨Œ<ß[:D…dèkIİˆ™«.u'tN£ u]È±	Š·RA‚¾¼Ô4æ&Õì÷j¡æJm|Û;†wowCõø@–BıbÚ9?ƒÄ‘y*!¿s´J` œ3\\¦’}:EYJE‚üzk±NS]Ÿé¿VŸ°QŸû¢ÛãÛ¢Ûá/ªº¿ÿ",
 ["metadata"] = {
-["guideId"] = 1768951641,
+["guideId"] = 4070378792,
 ["retail"] = "",
-["next"] = "a) Silence at Fungara Village (A)",
-["enabledFor"] = "Alliance",
-["name"] = "a) Harandar's Kitchen (A)",
-["key"] = "RestedXP Midnight||a) Harandar's Kitchen (A)",
-["group"] = "RestedXP Midnight",
-["version"] = 20,
+["group"] = "RestedXP Speed Leveling",
+["internal"] = "",
+["imported"] = true,
+["version"] = 1,
+["key"] = "RestedXP Speed Leveling||a) Defiance",
 ["length"] = "616891112",
-["chapter"] = "",
-["displayname"] = "|cFF00CCFF7|r - Harandar's Kitchen",
+["name"] = "a) Defiance",
+["displayname"] = "a) Defiance",
 },
 },
 ["RestedXP Speed Leveling||a) Drustvar|815"] = {
@@ -7021,24 +7010,25 @@ RXPDB = {
 ["displayname"] = "a) Drustvar",
 },
 },
-["RestedXP Speed Leveling||cFFFCDC00(1-90)|r Default|bg) Kun-Lai Summit 1 (A)|1313"] = {
-["version"] = 4,
+["RestedXP Midnight||a) A Palette of Feelings (H)|1046"] = {
+["version"] = 1,
 ["cache"] = true,
-["enabledFor"] = "Alliance",
-["key"] = "RestedXP Speed Leveling||cFFFCDC00(1-90)|r Default|bg) Kun-Lai Summit 1 (A)",
-["groupOrContent"] = "u‘Qkò0†ïó+òÑ›yQÒÊ‡(x#ÖÎ¡™cß.vslmXzZÒÄMğÇ/©~ /\nú¾Ïy’Äñ('iš‹ZPšEG4jˆÿeQi×òì,Ê÷-ßµˆ’¯ñˆZQÉ¢Îí/‰s‘çù<›'ÉCO’ÁÙğà´eA|_øÊQ¼Åw®®•å)˜\rX$U×j8õ©€Iy$OˆCCß¦S@BÅÿd+.²/0‡0ŠGj|?LKW]~?«²²İ'ü‡uCKGÍ½­ã{[ß%=H¬œ~UH¬úĞ˜åÕHl°¨ \"óùdêı„¶:±’`„×¼±ÿ‡ÄŒ­ğZZ‚ñ\000åU	¿-ßW¿îoÈ7JRğè/Ò[Î´V@2ÿ\\-‹ÚI¼÷|0øuÔÿDöó",
+["enabledFor"] = "Horde",
+["key"] = "RestedXP Midnight||a) A Palette of Feelings (H)",
+["groupOrContent"] = "uÎ1kÃ0†áı~Å–x0DBYJ@d	˜Nºéj¨’8ŸCşñ±½¶İïŞïiÛ£=¾¬µ\000#¤˜ÉÈ%£ÓK™*~Ğ¨ïŞ8fî“ı7¡oğ;ŸH•°|¡#Jœûw×Lä±&ÿÜ.çàÜ~¹8gí,Øşı·déG×l'½Y¦9«”8]I[8¾*	œÏx-	]Ã9¤)ÒoíçNxı",
 ["metadata"] = {
-["guideId"] = 3308001370,
+["guideId"] = 2482704433,
 ["retail"] = "",
-["subgroup"] = "|cFFFCDC00(1-90)|r Default",
-["next"] = "bh) Kun-Lai Summit 2 Midnight (A)",
-["group"] = "RestedXP Speed Leveling",
-["name"] = "bg) Kun-Lai Summit 1 (A)",
-["key"] = "RestedXP Speed Leveling||cFFFCDC00(1-90)|r Default|bg) Kun-Lai Summit 1 (A)",
-["version"] = 4,
+["next"] = "a) Predator Reintroduction (H)",
+["enabledFor"] = "Horde",
+["chapter"] = "",
+["group"] = "RestedXP Midnight",
+["imported"] = true,
+["key"] = "RestedXP Midnight||a) A Palette of Feelings (H)",
+["version"] = 1,
 ["length"] = "616891112",
-["enabledFor"] = "Alliance",
-["displayname"] = "|cFF1EFF008|r - Kunlai Summit 1",
+["name"] = "a) A Palette of Feelings (H)",
+["displayname"] = "|cFF00CCFF11|r - A Palette of Feelings",
 },
 },
 ["RestedXP Midnight||a) Regrets of the Past|952"] = {
@@ -7059,85 +7049,87 @@ RXPDB = {
 ["displayname"] = "a) Regrets of the Past",
 },
 },
-["RestedXP Speed Leveling||cFFFCDC00(1-90)|r Default|bj) Arathi Highlands Returning Player (A)|1311"] = {
-["version"] = 4,
-["cache"] = true,
-["enabledFor"] = "Alliance",
-["key"] = "RestedXP Speed Leveling||cFFFCDC00(1-90)|r Default|bj) Arathi Highlands Returning Player (A)",
-["groupOrContent"] = "‘Ájã0†ïzŠY|‰FvYÚr	q¼.I—°)İz™Ø[elÆrÛ@¾r’C¡”îA0bf>}è¢ëäúvœ$É•RCcUğBÒ™†á§\n*iúşPç¨|ZÁº%*aI/d\rW*èúÍyâXdY6Kgq<J¢qRÚbo\n÷›!L]m 7Um‘ËÎs]/ìI°²x Ñ4TAiºÖ_Ok7™gY'‰gFŸë‚Å40™@*HL~¤Ğé+Êv(õ/n<j¨ò~|nÿö7·§	hßpŞ³#ùR ş^à±1¥gêEoŒ ëåğÊ¶‘ŠÊ‹œ¾§¢ÆjPÒ)ÊîN>©j?P¸ú zå¹(ÄÚÓë9Š«é²”£x€ñÖLo6»nâè6†ÌHç`&¸uİğ¯p¥¼àÔZƒ\\ò¶*0\\Ø¾¤¯~ÆÿM½ÿ",
-["metadata"] = {
-["guideId"] = 3126206322,
-["retail"] = "",
-["subgroup"] = "|cFFFCDC00(1-90)|r Default",
-["next"] = "bk) 70-80 First Crafts (A) 2",
-["group"] = "RestedXP Speed Leveling",
-["name"] = "bj) Arathi Highlands Returning Player (A)",
-["key"] = "RestedXP Speed Leveling||cFFFCDC00(1-90)|r Default|bj) Arathi Highlands Returning Player (A)",
-["version"] = 4,
-["length"] = "616891112",
-["enabledFor"] = "Alliance",
-["displayname"] = "|cFF1EFF0010|r - Arathi Highlands Scenario",
-},
-},
-["RestedXP Speed Leveling||cFFFCDC00(1-90)|r Default|bf) Horde Hinterlands|1292"] = {
+["RestedXP Midnight||a) Shadowberries (H)|717"] = {
 ["version"] = 1,
 ["cache"] = true,
 ["enabledFor"] = "Horde",
-["key"] = "RestedXP Speed Leveling||cFFFCDC00(1-90)|r Default|bf) Horde Hinterlands",
-["groupOrContent"] = "u‘Ájã0†ïz\n-¾lFv!œÇ5tÛ\rM»”ÒËØÛedÆrÚ@~e‡BÉA0£ùõÍ¯™8§óÅ2MÓ;!\"FÆŠè€ÜG2QÃnèäöõûVî:D-ÿà­¡FDıP§*Ïóu¶N’ßi¼Lf'–Ö0X/\"‚=Ê²ÉÂ±FYòÈH÷\"Ò¦ï,'ÉÈH7y$Ëğ<¾ÊÕJşåJşÊÕ+;k§è4‚>_ÂÀHSxoÓ[I8¸wT#éV·Åµn®_TÛC «\000~6MëKÇ„ªáŞ*:·VOĞ´ÀÁ¤Ú\000û)û®ÕÇ°Àf²­ş\r¶C•1T¾=²ºğ§\n`vd‚QÂo/ËægdAäXî*¤€r\"œ*\"ì¥‘¡ÊAwcOŸpmöÿÿ",
+["key"] = "RestedXP Midnight||a) Shadowberries (H)",
+["groupOrContent"] = "}AK1…ïó+r±J¥ë¡(ô\"•¥—JÙ\nö ”˜Œ»ƒi&³Ja¼ÛâE¯ß{ó>f:WóÛ»ªªn\000ŒZ`>H\n§ˆ˜VRŸ±¡¢äw\\³Üv\n&Ú¡à¶³>}¾’SÁ‹ÕŒç’ƒ=?b0®³YI`±ÀUO0îf0]è=ıõ¼ü6|(k \\]×Ë‡ål¶}çŒÚqÁSš0KrD~¸z:srzú)½=Â¶çÑ7r—9Ò5\\®ÙmöÏ÷Íã~mcoC8bùgøë",
 ["metadata"] = {
-["guideId"] = 2166823124,
-["retail"] = "",
-["subgroup"] = "|cFFFCDC00(1-90)|r Default",
-["next"] = "bg) Horde Draenor Scenario",
-["group"] = "RestedXP Speed Leveling",
-["imported"] = true,
-["key"] = "RestedXP Speed Leveling||cFFFCDC00(1-90)|r Default|bf) Horde Hinterlands",
-["name"] = "bf) Horde Hinterlands",
-["version"] = 1,
-["length"] = "616891112",
-["enabledFor"] = "Horde",
-["displayname"] = "|cFF1EFF009|r - Hinterlands",
-},
-},
-["RestedXP Midnight||a) Blade in Twillight (A)|765"] = {
-["version"] = 1,
-["cache"] = true,
-["enabledFor"] = "Alliance",
-["key"] = "RestedXP Midnight||a) Blade in Twillight (A)",
-["groupOrContent"] = "íTAkÛL½ëWè¦ÅÁ*%8%„ºI\\\nMIcƒ}(„‰4¶v•İY+)>ä?|§ïïå—tVNKJ…Şz»oŞ¼yO³½Ş~±?8(Šâu–å\rgùš|0ÎB‘åïb„ªÙ9œ™ÊšÅR²ÜbM€»ğ±\"0&­aNwğb¸›å•	\rãm›!£ ,á“óÔ\"¯Œ](İHb8!^|‰Ú#lkË%6B>;<„¡r¢-)SŞ¸ºaj²%‚,g¼\"†)z«¬“îHŒ0Á¦FÇ'Çışxe¥	X@4Ş•DÕÆg¯&İ9ioÔY‚ë¤Dá(Ôú*€NN×Ñ¬‘ÉJªËÜ¬àæŞÕÀ´&0èßßıwĞ´DË®\\ı#TCK÷wÿ3rpPãŠ 7ßË^nÊ‹Ùùåtxñùò£@©WU’¤RĞŞ‚˜š6ş)ò4è)\nÁ˜DUMòŠ>ÔÆF¡ğşÌŠvIvÛÂVj`+)D»zïÚDğïû½÷-ŞÀÑÑ—Æâ|İ[=Túd§ğ/¥¿Ÿ’±%GİÈG+JbFK.†¯ºoº;İ:¾Kë8İ®ã¹§f,è¥÷ìğôgŠ’W)éqóNé\"šôTøñ'uÖë\\;šVô6½\"	·6Z17M*ØÆCÕS—ÎĞFd¾…ğ%ßÿ",
-["metadata"] = {
-["guideId"] = 1735266143,
-["retail"] = "",
-["next"] = "a) Delve Quests (A)",
-["enabledFor"] = "Alliance",
-["name"] = "a) Blade in Twillight (A)",
-["key"] = "RestedXP Midnight||a) Blade in Twillight (A)",
-["group"] = "RestedXP Midnight",
-["version"] = 1,
-["length"] = "616891112",
 ["chapter"] = "",
+["retail"] = "",
+["enabledFor"] = "Horde",
+["name"] = "a) Shadowberries (H)",
+["group"] = "RestedXP Midnight",
+["imported"] = true,
+["key"] = "RestedXP Midnight||a) Shadowberries (H)",
+["guideId"] = 574950929,
+["length"] = "616891112",
+["version"] = 1,
+["displayname"] = "Shadowberries",
+},
+},
+["RestedXP Midnight||a) The Drinking Debt (H)|1092"] = {
+["version"] = 1,
+["cache"] = true,
+["enabledFor"] = "Horde",
+["key"] = "RestedXP Midnight||a) The Drinking Debt (H)",
+["groupOrContent"] = "mÎ1ËÂ0Æñı>ÅA;‡¢Ğ­%tDŞ%6G{ÓrME¡Şê;Öí†{şüÒ4×ùn¯µŞ(¡hÙƒzŒÜÔ Zé§O4Fr—#Øn»*Ø;¡MğÜVÂáÆ¡ÅŠ®7uÊñ8xûú~Í1YV–ÆèY0]O–=ã§fÈ\nÚà–Ãÿ‡šÎ‘Šë^Á\"@qhüäh-ûûe‚÷",
+["metadata"] = {
+["guideId"] = 1460014805,
+["retail"] = "",
+["next"] = "a) Fear and Fel (H)",
+["enabledFor"] = "Horde",
+["chapter"] = "",
+["group"] = "RestedXP Midnight",
+["imported"] = true,
+["key"] = "RestedXP Midnight||a) The Drinking Debt (H)",
+["version"] = 1,
+["length"] = "616891112",
+["name"] = "a) The Drinking Debt (H)",
+["displayname"] = "|cFF00CCFF1|r - The Drinking Debt",
+},
+},
+["RestedXP Midnight||a) Blade in Twillight (H)|735"] = {
+["version"] = 1,
+["cache"] = true,
+["enabledFor"] = "Horde",
+["key"] = "RestedXP Midnight||a) Blade in Twillight (H)",
+["groupOrContent"] = "íTÍnA¾ïSXÚC)¨U‰*EU´\rE¢’HÉ©rwœdïÌv~²\rÊ¡ïÀ‰×ë“àÙ©$nÜVöçÏŸ?¯çàà¨8êEñ2ËrG5gù’œ×Ö@‘å3gc\ròÔ¤WZ=›‡,7Xà>¼cTÚÀ¨ÑÌ)Ï.÷%Ow!åÏ‰—_¢0øMFi_3®Z‚	2søh5ÈmfY^Î±ä²“¸´NQ&İk	Ûªf\nÔh)HüYÎxCctF\nGm(èÀë²×ëŸu:Ã…®!Ìµ‡ÄÁBílI¤Ö.{1jã$ÒdJkn“Pc€$È)26İF½D&R}lY¦z¹…{˜:[Ó’ØC·ópÿı¸hDÃ¶\\xù¨‚†î0²·Pá‚ z;=Ì¯ËÁ¤=~;øtı!@)7*I)hVtEk÷yá%Š`HATòŠTÚÄ@~¾cE3'³iá•˜ÆòD‘®ÎÙ&üÆûÇ~~KİWpzúŞ&‚ÏnætU¡ÛVºd#ÿKÿ~KÚ”åİ«/‰\rÙè¿Ê9ÊÁíµ÷&]Üxsq}Gõ0 ;Á£¶Ì³¯2¤GÄN[¥³¨Ó;áá×ŸÔZ/síÉ¶¢3é	I¸Íj£	šá®N›õzêÒšˆÌ+ğPòó",
+["metadata"] = {
+["guideId"] = 1736183654,
+["retail"] = "",
+["next"] = "a) Delve Quests (H)",
+["enabledFor"] = "Horde",
+["chapter"] = "",
+["group"] = "RestedXP Midnight",
+["imported"] = true,
+["key"] = "RestedXP Midnight||a) Blade in Twillight (H)",
+["version"] = 1,
+["length"] = "616891112",
+["name"] = "a) Blade in Twillight (H)",
 ["displayname"] = "Xalatath Lorewalking",
 },
 },
-["RestedXP Speed Leveling||cFFFCDC00(1-90)|r Default|bk) 70-80 First Crafts (H)|1287"] = {
-["version"] = 3,
+["RestedXP Speed Leveling||cFFFCDC00(1-90)|r Default|bh) Horde Draenor Garrison|1290"] = {
+["version"] = 1,
 ["cache"] = true,
 ["enabledFor"] = "Horde",
-["key"] = "RestedXP Speed Leveling||cFFFCDC00(1-90)|r Default|bk) 70-80 First Crafts (H)",
-["groupOrContent"] = "u‘ÍjÃ0„ïz\n_’ƒ‘Õ”4œÇ5ô/ôRzY[k[T‘ÌZN	äá«8—’ƒ`´ßŒVq<•ÓÙ\\JyÉXDèAm‘:í,Ÿ°¨&×·ü;êcÍ_ZDÅïq‹FÛšE]_û2Ë²eºL’‘ŒçÉxO<Å\nzãYdaƒ¼øóë$%<ÓÔy¾$¨|ÇGù˜EJw­İà;€ä*Ë’D^Hüß¾Xğ'*ùEz'^É3¨7«Ôq=¡äqN­Lu¸„ƒgóŞz¤³y““y·®ok°\n[ô£®_8²(ò 7.pAÛc¸x€º\n5Å\nÈ7hÓ J|\000HÅÅ{oZ$)Aé›‰?\rEDÎjb!?w¤…ı·,Ò¶4½Âsÿñ§vÌ~ÿ",
+["key"] = "RestedXP Speed Leveling||cFFFCDC00(1-90)|r Default|bh) Horde Draenor Garrison",
+["groupOrContent"] = "…‘Okã0ÅïúS|iAV¥…\\Ú8N–ş¥Ù.KéelmQedÆrÚ@>|‡Ba	{0<÷{£™L.ÌÅå•1æ\\©D( u*ÙôÖ3•4â‡©Tı}‚UGTÁmÈYnTÒÅÁ±+ó<Ÿe³4=5“«ôl'Qƒ*a\\í,½T™ ±X ˆí=«¤²}çp;úöAfçijL™üc‡_ÄÃt\nRÂIv«‹wnT/\\V‡!B<Êç}5wõş'~´ö¼8%§ÿ!/|÷×OÈFŠÛ´¡ğÂ¤—Q®}$ åC\r}M‹ë9Jh‰³”Z¿îŠWĞ×‘ à2´[Ñ?ºêeláÙÆÒLŸ\nûı«Î\nõàk¸|W±Ş8WñdJ,—nˆ®#'|Ã£gùú",
 ["metadata"] = {
-["guideId"] = 3935901867,
+["guideId"] = 4290321034,
 ["retail"] = "",
 ["subgroup"] = "|cFFFCDC00(1-90)|r Default",
+["next"] = "bi) Horde Spires of Arak",
 ["group"] = "RestedXP Speed Leveling",
+["key"] = "RestedXP Speed Leveling||cFFFCDC00(1-90)|r Default|bh) Horde Draenor Garrison",
 ["imported"] = true,
-["key"] = "RestedXP Speed Leveling||cFFFCDC00(1-90)|r Default|bk) 70-80 First Crafts (H)",
-["name"] = "bk) 70-80 First Crafts (H)",
-["version"] = 3,
+["name"] = "bh) Horde Draenor Garrison",
+["version"] = 1,
 ["length"] = "616891112",
 ["enabledFor"] = "Horde",
-["displayname"] = "|cFF1EFF0014|r - First Crafts",
+["displayname"] = "|cFF1EFF0010|r - Draenor Garrison Intro",
 },
 },
 ["RestedXP Midnight||a) A Palette of Feelings|896"] = {
@@ -7207,9 +7199,9 @@ RXPDB = {
 ["next"] = "a) Harandar's Kitchen (H)",
 ["enabledFor"] = "Horde",
 ["chapter"] = "",
+["group"] = "RestedXP Midnight",
 ["imported"] = true,
 ["key"] = "RestedXP Midnight||a) Haranir Never Say Die (H)",
-["group"] = "RestedXP Midnight",
 ["version"] = 1,
 ["length"] = "616891112",
 ["name"] = "a) Haranir Never Say Die (H)",
@@ -7228,35 +7220,31 @@ RXPDB = {
 ["next"] = "a) A Palette of Feelings (H)",
 ["enabledFor"] = "Horde",
 ["chapter"] = "",
+["group"] = "RestedXP Midnight",
 ["imported"] = true,
 ["key"] = "RestedXP Midnight||a) Hunter's Rights (H)",
-["group"] = "RestedXP Midnight",
 ["version"] = 1,
 ["length"] = "616891112",
 ["name"] = "a) Hunter's Rights (H)",
 ["displayname"] = "|cFF00CCFF10|r - Hunter's Rights",
 },
 },
-["RestedXP Midnight||cFFE74C3C(90)|r Delves|a) Twilight Crypts (H)|965"] = {
+["RestedXP Speed Leveling||a) Archdruid of the Vale Midnight|1389"] = {
 ["version"] = 1,
 ["cache"] = true,
-["enabledFor"] = "Horde",
-["key"] = "RestedXP Midnight||cFFE74C3C(90)|r Delves|a) Twilight Crypts (H)",
-["groupOrContent"] = "eÎ±‹ƒ0Çñıı2T¡¹ï±—ƒR:ÜĞ%5\r¤1$±­àßÖÛêü¾Ş/IRşdœó/\000æ(¥İÈyÕäÀZ×äÉ¿ş*iTÛ`~¸üß¦¦ªößÛrSFÙ:îHßÈ3âJ(b<İ•~,İhƒÇ¨Iå­ãÜ|/Iğ–EzU\\…™IÓ	ÈAcİ;IğÚd)ÓèAÒrãyù",
+["key"] = "RestedXP Speed Leveling||a) Archdruid of the Vale Midnight",
+["groupOrContent"] = "İVMoâH½ûW´Äaµ’§ã/l3$ÂÇ*ÊÇF2sA©àÖ4no¹	‰¿İ‚“°³ÑæbÉj»Ş«Wï•ıéSè†qËu]Ï²Šqa5.3âZÊEN†P(˜>Ş“‡`JnàÏfV#cs ìOÒÁ$â‚O‰|\"*ò…	 ·|šñYª¬Ï`Æ„¥ëäVC°	ˆİK?R0ot,:“J’0píĞ¥oG>õ«İ^ÊO,‹¥D1³ü\"I™š,&ã0˜!ü ‘öœ•1ñèB«døx?¯úw½›¯ãQÊt[·Rf‰`ËR‹ªf<#~ìÇi·Gú–èûÚ†,Ê’rEü–~^?İYßöx‘ÊL\"Lu=†3Pdiİv»}Í…Øpêßõo¿Y6E^”»*%±ZväRÏ±]ÇvöZ94nY4‘ó\\€‚5;Ûµè\\NH=Â;s¸¬ƒ£_1‡²Û9T¥­ˆìÄ×”IW\".r%ñMı[…–\\¥$ƒuZnİ´®ÙÙËËFÍWĞ’ÿúí­Õ?ñÆ†âJ§d•ƒn¯ë8}#-é²gXáÛ:†û>ˆì0¦®±ˆÖf]É`n%(Ëb¶AFøgÁŠè|ÇÂ§o‡!m5ŒÚ¤®g‡mÆuG±9rüŸR±¾ÒG9µ¯7ÑYcË”9à¡]ƒŠ]Ì¸qlà4#ß±eÁ9C 7wk£î¨öŞàêU€d…Ä‹eQ¤ŒãE©\rKÔkÿ]Á“ïDgÆH¼áşª{=~`ê‡ñäöm^öd–Ì»ÌO¦Nwğ*ƒQ¡sœˆB.KND©WÅ¯æ¸ôy6=ÌÑ\rèÔœ“£7=ª¯QHƒæÿêğ”úÄvQ_­¹ß\\@ıĞ5ıŸ¢á¯ÃX·YëAjöHÍâ?@	N£œï¤Ë_•ÿm²«ù?Œöö³û^e	Á”0ˆFó¿P>ÃÍÒq×çù`gÇªÉGåè7Şú£ =x×ä—§=9Øôè¹¿ë\\NÉğ­\"CÓ¥-ÏÄi}˜·L<-Ğü«?èÎ·kz÷WëUex«¹šRÖ¿",
 ["metadata"] = {
-["guideId"] = 3450017199,
+["guideId"] = 1806701825,
 ["retail"] = "",
-["subgroup"] = "|cFFE74C3C(90)|r Delves",
-["next"] = "a) Atal'Aman(H)",
-["group"] = "RestedXP Midnight",
-["chapter"] = "",
+["group"] = "RestedXP Speed Leveling",
+["internal"] = "",
 ["imported"] = true,
-["key"] = "RestedXP Midnight||cFFE74C3C(90)|r Delves|a) Twilight Crypts (H)",
 ["version"] = 1,
-["enabledFor"] = "Horde",
+["key"] = "RestedXP Speed Leveling||a) Archdruid of the Vale Midnight",
 ["length"] = "616891112",
-["name"] = "a) Twilight Crypts (H)",
-["displayname"] = "Twilight Crypts",
+["name"] = "a) Archdruid of the Vale Midnight",
+["displayname"] = "a) Archdruid of the Vale Midnight",
 },
 },
 ["RestedXP Midnight||a) Pathogenic Problem (A)|1194"] = {
@@ -7299,24 +7287,24 @@ RXPDB = {
 ["displayname"] = "|cFF1EFF009|r - Kun-Lai Summit 2",
 },
 },
-["RestedXP Midnight||a) Guild Items (H)|718"] = {
-["version"] = 1,
+["RestedXP Midnight||cFF1EFF00(1-90)|r Default|bb) The Waking Shores Midnight (A) 2|1308"] = {
+["version"] = 4,
 ["cache"] = true,
-["enabledFor"] = "Horde",
-["key"] = "RestedXP Midnight||a) Guild Items (H)",
-["groupOrContent"] = "}AK1…ïó+b•J×CQèE+k=TÊZ°¡„dÜšMB2+öÇ›/\"xıŞ›÷1Óé¼šßİWUu ‰fê‹Ræà±Õ¦0Dl(Ùİ×l=·€òº'Ô|ØY|ê3^®& ,çèôñœ—‹Gí}™ÃÜ’£’àÒ}È L§£P‚ÅW!Y‚\"‰ Ø7Xú+ıø­û©‹#M]×Ë§ålövàˆÒqÆS0¦`ˆì˜àz{ædäô^ø,=Âvàb+Ü„>:º«Ñ4»Íşı¡yİ¯µ´sGÌÿÿ",
+["enabledFor"] = "Alliance",
+["key"] = "RestedXP Midnight||cFF1EFF00(1-90)|r Default|bb) The Waking Shores Midnight (A) 2",
+["groupOrContent"] = "}‘Akê@Çïû)¦äP=„5>‘z)Ä<Kk‘*ÚÃ»ŒÉ˜,]'a’õUğÃw£RK©=fş¿ùe'‡Ñğæ6Š¢¾RPƒÆª`KR›’a ‚\\JWÁÕ\re¯S˜˜ŒM^4*¨İêØÛ§I’¤×ëDám¯»ˆiÎú!Æ\rÁjÕ…yA°Ä7Ã9ÌŠR¨ş$Aç¾}d¦®,î‰3ràiáé»;ˆ‰ÉÀUü:ş²nKı—KOh«±Û ÛÏí¦‘=Lø6%7$—öş¹¼wQšÌ£ô£³s#Èú©…¯KÉ);9é	¥æ­‰QŞ¤äƒ¡öiSìDO‘3bíE¿øèeËa=Bi\n:…Æ(`¼,Ó{«´´×u‚Ì*¢LQ¯zo­ANIùëU*0œZ—Ñùš‡(<Ñ–¬ÿÇøÛÔÇ",
 ["metadata"] = {
-["chapter"] = "",
+["guideId"] = 1604065967,
 ["retail"] = "",
-["enabledFor"] = "Horde",
-["key"] = "RestedXP Midnight||a) Guild Items (H)",
-["imported"] = true,
-["name"] = "a) Guild Items (H)",
+["subgroup"] = "|cFF1EFF00(1-90)|r Default",
+["next"] = "bc) Val'sharah Speedrun Midnight (A) 2",
 ["group"] = "RestedXP Midnight",
-["guideId"] = 14879958,
+["name"] = "bb) The Waking Shores Midnight (A) 2",
+["key"] = "RestedXP Midnight||cFF1EFF00(1-90)|r Default|bb) The Waking Shores Midnight (A) 2",
+["version"] = 4,
 ["length"] = "616891112",
-["version"] = 1,
-["displayname"] = "XP Banners & Teleport Cloaks",
+["enabledFor"] = "Alliance",
+["displayname"] = "|cFF1EFF003|r - The Waking Shores",
 },
 },
 ["RestedXP Midnight||a) The Nethersent (A)|1196"] = {
@@ -7351,8 +7339,8 @@ RXPDB = {
 ["subgroup"] = "|cFF1EFF00(1-90)|r Default",
 ["next"] = "ca) Eversong Woods Route (H)",
 ["group"] = "RestedXP Midnight",
-["imported"] = true,
 ["key"] = "RestedXP Midnight||cFF1EFF00(1-90)|r Default|c) Turnin Route Horde (H)",
+["imported"] = true,
 ["name"] = "c) Turnin Route Horde (H)",
 ["version"] = 20,
 ["length"] = "616891112",
@@ -7360,22 +7348,22 @@ RXPDB = {
 ["displayname"] = "|cFF9D9D9D0|r - Prepturnins (Requires prepped quests)",
 },
 },
-["RestedXP Midnight||cFF1EFF00(1-90)|r Default|c|870"] = {
-["version"] = 0,
+["RestedXP Midnight||a) PoP-UP Quests Turnins|864"] = {
+["version"] = 20,
 ["cache"] = true,
-["key"] = "RestedXP Midnight||cFF1EFF00(1-90)|r Default|c",
-["groupOrContent"] = "ÓÕ534³°4444ââR.J-IÌÌáRN/Ê/-PJ-.IM‰PğÍLÉËLÏ(áR..M‚ÈÕ$»¹ºº¹hêZhÖ)¸¤¦%–æ\000å%æ¦*$s)§dä$V‚¹ õnÎ.Î>®a®>\n@]5E`E‰I9©)\\€",
+["key"] = "RestedXP Midnight||a) PoP-UP Quests Turnins",
+["groupOrContent"] = "íY{oÛ¶ÿßŸ‚@pÑvWUô~dk/ÇIŒ&±oì4†\" %ÚfM‰.EÅs‘)Û‘œÇ,}ÜmD°(Ãóøóúu`QlÛ¶Ójí\"1e­\"\nÊsäX­‰àå]B’ôç>:£iN'SÙÚÉqF~…ú¼ÿú²ş[Â–\rK‘Ó¼híĞ\\‘cÖÂyËüÌsRÌèEa·Ì	—\\ıô\"3´Ø7m·Úƒ7vÑÛ··Ã®b0Æ	ÙMJQp±›^SLÅ®æiØ|Ï±ne›Ñd†@b9%è6¹ø¹İï¶ß](]2_ú\\HÌn¢Õ®ê]p™­*’«ı‹óë’Ñ’—(å(ç-p.È¯ÙJ}4¦¢(x,‹[qOIÿNIßğÓ²(2à¯¤¤Rb£¦~o:†ï¶-¥İ(·à‚¥ï&S,GåhÄÈuàMYn´b6SçWR]t;ç‡§¿\\c†s|+Ì–)µ¼Ğ¶lŒ7Ô¯·C/p¬ ²÷€Ç¯kt¢!à˜šO>¬éÜØŠ\000™ÄbB$ªø~£¸f\000°Í0z6«PoË.–·m—ĞjÚå€ádVdTNë¶q,»n›5÷¯d¬ã›aølÖeP`3Î=ÛDMÛœ1#àÜYÃ8v8óg3MÔê”f0ù*š\\÷KX&áŒ‘D\"Ç·À§\r¹¾±Û\000êË«my[j¯ÃÅ{¾péšğ{CoÏµËˆìŠÕ®çRd¿ãsÚÙt.®zïºçÇ°å‡·åR¥è‚ 3usuHû—Gš{[sGc.ÎÁÅ1rC$öúIW*[¢„CMØ‚´Ñà“Ş%J„áà)-¤Q–j°Íp^b|uã|‰¨$Y±6ÌZlœ|*© Érô±¹S®™£1Y4ì„à¨	ç©6ÆŸ6yİiû—ía·wNz—ƒÎ|¼ó¹ù¶m¸‘µµæ®×XÂ ü7ø¾0õ.šï‚ç¾ÓN÷ÛïgİáÉÿ‘Ï8L[qA •\000Ù`3IõHh	ÍÁÅúãˆ3¥M&À)âc4*—Š;ˆ‘ı¸~SÆvXˆü6'yAoÈ_g¡ëÇÄš8³ã°Ê©w9È	£Èˆ›”c¿¼Möº»á~÷´wñæşn˜âÀ5b·¾‡0x¸ŞÖ’cØ^Je©¥ßÃÜV²ûw·ÒƒÃæk‹/Àåè\ntÆS‚H¡H§ $›3\"‰Ú/š¦â¥, î*fø# .¡’’Â@¸¸cöLi¡™é# w€m€L\n+š³BÓßeU8— `Q½T=G¾G3^’/Š\nÅ‚h\000ÉS8få&˜\000`ËŠ#Vzê¦û^“ !­Ì‚ÖpZ5è§ŸĞ>cç	i™´èåzRFn»ĞúØQÃ3¶õÓ	Õ3ÔÓµÔÓwàFêwäë§Ş	5ZÃj%T=N¦€	ÂËn¾178Ì³UÃ½š:}İFæ0jP£s˜[¦\000ØÊjr<á%¤Œ1[C#õv:¾û®îšëLúŒËŠ\n†N<#÷æSÉE¶\000N›ñÚ0åšJ9/övw‹…	Æ–åˆ\000Ú²İ–Éô?7oÊ÷³Ëƒğ³•ä wû¸!h£:è¨wŞw;½–™a™Wâ®…2Pú¡Ñ®(sÔ¾VßŸæ\000z=9,A\"ŠÙËWß‘‡67\"¾	[êÊÀ¶«öÅ3¡V@copM×6b†ï{œÀˆCÓßÜ®@P¦|ä*¡ròéaøEFä´ã.Òoh¡5†í0ü †¿±{6·]¶i=L¯áÊgvı!ÌñŠáÉò£²ïw¥h`é…†ã˜áŸ¦¯£Mû‘²u÷x	Xûõ°Ì'$_ƒnóÙ´LQo<®z¥JşŞ4§Z´>ƒ\n×TPuãÀvü•FÕ¼\rr—g¶¾îübŠÖu9Q=àrª5>’xuêÿB5ÏŠæ}tP¡k$cÕoJ}k=Y_›Îùüu9GŸô•6(‹K‘Òjkj÷äƒ¢â³¯{ÃôÙ¢¿âª’#¼*U”áâD‰ mÓ»½êìÚŞ,%#¨¯¯z2\"Š=ôC{•BGvW7Ä òÓÄ½R2Õ¹?Dë„OÓ!?LO·±Ä	[ÙƒÔ®õ4udÆW$®º§?@¼JYJpa²ÇR˜Å’”ç˜¥u‡øõ]AtˆohZğ¼¾«aùC<h*ÌQ\"âFU¡\\‹/@5™1\"6›4ˆê’Í‰À’ò|\rŸLğ„¤ ¦ÊÂÇ9´Ò\r•êÜOU$àåº’^`{‘Qı/¨úÏĞºŒ1@N¤ù˜ÿ¨gLúÆ6 ¶é=§|by^fë×N./_©ùH¡7[›»°ø’¾Ríºş®0§~@°íC‰Üä@]ÙS¾ĞÄëå—z«óîá+¤0Uï¬kî'rò›lí0<\"‹å|Ê!½ÀÌ‚ÑQ5û>’zcBÙV±ß8ENdÅÏvÁ9ø´9Ì‹ô5=\"ôêîsÅ`•¿Ò¤i–G¸>¬ícy1yúJàA™e«b\nÁµ×lGh‹gôÁ#R}w®ùß",
 ["metadata"] = {
+["guideId"] = 1427443615,
 ["retail"] = "",
-["subgroup"] = "|cFF1EFF00(1-90)|r Default",
 ["group"] = "RestedXP Midnight",
-["name"] = "c",
+["internal"] = "",
 ["imported"] = true,
-["version"] = 0,
-["key"] = "RestedXP Midnight||cFF1EFF00(1-90)|r Default|c",
+["version"] = 20,
+["key"] = "RestedXP Midnight||a) PoP-UP Quests Turnins",
 ["length"] = "616891112",
-["disabled"] = "",
-["displayname"] = "|cFFFCDC00LEVEL 80-90|r",
+["name"] = "a) PoP-UP Quests Turnins",
+["displayname"] = "a) PoP-UP Quests Turnins",
 },
 },
 ["RestedXP Midnight||a) The Grudge Pit 2 (H)|1043"] = {
@@ -7390,9 +7378,9 @@ RXPDB = {
 ["next"] = "a) Trials of the Shul'ka (H)",
 ["enabledFor"] = "Horde",
 ["chapter"] = "",
+["group"] = "RestedXP Midnight",
 ["imported"] = true,
 ["key"] = "RestedXP Midnight||a) The Grudge Pit 2 (H)",
-["group"] = "RestedXP Midnight",
 ["version"] = 1,
 ["length"] = "616891112",
 ["name"] = "a) The Grudge Pit 2 (H)",
@@ -7411,13 +7399,13 @@ RXPDB = {
 ["subgroup"] = "|cFF1EFF00(1-90)|r Default",
 ["next"] = "bi) Horde Spires of Arak 2",
 ["group"] = "RestedXP Midnight",
-["imported"] = true,
 ["key"] = "RestedXP Midnight||cFF1EFF00(1-90)|r Default|bh) Horde Draenor Garrison 2",
+["imported"] = true,
 ["name"] = "bh) Horde Draenor Garrison 2",
 ["version"] = 1,
 ["length"] = "616891112",
 ["enabledFor"] = "Horde",
-["displayname"] = "|cFF1EFF0011|r - Draenor Garrison Intro",
+["displayname"] = "|cFF1EFF0010|r - Draenor Garrison Intro",
 },
 },
 ["RestedXP Midnight||a) Fishing (A)|771"] = {
@@ -7440,24 +7428,24 @@ RXPDB = {
 ["displayname"] = "Fishing",
 },
 },
-["RestedXP Midnight||a) The Greenspeaker's Vigil (A)|1211"] = {
-["version"] = 20,
+["RestedXP Midnight||cFF1EFF00(1-90)|r Default|be) Highmountain Speedrun 2 Midnight (A) 2|1305"] = {
+["version"] = 1,
 ["cache"] = true,
 ["enabledFor"] = "Alliance",
-["key"] = "RestedXP Midnight||a) The Greenspeaker's Vigil (A)",
-["groupOrContent"] = "}Î±«Â0ÇñışŠƒÚ¡Ğ)\n.¥P§\"\"o	ÉÑ/¦!I\nıã­:Šn7ÜïÃ7Ï+Y­7RÊ@JŠ-ˆ\n‘‡e¢Ãèñ@1‘9ïñ‡ã®O œºª=á.¹èIıQXD<qÇ—uÂpôVİÏ“nÛ¢hš¶]MóËÙ¦kzØ{\n3T_×ÍwR6¾Tİ+Ÿ(Àv‹µµ¬œ&˜=vÚ†Şƒ¿¤Âı",
+["key"] = "RestedXP Midnight||cFF1EFF00(1-90)|r Default|be) Highmountain Speedrun 2 Midnight (A) 2",
+["groupOrContent"] = "…‘Ájã@†ïóZ|Iaâ²\räp¼)IJØ,İzQ<Š=t¬1²m¡ß±Òv¡ô0 ôı£ÑhOofqO”Š„´NE'’Úz†XE¹ø¶‚ßT7dv°µ†m^4*ªÛÃ¹÷š¥i¼LÓñxfãá«@BGl]b,	4„UX*}ËÏ°¯ˆŒ´“+‹!LTdl]9|é÷ŞÁ?sô™1ùAb²ğ#YƒNş¡»RÿbÖ»jÕ–Èçö]³tıDxTz^ÉW¡Ó/Bï½5£×­ûcYo:òÑKNæ\"¤·”˜w:AyºÏ½YS¼ˆŞ!b,?Èè¿‡õ¥)è²´B	\000L™8‡Ğ%ç(†`äÌÿÿ4ÎYäŒT¸\\¥\"Ë™kÃøõ’ı`C'r–óGüşFêí",
 ["metadata"] = {
-["guideId"] = 3512340874,
+["guideId"] = 460594463,
 ["retail"] = "",
-["next"] = "a) Peril Among Petals (A)",
-["enabledFor"] = "Alliance",
-["name"] = "a) The Greenspeaker's Vigil (A)",
-["key"] = "RestedXP Midnight||a) The Greenspeaker's Vigil (A)",
+["subgroup"] = "|cFF1EFF00(1-90)|r Default",
+["next"] = "bf) Tiragarde Sound Midnight (A) 2",
 ["group"] = "RestedXP Midnight",
-["version"] = 20,
+["name"] = "be) Highmountain Speedrun 2 Midnight (A) 2",
+["key"] = "RestedXP Midnight||cFF1EFF00(1-90)|r Default|be) Highmountain Speedrun 2 Midnight (A) 2",
+["version"] = 1,
 ["length"] = "616891112",
-["chapter"] = "",
-["displayname"] = "|cFF00CCFF4|r - The Greenspeaker's Vigil",
+["enabledFor"] = "Alliance",
+["displayname"] = "|cFF1EFF006|r - Highmountain 2",
 },
 },
 ["RestedXP Midnight||a) Unlikely Friends (A)|1228"] = {
@@ -7480,64 +7468,58 @@ RXPDB = {
 ["displayname"] = "|cFF00CCFF5|r - Unlikely Friends",
 },
 },
-["RestedXP Midnight||a) Darkening Sky (H)|1098"] = {
-["version"] = 20,
+["RestedXP Midnight||a) Harandar Adventure Mode 2|842"] = {
+["version"] = 0,
 ["cache"] = true,
-["enabledFor"] = "Horde",
-["key"] = "RestedXP Midnight||a) Darkening Sky (H)",
-["groupOrContent"] = "eÎ±ªÂ0€áı<Å,v(4ŠB©„:\\]\\bshC{“¤b¡oÕIİ>ş4-x±ŞpÎs\000æ)J=\000»‘ÚÌ3`­·£Ã#…Hê|À?­Œn»ÌÈB™àNúŒ6-ú	WuLéà9½Š¹\"ËªJ>{L?óE¡{|*{-Æp{Bx3M']$e‰µõŠ`ypÀ´i†QÑïÓåû",
+["key"] = "RestedXP Midnight||a) Harandar Adventure Mode 2",
+["groupOrContent"] = "µXkoÚHıî_1R>D»ï—®”7„’6j’¦€Ş´ÕJÑ`0ÊàAã1)+~ü>ccÓVÈù’€™ËsÎy®îv=ÓBÓ4-M;DbÊ´“™àÙ\rI*IüõİÒ8¡³¹ÔN¼ ÿ>b“Ô‹W$‘™ è–ÇYÚILÓ%Ãë|å&ºººê¿ï†¹¨[mÓNh\"‰H0ÓàŠ¥ú±öÿtå?pY3†øÉ9Ax“4½PÏ>OÇsR>èu¿dXÀ™'ˆ^q®ş/OHúD—ÈrL»cj:M¿dpGo8ñ„„FèhúŒK^,rMİWlK;?ßŒ¯•¡S‘³()g‘ài:ÇTœåp$õ	[¾³Œì3=!ä–n¢á×ûÇûëş§Ç6è†`øE<sñD“ºDn„¦	M\n[ĞùùŞºO	f$4§@6ì68¾i˜VÇ~-‹£%ÁO«‡×IòDÈ’ˆî¯[/àÔtİ=NÁL×ÕıÖ8½g8‘ŠÑœ¯Û½F#\\4~$b‚M4Â×3ø°©ú©×İwÊËòT`…°]¨¨Hù 20çÊü€vÂ—’r?ÓÚµ£ùË>_,Ásª_\n¢íĞîØºÏ×Ã°*ç¸ø-\\HÌ”ÖÛØ,¬®,:ÁBğgI~H4ÆL9Æ?IqÄÕğzp÷şæÛã÷LœbPP O8M!ôçÊ­kàèfĞqmİtr •€“³x—gÑËI6À3d]¹@y):âÎrÍCox÷H°“Œ²¥î!À›é+cøŠà{¡âišKü•À›*±oÉ‚‹5ìÄbF$úùÒ2*^«šbÇ7uÃìx®îi:QÌŒ\"’`A9²ĞïÀŸ@ı	Áâú¹00÷ .T˜¯pl5Ôqçæ!ÅÇ^·ø_ºnÓH?èxnx­IxÉ,İ“Æ2HS]ÉRTÂJ¦Ÿ©œ£o<IÁ“ÙÿIljÕ<¤RDÎiŠÔ^D§hÍ3áäT¢ˆ«“U¿ƒ#0\n15!ÎR¢ÜƒÍ”¯«Œ\000Õ!êÊ<|¹ÈºØ=„Òìî¡¨ç•æmÇ¥çÀªKëyºív\\CœÖòó0“Šºb\\`I’8q¾C˜–ëY:œ/¹;°@şK†£§t®€†³ÍßG7‚Fğy¡î{ªBnkà8¤ø=¼ÊKTº^çƒÜÇÁ(.4İ—ôƒFàºë+uC³5€=ÔŸCZUŠÊl:]ƒ¤{é¶.)ôvhM£Ñj@õm…¶½öí^ĞÔÈAš’$\"Ğpàƒ>l¸y®†„X4)Ø{b×oèëAUÍØk\r2’•JTyÌÂFö,ÿU\rÖqø¼`/@]»ã„ĞA´†¯”ô#ÉÎu#¼\"\rr[ÈªIrXCóeIÈô¼=\r ×°=Œ7ªºL¸&êM§°êN‰¸Ò{;Fc²²}İwU€Zí•è‡_Òh• tŞ2½F	µİ¶Uãİb^*í@³Ë,Ş‹>ÏzÃèsÍ=`A.ZĞŞì6ZbAĞàÇ’ÄTÍhÌE4oŠçªyKqJûõãÛşÄÖÿi†û~ÌÑƒ6ŠÃEõ©×­>~+8<F}ÏdàİìTÎtÑñİu[k¼km)÷‚0¨õİCZ4¸Š­òı…¦ã(\"K	=º—ËÓ+¾ªîõcUöÑÿ1#ïP-÷9—iÕ¨—ÍÈ€AãÌòÁ´É\nt5ÀŠÓ+ËtíÏÚ¨ zëèŒ~—dÍ“8§&G§ø`ÁÖH1’¦›U¦8;ªn€‘â¥ùó–ÚÍÕ<ù9Éc”ñ\\£İquÇQmm·ı†‹SÀ³(ëÛ	ª¸\\eŠÒĞİºbä™AğÓ%‘	#µcÿÆø#„Ş¬h†q¦)ws]—!a|¦ğäiM)\"`T/ ÿF)Ôó¹FJ`‹•*í³U[ËÏ\nr-’®TN„œÿ‚ÄrûÑápKö›yF\rk]‚±³„qØêé\ráâ¿QÂ%ÂU}>H)8”B6…¾–Š¶1³%°4»e®mÕ—ı.:a…TĞŞÒ F¦k©¾¯‡FkdŞAv„Cz]Au`/š/?ìò½—}Î™Q§ÕÓñº¾Õ·~¿µàA7Ä **~aöß",
 ["metadata"] = {
-["guideId"] = 514133417,
-["retail"] = "",
-["next"] = "a) Into the Abyss (H)",
-["enabledFor"] = "Horde",
-["chapter"] = "",
-["imported"] = true,
-["key"] = "RestedXP Midnight||a) Darkening Sky (H)",
-["group"] = "RestedXP Midnight",
-["version"] = 20,
-["length"] = "616891112",
-["name"] = "a) Darkening Sky (H)",
-["displayname"] = "|cFF00CCFF1|r - Darkening Sky",
-},
-},
-["RestedXP Midnight||a) Burning Steppes Prep|801"] = {
-["version"] = 1,
-["cache"] = true,
-["key"] = "RestedXP Midnight||a) Burning Steppes Prep",
-["groupOrContent"] = "ÕV]oÛ6}×¯ à§m\ncR%E€¤M–4\roi1-±’fšÔhjÙ\nÿø‘’ãIqÚÂÀºGé^s.ï±\"QŒÂ3PLÓ‚;ƒ¿˜šR\000ä2%«Ü±¹fé‡[p]¤¢Èrí1@\000'•…ÈÀ½feÉæàV±ÒB3%(wÌ¹Ò‰¦§ş³2}\000Pè»8òQ^¿çR¥¬‚kH¸Öx$²ŒvAâ2\\CÎŸ¥`À#àèèg	´l­QöÌ1ç‰éœIóˆ‹Bèa7ÀyÎÑÑbT›ñ‰&ìğQ*Îhy˜äTOªÉ„³1ñ3Åş^¾ÂÃ…Q>µŸ[$wnÇgw§7o¯>ßÉ\\€w\\26Ï©X(Ò$aåÒNÃò¸y|¢ù+kxiª2¦A«Å.Æ‘ ˆ£½	¸–•6WêŒ›{37ŒZ\nğZÁ[küÔ¹•ñ ¤ÈVÚMV–³İ˜€O¬\0002Ü›€cUÈék{¿À÷úà³LWVÇ{cºÓj»Rßlµ3È‹”=\"•Î ‘³’3muN8M¦J&Sğ3^2å¸”å†R¢È%>z®7t‡[»$†µ+f“L%‚Ã¸UÁÄÄ%!üv%°³7İéVÂÀ2ˆÂ¦òZªÚR\"ØßÚÌâ²à|éìéÍéõÇqGáB*Ò-LcWB9'JÊ”c­ıOX†ê¼ÁœÉI‹õë¾¶\ru{g.Vw&©Ô\\ªÃDÉ¹YñBÖ×‰&zueŞğÂ47ƒÕ9[2¿½xs9®?gºÎ;lq‡-vıÎ¯ó/½åtÂx°ÿ‰ÃÏF¼¹~6âÑŞÖ¶'âu*«ˆ™G`¿<ã7#vcïïµ1Àvø¥Ü‚läÙ18«Ìç™ùA—°Doáâ5îºJÁyeåï\nãĞF\\°¿ˆ[…ñÊ¡&Œ_v¨IãÍ<Œ_òÅşèÓ»‰îpî…ä¼£Ÿ¥:¸Ï©*Á}\"UY¤à„ªI'@=˜ŸŠÜ\n¶Æø0h'9B\\Ã¸Sl?€¸Æ!öLĞ©ÄønØiîˆÏ3Î’)K­Q};Ş(”ÂÍWRj›D3ğI*°a/ôbÿ•™ûoÍ™«÷ïGãçZ¨ßakÍC»øvŸÍàåL«ßÀôt6a\n<H•õQE	iS]ŸçfŞ=£'†kèVPn“ÚO¸›^ˆŒİ¯úñûOÇöİçÙUıû÷",
-["metadata"] = {
-["guideId"] = 1319309206,
+["guideId"] = 2675511532,
 ["retail"] = "",
 ["group"] = "RestedXP Midnight",
 ["internal"] = "",
 ["imported"] = true,
-["key"] = "RestedXP Midnight||a) Burning Steppes Prep",
-["version"] = 1,
+["version"] = 0,
+["name"] = "a) Harandar Adventure Mode 2",
 ["length"] = "616891112",
-["name"] = "a) Burning Steppes Prep",
-["displayname"] = "a) Burning Steppes Prep",
+["key"] = "RestedXP Midnight||a) Harandar Adventure Mode 2",
+["displayname"] = "|cFFFCDC001|r - Harandar",
 },
 },
-["RestedXP Midnight||cFF1EFF00(80-88)|r Campaign & Delves|caa) Midnight Intro Route 5 (H)|989"] = {
+["RestedXP Speed Leveling||a) Highmountain Speedrun 2 Midnight|1324"] = {
 ["version"] = 1,
 ["cache"] = true,
-["enabledFor"] = "Horde",
-["key"] = "RestedXP Midnight||cFF1EFF00(80-88)|r Campaign & Delves|caa) Midnight Intro Route 5 (H)",
-["groupOrContent"] = "uQKó0†ïó+dE*àè`ìÂme(ÈèÅwÓ5gÍÁ4©Mº:Ø7Ñ\"¨xxró7M§bšÏ„×Œñ}Išñ#v¬ÁxİÙ¾…-:òùîIª•gÜõûOv®ŠB¬‹\"Ë&y–æyrî`Y6mIµX¡>¢cÜ”\rBU–É—şßYØÚŞ#ÜÀd“0.Éµº<}|âb¹Zf™ÊôÇ\\0â›Æ}ëØš¬•î›q>‡í$²p@Ëxe›V£Ç¼‚Â»(t}ÓXãnÙåN‘ƒº'‰ÛAŒìp CNQXâU<d<pP¤4QGöÚSõ¢Oà-Ì²J‰Œ=štWc2•îÃª_õşÿ£¦qN…|i¶Xöş",
+["key"] = "RestedXP Speed Leveling||a) Highmountain Speedrun 2 Midnight",
+["groupOrContent"] = "í\\ërÛÈ•şÏ§èŠkk2;04Ğ¸8od],íH¶V¢£Ìn\\®&Ù\"‚\000ƒ‹(MùGŞ!¿öõò${N JôšTíñHèFŸÓçòK7ôò¥c:oš&^$\"ãA8zq'’4ˆ#b^Ì“8_“+‘fbö§Kr½bFÎÅƒh>zñ• ü{rÌ«8àı¨˜”ä¡ä\"˜E0”^Q&’ˆ‡#Xi=zò‰¯UoÑƒ‘>³˜8ÌĞÕmG³mİ¥£7o¾Œå*·|*^mâ$œ­øúÕtÁ³I>™„â³cÏñ OÂõkj|ÉÆ<\\XèËôêO—ŸO®Îßÿôùœ§˜\\>,â$ú’Œô,O\"`Û9XäÍ›1üJà÷ñBT³È8	&fòd.2ÒXa¤óéT¬3bù–éÁûÅ¯ïsb4',s{œ¥ÅÖ•ÍYºki¶§SKnîl»¹)¼'¯¦Iœ¦$¯ä¾ù4Ûîí0¦K:Âå‹\r^şøù&ˆ@*@(!ÿ‡\\îo¯Ö¡ÈDÁ¡fôt¬ç°v°fÄ¶M‹m÷Ö^`7Ó60ı1\n7Wï?ßg	?˜f`@oó,‹ûX ÈDŠt-Â˜ xÇë!ä»HÈ±¾…µ‹PşGf}p&ÏÁzˆm0Ãh2`3É€½µ9çÍ›]Ò¿^q 3NOóDÃø’Û8!â~-’@DSğ—hFÖñœLßÍ‹í¹*/L7mÍöuÇQx9ƒó:\ró™ØåóoæbÃïÉ[0¡­‹ÿ¡|Š¯Á˜2ó¥òä8š=ù2™ß¢`{K²MÍvtúM„Ø>„,wä~“É:û¢òœo!ä>Mˆê>EÑŞ·òö!d»èÍçú¨+ ïAê'¶`ÔHOSr—’c>E‰ò/*l‚lQŒD¤Ó\\Ì`? ˆ‚Ûã÷Ç?}>Ä*)ø':ä´riÅ?Lş\"¦ÌĞ[òuK÷öÜNL«İ†Ê9Pºpë)¸±ùfù~ÓH\rG³|P¬ŠY¾?<fÙDSÊ\rÛ¢®fyºÇ‹³‡|w‚¼^³‚rÓòÑD4]¬4¥7*îã¸á\n&\nÍ±4ËĞÔxèÏ òºËz†L@8€Ÿö3tÆĞ¯\000/ÚCàÛS¨ÎÊ¡ÿC»ZN¾	!í8\\ğtUÛ¥2$GJÃl?®-³éz‘¸Ï¶²Zgä=°Ñ·Î<ÍruÛÖÌBÃÀÏ‡DD2J³$˜‰¤‰@SHe¬4—öÛ½°R¿ö\"²-ôäääğèĞ0q`twÒ.U{ğ|ÍrPé6bX1­ç–Tñ×<\000GjP(dØÑTÿâ¿n)îa‘_‰”´)éc™&kz¢>\r!°™i²Á‘²¡+ÓBš¦ÙçøsprPµHãhŞêÔÔèH_ÅÒšøØ––©\000Î1¡lÙ|Ë¥İ‚n6‹ ]‚ÙÇ<ÒŒ¤!Ô-°ô)Ûî“ÉÇyÈ%S§¼O V!uÖ.iX¾í8MüvlÄ —)Ö\rsAÍ`”÷Àe»ñ™i˜ºG{¢ŠëË¡ Ï,İé¾9«-…ëï7µ’ª£\"ì|š¶„oS­±õÄ,ÔÑ£÷b Z\rõt‹æD‹‘Â˜§ Ú>ûjºÏ¬ÃMJQ{Îpaë‘¬™š­öÈx‘ˆm‘ZÔWŞ;HS‡Y•pƒôC.SîºBi\\#™› ›.şšÑéF@ebÉÓwúì	ûK[Ew\\–V6Ò˜ö‚¹MÒà™MĞ¾$Wh2é’>Òü%ôM[úVñd/Ìs›J¼^B\"IâÛFÓ¯/«9÷/ùËwq$ÌHmÃ2Jß‡öC¸¿LbLcÏCÈäVº¢we¶lû}l]Ä	O9˜‰3²VR¯_Æ6ÚşkPÀ/œø0®æ—’ƒ7Ä»OÍÚt½ŠßròSéíYÏ ÷°W5\\À6(İ’¨Şí!Q\r)²(:c2NêS‘ÔôÁğ°EğelZ6³¹ç“ƒ©¿Ë£O•C$Aê²!@LË0\\»t>Nğ›w×åÌ°Tr.B9M†\nå0ç9]ÛÕ¡d‚}0×¾àa¶àä:E”-âø%´õPÛôkUœ®òìÎÛ}h$›’”õ‚¯¸ß¨)r°„±´ÍmˆnMl¤m*_¿¼¬êfª!ì+„¤\"imuó/&+w†¥x;ÿ‚°FÈ:IìœÉ†&¦ĞÃVî_“•\nï1¢Ÿˆ,HÅŞ‡ÒÌ©X€¡¬<|I´nQ€ÂÇ“«Eœ5’Çí¬ãâ{ÚĞ+€¬¢×‹8P*ûQ…nè†‰ù­µUúmºJ\"\000è£¬|=óŒœAAšg[„I¶­IP>à|YÇi–¯D#¦:õtĞÊ4OPèÎâìaİæ×–½¯úpç‡¶,¿®~Æ;BbÕ.‰åÈG¶­ÿêÁ-CWmBx¥uu‹ªC÷9:†-7„:ØÑh‘Â·œÍ”mLS§İœ)Ë ¨vÌÎ½8(yzCJÌŞé»2ÍÚ€\000‹J³L)`çUNaZÔ7½vN“Áe%ÓÉ&,×ª¼º±ú#šñŒ¦€X·^‡9Ã«fhc¤Mc|¤+c»j‚¥œÅP‡Ù°Æáüİ)İ)OÖä2!½ƒv4X[®ÖË`½Ô~Vöí;‚0±%`éª.ödß±ŸXµœ¥1Ázºÿ‹	cp³ÔYË0uÖìXe`Ìx²$'€ôi3i°$N2o°í¿K@\ra»Fö±­õDĞV¾â NÌz{txi£·£»TRxmgJ®‰hë:!«hléİ3Dı½Û#¶nYHÉ.‡zĞûD„RÿirSË5]§Ü-UwĞ›y²”it¸X…ç½Âô&A4«rµíÈ\rOVq4¯úßıº4›†§B¶Ş¼n`¯ÊĞÎô\000±\n½äøË\r6¹,B³o\r{tóßñ$‰çóf@ÕÓ†Zg‡ÉCšñp›emßV‹GÏköRvì­n¾øj³íRÈcæ¥Ú&³©’\rÊ×É‘˜d}rİIo_øIc‡›\"|[Oí§»jÅÿWÛµ5Ü!Nâ¥]Zn »ñØ1bı Ô~½ÓBß}B}öÔÓ±£s,è{ìHaSy>À4¤bâNCê*¤ÑœV?ıÄ ÁTË!y5³â\\²¦±£Ø•b6=Ö[——Téğ\\ûğ.,Â>ØL}<Œ„ä‚ºeíhêÉ¼Ó†ö¿í;P¥Bùúˆ¶Ûoz¶]mÈ×(Ôv®æØU7Õ½úhB–æÊ¡ô©Áßèø\rŒêò\\ãSğãc„Áu\n	)¤È!È}¤Ï‚Cút!¦ËI|ß'Ÿõ÷>–¯ yfaÎ:<*}e­ñvÜmïê@‰<ØìŒ^cÀCy&rÜf“$ëj¡zRöSª_Ÿê¦xŠ|¡Z÷™æR¼A«°ŞàY\\M\n3ÓG¿1œÁJ“«xÖW–_Õ%Møò5ÇÁ\000àxºç6“wä\n/û8f÷yùŠïîLê„XO¥ÚÈE„qû4Ñ¶Ü\n½:S;2¢:qM}ø\nÍ%w%q´l¦@–šÆ¼ËI¾Ëÿ¶&İY¢±€«,€;Üv)åNSıŞtë\našvÚâÒãöÌ\000•)êÕe¨*³UšQ¼˜NËCofÑÀAPÏòá†ƒôSéW†3Ã\000–ÌÎneË·»Ûëå^OB½.‚U3c’Û2\rİîÈ÷Gì_$óğ%şÓDJÙ‘®Ş-éÒdš)™ L¢gßPOóÛ[­øñ~Ôu½1]MTÂ`%È8PZß8ƒÕ3ŞóÑé.Õñî.ş\\j÷×'×_§œöˆVÒ7HáuTR<¦Lê¼	%Ú–5J÷ËÒ<yù­sö	†£ª¶G,<†‘÷]?úê÷Yy—a¤/RRoŸ\nØø\"E`{*ù¼Õ\r‰Ál¬‘à¨­:O Ş[}ĞWs¶{ßæA8+OÕ¥ô]&/ËBY€ß\000™m­æ·S@…R½NqŞb=_ê×#p”„ØvuÙıÊ³üÇdW3nÙ²_YõìŒC`¬c¿º¤Æ)~²ÔŸ“ö'ˆLİÅÛlŸp<Ã½Ó^^¨jYP„a`·GwøæqïõËTXq,¼£È\000¶|µdı’İÏ› ‹Dš–ÙØ6‡\n²œ‡]=‰Ã0ŞÈÉ`%ÒQL‰L‹\\›\rÛ%ÇÉ9Ê'\000…«5¢mF€„Ì	Ö5ãEÅ;‘­šºŸaS§q·ìP$Êy¨†ÈQ’¯ê2«A¢Of_'§¢Xí J	\n×GÕã’Fó„j´=J¼¹´§¹.Tcÿä²ïwcSÙ+T5¾§9°×æ>vEv^İíå „ºåvÃƒLÒÂWq(Ö!èôŠi'ªĞF<‰æp•İyãÒd³´cjc°¯a±mM{.iİÜw%Sí~­7Š›²‹@ÜS•â”¼ó-ÏP°ğuo&RÎ \rHù¨¾-ÕŞÓş‰é®Å•ƒÖ3^ñíö1>­¯ìCı6D‚\\Æ ÛšdùX>-cõ‘ÒµÙ&²ÌÅo¼˜£;Ã}ñxÅ–äÿy‡YÃLœ†™ÜÄá-¹äàYÿÛ*¦±ÀşRyZ'É=O_îšG;Â±d	¿'ÚË£UÏt=£N›LL›ö/ùñcØA²¼ç¯*Ì'‚ÈãäŸäaKEàº½w„Zoö¡üB§CCe ÷/0ügŸ&Œá‚×æv`ç#²¥¼¼mÔº©Tº¯_&A}—B$¯‹¯8xÖ\\à	R\n?‡ÙVõ}µ¼ÓlÅ=îóF>£tÊCñI’:âDß@2¬6`İj‘Ë•ø€Pƒaß«Ûb&$i>ùÒ	°^F-RsÀ|—I¶\000ˆ’Œ——E>!µ8œÅ}Í´¨I\ríQ‘-”d‘–Ä³‹_µ˜L\r”­p-içÉdÖ…\"=qÁ[y8£‘(Î€C—2\n‰²dQ]ä2Œ³Oø¸_Šµv#£/€Ã’,²l¾~õj³Ùèqå}µáÙtñow¿Ïÿ¸üøÖıÙˆş£Ãjäôøê˜œ|¸\"<;:ş\000>À§I\\²[1¥¤+›/¯ğ/•~Æq°]¢÷8 #úí÷*0¡t¶mK£\000Û¬š‡³a:İÕöİH¢UğXß‰Ñ?Å9™B…*\"	b7<!qÑäšãŸ_1üíï–ñ/dGyÚF!>›øµ>ØÌåİ%¨/,§¿#@§;Ôd¶R²-¥x\n	ÏÓ,EåHñzËåa§¸Œ\\æıãoÿ\r\000™$rÀeP‘ÜA^Šøˆ`œğ³ ¬:èóxÃëö]ãÇÛ˜»p€S}ô¯ãXN@AÉó>xgT	w¡Ö²1ùüw‚œá½r’ğ•øM¥ùã­œpÍ„Xè:N­yƒ>†ª90ûí÷¿ıÏ",
 ["metadata"] = {
-["guideId"] = 4239334529,
+["guideId"] = 2689603088,
 ["retail"] = "",
-["subgroup"] = "|cFF1EFF00(80-88)|r Campaign & Delves",
-["next"] = "cab) Eversong Woods Route 5 (H)",
-["group"] = "RestedXP Midnight",
+["group"] = "RestedXP Speed Leveling",
+["internal"] = "",
 ["imported"] = true,
-["key"] = "RestedXP Midnight||cFF1EFF00(80-88)|r Campaign & Delves|caa) Midnight Intro Route 5 (H)",
-["name"] = "caa) Midnight Intro Route 5 (H)",
 ["version"] = 1,
+["key"] = "RestedXP Speed Leveling||a) Highmountain Speedrun 2 Midnight",
 ["length"] = "616891112",
-["enabledFor"] = "Horde",
-["displayname"] = "|cFFFCDC001|r - Midnight Intro",
+["name"] = "a) Highmountain Speedrun 2 Midnight",
+["displayname"] = "a) Highmountain Speedrun 2 Midnight",
+},
+},
+["RestedXP Speed Leveling||a) Jade Forest Cloud Serpent Side Quests|1351"] = {
+["version"] = 1,
+["cache"] = true,
+["key"] = "RestedXP Speed Leveling||a) Jade Forest Cloud Serpent Side Quests",
+["groupOrContent"] = "ÕW[oÛ6~×¯ à‡a˜ÊŠº«\\ÏÁÒvif{H‹¢0h‰³…Ğ¢FÑõ2øÇïˆvbÉ’º¤7#Òwtô}‡ç¦gÏ|â‡!Ä6ŒdŠ¦Üè}b²HE†ˆÑ[H±ÎÑ˜Š%ï.Ñ$g,AoØ'ÆÓlaô2ºbˆşŒ^Ñ„¡3!Á\r¹X'hÂdÎ2…&) ¬(Œ^š)&3Ê\rp—½X¬rÎÛ¤j‰2ö2ğB(œ€˜¾‡mÏtl[&üY)8wÀr<ÔïÿY0´nø/¬­úğRŠì_†¦éŠå)‹ÙGã,Réÿ—%’.D&ÓØ£¿5+làT±U,ÖÀÖ&~@l“x\rşwW;²f^€}×t]¹F¿¿jQÑ˜=ßÉ“ÍŸÇKªæëùœ³™ï.$»Ás¿°æ”òë’Ì6¿»œÏG¿¾y?ñ„I4Èxº•@ˆÆ1Ër,ĞZ»Ë«”'hºê…•¦ĞáÁ'S`æ8¦C ²ß,¦çY¡ä:VB¢©È:°j-³4»ì.\\×\"[	¾wşKFU)°Tü6IêvşÁn´ÊÕ\rºĞù^5	*&‹\nÎY¬ ÊîòˆoÛy—a¡±Búê*Í’\r•	úªxÉ5ûŞêm€Ø=.DŞ<~“Ûã?@.4d‡m[MëS~d:vİÈƒ›öì¤i\000D¢ÈsôSM‡ò]Ì»hwqî\"ÜÅ¶‹ªeüB¾ì¸úı×)çûÌ]Œ~?›p0†SÎĞ„®¥¸Ö©{ëy—˜e9­ÄÕ¬!±™f×Lîë+-Şfº÷î²t_ï„X$ u~ô¸€š„·ros5_Ì>šYYÖA¹Á]*·I=	#ûÑ1r#÷Ñ1òÌ¨Çéœñ{Ø÷¦î?˜z­…°lEV`>#u\0006\000l»À/\000ĞÂ°lvĞªà>LĞÅ3˜4b£çÖ@J±i6ßlí^µÖRèFôùñâã:eˆ-¯Ñ¼ìB³`ejıT´AC›Ã@ïQs(…ºñÃ ğP„-İ³I“FTBÉĞiƒÀ•	iyWé\n–—&J4ºBÑ‡® tE K~—ö.á]ª»$wÍ=½vşßh+¾t´5Áqšç·3¯ßò4¾Fğù²{õåùğõìökÜÍWw°k+m™ÿƒä<á}Ş=í>ïUöùæ²^1ô+†µm½bTmÖõÊR–úáRˆâî«¹+î†?(t	|êß”ì\\Ë,Ë¹Bœè hº,S>/*Ğ+ìÙÍC¾UÊ°-ËÙÇ’'‘²ğYïy¦3Ù:Ş¢ïq“ëµ2;Îã¨’+÷<‚[W÷—äZ'”äZ_-©Nth<¡$òµ’ö£¦½JN)êĞÎ\\ûPüç\nÄ0>g®.¢JìJ*Ï|Fı",
+["metadata"] = {
+["guideId"] = 52959106,
+["retail"] = "",
+["group"] = "RestedXP Speed Leveling",
+["internal"] = "",
+["imported"] = true,
+["version"] = 1,
+["key"] = "RestedXP Speed Leveling||a) Jade Forest Cloud Serpent Side Quests",
+["length"] = "616891112",
+["name"] = "a) Jade Forest Cloud Serpent Side Quests",
+["displayname"] = "a) Jade Forest Cloud Serpent Side Quests",
 },
 },
 ["RestedXP Midnight||a) The Regent's Request|873"] = {
@@ -7578,104 +7560,85 @@ RXPDB = {
 ["displayname"] = "|cFFFCDC007|r - Voidstorm",
 },
 },
-["RestedXP Midnight||cFF1EFF00(80-90)|r Campaign & Sidequests|cb) Arator Route 3 (H)|995"] = {
-["version"] = 1,
+["RestedXP Midnight||cFF1EFF00(1-90)|r Default|bk) 70-80 First Crafts (A)|1300"] = {
+["version"] = 3,
 ["cache"] = true,
-["enabledFor"] = "Horde",
-["key"] = "RestedXP Midnight||cFF1EFF00(80-90)|r Campaign & Sidequests|cb) Arator Route 3 (H)",
-["groupOrContent"] = "UÎOK1ğû|Š€t‰Ji¡d5ìEzñ:M†íÀ6YóÇZè‡wÕ^z~o~óÚvi–«µ1æ@%.$#¨/NYb@jH±N¸ã\\Ø¼á«ø Ã¡€ÊuÿŸ]œµæÅZ­+İ®usIØÑq\"Şá»xş¬ó}èÈèö\r>%*1á.ÖÂø€‹¾å%O#ÿ:¿¦í;­g­½ög€¿:G\rö”(xº56ìcòóÚ	”7VÏH·¯éav’àã	¶[?",
+["enabledFor"] = "Alliance",
+["key"] = "RestedXP Midnight||cFF1EFF00(1-90)|r Default|bk) 70-80 First Crafts (A)",
+["groupOrContent"] = "u‘Akò@†ïû+¶ä¢‡°YVÁ‹4¦õCÚÒöğ]Æì$Y\\'a’X|7*Ø‚=,Ì;Ï<Ì†áPGc­õ@ˆ€±ëD°G®mIò^9—m%_°nĞ|®åÊ²yÑˆ n7çŞ1M=K’(êépõ,cÌ u>D°C¹ÙöåC\"™X®ùÈ5µìMû\"0¶®N¹+H<$üŸLdÌ€„VŞÅ©â/à¬+Õ•~º«æíèÜş×YÎÜ)áîJš·Ô ÿ¹SßÜù^Zã1jÑº7Ë@jÙ³’s4µÂ´€¼³P1ğö™K:Ù)H›âÀj\rd€‘”—üá¢>:©pSàehì–…ß>uÎ¥(üù+XJ]kğú¯¢‘KÜ£³”ÿ‡[‡ß",
 ["metadata"] = {
-["guideId"] = 1932073704,
-["retail"] = "",
-["subgroup"] = "|cFF1EFF00(80-90)|r Campaign & Sidequests",
-["next"] = "cca) Harandar Route 3 (H)",
-["group"] = "RestedXP Midnight",
-["imported"] = true,
-["key"] = "RestedXP Midnight||cFF1EFF00(80-90)|r Campaign & Sidequests|cb) Arator Route 3 (H)",
-["name"] = "cb) Arator Route 3 (H)",
-["version"] = 1,
-["length"] = "616891112",
-["enabledFor"] = "Horde",
-["displayname"] = "|cFFFCDC004|r - Arator",
-},
-},
-["RestedXP Midnight||a) Eversong Woods Route|861"] = {
-["version"] = 0,
-["cache"] = true,
-["key"] = "RestedXP Midnight||a) Eversong Woods Route",
-["groupOrContent"] = "ÍYÛnã8}÷WÈCc±Zu‡Æ8Ó“é$íM¼›Ù™´ÄÄ\\S¢AÉq{‘ß¢d;¢äŒ´˜—ºëTª¢OO}ì‡ÆØéõN+(½“'%—tËò‚%¿ŒÑ5O2ş4+z'M¢C£g¦r™=¡{)“İÊeÁz'	Ï‚®Ë—^â‹‹‹áùĞ¶…N_ôNxV0•QÑƒ5ú2Ë„µ×ü¬v?Ãğ9â*fMV\\èg?n\\f“ÛŞœî½}V­dıOf,ŸórHDú¸g=ÉBV®k…nß·-â÷>}z™”>>Ò˜}\\I%’”.>Æ3ZL—Ó©`¾û¤ØÚšŠÅıRL¨˜#°ôßş2~¸¸½İœ_ıûá\\Qp9{QVÏ*n€m;DŸ>MÊË—‰ë;¶¸?€‘ß¶°ÑÏg<{ú}ûU\000/õ	\\QõÄ\n´1{¦ĞÂaßó,;ìÓ åM@·\000aĞÏlÅD¬ècQ‡åxÕpiÓoâù?–@Á3p”‚·xë8u°m¸ïVĞÇvßn<òà¯oyU.wqˆ—@Lõ1V2Ïg”«eˆh\\ìÂ0<#Y‘¯ŠÅørøåág©G×|VÑ9ù˜\000ÎoÈ:]r‘\000d®¥Êàné6„Ëˆú’É•`ÉĞ[1š/3ãAzO\\¼g¹^ß\r¬Ğéü¿àM\nŞŞÉ¥@ŸY\nˆ7/MeQÈ=\n)•‰:èµAq§ï¹–;cøg*hF›÷šŸ@¤ªó›DvX£wew©nY¿c\"ò4$B:ƒ·SªJH±‚Ål>ìû^;¶y/Â°}ìÓÕ—GåÁ†İG¬°Cù”B3™7õÓoÉc¦b”ÁZ™¡5[òi'¡ÓG#\000[®Ó°3YĞŒçºÑB®š\\³£@ÏøSS*x¾j)ñı¾æ\nGà,ÛÕ8£ 3œCšN™’­HšøüÈÄ7ñŒ¥ë·²·µûQÄAmài´~wa¬ à<ch,®A×åkùÛÀ: |69Jø|+rJİñòWØ44ç-í³åë2ËcÅö.g®G¼ –´­ñw$ÍLeŒ, Aàm5¦‹¤İA[ºRŞş£13³ëò¸C%Ë>*sÄòKîİuegTZµ:3Ûm)‰mfîLĞx§¼0NÇÆõÊµµŞª] d/4·;h#ÅşÅË%¶o÷C¼s±zëÜÂa‹[AßÇÛö¿n5ZD`Ø…oS0[öˆ9øüvŸjòù9$îQôs,/ê{N—•úŒ	.šªÑRù€˜Ü»æ™9A:°yRööĞFÁ9§ÙŠ5·RpÎ({õgFèÚ¤^–KÃLû8I\"£sÇ–SN4Nwœ¼‡X ‰„&kØV7²bÖ=Œ/ùk_h6İ”Ô âbpI‰ĞÛf]$o²nÍ§ml¤înÎ3ƒ‹¡I-o`ó=Ò4AbWƒôIgi|•–	-=G_õ¬',ĞSùØ¡Âuœr\000O	ºkk“IÍ§•°ĞLØ+ûZ=t‚‰ë‡—}\rGä7Î„‚@Ÿ8İu‰UğœfP†²,\000Š%è«‚ÿfëé)Ç„y(‰Î.‰5eÛ:g¸»6¤‹B/z!¨b9Ø©6c¶(PDGKÿ ºêi_Ÿßİ0–°¤÷ÚÃ7´}w­(*Õ¡»áşšªmº‰t!XÁ*—û¯ÍÄæ¥ï:Óg–\\fƒ|öÖ™äôğêèJ\"+ìî,àn-@2šÕ­u¼Ñ<ÂJ¹İjU*;ß£->K‘LMØ)U1…	j¡ä¡Ï“ïÙ»{ö°pL‰5‹e<‡m;f`o*¤LÃ×É°··ku‡Û\\‹t'Pw\\<3•JxòÚ|‚\\ıDÓ´!RàM‡-êŞ†ˆ4\"B4\\·»œ~ºmÛ@ùó2›Ñ›ÒY7´¶o7¨l—Tºƒ}Çµöé:úˆÆj™Áö|1l}=õïšŒŞĞŒF—@Kêá«»êH°WoxÌĞp©´Ğ4†ûò˜m{j{¨¸z­âê•g0X—XÜ]CtµÎsª(:_æóT‚³¬^\\Ã€DN­¸‚Ë²‘XpËz'Îm+ß%Ô{Øp];?f¥±T0\rAíşÌ~Ô—»«³Sãr¸±7ƒ\r¹âY\"W½“må^è€0­æy¡ç•ßÍ¤dÉ w¢ÜL‰tª|øSÿu¨|â²×ÛÏ8xÃö}çDå×¤ıÌµ<İ/‡nû‘W~c«³ïÙæã›Çôâ‘R´àñ•æıZ¥`ß?óJ®^&˜8NuÌSQë~p{óğÛèyëS¬³eQÈìw¹ŒQÕ$`=œzÃìº¤Æ¦¨ï¼³å/¾1ÔÁÚ'Çº{Î¡·İ¬=º]ÃÔ½³wµÎ¾w4K4¤ÅµMZ-— F¤rŠÌï÷¸YŞ®ü!bb¯c_¸†[úAnö‹Õ²¸Zvc•V~{_2ö­øó²Ôvî¨4ıEÒ°oÿÕBÕ¥pŞ˜.Yê”óÜTÎóÁ1ßçûçı®ÿÚûÿ",
-["metadata"] = {
-["guideId"] = 1330778026,
-["retail"] = "",
-["group"] = "RestedXP Midnight",
-["internal"] = "",
-["imported"] = true,
-["version"] = 0,
-["name"] = "a) Eversong Woods Route",
-["length"] = "616891112",
-["key"] = "RestedXP Midnight||a) Eversong Woods Route",
-["displayname"] = "|cFFFCDC002|r - Eversong Woods",
-},
-},
-["RestedXP Midnight||cFF1EFF00(1-90)|r Default|bi) Horde Spires of Arak 2|1276"] = {
-["version"] = 1,
-["cache"] = true,
-["enabledFor"] = "Horde",
-["key"] = "RestedXP Midnight||cFF1EFF00(1-90)|r Default|bi) Horde Spires of Arak 2",
-["groupOrContent"] = "u‘ÍNë0…÷~\n£lè\"rİEE¥n@i‰[¨( +ÄfOƒ;&I¡›Š!XXÛGg>ÇS==›i­'BDŒX'¢rk=I-¢Š}ßÈl;4ÿ×re\rÙªîDÔöùñï­HS½HÓñøTÇ³ñèe‚%ô.ˆ¶(s;’™gƒrÓXÆVúR3<Ë‰ˆŒmûA÷e¤'Á$ş)ŸÏå5ò$¹T·ì¦;2æø=#\rã…óŞ,\\y¸„ƒ[OYOòŸõ—>w–ÔÈ@pWÁüê@î™PeaÜúà–ëÕ\nª8€ªpW#%/À¥z88`; «ûŞ5È †¢«÷¬¾1ª˜=Ù\000KøÚÉüé#¿¥ç9™\\@ŞD(¦‘¥ÂõAñYÔ¦A4òî0àWğ{âı",
-["metadata"] = {
-["guideId"] = 1604917142,
+["guideId"] = 1277892227,
 ["retail"] = "",
 ["subgroup"] = "|cFF1EFF00(1-90)|r Default",
-["next"] = "bj) Horde Gorgrond 2",
 ["group"] = "RestedXP Midnight",
+["name"] = "bk) 70-80 First Crafts (A)",
+["key"] = "RestedXP Midnight||cFF1EFF00(1-90)|r Default|bk) 70-80 First Crafts (A)",
+["version"] = 3,
+["length"] = "616891112",
+["enabledFor"] = "Alliance",
+["displayname"] = "|cFF1EFF0011|r - First Crafts",
+},
+},
+["RestedXP Midnight||a) A Palette of Feelings (A)|1204"] = {
+["version"] = 20,
+["cache"] = true,
+["enabledFor"] = "Alliance",
+["key"] = "RestedXP Midnight||a) A Palette of Feelings (A)",
+["groupOrContent"] = "uÎ1‹Ã0†á]¿Bà¥q†Ğƒ,¡à­nêp‹±ÕTàÚÆV+ôÇ_Úµí.½ßÓ¶ƒö_Zë@ËÔ/•Ê)bßZJZ3~Sò§ì#/í•Ğ68ál‰¦3¢Àq©¸›Pköö¼¼;cºîp0Fë{Áöıß–¥?ydçBŞJ*Û4G)É¯N¦gØ]l*08…À6:‚\r˜Aqtaõô\nşùD…ÿ",
+["metadata"] = {
+["guideId"] = 2481786922,
+["retail"] = "",
+["next"] = "a) Predator Reintroduction (A)",
+["enabledFor"] = "Alliance",
+["name"] = "a) A Palette of Feelings (A)",
+["key"] = "RestedXP Midnight||a) A Palette of Feelings (A)",
+["group"] = "RestedXP Midnight",
+["version"] = 20,
+["length"] = "616891112",
+["chapter"] = "",
+["displayname"] = "|cFF00CCFF11|r - A Palette of Feelings",
+},
+},
+["RestedXP Speed Leveling||cFFFCDC00(1-90)|r Default|b1) BfA Intro|1299"] = {
+["version"] = 1,
+["cache"] = true,
+["enabledFor"] = "Horde",
+["key"] = "RestedXP Speed Leveling||cFFFCDC00(1-90)|r Default|b1) BfA Intro",
+["groupOrContent"] = "u‘Akã0…ïú³ø°ÍÁÈÎBh —$ë²ÛnØvÃö2¶Æ¶@‘ÌXN›’_Å¹J‚§ÑÌ÷˜8¥³Ûyš¦S!\"&Úˆè@Ükg!QÃnèàõÔ¿\r<wD\n~ÑŒ¶ˆú¡¼tœª<ÏWÙ*InÒxLNÕ8/\"‹{‚2À²^ÀƒõìD¤tß<OçÙtçIò#ŒÅ°ŒÂwd¸»ƒß\\Á·ì§|agÌ¨şZE¨.E˜ì(—Æ9µ6õùí-ë‰¯YM¿Xİ»2|JnĞ*X¨Oºi}éØ’,‚Ü»€Dm/¾ò›9$”kdß’Í^‘k¹;²3Ëí`:b”cåÛ#ËOádÌÎêÒÒ›‡'P8V[4ßû@ÇV„hcM„t\"Ò¶2Cè¸²“ÿ±Dï\rAíïÄÎ·âã",
+["metadata"] = {
+["guideId"] = 3246789926,
+["retail"] = "",
+["subgroup"] = "|cFFFCDC00(1-90)|r Default",
+["next"] = "ba) Horde Val'sharah",
+["group"] = "RestedXP Speed Leveling",
+["key"] = "RestedXP Speed Leveling||cFFFCDC00(1-90)|r Default|b1) BfA Intro",
 ["imported"] = true,
-["key"] = "RestedXP Midnight||cFF1EFF00(1-90)|r Default|bi) Horde Spires of Arak 2",
-["name"] = "bi) Horde Spires of Arak 2",
+["name"] = "b1) BfA Intro",
 ["version"] = 1,
 ["length"] = "616891112",
 ["enabledFor"] = "Horde",
-["displayname"] = "|cFF1EFF0012|r - Spires of Arak",
+["displayname"] = "|cFF1EFF002|r - Zuldazar",
 },
 },
-["RestedXP Midnight||a) Whispers in the Twilight (A)|1271"] = {
+["RestedXP Speed Leveling||cFFFCDC00(1-90)|r Default|ba) Horde Val'sharah|1298"] = {
 ["version"] = 1,
 ["cache"] = true,
-["enabledFor"] = "Alliance",
-["key"] = "RestedXP Midnight||a) Whispers in the Twilight (A)",
-["groupOrContent"] = "}1«Â0F÷û+.dÑ¡Ğt(>p‘B6AŞtp	É}Í…¼4¤©Uè·ÕQ|ów¾Ã)ŠZÖ›/)e eÍÄ•RÏ]@	¢Mİñ›úLö|À=ÛÀ­Ë ‚ş#Ôk<9îãÌ#Ìğ8²_\\íÖ ì<z}Â“Qª,›F©jJX||ÎnºåÅıã´íÆ_íıËfœ™l·¸óu0sXÁÁøÁÒ{èåŸDxü",
+["enabledFor"] = "Horde",
+["key"] = "RestedXP Speed Leveling||cFFFCDC00(1-90)|r Default|ba) Horde Val'sharah",
+["groupOrContent"] = "uQMkã0½ëWhña›ƒ‘İ–ĞBNã5ô+ì¶a)½Œ­‰-PFfl¥\räÇWvZğ¡=F3oŞ{3Çót~u¦é¹cÆŠhÜG2QÍÎ·ò/v=êÿkù¯EÔò÷h\rÕ\"ê|yB«<Ï—Ù2IÎÒø:™Yf¸o{ìP–0“…cröw×\000C#\"mºÖÂaDé*Ï“ä2tÇœ\\,ä#WòWv«ØY;FÏ¤ô)	‘ÆğÆ:§Wv;|ÂÃ£ÂSü“ØÅ7b\\æSk \rXŞS7}é˜P!Ü¹@\n†NÊêêĞ<ªpß eoÀ[õ2X`3ºVo[dPCÕ7V{ª\000fG&ø$|ïeY~ík*'‚¹1+ÂAZª¬˜ô–>™l,²'yo4\ró|r}ü",
 ["metadata"] = {
-["guideId"] = 3598062033,
+["guideId"] = 1713379348,
 ["retail"] = "",
-["next"] = "a) Shadowfall (A)",
-["enabledFor"] = "Alliance",
-["name"] = "a) Whispers in the Twilight (A)",
-["key"] = "RestedXP Midnight||a) Whispers in the Twilight (A)",
-["group"] = "RestedXP Midnight",
+["subgroup"] = "|cFFFCDC00(1-90)|r Default",
+["next"] = "bb) Horde Highmountain",
+["group"] = "RestedXP Speed Leveling",
+["key"] = "RestedXP Speed Leveling||cFFFCDC00(1-90)|r Default|ba) Horde Val'sharah",
+["imported"] = true,
+["name"] = "ba) Horde Val'sharah",
 ["version"] = 1,
 ["length"] = "616891112",
-["chapter"] = "",
-["displayname"] = "|cFF00CCFF2|r - Whispers in the Twilight",
-},
-},
-["RestedXP Midnight||a) Trading Post (A)|753"] = {
-["version"] = 1,
-["cache"] = true,
-["enabledFor"] = "Alliance",
-["key"] = "RestedXP Midnight||a) Trading Post (A)",
-["groupOrContent"] = "íSÍn1¾ïSŒ´(*‹ J«ªR„SP”Dj‘*U=Éêµ·ö8iP¼oÈ“0­H\nâÀ™ëøû™ùÆÓéœT'½Óªª^EÙ¢\\aˆäTE¹>µ0ÁÈh®Æ0\"ãhYsQ:Õ ¨#˜eÈ-aì#Ãóş‘¼à=ç—w¸$Ÿ}\nDNPg0R¢`P£pvpC±µj³ÓÛ+J]«VÀÅù9ô­%å4ÂnåÅ7­EÆ5q\rÙ¯(­š£…K²ÏlWbb‹°ÕÃápğ~ĞíNo©®)BVöĞ¯Í6/g»:r™WA!ß%™\\8Š!àZa‘¬‰b|Wh#ôºß¿~;í/¶zr5¾¹ìO>İÌ1håÀ;»9ÂcÛF*¡• ”Ö>9~Ÿ Q¨ÕJrµ•Ùìˆ·áø@ÿCdj#L‘¥å5xUçmC.1ÆÿCXûñ¡÷..>úÇ”}hÖäÌ3à]¢€ñ¬±îÃŸ¿–\r&ÇšòW–8\"¢@Ä>¿şµrÚ&ƒ¿×õ“³zÀÿKîšóûÅÎ™Hì¤ş8?(gr·Ïd)8sÍ¸ŸÛ‘øÈÂ}›	ÉY¯oÑÎ>R.)+;ˆéäÇ",
-["metadata"] = {
-["guideId"] = 271912263,
-["retail"] = "",
-["next"] = "a) Begin Your Training: Master Cheng (A)",
-["enabledFor"] = "Alliance",
-["name"] = "a) Trading Post (A)",
-["key"] = "RestedXP Midnight||a) Trading Post (A)",
-["group"] = "RestedXP Midnight",
-["version"] = 1,
-["length"] = "616891112",
-["chapter"] = "",
-["displayname"] = "Trading Post",
+["enabledFor"] = "Horde",
+["displayname"] = "|cFF1EFF003|r - Val'sharah",
 },
 },
 ["RestedXP Midnight||a) One Adventurous Hatchling|933"] = {
@@ -7696,24 +7659,43 @@ RXPDB = {
 ["displayname"] = "a) One Adventurous Hatchling",
 },
 },
-["RestedXP Midnight||cFFFCDC00(80-87)|r Campaigns|ab) Arator's Journey(A)|1268"] = {
+["RestedXP Midnight||a) Eversong Woods Adventure Mode|841"] = {
+["version"] = 0,
+["cache"] = true,
+["key"] = "RestedXP Midnight||a) Eversong Woods Adventure Mode",
+["groupOrContent"] = "İY[oÛ¸~÷¯ à‡b±¢›uéC×vÚl“œlœİl{ö `$F&,“ZŠŠã\"?~G´l]l¤*V=XôÅI‘3ß\\¾2GGáx¾af¯×Db÷ú‘àY‚nH*IøÇ5º¤!£Ñ\\öú/	Â?¡é)gºã<LÑ(|\"Lf‚ K’^?¤iãµúú%8;;OÆºn¾tÔØÚëS&‰`8î°¤§Ñô×ä@üä9í÷ú_&1‘dEå1òÊÌiCòUOÃA@¹Ä	òmÏ5¶›:9m†\rá•moëæn›•Û>`YˆE}ƒá[•\r0*7Œ–¼ş¹ãê^ùy>*?¿ôK’\"şˆ>gñ›Ñ³º0Ë«ìÎGåîß9\rS·|İ„ZÄ%G¦å[{¨9ÆÀÕ5Ëéœ¼Üç>xÄ92°8OÓ9¦âX¹R{ˆ“·¦ş\"Ç1\rˆ3$ç¹soş¸¾¿>¼Ÿ<“L{‰“ÑÒJá>‚¯$øİâx$ÿ“m>»9Ÿ^M.>İŸ3¶ $!ıÂŸ(ÎÏ/ÑÍô*hèÍŠ‹8ûs,²0Æ½cG‚¬wp\n‰èk‘\\Ñ€h=mÎ!¨ONfD¢5Ïú@°s°?#ù9wxıˆoR•?=MbÁ·{Zº IV¦	\r‘aÙ:d`sÒtçĞ¤×Úp7˜E ó–Ä„eiİnD;p|M·:³[SV‚éš~%¥xÆB\"È+H¯4I¸³UıÖXÏY*E@&@BaØRÑ@li¦5pmÍèña©Ü¶Ue†1`ü”Ä/•Ù?¨cìC…]ÿ¿bwJì¾b£kÒè‹uš3£I–.–‹ŒT!¶£ùFNv†ÛäC2KÀkùfÍÙ_³4¡@¢ëìıSZƒ¾Ä›Ñgt¹“ŸW¹¡Š=ø®‚ï;ƒÿºt0tŒ²íßÂÁxËû;¼vPa(^$F³9É¯Î =@î|!gø‰‹tô«ì¬J=ß\"®­W¨³´Ú˜â[ŒJYg!Ùoîş„¶în8*÷X^ŞoW4Î×N·çZ•íìøèàô¤¤k.€ Ÿ$}\"§ùp7zwT‹ó*í^½ü€W‹d:›sNBˆ˜ó¤á_ËWüôÆ’®·5×Û_s¡«È¿º‡ö™¾Úmí¯ÙüXšgï/\rÕ6Kš‡ÖŠÍ…š?úâ©€ş’¹5ïÖb9‚ı-%›–ìZÓÕßB\\nâñntsuÿßé³xåì]&¡]ù45š—fÔVÍ™çÈVò&æ.Ú&ªËHXõ@[u'ä‘`YÈ^M/?İ—ç]¬Ù3h—÷\000‰¡ Òs.µ=• \r_òTß@M5]å–CŠ}¤q\\S+_Øt2\r±ÆFlqR§ üëC6PW–ïæ¥}åZ¹é_â†C	üo3ÜªîòBĞ¸Z©¬õMc¨ÿ0”ó-ÿÏâ­]n*gls³],¾îş×“¼Ãz:.¨gmD½VP'õ‚:µ9x„Æ\nÚÖÜRNÕp;Õ†ïŠ)ƒÊò5ÏÏ-³³nê\"[âÚåBÚvõ\r…’G±õ‹¸”.áše¹7×eß\rgÊ~{~³Ş(lz6ñ\rÓo rà×ƒìëîÙ„²7!„¢÷d	ı\\\000^*hªh¥•€ó²\"q ğ£zeùÈø\nîÌ• 8Í\rÃ÷¶kè†lÜtŠ­«ü·5ÓëLıü<!\rb^µÆ·˜Ú6L­èh²3]/1Ëpœ?±]B—Œ$UTƒ9NT«SZÜ‚Å§,¢në_··îîìİ\n¬íÖÀºš¯\n…åvvÆc¢ÿ‚®3Ì‹^®h»\000ğ’²¯c3¬-¶¾¤ôI%LòfÊÛª4İ½)¾]æ!ÖqT€İåç«*ìçCşÖâiİñ38áQÄ_¶VÕa` ¸\\_Ác’?¸7*aNyn¸.¸Š\nÏ‰–é˜‡øñûbÚy4Û÷„‚ì·ï	M¶oªÿŠeãúù¹ÍßVèß®ó­$ÍænÀ8OË?GGåßE1îòWFpÜÜ™EÆX÷wèŸpDšÎu¡\r½ÎœûËù‰¡=D³ŒEøKí¸§ú zÅ¡Ÿ	èØ\nú­Ê;ğş9m,4ÁQ¦M€ºÕ3HŞ½TæŠ©ñÑşÜço pİµµÕRf4íÎ¨gÆY´Tª&üšïj€ÏYšä½ø×x\\¾úû",
+["metadata"] = {
+["guideId"] = 3960869614,
+["retail"] = "",
+["group"] = "RestedXP Midnight",
+["internal"] = "",
+["imported"] = true,
+["version"] = 0,
+["name"] = "a) Eversong Woods Adventure Mode",
+["length"] = "616891112",
+["key"] = "RestedXP Midnight||a) Eversong Woods Adventure Mode",
+["displayname"] = "|cFFFCDC002|r - Eversong Woods",
+},
+},
+["RestedXP Speed Leveling||cFFFCDC00(1-90)|r Default|bb) Horde Highmountain|1297"] = {
 ["version"] = 1,
 ["cache"] = true,
-["enabledFor"] = "Alliance",
-["key"] = "RestedXP Midnight||cFFFCDC00(80-87)|r Campaigns|ab) Arator's Journey(A)",
-["groupOrContent"] = "e1kÃ0…÷ûS’×%YŒ‹‡ÒBº^ì«-%!É…@~|ewì Eß»÷Ê²Vuóª”ª\000DàDÚ€øáµ³¨@LÁ­/_güÔ£ÕÓœ@ÄõöÇCß÷İ['å¡‘eóR<v´xÒ“ ,-Œt+°\r”\\xŠøîÖ`ù~h£ŞĞ}m\")·WeEùï\000Ä0“O¹R×™ñLiF÷[%ÌÂcò¸ı§=w§¶Æh²C^ãáYÁï",
+["enabledFor"] = "Horde",
+["key"] = "RestedXP Speed Leveling||cFFFCDC00(1-90)|r Default|bb) Horde Highmountain",
+["groupOrContent"] = "u‘Akã0…ïú*¾´¯¬Ğ†\räÔ8®¡í6ìnK)½Œ£‰-PFfleÈ¯ìô…æ`ß{3“¦S=ı9ÓZO„H{°N$;äÎz’Z$5ûĞÊßØõh^WòO‹häîĞYªEÒ…ê¨8¬‹¢Xä‹,»Ôé,»:°ÌqÁõ\"!Ø¢¬ª+Yz6(K[7[(z‘HŒíZûQ3@ô²(²ìæ‡„ô?­œÏå¯åE~¯ş²wn¬É ˜c#å­óŞ,İfø‰n=•‘‚|ÎğúŒá¯â¤jd ÂUdÿŠ’¾òL¨NÕGwõusª%pß åÿ€7êm\0008`;&W/ÁµÈ r†ußìYDT%0{²1+áG7ß­NNDÌ7öE¼N+Kk¢êÌµŞÌ)`|æ@òÑ†ú¢}ş",
 ["metadata"] = {
-["guideId"] = 1640175578,
+["guideId"] = 2583697727,
 ["retail"] = "",
-["subgroup"] = "|cFFFCDC00(80-87)|r Campaigns",
-["group"] = "RestedXP Midnight",
-["name"] = "ab) Arator's Journey(A)",
-["key"] = "RestedXP Midnight||cFFFCDC00(80-87)|r Campaigns|ab) Arator's Journey(A)",
+["subgroup"] = "|cFFFCDC00(1-90)|r Default",
+["next"] = "bba) Horde Highmountain 2",
+["group"] = "RestedXP Speed Leveling",
+["key"] = "RestedXP Speed Leveling||cFFFCDC00(1-90)|r Default|bb) Horde Highmountain",
+["imported"] = true,
+["name"] = "bb) Horde Highmountain",
 ["version"] = 1,
-["chapters"] = "a) The Path of Light (A);a) Regrets of the Past (A)",
 ["length"] = "616891112",
-["enabledFor"] = "Alliance",
-["displayname"] = "|cFF00FF002|r - Arator's Journey",
+["enabledFor"] = "Horde",
+["displayname"] = "|cFF1EFF004.1|r - Highmountain",
 },
 },
 ["RestedXP Midnight||a) Cultivating Hope (A)|1206"] = {
@@ -7756,25 +7738,25 @@ RXPDB = {
 ["displayname"] = "|cFF00CCFF4|r - Sorrowing Kin",
 },
 },
-["RestedXP Midnight||cFFFCDC00(80-87)|r Campaigns|ad) Zul'aman Campaign (H)|1103"] = {
-["version"] = 20,
+["RestedXP Midnight||cFF1EFF00(80-88)|r Campaign & Delves|cb) Arator Route 5 (H)|987"] = {
+["version"] = 1,
 ["cache"] = true,
 ["enabledFor"] = "Horde",
-["key"] = "RestedXP Midnight||cFFFCDC00(80-87)|r Campaigns|ad) Zul'aman Campaign (H)",
-["groupOrContent"] = "==kÃ0†÷ûSR(©K³ã¡¡Rº]¢‹-°e!É…@~|e÷cĞ¢çŞçŞËó­Ú÷J©\r€ğÉô ¾Ø3ZÜH­'‡o\"ë=>mMÛEa:ş°ë©®ë²*¥\\2/î²«Ç’G¦µ„¥‘t†ŸS¿¢ì?Äu“Ğ&¸.ËØ¬’r~·I’/‘ÇqêÈÅT)ÃÊ<PÀ×ÉãY={Òÿb‡ã5cC¡[ñå:öœ2ßûi8Î_R1Î¾pº:©yiµÛa3zÍÎvp£àû",
+["key"] = "RestedXP Midnight||cFF1EFF00(80-88)|r Campaign & Delves|cb) Arator Route 5 (H)",
+["groupOrContent"] = "]Î1kÃ0†áı~Å ÄƒAjip!ŠSá¥P2u½H‡sàHF’“òãë&^Úù^ûêzmÖÍ‹1æ@%.$¨3§,1 Õ§8¸ç\\Ø~à»ø ı±€ÊÓá~»:kÍ›µZ¯]7MuMØÒi$é>à‡3gPNŒîPák¢îãTŸqÕU ¼äq ï[óëÙv×jı4KõÒÏ\000t®ÂO‰Í»˜<Ã<t%Á\r“g¤ÿnk–æ(/|¼Àvkàç",
 ["metadata"] = {
-["guideId"] = 2428573747,
+["guideId"] = 4279507242,
 ["retail"] = "",
-["subgroup"] = "|cFFFCDC00(80-87)|r Campaigns",
+["subgroup"] = "|cFF1EFF00(80-88)|r Campaign & Delves",
+["next"] = "cc) Harandar Route 5 (H)",
 ["group"] = "RestedXP Midnight",
-["enabledFor"] = "Horde",
+["key"] = "RestedXP Midnight||cFF1EFF00(80-88)|r Campaign & Delves|cb) Arator Route 5 (H)",
 ["imported"] = true,
-["key"] = "RestedXP Midnight||cFFFCDC00(80-87)|r Campaigns|ad) Zul'aman Campaign (H)",
-["version"] = 20,
-["chapters"] = "a) Dis Was Our Land (H);a) Path of de Hash'ey (H);a) Where War Slumbers (H);a) De Amani Never Die (H)",
+["name"] = "cb) Arator Route 5 (H)",
+["version"] = 1,
 ["length"] = "616891112",
-["name"] = "ad) Zul'aman Campaign (H)",
-["displayname"] = "|cFF00FF004|r - Zul'Aman",
+["enabledFor"] = "Horde",
+["displayname"] = "|cFFFCDC003|r - Arator",
 },
 },
 ["RestedXP Speed Leveling||a) Kunlai Summit 2 Midnight|1321"] = {
@@ -7793,65 +7775,6 @@ RXPDB = {
 ["length"] = "616891112",
 ["name"] = "a) Kunlai Summit 2 Midnight",
 ["displayname"] = "a) Kunlai Summit 2 Midnight",
-},
-},
-["RestedXP Midnight||a) Into the Abyss (A)|1254"] = {
-["version"] = 1,
-["cache"] = true,
-["enabledFor"] = "Alliance",
-["key"] = "RestedXP Midnight||a) Into the Abyss (A)",
-["groupOrContent"] = "eÎ1‹Â0Æñıı/dĞ…¦CQèR\n…<äqpÉ%/í1\rI…~økÏÍ®?şy^Éj·—R–\000\"PRlA<(DJ}ï(&2—#Ø8î‡Â©¡ÊğË¥Ó@Øü¾bÄm“0½U¯ÿË¤»®(Ú¶ëÊ)`şñŸz¦Å9ÍÓ÷Bo\"‰í[Òƒò‰Ô56Ö²rš`Nñ Øi{7´N»®¢àï",
-["metadata"] = {
-["guideId"] = 713756117,
-["retail"] = "",
-["next"] = "a) The Night's Veil (A)",
-["enabledFor"] = "Alliance",
-["name"] = "a) Into the Abyss (A)",
-["key"] = "RestedXP Midnight||a) Into the Abyss (A)",
-["group"] = "RestedXP Midnight",
-["version"] = 1,
-["length"] = "616891112",
-["chapter"] = "",
-["displayname"] = "|cFF00CCFF2|r - Into the Abyss",
-},
-},
-["RestedXP Midnight||cFF1EFF00(80-88)|r Campaign & Delves|cb) Arator Route 5 (H)|987"] = {
-["version"] = 1,
-["cache"] = true,
-["enabledFor"] = "Horde",
-["key"] = "RestedXP Midnight||cFF1EFF00(80-88)|r Campaign & Delves|cb) Arator Route 5 (H)",
-["groupOrContent"] = "]Î1kÃ0†áı~Å ÄƒAjip!ŠSá¥P2u½H‡sàHF’“òãë&^Úù^ûêzmÖÍ‹1æ@%.$¨3§,1 Õ§8¸ç\\Ø~à»ø ı±€ÊÓá~»:kÍ›µZ¯]7MuMØÒi$é>à‡3gPNŒîPák¢îãTŸqÕU ¼äq ï[óëÙv×jı4KõÒÏ\000t®ÂO‰Í»˜<Ã<t%Á\r“g¤ÿnk–æ(/|¼Àvkàç",
-["metadata"] = {
-["guideId"] = 4279507242,
-["retail"] = "",
-["subgroup"] = "|cFF1EFF00(80-88)|r Campaign & Delves",
-["next"] = "cc) Harandar Route 5 (H)",
-["group"] = "RestedXP Midnight",
-["imported"] = true,
-["key"] = "RestedXP Midnight||cFF1EFF00(80-88)|r Campaign & Delves|cb) Arator Route 5 (H)",
-["name"] = "cb) Arator Route 5 (H)",
-["version"] = 1,
-["length"] = "616891112",
-["enabledFor"] = "Horde",
-["displayname"] = "|cFFFCDC003|r - Arator",
-},
-},
-["RestedXP Midnight||a) Atal'Aman|828"] = {
-["version"] = 20,
-["cache"] = true,
-["key"] = "RestedXP Midnight||a) Atal'Aman",
-["groupOrContent"] = "­X_oÛ8÷§ Öİî©Œ$R”Ô©“öÒ6iàx·íí-Z¦meQ ¨¤-òáo(9‰-ÊÙ.Ãâp¨ùó›ßõêX’AC-—ù`x#t%UB0\\jU—h\"*#æ_.Ñ¹œr¹2ƒaÁ7ñ—èØğüÅñ†ƒ¡,ŒĞÏ°¹à¥2\n…$<Fpâ%>öÃvÓU&\n®¥B$b´ùIĞhtjÅÈ¬ÄãÁèDä7É¢’sÑŠ`U¢K^U¸}×0ç3‘7*Vv<À?T!ªµ,Q‘Èî­±!Å©ïQ‚:î¦gö•‰£¬Ö•ÒG™VUµâR5ñÌàY^¾ı;3Îe¶FkÆ]6ùry}y6şpı–ç¹(¶†]eª6w0Ï2Q”ê§àÜqûØø£_ThZ¯w\"ˆ\r×Ka{Ú6¤²:+öb·ë	p{”bxïù{²‡©GCL‰—tD¤QqÚ†C>„ãVé|¾áåQ¶âfVÏf¹¸ft©Å÷‡xLy¾FpRŠ·“³Ó‹“_¯§J×Å\\¡)Dé–?~äbŞ¤º7>`A”Ú¼Ø$-!Ş²”sF¬SÛ8ôs8O¤œPì¦8œÔš£ d99”Ñ]oî4Z(8Ú¨±äV¥s4«|Ğá\n`z+ÁîÛÁ0S›2Í\n^ >UFl*À¬Rå®‘ÔÇ¢Sæ¤Ï®&I1…˜EY„ÓÔ#1¶Ğîê¥8ïf¡«—âd¾İáÈ Á‚¦÷uQì…§Ä}óÂG‰+1ñ‚§¡+J0¥^¶‚‡CûD8G£2Ï·<½8=ÿzı‡ÌÅLó\"[‰êNï‚/J	xaö·üñÄÁû>‰u\"‰ûÌ{.2i_Ücq¸Çv8íÀ®¯:z?ğ‚ıÜØDG˜õ{ìıª”ZšEÎ¿¿—Å‹sŞõÄòÓ\000oÔõlîO>í2-gŠ],f±4\000œ=›½Í…X;ôÅ‚~úJiÜêôÇ©A—„Ê³¼Øõ*ÂahY ]„!h¸-qŠXÁ½(À‰[È¤)Ó(6èÊ¨\"‹0!.@+=fµÃ	ñ\"‚{ÔÀxb¤½G2êÅ¾%²šfˆ#ëH#{®*ó¥¥<ø­]ü|<¹¸ŞÛüYğşN8,ñb}À6…mK˜ó\rĞ¬?v…}¤FÀW·¤ö™Ó^2§^	c,h3;FYˆ¹xÚÖ¢5ü–ßˆ\n©…ØHøk­Ü-Ò±*ªzS;åÁ¶+Í×Æ}ó¶Rÿ-¾Í4c4‘¦æ¹¬L»~! ô+ñ\r]©:Ÿıİ\nN@ JiĞÕZ\000³ª¢]~äd4†|»*¬úF\0008BÄ€&ûiR\n÷2?©1á¼ïªÖR«Ğá`ˆGòÏ™+é0×S3ä¨‹°g£®ªÂ¥®Ğº±e©fK‘%‘ƒ\\°X,dnÿ?Ÿ­257Â5šy&ƒNˆFCb?tF]X¤\rU†s`â‡~üÄxYÏç¹xõ€	™¾ZiYg.Ü¡€‡¸ö)´\000)Ä7³?Gr­Õ­eô{ÕŞî¦‰h½†@şyúÍh~œÙÊyS(¶¿:¸}œşùIn£J,÷ÛÙÒïóâöÁ.ù–ø\000>	ud0V²û9İ‘…´G]hÔ–UäêAb^”ö¾x1\\}÷ÌÔ6¢˜áğŞÎ>¬?°mÿÈi’µ\rf4úÉPÛ^h!ºU¼ôŞjµ¬\\îæ¶o˜ê¸,5@TfV—•ÈìírK¹…\000\\.¤ë<7|ı°^ëu³¾â€¿]w’Ş·½­Xµåo»ˆÎyµnŸ'ÂÔº€mŸtRiHë\\ıOİéÿ;ì|qúeŠ¦ŸĞ×O¿7Øµp‚$³ç»¾¶à^¢Ù\r²ÅÃœ	M™Ãœ»VFS_Sé¾ğïúOçSÈ›'ïÅP‘aj/l©÷*èöSbûiÔìÍ§K”\nÀçÒ¢EUkøfÚÈ×Ù-‚> UcÖ%H«FíœCW€nÛ<übKàF 3{ŒóøÅæN¸i«¦ù^ÙØ4j›õfÍc~Q€UGú÷øú’kóı¬X(Ül˜ÂèQ*m>Õæ×—½ñùÏ½×”Ä–à\"Ê(”ÿ³aiÊoäzİÂÉ–x}ÿ9h\n6\nû=h{Æàÿ",
-["metadata"] = {
-["guideId"] = 3054766892,
-["retail"] = "",
-["group"] = "RestedXP Midnight",
-["internal"] = "",
-["imported"] = true,
-["version"] = 20,
-["key"] = "RestedXP Midnight||a) Atal'Aman",
-["length"] = "616891112",
-["name"] = "a) Atal'Aman",
-["displayname"] = "a) Atal'Aman",
 },
 },
 ["RestedXP Midnight||a) Runestone Rumbles (A)|1241"] = {
@@ -7874,24 +7797,82 @@ RXPDB = {
 ["displayname"] = "|cFF00CCFF10|r - Runestone Rumbles",
 },
 },
-["RestedXP Midnight||a) How to Train Your Protege (A)|1245"] = {
+["RestedXP Midnight|Pre-Turnins|a) 1Pre-Turnins Booklet (H)|1020"] = {
 ["version"] = 20,
 ["cache"] = true,
-["enabledFor"] = "Alliance",
-["key"] = "RestedXP Midnight||a) How to Train Your Protege (A)",
-["groupOrContent"] = "}ÎA‹Â0Åñû|Š\\ôPh=¼!xY(Ëö’¡ˆI˜¦êB?¼UËzïÏ¯ªÚ¦İ~4M³PBÅr\000u!9EÜÔ zISÆ/ùc‡Ÿì#÷Cí™Ğ®ñ®X~‹åˆ§4	v’\nõ„+½åyÌÁş>×³3¦®÷{cÚY°úÿºÔéVu=f=jg=Ù½ªn°¹Àn‡:¶Ñ,ÂŠ£“§¿âŸwV¸ÿ",
+["enabledFor"] = "Horde",
+["key"] = "RestedXP Midnight|Pre-Turnins|a) 1Pre-Turnins Booklet (H)",
+["groupOrContent"] = "mÎO‹Â0ğû|Š\\,K—D°¬ĞKÅ/+¥+èMb3Ô°Ù¤äÏêB?¼µ^<xùÍ›—ç…(>–Bˆ9\000ó¥6ÀşÈí,Î9°Î»ÔcC!’:Ôø¥•Õİ9éôØÕò]òVÛ0M/t(8çï`VşÊÅ“Ã•s?†\"Î60¥Coäÿ_ ¡mõq_5Ûã¬ù¬ÖÙà¡,qã¼\"kõÀ´mMRÓ›ôöM†Úˆ–®»¤ÇãÛ",
 ["metadata"] = {
-["guideId"] = 3753644492,
+["guideId"] = 1685460078,
 ["retail"] = "",
-["next"] = "a) Aspiring Academic (A)",
-["enabledFor"] = "Alliance",
-["name"] = "a) How to Train Your Protege (A)",
-["key"] = "RestedXP Midnight||a) How to Train Your Protege (A)",
+["subgroup"] = "Pre-Turnins",
 ["group"] = "RestedXP Midnight",
+["key"] = "RestedXP Midnight|Pre-Turnins|a) 1Pre-Turnins Booklet (H)",
+["enabledFor"] = "Horde",
+["imported"] = true,
 ["version"] = 20,
+["subweight"] = "1000.5",
 ["length"] = "616891112",
-["chapter"] = "",
-["displayname"] = "|cFF00CCFF6|r - How to Train Your Protege",
+["name"] = "a) 1Pre-Turnins Booklet (H)",
+["displayname"] = "Pre-Turnins Booklet|cFFFCDC00(READ)|r",
+},
+},
+["RestedXP Midnight||a) Atal'Aman|828"] = {
+["version"] = 20,
+["cache"] = true,
+["key"] = "RestedXP Midnight||a) Atal'Aman",
+["groupOrContent"] = "­X_oÛ8÷§ Öİî©Œ$R”Ô©“öÒ6iàx·íí-Z¦meQ ¨¤-òáo(9‰-ÊÙ.Ãâp¨ùó›ßõêX’AC-—ù`x#t%UB0\\jU—h\"*#æ_.Ñ¹œr¹2ƒaÁ7ñ—èØğüÅñ†ƒ¡,ŒĞÏ°¹à¥2\n…$<Fpâ%>öÃvÓU&\n®¥B$b´ùIĞhtjÅÈ¬ÄãÁèDä7É¢’sÑŠ`U¢K^U¸}×0ç3‘7*Vv<À?T!ªµ,Q‘Èî­±!Å©ïQ‚:î¦gö•‰£¬Ö•ÒG™VUµâR5ñÌàY^¾ı;3Îe¶FkÆ]6ùry}y6şpı–ç¹(¶†]eª6w0Ï2Q”ê§àÜqûØø£_ThZ¯w\"ˆ\r×Ka{Ú6¤²:+öb·ë	p{”bxïù{²‡©GCL‰—tD¤QqÚ†C>„ãVé|¾áåQ¶âfVÏf¹¸ft©Å÷‡xLy¾FpRŠ·“³Ó‹“_¯§J×Å\\¡)Dé–?~äbŞ¤º7>`A”Ú¼Ø$-!Ş²”sF¬SÛ8ôs8O¤œPì¦8œÔš£ d99”Ñ]oî4Z(8Ú¨±äV¥s4«|Ğá\n`z+ÁîÛÁ0S›2Í\n^ >UFl*À¬Rå®‘ÔÇ¢Sæ¤Ï®&I1…˜EY„ÓÔ#1¶Ğîê¥8ïf¡«—âd¾İáÈ Á‚¦÷uQì…§Ä}óÂG‰+1ñ‚§¡+J0¥^¶‚‡CûD8G£2Ï·<½8=ÿzı‡ÌÅLó\"[‰êNï‚/J	xaö·üñÄÁû>‰u\"‰ûÌ{.2i_Ücq¸Çv8íÀ®¯:z?ğ‚ıÜØDG˜õ{ìıª”ZšEÎ¿¿—Å‹sŞõÄòÓ\000oÔõlîO>í2-gŠ],f±4\000œ=›½Í…X;ôÅ‚~úJiÜêôÇ©A—„Ê³¼Øõ*ÂahY ]„!h¸-qŠXÁ½(À‰[È¤)Ó(6èÊ¨\"‹0!.@+=fµÃ	ñ\"‚{ÔÀxb¤½G2êÅ¾%²šfˆ#ëH#{®*ó¥¥<ø­]ü|<¹¸ŞÛüYğşN8,ñb}À6…mK˜ó\rĞ¬?v…}¤FÀW·¤ö™Ó^2§^	c,h3;FYˆ¹xÚÖ¢5ü–ßˆ\n©…ØHøk­Ü-Ò±*ªzS;åÁ¶+Í×Æ}ó¶Rÿ-¾Í4c4‘¦æ¹¬L»~! ô+ñ\r]©:Ÿıİ\nN@ JiĞÕZ\000³ª¢]~äd4†|»*¬úF\0008BÄ€&ûiR\n÷2?©1á¼ïªÖR«Ğá`ˆGòÏ™+é0×S3ä¨‹°g£®ªÂ¥®Ğº±e©fK‘%‘ƒ\\°X,dnÿ?Ÿ­257Â5šy&ƒNˆFCb?tF]X¤\rU†s`â‡~üÄxYÏç¹xõ€	™¾ZiYg.Ü¡€‡¸ö)´\000)Ä7³?Gr­Õ­eô{ÕŞî¦‰h½†@şyúÍh~œÙÊyS(¶¿:¸}œşùIn£J,÷ÛÙÒïóâöÁ.ù–ø\000>	ud0V²û9İ‘…´G]hÔ–UäêAb^”ö¾x1\\}÷ÌÔ6¢˜áğŞÎ>¬?°mÿÈi’µ\rf4úÉPÛ^h!ºU¼ôŞjµ¬\\îæ¶o˜ê¸,5@TfV—•ÈìírK¹…\000\\.¤ë<7|ı°^ëu³¾â€¿]w’Ş·½­Xµåo»ˆÎyµnŸ'ÂÔº€mŸtRiHë\\ıOİéÿ;ì|qúeŠ¦ŸĞ×O¿7Øµp‚$³ç»¾¶à^¢Ù\r²ÅÃœ	M™Ãœ»VFS_Sé¾ğïúOçSÈ›'ïÅP‘aj/l©÷*èöSbûiÔìÍ§K”\nÀçÒ¢EUkøfÚÈ×Ù-‚> UcÖ%H«FíœCW€nÛ<übKàF 3{ŒóøÅæN¸i«¦ù^ÙØ4j›õfÍc~Q€UGú÷øú’kóı¬X(Ül˜ÂèQ*m>Õæ×—½ñùÏ½×”Ä–à\"Ê(”ÿ³aiÊoäzİÂÉ–x}ÿ9h\n6\nû=h{Æàÿ",
+["metadata"] = {
+["guideId"] = 3054766892,
+["retail"] = "",
+["group"] = "RestedXP Midnight",
+["internal"] = "",
+["imported"] = true,
+["version"] = 20,
+["key"] = "RestedXP Midnight||a) Atal'Aman",
+["length"] = "616891112",
+["name"] = "a) Atal'Aman",
+["displayname"] = "a) Atal'Aman",
+},
+},
+["RestedXP Speed Leveling||a) The Skyhorn Tribe Midnight|1380"] = {
+["version"] = 1,
+["cache"] = true,
+["key"] = "RestedXP Speed Leveling||a) The Skyhorn Tribe Midnight",
+["groupOrContent"] = "ÕXËnÛ8İû+xÓ*#’zÎÂ€'M¦&Aà¦H»2h™‘‰0’‡¢“ğÇÏ¥ä—i\\¸õ`–çŞËCò¾{ Š	!´×ëka¸T½ş£Ğ…Ì3DzıTç‹9‰Âˆé×kôy.Ä]ˆG¡d–öúˆ¿E73>ß?Ïr¡-']Êi&Ó™éõef„Î¸êÁóNs“£À§ïáÈu†iÔ–7e¿;ˆ“§\\«éŸŸ$3n&‹ÉD‰qà¥Z<ã‰šÿAİ¥¹áêÁDËdôõz|>úxvõşâÛø’?+>\000ğC¾È@M¶Ô¸‡y’ˆ¹A”24«Ïé6\\§Â ö4uò®ãSìçáş2ò¼àÙšÑR›…Îd¶¡}Ÿ¾_æ]›a+;f$ÚÊ¾Z@t³˜æäM‹–8†Cæx¦¬÷q#.±¹>It^3.õI©›'f£íTÉäAòØé+×O?oe«@ı½P¼Ô—äs%Œ¨:¤‡‹{9Oan9—Säy„ùmÍ	^&íé/…Øap;]Ï¾Í‡‰ÌşsaLŞEZ‹Bs¡\"°ğAÔ‡(`‡\000±}€˜gˆ·E!âC€ü×(©òé!@Á>@‘ã˜$(Ü'fÈ=(¢}€¼°ôòûıfåk¿é0ŒW$¸[ÃåItÆS%VfÓW|\"”µ²ÕàÒÈ>Ã´N#Uô†œ„owWÂÅïxûŞ/3§S>7òQ ¿´à¦Â­ÇÉ\nrˆ5‡•ğ+a5î´Á`N\rGşÑ¹ÓŸåÎZÜ¤:Á9:wö³Ü½w°ƒÈæ\rÎİûYî~‹»İù.ƒ£s÷÷æŞÑŞVI÷N?Ë¦¤.Ò¬H÷ø\"ƒÃD†­pÑĞaÑ±ÅÃ=”¼ì»´®‚Á%ÀûıÇÍê´X7ãâÕ»-%õ+ıÍL±ÓÁ£ñ¶Ã°(øB™õqö0øæÜ_¯è“43õ4“Å=\\8/òg®daP¡ì[`0ø$á¤®ô]]~o;K`ÊZë©æOJò¤hœş@ÍúrãlŒ‡|Ò…_5¬g³ìï ¾3\000­ZŞÛ¯\" ?Ø?ˆ8ì¿F¼áEÆàÂÙ%nÄSY-—øş]èæ†’5åFÇÖ%ÆÅ„9ŒbBº`†)×|¥!ÏÒZÁ4:Öt¾µpæcÏëâñrb$XEb·×šAïÊõb\000°›ˆs·Ş\000‚#Úlra\\6µZì¥b´ÇÀ#Ú+ÅUÓÿ*CkËBKÛ	Üßo;+çØ}U¯¬£Ûq6ã*CY{ÉQvŠÖêVšdöÏBˆÖ#Ö>Y Ybwf¦­Hl·•št—Z·„_¦^Œ‰w”5¦5ŞÿªµGa³Z#Eò»K3¡şØ}BÂ_&ğŠ?r­ó´åQX>\n$d3\"ÔmU0\"xvËl˜s³¢³[&?@N´¾‡,“óóóÓ÷§®{+•?•‰7~O@$oŸŸ·\\t—ë²Ç(Wb®øsYkˆ ]Õ¹øÕ¹İ\\)Ã]¯ruÅûUºÿ",
+["metadata"] = {
+["guideId"] = 434443186,
+["retail"] = "",
+["group"] = "RestedXP Speed Leveling",
+["internal"] = "",
+["imported"] = true,
+["version"] = 1,
+["key"] = "RestedXP Speed Leveling||a) The Skyhorn Tribe Midnight",
+["length"] = "616891112",
+["name"] = "a) The Skyhorn Tribe Midnight",
+["displayname"] = "a) The Skyhorn Tribe Midnight",
+},
+},
+["RestedXP Speed Leveling||cFFFCDC00(1-90)|r Default|be) Horde Hillsbrad Foothills|1293"] = {
+["version"] = 1,
+["cache"] = true,
+["enabledFor"] = "Horde",
+["key"] = "RestedXP Speed Leveling||cFFFCDC00(1-90)|r Default|be) Horde Hillsbrad Foothills",
+["groupOrContent"] = "}‘?Oó0Æw\n£,tˆœ0”VêDÓéåO/!–K|I,¹vtq\n•øğ\\Â\000íéîòøy~öÅñ</–iš^0VD{¤Şx'S5ä‡N>`P¿låc‡¨å\rîÑ×ˆ¨ÊoÅg•çù:['Éy/“Ù'Ékl‘ƒÊg²ğ¤QÆÚ¾$Ğ2÷>´c'\"múÎÂa’^é&Ï“dÁ6ñ_äj%ï©’gÙ?õŸ¼µSõä4²jÂ@è¦òÊz¯7¶şpç]1¸€t,õòTêµ/ùêjN'(¸3MJOUÁåÎ³;÷ n¡iVm€B‹.{ªÕëh`Ì„¯Û!ÊªĞHıâTygØáGeıó”ãËV½`¶i(xUˆŒ«ìÀ’#«{ƒSëøú",
+["metadata"] = {
+["guideId"] = 1377901504,
+["retail"] = "",
+["subgroup"] = "|cFFFCDC00(1-90)|r Default",
+["next"] = "bf) Horde Hinterlands",
+["group"] = "RestedXP Speed Leveling",
+["key"] = "RestedXP Speed Leveling||cFFFCDC00(1-90)|r Default|be) Horde Hillsbrad Foothills",
+["imported"] = true,
+["name"] = "be) Horde Hillsbrad Foothills",
+["version"] = 1,
+["length"] = "616891112",
+["enabledFor"] = "Horde",
+["displayname"] = "|cFF1EFF007|r - Hillsbrad Foothills",
 },
 },
 ["RestedXP Midnight||a) Beyond the Walls|910"] = {
@@ -7943,8 +7924,8 @@ RXPDB = {
 ["subgroup"] = "|cFF1EFF00(80-90)|r Campaign & Sidequests",
 ["next"] = "cd) Zul'Aman Route 3 (H)",
 ["enabledFor"] = "Horde",
-["imported"] = true,
 ["version"] = 0,
+["imported"] = true,
 ["name"] = "ccb) Harandar Route 3 (H) 2",
 ["group"] = "RestedXP Midnight",
 ["length"] = "616891112",
@@ -7964,55 +7945,13 @@ RXPDB = {
 ["subgroup"] = "|cFFFCDC00(1-90)|r Default",
 ["next"] = "bj) Horde Gorgrond",
 ["group"] = "RestedXP Speed Leveling",
-["imported"] = true,
 ["key"] = "RestedXP Speed Leveling||cFFFCDC00(1-90)|r Default|bi) Horde Spires of Arak",
+["imported"] = true,
 ["name"] = "bi) Horde Spires of Arak",
 ["version"] = 1,
 ["length"] = "616891112",
 ["enabledFor"] = "Horde",
-["displayname"] = "|cFF1EFF0012|r - Spires of Arak",
-},
-},
-["RestedXP Midnight||a) Warbanding Together (H)|737"] = {
-["version"] = 1,
-["cache"] = true,
-["enabledFor"] = "Horde",
-["key"] = "RestedXP Midnight||a) Warbanding Together (H)",
-["groupOrContent"] = "åSÁj1½ë+öĞ¦mÂn Á)ÁPÒº¹¤\r¶!9‚¼ïÑJëÑÈƒù‡ú{ù’j7Ôiè¡×^‡÷Ş¼÷¤Ùß?*ÇEQ*•1Š&«²%r ï PYÅ>¶0Æ h®.àœŒ£ª•9İ è=¸Ô<ÓÎ«`ê+”^Ÿí%\000ŞJ˜,¢¶vı84Z«×=yË*+kİ\n²:93ÏUÚÖ¦±oZ‹‚+’:9•Y=CÛ1]Z8íGBb6åh4:ıtšç“jAj\nĞ©€xhÙ—ˆfÃêí´Ÿ£H©aS°ĞZ€q¥Ù˜Gk!E³oÀâm€Aşpÿã8Wo6åøêâúòãøë5	”ÚÁáÉ§ïJ„65`ôú$®šÃÚÇ‡ûŸKãBâÍpî7|°#ø95Z&(Éİ”ü\000EŞ‹‚á9úYÌUvõúŒº< &Hz&f¿ê^èõ÷.î:Á{¿øNàWLM£yËd\\Db;¬İRõ[+¹ÒFƒË÷—ÏdKû—ÿ[Jw~ŞÛ¨\"¥­işT¤EéW9uåz\\ÿ*…Û¶#Dg}yƒf·‚sí/6üÅÉ¯",
-["metadata"] = {
-["guideId"] = 2133463070,
-["retail"] = "",
-["next"] = "a) Squally (H)",
-["enabledFor"] = "Horde",
-["chapter"] = "",
-["imported"] = true,
-["key"] = "RestedXP Midnight||a) Warbanding Together (H)",
-["group"] = "RestedXP Midnight",
-["version"] = 1,
-["length"] = "616891112",
-["name"] = "a) Warbanding Together (H)",
-["displayname"] = "Warbands",
-},
-},
-["RestedXP Midnight||a) Cultivating Hope (H)|1048"] = {
-["version"] = 1,
-["cache"] = true,
-["enabledFor"] = "Horde",
-["key"] = "RestedXP Midnight||a) Cultivating Hope (H)",
-["groupOrContent"] = "m?Ëƒ0‡÷ûZÁt\nnBp)§wèÌ¡4†ü‘üğ}G»Ï=¿§,k^_Îù€yŠR`+ù ‹Øä—äp Iıİñ¦•ÕÓYù$”vÉD½Ê¨í„ıâÏ}LéàŒ|¡m¢ªºNˆfóX>²‹^qwõÉFò§€Ã¾şUã,]¾BÛfÚ+‚œâ€i;š¤è˜öøŸ",
-["metadata"] = {
-["guideId"] = 1330712309,
-["retail"] = "",
-["next"] = "a) Hunter's Rights (H)",
-["enabledFor"] = "Horde",
-["chapter"] = "",
-["imported"] = true,
-["key"] = "RestedXP Midnight||a) Cultivating Hope (H)",
-["group"] = "RestedXP Midnight",
-["version"] = 1,
-["length"] = "616891112",
-["name"] = "a) Cultivating Hope (H)",
-["displayname"] = "|cFF00CCFF9|r - Cultivating Hope",
+["displayname"] = "|cFF1EFF0011|r - Spires of Arak",
 },
 },
 ["RestedXP Midnight||a) Test123|836"] = {
@@ -8031,6 +7970,48 @@ RXPDB = {
 ["length"] = "616891112",
 ["key"] = "RestedXP Midnight||a) Test123",
 ["displayname"] = "Test1233333234",
+},
+},
+["RestedXP Midnight||a) Cultivating Hope (H)|1048"] = {
+["version"] = 1,
+["cache"] = true,
+["enabledFor"] = "Horde",
+["key"] = "RestedXP Midnight||a) Cultivating Hope (H)",
+["groupOrContent"] = "m?Ëƒ0‡÷ûZÁt\nnBp)§wèÌ¡4†ü‘üğ}G»Ï=¿§,k^_Îù€yŠR`+ù ‹Øä—äp Iıİñ¦•ÕÓYù$”vÉD½Ê¨í„ıâÏ}LéàŒ|¡m¢ªºNˆfóX>²‹^qwõÉFò§€Ã¾şUã,]¾BÛfÚ+‚œâ€i;š¤è˜öøŸ",
+["metadata"] = {
+["guideId"] = 1330712309,
+["retail"] = "",
+["next"] = "a) Hunter's Rights (H)",
+["enabledFor"] = "Horde",
+["chapter"] = "",
+["group"] = "RestedXP Midnight",
+["imported"] = true,
+["key"] = "RestedXP Midnight||a) Cultivating Hope (H)",
+["version"] = 1,
+["length"] = "616891112",
+["name"] = "a) Cultivating Hope (H)",
+["displayname"] = "|cFF00CCFF9|r - Cultivating Hope",
+},
+},
+["RestedXP Midnight||cFF1EFF00(80-90)|r Campaign & Sidequests|a) Turnin Route Horde 3 (H)|999"] = {
+["version"] = 20,
+["cache"] = true,
+["enabledFor"] = "Horde",
+["key"] = "RestedXP Midnight||cFF1EFF00(80-90)|r Campaign & Sidequests|a) Turnin Route Horde 3 (H)",
+["groupOrContent"] = "uËjÃ0E÷ó‚b/R\n!†ìÚ˜l\nÁ)´[ÕÜGRô(-äã+Gİ–Ù\rœ{Ïíº­Úîz¥Ô@Jš_\";‹	b.{)&2ï'|acyşL ¬¾ê_s°lqt9]0„Ø[1Tú6\rƒ:ƒ”ÍNv½loŸôÅk->à™\r]siˆ G¿èŸ{øŠõÏëÉtx\näÓ½-b3„EôåëÉ`M(µ–¾NÅì°îpvÆ7çLü3¬nû}U…2Ëƒ`;-Ùü3~ÿ",
+["metadata"] = {
+["guideId"] = 72293549,
+["retail"] = "",
+["subgroup"] = "|cFF1EFF00(80-90)|r Campaign & Sidequests",
+["next"] = "ca) Eversong Woods Route 3 (H)",
+["group"] = "RestedXP Midnight",
+["key"] = "RestedXP Midnight||cFF1EFF00(80-90)|r Campaign & Sidequests|a) Turnin Route Horde 3 (H)",
+["imported"] = true,
+["name"] = "a) Turnin Route Horde 3 (H)",
+["version"] = 20,
+["length"] = "616891112",
+["enabledFor"] = "Horde",
+["displayname"] = "|cFF9D9D9D0|r - Prepturnins (Requires prepped quests)",
 },
 },
 ["RestedXP Midnight||a) Warbanding Together (A)|767"] = {
@@ -8085,8 +8066,8 @@ RXPDB = {
 ["next"] = "ca) Eversong Woods Route 4 (H)",
 ["group"] = "RestedXP Midnight",
 ["internal"] = "",
-["imported"] = true,
 ["key"] = "RestedXP Midnight||cFF1EFF00(80-90)|r Adventure Mode|c) Turnin Route Horde 4 (H)",
+["imported"] = true,
 ["name"] = "c) Turnin Route Horde 4 (H)",
 ["version"] = 20,
 ["length"] = "616891112",
@@ -8106,9 +8087,9 @@ RXPDB = {
 ["next"] = "a) The Loa of Murlocs (H)",
 ["enabledFor"] = "Horde",
 ["chapter"] = "",
+["group"] = "RestedXP Midnight",
 ["imported"] = true,
 ["key"] = "RestedXP Midnight||a) Vengeance for Tolbani (H)",
-["group"] = "RestedXP Midnight",
 ["version"] = 1,
 ["length"] = "616891112",
 ["name"] = "a) Vengeance for Tolbani (H)",
@@ -8133,43 +8114,44 @@ RXPDB = {
 ["displayname"] = "a) Val'sharah Speedrun Midnight",
 },
 },
-["RestedXP Speed Leveling||a) Tiragarde Sound Midnight|1323"] = {
-["version"] = 1,
+["RestedXP Speed Leveling||a) Hallowfall Campaign Midnight|1374"] = {
+["version"] = 3,
 ["cache"] = true,
-["enabledFor"] = "Alliance",
-["key"] = "RestedXP Speed Leveling||a) Tiragarde Sound Midnight",
-["groupOrContent"] = "ä}érãF–î=ÂÕîfÃØAöLø†¶R•]*«%uW÷8™a\000\000¥bGı¸¯q_odÎÉÄ’)J•¥*{~´gJ\000¹œ<ç;ûŸÿœøÉxâû~°·÷uE’å{_ßÑªÎÊÂñ÷¾¾©ÊÕÒ9§uCgÿ8s.–”Îœ7ôæYq³÷uAÔ!ß8—YEnH5£ÎE¹*fÎi6+²›y³÷uV4´*H¾÷ŸÿéìçyFŠ)İƒÑ–{_OËÅ2§\r½Ïš¹SĞ÷ğvN®hî¼-«{¾)¼„/gwğóï¾ûpùÇº&SúítUÕeõí´*ëzN²ê[ö2mÜ«|ù—ÀûĞæÙôÖš9u>LÏÿqöËÙëÃ~¹€ßäù‡ÊİsÉtJ—½Ôs¾ûnŸÿóŞ7MÀ0gÓkîMÙ”Î8E±ë%£‰çzÁÈ÷FŞŞğ$rÇ£‰ï&õAàN¢Ñ$tÇ¾úÄsÇğ›ÀM“=÷ßeAßO|˜´M9+«†äLü ¬H¾ªqø‚+ú¯UVÑÚ¸'í’&ñ(I]?°2ï9*an‰;qnabmng%lO%’Qì‡ñx £wûo/şâœTëåÈğÅ[²\\Â½âÛ*m\\äáäüˆM2£ñû²Êg²üv:'ÍÕêê*§¿$ÑME×=‘_’üOÓ÷Ëó×ÇoŞüó—#rG×ÎA•³œJsô’ÉD˜cYİÒêEíœã]­÷Ü†T7´q¤ß›.ëIv×Ş[ìıé‰(^ÉÉsç²¢¤^UÔ9œÃ\näo¼Û?ûËà¯zIî§\"Å¬\\äk'+œƒ—ûŞ†Ú?:7ğ¨qftJáÿüãì›ˆmíë)YÀä€İÀI–Å‡Š}WÙıZüJ0»á5`6Íª*àoq{—ğO\\Á;õ:¦4‰’x8©Sò>[dÿ¦ˆ¼¸\\US\nÇ5¼Ã»¯‹;Ø€²Z;Gô:›fHmcwŒÏB‰Ãà\r†G!>Š'ÒÈÈe:Ö˜·ÿñúæğ¯’<òxÂFFñÀíøÀğÄŸ¸ã¨§0u'ûÚæ™ÈïMIk4 «¾ûî‡ˆ‡ÁñÛãÓşr™-®huU®næì™ÁYI'%¾vM`Kß¬ğÀK{|S–\rŠŒ…s]VÎ‡Ë Là$şå'ş7?şxùË»²œıyVVHÃ‹Û\n”Ÿá;‰æDx|#Ï]”W µ	‰„)hÌaìF \n&njqí¿çAœj\n&«r¦±ë§#È\"¶öõã¢\rÏC¬pS~%Ó[}:0Ü»–™~c˜+[œ«µ©nÜ¨ÀÀÂ“O)[ûúî<n£R7„CÀ5ıs\r;W¾­öÄö9æ¸ğğM÷ 4Ih Gàbö¶l‡yD¦y\000×»ö¶cw*X÷N×1uc6UÏãÚaËbÃ–@í©E¶°û–Å;{«ğxJ‚­	0f¸°5døf]×¡½Gm\rŒ M¢8„½8§^SŠãtxã¢D-Í¹ KTø¨~äAşD©hv(”§sĞ&aN 0JtUÒUöÇ¢ÿ@£ŸÄAŒƒş`YØE™ÜöÖ(†7\000øÿ}¶9èöX`ì&ö ÀCÑòáö†O»!1èÆÏ¶7-[6/~Pôë¼,%m5A£‡ª‚ó7et'†G:€“ÀHHX¨;¨ãÁÕ‹İ°ı‘-[Ç§aÏÃ©[%´Æ©;%RdÕİ+ÈN„WÉ«Õcy÷?E#T iw¸vPTàµGÀÒP%ÔÀxì>³#!Øòù~·Jà`»éãŸÎ€1X&˜Ê*PŒÙä P š:\n4Ø„7Ñ„Ğ½	Ê°jCèÑèÚº8^Ğê-9MEz³Şl<ĞW³%\"õ\\XÔØ¹¼°akÛjí‰Æ|Iİâ\rkì=‚õ\r,YjÊ;z•¤’,2Ñ°Ig´nœ³Š¢Å'+é5Á¦ıº˜f€öçœ.ËJ°ôídn9\\I»s\r\000rfºš€»u$ƒÌÅ>n´ÁßÜ0š‡M²O\000Gà@ßóŠäh@Ø¯ç Ëİk?-ëM*üA÷/>¥¢; ‡Ä¶–¢í•A“±dİĞ~ ÍÒgøt{ gÇY¦…]f9f|Û·§ñí8ËÁ¨ğğ,„(Ç}–ƒ½Ë,'	Î2æhÛ›º¤UE‹)u^êÏèÿz—5Óù‹Ú9£MÏu•42\r\000¤¾‰1ô÷ğ”4UFªé/Æÿş]™Í˜·îº*tGMËB±UÆ8ÕèC¶Š&w\"nâZƒğMC7aÖU‹VŠiv°\rl †ï¾ãLÜ¿¢­İA’ÎY¹üóß–è:X—«Š?ËKàv½ƒŸf/o•ãä^=ß¥p/\000Ä¸X&ƒ¸Ôw=Ø$x¤a5§\000ÑS7\r´_y.•'n¬¡Büãºaû-Âû­‰‘gF€ÔÄ#ÖÁ‚€½,t´ ¡á=DšSá‚€RcNyÍ¨õªÁ´X—Ğ?Oè¦Èä˜g°çp><ãÌE3§Uë¡ñ=?Ò±ê¢®¹v8òp×ÀG~~<»AHz+G†Åê¸sÌ–ÔÊ@|[w9Êˆ]Ôñ¶‡æo{ ã ¬2É»º;Üÿ\000X%×ÓM—cp´½ÉŠå=¨cÎr	æñ¿\000âÀ½æ?aqQ 2\n\\d9ÂX>=Ãó@ûôİş‹$\000>$wTrØòû/uÉbàŒl ÙÊ\"`Ó‘ÿeá(¶Å)fkç{ôÂ³3îäPÑ;º7ÅCAı8Æ5BZZ\000d¹ª°Ã!¿*WunÔG²lß¥n¨ßÚ‰tpT­\0001\000F@m[tÒ'xüœ¸qå‰èr`Õ}ĞÉ+¬®Ëjæœ¬H5“ãNROPG•éµ~^u\000lY\000~Ô\r$ğ\000ì3Ğ.úıvçÉ¨FUåMÅBVèı<«o1´ÉÛrN§Õ*\\­döb`?âî¾+Üˆ ÂZç¤Fw\rœÈjÁ‚‚5µ’óUVÔ À¬næ02½);pÓpL0Xaˆ‹	BÁV²ïœX#u~\\5ZŞòaˆAï=Òö¥×‡ä­0«I`ìÓØYU6tÚ”º‹\nVİ!íå‡â&/H~GnpC‰s”ÕCÔÚú~ê¢Í¸c€Ş >êş«!O(tÎe¹È³\rAQg´˜eÎaEŠÛœ^Ã”=A(x_¿Xà€Ğf#ç-€=û•#¬ñd^wËV„¹õ‡§MÇ´µmgì¹ádZP˜Œ&²Ü1‚ãx¶n°¸Lóİµt,¾•‘“°şÇŒ0„ï‚¼…-ŒÇCØ“L¿0¶œF‡«ª¦3çœ´–LÙ­Ô‹w¨Úñã0Œ=V¥‰ö¾{\000©£Q»©=»Ş9Í³©jqğ¶Ëá]lI„ñ]qè†¾è{ã“£i4Õ›ØPe^eùŒ:/³Š^U”0#ê2\\0tâc»dH0‚`µtŞÍA5p^;gğOçoËš´¯šnº‘p†ğÓ£²xÑ`4%01¸[\nó“VôÎi	À£,FÎˆ™{T^˜¢º,ë:»‚)’ÅÕªÓZ!¡­Ş\\£i²Şû0}ùòåáÑ¡ç½,ó¼¼gBr¿ªÊûSO4²Ä1³e\r.TÎğ}äPpOŸ…Ä¤°ø~€ÇŸŒ’‰;¶7°…Æ¥Ğ-64¿p4]/R6'%	®\"\000R€>ÿF«2s6îœbºô‹±Ÿéf„ÇÑ.\000½WßU8ûF™„®o/ÄcË.IeœLdE1 g{á“[& …iuÀdtâqcp -H$C±~ù¹j©1I™„gŸƒI2Î×1É'²¾9±û¬˜•÷J¶d)f’Æb°«.5àÖ„£8aÎ}y¯¢Ğƒ°‰İ¨5 	û‹ñª¢‰Yù]\000Òœ¸úÏÆøàşºü\n#7Mq–Ìî#O%dUÀ£všê¯dºû ¼-·KÚ +Ãù‹ä.`µO¸/6 †ê35$µE#¡İğ \" ¡Xî§‰&\\§émê›•š\rˆºÕ_tU¥³˜IšÍİÍª/gÀ£.À…Í}2­Q5&˜HWÀÔÈ4ün“7¨ø½›ƒ›D×˜Á¦Ğî»¢ß÷fJİ\"`Øú-\rã\000-\rãñÈg°w0WMÉf°4f•?Û!ğ¼HÌ\nÜnõ½µnË.G#1˜{v`¶6pÿêŠ®Ñ˜t›²ûC0Ve>sèô–6DÀmî©H’Æ¬R!WUpÀ¡Uì¢)Iã¼Zb\nZ–ò˜¤bëXĞ›öç8§´F•×Î)nDëÛ8ñ“!Ìè Ì	Ï±ƒ^¾ş àC13¼bÖX{ÒŠ7Á¤…®fWèFÖ àK’OK<	œãÒu=H¢«ë¯˜šuª©Ãø,säÇw„¡ø{Ô—Ä!ò~ÌƒÿSHQó½`’F¾ê\000½(¯1vG?£9üTNPÂë]›ÊWX·6Éƒ’})És.ı0Lƒ@×ùêæ4'ü‘s¹ªoõ‰¡\r¿Şj)‚½ı õîèÍÌi8-+jÍpqHrzåfN*%eb<³4/Ôt7BÁhkTúµ€Ò¥ë†©Ì1ºº”xi€İp7ÁüN)’šò±}§,Û}\r0$›å?¨Ã±‘€Á\000†¡Z'ÚÕõŞ6}SæÑô›:*ÑÑv$Ñ\000‹nßõ¹«¼\ri7`åîg*gjê­@’2bşNJó{ÄŞƒíí#˜Œ»L’‡ZõŒ[ Ô1*YH%fÇ€h¸‡}´;¿‡}ÜEÜ¨k¡Ö\"§\000båÊ]PJCT?Õ'	#Œîú„‹Røo¬=JYn6<šE	ŞîIÀ™µY•ë~É2ö“ÍõË•µüşÅ	[[¦+ØÌÖd¾tÂ00\"[K·v6ì6¯$aÈ#è5©”­Sšg˜äú-Šµ¬kq¦·ªJM/L<¦'õF£¢´Aj?]+¶†4µDĞÔ±\"Ñùª ÷díœ£óQÑ½˜(_ö14’’µ]#“vJç#4Õbö=÷	Ø8ŞmGÃÜm¹²â^ùõ'‚RÊ'F;Ïf}Q;—–¯ê:ùÌ+ß/©ÊÕUNërAáÅò&/gë«¨´[·}7˜ÔÆ${ŠÃ²Z¶qƒçhKR”_•M=/Wv:	«Íó±Wà¼lkqôÛ¦BJPoÁÊ{-M“aqà{î#ö5Ã|O¶œ+ÌÎ€·OªlAk’x±X3æpN¯ÑxÓ}IÃØS×SŠ\n¸¢E‰ÉÙJp€ 1‰ÎÀ1N»\rl&â¬ò|ÍÕ\\á¯—óª¼‡[®„Ç1†æcJ‡Ó6*¡ÁmY.±~\rYÓÈP‹¢Å1Õ¿{Ç9®§dI‡¬uq„pj©›Ú#,¾¥eÏOxö|wµÕ&±TæÔ×uÕj9õ •#ƒ…İ^.ÒæBÚvÙ˜€%ƒ´ÉlĞÚ¹A+ã«²ª‘ûÂMÒ¬rÈøL›ÄóÃCkd¿åŒ´Ò/pí°tŠBkßß|FC\"ÛÃg»@; D\"ít„‚b	9f;ÉH·¥Ë›Èxe+À{é‡q†*£ûnÒø\\2jí¤ÀFåÑ\rÜ\nsÂ£.ÏÖ’M É…ie\nM““âgiĞ0à!TF”á&G+¦ÙWº2WÊX&\000´W!Q\n¬'5Ä®=Ù°å’`ì*~Wkšk­ùq$&w{ùä\\L	Ö3THÅkKš‚ í>¤m#%ÈÀm^4YU±²3@‹VË)æ1¸ÀXì1¶ÍŒe¸#3–1ğZ\nƒã\ri&Ö&ä%™}Løp“çØÃAÇÚ4ÕfD.5Ë!\000ÂYœ¾ÁÂeÿX|šj|O[à/½ _ØÀ„ÉJƒÉ>qVL%‘BeØ¯RŒÙA¶ø¤h˜ß(²Şª#|.&Õ;'—ß¥ÃŠ1\nµ§É*ŸUX‹UˆßA•KtlV]Ÿ×ÊÁ\r½³£E¢³\"q¬÷jhJØà	ùğ¦¬f/jç€b1İm>@£Qº½˜oœ†³”­Ä\nÒJ›¼¡Ì^X¦`Ğ9ÀLÊ9Áø~…>¨¡€ÿ]kÅXĞç>\"áOÍ+sR ğmæ×Íy²Ÿ`Åò°0ÀPOZy›Ÿ†-ş}¹ æŒ—Sòk)5ÆÁ¢õf5½];èæ\\FÃ‰'d–EİÀ5­ã‚VXƒh°ûú,q\"v'ğë±X_û‚\\Óf)H¡â/¹otœö[„‹\nıZªñXV\000föªAîÃñÁ\rº wYŞ\nWÎp0Èïj³0ƒNHÔ@Èt5É¼†;­ä¢Ş\r%9(¢3çeùş8Â¦tïÿÈ”'ÖEƒt£>î3Ç)Ó[?ŸMŸèÏÛ‰šB4ºÏ³¼Ák’‹Oÿå¢F=Å¹È3Ìˆåy.Zai?L'AïR¶@¼X@İv˜>¥m\r–ºa©ÑöìÄsÚ6PˆèŞT¼2J] ô\000 ¦5¿åóšù(âeé×^åŞ-Ÿ×ÌGpgÇc(ˆEãæİ×´Lø~ÂBQ,VPŞ²~­ünÌš_á3­¿Më­×†âØƒ›[–Ÿj ƒå‡\"õ?ñ\rŸgñAş¤ë«²xµ‰iEa¢Ù»_ 1yÅ@ƒ,¼5ĞÈ,\\-CôêR	Yî¡PŒÄK‘M|ífiáB“6Æ :}lùOïÊæ€§ÃÖâb§âéŞy\000ò0A‹Gø„T/c¹OTåd(6Ü%0BçÀa‰I¶\nNÂ¢S'eZ9A:rÕ9çg2ZêÜ>Gò/ Œ×Î]Vg\ríIÑ•‚ƒi\n¸¿¤İªp4‹¦´'Qß‘&åğ2Ü12ÔÄŒ7Ü>öNX–YÑ8ï\000¶^÷ïÅ~˜ˆ…™Úb+ç¼À1 wƒ©Š†Õ ˆÅ`=kxÅa°Â\rÌµÆmïSfY/—¬¨³wMÔ¬ñËt˜Ál©)%ğ)g+ğÿU˜lj¯Ş	-+@·§XúŠá è²µ•«f×Å\rÎeDƒªŠB<nı„CVò;’5½/ç¼ÂÈ	xyAû$tã?Íµ,tó9)óY¦'^¬A™àïVšr½è#Ğ¢ÔêÎÃ´!ÃŞ_LMÁ>ÍÀæ>BpóØ¿#yk RNf pşaGÆ°o	hšO‡ÂLNÉû{xÇÃLñíK¦¹\000«ø8·°4—V9Wöd0´Ù/œ\r›EË~mxñ¸A421 Ø¤6¬Ö·Iôˆñâ’ÍÊØÑÈ&šeÛ™`_êåP–Ïû×*k¯/Ü®u«™MÌ‘?%Af•\nü=÷Î³)¨Ì]ÕË²P‹,–å²«Á›”ñ¿¨Ù›¿ÖÚ6í9¿´m—L¨w&î1Êßjîê‚€5²úƒÿÍOG¤ÿÌ„Gİ½?¶o%‰†,—èÁ7?}O®~ÆŠb¨ÔIQæ¹½áyÑ-jÜ’qğØày'¢’x.¹ÄMyGôßõØLBrÏx6ºÚgÖ	xŞ™èv‚ÏD%­Á ?øÃo~bIù÷AÈgó_t¹Ä.¨Æ«0 ùeƒÎ²¬ÆL¾ØîŸå\nî]¾væ¬Œ]éüºZ,‚’ê[Ä	¼bÚ5t®GNQ6ğşßšTüæÇ¿Ÿ/èĞ:™ˆás1H1Û(sñ4t”JuÎiSe;Ä:Ó$*Ç]ÌË{ç”¢ÂÔ8°¯/`COÊ=F›{ÔÎ±}ªÀñ{\000Ş—míóÃï¾ûN2~r¼aeí§nÈô0İ®v®V××X{á ‚Ôö{&}ï!9øñO¸p®Iµè~%ĞÏ¬,şûÿıÿÆÉAP‚–@ß/³Šar±âöY••UÖ¬øÜ¨§ç‘™ÃÃ¦vñyò®lİ‰ª±(Ÿå>±|DÄ)Ã˜°äª\rzÑşÎ÷W’äíµ´×±¢Ç-«l³O–_!fÚùÉã™¬0\">/—,Êš>¬(78 Æë00n(Ùo˜¦%MEØü€9ÄÇ!ìÒ÷Y3ÀÔ³\n¸-ã±§dZ•x%ó¾âhûšë¼n^ÔX…ßûjÚ`×Ü×\r]Ô_9¼şèö{^ÿáï’$N¢\"¾e£¶ªXwÓ´C×OF¡÷1MC=í1Û*ï Â±Ûs:oÜ¢ß•÷İ4•O®™Jšœ”qŞu£­xL¼õ½b6Ë7o,x±ß–Î°Èµó&»Å¦Ì˜ÛrÃÿ$ÚR–»óŸAyŠw‘\000¹²îR‘‡ µ£Åƒ•`“ØiˆÂ*â?¬rÖ@¾¨ìí’ÑY°Ñ@ëa<¶i@Ó 29†HÉ6m“5ˆßUÓ|hÖ²ÔßÖa—y¾ÜıÅ#»ÒğmJ¦±Ïšr¡½JNúg˜š—Ñ„@\n‰é‘ÇC€´ŸÀßáû)êPúg\000°VÁê#ôš°ÆğÚ¯0Ÿñ'}Îr_5À¸»¦ú\\¶5(9SHŠiÁj=ZÂNÛaZåÍ¦ùê^¼aÁÁšóÄlÛF¡»…?£LÁë°v†±” vº×¿å¼-¯ò!Cgø; fZc÷•B¨UÚz-ÛØC™ÚWR?j‹m±l‰›ØônæÆ‰;–ıHV¡©³Oe¬xpÂmãÅìÂ}^|ÕµA™¼ÅT;yf/óuk¹ë‹€‡%\\Qø¬Áy'<ı-¡³~'%<E;&Üõùöw˜Æ¨\000ZÄ\nvö<€órAjç,+º*¿íÉÇ¼z1†ób-³qûa„Ñ¨£0pCœ–è¤ù7µ.#Cÿ–‡}¡JŞ¾ÈİO6\\¯hQ­W¤šİgmvíĞ§‰mÅÜ«íEÓÒ4‹æ“%ŒAgŒiUûÏÁìÁ.yÏû VÀ@c™fÈxHª›rH—&hVBË½’åeepµ‘US®{¨Ôåû!ÀO¥`;%Ó0Í[/ä›ç+–¹s‘UT)ßÆ›½É¦sZüJî‡<YCüÄË+hV?^ıJ§j\"$\\Ì4ù^[E|_šb×G›”ÉòÔ»c{\nØ1©rÔ{¿/¥òıØ•MĞ#	VË~EIåì;—sØİ¡ú0ÀCJÁ~%ÎV5•˜ĞMGaÈ3”ÌMˆúŸ)œ\000§8ôUè‡æ%ÛeHhÃ’9p–P/ú¯âÀacÉÔv\"Oœ,¯£ºT/,š Lìñ´3,¬á|Õ1”¯6±7)ªh;Ú8d»S«´µË‹™i1rı· Ô5”ûa„	ÖNÒ5¬µ”º1Ö]R5+P^`@½ã1èi(LÃ¾ŞÖÒÂOä JÛ{Û\\ÔD§¿3.Ù*;â±…ÉlŠ„ }Î×íVSùºĞJRTJÃØ¥ Üg„UQ‹•ú>›ÀRW0çAü#Ù¬µx:[@qm³‹ñS;ªéÀvh€ä…bWl#úšô÷ÜYV“«œ˜Ş^•ïw3˜ÊF-Ã—ßñ(‹ÛŸûÉk–ÏäñÑ5J1Jİ%éŸÕm8\n|„Ûf»{û[CøèoÚ5+îñçwâlÄ*kÓQ	üq.ÃwmX3&¸¾*«‚6ÖtQ)[ŒÀÆ.x[S0(†·¾D¢iš=æslVõúØ]ÌV˜Ô„³³˜¬|InH%—gŸpK¥Ô1`°r6œ“¯°ØûE“åBL\n$Ö¢f=®™\rıJÑñ‰˜4Rx\r(¿ kk„R¶µ˜ÄÈöGgAÖÎbÁ¼yYÃzT÷:,Šµ9jŸÅ“¤uĞ+qã(-B¯]„Û¢¶S‚Íë*¨]L«Õõ5*„l5ƒ!èyX›WF²£a±\r7MIéª†ò(JP¥ô'®=ûî–Ïë	)«S8vS{[¾¯g<¦Ì83v={)w[¾¯g<¦.hGğı¾.–ÚTœË\rİNÜûöá¢£YÍÅ¶ŞŒ\rûğW¯h¾D›ÚW3K¹?“Èì¸ø&Z*Ù{=ZW0åFÃÒÆ°-ÆJa¹ç}ø„æeğÙÎTv€Ï\rFù„•ôKì%7bhOÏ6¢ãÂOÜ	 Í˜4}–«Ù¹nàÛ‚K°¸°*ß^eÄ-w¥kz¶Ñ–†ìÚy¹ª´Ààiİğ¬É†½Bì¯ÂXycÁÜoÍ¸b\\ÏöT~ŒÑÖ¸ğ,h­”b#mK@S•¾§HºÖtÕŸ•-÷{`Boöœßkè­ƒîªÁDàğ½ÿ¡ŒÈb×s!áD,hÂpYıW³8,ÀØê°Yu>h'í¯SÚ3ê¯òkYœ¤Ì_Ñ–Cn;P3ğùæ[-|SÖB½}q¿p~¼¾¦ÌKV^;Ç77CÍdü†1ÛvY6˜ÑÚuÚ‡™¤Ï«UqS­#zÏ*fh°&Ü	\"åUM$E˜¥-îh£ªL;­\n‚öÅXä\"ÂÔs”±öjæmúx‹¸ººx†}¨*f\rÆÆ6«—n˜—ÛU…ÌËr)xì€ÓGl\nè|Q2údÿÀé­ÈHì×\n\000CÿU„Ä÷m$œ±>¬Lñ¨â`©^kêDw)ğÖIi‡~ï„ºóÚÅÓéö0±Y¤ıbNîçtz˜3€«Ì±n†ÛxHä¹}\000¯a?0åc9…O°rğ5üoNYÂ0ƒa€?ù?~\nà!ËÚ™–ÀÄË{­7/ÌL›“†4˜r¤çZÁ\nPtB$Tìjª\000™1SÇzÈ$Æ´pôÓa¦)©'ˆ“ˆ5±±£´ŠóF6ÖêèI:Q]ÔÒ\nî‘b­\rX@Ì\\Ç³ÕÂ·ûğ`ñ$ù¶÷±Ÿ:µˆF©Öìc8˜Ì>ŒFÄ†Ñ§'à>–-òóàA†E`ëÀES°·¾‹õ’›íÕñ³Î%áUÜÍIP¦7LŸu)meı;ZÌ24D	ÌğËY½˜9\000 ÖÎIù‡–ıí·M÷÷eUş›&ñÏ¾vSjb?âíô1Òç‚Üa-±öÍÖº”“iFòş*OØõB÷¼5–}P–j!IÄÀ	']®äµ+9ÄÒ\nXL—[cÃb âtóiîš\nXq¬Îi/bè¤Êf³6ÏA )¼ZÉaZAËföwåAê·Í,	æ&*yÆz“Ä†’ÅÚ9®kÌÈc•‹Øå§“Ó[7JXH¶j†S‘,+Úo0Ñ`”\"‚HÓ-9ä=¥Î9¶ÄÖÿ¼’Ü¼­ãşáÒÇ•µ•½Ì0êO\\˜lâé£¡¤ñ;zVPÜ„YC7Õõõˆ¢ÇêÁŠ\000Ğ„õÊùßWÖ_k·Z¼'ïFj„Ğ»‡¯Š‰÷Ø«}#rRµÖJAÔˆÁ\"[˜şÔt³ßÍAg^K\"QÍj_[ŒÆ>€ÕÑ\\3©‚°Ğõ¾ƒxmzØößkNTš¡>d¥áÛ¡=Cıùjz[“6ÌY´'Ã6é‡^[n^ë“È{÷ÃãT+øæ±® çÇÚ£™Aîb¤lª1”Ä[;#Ù¤2[ò~€ub¡)ûÀ¡u¹RğÔt¾ÇsO8Ğ	BZ@8‰Î9½Ã„÷PŸ—Òİë9!õÁY.*×xL¦ÃàÜ@“ ½àê†5ùß[N\"}Q%&ì¶Ûİ\"»²Ë,¡ğãgÿÅ‹ÈÑ\"è)%õJ9¡Mƒ–Â3’Í6Šlf%*?±ŸÏ°³Z§¸AOc<&@†5QP•h¾@%\n{õÉ…§BVío°\000m(÷ãH4Ñf3ÜsD ¼, ªëcé–[M¬°‘Z„ÿNó|µøPu øŠI@9U¦k”HíÙ<şW´\" J,i:…Ö#fŠe}›-Aí¬³e6s¢t<²Å¥ŸkÛè»)ößu={Îõï‰ê~Å£íäµ5¾ Òœ)áñÇÛ*sÎVMC«û\nÔ¡¹LšœâzÒTIN¨XKÙG‡«ŠòZ&¬3;%‚u!C«Pcºíë%°*Û¢%¹¿Šp‚BuL©C!ÜÖ†‡TWbş:†2MÚkÜ ”kØó*mLH•%ıâ—*Jfr¿÷§óUÑ]\000XãuYòf‚ »Á+59‹ò.hÑt·bëuÑiª(˜ª…ë0	¾S*Æ„ÍìÌ&úü>ækÈĞ+²6ëÕa¤‘ZÅÜ´­,pˆnÒÁ…b}xŒšbß2]=<@ÏNéRàİ±Õpl9œ›Ì¹Â80ú||fó»“Ï4#]›ğMa)W{ñ\rÚ#=ÈÃ`LUşˆ:šªYå1§¦…h³m:”\r7á£öH+}†j+Öb1äQ3ÒŠ¦G0œPÛ¸ÿÙ·H.H`d‰’!=bÈæcJµ~‰9Óî6¾&VŸ–3*ôq4—“zGP´zYÃå*	Ñ¡d•[={kT“©Íêñ¢Ç àu¼şùåJ«Õé›mšåe­-èf@e&ğö€V!wÃÚ	&u…)P\000ŠÑwûÑõöèú¤v¤ëÇ`\"Åü†\000<œ“[Ñÿ4cÁ=u¶Êk¦rš¤L¶ºÚPEs›àŸîDÂVy©ÅÆ!ÏòœÜ C]4äÀJÖ€Ñå¾$Áêôõ8ÙMQjÎ®ÑÀãL‰æÃ†­ãİ»Ğk¨8ù–À=Ïœî“š\n\\`X\rÕZûı*Ï°%T6—zyX8Fƒæ5aPx9_ù÷†cË¤¾7™\r©ÄËí£}©«Ná‡c!Œ¿ËøëŠTğâ‚àëÎE½Î3=N´\000_@/övô®)|ğeE±Ì¨ªËâ‚Şªè²“hh)%ÿŞ°£ŒÀÛvR66ôP8¬ğiîcß¡ÔbÛèO°8¸²O^«\nÿ1uòĞó	–=}yhÜÉÚğ	–?jy›Éî“ª,œ“U“ñ˜¦§5`øôÇ	¬úÔ*¯WZ£„Ş±õD‚èşŠ¹r‰ut(DHœÕ»UÚŠãq+ë3‰}a¤*!F›'„l5qí9Å>å=ê$$;˜ï&¬òßMz1Mâ¦íá¤ï«t¢\\N{öbH¶AÛ	Ç½UR‘}m5\"û¨EŠŠb¥¥ã;2]’bxó¬¢‹¬VÀ©\000.	†÷Ìx-+Z`@umTS£Š5=ôBã©|DÛåşs/4hVcÍ[À¥¸À…~äÇ˜\\Á½¦5óìT°Ğû²ZhˆBZd“bİq~:~ßTÄÁB¸pÅVMS?ë_á«BßÉ¡åÑË¬/ÉôHõ=Ä6Ú©ëÛ3ÍÛÛÃ¶¹än{ˆö\000._â:Zğèu|-Mrv¢…pÂ¡@_â}‚Õì~Ÿ<ÖŸaòÍ>_hK±íD­ˆç•DŸÎeQèƒ¶…) !$¬Ğm×jc·o³>*ä¾ó‘LUlŒ¼m¶Hšø4™~ ô´÷ıüŠ§ \n¢SL‹2É¸ÁN$F–<,:…Â4 ‰ƒ`­±<ú+Jf7˜×-…n`rÓÏ‹•oƒH1£ëŸå\n¤«£sÑ€xªK,<'´6ãY(¢5É;[Ò	ë'}­^	¦Q÷õu‡-Ú.ÙU‹.\nNÀ¬î¢sÛÅêİkèë4+f&³Yï×e5e½\000…Óâ	ÛÍ‚·Êé-b”‡¦ÖMöo¹³0ªU3±-¿ÒÀ{å§#s1ãœù£3nÍÊ¦ì%Ø’÷İšô:Î­E¶£ÕÃ²¸'bùr¸Ê^ÌÌ «÷ô`Fğ‚ö(fh4y =Â¢oX*À~$OEC)ğ±ÎwÙúÖÛ9­ÛV…Õù\000•cúó1fÜ0ù\n›\"ª™»dÎòæ!'|Š\\‹p+RV|‚¥‡mq§SR QÔùç#\\YÁ¹DĞ&0ÌÈÂÍ>.èbí¼Ëšy6t+“?¢bÇ0uS³,®.‡0Ãä<7µg‰På…9òê÷$Wf<cÔcÅ±:-;‚O	Ôş8ÍÍŒ3`.Tf|Ò¸ØwÀ(è–óUÙÒş]™Í0O¢hˆ#`Jgò(†ÃMè›–Ú°]öÇbÚ=z\000:r._÷“Ï@÷d§A	„ğ	ôÓÈå8êS…šÄ)&ŒL£±~¥Zb/%ÆÀC†²êèÒ˜Èà·šˆ!‚;sÕ;·ƒ÷<À¶šÄA—Ò„uJĞ·sÌê?Á¦×¬‡¾ò @f¾OµäY˜>š€\niøöc‡Ü>ú]Ã&‰mÉ©EÑbI´ánÌsX5 oàI¡¸fü: vÅJftÜçU¾z:à•q330ÚËÎ<¨HQ”Å€é¥šã0õŸÑ^Ì»8]D)7a›Î,£vlğÇõ”,©s^Ş_•DëCgYÈÌpy£î=çş¢M/vQ%d#‘Ğ¼±	I$«íì`1M/şq>«°36Ä”SÖO´ƒOÁÖ•tØ]c$„eÕG˜bŞuî:¢Ëf.šÑC8\r`ïp©¤Šh•Ò%Æº:Gô:ËYÜ§¨^bF(ŞZaö»ÃˆÕ™†a,V\r)k’c_ÅS2Ë@…Vo›Ô9ÇnûÅrïhQjƒ(#™âh²ŠNAY‡m¢Ë{ĞÁiaÌ;/Ë</ï™Êk+UKšèJ+ ´S<ÎÔ^ZMáTëÚÙ¿¢UÕ¶FÆ'?¼\000Å£ÂŠèWÌ{Ïß—å°§7Îá*o²(ÿxXVÕj‰ \n«£(öl8Zl˜»QÀKİ<6Â¬1 @õï±‹#›•ïÎÖ¬qywVÅŒV÷˜íLÉUeÑ•÷P‡‹r…šhÑ­¥ŠàG¬qİvÊúÜŒ]Ã6ÏGØp%\rù¬²ëÊ7¨évävDUØ9ügÚ1WËp#EÚó¶cÁ|•ü<æ[Œİ„%ıJ\000v¿ÄôríÀavcGÃŒ¸Z¹³£|[šöFr	•Ëß—Ä3íÁèóÀF/ÁJt#?xA™FmmgF^*Rq_ûNSÚ;[¬”\n=ÖºÁwµlO4ªáx¬FÉú¬¶\\`H\rõ#xÓ’dBåÕïØú#/D•O}\\Ûéa<}Ì²äaB‘Ùù¿OèyLÜºkO0ÅáIvìã÷:½9jÏŞÔTÂ‘ê32@l.=7`.©âï6ûW(¾Â|•u¹ªœ[ºÍ¢š¡Âƒq€Ì”8ğ¶\000D2Uü8R\\.’Övx\nà£…§½'ó¿ŒyP˜NĞw25*ƒî	h¸Õm¿S\"&Bn‚šÃ~(ÃK;±?°~eT–`Nl[Éâ•lQÑåT+º‚ã=©ÈbYåœg×Í¼Ëíõ“Tm™·?»­bUÑêEí\\”ÓŒ)¼Âû‚ZvJ2åŠqû¢ÉMQô¦ 5z\nl\"k²ï²î²JRö8E8Ğfr	ƒ“ª™O±Mz‹ƒ„‡·«<ŸV+üœaŸY³»v÷é-¨@öÕ™œbDš[;öƒ®øŞFÿÕÉ\nëRÃ6ïWÓ9¡e^Ş^,F?@> )Rfµeh¸˜V ).=\\—?<G´±b	\n61!ÜİGûLËÁíkĞ/›ìzíœÓ<›*=;\\/–Ã!*<\n\\´ecmÎ£î=os… ƒ²4R£‘Ê¶N]£wrJÚ‰éÀvÈÚY=°ÆÂ.èÍt{ïAHšŸ	¸UØ•#‘¾,ÈÀéò”TS`ì¯Ê{Ôşg¤­ŸßKIÎÒE+í<}ì	ñ†§Yİ`²ŒóVÌ\\£X\rùÂUäj/€¨ã5 _÷¢fì	¡ç´¦°î9Ü±iyG»J?ÒN£S¡¹52;Êjí*Á¬¶Gì/€çØö@V³±ï8l½”¨şÌÔ<P}GÚôøûnR¦-şL<Ü'²¡«¤º$xjôó–©±Æ†èU‘×,Ìæû²ÀÂeZú\nîç§Õ½¥³ca6³TïWQ\000‹R˜\rî7i€Îg¯’àáœÔTÕ¸Cú{Cª+(Â&Ì$RÂöêA[¥sg›È ˜6Ô­“\rh¸?}éa±8ã2hùmA©ÆÄD'V¸©Új¹ò¼ßû}®ªÁù<X™	Ğ^ÄúCŒŸ3ÌñësPƒ8Çï»‚ë,x@¸øª†ø~İçTşOo××ÛÆ\rÃßı)ˆEÛÍpüï|ñŠm@	º&Fzk±‡`cÙ§ù|:ètv]ô¡ßaOûzı$#yÿÏŞ:´ÆËMR$%‘?F<i6\n½$\\Ê•‘>dÈ8a(BçèÅüÄBÉn(ûÕn´Gmê3|&]8™Ù¿U+TÎKµ+»ó´@.ËÁ¯=bgÈ'\rOY¾÷…ƒ] Õ(àßÅ1Â\000…óà²ş*§xÄÃ5uë~cE²òmãÉÇ›\r»=_*ÊïyÔaà¸ÊÓãÌŠ¼ÓÁ¶Z1‘UõäôÚ¬aâëèØ«Á›HÁ\\'áæR>ı1Œ0¿¡DJ/ßËG`‡§Ìš,Ì|CxTqu3ÕÜ	Ä¼œÏÈ­6p­Çm45‰q»Œ…ô\rÄ4Lù?”eñ¿Ú¨}öR›ÅrÈâ÷Òmÿ•AÉ#'Kˆ¿HÌé±„1£f5Ì*>šé–â°¼&¼'¸Æ~L(©5ƒDZ—‹á¾6ğÈ*ŒpJR€ér©VûJ©1Õ·U²ÑVØg1Üj¯÷p%­ŠıZp¸JWJ¬Á0¿\000)ûªd´/ëqVÄâ±U1\\ŠıÜH±Î©¬ÇHRúNä6nËGí‘Ã	PçôNT»ÇĞËpkínvò_XÏÓ%Ÿµ¹qÏ¬g­ÇÍ|VVï;›ö³25¹ZËV˜Ğ\"È4«<VQ­\"pÇN%í€h5J»X2YY™ªâøèõÎxì2ò©xª´YC;£w lşn¼T¦şXLËVĞ†ƒü¦*Ò.é¨iùÿãùJ^3kŠFÂoò¢)ùÌ˜¨ø.ä00ì:½q«'ó:”Ğë:}rõ%û\\‡ÙÇå\n;Êic1Ã„ò¢™´ƒ²RnÚ½A¿×ï¶*9ÇÿÈ–¥%øà\r*¯×0›'á¼t-)àV¢B·j|­°SÖ/ÓÍa‰4HÓ†íĞGÏí;ı±3`«“Ìmè[!ĞÄğuã×°1T¸ßÚ(şáìl·Ûuö:±É\\R‚ÅÙNØGÿçíÉÛõ¯î‡nø‡Fº'¿ÜL^Áõô~\nWw÷ğöærz×êlÄ£Ñiv<†®é/kÃØu\\?ÎLÂäwú\\…«Æ4Æz	R¤DğüEÕÜwÚÛ¡r;ªÈ˜Æ\000'òw,L2ú…lxÑ<4¶²õıo)¾`¸>GüNx­Ó;ä•P!*ÍçOºOa®Ã$ù>’FV9o4±X(Ê±B™mg(€\nO_‚¯wèGQ’ÖG[½ák\"BÉÚ8Òìäœuiâ,EZ“Isâ¸ÏŸş\n0rCkÑ«2uÂ‚ bQµÁù’Ğª $×¡ƒöC/—´ñNÀ9ÂıD§õ‡kâ\000z½\" kú‘¿k%©Xñ[ôÇªİJ¸A­áÊˆ|’K~Zğ‰fh÷Æ#ÇåÀLòÈ†‡Gä@â\"ÄÉç/^¶şş",
+["key"] = "RestedXP Speed Leveling||a) Hallowfall Campaign Midnight",
+["groupOrContent"] = "í]msÛ8’şî_ÁªÔÕ\\v4	ğu?¤Êvâ$çemßff¯¦R°K<Ó¤¤ìx+?şºÁ\000(É6íÉÜİ|˜rèn4ºŸn4À_~	Ü Š]×%{{Ï\n^±$İ{vÍ‹2É3‹î=›ùjiğ²â³_?[§KÎgÖ1¿æi’Í÷eìŠ[ì¹õ–¥i~sÿ·ÙÕ’%óÌúÌ²d¾¨ö%YÅ‹Œ¥{ĞËrïYÊÎy*½²¿gÏó*·q½‰Gì˜L(±	Ù{ùòû™x÷‚Mù‹›¼HgWlùbº`Õùêü<å_o^ğ[û<]ş•8ß«3–^ZĞÓ÷éÉ¯Ÿ¿¼{ıñÕño_÷³Ù*É¬/Åm–}/ì=›M§|YYaø‘õòå~ıÏ³o¨?³j±gW¬˜óÊ’;¨™è(ö'ah»ÑÄ£¶ãì=«’*å0şÑÑÑá«CÇ9Ê±?«‚®÷‹\"¿ÃOó«eÊ+^0qär04Ê¸r1‘DÖ÷ìò2YÎó²L–ÉÌr‰;\"	oB›„âÙn<¡ÎÄ‘é\"Ûs&o»îı¤D¤äŠ‰&'yÊ—)»µ^­\nVªj“‚Ã¹8œC&ş0%cIòˆñ¢‘dµ*2Ğ•V·ÎàŸüÛ \\’Æk-ü²à¢8ÆÕcå«é‚—İ„ÔC5*ÓÊè&©VÆ¿Áb[$3øg6ËoÆ hcºƒC×Ü‰Ú~¼ÛŒıå·|eMYf±´Ì­Š]ÖlLYQYç«ÊJªŸJ‹Yi^Y%Ê¡Ğ$+ápˆ®±æïMÁYe½¿-rmciçf=•/”U–g`C”n¥ÁLB÷Ã‘™“”³¥3†ÿÖt¾›gIöÜz›/ùŠVóÕ²õ—ïgï:*§«¢Ì‹ÓLÅ‚%ÅÁ\000›V‘‡i2½´À» kJ?¿;|ÿuÿ_¿¼g:òe‘”K^|/¬‹”•İÃè‹²™u‘ E?ûÎ¿†\000uÖ‹ú¯Ø›sëô.}»¸ØNúË—ïpYkJ^|ıá·¯¯`‚feU$ ÁGiRHÍdğ¡ÓÕù­æ¬ÊÅSˆzrÿê|U.°7Û:Îa%ÀØW‚%AÄ¡¡ãz9ıgİÅñ§Og_OaÊ‘ˆxâ«ŒeUù»¼vp6qq_åç–‘v½iM±ŞÖÒØÈ¯^ú9.skH Èo’w_Ï{ªëØ`WüÈ&µ‡C)>òbu€I©‡×üBàO\\Åögxz¢SO±ğÜ§¥l3U\rbÛ'BÌOL(İB¨gh0ñc›DOK¨·…P_—¨KP?xZBı-„:¡a0	@®Ş“Ú®¯<_ªšHQn!Àvî…Ä¦BK¡A…‚ aŒmô±íÏl†\\ï÷T¢?³è…k;ã­¤}>OJë=¿i\\qJİöeÿäã×‹äà@ÚRÑ[ÁpcYÇ‚Q=Œ(i×æ @àÁ.P\000a_rJºë·”Ö¾­À4	s†k,wÂ/ü§ £øU^$ˆN{Ã€©ÇÎû¹zr‡A?*ş”¥·Ö›<ŸY§ş¡ºQŞt©AÜ>\nëˆìhÜÁ€æOq¢Qøƒ6ûÏ±şP¢¦õ·i‘mX›ŸQdUÏy€†Ã¼œçßxi|š_3eÂhfN^Œ!º#Ğ€çWü‚#\rº	F[‡½ÇwáBÃj®ízÂúOËy*.hŒ'íÄ}Ês1ç1ÁÓN\\xáB…€h‘	>-ş&êF7—›¹3áF5-~Ú9ÚÆœ')®j/Òà$49!BÆ(4µÅFn\000'5êØ€ö‘¡Í`ĞûÄµ‰ú@âºéÿİÓ=İ“(Œ—ÁÎÛ	#'_u³K:®ÆKî˜Yw3L%rMNgÒ–Å	,¬ÛV^±›ì˜¹”˜““x_°Z<ğ=íÑGæKÎS»æ.tÖÜ&tögKxç”çèğ¬ù.²FÇË ªj&M†”F=‚µš–Öë[0È¨pÃJÖÄ‚ÓšÑÏÆæôìMRğ~ŞÙsğêû‰ÜP‹^Wè•AìŒOÑ6ĞÃïªÙ^Ç‰ÍXÇL„z½ßN’jÅÒyïç¬`+Õ¿çskšƒıŸV5\"õz¾É÷màt…t4ßt²éå2¿R¬V<ÕÜSèH‰C#¡D'4\000ŸàÛşxaWBÉ&B©Jh`Çà×;/A¸+¡t¡Jh„9 Ñ˜<5¡=2ÓKm+”Æ\000Ò'ÍñRÛ»QJ¶Òªé)Ğêáô‡O=ıDÑSVMUc„g@«;^´+­´±Mx\rM‘cÉ¡%{j6 ´ï	' î¥Êş7ØßCp»z[d“ÚÈz[ˆûúAdÇNİögwP\nhğhiU'*’ÓzfØĞ=+\000Qûì\000\"jğHD\"*eîşÉ‹Üú´ª¬_árÇjDHp–]bš`A@š³¦Ó¾R\nÚùQÕ‡\nPa(>ºĞ[Ñ´‚Ôd#!P·Ÿü¬·úó‹µVuíÂNÒôlW€ÑÀ<{6ANµõHÓ*xB\rÓ>r¼#„,‡gCR–æ…¬çeV=0ïğ‚âW«êv‡Â…ºB¦¶øûR¥x¿W:#É„ÚQ„2q¢‰Hôä½vĞ½‘ôŞí¤ü”ı}^¤~o`ˆ=ûš/’)øâzÔ÷¬±ŠDuz™\\\\Ô3R‹Lkì9Çu!Î+,üï˜ÓÒÄ¢™£—/ÿ£D³ïR?‰°úÇ,›rœm1í¿âzšsiJ²¼ç<Ã]ôùMÙì½¨Oı#Á-T&¯ú² ­URz«ì½<Äú¾ÂºO×ö¼G^(DZ(fµï–HL¤hô¬\000=(×+ª¸4/Ï•O*øŒFãó\rÏ@esUœ§uÎ¨UÇTZêGÀÌÎQÂ³YR.àÉ•º2­Æ5wï†RyïóóÛ²Ôv—9_Ş0\\¯¡ÿvWYOæ7\000Ãı‚U‹DU>à¦U¾ıÌ¿Aoõh\r8‘ÇPê=Ø¦QgÑ^c&0K%s¼füugë·-XÁÓUëøÏ•GğçŒT_²v[õ¸‡lY%×\\‰{»Dı§x:â‰è<Q\000Ë˜>~rÈİxz3ÄÕy\nı	‰Û2Ö§ä‰Ş§·C<y:OQ<!hŒ²Qq'¼»ñônˆ'_å	‚\n˜§àXOwãèo†0Ò‡™Àu8z8H1'BÅ‹Öæá&ñ»ğóÿ†ÑÕñc‡ãùÍá€²vüœ6yşîQ*ŠÎusdS`ğQ\000„¼58HQâ-gí”lÙğñà%v0â~Àv#Åá§ùB³9 6ğívø¢Ğï#ıáxÉ¥³¼˜j $­$[ÓÆ!1U“ i¡8«7 =¨Ïzı­*Øş¬ª*×âUSMqª£ªÕ~ æ‡<hTbJH¸`èš EË}œAx(ògæó¦à•IˆzG´¦Ç72ªˆøuÖ3FéÆQÕ‚ÜB¹îûêmU-À€QGu¦J¾)¥áÅ(ÅÈ3N*’óü*ÉØ9&{Ù5Ÿ¬©\rÕ¦–4S;øÒF¦ÕºŒÆ…RÛyĞ›l3ë2IZpteºšÍÍ<ºkwØ<Uğ¨Æs×zÊ¸—Å3XV³á_&,®Ü»'õ>àmÄ	*ßp€J6ÿREfi°V\"e+ş6š÷`\rªveX­/ãÌF+dYíòUU‚ñl/òU©£K®“IY(ÙF7$†¥éÛa8ñDéèXüì§)0Ä¬/I6+°Ü¶PH®´0Í4‹q?ŒPŠ#<ÂRä–×t˜®ÃP9Ûò’8ÈERğwÙ5/«dˆt6˜šĞƒ\000!jRS“@½95i —„WF<âQ¸áh©É–\"4À±½hdjwzZ\\ç$Í¼õœAHÄ)ZªŸiüÂ’ªÛ¥j‡ÒU?VğÊa\nbƒ÷°üJß9–K\\Ÿ\nÜ³ôQäÌÿ–¯ğpµ‰PZõH58ĞÏ_;ãM…ÔÏ9Pcp:±¶wÜ£TÛ6ö1ö@JROóbYŠ<´Dó{B[a½å¬€?>7 J7q~8Ìƒ¶g`JÊƒğy¼³<š´S`áÊL¿·Íp´™gyí öÚI„!'uuä8¶[rø\n½Tò´İ¬ òM©\\4Só©µŞ¢oÛfúœ9ÅsW`ïê÷Pìõ»ŠùÙMfO$/a4Mgåw¥B>‘–Üxä[Çyµ`š—•ıAÕ÷®½´/í×¾¾¹â>VãÏ{Ü6£5'yÕ¾ÚˆyËéÓ…XL‡\000ñÛ•Ñû}•VIY•§)CQÊÓà«fÇ:i§éJü$~1uªµaÜ\nû®ªÂ¾PaW¨pMÅ \nDQÃß€åE(~ÙÆ€°öx†Íé-Bñ®Â€yHCô&Í1‚›[Ó†r¡‚½qEe8&nõ‰1R×jç\rJ®PN/Wé¥úpRN“%ÿêı|À!L„h‹gzí4x¼ˆ\"-şØÖÖ¼ü|y{Ş´¨¤åGú ù‚bô%ˆwy7-@%€ÅöuİÉ8ş°A÷'ÉE¥IŸHùqéÁ-„iZ´ŸÍWyâ\nm»b….ù¤Í˜7¦ü<¡yãU#mœm¢[}Û\n#7ˆSyE^°øfm¼\\ŸuÜuö;tĞHtâêÕ\\ÿ¦{H^åÙO•‘°œ[\"ˆg3dE	\000¯Ú&	Ë¸5ñv•Íñ¹y“æïÏ©Ck”Ga®ˆh0ÚtnsÛiÒl¶ÎÓPÀªğ#®\"½öAVOÉÂH;\000xUŞÜÁÒFáÃş}Ü.9»Äi\rĞyl+3Ø3^ï´”Ì‰ÏbbOai+Ğõ=ÕÉŠ?¤»\000İä÷#ËîÉ)–¬­œc4èóºâÍ‘²ˆg¹õ°A:cêá!›ŠşÙşx[øª©í,Î½È%Hn0ÓÛºO¸´ïÍX‰1ÇõÎøöıºaKóóªY&b;µ±¯C=PÃÈiàVlèRsFopŒ-6\000:TÆ?…û?0r éòÄ”§Ş§†¯Qq<&24ùµ¿ØÉªña–¶^#·à@—c)ŞG–„²ŞyVæÙÜD\000ÂóÕ­EÜ0t\"É‚)¯j6Œ‘zó^=aÃƒ½È¯8û:»ÍWm\"ìLÆ‘Ô×WKöO)ÍÄ‰P@÷úVC§ÁØ{½D/Lí¥zW‡5Rà×§®F›–MæKX0m6[ŒYGüxÙÈ×]éFbÉ]ˆàâ†á–ó6d7œ‘í˜Q.ò%›³lÆöÕÕî5)3Åv!qÒ»Á$‚Ü³!k\"[/ìr“­Ù’çØ2êú'«àWùu]ş=à÷akdC\n·#CY4Š@‡‰&:Ñx{b€7ÀüAD“­DSh¼ZnÔ3mw$šn%ÚS‰¦xb\000ˆ/Ã¿…ho+Ñ¾N4uÑ£TÊŞ‡h+Ñè@=JÙè}ˆ¶t:{«ã}¼#ÑáV¢#ÑõşÛ%iİÕŠh| ,º3\"]¶‹D­‡}?4ÊX}(:é®ÿª=z‹Id—¾`ˆ\\h¸d…õŠíP_¨1{¬ÿÖ[>îOˆ@Ìì‹Â­ÍÅkSà½Ğ«ÛÆ’WSN!3/®ëÓ¥x£LÒºR0%	ôúçæM=-@)Ë‡?Z	šî\nVº)–bX)?Öİ\000ïEÂïªğ±3¸k( Z^,,+ÑçŠD\"w8pæişTÙ¯L°]áÍ:˜ñÇ¸˜¸öF(<Ói’ºË!¶÷7ğMt¾cW„Ã(ë¸ßeR‰›ÿëyŞ—ÎÖˆ³ug¼Fô$Ÿ^ş„?·nxº%b“©ÉÿÖr1ÈL;­Ò“Ù`t€\"û?6ÄªvD¤O„š‘~“[«eY°Êš¥{ÊsíWÌ25jÉ\000¿ú}÷´Íö3(\"M¦$L‰8›‚#Ìhºz E2C#\n¸?¼='fÆë´NäšššıÑgKİ'…‘ÀH]¹âGïƒ6	ôœ2g}ÅÃ%lÌRÈÉcƒ±¯¯÷ßXœ¸¾’óäijRR?2ĞßLQ%ùY—ˆj·û|ŞÁõÍÀ®ëòIDë«	 ä2i;—EoÉ`vhq%9›‰:æ³›$­Å$æ`os™´4‚rEB·^âWa”ÎEd®;ß­&Vh4ÇóXuEÉÀ²6ç0%İõ{yÑk•âTÇ˜ââb=IºİÜ¶ÃCVtåío¯¿ñé\n—Swßˆ©wM“±b›vñ©VB ò³Ì&&n[7Ğ=£wî	æÕÆXëüS:³Ş‰Vˆ}7·ôÖ¹*~…a05/X¿i³9³~¨U‰>h\0001fS>«/D|¼uÇÁO¼(mÖÓq^P·ıÙôf,{b2&s²C\000¢ŞÕ1¸Üñè”ĞÅĞÛ¸ÜåÎå:…!k%Y)ÖÙYã5‰í›õIG5A´Ù²pñùªqF¾›.q#Q”v‡Y°[?\rËaûgx(Å/!;~^\nh8ôjÚ‹švàÖàåM…O<-’©uÌ=ü\"^Wï´~Ê4\000^Îê¹Ã³ƒ6ËÊ¬Bİ–ŠI'@ó¬Äc^x—İaÊY¶Zn®ûì\"Ös=^Jd°l&rO9½\"Ê€BœÈà3Ú«5í¯KkŠ•äb$xá:ÎsÕâ\"„ïr¼ö„õ†Õîö‡YÁè>ØL)%&J=\"íÊ=¥’…Íõ®LDÈ™Z…ØpBÉfN|ƒÌ}<©ŠÁÙx»8#pâo™“(2qB„öŒ˜»“(êqÒ„›åª¸N®ó¢Ô¯M>(©ÃåÑVw3êiÅÒ€}JÅ\n7e¹ÚÇõÊOZK\\©§\000\nsÄnáˆ'wâJËCmàÊ·p¥^BÅ\r©èÎÇ»`'®´{S6qE¶p¥^BÅÖ7påŒXfºWÚÍ)›¸¢[ü‹ã˜LÖ¢ĞöèÌa\"¶Ìz\rÚ‡zWd<°³ËìÜenÂ¢5¨«‹	Œ°«©snPN¯vİ\000sÚ7…Ú}wäïˆxÌçb¥°(´‡0Š<»ÏĞIÇù‰nîô#nËö‘å3t}€9×GBUkdIr•?\\°å,‡Pêt	‘Ü|HF;çĞ$x~ÒìfåY·»©v_TûjÓ†z÷¦ÓOY×åĞ-Løe‰Äj¿gHrDm’£yTœs¸a¼Kt4¿Ÿ°k6W~;ks¥üÖ}@LşñH¤„úñGMz1ùà}uàÌƒxÆ-€¼—\roF4Â™XRX}¶HJë…9e«’[Ì$ĞõGæpˆrÉnôM\róµwİFõ®2Óİıh› \rX/Š&‘û :øÇ¤’¥ë‹ûŞ,i\rV>‰¤5üÚ^ˆ’	øÁ%­Aİ'‘´†‰#LÜE»üë!’~|Akè{LA7Whdx4ÜÙ‘?‰h{®óß<ªüÕš,ãqĞçX¿ŸŸÆ¶K'‘ø\n³Öá6>8IêémXì‰ïánŠ£½çºh©\\oóE=_\"{ijoğÁ`{+Ä9ê„ô\nçè?@ïPåï&iÈSzNŒ0r8©rr÷$©ï>ÁÉ<áÓË<Û9;p âSl‘;æ‡$Oò%·ÙlVÏş_¤İ½’Tğñ©)·-±»!B#˜ß™\\©cÚ×è‘Ş”OùNËNÔOàumeÅ\000¸#f¯/'ñ…¸ÁœÔUVµx~jRëgÉğEæİ§–»¯ctã{±ëA,zn¶Œ ëõÁâäÉ:§ÏqšÃsWÄş“@ú0èº'ß\000Ztt\nÓ…u”OW%¼ìÊÊúGøk–\\\\ˆÛ¬e^&Ø[Ù“ù»yÖL”¹8,nAs!o‹•øÀ­U±Kn]áE\n |k‘Te+Ó¤K©(Xş-©Úûï[ˆWëÔ×Æ‹3g²¾cÁó8öŸİ´ûâ¦d‹ÂÕÀ[ã\nV–.UO^ï²Îöşç",
 ["metadata"] = {
-["guideId"] = 4150465321,
+["guideId"] = 1210127539,
 ["retail"] = "",
 ["group"] = "RestedXP Speed Leveling",
 ["internal"] = "",
-["key"] = "RestedXP Speed Leveling||a) Tiragarde Sound Midnight",
+["imported"] = true,
+["version"] = 3,
+["key"] = "RestedXP Speed Leveling||a) Hallowfall Campaign Midnight",
+["length"] = "616891112",
+["name"] = "a) Hallowfall Campaign Midnight",
+["displayname"] = "a) Hallowfall Campaign Midnight",
+},
+},
+["RestedXP Midnight||cFF1EFF00(1-90)|r Default|b1) BfA Intro 2|1286"] = {
 ["version"] = 1,
-["enabledFor"] = "Alliance",
-["length"] = "616891112",
-["name"] = "a) Tiragarde Sound Midnight",
-["displayname"] = "a) Tiragarde Sound Midnight",
-},
-},
-["RestedXP Midnight||a) Theft Tracking (A)|1240"] = {
-["version"] = 20,
 ["cache"] = true,
-["enabledFor"] = "Alliance",
-["key"] = "RestedXP Midnight||a) Theft Tracking (A)",
-["groupOrContent"] = "eÎ1‹ƒ@Åñ~>ÅÀ6±\\IÀ&¶H°¸\"Í²ÎéÍ*ë(9ğÃÇÜugÿŞŸ_šº8´Ö9€Š$–=¨…âÄCÀ<ÕÅañF“PûUã•ÛÀ]/ ‚}Ú›¾›hİƒC‡‡sªåiôöçw²:c²¬ªŒÑz˜ş;l!zÉ'TQğBBNx¡¿ëí(¡,ñì=Ûà6ÉŠƒósK{Ù}g‚÷",
+["enabledFor"] = "Horde",
+["key"] = "RestedXP Midnight||cFF1EFF00(1-90)|r Default|b1) BfA Intro 2",
+["groupOrContent"] = "u‘OkÛ@Åïû)&èú`Vë@¨ÁÛUIœ†ş1!ä2Ò¬…õ¬­ì8äÃw-CZ(=Fo†ß{³3ßšÛÏScÌD©L(¢ó*;t.0•í$ô-|§.’}z„³ìvMTY×——Ş{µ^›ÕzçŸÌxšŞ–Tcï/CG:ÏƒÉó‰Ê÷¥Á¢ÃW ©Öu­ÇÓĞüC»I 1<÷Şâ\nÌfğM*¸ZŞéŸ¼ª_l	íEÄ^ˆ‡ráC°+_ŸÒGûÀEÏ‘äV“¬¾„Ò;ÖÈV'êÃy2“.R¹	‰/¾zƒ»%%Ô+”Ø/(µ~><Š2ëmï[ÔKÁ*6'Ñ…ÓŠv)%Ók„GP±[ô×]¢c“^+…T•.ÒªÌqåû4óq¡-‘…{:PZ`÷’ ŒÑÔA`şFb£~ÿ",
 ["metadata"] = {
-["guideId"] = 748752390,
+["guideId"] = 1699681111,
 ["retail"] = "",
-["next"] = "a) Port Detective (A)",
-["enabledFor"] = "Alliance",
-["name"] = "a) Theft Tracking (A)",
-["key"] = "RestedXP Midnight||a) Theft Tracking (A)",
+["subgroup"] = "|cFF1EFF00(1-90)|r Default",
+["next"] = "ba) Horde Val'sharah 2",
 ["group"] = "RestedXP Midnight",
-["version"] = 20,
+["key"] = "RestedXP Midnight||cFF1EFF00(1-90)|r Default|b1) BfA Intro 2",
+["enabledFor"] = "Horde",
+["imported"] = true,
+["version"] = 1,
+["subweight"] = "1002",
 ["length"] = "616891112",
-["chapter"] = "",
-["displayname"] = "|cFF00CCFF11|r - Theft Tracking",
+["name"] = "b1) BfA Intro 2",
+["displayname"] = "|cFF1EFF002|r - Zuldazar",
 },
 },
 ["RestedXP Midnight||a) Cooking|712"] = {
@@ -8222,31 +8204,33 @@ RXPDB = {
 ["next"] = "a) The Sound of Her Voice (H)",
 ["enabledFor"] = "Horde",
 ["chapter"] = "",
+["group"] = "RestedXP Midnight",
 ["imported"] = true,
 ["key"] = "RestedXP Midnight||a) Bitter Honor (H)",
-["group"] = "RestedXP Midnight",
 ["version"] = 1,
 ["length"] = "616891112",
 ["name"] = "a) Bitter Honor (H)",
 ["displayname"] = "|cFF00CCFF11|r - Bitter Honor",
 },
 },
-["RestedXP Midnight||a) Oaths to Family|880"] = {
-["version"] = 20,
+["RestedXP Midnight||a) Bivigosa's Blood Sausages (H)|716"] = {
+["version"] = 1,
 ["cache"] = true,
-["key"] = "RestedXP Midnight||a) Oaths to Family",
-["groupOrContent"] = "íZ[oÛ:~÷¯ à‡¶{TE÷KqPÀ‰ím‹³O·İ=#Ñ67²¨¥¨¸YäÇï²cY’ÓÖˆ‹Å¾‘‡qf¾ùf8êÛ·é¡išV§ÓåD`štº÷„ç”¥È2:İgE†Æ$$şt….hœÒÙ\\tº)^„ß ó	††xA“‡N—¦‚ğ'Ø’uº, ušÿ­\000=½{x	¾M`w±\"Zà¹FØùå1ººù{o|yó™hï‰Ô3$æeœÜSVä(šãŞ€¦”çâ‘wô(¡Ñ]J¾ˆæ1‡öñ2El\nÂè¥4¡×½7èıû“óÓ“3ôa0 áhŒşúÛi€~ıõ’„â4\"û(şğœâŒÇdåp\000IJßMXé¹^§‹9gK!_8ÁÉÿ{Z:e8>\\öÏ?ßœÑ)Æ©´zÆÀ7–c¸škè^ ù¶n†÷ï'*\000S‘£%ãI¼ÀÙøLÜ·àôÏ™qò ß&Ù;Ëx«¡ïÑ;:D‰d…F``]¯|,ÃÓ} ”'Œ-ò.0ŸÊÍ+K÷³Éqt/Ô¼@÷ŒCØ$\n{²i[ÚØï¸ûû48è‚,§d{³Y7¤\"— 9/\"SñĞî¤8wºs“%Mc¶ìt#¶È\"àYÌÑ©ôg3 \nË¶èé¶£y¾†šmhFMXRæûM™¯»®Úç´É<ÇlŠ@Ÿæ…ºéíR	²V•¦+u­û_îk7Á²5ßĞ-·)suKísƒ¶}®¯ù¦´ìóu'”²•W~1WÑÙò½ä€äM’À—ƒ‹Ï7#`Íˆ³©È9ªPÙé,eœ ^!Ø–æ€9gLHZ[ )ãŠß'aZ†¾ÿ³Tp>MnÁ~ä\000„×‡*§™}ÁnÑÓ)\000#ÿ.hNãuÉõİCFá4$ÍSıÕ%4¡ïõß{yDÒX\n”«dª>¥jTğœñ#X™çsLù‘Êb‰§L=‘‹ Ô((›¯€<oÎ^aNò9Eg„d9¾#*k·Lv5s+yš9ñÿ µéç¤äš«¬ßÑlĞ¡‘i{~{ÒÔ~ÓÒÆ,!Y‚P¿àX¶Êò£JÊºü4kJe¡SYØ,*•âãoŠÏ„ÀXCÎèŠ-%”Ú\\Ô¤·UJ©ír·ÚÜ«qlhIşõmÍlò¯£8ÖòÚd–#ePC”¬%IU—…8\"é«xåµ2ç´ÌF•‰f8õL¼f‹[è_Y:{•£KhÍ[K6ú2k¿Xeæ´ t´°£TIË\r5ßÕıÕT@›;àQô!Š4%I\rhò‡h‘«R}ŸtB1N€6€ ŸĞFóŸËÉßŠÇã½“Û•È”lÇ®ê ›YáóÙïW’º™¬•¤®tŞ×\000ˆkÈcYi$8†€„ÖÄş.´¯ÑzNÔ½GğGÍ7Ğ¥Éœ‡JVÃêö.ş,R÷İ#æƒ†fOëm_Şô ×vm}õVÔnÕÆ®U©8²9ao/ğ,%‚FèªHòíÅæfñ\000ê6Üš's¸l¡ÑrGß­Ò¿V¯´÷ÚèízáÚ4+0g4%@WĞóÉ»İ®u§é´ÈÕ²¹æºskSÛ”¬­²°>¸æøê\n¼X§|«îéÆPéì}$y^ÖŠm,Í^9´Ìóc\"8~\000sÑ”ˆìkóÈ~š‡ÃáIÿÄ0^	Ñ%äM\r„ÚÒ\nO~ËÉª3vß2<£R*Ê*öŞÓ‹$Õzk(„¡Æ`Q7g}*U‹*Z.G“Á;ˆßèö_t×Èa\nGO¿XGC–$l©ôqV¹\000-ñCÆÀ•9ZJ€Ü€sÄ8M÷˜ÚîûŞº\0005Ñw|X4iµ‘»k}=OwAQ0hqlÓ	B9¾ú~¤Õ¹¾íå»`g}ìYƒÌÿ5ØY{Àîä°>hr_Ğ´0„Ğü! ;Ù	:û[Aç­Nì›‡uøİëÖõ#îÍsız\000@7ü!ë?ãÀ§áG(íà…ÅÚaÕf/Aq“Ê>ãåÆøRµìøİæœT¦qy‹jÎWAf«)«g7e¾nÚjâ»šÿÔ}Û¾-º§ƒm­‡şa[tÕH¯[ô–Nz³ĞªŞdïÏm;ô6ıù1t¥Jï*s¯	~Ù¯<vÖÒ.‰…rzhùºûõùacşÁOk-ÂÓõ°ˆ¯« eÖ5^4®kn©[jË»ºa½˜¥«Ü&+—ï1É€”seÑ(S3¾1«Ü¿‹î\\9ÈtLİ‚k’[£­P7äpNÂ¦,ŸšäPÂÒÜ¯SZùYáÛ/~¦[¹øUø|L€¦î•œ§U¸Q	¯hFZ¸0hãÂ§MÑGFã¥œê´eıÄ–Ê‚QşÜãN	$dARñô?öÄ”¯;†ãS¾¬Î>vjAÏØšÿÄ±L,¹ü3»#­è«•Dõ¯k¶B‡É-Meó×õŒ›’g<…µ¾vëëØÖ§åì×w0O¶ñ‡rjeşô¼Wÿû",
+["enabledFor"] = "Horde",
+["key"] = "RestedXP Midnight||a) Bivigosa's Blood Sausages (H)",
+["groupOrContent"] = "}Ak1…ïó+rhm±˜¤/Õ\"^,²ê¡ !™f‡ÆMH&‚°?¾«ôVêõ½ïÍÇŒÇS=}zÖZ?¨Lb8€:R.;Ô |5aCEÈí6¸f×±oTg„f„s>²ÅÜœ‡nM-ÆSÁÛÕ”ã’‚9]èQP¶5I(Ãl†«˜ÁàK ¸³¡:úëÿ¼fşK ìír¹\\¼.&“í7'”–{”ˆ)GKäú÷ï—œ¬œÿ_Gè+î!·ñ	=À]o›İfÿñÒ¼í×¦«&„–+‡ş",
 ["metadata"] = {
-["guideId"] = 34213258,
+["chapter"] = "",
 ["retail"] = "",
+["enabledFor"] = "Horde",
+["name"] = "a) Bivigosa's Blood Sausages (H)",
 ["group"] = "RestedXP Midnight",
-["internal"] = "",
 ["imported"] = true,
-["version"] = 20,
-["key"] = "RestedXP Midnight||a) Oaths to Family",
+["key"] = "RestedXP Midnight||a) Bivigosa's Blood Sausages (H)",
+["guideId"] = 3828617721,
 ["length"] = "616891112",
-["name"] = "a) Oaths to Family",
-["displayname"] = "a) Oaths to Family",
+["version"] = 1,
+["displayname"] = "Bivigosa's Blood Sausages",
 },
 },
 ["RestedXP Midnight||a) The Path of Light (H)|1109"] = {
@@ -8261,33 +8245,32 @@ RXPDB = {
 ["next"] = "a) Regrets of the Past (H)",
 ["enabledFor"] = "Horde",
 ["chapter"] = "",
+["group"] = "RestedXP Midnight",
 ["imported"] = true,
 ["key"] = "RestedXP Midnight||a) The Path of Light (H)",
-["group"] = "RestedXP Midnight",
 ["version"] = 20,
 ["length"] = "616891112",
 ["name"] = "a) The Path of Light (H)",
 ["displayname"] = "|cFF00CCFF1|r - The Path of Light",
 },
 },
-["RestedXP Midnight|Pre-Expansion Preparations|a) Endeavor (H)|744"] = {
+["RestedXP Midnight|Pre-Expansion Preparations|a) Endeavor (H)|774"] = {
 ["version"] = 1,
 ["cache"] = true,
-["enabledFor"] = "Horde",
+["enabledFor"] = "Alliance",
 ["key"] = "RestedXP Midnight|Pre-Expansion Preparations|a) Endeavor (H)",
-["groupOrContent"] = "UM‹Â0†ïó+r±H¡q¡(ôâ¡àe¥vz“Ùfp5	ùpúã]öö¾ğÌ;OYÖ²^o¤”+\000á9’AÜØm\rJo“ÃCduêğS+£/?„¡+#ØÅt³»DHß¿üPVU>W:¸‘3ü&§¡?uçã¶ßŸ?ª%R^Ç/É-öí±˜ü¼ó÷¹ó\\¶wGfÊÍ‘§˜s€¦ÁõŠ!»9ÚcRÿœàù",
+["groupOrContent"] = "U=kÃ0†÷ûZlŠÁjÀ´à%ƒ¡K‚ëÉf.ÖáTYè#iÁ?¾ª…lïñÏûTU#›—W)å3€ğI7öA/%ˆÙ/ÉáÀ!²:÷xĞÊêùA„t¹óoDY×ùÑÒ'#•ØYÅt[<o%¥ƒ3ô½•ÿÍ:\rç~<í‡ã¸«Ÿğ=e:~pL®8v§rõıo¹÷\\u_ì&”/GbÎÚ÷Æh²CÖs ´LRğó",
 ["metadata"] = {
 ["guideId"] = 3019511316,
 ["retail"] = "",
 ["subgroup"] = "Pre-Expansion Preparations",
 ["group"] = "RestedXP Midnight",
-["enabledFor"] = "Horde",
-["imported"] = true,
+["name"] = "a) Endeavor (H)",
 ["key"] = "RestedXP Midnight|Pre-Expansion Preparations|a) Endeavor (H)",
 ["version"] = 1,
 ["subweight"] = "1001",
 ["length"] = "616891112",
-["name"] = "a) Endeavor (H)",
+["enabledFor"] = "Alliance",
 ["displayname"] = "Endeavor |cFFFCDC0030+ Quest Setup(NEW)|r",
 },
 },
@@ -8321,13 +8304,112 @@ RXPDB = {
 ["next"] = "a) The Greenspeaker's Vigil (H)",
 ["enabledFor"] = "Horde",
 ["chapter"] = "",
+["group"] = "RestedXP Midnight",
 ["imported"] = true,
 ["key"] = "RestedXP Midnight||a) Late Bloomers (H)",
-["group"] = "RestedXP Midnight",
 ["version"] = 1,
 ["length"] = "616891112",
 ["name"] = "a) Late Bloomers (H)",
 ["displayname"] = "|cFF00CCFF3|r - Late Bloomers",
+},
+},
+["RestedXP Midnight||cFFE74C3C(90)|r Delves|a) Shadowguard Point (A)|1116"] = {
+["version"] = 1,
+["cache"] = true,
+["enabledFor"] = "Alliance",
+["key"] = "RestedXP Midnight||cFFE74C3C(90)|r Delves|a) Shadowguard Point (A)",
+["groupOrContent"] = "mÎ±jÃ0…áı>Å-ö`¨šàÄ%¤ÉV0N‡]Tëb_P$!Éiúy½<IxLçs~øŠ¢”åº’R>ˆ@I±q¦ÙY” ºà\rÅDú½ÆWÖ–»>ˆÃç¼íá°_-w‹]V=åcÀ2gŠ ¬:ª½Òî«TĞX;¶	³mBsôFıÜ_—©¦ït«ß\\8‘M×ßKÄ†#ÍqÛ+Ÿ(Àfƒ[cXÙ–`\"zl[3hz$üG¿",
+["metadata"] = {
+["guideId"] = 4214494810,
+["retail"] = "",
+["subgroup"] = "|cFFE74C3C(90)|r Delves",
+["next"] = "a) Tormentâ€™s Rise (A)",
+["group"] = "RestedXP Midnight",
+["chapter"] = "",
+["name"] = "a) Shadowguard Point (A)",
+["version"] = 1,
+["enabledFor"] = "Alliance",
+["length"] = "616891112",
+["key"] = "RestedXP Midnight||cFFE74C3C(90)|r Delves|a) Shadowguard Point (A)",
+["displayname"] = "Shadowguard Point",
+},
+},
+["RestedXP Midnight||cFF1EFF00(1-90)|r Default|bd) Horde Hillsbrad Foothills 2|1281"] = {
+["version"] = 1,
+["cache"] = true,
+["enabledFor"] = "Horde",
+["key"] = "RestedXP Midnight||cFF1EFF00(1-90)|r Default|bd) Horde Hillsbrad Foothills 2",
+["groupOrContent"] = "}QÁNë0¼û+Œr¡‡ÊM…J=¡6Dz*à¡§'.›x›Xr×ÑÆ) õãÙ¤å\000=XïgÆ»ãñ,]ÏÓ4*•0Fp^%{äÖÒ©J*]£±hÿmôÚYrUUÒvÅ±w(³,]eÙdr™ç“Ñõ·Ğy!ìPv¤óÀuî¼o«³bİßôT%Öµ‡|R»¡ñOıÀ¥¾Xş1Ï¼Ğ_²(¬¡#\rğÆ‡`W~Û_äà.PŞQDşÍuvÎõ6Ş‘Ù\000Y#÷ı4ŠÀ„&¸¢ÌªXÂšp¬‘–oÀ[ó¿ğÀnˆo^:ß ƒY2”±ş`ó-§É9“À„ïQxfß÷\"ÕQÒ\re%‹jTâ¨ô¾÷Ô Z}‡{”T¯pf%êó",
+["metadata"] = {
+["guideId"] = 3772848624,
+["retail"] = "",
+["subgroup"] = "|cFF1EFF00(1-90)|r Default",
+["next"] = "be) Horde Hinterlands 2",
+["group"] = "RestedXP Midnight",
+["key"] = "RestedXP Midnight||cFF1EFF00(1-90)|r Default|bd) Horde Hillsbrad Foothills 2",
+["imported"] = true,
+["name"] = "bd) Horde Hillsbrad Foothills 2",
+["version"] = 1,
+["length"] = "616891112",
+["enabledFor"] = "Horde",
+["displayname"] = "|cFF1EFF006|r - Hillsbrad Foothills",
+},
+},
+["RestedXP Midnight||cFF1EFF00(1-90)|r Default|bg) Horde Draenor Scenario 2|1278"] = {
+["version"] = 1,
+["cache"] = true,
+["enabledFor"] = "Horde",
+["key"] = "RestedXP Midnight||cFF1EFF00(1-90)|r Default|bg) Horde Draenor Scenario 2",
+["groupOrContent"] = "u‘Akã0…ïú*¾4£(‡Ğ@N%qm¶¡é–²ô2¶&¶@™±İ@~|'´KK†±fô½§yi:µÓ»™µv¢TÂØ*9 ·>’¶*©8ö~Æ¶C÷¶ÑkïÈWu§’¶/.½S™ev™eãñ­MgãÑ‰õwĞ\"Ø£.ª‘Î#;Ô¤Èz[\"û¨'*q¾m‡É/”&ıya>×O\\ê›ÅƒyáÂPı&‡à.‡Ğ3ÒPŞ‡İ2ìÎ?òá>RŞS‡|MsvUr‹àÉl€Şı×yEdB“K¹‚O}³†ª§f	ÜÕH‹¿À;óçB¼›×>4È`D²ìê#›ÿLš˜#yqKø¯ÓEı}‰+ğ­¤4Qbqè)I©Q‰§2ô2ù™Ú¶Atú(Ï¨ŞáZêã",
+["metadata"] = {
+["guideId"] = 2453543081,
+["retail"] = "",
+["subgroup"] = "|cFF1EFF00(1-90)|r Default",
+["next"] = "bh) Horde Draenor Garrison 2",
+["group"] = "RestedXP Midnight",
+["key"] = "RestedXP Midnight||cFF1EFF00(1-90)|r Default|bg) Horde Draenor Scenario 2",
+["imported"] = true,
+["name"] = "bg) Horde Draenor Scenario 2",
+["version"] = 1,
+["length"] = "616891112",
+["enabledFor"] = "Horde",
+["displayname"] = "|cFF1EFF009|r - Draenor Scenario",
+},
+},
+["RestedXP Midnight||a) A Venomous History|911"] = {
+["version"] = 20,
+["cache"] = true,
+["key"] = "RestedXP Midnight||a) A Venomous History",
+["groupOrContent"] = "ÕY[oÛ8~×¯ ‡îl5ªî—Y @šÄhv’6›İÎÎZ¦m6²è¥¨$.òã÷’eİ|IÇÓé¾¶EòÜ¾ï\\¨ô-?Œ,Ë²5íˆi¢=Q–\"ÛÔ¦œåtC2AÆŸ®Ñ§t:ÚQŠçáĞ	úHR6gy†ŞÑL0¾Ôh*Oq¢Á®…v”àIĞÉj]¹ìD;Âœ³GAâä	ö[úß|º¾Ü\\œ¿?»üåî=ıŒÑñTäÙı3×Œ)Ù®èoX¦n»FhjÇÇÏC%t‚còæ‘ñd<Ç‹7ñ‹Q>%äÎw§œ,Q²øÉ6ŸE)mghc²(²\\ÓGÇÇ'ÅÏæhÂÙ‰³¥ä§ãL3æS\"Pã Â\ruÕÃrtÛ7lO©~Q©ç<cüMÌY–Í0åoÔÙ8•æ§	ïDGŠ.Ô¿¾8ıùîvA0W*Çl¾Hˆ …Òº¥[]BÃ¥ï,ë`\n¼Ãó9Ù ½Éá†Óàö$É3/ÿû÷ÉÍû»rUFb–Ñ$aŒ#6QÿršŒi:íWÙi€÷–}f9O	¯ûã×Œştü\nĞš¦~‡ğÁï¸Nƒ`Mƒ!l>_’•C/îÆÙ3\"…´ \000+oATÌh—˜ò8<ÿæ):t}?p-ï'°³É_ÏŸÇ'±€Ôô6‚¥¿w#¬À~‘î(âé¶gÀwËÓÍv*	¤’Ó}¶%êD}ÏW>lr‘Œã Y*kx.ı\\EèüıùÕ/ÀQ:†ÜÚ§¶­s6B·‹% øº=… ‡~[5ö gú<ßY£ïNğ—/ô<¥£v»ä ™,ï	Z.±!+ëexşÁ\\Ò#AŒ•å‚H(ÔUØ¹rTËĞ•“:§6hZsÔ5g#Ú¢kÌq²4n¬t×+OĞËúHa±ÂZéÕX%sQ\nŞİˆÈ·à´Ÿi’4p?àl\n¨×ş~É˜&ÏÑòğóĞr­ĞÓ-6\\~ø0¼[w\000gş{›.NOIsMÃ‘$Ü>\rÔ‰3òô¾ºÁOO´‡„.œªHØ]Ü'Íµ}Üƒ•¯S‘`lieoÊh‘á‚É™àÓle&Uàá™tŸE†*İË}ß(bÊ·ò9#yşÿc›‰¬ÎÏ>~mæhí·vH—zuzk~Ä	c!Ë„P¦»]y:£d‚>æé«/ ë¬åÈĞğ Ù†kÌ‘õæ¬–77c„NvOS`…Âˆ,Çõ|«òqKÄ®”uE%¯ÿ‰ç8b°óŠ=©¸ÔB®CFŸ	t¤«‰]	mÒ#²¹ Õù†ªóõåßÒ&¶MMa—ÂD¿/G~]›+(ôèÈ‚NG¿¹.Õæä¿9å$Û¢²ÜRMœ]ÙK_	4—şû-E#²”²¥HµÄØê[Õ$=b*T^‘Ï¡w'‹/_êõ\rêïA†3|ßN%0’ù²I4½ƒ1`%¥e”Óµï…~e©Üµ7«¿§Ï«å´ŞTµ«ÇsÍpìn	¹W\rñyÏt¤’Uößå#/tôÀ•É,ˆ$fÏ¥ÙJ‰¡j¶Zá«±a·³[,l©c¹2ÚÑÁœİ×fG(ÙÑÎ¾½2»l…X±õ¯õÃË5jâ2¬á²…ª5ö|Ç¬aO@F‚Åê¾kj÷­õTo//€å5Ğú®á;ºg¡ö7f­ÍÒÊ¢G›ÑU‹æxvhG~»E+G­ÂæN‹–÷µ¿Uj˜³ÅÏ4\"úJ#Œà;xsÀ’„=*îHÜµÓö~g}W¾ØÍŸoL-È/ ]!¿Ó­º_ËÄÑš\rgœà¹$ô[q±è\\./i¶¬iÙÕß!}#Èaf()²›$£*½7tí×oÕ	›2F\r£Ş Şë¨oeeKz¨ZúÃùÈÓég¢õ”Ú{/ğö+HÓ—âÛÎŸD =D7«KTãXSš!ñ}’`]¤_o¤ eÕ(HÈB\n¸Â4Ã-Bù†éoë;š}Hÿ•“¬<[3ˆtŞmLRÌ)CeË:XQµåã<V	E§øğ4ûN—hL'ç‰Xê(…¼;ıƒÑ[.ã/X{]›X†+*¡§ródÑLN\000dŒf„“ Æ]°\000†aNPâL9kË\000¬LºHÈ[XN\na0§KÁÿ2âyš0À³´iB9x`È‡(f«½–µûã¢V—š÷Jé¤buï½‰ã:¶Õ®C·3Gl®D¢–BÕ‹	íHP‘HrƒÓ³SÓ¼$'4¥Ùl=Ğhş½¼Å:ÿ^.º1ıæ¢ºH¨,nTÑ¨\"h?JrmrnT,{ÍÍ\"…­fn•ıĞˆ¤\r–:0XJ–F[ûóV²PÍ‚oîıúÄ|7rì¯x}\"Ç¨Ş©æ®„L»õ„Û{÷W/ÇË_Õ&íw¢æå˜¬03HšãâÅÊ‹A¸¹­«»G¤zîUko.háÉy§şZMMA–|­æ;òšZ=;Tèjº4cÒh‘k^+İ³õn±ëåÕ%{¤®&,]Eb®]@lë–şSë,ÿ°·W²U±õö;ÌêÒ÷{òóÿş",
+["metadata"] = {
+["guideId"] = 726404821,
+["retail"] = "",
+["group"] = "RestedXP Midnight",
+["internal"] = "",
+["imported"] = true,
+["version"] = 20,
+["key"] = "RestedXP Midnight||a) A Venomous History",
+["length"] = "616891112",
+["name"] = "a) A Venomous History",
+["displayname"] = "a) A Venomous History",
+},
+},
+["RestedXP Midnight||a) Eversong Woods Route Delve Worldtour|848"] = {
+["version"] = 0,
+["cache"] = true,
+["key"] = "RestedXP Midnight||a) Eversong Woods Route Delve Worldtour",
+["groupOrContent"] = "1kÃ0…÷ûš2¬¡™x+„4Ğ]èg‘dƒ|•ŒíÒñ=Şwß5ÍÁŞÖÚ=€I\\(ŸtğÊ¹°ûºà{p1ø¡€‰42ÒÏ§¬Ñã§ªËxÕ¹0X®MWtN`\\È“Ğú‚¶{ß÷İ©k[»%l~]\000báI :§g¼ËìøïßÕŞ©û@ÕÙ‘ĞÊúì60~äôçº£…áç",
+["metadata"] = {
+["guideId"] = 2025330092,
+["retail"] = "",
+["group"] = "RestedXP Midnight",
+["internal"] = "",
+["imported"] = true,
+["version"] = 0,
+["name"] = "a) Eversong Woods Route Delve Worldtour",
+["length"] = "616891112",
+["key"] = "RestedXP Midnight||a) Eversong Woods Route Delve Worldtour",
+["displayname"] = "|cFFFCDC001|r - Eversong Woods",
 },
 },
 ["RestedXP Midnight||a) Between Two Trolls (A)|1230"] = {
@@ -8350,65 +8432,6 @@ RXPDB = {
 ["displayname"] = "|cFF00CCFF3|r - Between Two Trolls",
 },
 },
-["RestedXP Midnight||cFF1EFF00(80-90)|r Adventure Mode|cca) Harandar Route 4 (H)|977"] = {
-["version"] = 1,
-["cache"] = true,
-["enabledFor"] = "Horde",
-["key"] = "RestedXP Midnight||cFF1EFF00(80-90)|r Adventure Mode|cca) Harandar Route 4 (H)",
-["groupOrContent"] = "mÎ1kÃ0†áı~Å{0H¦5	Cq+¼J¦]ßáÉÈRÒB~|ÕfHi:Kß{OU5ªY­•R5€@œ8,Ö;T ÆàÓŒ;^\"ÓÛ+n-9;\"ˆ%í¯o—Akõ¢µ”ÅJVkY^>Ñ‰]Lqë‰A8sdSbo‚qdî|ŠŒXô%²Ë<™ÏŸoß=İ=wR>æRu[dã˜;ûÿ;XÃfƒ½ùdöÎ ¬¦D|ïÿMù£½N–ølù3´­‚¯",
-["metadata"] = {
-["guideId"] = 259135910,
-["retail"] = "",
-["subgroup"] = "|cFF1EFF00(80-90)|r Adventure Mode",
-["next"] = "ccb) Harandar Route 4 (H) 2",
-["group"] = "RestedXP Midnight",
-["imported"] = true,
-["key"] = "RestedXP Midnight||cFF1EFF00(80-90)|r Adventure Mode|cca) Harandar Route 4 (H)",
-["name"] = "cca) Harandar Route 4 (H)",
-["version"] = 1,
-["length"] = "616891112",
-["enabledFor"] = "Horde",
-["displayname"] = "|cFFFCDC005|r - Harandar 1",
-},
-},
-["RestedXP Midnight||a) Shadowfall (A)|1270"] = {
-["version"] = 1,
-["cache"] = true,
-["enabledFor"] = "Alliance",
-["key"] = "RestedXP Midnight||a) Shadowfall (A)",
-["groupOrContent"] = "eÎ1kÃ0†áı~Å–d0D)„¼So…à,²ÒÙ>¸ÈB–Óüãë¤KJç»÷ã)ŠİíÖÚ-€IœIÌÓ(C@¦KÃ±á1³ÿ<á‡ø ]ŸÁº2ÒÏ=ùá«%U\\×`¼ŒQéûy]]o6UU×osÂâåwéù}#1*ã{Û²Ëãï†ë)fNP–xT\naD0œNÿƒ.(ğó",
-["metadata"] = {
-["guideId"] = 4129885373,
-["retail"] = "",
-["next"] = "a) Ripple Effects (A)",
-["enabledFor"] = "Alliance",
-["name"] = "a) Shadowfall (A)",
-["key"] = "RestedXP Midnight||a) Shadowfall (A)",
-["group"] = "RestedXP Midnight",
-["version"] = 1,
-["length"] = "616891112",
-["chapter"] = "",
-["displayname"] = "|cFF00CCFF3|r - Shadowfall",
-},
-},
-["RestedXP Midnight||a) A Venomous History|911"] = {
-["version"] = 20,
-["cache"] = true,
-["key"] = "RestedXP Midnight||a) A Venomous History",
-["groupOrContent"] = "ÕY[oÛ8~×¯ ‡îl5ªî—Y @šÄhv’6›İÎÎZ¦m6²è¥¨$.òã÷’eİ|IÇÓé¾¶EòÜ¾ï\\¨ô-?Œ,Ë²5íˆi¢=Q–\"ÛÔ¦œåtC2AÆŸ®Ñ§t:ÚQŠçáĞ	úHR6gy†ŞÑL0¾Ôh*Oq¢Á®…v”àIĞÉj]¹ìD;Âœ³GAâä	ö[úß|º¾Ü\\œ¿?»üåî=ıŒÑñTäÙı3×Œ)Ù®èoX¦n»FhjÇÇÏC%t‚còæ‘ñd<Ç‹7ñ‹Q>%äÎw§œ,Q²øÉ6ŸE)mghc²(²\\ÓGÇÇ'ÅÏæhÂÙ‰³¥ä§ãL3æS\"Pã Â\ruÕÃrtÛ7lO©~Q©ç<cüMÌY–Í0åoÔÙ8•æ§	ïDGŠ.Ô¿¾8ıùîvA0W*Çl¾Hˆ …Òº¥[]BÃ¥ï,ë`\n¼Ãó9Ù ½Éá†Óàö$É3/ÿû÷ÉÍû»rUFb–Ñ$aŒ#6QÿršŒi:íWÙi€÷–}f9O	¯ûã×Œştü\nĞš¦~‡ğÁï¸Nƒ`Mƒ!l>_’•C/îÆÙ3\"…´ \000+oATÌh—˜ò8<ÿæ):t}?p-ï'°³É_ÏŸÇ'±€Ôô6‚¥¿w#¬À~‘î(âé¶gÀwËÓÍv*	¤’Ó}¶%êD}ÏW>lr‘Œã Y*kx.ı\\EèüıùÕ/ÀQ:†ÜÚ§¶­s6B·‹% øº=… ‡~[5ö gú<ßY£ïNğ—/ô<¥£v»ä ™,ï	Z.±!+ëexşÁ\\Ò#AŒ•å‚H(ÔUØ¹rTËĞ•“:§6hZsÔ5g#Ú¢kÌq²4n¬t×+OĞËúHa±ÂZéÕX%sQ\nŞİˆÈ·à´Ÿi’4p?àl\n¨×ş~É˜&ÏÑòğóĞr­ĞÓ-6\\~ø0¼[w\000gş{›.NOIsMÃ‘$Ü>\rÔ‰3òô¾ºÁOO´‡„.œªHØ]Ü'Íµ}Üƒ•¯S‘`lieoÊh‘á‚É™àÓle&Uàá™tŸE†*İË}ß(bÊ·ò9#yşÿc›‰¬ÎÏ>~mæhí·vH—zuzk~Ä	c!Ë„P¦»]y:£d‚>æé«/ ë¬åÈĞğ Ù†kÌ‘õæ¬–77c„NvOS`…Âˆ,Çõ|«òqKÄ®”uE%¯ÿ‰ç8b°óŠ=©¸ÔB®CFŸ	t¤«‰]	mÒ#²¹ Õù†ªóõåßÒ&¶MMa—ÂD¿/G~]›+(ôèÈ‚NG¿¹.Õæä¿9å$Û¢²ÜRMœ]ÙK_	4—şû-E#²”²¥HµÄØê[Õ$=b*T^‘Ï¡w'‹/_êõ\rêïA†3|ßN%0’ù²I4½ƒ1`%¥e”Óµï…~e©Üµ7«¿§Ï«å´ŞTµ«ÇsÍpìn	¹W\rñyÏt¤’Uößå#/tôÀ•É,ˆ$fÏ¥ÙJ‰¡j¶Zá«±a·³[,l©c¹2ÚÑÁœİ×fG(ÙÑÎ¾½2»l…X±õ¯õÃË5jâ2¬á²…ª5ö|Ç¬aO@F‚Åê¾kj÷­õTo//€å5Ğú®á;ºg¡ö7f­ÍÒÊ¢G›ÑU‹æxvhG~»E+G­ÂæN‹–÷µ¿Uj˜³ÅÏ4\"úJ#Œà;xsÀ’„=*îHÜµÓö~g}W¾ØÍŸoL-È/ ]!¿Ó­º_ËÄÑš\rgœà¹$ô[q±è\\./i¶¬iÙÕß!}#Èaf()²›$£*½7tí×oÕ	›2F\r£Ş Şë¨oeeKz¨ZúÃùÈÓég¢õ”Ú{/ğö+HÓ—âÛÎŸD =D7«KTãXSš!ñ}’`]¤_o¤ eÕ(HÈB\n¸Â4Ã-Bù†éoë;š}Hÿ•“¬<[3ˆtŞmLRÌ)CeË:XQµåã<V	E§øğ4ûN—hL'ç‰Xê(…¼;ıƒÑ[.ã/X{]›X†+*¡§ródÑLN\000dŒf„“ Æ]°\000†aNPâL9kË\000¬LºHÈ[XN\na0§KÁÿ2âyš0À³´iB9x`È‡(f«½–µûã¢V—š÷Jé¤buï½‰ã:¶Õ®C·3Gl®D¢–BÕ‹	íHP‘HrƒÓ³SÓ¼$'4¥Ùl=Ğhş½¼Å:ÿ^.º1ıæ¢ºH¨,nTÑ¨\"h?JrmrnT,{ÍÍ\"…­fn•ıĞˆ¤\r–:0XJ–F[ûóV²PÍ‚oîıúÄ|7rì¯x}\"Ç¨Ş©æ®„L»õ„Û{÷W/ÇË_Õ&íw¢æå˜¬03HšãâÅÊ‹A¸¹­«»G¤zîUko.háÉy§şZMMA–|­æ;òšZ=;Tèjº4cÒh‘k^+İ³õn±ëåÕ%{¤®&,]Eb®]@lë–şSë,ÿ°·W²U±õö;ÌêÒ÷{òóÿş",
-["metadata"] = {
-["guideId"] = 726404821,
-["retail"] = "",
-["group"] = "RestedXP Midnight",
-["internal"] = "",
-["imported"] = true,
-["version"] = 20,
-["key"] = "RestedXP Midnight||a) A Venomous History",
-["length"] = "616891112",
-["name"] = "a) A Venomous History",
-["displayname"] = "a) A Venomous History",
-},
-},
 ["RestedXP Midnight||a) A More Potent Foe|876"] = {
 ["version"] = 20,
 ["cache"] = true,
@@ -8427,44 +8450,6 @@ RXPDB = {
 ["displayname"] = "a) A More Potent Foe",
 },
 },
-["RestedXP Midnight||a) Flowers for Amalthea (A)|1237"] = {
-["version"] = 20,
-["cache"] = true,
-["enabledFor"] = "Alliance",
-["key"] = "RestedXP Midnight||a) Flowers for Amalthea (A)",
-["groupOrContent"] = "uÎÁj„0…áı}ŠÙÌÀFŠLÁÙ	¥3‹.º¹5·&4ÆãXÁ‡¯Ó.ÛîÏùù²¬”åùQJY\000ˆÈ‰¬qã8ÙÑc‘ƒèã8|æ)±~yÂÖjo{“@xéˆÊË¾Ç÷1b=K†	õ„¶Sp´~·N©<o¥äÃ1ûó¶Gù3İ£—Ù¿Q2'¼ÒcËX/´şT;C!q„ªÂÚ9K¾cØq„õ›5ÿÆ¾şÃ„¯",
-["metadata"] = {
-["guideId"] = 2377388094,
-["retail"] = "",
-["next"] = "a) Sunbath, Take Me Away (A)",
-["enabledFor"] = "Alliance",
-["name"] = "a) Flowers for Amalthea (A)",
-["key"] = "RestedXP Midnight||a) Flowers for Amalthea (A)",
-["group"] = "RestedXP Midnight",
-["version"] = 20,
-["length"] = "616891112",
-["chapter"] = "",
-["displayname"] = "|cFF00CCFF14|r - Flowers for Amalthea",
-},
-},
-["RestedXP Midnight||a) Eversong Woods Route Delve Worldtour|848"] = {
-["version"] = 0,
-["cache"] = true,
-["key"] = "RestedXP Midnight||a) Eversong Woods Route Delve Worldtour",
-["groupOrContent"] = "1kÃ0…÷ûš2¬¡™x+„4Ğ]èg‘dƒ|•ŒíÒñ=Şwß5ÍÁŞÖÚ=€I\\(ŸtğÊ¹°ûºà{p1ø¡€‰42ÒÏ§¬Ñã§ªËxÕ¹0X®MWtN`\\È“Ğú‚¶{ß÷İ©k[»%l~]\000báI :§g¼ËìøïßÕŞ©û@ÕÙ‘ĞÊúì60~äôçº£…áç",
-["metadata"] = {
-["guideId"] = 2025330092,
-["retail"] = "",
-["group"] = "RestedXP Midnight",
-["internal"] = "",
-["imported"] = true,
-["version"] = 0,
-["name"] = "a) Eversong Woods Route Delve Worldtour",
-["length"] = "616891112",
-["key"] = "RestedXP Midnight||a) Eversong Woods Route Delve Worldtour",
-["displayname"] = "|cFFFCDC001|r - Eversong Woods",
-},
-},
 ["RestedXP Midnight||a) Ripple Effects (H)|1111"] = {
 ["version"] = 20,
 ["cache"] = true,
@@ -8477,34 +8462,30 @@ RXPDB = {
 ["next"] = "a) Dis Was Our Land (H)",
 ["enabledFor"] = "Horde",
 ["chapter"] = "",
+["group"] = "RestedXP Midnight",
 ["imported"] = true,
 ["key"] = "RestedXP Midnight||a) Ripple Effects (H)",
-["group"] = "RestedXP Midnight",
 ["version"] = 20,
 ["length"] = "616891112",
 ["name"] = "a) Ripple Effects (H)",
 ["displayname"] = "|cFF00CCFF4|r - Ripple Effects",
 },
 },
-["RestedXP Midnight||cFF1EFF00(80-90)|r Adventure Mode|ca) Midnight DMF Route 4 (H)|982"] = {
+["RestedXP Midnight||a) Test1235|835"] = {
 ["version"] = 0,
 ["cache"] = true,
-["enabledFor"] = "Horde",
-["key"] = "RestedXP Midnight||cFF1EFF00(80-90)|r Adventure Mode|ca) Midnight DMF Route 4 (H)",
-["groupOrContent"] = "eÏA«Â0ğ{>E —í0hEÆ^Ì¢‡ÁÃÓ;x©k˜ÅÙ®øáíD‘“üòOQ”¢¬j!Ä€y\nÊÀzïâˆ;šé¿_l¶¦?`S<<{·NJ±–’ó¬âEÍó›Ç}!¢'l&`V	;•¿ö±i%î\\„KÌ690m¦qPÿÉ™¬›¹xÂ\nl”?³(•ñ3G×¸wokƒwâj…çÓõ}fl7DMß¯ì“ÒÀı",
+["key"] = "RestedXP Midnight||a) Test1235",
+["groupOrContent"] = "ÓÕ534³°4444ââR.J-IÌÌáRN/Ê/-PJ-.IM‰PğÍLÉËLÏ(áRÎKÌMUHÔTJ›r)§dä$V‚% ¢ `dlÂ¥œ™W’Z”—˜Ãø",
 ["metadata"] = {
-["guideId"] = 1531714125,
 ["retail"] = "",
-["subgroup"] = "|cFF1EFF00(80-90)|r Adventure Mode",
-["next"] = "caa) Midnight Intro Route 4 (H)",
-["enabledFor"] = "Horde",
+["group"] = "RestedXP Midnight",
+["internal"] = "",
 ["imported"] = true,
 ["version"] = 0,
-["name"] = "ca) Midnight DMF Route 4 (H)",
-["group"] = "RestedXP Midnight",
+["name"] = "a) Test1235",
 ["length"] = "616891112",
-["key"] = "RestedXP Midnight||cFF1EFF00(80-90)|r Adventure Mode|ca) Midnight DMF Route 4 (H)",
-["displayname"] = "|cFF9D9D9D0|r - Darkmoon Faire",
+["key"] = "RestedXP Midnight||a) Test1235",
+["displayname"] = "Test1233333234",
 },
 },
 ["RestedXP Midnight||a) Item Booklet (A)|750"] = {
@@ -8544,66 +8525,6 @@ RXPDB = {
 ["displayname"] = "a) A Dance with the Devil",
 },
 },
-["RestedXP Speed Leveling||a) Kun-Lai Summit Defense Shado-Pan|1355"] = {
-["version"] = 4,
-["cache"] = true,
-["key"] = "RestedXP Speed Leveling||a) Kun-Lai Summit Defense Shado-Pan",
-["groupOrContent"] = "íX[o£F~çWŒä‡ª-a™ìC¤l×Q·q’Uâ(›V+kŒÇ6\n0.¹Hùñ=3¾\r6$XroÛ>š™óó}çÂÁGG]Ü\rBŒ11ŒNÎ£óÀò\"ærÎ4çå]±B°ñ—ÏèzÎØõÙKâljt2š2D¿GgevÔ§1º.Ó4è#›°¬`èzFÇüè3ÍŒNœ	–g41\000int\"Î&Øc,f(cOÂè$tÄ’µ)ŸhÖÖ”?4]×òÌ ´ìĞ$¶iÇÇ/=¡{÷ÈódœÒù»hFÅ¨6ìºÓœ=[£dşØ/b@“{`/ÑÕ—ÏÃÓ«O½‹ı»áÂ×9…èrôÓŒgÓ—Ü2,El.cw»:>>YüÌXmœè”&ÉˆF÷º¡ok†%H0â¥0,Aó)h×o@µ¢tD,†z™2„„U…r©Tè˜Œ}qO@èË»?9û½ŒsV´~…÷ÍŠşßbÛÜƒ?óºüfK«Æëšø ÷LÑ¯1–G·'WÃ8+â1Så:ãeÁ¶¤\nÈ†ñ&ÚádÏ:nÄ\n]3,‡\0007©eŸÑöJ¯¬Aê±	¨s'É’Pï¢w~7Ğ2‡t*\"+«EÖMlX)ÉD}Ê&jÖ¢;ZfSÂó˜ÕctE§JÅúœÉ-EšˆG°¼‡ı¶°ê_^4#Ô+\n–E`üu+tß^…¾¹İpµ¶H}şµuõKœ¡[š§÷lzğìïãèoH¶–HÇÂD&ÒÅF\"·\"\nˆé¶K>Üî(:…Ê„9TÃ#Ğá;Ød]1©¯œkj`ËöÍÀ·l[>-ŠxÎçB.Vo{*­²'YoµT•A#ÑË65:~F§¥\\Õ^aêìá¡ŠZ!K<I;¦gÚÕîö»fàY¿{¸òÄ¯Ñ‡4ëS‰A•Å2QÕà¶HméÑ¨›Ş`¯©†×nu‹=œêf•\n`õèZxG„N³*\\kM*\\+ÁÕ#]NÂy¥÷={²÷‰oºöNCYáî–°uÂ:+[Á…í#ÍW“£&/M.lãGÜ^U0‡óµ~ÿ3~ÙµÁZ†ÆÎÔvÛúÅÔ;äbZ¿®ˆ²³Z×eH~·Ø×7–j__[jûú†ÚCV76‹ÈfQ	µ•ÿ&Kiqßãj­Yiiã‚İhÆ¢ûÚó{ Ak×W_E.|}·ø¦|äÿ\\­rµWjô–8ã#r:ÇÍïªPvu\rf[­§^?°[E	Â8\000(Ü€^/Ïñİ®¯¦‹’‹š*é+GóÊ(P^T:`İFöİåPÛ£óy›4iEúmp\rpÃ9p‘œl\000WCr\r‚É\n0C†%üÈä(ŸöàùI$ßÛJ!x¶ä¿\000n#\000iHJÍ´=§	{€ÂË¼äóç©Z…Ëtss7ßª®[Õœßğ:€E„§Ms—ü•s7Ô;rï~Òû2Ôş6á5d·'hZ¯+´ü	6ì6Ó²Ö7(ô",
-["metadata"] = {
-["guideId"] = 2421888350,
-["retail"] = "",
-["group"] = "RestedXP Speed Leveling",
-["internal"] = "",
-["imported"] = true,
-["version"] = 4,
-["key"] = "RestedXP Speed Leveling||a) Kun-Lai Summit Defense Shado-Pan",
-["length"] = "616891112",
-["name"] = "a) Kun-Lai Summit Defense Shado-Pan",
-["displayname"] = "a) Kun-Lai Summit Defense Shado-Pan",
-},
-},
-["RestedXP Speed Leveling||cFFFCDC00(1-90)|r Default|cac) Eversong Woods Route 2 (H) 2|1005"] = {
-["version"] = 1,
-["cache"] = true,
-["enabledFor"] = "Horde",
-["key"] = "RestedXP Speed Leveling||cFFFCDC00(1-90)|r Default|cac) Eversong Woods Route 2 (H) 2",
-["groupOrContent"] = "uËJAE÷õ½É,¦GB@‡Y(H\\èÂM§»œ´]C?ùxÇD÷çÎ­ë¹_/´Ö-€Š”\r{PŠ‰% 5D)#n)erÏø89¼£y¨TvßÄÙv]·Ş¬›f¦ëES#nèÕŸAóFh­ğöÓ,aÀ'—p+%¶8ë+lA9N£7§/üâ»šTõßåDzÏhwŞD“%ş–Ár‰½DG0e 8X_]nÜ³<ìó‹ù¯ég¹gGGN°Ziøø",
-["metadata"] = {
-["guideId"] = 3259374502,
-["retail"] = "",
-["subgroup"] = "|cFFFCDC00(1-90)|r Default",
-["next"] = "cb) Arator Route 2 (H)",
-["group"] = "RestedXP Speed Leveling",
-["imported"] = true,
-["key"] = "RestedXP Speed Leveling||cFFFCDC00(1-90)|r Default|cac) Eversong Woods Route 2 (H) 2",
-["name"] = "cac) Eversong Woods Route 2 (H) 2",
-["version"] = 1,
-["length"] = "616891112",
-["enabledFor"] = "Horde",
-["displayname"] = "|cFFFCDC003|r - Eversong Woods 2",
-},
-},
-["RestedXP Midnight||a) A Venomous History (H)|1062"] = {
-["version"] = 1,
-["cache"] = true,
-["enabledFor"] = "Horde",
-["key"] = "RestedXP Midnight||a) A Venomous History (H)",
-["groupOrContent"] = "mÎ1ËÂ0…áışŠYìPhŠB-„.‚|ƒ:¸„æÒÒ$$©Xè·úv?çåÉó’—ûç|À%©\r°'…¨E¬nôøG1‘º_ğ¬•Õ]Ÿ€Y9Êx%ë7FltL.L¸i2`JGoäôÍ­EQ×Bğİ0_9-Az¥OğD“³\nSOx“ÆÄÿ\\ÛKŸ(@Uaã‚\"X@˜¶­ı«4xÿ",
-["metadata"] = {
-["guideId"] = 1750142862,
-["retail"] = "",
-["next"] = "a) Beyond the Walls (H)",
-["enabledFor"] = "Horde",
-["chapter"] = "",
-["imported"] = true,
-["key"] = "RestedXP Midnight||a) A Venomous History (H)",
-["group"] = "RestedXP Midnight",
-["version"] = 1,
-["length"] = "616891112",
-["name"] = "a) A Venomous History (H)",
-["displayname"] = "|cFF00CCFF13|r - A Venomous History",
-},
-},
 ["RestedXP Speed Leveling||a) Lost Dragonscale Alliance 232|799"] = {
 ["version"] = 4,
 ["cache"] = true,
@@ -8623,6 +8544,66 @@ RXPDB = {
 ["displayname"] = "a) Lost Dragonscale Alliance 232",
 },
 },
+["RestedXP Speed Leveling||cFFFCDC00(1-90)|r Default|cac) Eversong Woods Route 2 (H) 2|1005"] = {
+["version"] = 1,
+["cache"] = true,
+["enabledFor"] = "Horde",
+["key"] = "RestedXP Speed Leveling||cFFFCDC00(1-90)|r Default|cac) Eversong Woods Route 2 (H) 2",
+["groupOrContent"] = "uËJAE÷õ½É,¦GB@‡Y(H\\èÂM§»œ´]C?ùxÇD÷çÎ­ë¹_/´Ö-€Š”\r{PŠ‰% 5D)#n)erÏø89¼£y¨TvßÄÙv]·Ş¬›f¦ëES#nèÕŸAóFh­ğöÓ,aÀ'—p+%¶8ë+lA9N£7§/üâ»šTõßåDzÏhwŞD“%ş–Ár‰½DG0e 8X_]nÜ³<ìó‹ù¯ég¹gGGN°Ziøø",
+["metadata"] = {
+["guideId"] = 3259374502,
+["retail"] = "",
+["subgroup"] = "|cFFFCDC00(1-90)|r Default",
+["next"] = "cb) Arator Route 2 (H)",
+["group"] = "RestedXP Speed Leveling",
+["key"] = "RestedXP Speed Leveling||cFFFCDC00(1-90)|r Default|cac) Eversong Woods Route 2 (H) 2",
+["imported"] = true,
+["name"] = "cac) Eversong Woods Route 2 (H) 2",
+["version"] = 1,
+["length"] = "616891112",
+["enabledFor"] = "Horde",
+["displayname"] = "|cFFFCDC003|r - Eversong Woods 2",
+},
+},
+["RestedXP Midnight||a) A Venomous History (H)|1062"] = {
+["version"] = 1,
+["cache"] = true,
+["enabledFor"] = "Horde",
+["key"] = "RestedXP Midnight||a) A Venomous History (H)",
+["groupOrContent"] = "mÎ1ËÂ0…áışŠYìPhŠB-„.‚|ƒ:¸„æÒÒ$$©Xè·úv?çåÉó’—ûç|À%©\r°'…¨E¬nôøG1‘º_ğ¬•Õ]Ÿ€Y9Êx%ë7FltL.L¸i2`JGoäôÍ­EQ×Bğİ0_9-Az¥OğD“³\nSOx“ÆÄÿ\\ÛKŸ(@Uaã‚\"X@˜¶­ı«4xÿ",
+["metadata"] = {
+["guideId"] = 1750142862,
+["retail"] = "",
+["next"] = "a) Beyond the Walls (H)",
+["enabledFor"] = "Horde",
+["chapter"] = "",
+["group"] = "RestedXP Midnight",
+["imported"] = true,
+["key"] = "RestedXP Midnight||a) A Venomous History (H)",
+["version"] = 1,
+["length"] = "616891112",
+["name"] = "a) A Venomous History (H)",
+["displayname"] = "|cFF00CCFF13|r - A Venomous History",
+},
+},
+["RestedXP Speed Leveling||a) Kun-Lai Summit Defense Shado-Pan|1355"] = {
+["version"] = 4,
+["cache"] = true,
+["key"] = "RestedXP Speed Leveling||a) Kun-Lai Summit Defense Shado-Pan",
+["groupOrContent"] = "íX[o£F~çWŒä‡ª-a™ìC¤l×Q·q’Uâ(›V+kŒÇ6\n0.¹Hùñ=3¾\r6$XroÛ>š™óó}çÂÁGG]Ü\rBŒ11ŒNÎ£óÀò\"ærÎ4çå]±B°ñ—ÏèzÎØõÙKâljt2š2D¿GgevÔ§1º.Ó4è#›°¬`èzFÇüè3ÍŒNœ	–g41\000int\"Î&Øc,f(cOÂè$tÄ’µ)ŸhÖÖ”?4]×òÌ ´ìĞ$¶iÇÇ/=¡{÷ÈódœÒù»hFÅ¨6ìºÓœ=[£dşØ/b@“{`/ÑÕ—ÏÃÓ«O½‹ı»áÂ×9…èrôÓŒgÓ—Ü2,El.cw»:>>YüÌXmœè”&ÉˆF÷º¡ok†%H0â¥0,Aó)h×o@µ¢tD,†z™2„„U…r©Tè˜Œ}qO@èË»?9û½ŒsV´~…÷ÍŠşßbÛÜƒ?óºüfK«Æëšø ÷LÑ¯1–G·'WÃ8+â1Så:ãeÁ¶¤\nÈ†ñ&ÚádÏ:nÄ\n]3,‡\0007©eŸÑöJ¯¬Aê±	¨s'É’Pï¢w~7Ğ2‡t*\"+«EÖMlX)ÉD}Ê&jÖ¢;ZfSÂó˜ÕctE§JÅúœÉ-EšˆG°¼‡ı¶°ê_^4#Ô+\n–E`üu+tß^…¾¹İpµ¶H}şµuõKœ¡[š§÷lzğìïãèoH¶–HÇÂD&ÒÅF\"·\"\nˆé¶K>Üî(:…Ê„9TÃ#Ğá;Ød]1©¯œkj`ËöÍÀ·l[>-ŠxÎçB.Vo{*­²'YoµT•A#ÑË65:~F§¥\\Õ^aêìá¡ŠZ!K<I;¦gÚÕîö»fàY¿{¸òÄ¯Ñ‡4ëS‰A•Å2QÕà¶HméÑ¨›Ş`¯©†×nu‹=œêf•\n`õèZxG„N³*\\kM*\\+ÁÕ#]NÂy¥÷={²÷‰oºöNCYáî–°uÂ:+[Á…í#ÍW“£&/M.lãGÜ^U0‡óµ~ÿ3~ÙµÁZ†ÆÎÔvÛúÅÔ;äbZ¿®ˆ²³Z×eH~·Ø×7–j__[jûú†ÚCV76‹ÈfQ	µ•ÿ&Kiqßãj­Yiiã‚İhÆ¢ûÚó{ Ak×W_E.|}·ø¦|äÿ\\­rµWjô–8ã#r:ÇÍïªPvu\rf[­§^?°[E	Â8\000(Ü€^/Ïñİ®¯¦‹’‹š*é+GóÊ(P^T:`İFöİåPÛ£óy›4iEúmp\rpÃ9p‘œl\000WCr\r‚É\n0C†%üÈä(ŸöàùI$ßÛJ!x¶ä¿\000n#\000iHJÍ´=§	{€ÂË¼äóç©Z…Ëtss7ßª®[Õœßğ:€E„§Ms—ü•s7Ô;rï~Òû2Ôş6á5d·'hZ¯+´ü	6ì6Ó²Ö7(ô",
+["metadata"] = {
+["guideId"] = 2421888350,
+["retail"] = "",
+["group"] = "RestedXP Speed Leveling",
+["internal"] = "",
+["imported"] = true,
+["version"] = 4,
+["key"] = "RestedXP Speed Leveling||a) Kun-Lai Summit Defense Shado-Pan",
+["length"] = "616891112",
+["name"] = "a) Kun-Lai Summit Defense Shado-Pan",
+["displayname"] = "a) Kun-Lai Summit Defense Shado-Pan",
+},
+},
 ["RestedXP Midnight||a) Call of the Goddess (H)|1105"] = {
 ["version"] = 20,
 ["cache"] = true,
@@ -8635,9 +8616,9 @@ RXPDB = {
 ["next"] = "a) Emergence (H)",
 ["enabledFor"] = "Horde",
 ["chapter"] = "",
+["group"] = "RestedXP Midnight",
 ["imported"] = true,
 ["key"] = "RestedXP Midnight||a) Call of the Goddess (H)",
-["group"] = "RestedXP Midnight",
 ["version"] = 20,
 ["length"] = "616891112",
 ["name"] = "a) Call of the Goddess (H)",
@@ -8656,14 +8637,14 @@ RXPDB = {
 ["subgroup"] = "|cFF1EFF00(1-90)|r Default",
 ["next"] = "bg) Horde Draenor Scenario 2",
 ["group"] = "RestedXP Midnight",
+["key"] = "RestedXP Midnight||cFF1EFF00(1-90)|r Default|bf) Horde Kun-Lai Summit 2",
 ["enabledFor"] = "Horde",
 ["imported"] = true,
-["key"] = "RestedXP Midnight||cFF1EFF00(1-90)|r Default|bf) Horde Kun-Lai Summit 2",
 ["version"] = 1,
 ["title"] = "Kun-Lai Summit",
 ["length"] = "616891112",
 ["name"] = "bf) Horde Kun-Lai Summit 2",
-["displayname"] = "|cFF1EFF009|r - Kun-Lai Summit (20+)",
+["displayname"] = "|cFF1EFF008|r - Kun-Lai Summit (20+)",
 },
 },
 ["RestedXP Midnight||a) Bitter Honor (A)|1222"] = {
@@ -8724,40 +8705,46 @@ RXPDB = {
 ["displayname"] = "a) Dis Was Our Land",
 },
 },
-["RestedXP Midnight||a) DMF|844"] = {
-["version"] = 4,
+["RestedXP Midnight||a) Fishing (H)|741"] = {
+["version"] = 1,
 ["cache"] = true,
-["key"] = "RestedXP Midnight||a) DMF",
-["groupOrContent"] = "íZÛrÛÈ}çWL¬JÅNÁîe£*š¦VÌ®mF¦Kvm\\ª!0\"Qg ™[zÈ?äó%é\\€ ×–è¢9—FŸî3=İ\r¾|éèçëºnGœd8ŠG·„§£È-8ËtAÒŒ„§èMÒh±ÌG¯Â/Ğë7gƒ£ˆf„S`Y28=}•¯Q¶$)AQFV)ºæl%Ğ02!ùœå0yÍ8Âœ®‘nhÿù×¿\rM»A§êàÏ÷ÁÅÇéÕåğâíÕlIÖh…×hNù’šF·%9–¤à­YÎQ¥ \000ñ÷¼# çÁS/1_±°x.ù’qŒ¾$\n¢ñ(½Aì…ëˆ.PDA×(E)	*ijÀâ¾\"W÷mSÑÛzwÀh¸ºÓpL»;°µÂíx]¡RF”ş=ïoÁsxdø–cõÛ;ÖÛÎqwÇ¸×?n™;ÆwècÙ;Æ‚Hª`OÀrÚ0â¼§§SNÒT’l…ÎĞ³	-(NºL$Ï8ĞöÙ@ÅA@’¬Ø‹NO‡Å×cq*xğ:º(Î¨…´÷ŒeË¯	G9%©bYºnÙ°÷X0y3ı§´XP!Øå†2áÉ#°õXşÃ£9züÎÈ\"J³\nÃÍ8T /†r~­è¦éZZ…¤Q?JÚïàÓÃÑ84C4ÂI–s¢W˜RÂ+$Å7á)!ñÃ™ €Ã°<·ÂÑ·dŸOÜ.:ãQ>qÛ>S²Z5&»4Â_5!¼ašµ7¶æ÷AğºÌGAğÚjUşÁVÄúBaZ4o	Ä	(—ÔÒ+0{Vî%ƒJV;Ë2[üÊyWñušm0MVó–£ŠÏÔ½\nF{rŸæVWsçQš7\"Õ¢ñ–E/•ÖoM3.àÀ 8iUJ·æöélwuv¥³İÒyB3-rqÉşÈ£‹8©•_‹¨%QMIú˜µİ{VìâtxÒ\nK—Œ†Ò˜—'›KâP9#å »4Ã¨´oÍI½Ñ? aG˜¤ƒëkà‹Ëò,Å1TÃQ\\Cõmå¥Ş×şybøôô~&s±kã;Æãp…“cÈ“²y>©Wµàd­ÎãäÄĞî³oH*’¥³‹ÉøíëŸ?]½ÆüfÅ şŸa°²´<Pí\r^™•f¶cD{ß@Í0_í×cˆ_Ü7Q‚,ÍıVür32Eğı]!ô\\°4’(}å-òÌ\rœ4KW]Oq|Õ¶K,`	fRƒ	r2~|KÓ%È>–8qÕXFqÜˆÛ[ğº\0004Œ~ºš2ë×\nœ3VO÷lÅòTÃu~w&Î¡˜T‚ê£Q± Mƒ/ÿ+ºhÚ7Ñ¥é-W1ÕsÓ†ÿß›*ƒ#ˆH$F3XK²WŒİ¼b9ÃÁQÀVIL2reKD¡¦j^©Nªøl‚Ü†§z†bhŠÖò}ÅôÄÿî”©Šƒ8õ­)[u±×´¶¦4Õ²ÛWMó`Tş	0Á½(YC4‡\n÷~&/(ëöür…¤´&úÜ(=]³e±&vù†ëCbÀ ÷“øîY5Š‡”f_‚Ì»ˆ†ì®cémOôBWtMd’z)“æ@®´o{”¾£òª\n”İnÔU_q4Õ?œe§œ]Ã­UùÇ„É³	\"…B¼ªod	ßw8¥õ6‚fK†nh)±Îš 'Òi€ì©{Ğ}R\000İ·K¢‡`ôF¯ƒq»fz\000FQ\000=Œ²~jµ[@ıà6@Ñ{:\000eÇ«fi_Ëë­'M­v4İ*×¾`Q‹íÄg¹ªë(ÿğGßâ¢Ò%¸çîy\r°¬»šfGºÜRƒ‹SØÉ¶5¥Õ\\15OoíÏá<p¥«ú‡Cú>Ã«Pä4$|É8mV†okş¦4˜æY&º\"]ñœË¢[O dg‹÷–ÈÊ‚Ü®%öÂöjØ œ—¹Ÿc2÷›Æ9<Nh6Ó>×ĞlÈOù,E—G5WšºwNìkÌ\rTÑ?Â¾Ãtm×—0^q‚C¸¬zl+[ä£hKK÷ Z~OÕ£àXu I²¦aûûajªmÉZÿ€0×1ä‹î Vóê,úõ×5:ËSë+ë¾ÅWác§ªUŠ/ör)¿iÛß{ïƒôê8A]dJXp#^D¢÷K|Cx“‰ºcÙ%[§¦`›¤Nƒ¤í¦r!õ\000 ÌïéÏ[Û×[Û¡ı®j_Ö{C¼)Z$®l,^‹ú¥ñRV¿—m\\ÚÍKmW³¸B'¶fÙ&Ä¨½€™˜ñ]°ÍñÓ]ÒKÕ±å,ÅA/¦¯¡âœcÜñÖÁêd€Zİ+S·¿gÌîišÑ{!èö–çvxªˆ–«ôâ‚ˆ‘´–ï@Î	Ÿ·/,İw\rˆò9õ±‡ÁíÆF/‡¶4ı*4®TÍ)T…3Y¡ã„¶ZB¦oB´+\r·¢U[mã°j”*­È¤7ÏğWr½š~£TÒuÅ3TÍ:ŠOd>Go	lXÌ»u„ÕIÍwn%’öşR«2ğDeàLáíÂ@6$7?‡IÑ\nSÑt@P¤vu}0c	:ÇYúY¬£„@¾×ş­Ì%Aœ\000W„Z/=ùcO{ékP4¾e9Aò·9a”¦8ø_‹Î\\¶U‘ ŠÌ[Âÿ‚–ó°dÅJ'¬C&*œú2wuÈ®ëã¹»òòe³ÓUa­huBNj—ıì$Æh¿*³\\»hÔ^Çøü\\×şˆ>N%:GC«ˆ¾›rgo¤„\\çqŒBˆ´Y™/ÁpÈî(®ÙÅõ­-ï×Úµ÷¢—8ÊÊôh.ÀÁ’¤¥jy9YÁáË©]£Lêˆ‚­$œP÷x¤â9m”¯<ÁçÍĞëˆÃ©+Ş]\n»ÁXa¹\000ßó\r)PgLåÛÊg³ş(ºôkÂúw(`Ëe„f$&	ã™®6d×å’m4ºS©9áe×L¯ò¬Øu1?Q	ª%¦ãêF%a,~_ğL«^Èö0áïh@¤>rjHÃã9n?›ş<ü4¾¸¿›ŒÆW¦¯‡³ñ3å²~áïç/Ğ4?ë-YTÊ8yO²aœ,ñsí…€÷Qü¶“OFâ¥^[Å’C]	Fqõ-¹“Û_ù]J)şıƒÊ7ÉiBâøD7lO·À±Á’1qM˜o›Öà¿",
+["enabledFor"] = "Horde",
+["key"] = "RestedXP Midnight||a) Fishing (H)",
+["groupOrContent"] = "íSÁn1½û+FÚH•Ej•¢ª\n„^\nU©= UÎz’ÅkoÇvÒ úœø½~	ã%…¦ œ¹>Í{oŞ³§×;,GeY¾Vª`Œš¬*–È¼ƒRsö©…1†ˆæêÎÈ8š×QN7zFjrsx~º' ŞÆ½_ü\r…ÖêuGØN«¢ªu‘Õñ1œz6¨Ä Ø7­Åˆ+Š5d5UX=E—š')Z„M5†ï†ışÅ‚Zˆ5È*=´ì+D³aõrÒáH\rAT„|“$’ptÆ•f`–¬É8cß€Å%Ú\000ƒşıİ×£¾z±©ÆWç×—oÇ¯)B¥L¶5à]…Ğ\"ƒÑëW \\4ƒµO÷wß–Æ;áMqæ7¼¿#ø>DjtD¸À(;N¨Á7Pör)bx:ş$íª³Î€Q›Üºäˆ2\"ÄìWYàõ>®tÿKÀÉÉŸ>ñœ©i4o™Œ7‰Ãë·º%WÙdğ÷[ùüëJ¶£ÿò«˜/ÒÏ:ëy\"qü¡%ĞÎäEŸIï‰¥ ×Íıx‰ä\"Y¸m3!9ë«šİØgÚ%míÂ_6ùş",
 ["metadata"] = {
-["guideId"] = 2017855709,
+["guideId"] = 3461876615,
 ["retail"] = "",
+["next"] = "a) Cooking (H)",
+["enabledFor"] = "Horde",
+["chapter"] = "",
 ["group"] = "RestedXP Midnight",
-["internal"] = "",
 ["imported"] = true,
-["version"] = 4,
-["key"] = "RestedXP Midnight||a) DMF",
+["key"] = "RestedXP Midnight||a) Fishing (H)",
+["version"] = 1,
 ["length"] = "616891112",
-["name"] = "a) DMF",
-["displayname"] = "a) DMF",
+["name"] = "a) Fishing (H)",
+["displayname"] = "Fishing",
 },
 },
-["RestedXP Speed Leveling||a) The Waking Shores Midnight2342342|809"] = {
+["RestedXP Midnight||a) The Sound of Her Voice (H)|1063"] = {
 ["version"] = 1,
 ["cache"] = true,
-["key"] = "RestedXP Speed Leveling||a) The Waking Shores Midnight2342342",
-["groupOrContent"] = "í}{sÛ8’øÿş¼›?fgÇÑğı¸ºÊïlÇNò›¼ÖöNvo+5K°ÄEêHÊSùğ×İ|\000(Éãän¯j*5H°ÑİèºOø–F–eÙ?ä¼dqrğÃ\rÏ‹8K\rëà‡ymÖÆ9/J>ûÛ;ãbÍùÌxÅox§óƒR¶âûÉ¸\\pã=[ÂoÆÅ\"Ëya¼gi<_”¶ãâ?ÄiÉó”%0Õú`2ÍRøLù_˜ÚLËñ}à0şıßY>ãõsó¬ÌÛ´íÃÀŸ8Î¡ãM|ûàéÓÏ—4á5›ò_n³<™­Øú—é‚•W›««„ÿî»óœßM®’õ¿Ùæçò’%Kfú<=ÿÛ»ßÏÎ_¾yöêï¿­®XQ°Y–g¬(sV|úœOºÕ:á%7üshLŠe¼gE¯ã™áy~àLJ–Ïyih&Ño‡ğ/[à§›¼Èò_¦9L¾`qş­‹MËö“$.\r G	X®ğîåÉ¯¿gÙòs®\000k+À®¯şæ…êo~ şZêb`Ö¡ãN¬`´Å\\”YÊu¸wÔÏ‡Áš„æhŸ?ÎÙ§˜ç:\000\\1= ¦3ñıÑ8ñ‚§³œ}$\000ÊMÆiõyãéÓKøÓ€¿O?N7'È_ó¢8˜°é”¯KzÎ†çª?_ßgq»êœ³Ä8]q`Òtz÷/-¿ÖŸª–õC³ÚÛ¸\\)ÿXü°+ñ¶«q°œOa`Ïà¹t–İJX²-İtêZ,ø3r\\¶.QîÀör\\ø¨Ša}†¿X_Îÿk£DÚŒ7	]ÆF#é\000'I¶™ÍÙ§Š¹’ù–iu$;Ë³•q±™.Œç9g¥ñ‚£è,:	ÓŸ‰V†‚òô&[òüQÖÑ4 ¯] ,,|Ó÷4¿ùıul‡ŞôzÏmg¿ÉJ®^»«¥šï†ºçù&…U/®8Ëgˆ{ö(¹ew…qÌ“œ]—¨[œõ¦Ğí’(vÇE/_/@-3D['c|¯ƒ÷/–ÄåÀUlr–Nynû²V*Øe\\&H¦³³³“g'¦y–%IvK´;Êóì>\rË!¸Ş¿ùı=‹Kã4,>q%|°;UZÈ!Q¬h˜giÁò<¾a‰µU¨ÙºÉ”	äµ€Ü—ğÉÏùÀú£·º·irg\000İa“ÃòŠ2[Æ*»68üœóÀòA1ˆ$,óx>‡×Ùl£A—×XšüYøÔËkã.Û³Ì\000„^q@)7ñŠğÚ¼a¬PüiV6óV²¶/^kÙë›({›=ı/õ¦îÄ®‚®2Ë’)Kã©ñœg3^X@õ_ã$©×zúæôõßÅn˜qšğÈl–ËŸ_ÎS„\\XØ)Ëa¾şc½M&Øq«ìÊx—Ç+@P^Y,=pö7^Á6¸+F­àDkŞ³Ì|‘Kİ‰¶FÁzÛÎ‡Õ´Ûu\0004»š3‰ÍO;lÍŞš#æî°'ö£`­¶‰5œvÌòŒÔÅu‚BtÒÒD~•áî^ğIÕÏ—®gY¾ûo\000Ï?ªù^½}{ù{Íg¯³¤ä©qû9ÿĞƒõXÃ•½oÇ+’%<\naİí y2Î\\ruÆóÛ¶€æmÍo”˜\"6û¼èÓ6	£G\000Y›Z\000mIÄDäÈ›æh6üPŸ–‹œ—‹tb\\­Ø¶œ(ÆŸÆJµƒVÁõçª)’dÙZZ„!c8À¹æ¡)Y.ĞsÕ1oBkuÈ¡\000ˆ’jè1Éi\nÜÀ¦ŒÜàä;ÕËX{Ÿ3@n–©X:“G_³?²|–­2°6’c*²clñ°ÇÛ³¾¬éå™-¡n€è¹ÒngæbXëÙ,g3øÊvÆé-py*›uMÜE„~Váße–ªol3M]½«›dTÉã{Øã\"€€áø¼’Zcb­•²fàÖ¯í•5ŒU{e\rcà–y£A-¸e½­@~Y±Î1«$É'<ù&Û”Æ»M¾Î\n.:äZW®Ìö×T5ûyÂÖ%\000Ÿ£á:]ÊôéEÄéÕ‰»vÒLí2’$®pÓç3²{Íñ'ïY\000ÆŒãœ/pÕ\\\\‰âı×£OH‹„ã©ÿM~Ãï²üÇÂxSÉÀXV#>ı+ğ˜“¾cºµ=y[dº ;ó]vËóÿ°>Â3Nà™¥<ƒÔáÅ‡Ø*Ípi›¾çÛ–üÜ3–Îq2Ò?¡ó|[±0Ö U\nƒS¶æH”)’:¡%M7e1å)WÁ·•_åw—×DğÆb%],±Û¦¸)L”ã¶š·ùÇ¸¼á‹x\n†éÓ§ïÉŠfÀPqÂQAâOõcãe	S[bÿz4-cxàeÉWÅ¿•ZƒU¬èıWôòoÕ‹‡>ÜuLøÎ/4k=¡ÑÕ€ù¡Ğ¯Hm¸È~P(¬5Bpc¡¤\rCõÌ3WÀÄ°ÕX]^à›ÕuÎ×YÊ¶Úæ›òNÚuKµ<Ù±˜h<ø7ÔùÃş„\000û÷\rhokbƒ4ÁwÙ+€+ğ#]İ	ÍÀÆÂËI¶Z½ö\nVÅRÖ·(jÖkxUÇ{-—F‘À¥ÏÀZ½Yß/x².ªí~z'âóaÔ=ÿ2½aE³:+EP'’ß/âÕšç\000}ß‹ØK3›ø–°bSxµ¤äh¨<Üÿ¹…WC,Ç?tÁ2÷F34ºUí2ÁC¼ù¦€Î¡'ªP ±µ’¤9Ğj×Áîº Á–İps8æXW¤@«H·({pQ‰nU~4	\"Şä«¾Aœ=`¯í¦m¼ı5—1‘ç„‡®3±}u5{­E™˜%M€ÍóÇLİ’Ğ«o¸»mó‘Eq%/Q¬˜íƒ‘(³÷‘Ä‘pÚ~¯8‰wâ~ºÌRÑ¯’Æ\"§øBäa%wÀpe¶6²kb»KÜÍUò‰Â%–5	š3iVß;t|`—-D¯H-¬KˆVµ6Ö³?6EO¹ñ§ã,İÆÛ«?8ß?I`¹(8=™Q²\rhgô>g€¶’ùçbç«¸XÈ¿Ÿ%ğ,lÒ²Ô¬6Ÿ>%u*€„<ƒ÷&æxjiìñZ$ëz–ĞìthFÒü‘õíá(ÿ8aÓeI–J®¤M°Q£İÒ=.˜æ÷Ä@ıèĞq<^ìì}/EJF¶šÃâÙh\"×$£×T\000Ì?³ÃI8h|Å¯µğu\000>¡6PÁ³'‘øs½gt\nEÜ¼D2¸:Ä<€Æ±ü|i;ëYò‰`CÂw	Kù07\nJº)8Àn†9a€†#tæ °­×³¿½*âYÌRã$.Aî×¬§@«.×XtôEºå>£CğÅid¼œgùŒ¥}ßÄ<_\rÿv”æ}Áç¯m5‘öa\\‡vDÃX&\0009ãÅºÉ§+@¯iüÊnb¦c35ÁÕq$¿°7‡é|ÊÜ²ÆÛÂQÖ7”)îèo%³0.†ó5¢¹{Ğ“\"*?êåxeÂª¼œÀ'äŒ§Õd„ı%0ñoídônã6ø”\"ËÅ€İŠŠ¸Ğ´•#J$3¥1Ûê©§oM|—6-İ˜W‡„ƒg›ÿ,ê\rL:Ñ½|™ş±Éù¥Ú.3Ü1˜JÆ(ì½’÷»_ùË˜L:²º£oy\"zk‚9Ù~ã|#èí‡AïE“²9B÷[Bï<z‹6Q8æa} \\ÿ\rDBÎ>õvŸEa·ûÎĞBÏ÷,Î¹vëd21Ş³R83Tæ2H	2`Ø’°ÀuVİSÇBÊÇ±ñ°Nó&”£% séT,ucW¸õœû%^ôLˆ(ìv”ëºMvE¾YÆå>*ıúŠ‘TÑÑÙ¸ôëÑ¹3c\"ñhø-.ÃÅ8šâî›\n:Wùí¡ÂÃ%Ám‚.ÿ\nd9ú´”’\\jŞe@‡‹š2èöêÉ‚HÁ.YW&}P]¤‡i26,u<çK¬×è‘\"Ğ	(í=:\nNÔ‹brïó&t–ÔÇ~ÂÃ‘xÖ5#ƒÜ¯wŸ$ìvç9	 Àöşx)~U5™(üMS8îx_å,¿Ãe%ücUæ¦Íjª’ÇÀ$ÕgswÃŸå(Y$¥7Ÿó²´›—`û|ÙIa˜£v«ôTuà¯iÂQÆÎ(•í\npS\\Üò$i%œ”â&\"ÚÁx”\rêflDÕÁ¿¨ÎË¯6qVí¼¯S\000ı]‚t&TTVåğ~˜ll´¼¦û\rVº“fÔ°ËËô„õÌ8ß\\İu!w5â\r“P4©«G´ë\"Ğän+_Ö@¥O§ì|§³„ª ÄbŠcÎnYµ×Áq1~M³éòŠÕ9KÂ1«ï†\rkëfÕAæ£-‚\nT>Â1ÇFôjò+8œîæ¥‚O3R×`ÏÉÅ’5s¨õš\000qHƒÍæ©‹±i¨Mmî‹Ç^ßu¼.ÊmËÓ&é¥øÏÏ²ôÇÒ(kõÓS¹saÜñr¢›GL&`bÅ ş5ëCÌÒVH´½ÿŞÕC`~{1ŞGí~è$i\000V#*¾Wm>Ó‹^­'m“&T=nZÅñğ&ˆZk¢¢LP<–î-GkĞ[ù?ªk6”~“n?6’ä–İ­3˜ÙH²)åD÷\rË¿¥·…§£^ŠŠŞdl|¹Êlk°ÛD+O8=BŸ´†_óƒÉ,. `ºà Õ2m½ø\000,}>v‰ÅŒ°V¬Ô#1ŒÀ0ša!7˜Ö¯øDŞ›÷ëÿ8`EŞ`ÍÏÖ;‡“æPÂö¢æİÖUh\000Æ34°ãÙ§ó¹t~dš&q.ÀHéëlŒ°Y¹®“;ÄÄHS;mæ@°Ï’=\nQ0gï¨Æ©¨-šeˆPî.ÄñÏêCÆcòë¸løş/Î÷(–ğhÒ\rÂ 2:óoŸZY_f³õ;ZZP±¨XoãF.áì~¯\n®\rÈv­8ˆTğ«øš‹<N3åëáDX¨²‹õkæˆ­yjYõ©r–p…Oé X“ÜôÆ23ZôNö¨k)#”·ˆjrû6¶–t”ş„+[uê¢{:Äƒ÷êX:gb\nÔ}âÍÄìâ5Âßâ_‡%êÔAØ¥jà[ºH:˜İ=f¾ûÑò#K€jã%;Œ:¬â{jRµ`f¶bÚáX ö+ÅÊ/ˆà£¼ó.ı±0N²M–}õ`\rÑ…÷ƒ¦zX_aAÓ0—¶ûr«†ğ¾Û*EÛßR}(M®²/º^€û`<öx\r6€uš4g“h¼‹Å·u’)1uÔuF÷?Ùb™³TN\n!P]Mº‘ÙVrÎ„NğÔ+k>¤[•E«±„ğhbûÓôÅĞœÅ)%ñ¢ëÛíQzO'ålÅˆâå\"[±Â8ÎÛÌ´¯õ>mÍ)u£¶;Ú#ôGÆóøºÒà¯ãùFÈXé}ë­®ã-„Z8øé'sœé›šß”ú}»LiD«ïcJi8^˜N\\5„«Uk?¬Ñ­íñe	gE/0.Ï“ÖJû;¹~uo1†u1oÓ]ähQ€\"Nû»çáæõc(_7äzÈ2®Z8cauz}PåE—‹<ÛÌ$0g¾è‡˜,K1á/š\000roâqyÂ“,_múç}m\"q.w§èQ¸Oºc(ÛTêVZ>är°-˜›OèÆ¬:SÇK>	yÍQF€'Y”Ö²'Ã€×o+¿è¦›xdÜ‹üb›¿|î+vO\në„UÇ6£°\rÖn¿Î0œºY}™8ÚÆF4fjåŠ1oâXZ6r)µ9`#I=,“¨¬ må—-2iÄ~z™ä8*íG¨İ¼6ì[x-WòPß`ato_€Ö§¢$›ÆeÌ‹ûpYP.¾–#|ÒR¶FXùÿÑÉ1gR= ™ÑÂóß¬N‡¤1ğ/)y[§~İI@)µ‘†ß}Ì~ó)ÑvX4î¥K	Å=¾­~Ù&¿ª.mh.z{ı;áX4åü>Ç^,ï°ÆëíUÁóVfù]–5Åæ³{°mèÑJÆÃÿo<4j6i9BeÒE	>2ÃÆ¤ë×)¾»+¾z—¿N²lùõ€ïXÁ<…] öÀ@ùdŠ±i×tM½¿Öı”ÿqú¦ÅYz¼)Ë,ı R÷™ı{ÀÉ7­ÃdX3ğ…*¦oo# ê½Ñ¨=7‡¤€¨b1/&JÒ^ÌW¢`–Ø¡Û\n!kKl‹T,*<Õ\\aP¥*c”ˆ†šÆ	ÄJˆ”šªDáW³t¾\000z¥p«F£bv™êŒÆ€ªİ<¯êB *J~Ãó;R•*2Õãº€rJ)gy4jîø’~Ô©A!b¨ç\r¿5.8	¼Èò´è=)`Î*E\\˜0L2ŒÅ½VÕ¢âMÕ‚õRöª~°÷‹X÷Âîl§›L;0*²ùxÓç€F 1E	r¹yj'HcIŸg@;p€.s–×°ÛIôsŞş„¯­1Wœ„f¼à#ıTç	Õ½²â²ß4ø¥î	½ œ¨ÌX±tÃØm”¤Qbö#®´jbM}¸tøÑl;[px£¦\nÑPhJ1$Q+‚Şá¹º³…GÅğÔ–­-È‚^®9¥\"–úsã½å‡•; pëxıƒXd^Ô—¦h¶TÔõM€Of¶ğVm¨Åé4ÙÌè6šc~—ÕİI±õÏÿ£ú©şt}^ZOz¿¦3M¿,½K}áx…ÿ/—Y÷íô~•#N°9(„,Ùà6îü£úåAC½i¿çø–é™o×ïüXT<`È®ÔàÀxÆoâ)ÿ`0’ª ‹±´ñL£œ³•ÒE–Š+«RÛ4W­D(ê‡n®¶àhŠ¶5–c‹‰ç' a&jjË´MÇärô·ùî”:çğ=¼«¥û®k5y‹Í'k*-[è,\n„³£d]âGPjQZ`¡#OëÔ½‡vM€¶K®ù]‘Èœx&qøxéB\"‡·ÖvÅáÂÙÈ~,®'‡×DCÒòÔ\"c<DÇXvg‘Ç°9Ú±âMáò¶ŒZ`LyÕyYáQ×õl×”yô,&­cp&;ë¶––ã…¶Ò_¡æd*!6ÎÀ®Á ŸÌÒt„ÖoYé:RõÂú^g ‹×M…ò3”ê›ªcU¿\\ï‹bÁA£¬Y¾| 8µqª*{°üÁ+€İâ~êmŸ^²¼L_ì¦«yúV½ªÉa†DcbÚ9®vùÁø“õ2ùRa	^åW‹Ö¨ªrš@?“T»İ¶L'ª‡)]¢R«Êó„/Ø?]WyŸ8¬.ÃU~q”_´÷•ôs ·™\000c	€íù‚ÍQ|ëúèÏâ÷ì¡½Ã¨éw-Hu\nôJ=ŠÈ´\"İ†°ì‰Sy­ãÅ8FÁ÷º%Ø¿Uj\\mÊv)Ğ[ñİ°;BÖÇûEfSp ¬_›.7ÅÿkQ°æ¤1FÃÅ–œ«—ÒıĞT¬‚§|¸À¾o™bRWŒHuõhäŒwÒº+İ¸¢iƒ‹A¢\nù‘R,Ÿ$¨äËvæ½ÏÀåZÔY8¼7!ºGŸ9ñccávG¾WbTJF–€V!ÎtÌ\n–`Sã‚m’şSbUz‚÷XU†D	È»y2ÓõpÙ$©5*]<J÷lÊ·××ğœi;£U#œRõñÑ\rKX:]ğê×çàdOÄKŞXÕHe³K?åÙ'JUPçÙtYP:	¦eç6.Ğİè–K0éä‚É;XÀX U­Y‚ïÑŒy¾†ñ5yÌÄ(pPäu åäi\n–(ÇB“øúZ“Û–·öÔ	Mß=ª½Ÿò•KÃO]É°¥ÌvÙ+³m}èÀüê©ˆÙÀ‰Â›şt\nî×÷\n¢×›Eh^nŒÅ¯·p\rŠßÏWŞƒ¶p\nø.r<9«²í[K³Ñ‘8«€ïÓùÜ8½aSnğ'–_«NØÒ03Mü`‡ApªµWYEuqŞz“T½Càêş\000¼iqËÙ’“¿±vÔH’Ş\\ı\raÛ]—Ûu|éŞ®eÃfuEU½!E'øØœ+´@B<#’Ú3ıÄ\r*l’6¶­ÕùúÒ°‹íñn˜8ú„õo hŠ«<´¢gÄÂ®<êh\000m]{†6‚:iök’}Š§ÓÊÀk'f\\º4»Şëß*²èıFdéŞnÔKÕcYİQı¥DÑah6UÆÀ'åÈt‡TŸı\000ì=,©>{È!ÍuÌ%ıÊÑ©Æ¼ˆï_Z(lè`.àlÄÖ‹;-÷UJ÷LïªVA\nDÈ@ËÍ\000Ó˜ˆŒ·ûXåœ¦æñK	ÿÿÙìSß^TD¯I»ˆµ”–¨êt-Á:ª¶íÎ¾	+­2 :w±›Îbò¡J#–ÂÆéG¾IËCã27«õ‚ÌßÔT%]\r«\rÔ€-H	ÇE%¨	£fp°‡¥šÓ`û4æîô~G‚‹…­vÍ‹¢ºá—öİ<gëÏÿãí¦<Ëòºú]E‰'º•íãúˆp¼ñÎ\000«·?\\]N‹åE;™åk©3Ã÷QÕ» yšm ÃºµÕ:êôá0·éBkİ²¸ñ^+@ş£İ¡òç±­‡pÙ%-ü‰îÇûL*ˆõ9íĞpwd;ğ–Ñ4ël¿¾òb\n²`ÚúT§«+ƒ[•ô¹¥¢gÇ’	ÚPN¹¤2°mWp½^nÀ¨0®ñŞƒ·4eŒÜ½£o8­¶…ËlÊº÷«\"\\H}9áŞáB«Ì4¯½í —ÿ&‹_L-Í¬A¸/Í´oA¢tgÈ N:fÃêd¹uhû\nêŞÖñƒîfˆ†\\m÷=½:¡ìŠQPliCñésh‡¦õéö>ÖâG”ÿbbß‚åk£`ËJİÆul¹íî	Q\\±ú@…cFØ3ÅÃ\rj9Ê@ßæŞ€¾-`Vıñj`5@hÀÖ<%!R[­î]uëX[Zo¨ÓVÜ±´V²í	–9Ş	ø!ViûoõoäïN7Ş¼;Ş/ó,!Ë¸·¦ò GlK\ræÄœ¯`§ÁV8fŸ°ÎI»¶Ãuo¨«3#ÍŠÍ]»â(Ÿ.â0ÇNg@âØÏ›¤ä³¡û™	2íQüĞD\"6,»õ®)ŒkÃŒÛÎmĞä5Û’\ngIH“”xp±ƒèÁvúÔ.şgÍGãëş´:ê;ƒ]‚·ÏÊ¥\nÉ¨wë^Ìç¶š;6Zt«ƒ2ÔÛá1 £½û£UvÉ,åtéû(Ø<ÊÀŠ”Íğ=YÚU/;ƒ±ÀÃ1ßÕE.™AsÚ8Ò¥»¤é8ã×¼jE·R3Ÿ§,5Ø|gÆ\nØ)TaÛº,ªØBµ[‰ëÛ¢® Ásx&ÕÕwµ}™q¤±ãtêíp?é«<&	|Bcdé6Ç`Û¿B«¾ôú³µtjMÕz…ÕM¢ÕŠP’Ô­›-	Wuoõ±+yÓå¥ÿ¬‘ª´Š{_u'3(·aGbÄÄPíMlµİb›Ğ‚‡ÖËƒ—,á:]|[ATß~ÌU·å÷‘'äE¼Éªè¨8–çïõ‹¯£\"îÀtßx©ögt¨9f#—0rÊÀ\rç$œşß°~O)ß4…ş9&”aËŒ+aòÈªÅ¸2Í€%D”\"Š÷_†}}àP¦Ÿ¹ê6¥Â÷BÍÁ6síjLöÙû	•âk–bYYI#JD³|=Ë<%É·nc‹+ÇyJ&:`«‰!k?¨¥¨OïlGOÑns™bÈÿş$ı&Ğ·üèøBŒÓ—èy Ì{–ÏîºçÒ%¨ã•iÑW	®´¸5'íİ†şÚlÉ_!PL\000{8	vøB€äe‘T\nÄ8y™å;W[NsAÑ'g¸u£«­\n]~U}¦•O¯y‚–ÉËyÊ3ÕÆÏÙu;íŞƒ[¤lˆ™9¦­Xİİ¢¸hhiÆ,J\000¶Tk¥¬EôV=\000Ç§ãù¡±ˆ¤ºoŞx|¤¡¯­ë=ô¤aÄf}!'\ngÃo24ÀJ¨%HdÏ¨'z\\¢A®9®N³ô	¯‡ëê„NL‘Ë£öB\000ƒUÇß[±9Vhí/­`X(V©-…|'Hu%'2ts©Ş>])[¯åÛöNòMQŠE.íÅ}%çÉ4§’ÔşÈ1(k,¿UïúÛ$É‚mt—r8fHbR =8y>:>çÊa'Z{íá±øœú÷ˆ?tôÛdˆÃÊàĞ}¨¾Ey¶rÆÌUı5ûÔZ)Ğß%›ÍØ².$ZÇê¶^ĞŠ¥ş“º]ŠeÑŞ˜e´»VœâéÏ³›|³ÕE`ºbKjğ\"–wÆs*³+ú´7…\n9µOh o÷Ó¥…~U=ÌezTª›•|õA³.sdí•?°çp¢ğÀÇvÃz.ºØBQ~·I;	£Ğü–¨n+PÜ^_ãûáZ<C¦6	6Ën©>Ø»*bPs>^ğS=(jüvbl&&5[Õ(«€Ú@¹˜‰¦ŒFñ5,ô”‡\\Ô0f×cÿ›·¼ç¿CÉí Sé·I³cpüÀ­òXÌ¯së…G{•¢_/øşäÎ`X¬›î›rj\n›ŞÄÓ~	í`xã«#Bd„ª U\n?¹¦·˜Vˆ`F¶’éé˜¸÷`ãŞ¿‡@ÒËÊğ¨Ö|F½Ã÷·…ÀÊ'œ=Ù—IM&ÙÕ•v@wE1\nı«*™§7ğ€gsù×ç¬ä°»´—Údâ{á$¯ÆOóM×ãZH¢Ü{°‡÷àå¯h/rë\n(ª~oJ?ØfoB…4âÕ}'¬dëM\"_³š8X«¶Ï#AàÁA¤Õä@Pób&øxgäÛ@tU$ècËQ­¥²`«5ÀB6Kİœ^µá¤'uüàÚÈÃÁx)½CAv·§mäİ&ìJAã´wà¿…9kËr'tfiO¼ñüíá}©Õ1¶³˜>u$s¾ g\\1‰dté\000¶v^a4>Şt'sƒI×ˆÁ@7èè.d*Ùp0§'ô‚=2Zu«$ÂÙ”­ÊÍƒíÇtÚZT9\000i—ÜöäPóQ<0î›\000”*ğ$ÃB7ÕFZ÷5iè£Í'…l”¾y£¯úJ6y…>YWòá¾íMüºšO¢K¾A‚irà5«i}£3IÈ;jï[‹¨Õ©öÓ‰é„ä¼jæôÑËÂ\000-˜İ6ªvı…17¬+ˆ4cô5M'|¼}Ù§ÔŸûy8ùŸÃŠ|ì½ÖÛiÿçÀú–´µíÂÕ¢ÙaÍÙß‰Ê©=^ñüi/—WĞ4öòÄÔ*6•$œ°#ˆhUøª‹·dÓ+$)õo;1“é°jôÑİ={CµÜÕ„]›<ÙÿTêéÍÆÇ\"jßÖ¨nC±ö!­¤ê\n£	@ú°*òüÎ¸•7©0lò QŞ.ÓÂîtOÕÂtÓ‹«U™Y%¶VëûZ¾fÌÃÙĞ”fx†Ó¥fÄ ­Ì¦EÅ8˜>!¹/å3`ÌªD×©0W wá™îyŠÒ*à×óC97DıŠœâéZÛd® ;^„cç®÷M³Áô§;q÷Ü~|²j!·5)[·L“vP0]Ã¡½FX¤cOëXº‹ävÀÚÅŞ÷º<¿§'óØë?çØv[\n¡R›|æ«øIÔ5C	b]È›;Çã®¼	eœ\r÷ä=Áik•ƒÁŠê¸¾Äuâ‰9ù¢ëÇ2|ËÕ¦òë¾dY¶Ü+¢¶ŒOèTsíFp]ƒÃ¡@Íø´ĞÖ¢™œPÚ¾q´<Ö²c\n-<Nz\"-›ÜëKp¤ ‰€¯mA’@,õ}ÁãÜ8ZÃFàıb˜\r›g{ »ÙÚEéˆå„Õ%£!xŸB ˆ„Æg{êxšëü|\n–Fãµš;fğá„)¬ w–`ó”šL\rÆª¦GÇë~“98˜jm!èò6VKpNÿ—ĞÔÜ>êi.Sô|áædéÓÚ¶I¡Môª_46:t%e­B~Ä)õæÀ£c\000 çxÊá¿.Ñ&ÉåsÍM™´Œnçà»íçÚë2O¥¦ãùßP­eÛIä’2Øê½jmIT¶çèA$¤©SñnA¨ZğÊBÕİ_¨º5ÆL“ÑÜG¡¡‚eh.Ãp§µ~µ­ôİ¢“O°S3CG³qyğ×8…ï¡¶»Åd\"tÛEGh…û\\`uèì’å¬àKã\"eåtÑ„¯”–)2ñFª¦qÆ“îzV¬™¡-8Ñpƒ Ş¥‹ë^áõQ§óyÉ«€]íşÀ+¦Í¯}Ç´°ËäK×d€…¥	ÉÒğÀ“i\\V½«+C§võên¿˜Ú¢¿öóA©äÁP³eÕ”ÃÃ¶%İpäóí\rÏç`q¦Æ{Îgbş]İ¹‹~1²M©Nlë'V&“VâÊÁœ£›Å|—j“ÆÁ~ïs.ÿvÀãºXêb:÷\\óà$ã,…šÁ]Pwæù†å3a;g@~úô¶÷]»6H™LB\rİï;ßŒà\n@³7½µmù»9ÆYÈ¶İ»³I½´Ş½WæìAMG–Í­ÜıfÔT\000\"9º7«ÑNáŒ¸Ù¦pÄJ‡a5\"Xbb3œ®	âïÙ¦¼ÛSã|ÃNôõÚ1º5ËuÅl‡“.­*°¾:íº³9×#-}`å=COíÚ†¨ù°µXxJ\000¼ê‘¸İŞI’L†‚øæ'¯×Âµµ÷Y³â­ÄaØ¤·²æÕ+\n6ƒMwÉ6İ]ZÂZE»°¿†nbĞ	`åš½WM8hÕ|\n§XÄü†cxùeÚr‹å9À-æà°ï8şÖaßÙş6Nşİ£·ë+å‹aÅ·‹ôG¶ÈYÚ\"xO:è8écÚ$<úÎ¶7Å:íÿû",
+["enabledFor"] = "Horde",
+["key"] = "RestedXP Midnight||a) The Sound of Her Voice (H)",
+["groupOrContent"] = "uÎ1kÃ0Åñı>Å–z0XBYB@x)”&„]„t8I¥|ø¸ÍX²¿÷ç×÷k»~~±Ö®\000ŒRõ<ƒù&-,	-˜“JËøN¥RüxÃW‰OS“ü™Ğwx˜÷ÒRDùÂ‘ÂğiìÀD.yö—¿é587»svuUì—0ıÔßğ”ä,­àÈ¥Š^îÑ0ù\\Ia³ÁQ4,´†S˜[¤ÿÔÏ‡H¸ı",
 ["metadata"] = {
-["guideId"] = 2797868295,
+["guideId"] = 2776305747,
 ["retail"] = "",
-["group"] = "RestedXP Speed Leveling",
-["internal"] = "",
+["next"] = "a) A Venomous History (H)",
+["enabledFor"] = "Horde",
+["chapter"] = "",
+["group"] = "RestedXP Midnight",
 ["imported"] = true,
-["key"] = "RestedXP Speed Leveling||a) The Waking Shores Midnight2342342",
+["key"] = "RestedXP Midnight||a) The Sound of Her Voice (H)",
 ["version"] = 1,
 ["length"] = "616891112",
-["name"] = "a) The Waking Shores Midnight2342342",
-["displayname"] = "a) The Waking Shores Midnight2342342",
+["name"] = "a) The Sound of Her Voice (H)",
+["displayname"] = "|cFF00CCFF12|r - The Sound of Her Voice",
 },
 },
 ["RestedXP Midnight||a) One Adventurous Hatchling (H)|1085"] = {
@@ -8772,9 +8759,9 @@ RXPDB = {
 ["next"] = "a) Far Striding (H)",
 ["enabledFor"] = "Horde",
 ["chapter"] = "",
+["group"] = "RestedXP Midnight",
 ["imported"] = true,
 ["key"] = "RestedXP Midnight||a) One Adventurous Hatchling (H)",
-["group"] = "RestedXP Midnight",
 ["version"] = 1,
 ["length"] = "616891112",
 ["name"] = "a) One Adventurous Hatchling (H)",
@@ -8857,41 +8844,60 @@ RXPDB = {
 ["displayname"] = "a) Kun-Lai Summit My Son",
 },
 },
-["RestedXP Midnight||a) Furniture Favor (A)|772"] = {
+["RestedXP Midnight||a) Guild Items (A)|748"] = {
 ["version"] = 1,
 ["cache"] = true,
 ["enabledFor"] = "Alliance",
-["key"] = "RestedXP Midnight||a) Furniture Favor (A)",
-["groupOrContent"] = "í“ÁnÓ@†ïû#ùBT1‚*EU¥¨`NEU©= U“İI<b½ëîÎ&åÀ;ğ†<	kÓŠ¤E8sÿÿÌüŸwF£“òdrZ–å+¥Š@‚lU±¡Ù;(U±>µ0£(dn®à’ãu-ªpØàT)8–*Üø\000Ï¦Gª0[‹İ y$ÈNú\"ƒ“cÍnıË¡kl…‚:;ƒ©µŒN“Ê3ÛüÅ7­%¡-K\r½W—dásc·^%a±;]UÕÅ»‹ñxş™[š#ô]@<´Ák\"³êÅb¨“DÈÙbî’Íw)§Ì´Å`\"¬’µc¯‚oÀÒ†l„ÉøÇ·ï§cõ|§g7W·×ÓÙÇÛe`¼³,	Ö6¹¢	Z\n€Zûää%t>AƒÔ¸Ém 4İeú¿Â\r\nÁœ$¯¼à†ŞB9zÓ°KB±—ÿÖ> ã¯ŞL^Ãùùßã˜‹Í–¹wºK(şÇz€u_ş(ü¶&¦ÇÚOê_rÆ‰²$ÁoÿvÚ&COéÓÓº·üz-ıÙúÕ°Â:q˜ëÓ\\¢Kh3Õø—Æ?ÿ",
+["key"] = "RestedXP Midnight||a) Guild Items (A)",
+["groupOrContent"] = "í“Áj1†ïzŠ…Ò´uğ–68%\\·=¤Ûa¬{‡ÌJidw‹}‡¾aŸ¤²I ¦¡‡{ı5ÿ?¿>¤^ï¤<œ–eùÖ˜\"\"‹)Ö\"{¥)VÁ§¦•ªëK¸àÊñªVS8lğÎK_”š/GG¦¨8¶‚İş<;>¢s9^Àœ„ZÆâñ.šÂÖØ*sv#FgÉä=m>ñM+¤´a­ÁÑ·¼OpAW»Õ|/)«líd2÷û³;nAk°KõĞo‰ªm0¯ç{4B¾BÌ)Ù|ŸòÍ²m0T–IdW||Bk’ƒş¯?OûæÕÖN¯/o¯FÓ¯·‹¤À\nx',kWY±-@k}rú:Ÿ Áj\\gn«î‰uò?Gå•`Fš+Ï¹¡PöŞ7ì’RÜ?ë) ãïŞŞÁpxîw8fêC³aW=8İ'ÿc}+;+©¢?ßşÍá«ÿjVw¿Ì/óÁ*qŞ–õÇö‡½/Ğ%”$ş%ø÷",
 ["metadata"] = {
-["guideId"] = 1064636058,
+["chapter"] = "",
 ["retail"] = "",
-["next"] = "a) Fishing (A)",
 ["enabledFor"] = "Alliance",
-["name"] = "a) Furniture Favor (A)",
-["key"] = "RestedXP Midnight||a) Furniture Favor (A)",
-["group"] = "RestedXP Midnight",
 ["version"] = 1,
+["key"] = "RestedXP Midnight||a) Guild Items (A)",
+["group"] = "RestedXP Midnight",
+["guideId"] = 13962447,
+["length"] = "616891112",
+["name"] = "a) Guild Items (A)",
+["displayname"] = "XP Banners & Teleport Cloaks",
+},
+},
+["RestedXP Midnight||a) Blinding Sun (A)|1235"] = {
+["version"] = 20,
+["cache"] = true,
+["enabledFor"] = "Alliance",
+["key"] = "RestedXP Midnight||a) Blinding Sun (A)",
+["groupOrContent"] = "e±ÊÂ0F÷û²Ø¡Ğt(\n]j!›Pü—\\Ú1\ri\"\n>ü_uR×ÃùNY6²Ùî¤”5€ˆ”4;WŠÏë\nÄçğHK\"{ğÀÖó8%^_u{ÇŞ²ñ/{ÜtËKpúşF©ªê{¥dóˆX~à«„né)´Óëúü1™Ş3é(BÛbçkoÖŠ\000‚½qÙÒoÕù«şÿ",
+["metadata"] = {
+["guideId"] = 262737205,
+["retail"] = "",
+["next"] = "a) Paladin Rescue (A)",
+["enabledFor"] = "Alliance",
+["name"] = "a) Blinding Sun (A)",
+["key"] = "RestedXP Midnight||a) Blinding Sun (A)",
+["group"] = "RestedXP Midnight",
+["version"] = 20,
 ["length"] = "616891112",
 ["chapter"] = "",
-["displayname"] = "Furniture Favor",
+["displayname"] = "|cFF00CCFF16|r - Blinding Sun",
 },
 },
-["RestedXP Midnight||a) Zul'Aman Route|856"] = {
+["RestedXP Midnight||a) Zul'Aman Route Delve|850"] = {
 ["version"] = 0,
 ["cache"] = true,
-["key"] = "RestedXP Midnight||a) Zul'Aman Route",
-["groupOrContent"] = "İY[s›J~×¯˜*?¸ö\" îyH	İbW|[‹'>'•ÁXš1ÚìhË?~{\000É€$›Í²»UçEb¦§¿¾MwO·kª¦í¨ªÚëtN8I0\r;'sÎÒ5º%qB‚/7è’/’ÎI„Wá¿¡û4<uW8B·,MHç$ ñ:Ä›ìõ³?™L†£¡¢ÏuwßvNh”á°t×bè‡i@ö÷ùvÑİá]§]à(èÃŒa(Fn·:t›ôâÅœDÉiÿHá£>Læsq13èîM\r›PƒáA•ãAÁ±<g	C=Í1$S“mU²UÙé|øpCı%$!ĞÛ/7ßoÎ‡Ÿ¾O—NÍÑÇp³^€|ƒ”‹¡ø³-t~û=†UnêŠî(ï•çäiÊçMÂ<ø†GÅkB4c,Nªkì|Ír#¾Fnìƒ0ŠEpÒ‡D®¬°|ñY ;Á€‹“ˆ<¡G:‡•şqueeëî”‡FÆæ7Ä\"ä3ì)’;2ö”<’0LÕ\000!9ÿ¹Bƒš\r\r\n…ĞøïBçî#x…9š®8uEI¶\"+½L„IOA>˜S†4Uµ$MÕ³}ø0¯3å¸	.\\fDÂG‚hSà<{³İà„Ó\000×R_<‰·»}4!ğº`†İŒO4=–òFõA·{¾Z3`Ğ_†õ—hÃ€ğã©Ûp‚—™è!È1ÅÙb[Åéš%éŠlh’îÈš.öìí<`Ÿ¼óS3şÎç,˜òwY¨Â~\"ÏÂõûØè0	†YóH—'4ÆD”!{]ÙjnIó}üHÀ‚“”G0“1Vá‡,sÛO{\nI\000®é¦8å>æ¾Õ-UQ\rI;NUÌ8½'ª¬Ú­»`¸;IC˜¥qòÌKX`ÿÌÂÁ±£äm0Šù*U¯Ñœ–Á|¦8DìáåìºšPWQ©: rCAV›· i¯ARL»®'3>£5HÃïX\na×#ş\"¢âÄª >\000Ñyûœ®\nTŞ°:åUEé»Xhh RMÖTÉ4²C«Py8ÿ\\.êá‚Æ$¬êHw\000Ñ%Ş¶:õU©–RW‘¤™\"°·ÆÃQÆë5­±\0002]Ò¨	}åßŒœgóDXşî°éîOıåJœWÏÓûJ‚“‰ÎME2mYÓ3ùÒ|Ÿƒ^¿ƒX’ÌÒhç»©Ï9Ùììáp)RŠ\\¶“ÛóñÕèâëwáÌ?0çø™g™‚OÖ	²MÓĞ„çC‘÷İ€£TñÊ‰ÈG´£pˆ_ˆÀ¦%«ZküŞŸ§4A#ÌO9^\nk(˜v4ÅP«LO($Ëà	xµã¶¶ş Œg]Ëngzº„ô&“°ÏVë$$gWR;r¼¤ë9ø]Ó\000©š¥Úö·ùÊƒ\\j‚KG„÷Ok{¯Æ—…TÛ2¯›ı¥±óã­æ<Šƒÿ˜êÊÂ8‹cO	ù	šÎ÷ù3ªmô/qˆÅ>%@†¬Â…zFk€¶û¼ø£Û¦õbŠP\\yâ9Ãñ‹óäkCr#º‡Gu$Ó‘-»5<Ù&%0=İP^À|E¬ı} šA}³ãFÍ•3„¤g_7š‘aéµ†¥Ø¦ÚÃ4‡¶K–™ã|‡'[ÜÑGúÂâ}º\000¥9­zÙI.G?½drƒ4ŒoĞ\000¬Íw¶K›œVWMà˜ë_1ñ7èÿîDÊ¡gt>½¼şıÊ«IÁ–UUœ¦\nRõkvÌ{=Í2]”°9;÷öêûãŸph»¾Hµ\000GÂ¢oÕ™E°„® `0¥Û›]†re9JşÍ1ïÜszçÈ;¿ß\"êô(¿¤s•$’jS“,ÎbÁT%¢ÌF\"—ÿÊR¨X\"([ĞÓ‚ˆt¼$g”DA¼£QF²µPx†ãÅ)ÙôÅÔõÃˆˆ1ÙºÕq£†Ë›TG5ªã‚êÂSü@eã±âá¾s²€Âbˆ¥#ÿ\\#Û’ü˜\n\nR•ì¤	³uá\rÅc¿¾³Ûİç¥å7Å0©‰ác+TÏjT¿´Bõ¾Fµ‘î RHL9š†éjFxÜß>€L‹§m{çŸ,\"B—¹3¨GÚNÙc ÆQlÉ²eGm¹.(ê7¥KÂ¡Öñ_kˆ²§´¦AÍĞÛ•?M€«ptíwd¥Å~I¼TòĞr20Ô~ôŠ½wö2j|p–JŠğTÙ°%2P«µ“óXµc—ªÂ±û„7G‹œ&Æ €¹—ñ(²eJ¶Şš%ÜpØÎ)Kãpƒn±¿$:ƒØûb³”†¢Û]ñGıo{^905]î©œv{îòİqù‹ZkCÉšjsÒ E¨XÍl~´m3_Ñ¥QÒ‘l&›€±Û­M|9Ö7q4]­H¨gÈ:HH—ñ®ĞÓÅQéˆ{¢Ç,øCC¾Y'±Pº°SL4j„¥õıí8ºİêx°_Ûºè])íU‡~¤Ë%ËüsW‚¸JåaÖÿÑ~ˆÃğ}Ey™â_¶»Øùx±uÉ½m\r_ëÖp¿ç@¢ıwÄ4»Ü#	‹N6Táfktığ‚‹ 3®Á€ÕzÓšı‹nÔ ¢”BºmÙR¯'·×Ù-ÚêsE]âxYë¾+¿Ø}oP5+\000!p¤è‡µ†ğ2g2@8I­oşB¾š×çÕŞlŞ®gós„Œ‡xµÆtMÅ¥(O£q4ºü%øÃYòù±¸S†™ë‡bìvk²ÚÏ$šù$»wõX8;èïf'Œsn÷Àd£‹Àj…<**äq“¥¹â®‘\000ªÜM\nî&‡Â¸mIVOÖÛkÓ¾ô]vF™÷]Ê=¾ıÆËK“F)edS&2J4¥3qÇìÏTkRÆó.Õ'\r5HsqÉóÛc‰p¬U¦†gOUtİròËø|ÁÅõµ—}ç÷qË¾Õú¸z–‰~ª~HC$¾ÏgîYgóÀi¢µï˜ï—‘@-VÁ•«jÓ”{™6Å‘aT[º%«’¥É¦µÿÊ·k–!®\r÷ŞrÏ”,]Víüİ_E¢ÃŠDï÷*–c¡W0s¤Íg´wõ•ï²/™^ãÊêxKÒ¼êíõYË;½tõ³äÖã¶$ßFõ?m‚`º¢[§•ĞˆP*.ö4¿! !zíTüëçĞÿú",
+["key"] = "RestedXP Midnight||a) Zul'Aman Route Delve",
+["groupOrContent"] = "­”Q‹›@€ß÷Wä!NÏäLÚÜCĞhl\n×».\na£]²QY×|W/wTK‹PßæowØÙÕ´ñ`üe2†„ôJÊ8é…\"ÉSXa&1Ø,á;bF’ôbzB Ÿ`›ó¾}¢1¬’\\\"¸ÈÏHzËRN/ÕO…ïyã:†1*h¤Çb‰\"¦œ({Z¢Ïó\000ÿ\\í§ZÇe<Ór4,•P¬°$[«£İrVwÎÚ(mIßš³Ê¨lí=j%ø÷mTHH #„ÒÊşß:¯7ºmc\\R•ÛPß4‹úx±ÊÔÓÁÅ’ñ2ÓêìtbuÖy'V¯aıÚ‰uÑ°n:±nÖV§õ¡@5~ğü´G‘µššë„Á#Q¨!BËÅ*S%«kWO´êqıÊxƒ#.©Ì¬w~C[«óõÚèa\"šwŸoÌ‘nš7ã‘nd:-ÖÕ3r >Ş¾&‚'šŞú•û|¿ç¸›¡À‹¾çéıĞ(äšò#(Sá¯6Ë·ú6t^vkzfÇcRè21‹arg˜N×\nAqõ´‰~åü¾ÙÅïeÆäïe/„* \"D	×¥»9‘—æ‰lÉ¯",
 ["metadata"] = {
-["guideId"] = 4087418132,
+["guideId"] = 1214582564,
 ["retail"] = "",
 ["group"] = "RestedXP Midnight",
 ["internal"] = "",
 ["imported"] = true,
 ["version"] = 0,
-["name"] = "a) Zul'Aman Route",
+["name"] = "a) Zul'Aman Route Delve",
 ["length"] = "616891112",
-["key"] = "RestedXP Midnight||a) Zul'Aman Route",
+["key"] = "RestedXP Midnight||a) Zul'Aman Route Delve",
 ["displayname"] = "|cFFFCDC005|r - Zul'Aman",
 },
 },
@@ -8918,24 +8924,6 @@ RXPDB = {
 ["displayname"] = "|cFF00CCFF2|r - Azuremyst Isle",
 },
 },
-["RestedXP Midnight||a) Zul'Aman Route Delve|850"] = {
-["version"] = 0,
-["cache"] = true,
-["key"] = "RestedXP Midnight||a) Zul'Aman Route Delve",
-["groupOrContent"] = "­”Q‹›@€ß÷Wä!NÏäLÚÜCĞhl\n×».\na£]²QY×|W/wTK‹PßæowØÙÕ´ñ`üe2†„ôJÊ8é…\"ÉSXa&1Ø,á;bF’ôbzB Ÿ`›ó¾}¢1¬’\\\"¸ÈÏHzËRN/ÕO…ïyã:†1*h¤Çb‰\"¦œ({Z¢Ïó\000ÿ\\í§ZÇe<Ór4,•P¬°$[«£İrVwÎÚ(mIßš³Ê¨lí=j%ø÷mTHH #„ÒÊşß:¯7ºmc\\R•ÛPß4‹úx±ÊÔÓÁÅ’ñ2ÓêìtbuÖy'V¯aıÚ‰uÑ°n:±nÖV§õ¡@5~ğü´G‘µššë„Á#Q¨!BËÅ*S%«kWO´êqıÊxƒ#.©Ì¬w~C[«óõÚèa\"šwŸoÌ‘nš7ã‘nd:-ÖÕ3r >Ş¾&‚'šŞú•û|¿ç¸›¡À‹¾çéıĞ(äšò#(Sá¯6Ë·ú6t^vkzfÇcRè21‹arg˜N×\nAqõ´‰~åü¾ÙÅïeÆäïe/„* \"D	×¥»9‘—æ‰lÉ¯",
-["metadata"] = {
-["guideId"] = 1214582564,
-["retail"] = "",
-["group"] = "RestedXP Midnight",
-["internal"] = "",
-["imported"] = true,
-["version"] = 0,
-["name"] = "a) Zul'Aman Route Delve",
-["length"] = "616891112",
-["key"] = "RestedXP Midnight||a) Zul'Aman Route Delve",
-["displayname"] = "|cFFFCDC005|r - Zul'Aman",
-},
-},
 ["RestedXP Midnight|Sojourner|ab) Zul'aman Storylines (A)|1233"] = {
 ["version"] = 20,
 ["cache"] = true,
@@ -8956,25 +8944,22 @@ RXPDB = {
 ["displayname"] = "|cFF00FF002|r - Zul'Aman",
 },
 },
-["RestedXP Midnight||cFF1EFF00(80-90)|r Campaign & Sidequests|ce) Voidstorm Route 3 (H)|991"] = {
-["version"] = 1,
+["RestedXP Midnight||a) Bloodstains|908"] = {
+["version"] = 20,
 ["cache"] = true,
-["enabledFor"] = "Horde",
-["key"] = "RestedXP Midnight||cFF1EFF00(80-90)|r Campaign & Sidequests|ce) Voidstorm Route 3 (H)",
-["groupOrContent"] = "e‘OkÛ@Åïû)EqZ6„@p#ÒCh‰ié¡—µv,\r]Í(ûÇÀ¾»RÿrÓî{ó›§·ëõM}³ÙÖuıA©ÂaĞdUqBçIjUtNâÏèš_á‰S×UøxX´KÛ4õCÓTÕjS­·Uyq°ÓÃ¨©cx{2øÓ¼Wë¡Å¾Ä\rğ,1 |„Õc©\nC~´zšmÛì>íªj“€ëÿ#	ƒ¯ám¤Ÿº„mßØJû‹¸ƒı”ƒŸÑ··ğ(Î JW£*ˆ[\r‚~e1¼ÿ|„Iâ•Cğ¬–á¡GÎ´šÁHştp$ç´NCZF¼ÜÎçctrDŸûôeâœf6ôú„|†1ƒĞÖ¡6Ó5|IGw&Ÿ·k²\n÷&ÙCL‰$%ïbê$mk4[æ^au˜ •a´8g=yÈVBˆsEó²érÛ~éêúO?VĞşköïkîGDã\"?°¹WEŸöœ‰œÕİ]­~ÿ",
+["key"] = "RestedXP Midnight||a) Bloodstains",
+["groupOrContent"] = "ÅYmsÓºş_¡¡80Fõ»ó¡3¥šC[:m.ç\000—é(±ëÖ±re¹i˜şø»²Ä/¢0ÜW«gŸ]í>R_¼ğ-?Z–e{‚JÂ’ÁŞ-ã)²ÍÁŞ\\ğ|‰.i&iôÏ:cQÊæ±ì¥dAy†^&œG,L³ÁK%)I`¾ì!øJÒ;‰Æ$¹A’ÿ;½Ÿ^şsqıúrt|şêôÃõÇ<yú0#÷b€ç\\rd»N`¸|Ã÷°gîÇ…ß™ÒıI´ ËıiLä$ŸLzí»sA×x’,ÿ´Í{Yí…¾¾`2Ò¥DCÇuMtppXşy‘sÀNX&¹X°$bN%Ú.~tdc.ò4âHÆ½ìË—„F÷‘4j;N\"*Ğ+°ß‘à9¾áúØt\r7Àİ	?†\nø’¹HYºåk\"ø»KØXÇŞ{£LºHø*‹‰ YÃÖ©ÙÆ‚¥Ô@W”\000:½¢	ƒ’¤Ñ6º(¶wÀ«rÉûüi±4“àxØ±U%ÚÃŞ’ĞÚ®úü÷áåùõLğ\"3\"\nÒ§|±L¨¤%C†3ÀÙ\r[Îy–±%‹åÖĞk^¹­b‡Ã¹l„ƒÀpLÃl|p±ë‹mÍ7=µÎôußì¡âVë|«UoY’TÑŸŸ}¸¾$0g@ùóSÎ¥JèÍ8P2¶Àı?ÅOåŠÓwïÆÕt˜ÅĞ“ªéĞ{ñ¹M•mX¼à¤ÌY:GC\r0.š?^òyN›? M|gİŒcrÓ,ÛÃ¡iø>†=Íf¯VeØºÊZ•¡Ö>>42WşSµğ2^G­\000MÕŸ-ûnjvl…iéÂwa¶<TÁnœ¬˜ŒQ\nAÃ± šT´\\ÅlQtöŸfÅ±¡U¶‹MË°ÊŠÿmÔ¸­do£ÒpĞ²hX×°l[pf¡%+ôEŸSåá¦¢\000PáŒ ˆ€¦([/&<yVí'ès=¾w3½İÊóæüÛ¡şØ4nhO–áºp{£ãÇP54B1ú7A?ûkÆNİøëÃ¿¦¼ZxÍsFi&Ùœ€iª\ngwBïŠˆFiÊ§4•àše\"_Ê2Îœ%rıc£–ÄZ¨$›Sdc´ÍÆ4$ö§\n(&Lì‰\"S¹MÆQÂ¦7T·Ú³äùbtôöú(íİ©H8Í½j@cßêm÷·$‰|Ò\000ØÙP`XCl÷GÇkJí‰Ãà|£ßÌÓ9Y4¥[p^¢”‹º;zjèªğ+¯š½µûYÅ˜€Öl¯(ÀB‚Èn\\ó¸øqÅ Wí–ªwkUê>C¨ÓWPŸ¡%g ùÕy¨°•B«âñ—gÛÖÁ}\000b UAz¡êN§”ÜÒb¿“\\¶)~ŒŸßdmû¡Ê4È/·¿3ş&W–Ú^ÕGiÑÁb™JõÛĞó]Ù½Ì£ÓHPÕ?ºÅç”Îëfİ-,WúÃañ’„À)[§Í«×„ÆpÜ‡Q—{ƒ{ë¦:,†€‰=_GË‰º‹@Y¡¿ ´²&†iòáØ©#¨†'ˆ‹âjD\000Şl¦#Ô-57èR\nğà6`³¿®|C›ËX[CªÊ¤Ç¶[!´·78œ¨îØ´}Z\n€Õß‘:Õ’eDË‡WòQ™tà@‡Ezúë0gdEæ\\‹Æ¯Ğ]0.ˆ	#´°9Ô•ò…`óOuµXiƒÊ¢ë8ÀnhCì{=F™¦ùWŠ0Ø„Y˜ü^éEh¿X AÒAÖ»iêx¯&Í»J»fè×'µk2=ØÉôQŠÆ1e½[¥åÛòw‹òí¿¡qFiL&LB“=åŞğy»’Š?eÍÊ²›21MhÁj•2â~l9í{êÉªÖÒ?ßIA§’ñôe.%O?wÏK ¯Z4­Ëpñ8i††åi®ëm]óÿQ×óq•5:ÆÙÃï‡µÍÿ•å$IÖhV¼æ©t£Jõ¸Ès™ÁÄg|EÃk.¦èf¦wLŞ‚jPœ\\\000ÁYáôŒ@÷RÛ&[Y™áÁó‘|š¡ŠÏ'Š °IºÈTrXZJ…ú¾\\iø¾ç»Å›Ì~á¶òØÎp`÷õ×Â~ÑŒ ÉíÇZƒ^ñÍé>\000ÃÎ+şá>æ%÷We¢~Ïv•ßtU-E_D5ïèÁF‘Ô¬~r h¾û«_dš:¨5àïm¢ÿû",
 ["metadata"] = {
-["guideId"] = 3457621065,
+["guideId"] = 3505851528,
 ["retail"] = "",
-["subgroup"] = "|cFF1EFF00(80-90)|r Campaign & Sidequests",
-["next"] = "RestedXP Midnight\\a) 90 Unlocking Systems (H)",
 ["group"] = "RestedXP Midnight",
+["internal"] = "",
 ["imported"] = true,
-["key"] = "RestedXP Midnight||cFF1EFF00(80-90)|r Campaign & Sidequests|ce) Voidstorm Route 3 (H)",
-["name"] = "ce) Voidstorm Route 3 (H)",
-["version"] = 1,
+["version"] = 20,
+["key"] = "RestedXP Midnight||a) Bloodstains",
 ["length"] = "616891112",
-["enabledFor"] = "Horde",
-["displayname"] = "|cFFFCDC008|r - Voidstorm",
+["name"] = "a) Bloodstains",
+["displayname"] = "a) Bloodstains",
 },
 },
 ["RestedXP Midnight|Miscellaneous|a) Lore Hunter (A)|1131"] = {
@@ -9016,23 +9001,25 @@ RXPDB = {
 ["displayname"] = "|cFF00CCFF6|r - Haranir Never Say Die",
 },
 },
-["RestedXP Midnight|Pre-Turnins|a) Pre-Turnins Booklet|867"] = {
+["RestedXP Midnight||cFFFCDC00(80-87)|r Campaigns|ab) Arator's Journey (H)|1110"] = {
 ["version"] = 20,
 ["cache"] = true,
-["key"] = "RestedXP Midnight|Pre-Turnins|a) Pre-Turnins Booklet",
-["groupOrContent"] = "uS_oÓ@Ï§°ZÁØØÄ{Ü€	¡‰Á&Á«›8É©ßéÎ×®ß;IÑâ%J|çß?;gg—«Ë÷V«ÕEU-	:_-·”²o«e—B‰ğƒ²Póëî\\Ã®ë¥Zæ²Îî=–Äsµdğøy®CØxÒÇB‰ÑW\n«×Ò°sÜÀ÷¢øjdXˆöQ¤'È‚I® pC	·Å5teQ&†­ß¹\\“÷ÈJ†™|Q|zŠTô„Û=Ô)ìÇ¡ôÁ~K\nFè±pİŸÏ\000ãÅÔ”9šu®©\r‰`À=$jJMÚÔ½ùx“Ï«“/¬aYŒ§zÍú[L@J×k¡7·Æ±Ş€ËZ!V$ÆpíÉœĞVKØl‘E«jæ|ìÖ‡5úÿ¦Õ¦0XsÚïzJôj”I`\"2´ş„Côt\"z¿W5!ëÈÒ_¹³vNzûĞÁ_—¶­NUzgùë‘÷óë>\000ßz>Â>éõ{6w£{÷B%¡A¨*'GÄ©2m1F‹cPRË®±vjÜN›0=ßÈämš‹Ï.e›„­FñæhS‡\rQ4'ƒ>‚š^&õ§Èºè#³è&îövä¨'º¼‡I<ô¡ø	Ø·9d)6RoQ—s†ÅY€âq?ğ;T¤ñî†n@Ç‘7.æÙ/é›f8[¶ZİcT Šô9¯ÿAÔOİVˆ:˜¤¯…t‡HNÕ¼\"¨!ıélóLL.1†¤võû",
+["enabledFor"] = "Horde",
+["key"] = "RestedXP Midnight||cFFFCDC00(80-87)|r Campaigns|ab) Arator's Journey (H)",
+["groupOrContent"] = "e1kÃ0…÷ûjS’×¥^Š‹1¥…:t½ÄW[HB’ÿøHîØA‹¾wïUU£šöY)UÏ‘ôÄ/û ­ÁZ‚˜½]9D¾ø©'£ç%‚ëémçaú·^Ê¢•UûTn{º:Ò³	 ]éTâ«§hıCÀw»zÃ7,ÆÄ¤ƒ»ĞmOe“”ùÕÉQı»\000q^ÈÅÔ©Ä¯…ñ@qAûƒ¹S¾$pä9-	ù?î™°#è:­ŸÒ\nî",
 ["metadata"] = {
-["guideId"] = 63968132,
+["guideId"] = 2040076289,
 ["retail"] = "",
-["subgroup"] = "Pre-Turnins",
+["subgroup"] = "|cFFFCDC00(80-87)|r Campaigns",
 ["group"] = "RestedXP Midnight",
-["internal"] = "",
+["key"] = "RestedXP Midnight||cFFFCDC00(80-87)|r Campaigns|ab) Arator's Journey (H)",
+["enabledFor"] = "Horde",
 ["imported"] = true,
-["name"] = "a) Pre-Turnins Booklet",
-["key"] = "RestedXP Midnight|Pre-Turnins|a) Pre-Turnins Booklet",
-["length"] = "616891112",
 ["version"] = 20,
-["displayname"] = "a) Pre-Turnins Booklet",
+["chapters"] = "a) The Path of Light (H);a) Regrets of the Past (H)",
+["length"] = "616891112",
+["name"] = "ab) Arator's Journey (H)",
+["displayname"] = "|cFF00FF002|r - Arator's Journey",
 },
 },
 ["RestedXP Midnight||a) Call of the Goddess (A)|1263"] = {
@@ -9055,61 +9042,65 @@ RXPDB = {
 ["displayname"] = "|cFF00CCFF2|r - Call of the Goddess",
 },
 },
-["RestedXP Midnight||a) Where War Slumbers|946"] = {
-["version"] = 20,
-["cache"] = true,
-["key"] = "RestedXP Midnight||a) Where War Slumbers",
-["groupOrContent"] = "İWÛrÚH}×Wt™‡Ø\"#îdS®Â\\*q\000¯“]§¨AĞiFLØâaco¿d{$À˜Û’TâÚZ?YÒĞ3çôéÓ=/^­b¹bYVÖ0R’*Â<#uOeÈ‡lÆH¥ˆèÒPQçı5¼agcW)N|\nän]*)Ü	=/ò‡øS#Å¸¢’ÏÀ_FJ\nÃá£ÉÂw†ªŞã>dèQ(ñÏx>·»ï¯·ÕngğADà’{\nJ€#@¹N®‰rAŒÀ¡Ğ\"¡ûŒÎN æ’\000w“¡šKÃ´=fO8ı¢¶O{‡çÜ§Õ3¸¸¨]µk¯¡Õè6 ù¶¿Ü´ë\rxõ\nªÇ·é7EnŠÜÒ¡nê­¨«)\"¥˜*½YŸxdá'ì4»íF§~õağ[ä=û„ËˆF=ÈS6Ÿ+¥ó9³œKËf¶l\\\\ÌûqFÄ¦çS!=Ç'Á¹í5Œ†Hü ˜K:3‡^ğ2›™«Å^°+Ó0‰mÓ@éœ•-„WMë”kôâ	I&“—PÅ“#8ıòWÊÇ4!Q9¦\nVøàÎíf³Y«×2™šş…LÔ!’¹¼ã5@ejU$G½FŠ—bêéïÉ«F§ñæÃà´ó¶½VµÛ¨ŸmU(­Õ^eG2òÜ–\"]ÂäyÌ!±ÕŠ§Ã'€5Û»A ¶ğ*š™¶¶˜¸	i¿_(YÅJş%nü{ã‹’¤jëJºŒ”üã·áí)Â˜2å²…Í¤•¨ßF»6^Ã´u†¹ü¸\r(û$Š1¤Bá‰ eŸ\000R¹¨!¡>\r¤Ünúo{Š$GJ–ÔÇGÀç#MhÍÁ²ì–LkC¿¤Dîõ®ÇÄ]ÃÛö½OÑñ^•ÃÚ­¤Ke³œın„.Ï°©	]·K¨ÉÃ',£²€9`åòV®²|íğ{Dƒ‹–ÆX*}7Œ{E“=$šÍ¼/äR±*…ò¹Üğ‘cvOù^©,‰Ö\r},Ş– Òñ*SÏÛ#˜áØCpª_÷Òğ9¢º¹œv„ô‰w\\L5lIÈ¦0%Øgói†‘Òs\n¨&2¶\n'Â°kE\\1/Ş+±ğÓg=™ÆOkÒVÿùWˆû*Ü}¤ËHG!‰„ç‰)¾YÆ”OC Å=s¨³‰ÇDâ¿Ø/½™ÎÂ\"ôLµRR@É$v¼5òR.2îˆéšXã|¤ó»\"îŒòtZÓ_C”€Šyh.©ª'T¥3š£\\œ«Çn¼lñšˆ3¸ˆƒ²ó×³)'’	ÈY–á»•66F\r©àa0æJ/˜yj¶£¨ó™½Â•S(i¸'?È_\000¹¢¨­G3½|UÛàT¤•9DI²0ğÈ%£/?ƒ-p*fœ(ÜKBÄÉò–ğ o>Í^	¼fë^¼ä/\rW‚hBñjƒ\\’$¥û/¾ÛàÚÜgn7ËG¡HêaÓ$ğîÔæÄ€§ß7ÖˆàÅ™KÃêdŠ„“0V¨D§ãyÓ`Ç^à£öFRp¥±áóÁÑ˜(EìI\\Vv®Ö)Ü8zlÁáòäV¡RÈèN³ÁO!“©¦/†[ÈcÒ¾\n~cFµùRx¤‡È8&CË ¶\neİ*[èO¨fœÒ,|ÙØj0±Sb‹„Mšrh¹ÒÁO¸4Ô\rpƒ‘l~{Ëø¿ÏİåA,±&û*bW·u^ÈX™ÊòwÿæükÒÿºâøv%çëé[õûØ~şœÆöKÕê$øÓ‹	ÿDìØ”ÛŠú!4%ñé	/‰£@;ƒcÓÙ\\1WÔ¡à»/Ô×ØrfmCÌxeüxz¶i7;‰^Ït½İ{óö¦Ó¿ãGĞôk™Hco?¤å—1ÓÇÖÇ†âËQœüïĞoÔhÙ*iÆàÑNOôõ¯$ä	A¯úå`¾w ?8™ÿó",
-["metadata"] = {
-["guideId"] = 746131128,
-["retail"] = "",
-["group"] = "RestedXP Midnight",
-["internal"] = "",
-["imported"] = true,
-["version"] = 20,
-["key"] = "RestedXP Midnight||a) Where War Slumbers",
-["length"] = "616891112",
-["name"] = "a) Where War Slumbers",
-["displayname"] = "a) Where War Slumbers",
-},
-},
-["RestedXP Midnight||a) Cooking (H)|740"] = {
+["RestedXP Midnight||cFFFCDC00(80-87)|r Campaigns|ae) Voidstorm Campaign(A)|1255"] = {
 ["version"] = 1,
 ["cache"] = true,
-["enabledFor"] = "Horde",
-["key"] = "RestedXP Midnight||a) Cooking (H)",
-["groupOrContent"] = "íSÁn1½û+FÚH•Ej•¢ªB/…*Ô*g=ÙŒâµ·c;iPıNü^¿„ñ’Š¦ œ¹>Í{oŞ³§×;,GeY¾Vª`Œš¬*–È¼ƒR5ûÔÂCDsugdÕó¨\n§½Cïäjx~º' ŞÆ¾ÓÖzè@C¡µzİ¶Óª¨æºÈêøN=TbĞ\nì›ÖbÄÅ9d5UX=E—š')Z„M5†ï‡ışÅ‚Zˆs\nU zhÙWˆfÃêå¤Ã1 ‚¨ù&I$áèŒ+Í&À,Y’qÆ¾‹K´ıû»oG}õbS¯Î¯/ß?]S„J;˜\"<lkÀ»\n¡E£×¯@¸hkŸîï¾/ŒwÂ›âÌ3nxGğCˆÔèˆpQvœPƒo ì4äRÄğtüIÚÕ\\Ì:FmòSHş€(#ò@Ì~•şPïãJ÷¿fÁœœ|ôYà3×LM£yËd¼IÄvXÿ»}Ô-¹Ê&ƒ¿ßÊ—_W²ı—ÿ[Å|‘~ÖY×‰ÄIğ‡–@;“}&½'–‚\\7÷ó%’‹dá¶Í„ä¬¯hvcŸi—äd×ş²É",
+["enabledFor"] = "Alliance",
+["key"] = "RestedXP Midnight||cFFFCDC00(80-87)|r Campaigns|ae) Voidstorm Campaign(A)",
+["groupOrContent"] = "EÁJÄ@†ïyŠÀÜ\"…àZq/¥¥àA•Åk¶mh;Sff•Â>¼Ó•ÕC._’ÿOÓ­Şæ÷Zë\000å8Œ ¾Øy±5¨ÎÙãŒ¯ì·/ø$­‘® üñğ»;5u]—U™e›<Kó»ää°¤i&éŒehb$Npo¥õÁºéo»)P­øy¤å|¶ª²lÛ(Iÿ_@5=Í!ÆBJ°\"7°ÓáÛ°`´<Døh‚ÅĞ3‡Åû}ày\r|åqÏ2^xEßíg,Öö¬ZÃìvXŒ£ibá®5üü",
 ["metadata"] = {
-["guideId"] = 3462859657,
+["guideId"] = 2558859477,
 ["retail"] = "",
-["next"] = "a) Balloon (H)",
-["enabledFor"] = "Horde",
+["subgroup"] = "|cFFFCDC00(80-87)|r Campaigns",
+["group"] = "RestedXP Midnight",
+["name"] = "ae) Voidstorm Campaign(A)",
+["key"] = "RestedXP Midnight||cFFFCDC00(80-87)|r Campaigns|ae) Voidstorm Campaign(A)",
+["version"] = 1,
+["chapters"] = "a) Darkening Sky (A);a) Into the Abyss (A);a) The Night's Veil (A);a) Dawn of Reckoning (A)",
+["length"] = "616891112",
+["enabledFor"] = "Alliance",
+["displayname"] = "|cFF00FF005|r - Voidstorm",
+},
+},
+["RestedXP Midnight||a) No Fear (A)|1223"] = {
+["version"] = 20,
+["cache"] = true,
+["enabledFor"] = "Alliance",
+["key"] = "RestedXP Midnight||a) No Fear (A)",
+["groupOrContent"] = "e±ŠÃ0DûıŠ5çÂ ¹0pã3ˆ4	Gªi„´ØŠ$d9$?_HH‘vfóêºUí÷F)Õ\000ˆLÅ°q¡<sØHcKÂÍ…ÜñwìSÌ™ĞT¸¨Édüê+çäÍíÑİ­ÖRƒÖJŞ3Ö¯åŠÒµü£?\\\neÜÆŸ¼LZ#è:ì½g,Áúœ@p°~qôirz;Àß",
+["metadata"] = {
+["guideId"] = 3400534803,
+["retail"] = "",
+["next"] = "a) Bitter Honor (A)",
+["enabledFor"] = "Alliance",
+["name"] = "a) No Fear (A)",
+["key"] = "RestedXP Midnight||a) No Fear (A)",
+["group"] = "RestedXP Midnight",
+["version"] = 20,
+["length"] = "616891112",
 ["chapter"] = "",
+["displayname"] = "|cFF00CCFF10|r - No Fear",
+},
+},
+["RestedXP Speed Leveling||cFFFCDC00(1-90)|r Default|cab) Eversong Woods Route 2 (H)|1006"] = {
+["version"] = 1,
+["cache"] = true,
+["enabledFor"] = "Horde",
+["key"] = "RestedXP Speed Leveling||cFFFCDC00(1-90)|r Default|cab) Eversong Woods Route 2 (H)",
+["groupOrContent"] = "}Ok21Æïù¹(eËfRA¼hÅƒ…â[h½ÄdÜÉ6\\?üÛ¥…Rz›Ã<¿ù=SU1¹›\n!ÆxÀ$É2~ÄÉ;Œ·Áç¶ê—Gø×!jØà-¹–ñ˜wŸµZ­ËE]D5­Ç—\000KÜËlãN”ÜáşJö®…gïu„­Ï	¡ÑzÌ¸¦ØYyşXş¦5TıÈ\"R!ª¿ˆĞ°ÙÖ>hdÅ¾c\\ùCg1aOÉ”J*dJ°ñÉy*uÙÍ“¡m&P†½p5*`O¢)•!™k—C'©uĞ²vx¼gRoöÉÃ´¾®’S6â×H;jMz•¿ë9S4zrÚ÷l>ìÿ",
+["metadata"] = {
+["guideId"] = 2333023059,
+["retail"] = "",
+["subgroup"] = "|cFFFCDC00(1-90)|r Default",
+["next"] = "cac) Eversong Woods Route 2 (H) 2",
+["group"] = "RestedXP Speed Leveling",
+["key"] = "RestedXP Speed Leveling||cFFFCDC00(1-90)|r Default|cab) Eversong Woods Route 2 (H)",
 ["imported"] = true,
-["key"] = "RestedXP Midnight||a) Cooking (H)",
-["group"] = "RestedXP Midnight",
+["name"] = "cab) Eversong Woods Route 2 (H)",
 ["version"] = 1,
 ["length"] = "616891112",
-["name"] = "a) Cooking (H)",
-["displayname"] = "Cooking",
-},
-},
-["RestedXP Midnight||a) How to Train Your Protege|935"] = {
-["version"] = 20,
-["cache"] = true,
-["key"] = "RestedXP Midnight||a) How to Train Your Protege",
-["groupOrContent"] = "Õ˜msÚ8ÇßûShÊ‹»ö\\ÇOÓé0C	¹¤MrÓæ®7Œ0\nÖáH>Y@3“+q®nçúÚÕşvµúK/_N6Çq\r£&ˆÄ41js\"2Êrm£6|–¢>É$ê¡÷tÌè$–Fá‚ğstÊHr4˜2tÅgõ—dBŒe’†&§F§¬ÂW‹f¿ÍÀb{îğ(;QÄgLšaĞğêÆ/wQÿSoø±İ¿‚Eã9Q>ÆÉ˜ gcš¥°FÕƒMµªg¨ãœ¢k*2y'+Jh4eä‹Üá3¬^gJ¡ŸÛÏQ«Õ9?ë¼C§İ~\\öÑ¯¿ŸwÑë×¨\rş0‹ÈWØ?=dÿ”‹1YbB$Q˜<‡¬/·‚/¤ò?ÀÉ(}f½“şY÷âøüjxÆ2)f‘ä\rbœ6¦B‘™p@êzMÏô<ËõÌ†o9Ñjİ\rò¼]ãˆ-¸HÆ78=Šb,G³äjøAn­Q’¾rí;¹t‹JyµRMR‰š>xíâkië@d$¡lbX‹	‘Hgèq2oÊyw›ÈY†Ş$œG3ÁÖ©ÔMßµêMÓñ­zX•]@DÂ(‘|Uå²É¶•¨úPÛ¨‡eŒ.¸DW0­óŒ°%»ˆß¤	‘dAáª~W8Ûh\000…Œøu^¯maFÊÀ|'4S[ï-œÑl¦gÙaÓ7ë¦]Ğ]¯Ö:¦»NCØ\né¶‚4ªK–·ªí6½Å ]G@5`%]qşçÑŒ&c•Ó\"‚ü3£‚dßşj!?ù2õ™×?rÊàySbÖÑ‡™ê'tJÄnºyÖ+-P½çMTUİ=%]6İ½5ºÂµÙâšéxV#0ë6¬âœäGm©­ÿÃJ~ôÚy\n:¦“>f¨úSÌŸS¼ƒÃ	·Q‡$Âpß~ÍZÁØ2²Ááÿ`FÄù-û¢ÛÁ­Ö;jËuu/ºï¯†ê¯ú‹s‡x»A×¼èwÇó½ ñ\n\"ú³˜r~y9\000a1Ç…*USQ$ZÏ_ËÊ_	…~ÃG¨Ë\"ÁqC)ç3Š_7Œ¬‚à<İÌéÚ ‰LÇ†~°>àXa]¹\rİX3Tc¾f’¨1oiSeöì>³ÑLd\\Ár³,ÆTåIÇ‘¼OlGiMÄ%Y é~vÄm&qR´àuMèhk¥.v«„VĞ0½úN¡o:8º1¶qİjhÆœ|liğÿ]{O-Àc£&©LTNNNN:ÇÛ†$a”&XB7øœ@hš ÷µÆ4:¦«[ØáÅ´sˆĞÒ­sÎ÷Ô9×pÕÏYFÓâ^†\000±ªSû‰ítë€ø:B{VZÜ‹µ»ã1g?I¤ÚÖ”ñhJÆĞÒ®—På1¯ç_§Î¶#ÛUy¦òø+q.h”\\U'€V²­nKÉ¶º}<M³mn8ßôkL3uµbMGüK)±òˆœàç*´¬]JNW%¦W×÷{?Zq]İ=ñ{fêiz»¿rÔvÎ¬î~µ½ÆÎÑ²+¡ù¶Ñ¹Úšvp½èmüGù]Q6ÖñCg¢Œ’ª»º¬SİrÕ­ßÈe÷6€*ïS<¾ˆv¾k«{F8ø\"¶|Îz\000¤{Ï*ñ*æÙk÷¼ıÖëT=ÕŸ+›Ò´PIt¬’İ´G}Uu¹gÙà{=Ën…îî†î‡şW>ÊşQ?çâ|{.÷¥XÔĞªÑ!Dÿş",
-["metadata"] = {
-["guideId"] = 2578518298,
-["retail"] = "",
-["group"] = "RestedXP Midnight",
-["internal"] = "",
-["imported"] = true,
-["version"] = 20,
-["key"] = "RestedXP Midnight||a) How to Train Your Protege",
-["length"] = "616891112",
-["name"] = "a) How to Train Your Protege",
-["displayname"] = "a) How to Train Your Protege",
+["enabledFor"] = "Horde",
+["displayname"] = "|cFFFCDC002|r - Eversong Woods",
 },
 },
 ["RestedXP Midnight||cFFFCDC00(80-87)|r Campaigns|a) Eversong Woods Campaign (H)|1115"] = {
@@ -9123,14 +9114,14 @@ RXPDB = {
 ["retail"] = "",
 ["subgroup"] = "|cFFFCDC00(80-87)|r Campaigns",
 ["enabledFor"] = "Horde",
-["group"] = "RestedXP Midnight",
-["key"] = "RestedXP Midnight||cFFFCDC00(80-87)|r Campaigns|a) Eversong Woods Campaign (H)",
-["imported"] = true,
-["name"] = "a) Eversong Woods Campaign (H)",
 ["subweight"] = "995",
+["group"] = "RestedXP Midnight",
+["version"] = 20,
+["imported"] = true,
+["key"] = "RestedXP Midnight||cFFFCDC00(80-87)|r Campaigns|a) Eversong Woods Campaign (H)",
 ["chapters"] = "a) The Light's Summons (H);a) Whispers in the Twilight (H);a) Shadowfall (H);a) Ripple Effects (H)",
 ["length"] = "616891112",
-["version"] = 20,
+["name"] = "a) Eversong Woods Campaign (H)",
 ["displayname"] = "|cFF00FF001|r - Eversong Woods",
 },
 },
@@ -9174,25 +9165,24 @@ RXPDB = {
 ["displayname"] = "|cFF00CCFF2|r - Fear and Fel",
 },
 },
-["RestedXP Midnight||a) Port Detective (H)|1081"] = {
-["version"] = 1,
+["RestedXP Midnight||a) A Voice Inside (A)|1193"] = {
+["version"] = 20,
 ["cache"] = true,
-["enabledFor"] = "Horde",
-["key"] = "RestedXP Midnight||a) Port Detective (H)",
-["groupOrContent"] = "eÎ1Ëƒ0Æñı>ÅA–:¦ƒ´à¦‡¤S‡.!9âo1J~øÚv{İïşÏ/ÏKYÎRÊ#€ˆ”4 Š%Ç9à¦DöŞá•­g×'^ÿê»1&l(‘I¼Ú„å)úõ=YREQ×JÉã1ÿ÷°…è™>¡F;·íö„í-{÷«™^‡Dª\nÛ1Z‚Í@°7Ãlio{ìTğş",
+["enabledFor"] = "Alliance",
+["key"] = "RestedXP Midnight||a) A Voice Inside (A)",
+["groupOrContent"] = "e»ŠÃ0EûùŠ‰ƒíÂ$àÆ)KBŠ4ƒ4ØŠd$y³ùøuUR^8œ{ò¼.ëÍ¶,Ë\n@N$Ô‡(ŞaU€‚Ÿ'<pLlN_¸ãd(GFÊ°Å£Í¸sQãºÍ@‰“¥¿rÓ}_]×÷õ-`şÆ/şMwÏ÷HÆ_‡™‚YÅ×zÚôHSâ\000Mƒ­µBN3,9(qÚÎËéGŞù#şÿ",
 ["metadata"] = {
-["guideId"] = 758386209,
+["guideId"] = 630853003,
 ["retail"] = "",
-["next"] = "a) Daggerspine Landing (H)",
-["enabledFor"] = "Horde",
-["chapter"] = "",
-["imported"] = true,
-["key"] = "RestedXP Midnight||a) Port Detective (H)",
+["next"] = "a) Shadowguard's Shadow (A)",
+["enabledFor"] = "Alliance",
+["name"] = "a) A Voice Inside (A)",
+["key"] = "RestedXP Midnight||a) A Voice Inside (A)",
 ["group"] = "RestedXP Midnight",
-["version"] = 1,
+["version"] = 20,
 ["length"] = "616891112",
-["name"] = "a) Port Detective (H)",
-["displayname"] = "|cFF00CCFF12|r - Port Detective",
+["chapter"] = "",
+["displayname"] = "|cFF00CCFF6|r - A Voice Inside",
 },
 },
 ["RestedXP Midnight||a) Orc Heritage Quests (H)|730"] = {
@@ -9222,24 +9212,24 @@ RXPDB = {
 ["displayname"] = "|cFF00CCFF12|r - Predator Reintroduction",
 },
 },
-["RestedXP Speed Leveling||a) Horde Draenor Garrison|1338"] = {
-["version"] = 1,
+["RestedXP Midnight||a) Beyond the Walls (A)|1219"] = {
+["version"] = 20,
 ["cache"] = true,
-["enabledFor"] = "Horde",
-["key"] = "RestedXP Speed Leveling||a) Horde Draenor Garrison",
-["groupOrContent"] = "åZ[oã¸~÷¯`7Óíz8¢î,R$“d6Ø™Išd‘İƒ€¶Y,º””4ƒ ¿½çP–DÉòä²É´À¾vD‘ç|ç;WúõkŸùaÄ³G£-%\n¤£­k¡òDf„¶b%Ë%9y!f¿“Ó¥3òA\\‹4ÉâÑVÆ‚ğïÉORÍÙS\\dR‘÷\\©$—Ùh+É\n¡2~ü±Z3‚–£­©\\,SQˆ›¤˜7Ëõ‚ıl6Úš'3x”ÍäÍè6¢e.ò¥HSÂl‡¹ŒU›loßéı/ùT¼¹‘*-øòÍtÎ‹I9™¤âÂwc%né$]¾µ­»âŒ§W¤änzòëñÅÁÉáş§½¿]p•¡@zqõêlÎÕ¢#Zp‹‚¬=ÑXÂí]‹ÑØ¨ÁúReIF'ôC²½}_	|?›P@’—¤€ÏJæÅL¯E>¢|:Ëßa¼³S}İ!§2‹ñ½˜ğlF%àŒd¢8öø0+”œ•Ó­t\"S±Lùm…Š!£‹âùll[c«û(dc?¢¾0ó¤ ™øw1\000Î^©dÁ3\rIm´Jà1k@Z-À8åyŒeÊÓB®á«!ßŒ_·ëZv‹÷Ñ%9×Ñ+Ï‘ŒRå_U.²Æ£,»µƒÇ+W)u¾sòéâ@¦©¼ÑÜ¸á·œ\r?.d™/¢dgsÅÓğK8šÀ[s:€ø×bfÀ³Ò¶†g“º\r8ï¶à€;šÃà›j@©_ÃÄ¢~0v\"ê†“Ã“i©r©ŞLÁ ùœ'ê†‹O‹’wi2½\"@g<­RõøğİÏUdÙåY&T…(©f¡vækO@›qô'\ní— yò÷üØJÜ)\r]±²Ë<YĞ.1€û\000‚ÏT Ö6è£Úb`—OõçR]k¼È6ƒÅ{%³£19V”Y4FZ‰;rqë3©7ŞŞş9ĞZ©ºÿiÿ#DDô›Kp™vó¼=HØ/ä„,_Y$E*È™Àh®® uü™½ñ¿7ĞrjGc/ ıl”Ñç}„ó@5Ê¸Æl³|vO¾zãm~KùìÍò9(ß‹IÒ²Ø§¡±›¹ò9›ås»øyõœq`ÓÀ}9©×äs7ËçuåËBñ<ê°o(Ÿ·’/å‘šÎ8$±ß“Ø¡2‘õí$®å•ÒŒ÷C]†iŞÆ×Vè7ŒZXvPÛí?rÀ¥|íXNõè#P7,û:,;ORp“Ìl[…ğ:Òwcx³¨ŠámÅ2Ä›xøFNÀzrOdXİœ^Éx8ÖwÂWC—öÌ¸VF=rÎ‹éœÈ²J€ó$GÙJHw§)_>IÒ¤¸í›D¬M¡¥ú_a_AeÖŞ¬Œ4¶îçŸ¤I>'¿ÉÒh^îÖñ¨ªÙÔõŸÍ?òK¹ÓR]‹[¹^ïaíŠ¸6ºŸ‡®øüà\"Œ—ÀÍ¢î_vÔtb\nLĞD‡÷fßóDP_Tj0 ´\"÷¶$ç<dÑYb¯/ùıï%’ü(û[	rµ½©øŸÖí“L(yÇ§s´œ…KRqYtY²ÔE×%#üë>Õ%uÙƒúD^ÍWÍ™£Ó\r_G1Š|€.å¯\r’Õ‹÷‰YÅÆ6#Ÿ(õ:=N¯x'Eß×µ¶Ã]-Ñü*YÆ`¬d™Ìˆk{w¿Ğuü1ó©÷N¿—$“\n6;¾\"ƒ€õğpH§U¤³¶¯c³`P»?²QRÆ’lw(¯cÖÛ•\\aÒ&¤,›R¤ÿ¨8::»ÈyzÍctOr¤ÈÙM°Áô=UÎb1‘à€§ÕZØõ3%3È÷Ó\"½íiÛƒ9=pşQd­vCÊé§ˆòöö® y	UØ„_K@óå	_,yŒ¹ü´PÉ•Ğ¦Ûç`D%²™şÊÛ–±$¡3†4‚rk¥BN­>xp€ÖÊ»* ÷‘c®Eï{ì[”YcfSV«Ğ S\\¹&%şUÔyç˜>Pƒ4xY¤ØÚL\nBè7Xô\000\000×ùmÖ¶¸M-W·/P®w²qò2XQÿ	Ã <q¬5é\000õ·‹Xõè	^swÆ;ğÙ[ˆ¦­;ˆöGxÓ£i³ï`¢„<ŠyCüã#ŞÆäÒ¾lÈ<äŸ%˜Ê×<™	Ú¤LRä’Y'VÙ¿®U:éßXc¬Yåÿv‘Ó+8‡²[]'< ÛA¤ş\"3a“Gè>¸+oÿ%5A,—…¾¥ÒT?	t©¼€}?ëa:aÌò|Œ3Po0Èc F½ÍĞ‹+³7±àaæNY`Yê´™ô‡ÖªdÃzñåDívRü4ŒX»>3&fU¹ïÀ÷ó{+÷ˆ†–fÌ{şw7-ÅRÁ{oyúeÈ?Ğu„ªù=©wÓc17Œ´ÃÔ[«.Â>£o…	óµãìÚ™Xäù†³µá¼èÙğè5_Á_^›Íûâ±v›™’Kòj¥Ğ+láUw ÛdM§\000ŸW}CFÅŒ;MÔBÊjJâùZiŒº;÷ò! ®óŸä\rIæPg #oê	û˜U]D\\V÷ ©J/ñŠc&E½*ÈB^kcfæ~LäRdC}*á1)D®Gs<{m“E’•„´Tf±PÕ]S-¤ÌEÕÜç›	$O“/Fğ=N% OrØ,M×¥ò6îZ/)Úë$)š×BÅKÚ¶fL[Eu²“9·÷\néĞªs/ğsµ¨&<¯êb#ut@]“ÕÓæP\"Éf9NfŞAæˆÛú¢sÎ}Û‰È§¥8J“ì—ÅD(¼z7êV¼™a8%‡Úº*[ŸÈ÷xi\\0¶Ñ|w×é3¤Ã×:!Ï§ZáİÎ†F¨­uŒĞÿ\r:C4~¾;ø¯Ğ¸¢gCã>?Û™¶yÏù1ÉõÏMpô½*näqG3l¶\\êÿÜ{Qø\\,0ÕéÕÌ­íE=ä|”%['à§Ÿ½X©n=ÍUÀÎï«Ctj¿‡&õ°Ê¥\000Û¥Âßç”\r»ÍnsàÎä÷ëcàõİ)X±1îw İ¤, •èİ˜·KÕL¡ÿk ÉCmòÈıd:79déÿ",
+["enabledFor"] = "Alliance",
+["key"] = "RestedXP Midnight||a) Beyond the Walls (A)",
+["groupOrContent"] = "m1kÃ0F÷ûZšÁ`…bZğâ¼J’]„uXgYHJˆ!?>jÉ–¬ï{¼ªjtóö®µŞ¨HÙ°€:SL¼xÜÖ ¦¸œ~SÊd_øÉÖóä2(ofB³ÁZo1;ÂƒIøÒm@YNAÌú]Ça¨ë¾ızX=\\ŠŒ.ùOö³Ì”û	÷,„;Ç© +öe¿›GgB¦m‹?”¸\000Šı('K±¿O2áö",
 ["metadata"] = {
-["guideId"] = 3464630875,
+["guideId"] = 1239617181,
 ["retail"] = "",
-["group"] = "RestedXP Speed Leveling",
-["internal"] = "",
-["imported"] = true,
-["version"] = 1,
-["key"] = "RestedXP Speed Leveling||a) Horde Draenor Garrison",
-["enabledFor"] = "Horde",
+["next"] = "a) Something Vile This Way Comes (A)",
+["enabledFor"] = "Alliance",
+["name"] = "a) Beyond the Walls (A)",
+["key"] = "RestedXP Midnight||a) Beyond the Walls (A)",
+["group"] = "RestedXP Midnight",
+["version"] = 20,
 ["length"] = "616891112",
-["name"] = "a) Horde Draenor Garrison",
-["displayname"] = "a) Horde Draenor Garrison",
+["chapter"] = "",
+["displayname"] = "|cFF00CCFF14|r - Beyond the Walls",
 },
 },
 ["RestedXP Midnight||cFFE74C3C(90)|r Delves|a) The Darkway (A)|1125"] = {
@@ -9295,21 +9285,35 @@ RXPDB = {
 ["next"] = "a) To Be Changed (H)",
 ["enabledFor"] = "Horde",
 ["chapter"] = "",
+["group"] = "RestedXP Midnight",
 ["imported"] = true,
 ["key"] = "RestedXP Midnight||a) Oaths to Family (H)",
-["group"] = "RestedXP Midnight",
 ["version"] = 1,
 ["length"] = "616891112",
 ["name"] = "a) Oaths to Family (H)",
 ["displayname"] = "|cFF00CCFF12|r - Oaths to Family",
 },
 },
-["RestedXP Midnight||a) Heritage Pandaren (A)|754"] = {
+["RestedXP Midnight||cFF1EFF00(1-90)|r Default|bj) Horde Gorgrond 2|1275"] = {
 ["version"] = 1,
 ["cache"] = true,
-["enabledFor"] = "Alliance Pandaren",
-["groupOrContent"] = "í“ÁnA†ïû–ö\000Zm\000U-ª*E…À¥(J\"µ¤ÊÙq²Vgg¶3¤A9ğ¼!O‚'4RRª8sûÿıû³æğğ¸w|rÚëõŞEHmQ.(DözE9>u0¢(d®‡pÉÆñ¼‘¢tØà|¡À‚s‚!:ƒ¼ìh™î%—'\r»9}”?Ã±³¸Úè·š¢¬ì„Bqv}k]½SÕá¶ø¶³$´di û¥Å)Y¸ÂàtÆ$?½4!’DĞÜm²Â*ƒ»¤;D-1˜³d-èV³à[°´ á¤úõãçiU¼Z×£ëáÍUôõfšX FŞÙL	¶aŒ¾hÔ`]ûää\r¬|‚WĞàBÙ@hV;–u8Úóÿ…[‚1‰¦pKà]-»$·o¹ÓEò\n–B7ŞäI¶x%@Ú¢ãCğËlğÃ]nGß³ÁÉ{8?ÿì³ÁX|h—ìÌƒ2Ğ]â@qOU\n‹²]×ƒÁàâãEU=Š¦>]ğ5‘Y‡ÿ§yş4ìj›ıı×¾=õËDÿÂ¿–ü·ılbXgêûè€ù…€¤à€İ¦os#P†lá¾Ë‚ä¬¯oÉì¸D—Ğê!â3I~ÿ",
-["key"] = "RestedXP Midnight||a) Heritage Pandaren (A)",
+["enabledFor"] = "Horde",
+["key"] = "RestedXP Midnight||cFF1EFF00(1-90)|r Default|bj) Horde Gorgrond 2",
+["groupOrContent"] = "uQMkã0½ëWLñ¥9Y)ôrjÇĞMö‹RzGãD­\"™±œİBüNØ,»ìAğ$Í¼÷æM_šËëcÌT©Œ)¡ó*Û÷.0*Ûp:øL}\"û´‚¥³Ám¶IeıĞÿ>ÖUeæUUç&¿)&%µ8x)\n¸#h^'PG¶‹ÈÒ,LUf]ßy|+NæBÚóSál¼†³ò^åèıˆ¾Kh80…ŞúíÜ·‡‹ÚÅP!ÿWkúÖ\"6Ş½Â`QxµĞ>Æm\"ÒµÀ]Ntá(¬—¸Ù\"‹E=GN[\nåäV?<²MëïƒïˆQ—Œë´}gı‡;]#‹¼›~&hŞ&pUä×TûwŒmêá¼HjbqLRÉ::•¹°öƒäú{=_:\"ŸhO2Ææÿ^ıú",
+["metadata"] = {
+["guideId"] = 3597211087,
+["retail"] = "",
+["subgroup"] = "|cFF1EFF00(1-90)|r Default",
+["next"] = "bk) 70-80 First Crafts (H) 2",
+["group"] = "RestedXP Midnight",
+["key"] = "RestedXP Midnight||cFF1EFF00(1-90)|r Default|bj) Horde Gorgrond 2",
+["imported"] = true,
+["name"] = "bj) Horde Gorgrond 2",
+["version"] = 1,
+["length"] = "616891112",
+["enabledFor"] = "Horde",
+["displayname"] = "|cFF1EFF0012|r - Gorgrond",
+},
 },
 ["RestedXP Midnight||a) Voidstorm Route|855"] = {
 ["version"] = 0,
@@ -9347,86 +9351,82 @@ RXPDB = {
 ["displayname"] = "a) Furniture Favor",
 },
 },
-["RestedXP Midnight||cFF1EFF00(1-90)|r Default|bj) Horde Gorgrond 2|1275"] = {
-["version"] = 1,
-["cache"] = true,
-["enabledFor"] = "Horde",
-["key"] = "RestedXP Midnight||cFF1EFF00(1-90)|r Default|bj) Horde Gorgrond 2",
-["groupOrContent"] = "uQMkã0½ëWLñ¥9Y)ôrjÇĞMö‹RzGãD­\"™±œİBüNØ,»ìAğ$Í¼÷æM_šËëcÌT©Œ)¡ó*Û÷.0*Ûp:øL}\"û´‚¥³Ám¶IeıĞÿ>ÖUeæUUç&¿)&%µ8x)\n¸#h^'PG¶‹ÈÒ,LUf]ßy|+NæBÚóSál¼†³ò^åèıˆ¾Kh80…ŞúíÜ·‡‹ÚÅP!ÿWkúÖ\"6Ş½Â`QxµĞ>Æm\"ÒµÀ]Ntá(¬—¸Ù\"‹E=GN[\nåäV?<²MëïƒïˆQ—Œë´}gı‡;]#‹¼›~&hŞ&pUä×TûwŒmêá¼HjbqLRÉ::•¹°öƒäú{=_:\"ŸhO2Ææÿ^ıú",
-["metadata"] = {
-["guideId"] = 3597211087,
-["retail"] = "",
-["subgroup"] = "|cFF1EFF00(1-90)|r Default",
-["next"] = "bk) 70-80 First Crafts (H) 2",
-["group"] = "RestedXP Midnight",
-["imported"] = true,
-["key"] = "RestedXP Midnight||cFF1EFF00(1-90)|r Default|bj) Horde Gorgrond 2",
-["name"] = "bj) Horde Gorgrond 2",
-["version"] = 1,
-["length"] = "616891112",
-["enabledFor"] = "Horde",
-["displayname"] = "|cFF1EFF0013|r - Gorgrond",
-},
-},
-["RestedXP Midnight||a) A Domanaar's Best Friend (H)|1026"] = {
-["version"] = 1,
-["cache"] = true,
-["enabledFor"] = "Horde",
-["key"] = "RestedXP Midnight||a) A Domanaar's Best Friend (H)",
-["groupOrContent"] = "}Î1Â0†áı~ÅAíPh‹B­„.‚89¸ÍQ5	I*\nıñWÑı½û²¬e½ÙJ)W\000\"p\"3‚xpˆÆY” †à&g‰õå„G£­n	„¥;#¸Ãƒ»“%\n‹ˆûÜ¡\n†­ÆeW€Ğ&ú‘^Ÿxî•ªª¶UJ®ç€åÏÓüœŸy¢¿‘O i°sA3d„al?Nš¿Q×?xÿ",
-["metadata"] = {
-["guideId"] = 3309965571,
-["retail"] = "",
-["next"] = "",
-["enabledFor"] = "Horde",
-["chapter"] = "",
-["imported"] = true,
-["key"] = "RestedXP Midnight||a) A Domanaar's Best Friend (H)",
-["group"] = "RestedXP Midnight",
-["version"] = 1,
-["length"] = "616891112",
-["name"] = "a) A Domanaar's Best Friend (H)",
-["displayname"] = "|cFF00CCFF15|r - A Domanaar's Best Friend",
-},
-},
-["RestedXP Midnight||cFF1EFF00(1-90)|r Default|bd) Highmountain Speedrun Midnight 1 (A) 2|1306"] = {
+["RestedXP Speed Leveling||cFFFCDC00(1-90)|r Default|cb) Arator Route 2 (A)|1162"] = {
 ["version"] = 1,
 ["cache"] = true,
 ["enabledFor"] = "Alliance",
-["key"] = "RestedXP Midnight||cFF1EFF00(1-90)|r Default|bd) Highmountain Speedrun Midnight 1 (A) 2",
-["groupOrContent"] = "…‘Ak*1ÇïùSöR#TZğ\"¬[Kk‘×ÒöĞË¸wÃ‹7íüğ/»JmÒC 0óÿÍ™~dF×7Æ˜¡R™PƒÎ«ìƒdëƒQY%!nàm²o˜;Ë®ª•mãòPÛ—Ea¦E1\\šşÍ ·Èi…Ñ§&Æ5ÁÒö`–Bë9ñ6DV\"ÑÀÀå¤C•Y·İxÜu¹x”˜ıŸã1ä‚Ääà\"¿¢¬Ú¯¾åâío×È‡òc;hê»ôhx–X$ç†^úœM}ı³dıĞ’WA*²G!=§²ÆªÕĞ9Êß;	ÜééÔP6õNôÙ¢ëdùMF¿¶ÖS”¦¦ch†’\000.™2ık`Içö9<mô°Ï¤;ñŞ!—¤Ò7*s\\úhétÑ.ôAŞqõ¿İJıÿ",
+["key"] = "RestedXP Speed Leveling||cFFFCDC00(1-90)|r Default|cb) Arator Route 2 (A)",
+["groupOrContent"] = "UÎA‹Â0Åñû|Š\\ì¡ĞÈ\"+ˆP,e+,zÙÃ^Æd¬Ù¤¤‰®à‡·¸ñş{Y.ôâ}©µ¨È‰Ä:s$xÔ ºr;Ûï/Ü÷Ì?ùÌN|jÈ‡q3mÛnšMUÍt¹¬Š[Ä†”]åé—Ñ\n¬#¥qrbœã¬.@YzG×‡y¼ûròãÿ%4†\nü HŞÒëÇj…µsBŞ0Œ=(ñÆeËÏî­X/İ)ıĞkÅäObù\"Ş†¬×î",
 ["metadata"] = {
-["guideId"] = 520756509,
+["guideId"] = 2525042655,
 ["retail"] = "",
-["subgroup"] = "|cFF1EFF00(1-90)|r Default",
-["next"] = "be) Highmountain Speedrun 2 Midnight (A) 2",
-["group"] = "RestedXP Midnight",
-["name"] = "bd) Highmountain Speedrun Midnight 1 (A) 2",
-["key"] = "RestedXP Midnight||cFF1EFF00(1-90)|r Default|bd) Highmountain Speedrun Midnight 1 (A) 2",
-["version"] = 1,
-["length"] = "616891112",
-["enabledFor"] = "Alliance",
-["displayname"] = "|cFF1EFF005|r - Highmountain 1",
-},
-},
-["RestedXP Speed Leveling||a) Highmountain Speedrun 2 Midnight Horde|1329"] = {
-["version"] = 1,
-["cache"] = true,
-["enabledFor"] = "Horde",
-["key"] = "RestedXP Speed Leveling||a) Highmountain Speedrun 2 Midnight Horde",
-["groupOrContent"] = "í\\[oÜ6~Ÿ_!ÀÅ¢²\"R¢.E¬ãKœ­xmnw·èzF;iª‹/…üCF¤¤±Ç9ÛûĞÔ)ÃsùÎ…”ww=â!!„F;™(xvnE–GibÑÎ4KË¥q.òBL~>3.–BLŒq+â(™v¾ÿ‹qMg‹´Làı¤š”•‰AÓh’ÀPa§ÙDŒv¢¤YÂãÑ?®ÁÂËÑÎ8],cQˆ»¨˜i‹ÉI‡ÉäİhgM`<™¤w£ïÉÈ*s‘/E„:Ä%dµRÌ¯E¬-Q³C÷FÖ4-RÃc¶É¨åz¦ëZ>½}ûx)»ácñæ.ÍâÉ‚/ßŒg¼¸.¯¯cñÅs§™x°®ãåÔ~,.y<7`¡ÇñùÏg_Î?~<8ùåË	Ï9ì~ş0K³ä1YE™% ìoß^Â¯ü~9õ,ã2‹®ÌäÙT†¶ÂÈâã±X†:$€÷÷ª_?– dj°Ììq’W[W6çX¾cºE¹¹ëÍáİ4{3ÎÒ<Ÿñ({#÷ÍÇÅzoûq4 |\\¾ÚàÙ‡ıŸ¾\\äeÆßÊ˜ËıÕZ«84A)ù<ZNaíhM×%[ï­½Àf¦]`ús.®öÎ?~9¼/2¾7.À2ß•E‘ö±@MÍ2@ğ^ĞC(ô‘ç|\r!g¡(ÿ{	ş²w¾ÄÁz×f¶­3à2É€»¶9çíÛMÒ¿Xp s™	—™0ög@à13nÒÌ÷K‘E\"ƒ#&c™Ş÷Z›yq_å…YÄ5İĞò<…˜38/àûã¸œˆM`ò/€‘wq)îø½ñLh]=Å‡`LÙU\0006Ø=ù2‹‘¯Q°»%¹Ät=‹~!¶\r!'Àù_e²Ş6„¨‡„ïkùÏ¢VHQtvğ5„‚m¹¾zòú@¿êè{ú¤‡-Ø\rÒŸ§ãÜ¸ÍC>EŞ*åˆ‘‰|\\Š	ìï§Qq{øñğô—/‡‰XD\"ÿD‡×.­¸ó§ë‹q3¬–|}“lï¹˜Ö¸/­FäÀÊ…[OÁÉ˜†º‘Úé„ X³ÂpxÌª²	]ÊšmQßt+`ƒÅÙ}¾,¢[a¼^‹Š²nùh\"&A[™RÏ5÷iª¹A¡yéØ¦\000ıD^ÛòYÏ„øi0Ûbı\nğ¢=¾\r1…Zl5ô?´Kp¡ù8ãw1¤û3/»T†äÈÊ0ÛËÔ]/÷ÅÚ@ËâÁølhâ¶X`:¾åº&©Ä0ü|ÊD\"Ó©¼È 'Ît²™‚@*c+si¿İ+Ík;ETÄh¡GGGûû¶}ˆ;\000£»•v©ÚCš‡JwÃªyhİ8wE%¿•8’F¡’aGSı‹ÿ±¥¸…E¾)iRÒ§2M¦{¢\r>\r!PÏ4ÙàH©éŠ8H“>Çß›òŒ\000U³<M¦í¨N‰IGÖ\"½6ZŸÚ²×2À9f¡ ”-{ƒoye· ›»Y”ÏÁlOÒGyaä1Ô-°)×í“ÉçiÌ%SÇ¼O N%uÖ&i8¡ëy:~{.bÏë†9¯ \r=Ø\000eÀ=pÙn|@¦@Ä\nhOTñC9ÔTà™cyİw gu¥pÃá¦QRrÔÑ}„ˆó–ğ]¢5¶J=z¯êÕPO7h¾@´©Œy¢]à³ëĞej4)EíyÃ…­'²fJZí‘ËY&6¶EĞPyo/ÏyuÂ\rÒ¹L¹›6\n¥Mrd®¢b<û­¢Ó€ÊÄ‘9fèõÙö—ÖŠî¸,­mD›ö‚ù:ipHÇˆÚÃ—ä\nM&]2DšßBß´¥oEÏöÂ_WâÅI#½Ñš~}YÍ±¸ßå»ïÓD˜‘º¶C¼ZßûöC¸?ËRLc´g‡1d	r+]Ñû2[vÃ>¶NÓŒç³ˆÌ¤…1‹R¯—.Úá €V/œ|útYÏÿ.7öHÜï~Õ3hâ5¿«ÉÏ¥·2l¼NûØ[\ri.àÚ”®IÔïö¨‡YT1'­1‡HJB0|Dl<^Çe'÷|s0õ÷eòkíd–lÄ±mßm'OüêİõA9³•œPE“­B9ÌyM×ö-(™àß0ÌµOy\\Ì¸qÅ\")fizƒZ{¨KÂÆC§«=»óvÉ¦$e½à+îïÔ™±7‡±´É:D·&ji›Ê×·—UÂˆÂ^ ¬(ÿ”Hk«¨›1Y¹3,ÅÛù„u4BÖI²`çL641…¶r9NÖ*¼Çˆ~$Š(ŸU{J3Çb†²Üñìá13»1L$\nÄfi¡%ëY‡1Ä÷\\Ó+€¬¢×Ó4PZ9÷	ş¢\nİ¶l‚ù­³Vú÷mºJ\"\000è£¬|1NËÂø\000iY¬]&¹®$y@ù€óe=æE¹ZLõšé •q™¡Ğ9ş\\¤ÅÃ²Í¯+{_ÍáÎ÷mY¾¬~Æ;BbÑ.‰åÈ%¬[ÿõƒgZ†¾Ú2„ğJMê[U;†şkt[nu°gÒ*…o9‘mLbÑnGÈ2ªÒ²±%OÏ\000cH‰¹}W¦Yw ÀªÒ\\¥°ó:§ \rIĞÎ)`28 ¬d:Ù„ã;µWk«?¡™ÀÖÄºõ:Ì^5C#Õñ‰®Œë«	>”rCD³ÆáüÍ)İ1Ï–ÆY:Az{1ìh°&¶\\­—Á:{©ı¬lÛwabKÀ±T]ìÙ¾c?±z9Çd.‚\r¬ğ›	cp³´XË0-¦w¬\nH0&<›G€ô¹48'Y0Øößg †¸]#‡ØÖz\"h+_ñP'DCï€ï/môö,ŸJÊ\000¯íLÉ'ˆ¶¾×rªÆ–¸=C4¬Ğ»=âZƒ”ÜÕPz‰Xê?ïCnêøÄ÷ÚÈİRu½Y K­ÃÅj<¯éU¦w%“:W[\\ñl‘&Óºÿİ¯K¢[\n¹–~İ€¯ÊĞÎô\000±\n=ãøË\rê\\V¡9t†=ºùÈoy–¥Ó©^Põ´¡ÑÙ~ö<^gYë·Õâ1ô^Ê†½5Í—Pm¶	yÌ<WÛd.U²Aùºq ®‹>¹n¤·-|ƒ¤±ÃM¾ç¶Ó]½âÿÕ¶Amš;¤Y:W¢KË\rd7;F¬”Ú¯wZèë¢¯C¨ÏÚs:vt‚}É3l*Ï˜†TMÜhHB•4´ÀéôØNÖËäğ\n¦º’×iPã8û!-%kŠ{Š])fÓc½MyI•Ï°ïÂâ(ìğ€\rÁ4ÄÃHH.¨oRÖ¦Ì;à9İ`hÿmß*ÊË#Úf¿éÙv½¡Ğ¤PÛùf`cW¨{\rÑ„Ó—9ÂÊ§W¼Ö-5ŒêòÜàSğãs‚Áu	)¤È1È}dM¢Cúx&Æóëô¾O>=ëoB,_AóÌÁ\\ø| xRúÊZñvÜmëê@‰<ØìL~ÀÇòLä$º)®³2nª…úÉªŸRÿú\\7%PäÕzÈLŸâ\rZµ€\rÏâšP˜‘ıÆö+MÎÓI;\\9a]—èğš‡À¬À×“wä\n/ûx¤û|õJèoLê„X¥ÚŒÓ2‹Óöi¢ëø5zu¦vdD- ã\ršúğšJî¢ÈÒd®§@šÆ¼/gY9‹Wÿ­Mº³„¶€¯,€;\\w)åNµ©aoºu0Î;mqéq[æ€Êõê3Ti•f/¦S†Â²ÃĞ›Yh8ê™?\\q~.ıjÀpfÛÀéìV¶|»»½˜?àõ$Ôë,Zè“Ü±­p¸#ßŸ°k|šMã]üGGJÙ‘nŞ\r-é•Éè)™ Lƒ¢¾¡—77fõãühY–6]MTâh!ŒËHi}ãÖÌøÈD§ÛÜÂ»»øóJ»<¹ş1å´E´’¾aTÎÑD%ÅcVI·1¡A»²Féc9f /¿uÎ¾ Áğ,@ÕöˆƒÇ0ò¾ëàG_ı>+ï2Œ¬YnTÇÛÇ6>ËØK>OE}Cb0ÓµUÈ\000Ô{+£úÎ6`ï»2Š'«Su)}ŸÉË²Pà7@¤\r²õüv\n¨PjÖ©Î[œ×Kız$’n`Ÿu¿€\nœğ)Ù5Œ;®ìB–ã¼:ãÆÁØÏÏh‡qŠŸ,õç¤ı	\"S7Cñ„Ã%íW¸wÚËU-Š0ìÖqô‡o÷^ÿpˆÂŠçàE°ª­ ç[v?¯¢\"y¾ÊÆÖ9TT”<îzìQÇéœ¼p§D:Š)q±ÈuÙ°]ÒË4»5Êk€ÂÅÑ¶0€„Ì	Ö5—³‹wC¶jš~†K=ínÙ¾È”óP\rY¹hÊ,DŸÌ^&§ªXí J	\n?DÕã’¶~Bµ	Ú$®/˜¾ÕØŸ\\öınL”½BU¦{Õğ±+:°óôên+ß\000%4-·+’Î8Oc±ŒùC§/PL;Q…ö0Hü ÃUv§ü!æÚ¥I½´cjc°¯a±nM¾Ñşº¹ïJ¦Úı¶[oT7eg‘¸©¦*Ä)yç;^ `á‹$½»†”ri@ÎGÍm©ö¶OL7-®´n˜±[\r¤7ëÇø´¹°\rõ°Á(ÆY\nºmH®Ë§«ÄX}¤tmÖ‰,óñ/æYŞp_<óß£¹ñÿ~Æ…f&f&Wi|cœqğÆ½¢€ÿ­£-°½T×É^vÏóİMóhG8l#á÷D[y´ê™~`7iÁ´©®K:s ù³Ï!›ü²1l/9Ák#[d\"ë\000”“•qK>åãû½ˆZoöHhõùN‡Æ&Q­ÿ<Ã?úÔdÙÁ;¿ƒIŸ1ÊÍå…áÍğòŸ",
-["metadata"] = {
-["guideId"] = 723916834,
-["retail"] = "",
+["subgroup"] = "|cFFFCDC00(1-90)|r Default",
+["next"] = "cca) Harandar Route 2 (A)",
 ["group"] = "RestedXP Speed Leveling",
+["name"] = "cb) Arator Route 2 (A)",
+["key"] = "RestedXP Speed Leveling||cFFFCDC00(1-90)|r Default|cb) Arator Route 2 (A)",
+["version"] = 1,
+["length"] = "616891112",
+["enabledFor"] = "Alliance",
+["displayname"] = "|cFFFCDC004|r - Arator",
+},
+},
+["RestedXP Midnight||a) River-Walkers of the Prowl (A)|1217"] = {
+["version"] = 20,
+["cache"] = true,
+["enabledFor"] = "Alliance",
+["key"] = "RestedXP Midnight||a) River-Walkers of the Prowl (A)",
+["groupOrContent"] = "}Î»\nÂ0àı<Å,v(4ŠB—*t¤‹.¡9¶Á˜„$õ}x£B÷ÿòåyÅ«õ†s^0OQ(\rìN>(k°,€\rŞN;\n‘äé€{%ÆÌˆ¡È°S)…¾¦ÚÆ‘ğàíCãªÉ€Iœ¯o|îÛ¶(v»¶åÕì1_(§zÆÏÁV[+C’™ğ[ìGá\"y¨kl´VÂô‰ç€)ÓëIÒ?÷¼…÷",
+["metadata"] = {
+["guideId"] = 4173926992,
+["retail"] = "",
+["next"] = "a) Bloodstains (A)",
+["enabledFor"] = "Alliance",
+["name"] = "a) River-Walkers of the Prowl (A)",
+["key"] = "RestedXP Midnight||a) River-Walkers of the Prowl (A)",
+["group"] = "RestedXP Midnight",
+["version"] = 20,
+["length"] = "616891112",
+["chapter"] = "",
+["displayname"] = "|cFF00CCFF16|r - River-Walkers of the Prowl",
+},
+},
+["RestedXP Midnight||a) Bloodstains (A)|1216"] = {
+["version"] = 20,
+["cache"] = true,
+["enabledFor"] = "Alliance",
+["key"] = "RestedXP Midnight||a) Bloodstains (A)",
+["groupOrContent"] = "e±j1DûıŠ5¾âàäÂNàšË’&R¥p³‘–»E’lğÇGIÃt3óx}¿Ó»‡G­õ@e®$Ô7ç\"1àv\000µäxLøÎ¥²ûxÃWqA–µ‚\nôÅH>ù]iÇPp3u œ”äéü×_¬1Ã0ÏÆèı%c½n>Õ_Ä„ÏñÓKÀ–Êå–])UÎ08y/,C3I $Xt|ov¸u‚Ÿ",
+["metadata"] = {
+["guideId"] = 80284986,
+["retail"] = "",
+["next"] = "a) A Goblin in Harandar (A)",
+["enabledFor"] = "Alliance",
+["name"] = "a) Bloodstains (A)",
+["key"] = "RestedXP Midnight||a) Bloodstains (A)",
+["group"] = "RestedXP Midnight",
+["version"] = 20,
+["length"] = "616891112",
+["chapter"] = "",
+["displayname"] = "|cFF00CCFF17|r - Bloodstains",
+},
+},
+["RestedXP Midnight||a) Test1234|837"] = {
+["version"] = 0,
+["cache"] = true,
+["key"] = "RestedXP Midnight||a) Test1234",
+["groupOrContent"] = "ÕZ[sÛ6~×¯ÀLÒîÈï¤ÒeË®³ë[-5iÓíd –X“„\n’V´ã¿ç€’^¼VwØîlb‘ œïÜ¾sÀ£#×pı‘aæ`ğF°œFñàÍBğbEîY–³ğ§;r…i´Xæƒ7)M¡ß’¦eŞ„Q¶ŠéFlïÂ¿Á›(Í™Hi<€9Vƒ7OV1ËÙ:Ê—$e_a®˜ÎYLf\"¢qFh’1Í#fär:8>~ÉYhÀŞ­¹ˆÃ„®ŞKšÏ‹ù<f_\\{!ØF›Ç«÷¦şœÏhüHrNƒûŸî¾\\Ü8¿™\\ıüeFK© Ó\"Ír=²g¡\r4l•ß³‡ËËîİ´œŠƒáæT]Ò½,‘¶à°=ÓYCÇÕloèéšåô&è‡4}dlÅù;Šè³ QšE!#ù’‘yÅa”.@ô%]OA \r/¹dTäË,ç)ÃY?ÑÍÈ)ŞfÒöÂ7¦ßŠ.ØïE$Xv°Ø†9ôÍ³††>Ô›¸8fvÁÿ—Ñó4×º¾æ›½AùçÛŒ*€£ü¡kiÎ¨7ÆOTPuÓ#İ·”M_\"MŞóõ{r_$\\dd<çEî÷-gØ*9ò˜Ág“3]¿M¥M-!(€…\000ùÉ³¼¡BğuN¶;ûgÚØÚ)ƒÇ—dB×é<¦!@[CÚ†kƒôF{EÀ%/D¥{\\fp	şr\0000ÍÙTˆ\r¿â+Î3F®¢UVSˆ×ıôL€¼áä‚Å/¨à\"Ş°'Šq™„|6`45Û–6eŒÓ­£STj.ˆD\000Óáİ\"+ÄóÌ´<Ë7ß%~ŸÆ÷7_~9ÿ\n«Œ4êÓ\"‡ ñ+|1 i\000<Ê‰›  )\000vK<†à°m‹·5Çº†fû½)yJÅST·x×U\000ÏãD™ü»×¥|©†0 N®é\"\nd¶€?1ÁBòñÎùVÿ›{FCrÃsömv[ó-Ì(cÑ‡½`A!2.Ş‚gÙ’Fâ”™ù^®³8\n	/T\nw÷áì_îé\"ƒUş¦(åævvşÔp;ÿfáÒz@¼‡è+5rÁã˜¯åTËs|€¬éfÅaÙ,!Éœ½\\˜¢¡6Ë«Ô™<ˆ‹P¦ıÈR÷€Ò	^ŒÓ~N¦ü7È$)p%ÑëxyÔv1ƒı€V³“òzw9>ª_Ÿ¾²ú~EéZèYFµ‹k&À~Ò¼=ÇË2\000êü)ŠOÊßøó´zÒ@’3†E”g‡nƒLXŠû^‹\\ã¨èü'çRC’§%C/j˜“¥¹ÆĞƒä×›5måãQì	£dFAÅwånböÄbô&Õì®!Ö¼İ>ñ‚Oæ4®ù¿?2uÉh	ŸK`É… ‹„fä-ØÌo:Ø„=°4cm°o“ŒÃ'x£\000Ã\000:Aó`9e`|ôÂÀçMbZ†œŒ¼è.v¿Ç•9Ìøš‰¼Ûf.brs>Ğ¼–Úœ¡£k†5´ µÙ½E½Ö‚JüƒEİ*şÑa ÛpFŸh,6M©OÔÙåæM¹y¿?[[ŒªØƒ{ŞG×ñş€œªrŒ+K³4ŒDİ…,ù¤gô½Ş½ª‚¼\r+«È¾rŞ“1ÔAíAEEHãàˆwl¡îöRÿ9ªíM÷ÇTĞ'¹t½¬2êÛ\"Ï‚%KXx0Ğ÷4]À\n3[(²Äæiz7×SÍÚ3•´~‰Ü\"äKše1«²{}’±Í}{š÷W†WY!ùBzndõÿ2¼:e,‡\r ˜BìÏnYÉ4à<Ò·`IK2bà7	çie5[¶o­|-/WIï¢2¸IŠàéöÕ,ì6\000ù+ÊA¢–©h–¤8CV¼#;é£&g1Mˆ\n«7ÍX=¦dyÓ5ç«¶4—H›8rpxïg¬ï½;‘—÷ñööîøh,û˜ûQŠË¢‹vŒ³U$ĞÇTIü‘u+ª³I¿uîâ§×Ú,û9\000‚{\n´¦7G…mã„M®ğˆ\000IH$ÙT\rYrĞ~\\úhÈRyÙc´Z€ËE+0yÃ2Gş¨òår.9[²iQv›‚qVF†¥ÃÌÿÇÀÙ¥ã´e¶Q¶=P¤ÊºÉY”opkP$`0r–@d³ıá±¾OKû–Gká-ÁÃßäw\\‹ÿåâáØ»‡´‰6[/8\\Yçcw}Gó¡kj#£=æj¦uŠcw½‡SêøDkÌÖlßóÜ®1İÃ1}ÔƒBÔÁ½8c†7tF{7Ü¡ãk£1CóGØıßc¶‰sú¸èšcà˜İñòÁœäØÿ·›¼@®‹¼ @öXÊ¢\\)›äıíívÑnj†;Óh5àÀ´ÁÑ¨=f\"m„±‰ú{ñÛSÚ¾æJ;ë±%väIĞ4ŠëÉœ³\000[¢±‡ï¶9wÎ0`´eY3óÚš°LÛÛkb¿\\HLİBg0İ]Äø1ÃèÒÒ=lÀü2]AºÈí—Œ“¶^—\\rŒ5RC¼_®nÉÕ‘1­¸ÈÉ)\rm‹nşArñ—8«LO>ÒQlw2[˜¨HĞZ¶ƒ9Oì­`ävİ#±Ibkôf…ÄvÇYLßÓÎ\"!!ã˜ƒŞğõÁ¬ÖÓ,§¿è…-	é¶éù/Öv¿Ë!ÛÙï»=ÉÁJêZÿ$óVYRbEYMó{Uèƒ˜_'×û¹›vô7f&G1MØ<?;»x=>jÜ˜üÑ¶İY£m×½‹‡\\ö´q•y¹»R:-§T<¶º¶‹ìÅv€!ô¦Ø«M–QAÉ¤È¹vıpÇ™µÚ}Á±O…U¿¤=ËÁÖ|†ıØ	_,x½?dùHeà·¿şºV+öoÛÃëcºynôî[¦¸<JàA¨‘‡÷w	Ï5+DŠ„Œ>üçK_®r€Üû²¤V¼z†|€PÌƒ`œ‚*f~‡ùrØÉ†ü	^î¯Nj—Ÿ[vn€ +÷Ìƒk _{®sÈqM«Áf¬§m²ùHc°ö(­«ˆŒë\"W3ûci­í–­ÕÍ¸Dâ†c'µÍ¹›¥jÁÊ¡›lø2lÓdÅÂØ\\kïcÕnŞ#¥i<i)\nËÇ²Ètş\n¥Z¯ì^Ùëyv?qvrÄ²ñ-›3ã„Æ°;ZÉCà‰R9àŸù¾îxİ®.èpº¤!ÉT4\"5ô,(Şz3«æzµf­¤];“ˆACLöjÎ@JÅ¦êS,)Ü§X	H­o€¸>ôLÍîÏ‹:U©¦nŠ'}ây©Tò=€¥²M­<®vÓÆä#Ky‚ç1y ÛJ{V7•Ş÷´€ÄDøè´€ELı2¢µÉ¶!Nè<&I¹‚ÇÑ’•{Û[§Gí{“ƒUô‘-A³xg2\"4ÁY£Fì²cI	æÅFÄ»¦aÈRìc•: ?PØe²tªdoLÔø¦éØ¦¯wq×2=î­µêÏxÀ*Û`Ù‚ÉaßÈq{ƒ©µ ’«ÆÈÒk(M]ğômVdu\000e*@Ã\n“ÆB#r%KÉ)¶îš=6¤	!éÑrÚ+*˜`ú•„Scg@ÙÕ å]L<±`,˜®.XU1 Æz„ËpõWo·W¬‡AK­¸»‚•×ìÚ±SÆä™êk ¼Ø’‹€âévBdˆ¶ÀwIó%éqÜkºhÔÁÀ²­«o?“ëÅ®…Ubæè*mnJ¶C¨=KF­·;ä³œ¡Tğ<İÑùİ÷Í}åüvºøÜ«zü¬óOÆş`Ò·s	åcŸXù:BÍvØ½QŸ~ŒŸ¢Æ,ÏÄ“´¼Æà,ßQÜ§öY¤ØÄgÙ{\\İ5‹y¨RÆ¬mÍiírñÈà}2^Ó£ÕÓ8’F„Ï¿BÃÇ°($«1¨g‘â§0jñ¹£r_¤¬ü8÷¾Hd¦:WEâ¢`«U¶”Ï¥±@n€XÒ¬îğ„d„ÇãFßÕ¶¬Uw¾S#™e÷v¯œı—©õIÿş",
+["metadata"] = {
+["guideId"] = 2869234288,
+["retail"] = "",
+["group"] = "RestedXP Midnight",
 ["internal"] = "",
 ["imported"] = true,
-["version"] = 1,
-["key"] = "RestedXP Speed Leveling||a) Highmountain Speedrun 2 Midnight Horde",
-["enabledFor"] = "Horde",
+["version"] = 0,
+["name"] = "a) Test1234",
 ["length"] = "616891112",
-["name"] = "a) Highmountain Speedrun 2 Midnight Horde",
-["displayname"] = "a) Highmountain Speedrun 2 Midnight Horde",
+["key"] = "RestedXP Midnight||a) Test1234",
+["displayname"] = "Test123333",
 },
 },
 ["RestedXP Midnight||cFF1EFF00(80-90)|r Adventure Mode|cb) Zul'Aman Route 4 (A)|1136"] = {
@@ -9507,14 +9507,35 @@ RXPDB = {
 ["subgroup"] = "|cFFE74C3C(90)|r Delves",
 ["next"] = "a) The Grudge Pit (H)",
 ["group"] = "RestedXP Midnight",
+["key"] = "RestedXP Midnight||cFFE74C3C(90)|r Delves|a) Atal'Aman (H)",
 ["chapter"] = "",
 ["imported"] = true,
-["key"] = "RestedXP Midnight||cFFE74C3C(90)|r Delves|a) Atal'Aman (H)",
 ["version"] = 1,
 ["enabledFor"] = "Horde",
 ["length"] = "616891112",
 ["name"] = "a) Atal'Aman (H)",
 ["displayname"] = "Atal'Aman",
+},
+},
+["RestedXP Midnight||cFF1EFF00(1-90)|r Default|cd) Zul'Aman Route (H)|1010"] = {
+["version"] = 1,
+["cache"] = true,
+["enabledFor"] = "Horde",
+["key"] = "RestedXP Midnight||cFF1EFF00(1-90)|r Default|cd) Zul'Aman Route (H)",
+["groupOrContent"] = "]MK1†ïó+r°{XH<¬.”‚t\r½Òƒˆ·¸3¶ÙdÉ‡Uèwı@ÄóóÌ3oÛv¦»î1—\000*qqâA½rÊP‡ëŒ{Î…éñï„‚T®Ïßì<Zkn­ÕzeÚ^7ç„¿¸ê)¸‰q¤Ÿª¿¸™\\À}¬…qµk@‘äÙ»÷/ç3b·ÃVë«å¾ıõ—¿¹Á‡(”KLÓŸÆz»˜ˆa™7ƒ’0úJŒîÿÃ~â“Š'Øl|ü",
+["metadata"] = {
+["guideId"] = 4284028395,
+["retail"] = "",
+["subgroup"] = "|cFF1EFF00(1-90)|r Default",
+["next"] = "ce) Voidstorm Route (H)",
+["group"] = "RestedXP Midnight",
+["key"] = "RestedXP Midnight||cFF1EFF00(1-90)|r Default|cd) Zul'Aman Route (H)",
+["imported"] = true,
+["name"] = "cd) Zul'Aman Route (H)",
+["version"] = 1,
+["length"] = "616891112",
+["enabledFor"] = "Horde",
+["displayname"] = "|cFFFCDC007|r - Zul'Aman",
 },
 },
 ["RestedXP Midnight||a) Where War Slumbers (H)|1100"] = {
@@ -9529,51 +9550,30 @@ RXPDB = {
 ["next"] = "a) De Amani Never Die (H)",
 ["enabledFor"] = "Horde",
 ["chapter"] = "",
+["group"] = "RestedXP Midnight",
 ["imported"] = true,
 ["key"] = "RestedXP Midnight||a) Where War Slumbers (H)",
-["group"] = "RestedXP Midnight",
 ["version"] = 20,
 ["length"] = "616891112",
 ["name"] = "a) Where War Slumbers (H)",
 ["displayname"] = "|cFF00CCFF3|r - Where War Slumbers",
 },
 },
-["RestedXP Speed Leveling||a) Highmountain Speedrun Midnight|1325"] = {
+["RestedXP Speed Leveling||a) Ohn'ahran Plains - Into the Plains|789"] = {
 ["version"] = 1,
 ["cache"] = true,
-["key"] = "RestedXP Speed Leveling||a) Highmountain Speedrun Midnight",
-["groupOrContent"] = "í[[sÛ6~×¯À2»e¼÷!SÛqšlÇkyÇmw;H‚-Ô¡‚”Ueüã÷Á‹l§eÒîLgò·s?ß9€Ÿ?İ0N\\×¥£Ñâéèà«\\ÈŒ¸£ƒ%WKrÁó‚Ï¾?'ã%ç3rÊïx*²›ÑAÆœ°¿“7âf¾«Ögå$µÊÈ;1Ë` ˆ¬à*céöYR6áicÑv{8²od!I8–ØId…£—/ï/õ.×lÊ_¬¥Jg¶|1³b²šLRş!ôoßØ“tù5uî‹K–ŞØè~zñıù‡×oOÎ^şğáŠ©‰bwœ¼Wò^Ù#»`ê†Äü>²ÙtÊ—ñâÄ‰ÈË—‡åÏï8_‚hˆ¼&Åœ“7l±àªdÉù¿V ¥Ã; rˆïøql2Ú!µBj»>ºRHJÏıS1½% qÜ¶$øüíñwÆ–¦äRq–¯'Çs8á^‘k©ÿH<›‚ü³YÊ5PfWòÙ4]Íø>½ı4v	']Ğô‚e¾Ó×70¸ÓCcRá>ï|?ÉfîHÜJ\000Àõì(´‚ÀöbS\000‰;¼\000†2–Ãì&åŠ+ÎS8ÏiÍø'K\r9–U²æ%~k—ğ“ÀoøëT®·Ö£Õ––xnX[Ú¥bË%hì’Û™1+tızÖk‘ÏÉûU[^±·Û™›ï‚¡Y¡k±±œF†9—Šm4Sç ‹ÖÚ×úÉÎ?LQì>6¹ßgx¬?:˜ÊÅ2å_‹bŞğı’ÉŠåŠã—/¿ ùRÚ'g'ï~øp’ñ…ày¥‡éÖbky?ù™O‹\\ka{ZyºUYé§vgéÉµeÖ±d.`'<9fj	”Mx±æ<#¹ÒTâ¢rşÒ&É¦E¹¡(šd‚j+™ÿÎyIßeèÀ>á×`Òÿ9Zİ”*æê'²ĞpÂŠ†`_)y3aŠ\\Iµ˜Ky‹\".Ç¯/Î> /S–‘™’«Öà/°JúÆÔW2{V[Ô³\000q€§r²ÊñT$äµèª'¾íğàÒ(Á ¹Ò¦ªùU]¡dšî\"pm¾Ô+ô0Òb$x»‹Ó•Ê¥z1U2ÏçL¨[ìÁ¾@t%åŒ1¥Ä”Íx›ğİ­ê2›¾í—½.¤š*´³¯E„˜„zµs¿“òãæYNÆòg	hç²íöfä>K3²Ydû!2ç9ƒÉøh5½å²´¡%KÛº'ıİ`©IÑ®Hgw<ƒ#xŸ³m\r,×3£_&õœú§==tıkvîÒ‘N/‚ÜgøMb{	¢@Ú\000A‘?8:˜‹(1›ÉuK©-Ûn¤l®8D\nÿ·œfhÕ‘5ğÛ#À˜› V£ÎPlû¸ÈÊ‘¯bjˆßın×kQ¹[Î2şkñ¹¬c¨T†È)%\n{m…TZøÅ-®™‹ì1“h{ëgä|„òûJ¦²Ú•L­*h7­¬‚¶Ó+ƒ<]EÆú²Ú®o×Au±º5z8×Ü5yÌ€ø¬uJü[¦ÏT­ÓŞj>P­Gá%¨Óc]:6x°ÎC+rí8¶‚ĞZC.JËíˆv†¨%õì˜6_8|õß.*_ê\"Àš@HPÔµ‚˜´˜ç¢zİ’«¡|eÌÓ”5ÁüÎDKäÚF¾á•Eµö¨ÔûQf<¿K$¿%îV…(Rüë×¯_;Îkˆ½r­µq¨”\\ß«N6wQ\"ÔO9vÍp.ºE¥ÅY	Åó$®q†ì$ú?iO[#vi²ãûÆ¡0gxïq_?òÜ¦–­M ·Ç’‡t°ª<—:>åšdùóÎ8b‹5S¨¥^ÀáEôêÑ¼«z”İºIù”cßAšgÒÉ+^·°¿ÏE¶±È‘şÎféæycâCMĞÿû: z\rl7h4A?şß”ÈÁá¯WŠq¦¨Aà{Œt\rqšAĞ·<¿ªø]\nß¶¨€âZ¿Œœ=¥u¦F—§R%˜D^î/ã(¦¡§n¹ôôıûKså9OóŸZ½—„\"ÆDÙ:¤OŞ;Á¯ŒgËša/‚Ì…!Ëƒãøº=D‡·•ÙZ¤³†6ø™*ÖRj¡­ÙLp\000@?¦|\"´“6Å²[2ÅNNNü#¿ Y¤Ñ”ïP7´¼Î¿F1Íç²UKšbk—…¡í$ÚjÂÎPd{PFzıC\000µüĞöârèOll¦Ó]0(!F2'ädÃû(/g¡5½s±%—çûmr»›v(ÃhKq9»Ğâ:~q’•%H×/|P•®ş=t‹rŞ>·è;©7*yıg<(´JËƒI­*ÃZØ¡&&ˆ€áfwÄ±cHº–í!û>Àß¤g„WŠâÎ‡áx+ÜÚØÿ4QÍê\\d\\IH]€Ó[¬¾ğë4µı5yç…³íÈnşI\nßæ+)½âV–r¯$¶&}ÃÊj`p¯¬ö”SÆ3AÆ\"Å»ï¹,úK×“4,7@¥„*É›•¶€*o@3…]ê7ágÎÉDTˆì™Y'&JEWĞ{êIUe\n§ÒØ¸Ç›\"y[`\r¼Ü_µ™no+2Õ®Å^9W‘SüÑX‹onk‹ÏÀ¡Yk¿}¶ g«i™ı­EÕ»Fõ®¥¸Ÿİtµ;á ·lÛ}ªĞáî÷#7×‘×tyšXQ™§Q»zŸ˜EmC°IlnKşŠŠĞ?vt½æbïØj&óş¨ÑØ‰'1¬à[Ğ.ìÓÉ·\nÌÌ'®qgƒ#ˆÀ³B»u£1×kÎßn0¢´&úNàõÄC(î€‹«m“w¼Jy}ŸÔaæéÊy³J3H-Wà¶;íà·¾T6¸ıi˜ Ö\r>’€ò1ÆŠm°Nä»Õ3X]B$Áa†e×‹¼+mÆú\000À=_úüRLç2›)±ÊÛ¦ùxÕ6°«¢µ¹Ö¹ˆœLd†Ñh$kpğ\\ÛĞ+æŠ‹†¡¯3Æ|ªx¡ß5Œd×@è£ ÇßŠâ!¯‡/¥º#¯V“¼\000}wÃ>\r©áTÇ\\ñ…ÌÃ‡Õ¢6üÆúÇí)ühğ¨'¬Èo6Ô(Ö¿\000”b§´uk8k×ì ãµA#ëí¿şÙËÂªğhÀK_˜©ËÇ~(¾Rs-7•á¤Z`·qğş“Â•×æ¨u¬€´ä£tmŸ~9ÇÇØ¾¦îg?Şíy^Ø.Jİ\r¾Àé´G ´CQmƒyô£Á¬ŠL»»ŒßšÌA3¡C0Ô»A”„]ÄÖ…±uqŞá\n˜ÀŠ(>òk¸{dÑ/ Ş§Øç¨ºËOc´y£ÕÒ×´Uë9ÏºŸÈuœlõ°m¹O‰ßOI‰{t`ôûœ»J–ûŸ>¿:“½Ao	Ô(Äi§¬Ó¾ÕØòlÂŠ¦DB¨\r#;.,)öQpÕtM(½ë8‰A¾Æ¢X›;fã5Ğ°ô1¼Ñõf‰ıA`ıï0o¯Ùx;ù¼Ï´„J}¶º1V^‹!#{­ÖEŒ@›wöa§áØ Nò8¬õ:C¾M#ìÓ9q{ÈGÌƒA0@kÈ‹ğ‘tàÚNØhx|9;®¥ãü'\\EeR‚H˜ıf7¬:›@F÷t¯h8dx¢²yÇs†/‚ä¹\\p oán#WªìVÌøeº«„¡¿|ßĞøX±Y\nÕŞ(Ş€óŠ¥˜á•‘ãíBfcÿÇã)®i£ĞÁ‚Å~ãõÖOÌS ®Ù<¼PÕã«ÓæÍÀv~şõjl#” !6Y¾˜\\ÇC§ÔÂÏ~¼Ûs<\000[(’!SÈ~îı’ünïWæà£¨jœÄ¼«\nw/A‘áõXsBg [¹=å“ƒ¨³›~¶#_õİr¤+¾f¿jÓ)@sd|Cò%ŸŠk1…¶!S¦Ô¦›Øö‰Ä«.8Úû?=•«M^€U³”-D±©sX5²¨:\"­¯Æ…m7†ôfÅn€„ÃÅÛLÍšly‰i­ºé™ü@01û€àè~ÉBÂ“xŸ!Åe ì£µ}aÕ¼²ÕMZ|Éƒá{†<Wgı¨3äâ%¾×q{†¼Po·‡üD¿\nòz6ôu4)aDwUé|ìµóa´ûĞßœıØ¤Èñ\":\\òİımÙ»cN”ë™wW\nŠ-Mô¨ógi¸´±Ğ|	*3¸„Ñÿş",
+["key"] = "RestedXP Speed Leveling||a) Ohn'ahran Plains - Into the Plains",
+["groupOrContent"] = "-È±\n1à=Oè âpè#‚‡.®û¹jz¤õßåÖ/çI¦ëMD.D)0Ô*¥Ñ­9¥5ÚoãúÀò™ù½?°£š¯”\\¿`=ó³øIK¨ó\\Õ¼sæ»Æ£àJæáZéÿ",
 ["metadata"] = {
-["guideId"] = 2015892926,
 ["retail"] = "",
 ["group"] = "RestedXP Speed Leveling",
 ["internal"] = "",
 ["imported"] = true,
-["version"] = 1,
-["key"] = "RestedXP Speed Leveling||a) Highmountain Speedrun Midnight",
+["key"] = "RestedXP Speed Leveling||a) Ohn'ahran Plains - Into the Plains",
+["name"] = "a) Ohn'ahran Plains - Into the Plains",
 ["length"] = "616891112",
-["name"] = "a) Highmountain Speedrun Midnight",
-["displayname"] = "a) Highmountain Speedrun Midnight",
-},
-},
-["RestedXP Midnight||cFF1EFF00(80-90)|r Campaign & Sidequests|cd) Zul'Aman Route 3 (A)|1150"] = {
 ["version"] = 1,
-["cache"] = true,
-["enabledFor"] = "Alliance",
-["key"] = "RestedXP Midnight||cFF1EFF00(80-90)|r Campaign & Sidequests|cd) Zul'Aman Route 3 (A)",
-["groupOrContent"] = "]ÎİJÄ0àûyŠ€n/\n‰Âºe¡Ts'È\n\"ŞÅdè¤IÍ«°oıAĞë3ç›Ó¶kµŞl•R\000\"Q1ìA¼RÊ*cŠuÆ=åBîñoÙD®ÏßÙÉj­n´–rµ‘íV6§„ƒ™fÃcÀ3¼gG/uégÁL„Ö5øTıy?™€ûXá%®ú„ã<{óşuõ©êázòjñÚßÆ‚Ğ[AK\r>Dv¹Ä4ıQº{ïÙK°ŒAp°¾:BóÿïO~X9¸x„İNÁÇ",
-["metadata"] = {
-["guideId"] = 2821856089,
-["retail"] = "",
-["subgroup"] = "|cFF1EFF00(80-90)|r Campaign & Sidequests",
-["next"] = "ce) Voidstorm Route 3 (A)",
-["group"] = "RestedXP Midnight",
-["name"] = "cd) Zul'Aman Route 3 (A)",
-["key"] = "RestedXP Midnight||cFF1EFF00(80-90)|r Campaign & Sidequests|cd) Zul'Aman Route 3 (A)",
-["version"] = 1,
-["length"] = "616891112",
-["enabledFor"] = "Alliance",
-["displayname"] = "|cFFFCDC007|r - Zul'Aman",
+["displayname"] = "a) Ohn'ahran Plains - Into the Plains",
 },
 },
 ["RestedXP Midnight|Pre-Expansion Preparations|a2) Item Preparations (H)|721"] = {
@@ -9587,9 +9587,9 @@ RXPDB = {
 ["retail"] = "",
 ["subgroup"] = "Pre-Expansion Preparations",
 ["group"] = "RestedXP Midnight",
+["key"] = "RestedXP Midnight|Pre-Expansion Preparations|a2) Item Preparations (H)",
 ["enabledFor"] = "Horde",
 ["imported"] = true,
-["key"] = "RestedXP Midnight|Pre-Expansion Preparations|a2) Item Preparations (H)",
 ["version"] = 1,
 ["chapters"] = "a) Item Information (H);a) Shopping List (H);a) Guild Items (H);a) Shadowberries (H);a) Bivigosa's Blood Sausages (H)",
 ["length"] = "616891112",
@@ -9597,22 +9597,25 @@ RXPDB = {
 ["displayname"] = "|cFF00FF002|r - Items",
 },
 },
-["RestedXP Midnight||a) Runestone Rumbles|931"] = {
-["version"] = 20,
+["RestedXP Midnight||a) Gidwin (H)|733"] = {
+["version"] = 1,
 ["cache"] = true,
-["key"] = "RestedXP Midnight||a) Runestone Rumbles",
-["groupOrContent"] = "ÕV]oÚH}÷¯‰§J®ƒmüA¡R´Ù¤vµ»BÃøbf3qÇã|Tüø^Û85šHEêÂsÅœ{î9çšC7Œ‡®ëz–ÕÓ`(VïtÁ•$^ßê¥Z•9™Ca ù:#òDòtc¬¤úÌK‰E%¿e+…ÕãÒ€–TXø£ÜêQ­Õ½CTÜ£ş‘[6ÿ:[~_N¯/®şZ.@ƒ çB©dM\rlµå¤Ê(âùÃÀúëÛşÀñÖh´]Ô·¯)ƒ³{¥E’ÑüŒm¨Y•+D_†ƒTÃ£³ù'¯¿5;Dò c9”1È\r\"hHF£qó8¡Bp™.‰Ù\000>ŞQ¡-ÇP2Ú¿hÇXĞŞ¨ÿT©%èe·4…CR^M*®I]>‘b¥.”>cZÅ†r}Vó¥Ì<qšÎn‰jjˆÍ.','z7;¦²\\€†‹í6]uĞı¡ã…v:‘‡è7†Ê„Üs³Ù‘d\\3ââiY@³p}/\nƒOˆß@~Ï¯—OŒ¦cfĞ.ç¥Aü{¤ïYïø± ıà=ğërAïeBv;]'Ú¡çDá{t6xuFÆ-.HÕóª²Ûö°íhPµÇo’çˆ˜ƒ“ÃY´)Yàc•S1é„*úªvğäÖ xŠÓ!d«›R{öA¸*‘\"Ûìş¡€uÍ«\r<;Dó¹Mí­¢÷h§sz±Õv·tÒrF¨•q:Å©à·m=Ú=kDmlKkDk¼^ì®[âŸnãÌÕÇ#Z+k×l;°*ŸDâ„Ú„Ï´2À ŒFuÉË|äˆq‰½`Ò½nNvğj9Dì;‘[‰è¿µˆ[M:[‹¯‰TÕË|C˜2FS:Å-ÏSLÏyB\\?ôĞWû£Ù\rDÃ·’k(Nã$Áÿ£R¦VdœÜQÉª…4Ó¼È”ä´)\\U^Öäw	:òß ›.]&Õnpİ#T·¥9ÍršV¥ú‚\n=#SiöŞ+}µÒ¿\n®ÿÎÁ;Á=’»“øñ",
+["enabledFor"] = "Horde",
+["key"] = "RestedXP Midnight||a) Gidwin (H)",
+["groupOrContent"] = "íTİJM½Ÿ§8°‰‰Ê®!¢_DÆ&‹.è©®-ìéûÇuÃ^ø¹Êëù$©¢Iä2«aNUŸ:uNÓ++ëƒõÍÁ`°V½À‰Ä½KQ¼Ã èUÁçG›Ó!Å8©¦©è9ª´„}13qx~°¤_¥I8!ûĞaàæ¶ÇHl,Í»ã»¤´Áah©ÊlÉ™XôÊ)5Š[[8ğÁp¡=Â¾n,'Iš¢Tô,Ùâ„‚W:(I²ŒE¹···ón§ß?>—i*-’G|Él¡x9jñì¬/Ï£61.²î‰÷>Çó›ë¯»Î@eáœ¹‰]u®õ»Vë+DBbËZO\\£$‡1#G609¨º~£sıe³¯åº!©Ü2\"]¶EBÔ_™ˆTkŸõã'HRójñbQÏNŞ}8ûßgÔ4Ç”.Õ}˜Ì÷Ö˜ÛM;io •¶Ü\rîDiÅyUì*ğcMÚÑØ²ñxÀnÔ¡”Çœ4ø‘*øLuçExªåogSv0Ş1ZUİÎ‘¹S@!øYKğ‹0¸úY	bK¼öêö¯±½½ï[¶¡\nR×îh_d	ÿİ¿ğˆ+m6üóÛòéáU¹ëüó@#—©}ÀZÿtr•E)~ïR—§ê|–4è6ÑïÙ«ñbqÕàáf°yºõ!¹LÖÎ£äÛ",
 ["metadata"] = {
-["guideId"] = 599920323,
+["guideId"] = 3253275425,
 ["retail"] = "",
+["next"] = "a) Tirisfal Midnight Prep (H)",
+["enabledFor"] = "Horde",
+["chapter"] = "",
 ["group"] = "RestedXP Midnight",
-["internal"] = "",
 ["imported"] = true,
-["version"] = 20,
-["key"] = "RestedXP Midnight||a) Runestone Rumbles",
+["key"] = "RestedXP Midnight||a) Gidwin (H)",
+["version"] = 1,
 ["length"] = "616891112",
-["name"] = "a) Runestone Rumbles",
-["displayname"] = "a) Runestone Rumbles",
+["name"] = "a) Gidwin (H)",
+["displayname"] = "Eastern Plaguelands",
 },
 },
 ["RestedXP Midnight||cFF1EFF00(80-90)|r Campaign & Sidequests|cac) Eversong Woods Route 3 (A) 2|1154"] = {
@@ -9636,21 +9639,22 @@ RXPDB = {
 ["displayname"] = "|cFFFCDC003|r - Eversong Woods 2",
 },
 },
-["RestedXP Speed Leveling||a) The Azure Span - Tuskarr Troubles|784"] = {
-["version"] = 1,
+["RestedXP Speed Leveling||a) 70-80 First Crafts|1377"] = {
+["version"] = 3,
 ["cache"] = true,
-["key"] = "RestedXP Speed Leveling||a) The Azure Span - Tuskarr Troubles",
-["groupOrContent"] = "\rË¡Â0`OqI¢âH<‚@öÈşŒ†î¶\\Û‰==óßã Ãå*\"g¢àhš…\r^ób,&_úÊOÔ†ñıà×\nŒ|Ç†’m¢`:ƒõÄé¾íİq5œzı©;§ã\n*…l\rnZèÿ",
+["key"] = "RestedXP Speed Leveling||a) 70-80 First Crafts",
+["groupOrContent"] = "Å–ßoÚ0ÇßóWœÄÓº4ÊïMªÔm´©šTkß*7`áØ™mŠúÇïlhWÌŞy\"|mŸ¿Ÿ»sœËË:«Çm–ey4ZÆE4zFm¸’PD£¥V›¦h,Î&0çp‹Ï(¸\\F#ÉzöšôrœÂw®…¯š-¬‰F\\ZÔ’‰ˆÖÑ¨Sı Ğâ–ÛÜÈyôñ¥›>Lï¯§¿ıŠî™†{šÃ%hìø€°PìŠ~}xËİ–[¦ç†f¦—äìIÉI`†;Z-Ğx«(D·1@Ïï-¾è$º¸EF±õVéµÛŸ°»wLˆß´[!˜œÃŸ\rïÖî,ENöhWWAÙJ\rƒ{¸åÆ~Š.ŞÎÖ| ¸´[\n|;µ-“ÖÙ6ÚlˆN*î3øëP¯ÑxO‡l9€¤SÂ#çY^×e\\¤i 5§ZSÆY(¥N:ğ|¬[›ŞWál8i[¤q}l´:nB©hŠ:KãòæZPûİÙ8š¶&ƒÇ¦ÇiEe	¤üTÇYõÊñCšNsßyge©–¦mÃÛ;?Ñò8?MCÖ.LIÅ»4üÄ-ŠWgK„kÎ\000º((å±”gmœg­lÇtÛ–m\\“ª@©(¥GJÑT…tÈË½»•>_Nòrœ;°¬>=Y˜&_á7’¹äñŒ,ÿ­¯Óœ´fzd¼[Ñgôíó¼4}vO|‡§Ì÷à‘”gMU·\\ÛVy|8‰#ÁPì¯ò;¶FokPÚ2áÌ~SZª%=/´êıØd?6UªOà77Ü:p\r“WõfTyí/Û'¤.xãLè«ƒi	·‡ïºşÍ>€Ys!€ËN#3h’èï",
 ["metadata"] = {
+["guideId"] = 2019954624,
 ["retail"] = "",
 ["group"] = "RestedXP Speed Leveling",
 ["internal"] = "",
 ["imported"] = true,
-["key"] = "RestedXP Speed Leveling||a) The Azure Span - Tuskarr Troubles",
-["name"] = "a) The Azure Span - Tuskarr Troubles",
+["version"] = 3,
+["key"] = "RestedXP Speed Leveling||a) 70-80 First Crafts",
 ["length"] = "616891112",
-["version"] = 1,
-["displayname"] = "a) The Azure Span - Tuskarr Troubles",
+["name"] = "a) 70-80 First Crafts",
+["displayname"] = "a) 70-80 First Crafts",
 },
 },
 ["RestedXP Midnight||cFFFCDC00(80-87)|r Campaigns|ac) Harandar Campaign (H)|1107"] = {
@@ -9664,9 +9668,9 @@ RXPDB = {
 ["retail"] = "",
 ["subgroup"] = "|cFFFCDC00(80-87)|r Campaigns",
 ["group"] = "RestedXP Midnight",
+["key"] = "RestedXP Midnight||cFFFCDC00(80-87)|r Campaigns|ac) Harandar Campaign (H)",
 ["enabledFor"] = "Horde",
 ["imported"] = true,
-["key"] = "RestedXP Midnight||cFFFCDC00(80-87)|r Campaigns|ac) Harandar Campaign (H)",
 ["version"] = 20,
 ["chapters"] = "a) Of Caves and Cradles (H);a) Call of the Goddess (H);a) Emergence (H)",
 ["length"] = "616891112",
@@ -9686,9 +9690,9 @@ RXPDB = {
 ["subgroup"] = "|cFFE74C3C(90)|r Delves",
 ["next"] = "a) The Gulf of Memory (H)",
 ["group"] = "RestedXP Midnight",
+["key"] = "RestedXP Midnight||cFFE74C3C(90)|r Delves|a) The Grudge Pit (H)",
 ["chapter"] = "",
 ["imported"] = true,
-["key"] = "RestedXP Midnight||cFFE74C3C(90)|r Delves|a) The Grudge Pit (H)",
 ["version"] = 1,
 ["enabledFor"] = "Horde",
 ["length"] = "616891112",
@@ -9696,61 +9700,62 @@ RXPDB = {
 ["displayname"] = "The Grudge Pit",
 },
 },
-["RestedXP Midnight||a) Unlikely Friends (H)|1070"] = {
-["version"] = 1,
+["RestedXP Midnight|Pre-Turnins|a) 2Turnin Route Alliance (A)|1177"] = {
+["version"] = 20,
 ["cache"] = true,
-["enabledFor"] = "Horde",
-["key"] = "RestedXP Midnight||a) Unlikely Friends (H)",
-["groupOrContent"] = "mÎ±jÃ0…áı>Å-ñ`°1)x3/)!¤!CaİÄ«’”ƒ¾N;ºû9?_YÖ²Ş¿I)·\000\"RÖlA|SLìJ÷èO”2™ëlß‡Âé/B]à‡³<’PE&gnº„á¬~Gs¯TUµ­R»9b¹z,-zæWë<^<÷„ş†ïÚú¨Çñ/Ø:dŠĞ4ØùhP\000Á®·Ckàç?4øù",
+["enabledFor"] = "Alliance",
+["key"] = "RestedXP Midnight|Pre-Turnins|a) 2Turnin Route Alliance (A)",
+["groupOrContent"] = "m½ªÂ@…ûyŠmpS ¢…íšâÀ8öGôí½$\\+Ûs¾óºnm»?Xk\000);0OŠ‰ƒb³3ÅPf(eò×;öÊÓ=ƒIå¶v}¤úR¢²&0ê„®ÂfMp%DØéH¸9U`<§YÜ{A;N#‰8¥PşkÇïşg0¬£¿¨šWl{&¡1£Ò+ãTØ|ş",
 ["metadata"] = {
-["guideId"] = 1311706871,
+["guideId"] = 2433750297,
 ["retail"] = "",
-["next"] = "a) The Voice of Nalorakk (H)",
-["enabledFor"] = "Horde",
-["chapter"] = "",
-["imported"] = true,
-["key"] = "RestedXP Midnight||a) Unlikely Friends (H)",
+["subgroup"] = "Pre-Turnins",
 ["group"] = "RestedXP Midnight",
-["version"] = 1,
+["name"] = "a) 2Turnin Route Alliance (A)",
+["key"] = "RestedXP Midnight|Pre-Turnins|a) 2Turnin Route Alliance (A)",
+["version"] = 20,
 ["length"] = "616891112",
-["name"] = "a) Unlikely Friends (H)",
-["displayname"] = "|cFF00CCFF5|r - Unlikely Friends",
+["enabledFor"] = "Alliance",
+["displayname"] = "Miscellaneous Turnins",
 },
 },
-["RestedXP Midnight||a) Zul'Aman Adventure Mode|839"] = {
-["version"] = 0,
+["RestedXP Midnight||a) Pet Battle Setup|704"] = {
+["version"] = 1,
 ["cache"] = true,
-["key"] = "RestedXP Midnight||a) Zul'Aman Adventure Mode",
-["groupOrContent"] = "í[ësÛ6ÿî¿3ùàk‡bù~äf2¦d;öÅ¯³”¸M›É@,!¢$c»ã?ş (ñ%›I˜^;w_l €İÅ>~»\000{=Gw<_×ucoï'	¦áŞ‹gé\n]“8!ÓŸ¯Ğ9Ft6Oö^DxIş½OÃı`‰#L?“(I9AçlJö^Li¼\nñƒ|ïqr||<8hšùÈQo3hïÂ#îÁ«½¶\\…$!w4™£ˆÜÃB!“\rW/PÂĞãûÉœ,1ß{õêq$Çßâ	ùéñpºÄ«Ÿ&sœŒÓñ8$kÆÉƒ:W/\rí1áPÎñ8¹şùêãñõéÑÅáÙ/·S>ruOÍi@ãØš¢ï©	æ3’—–Ôª4¾Œş‚l²WEÃKò6_s-¿ÂRê<F¯^ÌáèÒğ3áKÆ\"4 Éƒ ˆ…Sv!š¥âø–§¼t}œüRNâffÓ7ËV-Kq5Õ4ÿ›âUã]ÍXÓ\"İ´tËüv1çì.õAkš~‹v…FsÂYô¸S?fCo‚ë‹×$d3Á£ Áˆ³=ÿ'Šñg°­ÅdÂ¢iüø=tC,l-¢Q&P <\"x>æx\"ÌpÚ Øõğµ±Ñh¦SR·îßÀ®iŒnpŒ.SÎp4=€x†GñôÊASöËsö×Sfö¿ñ.Â¹	…û8$`)P¹ûÁgpYÄŠ|ÓÒüM;èÇ WºuO¾Ó¶â˜ª§xšª{*{5œsÊ©ë®bê–üã„D·ÜtA@æõ$	 ö˜×²Z)ºÂq¬¶‘Éf¦ƒœ© —ÿê·™ài¡z¯›ŞÑ0±”w°Kƒ wº\\1à(Éxıª9Â)á‡Œ§A¯Ï¥GÑõC#7óÊ–z¾æÙùÆY¦«Xšjƒ¡úªéJC;İÚ$å1ã?M889¦ü'iƒ`;„t²@à`Å²™±]Ş|xBcíÇhÀÀÃßåÍ^œ€ìN$ì(dœF3ô&bw!™ÎO1(+¼Ì1¼k¹º¦ÛŠ¹›9]s*ÌY†bëªîuÆÜÃ½~Hâ˜LÑa'Âãmxõ¥†ƒoŠ’ç™Ñœ'™Ñ­\n3¦ß13ï(»İÂËé”&”Äe®t¸\nÂ	x¿‡çX2ŸbIs¼êşøRùìÎX:#Zx¯ÏÒhŠFd2èïi…# 8:â	§«„Â,ÏhöäFY_h›°¥¦jêŠc«~gLeîğè~Ex\"ÌjNc–÷Èò£s=¯uú“[¤»Zu‹Ó½[fF8’´^Ò\n#®ÃÃÚ°bå¬|¡ç”8Qhş&ØôêM_5sÉÏ•ƒñûµØâ…¸©)§šVg8Gó'ÀnXâ<™UóLaÅÙ# ˆ®€”KüæPg3C½àWÕ»C¶×dÂSš CÌ÷9^mXí›š­—‰>¦æ€%àå†ÚÊø:Í–\n^ÉqT£;¿Á3\\°o˜Ú–Ö\000ğ¢ˆ}€šªA]ßœ\roÔ_z§3JßãÅşÇó*­z‘Ö5}kj%å[eXOĞH-è‚¥‚ÇèŠÚk\nkqZNq¤ˆ§’Ï¸ºçmµ ÙH¥)¨ôEØ|n½æÑÅÑy£òUÖD»dãçµì{Jcãs‹ÈÓ”]&QF‹<î^ào“7É­j¶pM†İCù:[U„4Üq·ªxÆ ı¾2@?ÆñÖ)ec[³D´ÆÆå«®×?r‘3†e|Àk QÄ°·+Qâóm2Dí7g\000`²¾7¦-y1:ãe½LÑKØİ2Î™TÇÙ†9¸5G¯é'7Ÿêd[‚)ÓïŒ©íJj1ªX•ë§	\000[ş€ú m“xÃR>´\r\n¸`èàÃÁÿú½õÿ &‘¢ë9<_¾½U¤à©º.\"¬£ƒŞÆY>ü82L×¶­—Àj¡òëÑ=€¡`\" ,ğ‘°èCÙƒBJ–Ğ%¸wG¹¾ª€ä;»h¼	NGhtz†F§çG×¤:ÜI¯0¹mCõ<ÅÑTÃD¥Q\"p\"Gú…¥	F($¢»90¬$#”DÓ¸ÆF+¤'´R4©¤)Ù$>€&h¹¼]?½JÃû6ó¾#ÑŒàhBĞ-ãhÄÂ1(ÇÁ¦õ˜ñu[ĞkhlUƒ(+ÑáZ‰ÚmMİ ‰º\\\000¥«0õËÛCr¡Ÿ<€*7Ï×ì’Š:È ƒ(I\n2•ÕmÓÖ\\Mèì¯Ù°³ËËÑÇÑœH¦Œ`Ô]É\";ä:K2ğÒ™ã,ŒKF!‘š€¥	0D e\\¡A˜oiœ´Ù€Ü1B¿Ø>y8¨°Wh6mÈX	GØv\rÅ5\000*àã«öd¢jÛõ>Sõ}ÅÕÚ©õÙª}–Àîµ>Œ×UÍõzÿßçoÚçêFZGEÈÁî!P!H«alHÈBÒ8]dX¾ä!³qÃQõîÀÀ—ĞRˆ¬šåòŠS8wŒ®_ÒdY+3lA‘X´µ¸dñv)ÚÿƒDe‰˜OkŠ¡©~wYje¹R~\"ØnÈOL]”ÃëÛÃšÒ¤mô/®-Y\nxT–ñ‡ƒ oY7½ZK«Šõ³ª}XÑì£Ö[%²<2#\"8Ó\nğ3\rÈ1SWíîÒŞ†%·Eg_·³E@bñÇt„\ne«Îº¥YÅ4ù\\d'ï(8)áÂÑPe±6òâ»i\nóíëŸëÿ#¶şôª-ı\r|»¢©Tï¤4}İÓ¼z\\1|áç\rÀiV-ˆ>[ü…èRíƒm¨a€Eyõ>MœïÁœzÓ”†%^ğKS´îüıï)]-I””q®à9?Ëıf±jboû45”1~=ÈßA¯ğğK½p\000ğXù©FcBjÚœÜßGïïi\\q>BIó˜V¹i9Ë]«³MpœÊ†ªŒ¿±‡ÈL?÷Ûş³¾ö¸âk_çhQã¾Bº áÃ1§\"S:l#á–¢»âUmATH\\ñm²>ÎOşKÒ_ãˆ\\úmD’?©HşçÖ:ü$ë´_y7èäy1üï(Ú·ÊÂU\rG1,ğÇßOepnÑÌ\r9Óó\n˜øÍÜ8‹©3™mxw‡/ù:eŞ\nHm(¬=&D_‡	™‰tÃ]6º˜}·`­ «w4¦ ®›®'÷ÒWô\n‚>S1lÕw›º1Ê1³®®$ÔD®Ìå^ˆô½ê.ÌÂ²úè]4µ×ü‡çÕ!‡­Z SõŒ&„sB§dÆ`åÌN>ÃYy¹îÕ6Hg÷ ¦åMG,ïÃ-ƒÚ5{(ÃIš±µ ùJkÃùK¸‰‚K4KÈçOóŞ÷óæŠ°®½£ø6Pñ¾*Zå7 u‚n0GÃ0]	òæ¿êg»Ä.rÛ%E<üÕÓK¨™ã¨¶ÛÙÔWT‹'™¾SÔ3y+DæH›¨¯±Z8Ñ5Ó3}Yƒ,×?T¸„ŒÕ±U×*Ÿ®<5¼R?3Oc‘l‹§6Ù'É!İ1P*†ñÁº	Z²†~¯ÚÒJEÊGÇë#ƒã&è¹¢¨lu‡?·ç…›»;Ùyañlº~`¸=\\Ô\nhdÈ„6ƒ=Cx+n<W,_g<;]}C£~STé3,ëÁ?–+Ö#]³,×÷«Õjñ>`>Á1ûP¹`¹yà€oÓ‰÷×a‘•t @N+w±¡ñENÀ®K|@J\rDÃn6”ó-QŒqMÕqë]@'®-®Öúlaıâ„ÀÛy\nğ·”è $Ñ÷›òYÃ½X¿”±™ªæ)®§úú×ƒ†Æ‹oëŠ`x<÷cq6>u;VÜë+Œiq)Îxú~ŸÑÀ§¯jŞÿ•|®ğÑ[²›C è«.ü=ğÎ€éOé#Ï;25şÇÅå\rO‚ë£Ã*Yº©Ú¾Øs¯;¤•ÓPùdÃ3ŠŸlÈw>×0ıÖ¼.ıUXrtÁ’Û]T/ß/Ü~?áçñüşÇ‹ÅKÀ1RuÁ‚ûoC|õªa“e‚	–‹Î®£xİU/¯8,Hg”¥qø€®ñdA¦2¿Øêì8¥â¨pV²L_ïØ2­rq\000™®x®êuçN |@7œD“yáV™\\[^\\ŸÃ%-®ákîÆ¾,®(§É¾uÑëîBÙ	÷#>”Ãâñ¢TĞ=½rã5£k…ï6êW¿›¥Ñ\rE´ğ‡U?õÉŒ®íúdF/Ÿ@Vûk©vÃ73†©ÀKü±Qñ›A‡$e”\r6„Áç¶úT&gd=ş ÌXĞ+?·º¸\"DûÑ	)Z¼¸v#/oó&yó¦Òö~·È”ZmüßŸzİ/OaË.¦Ê9Á{OİòÛešıì¸gww÷>[¥ÅÚŸÔì¾»ç	Z;,RWÚ&òê^.ñ–w÷”lfóíÛHNTKV2OÔº+ÊğgºX°rN¡5ÅG«â†/«¶Z¦ù»‡m¾†Û–2²¥÷şó",
+["key"] = "RestedXP Midnight||a) Pet Battle Setup",
+["groupOrContent"] = "ì]ënÜ8²şï§ sv¶G£ûe°ØqœMâøÄİM»u¬–z%u<äáOu#%ª»eËN'ÎŒ›Å*~¬‹Å~p\r×Ã0÷ö¤,§a´÷ä#K³0‰‰±÷ä2MVKòe9›ızBŞ†³8¼œç{Obº`„şƒœ°œ<§y1rÊòÕrïIç,i´ï,É¿şEEQHã)ÛÓ.“<!¾=qÍ&¦£ÎŞÓ§ŸÎø+tÊ~¼NÒh¶ Ë§sšŸ¯ÎÏ#öÁµ/Sv£GËŸLıS~F£+ı|š¾ÿõäÃáûW/ŞüöáÙjO‘ç«4³å§”ä)\rcòéÌµ-ßq‚7ÿ(Šc>ÃÖ0¾ü“Ğxÿ¿!ô#OáƒdÉò=­xİ0×ĞÉÓ§üùÍ½Á{4½„şåáÔ¼8JÒYÍgâ˜šãNœ@3İÑñšş\\}vÃXC3¼‰§kşäCÀ†®™ÆÄ25ÃÅßŸ>}¾‚¹Î{g™Å<şsF#š†äY|±”Å3–şI.ÒdAò9æOsğQ²ÊÿxÃ>²ˆ%f~yöşøCxAn’™Ò˜Ğ‹˜æŸRmO›&QÄ¦9€€xºí£wölMw'¥†@‚3q]Í±&–«YæÎ‘P/Æ'Q’,K¶[ŞÄ²4ÛœØ>âÑÒ'ºĞbj: ÕÒt³İbkA0q}Íê¼ch¶œ±Rof\000‹~â¹(\000Z-®æÂ;¾æùí[3ì‰oj–Ôâ˜×Ğ\\kbzš4ßÁ[3‰mi.€InùÂ%8­ÇÑ Äl†F§ó³`qN\\Çu'H‚vÁhN®ÃhFÎÉXÉÈ*ÎÃˆc*eğ\"‰8æx0ŸsOi{ß¿*pGSFV ØmĞ\r¯OH¶¤xÚ°LÃ4ùZx.ÿÔÈsfdÆÇVõš,—Icÿ.ÃoOà{ø%|×2ø»ìc²‚…ÒtÎhà_$çä==?AâÒë¸ø¯Ó\"r˜&—Åß' Ó‘ƒê‡Ó˜^hÃ¶ıy8½bqwñ‹ ³½	 `bˆàßfŠàwC×gb%@üfAlJPÀĞ&ÛåÍRg¦‰Ójš+a_14 \000¸’ €-\000D]kÜÒ5ÏEdÉwô‰msêš+}[P¾æKaƒ¡ùîÿŠ\000å-pÄÒdLó¾\\©§é¦[\000Î\r(h·/¡oQ®«a)‚÷yD§W\000çËï`WùÖÕ*¾*şó`•]‘Óe$‚…Süøœ1X×}ÊË4`.`J­‰áhtxÈC\000‘0±¼Éå€ó4OBÃØıÚÁµãN|\000¸,€¡%Ğt®vM	^ğÀÛ´&B]ÍüX‰(ìvo¨§­‰Í—˜ü,+÷b<çhş¦h…\n_€¯I¬õĞĞ£¡$\000VğÆTI‚Ş1|œ\"hYRŒ µ\\`a_._ @/ÑÌ‘ı&ü›‚­sDóé¼Áû)X»`ï§ô¼”ài¸ÈÀpz›äå’9ı’å•r–2&h…gÙ\\|¤ãHVÇ7˜’m`Ü¦æ&ÕÑ4_Ë¶‚=\rÿÛw\rÛ*¡˜L¯ÒFt‹²š¤ ¸KK%ûGD:Bñ?á’¥Eûğï\n€wA9MËˆåŒ+Â˜ı\n£rUA³[ÁÄ«.Dş›\nÇŠN!X<Ü~;IÒœF…rš'éâ:„åfÕº)Ti	Ñs0ÇÄtöÄ…a€h‡bD¥dè`˜â˜ê`<uš@t¢÷4°U¡‹o=˜ø®,[±	ìg» ·lITc(8İçÊNÒ	¼CG3áG°³+‘,‹WO¿\rn¿0ñªÂmibüw¦)‹” >Ö\"p ¡½ğÉÀÒğ%u	f°F§	S-£\000Gt©<Ñg|FñßÆz†îºˆb<\0000ÀÀ»ÒÑû5¡İ¨Æ}$Ô>(Åå\rJ›ëè¦23ÁÕÅÓ/4g)œ¦g30A•¡p-Àé€Åéƒ#,Í¶€UfN|K“#l\000o$L¶´t¡äC·E¶ÀoşÄƒY•?»¥ôpZ8\0004ÁÃ–=qÀ\n“\000-¶æ;8ò@Æš—Üdü#õaŠéV»Òûsğ?èœì¯JsìT&¥)ÖØfg	-µà~’‚Pê2Î1tyÊ]J÷)Ä	Lú¤Üu©-f®\rl25İæ2E’Ø‚ñğ7d˜ñwÍæ¡<èTØÚz‚:Ø@=š¯íâó¹B)ÖyËßØFæKn\000¾~HÜvi!€~èƒ\00055·Ó¨…,ßÄ›ƒA¿N‹Ú¹íİá;.*Xğ…P–6R+\n—*øJ]aùXÜ“ÂùV»óùuE¸ã@ÂËé\000ƒ¡„Ê\r€%Å`øÏšØ0ZÑÈ¢\000\000\000]&N&L°‡î)/96ï ³k`X„ò;wºQÿIxGÎÆ8¤ëiNOäæ›/Úø[™ñ\\t.iš&y½ö¼ƒŠÊt'ümgÏ¿K/Á^ĞTeÏWrô›1¯ˆ}ƒôE…·wB‡Ùï{Oò·	>M÷öuıô*\\‚ãf„+dĞ±Ë4™26û”–;^èU^$Q”€'yY»‰ÅNƒzŸKw·Ê]iwkR|%*Y+ô\rC/ãğ\"„góè†\\PRÊwEÍB–¶7Å|×F¥½§ÍÂ·K§s6½:Oş’wÎ<uİ†‡,•èú‡İ5P§oèŠïÔmxÈõ]ŒÏ¯ïÉ´´dÖ?Ø>š ë‚ÏÅalxÈöÑ^ÿãXèÊm|h‹1Y:ªºnOˆÃa8ı¼ğa­wWß¥S–æÁ\nD2ˆËbƒo¶²,&åkÊ–½!´L@„}/<}†0ÎiJ§EøV&§,ÃéY-	»?dK6Eà’ÿ®Xë\"ŸÓ:Ír¤W°|Ò:÷`B(¶3øh\nCNÑ,şátÀ~œääœñ/À·àI¤ÍÁöø¡ØÉ«”µÇ{ÄßådÆ0„ÄÃAÍØ‹MAzt`Ëå\n?	]„q˜ÍqÁkJŸÏF{ÁE#ÌÆ\000òzO–7hÓâ`”‹~9ºhàÁ;ˆ{çã¤V‹\" à-Mãˆ]qp“ØhÆ§Oáo˜ ú§:¢õr›Ø0û_œ¼³U³Ù«˜XF€±+ø×«‚p÷›&´\000Ø2ÇO;&yúôYñ§˜,B,Í~\"'˜w†´&®•äPfw(hÂH™˜-šø¾Å=¤~H4¹ŞZšöiN§ÑM¶¸Q qÀ\000Ï¥ˆ–N\r5^bO•Ï\"ek‰:NÒ|i!Ã‰Â\r(#À\\Ã;şõ?¸5ÕÄw«<0ö¬¦gu*ß0f!¡è¯—¿8Y0‚†–ß11!g4Ç4,\\YkÍ÷}še@iJÉkz$\000ÓryIDzúŞ?OÁØœÎQ\nQ°oş*Å6_“d¿Ò&²¦)Í¤àsú“…Ø„L+Í6àë$‡%:§í\nÁfïb.Í@”4l70;@7øÆëx2™óñSa§Y «8Ä23…§3{Å˜ĞÉÀø¼L²,\\Ö«ƒ÷ÖS9Ï\\ğáßÑTLIŒ7M\000TğÑâü‰T)qS%ÛõŸÏ…¼Àò)BZ¶ºG*j•âVşz	8F;àkÌˆ,³·à=r·èÁ\000Yëù£M@{hƒ¡eõ@«C³‚„Õ,¢¬K¥¥éãé’.•2âp®*ÄõNÖfŠÀ³+àÕÓ÷\000„©¨]BtÚ\r:ŸÅ4º‰›½ÊÚš'¨¢£HwÒk¶9Ë1Èèƒ³Q²Ù=ğ»Q`OcÂËx¨«‰’Á†¬¯ÀV\r³Nî›´œZÅ”ÜïèËäærtåì¸^Ú+¿'ñM!æNé,ÌÚá¹Ö’¯‡æ#x5:î(Ùã1¿=˜áĞrú”æÈÈtÆ“ß]2e°ñt…J—¶^«¡)àWù4.Ÿ¿\"¬Àah\" ·ç-Kg”œæi_Î“äb½¥Säâff;Z0 ÛƒH¯w!ÓàYîx€ì’)§§dgà 7SÔ$¸…P„ù{ Â\n@v	iT­‡ÇHJ	ÙqjÖE5A¸™iš\"rÔ°A{4ƒ‰©>J¿bO\"¾o¢rñ›£M¿ ı†=šÑÑ¥_‚*Ÿ¸\nªİ±–&ü&R‡m¼I.Áëß$«T\n°\nqÒ2 ŠMŒ^ÒÜÖÙÒ1í.“ >sópñ5?XÕxM£p1KÒí¢6¢gè•çPF¡îëT\"£XëeìOˆê‚«§ˆ¾à;+1yÆ—³d‘q-t×˜ûÑjA¹ƒÌC^ÙËşC£ˆİÛM‡:üïÔñwnà¾WGˆH;ş±c_N/ÆÔ½¬‹«s\\õ\"o‚ê\"¸Ş„ÕsE?]“'Õ*¸WşnØß˜ß¿Ûìoğ)ü\"67šS [„ü‹#¢ş=•\"Ê– ·	ı÷ğ\\Kf{à3éºwnEgkcà3Ği®ßõènÜ†Îu{â)çñâ¤íSÎ„õ›\"ÕÁ†#Ê‹zÖ2Ü>Æ©‹UF½H-Œ¤Aò¿WQØÙUXCçŞ)E¨2îcjÄóÕÏ+÷<ÓïÛg¨õÙ[\r]İ(uâ5fr33˜\"ià.°oiŞxĞã<†¹@[\"ê\"Àèz\\©[Å‰;1>Ü¦ÑuF×ÍhÑ(ºŞ*¤¬Üf’:æ¸gVÕböF§ì]4#oéô ‰iÄ“ªÕ!5{á0¢f}Éu;ˆ“ÔRĞÖm~o¼q‹qls¤F×ÄÛÓ¨ãNĞh£Q1]Õ¾X11[ÓWú&›iQ °\nÄâ´İIoÂx–QîVØ+’P'Ä‘«æMx«%,Ä/V0Ú\\ÔŠ´vàx`,b:ÅxÂMš€Mbd¸Gëf@ Ê6(&â~	(œp‚»àENÉıÎ²DqOÚ‰ğÌzøØxDÔÿÒ`†*P]KnmB“Lïó\"ãÍZÔˆªÆ*H(yª¥¿yføªq°DD =IÊZ$Ô1]OLC*,#@dvNcUí\000YIV´`)uÙºfŒ~—G3m<qUÈÙ„6™Ö®Ùã¡­M7ô{*…Øš†\no[Ìp~éì“ô TˆkS!@ÎxÑ_Ù4C-XmÂ1°N\nf‰ê£©IÑy7ŞÊ½‚>W­q„ĞG+6€JJAZ ¥ã­-™RŠ8;ê1–*Uò1»GÑÇØ&(¢£ƒ6\nÖ:ıSRí¶\rÌéësr;Qõ»„7„\\Ï‹Y©Æ	;Ùşú°N½i2|;A²ŠœWÜHyúTÀ:«²ÚOÁëJËôH!å¾À÷|EÁUxm7‰^&˜ÈyzMK’\\Ó$M“ërË¤İa%¤\r¬+æğ“~úˆfÛG–²,k%[nö4‘ŸàÔ·t(†•YÕğ|4nTû`Î®qÃjq£¶KşÛaCÙc¡©Y€K?âa)ĞË%[ËÅ½‡ŸóÆÃÊÁ*Å04½šÓÅÏN\róàÍŞ3™RAfg™bµ˜RA§Íî[BL)o…	¼$/°ÂÔ½U…AXò:V¦§yãè5’Éîˆ ˜Ï;#hOjüì,O,<ò¦È{ï°ûvâşn #^ËÏf¬@X\r¸±.ÏUî(Upy¬ƒ¼N²ŒİFöt}¾Áy\000/*Üì\"/úÓÙkß+˜$R`¥2]O\"z¹b[`ÆÂ†‹qAc¼Xóÿ¦¤Ä<IãÛ\000„»Šs8cj\000í*c¬‰Ì˜ZqµX^C©ƒà‰MªOx*Mõ;æuµLÌö…¸yUİ®Ò,Iœ¦ 6æ4Lä2ŒNóºæö~„o“˜'ÛGœN’å?Ÿ…¸«<£wÇo~ÃÂÓeqÓ`À¯`ÅãÛ[$F_ÈøQ­ªë×ÏÉÃû	÷6ĞO(Ò\"ºŠ§sÂË’ãhŠç˜…€=i'8ıVV}^„q¸ÿ.Nì½.¦Õ’›lĞ9pàŠ7òãÅ@A3~|>[áQâ(*Ú	]åÉ‚òºÓt6KâŒ5N..ûk­fhW¼/†ÓrƒOå„ëƒqÙOµŒ“ÆT3Ï½ôoHÑ¿Z¤ˆ‡“¶XEkdŠQï˜‹ªc%&,È]X±w'¥X(C–”õ²_ò\n£o‹êonf!%Ï¦ÓşüS:ü¿Ë³9.ké§@e	\000{}z»±®ñb‘'4SZŒëæjŒ{¤©¬ú¾Ã1R·2÷›©A‹:,]\000H,ö\rîŒÄJAUú¨–åäÑĞRşµ‡c^^ƒÇz×c²«tÇå!kÙğ±¨'r¿×ˆ_ó•Şõàb„³°‰Áğˆ¨j%4±Y—×Mp\r^Ô}¼#ÕxÅG&ÃËh…×g'«7ûHõ±W…œ;u>ÿ.r'À[4Tøİ¹ÃOgØ9Xeù5dÉ5–*Éæjv—OÇ4ßàe*Ç,Ê¿ÿeÍK,#p$©†N×·ƒÓ@†Õ¸ÚY†¸î•a.æ[;›'+¬FA›EÊ³ ¦ì‰ağz”æ˜{Í\"\nĞ\ny’³ÅmàÕ“ú½¶²ª‘Y;É*,ÿ¢À*Ô+]'IQÌ¥£¡+qÅDğ°ÆW¿'QNG|PiÉ[[Í	bìïvàÙ#<Ú)`¶˜º´\nçğí8â7ºím’Ä—©v%„]ë*OÅÕÇ´Œ^D,¦ä0ZåxO[ts¡#okÕ›­ï—OÍ™Çå h ŸÔ;a ¾ğP`ÎÛ‘Eá‡ÂAÏ»sÀ°JyxDBXãë…rÈ@à7d|Ñ!äâPusÖ\r!oFÖğS8çÿTŸBçéeë¢‹u½¼/òœ2ˆ˜Æ\000½K§kø]}†‚‰ÛÕlnW¤äE%K%;Ê»q!kxLi®òÅ›Ê‘†Áïörx]Ó`¼“o“t­¸/ş\"šİ\"ˆİ˜Â5\"Cjdì,CÌ¶™{;„èósŒÜ‹‹)Zû”uaQC÷øA2~‹ãˆßÅ§‡³\000Û–[x<h±[<(Š{¯ßòßbağİÏÂ	şÆ—4]ôÄíY¡›ÃãWÒêš3¬xO³ï†{Â†¹£2B@ÄN11\n#—÷ˆEÑÖ39aqg«¨¨PÚ/%t~7+ß±úõq8½\nÉYßäl:¿´Ø˜Uµ\r@†òEÀÉNòğ¢æK7I‘RZP3H?À»å¡Vµ¾Ú–¢Š®Î¡eÛå’òZx-Š5N‰XÀZmqw&ùÛ¬óÛê?gŞÒ¦Y77¸¢›gİ,¤¶÷¿.åYœÓ4˜~òşj67Y)¦P«HÊ((R©Iàkïö»¡7;\\§s:K®I—eÄz:+Ëhëxó$Ş«…÷Ãx–0J’ÙU‘ÓWĞ4Xïšíš„\nÛ˜\"Ñ¶Ş}8Z:ösRúŸIeBG9••CŞíi]„aH8gC°â³\\~p‡ÛzÂ7Ş€ğÍ¦\000WsÇƒÖş…­ÚÖSu9‰BBÜëYÀºZ¿hâu¼\nq?½Ér¼Ş'¾$Å˜JÙT–_•¬c$üñ¢3šF7äˆQÌ\000ÈÈ¿é49.¶ğï…=Uuãg·Ù›Ü†=M$ò÷UôİAJ•‘&¼|³Ğ¹è•Xü²NWóÆ;bñr•§,¿…÷4n@È‡»Æo>49J®#LÉ?ü¿$U¥^\r(\000£ÏïÄµ4w¼BàÏ»ŒyÑ,¿XİâÀLüÆĞÂàÄ”!;Ë”vut•İ·FáU{˜i[¦¦ô2‰Ïù5´ë5ÁKàë&&1(=Ş]¥«œ€ğ‚a\\cım´ÍÆpí6HÀ”(;Ë~ƒ£\"†­ˆ@uN”ô–UïFóf·ÏœPij~µQ©úò¨€ÛkâO\r3*ù ˜u˜S9ÌømÖwû4¯Ç5hÖ…Zuİ C”ãc/áu©z=õñ(ÁûªOI‘'>t¥vô×ì®Ğ²¯¦lš&×ªLÉ@˜âyšécı7o¼cóo)X„Ó0\\·ªJWµGU’Ê08XnæŒWœW\"@0‰©SV_µÒ°`MdÉuGŒ£@gŸ¯¬Ô…ĞÕ±&wH¬i}ô­}	îÎ_ÛÂ}}•ïCG–Ö}¸´ğƒFöİüTÂ«F¨ø˜‚bù¼ÂìxëöùmP€¸~ßX¨ÍÚbÀ>Şf˜BÒcËy-Ö‚\000^Àˆ¢Îï•ÒÇ‹(>OÒ/s×÷\\„¼ÖÀ Ó‡xeöÆä‹Rb‡²Eüp†ØMüğì:Œx€Á¿½ÅZj‰aÚÅYğ~]-1”˜üMÓ˜]¬ÒÁç0øÕê›Ò¶î‡-5dv’-ÛGP#K>!N¸üC›T€€¢üèW	R?¸eµÆ	knœïw½»\\ıÆæVå~¯ÿÙ\\_­WI«{Ájé>JÎÇ»s…Ù°ÊëêŠ÷5ª†®ˆ+;ûw2a+óçh¶RÚÍ]‡ğ8Ö†³Ì‰åiöxÅ‹Æ¶0:W<ªÉ/·ÑÊÁÛ6Ş/I·¼äáJ÷3ªfª¾ê¤À\\¿ÔqÌŞízÏ\rº’yÜã}„MtÆY_*ùŒJš†Tu½¢Ú•µ”€¾å¹ èìó¹û#\\ïÖÒó/—¬æĞ½fM¬ûpáÛZ^c·ş›ÎØšt‰§ğ/†`YŒ`<÷èfÓªøÛé<\rc6\\ú\000Éàñ–•²U=n2jGåY\räæ™Åàî™gMáÓòÒÑ²Êß!^[ûŞø£ò¨Ğ¹xÉŠĞ³4Ğ}c•A=¤é‚¥ä8ÌæÃ3+ ¼KÆ‰=²Û1L@Ü2v_³…‚×)ÍhJãK\000V´XğÖ×Õm„—7õô6ù.^*@ñ£¬Qô§^#ıê¥òySchÇxèÙ“Ø,¾mS¨©‡÷`“_0Sb½ø—ĞÆ¸™:âm5üÓ×4ºt:_\r6¶ñ¶Zµ:»»Âª4;Ê*@Ï=²ÊòšÊt¯WñohHNW‹E¨LÔZ€Õá}/ñÇ³¥öA«ÒK–¬2ò[2¸jJ!»†•Ü×İQ5ŒU‚BÛIV¬î‘U~³õt–\\Çf4¯¹µ¢Á•ïO,¯nrLÍÏ­>eEÕï«ì–ö’SÃJêjT\rdUƒ«dÀjV}ÿ#qB0-1cü^ıòâ|ƒ47æk=Öõ÷Â>ïÈñ»3röóûcòê˜œ½ ÿûó‹Ó³Ÿ>¥ùcÍUçÅ•>ŠI=qøîıòöÕÁñ«—GgäÅ¯'ÏO_½;&GÏNÉ›g?ï½8À@å?›Tµ³„,ÓdŠT„EñËUˆ·Ögábİ;DÅ§a:€Wì¯¢ö÷<ÌH^ş± ñŠFĞ?føMùé¹–€3Óª›´	ß\\ïn|«7Ú\\w,®=2¸™ÁİÇÓ>Y<{Th3ï¸Fk¦=6°w[yÚùQaÍ¸ã­xöÈ ¦[wƒZûÌG…9İ™y|xÀlßºç#r°æî8LûêÁ¶Åfh’’iD3pŞÒFx©RHã)k<İ/Ã¥”“?Şàö½1Êkm},²A^&ä4OÒŞùÒŸ‰à;Õ^yyÕ½‡·÷;ãevoïŸÑ|eË€O7Œo{w«`ğ~X²,Øs…L­”&\"ÜYƒs³ıÊ—úüÚbÚ§u®ÊœV×°\rq—¥s\r{a±Ø©xG~]M¥}q~À;ö¡\000î»M¥s·|Õ#áwº8õµÁWvNz~…;ÀCf€Awg¼­äR=ğ¬Î\n¹ğÑFø–Ô¡õêïâ÷ˆ³ˆ4:FÌA~¸±C.Œ«GôJ´UÅËĞ\"EÛİ²·¯¯Ã-ª9†ò¿sªÒ*²5u@/Sz²tÊÔ×\\by@ác•4´Ş¥—i¸XĞt–ŠO/s,M¯È6ßô(Æ.-wŸWI|6²eNÚOÖë¾Ó \n€[„[²aÂ\000ˆïj‚Rº Úİ~µÃUˆğÂ¾0Ï«GT°Fs\"œ‰îÉnvJ‰ağ,3ªƒèİÂVujyœ{ôóèİsÚ[åUfD`¡,åÊš3ß}'øKã¢¼¹µÅG¡bÂ®òa*Ü0jµo(íóë€i„I—u_­8‘õği}£ƒòj³YShÊ–kªyiMµ•fQíĞmõ’2…%Õ¾W¢VÕQUKœëì$áâ2ûnùUÓ«ĞÔàb{û½8æóHT)eËqÊEåU1D£8DV®*ùYWMákEYÃê<–ÃÏcgİ\nç±ê…ÂÏ¨tOEa™Y_ş)³…ânX!¬’‡#f˜x}>­H jI\000Eß–D™ÁÖòõ\n(+­ö˜rfeÊ‰d?í+«°éª{eaT=@0¯ÆPOİX!úXÂù½âËÅ£nU¬¥^ŠfÜg\"}àB³ø!0¡^_Í]ÃÕº³†l+û~\\š©SD½=«\\‚E]•RGu\n«(Ô¼ÈÕ–±Í÷x}•ñÒæõUÄUçYÂRĞZ®¸n‹bµ)Y%*±Ï@êÀUæYÂ±Á¢•ÚlPK»âÍãZQU9è]f×ºLp¡°~õL¬_­Pağ¢XÆÌöû*c-i-ÜØ®¾²ĞuíÕ¤*V‹ÈQ=×†e÷h ™J¥Ò±{UwkU`-´ÕR[w¼h[©Zn„¢m\nµR[5eé²\000/â£{¬CÆEí6I“ˆõ85•ò¨¯8,Ck­¢nx˜ñ„¼×gtq\nzciŞ»z\\P)ñê|¥L^ƒ¬„üº\"dŠP	Ò²º.«ùã³Éh­Q'HÄ–+Bâ€J7´8$.”‡%kè‚éÕ\"EıgºüZù×¿hzõ*Mâƒkš^´*ô”Ñ3ÅõHêğ´[ÙVëî¼úŸ2ı\\ÀuF º3jDo¥çÎ(š^²œ¨mbÔX]Bzîëò³È$YÃÈò:²İ½ê‹×C­Tm‡}=“f\\b\nI&9äX–ââµ¯u\r¶ÖÜ{–MWŒ¼\\¥—‘B{¹¶Uy.†+†ãŞ°Ë0‰É°ŒG_RFù:¼Q8Û›XfŒXq5e4C®³ÊòYü³Íò9ayk\"gÓ<üÈC¿Ø9vÛ4VR‚AšÏsv§ï=ùğË³÷Ç“(J®yBÈ³4M®ùê½Ş\r€¹]\\mC÷gaœ³ô‚NÙ×IÍtùãtNóóÕùyÄ>¸öeÊn´óhù“©ÊÏht…İÅ¨ß¿zq|ğæ·§«lNC,.ğ.†Et…÷¥w'×™­VâåD`,’ª>Ë0YC»…G')›&›y$_ÙTñHñòf\"Íö'¾©<=ŒGÎÚó÷u&j~Ò4Ãš¹l¶S ”a]ÅË›ùÂÂáÂb¼DÍç‚°(/©„EU~³%-Šå+I°ûT#ÁÁ\000€1‘ŸaµÚ+¹‚ª¿èÏÖL{âzš;Tr¨†’kM÷¼.æä:Ìç”§a|yÁP`âµú_]›dEæô#óü†„q–Ó8's†§GÎÃ(ÌC–‘UÆ@Ò&ğ/>Àè¬#Ğ`ÌÖ†Ï¾ëBqñã›©²iÀ:^æw-U¿Ã8CT=÷Eh=åg·¡ÄqñŠŠ\000oA]??KÆf7äÕî¤ª¹©>¼\r5å¼ŒgŸ×Ø!qÀW Ä¥'ó‹¾ÒjĞÜÏàj±`êÂÇXû	Írfd?b4­ED?F ‡R•·\rD»;EvÚ€I¶9àÓ=A×úpÀOÀˆ©Äp%Ù<”l QMgR°âM:^bîZZ`*š|xËĞÀm¿ec9´ON“£¹x^ÀèööX=:VÚl÷çi¼£°UM`\nC¯İ&Ws-Ü1ëÂ×,:Œ¢û),\n¼»İéRM&nÀí:`Ï\"›*‚Ÿ>ıDç§3ß\nßü	ŒË?N—aüİ19ÍWñŸ$x³Jc€}¿¢í» zÅH¶JA~_€ Ó(œ^á}Œà  q\\û“Wû¯?,A‘e«å2‚N@Ô@7(>®è:ÿèMó?ù– 3rB¯édV#ŠÌœŠºZ‘ãã]­ÅŠ¬ÄÅÖKrìşw××Ú6Äß÷)ô<<YNÜ¾ä!m)£ë¬ö0†²¹µ™c\rÅ¡]É‡ßï$;–%',}ÙKœ‘OÒıîŸÎºÿ?`Ô&:…ĞÇH	wÊà–ò‰-e£UØ;e–âÉ\000© ÎGiÃÄˆÉ\000é$œ)CØä‘ o‘8#Àø”i<TÒ1÷I	aYL©W”OšÅdög1”˜O²m>áá×ã‚NÑ‡@œò à}>¿¡o£¬ ^}¼ºıüõ¾TâFYVìbÛ4…V²ÙéèĞ3ŸÊ‡fS¨®ßÇ¡z[nò9C&$c”j,ŠÜˆ;.Ò$µès8 ÿïB>æì±ß—7o	©„¬ù/ƒEõ3¯]˜Ñ³À—§}¹)ıû†¨‘09IYå\000Íı&Ï<zòZ­ØØÜÊ~Æe0É1 BœÆ€ú:¦sïæ[yßÛõ^à;·úˆm·šä•<Pá$1L†Æä¯iãø3rq!¶Rt-+H	\nNğ€Uã§cıNË²†–¯át\\køhèaM{zY3ÉHß¯dÓT¹'‹@ùxĞøğVŠÚ7?gÕ'³OHaö	!ü¨ÿkV7\000˜ì/Ãµ)²0&¢ÿûÚ¿±müoSm)éÀMr˜Äééjğ.óòE²e%·y¡t½ÓA\n{ÛbßÛëäàt74àéÎ\n~Î:WÜşÛ-ï…­,Ør'Ì1ÊŒŸHÁv›‚wÍ@Èğ1Œ®œ\\xÀ–“˜3xwdíRx§»Jòr;ÅèÄ¦ë5Ù«XaçÑ·_aï…î\ns[á€á?­°9à#“ğôû",
 ["metadata"] = {
-["guideId"] = 2033061976,
+["guideId"] = 243600860,
 ["retail"] = "",
 ["group"] = "RestedXP Midnight",
 ["internal"] = "",
 ["imported"] = true,
-["version"] = 0,
-["name"] = "a) Zul'Aman Adventure Mode",
+["version"] = 1,
+["key"] = "RestedXP Midnight||a) Pet Battle Setup",
 ["length"] = "616891112",
-["key"] = "RestedXP Midnight||a) Zul'Aman Adventure Mode",
-["displayname"] = "|cFFFCDC003|r - Zul'Aman",
+["name"] = "a) Pet Battle Setup",
+["displayname"] = "a) Pet Battle Setup",
 },
 },
-["RestedXP Speed Leveling||a) 70-80 First Crafts|1377"] = {
-["version"] = 3,
+["RestedXP Midnight|Sojourner|ab) Zul'aman Storylines (H)|1075"] = {
+["version"] = 1,
 ["cache"] = true,
-["key"] = "RestedXP Speed Leveling||a) 70-80 First Crafts",
-["groupOrContent"] = "Å–ßoÚ0ÇßóWœÄÓº4ÊïMªÔm´©šTkß*7`áØ™mŠúÇïlhWÌŞy\"|mŸ¿Ÿ»sœËË:«Çm–ey4ZÆE4zFm¸’PD£¥V›¦h,Î&0çp‹Ï(¸\\F#ÉzöšôrœÂw®…¯š-¬‰F\\ZÔ’‰ˆÖÑ¨Sı Ğâ–ÛÜÈyôñ¥›>Lï¯§¿ıŠî™†{šÃ%hìø€°PìŠ~}xËİ–[¦ç†f¦—äìIÉI`†;Z-Ğx«(D·1@Ïï-¾è$º¸EF±õVéµÛŸ°»wLˆß´[!˜œÃŸ\rïÖî,ENöhWWAÙJ\rƒ{¸åÆ~Š.ŞÎÖ| ¸´[\n|;µ-“ÖÙ6ÚlˆN*î3øëP¯ÑxO‡l9€¤SÂ#çY^×e\\¤i 5§ZSÆY(¥N:ğ|¬[›ŞWál8i[¤q}l´:nB©hŠ:KãòæZPûİÙ8š¶&ƒÇ¦ÇiEe	¤üTÇYõÊñCšNsßyge©–¦mÃÛ;?Ñò8?MCÖ.LIÅ»4üÄ-ŠWgK„kÎ\000º((å±”gmœg­lÇtÛ–m\\“ª@©(¥GJÑT…tÈË½»•>_Nòrœ;°¬>=Y˜&_á7’¹äñŒ,ÿ­¯Óœ´fzd¼[Ñgôíó¼4}vO|‡§Ì÷à‘”gMU·\\ÛVy|8‰#ÁPì¯ò;¶FokPÚ2áÌ~SZª%=/´êıØd?6UªOà77Ü:p\r“WõfTyí/Û'¤.xãLè«ƒi	·‡ïºşÍ>€Ys!€ËN#3h’èï",
+["enabledFor"] = "Horde",
+["key"] = "RestedXP Midnight|Sojourner|ab) Zul'aman Storylines (H)",
+["groupOrContent"] = "U’Okã0Åïú>ì†¨{(»´—¶»-%Î¦¥·‰5M¦‘5F’ığ;Êïæ`0zó~3zšéôº¼şñ³,Ë+cŠ@	Ù™â“BdñPšb¤ï`N1‘}}†G¶×›dŠØ¯Z-ÒOÁ[\\Mà­wß°Eu’08öá{51…åØ9ö…_Ílvy™¿«¯\000Ó½éNM¦h6Ø%p¡ú×6uÇS&İ¨RãÎö1A’ñ÷¨ÜSÚyXìAœ‹£GB]æıb:üãoÉ\r0LŞÅm¹näĞIÀíö$Î©qÈmFY‚J¼„“´$¿&ôê{×Ã…¸zşú[0#ûà¤Û=	ÌGÊ='ÍàœœÍµôŞf{¥êa¼£z—;K+}„ŠcNş_ ƒ¨)gø‚gq´”6ùKv¤xZ0ÀƒEsÖ}˜ªo›ŸDgÌ³ÆèF¼±QwÇùöVÇ–ŒnMg.Jó÷",
 ["metadata"] = {
-["guideId"] = 2019954624,
+["guideId"] = 1220482115,
 ["retail"] = "",
-["group"] = "RestedXP Speed Leveling",
-["internal"] = "",
+["subgroup"] = "Sojourner",
+["group"] = "RestedXP Midnight",
+["key"] = "RestedXP Midnight|Sojourner|ab) Zul'aman Storylines (H)",
+["enabledFor"] = "Horde",
 ["imported"] = true,
-["version"] = 3,
-["key"] = "RestedXP Speed Leveling||a) 70-80 First Crafts",
+["version"] = 1,
+["chapters"] = "a) Healing the Spirit (H);a) Sawdust to Sawdust (H);a) Between Two Trolls (H);a) Sorrowing Kin (H);a) Unlikely Friends (H);a) The Voice of Nalorakk (H);a) Reclaiming de Honor (H);a) Vengeance for Tolbani (H);a) The Loa of Murlocs (H);a) No Fear (H);a) Bitter Honor (H);a) The Sound of Her Voice (H);a) A Venomous History (H);a) Beyond the Walls (H);a) Something Vile This Way Comes (H);a) River-Walkers of the Prowl (H);a) Bloodstains (H)",
 ["length"] = "616891112",
-["name"] = "a) 70-80 First Crafts",
-["displayname"] = "a) 70-80 First Crafts",
+["name"] = "ab) Zul'aman Storylines (H)",
+["displayname"] = "|cFF00FF002|r - Zul'Aman",
 },
 },
 ["RestedXP Midnight||cFF1EFF00(1-90)|r Default|bg) Kun-Lai Summit 1 (A) 2|1303"] = {
@@ -9785,9 +9790,9 @@ RXPDB = {
 ["subgroup"] = "|cFF1EFF00(80-88)|r Campaign & Delves",
 ["next"] = "cb) Arator Route 5 (H)",
 ["group"] = "RestedXP Midnight",
+["key"] = "RestedXP Midnight||cFF1EFF00(80-88)|r Campaign & Delves|cab) Eversong Woods Route 5 (H)",
 ["enabledFor"] = "Horde",
 ["imported"] = true,
-["key"] = "RestedXP Midnight||cFF1EFF00(80-88)|r Campaign & Delves|cab) Eversong Woods Route 5 (H)",
 ["version"] = 1,
 ["subweight"] = "998",
 ["length"] = "616891112",
@@ -9807,13 +9812,13 @@ RXPDB = {
 ["subgroup"] = "|cFF1EFF00(1-90)|r Default",
 ["next"] = "bc) Horde Silverpine Forest 2",
 ["group"] = "RestedXP Midnight",
-["imported"] = true,
 ["key"] = "RestedXP Midnight||cFF1EFF00(1-90)|r Default|bba) Horde Highmountain 2 2",
+["imported"] = true,
 ["name"] = "bba) Horde Highmountain 2 2",
 ["version"] = 1,
 ["length"] = "616891112",
 ["enabledFor"] = "Horde",
-["displayname"] = "|cFF1EFF005.2|r - Highmountain",
+["displayname"] = "|cFF1EFF004.2|r - Highmountain",
 },
 },
 ["RestedXP Midnight||a) Late Bloomers|904"] = {
@@ -9834,42 +9839,43 @@ RXPDB = {
 ["displayname"] = "a) Late Bloomers",
 },
 },
-["RestedXP Midnight||a) Pet Battle Setup|704"] = {
-["version"] = 1,
+["RestedXP Midnight||a) Zul'Aman Adventure Mode|839"] = {
+["version"] = 0,
 ["cache"] = true,
-["key"] = "RestedXP Midnight||a) Pet Battle Setup",
-["groupOrContent"] = "ì]ënÜ8²şï§ sv¶G£ûe°ØqœMâøÄİM»u¬–z%u<äáOu#%ª»eËN'ÎŒ›Å*~¬‹Å~p\r×Ã0÷ö¤,§a´÷ä#K³0‰‰±÷ä2MVKòe9›ızBŞ†³8¼œç{Obº`„şƒœ°œ<§y1rÊòÕrïIç,i´ï,É¿şEEQHã)ÛÓ.“<!¾=qÍ&¦£ÎŞÓ§ŸÎø+tÊ~¼NÒh¶ Ë§sšŸ¯ÎÏ#öÁµ/Sv£GËŸLıS~F£+ı|š¾ÿõäÃáûW/ŞüöáÙjO‘ç«4³å§”ä)\rcòéÌµ-ßq‚7ÿ(Šc>ÃÖ0¾ü“Ğxÿ¿!ô#OáƒdÉò=­xİ0×ĞÉÓ§üùÍ½Á{4½„şåáÔ¼8JÒYÍgâ˜šãNœ@3İÑñšş\\}vÃXC3¼‰§kşäCÀ†®™ÆÄ25ÃÅßŸ>}¾‚¹Î{g™Å<şsF#š†äY|±”Å3–şI.ÒdAò9æOsğQ²ÊÿxÃ>²ˆ%f~yöşøCxAn’™Ò˜Ğ‹˜æŸRmO›&QÄ¦9€€xºí£wölMw'¥†@‚3q]Í±&–«YæÎ‘P/Æ'Q’,K¶[ŞÄ²4ÛœØ>âÑÒ'ºĞbj: ÕÒt³İbkA0q}Íê¼ch¶œ±Rof\000‹~â¹(\000Z-®æÂ;¾æùí[3ì‰oj–Ôâ˜×Ğ\\kbzš4ßÁ[3‰mi.€InùÂ%8­ÇÑ Äl†F§ó³`qN\\Çu'H‚vÁhN®ÃhFÎÉXÉÈ*ÎÃˆc*eğ\"‰8æx0ŸsOi{ß¿*pGSFV ØmĞ\r¯OH¶¤xÚ°LÃ4ùZx.ÿÔÈsfdÆÇVõš,—Icÿ.ÃoOà{ø%|×2ø»ìc²‚…ÒtÎhà_$çä==?AâÒë¸ø¯Ó\"r˜&—Åß' Ó‘ƒê‡Ó˜^hÃ¶ıy8½bqwñ‹ ³½	 `bˆàßfŠàwC×gb%@üfAlJPÀĞ&ÛåÍRg¦‰Ójš+a_14 \000¸’ €-\000D]kÜÒ5ÏEdÉwô‰msêš+}[P¾æKaƒ¡ùîÿŠ\000å-pÄÒdLó¾\\©§é¦[\000Î\r(h·/¡oQ®«a)‚÷yD§W\000çËï`WùÖÕ*¾*şó`•]‘Óe$‚…Süøœ1X×}ÊË4`.`J­‰áhtxÈC\000‘0±¼Éå€ó4OBÃØıÚÁµãN|\000¸,€¡%Ğt®vM	^ğÀÛ´&B]ÍüX‰(ìvo¨§­‰Í—˜ü,+÷b<çhş¦h…\n_€¯I¬õĞĞ£¡$\000VğÆTI‚Ş1|œ\"hYRŒ µ\\`a_._ @/ÑÌ‘ı&ü›‚­sDóé¼Áû)X»`ï§ô¼”ài¸ÈÀpz›äå’9ı’å•r–2&h…gÙ\\|¤ãHVÇ7˜’m`Ü¦æ&ÕÑ4_Ë¶‚=\rÿÛw\rÛ*¡˜L¯ÒFt‹²š¤ ¸KK%ûGD:Bñ?á’¥Eûğï\n€wA9MËˆåŒ+Â˜ı\n£rUA³[ÁÄ«.Dş›\nÇŠN!X<Ü~;IÒœF…rš'éâ:„åfÕº)Ti	Ñs0ÇÄtöÄ…a€h‡bD¥dè`˜â˜ê`<uš@t¢÷4°U¡‹o=˜ø®,[±	ìg» ·lITc(8İçÊNÒ	¼CG3áG°³+‘,‹WO¿\rn¿0ñªÂmibüw¦)‹” >Ö\"p ¡½ğÉÀÒğ%u	f°F§	S-£\000Gt©<Ñg|FñßÆz†îºˆb<\0000ÀÀ»ÒÑû5¡İ¨Æ}$Ô>(Åå\rJ›ëè¦23ÁÕÅÓ/4g)œ¦g30A•¡p-Àé€Åéƒ#,Í¶€UfN|K“#l\000o$L¶´t¡äC·E¶ÀoşÄƒY•?»¥ôpZ8\0004ÁÃ–=qÀ\n“\000-¶æ;8ò@Æš—Üdü#õaŠéV»Òûsğ?èœì¯JsìT&¥)ÖØfg	-µà~’‚Pê2Î1tyÊ]J÷)Ä	Lú¤Üu©-f®\rl25İæ2E’Ø‚ñğ7d˜ñwÍæ¡<èTØÚz‚:Ø@=š¯íâó¹B)ÖyËßØFæKn\000¾~HÜvi!€~èƒ\00055·Ó¨…,ßÄ›ƒA¿N‹Ú¹íİá;.*Xğ…P–6R+\n—*øJ]aùXÜ“ÂùV»óùuE¸ã@ÂËé\000ƒ¡„Ê\r€%Å`øÏšØ0ZÑÈ¢\000\000\000]&N&L°‡î)/96ï ³k`X„ò;wºQÿIxGÎÆ8¤ëiNOäæ›/Úø[™ñ\\t.iš&y½ö¼ƒŠÊt'ümgÏ¿K/Á^ĞTeÏWrô›1¯ˆ}ƒôE…·wB‡Ùï{Oò·	>M÷öuıô*\\‚ãf„+dĞ±Ë4™26û”–;^èU^$Q”€'yY»‰ÅNƒzŸKw·Ê]iwkR|%*Y+ô\rC/ãğ\"„góè†\\PRÊwEÍB–¶7Å|×F¥½§ÍÂ·K§s6½:Oş’wÎ<uİ†‡,•èú‡İ5P§oèŠïÔmxÈõ]ŒÏ¯ïÉ´´dÖ?Ø>š ë‚ÏÅalxÈöÑ^ÿãXèÊm|h‹1Y:ªºnOˆÃa8ı¼ğa­wWß¥S–æÁ\nD2ˆËbƒo¶²,&åkÊ–½!´L@„}/<}†0ÎiJ§EøV&§,ÃéY-	»?dK6Eà’ÿ®Xë\"ŸÓ:Ír¤W°|Ò:÷`B(¶3øh\nCNÑ,şátÀ~œääœñ/À·àI¤ÍÁöø¡ØÉ«”µÇ{ÄßådÆ0„ÄÃAÍØ‹MAzt`Ëå\n?	]„q˜ÍqÁkJŸÏF{ÁE#ÌÆ\000òzO–7hÓâ`”‹~9ºhàÁ;ˆ{çã¤V‹\" à-Mãˆ]qp“ØhÆ§Oáo˜ ú§:¢õr›Ø0û_œ¼³U³Ù«˜XF€±+ø×«‚p÷›&´\000Ø2ÇO;&yúôYñ§˜,B,Í~\"'˜w†´&®•äPfw(hÂH™˜-šø¾Å=¤~H4¹ŞZšöiN§ÑM¶¸Q qÀ\000Ï¥ˆ–N\r5^bO•Ï\"ek‰:NÒ|i!Ã‰Â\r(#À\\Ã;şõ?¸5ÕÄw«<0ö¬¦gu*ß0f!¡è¯—¿8Y0‚†–ß11!g4Ç4,\\YkÍ÷}še@iJÉkz$\000ÓryIDzúŞ?OÁØœÎQ\nQ°oş*Å6_“d¿Ò&²¦)Í¤àsú“…Ø„L+Í6àë$‡%:§í\nÁfïb.Í@”4l70;@7øÆëx2™óñSa§Y «8Ä23…§3{Å˜ĞÉÀø¼L²,\\Ö«ƒ÷ÖS9Ï\\ğáßÑTLIŒ7M\000TğÑâü‰T)qS%ÛõŸÏ…¼Àò)BZ¶ºG*j•âVşz	8F;àkÌˆ,³·à=r·èÁ\000Yëù£M@{hƒ¡eõ@«C³‚„Õ,¢¬K¥¥éãé’.•2âp®*ÄõNÖfŠÀ³+àÕÓ÷\000„©¨]BtÚ\r:ŸÅ4º‰›½ÊÚš'¨¢£HwÒk¶9Ë1Èèƒ³Q²Ù=ğ»Q`OcÂËx¨«‰’Á†¬¯ÀV\r³Nî›´œZÅ”ÜïèËäærtåì¸^Ú+¿'ñM!æNé,ÌÚá¹Ö’¯‡æ#x5:î(Ùã1¿=˜áĞrú”æÈÈtÆ“ß]2e°ñt…J—¶^«¡)àWù4.Ÿ¿\"¬Àah\" ·ç-Kg”œæi_Î“äb½¥Säâff;Z0 ÛƒH¯w!ÓàYîx€ì’)§§dgà 7SÔ$¸…P„ù{ Â\n@v	iT­‡ÇHJ	ÙqjÖE5A¸™iš\"rÔ°A{4ƒ‰©>J¿bO\"¾o¢rñ›£M¿ ı†=šÑÑ¥_‚*Ÿ¸\nªİ±–&ü&R‡m¼I.Áëß$«T\n°\nqÒ2 ŠMŒ^ÒÜÖÙÒ1í.“ >sópñ5?XÕxM£p1KÒí¢6¢gè•çPF¡îëT\"£XëeìOˆê‚«§ˆ¾à;+1yÆ—³d‘q-t×˜ûÑjA¹ƒÌC^ÙËşC£ˆİÛM‡:üïÔñwnà¾WGˆH;ş±c_N/ÆÔ½¬‹«s\\õ\"o‚ê\"¸Ş„ÕsE?]“'Õ*¸WşnØß˜ß¿Ûìoğ)ü\"67šS [„ü‹#¢ş=•\"Ê– ·	ı÷ğ\\Kf{à3éºwnEgkcà3Ği®ßõènÜ†Îu{â)çñâ¤íSÎ„õ›\"ÕÁ†#Ê‹zÖ2Ü>Æ©‹UF½H-Œ¤Aò¿WQØÙUXCçŞ)E¨2îcjÄóÕÏ+÷<ÓïÛg¨õÙ[\r]İ(uâ5fr33˜\"ià.°oiŞxĞã<†¹@[\"ê\"Àèz\\©[Å‰;1>Ü¦ÑuF×ÍhÑ(ºŞ*¤¬Üf’:æ¸gVÕböF§ì]4#oéô ‰iÄ“ªÕ!5{á0¢f}Éu;ˆ“ÔRĞÖm~o¼q‹qls¤F×ÄÛÓ¨ãNĞh£Q1]Õ¾X11[ÓWú&›iQ °\nÄâ´İIoÂx–QîVØ+’P'Ä‘«æMx«%,Ä/V0Ú\\ÔŠ´vàx`,b:ÅxÂMš€Mbd¸Gëf@ Ê6(&â~	(œp‚»àENÉıÎ²DqOÚ‰ğÌzøØxDÔÿÒ`†*P]KnmB“Lïó\"ãÍZÔˆªÆ*H(yª¥¿yføªq°DD =IÊZ$Ô1]OLC*,#@dvNcUí\000YIV´`)uÙºfŒ~—G3m<qUÈÙ„6™Ö®Ùã¡­M7ô{*…Øš†\no[Ìp~éì“ô TˆkS!@ÎxÑ_Ù4C-XmÂ1°N\nf‰ê£©IÑy7ŞÊ½‚>W­q„ĞG+6€JJAZ ¥ã­-™RŠ8;ê1–*Uò1»GÑÇØ&(¢£ƒ6\nÖ:ıSRí¶\rÌéësr;Qõ»„7„\\Ï‹Y©Æ	;Ùşú°N½i2|;A²ŠœWÜHyúTÀ:«²ÚOÁëJËôH!å¾À÷|EÁUxm7‰^&˜ÈyzMK’\\Ó$M“ërË¤İa%¤\r¬+æğ“~úˆfÛG–²,k%[nö4‘ŸàÔ·t(†•YÕğ|4nTû`Î®qÃjq£¶KşÛaCÙc¡©Y€K?âa)ĞË%[ËÅ½‡ŸóÆÃÊÁ*Å04½šÓÅÏN\róàÍŞ3™RAfg™bµ˜RA§Íî[BL)o…	¼$/°ÂÔ½U…AXò:V¦§yãè5’Éîˆ ˜Ï;#hOjüì,O,<ò¦È{ï°ûvâşn #^ËÏf¬@X\r¸±.ÏUî(Upy¬ƒ¼N²ŒİFöt}¾Áy\000/*Üì\"/úÓÙkß+˜$R`¥2]O\"z¹b[`ÆÂ†‹qAc¼Xóÿ¦¤Ä<IãÛ\000„»Šs8cj\000í*c¬‰Ì˜ZqµX^C©ƒà‰MªOx*Mõ;æuµLÌö…¸yUİ®Ò,Iœ¦ 6æ4Lä2ŒNóºæö~„o“˜'ÛGœN’å?Ÿ…¸«<£wÇo~ÃÂÓeqÓ`À¯`ÅãÛ[$F_ÈøQ­ªë×ÏÉÃû	÷6ĞO(Ò\"ºŠ§sÂË’ãhŠç˜…€=i'8ıVV}^„q¸ÿ.Nì½.¦Õ’›lĞ9pàŠ7òãÅ@A3~|>[áQâ(*Ú	]åÉ‚òºÓt6KâŒ5N..ûk­fhW¼/†ÓrƒOå„ëƒqÙOµŒ“ÆT3Ï½ôoHÑ¿Z¤ˆ‡“¶XEkdŠQï˜‹ªc%&,È]X±w'¥X(C–”õ²_ò\n£o‹êonf!%Ï¦ÓşüS:ü¿Ë³9.ké§@e	\000{}z»±®ñb‘'4SZŒëæjŒ{¤©¬ú¾Ã1R·2÷›©A‹:,]\000H,ö\rîŒÄJAUú¨–åäÑĞRşµ‡c^^ƒÇz×c²«tÇå!kÙğ±¨'r¿×ˆ_ó•Şõàb„³°‰Áğˆ¨j%4±Y—×Mp\r^Ô}¼#ÕxÅG&ÃËh…×g'«7ûHõ±W…œ;u>ÿ.r'À[4Tøİ¹ÃOgØ9Xeù5dÉ5–*Éæjv—OÇ4ßàe*Ç,Ê¿ÿeÍK,#p$©†N×·ƒÓ@†Õ¸ÚY†¸î•a.æ[;›'+¬FA›EÊ³ ¦ì‰ağz”æ˜{Í\"\nĞ\ny’³ÅmàÕ“ú½¶²ª‘Y;É*,ÿ¢À*Ô+]'IQÌ¥£¡+qÅDğ°ÆW¿'QNG|PiÉ[[Í	bìïvàÙ#<Ú)`¶˜º´\nçğí8â7ºím’Ä—©v%„]ë*OÅÕÇ´Œ^D,¦ä0ZåxO[ts¡#okÕ›­ï—OÍ™Çå h ŸÔ;a ¾ğP`ÎÛ‘Eá‡ÂAÏ»sÀ°JyxDBXãë…rÈ@à7d|Ñ!äâPusÖ\r!oFÖğS8çÿTŸBçéeë¢‹u½¼/òœ2ˆ˜Æ\000½K§kø]}†‚‰ÛÕlnW¤äE%K%;Ê»q!kxLi®òÅ›Ê‘†Áïörx]Ó`¼“o“t­¸/ş\"šİ\"ˆİ˜Â5\"Cjdì,CÌ¶™{;„èósŒÜ‹‹)Zû”uaQC÷øA2~‹ãˆßÅ§‡³\000Û–[x<h±[<(Š{¯ßòßbağİÏÂ	şÆ—4]ôÄíY¡›ÃãWÒêš3¬xO³ï†{Â†¹£2B@ÄN11\n#—÷ˆEÑÖ39aqg«¨¨PÚ/%t~7+ß±úõq8½\nÉYßäl:¿´Ø˜Uµ\r@†òEÀÉNòğ¢æK7I‘RZP3H?À»å¡Vµ¾Ú–¢Š®Î¡eÛå’òZx-Š5N‰XÀZmqw&ùÛ¬óÛê?gŞÒ¦Y77¸¢›gİ,¤¶÷¿.åYœÓ4˜~òşj67Y)¦P«HÊ((R©Iàkïö»¡7;\\§s:K®I—eÄz:+Ëhëxó$Ş«…÷Ãx–0J’ÙU‘ÓWĞ4Xïšíš„\nÛ˜\"Ñ¶Ş}8Z:ösRúŸIeBG9••CŞíi]„aH8gC°â³\\~p‡ÛzÂ7Ş€ğÍ¦\000WsÇƒÖş…­ÚÖSu9‰BBÜëYÀºZ¿hâu¼\nq?½Ér¼Ş'¾$Å˜JÙT–_•¬c$üñ¢3šF7äˆQÌ\000ÈÈ¿é49.¶ğï…=Uuãg·Ù›Ü†=M$ò÷UôİAJ•‘&¼|³Ğ¹è•Xü²NWóÆ;bñr•§,¿…÷4n@È‡»Æo>49J®#LÉ?ü¿$U¥^\r(\000£ÏïÄµ4w¼BàÏ»ŒyÑ,¿XİâÀLüÆĞÂàÄ”!;Ë”vut•İ·FáU{˜i[¦¦ô2‰Ïù5´ë5ÁKàë&&1(=Ş]¥«œ€ğ‚a\\cım´ÍÆpí6HÀ”(;Ë~ƒ£\"†­ˆ@uN”ô–UïFóf·ÏœPij~µQ©úò¨€ÛkâO\r3*ù ˜u˜S9ÌømÖwû4¯Ç5hÖ…Zuİ C”ãc/áu©z=õñ(ÁûªOI‘'>t¥vô×ì®Ğ²¯¦lš&×ªLÉ@˜âyšécı7o¼cóo)X„Ó0\\·ªJWµGU’Ê08XnæŒWœW\"@0‰©SV_µÒ°`MdÉuGŒ£@gŸ¯¬Ô…ĞÕ±&wH¬i}ô­}	îÎ_ÛÂ}}•ïCG–Ö}¸´ğƒFöİüTÂ«F¨ø˜‚bù¼ÂìxëöùmP€¸~ßX¨ÍÚbÀ>Şf˜BÒcËy-Ö‚\000^Àˆ¢Îï•ÒÇ‹(>OÒ/s×÷\\„¼ÖÀ Ó‡xeöÆä‹Rb‡²Eüp†ØMüğì:Œx€Á¿½ÅZj‰aÚÅYğ~]-1”˜üMÓ˜]¬ÒÁç0øÕê›Ò¶î‡-5dv’-ÛGP#K>!N¸üC›T€€¢üèW	R?¸eµÆ	knœïw½»\\ıÆæVå~¯ÿÙ\\_­WI«{Ájé>JÎÇ»s…Ù°ÊëêŠ÷5ª†®ˆ+;ûw2a+óçh¶RÚÍ]‡ğ8Ö†³Ì‰åiöxÅ‹Æ¶0:W<ªÉ/·ÑÊÁÛ6Ş/I·¼äáJ÷3ªfª¾ê¤À\\¿ÔqÌŞízÏ\rº’yÜã}„MtÆY_*ùŒJš†Tu½¢Ú•µ”€¾å¹ èìó¹û#\\ïÖÒó/—¬æĞ½fM¬ûpáÛZ^c·ş›ÎØšt‰§ğ/†`YŒ`<÷èfÓªøÛé<\rc6\\ú\000Éàñ–•²U=n2jGåY\räæ™Åàî™gMáÓòÒÑ²Êß!^[ûŞø£ò¨Ğ¹xÉŠĞ³4Ğ}c•A=¤é‚¥ä8ÌæÃ3+ ¼KÆ‰=²Û1L@Ü2v_³…‚×)ÍhJãK\000V´XğÖ×Õm„—7õô6ù.^*@ñ£¬Qô§^#ıê¥òySchÇxèÙ“Ø,¾mS¨©‡÷`“_0Sb½ø—ĞÆ¸™:âm5üÓ×4ºt:_\r6¶ñ¶Zµ:»»Âª4;Ê*@Ï=²ÊòšÊt¯WñohHNW‹E¨LÔZ€Õá}/ñÇ³¥öA«ÒK–¬2ò[2¸jJ!»†•Ü×İQ5ŒU‚BÛIV¬î‘U~³õt–\\Çf4¯¹µ¢Á•ïO,¯nrLÍÏ­>eEÕï«ì–ö’SÃJêjT\rdUƒ«dÀjV}ÿ#qB0-1cü^ıòâ|ƒ47æk=Öõ÷Â>ïÈñ»3röóûcòê˜œ½ ÿûó‹Ó³Ÿ>¥ùcÍUçÅ•>ŠI=qøîıòöÕÁñ«—GgäÅ¯'ÏO_½;&GÏNÉ›g?ï½8À@å?›Tµ³„,ÓdŠT„EñËUˆ·Ögábİ;DÅ§a:€Wì¯¢ö÷<ÌH^ş± ñŠFĞ?føMùé¹–€3Óª›´	ß\\ïn|«7Ú\\w,®=2¸™ÁİÇÓ>Y<{Th3ï¸Fk¦=6°w[yÚùQaÍ¸ã­xöÈ ¦[wƒZûÌG…9İ™y|xÀlßºç#r°æî8LûêÁ¶Åfh’’iD3pŞÒFx©RHã)k<İ/Ã¥”“?Şàö½1Êkm},²A^&ä4OÒŞùÒŸ‰à;Õ^yyÕ½‡·÷;ãevoïŸÑ|eË€O7Œo{w«`ğ~X²,Øs…L­”&\"ÜYƒs³ıÊ—úüÚbÚ§u®ÊœV×°\rq—¥s\r{a±Ø©xG~]M¥}q~À;ö¡\000î»M¥s·|Õ#áwº8õµÁWvNz~…;ÀCf€Awg¼­äR=ğ¬Î\n¹ğÑFø–Ô¡õêïâ÷ˆ³ˆ4:FÌA~¸±C.Œ«GôJ´UÅËĞ\"EÛİ²·¯¯Ã-ª9†ò¿sªÒ*²5u@/Sz²tÊÔ×\\by@ác•4´Ş¥—i¸XĞt–ŠO/s,M¯È6ßô(Æ.-wŸWI|6²eNÚOÖë¾Ó \n€[„[²aÂ\000ˆïj‚Rº Úİ~µÃUˆğÂ¾0Ï«GT°Fs\"œ‰îÉnvJ‰ağ,3ªƒèİÂVujyœ{ôóèİsÚ[åUfD`¡,åÊš3ß}'øKã¢¼¹µÅG¡bÂ®òa*Ü0jµo(íóë€i„I—u_­8‘õği}£ƒòj³YShÊ–kªyiMµ•fQíĞmõ’2…%Õ¾W¢VÕQUKœëì$áâ2ûnùUÓ«ĞÔàb{û½8æóHT)eËqÊEåU1D£8DV®*ùYWMákEYÃê<–ÃÏcgİ\nç±ê…ÂÏ¨tOEa™Y_ş)³…ânX!¬’‡#f˜x}>­H jI\000Eß–D™ÁÖòõ\n(+­ö˜rfeÊ‰d?í+«°éª{eaT=@0¯ÆPOİX!úXÂù½âËÅ£nU¬¥^ŠfÜg\"}àB³ø!0¡^_Í]ÃÕº³†l+û~\\š©SD½=«\\‚E]•RGu\n«(Ô¼ÈÕ–±Í÷x}•ñÒæõUÄUçYÂRĞZ®¸n‹bµ)Y%*±Ï@êÀUæYÂ±Á¢•ÚlPK»âÍãZQU9è]f×ºLp¡°~õL¬_­Pağ¢XÆÌöû*c-i-ÜØ®¾²ĞuíÕ¤*V‹ÈQ=×†e÷h ™J¥Ò±{UwkU`-´ÕR[w¼h[©Zn„¢m\nµR[5eé²\000/â£{¬CÆEí6I“ˆõ85•ò¨¯8,Ck­¢nx˜ñ„¼×gtq\nzciŞ»z\\P)ñê|¥L^ƒ¬„üº\"dŠP	Ò²º.«ùã³Éh­Q'HÄ–+Bâ€J7´8$.”‡%kè‚éÕ\"EıgºüZù×¿hzõ*Mâƒkš^´*ô”Ñ3ÅõHêğ´[ÙVëî¼úŸ2ı\\ÀuF º3jDo¥çÎ(š^²œ¨mbÔX]Bzîëò³È$YÃÈò:²İ½ê‹×C­Tm‡}=“f\\b\nI&9äX–ââµ¯u\r¶ÖÜ{–MWŒ¼\\¥—‘B{¹¶Uy.†+†ãŞ°Ë0‰É°ŒG_RFù:¼Q8Û›XfŒXq5e4C®³ÊòYü³Íò9ayk\"gÓ<üÈC¿Ø9vÛ4VR‚AšÏsv§ï=ùğË³÷Ç“(J®yBÈ³4M®ùê½Ş\r€¹]\\mC÷gaœ³ô‚NÙ×IÍtùãtNóóÕùyÄ>¸öeÊn´óhù“©ÊÏht…İÅ¨ß¿zq|ğæ·§«lNC,.ğ.†Et…÷¥w'×™­VâåD`,’ª>Ë0YC»…G')›&›y$_ÙTñHñòf\"Íö'¾©<=ŒGÎÚó÷u&j~Ò4Ãš¹l¶S ”a]ÅË›ùÂÂáÂb¼DÍç‚°(/©„EU~³%-Šå+I°ûT#ÁÁ\000€1‘ŸaµÚ+¹‚ª¿èÏÖL{âzš;Tr¨†’kM÷¼.æä:Ìç”§a|yÁP`âµú_]›dEæô#óü†„q–Ó8's†§GÎÃ(ÌC–‘UÆ@Ò&ğ/>Àè¬#Ğ`ÌÖ†Ï¾ëBqñã›©²iÀ:^æw-U¿Ã8CT=÷Eh=åg·¡ÄqñŠŠ\000oA]??KÆf7äÕî¤ª¹©>¼\r5å¼ŒgŸ×Ø!qÀW Ä¥'ó‹¾ÒjĞÜÏàj±`êÂÇXû	Írfd?b4­ED?F ‡R•·\rD»;EvÚ€I¶9àÓ=A×úpÀOÀˆ©Äp%Ù<”l QMgR°âM:^bîZZ`*š|xËĞÀm¿ec9´ON“£¹x^ÀèööX=:VÚl÷çi¼£°UM`\nC¯İ&Ws-Ü1ëÂ×,:Œ¢û),\n¼»İéRM&nÀí:`Ï\"›*‚Ÿ>ıDç§3ß\nßü	ŒË?N—aüİ19ÍWñŸ$x³Jc€}¿¢í» zÅH¶JA~_€ Ó(œ^á}Œà  q\\û“Wû¯?,A‘e«å2‚N@Ô@7(>®è:ÿèMó?ù– 3rB¯édV#ŠÌœŠºZ‘ãã]­ÅŠ¬ÄÅÖKrìşw××Ú6Äß÷)ô<<YNÜ¾ä!m)£ë¬ö0†²¹µ™c\rÅ¡]É‡ßï$;–%',}ÙKœ‘OÒıîŸÎºÿ?`Ô&:…ĞÇH	wÊà–ò‰-e£UØ;e–âÉ\000© ÎGiÃÄˆÉ\000é$œ)CØä‘ o‘8#Àø”i<TÒ1÷I	aYL©W”OšÅdög1”˜O²m>áá×ã‚NÑ‡@œò à}>¿¡o£¬ ^}¼ºıüõ¾TâFYVìbÛ4…V²ÙéèĞ3ŸÊ‡fS¨®ßÇ¡z[nò9C&$c”j,ŠÜˆ;.Ò$µès8 ÿïB>æì±ß—7o	©„¬ù/ƒEõ3¯]˜Ñ³À—§}¹)ıû†¨‘09IYå\000Íı&Ï<zòZ­ØØÜÊ~Æe0É1 BœÆ€ú:¦sïæ[yßÛõ^à;·úˆm·šä•<Pá$1L†Æä¯iãø3rq!¶Rt-+H	\nNğ€Uã§cıNË²†–¯át\\køhèaM{zY3ÉHß¯dÓT¹'‹@ùxĞøğVŠÚ7?gÕ'³OHaö	!ü¨ÿkV7\000˜ì/Ãµ)²0&¢ÿûÚ¿±müoSm)éÀMr˜Äééjğ.óòE²e%·y¡t½ÓA\n{ÛbßÛëäàt74àéÎ\n~Î:WÜşÛ-ï…­,Ør'Ì1ÊŒŸHÁv›‚wÍ@Èğ1Œ®œ\\xÀ–“˜3xwdíRx§»Jòr;ÅèÄ¦ë5Ù«XaçÑ·_aï…î\ns[á€á?­°9à#“ğôû",
+["key"] = "RestedXP Midnight||a) Zul'Aman Adventure Mode",
+["groupOrContent"] = "í[ësÛ6ÿî¿3ùàk‡bù~äf2¦d;öÅ¯³”¸M›É@,!¢$c»ã?ş (ñ%›I˜^;w_l €İÅ>~»\000{=Gw<_×ucoï'	¦áŞ‹gé\n]“8!ÓŸ¯Ğ9Ft6Oö^DxIş½OÃı`‰#L?“(I9AçlJö^Li¼\nñƒ|ïqr||<8hšùÈQo3hïÂ#îÁ«½¶\\…$!w4™£ˆÜÃB!“\rW/PÂĞãûÉœ,1ß{õêq$Çßâ	ùéñpºÄ«Ÿ&sœŒÓñ8$kÆÉƒ:W/\rí1áPÎñ8¹şùêãñõéÑÅáÙ/·S>ruOÍi@ãØš¢ï©	æ3’—–Ôª4¾Œş‚l²WEÃKò6_s-¿ÂRê<F¯^ÌáèÒğ3áKÆ\"4 Éƒ ˆ…Sv!š¥âø–§¼t}œüRNâffÓ7ËV-Kq5Õ4ÿ›âUã]ÍXÓ\"İ´tËüv1çì.õAkš~‹v…FsÂYô¸S?fCo‚ë‹×$d3Á£ Áˆ³=ÿ'Šñg°­ÅdÂ¢iüø=tC,l-¢Q&P <\"x>æx\"ÌpÚ Øõğµ±Ñh¦SR·îßÀ®iŒnpŒ.SÎp4=€x†GñôÊASöËsö×Sfö¿ñ.Â¹	…û8$`)P¹ûÁgpYÄŠ|ÓÒüM;èÇ WºuO¾Ó¶â˜ª§xšª{*{5œsÊ©ë®bê–üã„D·ÜtA@æõ$	 ö˜×²Z)ºÂq¬¶‘Éf¦ƒœ© —ÿê·™ài¡z¯›ŞÑ0±”w°Kƒ wº\\1à(Éxıª9Â)á‡Œ§A¯Ï¥GÑõC#7óÊ–z¾æÙùÆY¦«Xšjƒ¡úªéJC;İÚ$å1ã?M889¦ü'iƒ`;„t²@à`Å²™±]Ş|xBcíÇhÀÀÃßåÍ^œ€ìN$ì(dœF3ô&bw!™ÎO1(+¼Ì1¼k¹º¦ÛŠ¹›9]s*ÌY†bëªîuÆÜÃ½~Hâ˜LÑa'Âãmxõ¥†ƒoŠ’ç™Ñœ'™Ñ­\n3¦ß13ï(»İÂËé”&”Äe®t¸\nÂ	x¿‡çX2ŸbIs¼êşøRùìÎX:#Zx¯ÏÒhŠFd2èïi…# 8:â	§«„Â,ÏhöäFY_h›°¥¦jêŠc«~gLeîğè~Ex\"ÌjNc–÷Èò£s=¯uú“[¤»Zu‹Ó½[fF8’´^Ò\n#®ÃÃÚ°bå¬|¡ç”8Qhş&ØôêM_5sÉÏ•ƒñûµØâ…¸©)§šVg8Gó'ÀnXâ<™UóLaÅÙ# ˆ®€”KüæPg3C½àWÕ»C¶×dÂSš CÌ÷9^mXí›š­—‰>¦æ€%àå†ÚÊø:Í–\n^ÉqT£;¿Á3\\°o˜Ú–Ö\000ğ¢ˆ}€šªA]ßœ\roÔ_z§3JßãÅşÇó*­z‘Ö5}kj%å[eXOĞH-è‚¥‚ÇèŠÚk\nkqZNq¤ˆ§’Ï¸ºçmµ ÙH¥)¨ôEØ|n½æÑÅÑy£òUÖD»dãçµì{Jcãs‹ÈÓ”]&QF‹<î^ào“7É­j¶pM†İCù:[U„4Üq·ªxÆ ı¾2@?ÆñÖ)ec[³D´ÆÆå«®×?r‘3†e|Àk QÄ°·+Qâóm2Dí7g\000`²¾7¦-y1:ãe½LÑKØİ2Î™TÇÙ†9¸5G¯é'7Ÿêd[‚)ÓïŒ©íJj1ªX•ë§	\000[ş€ú m“xÃR>´\r\n¸`èàÃÁÿú½õÿ &‘¢ë9<_¾½U¤à©º.\"¬£ƒŞÆY>ü82L×¶­—Àj¡òëÑ=€¡`\" ,ğ‘°èCÙƒBJ–Ğ%¸wG¹¾ª€ä;»h¼	NGhtz†F§çG×¤:ÜI¯0¹mCõ<ÅÑTÃD¥Q\"p\"Gú…¥	F($¢»90¬$#”DÓ¸ÆF+¤'´R4©¤)Ù$>€&h¹¼]?½JÃû6ó¾#ÑŒàhBĞ-ãhÄÂ1(ÇÁ¦õ˜ñu[ĞkhlUƒ(+ÑáZ‰ÚmMİ ‰º\\\000¥«0õËÛCr¡Ÿ<€*7Ï×ì’Š:È ƒ(I\n2•ÕmÓÖ\\Mèì¯Ù°³ËËÑÇÑœH¦Œ`Ô]É\";ä:K2ğÒ™ã,ŒKF!‘š€¥	0D e\\¡A˜oiœ´Ù€Ü1B¿Ø>y8¨°Wh6mÈX	GØv\rÅ5\000*àã«öd¢jÛõ>Sõ}ÅÕÚ©õÙª}–Àîµ>Œ×UÍõzÿßçoÚçêFZGEÈÁî!P!H«alHÈBÒ8]dX¾ä!³qÃQõîÀÀ—ĞRˆ¬šåòŠS8wŒ®_ÒdY+3lA‘X´µ¸dñv)ÚÿƒDe‰˜OkŠ¡©~wYje¹R~\"ØnÈOL]”ÃëÛÃšÒ¤mô/®-Y\nxT–ñ‡ƒ oY7½ZK«Šõ³ª}XÑì£Ö[%²<2#\"8Ó\nğ3\rÈ1SWíîÒŞ†%·Eg_·³E@bñÇt„\ne«Îº¥YÅ4ù\\d'ï(8)áÂÑPe±6òâ»i\nóíëŸëÿ#¶şôª-ı\r|»¢©Tï¤4}İÓ¼z\\1|áç\rÀiV-ˆ>[ü…èRíƒm¨a€Eyõ>MœïÁœzÓ”†%^ğKS´îüıï)]-I””q®à9?Ëıf±jboû45”1~=ÈßA¯ğğK½p\000ğXù©FcBjÚœÜßGïïi\\q>BIó˜V¹i9Ë]«³MpœÊ†ªŒ¿±‡ÈL?÷Ûş³¾ö¸âk_çhQã¾Bº áÃ1§\"S:l#á–¢»âUmATH\\ñm²>ÎOşKÒ_ãˆ\\úmD’?©HşçÖ:ü$ë´_y7èäy1üï(Ú·ÊÂU\rG1,ğÇßOepnÑÌ\r9Óó\n˜øÍÜ8‹©3™mxw‡/ù:eŞ\nHm(¬=&D_‡	™‰tÃ]6º˜}·`­ «w4¦ ®›®'÷ÒWô\n‚>S1lÕw›º1Ê1³®®$ÔD®Ìå^ˆô½ê.ÌÂ²úè]4µ×ü‡çÕ!‡­Z SõŒ&„sB§dÆ`åÌN>ÃYy¹îÕ6Hg÷ ¦åMG,ïÃ-ƒÚ5{(ÃIš±µ ùJkÃùK¸‰‚K4KÈçOóŞ÷óæŠ°®½£ø6Pñ¾*Zå7 u‚n0GÃ0]	òæ¿êg»Ä.rÛ%E<üÕÓK¨™ã¨¶ÛÙÔWT‹'™¾SÔ3y+DæH›¨¯±Z8Ñ5Ó3}Yƒ,×?T¸„ŒÕ±U×*Ÿ®<5¼R?3Oc‘l‹§6Ù'É!İ1P*†ñÁº	Z²†~¯ÚÒJEÊGÇë#ƒã&è¹¢¨lu‡?·ç…›»;Ùyañlº~`¸=\\Ô\nhdÈ„6ƒ=Cx+n<W,_g<;]}C£~STé3,ëÁ?–+Ö#]³,×÷«Õjñ>`>Á1ûP¹`¹yà€oÓ‰÷×a‘•t @N+w±¡ñENÀ®K|@J\rDÃn6”ó-QŒqMÕqë]@'®-®Öúlaıâ„ÀÛy\nğ·”è $Ñ÷›òYÃ½X¿”±™ªæ)®§úú×ƒ†Æ‹oëŠ`x<÷cq6>u;VÜë+Œiq)Îxú~ŸÑÀ§¯jŞÿ•|®ğÑ[²›C è«.ü=ğÎ€éOé#Ï;25şÇÅå\rO‚ë£Ã*Yº©Ú¾Øs¯;¤•ÓPùdÃ3ŠŸlÈw>×0ıÖ¼.ıUXrtÁ’Û]T/ß/Ü~?áçñüşÇ‹ÅKÀ1RuÁ‚ûoC|õªa“e‚	–‹Î®£xİU/¯8,Hg”¥qø€®ñdA¦2¿Øêì8¥â¨pV²L_ïØ2­rq\000™®x®êuçN |@7œD“yáV™\\[^\\ŸÃ%-®ákîÆ¾,®(§É¾uÑëîBÙ	÷#>”Ãâñ¢TĞ=½rã5£k…ï6êW¿›¥Ñ\rE´ğ‡U?õÉŒ®íúdF/Ÿ@Vûk©vÃ73†©ÀKü±Qñ›A‡$e”\r6„Áç¶úT&gd=ş ÌXĞ+?·º¸\"DûÑ	)Z¼¸v#/oó&yó¦Òö~·È”ZmüßŸzİ/OaË.¦Ê9Á{OİòÛešıì¸gww÷>[¥ÅÚŸÔì¾»ç	Z;,RWÚ&òê^.ñ–w÷”lfóíÛHNTKV2OÔº+ÊğgºX°rN¡5ÅG«â†/«¶Z¦ù»‡m¾†Û–2²¥÷şó",
 ["metadata"] = {
-["guideId"] = 243600860,
+["guideId"] = 2033061976,
 ["retail"] = "",
 ["group"] = "RestedXP Midnight",
 ["internal"] = "",
 ["imported"] = true,
-["version"] = 1,
-["key"] = "RestedXP Midnight||a) Pet Battle Setup",
+["version"] = 0,
+["name"] = "a) Zul'Aman Adventure Mode",
 ["length"] = "616891112",
-["name"] = "a) Pet Battle Setup",
-["displayname"] = "a) Pet Battle Setup",
+["key"] = "RestedXP Midnight||a) Zul'Aman Adventure Mode",
+["displayname"] = "|cFFFCDC003|r - Zul'Aman",
 },
 },
-["RestedXP Midnight||cFF1EFF00(80-90)|r Adventure Mode|cca) Harandar Route 4 (A)|1135"] = {
+["RestedXP Midnight||a) Silence at Fungara Village (H)|1049"] = {
 ["version"] = 1,
 ["cache"] = true,
-["enabledFor"] = "Alliance",
-["key"] = "RestedXP Midnight||cFF1EFF00(80-90)|r Adventure Mode|cca) Harandar Route 4 (A)",
-["groupOrContent"] = "mAK1Fïó+ré’¢¥…RXªÁKAzòà%M†í@œ,Ù¤Uèwµ‡Šzy÷µíÂ,–+cÌ@e*#¨å‘“ ÕçTÜÓX(¼<ãƒp, Æz¸Ş.ŞZóh­Ö³¥nWº¹dìÂ‰¤ÔL¸K@‰{#ôŞ5øä²“à2îS-„w8ëPÇ!ºï·/Ÿİ>lµ¾ŸLí˜j„ŞËä9üïÁ9¬×ØÅÈN<Á”<€bñ±ú;áõgÍ¯à+zä@g–Î°Ùøü",
+["enabledFor"] = "Horde",
+["key"] = "RestedXP Midnight||a) Silence at Fungara Village (H)",
+["groupOrContent"] = "}±ª1EûùŠ4Z,Ya»…°ÍQxXØÉb6dQğã]ÅN°»\\î=œ¦ÙèM»ÕZ¯TæB@]9O2FÔ |kÂ=O…İq‡â¢øséÂHK<HàhçXĞÔè)şKäÃ”“)º¿çkÌjÕ÷Æ´ŒÍïÌç[yñûŠ\\©Hô8ŒéCµgJ…3tİ\\fÇ0û%Pm¨¿}O?Máù",
 ["metadata"] = {
-["guideId"] = 258218399,
+["guideId"] = 4129231423,
 ["retail"] = "",
-["subgroup"] = "|cFF1EFF00(80-90)|r Adventure Mode",
-["next"] = "ccb) Harandar Route 4 (A) 2",
+["next"] = "a) Cultivating Hope (H)",
+["enabledFor"] = "Horde",
+["chapter"] = "",
 ["group"] = "RestedXP Midnight",
-["name"] = "cca) Harandar Route 4 (A)",
-["key"] = "RestedXP Midnight||cFF1EFF00(80-90)|r Adventure Mode|cca) Harandar Route 4 (A)",
+["imported"] = true,
+["key"] = "RestedXP Midnight||a) Silence at Fungara Village (H)",
 ["version"] = 1,
 ["length"] = "616891112",
-["enabledFor"] = "Alliance",
-["displayname"] = "|cFFFCDC005|r - Harandar 1",
+["name"] = "a) Silence at Fungara Village (H)",
+["displayname"] = "|cFF00CCFF8|r - Silence at Fungara Village",
 },
 },
 ["RestedXP Midnight||a) Bloomtown (A)|1202"] = {
@@ -9892,48 +9898,6 @@ RXPDB = {
 ["displayname"] = "|cFF00CCFF13|r - Bloomtown",
 },
 },
-["RestedXP Midnight||a) Balloon (A)|769"] = {
-["version"] = 1,
-["cache"] = true,
-["enabledFor"] = "Alliance",
-["key"] = "RestedXP Midnight||a) Balloon (A)",
-["groupOrContent"] = "ÕSAo=½ûWŒ´(jA•¢ªRÈG8UI¤ö€T9ëÙdT¯½µÇÙåĞÿÀ‰¿×_Âì6_\nâ€¸pyïÍ¼gÏ`pT\r‹¢x­T5Y•­1Dò\n•-ƒO\rL12šËs8#ãh¹b•9]#èx¯­õ‚}>:P™¡ØX½é{»† ñ–;ämEc]?€Ë•nƒ:9‘µ¤]‰JÆ4Òñuc‘±%^AGW™Õ´p¡ƒ#·œ÷%&¶Ûr2™ŒÿçùìšàEèT€=4Á—ˆfÔËy_G v4DQòMcÂÑ[L„*Yâ´\n¾‹k´†ùıİ×ã\\½Ø–ÓËó«‹ÑôÓ1”ÚÁáq[^,@ƒŒŞ¼á: \n6>İß}[#ï„·ÀÊÜ†Ã=Á‘©ÖŒ’ËsªñyM.1Æ§è'fÛ•Ìêõj#æ:ûQ òJ!ø¶øEºÿOôğK'0|§§}'0cê–œÙ1Ş$\n÷Xÿl´ƒ·?[r¥M>˜Ï?Neı“ï[rw–¾êG/É$©?¦Ú™nÑg’{\nëq/‘“…Û¦#$g}yfßö™vI6Ü@üÍ&ßÿ",
-["metadata"] = {
-["guideId"] = 3456240511,
-["retail"] = "",
-["next"] = "a) Selfie Cam (A)",
-["enabledFor"] = "Alliance",
-["name"] = "a) Balloon (A)",
-["key"] = "RestedXP Midnight||a) Balloon (A)",
-["group"] = "RestedXP Midnight",
-["version"] = 1,
-["length"] = "616891112",
-["chapter"] = "",
-["displayname"] = "Balloon",
-},
-},
-["RestedXP Midnight||cFF1EFF00(1-90)|r Default|cac) Eversong Woods Route (H) 2|1014"] = {
-["version"] = 1,
-["cache"] = true,
-["enabledFor"] = "Horde",
-["key"] = "RestedXP Midnight||cFF1EFF00(1-90)|r Default|cac) Eversong Woods Route (H) 2",
-["groupOrContent"] = "uÎÁKÃ0Çñûû+ä²\ny†ƒ1maAvÑk–<»@Í+ibúÇÛ:A<ç“ïïÕõšÖ÷\"j\000TâlCêÓ$\"j“”Ï<dö/Oø|í5ƒÊåö69cèhŒÖ+ª7ºšøÕ–î†F^<’ÖT´oŒÎº\nË†ÄŸEü€g)™quª°åÃĞwöó/u³?ìµ¾›Ãõß³ü‘Ñ]*|H6KúMÁv‹'Ia>¾¢ëŠg´ÿ¬7?î<!za·#øú",
-["metadata"] = {
-["guideId"] = 3795982643,
-["retail"] = "",
-["subgroup"] = "|cFF1EFF00(1-90)|r Default",
-["next"] = "cb) Arator Route (H)",
-["group"] = "RestedXP Midnight",
-["enabledFor"] = "Horde",
-["imported"] = true,
-["key"] = "RestedXP Midnight||cFF1EFF00(1-90)|r Default|cac) Eversong Woods Route (H) 2",
-["version"] = 1,
-["subweight"] = "1000",
-["length"] = "616891112",
-["name"] = "cac) Eversong Woods Route (H) 2",
-["displayname"] = "|cFFFCDC003|r - Eversong Woods 2",
-},
-},
 ["RestedXP Midnight||a) A Favor for the Lion (A)|1179"] = {
 ["version"] = 20,
 ["cache"] = true,
@@ -9951,6 +9915,48 @@ RXPDB = {
 ["length"] = "616891112",
 ["name"] = "a) A Favor for the Lion (A)",
 ["displayname"] = "|cFF00CCFF2|r - A Favor for the Lion |cFFFCDC00(90)|r",
+},
+},
+["RestedXP Midnight||cFF1EFF00(1-90)|r Default|cac) Eversong Woods Route (H) 2|1014"] = {
+["version"] = 1,
+["cache"] = true,
+["enabledFor"] = "Horde",
+["key"] = "RestedXP Midnight||cFF1EFF00(1-90)|r Default|cac) Eversong Woods Route (H) 2",
+["groupOrContent"] = "uÎÁKÃ0Çñûû+ä²\ny†ƒ1maAvÑk–<»@Í+ibúÇÛ:A<ç“ïïÕõšÖ÷\"j\000TâlCêÓ$\"j“”Ï<dö/Oø|í5ƒÊåö69cèhŒÖ+ª7ºšøÕ–î†F^<’ÖT´oŒÎº\nË†ÄŸEü€g)™quª°åÃĞwöó/u³?ìµ¾›Ãõß³ü‘Ñ]*|H6KúMÁv‹'Ia>¾¢ëŠg´ÿ¬7?î<!za·#øú",
+["metadata"] = {
+["guideId"] = 3795982643,
+["retail"] = "",
+["subgroup"] = "|cFF1EFF00(1-90)|r Default",
+["next"] = "cb) Arator Route (H)",
+["group"] = "RestedXP Midnight",
+["key"] = "RestedXP Midnight||cFF1EFF00(1-90)|r Default|cac) Eversong Woods Route (H) 2",
+["enabledFor"] = "Horde",
+["imported"] = true,
+["version"] = 1,
+["subweight"] = "1000",
+["length"] = "616891112",
+["name"] = "cac) Eversong Woods Route (H) 2",
+["displayname"] = "|cFFFCDC003|r - Eversong Woods 2",
+},
+},
+["RestedXP Midnight||a) Far Striding (A)|1242"] = {
+["version"] = 20,
+["cache"] = true,
+["enabledFor"] = "Alliance",
+["key"] = "RestedXP Midnight||a) Far Striding (A)",
+["groupOrContent"] = "e±ŠÃ0ûıŠ5qa°\\˜Ò˜€º@Hš×(Òâ,(k!ÉGşøø’êîºWó¦®;İm{­u ËÔ7¥Ì“`Û€Ó4G<Q.ä/G<°o”Ø;¡­ĞØ„ç’Ø³Œ¸*PsöùgLÓì÷ÆôKÂú½:èQ~§YÖƒIh]÷k ü¹›…ìv8„ÀVÁÚA±¸0{úßõõ§^",
+["metadata"] = {
+["guideId"] = 236981557,
+["retail"] = "",
+["next"] = "a) Runestone Rumbles (A)",
+["enabledFor"] = "Alliance",
+["name"] = "a) Far Striding (A)",
+["key"] = "RestedXP Midnight||a) Far Striding (A)",
+["group"] = "RestedXP Midnight",
+["version"] = 20,
+["length"] = "616891112",
+["chapter"] = "",
+["displayname"] = "|cFF00CCFF9|r - Far Striding",
 },
 },
 ["RestedXP Speed Leveling||a) The Waking Shores - In Defense of Life|792"] = {
@@ -9982,53 +9988,33 @@ RXPDB = {
 ["next"] = "a) Peril Among Petals (H)",
 ["enabledFor"] = "Horde",
 ["chapter"] = "",
+["group"] = "RestedXP Midnight",
 ["imported"] = true,
 ["key"] = "RestedXP Midnight||a) The Greenspeaker's Vigil (H)",
-["group"] = "RestedXP Midnight",
 ["version"] = 1,
 ["length"] = "616891112",
 ["name"] = "a) The Greenspeaker's Vigil (H)",
 ["displayname"] = "|cFF00CCFF4|r - The Greenspeaker's Vigil",
 },
 },
-["RestedXP Midnight||a) Healing the Spirit (A)|1232"] = {
+["RestedXP Midnight|Sojourner|ad) Voidstorm Storylines (A)|1199"] = {
 ["version"] = 20,
 ["cache"] = true,
 ["enabledFor"] = "Alliance",
-["key"] = "RestedXP Midnight||a) Healing the Spirit (A)",
-["groupOrContent"] = "mÎ½ªÂ@†á~®b`S²¢&‚p0…Í’u³l&…\\¼?…vSÌ÷òäùÆn¶;kíÀ$VæÊi’1àº\000Ó§qxäIÙşğ .H?(˜@FÊpÏä%ô¨c%‰âªÊÀ8™¢§ûûméš¦(êºiì’0ÿ±yöø¦¯^Kÿnuüœï^7PTNP–Xy/:†'*‚‘ĞùÙñ7òü“",
+["key"] = "RestedXP Midnight|Sojourner|ad) Voidstorm Storylines (A)",
+["groupOrContent"] = "URÑªÚ@}ß¯ÈC+½‚¹”KKï‹V\"…Ú†*¥¯cvšLMvÂìFüøî*QïÃîÂ9sæœ™d:}É_>}ÎóüÙ˜L) ·&;zÏ3“Õ*C¿È²JX³u\\7Ád~Ø]¹ü“A©Évh'ğ[Øú ÚÁ&Ş§–yx?Ÿ˜Ì²ï[<]*ÏUQÌfé|<+Lï*“U\rö!Æ\000œÀ¶¡%%dÕ>õú©MƒVP}OÁhü ĞÄjrá\rš²ï”pO:â%†Fjr\\A©²k©™y²­¾9Ï–ŞzÖª}çÇ7ÅŠÿ†§xÈA¡DíiäÉ–]\r1l•ÑÌJà»Ÿ®ïpƒ7TišŠİE²D½Íı3fö\nìøn±X|mĞÕdï™–èâGÍµ¸}`¥C‡¨q˜EüÌ15“{P¯E	J	i•…\\Ö`^_aŞ¶œúšøgôæCnşÿ",
 ["metadata"] = {
-["guideId"] = 1775832940,
+["guideId"] = 1709643014,
 ["retail"] = "",
-["next"] = "a) Sawdust to Sawdust (A)",
-["enabledFor"] = "Alliance",
-["name"] = "a) Healing the Spirit (A)",
-["key"] = "RestedXP Midnight||a) Healing the Spirit (A)",
+["subgroup"] = "Sojourner",
 ["group"] = "RestedXP Midnight",
+["name"] = "ad) Voidstorm Storylines (A)",
+["key"] = "RestedXP Midnight|Sojourner|ad) Voidstorm Storylines (A)",
 ["version"] = 20,
-["length"] = "616891112",
-["chapter"] = "",
-["displayname"] = "|cFF00CCFF1|r - Healing the Spirit",
-},
-},
-["RestedXP Midnight||cFFE74C3C(90)|r Delves|ad) Harandar Delves|1121"] = {
-["version"] = 1,
-["cache"] = true,
-["enabledFor"] = "Alliance",
-["key"] = "RestedXP Midnight||cFFE74C3C(90)|r Delves|ad) Harandar Delves",
-["groupOrContent"] = "EÎÁjÃ0Ğû~Å‚.%P¥Á©©/Æ©ÓK ”rİZk[ ËB’\r†||“”ë¼™õ:SÙ{®”Ú\000ˆÀ‰Œ1sˆft¨@taœ<~sL¬Ï'<íL×'qúı·KS×Ÿ»mõV­òWy	¸g;sáh`$-ñ‹9MOÑ&zKË½ğ@MO>]—‘$şôŒ‡0éñd®JùñH'ÛâØâ‘‡1,7¢ÀÒZC®a¸şôğ¢àï",
-["metadata"] = {
-["guideId"] = 2335577357,
-["retail"] = "",
-["subgroup"] = "|cFFE74C3C(90)|r Delves",
-["group"] = "RestedXP Midnight",
-["name"] = "ad) Harandar Delves",
-["key"] = "RestedXP Midnight||cFFE74C3C(90)|r Delves|ad) Harandar Delves",
-["version"] = 1,
-["chapters"] = "a) The Grudge Pit (A);a) The Gulf of Memory (A)",
+["chapters"] = "a) The Void Peers Back (A);a) Shadow Puppets (A);a) The Nethersent (A);a) The Nightbreaker (A);a) Pathogenic Problem (A);a) A Voice Inside (A);a) Shadowguard's Shadow (A);a) A Gift, Given Freely (A);a) Breaking the Triad (A);a) Go Low, Go Loud (A);a) Secrets in the Dark (A);a) Oaths to Family (A);a) To Be Changed (A);a) A Dance with the Devil (A);a) A Domanaar's Best Friend (A);a) A More Potent Foe (A)",
 ["length"] = "616891112",
 ["enabledFor"] = "Alliance",
-["displayname"] = "Harandar",
+["displayname"] = "|cFF00FF004|r - Voidstorm",
 },
 },
 ["RestedXP Midnight||a) A Domanaar's Best Friend|877"] = {
@@ -10049,60 +10035,84 @@ RXPDB = {
 ["displayname"] = "a) A Domanaar's Best Friend",
 },
 },
-["RestedXP Midnight||a) Daggerspine Landing (H)|1080"] = {
+["RestedXP Midnight||a) Tailor Troubles (A)|1247"] = {
+["version"] = 20,
+["cache"] = true,
+["enabledFor"] = "Alliance",
+["key"] = "RestedXP Midnight||a) Tailor Troubles (A)",
+["groupOrContent"] = "eÎ±«ƒ0ÇñışŠƒ­ƒ`¤H.\"¸Õ¡Ã[òâ¡1‘˜–>ğoêXç»ß—Oš²8_¤”9€ğOò;‹ybğî1ã–@ıı¯Ü[Æ\000Âª‰P%ØÅ‰óØÅ¿?C«DÏËlÔÿö³ê¦É²ºnšÓê1ıÄ½Â§ÔjçÛvc¼\r#¶l\"er‘²Uõ¨æ@Ê+cXYM]3¶Ú<zÚ;÷Bxÿ",
+["metadata"] = {
+["guideId"] = 1035603603,
+["retail"] = "",
+["next"] = "a) Scootin' Through Silvermoon (A)",
+["enabledFor"] = "Alliance",
+["name"] = "a) Tailor Troubles (A)",
+["key"] = "RestedXP Midnight||a) Tailor Troubles (A)",
+["group"] = "RestedXP Midnight",
+["version"] = 20,
+["length"] = "616891112",
+["chapter"] = "",
+["displayname"] = "|cFF00CCFF4|r - Tailor Troubles",
+},
+},
+["RestedXP Midnight||a) River-Walkers of the Prowl (H)|1059"] = {
 ["version"] = 1,
 ["cache"] = true,
 ["enabledFor"] = "Horde",
-["key"] = "RestedXP Midnight||a) Daggerspine Landing (H)",
-["groupOrContent"] = "m1kÃ0F÷ûZšÁ`5È\\„‡B§Yë*È’å´…üø(Í˜Ìßû¯i6zó¶ÕZ¿¨Ì…Äƒ:s%Ô \\KÂ/Ûã?Åqchb¤¾“sO?(X	_ú(+sòô÷Ï]cÚ¶ëŒÑëKÆæÙ«*ù·Ü”ÆÇŸ:âwÌ¸ŸÈ—‘éîFJ…3ìvØÇljV%ağ‹åÇÌÓó@¸ş",
+["key"] = "RestedXP Midnight||a) River-Walkers of the Prowl (H)",
+["groupOrContent"] = "}Î=«Â0àıüŠYìhŠB'¡‹P\\tp	Í¹6“Ä/ğÇ½£Ğııx8oD³Z!–\000,RVÆ»QLÆ;ÀNÑ_î(eÒ‡·F;sš20§.„ªÂ)i¾Wö\\Jèÿ0O„Côw‹‹¾¦M\nV=¿ñ×(e]w”¢yEä3år@ü9ØXïu*0—şÇI…LÚ{5A±`Æöªé×zœUÂû",
 ["metadata"] = {
-["guideId"] = 2117537797,
+["guideId"] = 4174844503,
 ["retail"] = "",
-["next"] = "a) Flowers for Amalthea (H)",
+["next"] = "a) Bloodstains (H)",
 ["enabledFor"] = "Horde",
 ["chapter"] = "",
-["imported"] = true,
-["key"] = "RestedXP Midnight||a) Daggerspine Landing (H)",
 ["group"] = "RestedXP Midnight",
+["imported"] = true,
+["key"] = "RestedXP Midnight||a) River-Walkers of the Prowl (H)",
 ["version"] = 1,
 ["length"] = "616891112",
-["name"] = "a) Daggerspine Landing (H)",
-["displayname"] = "|cFF00CCFF13|r - Daggerspine Landing",
+["name"] = "a) River-Walkers of the Prowl (H)",
+["displayname"] = "|cFF00CCFF16|r - River-Walkers of the Prowl",
 },
 },
-["RestedXP Speed Leveling||a) Ohn'ahran Plains - Maruukai|788"] = {
-["version"] = 1,
+["RestedXP Speed Leveling||a) Beyond the Barrier|1348"] = {
+["version"] = 4,
 ["cache"] = true,
-["key"] = "RestedXP Speed Leveling||a) Ohn'ahran Plains - Maruukai",
-["groupOrContent"] = "@±\nÂ0İï+n‡qúŠE×ƒ>ÚÃx-—¤ß/)•\\®·œó…H]­’ˆf›s&Yb;¿Ğ:æÏÄï˜ùÕ|!qıõÌÏÕOº†:OUÍ'~hŒñU#1ï×Jÿ",
+["key"] = "RestedXP Speed Leveling||a) Beyond the Barrier",
+["groupOrContent"] = "ÕXÛnÛ8}÷WÈC·UuW8©ÓMÓÀvîE@ËŒMDµËÂ¿CÉ]è8ÍÉî£Ä9gæÌÌ¡Ş½ó±Fc»ÓÙT–tön¨ÈO‘ÛÙ›>ÏPŸæ’¿Ÿ¡AFéĞš°tÒÙKÉŒ\"òÒ{‘œRtH„`TtöX*©HIÒo³Î^BF4Y.m’‰;æ„KlË¶\rß7-ßğB;ƒƒÅ°ØãŠÄtÿ–‹d<#Ù~<%r4zé»AïÍQ’½·­…’äÁN‹¸ÿıìò¸ÿ¹wúáäË^Bg4•$a¹DCÂîI:Y³c’8¦™D¾ï::8è–&)ä†LhÍÆßØœ§<ŸB(†peF®!f\000M¨Dº#—aˆù,K¨¤·LNÑ71Bü\n	6#	HR€ı…%ÉDï´÷¨Ã6›æÊûßO8—*à3tÅÂwh1Ä–m9óbñ£üşäÛ·á¥æ”…ø	XùRÂ3p\rn°ÛE_èıêü9ã#ôåYy£Â¹òåyšS)xÙ/´„,¼C½»,á‚\n$hÏÁæ7¼ï½­%?0q ’ïØOO>i¦ÿ&”LæT(_—>é¯¡÷¬ğ/ó§û¦cæ×,›ğ<g#Ï\\{@»\rĞs/0£àU\000ÚÏ\rĞi0Œ^ óÜ\000]\r@¬\000:¯“A÷©\000Ëî«ë7[±{mì¾ex¾éY¯ıÉÈ9Ï0œĞğ<Ós\rÛ3¬Æø‰lÑ\rtkn¨R¯ù\"c¬pÊµGöpMşÅŞZ÷Ï‹”ïVøôô<vtÊ¹HYº‹CxDğ¼}.nì½Š}}ÖVŒ‚ŠQcúì±¥ÑKÇMñüÁº#3–B\r	}“O‰ èÈ7¾%2*R¯H©†i7&cFĞÑLPcÅ¯k˜p3°Oø•¼G9ğ¬jââ	LGÉ®@@ÈÚVÑÆ®OTA3AÑYBÒŠÆyîÃ‰Z-j`µˆØ…,ğÍ\000ë\n«Ó¿æŒ¤dÉÙ˜*ôˆÜĞ–HZ*$7zX!]À·y[!¹xU «#·u˜Ğt-ÃwLìÕh¡iû†ï*úµÖ\"¬9ÚµĞ5|‚P®i\"Qº¯Â|ÌELu2\"àx¡›X\"?N”?d¢R¦‰Ñ*›³¾‚1üg*çEû‚<Šy,Ù\r-7Ì—QË§J>#âzÇ•À®¥ß2}·ˆæó]	1ŸµÙ e»‡\nd}xØÖ¤­~İf+¸‹\rßVC7’k0t|l¾n\rkŞsÃ„t¦1Ëc^ğ¡4¹èöO/?Í'E­6™JtK€N°Ç˜'MÉßDŒ5S*¬¨ÈÆşš …º[OJï¤^‘|$Ğ\nøŸ×ğã¹È¹Øì;%Lì‘!±\\£?JX|à¾ªÀ”øÎ>}QU½-÷İ±Òzõp÷-Ó²\r¬Ø	…QœwÊÑW>O%úzWÑ¹ËÇólyP½DÕÎ3UÛp†M]#*Èa¿Lt¶Êó¼„]k$Úî‘ÿlõ`Î¾Ç‘í¹ŞFÀ„­Qœ›¨b£™ˆkÃbÂ®±®]™ÖT¾ÉÑG(¨á”‚š•,†Æò¡³µª\nç»L(Ş5µ)üÂd1T&û<¡ 7ï[¥î×uµ7o$Ñ/’è«×ªğLªŸI É­\"Ô¿š)6‘µÖ¬¨G{ò¯ĞoİsU?zwRn¬`Î%ˆ˜Ÿ­½ìĞôÖH;cu+‰ü—$AÃ5ùõ<¬¶òOHóÇo‰©ÚMßÆo¿H¡w|°B‚7&ĞV/Vbº™® r{Š¹¨ëÃp_sÍÈ}¶v:XKò†[ö®bÕE²ækàWR·Ô/Éê5L›ğ]9®£ŞÔ3Ãò‚aX²Ÿ8Ìfõëş9ë¯~ö–cş7±üç",
 ["metadata"] = {
+["guideId"] = 2290159810,
 ["retail"] = "",
 ["group"] = "RestedXP Speed Leveling",
 ["internal"] = "",
 ["imported"] = true,
-["key"] = "RestedXP Speed Leveling||a) Ohn'ahran Plains - Maruukai",
-["name"] = "a) Ohn'ahran Plains - Maruukai",
+["version"] = 4,
+["key"] = "RestedXP Speed Leveling||a) Beyond the Barrier",
 ["length"] = "616891112",
-["version"] = 1,
-["displayname"] = "a) Ohn'ahran Plains - Maruukai",
+["name"] = "a) Beyond the Barrier",
+["displayname"] = "a) Beyond the Barrier",
 },
 },
-["RestedXP Midnight||a) Scootin' Through Silvermoon|936"] = {
-["version"] = 20,
+["RestedXP Midnight|Delve Worldtour|ca) Delves Worldtour (H)|974"] = {
+["version"] = 0,
 ["cache"] = true,
-["key"] = "RestedXP Midnight||a) Scootin' Through Silvermoon",
-["groupOrContent"] = "½–ÛnÛ8†ïõD}Ñ-Vat²‹À€×‡uĞÄëº^¤)\n´ÄJÜÒ¤@Ñqäáw(;>Änc Æ^JCÎp¾ùgÈ‹‹Ğ\rãÄu]Ï²ŠjÂ¸Õx ªbR Ï±¹’‹i¥iöi„nY&X^h«!Èœ\"ò}L¥ÔL¼E“–æúÈ88˜K)¬š*A¸ÛK«!K\r~á³êÃ|¶  ™qğ”¦r!´‡‘ß´~JÇŸFÓ»öx8½—TŠ´D™Dº èÍ]ÁªN‰˜¨L–Œss®7¨S‚¢¯LUúIY8å,ı&èw}˜Å8ÿ1WÆ†~k¿C­Vçæºó\rzãêÿ=Fısİí¡«+Ô†xD¤ôü~æ UF×Ø€åÏ ×˜·”ÛVƒ(%—ÚaBø7\000õE¬\000öÇ×½a÷æ~:&\"(Ê©XTK.§ç'¾í7qÛa‚ßjµ&uÑ¾’”^.¥âÙœ”—iAôl1ƒBMÃ WôÏxù‡ç<éu@ôJ<la¨0-5J¼ÈK ñöês\000UÏh†ˆÈĞ€T§™…5Q9{NöaÈåB	ª÷44Ó £§´ßïwºÇ:hD´’Ü¤{¢[’³J+ö}&4#‚P\n<»á(<¥#!”†Ä@,Ï &ğiÄó3RöpÇ[Ü]™çà£«jf¼á*ey$ß'®í;¶³gók[Œ“èĞàfdlNxÌæ¸v34z«m­Ö{hÜ5–Ş°w{?íq:§B¾RM*ç%§š®±]Ïåå2{DÛ¥'5ÊŸgRAP«ÀûÿTï¨àXOQAî¨`@Ñ€ƒ‘M4Y’Ç“ğuNÁ×U†œØ‡8öíĞÁ~t6h›@»¨VInæe–»4vFPŸUÅ£!zQJè0‘²¦ë8Ç‡ÙyØ9ÌÓĞ=ìx¶ÛÜï€ Ä~Ó ğÂCìkšÎ‰‚C k„ñÊf8^o8¦UIu™*YUaê²FLR½ÁØ1·’«;hÅr7ÏÔ¤Pß’Û>8Ğg«„¹âç–?¨øîˆ<^ÉmÕ#g[õZæpK‘£¡\\VğzSõêes »€ÃÅ±í½‰‹]Ïˆ%ôÙ¢Ä}ñœ3†ÈËšG™­k7Œ¿Eë\\O\rŸOÊkO¤~‚¸gÓË‘'ÈV6µeó#)¼xü÷",
+["enabledFor"] = "Horde",
+["key"] = "RestedXP Midnight|Delve Worldtour|ca) Delves Worldtour (H)",
+["groupOrContent"] = "Mk\"A†ïı+\næ˜ 89H¼ˆx‰‘!¬RÛ]ë4ÛÓ5Ûƒ?>=º!	o\rõ¾O?Uív/ïİŞåy~#Dæ( 6\"[;5ä©å´²z]‘ùøû8‘Ù,Ø8ºÃdKMº\"³XHlcş3—Ó–È”öµÁİ!µ—“Éd8v»ùŞAû¤!ú}˜²S$’L-2ÉUm(ĞV‡,½qıTjë¨Azüa\rœ‡-Ú íƒb@Pëí»#®ö²XÎW‹A1[ÍŸÆ÷ÉáÎÑ¿¨]ÒÙql %¦z´†å_RJT²!:‚ŠS!ı¡€R’÷M\r7¶ä;ÿ—ĞVš˜â'~I7o’:'ë³òPptrïp£¹ThÏ'LÑ¡UèÎ'üb­|`W}ƒxÿ",
 ["metadata"] = {
-["guideId"] = 3286962779,
+["guideId"] = 2236093785,
 ["retail"] = "",
+["subgroup"] = "Delve Worldtour",
 ["group"] = "RestedXP Midnight",
-["internal"] = "",
+["key"] = "RestedXP Midnight|Delve Worldtour|ca) Delves Worldtour (H)",
+["enabledFor"] = "Horde",
 ["imported"] = true,
-["version"] = 20,
-["key"] = "RestedXP Midnight||a) Scootin' Through Silvermoon",
+["version"] = 0,
+["subweight"] = "0",
 ["length"] = "616891112",
-["name"] = "a) Scootin' Through Silvermoon",
-["displayname"] = "a) Scootin' Through Silvermoon",
+["name"] = "ca) Delves Worldtour (H)",
+["displayname"] = "|cFFFCDC001|r - Delves Worldtour",
 },
 },
 ["RestedXP Speed Leveling||cFFFCDC00(1-90)|r Default|cd) Zul'Aman Route 2 (H)|1001"] = {
@@ -10117,8 +10127,8 @@ RXPDB = {
 ["subgroup"] = "|cFFFCDC00(1-90)|r Default",
 ["next"] = "ce) Voidstorm Route 2 (H)",
 ["group"] = "RestedXP Speed Leveling",
-["imported"] = true,
 ["key"] = "RestedXP Speed Leveling||cFFFCDC00(1-90)|r Default|cd) Zul'Aman Route 2 (H)",
+["imported"] = true,
 ["name"] = "cd) Zul'Aman Route 2 (H)",
 ["version"] = 1,
 ["length"] = "616891112",
@@ -10126,25 +10136,21 @@ RXPDB = {
 ["displayname"] = "|cFFFCDC007|r - Zul'Aman",
 },
 },
-["RestedXP Midnight||a) Flowers for Amalthea (H)|1079"] = {
+["RestedXP Speed Leveling||a) Ohn'ahran Plains - Ohnâ€™ahraâ€™s Blessing|787"] = {
 ["version"] = 1,
 ["cache"] = true,
-["enabledFor"] = "Horde",
-["key"] = "RestedXP Midnight||a) Flowers for Amalthea (H)",
-["groupOrContent"] = "uÎÁŠÂ0…áı}ŠÙŒ03Hq B7Q.fsm®m0MJšN§Ğ‡·êRgÎÏ—$©L×ßRÊ/\0008’± ~9tÆ;” ªàû÷ÜEÖ§F;SÕ„£†‘¨¬æ9^|ÀMC6ÖLø‘/@hÓµ–ÆÇp*•Z.·[¥äj\n˜¼½ÍQş‹÷è¡wgŠõ'éÊX0nŸÕ²¦6r€,ÃÜÍ0ËZÆ•¶×ü*ıùÇ·",
+["key"] = "RestedXP Speed Leveling||a) Ohn'ahran Plains - Ohnâ€™ahraâ€™s Blessing",
+["groupOrContent"] = "Ë1\nÂ@Fá~N1°…Xl±A[kÁ í@~’uvÖÔ^#×ó$ºV>x1v©;RJ¢PPE3…Åu6NÆ2¿¾Á+†GÏ÷ø‚Ym¤`òË¯“íd*bÜgQs>ï­á/Îç÷ÿ£VQL2}ÿ",
 ["metadata"] = {
-["guideId"] = 2378305605,
 ["retail"] = "",
-["next"] = "a) Sunbath, Take Me Away (H)",
-["enabledFor"] = "Horde",
-["chapter"] = "",
+["group"] = "RestedXP Speed Leveling",
+["internal"] = "",
 ["imported"] = true,
-["key"] = "RestedXP Midnight||a) Flowers for Amalthea (H)",
-["group"] = "RestedXP Midnight",
-["version"] = 1,
+["key"] = "RestedXP Speed Leveling||a) Ohn'ahran Plains - Ohnâ€™ahraâ€™s Blessing",
+["name"] = "a) Ohn'ahran Plains - Ohnâ€™ahraâ€™s Blessing",
 ["length"] = "616891112",
-["name"] = "a) Flowers for Amalthea (H)",
-["displayname"] = "|cFF00CCFF14|r - Flowers for Amalthea",
+["version"] = 1,
+["displayname"] = "a) Ohn'ahran Plains - Ohnâ€™ahraâ€™s Blessing",
 },
 },
 ["RestedXP Midnight||a) Quest Booklet (A)|773"] = {
@@ -10167,22 +10173,24 @@ RXPDB = {
 ["displayname"] = "|cFFFCDC00How to Use(MUST READ)|r",
 },
 },
-["RestedXP Midnight||a) Hunter's Rights|897"] = {
-["version"] = 20,
+["RestedXP Midnight||cFF1EFF00(1-90)|r Default|bj) Arathi Highlands Returning Player (A) 2|1301"] = {
+["version"] = 4,
 ["cache"] = true,
-["key"] = "RestedXP Midnight||a) Hunter's Rights",
-["groupOrContent"] = "ÍX[oÛ6~×¯ à‡­«Êè~)Š\000ã4A®s¼µÁ:ŒÄØDQ£¤düãw()®eÓ—mŞ,S<ç|ß¹ëÍ›À¢Ø¶mÇ0z’–„q£÷@eÁD†ËèM¥¨r4¢EIÓ—èŒ¥›ÎJ£—‘{ŠÈ+tTe%•?h¤ş/ŒSÏá\\ÉÈK˜¿T §ÿ\000JÈ\r‡ÛI\"à¶±k¯çÉèãåäCt>¹š‘ŠJRÊE¹¤LTJf$\rè–É¢œK'œ%wı«\\7óxq‹ ª@$KÑ@’”Ãïû¯Ğşşàôxp‚†£!:¼¡÷¿Ñ»w¨Ï9#YBŸ)ûèk²„LiË\r‘R<–Jú˜ğ;\000û)kH8ÏN¯''à’Lœ\n Âñl×bì9¦ïàÈ3ö÷çãšï[’Ğ½G!yzOò= ¨¼©n€ãIàM%ıŒoxşÖ±æe«mR.¡y‰b'Š\000Ñoû_¼|Ék÷ã’È)-Q}±E“ˆûœÓ’>²r†gFüL9òüÕ¿#³m0/½ŞEZØ5}Gi[¦µ3ô+\nŸp4,˜öì2\räåã®Õ^¨ÌmÓöÔ¡2¹é›Šñ”eÓVš¤VLBí°'Õß•,\\Ü±|*Š‚å,E¶„¡«ûÓÛ:/¾Ø…š²’Ëy1†GÏ›£¾”O®6Ÿªòs‹zÆR¤,+õ^ŠšHòÈÑC’M¡Êr!òNUˆpèš^ˆá·«’£{æ¦çaÛ[?‹q÷lì¬ßmìÇê,ugVhz.öâæìµ­Ë‰1Ôzt•IÁ''Œó–ááùğìzrÅá*!:ğŸN…(UÜ£[!Ñ|l»GoÁU¿7N/.Æ“ufæò¼•®éø^Ü \rêş»İ¿1o¢ÁŒ)*E¡3Ùõ£À²ıU›—n¡ŸEFµÛÅëŠZc›ÂÚ±r>>^D|RÉBÈ½.3Âä^$)?P\rA“Wu¨±îÖD‰,Ö\"dc‘á~}ÁîÓäõ's­ì„¶¡Xªˆ¬•û¾éFØtå#€Â`ÇÖ9±º×V\r'§¤\000µnSØk4À!Õ£w[ô9+émÅQsaë~¤ŸÓâ¸Ó¢õ£…š¥~äêûQİXºcÚr7ò´İè%¹hç¹nkµê‘3ÜYiRgÅ\r©m\"Ë³d]í¦Z¥²·S\000ÏD³0(MõÈ‹‚©åcM‹£Ó²Q²ˆ \000¡¤(‘íÇjàÿJEm$Íåê ·NGAM~ü%íÆW9%RãHw³#—æÜÌÍ¨fÀÈSã•š\"Ù=ä+Œù£Ë‰òCJ2†jS¶IVığèÔÃcïv·ĞÊôÓî¤¨ÁØÅµ2éFúâ6dºe+ı?—„_<²IÁs=ğê;‘ÿl³›­ÃÙ½ÙKUŞÓWù¶`oŞ:|ıVlZßÛTôpìïõBMÇY¾š¥V7ÅÈ÷u_ º+¬.` åêæ‡I…ÈÖCÃš‚Ú¶æèÛî£dlçî„‹¿aIU~ïË?",
+["enabledFor"] = "Alliance",
+["key"] = "RestedXP Midnight||cFF1EFF00(1-90)|r Default|bj) Arathi Highlands Returning Player (A) 2",
+["groupOrContent"] = "‘QkÛ0Çßõ)®ø¥y0²BÉZèK¨ãz´¡ëör±.¶VåÎr¶@>üä´ĞAİƒáğİıô“şy>3³Ë+cÌT©L(¢ó*Û“ô.0\\¨¬•0ìà‘úHöûœe×vQeı°~é›ª2‹ª*Šs“_“£@I|bÜ¬N`.;uÚõÈ¶OÄ8;naéñ@çó	LUf]¿K?N‹odc5OY5Ä(.Àõ5”‚Ääà¬¼]şBÙŒ¥¾åPcU[ä—ö—ñšHm×G’\n|Î&¦¾üW'Èú~<e¤%û*§¨é°•t‰òüYŸTuhbw½L\\bŒÿÓO#‡õ%vôºT£$€KÖL¿#¬Ÿ'ğ©È/¨œôn7±_V%½¹÷¹!•¢Ü©ÌqãKoÑ®vDîiO>Åòÿ#4õç",
 ["metadata"] = {
-["guideId"] = 56561063,
+["guideId"] = 924523939,
 ["retail"] = "",
+["subgroup"] = "|cFF1EFF00(1-90)|r Default",
+["next"] = "bk) 70-80 First Crafts (A)",
 ["group"] = "RestedXP Midnight",
-["internal"] = "",
-["imported"] = true,
-["version"] = 20,
-["key"] = "RestedXP Midnight||a) Hunter's Rights",
+["name"] = "bj) Arathi Highlands Returning Player (A) 2",
+["key"] = "RestedXP Midnight||cFF1EFF00(1-90)|r Default|bj) Arathi Highlands Returning Player (A) 2",
+["version"] = 4,
 ["length"] = "616891112",
-["name"] = "a) Hunter's Rights",
-["displayname"] = "a) Hunter's Rights",
+["enabledFor"] = "Alliance",
+["displayname"] = "|cFF1EFF0010|r - Arathi Highlands Scenario",
 },
 },
 ["RestedXP Midnight||a) Scootin' Through Silvermoon (A)|1246"] = {
@@ -10205,6 +10213,42 @@ RXPDB = {
 ["displayname"] = "|cFF00CCFF5|r - Scootin' Through Silvermoon",
 },
 },
+["RestedXP Midnight||a) Sawdust to Sawdust|922"] = {
+["version"] = 20,
+["cache"] = true,
+["key"] = "RestedXP Midnight||a) Sawdust to Sawdust",
+["groupOrContent"] = "ÅW[oÛ6}×¯ à‡¶›«èn©((»dM“Ìu‘dë`Ğc•I¤ìnğßGIN[¹tq»ƒ2­ïrÎùé×¯;#Û¶Ãè¢0ÍŒÎ‚I9Cet¦‚9©Hzy>Ğ”ÑéL†çáWè#^¦…THñõÒèP¦ˆ`83à­Üèğ\\A8x4©ü­€PñòàI’„LuÃ ğãçU2¼<_ÄÃÓñ/Ğ/ˆœr¤få‚,(/$Jf8‡èš\n©VÂ0“Œ&_ùª¶+ı5R‰.°Dg…@'˜¥èeü\níï÷OûïÑÑ`8@ïÎ†è—OÇ‡ôö-Š³Œb–ÿ÷è¡¸G\\¤¤ÆÚ'Ù±¯±ÑÁBğ¥Ò)G8ûİf*ï†ÇƒÓÃ“«ñçi\"ğµF şS\rÀ”LçöºNhêÏéZÆşşjTrq²·ä\"Kç8ßøÔ¤˜\000şãÀ›\nò·9Éò7µRuJôhFÓ0:’+†Q@ÓqõxQÀA³u\000€P%\rSa1%\nm¹¡wá#ÎxJRXL¸‚UXÂçyFYR5Cšhï=Í²ºØÁéàÃÕx´„o4=¨_dŠJ%Ÿ>IR–´Ù–åú‘ûzmhíÁW%pœh™JqöçJh¤*˜~sı®óWwÃ, ¬ã†Qà¬Iå<ßà\"ğJFü®mu­½Èí:‘éÚ­{¾Şëµ¼™N¤?­–÷ª½RåÀñ\000’BH.öÁ¥œa*öJmàDİğß×zGœUh•\000ƒ–Çƒ¿\nšÏ	«†­	$zPÑ-¨Dfj…6\000ÌfUç®³µçÚ¦í—İ…Û{–éy:¦İÒñôÂ®Waò$Õ˜?P6­Èõwâ*à­ßÕT!e7^0‚GÏßb½Fˆm7hÚFxk#È ³Å9LÑ¤v» ø•üv7ºˆ;l‡ëÙØÈî—”Ø»Ë>#$kKï´¥÷Êæ}gé…Sˆn+À}¤€Æ„¹^/Œ4`ßTWÏØîFÉşa£6æà^y?éxnç$fĞèŒÁTREd	æúêÖF—·c¹ŞËVÔ2/`ún =<·;Øëyz/ôÚ\\½Ïá\"–ÎçsphyÄáÂ¢LÒ´^µÜuzß\n­À’×N?£[Fô+£÷ì\000.×æœOP{A÷^oêsáaÂ-l\000ÑsÊ»†İõ»ßùÎØwÔ÷Ã-Ş«ğJ+T±ò_EvÉGB·*ĞĞGĞ	)ÿ~ÀÏû°¨i®BÂ<BKû™şûóùú?Œh\\ıû",
+["metadata"] = {
+["guideId"] = 809045759,
+["retail"] = "",
+["group"] = "RestedXP Midnight",
+["internal"] = "",
+["imported"] = true,
+["version"] = 20,
+["key"] = "RestedXP Midnight||a) Sawdust to Sawdust",
+["length"] = "616891112",
+["name"] = "a) Sawdust to Sawdust",
+["displayname"] = "a) Sawdust to Sawdust",
+},
+},
+["RestedXP Midnight||a) Aspiring Academic|934"] = {
+["version"] = 20,
+["cache"] = true,
+["key"] = "RestedXP Midnight||a) Aspiring Academic",
+["groupOrContent"] = "Å–ooÛ6ÆßëSõ›usı±,©(8ÓuÏÕĞfË`Pm¦E¢âğ‡ßQ²l×V2cº7äï¿{’ïŞuÍ®ç›¦iiZK‰)ÓZDä”§È2´Ö\\ğ\"C’K£§tH­•â%Aø-êå4£^„c²¤‘Ö¢©$\"ÅLƒE™Öâ™„lğ©Óü×2õ¡¬\"^¤²íu]ÛÑ~YG“¯ãé—ŞävzÏ”àG‚$G1G2!èÍ—„æô†hZş¬(cª›7¨ŸàŠ¢¹\\M)ù&{€®›R©ú©÷Ÿ÷GÃş't=˜ĞÕİ}ümx9@> ÔÃiDşCşë—ò_s“\r6 DØoM·§µ°|%Ué\000³\000zH+pW“áàört?¦¹E$¹@A‚Ic*”9š–íÛmÛÖ-§ívtÓĞÎÏ×A9²ÈÙŠ/qv%X†Ecšv;sAôeï-c-7eÑIUuM‡)“L\"¿cû]Ø|¯ú¼ä«a4&sM—XÌ‰DM^¤qq\nàIb)?r“4d°t†Ó¶}½cµMWït_\rFcQ`!‘‚&j|*4ÀhÈ°Eéu}ßİ¡üœÆBÎèsTÌfl+!Î³ï6êéİÚ¨m¶M§mÄl_ÅºM!~õt·)dAF_7íã˜«û–Š~cÌ+Snr*îÃ-÷¨9g‘ày`*ÎÊ‘àHn±÷•ÿ¯ÜU±ƒ§¦@!W¤ş‡Ã&2¸ÜÜO¯¨T€Ì!;1êó˜|+ÿyÄ¹T©–hÈ×éï8ï¡ÒUÑİ]0\r8ŒkG{Œç0Õ?a¬_fŒHRM¦mjú’‡è™Š›é¼†rA³F‰±ó£”[K¯Vî±öN°·p 0MËKDDûÚ=ÑgŒ¯à¨=\"ã™ŠŒÂ4ÅWJİ³c u·\\ç5®+cÊ(Çë:¥GÔßã˜]öâ6ô±Ò@Ù˜ÓW1·±ãªXÇ©b¯5ş=ƒbc2#¸òÆ¡Î=¥ó|A³9Ø”f4F¦mÙ¦½UÀ…(¤’s¸ãì~=´COVw&ÏÒo\r¯D\n'ÿjlN°†·gïT}’+\\Ã°v®¨o¹êÚÃê•o`ÕsXQ™ õ©oÈıšÈ‚ƒ›@{O/®n¢Œa	Gáá?V»ÜÍ^µÙ¶^ÜRÙ&<øîÒòÉW­9èû ×–¤Ş„#R>û@\000aAYñİƒ3¼¶¨öú>^¨¯kq	òWAÉŸ©ÙS›DO¼h¼öl÷æøÌëç÷SÎÇ6Š¯ÛåëÇr~˜Q6:¯Ò(ô—¨üı",
+["metadata"] = {
+["guideId"] = 543755882,
+["retail"] = "",
+["group"] = "RestedXP Midnight",
+["internal"] = "",
+["imported"] = true,
+["version"] = 20,
+["key"] = "RestedXP Midnight||a) Aspiring Academic",
+["length"] = "616891112",
+["name"] = "a) Aspiring Academic",
+["displayname"] = "a) Aspiring Academic",
+},
+},
 ["RestedXP Midnight||cFFE74C3C(90)|r Delves|a) Isle of Quel'danas Delves (H)|972"] = {
 ["version"] = 1,
 ["cache"] = true,
@@ -10216,52 +10260,14 @@ RXPDB = {
 ["retail"] = "",
 ["subgroup"] = "|cFFE74C3C(90)|r Delves",
 ["group"] = "RestedXP Midnight",
+["key"] = "RestedXP Midnight||cFFE74C3C(90)|r Delves|a) Isle of Quel'danas Delves (H)",
 ["enabledFor"] = "Horde",
 ["imported"] = true,
-["key"] = "RestedXP Midnight||cFFE74C3C(90)|r Delves|a) Isle of Quel'danas Delves (H)",
 ["version"] = 1,
 ["chapters"] = "a) Parhelion Plaza (H)",
 ["length"] = "616891112",
 ["name"] = "a) Isle of Quel'danas Delves (H)",
 ["displayname"] = "Isle of Quel'Danas",
-},
-},
-["RestedXP Midnight||cFF1EFF00(1-90)|r Default|bj) Arathi Highlands Returning Player (A) 2|1301"] = {
-["version"] = 4,
-["cache"] = true,
-["enabledFor"] = "Alliance",
-["key"] = "RestedXP Midnight||cFF1EFF00(1-90)|r Default|bj) Arathi Highlands Returning Player (A) 2",
-["groupOrContent"] = "‘QkÛ0Çßõ)®ø¥y0²BÉZèK¨ãz´¡ëör±.¶VåÎr¶@>üä´ĞAİƒáğİıô“şy>3³Ë+cÌT©L(¢ó*Û“ô.0\\¨¬•0ìà‘úHöûœe×vQeı°~é›ª2‹ª*Šs“_“£@I|bÜ¬N`.;uÚõÈ¶OÄ8;naéñ@çó	LUf]¿K?N‹odc5OY5Ä(.Àõ5”‚Ääà¬¼]şBÙŒ¥¾åPcU[ä—ö—ñšHm×G’\n|Î&¦¾üW'Èú~<e¤%û*§¨é°•t‰òüYŸTuhbw½L\\bŒÿÓO#‡õ%vôºT£$€KÖL¿#¬Ÿ'ğ©È/¨œôn7±_V%½¹÷¹!•¢Ü©ÌqãKoÑ®vDîiO>Åòÿ#4õç",
-["metadata"] = {
-["guideId"] = 924523939,
-["retail"] = "",
-["subgroup"] = "|cFF1EFF00(1-90)|r Default",
-["next"] = "bk) 70-80 First Crafts (A)",
-["group"] = "RestedXP Midnight",
-["name"] = "bj) Arathi Highlands Returning Player (A) 2",
-["key"] = "RestedXP Midnight||cFF1EFF00(1-90)|r Default|bj) Arathi Highlands Returning Player (A) 2",
-["version"] = 4,
-["length"] = "616891112",
-["enabledFor"] = "Alliance",
-["displayname"] = "|cFF1EFF0010|r - Arathi Highlands Scenario",
-},
-},
-["RestedXP Speed Leveling||a) Nesingwary's Retreat Midnight|1367"] = {
-["version"] = 1,
-["cache"] = true,
-["key"] = "RestedXP Speed Leveling||a) Nesingwary's Retreat Midnight",
-["groupOrContent"] = "ÕX[oÛ8}×¯àÂÅ¢ª*JÔ­ÒÖi‹u.›äZ,Š€¶›°,ºÕ4…üu±$JÙh¾İË‡sÎõìYˆÃ8Á{–5‘LQZ“ÏLæ\\d[“•Å]²\\±åûtµcl‰fì3Ky¶²&İ2DGg,‡ç;*ïŸä`­$£\nòeÆWkeMx¦˜Ìhj›5Iéœ¥9y=ãJQ©°åğü<û³€5‘ŸYGGûëÒÅ-]°çwB¦Ë-İ=_¬©šóyÊnB²’ìŞ™§»»W×4İ %Ğ~qùşâæäòİôìõìÃÍ[¶eª³î^\"š-M«ãå’3tÂ¿~MÙ\\¬öÒrT!3UhĞÑÑ5<\"x¾¤\n<Á¿¯|c9t±`;…ˆ‹#Œ«Çã-U¬è­(ÀÑJ\000ª0pmâ:.±Ïñ¸§rÀšø>ı$’Öç™PìÙ´Zü *ï8ö'ñMÇÆ–ªcøÏ£ú«l²æKvÇ³¥¸³&±İ¥LÁ³Z£+€¼DoyšæJ‚‘„b×‡Dvà;Ihûív‡°C`ˆ8$\"z–ëa˜ŸI5ô×({È2öEÁIÿĞê™MO?ÜëifVá³‰[1ÙÜ£¦Ïá¼í¬£Ì\r#ßğİJä9ßñ%\"$Àq­?·§.CÔÿ—(Œ'ècÅfH­UŞhÑHŠ×É<$Ií¢!^ã¢Ï¼;=vØYÇQíäºC9ìù­áLôtÃ³'=#Ò\n‘3tµBõ­üÄk­^Â:å²ÚÆˆz—½õ’üF\"BÆÑsa.g}‹‚w<]¦ü–éUaWb_vLr–-ºò›¢é )]¬‘¤Ù-„$GşĞ§²ZêÅl¯áÅ@‘@p×‰‰í»=m ›$Æƒ‘H‰?©†FHuÁ3&Åb“Ü› ?656èBŠ»Ú\rãç2q†?OS ŞZÈ¬æä†+Åó5z-ØãŠÒ÷Õ´išrš÷HYq a”A‚‡ËÖˆŠİbF-Ş=Ùj¶—Î3¦zzªµKUÆ´ô¿>—å÷¡¶qš-ñ ½!‡#›Dš9L B:…É\rQl“Ğ	ƒ‘!/¨dæ›yßfé\000d@€6¥:£zß/%ÏUÊnA µ v·;§!‚÷`›1YŸØD©5ÛV'|G±ú/€U3gçç×İ‰,U{ù±¿%êfK&À‘ı˜&Åáœœ¼zıÊugŒ~fè|ìÛ’òÈ°BÚ±.Y• /më¥$ûTpÉòá2½Üè»óºm.´a¡{¶ghß/ænÚ\\Ò|M¥¾•é«šŞ³1à•Õïš7p½ ğ	1áƒd5ˆ+ë1 #à)1-Û\r#%ÊJ]³.RºAJTv¥ÄØJ^éĞ/ñoÆl´ZëäÓr–ä„.,QÂıÂT-(îX—xì†°.áp³ˆ“‘YAyé\00014‡|Mœ&è-~šú1ÖDÔ½œô™·½ş§é.lÓdFYÆÑOõ»˜µPßÙ€4İú¡¥¶ëV…t,ÍVü`VµâY¯ïÜ¼¸mP®à¡MQè¼P?Ğôà(6o\nĞMi‚ÏôCo~Ùöàv13|İkSØ}…ó˜ÍT-(ï¤~I°“ŒzÈ¼[xq#•ÍÜ‘%š¡¡ƒ'C ó˜‚“À0lï¬ı5öIà‡¥¤T2ô¦È>6AÔ)ï˜2ùÏ‹üøÌ®}[Ø]2p¢²H“Qİ=¤´^×OLá­ía©ãLé»Æ@w!Ó¸µñ¯Â÷†%}?HÇÅeNQN7û¤n‰O:×ùkäØ½¶/±ÈU±eİ{}Üy—\000w¿E!õª¿+¡îw&Şƒ,<(#ÿ",
-["metadata"] = {
-["guideId"] = 1595675941,
-["retail"] = "",
-["group"] = "RestedXP Speed Leveling",
-["internal"] = "",
-["imported"] = true,
-["version"] = 1,
-["key"] = "RestedXP Speed Leveling||a) Nesingwary's Retreat Midnight",
-["length"] = "616891112",
-["name"] = "a) Nesingwary's Retreat Midnight",
-["displayname"] = "a) Nesingwary's Retreat Midnight",
 },
 },
 ["RestedXP Midnight||a) Regrets of the Past (H)|1108"] = {
@@ -10276,9 +10282,9 @@ RXPDB = {
 ["next"] = "a) Of Caves and Cradles (H)",
 ["enabledFor"] = "Horde",
 ["chapter"] = "",
+["group"] = "RestedXP Midnight",
 ["imported"] = true,
 ["key"] = "RestedXP Midnight||a) Regrets of the Past (H)",
-["group"] = "RestedXP Midnight",
 ["version"] = 20,
 ["length"] = "616891112",
 ["name"] = "a) Regrets of the Past (H)",
@@ -10303,22 +10309,22 @@ RXPDB = {
 ["displayname"] = "Test",
 },
 },
-["RestedXP Midnight||a) Aspiring Academic|934"] = {
+["RestedXP Midnight||a) Hunter's Rights|897"] = {
 ["version"] = 20,
 ["cache"] = true,
-["key"] = "RestedXP Midnight||a) Aspiring Academic",
-["groupOrContent"] = "Å–ooÛ6ÆßëSõ›usı±,©(8ÓuÏÕĞfË`Pm¦E¢âğ‡ßQ²l×V2cº7äï¿{’ïŞuÍ®ç›¦iiZK‰)ÓZDä”§È2´Ö\\ğ\"C’K£§tH­•â%Aø-êå4£^„c²¤‘Ö¢©$\"ÅLƒE™Öâ™„lğ©Óü×2õ¡¬\"^¤²íu]ÛÑ~YG“¯ãé—ŞävzÏ”àG‚$G1G2!èÍ—„æô†hZş¬(cª›7¨ŸàŠ¢¹\\M)ù&{€®›R©ú©÷Ÿ÷GÃş't=˜ĞÕİ}ümx9@> ÔÃiDşCşë—ò_s“\r6 DØoM·§µ°|%Ué\000³\000zH+pW“áàört?¦¹E$¹@A‚Ic*”9š–íÛmÛÖ-§ívtÓĞÎÏ×A9²ÈÙŠ/qv%X†Ecšv;sAôeï-c-7eÑIUuM‡)“L\"¿cû]Ø|¯ú¼ä«a4&sM—XÌ‰DM^¤qq\nàIb)?r“4d°t†Ó¶}½cµMWït_\rFcQ`!‘‚&j|*4ÀhÈ°Eéu}ßİ¡üœÆBÎèsTÌfl+!Î³ï6êéİÚ¨m¶M§mÄl_ÅºM!~õt·)dAF_7íã˜«û–Š~cÌ+Snr*îÃ-÷¨9g‘ày`*ÎÊ‘àHn±÷•ÿ¯ÜU±ƒ§¦@!W¤ş‡Ã&2¸ÜÜO¯¨T€Ì!;1êó˜|+ÿyÄ¹T©–hÈ×éï8ï¡ÒUÑİ]0\r8ŒkG{Œç0Õ?a¬_fŒHRM¦mjú’‡è™Š›é¼†rA³F‰±ó£”[K¯Vî±öN°·p 0MËKDDûÚ=ÑgŒ¯à¨=\"ã™ŠŒÂ4ÅWJİ³c u·\\ç5®+cÊ(Çë:¥GÔßã˜]öâ6ô±Ò@Ù˜ÓW1·±ãªXÇ©b¯5ş=ƒbc2#¸òÆ¡Î=¥ó|A³9Ø”f4F¦mÙ¦½UÀ…(¤’s¸ãì~=´COVw&ÏÒo\r¯D\n'ÿjlN°†·gïT}’+\\Ã°v®¨o¹êÚÃê•o`ÕsXQ™ õ©oÈıšÈ‚ƒ›@{O/®n¢Œa	Gáá?V»ÜÍ^µÙ¶^ÜRÙ&<øîÒòÉW­9èû ×–¤Ş„#R>û@\000aAYñİƒ3¼¶¨öú>^¨¯kq	òWAÉŸ©ÙS›DO¼h¼öl÷æøÌëç÷SÎÇ6Š¯ÛåëÇr~˜Q6:¯Ò(ô—¨üı",
+["key"] = "RestedXP Midnight||a) Hunter's Rights",
+["groupOrContent"] = "ÍX[oÛ6~×¯ à‡­«Êè~)Š\000ã4A®s¼µÁ:ŒÄØDQ£¤düãw()®eÓ—mŞ,S<ç|ß¹ëÍ›À¢Ø¶mÇ0z’–„q£÷@eÁD†ËèM¥¨r4¢EIÓ—èŒ¥›ÎJ£—‘{ŠÈ+tTe%•?h¤ş/ŒSÏá\\ÉÈK˜¿T §ÿ\000JÈ\r‡ÛI\"à¶±k¯çÉèãåäCt>¹š‘ŠJRÊE¹¤LTJf$\rè–É¢œK'œ%wı«\\7óxq‹ ª@$KÑ@’”Ãïû¯Ğşşàôxp‚†£!:¼¡÷¿Ñ»w¨Ï9#YBŸ)ûèk²„LiË\r‘R<–Jú˜ğ;\000û)kH8ÏN¯''à’Lœ\n Âñl×bì9¦ïàÈ3ö÷çãšï[’Ğ½G!yzOò= ¨¼©n€ãIàM%ıŒoxşÖ±æe«mR.¡y‰b'Š\000Ñoû_¼|Ék÷ã’È)-Q}±E“ˆûœÓ’>²r†gFüL9òüÕ¿#³m0/½ŞEZØ5}Gi[¦µ3ô+\nŸp4,˜öì2\räåã®Õ^¨ÌmÓöÔ¡2¹é›Šñ”eÓVš¤VLBí°'Õß•,\\Ü±|*Š‚å,E¶„¡«ûÓÛ:/¾Ø…š²’Ëy1†GÏ›£¾”O®6Ÿªòs‹zÆR¤,+õ^ŠšHòÈÑC’M¡Êr!òNUˆpèš^ˆá·«’£{æ¦çaÛ[?‹q÷lì¬ßmìÇê,ugVhz.öâæìµ­Ë‰1Ôzt•IÁ''Œó–ááùğìzrÅá*!:ğŸN…(UÜ£[!Ñ|l»GoÁU¿7N/.Æ“ufæò¼•®éø^Ü \rêş»İ¿1o¢ÁŒ)*E¡3Ùõ£À²ıU›—n¡ŸEFµÛÅëŠZc›ÂÚ±r>>^D|RÉBÈ½.3Âä^$)?P\rA“Wu¨±îÖD‰,Ö\"dc‘á~}ÁîÓäõ's­ì„¶¡Xªˆ¬•û¾éFØtå#€Â`ÇÖ9±º×V\r'§¤\000µnSØk4À!Õ£w[ô9+émÅQsaë~¤ŸÓâ¸Ó¢õ£…š¥~äêûQİXºcÚr7ò´İè%¹hç¹nkµê‘3ÜYiRgÅ\r©m\"Ë³d]í¦Z¥²·S\000ÏD³0(MõÈ‹‚©åcM‹£Ó²Q²ˆ \000¡¤(‘íÇjàÿJEm$Íåê ·NGAM~ü%íÆW9%RãHw³#—æÜÌÍ¨fÀÈSã•š\"Ù=ä+Œù£Ë‰òCJ2†jS¶IVığèÔÃcïv·ĞÊôÓî¤¨ÁØÅµ2éFúâ6dºe+ı?—„_<²IÁs=ğê;‘ÿl³›­ÃÙ½ÙKUŞÓWù¶`oŞ:|ıVlZßÛTôpìïõBMÇY¾š¥V7ÅÈ÷u_ º+¬.` åêæ‡I…ÈÖCÃš‚Ú¶æèÛî£dlçî„‹¿aIU~ïË?",
 ["metadata"] = {
-["guideId"] = 543755882,
+["guideId"] = 56561063,
 ["retail"] = "",
 ["group"] = "RestedXP Midnight",
 ["internal"] = "",
 ["imported"] = true,
 ["version"] = 20,
-["key"] = "RestedXP Midnight||a) Aspiring Academic",
+["key"] = "RestedXP Midnight||a) Hunter's Rights",
 ["length"] = "616891112",
-["name"] = "a) Aspiring Academic",
-["displayname"] = "a) Aspiring Academic",
+["name"] = "a) Hunter's Rights",
+["displayname"] = "a) Hunter's Rights",
 },
 },
 ["RestedXP Speed Leveling||a) Stonedark Cavern: Trials of Liftbrul Midnight|1359"] = {
@@ -10351,8 +10357,8 @@ RXPDB = {
 ["subgroup"] = "|cFFFCDC00(1-90)|r Default",
 ["next"] = "cd) Zul'Aman Route 2 (H)",
 ["group"] = "RestedXP Speed Leveling",
-["imported"] = true,
 ["key"] = "RestedXP Speed Leveling||cFFFCDC00(1-90)|r Default|ccb) Harandar Route 2 (H) 2",
+["imported"] = true,
 ["name"] = "ccb) Harandar Route 2 (H) 2",
 ["version"] = 1,
 ["length"] = "616891112",
@@ -10360,25 +10366,25 @@ RXPDB = {
 ["displayname"] = "|cFFFCDC006|r - Harandar",
 },
 },
-["RestedXP Midnight||a) Tailor Troubles (H)|1089"] = {
-["version"] = 1,
+["RestedXP Midnight||cFF1EFF00(1-90)|r Default|caa) Midnight Intro Route (H)|1016"] = {
+["version"] = 0,
 ["cache"] = true,
 ["enabledFor"] = "Horde",
-["key"] = "RestedXP Midnight||a) Tailor Troubles (H)",
-["groupOrContent"] = "eÎ1ËÂ0Æñı>ÅAu(y…n…ÒEx±\\br4iRÒTüğFG;ß=~E±—ûÃQJ¹‘’bâNqâàQ‚èc˜G<Ó”È\\şñÄÆso¯BµÁ./BÄ.ÿİM¸n6 O£SÏïÏK×õv[Uuı÷ŠXür‰éSju‰ı\n;›o½Å–]–!K¾UmÕ˜(BYb¢!È¨{ífCKäuÉƒ÷",
+["key"] = "RestedXP Midnight||cFF1EFF00(1-90)|r Default|caa) Midnight Intro Route (H)",
+["groupOrContent"] = "u_KÃ0Åßó).ôeE*ÃÁØƒÛÊ™}ğ%kn›‹iRógu°oªCDñ-pÏù“SS>½qÎ¯ËAše­³±‡-ú€òùîIjU`™û¯Û©®*¾®ª²œğbVæ'+lDÔIdD‡P‘áÖgakc@˜lr–Iò½ÇOéÈª–«eYò„)~¹ßCâísXĞykZx²Vú¼ù6ÖId©qÏ²Úv½Æ€;…w#Î?Æ®³Æß°‹\"m$‰u0–IlhÈW”\"‚?Ñõ‚Zƒ\" ñ€z¼½Eª_õ‚…Yyy%Së˜ˆf{ùg‰³O¥i¶Xpöñ",
 ["metadata"] = {
-["guideId"] = 1036521114,
+["guideId"] = 2918258890,
 ["retail"] = "",
-["next"] = "a) Scootin' Through Silvermoon (H)",
+["subgroup"] = "|cFF1EFF00(1-90)|r Default",
+["next"] = "cab) Eversong Woods Route (H)",
 ["enabledFor"] = "Horde",
-["chapter"] = "",
+["version"] = 0,
 ["imported"] = true,
-["key"] = "RestedXP Midnight||a) Tailor Troubles (H)",
+["name"] = "caa) Midnight Intro Route (H)",
 ["group"] = "RestedXP Midnight",
-["version"] = 1,
 ["length"] = "616891112",
-["name"] = "a) Tailor Troubles (H)",
-["displayname"] = "|cFF00CCFF4|r - Tailor Troubles",
+["key"] = "RestedXP Midnight||cFF1EFF00(1-90)|r Default|caa) Midnight Intro Route (H)",
+["displayname"] = "|cFFFCDC001|r - Midnight Intro",
 },
 },
 ["RestedXP Midnight|||cRXP_WARN_Before You Pick a Guide|r|868"] = {
@@ -10400,25 +10406,25 @@ RXPDB = {
 ["displayname"] = "|cFFFCDC00Before You Pick a Guide|r",
 },
 },
-["RestedXP Midnight||cFF1EFF00(1-90)|r Default|caa) Midnight Intro Route (H)|1016"] = {
-["version"] = 0,
+["RestedXP Midnight||a) Tailor Troubles (H)|1089"] = {
+["version"] = 1,
 ["cache"] = true,
 ["enabledFor"] = "Horde",
-["key"] = "RestedXP Midnight||cFF1EFF00(1-90)|r Default|caa) Midnight Intro Route (H)",
-["groupOrContent"] = "u_KÃ0Åßó).ôeE*ÃÁØƒÛÊ™}ğ%kn›‹iRógu°oªCDñ-pÏù“SS>½qÎ¯ËAše­³±‡-ú€òùîIjU`™û¯Û©®*¾®ª²œğbVæ'+lDÔIdD‡P‘áÖgakc@˜lr–Iò½ÇOéÈª–«eYò„)~¹ßCâísXĞykZx²Vú¼ù6ÖId©qÏ²Úv½Æ€;…w#Î?Æ®³Æß°‹\"m$‰u0–IlhÈW”\"‚?Ñõ‚Zƒ\" ñ€z¼½Eª_õ‚…Yyy%Së˜ˆf{ùg‰³O¥i¶Xpöñ",
+["key"] = "RestedXP Midnight||a) Tailor Troubles (H)",
+["groupOrContent"] = "eÎ1ËÂ0Æñı>ÅAu(y…n…ÒEx±\\br4iRÒTüğFG;ß=~E±—ûÃQJ¹‘’bâNqâàQ‚èc˜G<Ó”È\\şñÄÆso¯BµÁ./BÄ.ÿİM¸n6 O£SÏïÏK×õv[Uuı÷ŠXür‰éSju‰ı\n;›o½Å–]–!K¾UmÕ˜(BYb¢!È¨{ífCKäuÉƒ÷",
 ["metadata"] = {
-["guideId"] = 2918258890,
+["guideId"] = 1036521114,
 ["retail"] = "",
-["subgroup"] = "|cFF1EFF00(1-90)|r Default",
-["next"] = "cab) Eversong Woods Route (H)",
+["next"] = "a) Scootin' Through Silvermoon (H)",
 ["enabledFor"] = "Horde",
-["imported"] = true,
-["version"] = 0,
-["name"] = "caa) Midnight Intro Route (H)",
+["chapter"] = "",
 ["group"] = "RestedXP Midnight",
+["imported"] = true,
+["key"] = "RestedXP Midnight||a) Tailor Troubles (H)",
+["version"] = 1,
 ["length"] = "616891112",
-["key"] = "RestedXP Midnight||cFF1EFF00(1-90)|r Default|caa) Midnight Intro Route (H)",
-["displayname"] = "|cFFFCDC001|r - Midnight Intro",
+["name"] = "a) Tailor Troubles (H)",
+["displayname"] = "|cFF00CCFF4|r - Tailor Troubles",
 },
 },
 ["RestedXP Midnight||a) Aspiring Academic (H)|1086"] = {
@@ -10433,9 +10439,9 @@ RXPDB = {
 ["next"] = "a) One Adventurous Hatchling (H)",
 ["enabledFor"] = "Horde",
 ["chapter"] = "",
+["group"] = "RestedXP Midnight",
 ["imported"] = true,
 ["key"] = "RestedXP Midnight||a) Aspiring Academic (H)",
-["group"] = "RestedXP Midnight",
 ["version"] = 1,
 ["length"] = "616891112",
 ["name"] = "a) Aspiring Academic (H)",
@@ -10474,8 +10480,8 @@ RXPDB = {
 ["subgroup"] = "|cFF1EFF00(1-90)|r Default",
 ["next"] = "cca) Harandar Route (H)",
 ["group"] = "RestedXP Midnight",
-["imported"] = true,
 ["key"] = "RestedXP Midnight||cFF1EFF00(1-90)|r Default|cb) Arator Route (H)",
+["imported"] = true,
 ["name"] = "cb) Arator Route (H)",
 ["version"] = 1,
 ["length"] = "616891112",
@@ -10514,13 +10520,13 @@ RXPDB = {
 ["subgroup"] = "|cFF1EFF00(1-90)|r Default",
 ["next"] = "bba) Horde Highmountain 2 2",
 ["group"] = "RestedXP Midnight",
-["imported"] = true,
 ["key"] = "RestedXP Midnight||cFF1EFF00(1-90)|r Default|bb) Horde Highmountain 2",
+["imported"] = true,
 ["name"] = "bb) Horde Highmountain 2",
 ["version"] = 1,
 ["length"] = "616891112",
 ["enabledFor"] = "Horde",
-["displayname"] = "|cFF1EFF005.1|r - Highmountain",
+["displayname"] = "|cFF1EFF004.1|r - Highmountain",
 },
 },
 ["RestedXP Midnight||a) A Venomous History (A)|1220"] = {
@@ -10543,61 +10549,63 @@ RXPDB = {
 ["displayname"] = "|cFF00CCFF13|r - A Venomous History",
 },
 },
-["RestedXP Midnight||cFF1EFF00(1-90)|r Default|cd) Zul'Aman Route (A)|1168"] = {
-["version"] = 1,
+["RestedXP Midnight||a) A Domanaar's Best Friend (A)|1184"] = {
+["version"] = 20,
 ["cache"] = true,
 ["enabledFor"] = "Alliance",
-["key"] = "RestedXP Midnight||cFF1EFF00(1-90)|r Default|cd) Zul'Aman Route (A)",
-["groupOrContent"] = "]OK1Gïó)r°{XH<TeaÙ67Azé-&c;M–ü±úá]mñüŞ¼ùµíR-WJ©{\000‘¨ö >(eˆCŠuÂåBîõŸØ>ˆ\\ß®ìbµV[­¥\\¨v%›KÂ\r½›êg)˜‘Ğº÷Õßõ£	¸‹µ.ú„ã<ysşq¾#zØR>Ì÷í¯?'è³ ¥_\"»\\bÿ4Ökì½g,Á¼pÁÁúêÍÿŸ7~dG'. ë|ı",
+["key"] = "RestedXP Midnight||a) A Domanaar's Best Friend (A)",
+["groupOrContent"] = "}1‹1Fûù)t‹…pâÍŞJ:A¬,®6ƒâ$Lâq‚?ŞEKÑú{ßãµíÒ.WßÖÚ€Q®\"˜?Ö’à¢sÔtÉ¸çRÙv¸\r^ÂñTÁ©Á7éLB¤³‚?‡N‹Çyß€ñ¡äH×|ëºapÎ~İÛ·×IÎÿõ)ß&eÜ¥Ê2­‰ŸÖñD¹²Âz}Œdd˜3˜ c¼x~\rşıÔ\n÷",
 ["metadata"] = {
-["guideId"] = 4283110884,
+["guideId"] = 3309048060,
 ["retail"] = "",
-["subgroup"] = "|cFF1EFF00(1-90)|r Default",
-["next"] = "ce) Voidstorm Route (A)",
+["next"] = "a) A More Potent Foe (A)",
+["enabledFor"] = "Alliance",
+["name"] = "a) A Domanaar's Best Friend (A)",
+["key"] = "RestedXP Midnight||a) A Domanaar's Best Friend (A)",
 ["group"] = "RestedXP Midnight",
-["name"] = "cd) Zul'Aman Route (A)",
-["key"] = "RestedXP Midnight||cFF1EFF00(1-90)|r Default|cd) Zul'Aman Route (A)",
-["version"] = 1,
+["version"] = 20,
 ["length"] = "616891112",
-["enabledFor"] = "Alliance",
-["displayname"] = "|cFFFCDC007|r - Zul'Aman",
+["chapter"] = "",
+["displayname"] = "|cFF00CCFF15|r - A Domanaar's Best Friend",
 },
 },
-["RestedXP Speed Leveling||cFFFCDC00(1-90)|r Default|c 2|869"] = {
-["version"] = 0,
-["cache"] = true,
-["key"] = "RestedXP Speed Leveling||cFFFCDC00(1-90)|r Default|c 2",
-["groupOrContent"] = "EË½\nÂ0@áı>Å…,:’¥ÛfÊ \nâš6×ˆ5äGòğJ\\ßá¼•m×K)\000)ç­ñY)e²·^‘EM/òn[¥2ÿD]”RÃ8q¼Çq¤»)>ÛÌƒpÁ˜u)xóŞÃÿĞÓuÒØ‰ïWãÌìÉÂç",
-["metadata"] = {
-["retail"] = "",
-["subgroup"] = "|cFFFCDC00(1-90)|r Default",
-["group"] = "RestedXP Speed Leveling",
-["name"] = "c 2",
-["imported"] = true,
-["version"] = 0,
-["key"] = "RestedXP Speed Leveling||cFFFCDC00(1-90)|r Default|c 2",
-["length"] = "616891112",
-["disabled"] = "",
-["displayname"] = "|cFFFCDC00LEVEL 80-90|r",
-},
-},
-["RestedXP Midnight||a) Pet Battle Setup (A)|761"] = {
-["version"] = 1,
+["RestedXP Midnight||a) A More Potent Foe (A)|1183"] = {
+["version"] = 20,
 ["cache"] = true,
 ["enabledFor"] = "Alliance",
-["key"] = "RestedXP Midnight||a) Pet Battle Setup (A)",
-["groupOrContent"] = "í“Án1†ï~Š‘ö\000Rmh©RTE\n…p*Š’Hí©ríIÖª×ŞÇI·ÚïÀò$ØQ#’RõÀ™«ıÏ?ÿ|£éõNú'ƒÓ~¿ÿ^ˆ‚¥±¢X!ãôE±$˜b`ÔW¸0Ú™eÅ¢p²F0A†O’Ù\"Ì“öõè@Ú„ÆÊv#ú£¢P•lIœÁÈZ#B‘¼›ôãëÆ\"ãÚpïS+oĞÂ¥$gÜrŸŞÎ+  H­:5½š\\_¦ß®ÊŞqÙÜÅ5\000W’p-IXDk!…_¯Áâ\nm€AùëÇÏÓR¼Ùñà\n[PÒÁ\rÂ6Ÿ\"BƒR)¿ƒÖG¨e•\\%–Pêv§ÀpG‡{Æ_›Zò–ĞÜÔøz ò‘ÂSõìÖ4i€<gë\nhïr£Ø'˜$©;‘_gƒgîr;|Èƒc¿úl0cOõÚ8ıXIx\raØ«*Øä½vj<Ÿ>/Ë'Ñ’OC^!êş¯æåÕ§lÔø÷)}æˆkş¿â|¹~±É°Œ&µLï[ Î‰_1p$Æmt›Õ@\"h,Ü7¹ :ëÕ-êıù/¤‹ÒÚÂI~ÿ",
+["key"] = "RestedXP Midnight||a) A More Potent Foe (A)",
+["groupOrContent"] = "mÎ1Ëƒ0Æñı>ÅÁ-uŒƒ´à\"B6A:uè’CÒ$ÄX(øá[ŞÕw~ÿºîTw½)¥Z\000Ê\\Œx 7çMbÀ¶ZrÜŞy+ì3Nâ‚,k\næÅh*pŠ™q…CA/CädKŞ|şV‡ÕºiÆQkÕëóÈ®&ÎĞ÷8x/&X†Ÿ™€$X¿;>7<ÿÓáû",
 ["metadata"] = {
 ["chapter"] = "",
 ["retail"] = "",
 ["enabledFor"] = "Alliance",
-["version"] = 1,
-["key"] = "RestedXP Midnight||a) Pet Battle Setup (A)",
+["version"] = 20,
+["key"] = "RestedXP Midnight||a) A More Potent Foe (A)",
 ["group"] = "RestedXP Midnight",
-["guideId"] = 1201147534,
+["guideId"] = 1367019136,
 ["length"] = "616891112",
-["name"] = "a) Pet Battle Setup (A)",
-["displayname"] = "Pet Battles",
+["name"] = "a) A More Potent Foe (A)",
+["displayname"] = "|cFF00CCFF16|r - A More Potent Foe",
+},
+},
+["RestedXP Midnight||a) The Regent's Request (A)|1180"] = {
+["version"] = 20,
+["cache"] = true,
+["enabledFor"] = "Alliance",
+["key"] = "RestedXP Midnight||a) The Regent's Request (A)",
+["groupOrContent"] = "u±jÃ0@÷ûŠ\r)ÉƒqÁ‹QĞ”@:tòÅ(²\"Ë!|å¬M‡ƒƒ{Ç{eY‹ºùBT\000,RÒÖ»Sœíä±âÀ†8-Ï4'ê¿Nx´½·Ã˜€y}%Ô~”Ïùô6çå¶dw]¬·spúç	®F)Î¥TJ¬Ë×_¤ä^r¾kø{±Æl¡GÚ,*}Ÿ\"^ò¤ü{Øú3ê(BÛbçœÕŞäØ\000Ìzã–şÆÿ“\r¿",
+["metadata"] = {
+["guideId"] = 2267090945,
+["retail"] = "",
+["next"] = "a) A Favor for the Lion (A)",
+["enabledFor"] = "Alliance",
+["name"] = "a) The Regent's Request (A)",
+["key"] = "RestedXP Midnight||a) The Regent's Request (A)",
+["group"] = "RestedXP Midnight",
+["version"] = 20,
+["length"] = "616891112",
+["chapter"] = "",
+["displayname"] = "|cFF00CCFF1|r - The Regent's Request |cFFFCDC00(80+)|r",
 },
 },
 ["RestedXP Midnight|Sojourner|ad) Voidstorm Storylines (H)|1041"] = {
@@ -10611,9 +10619,9 @@ RXPDB = {
 ["retail"] = "",
 ["subgroup"] = "Sojourner",
 ["group"] = "RestedXP Midnight",
+["key"] = "RestedXP Midnight|Sojourner|ad) Voidstorm Storylines (H)",
 ["enabledFor"] = "Horde",
 ["imported"] = true,
-["key"] = "RestedXP Midnight|Sojourner|ad) Voidstorm Storylines (H)",
 ["version"] = 1,
 ["chapters"] = "a) The Void Peers Back (H);a) Shadow Puppets (H);a) The Nethersent (H);a) The Nightbreaker (H);a) Pathogenic Problem (H);a) A Voice Inside (H);a) Shadowguard's Shadow (H);a) A Gift, Given Freely (H);a) Breaking the Triad (H);a) Go Low, Go Loud (H);a) Secrets in the Dark (H);a) Oaths to Family (H);a) To Be Changed (H);a) A Dance with the Devil (H);a) A Domanaar's Best Friend (H);a) A More Potent Foe (H)",
 ["length"] = "616891112",
@@ -10639,22 +10647,24 @@ RXPDB = {
 ["displayname"] = "a) The Drinking Debt",
 },
 },
-["RestedXP Midnight||a) Harandar Route 2|857"] = {
-["version"] = 0,
+["RestedXP Midnight||a) The Drinking Debt (A)|1250"] = {
+["version"] = 20,
 ["cache"] = true,
-["key"] = "RestedXP Midnight||a) Harandar Route 2",
-["groupOrContent"] = "µ–ooê6ÆßçSXâE5-¸qş³])—®Wwwë\000©wÕ¤Ê$†X5vä8ôvâÃï8p)¡“\000‰¾IÓøpr~~Îã“n7&qÚ#„øÓÑÌP.œÎ\\«ºD#V–»G_y.ù¼0NGÒCô'tG5•9Õh¤jÃïtr^•‚¾6«ìöövğiàyáJ£î6Úépi˜–T8¹´ÿf¢ÎÙû7ıïP!š!S0ô›ÊsVU×Ÿ˜X2]Ù¥~×^ÿœM\n¶Y½YgÅ¼ú«†„ı%°Ğ©`¨„>qğ\\…ünâá rã§Ä%‘ëµÖöˆG8v0³å3&©æ\n^/qá’ÚK]]\rí2šØútÏºç5%\".ßöh•¾İ?=ôG<ÁcŠ2ºd+Ùƒvîëõm¿»şû¸É©E)˜a/ÜèoUVrşëPæÄé<‡™«/Q\nTÕ3/ÖşØİßÃÁ9Şlâ@%^5)Ÿ¡WU¥¼0(SÒpYo×•~\\24e­+fõ¥hZÏWº]×ö•cxxúN!ÿú­è±¡ÚîÅ:'4¨ı6ü¯’Ì³nò?Iıİ®‰cÛQ‘‡ÓĞ¹ºZM>ÛÖ˜ÑŒ]fµ®”¾Ì´ªª‚r}Ùx€fOEù‹ï­Ì@ğì)Ùtúzoï?¾<jC©äèV(M\r“9Ó¿(ƒ­6ñ‹º*´Rì`Sk	\rÖÔİy#hö\\-@@.çè‹T/‚Ùí™hF«Z3ø¦&Œê÷ï¥-;Å=œÄnÆ‰Îÿ TÎ$z`tiËßPï@B\r\0009¢”>.?	0I÷Î‹(±êöÈÙ\000ûhPp‘[EM=›½‚¤|4­á9 íJ\n}-İvåŒpXZÿl°÷š/¨@Ãªb2ch\\Ğƒ=ìEÍ	›Ô ‡ˆ½ø4â(iéc6\rŸ\rÿ¥=¨ÏBˆhÎüÀ(À;¦§Tğjqˆ¯w_œî4\nÜ°‡Iz6¾¤w0_ŞZ×¶dlÛNU)kHN;„Hïiè¥†çcüİN—©€ÖDıÙ‚`îlˆ[ñÇAzá.dà$²õÏ7fà+F«’g?\\Ù2aø‘&Œ[#4Hq\000­šœÓ„7V;Ğì¦Î÷Üûè¾ˆì¥hir6°qI5CÃï%Ë¹á°>Q:+ÚâEv@~åÇ4eğƒïôOòw_ï¾ËI=\\0=·Ãáz{×ïnoÿş",
+["enabledFor"] = "Alliance",
+["key"] = "RestedXP Midnight||a) The Drinking Debt (A)",
+["groupOrContent"] = "mÎ1kÃ0†áı~Å–z0XL^Œ¶B:d¹H‡}DQ„¬„üãë&£³İpßËS–n>wZë@%Î$ÔƒÓ,·€ujL·{ÄÏ™İ÷¿Ä§*Ğ•‘\n<NŒC’p‘0âÀçŒ]ÊÉ=ı>¿kLUõ½1zIXn'kòÍ0%¤àÖÃ¿Bv¢˜9AÛbç½P°+&‚’`ıİñwzÇ‚¿",
 ["metadata"] = {
-["guideId"] = 287378856,
+["guideId"] = 1459097294,
 ["retail"] = "",
+["next"] = "a) Fear and Fel (A)",
+["enabledFor"] = "Alliance",
+["name"] = "a) The Drinking Debt (A)",
+["key"] = "RestedXP Midnight||a) The Drinking Debt (A)",
 ["group"] = "RestedXP Midnight",
-["internal"] = "",
-["imported"] = true,
-["version"] = 0,
-["name"] = "a) Harandar Route 2",
+["version"] = 20,
 ["length"] = "616891112",
-["key"] = "RestedXP Midnight||a) Harandar Route 2",
-["displayname"] = "|cFFFCDC004|r - Harandar",
+["chapter"] = "",
+["displayname"] = "|cFF00CCFF1|r - The Drinking Debt",
 },
 },
 ["RestedXP Midnight||a) Between Two Trolls|921"] = {
@@ -10675,12 +10685,22 @@ RXPDB = {
 ["displayname"] = "a) Between Two Trolls",
 },
 },
-["RestedXP Midnight||a) Troll Heritage Quests (H)|727"] = {
+["RestedXP Speed Leveling||a) The Forbidden Reach|778"] = {
 ["version"] = 1,
 ["cache"] = true,
-["enabledFor"] = "Horde Troll",
-["groupOrContent"] = "íTMo1½ï¯iP U¢JQUQ•~p(„6R{@ª¦ëiÖª×ŞÇIƒrà?ğù%Œ“TJBÕg®ã÷Ş¼yc»ÓÙéíôw{½ŞÛ¢(™­+Ê1q´ÁC¯(GRç…ÌÕ\000Î¬ñvTKQzlp†œƒSb+8\"ø–áåé–BèA4Ö`¢,NŒ­Ãé\\ãI¢¬jl…¸ØÛƒÓÀf‰+ÔG«‡¡i	M¬ÔÛ¥Ãrp‰ìµÕ0—^k!’ÚÑšäÄ*\rî¥F¦	²‰p›Ô„xË¡Gcrúİß?ív‹W³êüjp}ypşåú&	X\n=ï¦pCğhÆh¥\"h‰«*$/o`48…Çš–cB3]!X™ñöšşQÛ \\¨ë¡mè¼ëBc}Š›ğ‹;Ûê yN\r&5y0ÁäN9s	š\000)DÛ3‡Ix\"ÃÕÜ¶dş{Øß?	Yà+Ø6\rò’ÉtŸ,S\\c•bE³UÇÇÇ‡Ÿ»İ\rkªÓr¨ˆÌŒÿ¯æùÕX_¹¤W~åÙÅŠœCO!Åï¿ºn¼dù¼à˜Ú“d\ru¼Ù¬-ÛüËÆ*ÉC¸Ûe1Ğúcl€Şä!_HbÖÏqó­‚¦n<´™¼Õ™õÈÎĞ'tººøŒ“?",
-["key"] = "RestedXP Midnight||a) Troll Heritage Quests (H)",
+["key"] = "RestedXP Speed Leveling||a) The Forbidden Reach",
+["groupOrContent"] = "\rÊ¡Â@`ß§hR…˜(b@! °…û³59zKwÛóƒÿ†aÔñtVÕ#‘$ºy%Ù‘«·`%™²mß±v”×PøŠÕc\"	û‚íÀÏ|iùöRnŸ™Ä£#Ã*ış",
+["metadata"] = {
+["retail"] = "",
+["group"] = "RestedXP Speed Leveling",
+["internal"] = "",
+["imported"] = true,
+["key"] = "RestedXP Speed Leveling||a) The Forbidden Reach",
+["name"] = "a) The Forbidden Reach",
+["length"] = "616891112",
+["version"] = 1,
+["displayname"] = "a) The Forbidden Reach",
+},
 },
 ["RestedXP Midnight||a) Darkening Sky|944"] = {
 ["version"] = 20,
@@ -10700,12 +10720,23 @@ RXPDB = {
 ["displayname"] = "a) Darkening Sky",
 },
 },
-["RestedXP Midnight||a) Tauren Heritage Quests (H)|728"] = {
-["version"] = 1,
+["RestedXP Midnight||a) Port Detective|929"] = {
+["version"] = 20,
 ["cache"] = true,
-["enabledFor"] = "Horde Tauren",
-["groupOrContent"] = "íTÍN[=İß§é.ZÚ%­ŠB…P?]Ğ¦	•Ğäz’kák_ÆcBª,ú}Ã>É7Nˆ¢ˆE×İÏ9sæŒíNg¯·×ßïõzï‹¢d´®(ˆ£\rzE9áZ¸¤(dnpa·“ZŠÒcC€;0ÄÄäáœØ\nN¾'ÅFx}¾£z”†ÑX?Aˆ²<16¶g‘í\nEYÕØ\nqqp\000çÍ\nX¨•VOCÓ:šZ©!7*J‡#rpìµÙ0—Şk!’Ò)šäÄ*\rî—.¥F¦)²‰0NÎÎ8æĞ€£rúİ?¿~ïw‹7óêòfp{}tùõv”¬@…‚w3¬Ì­T-1`U…äåÌB‚gPãƒæ˜ĞÌÖVæ¼ûLÿ$ŠmP®HÔõĞ6ô	>t¡±>	ÅMøÕmu<§ÓZ³4ÁäN9u	š\000)DÛ3‡iØ’ázn»?³@ÿ#…,ğ'l›ù‰ÉtŸ,S|Æ*ÅŠf;¯NOOÿ;îv7¬©NË¡\"2sş·š—Wc}å’Şùµ—+r=…lyxGÜş|%ÈòeI0µgÉêœx³Y{êó7+«$a¼ğ=Éb õUn€Şä)_	HbÖ/p‹µ‚Æn<¶™¼Õ™ç™] Oètwñ'ÿÿ",
-["key"] = "RestedXP Midnight||a) Tauren Heritage Quests (H)",
+["key"] = "RestedXP Midnight||a) Port Detective",
+["groupOrContent"] = "ÍX]oÛ6}×¯ â—¶s}K.Š\000ş\\²¦Iæ¸K»u0h‰±…È¢FQñøÇï’²lY²·uƒ½±I‘ç{î¹W~ûÖÑ¯¥ëº¡(\rF8#¥ñHXÒšÒ˜2š%hHRN‚Ï7ècÄátÆ•FŒçá×è†2z„Ÿ‡Di„1',Æ‘O$Jƒ&‚j˜şÁ1íG¸O\"xØ÷ió¦ç¸¦­ü²ô‡ŸoÆwíáÕøÍĞ?Ä)\n(â3‚Nîfaš\0000Æò‹Ñ\"Œ\"åug8KÑ}ÈR¾dŠêG¡ÿ“yøW€¼ë(±†^µ_£³³îåE÷:ïûhp=D¿~ºèõÑû÷¨\r÷áØ'?pşùsçŸSmÀ‰$·kjÛJ3F\\Ü;ÂÑ°ó5ÎY/úW½Ë/ãË§4Å£^–>ÌiÆb\"ø˜R Ò0[vÓrÔ–Ş´lU÷”³³åHfëûätAYÌqrêÏ0ŸdÈĞØ±¦Œ<©“(yghK¾ºp§ª¨^’pä¹fË€¨ÛùÇ.fSŠº4N“aÿIQ9|C8ªŸ²ŸŠN™Š®H¢9Õ9´ xÜÉÒÙ’I]uEú\"¹¢ŒcÕØ1à¯¥êšdçbÍŸ±”²SŸÑ4áJâ°Ï×ä<øğé<‰ ‚œ‘¦¾?¼î!áõ²ùüé[ã³U¸şj­£Å·ÂQĞØ`ï\000ø ïI¢«jšH¥f-È–Zœæ*ÎRD9Â>8X0š$a<UÅc‹Ï0‚šöÇI€®('GÃ,Kwàµr¼àÇ×±täüû\nÀ\n¨\n¿,Š<ƒ’}«†«·ZPå7Œ¤©D2Ç€¹pÀ“¶Ì;ºàd¢ƒŞq¢¨ù–]l5uÓ0\r\r<õå²¼g›ĞœuFşÉB¸´\nø\000­*ÄÕ¿êü2~uu=B·çía¿÷º®«\"îÊÑÎÚ9rpvàğÈ è#ø(dñ- ÜKÌM/¹0\000Ğ-ÁÌŸmí³6ûn³$‰Bn3öH`l]|?ÃJ-9ú#$àê<ÊŠ…™P€YO¤	.¯Îé­÷À¤ä?,€?Âò•#r4è`¶şn³»XfàslU¸¥,jªmˆ~exG“äˆD$õiBên­›9pm.æt”ÙR-GHËp^”Qã 8’ıx-àYæ–šJzÙex”e.ıÁ`Ğíu5m@£ˆ.ämQÜ5)YO ¾=Uód)·š¦ÖÔ*1ZâNQ¬ıô»Šı:g8%>tQ±²±m´õ5ş^“J”ã\\ËyA“3K&Ww¨gL®t†U:c·{•­ÎŞX]‡2ê°°¡·Åb LÕÔáÙÙoÙ<<\r»ÃœTUbofÙª4]ÕõòÛš¦]“¦&‘@¥ÊµRòk½ÂS,[õ%¥İS†–#İ´<Ûy©ú+ßzy}=ŠS.ß.Û&¼dïÒüê<å<›ã¡ªòæp[Ñİ’­”,¥Ë°lÿU?±ÁÒ*…Ô„ë\núñşoÚª§	ö=ëKÃ.ÉºªÔÛ¿³Ñzà@À\n‹I·v¹õN¨‘’âw‰ú4¾G&õô8uW¼gÓi´×ÿÖ‰«ˆ­šàì†Úª{·i©¶-Rd;õ5x…³dú¼]kºì3æÎçÙ]£è‡Ëø¹î(¥\\ëî~g0EÈ0R;ö®Àó·pkGp\000]Ämx{ûÙÑ“vÌj³_°ÚÜÓöº\nlDNéŒgêÍ+\rÛ+VÑíŒ.ºˆë=È•=HtWşº8áX\\GÙSÅÙíx_²Bxé,Lª	ö„iòp7ëFsx“guïaûÇÿ?’qè|ˆÑÑ~jÆQé‡|/~ü0‘$ÂOUExå±¢–§g$ñß",
+["metadata"] = {
+["guideId"] = 4124314984,
+["retail"] = "",
+["group"] = "RestedXP Midnight",
+["internal"] = "",
+["imported"] = true,
+["version"] = 20,
+["key"] = "RestedXP Midnight||a) Port Detective",
+["length"] = "616891112",
+["name"] = "a) Port Detective",
+["displayname"] = "a) Port Detective",
+},
 },
 ["RestedXP Midnight||cFFE74C3C(90)|r Delves|a) Atalâ€™Aman (A)|1122"] = {
 ["version"] = 1,
@@ -10739,9 +10770,9 @@ RXPDB = {
 ["retail"] = "",
 ["subgroup"] = "|cFFE74C3C(90)|r Delves",
 ["group"] = "RestedXP Midnight",
+["key"] = "RestedXP Midnight||cFFE74C3C(90)|r Delves|ad) Harandar Delves",
 ["enabledFor"] = "Horde",
 ["imported"] = true,
-["key"] = "RestedXP Midnight||cFFE74C3C(90)|r Delves|ad) Harandar Delves",
 ["version"] = 1,
 ["chapters"] = "a) The Grudge Pit (H);a) The Gulf of Memory (H)",
 ["length"] = "616891112",
@@ -10749,26 +10780,24 @@ RXPDB = {
 ["displayname"] = "Harandar",
 },
 },
-["RestedXP Midnight||cFFE74C3C(90)|r Delves|a) Collegiate Calamity (H)|968"] = {
+["RestedXP Midnight||cFF1EFF00(1-90)|r Default|cb) Arator Route (A)|1171"] = {
 ["version"] = 1,
 ["cache"] = true,
-["enabledFor"] = "Horde",
-["key"] = "RestedXP Midnight||cFFE74C3C(90)|r Delves|a) Collegiate Calamity (H)",
-["groupOrContent"] = "mÎ1kÃ0†áı~Å{TmHÈæ&d	˜Nº\\­Ã>¸ÈB’CSòãcÇc<ß{Ïjµ±›­µöÀDÎ$\næÂ1IïÑ‚ic?üâ”Ù}×xç¥í2˜4üÎ·[s8ìß×Õ[Ul_Ê[ÄOÖ'0ÎŒTbÕ«r+”+R:K¾bq,Á8IAéúè¢qÿò´PSìX'Q­ôOówÓQÈa·ÃcÃH`Ä7:8~&ÿ,Sàş",
+["enabledFor"] = "Alliance",
+["key"] = "RestedXP Midnight||cFF1EFF00(1-90)|r Default|cb) Arator Route (A)",
+["groupOrContent"] = "UÁjÃ0DïûºÄƒTJH ŒSÑK äÔëZÚ:ªdd©i!_§Í¡=Ï›7Ó¶k³Şl1\000*s!	 >8Ï’\"PcNuÂÏ…ıëÅGÏÔ\\‡ßìê¬5OÖj½2íV7×Œ~£(Ò;£ì2•”ñ”ja\\u\r(/óèë‡¸)lèµ~\\Úí^êüYĞ9jğ™2EO\r»v!EÇ°¼›@It¡zFú¿wOÏâù\"Ñ§ì÷¾ÿ",
 ["metadata"] = {
-["guideId"] = 671225611,
+["guideId"] = 3580368236,
 ["retail"] = "",
-["subgroup"] = "|cFFE74C3C(90)|r Delves",
-["next"] = "a) Parhelion Plaza (H)",
+["subgroup"] = "|cFF1EFF00(1-90)|r Default",
+["next"] = "cca) Harandar Route (A)",
 ["group"] = "RestedXP Midnight",
-["chapter"] = "",
-["imported"] = true,
-["key"] = "RestedXP Midnight||cFFE74C3C(90)|r Delves|a) Collegiate Calamity (H)",
+["name"] = "cb) Arator Route (A)",
+["key"] = "RestedXP Midnight||cFF1EFF00(1-90)|r Default|cb) Arator Route (A)",
 ["version"] = 1,
-["enabledFor"] = "Horde",
 ["length"] = "616891112",
-["name"] = "a) Collegiate Calamity (H)",
-["displayname"] = "Collegiate Calamity",
+["enabledFor"] = "Alliance",
+["displayname"] = "|cFFFCDC004|r - Arator",
 },
 },
 ["RestedXP Speed Leveling||a) The Waking Shores - Wrathionâ€™s Gambit|791"] = {
@@ -10786,6 +10815,24 @@ RXPDB = {
 ["length"] = "616891112",
 ["version"] = 1,
 ["displayname"] = "a) The Waking Shores - Wrathionâ€™s Gambit",
+},
+},
+["RestedXP Midnight||a) Endeavor|702"] = {
+["version"] = 1,
+["cache"] = true,
+["key"] = "RestedXP Midnight||a) Endeavor",
+["groupOrContent"] = "í=Ùr7’ïü\nØ~ğÎ¸Y®ûpLxG¤DI)qIÚí®Ãv£»Ë¬®ê©CœVèaco¿d3Q€B5—5ÏDÌÈvg!‘™‰txè[~Y–e|‘³’ÆÉÁïY^ÄYJ¬ƒ/VyVmÉ+J¶øË99‹i¼Z—_¤tÃıy–.}Ÿå_ÄiÉò”&ğí–üéOäI’Ä4³c••	İ™oa4,Ã·f‡–ô»íÎìÈˆüıÛo?^½DlK:g_Ï«¼Èò¯çyVkç_ó‰è¼4®“í7¶ù±<Nâù\r‚Ë5#ç9ÿéüåñ«Ÿ^°<û² Ç4IÈQFóÅÇœĞtAè|Î¶%ùü(ÏnXJ.×YÎ>7şX}ûäâõOï²Šlè¤Œ-Ù¡isäJò×\n„C®Ù›Ó´ıé'©?6ÈË%‰KR”1`Yd¬Hÿïş·$·Y~3#ÅM¼…qAPÆÇ\\¢ë\nğ?˜à<‹E\\‚ªhBJ–°m–—Híe™å›Û8†Œ†×ô¬ˆ|ûí“ú?OÙ\nÆ}C®€ÄúßAËe•§E§¿Y¾è”çÍÜÈ@y¾áÿÒĞ/ÕĞ›|•Ç›\rÍE\r9‘íß[C_ñ™VU¼`¤`eA`¡:æW5¹ÄZà®ÕYÊ€¯)HÎæÙfÃ`írÙ-òlÛ+×Õ’·t\\Wó5¡Ùd LĞ[\\Ò#Oò\rğY5È[˜“PÄÎÒèYĞ’ÍÈQø€Š˜¯iº‚€‰8]™²í–\\ãWqKšpÑãÌµì×ô=k)ãÜdEÍJ1ëTYĞ%Kv5Àîf†dÂ¿ì€UĞhš‘$ƒysRlYÁW­LæY•,` \"E9´ÎÃLÕj\rFÀå•°şˆo`°Â\rM+0¯b	ZN@ \"¤²µÑkF¶ [‚”^3ğ¤×Y¾Î²E-õ5Ğ]€‘ÌÁÙ’çyµÙÄ(¢b“¥åšSÓb7\000{ËĞ¤ÈÈ*g´¨K¬MwW´\\ˆ­İÜÉ‹`b€èK |[Æ›ø BûfËe<Q×[XßÕØı¹*¸%…&‰ë°Qà:»e@·É’Û\000Ÿm>átØï LğNhÄv<Î•°À@ìy+âŠËØĞ\råÈqøÌjp9zÉ+zÃ8ˆ×nF^Uéá)É%ê¥Ôìr-)öH‘G·ÔØ³vsäÿá9†eÍœÀüGy`Ì³Ä^Ö~Ğ}ÀáŸ õ“Ğ™9–\rRÿ$rKäâ[|âÛæO€=ü3Ø÷‰É?ÙC®úÃ?ı=Ÿø‹/pÄ…aË<©À¾»çr‹«õ,5'õßãÈB%g;r™¥®ÿaÆe	kúğ\nW:—·à÷òbË@?9loğÁrÙLWÆe‚[àÉÉÉñÓcÓ<É’$»åZ|’çÙ-ìß~û4ÃµV6iºkö0\\ì°h·Í6a%Ø:.ËcYyÊŠm',ÿ3øä8YÅİ5Sê¯ày›âÖé`@`N0ó,ÃñxXwaì–ÉbC·_ƒß/¯«ëë„ıä»à¡v]\\pE“4Ûzÿ<¹xùìõÓÓw?=OÇèÇÜèöFßq¯ß¯\n\000d\r[d·éä®XIê‘5 G¶w8†Ë–laÔ5-A+¢`ù|­`{fıĞÂ™ëÑÙE”¼Íwi*²ìX,®å'ä|\nìŠ°ĞŸım0ã~£c¼Ç¢¡:ª!øŒè¿T¬&¶7E$ı¸pğñ¡9»8?0Ğ£­ ,Œ·¥8tD®®abôÿ\n·ƒzÂg¯Ÿ½ûérÑß6ˆ³ùÖÍm+so²k2ùè©Ÿ`¡›×Ù;/öèI_Ğvmİ¬®:Qı©f&f\n\rg:å?¯òDóÙ\\m3V(wh,¥µÒx'áÎ:,íj=‰Ó¸XsWøùèğÏÉ%—43I\"0·fµz†šFèLÆûeoväezN,¯WØï„õú&N0ëí^9 ÕÅ5\n´ºÑt´n ±Á]*+iQ$L¥VH6®rŠ±yY°Óô4+4TÖÌ·Œ`:	ŸVó›y†e†y§…Luh†¢OäQrÂ`“Åaİ*fƒl\rs#r«vGÔÓàTuëğŠV`ƒ…²üPrèèpù]T¯û2]Ò´ÌwâoÏ’¬{á‡7U™Ç‹ÖÜEË4ùõ]\r¨	vCB¯Y2˜]Ğ¯c@|>ÄõO“@Ï;Z¥«,áS=eyßeÛÇ3’ˆj!6Šƒ/Ö K,qd·ÀF–IViyú‘aG3Ûœ™2È†¢W¼Â\nôĞ×ŒêaCe|¥å'e+?±Í=Zƒ²*EaŸÕ)œÑ÷R3òŠ±ôšÑ´©N)ßgU<'¹¬rÙ]®°%¼/J \nYH_ˆqmU@9ÊÑ¶W‚IAôæÚh‚¾/\r¶ûÁ—ëªÄ”ÿ)ˆ…oœş›çnÀA¾¢K*cw|Ä¸•Yï~–¹m4..FÉÊqÃãœbÅà+ãÁZuMRÀ\000ÒHz=i9¡áy³À– \000wËÀ5\"øÜz«…\000‚µéh@¶3<,C«SE†kÍ‚À°4ÈtD\000ü@¼!å-È‚ĞÍ\"È\"~$=RRrqÔòË \n7Ô€|N…=”:x¹šŠá¨m¤äêØ2,û- 04ì!Â\000ÃàĞD¿ª‚|#€¹@Ä:H€\n‰hô‘ã aKïzÑ(¿¼á‹ö Î5‰v{–U)†l`ó´,$0ü\\uh°JÑ¡I¿x­‹¬Á¯Òü÷ãg?ÿ–ÂdCfÅÑO6½¸Å`pÀ\n¬­_\000QW–ãD^ø\r|ş_ò|ğÕ¼¶šaaš×Ú À=õ%ù«\000È¸€LÿCxŞŠ…–é¹Ù­ãvòhU<Ş$ÿñ$Ö;Ü'¦6ît‰óQ^NA¶'’0%^ğ\"[Î¡ª<¡ÛzÄ7ä*kxKwhæbB­Ã>`*à½î2®N3ˆV\000„§nëLæ'Š„3Çs\n+éR€Ä÷r>a“ph¨†í¨¶­É¨®Ã›ãÏEF—œîæT¢¥»­éêïóhÓêY|™‚VR%åtÅ”`ªŸmÔÇ´Á3+ªí6Ùá1Ù›Ã°•,Ø¾A^8Ãmn*™Å+rIµN dÜZºZû«Gk“·»Ø\r«°£›0Ù3ä…û m¶•úœıµŠsVÜÛo_0¢Îa¹ï°d†r¶ã%ŒÏd¶<¬YÁ¤*ÿ.><­¸¨yÍ|°°qÆiG]£\"şmKòUCâş•9tr¸“wˆÙ‘ùè^rol¿1¦^¢iÕõ°bÈıÒ/rÉ›(ÈIì™g÷•1·-}AfÎĞÄÚ+$o¡cdW’ÊÁ…ªÓ!gí2ÍnÉyœ°BÎ'•yÅ*€Óx’IíI t¨<Ÿt3IL)<äú†âPwˆ2+ÿ¦‚¬~tñÔL9J* e2ÈÇüÆàñD\nòauŒåo€{Q8<ÉÄ?=äB…Ó¹\r¤K¡öëJÖpJ.·y6t•3ZT9k£AFçkå¸¿ƒ5S°-Ä£%vsĞÂPø§E\000´á}¼Áƒ–„<n1şx\n3óŞŒğñÊv+ğyP£?}óæ\nR	lÿà…äi»cW±¿8u,yóuÌŞÃ¢®m²æ¤9™©Šm<;Úë„¢|d`/õ—¸añ$K­¿õ¥¼i(ÂÃ>Ç.”!­&W˜æ˜ñE¼À½˜»3µ§á¢‹-×Âzy¤ø•¼ªÅli\\¬ÄÃ¿VÏ=DôHµ<pUÔ¦2˜ú7bæ÷*\\Ô²æ\r,Á÷,§©µü¦-áÓª[:~§ò4ââ?°ÏèXBªŠ.oGÃ`Üà)ÃşL9¨“*(x:\\GAò‰€ìúø8TAØgÌÕ¼á(#.ß‡¼•ßGØjÕÜá‚-±‹KJ¬˜ó^<\000¯š¶JYâ^dwU£6øy]m¶  ZÎ×íAÓ›ì¶€3šÓª;|âÍÃ%(|İV4?|‚È»åÉk1äœÎo4µ=`tÂö„Ñ\nSWÙ¨+Lb·Ú}JLBµC)P]Ğëë¸,–<ü@%*°PÁ$ÓÕtlqŞ9ÍwäxÍÒ•œh¹¾Ù“şùØB*4Q)ã4Û†\r4[SjìŒîÀIåtsí]t¹T¨ö„®ŞÕş¦â’sËo!ÛÕ€ó˜È42À[l`‘º_1[«Ôõ¿'@|¶ìWi!*J8tÙS<Ù¤ä;H§ğû5ª×rõÉ®4{{\"aQíÕ{èı4€^¦?WØz}§‡½¥yg|QŠ×ÎñÇ¸Œ?°ú#»MÉšQìÛ$Å–%I1#qİÏ{âiºï›í9fEtµ´{›|ğãØr@9®A·×UA˜S;# ğã\"ô-(œ)ykP·¬ù³Ğ7¢²¯s@Ñ^Ğzñ#ZRšÇä$¡XĞIÒùëĞô%H;¼ äAKIh˜ĞÊæó®6U€A‹ïëóc¬ çYRğîŞ7±œvö1`Í¾«â£®¢*(äõÇT•p½Û¾\nş\"å@j\nAö\000ä£Æ¡éÖ ½]0Ÿ`=ÿÎ–-7XUáŸD²Ñø|7™®õ[·›t±K½›´±Ë·İ6>İ.8²¤é¿xï‚§émğÔÓÏƒ§–şûEOÂ±¦Ôµ¹ØÄ9MÈİ%À'ŞzzrKoX:ì^>a#ŠœöÔC‚ø.Blwñøsºƒ[™äıÕ}Rm±Ã7/”¸›‹ ³İ=2èä)}#JÓbğ·`!¸ğ[š,°ÁÆÎÒOh¾YcVu”©^“Ëñ‚¸–öMeÂà­>M‡X™ŒVŞ%H®Š*¡êuN¬= ÖõƒXqôß…ÚŞx,1i“U®¥V4¡ñx¡PŠ7ùíŠ?9ú>?¬Ã“6pA;¿…­¬4ktŸ%í¶qYN3o”,ØŠPÎÖ?hQ’Ğ	±qı‘;İ •5M1CV+Ä#¤Ø&W¹÷kC½rÍ£(~Äë×šÎ—Õvr¹i¦™'nQCS‘-c§ü¯É)Ÿn}<÷ˆñ5ı€·§¥LÓ²=á:ÃEV>¾|¶!ß÷¥Reø8é¶pÒƒé*—kØá7ØE•“Wq¾SnxâM¯§Œ¦ñ†–õrÑşW/ÿ²½¬„ØEN§…‹ø=+Á•$U9_o³­ªá4û/-A8»[º»ÅÛ‹ıq¶Šg°¡Ø|:İ>ôJiXò¡HÔ¶c7~‘t1ÜÎ^íY	6¶˜OF¾º†…fü³lUıûgäÍš¼ÎWÕg{°òZwx.¶Ã›°íjßç>ÄıÛòï”|ëæ!¶¿OF¾ÇÊ–ïİá@•€t@ûTT^VxïŸß<±ÿ99›C”÷}5ã\néù	…{GIÅÈÓ[š/ÉkÆüÌ‚PºHv²ÅX¼yÄ1¥>¯hßš’F‡8ÚuF‚²Öòw—=„M$4•¤ÕX¾=Æ\riü‰Z…>ÜZÈşÌœï`)ŸòA>®­uÇ°¡š®‘î,.Ö7TİÖlë5†=U²a/u•&4&oãd‘ÄKŞF ;×wÜÁ¹~û\000ìÎåÅåğh\"Õñj\r¼àOõ,ÕßÎ*ˆºÓæ2ıåD¥çY>¯¶¼BPŸ;ò'ğ‹2·[Í‰/ãU‘éôrD3ò]<p‘àìÎól—X²Ë–Ë¶¤tN…ÜªE¢/šc–íâåoÉ¶ğË*>¾{¥‚|Ã·ä9^oòt \000Áğj‘9\000EhÑcx–Õu'±ñc”‘=FóÁcÔ‘ª­ı£şRĞîz®é{ª©ã\000XorHêhã©#Ç¨Aà«(–òKw!áŠå€9+KJW4_Äí¢\000R™WÒ’ccÁ5•ÉÏ1%—Y•óã5ïÄÇX:4_ÿóy©üî}õ­…[„î~è÷;–¶p1`ôÅböØ+B°&¤Yİö{’Cl“mÄäÃÄFÔĞÃSv14FFM5wzY9#WYö™ŒÂ\nEÔ‡5KRĞˆAgK=?—	ÖKößß6Ñ•à` :2¼!Èr5 ÈÆÓ-á† ,ƒxÿsr¬Qkñ3¿!&¾… sà…zöÀ×ÕØ7¹!ÈÁ³PÃºõSÈ¯¡j@üÜÕÒBo>	â$â;É‰}Læc“ö˜¨Çä<&ä1	‰wL¶c‚“ê˜HzáÿM¾ÈÈ|s“1<4@“³b^1aÇés#¾|EÅÀj&GwAã®CIÂßú¾oi1çÏ­½å]±zŸî™¾=Ø^/ğ«8ŠÇUÜ¡ÿq¢-VE­n×\nùÒ)éÀ÷<L	/bû…ªlÚä¶>8ÑBˆÍ­×{Pô2vÄ+‹uô4«Øà)ecE‘¼]ótœe71ƒVé¨PBäº×#Ğô@Ú\\·Vî\000äà÷°Ü¢!<ò«“—}jĞ'	a­ço¢j r¤¥yGoÔèò×êÕ$S1Fî•›JÄ¾BˆMì=+ıi>İ–¼‡óB(|´ä­š˜lí²Jn¦x¹$)¨`~OÑàåğ£1q¥•û«Ê\"åAyÛ. P9~R9~F†ÏÌ¥ÃÌKóÙá9Ê¾Şøá0Ík4SEõ\\gõ9\000^j¿£ï{r«¦Nà3I®)¾Ô”jà Òë¬*¥ãy^€´Biz£ê»`Ç€!a² Ü%…OK\"íâ1şm!ŸÒİ-øßïVèÿ\\Ü¯Á>aõ½\"¯nAk\n“IeGÉÖÂÙ:u×<C¡i£§¶e¸E©ãSÇ›{bÈ«–‰²[ñuk¥C¢Çmë¶É±šü®¤Š:|™.ùƒ£JOå/šù(áı\rt5²5{¶oTtƒÈ³¢¨Ÿ‰T¯Vf×\"Ú}=N°l[¶^ÿ°võ]ÌÛ\n77l5¹ö2ÑßAÙ‚\"ñ1W\\Ow¬\"(R¡(´gîı”#:·w”÷_ã£ŞRåDÅmw¸¥!ô\\†e˜<q7yHmQø(7cY?²­gYÄ‡\\+KJæ`”Ñ7âÒÅœ€-íåÔyÀ2V‰Y,ØÙ,g\\°ºŸ—ÍÔ¾C|E×EH ‘=.‰†ºX+J&NaJ‘Ç¨ÜÄ¶Oj}Ì+xÀ¤â0i\rÕe#k Ïæg`#RĞİ[&¯qZw´¯Ğèzü¼7Äv`¥2äò¿ªlcXƒÄ5Âï'8ƒ3e\">PAÂ\\cÍ26…îvş¸xúâä½ü¼vŞß†oïmêˆŸX‚z\"ÃâOMLØ¬Ô^§®Ú)1€éÈa¸p+ñ‚¾\"Òà°â‰yàÔé½æ¬‰œeõëé’Ì!ìlº[}ZëØÎ TØOÚ¼Ø»[dC•šNRÿ”,\\+~`Ø¿¾ˆ»ÓšúŞ£xmR¾øØç(ßit!C‹×ã€×Ÿ[~¹\000»µ+äJ¯3~›”œ²%ö×­ãT~‹Jè#<Ê½ÁòHOÁİf »‘ú’„˜XzğÕ#«]B=§Q?åÖY¹®–Ë~hàÚÚ½Áÿ;ZGÓ1«¹Eïª·¨M·­c\nj:^#M-ìºÿ½şôG¥AŒRù~ŠæúÚ°zÄæ ìãÂ‡wE‘W@$ü4@\000cìÂ*Ù\nšÂôñâGkuĞÀİÀ/Ø–©~á8Ë·uÑ Yû„ÿ2š®<Ïdû×Z¾îâÜ¾ëwàípIÒ<. éQ÷İ\000o{Lc¯Ò¦B]÷\n4Té‰µ÷HáU†mªûD`ßkI*¹»Ä7ĞVÛ3Şf«5†p14ãSÀ·bg#ô6,îÁ~3¸Î$›KÀu'1Qõ×ÔèHÜ§úÆ?íe|Ij±v˜äJî{&#t¸0,õ¹6İÛ_Ê»Èß¯¸ız¼=.Üq[·a\nØÁÇ¼À:Bì~O»ñoJòğËóÔQ|àò•á© |ÃÃv'å9jH/=tx•5rºáC³¬\\/„pz|Yu#Õ…v«	¿Z	ê{ƒs¥±›s	A˜\r:‘ñ«xÜ'IÙ\\Ü¹[\nÎÙB,¢<T‡İ+Ø‡(Ë9hInˆ£8‘\nÂ¿ ÄâÁûê=t¯ıË5íÁ%|·iümäàÁ¬ñGâGVxÉwpuæŠø«ííSzÃ<´ÏĞH>AØ&ü~%†mCú¦2š_²ÕkF´–O ¡a`ûÿ",
+["metadata"] = {
+["guideId"] = 2892565306,
+["retail"] = "",
+["group"] = "RestedXP Midnight",
+["internal"] = "",
+["imported"] = true,
+["key"] = "RestedXP Midnight||a) Endeavor",
+["version"] = 1,
+["length"] = "616891112",
+["name"] = "a) Endeavor",
+["displayname"] = "a) Endeavor",
 },
 },
 ["RestedXP Midnight||a) Aspiring Academic (A)|1244"] = {
@@ -10808,24 +10855,6 @@ RXPDB = {
 ["displayname"] = "|cFF00CCFF7|r - Aspiring Academic",
 },
 },
-["RestedXP Midnight||a) Endeavor|702"] = {
-["version"] = 1,
-["cache"] = true,
-["key"] = "RestedXP Midnight||a) Endeavor",
-["groupOrContent"] = "í=Ùr7’ïü\nØ~ğÎ¸Y®ûpLxG¤DI)qIÚí®Ãv£»Ë¬®ê©CœVèaco¿d3Q€B5—5ÏDÌÈvg!‘™‰txè[~Y–e|‘³’ÆÉÁïY^ÄYJ¬ƒ/VyVmÉ+J¶øË99‹i¼Z—_¤tÃıy–.}Ÿå_ÄiÉò”&ğí–üéOäI’Ä4³c••	İ™oa4,Ã·f‡–ô»íÎìÈˆüıÛo?^½DlK:g_Ï«¼Èò¯çyVkç_ó‰è¼4®“í7¶ù±<Nâù\r‚Ë5#ç9ÿéüåñ«Ÿ^°<û² Ç4IÈQFóÅÇœĞtAè|Î¶%ùü(ÏnXJ.×YÎ>7şX}ûäâõOï²Šlè¤Œ-Ù¡isäJò×\n„C®Ù›Ó´ıé'©?6ÈË%‰KR”1`Yd¬Hÿïş·$·Y~3#ÅM¼…qAPÆÇ\\¢ë\nğ?˜à<‹E\\‚ªhBJ–°m–—Híe™å›Û8†Œ†×ô¬ˆ|ûí“ú?OÙ\nÆ}C®€ÄúßAËe•§E§¿Y¾è”çÍÜÈ@y¾áÿÒĞ/ÕĞ›|•Ç›\rÍE\r9‘íß[C_ñ™VU¼`¤`eA`¡:æW5¹ÄZà®ÕYÊ€¯)HÎæÙfÃ`írÙ-òlÛ+×Õ’·t\\Wó5¡Ùd LĞ[\\Ò#Oò\rğY5È[˜“PÄÎÒèYĞ’ÍÈQø€Š˜¯iº‚€‰8]™²í–\\ãWqKšpÑãÌµì×ô=k)ãÜdEÍJ1ëTYĞ%Kv5Àîf†dÂ¿ì€UĞhš‘$ƒysRlYÁW­LæY•,` \"E9´ÎÃLÕj\rFÀå•°şˆo`°Â\rM+0¯b	ZN@ \"¤²µÑkF¶ [‚”^3ğ¤×Y¾Î²E-õ5Ğ]€‘ÌÁÙ’çyµÙÄ(¢b“¥åšSÓb7\000{ËĞ¤ÈÈ*g´¨K¬MwW´\\ˆ­İÜÉ‹`b€èK |[Æ›ø BûfËe<Q×[XßÕØı¹*¸%…&‰ë°Qà:»e@·É’Û\000Ÿm>átØï LğNhÄv<Î•°À@ìy+âŠËØĞ\råÈqøÌjp9zÉ+zÃ8ˆ×nF^Uéá)É%ê¥Ôìr-)öH‘G·ÔØ³vsäÿá9†eÍœÀüGy`Ì³Ä^Ö~Ğ}ÀáŸ õ“Ğ™9–\rRÿ$rKäâ[|âÛæO€=ü3Ø÷‰É?ÙC®úÃ?ı=Ÿø‹/pÄ…aË<©À¾»çr‹«õ,5'õßãÈB%g;r™¥®ÿaÆe	kúğ\nW:—·à÷òbË@?9loğÁrÙLWÆe‚[àÉÉÉñÓcÓ<É’$»åZ|’çÙ-ìß~û4ÃµV6iºkö0\\ì°h·Í6a%Ø:.ËcYyÊŠm',ÿ3øä8YÅİ5Sê¯ày›âÖé`@`N0ó,ÃñxXwaì–ÉbC·_ƒß/¯«ëë„ıä»à¡v]\\pE“4Ûzÿ<¹xùìõÓÓw?=OÇèÇÜèöFßq¯ß¯\n\000d\r[d·éä®XIê‘5 G¶w8†Ë–laÔ5-A+¢`ù|­`{fıĞÂ™ëÑÙE”¼Íwi*²ìX,®å'ä|\nìŠ°ĞŸım0ã~£c¼Ç¢¡:ª!øŒè¿T¬&¶7E$ı¸pğñ¡9»8?0Ğ£­ ,Œ·¥8tD®®abôÿ\n·ƒzÂg¯Ÿ½ûérÑß6ˆ³ùÖÍm+so²k2ùè©Ÿ`¡›×Ù;/öèI_Ğvmİ¬®:Qı©f&f\n\rg:å?¯òDóÙ\\m3V(wh,¥µÒx'áÎ:,íj=‰Ó¸XsWøùèğÏÉ%—43I\"0·fµz†šFèLÆûeoväezN,¯WØï„õú&N0ëí^9 ÕÅ5\n´ºÑt´n ±Á]*+iQ$L¥VH6®rŠ±yY°Óô4+4TÖÌ·Œ`:	ŸVó›y†e†y§…Luh†¢OäQrÂ`“Åaİ*fƒl\rs#r«vGÔÓàTuëğŠV`ƒ…²üPrèèpù]T¯û2]Ò´ÌwâoÏ’¬{á‡7U™Ç‹ÖÜEË4ùõ]\r¨	vCB¯Y2˜]Ğ¯c@|>ÄõO“@Ï;Z¥«,áS=eyßeÛÇ3’ˆj!6Šƒ/Ö K,qd·ÀF–IViyú‘aG3Ûœ™2È†¢W¼Â\nôĞ×ŒêaCe|¥å'e+?±Í=Zƒ²*EaŸÕ)œÑ÷R3òŠ±ôšÑ´©N)ßgU<'¹¬rÙ]®°%¼/J \nYH_ˆqmU@9ÊÑ¶W‚IAôæÚh‚¾/\r¶ûÁ—ëªÄ”ÿ)ˆ…oœş›çnÀA¾¢K*cw|Ä¸•Yï~–¹m4..FÉÊqÃãœbÅà+ãÁZuMRÀ\000ÒHz=i9¡áy³À– \000wËÀ5\"øÜz«…\000‚µéh@¶3<,C«SE†kÍ‚À°4ÈtD\000ü@¼!å-È‚ĞÍ\"È\"~$=RRrqÔòË \n7Ô€|N…=”:x¹šŠá¨m¤äêØ2,û- 04ì!Â\000ÃàĞD¿ª‚|#€¹@Ä:H€\n‰hô‘ã aKïzÑ(¿¼á‹ö Î5‰v{–U)†l`ó´,$0ü\\uh°JÑ¡I¿x­‹¬Á¯Òü÷ãg?ÿ–ÂdCfÅÑO6½¸Å`pÀ\n¬­_\000QW–ãD^ø\r|ş_ò|ğÕ¼¶šaaš×Ú À=õ%ù«\000È¸€LÿCxŞŠ…–é¹Ù­ãvòhU<Ş$ÿñ$Ö;Ü'¦6ît‰óQ^NA¶'’0%^ğ\"[Î¡ª<¡ÛzÄ7ä*kxKwhæbB­Ã>`*à½î2®N3ˆV\000„§nëLæ'Š„3Çs\n+éR€Ä÷r>a“ph¨†í¨¶­É¨®Ã›ãÏEF—œîæT¢¥»­éêïóhÓêY|™‚VR%åtÅ”`ªŸmÔÇ´Á3+ªí6Ùá1Ù›Ã°•,Ø¾A^8Ãmn*™Å+rIµN dÜZºZû«Gk“·»Ø\r«°£›0Ù3ä…û m¶•úœıµŠsVÜÛo_0¢Îa¹ï°d†r¶ã%ŒÏd¶<¬YÁ¤*ÿ.><­¸¨yÍ|°°qÆiG]£\"şmKòUCâş•9tr¸“wˆÙ‘ùè^rol¿1¦^¢iÕõ°bÈıÒ/rÉ›(ÈIì™g÷•1·-}AfÎĞÄÚ+$o¡cdW’ÊÁ…ªÓ!gí2ÍnÉyœ°BÎ'•yÅ*€Óx’IíI t¨<Ÿt3IL)<äú†âPwˆ2+ÿ¦‚¬~tñÔL9J* e2ÈÇüÆàñD\nòauŒåo€{Q8<ÉÄ?=äB…Ó¹\r¤K¡öëJÖpJ.·y6t•3ZT9k£AFçkå¸¿ƒ5S°-Ä£%vsĞÂPø§E\000´á}¼Áƒ–„<n1şx\n3óŞŒğñÊv+ğyP£?}óæ\nR	lÿà…äi»cW±¿8u,yóuÌŞÃ¢®m²æ¤9™©Šm<;Úë„¢|d`/õ—¸añ$K­¿õ¥¼i(ÂÃ>Ç.”!­&W˜æ˜ñE¼À½˜»3µ§á¢‹-×Âzy¤ø•¼ªÅli\\¬ÄÃ¿VÏ=DôHµ<pUÔ¦2˜ú7bæ÷*\\Ô²æ\r,Á÷,§©µü¦-áÓª[:~§ò4ââ?°ÏèXBªŠ.oGÃ`Üà)ÃşL9¨“*(x:\\GAò‰€ìúø8TAØgÌÕ¼á(#.ß‡¼•ßGØjÕÜá‚-±‹KJ¬˜ó^<\000¯š¶JYâ^dwU£6øy]m¶  ZÎ×íAÓ›ì¶€3šÓª;|âÍÃ%(|İV4?|‚È»åÉk1äœÎo4µ=`tÂö„Ñ\nSWÙ¨+Lb·Ú}JLBµC)P]Ğëë¸,–<ü@%*°PÁ$ÓÕtlqŞ9ÍwäxÍÒ•œh¹¾Ù“şùØB*4Q)ã4Û†\r4[SjìŒîÀIåtsí]t¹T¨ö„®ŞÕş¦â’sËo!ÛÕ€ó˜È42À[l`‘º_1[«Ôõ¿'@|¶ìWi!*J8tÙS<Ù¤ä;H§ğû5ª×rõÉ®4{{\"aQíÕ{èı4€^¦?WØz}§‡½¥yg|QŠ×ÎñÇ¸Œ?°ú#»MÉšQìÛ$Å–%I1#qİÏ{âiºï›í9fEtµ´{›|ğãØr@9®A·×UA˜S;# ğã\"ô-(œ)ykP·¬ù³Ğ7¢²¯s@Ñ^Ğzñ#ZRšÇä$¡XĞIÒùëĞô%H;¼ äAKIh˜ĞÊæó®6U€A‹ïëóc¬ çYRğîŞ7±œvö1`Í¾«â£®¢*(äõÇT•p½Û¾\nş\"å@j\nAö\000ä£Æ¡éÖ ½]0Ÿ`=ÿÎ–-7XUáŸD²Ñø|7™®õ[·›t±K½›´±Ë·İ6>İ.8²¤é¿xï‚§émğÔÓÏƒ§–şûEOÂ±¦Ôµ¹ØÄ9MÈİ%À'ŞzzrKoX:ì^>a#ŠœöÔC‚ø.Blwñøsºƒ[™äıÕ}Rm±Ã7/”¸›‹ ³İ=2èä)}#JÓbğ·`!¸ğ[š,°ÁÆÎÒOh¾YcVu”©^“Ëñ‚¸–öMeÂà­>M‡X™ŒVŞ%H®Š*¡êuN¬= ÖõƒXqôß…ÚŞx,1i“U®¥V4¡ñx¡PŠ7ùíŠ?9ú>?¬Ã“6pA;¿…­¬4ktŸ%í¶qYN3o”,ØŠPÎÖ?hQ’Ğ	±qı‘;İ •5M1CV+Ä#¤Ø&W¹÷kC½rÍ£(~Äë×šÎ—Õvr¹i¦™'nQCS‘-c§ü¯É)Ÿn}<÷ˆñ5ı€·§¥LÓ²=á:ÃEV>¾|¶!ß÷¥Reø8é¶pÒƒé*—kØá7ØE•“Wq¾SnxâM¯§Œ¦ñ†–õrÑşW/ÿ²½¬„ØEN§…‹ø=+Á•$U9_o³­ªá4û/-A8»[º»ÅÛ‹ıq¶Šg°¡Ø|:İ>ôJiXò¡HÔ¶c7~‘t1ÜÎ^íY	6¶˜OF¾º†…fü³lUıûgäÍš¼ÎWÕg{°òZwx.¶Ã›°íjßç>ÄıÛòï”|ëæ!¶¿OF¾ÇÊ–ïİá@•€t@ûTT^VxïŸß<±ÿ99›C”÷}5ã\néù	…{GIÅÈÓ[š/ÉkÆüÌ‚PºHv²ÅX¼yÄ1¥>¯hßš’F‡8ÚuF‚²Öòw—=„M$4•¤ÕX¾=Æ\riü‰Z…>ÜZÈşÌœï`)ŸòA>®­uÇ°¡š®‘î,.Ö7TİÖlë5†=U²a/u•&4&oãd‘ÄKŞF ;×wÜÁ¹~û\000ìÎåÅåğh\"Õñj\r¼àOõ,ÕßÎ*ˆºÓæ2ıåD¥çY>¯¶¼BPŸ;ò'ğ‹2·[Í‰/ãU‘éôrD3ò]<p‘àìÎól—X²Ë–Ë¶¤tN…ÜªE¢/šc–íâåoÉ¶ğË*>¾{¥‚|Ã·ä9^oòt \000Áğj‘9\000EhÑcx–Õu'±ñc”‘=FóÁcÔ‘ª­ı£şRĞîz®é{ª©ã\000XorHêhã©#Ç¨Aà«(–òKw!áŠå€9+KJW4_Äí¢\000R™WÒ’ccÁ5•ÉÏ1%—Y•óã5ïÄÇX:4_ÿóy©üî}õ­…[„î~è÷;–¶p1`ôÅböØ+B°&¤Yİö{’Cl“mÄäÃÄFÔĞÃSv14FFM5wzY9#WYö™ŒÂ\nEÔ‡5KRĞˆAgK=?—	ÖKößß6Ñ•à` :2¼!Èr5 ÈÆÓ-á† ,ƒxÿsr¬Qkñ3¿!&¾… sà…zöÀ×ÕØ7¹!ÈÁ³PÃºõSÈ¯¡j@üÜÕÒBo>	â$â;É‰}Læc“ö˜¨Çä<&ä1	‰wL¶c‚“ê˜HzáÿM¾ÈÈ|s“1<4@“³b^1aÇés#¾|EÅÀj&GwAã®CIÂßú¾oi1çÏ­½å]±zŸî™¾=Ø^/ğ«8ŠÇUÜ¡ÿq¢-VE­n×\nùÒ)éÀ÷<L	/bû…ªlÚä¶>8ÑBˆÍ­×{Pô2vÄ+‹uô4«Øà)ecE‘¼]ótœe71ƒVé¨PBäº×#Ğô@Ú\\·Vî\000äà÷°Ü¢!<ò«“—}jĞ'	a­ço¢j r¤¥yGoÔèò×êÕ$S1Fî•›JÄ¾BˆMì=+ıi>İ–¼‡óB(|´ä­š˜lí²Jn¦x¹$)¨`~OÑàåğ£1q¥•û«Ê\"åAyÛ. P9~R9~F†ÏÌ¥ÃÌKóÙá9Ê¾Şøá0Ík4SEõ\\gõ9\000^j¿£ï{r«¦Nà3I®)¾Ô”jà Òë¬*¥ãy^€´Biz£ê»`Ç€!a² Ü%…OK\"íâ1şm!ŸÒİ-øßïVèÿ\\Ü¯Á>aõ½\"¯nAk\n“IeGÉÖÂÙ:u×<C¡i£§¶e¸E©ãSÇ›{bÈ«–‰²[ñuk¥C¢Çmë¶É±šü®¤Š:|™.ùƒ£JOå/šù(áı\rt5²5{¶oTtƒÈ³¢¨Ÿ‰T¯Vf×\"Ú}=N°l[¶^ÿ°võ]ÌÛ\n77l5¹ö2ÑßAÙ‚\"ñ1W\\Ow¬\"(R¡(´gîı”#:·w”÷_ã£ŞRåDÅmw¸¥!ô\\†e˜<q7yHmQø(7cY?²­gYÄ‡\\+KJæ`”Ñ7âÒÅœ€-íåÔyÀ2V‰Y,ØÙ,g\\°ºŸ—ÍÔ¾C|E×EH ‘=.‰†ºX+J&NaJ‘Ç¨ÜÄ¶Oj}Ì+xÀ¤â0i\rÕe#k Ïæg`#RĞİ[&¯qZw´¯Ğèzü¼7Äv`¥2äò¿ªlcXƒÄ5Âï'8ƒ3e\">PAÂ\\cÍ26…îvş¸xúâä½ü¼vŞß†oïmêˆŸX‚z\"ÃâOMLØ¬Ô^§®Ú)1€éÈa¸p+ñ‚¾\"Òà°â‰yàÔé½æ¬‰œeõëé’Ì!ìlº[}ZëØÎ TØOÚ¼Ø»[dC•šNRÿ”,\\+~`Ø¿¾ˆ»ÓšúŞ£xmR¾øØç(ßit!C‹×ã€×Ÿ[~¹\000»µ+äJ¯3~›”œ²%ö×­ãT~‹Jè#<Ê½ÁòHOÁİf »‘ú’„˜XzğÕ#«]B=§Q?åÖY¹®–Ë~hàÚÚ½Áÿ;ZGÓ1«¹Eïª·¨M·­c\nj:^#M-ìºÿ½şôG¥AŒRù~ŠæúÚ°zÄæ ìãÂ‡wE‘W@$ü4@\000cìÂ*Ù\nšÂôñâGkuĞÀİÀ/Ø–©~á8Ë·uÑ Yû„ÿ2š®<Ïdû×Z¾îâÜ¾ëwàípIÒ<. éQ÷İ\000o{Lc¯Ò¦B]÷\n4Té‰µ÷HáU†mªûD`ßkI*¹»Ä7ĞVÛ3Şf«5†p14ãSÀ·bg#ô6,îÁ~3¸Î$›KÀu'1Qõ×ÔèHÜ§úÆ?íe|Ij±v˜äJî{&#t¸0,õ¹6İÛ_Ê»Èß¯¸ız¼=.Üq[·a\nØÁÇ¼À:Bì~O»ñoJòğËóÔQ|àò•á© |ÃÃv'å9jH/=tx•5rºáC³¬\\/„pz|Yu#Õ…v«	¿Z	ê{ƒs¥±›s	A˜\r:‘ñ«xÜ'IÙ\\Ü¹[\nÎÙB,¢<T‡İ+Ø‡(Ë9hInˆ£8‘\nÂ¿ ÄâÁûê=t¯ıË5íÁ%|·iümäàÁ¬ñGâGVxÉwpuæŠø«ííSzÃ<´ÏĞH>AØ&ü~%†mCú¦2š_²ÕkF´–O ¡a`ûÿ",
-["metadata"] = {
-["guideId"] = 2892565306,
-["retail"] = "",
-["group"] = "RestedXP Midnight",
-["internal"] = "",
-["imported"] = true,
-["key"] = "RestedXP Midnight||a) Endeavor",
-["version"] = 1,
-["length"] = "616891112",
-["name"] = "a) Endeavor",
-["displayname"] = "a) Endeavor",
-},
-},
 ["RestedXP Midnight|Sojourner|ac) Harandar Storylines (A)|1215"] = {
 ["version"] = 20,
 ["cache"] = true,
@@ -10846,26 +10875,130 @@ RXPDB = {
 ["displayname"] = "|cFF00FF003|r - Harandar",
 },
 },
-["RestedXP Midnight||cFF1EFF00(1-90)|r Default|cab) Eversong Woods Route (H)|1015"] = {
+["RestedXP Midnight||a) Begin Your Training: Master Cheng (H)|722"] = {
 ["version"] = 1,
 ["cache"] = true,
-["enabledFor"] = "Horde",
-["key"] = "RestedXP Midnight||cFF1EFF00(1-90)|r Default|cab) Eversong Woods Route (H)",
-["groupOrContent"] = "u=kÃ0†÷ûZâÁ óY’ˆ,…’¥]ßÕ¨’ÑGİB~|í¦Siç÷yŸ÷®m×´~ØQ ’ë<¨wIÙÅ€jH±x–\\„_ğÑqpÃµ€ÊõrÏn½1t4FëµİÜäÕV‡&Yx$­5¨`ß{{iğ¸lÄ0àsŒœñk\\Pìòèíç7º¸Íş°×º›µíïÖ|_2ûÿØÁv‹§˜X`şbåBï+Ú¿K?ÔÕ±L.pœ`·#øú",
+["enabledFor"] = "Horde Monk",
+["groupOrContent"] = "í“Ïn1Æïû#í\n¤Ê\"µJ«ªBC‘”&R‹„T9ëÉî(^{;¶“åÀ;ğ†<	ã¤…!œ¹¿oşüÆÓé‡½£¢(gYÎ™,Ÿ#{rŠ,¯ØÅ.ÑÔ×0$m©ªC–[Õ ¨=x…Yøä\"Ã˜Y²Õ1•èú5Ú\nŸïe¹&ßµ\\»†ÎÎàc”œ>ËËZµ¢ÍNNàÜ±Ş¼fboåÍ5­Á€\n5X¼“²FMĞÀ•âTh¼\naUƒşë~·;šQ¡&)-»Q¯8{:^Ç1x±xÉ\"æÛÔŒxT\000Æ…bía™xÊ®ƒs4zİï_¿u³'«òòúâæêååû›I@JeÁY³„	ÂCÛZ\"%B+$TYºhÃ3XºZB­æ‚Ï0*½Ü2PXñşNş3¨Qa„AZSƒÇPt²1 Oò?ÀÚ´ÿÅY„Şœ¾q	Ç®˜šFñ½“ñ6£ÿuë¶ü·áò±A'¬©’›pxD‘Hyf·øµ²¥‰ò¯ŞĞ¨hğ.Í.ÎÏrC[ñbût:éáíÆÁØY}Ÿô_–S†tÓnºn²Š$=Iü(«ÓHda‘-ÈQ'İf…Â˜ÜµÉ­qåõ. ¡²QY”ÿK'?ş",
+["key"] = "RestedXP Midnight||a) Begin Your Training: Master Cheng (H)",
+},
+["RestedXP Midnight||cFF1EFF00(1-90)|r Default|cab) Eversong Woods Route (A)|1173"] = {
+["version"] = 1,
+["cache"] = true,
+["enabledFor"] = "Alliance",
+["key"] = "RestedXP Midnight||cFF1EFF00(1-90)|r Default|cab) Eversong Woods Route (A)",
+["groupOrContent"] = "u1kÃ0…÷ûZâÁ óD[¡diWEº:ªd,©n!?¾vÓ©´óûŞ÷îÚvMë‡\ru\000jäb%€zç1KŠH ú1ÕÏœû—'|¥¿P¹^îÙÍC'c´^Q»ÑÍmÄ#¿ÚîĞÄ¤µí£³—OËFŠ=>§ä3S-Œ«}ÊK‚ıüF·9Zw³¶ıİšï‹üQf£ûßˆl·¸Altó#(‰.TÏhÿîıPWñ<Iôi‚İàë",
 ["metadata"] = {
-["guideId"] = 2951944416,
+["guideId"] = 2951026905,
 ["retail"] = "",
 ["subgroup"] = "|cFF1EFF00(1-90)|r Default",
-["next"] = "cac) Eversong Woods Route (H) 2",
+["next"] = "cac) Eversong Woods Route (A) 2",
 ["group"] = "RestedXP Midnight",
-["enabledFor"] = "Horde",
-["imported"] = true,
-["key"] = "RestedXP Midnight||cFF1EFF00(1-90)|r Default|cab) Eversong Woods Route (H)",
+["name"] = "cab) Eversong Woods Route (A)",
+["key"] = "RestedXP Midnight||cFF1EFF00(1-90)|r Default|cab) Eversong Woods Route (A)",
 ["version"] = 1,
 ["subweight"] = "1000",
 ["length"] = "616891112",
-["name"] = "cab) Eversong Woods Route (H)",
+["enabledFor"] = "Alliance",
 ["displayname"] = "|cFFFCDC002|r - Eversong Woods 1",
+},
+},
+["RestedXP Midnight||a) Emergence (A)|1262"] = {
+["version"] = 1,
+["cache"] = true,
+["enabledFor"] = "Alliance",
+["key"] = "RestedXP Midnight||a) Emergence (A)",
+["groupOrContent"] = "eÎ±«Â0ÇñışŠƒ,v(4\n¢àRª™.:¸„ähÒ´$éã	ıãm}ƒ‚óİ÷Ç'Ï×r½ÙJ)—\000\"PÒì@üRˆÜy” êĞ\r=^(&²·<±õ\\7	„×-¡ÎğĞR¨ÉÂE™°{§¯ëh”*ŠªRj5Ìß¯SMi®÷ñª#‡€GííÿˆitŸ(Àn‡¥s¬çdô Ø7Xúİ?)ğü",
+["metadata"] = {
+["guideId"] = 3891596355,
+["retail"] = "",
+["next"] = "a) Dis Was Our Land (A)",
+["enabledFor"] = "Alliance",
+["name"] = "a) Emergence (A)",
+["key"] = "RestedXP Midnight||a) Emergence (A)",
+["group"] = "RestedXP Midnight",
+["version"] = 1,
+["length"] = "616891112",
+["chapter"] = "",
+["displayname"] = "|cFF00CCFF3|r - Emergence",
+},
+},
+["RestedXP Midnight||cFFE74C3C(90)|r Delves|a) Parhelion Plaza (H)|971"] = {
+["version"] = 1,
+["cache"] = true,
+["enabledFor"] = "Horde",
+["key"] = "RestedXP Midnight||cFFE74C3C(90)|r Delves|a) Parhelion Plaza (H)",
+["groupOrContent"] = "e1oƒ0F÷û'y©n#Z¤l!(K$Tuèå‚O±ĞÙĞRåÇ7”­Ì÷Ş}/Ër¿Zëg\000%ÉyP#Kp]‹ÔEº¡Çw‘ÍgGgZw±TÎËíŞTÕşu³{Ù%ÅSz,Ù@µtc¤kË~şW{ú!L)(ãBïiúcş“¿ãl~XÆ’äúEÓb5–úÈÛ-:1¬”k?^gÖóğû",
+["metadata"] = {
+["guideId"] = 3418494328,
+["retail"] = "",
+["subgroup"] = "|cFFE74C3C(90)|r Delves",
+["next"] = "a) The Darkway (H)",
+["group"] = "RestedXP Midnight",
+["key"] = "RestedXP Midnight||cFFE74C3C(90)|r Delves|a) Parhelion Plaza (H)",
+["chapter"] = "",
+["imported"] = true,
+["version"] = 1,
+["enabledFor"] = "Horde",
+["length"] = "616891112",
+["name"] = "a) Parhelion Plaza (H)",
+["displayname"] = "Parhelion Plaza",
+},
+},
+["RestedXP Midnight||a) Secrets in the Dark (A)|1188"] = {
+["version"] = 20,
+["cache"] = true,
+["enabledFor"] = "Alliance",
+["key"] = "RestedXP Midnight||a) Secrets in the Dark (A)",
+["groupOrContent"] = "mÎ1ËÂ0Æñı>ÅA;šE¡K©d{Qtqp9Ò£=LÓ’DQğÃ[u|İŸçÏ/Ï+]­7Zë@N$ÔC”ÉcY€êÃtñÀ1qwÚãŸt^ú!ò42R†G¶Ë/¢xLã–ÂWMª“8;z|vOkLQ´­1Z?æ¿^K’ïéÜQ\"¦	\râßœhN ®±qNÈ[†5ƒoİµãÿÈóo¼ş",
+["metadata"] = {
+["guideId"] = 2038894475,
+["retail"] = "",
+["next"] = "a) Oaths to Family (A)",
+["enabledFor"] = "Alliance",
+["name"] = "a) Secrets in the Dark (A)",
+["key"] = "RestedXP Midnight||a) Secrets in the Dark (A)",
+["group"] = "RestedXP Midnight",
+["version"] = 20,
+["length"] = "616891112",
+["chapter"] = "",
+["displayname"] = "|cFF00CCFF11|r - Secrets in the Dark",
+},
+},
+["RestedXP Midnight||a) Secrets in the Dark|881"] = {
+["version"] = 20,
+["cache"] = true,
+["key"] = "RestedXP Midnight||a) Secrets in the Dark",
+["groupOrContent"] = "ÕXYsÛ6~ç¯@GiZšá}d2šQm)Vã«ŠÒ&Ót4K¨(€A»êøÇwJ±D±r¸“7‹;Xì~ß·|t:aœ8ãFC‰if4nˆ((gÈµÆXğ2G=RH2z{…ÎéˆÑñD\r†gá§è5Iá\\(CrBĞ	S£A™$‚áÌ€c¹Ñà¹ğÓ¢Åo%øjİÀEx˜‡4å%“fa`ü|—öŞ^\rşhõ.ïx‰&ø† ÉÑˆkç¹ 7”—J'8‡Ğ5…¼†•f42òÜõ=Ùe²òĞÎ‹ıØzŠšÍã³îñ+tÚîµQç²‡^¾é´Ñ‹¨•e³”ìõtŸ×S.Fd‚ßJå·³)$øU‰wzİöÅÉÙ»A^Ë[°A­Ï‹	a*Í1‡]ßL/´Ûb+ğfó®¯¿Æ)yvËE6šáü€$‡åP„şX¹5Ìòç®}'·¢‡\\jpDr‰7ñÈ°UıìÊ'ºàıZaÔãéôÃ’XŒ	\000¶ék‘|Æy¾–IdE‰DVšN`Úk¶Ø\n]eóào{Ã\nĞÙ´%ê+Ø’m¦,ß}Û²#uU¸åªÄò!ÄĞr·ø\n ÄDãÕÃ,76CÇ\nÃM(xÖ¶fóÍ2­§Š—öEûüİàM&qVÜ	„ÙhÍvŸËY.¹(Q?q ÌĞ5•§¾ãù¾ë>Öÿ¬]^ö-–RÂ€&­;ñĞœòYI*¢MÇ°f|ˆ~çt”\n¨C†î¯«L/³RJÎTA.£üz>¹óí.KÁ -Ş‡ŸªŸíPø}9øş}9¼ß”Qs<Ñ¸= $•™\"¼ÓéŸÛv‡g¿­ºŠq×V Dá:_¾|­zìdspR…¢œh‘;\\™GNM™I m»uKd% Y[ìÆ×3C×rêgT]¹ªAäµ3‰åêâ|ei6»×h®š>Õ\"Fjô€à‡ÄLP\nÀTCL˜NK§d¢¿A’ÀxÅln¸\000İ!<Æ”Y¹ß»>µâ–ú<Xr«Ò\rï¥ûK)(­MğÏ§£åÖ€?Šsùù–Ê	R“æ’x\000˜$â×¨=Ë)ğ-)`ï‚s^-êz=”3bµXè¾x‹A6Ë¶'xFrÈZ£WÅİÊöëkÓFË8ŠÕç¢ yµÕ Ç‹=Gµcµ- ÎVZøìƒÊwE$kfo\":)…Îb– J x@H‰åùª~’ÇÃi;e0>¨µî›Äáíçëãİ5d<Œ³…,Ï=ˆ,ûªvD“^u@ïñ\000ÚNT‹1:Í['ñ-bñ÷“µvÿˆ¶æB˜{a{\"òbQøÅ@™ğ~aO$ÒÏ‰ê!S\ngh¾|D«˜Ò¼Â|Šåª‹wYBTo}ş”{Äq®Œ³-chu`Å+O†.á‘ŠÎçèT7ÅO®Yk¨m\"U\rº>’zvÉÁ*Êá¿œäI¸OšWÚJ¹&¿¯GÕÿ¿<ƒŸ»‹DµòŠ—»H­ı„fÀtù[}fµ¦€%¬¢•8Ş°Bò<ÇúİT/ŞÆ¦~í<ó©2î2Ìù\\ÁòÂxDÄ«O¦ƒy]¢–üCÊ2¨4¯•¥¿oÛY–_	úõ“êÿCDß#ÿı",
+["metadata"] = {
+["guideId"] = 1015025369,
+["retail"] = "",
+["group"] = "RestedXP Midnight",
+["internal"] = "",
+["imported"] = true,
+["version"] = 20,
+["key"] = "RestedXP Midnight||a) Secrets in the Dark",
+["length"] = "616891112",
+["name"] = "a) Secrets in the Dark",
+["displayname"] = "a) Secrets in the Dark",
+},
+},
+["RestedXP Midnight||a) The Nightbreaker|888"] = {
+["version"] = 20,
+["cache"] = true,
+["key"] = "RestedXP Midnight||a) The Nightbreaker",
+["groupOrContent"] = "İXûoÛ6ş]cX²©ŒŞ²Š\"€ëGã5u:×}\rJbl.’èQTÜùãw”üÍ«Y°î—\000ò‘Ç»ï»ûÌ³gé5Ó4-Mk*	K´Æ%9ã²­1¼˜¡!Í%?½EoXœ±ÉTjŒ¤‘C4šR4P?…‚’*´Ë$I4Ø3Ó|&Á|b–ÿ^€£Ö%œBÂ¶G/2©7=×sµ_¯£á§·ã­á`ü™hJ.)’ÅI8d&è%ãE¢)™Á	èœ‰\\^\rG	‹.2úUîÆù\"ìg²òĞ\n¯ò´Ññqû´ß~NºÃ.ê\rÑ«÷ıN½xZIÂHÑ{{=¹Éë	1]à©ÓDÁVG­¥5ˆ|.Õy#’\\@â_²\nŞ°ßtN?O‹ˆ‘\r°UöXáê…í@÷]l7µããëQIÄ9‰èÑœ‹$NÉì°“aøcÏ™z…ÃdöÜ2®åâPt‡3±†9:“(0Ó€¼[ÕçTÎ|J“”eÔ!àËs\rK\"&T¢]W\"›8f™[fĞ_e\"çâ(<Ï§„‰£29ÉUmÅ‚²­2xLŒ_“dÂÅ¤,Î*i³n®ÂZ¬¹‰—Â[÷›Øuÿmvd!2–­ØÁ'‚ïoĞ³äÒ´í`Íå»”Cu«ªÎÛ‚…õÅNøèã	…Îù9Gï ’[io,™39]×Ï\000|uVPzÍ’d‘swĞ}óyü‘%qÂÎ©Jó—@€ñX¦rª¯||dõóK–ĞX°l	ÏºTªR¢ı*Û€ªà¦…¢:ÿ/L#Á |(êÀŞ‚ˆx‘œdn.Ša`y`‡ªtz½^»Ó6Œƒ!%1pI·Ê¥‰}C÷}ìoÅ[­6Ò8!2š*ØòÌšøÎFİç×…ÒH2Pa%_±4÷+1ğ$|^º‡ù Õ4'W3¡äh®X)NÄ…\000[˜ƒH™º½*ıQİ‚£wg}ì:ºïáÀø_âèİ\rÇJ×öuÙ7!î1€kªRõ¾Cµÿ»ß`Îg[ 8^)÷Pë®nlõ¶íèM{mnÙ÷n³²ıÈ*ø8SÓyÚ©¹˜ƒË©ùA¸^íÔgìŞIXšæzh¾Ï–2¸YŞsTª;)`ÑK® ¨éÉÅ,òmNMà´.¢¿éªB]Ë×İ@A\000[>¸{Å!üú•vÇ›µámÏñ=àZî‚0º€0èpç26l&6uÇÅ†·kò±÷XcŸÍ`›ı³kòÁŸ›Í-ƒ¯üÙ–nØr*Ûc‰ÔÎb4¢DTºtoFÖÚÚ’¥ïKÉSè€ïìœ2kM…°c<]ç”õ½ì…Z×:À^w@+\r™zB£é\\ÉÆmPËÏ6Ÿ¾…=òë”Lè†ö­.ÿ*Ûøi›\r{©y›/€İ^[ÏVÊBm^Åúğ'ÛÓ±a×Øx\000Ø,?ËÊ'{ål›]<ªª>¥åÃÊYÍ’:e£ú&¨ÂN“‚J(12 Gİ­w0üœ]‹ii”SÖ÷7¶m<¸àó\"ü›g™này€Jí±¯‚ğ†§àêß$LĞüñ\nbëì¨°cşuòÏ",
+["metadata"] = {
+["guideId"] = 272764445,
+["retail"] = "",
+["group"] = "RestedXP Midnight",
+["internal"] = "",
+["imported"] = true,
+["version"] = 20,
+["key"] = "RestedXP Midnight||a) The Nightbreaker",
+["length"] = "616891112",
+["name"] = "a) The Nightbreaker",
+["displayname"] = "a) The Nightbreaker",
 },
 },
 ["RestedXP Midnight||cFFE74C3C(90)|r Delves|a) Sunkiller Sanctum (A)|1117"] = {
@@ -10889,131 +11022,27 @@ RXPDB = {
 ["displayname"] = "Sunkiller Sanctum",
 },
 },
-["RestedXP Midnight||a) The Nightbreaker|888"] = {
-["version"] = 20,
-["cache"] = true,
-["key"] = "RestedXP Midnight||a) The Nightbreaker",
-["groupOrContent"] = "İXûoÛ6ş]cX²©ŒŞ²Š\"€ëGã5u:×}\rJbl.’èQTÜùãw”üÍ«Y°î—\000ò‘Ç»ï»ûÌ³gé5Ó4-Mk*	K´Æ%9ã²­1¼˜¡!Í%?½EoXœ±ÉTjŒ¤‘C4šR4P?…‚’*´Ë$I4Ø3Ó|&Á|b–ÿ^€£Ö%œBÂ¶G/2©7=×sµ_¯£á§·ã­á`ü™hJ.)’ÅI8d&è%ãE¢)™Á	èœ‰\\^\rG	‹.2úUîÆù\"ìg²òĞ\n¯ò´Ññqû´ß~NºÃ.ê\rÑ«÷ıN½xZIÂHÑ{{=¹Éë	1]à©ÓDÁVG­¥5ˆ|.Õy#’\\@â_²\nŞ°ßtN?O‹ˆ‘\r°UöXáê…í@÷]l7µããëQIÄ9‰èÑœ‹$NÉì°“aøcÏ™z…ÃdöÜ2®åâPt‡3±†9:“(0Ó€¼[ÕçTÎ|J“”eÔ!àËs\rK\"&T¢]W\"›8f™[fĞ_e\"çâ(<Ï§„‰£29ÉUmÅ‚²­2xLŒ_“dÂÅ¤,Î*i³n®ÂZ¬¹‰—Â[÷›Øuÿmvd!2–­ØÁ'‚ïoĞ³äÒ´í`Íå»”Cu«ªÎÛ‚…õÅNøèã	…Îù9Gï ’[io,™39]×Ï\000|uVPzÍ’d‘swĞ}óyü‘%qÂÎ©Jó—@€ñX¦rª¯||dõóK–ĞX°l	ÏºTªR¢ı*Û€ªà¦…¢:ÿ/L#Á |(êÀŞ‚ˆx‘œdn.Ša`y`‡ªtz½^»Ó6Œƒ!%1pI·Ê¥‰}C÷}ìoÅ[­6Ò8!2š*ØòÌšøÎFİç×…ÒH2Pa%_±4÷+1ğ$|^º‡ù Õ4'W3¡äh®X)NÄ…\000[˜ƒH™º½*ıQİ‚£wg}ì:ºïáÀø_âèİ\rÇJ×öuÙ7!î1€kªRõ¾Cµÿ»ß`Îg[ 8^)÷Pë®nlõ¶íèM{mnÙ÷n³²ıÈ*ø8SÓyÚ©¹˜ƒË©ùA¸^íÔgìŞIXšæzh¾Ï–2¸YŞsTª;)`ÑK® ¨éÉÅ,òmNMà´.¢¿éªB]Ë×İ@A\000[>¸{Å!üú•vÇ›µámÏñ=àZî‚0º€0èpç26l&6uÇÅ†·kò±÷XcŸÍ`›ı³kòÁŸ›Í-ƒ¯üÙ–nØr*Ûc‰ÔÎb4¢DTºtoFÖÚÚ’¥ïKÉSè€ïìœ2kM…°c<]ç”õ½ì…Z×:À^w@+\r™zB£é\\ÉÆmPËÏ6Ÿ¾…=òë”Lè†ö­.ÿ*Ûøi›\r{©y›/€İ^[ÏVÊBm^Åúğ'ÛÓ±a×Øx\000Ø,?ËÊ'{ål›]<ªª>¥åÃÊYÍ’:e£ú&¨ÂN“‚J(12 Gİ­w0üœ]‹ii”SÖ÷7¶m<¸àó\"ü›g™này€Jí±¯‚ğ†§àêß$LĞüñ\nbëì¨°cşuòÏ",
-["metadata"] = {
-["guideId"] = 272764445,
-["retail"] = "",
-["group"] = "RestedXP Midnight",
-["internal"] = "",
-["imported"] = true,
-["version"] = 20,
-["key"] = "RestedXP Midnight||a) The Nightbreaker",
-["length"] = "616891112",
-["name"] = "a) The Nightbreaker",
-["displayname"] = "a) The Nightbreaker",
-},
-},
-["RestedXP Midnight||a) Secrets in the Dark|881"] = {
-["version"] = 20,
-["cache"] = true,
-["key"] = "RestedXP Midnight||a) Secrets in the Dark",
-["groupOrContent"] = "ÕXYsÛ6~ç¯@GiZšá}d2šQm)Vã«ŠÒ&Ót4K¨(€A»êøÇwJ±D±r¸“7‹;Xì~ß·|t:aœ8ãFC‰if4nˆ((gÈµÆXğ2G=RH2z{…ÎéˆÑñD\r†gá§è5Iá\\(CrBĞ	S£A™$‚áÌ€c¹Ñà¹ğÓ¢Åo%øjİÀEx˜‡4å%“fa`ü|—öŞ^\rşhõ.ïx‰&ø† ÉÑˆkç¹ 7”—J'8‡Ğ5…¼†•f42òÜõ=Ùe²òĞÎ‹ıØzŠšÍã³îñ+tÚîµQç²‡^¾é´Ñ‹¨•e³”ìõtŸ×S.Fd‚ßJå·³)$øU‰wzİöÅÉÙ»A^Ë[°A­Ï‹	a*Í1‡]ßL/´Ûb+ğfó®¯¿Æ)yvËE6šáü€$‡åP„şX¹5Ìòç®}'·¢‡\\jpDr‰7ñÈ°UıìÊ'ºàıZaÔãéôÃ’XŒ	\000¶ék‘|Æy¾–IdE‰DVšN`Úk¶Ø\n]eóào{Ã\nĞÙ´%ê+Ø’m¦,ß}Û²#uU¸åªÄò!ÄĞr·ø\n ÄDãÕÃ,76CÇ\nÃM(xÖ¶fóÍ2­§Š—öEûüİàM&qVÜ	„ÙhÍvŸËY.¹(Q?q ÌĞ5•§¾ãù¾ë>Öÿ¬]^ö-–RÂ€&­;ñĞœòYI*¢MÇ°f|ˆ~çt”\n¨C†î¯«L/³RJÎTA.£üz>¹óí.KÁ -Ş‡ŸªŸíPø}9øş}9¼ß”Qs<Ñ¸= $•™\"¼ÓéŸÛv‡g¿­ºŠq×V Dá:_¾|­zìdspR…¢œh‘;\\™GNM™I m»uKd% Y[ìÆ×3C×rêgT]¹ªAäµ3‰åêâ|ei6»×h®š>Õ\"Fjô€à‡ÄLP\nÀTCL˜NK§d¢¿A’ÀxÅln¸\000İ!<Æ”Y¹ß»>µâ–ú<Xr«Ò\rï¥ûK)(­MğÏ§£åÖ€?Šsùù–Ê	R“æ’x\000˜$â×¨=Ë)ğ-)`ï‚s^-êz=”3bµXè¾x‹A6Ë¶'xFrÈZ£WÅİÊöëkÓFË8ŠÕç¢ yµÕ Ç‹=Gµcµ- ÎVZøìƒÊwE$kfo\":)…Îb– J x@H‰åùª~’ÇÃi;e0>¨µî›Äáíçëãİ5d<Œ³…,Ï=ˆ,ûªvD“^u@ïñ\000ÚNT‹1:Í['ñ-bñ÷“µvÿˆ¶æB˜{a{\"òbQøÅ@™ğ~aO$ÒÏ‰ê!S\ngh¾|D«˜Ò¼Â|Šåª‹wYBTo}ş”{Äq®Œ³-chu`Å+O†.á‘ŠÎçèT7ÅO®Yk¨m\"U\rº>’zvÉÁ*Êá¿œäI¸OšWÚJ¹&¿¯GÕÿ¿<ƒŸ»‹DµòŠ—»H­ı„fÀtù[}fµ¦€%¬¢•8Ş°Bò<ÇúİT/ŞÆ¦~í<ó©2î2Ìù\\ÁòÂxDÄ«O¦ƒy]¢–üCÊ2¨4¯•¥¿oÛY–_	úõ“êÿCDß#ÿı",
-["metadata"] = {
-["guideId"] = 1015025369,
-["retail"] = "",
-["group"] = "RestedXP Midnight",
-["internal"] = "",
-["imported"] = true,
-["version"] = 20,
-["key"] = "RestedXP Midnight||a) Secrets in the Dark",
-["length"] = "616891112",
-["name"] = "a) Secrets in the Dark",
-["displayname"] = "a) Secrets in the Dark",
-},
-},
-["RestedXP Midnight||a) Secrets in the Dark (A)|1188"] = {
-["version"] = 20,
-["cache"] = true,
-["enabledFor"] = "Alliance",
-["key"] = "RestedXP Midnight||a) Secrets in the Dark (A)",
-["groupOrContent"] = "mÎ1ËÂ0Æñı>ÅA;šE¡K©d{Qtqp9Ò£=LÓ’DQğÃ[u|İŸçÏ/Ï+]­7Zë@N$ÔC”ÉcY€êÃtñÀ1qwÚãŸt^ú!ò42R†G¶Ë/¢xLã–ÂWMª“8;z|vOkLQ´­1Z?æ¿^K’ïéÜQ\"¦	\râßœhN ®±qNÈ[†5ƒoİµãÿÈóo¼ş",
-["metadata"] = {
-["guideId"] = 2038894475,
-["retail"] = "",
-["next"] = "a) Oaths to Family (A)",
-["enabledFor"] = "Alliance",
-["name"] = "a) Secrets in the Dark (A)",
-["key"] = "RestedXP Midnight||a) Secrets in the Dark (A)",
-["group"] = "RestedXP Midnight",
-["version"] = 20,
-["length"] = "616891112",
-["chapter"] = "",
-["displayname"] = "|cFF00CCFF11|r - Secrets in the Dark",
-},
-},
-["RestedXP Midnight||cFFE74C3C(90)|r Delves|a) Parhelion Plaza (H)|971"] = {
+["RestedXP Midnight||cFF1EFF00(1-90)|r Default|cab) Eversong Woods Route (H)|1015"] = {
 ["version"] = 1,
 ["cache"] = true,
 ["enabledFor"] = "Horde",
-["key"] = "RestedXP Midnight||cFFE74C3C(90)|r Delves|a) Parhelion Plaza (H)",
-["groupOrContent"] = "e1oƒ0F÷û'y©n#Z¤l!(K$Tuèå‚O±ĞÙĞRåÇ7”­Ì÷Ş}/Ër¿Zëg\000%ÉyP#Kp]‹ÔEº¡Çw‘ÍgGgZw±TÎËíŞTÕşu³{Ù%ÅSz,Ù@µtc¤kË~şW{ú!L)(ãBïiúcş“¿ãl~XÆ’äúEÓb5–úÈÛ-:1¬”k?^gÖóğû",
+["key"] = "RestedXP Midnight||cFF1EFF00(1-90)|r Default|cab) Eversong Woods Route (H)",
+["groupOrContent"] = "u=kÃ0†÷ûZâÁ óY’ˆ,…’¥]ßÕ¨’ÑGİB~|í¦Siç÷yŸ÷®m×´~ØQ ’ë<¨wIÙÅ€jH±x–\\„_ğÑqpÃµ€ÊõrÏn½1t4FëµİÜäÕV‡&Yx$­5¨`ß{{iğ¸lÄ0àsŒœñk\\Pìòèíç7º¸Íş°×º›µíïÖ|_2ûÿØÁv‹§˜X`şbåBï+Ú¿K?ÔÕ±L.pœ`·#øú",
 ["metadata"] = {
-["guideId"] = 3418494328,
-["retail"] = "",
-["subgroup"] = "|cFFE74C3C(90)|r Delves",
-["next"] = "a) The Darkway (H)",
-["group"] = "RestedXP Midnight",
-["chapter"] = "",
-["imported"] = true,
-["key"] = "RestedXP Midnight||cFFE74C3C(90)|r Delves|a) Parhelion Plaza (H)",
-["version"] = 1,
-["enabledFor"] = "Horde",
-["length"] = "616891112",
-["name"] = "a) Parhelion Plaza (H)",
-["displayname"] = "Parhelion Plaza",
-},
-},
-["RestedXP Midnight||a) Emergence (A)|1262"] = {
-["version"] = 1,
-["cache"] = true,
-["enabledFor"] = "Alliance",
-["key"] = "RestedXP Midnight||a) Emergence (A)",
-["groupOrContent"] = "eÎ±«Â0ÇñışŠƒ,v(4\n¢àRª™.:¸„ähÒ´$éã	ıãm}ƒ‚óİ÷Ç'Ï×r½ÙJ)—\000\"PÒì@üRˆÜy” êĞ\r=^(&²·<±õ\\7	„×-¡ÎğĞR¨ÉÂE™°{§¯ëh”*ŠªRj5Ìß¯SMi®÷ñª#‡€GííÿˆitŸ(Àn‡¥s¬çdô Ø7Xúİ?)ğü",
-["metadata"] = {
-["guideId"] = 3891596355,
-["retail"] = "",
-["next"] = "a) Dis Was Our Land (A)",
-["enabledFor"] = "Alliance",
-["name"] = "a) Emergence (A)",
-["key"] = "RestedXP Midnight||a) Emergence (A)",
-["group"] = "RestedXP Midnight",
-["version"] = 1,
-["length"] = "616891112",
-["chapter"] = "",
-["displayname"] = "|cFF00CCFF3|r - Emergence",
-},
-},
-["RestedXP Midnight||cFF1EFF00(1-90)|r Default|cab) Eversong Woods Route (A)|1173"] = {
-["version"] = 1,
-["cache"] = true,
-["enabledFor"] = "Alliance",
-["key"] = "RestedXP Midnight||cFF1EFF00(1-90)|r Default|cab) Eversong Woods Route (A)",
-["groupOrContent"] = "u1kÃ0…÷ûZâÁ óD[¡diWEº:ªd,©n!?¾vÓ©´óûŞ÷îÚvMë‡\ru\000jäb%€zç1KŠH ú1ÕÏœû—'|¥¿P¹^îÙÍC'c´^Q»ÑÍmÄ#¿ÚîĞÄ¤µí£³—OËFŠ=>§ä3S-Œ«}ÊK‚ıüF·9Zw³¶ıİšï‹üQf£ûßˆl·¸Altó#(‰.TÏhÿîıPWñ<Iôi‚İàë",
-["metadata"] = {
-["guideId"] = 2951026905,
+["guideId"] = 2951944416,
 ["retail"] = "",
 ["subgroup"] = "|cFF1EFF00(1-90)|r Default",
-["next"] = "cac) Eversong Woods Route (A) 2",
+["next"] = "cac) Eversong Woods Route (H) 2",
 ["group"] = "RestedXP Midnight",
-["name"] = "cab) Eversong Woods Route (A)",
-["key"] = "RestedXP Midnight||cFF1EFF00(1-90)|r Default|cab) Eversong Woods Route (A)",
+["key"] = "RestedXP Midnight||cFF1EFF00(1-90)|r Default|cab) Eversong Woods Route (H)",
+["enabledFor"] = "Horde",
+["imported"] = true,
 ["version"] = 1,
 ["subweight"] = "1000",
 ["length"] = "616891112",
-["enabledFor"] = "Alliance",
+["name"] = "cab) Eversong Woods Route (H)",
 ["displayname"] = "|cFFFCDC002|r - Eversong Woods 1",
 },
-},
-["RestedXP Midnight||a) Begin Your Training: Master Cheng (H)|722"] = {
-["version"] = 1,
-["cache"] = true,
-["enabledFor"] = "Horde Monk",
-["groupOrContent"] = "í“Ïn1Æïû#í\n¤Ê\"µJ«ªBC‘”&R‹„T9ëÉî(^{;¶“åÀ;ğ†<	ã¤…!œ¹¿oşüÆÓé‡½£¢(gYÎ™,Ÿ#{rŠ,¯ØÅ.ÑÔ×0$m©ªC–[Õ ¨=x…Yøä\"Ã˜Y²Õ1•èú5Ú\nŸïe¹&ßµ\\»†ÎÎàc”œ>ËËZµ¢ÍNNàÜ±Ş¼fboåÍ5­Á€\n5X¼“²FMĞÀ•âTh¼\naUƒşë~·;šQ¡&)-»Q¯8{:^Ç1x±xÉ\"æÛÔŒxT\000Æ…bía™xÊ®ƒs4zİï_¿u³'«òòúâæêååû›I@JeÁY³„	ÂCÛZ\"%B+$TYºhÃ3XºZB­æ‚Ï0*½Ü2PXñşNş3¨Qa„AZSƒÇPt²1 Oò?ÀÚ´ÿÅY„Şœ¾q	Ç®˜šFñ½“ñ6£ÿuë¶ü·áò±A'¬©’›pxD‘Hyf·øµ²¥‰ò¯ŞĞ¨hğ.Í.ÎÏrC[ñbût:éáíÆÁØY}Ÿô_–S†tÓnºn²Š$=Iü(«ÓHda‘-ÈQ'İf…Â˜ÜµÉ­qåõ. ¡²QY”ÿK'?ş",
-["key"] = "RestedXP Midnight||a) Begin Your Training: Master Cheng (H)",
 },
 ["RestedXP Midnight||a) Between Two Trolls (H)|1072"] = {
 ["version"] = 1,
@@ -11027,88 +11056,67 @@ RXPDB = {
 ["next"] = "a) Sorrowing Kin (H)",
 ["enabledFor"] = "Horde",
 ["chapter"] = "",
+["group"] = "RestedXP Midnight",
 ["imported"] = true,
 ["key"] = "RestedXP Midnight||a) Between Two Trolls (H)",
-["group"] = "RestedXP Midnight",
 ["version"] = 1,
 ["length"] = "616891112",
 ["name"] = "a) Between Two Trolls (H)",
 ["displayname"] = "|cFF00CCFF3|r - Between Two Trolls",
 },
 },
-["RestedXP Midnight||cFF1EFF00(1-90)|r Default|cb) Arator Route (A)|1171"] = {
+["RestedXP Midnight||cFFE74C3C(90)|r Delves|a) Collegiate Calamity (H)|968"] = {
 ["version"] = 1,
 ["cache"] = true,
-["enabledFor"] = "Alliance",
-["key"] = "RestedXP Midnight||cFF1EFF00(1-90)|r Default|cb) Arator Route (A)",
-["groupOrContent"] = "UÁjÃ0DïûºÄƒTJH ŒSÑK äÔëZÚ:ªdd©i!_§Í¡=Ï›7Ó¶k³Şl1\000*s!	 >8Ï’\"PcNuÂÏ…ıëÅGÏÔ\\‡ßìê¬5OÖj½2íV7×Œ~£(Ò;£ì2•”ñ”ja\\u\r(/óèë‡¸)lèµ~\\Úí^êüYĞ9jğ™2EO\r»v!EÇ°¼›@It¡zFú¿wOÏâù\"Ñ§ì÷¾ÿ",
+["enabledFor"] = "Horde",
+["key"] = "RestedXP Midnight||cFFE74C3C(90)|r Delves|a) Collegiate Calamity (H)",
+["groupOrContent"] = "mÎ1kÃ0†áı~Å{TmHÈæ&d	˜Nº\\­Ã>¸ÈB’CSòãcÇc<ß{Ïjµ±›­µöÀDÎ$\næÂ1IïÑ‚ic?üâ”Ù}×xç¥í2˜4üÎ·[s8ìß×Õ[Ul_Ê[ÄOÖ'0ÎŒTbÕ«r+”+R:K¾bq,Á8IAéúè¢qÿò´PSìX'Q­ôOówÓQÈa·ÃcÃH`Ä7:8~&ÿ,Sàş",
 ["metadata"] = {
-["guideId"] = 3580368236,
+["guideId"] = 671225611,
 ["retail"] = "",
-["subgroup"] = "|cFF1EFF00(1-90)|r Default",
-["next"] = "cca) Harandar Route (A)",
+["subgroup"] = "|cFFE74C3C(90)|r Delves",
+["next"] = "a) Parhelion Plaza (H)",
 ["group"] = "RestedXP Midnight",
-["name"] = "cb) Arator Route (A)",
-["key"] = "RestedXP Midnight||cFF1EFF00(1-90)|r Default|cb) Arator Route (A)",
-["version"] = 1,
-["length"] = "616891112",
-["enabledFor"] = "Alliance",
-["displayname"] = "|cFFFCDC004|r - Arator",
-},
-},
-["RestedXP Midnight||a) Port Detective|929"] = {
-["version"] = 20,
-["cache"] = true,
-["key"] = "RestedXP Midnight||a) Port Detective",
-["groupOrContent"] = "ÍX]oÛ6}×¯ â—¶s}K.Š\000ş\\²¦Iæ¸K»u0h‰±…È¢FQñøÇï’²lY²·uƒ½±I‘ç{î¹W~ûÖÑ¯¥ëº¡(\rF8#¥ñHXÒšÒ˜2š%hHRN‚Ï7ècÄátÆ•FŒçá×è†2z„Ÿ‡Di„1',Æ‘O$Jƒ&‚j˜şÁ1íG¸O\"xØ÷ió¦ç¸¦­ü²ô‡ŸoÆwíáÕøÍĞ?Ä)\n(â3‚Nîfaš\0000Æò‹Ñ\"Œ\"åug8KÑ}ÈR¾dŠêG¡ÿ“yøW€¼ë(±†^µ_£³³îåE÷:ïûhp=D¿~ºèõÑû÷¨\r÷áØ'?pşùsçŸSmÀ‰$·kjÛJ3F\\Ü;ÂÑ°ó5ÎY/úW½Ë/ãË§4Å£^–>ÌiÆb\"ø˜R Ò0[vÓrÔ–Ş´lU÷”³³åHfëûätAYÌqrêÏ0ŸdÈĞØ±¦Œ<©“(yghK¾ºp§ª¨^’pä¹fË€¨ÛùÇ.fSŠº4N“aÿIQ9|C8ªŸ²ŸŠN™Š®H¢9Õ9´ xÜÉÒÙ’I]uEú\"¹¢ŒcÕØ1à¯¥êšdçbÍŸ±”²SŸÑ4áJâ°Ï×ä<øğé<‰ ‚œ‘¦¾?¼î!áõ²ùüé[ã³U¸şj­£Å·ÂQĞØ`ï\000ø ïI¢«jšH¥f-È–Zœæ*ÎRD9Â>8X0š$a<UÅc‹Ï0‚šöÇI€®('GÃ,Kwàµr¼àÇ×±täüû\nÀ\n¨\n¿,Š<ƒ’}«†«·ZPå7Œ¤©D2Ç€¹pÀ“¶Ì;ºàd¢ƒŞq¢¨ù–]l5uÓ0\r\r<õå²¼g›ĞœuFşÉB¸´\nø\000­*ÄÕ¿êü2~uu=B·çía¿÷º®«\"îÊÑÎÚ9rpvàğÈ è#ø(dñ- ÜKÌM/¹0\000Ğ-ÁÌŸmí³6ûn³$‰Bn3öH`l]|?ÃJ-9ú#$àê<ÊŠ…™P€YO¤	.¯Îé­÷À¤ä?,€?Âò•#r4è`¶şn³»XfàslU¸¥,jªmˆ~exG“äˆD$õiBên­›9pm.æt”ÙR-GHËp^”Qã 8’ıx-àYæ–šJzÙex”e.ıÁ`Ğíu5m@£ˆ.ämQÜ5)YO ¾=Uód)·š¦ÖÔ*1ZâNQ¬ıô»Šı:g8%>tQ±²±m´õ5ş^“J”ã\\ËyA“3K&Ww¨gL®t†U:c·{•­ÎŞX]‡2ê°°¡·Åb LÕÔáÙÙoÙ<<\r»ÃœTUbofÙª4]ÕõòÛš¦]“¦&‘@¥ÊµRòk½ÂS,[õ%¥İS†–#İ´<Ûy©ú+ßzy}=ŠS.ß.Û&¼dïÒüê<å<›ã¡ªòæp[Ñİ’­”,¥Ë°lÿU?±ÁÒ*…Ô„ë\núñşoÚª§	ö=ëKÃ.ÉºªÔÛ¿³Ñzà@À\n‹I·v¹õN¨‘’âw‰ú4¾G&õô8uW¼gÓi´×ÿÖ‰«ˆ­šàì†Úª{·i©¶-Rd;õ5x…³dú¼]kºì3æÎçÙ]£è‡Ëø¹î(¥\\ëî~g0EÈ0R;ö®Àó·pkGp\000]Ämx{ûÙÑ“vÌj³_°ÚÜÓöº\nlDNéŒgêÍ+\rÛ+VÑíŒ.ºˆë=È•=HtWşº8áX\\GÙSÅÙíx_²Bxé,Lª	ö„iòp7ëFsx“guïaûÇÿ?’qè|ˆÑÑ~jÆQé‡|/~ü0‘$ÂOUExå±¢–§g$ñß",
-["metadata"] = {
-["guideId"] = 4124314984,
-["retail"] = "",
-["group"] = "RestedXP Midnight",
-["internal"] = "",
-["imported"] = true,
-["version"] = 20,
-["key"] = "RestedXP Midnight||a) Port Detective",
-["length"] = "616891112",
-["name"] = "a) Port Detective",
-["displayname"] = "a) Port Detective",
-},
-},
-["RestedXP Speed Leveling||a) The Forbidden Reach|778"] = {
-["version"] = 1,
-["cache"] = true,
-["key"] = "RestedXP Speed Leveling||a) The Forbidden Reach",
-["groupOrContent"] = "\rÊ¡Â@`ß§hR…˜(b@! °…û³59zKwÛóƒÿ†aÔñtVÕ#‘$ºy%Ù‘«·`%™²mß±v”×PøŠÕc\"	û‚íÀÏ|iùöRnŸ™Ä£#Ã*ış",
-["metadata"] = {
-["retail"] = "",
-["group"] = "RestedXP Speed Leveling",
-["internal"] = "",
-["imported"] = true,
-["key"] = "RestedXP Speed Leveling||a) The Forbidden Reach",
-["name"] = "a) The Forbidden Reach",
-["length"] = "616891112",
-["version"] = 1,
-["displayname"] = "a) The Forbidden Reach",
-},
-},
-["RestedXP Midnight||a) The Drinking Debt (A)|1250"] = {
-["version"] = 20,
-["cache"] = true,
-["enabledFor"] = "Alliance",
-["key"] = "RestedXP Midnight||a) The Drinking Debt (A)",
-["groupOrContent"] = "mÎ1kÃ0†áı~Å–z0XL^Œ¶B:d¹H‡}DQ„¬„üãë&£³İpßËS–n>wZë@%Î$ÔƒÓ,·€ujL·{ÄÏ™İ÷¿Ä§*Ğ•‘\n<NŒC’p‘0âÀçŒ]ÊÉ=ı>¿kLUõ½1zIXn'kòÍ0%¤àÖÃ¿Bv¢˜9AÛbç½P°+&‚’`ıİñwzÇ‚¿",
-["metadata"] = {
-["guideId"] = 1459097294,
-["retail"] = "",
-["next"] = "a) Fear and Fel (A)",
-["enabledFor"] = "Alliance",
-["name"] = "a) The Drinking Debt (A)",
-["key"] = "RestedXP Midnight||a) The Drinking Debt (A)",
-["group"] = "RestedXP Midnight",
-["version"] = 20,
-["length"] = "616891112",
+["key"] = "RestedXP Midnight||cFFE74C3C(90)|r Delves|a) Collegiate Calamity (H)",
 ["chapter"] = "",
-["displayname"] = "|cFF00CCFF1|r - The Drinking Debt",
+["imported"] = true,
+["version"] = 1,
+["enabledFor"] = "Horde",
+["length"] = "616891112",
+["name"] = "a) Collegiate Calamity (H)",
+["displayname"] = "Collegiate Calamity",
+},
+},
+["RestedXP Midnight||a) Tauren Heritage Quests (H)|728"] = {
+["version"] = 1,
+["cache"] = true,
+["enabledFor"] = "Horde Tauren",
+["groupOrContent"] = "íTÍN[=İß§é.ZÚ%­ŠB…P?]Ğ¦	•Ğäz’kák_ÆcBª,ú}Ã>É7Nˆ¢ˆE×İÏ9sæŒíNg¯·×ßïõzï‹¢d´®(ˆ£\rzE9áZ¸¤(dnpa·“ZŠÒcC€;0ÄÄäáœØ\nN¾'ÅFx}¾£z”†ÑX?Aˆ²<16¶g‘í\nEYÕØ\nqqp\000çÍ\nX¨•VOCÓ:šZ©!7*J‡#rpìµÙ0—Şk!’Ò)šäÄ*\rî—.¥F¦)²‰0NÎÎ8æĞ€£rúİ?¿~ïw‹7óêòfp{}tùõv”¬@…‚w3¬Ì­T-1`U…äåÌB‚gPãƒæ˜ĞÌÖVæ¼ûLÿ$ŠmP®HÔõĞ6ô	>t¡±>	ÅMøÕmu<§ÓZ³4ÁäN9u	š\000)DÛ3‡iØ’ázn»?³@ÿ#…,ğ'l›ù‰ÉtŸ,S|Æ*ÅŠf;¯NOOÿ;îv7¬©NË¡\"2sş·š—Wc}å’Şùµ—+r=…lyxGÜş|%ÈòeI0µgÉêœx³Y{êó7+«$a¼ğ=Éb õUn€Şä)_	HbÖ/p‹µ‚Æn<¶™¼Õ™ç™] Oètwñ'ÿÿ",
+["key"] = "RestedXP Midnight||a) Tauren Heritage Quests (H)",
+},
+["RestedXP Midnight||a) Troll Heritage Quests (H)|727"] = {
+["version"] = 1,
+["cache"] = true,
+["enabledFor"] = "Horde Troll",
+["groupOrContent"] = "íTMo1½ï¯iP U¢JQUQ•~p(„6R{@ª¦ëiÖª×ŞÇIƒrà?ğù%Œ“TJBÕg®ã÷Ş¼yc»ÓÙéíôw{½ŞÛ¢(™­+Ê1q´ÁC¯(GRç…ÌÕ\000Î¬ñvTKQzlp†œƒSb+8\"ø–áåé–BèA4Ö`¢,NŒ­Ãé\\ãI¢¬jl…¸ØÛƒÓÀf‰+ÔG«‡¡i	M¬ÔÛ¥Ãrp‰ìµÕ0—^k!’ÚÑšäÄ*\rî¥F¦	²‰p›Ô„xË¡Gcrúİß?ív‹W³êüjp}ypşåú&	X\n=ï¦pCğhÆh¥\"h‰«*$/o`48…Çš–cB3]!X™ñöšşQÛ \\¨ë¡mè¼ëBc}Š›ğ‹;Ûê yN\r&5y0ÁäN9s	š\000)DÛ3‡Ix\"ÃÕÜ¶dş{Øß?	Yà+Ø6\rò’ÉtŸ,S\\c•bE³UÇÇÇ‡Ÿ»İ\rkªÓr¨ˆÌŒÿ¯æùÕX_¹¤W~åÙÅŠœCO!Åï¿ºn¼dù¼à˜Ú“d\ru¼Ù¬-ÛüËÆ*ÉC¸Ûe1Ğúcl€Şä!_HbÖÏqó­‚¦n<´™¼Õ™õÈÎĞ'tººøŒ“?",
+["key"] = "RestedXP Midnight||a) Troll Heritage Quests (H)",
+},
+["RestedXP Midnight||a) Harandar Route 2|857"] = {
+["version"] = 0,
+["cache"] = true,
+["key"] = "RestedXP Midnight||a) Harandar Route 2",
+["groupOrContent"] = "µ–ooê6ÆßçSXâE5-¸qş³])—®Wwwë\000©wÕ¤Ê$†X5vä8ôvâÃï8p)¡“\000‰¾IÓøpr~~Îã“n7&qÚ#„øÓÑÌP.œÎ\\«ºD#V–»G_y.ù¼0NGÒCô'tG5•9Õh¤jÃïtr^•‚¾6«ìöövğiàyáJ£î6Úépi˜–T8¹´ÿf¢ÎÙû7ıïP!š!S0ô›ÊsVU×Ÿ˜X2]Ù¥~×^ÿœM\n¶Y½YgÅ¼ú«†„ı%°Ğ©`¨„>qğ\\…ünâá rã§Ä%‘ëµÖöˆG8v0³å3&©æ\n^/qá’ÚK]]\rí2šØútÏºç5%\".ßöh•¾İ?=ôG<ÁcŠ2ºd+Ùƒvîëõm¿»şû¸É©E)˜a/ÜèoUVrşëPæÄé<‡™«/Q\nTÕ3/ÖşØİßÃÁ9Şlâ@%^5)Ÿ¡WU¥¼0(SÒpYo×•~\\24e­+fõ¥hZÏWº]×ö•cxxúN!ÿú­è±¡ÚîÅ:'4¨ı6ü¯’Ì³nò?Iıİ®‰cÛQ‘‡ÓĞ¹ºZM>ÛÖ˜ÑŒ]fµ®”¾Ì´ªª‚r}Ùx€fOEù‹ï­Ì@ğì)Ùtúzoï?¾<jC©äèV(M\r“9Ó¿(ƒ­6ñ‹º*´Rì`Sk	\rÖÔİy#hö\\-@@.çè‹T/‚Ùí™hF«Z3ø¦&Œê÷ï¥-;Å=œÄnÆ‰Îÿ TÎ$z`tiËßPï@B\r\0009¢”>.?	0I÷Î‹(±êöÈÙ\000ûhPp‘[EM=›½‚¤|4­á9 íJ\n}-İvåŒpXZÿl°÷š/¨@Ãªb2ch\\Ğƒ=ìEÍ	›Ô ‡ˆ½ø4â(iéc6\rŸ\rÿ¥=¨ÏBˆhÎüÀ(À;¦§Tğjqˆ¯w_œî4\nÜ°‡Iz6¾¤w0_ŞZ×¶dlÛNU)kHN;„Hïiè¥†çcüİN—©€ÖDıÙ‚`îlˆ[ñÇAzá.dà$²õÏ7fà+F«’g?\\Ù2aø‘&Œ[#4Hq\000­šœÓ„7V;Ğì¦Î÷Üûè¾ˆì¥hir6°qI5CÃï%Ë¹á°>Q:+ÚâEv@~åÇ4eğƒïôOòw_ï¾ËI=\\0=·Ãáz{×ïnoÿş",
+["metadata"] = {
+["guideId"] = 287378856,
+["retail"] = "",
+["group"] = "RestedXP Midnight",
+["internal"] = "",
+["imported"] = true,
+["version"] = 0,
+["name"] = "a) Harandar Route 2",
+["length"] = "616891112",
+["key"] = "RestedXP Midnight||a) Harandar Route 2",
+["displayname"] = "|cFFFCDC004|r - Harandar",
 },
 },
 ["RestedXP Speed Leveling||cFFFCDC00(1-90)|r Default|cca) Harandar Route 2 (H)|1003"] = {
@@ -11123,8 +11131,8 @@ RXPDB = {
 ["subgroup"] = "|cFFFCDC00(1-90)|r Default",
 ["next"] = "ccb) Harandar Route 2 (H) 2",
 ["group"] = "RestedXP Speed Leveling",
-["imported"] = true,
 ["key"] = "RestedXP Speed Leveling||cFFFCDC00(1-90)|r Default|cca) Harandar Route 2 (H)",
+["imported"] = true,
 ["name"] = "cca) Harandar Route 2 (H)",
 ["version"] = 1,
 ["length"] = "616891112",
@@ -11132,63 +11140,61 @@ RXPDB = {
 ["displayname"] = "|cFFFCDC005|r - Harandar",
 },
 },
-["RestedXP Midnight||a) The Regent's Request (A)|1180"] = {
-["version"] = 20,
+["RestedXP Midnight||a) Pet Battle Setup (A)|761"] = {
+["version"] = 1,
 ["cache"] = true,
 ["enabledFor"] = "Alliance",
-["key"] = "RestedXP Midnight||a) The Regent's Request (A)",
-["groupOrContent"] = "u±jÃ0@÷ûŠ\r)ÉƒqÁ‹QĞ”@:tòÅ(²\"Ë!|å¬M‡ƒƒ{Ç{eY‹ºùBT\000,RÒÖ»Sœíä±âÀ†8-Ï4'ê¿Nx´½·Ã˜€y}%Ô~”Ïùô6çå¶dw]¬·spúç	®F)Î¥TJ¬Ë×_¤ä^r¾kø{±Æl¡GÚ,*}Ÿ\"^ò¤ü{Øú3ê(BÛbçœÕŞäØ\000Ìzã–şÆÿ“\r¿",
-["metadata"] = {
-["guideId"] = 2267090945,
-["retail"] = "",
-["next"] = "a) A Favor for the Lion (A)",
-["enabledFor"] = "Alliance",
-["name"] = "a) The Regent's Request (A)",
-["key"] = "RestedXP Midnight||a) The Regent's Request (A)",
-["group"] = "RestedXP Midnight",
-["version"] = 20,
-["length"] = "616891112",
-["chapter"] = "",
-["displayname"] = "|cFF00CCFF1|r - The Regent's Request |cFFFCDC00(80+)|r",
-},
-},
-["RestedXP Midnight||a) A More Potent Foe (A)|1183"] = {
-["version"] = 20,
-["cache"] = true,
-["enabledFor"] = "Alliance",
-["key"] = "RestedXP Midnight||a) A More Potent Foe (A)",
-["groupOrContent"] = "mÎ1Ëƒ0Æñı>ÅÁ-uŒƒ´à\"B6A:uè’CÒ$ÄX(øá[ŞÕw~ÿºîTw½)¥Z\000Ê\\Œx 7çMbÀ¶ZrÜŞy+ì3Nâ‚,k\næÅh*pŠ™q…CA/CädKŞ|şV‡ÕºiÆQkÕëóÈ®&ÎĞ÷8x/&X†Ÿ™€$X¿;>7<ÿÓáû",
+["key"] = "RestedXP Midnight||a) Pet Battle Setup (A)",
+["groupOrContent"] = "í“Án1†ï~Š‘ö\000Rmh©RTE\n…p*Š’Hí©ríIÖª×ŞÇI·ÚïÀò$ØQ#’RõÀ™«ıÏ?ÿ|£éõNú'ƒÓ~¿ÿ^ˆ‚¥±¢X!ãôE±$˜b`ÔW¸0Ú™eÅ¢p²F0A†O’Ù\"Ì“öõè@Ú„ÆÊv#ú£¢P•lIœÁÈZ#B‘¼›ôãëÆ\"ãÚpïS+oĞÂ¥$gÜrŸŞÎ+  H­:5½š\\_¦ß®ÊŞqÙÜÅ5\000W’p-IXDk!…_¯Áâ\nm€AùëÇÏÓR¼Ùñà\n[PÒÁ\rÂ6Ÿ\"BƒR)¿ƒÖG¨e•\\%–Pêv§ÀpG‡{Æ_›Zò–ĞÜÔøz ò‘ÂSõìÖ4i€<gë\nhïr£Ø'˜$©;‘_gƒgîr;|Èƒc¿úl0cOõÚ8ıXIx\raØ«*Øä½vj<Ÿ>/Ë'Ñ’OC^!êş¯æåÕ§lÔø÷)}æˆkş¿â|¹~±É°Œ&µLï[ Î‰_1p$Æmt›Õ@\"h,Ü7¹ :ëÕ-êıù/¤‹ÒÚÂI~ÿ",
 ["metadata"] = {
 ["chapter"] = "",
 ["retail"] = "",
 ["enabledFor"] = "Alliance",
-["version"] = 20,
-["key"] = "RestedXP Midnight||a) A More Potent Foe (A)",
+["version"] = 1,
+["key"] = "RestedXP Midnight||a) Pet Battle Setup (A)",
 ["group"] = "RestedXP Midnight",
-["guideId"] = 1367019136,
+["guideId"] = 1201147534,
 ["length"] = "616891112",
-["name"] = "a) A More Potent Foe (A)",
-["displayname"] = "|cFF00CCFF16|r - A More Potent Foe",
+["name"] = "a) Pet Battle Setup (A)",
+["displayname"] = "Pet Battles",
 },
 },
-["RestedXP Midnight||a) A Domanaar's Best Friend (A)|1184"] = {
-["version"] = 20,
+["RestedXP Speed Leveling||cFFFCDC00(1-90)|r Default|c 2|869"] = {
+["version"] = 0,
+["cache"] = true,
+["key"] = "RestedXP Speed Leveling||cFFFCDC00(1-90)|r Default|c 2",
+["groupOrContent"] = "EË½\nÂ0@áı>Å…,:’¥ÛfÊ \nâš6×ˆ5äGòğJ\\ßá¼•m×K)\000)ç­ñY)e²·^‘EM/òn[¥2ÿD]”RÃ8q¼Çq¤»)>ÛÌƒpÁ˜u)xóŞÃÿĞÓuÒØ‰ïWãÌìÉÂç",
+["metadata"] = {
+["retail"] = "",
+["subgroup"] = "|cFFFCDC00(1-90)|r Default",
+["group"] = "RestedXP Speed Leveling",
+["name"] = "c 2",
+["imported"] = true,
+["version"] = 0,
+["key"] = "RestedXP Speed Leveling||cFFFCDC00(1-90)|r Default|c 2",
+["length"] = "616891112",
+["disabled"] = "",
+["displayname"] = "|cFFFCDC00LEVEL 80-90|r",
+},
+},
+["RestedXP Midnight||cFF1EFF00(1-90)|r Default|cd) Zul'Aman Route (A)|1168"] = {
+["version"] = 1,
 ["cache"] = true,
 ["enabledFor"] = "Alliance",
-["key"] = "RestedXP Midnight||a) A Domanaar's Best Friend (A)",
-["groupOrContent"] = "}1‹1Fûù)t‹…pâÍŞJ:A¬,®6ƒâ$Lâq‚?ŞEKÑú{ßãµíÒ.WßÖÚ€Q®\"˜?Ö’à¢sÔtÉ¸çRÙv¸\r^ÂñTÁ©Á7éLB¤³‚?‡N‹Çyß€ñ¡äH×|ëºapÎ~İÛ·×IÎÿõ)ß&eÜ¥Ê2­‰ŸÖñD¹²Âz}Œdd˜3˜ c¼x~\rşıÔ\n÷",
+["key"] = "RestedXP Midnight||cFF1EFF00(1-90)|r Default|cd) Zul'Aman Route (A)",
+["groupOrContent"] = "]OK1Gïó)r°{XH<TeaÙ67Azé-&c;M–ü±úá]mñüŞ¼ùµíR-WJ©{\000‘¨ö >(eˆCŠuÂåBîõŸØ>ˆ\\ß®ìbµV[­¥\\¨v%›KÂ\r½›êg)˜‘Ğº÷Õßõ£	¸‹µ.ú„ã<ysşq¾#zØR>Ì÷í¯?'è³ ¥_\"»\\bÿ4Ökì½g,Á¼pÁÁúêÍÿŸ7~dG'. ë|ı",
 ["metadata"] = {
-["guideId"] = 3309048060,
+["guideId"] = 4283110884,
 ["retail"] = "",
-["next"] = "a) A More Potent Foe (A)",
-["enabledFor"] = "Alliance",
-["name"] = "a) A Domanaar's Best Friend (A)",
-["key"] = "RestedXP Midnight||a) A Domanaar's Best Friend (A)",
+["subgroup"] = "|cFF1EFF00(1-90)|r Default",
+["next"] = "ce) Voidstorm Route (A)",
 ["group"] = "RestedXP Midnight",
-["version"] = 20,
+["name"] = "cd) Zul'Aman Route (A)",
+["key"] = "RestedXP Midnight||cFF1EFF00(1-90)|r Default|cd) Zul'Aman Route (A)",
+["version"] = 1,
 ["length"] = "616891112",
-["chapter"] = "",
-["displayname"] = "|cFF00CCFF15|r - A Domanaar's Best Friend",
+["enabledFor"] = "Alliance",
+["displayname"] = "|cFFFCDC007|r - Zul'Aman",
 },
 },
 ["RestedXP Speed Leveling||a) Archdruid of Lore Midnight|1391"] = {
@@ -11220,8 +11226,8 @@ RXPDB = {
 ["retail"] = "",
 ["subgroup"] = "Miscellaneous",
 ["enabledFor"] = "Horde",
-["imported"] = true,
 ["version"] = 0,
+["imported"] = true,
 ["name"] = "a) Lore Hunter (H)",
 ["group"] = "RestedXP Midnight",
 ["length"] = "616891112",
@@ -11240,8 +11246,8 @@ RXPDB = {
 ["retail"] = "",
 ["group"] = "RestedXP Speed Leveling",
 ["internal"] = "",
-["imported"] = true,
 ["version"] = 1,
+["imported"] = true,
 ["key"] = "RestedXP Speed Leveling||a) Horde Hillsbrad Foothills",
 ["enabledFor"] = "Horde",
 ["length"] = "616891112",
@@ -11261,9 +11267,9 @@ RXPDB = {
 ["next"] = "a) Trials of the Shul'ka (H)",
 ["enabledFor"] = "Horde",
 ["chapter"] = "",
+["group"] = "RestedXP Midnight",
 ["imported"] = true,
 ["key"] = "RestedXP Midnight||a) Trials of the Shul'ka (H)",
-["group"] = "RestedXP Midnight",
 ["version"] = 1,
 ["length"] = "616891112",
 ["name"] = "a) Trials of the Shul'ka (H)",
@@ -11290,22 +11296,22 @@ RXPDB = {
 ["displayname"] = "|cFFFCDC003|r - Eversong Woods 2",
 },
 },
-["RestedXP Midnight||a) Sawdust to Sawdust|922"] = {
-["version"] = 20,
+["RestedXP Speed Leveling||a) Nesingwary's Retreat Midnight|1367"] = {
+["version"] = 1,
 ["cache"] = true,
-["key"] = "RestedXP Midnight||a) Sawdust to Sawdust",
-["groupOrContent"] = "ÅW[oÛ6}×¯ à‡¶›«èn©((»dM“Ìu‘dë`Ğc•I¤ìnğßGIN[¹tq»ƒ2­ïrÎùé×¯;#Û¶Ãè¢0ÍŒÎ‚I9Cet¦‚9©Hzy>Ğ”ÑéL†çáWè#^¦…THñõÒèP¦ˆ`83à­Üèğ\\A8x4©ü­€PñòàI’„LuÃ ğãçU2¼<_ÄÃÓñ/Ğ/ˆœr¤få‚,(/$Jf8‡èš\n©VÂ0“Œ&_ùª¶+ı5R‰.°Dg…@'˜¥èeü\níï÷OûïÑÑ`8@ïÎ†è—OÇ‡ôö-Š³Œb–ÿ÷è¡¸G\\¤¤ÆÚ'Ù±¯±ÑÁBğ¥Ò)G8ûİf*ï†ÇƒÓÃ“«ñçi\"ğµF şS\rÀ”LçöºNhêÏéZÆşşjTrq²·ä\"Kç8ßøÔ¤˜\000şãÀ›\nò·9Éò7µRuJôhFÓ0:’+†Q@ÓqõxQÀA³u\000€P%\rSa1%\nm¹¡wá#ÎxJRXL¸‚UXÂçyFYR5Cšhï=Í²ºØÁéàÃÕx´„o4=¨_dŠJ%Ÿ>IR–´Ù–åú‘ûzmhíÁW%pœh™JqöçJh¤*˜~sı®óWwÃ, ¬ã†Qà¬Iå<ßà\"ğJFü®mu­½Èí:‘éÚ­{¾Şëµ¼™N¤?­–÷ª½RåÀñ\000’BH.öÁ¥œa*öJmàDİğß×zGœUh•\000ƒ–Çƒ¿\nšÏ	«†­	$zPÑ-¨Dfj…6\000ÌfUç®³µçÚ¦í—İ…Û{–éy:¦İÒñôÂ®Waò$Õ˜?P6­Èõwâ*à­ßÕT!e7^0‚GÏßb½Fˆm7hÚFxk#È ³Å9LÑ¤v» ø•üv7ºˆ;l‡ëÙØÈî—”Ø»Ë>#$kKï´¥÷Êæ}gé…Sˆn+À}¤€Æ„¹^/Œ4`ßTWÏØîFÉşa£6æà^y?éxnç$fĞèŒÁTREd	æúêÖF—·c¹ŞËVÔ2/`ún =<·;Øëyz/ôÚ\\½Ïá\"–ÎçsphyÄáÂ¢LÒ´^µÜuzß\n­À’×N?£[Fô+£÷ì\000.×æœOP{A÷^oêsáaÂ-l\000ÑsÊ»†İõ»ßùÎØwÔ÷Ã-Ş«ğJ+T±ò_EvÉGB·*ĞĞGĞ	)ÿ~ÀÏû°¨i®BÂ<BKû™şûóùú?Œh\\ıû",
+["key"] = "RestedXP Speed Leveling||a) Nesingwary's Retreat Midnight",
+["groupOrContent"] = "ÕX[oÛ8}×¯àÂÅ¢ª*JÔ­ÒÖi‹u.›äZ,Š€¶›°,ºÕ4…üu±$JÙh¾İË‡sÎõìYˆÃ8Á{–5‘LQZ“ÏLæ\\d[“•Å]²\\±åûtµcl‰fì3Ky¶²&İ2DGg,‡ç;*ïŸä`­$£\nòeÆWkeMx¦˜Ìhj›5Iéœ¥9y=ãJQ©°åğü<û³€5‘ŸYGGûëÒÅ-]°çwB¦Ë-İ=_¬©šóyÊnB²’ìŞ™§»»W×4İ %Ğ~qùşâæäòİôìõìÃÍ[¶eª³î^\"š-M«ãå’3tÂ¿~MÙ\\¬öÒrT!3UhĞÑÑ5<\"x¾¤\n<Á¿¯|c9t±`;…ˆ‹#Œ«Çã-U¬è­(ÀÑJ\000ª0pmâ:.±Ïñ¸§rÀšø>ı$’Öç™PìÙ´Zü *ï8ö'ñMÇÆ–ªcøÏ£ú«l²æKvÇ³¥¸³&±İ¥LÁ³Z£+€¼DoyšæJ‚‘„b×‡Dvà;Ihûív‡°C`ˆ8$\"z–ëa˜ŸI5ô×({È2öEÁIÿĞê™MO?ÜëifVá³‰[1ÙÜ£¦Ïá¼í¬£Ì\r#ßğİJä9ßñ%\"$Àq­?·§.CÔÿ—(Œ'ècÅfH­UŞhÑHŠ×É<$Ií¢!^ã¢Ï¼;=vØYÇQíäºC9ìù­áLôtÃ³'=#Ò\n‘3tµBõ­üÄk­^Â:å²ÚÆˆz—½õ’üF\"BÆÑsa.g}‹‚w<]¦ü–éUaWb_vLr–-ºò›¢é )]¬‘¤Ù-„$GşĞ§²ZêÅl¯áÅ@‘@p×‰‰í»=m ›$Æƒ‘H‰?©†FHuÁ3&Åb“Ü› ?656èBŠ»Ú\rãç2q†?OS ŞZÈ¬æä†+Åó5z-ØãŠÒ÷Õ´išrš÷HYq a”A‚‡ËÖˆŠİbF-Ş=Ùj¶—Î3¦zzªµKUÆ´ô¿>—å÷¡¶qš-ñ ½!‡#›Dš9L B:…É\rQl“Ğ	ƒ‘!/¨dæ›yßfé\000d@€6¥:£zß/%ÏUÊnA µ v·;§!‚÷`›1YŸØD©5ÛV'|G±ú/€U3gçç×İ‰,U{ù±¿%êfK&À‘ı˜&Åáœœ¼zıÊugŒ~fè|ìÛ’òÈ°BÚ±.Y• /më¥$ûTpÉòá2½Üè»óºm.´a¡{¶ghß/ænÚ\\Ò|M¥¾•é«šŞ³1à•Õïš7p½ ğ	1áƒd5ˆ+ë1 #à)1-Û\r#%ÊJ]³.RºAJTv¥ÄØJ^éĞ/ñoÆl´ZëäÓr–ä„.,QÂıÂT-(îX—xì†°.áp³ˆ“‘YAyé\00014‡|Mœ&è-~šú1ÖDÔ½œô™·½ş§é.lÓdFYÆÑOõ»˜µPßÙ€4İú¡¥¶ëV…t,ÍVü`VµâY¯ïÜ¼¸mP®à¡MQè¼P?Ğôà(6o\nĞMi‚ÏôCo~Ùöàv13|İkSØ}…ó˜ÍT-(ï¤~I°“ŒzÈ¼[xq#•ÍÜ‘%š¡¡ƒ'C ó˜‚“À0lï¬ı5öIà‡¥¤T2ô¦È>6AÔ)ï˜2ùÏ‹üøÌ®}[Ø]2p¢²H“Qİ=¤´^×OLá­ía©ãLé»Æ@w!Ó¸µñ¯Â÷†%}?HÇÅeNQN7û¤n‰O:×ùkäØ½¶/±ÈU±eİ{}Üy—\000w¿E!õª¿+¡îw&Şƒ,<(#ÿ",
 ["metadata"] = {
-["guideId"] = 809045759,
+["guideId"] = 1595675941,
 ["retail"] = "",
-["group"] = "RestedXP Midnight",
+["group"] = "RestedXP Speed Leveling",
 ["internal"] = "",
 ["imported"] = true,
-["version"] = 20,
-["key"] = "RestedXP Midnight||a) Sawdust to Sawdust",
+["version"] = 1,
+["key"] = "RestedXP Speed Leveling||a) Nesingwary's Retreat Midnight",
 ["length"] = "616891112",
-["name"] = "a) Sawdust to Sawdust",
-["displayname"] = "a) Sawdust to Sawdust",
+["name"] = "a) Nesingwary's Retreat Midnight",
+["displayname"] = "a) Nesingwary's Retreat Midnight",
 },
 },
 ["RestedXP Speed Leveling||a) Horde Draenor Scenario|1339"] = {
@@ -11319,8 +11325,8 @@ RXPDB = {
 ["retail"] = "",
 ["group"] = "RestedXP Speed Leveling",
 ["internal"] = "",
-["imported"] = true,
 ["version"] = 1,
+["imported"] = true,
 ["key"] = "RestedXP Speed Leveling||a) Horde Draenor Scenario",
 ["enabledFor"] = "Horde",
 ["length"] = "616891112",
@@ -11346,121 +11352,121 @@ RXPDB = {
 ["displayname"] = "a) Old Soldiers",
 },
 },
-["RestedXP Speed Leveling||a) Ohn'ahran Plains - Ohnâ€™ahraâ€™s Blessing|787"] = {
+["RestedXP Midnight||a) Flowers for Amalthea (H)|1079"] = {
 ["version"] = 1,
 ["cache"] = true,
-["key"] = "RestedXP Speed Leveling||a) Ohn'ahran Plains - Ohnâ€™ahraâ€™s Blessing",
-["groupOrContent"] = "Ë1\nÂ@Fá~N1°…Xl±A[kÁ í@~’uvÖÔ^#×ó$ºV>x1v©;RJ¢PPE3…Åu6NÆ2¿¾Á+†GÏ÷ø‚Ym¤`òË¯“íd*bÜgQs>ï­á/Îç÷ÿ£VQL2}ÿ",
+["enabledFor"] = "Horde",
+["key"] = "RestedXP Midnight||a) Flowers for Amalthea (H)",
+["groupOrContent"] = "uÎÁŠÂ0…áı}ŠÙŒ03Hq B7Q.fsm®m0MJšN§Ğ‡·êRgÎÏ—$©L×ßRÊ/\0008’± ~9tÆ;” ªàû÷ÜEÖ§F;SÕ„£†‘¨¬æ9^|ÀMC6ÖLø‘/@hÓµ–ÆÇp*•Z.·[¥äj\n˜¼½ÍQş‹÷è¡wgŠõ'éÊX0nŸÕ²¦6r€,ÃÜÍ0ËZÆ•¶×ü*ıùÇ·",
+["metadata"] = {
+["guideId"] = 2378305605,
+["retail"] = "",
+["next"] = "a) Sunbath, Take Me Away (H)",
+["enabledFor"] = "Horde",
+["chapter"] = "",
+["group"] = "RestedXP Midnight",
+["imported"] = true,
+["key"] = "RestedXP Midnight||a) Flowers for Amalthea (H)",
+["version"] = 1,
+["length"] = "616891112",
+["name"] = "a) Flowers for Amalthea (H)",
+["displayname"] = "|cFF00CCFF14|r - Flowers for Amalthea",
+},
+},
+["RestedXP Midnight||a) Scootin' Through Silvermoon|936"] = {
+["version"] = 20,
+["cache"] = true,
+["key"] = "RestedXP Midnight||a) Scootin' Through Silvermoon",
+["groupOrContent"] = "½–ÛnÛ8†ïõD}Ñ-Vat²‹À€×‡uĞÄëº^¤)\n´ÄJÜÒ¤@Ñqäáw(;>Änc Æ^JCÎp¾ùgÈ‹‹Ğ\rãÄu]Ï²ŠjÂ¸Õx ªbR Ï±¹’‹i¥iöi„nY&X^h«!Èœ\"ò}L¥ÔL¼E“–æúÈ88˜K)¬š*A¸ÛK«!K\r~á³êÃ|¶  ™qğ”¦r!´‡‘ß´~JÇŸFÓ»öx8½—TŠ´D™Dº èÍ]ÁªN‰˜¨L–Œss®7¨S‚¢¯LUúIY8å,ı&èw}˜Å8ÿ1WÆ†~k¿C­Vçæºó\rzãêÿ=Fısİí¡«+Ô†xD¤ôü~æ UF×Ø€åÏ ×˜·”ÛVƒ(%—ÚaBø7\000õE¬\000öÇ×½a÷æ~:&\"(Ê©XTK.§ç'¾í7qÛa‚ßjµ&uÑ¾’”^.¥âÙœ”—iAôl1ƒBMÃ WôÏxù‡ç<éu@ôJ<la¨0-5J¼ÈK ñöês\000UÏh†ˆÈĞ€T§™…5Q9{NöaÈåB	ª÷44Ó £§´ßïwºÇ:hD´’Ü¤{¢[’³J+ö}&4#‚P\n<»á(<¥#!”†Ä@,Ï &ğiÄó3RöpÇ[Ü]™çà£«jf¼á*ey$ß'®í;¶³gók[Œ“èĞàfdlNxÌæ¸v34z«m­Ö{hÜ5–Ş°w{?íq:§B¾RM*ç%§š®±]Ïåå2{DÛ¥'5ÊŸgRAP«ÀûÿTï¨àXOQAî¨`@Ñ€ƒ‘M4Y’Ç“ğuNÁ×U†œØ‡8öíĞÁ~t6h›@»¨VInæe–»4vFPŸUÅ£!zQJè0‘²¦ë8Ç‡ÙyØ9ÌÓĞ=ìx¶ÛÜï€ Ä~Ó ğÂCìkšÎ‰‚C k„ñÊf8^o8¦UIu™*YUaê²FLR½ÁØ1·’«;hÅr7ÏÔ¤Pß’Û>8Ğg«„¹âç–?¨øîˆ<^ÉmÕ#g[õZæpK‘£¡\\VğzSõêes »€ÃÅ±í½‰‹]Ïˆ%ôÙ¢Ä}ñœ3†ÈËšG™­k7Œ¿Eë\\O\rŸOÊkO¤~‚¸gÓË‘'ÈV6µeó#)¼xü÷",
+["metadata"] = {
+["guideId"] = 3286962779,
+["retail"] = "",
+["group"] = "RestedXP Midnight",
+["internal"] = "",
+["imported"] = true,
+["version"] = 20,
+["key"] = "RestedXP Midnight||a) Scootin' Through Silvermoon",
+["length"] = "616891112",
+["name"] = "a) Scootin' Through Silvermoon",
+["displayname"] = "a) Scootin' Through Silvermoon",
+},
+},
+["RestedXP Speed Leveling||a) Ohn'ahran Plains - Maruukai|788"] = {
+["version"] = 1,
+["cache"] = true,
+["key"] = "RestedXP Speed Leveling||a) Ohn'ahran Plains - Maruukai",
+["groupOrContent"] = "@±\nÂ0İï+n‡qúŠE×ƒ>ÚÃx-—¤ß/)•\\®·œó…H]­’ˆf›s&Yb;¿Ğ:æÏÄï˜ùÕ|!qıõÌÏÕOº†:OUÍ'~hŒñU#1ï×Jÿ",
 ["metadata"] = {
 ["retail"] = "",
 ["group"] = "RestedXP Speed Leveling",
 ["internal"] = "",
 ["imported"] = true,
-["key"] = "RestedXP Speed Leveling||a) Ohn'ahran Plains - Ohnâ€™ahraâ€™s Blessing",
-["name"] = "a) Ohn'ahran Plains - Ohnâ€™ahraâ€™s Blessing",
+["key"] = "RestedXP Speed Leveling||a) Ohn'ahran Plains - Maruukai",
+["name"] = "a) Ohn'ahran Plains - Maruukai",
 ["length"] = "616891112",
 ["version"] = 1,
-["displayname"] = "a) Ohn'ahran Plains - Ohnâ€™ahraâ€™s Blessing",
+["displayname"] = "a) Ohn'ahran Plains - Maruukai",
 },
 },
-["RestedXP Midnight|Delve Worldtour|ca) Delves Worldtour (H)|974"] = {
-["version"] = 0,
-["cache"] = true,
-["enabledFor"] = "Horde",
-["key"] = "RestedXP Midnight|Delve Worldtour|ca) Delves Worldtour (H)",
-["groupOrContent"] = "Mk\"A†ïı+\næ˜ 89H¼ˆx‰‘!¬RÛ]ë4ÛÓ5Ûƒ?>=º!	o\rõ¾O?Uív/ïİŞåy~#Dæ( 6\"[;5ä©å´²z]‘ùøû8‘Ù,Ø8ºÃdKMº\"³XHlcş3—Ó–È”öµÁİ!µ—“Éd8v»ùŞAû¤!ú}˜²S$’L-2ÉUm(ĞV‡,½qıTjë¨Azüa\rœ‡-Ú íƒb@Pëí»#®ö²XÎW‹A1[ÍŸÆ÷ÉáÎÑ¿¨]ÒÙql %¦z´†å_RJT²!:‚ŠS!ı¡€R’÷M\r7¶ä;ÿ—ĞVš˜â'~I7o’:'ë³òPptrïp£¹ThÏ'LÑ¡UèÎ'üb­|`W}ƒxÿ",
-["metadata"] = {
-["guideId"] = 2236093785,
-["retail"] = "",
-["subgroup"] = "Delve Worldtour",
-["group"] = "RestedXP Midnight",
-["version"] = 0,
-["imported"] = true,
-["key"] = "RestedXP Midnight|Delve Worldtour|ca) Delves Worldtour (H)",
-["enabledFor"] = "Horde",
-["subweight"] = "0",
-["length"] = "616891112",
-["name"] = "ca) Delves Worldtour (H)",
-["displayname"] = "|cFFFCDC001|r - Delves Worldtour",
-},
-},
-["RestedXP Speed Leveling||a) Beyond the Barrier|1348"] = {
-["version"] = 4,
-["cache"] = true,
-["key"] = "RestedXP Speed Leveling||a) Beyond the Barrier",
-["groupOrContent"] = "ÕXÛnÛ8}÷WÈC·UuW8©ÓMÓÀvîE@ËŒMDµËÂ¿CÉ]è8ÍÉî£Ä9gæÌÌ¡Ş½ó±Fc»ÓÙT–tön¨ÈO‘ÛÙ›>ÏPŸæ’¿Ÿ¡AFéĞš°tÒÙKÉŒ\"òÒ{‘œRtH„`TtöX*©HIÒo³Î^BF4Y.m’‰;æ„KlË¶\rß7-ßğB;ƒƒÅ°ØãŠÄtÿ–‹d<#Ù~<%r4zé»AïÍQ’½·­…’äÁN‹¸ÿıìò¸ÿ¹wúáäË^Bg4•$a¹DCÂîI:Y³c’8¦™D¾ï::8è–&)ä†LhÍÆßØœ§<ŸB(†peF®!f\000M¨Dº#—aˆù,K¨¤·LNÑ71Bü\n	6#	HR€ı…%ÉDï´÷¨Ã6›æÊûßO8—*à3tÅÂwh1Ä–m9óbñ£üşäÛ·á¥æ”…ø	XùRÂ3p\rn°ÛE_èıêü9ã#ôåYy£Â¹òåyšS)xÙ/´„,¼C½»,á‚\n$hÏÁæ7¼ï½­%?0q ’ïØOO>i¦ÿ&”LæT(_—>é¯¡÷¬ğ/ó§û¦cæ×,›ğ<g#Ï\\{@»\rĞs/0£àU\000ÚÏ\rĞi0Œ^ óÜ\000]\r@¬\000:¯“A÷©\000Ëî«ë7[±{mì¾ex¾éY¯ıÉÈ9Ï0œĞğ<Ós\rÛ3¬Æø‰lÑ\rtkn¨R¯ù\"c¬pÊµGöpMşÅŞZ÷Ï‹”ïVøôô<vtÊ¹HYº‹CxDğ¼}.nì½Š}}ÖVŒ‚ŠQcúì±¥ÑKÇMñüÁº#3–B\r	}“O‰ èÈ7¾%2*R¯H©†i7&cFĞÑLPcÅ¯k˜p3°Oø•¼G9ğ¬jââ	LGÉ®@@ÈÚVÑÆ®OTA3AÑYBÒŠÆyîÃ‰Z-j`µˆØ…,ğÍ\000ë\n«Ó¿æŒ¤dÉÙ˜*ôˆÜĞ–HZ*$7zX!]À·y[!¹xU «#·u˜Ğt-ÃwLìÕh¡iû†ï*úµÖ\"¬9ÚµĞ5|‚P®i\"Qº¯Â|ÌELu2\"àx¡›X\"?N”?d¢R¦‰Ñ*›³¾‚1üg*çEû‚<Šy,Ù\r-7Ì—QË§J>#âzÇ•À®¥ß2}·ˆæó]	1ŸµÙ e»‡\nd}xØÖ¤­~İf+¸‹\rßVC7’k0t|l¾n\rkŞsÃ„t¦1Ëc^ğ¡4¹èöO/?Í'E­6™JtK€N°Ç˜'MÉßDŒ5S*¬¨ÈÆşš …º[OJï¤^‘|$Ğ\nøŸ×ğã¹È¹Øì;%Lì‘!±\\£?JX|à¾ªÀ”øÎ>}QU½-÷İ±Òzõp÷-Ó²\r¬Ø	…QœwÊÑW>O%úzWÑ¹ËÇólyP½DÕÎ3UÛp†M]#*Èa¿Lt¶Êó¼„]k$Úî‘ÿlõ`Î¾Ç‘í¹ŞFÀ„­Qœ›¨b£™ˆkÃbÂ®±®]™ÖT¾ÉÑG(¨á”‚š•,†Æò¡³µª\nç»L(Ş5µ)üÂd1T&û<¡ 7ï[¥î×uµ7o$Ñ/’è«×ªğLªŸI É­\"Ô¿š)6‘µÖ¬¨G{ò¯ĞoİsU?zwRn¬`Î%ˆ˜Ÿ­½ìĞôÖH;cu+‰ü—$AÃ5ùõ<¬¶òOHóÇo‰©ÚMßÆo¿H¡w|°B‚7&ĞV/Vbº™® r{Š¹¨ëÃp_sÍÈ}¶v:XKò†[ö®bÕE²ækàWR·Ô/Éê5L›ğ]9®£ŞÔ3Ãò‚aX²Ÿ8Ìfõëş9ë¯~ö–cş7±üç",
-["metadata"] = {
-["guideId"] = 2290159810,
-["retail"] = "",
-["group"] = "RestedXP Speed Leveling",
-["internal"] = "",
-["imported"] = true,
-["version"] = 4,
-["key"] = "RestedXP Speed Leveling||a) Beyond the Barrier",
-["length"] = "616891112",
-["name"] = "a) Beyond the Barrier",
-["displayname"] = "a) Beyond the Barrier",
-},
-},
-["RestedXP Midnight||a) River-Walkers of the Prowl (H)|1059"] = {
+["RestedXP Midnight||a) Daggerspine Landing (H)|1080"] = {
 ["version"] = 1,
 ["cache"] = true,
 ["enabledFor"] = "Horde",
-["key"] = "RestedXP Midnight||a) River-Walkers of the Prowl (H)",
-["groupOrContent"] = "}Î=«Â0àıüŠYìhŠB'¡‹P\\tp	Í¹6“Ä/ğÇ½£Ğııx8oD³Z!–\000,RVÆ»QLÆ;ÀNÑ_î(eÒ‡·F;sš20§.„ªÂ)i¾Wö\\Jèÿ0O„Côw‹‹¾¦M\nV=¿ñ×(e]w”¢yEä3år@ü9ØXïu*0—şÇI…LÚ{5A±`Æöªé×zœUÂû",
+["key"] = "RestedXP Midnight||a) Daggerspine Landing (H)",
+["groupOrContent"] = "m1kÃ0F÷ûZšÁ`5È\\„‡B§Yë*È’å´…üø(Í˜Ìßû¯i6zó¶ÕZ¿¨Ì…Äƒ:s%Ô \\KÂ/Ûã?Åqchb¤¾“sO?(X	_ú(+sòô÷Ï]cÚ¶ëŒÑëKÆæÙ«*ù·Ü”ÆÇŸ:âwÌ¸ŸÈ—‘éîFJ…3ìvØÇljV%ağ‹åÇÌÓó@¸ş",
 ["metadata"] = {
-["guideId"] = 4174844503,
+["guideId"] = 2117537797,
 ["retail"] = "",
-["next"] = "a) Bloodstains (H)",
+["next"] = "a) Flowers for Amalthea (H)",
 ["enabledFor"] = "Horde",
 ["chapter"] = "",
-["imported"] = true,
-["key"] = "RestedXP Midnight||a) River-Walkers of the Prowl (H)",
 ["group"] = "RestedXP Midnight",
+["imported"] = true,
+["key"] = "RestedXP Midnight||a) Daggerspine Landing (H)",
 ["version"] = 1,
 ["length"] = "616891112",
-["name"] = "a) River-Walkers of the Prowl (H)",
-["displayname"] = "|cFF00CCFF16|r - River-Walkers of the Prowl",
+["name"] = "a) Daggerspine Landing (H)",
+["displayname"] = "|cFF00CCFF13|r - Daggerspine Landing",
 },
 },
-["RestedXP Midnight||a) Tailor Troubles (A)|1247"] = {
+["RestedXP Midnight||cFFE74C3C(90)|r Delves|ad) Harandar Delves|1121"] = {
+["version"] = 1,
+["cache"] = true,
+["enabledFor"] = "Alliance",
+["key"] = "RestedXP Midnight||cFFE74C3C(90)|r Delves|ad) Harandar Delves",
+["groupOrContent"] = "EÎÁjÃ0Ğû~Å‚.%P¥Á©©/Æ©ÓK ”rİZk[ ËB’\r†||“”ë¼™õ:SÙ{®”Ú\000ˆÀ‰Œ1sˆft¨@taœ<~sL¬Ï'<íL×'qúı·KS×Ÿ»mõV­òWy	¸g;sáh`$-ñ‹9MOÑ&zKË½ğ@MO>]—‘$şôŒ‡0éñd®JùñH'ÛâØâ‘‡1,7¢ÀÒZC®a¸şôğ¢àï",
+["metadata"] = {
+["guideId"] = 2335577357,
+["retail"] = "",
+["subgroup"] = "|cFFE74C3C(90)|r Delves",
+["group"] = "RestedXP Midnight",
+["name"] = "ad) Harandar Delves",
+["key"] = "RestedXP Midnight||cFFE74C3C(90)|r Delves|ad) Harandar Delves",
+["version"] = 1,
+["chapters"] = "a) The Grudge Pit (A);a) The Gulf of Memory (A)",
+["length"] = "616891112",
+["enabledFor"] = "Alliance",
+["displayname"] = "Harandar",
+},
+},
+["RestedXP Midnight||a) Healing the Spirit (A)|1232"] = {
 ["version"] = 20,
 ["cache"] = true,
 ["enabledFor"] = "Alliance",
-["key"] = "RestedXP Midnight||a) Tailor Troubles (A)",
-["groupOrContent"] = "eÎ±«ƒ0ÇñışŠƒ­ƒ`¤H.\"¸Õ¡Ã[òâ¡1‘˜–>ğoêXç»ß—Oš²8_¤”9€ğOò;‹ybğî1ã–@ıı¯Ü[Æ\000Âª‰P%ØÅ‰óØÅ¿?C«DÏËlÔÿö³ê¦É²ºnšÓê1ıÄ½Â§ÔjçÛvc¼\r#¶l\"er‘²Uõ¨æ@Ê+cXYM]3¶Ú<zÚ;÷Bxÿ",
+["key"] = "RestedXP Midnight||a) Healing the Spirit (A)",
+["groupOrContent"] = "mÎ½ªÂ@†á~®b`S²¢&‚p0…Í’u³l&…\\¼?…vSÌ÷òäùÆn¶;kíÀ$VæÊi’1àº\000Ó§qxäIÙşğ .H?(˜@FÊpÏä%ô¨c%‰âªÊÀ8™¢§ûûméš¦(êºiì’0ÿ±yöø¦¯^Kÿnuüœï^7PTNP–Xy/:†'*‚‘ĞùÙñ7òü“",
 ["metadata"] = {
-["guideId"] = 1035603603,
+["guideId"] = 1775832940,
 ["retail"] = "",
-["next"] = "a) Scootin' Through Silvermoon (A)",
+["next"] = "a) Sawdust to Sawdust (A)",
 ["enabledFor"] = "Alliance",
-["name"] = "a) Tailor Troubles (A)",
-["key"] = "RestedXP Midnight||a) Tailor Troubles (A)",
+["name"] = "a) Healing the Spirit (A)",
+["key"] = "RestedXP Midnight||a) Healing the Spirit (A)",
 ["group"] = "RestedXP Midnight",
 ["version"] = 20,
 ["length"] = "616891112",
 ["chapter"] = "",
-["displayname"] = "|cFF00CCFF4|r - Tailor Troubles",
-},
-},
-["RestedXP Midnight|Sojourner|ad) Voidstorm Storylines (A)|1199"] = {
-["version"] = 20,
-["cache"] = true,
-["enabledFor"] = "Alliance",
-["key"] = "RestedXP Midnight|Sojourner|ad) Voidstorm Storylines (A)",
-["groupOrContent"] = "URÑªÚ@}ß¯ÈC+½‚¹”KKï‹V\"…Ú†*¥¯cvšLMvÂìFüøî*QïÃîÂ9sæœ™d:}É_>}ÎóüÙ˜L) ·&;zÏ3“Õ*C¿È²JX³u\\7Ád~Ø]¹ü“A©Évh'ğ[Øú ÚÁ&Ş§–yx?Ÿ˜Ì²ï[<]*ÏUQÌfé|<+Lï*“U\rö!Æ\000œÀ¶¡%%dÕ>õú©MƒVP}OÁhü ĞÄjrá\rš²ï”pO:â%†Fjr\\A©²k©™y²­¾9Ï–ŞzÖª}çÇ7ÅŠÿ†§xÈA¡DíiäÉ–]\r1l•ÑÌJà»Ÿ®ïpƒ7TišŠİE²D½Íı3fö\nìøn±X|mĞÕdï™–èâGÍµ¸}`¥C‡¨q˜EüÌ15“{P¯E	J	i•…\\Ö`^_aŞ¶œúšøgôæCnşÿ",
-["metadata"] = {
-["guideId"] = 1709643014,
-["retail"] = "",
-["subgroup"] = "Sojourner",
-["group"] = "RestedXP Midnight",
-["name"] = "ad) Voidstorm Storylines (A)",
-["key"] = "RestedXP Midnight|Sojourner|ad) Voidstorm Storylines (A)",
-["version"] = 20,
-["chapters"] = "a) The Void Peers Back (A);a) Shadow Puppets (A);a) The Nethersent (A);a) The Nightbreaker (A);a) Pathogenic Problem (A);a) A Voice Inside (A);a) Shadowguard's Shadow (A);a) A Gift, Given Freely (A);a) Breaking the Triad (A);a) Go Low, Go Loud (A);a) Secrets in the Dark (A);a) Oaths to Family (A);a) To Be Changed (A);a) A Dance with the Devil (A);a) A Domanaar's Best Friend (A);a) A More Potent Foe (A)",
-["length"] = "616891112",
-["enabledFor"] = "Alliance",
-["displayname"] = "|cFF00FF004|r - Voidstorm",
+["displayname"] = "|cFF00CCFF1|r - Healing the Spirit",
 },
 },
 ["RestedXP Midnight||a) Shadow Puppets (H)|1039"] = {
@@ -11475,54 +11481,53 @@ RXPDB = {
 ["next"] = "a) The Nethersent (H)",
 ["enabledFor"] = "Horde",
 ["chapter"] = "",
+["group"] = "RestedXP Midnight",
 ["imported"] = true,
 ["key"] = "RestedXP Midnight||a) Shadow Puppets (H)",
-["group"] = "RestedXP Midnight",
 ["version"] = 1,
 ["length"] = "616891112",
 ["name"] = "a) Shadow Puppets (H)",
 ["displayname"] = "|cFF00CCFF2|r - Shadow Puppets",
 },
 },
-["RestedXP Midnight||a) Far Striding (A)|1242"] = {
-["version"] = 20,
-["cache"] = true,
-["enabledFor"] = "Alliance",
-["key"] = "RestedXP Midnight||a) Far Striding (A)",
-["groupOrContent"] = "e±ŠÃ0ûıŠ5qa°\\˜Ò˜€º@Hš×(Òâ,(k!ÉGşøø’êîºWó¦®;İm{­u ËÔ7¥Ì“`Û€Ó4G<Q.ä/G<°o”Ø;¡­ĞØ„ç’Ø³Œ¸*PsöùgLÓì÷ÆôKÂú½:èQ~§YÖƒIh]÷k ü¹›…ìv8„ÀVÁÚA±¸0{úßõõ§^",
-["metadata"] = {
-["guideId"] = 236981557,
-["retail"] = "",
-["next"] = "a) Runestone Rumbles (A)",
-["enabledFor"] = "Alliance",
-["name"] = "a) Far Striding (A)",
-["key"] = "RestedXP Midnight||a) Far Striding (A)",
-["group"] = "RestedXP Midnight",
-["version"] = 20,
-["length"] = "616891112",
-["chapter"] = "",
-["displayname"] = "|cFF00CCFF9|r - Far Striding",
-},
-},
-["RestedXP Midnight||a) Silence at Fungara Village (H)|1049"] = {
+["RestedXP Midnight||a) Balloon (A)|769"] = {
 ["version"] = 1,
 ["cache"] = true,
-["enabledFor"] = "Horde",
-["key"] = "RestedXP Midnight||a) Silence at Fungara Village (H)",
-["groupOrContent"] = "}±ª1EûùŠ4Z,Ya»…°ÍQxXØÉb6dQğã]ÅN°»\\î=œ¦ÙèM»ÕZ¯TæB@]9O2FÔ |kÂ=O…İq‡â¢øséÂHK<HàhçXĞÔè)şKäÃ”“)º¿çkÌjÕ÷Æ´ŒÍïÌç[yñûŠ\\©Hô8ŒéCµgJ…3tİ\\fÇ0û%Pm¨¿}O?Máù",
+["enabledFor"] = "Alliance",
+["key"] = "RestedXP Midnight||a) Balloon (A)",
+["groupOrContent"] = "ÕSAo=½ûWŒ´(jA•¢ªRÈG8UI¤ö€T9ëÙdT¯½µÇÙåĞÿÀ‰¿×_Âì6_\nâ€¸pyïÍ¼gÏ`pT\r‹¢x­T5Y•­1Dò\n•-ƒO\rL12šËs8#ãh¹b•9]#èx¯­õ‚}>:P™¡ØX½é{»† ñ–;ämEc]?€Ë•nƒ:9‘µ¤]‰JÆ4Òñuc‘±%^AGW™Õ´p¡ƒ#·œ÷%&¶Ûr2™ŒÿçùìšàEèT€=4Á—ˆfÔËy_G v4DQòMcÂÑ[L„*Yâ´\n¾‹k´†ùıİ×ã\\½Ø–ÓËó«‹ÑôÓ1”ÚÁáq[^,@ƒŒŞ¼á: \n6>İß}[#ï„·ÀÊÜ†Ã=Á‘©ÖŒ’ËsªñyM.1Æ§è'fÛ•Ìêõj#æ:ûQ òJ!ø¶øEºÿOôğK'0|§§}'0cê–œÙ1Ş$\n÷Xÿl´ƒ·?[r¥M>˜Ï?Neı“ï[rw–¾êG/É$©?¦Ú™nÑg’{\nëq/‘“…Û¦#$g}yfßö™vI6Ü@üÍ&ßÿ",
 ["metadata"] = {
-["guideId"] = 4129231423,
+["guideId"] = 3456240511,
 ["retail"] = "",
-["next"] = "a) Cultivating Hope (H)",
-["enabledFor"] = "Horde",
-["chapter"] = "",
-["imported"] = true,
-["key"] = "RestedXP Midnight||a) Silence at Fungara Village (H)",
+["next"] = "a) Selfie Cam (A)",
+["enabledFor"] = "Alliance",
+["name"] = "a) Balloon (A)",
+["key"] = "RestedXP Midnight||a) Balloon (A)",
 ["group"] = "RestedXP Midnight",
 ["version"] = 1,
 ["length"] = "616891112",
-["name"] = "a) Silence at Fungara Village (H)",
-["displayname"] = "|cFF00CCFF8|r - Silence at Fungara Village",
+["chapter"] = "",
+["displayname"] = "Balloon",
+},
+},
+["RestedXP Midnight||cFF1EFF00(80-90)|r Adventure Mode|cca) Harandar Route 4 (A)|1135"] = {
+["version"] = 1,
+["cache"] = true,
+["enabledFor"] = "Alliance",
+["key"] = "RestedXP Midnight||cFF1EFF00(80-90)|r Adventure Mode|cca) Harandar Route 4 (A)",
+["groupOrContent"] = "mAK1Fïó+ré’¢¥…RXªÁKAzòà%M†í@œ,Ù¤Uèwµ‡Šzy÷µíÂ,–+cÌ@e*#¨å‘“ ÕçTÜÓX(¼<ãƒp, Æz¸Ş.ŞZóh­Ö³¥nWº¹dìÂ‰¤ÔL¸K@‰{#ôŞ5øä²“à2îS-„w8ëPÇ!ºï·/Ÿİ>lµ¾ŸLí˜j„ŞËä9üïÁ9¬×ØÅÈN<Á”<€bñ±ú;áõgÍ¯à+zä@g–Î°Ùøü",
+["metadata"] = {
+["guideId"] = 258218399,
+["retail"] = "",
+["subgroup"] = "|cFF1EFF00(80-90)|r Adventure Mode",
+["next"] = "ccb) Harandar Route 4 (A) 2",
+["group"] = "RestedXP Midnight",
+["name"] = "cca) Harandar Route 4 (A)",
+["key"] = "RestedXP Midnight||cFF1EFF00(80-90)|r Adventure Mode|cca) Harandar Route 4 (A)",
+["version"] = 1,
+["length"] = "616891112",
+["enabledFor"] = "Alliance",
+["displayname"] = "|cFFFCDC005|r - Harandar 1",
 },
 },
 ["RestedXP Midnight||cFF1EFF00(80-90)|r Campaign & Sidequests|ccb) Harandar Route 3 (A) 2|1151"] = {
@@ -11545,44 +11550,42 @@ RXPDB = {
 ["displayname"] = "|cFFFCDC006|r - Harandar 2",
 },
 },
-["RestedXP Midnight|Pre-Turnins|a) 2Turnin Route Alliance (A)|1177"] = {
-["version"] = 20,
-["cache"] = true,
-["enabledFor"] = "Alliance",
-["key"] = "RestedXP Midnight|Pre-Turnins|a) 2Turnin Route Alliance (A)",
-["groupOrContent"] = "m½ªÂ@…ûyŠmpS ¢…íšâÀ8öGôí½$\\+Ûs¾óºnm»?Xk\000);0OŠ‰ƒb³3ÅPf(eò×;öÊÓ=ƒIå¶v}¤úR¢²&0ê„®ÂfMp%DØéH¸9U`<§YÜ{A;N#‰8¥PşkÇïşg0¬£¿¨šWl{&¡1£Ò+ãTØ|ş",
-["metadata"] = {
-["guideId"] = 2433750297,
-["retail"] = "",
-["subgroup"] = "Pre-Turnins",
-["group"] = "RestedXP Midnight",
-["name"] = "a) 2Turnin Route Alliance (A)",
-["key"] = "RestedXP Midnight|Pre-Turnins|a) 2Turnin Route Alliance (A)",
-["version"] = 20,
-["length"] = "616891112",
-["enabledFor"] = "Alliance",
-["displayname"] = "Miscellaneous Turnins",
-},
-},
-["RestedXP Midnight|Sojourner|ab) Zul'aman Storylines (H)|1075"] = {
+["RestedXP Midnight||a) Unlikely Friends (H)|1070"] = {
 ["version"] = 1,
 ["cache"] = true,
 ["enabledFor"] = "Horde",
-["key"] = "RestedXP Midnight|Sojourner|ab) Zul'aman Storylines (H)",
-["groupOrContent"] = "U’Okã0Åïú>ì†¨{(»´—¶»-%Î¦¥·‰5M¦‘5F’ığ;Êïæ`0zó~3zšéôº¼şñ³,Ë+cŠ@	Ù™â“BdñPšb¤ï`N1‘}}†G¶×›dŠØ¯Z-ÒOÁ[\\Mà­wß°Eu’08öá{51…åØ9ö…_Ílvy™¿«¯\000Ó½éNM¦h6Ø%p¡ú×6uÇS&İ¨RãÎö1A’ñ÷¨ÜSÚyXìAœ‹£GB]æıb:üãoÉ\r0LŞÅm¹näĞIÀíö$Î©qÈmFY‚J¼„“´$¿&ôê{×Ã…¸zşú[0#ûà¤Û=	ÌGÊ='ÍàœœÍµôŞf{¥êa¼£z—;K+}„ŠcNş_ ƒ¨)gø‚gq´”6ùKv¤xZ0ÀƒEsÖ}˜ªo›ŸDgÌ³ÆèF¼±QwÇùöVÇ–ŒnMg.Jó÷",
+["key"] = "RestedXP Midnight||a) Unlikely Friends (H)",
+["groupOrContent"] = "mÎ±jÃ0…áı>Å-ñ`°1)x3/)!¤!CaİÄ«’”ƒ¾N;ºû9?_YÖ²Ş¿I)·\000\"RÖlA|SLìJ÷èO”2™ëlß‡Âé/B]à‡³<’PE&gnº„á¬~Gs¯TUµ­R»9b¹z,-zæWë<^<÷„ş†ïÚú¨Çñ/Ø:dŠĞ4ØùhP\000Á®·Ckàç?4øù",
 ["metadata"] = {
-["guideId"] = 1220482115,
+["guideId"] = 1311706871,
 ["retail"] = "",
-["subgroup"] = "Sojourner",
-["group"] = "RestedXP Midnight",
+["next"] = "a) The Voice of Nalorakk (H)",
 ["enabledFor"] = "Horde",
+["chapter"] = "",
+["group"] = "RestedXP Midnight",
 ["imported"] = true,
-["key"] = "RestedXP Midnight|Sojourner|ab) Zul'aman Storylines (H)",
+["key"] = "RestedXP Midnight||a) Unlikely Friends (H)",
 ["version"] = 1,
-["chapters"] = "a) Healing the Spirit (H);a) Sawdust to Sawdust (H);a) Between Two Trolls (H);a) Sorrowing Kin (H);a) Unlikely Friends (H);a) The Voice of Nalorakk (H);a) Reclaiming de Honor (H);a) Vengeance for Tolbani (H);a) The Loa of Murlocs (H);a) No Fear (H);a) Bitter Honor (H);a) The Sound of Her Voice (H);a) A Venomous History (H);a) Beyond the Walls (H);a) Something Vile This Way Comes (H);a) River-Walkers of the Prowl (H);a) Bloodstains (H)",
 ["length"] = "616891112",
-["name"] = "ab) Zul'aman Storylines (H)",
-["displayname"] = "|cFF00FF002|r - Zul'Aman",
+["name"] = "a) Unlikely Friends (H)",
+["displayname"] = "|cFF00CCFF5|r - Unlikely Friends",
+},
+},
+["RestedXP Speed Leveling||a) The Azure Span - Tuskarr Troubles|784"] = {
+["version"] = 1,
+["cache"] = true,
+["key"] = "RestedXP Speed Leveling||a) The Azure Span - Tuskarr Troubles",
+["groupOrContent"] = "\rË¡Â0`OqI¢âH<‚@öÈşŒ†î¶\\Û‰==óßã Ãå*\"g¢àhš…\r^ób,&_úÊOÔ†ñıà×\nŒ|Ç†’m¢`:ƒõÄé¾íİq5œzı©;§ã\n*…l\rnZèÿ",
+["metadata"] = {
+["retail"] = "",
+["group"] = "RestedXP Speed Leveling",
+["internal"] = "",
+["imported"] = true,
+["key"] = "RestedXP Speed Leveling||a) The Azure Span - Tuskarr Troubles",
+["name"] = "a) The Azure Span - Tuskarr Troubles",
+["length"] = "616891112",
+["version"] = 1,
+["displayname"] = "a) The Azure Span - Tuskarr Troubles",
 },
 },
 ["RestedXP Midnight||a) A More Potent Foe (H)|1025"] = {
@@ -11595,35 +11598,32 @@ RXPDB = {
 ["chapter"] = "",
 ["retail"] = "",
 ["enabledFor"] = "Horde",
-["key"] = "RestedXP Midnight||a) A More Potent Foe (H)",
-["imported"] = true,
 ["name"] = "a) A More Potent Foe (H)",
 ["group"] = "RestedXP Midnight",
+["imported"] = true,
+["key"] = "RestedXP Midnight||a) A More Potent Foe (H)",
 ["guideId"] = 1367936647,
 ["length"] = "616891112",
 ["version"] = 1,
 ["displayname"] = "|cFF00CCFF16|r - A More Potent Foe",
 },
 },
-["RestedXP Midnight||a) Gidwin (H)|733"] = {
-["version"] = 1,
+["RestedXP Midnight||a) Runestone Rumbles|931"] = {
+["version"] = 20,
 ["cache"] = true,
-["enabledFor"] = "Horde",
-["key"] = "RestedXP Midnight||a) Gidwin (H)",
-["groupOrContent"] = "íTİJM½Ÿ§8°‰‰Ê®!¢_DÆ&‹.è©®-ìéûÇuÃ^ø¹Êëù$©¢Iä2«aNUŸ:uNÓ++ëƒõÍÁ`°V½À‰Ä½KQ¼Ã èUÁçG›Ó!Å8©¦©è9ª´„}13qx~°¤_¥I8!ûĞaàæ¶ÇHl,Í»ã»¤´Áah©ÊlÉ™XôÊ)5Š[[8ğÁp¡=Â¾n,'Iš¢Tô,Ùâ„‚W:(I²ŒE¹···ón§ß?>—i*-’G|Él¡x9jñì¬/Ï£61.²î‰÷>Çó›ë¯»Î@eáœ¹‰]u®õ»Vë+DBbËZO\\£$‡1#G609¨º~£sıe³¯åº!©Ü2\"]¶EBÔ_™ˆTkŸõã'HRójñbQÏNŞ}8ûßgÔ4Ç”.Õ}˜Ì÷Ö˜ÛM;io •¶Ü\rîDiÅyUì*ğcMÚÑØ²ñxÀnÔ¡”Çœ4ø‘*øLuçExªåogSv0Ş1ZUİÎ‘¹S@!øYKğ‹0¸úY	bK¼öêö¯±½½ï[¶¡\nR×îh_d	ÿİ¿ğˆ+m6üóÛòéáU¹ëüó@#—©}ÀZÿtr•E)~ïR—§ê|–4è6ÑïÙ«ñbqÕàáf°yºõ!¹LÖÎ£äÛ",
+["key"] = "RestedXP Midnight||a) Runestone Rumbles",
+["groupOrContent"] = "ÕV]oÚH}÷¯‰§J®ƒmüA¡R´Ù¤vµ»BÃøbf3qÇã|Tüø^Û85šHEêÂsÅœ{î9çšC7Œ‡®ëz–ÕÓ`(VïtÁ•$^ßê¥Z•9™Ca ù:#òDòtc¬¤úÌK‰E%¿e+…ÕãÒ€–TXø£ÜêQ­Õ½CTÜ£ş‘[6ÿ:[~_N¯/®şZ.@ƒ çB©dM\rlµå¤Ê(âùÃÀúëÛşÀñÖh´]Ô·¯)ƒ³{¥E’ÑüŒm¨Y•+D_†ƒTÃ£³ù'¯¿5;Dò c9”1È\r\"hHF£qó8¡Bp™.‰Ù\000>ŞQ¡-ÇP2Ú¿hÇXĞŞ¨ÿT©%èe·4…CR^M*®I]>‘b¥.”>cZÅ†r}Vó¥Ì<qšÎn‰jjˆÍ.','z7;¦²\\€†‹í6]uĞı¡ã…v:‘‡è7†Ê„Üs³Ù‘d\\3ââiY@³p}/\nƒOˆß@~Ï¯—OŒ¦cfĞ.ç¥Aü{¤ïYïø± ıà=ğërAïeBv;]'Ú¡çDá{t6xuFÆ-.HÕóª²Ûö°íhPµÇo’çˆ˜ƒ“ÃY´)Yàc•S1é„*úªvğäÖ xŠÓ!d«›R{öA¸*‘\"Ûìş¡€uÍ«\r<;Dó¹Mí­¢÷h§sz±Õv·tÒrF¨•q:Å©à·m=Ú=kDmlKkDk¼^ì®[âŸnãÌÕÇ#Z+k×l;°*ŸDâ„Ú„Ï´2À ŒFuÉË|äˆq‰½`Ò½nNvğj9Dì;‘[‰è¿µˆ[M:[‹¯‰TÕË|C˜2FS:Å-ÏSLÏyB\\?ôĞWû£Ù\rDÃ·’k(Nã$Áÿ£R¦VdœÜQÉª…4Ó¼È”ä´)\\U^Öäw	:òß ›.]&Õnpİ#T·¥9ÍršV¥ú‚\n=#SiöŞ+}µÒ¿\n®ÿÎÁ;Á=’»“øñ",
 ["metadata"] = {
-["guideId"] = 3253275425,
+["guideId"] = 599920323,
 ["retail"] = "",
-["next"] = "a) Tirisfal Midnight Prep (H)",
-["enabledFor"] = "Horde",
-["chapter"] = "",
-["imported"] = true,
-["key"] = "RestedXP Midnight||a) Gidwin (H)",
 ["group"] = "RestedXP Midnight",
-["version"] = 1,
+["internal"] = "",
+["imported"] = true,
+["version"] = 20,
+["key"] = "RestedXP Midnight||a) Runestone Rumbles",
 ["length"] = "616891112",
-["name"] = "a) Gidwin (H)",
-["displayname"] = "Eastern Plaguelands",
+["name"] = "a) Runestone Rumbles",
+["displayname"] = "a) Runestone Rumbles",
 },
 },
 ["RestedXP Speed Leveling||a) Val'sharah Intro Midnight|1392"] = {
@@ -11644,42 +11644,42 @@ RXPDB = {
 ["displayname"] = "a) Val'sharah Intro Midnight",
 },
 },
-["RestedXP Speed Leveling||a) Ohn'ahran Plains - Into the Plains|789"] = {
+["RestedXP Midnight||cFF1EFF00(80-90)|r Campaign & Sidequests|cd) Zul'Aman Route 3 (A)|1150"] = {
 ["version"] = 1,
 ["cache"] = true,
-["key"] = "RestedXP Speed Leveling||a) Ohn'ahran Plains - Into the Plains",
-["groupOrContent"] = "-È±\n1à=Oè âpè#‚‡.®û¹jz¤õßåÖ/çI¦ëMD.D)0Ô*¥Ñ­9¥5ÚoãúÀò™ù½?°£š¯”\\¿`=ó³øIK¨ó\\Õ¼sæ»Æ£àJæáZéÿ",
+["enabledFor"] = "Alliance",
+["key"] = "RestedXP Midnight||cFF1EFF00(80-90)|r Campaign & Sidequests|cd) Zul'Aman Route 3 (A)",
+["groupOrContent"] = "]ÎİJÄ0àûyŠ€n/\n‰Âºe¡Ts'È\n\"ŞÅdè¤IÍ«°oıAĞë3ç›Ó¶kµŞl•R\000\"Q1ìA¼RÊ*cŠuÆ=åBîñoÙD®ÏßÙÉj­n´–rµ‘íV6§„ƒ™fÃcÀ3¼gG/uégÁL„Ö5øTıy?™€ûXá%®ú„ã<{óşuõ©êázòjñÚßÆ‚Ğ[AK\r>Dv¹Ä4ıQº{ïÙK°ŒAp°¾:BóÿïO~X9¸x„İNÁÇ",
 ["metadata"] = {
+["guideId"] = 2821856089,
+["retail"] = "",
+["subgroup"] = "|cFF1EFF00(80-90)|r Campaign & Sidequests",
+["next"] = "ce) Voidstorm Route 3 (A)",
+["group"] = "RestedXP Midnight",
+["name"] = "cd) Zul'Aman Route 3 (A)",
+["key"] = "RestedXP Midnight||cFF1EFF00(80-90)|r Campaign & Sidequests|cd) Zul'Aman Route 3 (A)",
+["version"] = 1,
+["length"] = "616891112",
+["enabledFor"] = "Alliance",
+["displayname"] = "|cFFFCDC007|r - Zul'Aman",
+},
+},
+["RestedXP Speed Leveling||a) Highmountain Speedrun Midnight|1325"] = {
+["version"] = 1,
+["cache"] = true,
+["key"] = "RestedXP Speed Leveling||a) Highmountain Speedrun Midnight",
+["groupOrContent"] = "í[[sÛ6~×¯À2»e¼÷!SÛqšlÇkyÇmw;H‚-Ô¡‚”Ueüã÷Á‹l§eÒîLgò·s?ß9€Ÿ?İ0N\\×¥£Ñâéèà«\\ÈŒ¸£ƒ%WKrÁó‚Ï¾?'ã%ç3rÊïx*²›ÑAÆœ°¿“7âf¾«Ögå$µÊÈ;1Ë` ˆ¬à*céöYR6áicÑv{8²od!I8–ØId…£—/ï/õ.×lÊ_¬¥Jg¶|1³b²šLRş!ôoßØ“tù5uî‹K–ŞØè~zñıù‡×oOÎ^şğáŠ©‰bwœ¼Wò^Ù#»`ê†Äü>²ÙtÊ—ñâÄ‰ÈË—‡åÏï8_‚hˆ¼&Åœ“7l±àªdÉù¿V ¥Ã; rˆïøql2Ú!µBj»>ºRHJÏıS1½% qÜ¶$øüíñwÆ–¦äRq–¯'Çs8á^‘k©ÿH<›‚ü³YÊ5PfWòÙ4]Íø>½ı4v	']Ğô‚e¾Ó×70¸ÓCcRá>ï|?ÉfîHÜJ\000Àõì(´‚ÀöbS\000‰;¼\000†2–Ãì&åŠ+ÎS8ÏiÍø'K\r9–U²æ%~k—ğ“ÀoøëT®·Ö£Õ––xnX[Ú¥bË%hì’Û™1+tızÖk‘ÏÉûU[^±·Û™›ï‚¡Y¡k±±œF†9—Šm4Sç ‹ÖÚ×úÉÎ?LQì>6¹ßgx¬?:˜ÊÅ2å_‹bŞğı’ÉŠåŠã—/¿ ùRÚ'g'ï~øp’ñ…ày¥‡éÖbky?ù™O‹\\ka{ZyºUYé§vgéÉµeÖ±d.`'<9fj	”Mx±æ<#¹ÒTâ¢rşÒ&É¦E¹¡(šd‚j+™ÿÎyIßeèÀ>á×`Òÿ9Zİ”*æê'²ĞpÂŠ†`_)y3aŠ\\Iµ˜Ky‹\".Ç¯/Î> /S–‘™’«Öà/°JúÆÔW2{V[Ô³\000q€§r²ÊñT$äµèª'¾íğàÒ(Á ¹Ò¦ªùU]¡dšî\"pm¾Ô+ô0Òb$x»‹Ó•Ê¥z1U2ÏçL¨[ìÁ¾@t%åŒ1¥Ä”Íx›ğİ­ê2›¾í—½.¤š*´³¯E„˜„zµs¿“òãæYNÆòg	hç²íöfä>K3²Ydû!2ç9ƒÉøh5½å²´¡%KÛº'ıİ`©IÑ®Hgw<ƒ#xŸ³m\r,×3£_&õœú§==tıkvîÒ‘N/‚ÜgøMb{	¢@Ú\000A‘?8:˜‹(1›ÉuK©-Ûn¤l®8D\nÿ·œfhÕ‘5ğÛ#À˜› V£ÎPlû¸ÈÊ‘¯bjˆßın×kQ¹[Î2şkñ¹¬c¨T†È)%\n{m…TZøÅ-®™‹ì1“h{ëgä|„òûJ¦²Ú•L­*h7­¬‚¶Ó+ƒ<]EÆú²Ú®o×Au±º5z8×Ü5yÌ€ø¬uJü[¦ÏT­ÓŞj>P­Gá%¨Óc]:6x°ÎC+rí8¶‚ĞZC.JËíˆv†¨%õì˜6_8|õß.*_ê\"Àš@HPÔµ‚˜´˜ç¢zİ’«¡|eÌÓ”5ÁüÎDKäÚF¾á•Eµö¨ÔûQf<¿K$¿%îV…(Rüë×¯_;Îkˆ½r­µq¨”\\ß«N6wQ\"ÔO9vÍp.ºE¥ÅY	Åó$®q†ì$ú?iO[#vi²ãûÆ¡0gxïq_?òÜ¦–­M ·Ç’‡t°ª<—:>åšdùóÎ8b‹5S¨¥^ÀáEôêÑ¼«z”İºIù”cßAšgÒÉ+^·°¿ÏE¶±È‘şÎféæycâCMĞÿû: z\rl7h4A?şß”ÈÁá¯WŠq¦¨Aà{Œt\rqšAĞ·<¿ªø]\nß¶¨€âZ¿Œœ=¥u¦F—§R%˜D^î/ã(¦¡§n¹ôôıûKså9OóŸZ½—„\"ÆDÙ:¤OŞ;Á¯ŒgËša/‚Ì…!Ëƒãøº=D‡·•ÙZ¤³†6ø™*ÖRj¡­ÙLp\000@?¦|\"´“6Å²[2ÅNNNü#¿ Y¤Ñ”ïP7´¼Î¿F1Íç²UKšbk—…¡í$ÚjÂÎPd{PFzıC\000µüĞöârèOll¦Ó]0(!F2'ädÃû(/g¡5½s±%—çûmr»›v(ÃhKq9»Ğâ:~q’•%H×/|P•®ş=t‹rŞ>·è;©7*yıg<(´JËƒI­*ÃZØ¡&&ˆ€áfwÄ±cHº–í!û>Àß¤g„WŠâÎ‡áx+ÜÚØÿ4QÍê\\d\\IH]€Ó[¬¾ğë4µı5yç…³íÈnşI\nßæ+)½âV–r¯$¶&}ÃÊj`p¯¬ö”SÆ3AÆ\"Å»ï¹,úK×“4,7@¥„*É›•¶€*o@3…]ê7ágÎÉDTˆì™Y'&JEWĞ{êIUe\n§ÒØ¸Ç›\"y[`\r¼Ü_µ™no+2Õ®Å^9W‘SüÑX‹onk‹ÏÀ¡Yk¿}¶ g«i™ı­EÕ»Fõ®¥¸Ÿİtµ;á ·lÛ}ªĞáî÷#7×‘×tyšXQ™§Q»zŸ˜EmC°IlnKşŠŠĞ?vt½æbïØj&óş¨ÑØ‰'1¬à[Ğ.ìÓÉ·\nÌÌ'®qgƒ#ˆÀ³B»u£1×kÎßn0¢´&úNàõÄC(î€‹«m“w¼Jy}ŸÔaæéÊy³J3H-Wà¶;íà·¾T6¸ıi˜ Ö\r>’€ò1ÆŠm°Nä»Õ3X]B$Áa†e×‹¼+mÆú\000À=_úüRLç2›)±ÊÛ¦ùxÕ6°«¢µ¹Ö¹ˆœLd†Ñh$kpğ\\ÛĞ+æŠ‹†¡¯3Æ|ªx¡ß5Œd×@è£ ÇßŠâ!¯‡/¥º#¯V“¼\000}wÃ>\r©áTÇ\\ñ…ÌÃ‡Õ¢6üÆúÇí)ühğ¨'¬Èo6Ô(Ö¿\000”b§´uk8k×ì ãµA#ëí¿şÙËÂªğhÀK_˜©ËÇ~(¾Rs-7•á¤Z`·qğş“Â•×æ¨u¬€´ä£tmŸ~9ÇÇØ¾¦îg?Şíy^Ø.Jİ\r¾Àé´G ´CQmƒyô£Á¬ŠL»»ŒßšÌA3¡C0Ô»A”„]ÄÖ…±uqŞá\n˜ÀŠ(>òk¸{dÑ/ Ş§Øç¨ºËOc´y£ÕÒ×´Uë9ÏºŸÈuœlõ°m¹O‰ßOI‰{t`ôûœ»J–ûŸ>¿:“½Ao	Ô(Äi§¬Ó¾ÕØòlÂŠ¦DB¨\r#;.,)öQpÕtM(½ë8‰A¾Æ¢X›;fã5Ğ°ô1¼Ñõf‰ıA`ıï0o¯Ùx;ù¼Ï´„J}¶º1V^‹!#{­ÖEŒ@›wöa§áØ Nò8¬õ:C¾M#ìÓ9q{ÈGÌƒA0@kÈ‹ğ‘tàÚNØhx|9;®¥ãü'\\EeR‚H˜ıf7¬:›@F÷t¯h8dx¢²yÇs†/‚ä¹\\p oán#WªìVÌøeº«„¡¿|ßĞøX±Y\nÕŞ(Ş€óŠ¥˜á•‘ãíBfcÿÇã)®i£ĞÁ‚Å~ãõÖOÌS ®Ù<¼PÕã«ÓæÍÀv~şõjl#” !6Y¾˜\\ÇC§ÔÂÏ~¼Ûs<\000[(’!SÈ~îı’ünïWæà£¨jœÄ¼«\nw/A‘áõXsBg [¹=å“ƒ¨³›~¶#_õİr¤+¾f¿jÓ)@sd|Cò%ŸŠk1…¶!S¦Ô¦›Øö‰Ä«.8Úû?=•«M^€U³”-D±©sX5²¨:\"­¯Æ…m7†ôfÅn€„ÃÅÛLÍšly‰i­ºé™ü@01û€àè~ÉBÂ“xŸ!Åe ì£µ}aÕ¼²ÕMZ|Éƒá{†<Wgı¨3äâ%¾×q{†¼Po·‡üD¿\nòz6ôu4)aDwUé|ìµóa´ûĞßœıØ¤Èñ\":\\òİımÙ»cN”ë™wW\nŠ-Mô¨ógi¸´±Ğ|	*3¸„Ñÿş",
+["metadata"] = {
+["guideId"] = 2015892926,
 ["retail"] = "",
 ["group"] = "RestedXP Speed Leveling",
 ["internal"] = "",
 ["imported"] = true,
-["key"] = "RestedXP Speed Leveling||a) Ohn'ahran Plains - Into the Plains",
-["name"] = "a) Ohn'ahran Plains - Into the Plains",
+["version"] = 1,
+["key"] = "RestedXP Speed Leveling||a) Highmountain Speedrun Midnight",
 ["length"] = "616891112",
-["version"] = 1,
-["displayname"] = "a) Ohn'ahran Plains - Into the Plains",
-},
-},
-["RestedXP Midnight||cFF1EFF00(1-90)|r Default|cd) Zul'Aman Route (H)|1010"] = {
-["version"] = 1,
-["cache"] = true,
-["enabledFor"] = "Horde",
-["key"] = "RestedXP Midnight||cFF1EFF00(1-90)|r Default|cd) Zul'Aman Route (H)",
-["groupOrContent"] = "]MK1†ïó+r°{XH<¬.”‚t\r½Òƒˆ·¸3¶ÙdÉ‡Uèwı@ÄóóÌ3oÛv¦»î1—\000*qqâA½rÊP‡ëŒ{Î…éñï„‚T®Ïßì<Zkn­ÕzeÚ^7ç„¿¸ê)¸‰q¤Ÿª¿¸™\\À}¬…qµk@‘äÙ»÷/ç3b·ÃVë«å¾ıõ—¿¹Á‡(”KLÓŸÆz»˜ˆa™7ƒ’0úJŒîÿÃ~â“Š'Øl|ü",
-["metadata"] = {
-["guideId"] = 4284028395,
-["retail"] = "",
-["subgroup"] = "|cFF1EFF00(1-90)|r Default",
-["next"] = "ce) Voidstorm Route (H)",
-["group"] = "RestedXP Midnight",
-["imported"] = true,
-["key"] = "RestedXP Midnight||cFF1EFF00(1-90)|r Default|cd) Zul'Aman Route (H)",
-["name"] = "cd) Zul'Aman Route (H)",
-["version"] = 1,
-["length"] = "616891112",
-["enabledFor"] = "Horde",
-["displayname"] = "|cFFFCDC007|r - Zul'Aman",
+["name"] = "a) Highmountain Speedrun Midnight",
+["displayname"] = "a) Highmountain Speedrun Midnight",
 },
 },
 ["RestedXP Midnight||a) Peril Among Petals (H)|1052"] = {
@@ -11694,9 +11694,9 @@ RXPDB = {
 ["next"] = "a) Haranir Never Say Die (H)",
 ["enabledFor"] = "Horde",
 ["chapter"] = "",
+["group"] = "RestedXP Midnight",
 ["imported"] = true,
 ["key"] = "RestedXP Midnight||a) Peril Among Petals (H)",
-["group"] = "RestedXP Midnight",
 ["version"] = 1,
 ["length"] = "616891112",
 ["name"] = "a) Peril Among Petals (H)",
@@ -11721,102 +11721,92 @@ RXPDB = {
 ["displayname"] = "|cFFFCDC006|r - Voidstorm",
 },
 },
-["RestedXP Midnight||a) Test1234|837"] = {
-["version"] = 0,
-["cache"] = true,
-["key"] = "RestedXP Midnight||a) Test1234",
-["groupOrContent"] = "ÕZ[sÛ6~×¯ÀLÒîÈï¤ÒeË®³ë[-5iÓíd –X“„\n’V´ã¿ç€’^¼VwØîlb‘ œïÜ¾sÀ£#×pı‘aæ`ğF°œFñàÍBğbEîY–³ğ§;r…i´Xæƒ7)M¡ß’¦eŞ„Q¶ŠéFlïÂ¿Á›(Í™Hi<€9Vƒ7OV1ËÙ:Ê—$e_a®˜ÎYLf\"¢qFh’1Í#fär:8>~ÉYhÀŞ­¹ˆÃ„®ŞKšÏ‹ù<f_\\{!ØF›Ç«÷¦şœÏhüHrNƒûŸî¾\\Ü8¿™\\ıüeFK© Ó\"Ír=²g¡\r4l•ß³‡ËËîİ´œŠƒáæT]Ò½,‘¶à°=ÓYCÇÕloèéšåô&è‡4}dlÅù;Šè³ QšE!#ù’‘yÅa”.@ô%]OA \r/¹dTäË,ç)ÃY?ÑÍÈ)ŞfÒöÂ7¦ßŠ.ØïE$Xv°Ø†9ôÍ³††>Ô›¸8fvÁÿ—Ñó4×º¾æ›½AùçÛŒ*€£ü¡kiÎ¨7ÆOTPuÓ#İ·”M_\"MŞóõ{r_$\\dd<çEî÷-gØ*9ò˜Ág“3]¿M¥M-!(€…\000ùÉ³¼¡BğuN¶;ûgÚØÚ)ƒÇ—dB×é<¦!@[CÚ†kƒôF{EÀ%/D¥{\\fp	şr\0000ÍÙTˆ\r¿â+Î3F®¢UVSˆ×ıôL€¼áä‚Å/¨à\"Ş°'Šq™„|6`45Û–6eŒÓ­£STj.ˆD\000Óáİ\"+ÄóÌ´<Ë7ß%~ŸÆ÷7_~9ÿ\n«Œ4êÓ\"‡ ñ+|1 i\000<Ê‰›  )\000vK<†à°m‹·5Çº†fû½)yJÅST·x×U\000ÏãD™ü»×¥|©†0 N®é\"\nd¶€?1ÁBòñÎùVÿ›{FCrÃsömv[ó-Ì(cÑ‡½`A!2.Ş‚gÙ’Fâ”™ù^®³8\n	/T\nw÷áì_îé\"ƒUş¦(åævvşÔp;ÿfáÒz@¼‡è+5rÁã˜¯åTËs|€¬éfÅaÙ,!Éœ½\\˜¢¡6Ë«Ô™<ˆ‹P¦ıÈR÷€Ò	^ŒÓ~N¦ü7È$)p%ÑëxyÔv1ƒı€V³“òzw9>ª_Ÿ¾²ú~EéZèYFµ‹k&À~Ò¼=ÇË2\000êü)ŠOÊßøó´zÒ@’3†E”g‡nƒLXŠû^‹\\ã¨èü'çRC’§%C/j˜“¥¹ÆĞƒä×›5måãQì	£dFAÅwånböÄbô&Õì®!Ö¼İ>ñ‚Oæ4®ù¿?2uÉh	ŸK`É… ‹„fä-ØÌo:Ø„=°4cm°o“ŒÃ'x£\000Ã\000:Aó`9e`|ôÂÀçMbZ†œŒ¼è.v¿Ç•9Ìøš‰¼Ûf.brs>Ğ¼–Úœ¡£k†5´ µÙ½E½Ö‚JüƒEİ*şÑa ÛpFŸh,6M©OÔÙåæM¹y¿?[[ŒªØƒ{ŞG×ñş€œªrŒ+K³4ŒDİ…,ù¤gô½Ş½ª‚¼\r+«È¾rŞ“1ÔAíAEEHãàˆwl¡îöRÿ9ªíM÷ÇTĞ'¹t½¬2êÛ\"Ï‚%KXx0Ğ÷4]À\n3[(²Äæiz7×SÍÚ3•´~‰Ü\"äKše1«²{}’±Í}{š÷W†WY!ùBzndõÿ2¼:e,‡\r ˜BìÏnYÉ4à<Ò·`IK2bà7	çie5[¶o­|-/WIï¢2¸IŠàéöÕ,ì6\000ù+ÊA¢–©h–¤8CV¼#;é£&g1Mˆ\n«7ÍX=¦dyÓ5ç«¶4—H›8rpxïg¬ï½;‘—÷ñööîøh,û˜ûQŠË¢‹vŒ³U$ĞÇTIü‘u+ª³I¿uîâ§×Ú,û9\000‚{\n´¦7G…mã„M®ğˆ\000IH$ÙT\rYrĞ~\\úhÈRyÙc´Z€ËE+0yÃ2Gş¨òår.9[²iQv›‚qVF†¥ÃÌÿÇÀÙ¥ã´e¶Q¶=P¤ÊºÉY”opkP$`0r–@d³ıá±¾OKû–Gká-ÁÃßäw\\‹ÿåâáØ»‡´‰6[/8\\Yçcw}Gó¡kj#£=æj¦uŠcw½‡SêøDkÌÖlßóÜ®1İÃ1}ÔƒBÔÁ½8c†7tF{7Ü¡ãk£1CóGØıßc¶‰sú¸èšcà˜İñòÁœäØÿ·›¼@®‹¼ @öXÊ¢\\)›äıíívÑnj†;Óh5àÀ´ÁÑ¨=f\"m„±‰ú{ñÛSÚ¾æJ;ë±%väIĞ4ŠëÉœ³\000[¢±‡ï¶9wÎ0`´eY3óÚš°LÛÛkb¿\\HLİBg0İ]Äø1ÃèÒÒ=lÀü2]AºÈí—Œ“¶^—\\rŒ5RC¼_®nÉÕ‘1­¸ÈÉ)\rm‹nşArñ—8«LO>ÒQlw2[˜¨HĞZ¶ƒ9Oì­`ävİ#±Ibkôf…ÄvÇYLßÓÎ\"!!ã˜ƒŞğõÁ¬ÖÓ,§¿è…-	é¶éù/Öv¿Ë!ÛÙï»=ÉÁJêZÿ$óVYRbEYMó{Uèƒ˜_'×û¹›vô7f&G1MØ<?;»x=>jÜ˜üÑ¶İY£m×½‹‡\\ö´q•y¹»R:-§T<¶º¶‹ìÅv€!ô¦Ø«M–QAÉ¤È¹vıpÇ™µÚ}Á±O…U¿¤=ËÁÖ|†ıØ	_,x½?dùHeà·¿şºV+öoÛÃëcºynôî[¦¸<JàA¨‘‡÷w	Ï5+DŠ„Œ>üçK_®r€Üû²¤V¼z†|€PÌƒ`œ‚*f~‡ùrØÉ†ü	^î¯Nj—Ÿ[vn€ +÷Ìƒk _{®sÈqM«Áf¬§m²ùHc°ö(­«ˆŒë\"W3ûci­í–­ÕÍ¸Dâ†c'µÍ¹›¥jÁÊ¡›lø2lÓdÅÂØ\\kïcÕnŞ#¥i<i)\nËÇ²Ètş\n¥Z¯ì^Ùëyv?qvrÄ²ñ-›3ã„Æ°;ZÉCà‰R9àŸù¾îxİ®.èpº¤!ÉT4\"5ô,(Şz3«æzµf­¤];“ˆACLöjÎ@JÅ¦êS,)Ü§X	H­o€¸>ôLÍîÏ‹:U©¦nŠ'}ây©Tò=€¥²M­<®vÓÆä#Ky‚ç1y ÛJ{V7•Ş÷´€ÄDøè´€ELı2¢µÉ¶!Nè<&I¹‚ÇÑ’•{Û[§Gí{“ƒUô‘-A³xg2\"4ÁY£Fì²cI	æÅFÄ»¦aÈRìc•: ?PØe²tªdoLÔø¦éØ¦¯wq×2=î­µêÏxÀ*Û`Ù‚ÉaßÈq{ƒ©µ ’«ÆÈÒk(M]ğômVdu\000e*@Ã\n“ÆB#r%KÉ)¶îš=6¤	!éÑrÚ+*˜`ú•„Scg@ÙÕ å]L<±`,˜®.XU1 Æz„ËpõWo·W¬‡AK­¸»‚•×ìÚ±SÆä™êk ¼Ø’‹€âévBdˆ¶ÀwIó%éqÜkºhÔÁÀ²­«o?“ëÅ®…Ubæè*mnJ¶C¨=KF­·;ä³œ¡Tğ<İÑùİ÷Í}åüvºøÜ«zü¬óOÆş`Ò·s	åcŸXù:BÍvØ½QŸ~ŒŸ¢Æ,ÏÄ“´¼Æà,ßQÜ§öY¤ØÄgÙ{\\İ5‹y¨RÆ¬mÍiírñÈà}2^Ó£ÕÓ8’F„Ï¿BÃÇ°($«1¨g‘â§0jñ¹£r_¤¬ü8÷¾Hd¦:WEâ¢`«U¶”Ï¥±@n€XÒ¬îğ„d„ÇãFßÕ¶¬Uw¾S#™e÷v¯œı—©õIÿş",
-["metadata"] = {
-["guideId"] = 2869234288,
-["retail"] = "",
-["group"] = "RestedXP Midnight",
-["internal"] = "",
-["imported"] = true,
-["version"] = 0,
-["name"] = "a) Test1234",
-["length"] = "616891112",
-["key"] = "RestedXP Midnight||a) Test1234",
-["displayname"] = "Test123333",
-},
-},
-["RestedXP Midnight||a) Bloodstains (A)|1216"] = {
-["version"] = 20,
-["cache"] = true,
-["enabledFor"] = "Alliance",
-["key"] = "RestedXP Midnight||a) Bloodstains (A)",
-["groupOrContent"] = "e±j1DûıŠ5¾âàäÂNàšË’&R¥p³‘–»E’lğÇGIÃt3óx}¿Ó»‡G­õ@e®$Ô7ç\"1àv\000µäxLøÎ¥²ûxÃWqA–µ‚\nôÅH>ù]iÇPp3u œ”äéü×_¬1Ã0ÏÆèı%c½n>Õ_Ä„ÏñÓKÀ–Êå–])UÎ08y/,C3I $Xt|ov¸u‚Ÿ",
-["metadata"] = {
-["guideId"] = 80284986,
-["retail"] = "",
-["next"] = "a) A Goblin in Harandar (A)",
-["enabledFor"] = "Alliance",
-["name"] = "a) Bloodstains (A)",
-["key"] = "RestedXP Midnight||a) Bloodstains (A)",
-["group"] = "RestedXP Midnight",
-["version"] = 20,
-["length"] = "616891112",
-["chapter"] = "",
-["displayname"] = "|cFF00CCFF17|r - Bloodstains",
-},
-},
-["RestedXP Midnight||a) River-Walkers of the Prowl (A)|1217"] = {
-["version"] = 20,
-["cache"] = true,
-["enabledFor"] = "Alliance",
-["key"] = "RestedXP Midnight||a) River-Walkers of the Prowl (A)",
-["groupOrContent"] = "}Î»\nÂ0àı<Å,v(4ŠB—*t¤‹.¡9¶Á˜„$õ}x£B÷ÿòåyÅ«õ†s^0OQ(\rìN>(k°,€\rŞN;\n‘äé€{%ÆÌˆ¡È°S)…¾¦ÚÆ‘ğàíCãªÉ€Iœ¯o|îÛ¶(v»¶åÕì1_(§zÆÏÁV[+C’™ğ[ìGá\"y¨kl´VÂô‰ç€)ÓëIÒ?÷¼…÷",
-["metadata"] = {
-["guideId"] = 4173926992,
-["retail"] = "",
-["next"] = "a) Bloodstains (A)",
-["enabledFor"] = "Alliance",
-["name"] = "a) River-Walkers of the Prowl (A)",
-["key"] = "RestedXP Midnight||a) River-Walkers of the Prowl (A)",
-["group"] = "RestedXP Midnight",
-["version"] = 20,
-["length"] = "616891112",
-["chapter"] = "",
-["displayname"] = "|cFF00CCFF16|r - River-Walkers of the Prowl",
-},
-},
-["RestedXP Speed Leveling||cFFFCDC00(1-90)|r Default|cb) Arator Route 2 (A)|1162"] = {
+["RestedXP Speed Leveling||a) Highmountain Speedrun 2 Midnight Horde|1329"] = {
 ["version"] = 1,
 ["cache"] = true,
-["enabledFor"] = "Alliance",
-["key"] = "RestedXP Speed Leveling||cFFFCDC00(1-90)|r Default|cb) Arator Route 2 (A)",
-["groupOrContent"] = "UÎA‹Â0Åñû|Š\\ì¡ĞÈ\"+ˆP,e+,zÙÃ^Æd¬Ù¤¤‰®à‡·¸ñş{Y.ôâ}©µ¨È‰Ä:s$xÔ ºr;Ûï/Ü÷Ì?ùÌN|jÈ‡q3mÛnšMUÍt¹¬Š[Ä†”]åé—Ñ\n¬#¥qrbœã¬.@YzG×‡y¼ûròãÿ%4†\nü HŞÒëÇj…µsBŞ0Œ=(ñÆeËÏî­X/İ)ıĞkÅäObù\"Ş†¬×î",
+["enabledFor"] = "Horde",
+["key"] = "RestedXP Speed Leveling||a) Highmountain Speedrun 2 Midnight Horde",
+["groupOrContent"] = "í\\[oÜ6~Ÿ_!ÀÅ¢²\"R¢.E¬ãKœ­xmnw·èzF;iª‹/…üCF¤¤±Ç9ÛûĞÔ)ÃsùÎ…”ww=â!!„F;™(xvnE–GibÑÎ4KË¥q.òBL~>3.–BLŒq+â(™v¾ÿ‹qMg‹´Làı¤š”•‰AÓh’ÀPa§ÙDŒv¢¤YÂãÑ?®ÁÂËÑÎ8],cQˆ»¨˜i‹ÉI‡ÉäİhgM`<™¤w£ïÉÈ*s‘/E„:Ä%dµRÌ¯E¬-Q³C÷FÖ4-RÃc¶É¨åz¦ëZ>½}ûx)»ácñæ.ÍâÉ‚/ßŒg¼¸.¯¯cñÅs§™x°®ãåÔ~,.y<7`¡ÇñùÏg_Î?~<8ùåË	Ï9ì~ş0K³ä1YE™% ìoß^Â¯ü~9õ,ã2‹®ÌäÙT†¶ÂÈâã±X†:$€÷÷ª_?– dj°Ììq’W[W6çX¾cºE¹¹ëÍáİ4{3ÎÒ<Ÿñ({#÷ÍÇÅzoûq4 |\\¾ÚàÙ‡ıŸ¾\\äeÆßÊ˜ËıÕZ«84A)ù<ZNaíhM×%[ï­½Àf¦]`ús.®öÎ?~9¼/2¾7.À2ß•E‘ö±@MÍ2@ğ^ĞC(ô‘ç|\r!g¡(ÿ{	ş²w¾ÄÁz×f¶­3à2É€»¶9çíÛMÒ¿Xp s™	—™0ög@à13nÒÌ÷K‘E\"ƒ#&c™Ş÷Z›yq_å…YÄ5İĞò<…˜38/àûã¸œˆM`ò/€‘wq)îø½ñLh]=Å‡`LÙU\0006Ø=ù2‹‘¯Q°»%¹Ät=‹~!¶\r!'Àù_e²Ş6„¨‡„ïkùÏ¢VHQtvğ5„‚m¹¾zòú@¿êè{ú¤‡-Ø\rÒŸ§ãÜ¸ÍC>EŞ*åˆ‘‰|\\Š	ìï§Qq{øñğô—/‡‰XD\"ÿD‡×.­¸ó§ë‹q3¬–|}“lï¹˜Ö¸/­FäÀÊ…[OÁÉ˜†º‘Úé„ X³ÂpxÌª²	]ÊšmQßt+`ƒÅÙ}¾,¢[a¼^‹Š²nùh\"&A[™RÏ5÷iª¹A¡yéØ¦\000ıD^ÛòYÏ„øi0Ûbı\nğ¢=¾\r1…Zl5ô?´Kp¡ù8ãw1¤û3/»T†äÈÊ0ÛËÔ]/÷ÅÚ@ËâÁølhâ¶X`:¾åº&©Ä0ü|ÊD\"Ó©¼È 'Ît²™‚@*c+si¿İ+Ík;ETÄh¡GGGûû¶}ˆ;\000£»•v©ÚCš‡JwÃªyhİ8wE%¿•8’F¡’aGSı‹ÿ±¥¸…E¾)iRÒ§2M¦{¢\r>\r!PÏ4ÙàH©éŠ8H“>Çß›òŒ\000U³<M¦í¨N‰IGÖ\"½6ZŸÚ²×2À9f¡ ”-{ƒoye· ›»Y”ÏÁlOÒGyaä1Ô-°)×í“ÉçiÌ%SÇ¼O N%uÖ&i8¡ëy:~{.bÏë†9¯ \r=Ø\000eÀ=pÙn|@¦@Ä\nhOTñC9ÔTà™cyİw gu¥pÃá¦QRrÔÑ}„ˆó–ğ]¢5¶J=z¯êÕPO7h¾@´©Œy¢]à³ëĞej4)EíyÃ…­'²fJZí‘ËY&6¶EĞPyo/ÏyuÂ\rÒ¹L¹›6\n¥Mrd®¢b<û­¢Ó€ÊÄ‘9fèõÙö—ÖŠî¸,­mD›ö‚ù:ipHÇˆÚÃ—ä\nM&]2DšßBß´¥oEÏöÂ_WâÅI#½Ñš~}YÍ±¸ßå»ïÓD˜‘º¶C¼ZßûöC¸?ËRLc´g‡1d	r+]Ñû2[vÃ>¶NÓŒç³ˆÌ¤…1‹R¯—.Úá €V/œ|útYÏÿ.7öHÜï~Õ3hâ5¿«ÉÏ¥·2l¼NûØ[\ri.àÚ”®IÔïö¨‡YT1'­1‡HJB0|Dl<^Çe'÷|s0õ÷eòkíd–lÄ±mßm'OüêİõA9³•œPE“­B9ÌyM×ö-(™àß0ÌµOy\\Ì¸qÅ\")fizƒZ{¨KÂÆC§«=»óvÉ¦$e½à+îïÔ™±7‡±´É:D·&ji›Ê×·—UÂˆÂ^ ¬(ÿ”Hk«¨›1Y¹3,ÅÛù„u4BÖI²`çL641…¶r9NÖ*¼Çˆ~$Š(ŸU{J3Çb†²Üñìá13»1L$\nÄfi¡%ëY‡1Ä÷\\Ó+€¬¢×Ó4PZ9÷	ş¢\nİ¶l‚ù­³Vú÷mºJ\"\000è£¬|1NËÂø\000iY¬]&¹®$y@ù€óe=æE¹ZLõšé •q™¡Ğ9ş\\¤ÅÃ²Í¯+{_ÍáÎ÷mY¾¬~Æ;BbÑ.‰åÈ%¬[ÿõƒgZ†¾Ú2„ğJMê[U;†şkt[nu°gÒ*…o9‘mLbÑnGÈ2ªÒ²±%OÏ\000cH‰¹}W¦Yw ÀªÒ\\¥°ó:§ \rIĞÎ)`28 ¬d:Ù„ã;µWk«?¡™ÀÖÄºõ:Ì^5C#Õñ‰®Œë«	>”rCD³ÆáüÍ)İ1Ï–ÆY:Az{1ìh°&¶\\­—Á:{©ı¬lÛwabKÀ±T]ìÙ¾c?±z9Çd.‚\r¬ğ›	cp³´XË0-¦w¬\nH0&<›G€ô¹48'Y0Øößg †¸]#‡ØÖz\"h+_ñP'DCï€ï/môö,ŸJÊ\000¯íLÉ'ˆ¶¾×rªÆ–¸=C4¬Ğ»=âZƒ”ÜÕPz‰Xê?ïCnêøÄ÷ÚÈİRu½Y K­ÃÅj<¯éU¦w%“:W[\\ñl‘&Óºÿİ¯K¢[\n¹–~İ€¯ÊĞÎô\000±\n=ãøË\rê\\V¡9t†=ºùÈoy–¥Ó©^Põ´¡ÑÙ~ö<^gYë·Õâ1ô^Ê†½5Í—Pm¶	yÌ<WÛd.U²Aùºq ®‹>¹n¤·-|ƒ¤±ÃM¾ç¶Ó]½âÿÕ¶Amš;¤Y:W¢KË\rd7;F¬”Ú¯wZèë¢¯C¨ÏÚs:vt‚}É3l*Ï˜†TMÜhHB•4´ÀéôØNÖËäğ\n¦º’×iPã8û!-%kŠ{Š])fÓc½MyI•Ï°ïÂâ(ìğ€\rÁ4ÄÃHH.¨oRÖ¦Ì;à9İ`hÿmß*ÊË#Úf¿éÙv½¡Ğ¤PÛùf`cW¨{\rÑ„Ó—9ÂÊ§W¼Ö-5ŒêòÜàSğãs‚Áu	)¤È1È}dM¢Cúx&Æóëô¾O>=ëoB,_AóÌÁ\\ø| xRúÊZñvÜmëê@‰<ØìL~ÀÇòLä$º)®³2nª…úÉªŸRÿú\\7%PäÕzÈLŸâ\rZµ€\rÏâšP˜‘ıÆö+MÎÓI;\\9a]—èğš‡À¬À×“wä\n/ûx¤û|õJèoLê„X¥ÚŒÓ2‹Óöi¢ëø5zu¦vdD- ã\ršúğšJî¢ÈÒd®§@šÆ¼/gY9‹Wÿ­Mº³„¶€¯,€;\\w)åNµ©aoºu0Î;mqéq[æ€Êõê3Ti•f/¦S†Â²ÃĞ›Yh8ê™?\\q~.ıjÀpfÛÀéìV¶|»»½˜?àõ$Ôë,Zè“Ü±­p¸#ßŸ°k|šMã]üGGJÙ‘nŞ\r-é•Éè)™ Lƒ¢¾¡—77fõãühY–6]MTâh!ŒËHi}ãÖÌøÈD§ÛÜÂ»»øóJ»<¹ş1å´E´’¾aTÎÑD%ÅcVI·1¡A»²Féc9f /¿uÎ¾ Áğ,@ÕöˆƒÇ0ò¾ëàG_ı>+ï2Œ¬YnTÇÛÇ6>ËØK>OE}Cb0ÓµUÈ\000Ô{+£úÎ6`ï»2Š'«Su)}ŸÉË²Pà7@¤\r²õüv\n¨PjÖ©Î[œ×Kız$’n`Ÿu¿€\nœğ)Ù5Œ;®ìB–ã¼:ãÆÁØÏÏh‡qŠŸ,õç¤ı	\"S7Cñ„Ã%íW¸wÚËU-Š0ìÖqô‡o÷^ÿpˆÂŠçàE°ª­ ç[v?¯¢\"y¾ÊÆÖ9TT”<îzìQÇéœ¼p§D:Š)q±ÈuÙ°]ÒË4»5Êk€ÂÅÑ¶0€„Ì	Ö5—³‹wC¶jš~†K=ínÙ¾È”óP\rY¹hÊ,DŸÌ^&§ªXí J	\n?DÕã’¶~Bµ	Ú$®/˜¾ÕØŸ\\öınL”½BU¦{Õğ±+:°óôên+ß\000%4-·+’Î8Oc±ŒùC§/PL;Q…ö0Hü ÃUv§ü!æÚ¥I½´cjc°¯a±nM¾Ñşº¹ïJ¦Úı¶[oT7eg‘¸©¦*Ä)yç;^ `á‹$½»†”ri@ÎGÍm©ö¶OL7-®´n˜±[\r¤7ëÇø´¹°\rõ°Á(ÆY\nºmH®Ë§«ÄX}¤tmÖ‰,óñ/æYŞp_<óß£¹ñÿ~Æ…f&f&Wi|cœqğÆ½¢€ÿ­£-°½T×É^vÏóİMóhG8l#á÷D[y´ê™~`7iÁ´©®K:s ù³Ï!›ü²1l/9Ák#[d\"ë\000”“•qK>åãû½ˆZoöHhõùN‡Æ&Q­ÿ<Ã?úÔdÙÁ;¿ƒIŸ1ÊÍå…áÍğòŸ",
 ["metadata"] = {
-["guideId"] = 2525042655,
+["guideId"] = 723916834,
 ["retail"] = "",
-["subgroup"] = "|cFFFCDC00(1-90)|r Default",
-["next"] = "cca) Harandar Route 2 (A)",
 ["group"] = "RestedXP Speed Leveling",
-["name"] = "cb) Arator Route 2 (A)",
-["key"] = "RestedXP Speed Leveling||cFFFCDC00(1-90)|r Default|cb) Arator Route 2 (A)",
+["internal"] = "",
+["version"] = 1,
+["imported"] = true,
+["key"] = "RestedXP Speed Leveling||a) Highmountain Speedrun 2 Midnight Horde",
+["enabledFor"] = "Horde",
+["length"] = "616891112",
+["name"] = "a) Highmountain Speedrun 2 Midnight Horde",
+["displayname"] = "a) Highmountain Speedrun 2 Midnight Horde",
+},
+},
+["RestedXP Midnight||cFF1EFF00(1-90)|r Default|bd) Highmountain Speedrun Midnight 1 (A) 2|1306"] = {
+["version"] = 1,
+["cache"] = true,
+["enabledFor"] = "Alliance",
+["key"] = "RestedXP Midnight||cFF1EFF00(1-90)|r Default|bd) Highmountain Speedrun Midnight 1 (A) 2",
+["groupOrContent"] = "…‘Ak*1ÇïùSöR#TZğ\"¬[Kk‘×ÒöĞË¸wÃ‹7íüğ/»JmÒC 0óÿÍ™~dF×7Æ˜¡R™PƒÎ«ìƒdëƒQY%!nàm²o˜;Ë®ª•mãòPÛ—Ea¦E1\\šşÍ ·Èi…Ñ§&Æ5ÁÒö`–Bë9ñ6DV\"ÑÀÀå¤C•Y·İxÜu¹x”˜ıŸã1ä‚Ääà\"¿¢¬Ú¯¾åâío×È‡òc;hê»ôhx–X$ç†^úœM}ı³dıĞ’WA*²G!=§²ÆªÕĞ9Êß;	ÜééÔP6õNôÙ¢ëdùMF¿¶ÖS”¦¦ch†’\000.™2ık`Içö9<mô°Ï¤;ñŞ!—¤Ò7*s\\úhétÑ.ôAŞqõ¿İJıÿ",
+["metadata"] = {
+["guideId"] = 520756509,
+["retail"] = "",
+["subgroup"] = "|cFF1EFF00(1-90)|r Default",
+["next"] = "be) Highmountain Speedrun 2 Midnight (A) 2",
+["group"] = "RestedXP Midnight",
+["name"] = "bd) Highmountain Speedrun Midnight 1 (A) 2",
+["key"] = "RestedXP Midnight||cFF1EFF00(1-90)|r Default|bd) Highmountain Speedrun Midnight 1 (A) 2",
 ["version"] = 1,
 ["length"] = "616891112",
 ["enabledFor"] = "Alliance",
-["displayname"] = "|cFFFCDC004|r - Arator",
+["displayname"] = "|cFF1EFF005|r - Highmountain 1",
 },
 },
-["RestedXP Midnight||a) Beyond the Walls (A)|1219"] = {
-["version"] = 20,
+["RestedXP Midnight||a) A Domanaar's Best Friend (H)|1026"] = {
+["version"] = 1,
 ["cache"] = true,
-["enabledFor"] = "Alliance",
-["key"] = "RestedXP Midnight||a) Beyond the Walls (A)",
-["groupOrContent"] = "m1kÃ0F÷ûZšÁ`…bZğâ¼J’]„uXgYHJˆ!?>jÉ–¬ï{¼ªjtóö®µŞ¨HÙ°€:SL¼xÜÖ ¦¸œ~SÊd_øÉÖóä2(ofB³ÁZo1;ÂƒIøÒm@YNAÌú]Ça¨ë¾ızX=\\ŠŒ.ùOö³Ì”û	÷,„;Ç© +öe¿›GgB¦m‹?”¸\000Šı('K±¿O2áö",
+["enabledFor"] = "Horde",
+["key"] = "RestedXP Midnight||a) A Domanaar's Best Friend (H)",
+["groupOrContent"] = "}Î1Â0†áı~ÅAíPh‹B­„.‚89¸ÍQ5	I*\nıñWÑı½û²¬e½ÙJ)W\000\"p\"3‚xpˆÆY” †à&g‰õå„G£­n	„¥;#¸Ãƒ»“%\n‹ˆûÜ¡\n†­ÆeW€Ğ&ú‘^Ÿxî•ªª¶UJ®ç€åÏÓüœŸy¢¿‘O i°sA3d„al?Nš¿Q×?xÿ",
 ["metadata"] = {
-["guideId"] = 1239617181,
+["guideId"] = 3309965571,
 ["retail"] = "",
-["next"] = "a) Something Vile This Way Comes (A)",
-["enabledFor"] = "Alliance",
-["name"] = "a) Beyond the Walls (A)",
-["key"] = "RestedXP Midnight||a) Beyond the Walls (A)",
-["group"] = "RestedXP Midnight",
-["version"] = 20,
-["length"] = "616891112",
+["next"] = "",
+["enabledFor"] = "Horde",
 ["chapter"] = "",
-["displayname"] = "|cFF00CCFF14|r - Beyond the Walls",
+["group"] = "RestedXP Midnight",
+["imported"] = true,
+["key"] = "RestedXP Midnight||a) A Domanaar's Best Friend (H)",
+["version"] = 1,
+["length"] = "616891112",
+["name"] = "a) A Domanaar's Best Friend (H)",
+["displayname"] = "|cFF00CCFF15|r - A Domanaar's Best Friend",
+},
+},
+["RestedXP Midnight||a) Heritage Pandaren (A)|754"] = {
+["version"] = 1,
+["cache"] = true,
+["enabledFor"] = "Alliance Pandaren",
+["groupOrContent"] = "í“ÁnA†ïû–ö\000Zm\000U-ª*E…À¥(J\"µ¤ÊÙq²Vgg¶3¤A9ğ¼!O‚'4RRª8sûÿıû³æğğ¸w|rÚëõŞEHmQ.(DözE9>u0¢(d®‡pÉÆñ¼‘¢tØà|¡À‚s‚!:ƒ¼ìh™î%—'\r»9}”?Ã±³¸Úè·š¢¬ì„Bqv}k]½SÕá¶ø¶³$´di û¥Å)Y¸ÂàtÆ$?½4!’DĞÜm²Â*ƒ»¤;D-1˜³d-èV³à[°´ á¤úõãçiU¼Z×£ëáÍUôõfšX FŞÙL	¶aŒ¾hÔ`]ûää\r¬|‚WĞàBÙ@hV;–u8Úóÿ…[‚1‰¦pKà]-»$·o¹ÓEò\n–B7ŞäI¶x%@Ú¢ãCğËlğÃ]nGß³ÁÉ{8?ÿì³ÁX|h—ìÌƒ2Ğ]â@qOU\n‹²]×ƒÁàâãEU=Š¦>]ğ5‘Y‡ÿ§yş4ìj›ıı×¾=õËDÿÂ¿–ü·ılbXgêûè€ù…€¤à€İ¦os#P†lá¾Ë‚ä¬¯oÉì¸D—Ğê!â3I~ÿ",
+["key"] = "RestedXP Midnight||a) Heritage Pandaren (A)",
+},
+["RestedXP Speed Leveling||a) Horde Draenor Garrison|1338"] = {
+["version"] = 1,
+["cache"] = true,
+["enabledFor"] = "Horde",
+["key"] = "RestedXP Speed Leveling||a) Horde Draenor Garrison",
+["groupOrContent"] = "åZ[oã¸~÷¯`7Óíz8¢î,R$“d6Ø™Išd‘İƒ€¶Y,º””4ƒ ¿½çP–DÉòä²É´À¾vD‘ç|ç;WúõkŸùaÄ³G£-%\n¤£­k¡òDf„¶b%Ë%9y!f¿“Ó¥3òA\\‹4ÉâÑVÆ‚ğïÉORÍÙS\\dR‘÷\\©$—Ùh+É\n¡2~ü±Z3‚–£­©\\,SQˆ›¤˜7Ëõ‚ıl6Úš'3x”ÍäÍè6¢e.ò¥HSÂl‡¹ŒU›loßéı/ùT¼¹‘*-øòÍtÎ‹I9™¤âÂwc%né$]¾µ­»âŒ§W¤änzòëñÅÁÉáş§½¿]p•¡@zqõêlÎÕ¢#Zp‹‚¬=ÑXÂí]‹ÑØ¨ÁúReIF'ôC²½}_	|?›P@’—¤€ÏJæÅL¯E>¢|:Ëßa¼³S}İ!§2‹ñ½˜ğlF%àŒd¢8öø0+”œ•Ó­t\"S±Lùm…Š!£‹âùll[c«û(dc?¢¾0ó¤ ™øw1\000Î^©dÁ3\rIm´Jà1k@Z-À8åyŒeÊÓB®á«!ßŒ_·ëZv‹÷Ñ%9×Ñ+Ï‘ŒRå_U.²Æ£,»µƒÇ+W)u¾sòéâ@¦©¼ÑÜ¸á·œ\r?.d™/¢dgsÅÓğK8šÀ[s:€ø×bfÀ³Ò¶†g“º\r8ï¶à€;šÃà›j@©_ÃÄ¢~0v\"ê†“Ã“i©r©ŞLÁ ùœ'ê†‹O‹’wi2½\"@g<­RõøğİÏUdÙåY&T…(©f¡vækO@›qô'\ní— yò÷üØJÜ)\r]±²Ë<YĞ.1€û\000‚ÏT Ö6è£Úb`—OõçR]k¼È6ƒÅ{%³£19V”Y4FZ‰;rqë3©7ŞŞş9ĞZ©ºÿiÿ#DDô›Kp™vó¼=HØ/ä„,_Y$E*È™Àh®® uü™½ñ¿7ĞrjGc/ ıl”Ñç}„ó@5Ê¸Æl³|vO¾zãm~KùìÍò9(ß‹IÒ²Ø§¡±›¹ò9›ås»øyõœq`ÓÀ}9©×äs7ËçuåËBñ<ê°o(Ÿ·’/å‘šÎ8$±ß“Ø¡2‘õí$®å•ÒŒ÷C]†iŞÆ×Vè7ŒZXvPÛí?rÀ¥|íXNõè#P7,û:,;ORp“Ìl[…ğ:Òwcx³¨ŠámÅ2Ä›xøFNÀzrOdXİœ^Éx8ÖwÂWC—öÌ¸VF=rÎ‹éœÈ²J€ó$GÙJHw§)_>IÒ¤¸í›D¬M¡¥ú_a_AeÖŞ¬Œ4¶îçŸ¤I>'¿ÉÒh^îÖñ¨ªÙÔõŸÍ?òK¹ÓR]‹[¹^ïaíŠ¸6ºŸ‡®øüà\"Œ—ÀÍ¢î_vÔtb\nLĞD‡÷fßóDP_Tj0 ´\"÷¶$ç<dÑYb¯/ùıï%’ü(û[	rµ½©øŸÖí“L(yÇ§s´œ…KRqYtY²ÔE×%#üë>Õ%uÙƒúD^ÍWÍ™£Ó\r_G1Š|€.å¯\r’Õ‹÷‰YÅÆ6#Ÿ(õ:=N¯x'Eß×µ¶Ã]-Ñü*YÆ`¬d™Ìˆk{w¿Ğuü1ó©÷N¿—$“\n6;¾\"ƒ€õğpH§U¤³¶¯c³`P»?²QRÆ’lw(¯cÖÛ•\\aÒ&¤,›R¤ÿ¨8::»ÈyzÍctOr¤ÈÙM°Áô=UÎb1‘à€§ÕZØõ3%3È÷Ó\"½íiÛƒ9=pşQd­vCÊé§ˆòöö® y	UØ„_K@óå	_,yŒ¹ü´PÉ•Ğ¦Ûç`D%²™şÊÛ–±$¡3†4‚rk¥BN­>xp€ÖÊ»* ÷‘c®Eï{ì[”YcfSV«Ğ S\\¹&%şUÔyç˜>Pƒ4xY¤ØÚL\nBè7Xô\000\000×ùmÖ¶¸M-W·/P®w²qò2XQÿ	Ã <q¬5é\000õ·‹Xõè	^swÆ;ğÙ[ˆ¦­;ˆöGxÓ£i³ï`¢„<ŠyCüã#ŞÆäÒ¾lÈ<äŸ%˜Ê×<™	Ú¤LRä’Y'VÙ¿®U:éßXc¬Yåÿv‘Ó+8‡²[]'< ÛA¤ş\"3a“Gè>¸+oÿ%5A,—…¾¥ÒT?	t©¼€}?ëa:aÌò|Œ3Po0Èc F½ÍĞ‹+³7±àaæNY`Yê´™ô‡ÖªdÃzñåDívRü4ŒX»>3&fU¹ïÀ÷ó{+÷ˆ†–fÌ{şw7-ÅRÁ{oyúeÈ?Ğu„ªù=©wÓc17Œ´ÃÔ[«.Â>£o…	óµãìÚ™Xäù†³µá¼èÙğè5_Á_^›Íûâ±v›™’Kòj¥Ğ+láUw ÛdM§\000ŸW}CFÅŒ;MÔBÊjJâùZiŒº;÷ò! ®óŸä\rIæPg #oê	û˜U]D\\V÷ ©J/ñŠc&E½*ÈB^kcfæ~LäRdC}*á1)D®Gs<{m“E’•„´Tf±PÕ]S-¤ÌEÕÜç›	$O“/Fğ=N% OrØ,M×¥ò6îZ/)Úë$)š×BÅKÚ¶fL[Eu²“9·÷\néĞªs/ğsµ¨&<¯êb#ut@]“ÕÓæP\"Éf9NfŞAæˆÛú¢sÎ}Û‰È§¥8J“ì—ÅD(¼z7êV¼™a8%‡Úº*[ŸÈ÷xi\\0¶Ñ|w×é3¤Ã×:!Ï§ZáİÎ†F¨­uŒĞÿ\r:C4~¾;ø¯Ğ¸¢gCã>?Û™¶yÏù1ÉõÏMpô½*näqG3l¶\\êÿÜ{Qø\\,0ÕéÕÌ­íE=ä|”%['à§Ÿ½X©n=ÍUÀÎï«Ctj¿‡&õ°Ê¥\000Û¥Âßç”\r»ÍnsàÎä÷ëcàõİ)X±1îw İ¤, •èİ˜·KÕL¡ÿk ÉCmòÈıd:79déÿ",
+["metadata"] = {
+["guideId"] = 3464630875,
+["retail"] = "",
+["group"] = "RestedXP Speed Leveling",
+["internal"] = "",
+["version"] = 1,
+["imported"] = true,
+["key"] = "RestedXP Speed Leveling||a) Horde Draenor Garrison",
+["enabledFor"] = "Horde",
+["length"] = "616891112",
+["name"] = "a) Horde Draenor Garrison",
+["displayname"] = "a) Horde Draenor Garrison",
 },
 },
 ["RestedXP Midnight||cFF1EFF00(80-88)|r Campaign & Delves|cd) Zul'Aman Route 5 (A)|1143"] = {
@@ -11839,106 +11829,101 @@ RXPDB = {
 ["displayname"] = "|cFFFCDC005|r - Zul'Aman",
 },
 },
-["RestedXP Midnight||a) A Voice Inside (A)|1193"] = {
-["version"] = 20,
+["RestedXP Midnight||a) Port Detective (H)|1081"] = {
+["version"] = 1,
 ["cache"] = true,
-["enabledFor"] = "Alliance",
-["key"] = "RestedXP Midnight||a) A Voice Inside (A)",
-["groupOrContent"] = "e»ŠÃ0EûùŠ‰ƒíÂ$àÆ)KBŠ4ƒ4ØŠd$y³ùøuUR^8œ{ò¼.ëÍ¶,Ë\n@N$Ô‡(ŞaU€‚Ÿ'<pLlN_¸ãd(GFÊ°Å£Í¸sQãºÍ@‰“¥¿rÓ}_]×÷õ-`şÆ/şMwÏ÷HÆ_‡™‚YÅ×zÚôHSâ\000Mƒ­µBN3,9(qÚÎËéGŞù#şÿ",
+["enabledFor"] = "Horde",
+["key"] = "RestedXP Midnight||a) Port Detective (H)",
+["groupOrContent"] = "eÎ1Ëƒ0Æñı>ÅA–:¦ƒ´à¦‡¤S‡.!9âo1J~øÚv{İïşÏ/ÏKYÎRÊ#€ˆ”4 Š%Ç9à¦DöŞá•­g×'^ÿê»1&l(‘I¼Ú„å)úõ=YREQ×JÉã1ÿ÷°…è™>¡F;·íö„í-{÷«™^‡Dª\nÛ1Z‚Í@°7Ãlio{ìTğş",
 ["metadata"] = {
-["guideId"] = 630853003,
+["guideId"] = 758386209,
 ["retail"] = "",
-["next"] = "a) Shadowguard's Shadow (A)",
-["enabledFor"] = "Alliance",
-["name"] = "a) A Voice Inside (A)",
-["key"] = "RestedXP Midnight||a) A Voice Inside (A)",
-["group"] = "RestedXP Midnight",
-["version"] = 20,
-["length"] = "616891112",
+["next"] = "a) Daggerspine Landing (H)",
+["enabledFor"] = "Horde",
 ["chapter"] = "",
-["displayname"] = "|cFF00CCFF6|r - A Voice Inside",
-},
-},
-["RestedXP Speed Leveling||cFFFCDC00(1-90)|r Default|cab) Eversong Woods Route 2 (H)|1006"] = {
-["version"] = 1,
-["cache"] = true,
-["enabledFor"] = "Horde",
-["key"] = "RestedXP Speed Leveling||cFFFCDC00(1-90)|r Default|cab) Eversong Woods Route 2 (H)",
-["groupOrContent"] = "}Ok21Æïù¹(eËfRA¼hÅƒ…â[h½ÄdÜÉ6\\?üÛ¥…Rz›Ã<¿ù=SU1¹›\n!ÆxÀ$É2~ÄÉ;Œ·Áç¶ê—Gø×!jØà-¹–ñ˜wŸµZ­ËE]D5­Ç—\000KÜËlãN”ÜáşJö®…gïu„­Ï	¡ÑzÌ¸¦ØYyşXş¦5TıÈ\"R!ª¿ˆĞ°ÙÖ>hdÅ¾c\\ùCg1aOÉ”J*dJ°ñÉy*uÙÍ“¡m&P†½p5*`O¢)•!™k—C'©uĞ²vx¼gRoöÉÃ´¾®’S6â×H;jMz•¿ë9S4zrÚ÷l>ìÿ",
-["metadata"] = {
-["guideId"] = 2333023059,
-["retail"] = "",
-["subgroup"] = "|cFFFCDC00(1-90)|r Default",
-["next"] = "cac) Eversong Woods Route 2 (H) 2",
-["group"] = "RestedXP Speed Leveling",
-["imported"] = true,
-["key"] = "RestedXP Speed Leveling||cFFFCDC00(1-90)|r Default|cab) Eversong Woods Route 2 (H)",
-["name"] = "cab) Eversong Woods Route 2 (H)",
-["version"] = 1,
-["length"] = "616891112",
-["enabledFor"] = "Horde",
-["displayname"] = "|cFFFCDC002|r - Eversong Woods",
-},
-},
-["RestedXP Midnight||a) No Fear (A)|1223"] = {
-["version"] = 20,
-["cache"] = true,
-["enabledFor"] = "Alliance",
-["key"] = "RestedXP Midnight||a) No Fear (A)",
-["groupOrContent"] = "e±ŠÃ0DûıŠ5çÂ ¹0pã3ˆ4	Gªi„´ØŠ$d9$?_HH‘vfóêºUí÷F)Õ\000ˆLÅ°q¡<sØHcKÂÍ…ÜñwìSÌ™ĞT¸¨Édüê+çäÍíÑİ­ÖRƒÖJŞ3Ö¯åŠÒµü£?\\\neÜÆŸ¼LZ#è:ì½g,Áúœ@p°~qôirz;Àß",
-["metadata"] = {
-["guideId"] = 3400534803,
-["retail"] = "",
-["next"] = "a) Bitter Honor (A)",
-["enabledFor"] = "Alliance",
-["name"] = "a) No Fear (A)",
-["key"] = "RestedXP Midnight||a) No Fear (A)",
 ["group"] = "RestedXP Midnight",
-["version"] = 20,
+["imported"] = true,
+["key"] = "RestedXP Midnight||a) Port Detective (H)",
+["version"] = 1,
 ["length"] = "616891112",
+["name"] = "a) Port Detective (H)",
+["displayname"] = "|cFF00CCFF12|r - Port Detective",
+},
+},
+["RestedXP Midnight||a) How to Train Your Protege|935"] = {
+["version"] = 20,
+["cache"] = true,
+["key"] = "RestedXP Midnight||a) How to Train Your Protege",
+["groupOrContent"] = "Õ˜msÚ8ÇßûShÊ‹»ö\\ÇOÓé0C	¹¤MrÓæ®7Œ0\nÖáH>Y@3“+q®nçúÚÕşvµúK/_N6Çq\r£&ˆÄ41js\"2Êrm£6|–¢>É$ê¡÷tÌè$–Fá‚ğstÊHr4˜2tÅgõ—dBŒe’†&§F§¬ÂW‹f¿ÍÀb{îğ(;QÄgLšaĞğêÆ/wQÿSoø±İ¿‚Eã9Q>ÆÉ˜ gcš¥°FÕƒMµªg¨ãœ¢k*2y'+Jh4eä‹Üá3¬^gJ¡ŸÛÏQ«Õ9?ë¼C§İ~\\öÑ¯¿ŸwÑë×¨\rş0‹ÈWØ?=dÿ”‹1YbB$Q˜<‡¬/·‚/¤ò?ÀÉ(}f½“şY÷âøüjxÆ2)f‘ä\rbœ6¦B‘™p@êzMÏô<ËõÌ†o9Ñjİ\rò¼]ãˆ-¸HÆ78=Šb,G³äjøAn­Q’¾rí;¹t‹JyµRMR‰š>xíâkië@d$¡lbX‹	‘Hgèq2oÊyw›ÈY†Ş$œG3ÁÖ©ÔMßµêMÓñ­zX•]@DÂ(‘|Uå²É¶•¨úPÛ¨‡eŒ.¸DW0­óŒ°%»ˆß¤	‘dAáª~W8Ûh\000…Œøu^¯maFÊÀ|'4S[ï-œÑl¦gÙaÓ7ë¦]Ğ]¯Ö:¦»NCØ\né¶‚4ªK–·ªí6½Å ]G@5`%]qşçÑŒ&c•Ó\"‚ü3£‚dßşj!?ù2õ™×?rÊàySbÖÑ‡™ê'tJÄnºyÖ+-P½çMTUİ=%]6İ½5ºÂµÙâšéxV#0ë6¬âœäGm©­ÿÃJ~ôÚy\n:¦“>f¨úSÌŸS¼ƒÃ	·Q‡$Âpß~ÍZÁØ2²Ááÿ`FÄù-û¢ÛÁ­Ö;jËuu/ºï¯†ê¯ú‹s‡x»A×¼èwÇó½ ñ\n\"ú³˜r~y9\000a1Ç…*USQ$ZÏ_ËÊ_	…~ÃG¨Ë\"ÁqC)ç3Š_7Œ¬‚à<İÌéÚ ‰LÇ†~°>àXa]¹\rİX3Tc¾f’¨1oiSeöì>³ÑLd\\Ár³,ÆTåIÇ‘¼OlGiMÄ%Y é~vÄm&qR´àuMèhk¥.v«„VĞ0½úN¡o:8º1¶qİjhÆœ|liğÿ]{O-Àc£&©LTNNNN:ÇÛ†$a”&XB7øœ@hš ÷µÆ4:¦«[ØáÅ´sˆĞÒ­sÎ÷Ô9×pÕÏYFÓâ^†\000±ªSû‰ítë€ø:B{VZÜ‹µ»ã1g?I¤ÚÖ”ñhJÆĞÒ®—På1¯ç_§Î¶#ÛUy¦òø+q.h”\\U'€V²­nKÉ¶º}<M³mn8ßôkL3uµbMGüK)±òˆœàç*´¬]JNW%¦W×÷{?Zq]İ=ñ{fêiz»¿rÔvÎ¬î~µ½ÆÎÑ²+¡ù¶Ñ¹Úšvp½èmüGù]Q6ÖñCg¢Œ’ª»º¬SİrÕ­ßÈe÷6€*ïS<¾ˆv¾k«{F8ø\"¶|Îz\000¤{Ï*ñ*æÙk÷¼ıÖëT=ÕŸ+›Ò´PIt¬’İ´G}Uu¹gÙà{=Ën…îî†î‡şW>ÊşQ?çâ|{.÷¥XÔĞªÑ!Dÿş",
+["metadata"] = {
+["guideId"] = 2578518298,
+["retail"] = "",
+["group"] = "RestedXP Midnight",
+["internal"] = "",
+["imported"] = true,
+["version"] = 20,
+["key"] = "RestedXP Midnight||a) How to Train Your Protege",
+["length"] = "616891112",
+["name"] = "a) How to Train Your Protege",
+["displayname"] = "a) How to Train Your Protege",
+},
+},
+["RestedXP Midnight||a) Cooking (H)|740"] = {
+["version"] = 1,
+["cache"] = true,
+["enabledFor"] = "Horde",
+["key"] = "RestedXP Midnight||a) Cooking (H)",
+["groupOrContent"] = "íSÁn1½û+FÚH•Ej•¢ªB/…*Ô*g=ÙŒâµ·c;iPıNü^¿„ñ’Š¦ œ¹>Í{oŞ³§×;,GeY¾Vª`Œš¬*–È¼ƒR5ûÔÂCDsugdÕó¨\n§½Cïäjx~º' ŞÆ¾ÓÖzè@C¡µzİ¶Óª¨æºÈêøN=TbĞ\nì›ÖbÄÅ9d5UX=E—š')Z„M5†ï‡ışÅ‚Zˆs\nU zhÙWˆfÃêå¤Ã1 ‚¨ù&I$áèŒ+Í&À,Y’qÆ¾‹K´ıû»oG}õbS¯Î¯/ß?]S„J;˜\"<lkÀ»\n¡E£×¯@¸hkŸîï¾/ŒwÂ›âÌ3nxGğCˆÔèˆpQvœPƒo ì4äRÄğtüIÚÕ\\Ì:FmòSHş€(#ò@Ì~•şPïãJ÷¿fÁœœ|ôYà3×LM£yËd¼IÄvXÿ»}Ô-¹Ê&ƒ¿ßÊ—_W²ı—ÿ[Å|‘~ÖY×‰ÄIğ‡–@;“}&½'–‚\\7÷ó%’‹dá¶Í„ä¬¯hvcŸi—äd×ş²É",
+["metadata"] = {
+["guideId"] = 3462859657,
+["retail"] = "",
+["next"] = "a) Balloon (H)",
+["enabledFor"] = "Horde",
 ["chapter"] = "",
-["displayname"] = "|cFF00CCFF10|r - No Fear",
-},
-},
-["RestedXP Midnight||cFFFCDC00(80-87)|r Campaigns|ae) Voidstorm Campaign(A)|1255"] = {
-["version"] = 1,
-["cache"] = true,
-["enabledFor"] = "Alliance",
-["key"] = "RestedXP Midnight||cFFFCDC00(80-87)|r Campaigns|ae) Voidstorm Campaign(A)",
-["groupOrContent"] = "EÁJÄ@†ïyŠÀÜ\"…àZq/¥¥àA•Åk¶mh;Sff•Â>¼Ó•ÕC._’ÿOÓ­Şæ÷Zë\000å8Œ ¾Øy±5¨ÎÙãŒ¯ì·/ø$­‘® üñğ»;5u]—U™e›<Kó»ää°¤i&éŒehb$Npo¥õÁºéo»)P­øy¤å|¶ª²lÛ(Iÿ_@5=Í!ÆBJ°\"7°ÓáÛ°`´<Døh‚ÅĞ3‡Åû}ày\r|åqÏ2^xEßíg,Öö¬ZÃìvXŒ£ibá®5üü",
-["metadata"] = {
-["guideId"] = 2558859477,
-["retail"] = "",
-["subgroup"] = "|cFFFCDC00(80-87)|r Campaigns",
 ["group"] = "RestedXP Midnight",
-["name"] = "ae) Voidstorm Campaign(A)",
-["key"] = "RestedXP Midnight||cFFFCDC00(80-87)|r Campaigns|ae) Voidstorm Campaign(A)",
-["version"] = 1,
-["chapters"] = "a) Darkening Sky (A);a) Into the Abyss (A);a) The Night's Veil (A);a) Dawn of Reckoning (A)",
-["length"] = "616891112",
-["enabledFor"] = "Alliance",
-["displayname"] = "|cFF00FF005|r - Voidstorm",
-},
-},
-["RestedXP Midnight||cFFFCDC00(80-87)|r Campaigns|ab) Arator's Journey (H)|1110"] = {
-["version"] = 20,
-["cache"] = true,
-["enabledFor"] = "Horde",
-["key"] = "RestedXP Midnight||cFFFCDC00(80-87)|r Campaigns|ab) Arator's Journey (H)",
-["groupOrContent"] = "e1kÃ0…÷ûjS’×¥^Š‹1¥…:t½ÄW[HB’ÿøHîØA‹¾wïUU£šöY)UÏ‘ôÄ/û ­ÁZ‚˜½]9D¾ø©'£ç%‚ëémçaú·^Ê¢•UûTn{º:Ò³	 ]éTâ«§hıCÀw»zÃ7,ÆÄ¤ƒ»ĞmOe“”ùÕÉQı»\000q^ÈÅÔ©Ä¯…ñ@qAûƒ¹S¾$pä9-	ù?î™°#è:­ŸÒ\nî",
-["metadata"] = {
-["guideId"] = 2040076289,
-["retail"] = "",
-["subgroup"] = "|cFFFCDC00(80-87)|r Campaigns",
-["group"] = "RestedXP Midnight",
-["enabledFor"] = "Horde",
 ["imported"] = true,
-["key"] = "RestedXP Midnight||cFFFCDC00(80-87)|r Campaigns|ab) Arator's Journey (H)",
-["version"] = 20,
-["chapters"] = "a) The Path of Light (H);a) Regrets of the Past (H)",
+["key"] = "RestedXP Midnight||a) Cooking (H)",
+["version"] = 1,
 ["length"] = "616891112",
-["name"] = "ab) Arator's Journey (H)",
-["displayname"] = "|cFF00FF002|r - Arator's Journey",
+["name"] = "a) Cooking (H)",
+["displayname"] = "Cooking",
+},
+},
+["RestedXP Midnight||a) Where War Slumbers|946"] = {
+["version"] = 20,
+["cache"] = true,
+["key"] = "RestedXP Midnight||a) Where War Slumbers",
+["groupOrContent"] = "İWÛrÚH}×Wt™‡Ø\"#îdS®Â\\*q\000¯“]§¨AĞiFLØâaco¿d{$À˜Û’TâÚZ?YÒĞ3çôéÓ=/^­b¹bYVÖ0R’*Â<#uOeÈ‡lÆH¥ˆèÒPQçı5¼agcW)N|\nän]*)Ü	=/ò‡øS#Å¸¢’ÏÀ_FJ\nÃá£ÉÂw†ªŞã>dèQ(ñÏx>·»ï¯·ÕngğADà’{\nJ€#@¹N®‰rAŒÀ¡Ğ\"¡ûŒÎN æ’\000w“¡šKÃ´=fO8ı¢¶O{‡çÜ§Õ3¸¸¨]µk¯¡Õè6 ù¶¿Ü´ë\rxõ\nªÇ·é7EnŠÜÒ¡nê­¨«)\"¥˜*½YŸxdá'ì4»íF§~õağ[ä=û„ËˆF=ÈS6Ÿ+¥ó9³œKËf¶l\\\\ÌûqFÄ¦çS!=Ç'Á¹í5Œ†Hü ˜K:3‡^ğ2›™«Å^°+Ó0‰mÓ@éœ•-„WMë”kôâ	I&“—PÅ“#8ıòWÊÇ4!Q9¦\nVøàÎíf³Y«×2™šş…LÔ!’¹¼ã5@ejU$G½FŠ—bêéïÉ«F§ñæÃà´ó¶½VµÛ¨ŸmU(­Õ^eG2òÜ–\"]ÂäyÌ!±ÕŠ§Ã'€5Û»A ¶ğ*š™¶¶˜¸	i¿_(YÅJş%nü{ã‹’¤jëJºŒ”üã·áí)Â˜2å²…Í¤•¨ßF»6^Ã´u†¹ü¸\r(û$Š1¤Bá‰ eŸ\000R¹¨!¡>\r¤Ünúo{Š$GJ–ÔÇGÀç#MhÍÁ²ì–LkC¿¤Dîõ®ÇÄ]ÃÛö½OÑñ^•ÃÚ­¤Ke³œın„.Ï°©	]·K¨ÉÃ',£²€9`åòV®²|íğ{Dƒ‹–ÆX*}7Œ{E“=$šÍ¼/äR±*…ò¹Üğ‘cvOù^©,‰Ö\r},Ş– Òñ*SÏÛ#˜áØCpª_÷Òğ9¢º¹œv„ô‰w\\L5lIÈ¦0%Øgói†‘Òs\n¨&2¶\n'Â°kE\\1/Ş+±ğÓg=™ÆOkÒVÿùWˆû*Ü}¤ËHG!‰„ç‰)¾YÆ”OC Å=s¨³‰ÇDâ¿Ø/½™ÎÂ\"ôLµRR@É$v¼5òR.2îˆéšXã|¤ó»\"îŒòtZÓ_C”€Šyh.©ª'T¥3š£\\œ«Çn¼lñšˆ3¸ˆƒ²ó×³)'’	ÈY–á»•66F\r©àa0æJ/˜yj¶£¨ó™½Â•S(i¸'?È_\000¹¢¨­G3½|UÛàT¤•9DI²0ğÈ%£/?ƒ-p*fœ(ÜKBÄÉò–ğ o>Í^	¼fë^¼ä/\rW‚hBñjƒ\\’$¥û/¾ÛàÚÜgn7ËG¡HêaÓ$ğîÔæÄ€§ß7ÖˆàÅ™KÃêdŠ„“0V¨D§ãyÓ`Ç^à£öFRp¥±áóÁÑ˜(EìI\\Vv®Ö)Ü8zlÁáòäV¡RÈèN³ÁO!“©¦/†[ÈcÒ¾\n~cFµùRx¤‡È8&CË ¶\neİ*[èO¨fœÒ,|ÙØj0±Sb‹„Mšrh¹ÒÁO¸4Ô\rpƒ‘l~{Ëø¿ÏİåA,±&û*bW·u^ÈX™ÊòwÿæükÒÿºâøv%çëé[õûØ~şœÆöKÕê$øÓ‹	ÿDìØ”ÛŠú!4%ñé	/‰£@;ƒcÓÙ\\1WÔ¡à»/Ô×ØrfmCÌxeüxz¶i7;‰^Ït½İ{óö¦Ó¿ãGĞôk™Hco?¤å—1ÓÇÖÇ†âËQœüïĞoÔhÙ*iÆàÑNOôõ¯$ä	A¯úå`¾w ?8™ÿó",
+["metadata"] = {
+["guideId"] = 746131128,
+["retail"] = "",
+["group"] = "RestedXP Midnight",
+["internal"] = "",
+["imported"] = true,
+["version"] = 20,
+["key"] = "RestedXP Midnight||a) Where War Slumbers",
+["length"] = "616891112",
+["name"] = "a) Where War Slumbers",
+["displayname"] = "a) Where War Slumbers",
+},
+},
+["RestedXP Midnight|Pre-Turnins|a) Pre-Turnins Booklet|867"] = {
+["version"] = 20,
+["cache"] = true,
+["key"] = "RestedXP Midnight|Pre-Turnins|a) Pre-Turnins Booklet",
+["groupOrContent"] = "uS_oÓ@Ï§°ZÁØØÄ{Ü€	¡‰Á&Á«›8É©ßéÎ×®ß;IÑâ%J|çß?;gg—«Ë÷V«ÕEU-	:_-·”²o«e—B‰ğƒ²Póëî\\Ã®ë¥Zæ²Îî=–Äsµdğøy®CØxÒÇB‰ÑW\n«×Ò°sÜÀ÷¢øjdXˆöQ¤'È‚I® pC	·Å5teQ&†­ß¹\\“÷ÈJ†™|Q|zŠTô„Û=Ô)ìÇ¡ôÁ~K\nFè±pİŸÏ\000ãÅÔ”9šu®©\r‰`À=$jJMÚÔ½ùx“Ï«“/¬aYŒ§zÍú[L@J×k¡7·Æ±Ş€ËZ!V$ÆpíÉœĞVKØl‘E«jæ|ìÖ‡5úÿ¦Õ¦0XsÚïzJôj”I`\"2´ş„Côt\"z¿W5!ëÈÒ_¹³vNzûĞÁ_—¶­NUzgùë‘÷óë>\000ßz>Â>éõ{6w£{÷B%¡A¨*'GÄ©2m1F‹cPRË®±vjÜN›0=ßÈämš‹Ï.e›„­FñæhS‡\rQ4'ƒ>‚š^&õ§Èºè#³è&îövä¨'º¼‡I<ô¡ø	Ø·9d)6RoQ—s†ÅY€âq?ğ;T¤ñî†n@Ç‘7.æÙ/é›f8[¶ZİcT Šô9¯ÿAÔOİVˆ:˜¤¯…t‡HNÕ¼\"¨!ıélóLL.1†¤võû",
+["metadata"] = {
+["guideId"] = 63968132,
+["retail"] = "",
+["subgroup"] = "Pre-Turnins",
+["group"] = "RestedXP Midnight",
+["internal"] = "",
+["imported"] = true,
+["name"] = "a) Pre-Turnins Booklet",
+["key"] = "RestedXP Midnight|Pre-Turnins|a) Pre-Turnins Booklet",
+["length"] = "616891112",
+["version"] = 20,
+["displayname"] = "a) Pre-Turnins Booklet",
 },
 },
 ["RestedXP Midnight||a) Vengeance for Tolbani (A)|1225"] = {
@@ -11973,32 +11958,35 @@ RXPDB = {
 ["subgroup"] = "|cFFFCDC00(1-90)|r Default",
 ["next"] = "bd) Horde Silverpine Forest",
 ["group"] = "RestedXP Speed Leveling",
+["key"] = "RestedXP Speed Leveling||cFFFCDC00(1-90)|r Default|bc) Horde Kun-Lai Summit",
 ["enabledFor"] = "Horde",
 ["imported"] = true,
-["key"] = "RestedXP Speed Leveling||cFFFCDC00(1-90)|r Default|bc) Horde Kun-Lai Summit",
 ["version"] = 1,
 ["title"] = "Kun-Lai Summit",
 ["length"] = "616891112",
 ["name"] = "bc) Horde Kun-Lai Summit",
-["displayname"] = "|cFF1EFF006|r - Kun-Lai Summit (20+)",
+["displayname"] = "|cFF1EFF005|r - Kun-Lai Summit (20+)",
 },
 },
-["RestedXP Midnight||a) Bloodstains|908"] = {
-["version"] = 20,
+["RestedXP Midnight||cFF1EFF00(80-90)|r Campaign & Sidequests|ce) Voidstorm Route 3 (H)|991"] = {
+["version"] = 1,
 ["cache"] = true,
-["key"] = "RestedXP Midnight||a) Bloodstains",
-["groupOrContent"] = "ÅYmsÓºş_¡¡80Fõ»ó¡3¥šC[:m.ç\000—é(±ëÖ±re¹i˜şø»²Ä/¢0ÜW«gŸ]í>R_¼ğ-?Z–e{‚JÂ’ÁŞ-ã)²ÍÁŞ\\ğ|‰.i&iôÏ:cQÊæ±ì¥dAy†^&œG,L³ÁK%)I`¾ì!øJÒ;‰Æ$¹A’ÿ;½Ÿ^şsqıúrt|şêôÃõÇ<yú0#÷b€ç\\rd»N`¸|Ã÷°gîÇ…ß™ÒıI´ ËıiLä$ŸLzí»sA×x’,ÿ´Í{Yí…¾¾`2Ò¥DCÇuMtppXşy‘sÀNX&¹X°$bN%Ú.~tdc.ò4âHÆ½ìË—„F÷‘4j;N\"*Ğ+°ß‘à9¾áúØt\r7Àİ	?†\nø’¹HYºåk\"ø»KØXÇŞ{£LºHø*‹‰ YÃÖ©ÙÆ‚¥Ô@W”\000:½¢	ƒ’¤Ñ6º(¶wÀ«rÉûüi±4“àxØ±U%ÚÃŞ’ĞÚ®úü÷áåùõLğ\"3\"\nÒ§|±L¨¤%C†3ÀÙ\r[Îy–±%‹åÖĞk^¹­b‡Ã¹l„ƒÀpLÃl|p±ë‹mÍ7=µÎôußì¡âVë|«UoY’TÑŸŸ}¸¾$0g@ùóSÎ¥JèÍ8P2¶Àı?ÅOåŠÓwïÆÕt˜ÅĞ“ªéĞ{ñ¹M•mX¼à¤ÌY:GC\r0.š?^òyN›? M|gİŒcrÓ,ÛÃ¡iø>†=Íf¯VeØºÊZ•¡Ö>>42WşSµğ2^G­\000MÕŸ-ûnjvl…iéÂwa¶<TÁnœ¬˜ŒQ\nAÃ± šT´\\ÅlQtöŸfÅ±¡U¶‹MË°ÊŠÿmÔ¸­do£ÒpĞ²hX×°l[pf¡%+ôEŸSåá¦¢\000PáŒ ˆ€¦([/&<yVí'ès=¾w3½İÊóæüÛ¡şØ4nhO–áºp{£ãÇP54B1ú7A?ûkÆNİøëÃ¿¦¼ZxÍsFi&Ùœ€iª\ngwBïŠˆFiÊ§4•àše\"_Ê2Îœ%rıc£–ÄZ¨$›Sdc´ÍÆ4$ö§\n(&Lì‰\"S¹MÆQÂ¦7T·Ú³äùbtôöú(íİ©H8Í½j@cßêm÷·$‰|Ò\000ØÙP`XCl÷GÇkJí‰Ãà|£ßÌÓ9Y4¥[p^¢”‹º;zjèªğ+¯š½µûYÅ˜€Öl¯(ÀB‚Èn\\ó¸øqÅ Wí–ªwkUê>C¨ÓWPŸ¡%g ùÕy¨°•B«âñ—gÛÖÁ}\000b UAz¡êN§”ÜÒb¿“\\¶)~ŒŸßdmû¡Ê4È/·¿3ş&W–Ú^ÕGiÑÁb™JõÛĞó]Ù½Ì£ÓHPÕ?ºÅç”Îëfİ-,WúÃañ’„À)[§Í«×„ÆpÜ‡Q—{ƒ{ë¦:,†€‰=_GË‰º‹@Y¡¿ ´²&†iòáØ©#¨†'ˆ‹âjD\000Şl¦#Ô-57èR\nğà6`³¿®|C›ËX[CªÊ¤Ç¶[!´·78œ¨îØ´}Z\n€Õß‘:Õ’eDË‡WòQ™tà@‡Ezúë0gdEæ\\‹Æ¯Ğ]0.ˆ	#´°9Ô•ò…`óOuµXiƒÊ¢ë8ÀnhCì{=F™¦ùWŠ0Ø„Y˜ü^éEh¿X AÒAÖ»iêx¯&Í»J»fè×'µk2=ØÉôQŠÆ1e½[¥åÛòw‹òí¿¡qFiL&LB“=åŞğy»’Š?eÍÊ²›21MhÁj•2â~l9í{êÉªÖÒ?ßIA§’ñôe.%O?wÏK ¯Z4­Ëpñ8i††åi®ëm]óÿQ×óq•5:ÆÙÃï‡µÍÿ•å$IÖhV¼æ©t£Jõ¸Ès™ÁÄg|EÃk.¦èf¦wLŞ‚jPœ\\\000ÁYáôŒ@÷RÛ&[Y™áÁó‘|š¡ŠÏ'Š °IºÈTrXZJ…ú¾\\iø¾ç»Å›Ì~á¶òØÎp`÷õ×Â~ÑŒ ÉíÇZƒ^ñÍé>\000ÃÎ+şá>æ%÷We¢~Ïv•ßtU-E_D5ïèÁF‘Ô¬~r h¾û«_dš:¨5àïm¢ÿû",
+["enabledFor"] = "Horde",
+["key"] = "RestedXP Midnight||cFF1EFF00(80-90)|r Campaign & Sidequests|ce) Voidstorm Route 3 (H)",
+["groupOrContent"] = "e‘OkÛ@Åïû)EqZ6„@p#ÒCh‰ié¡—µv,\r]Í(ûÇÀ¾»RÿrÓî{ó›§·ëõM}³ÙÖuıA©ÂaĞdUqBçIjUtNâÏèš_á‰S×UøxX´KÛ4õCÓTÕjS­·Uyq°ÓÃ¨©cx{2øÓ¼Wë¡Å¾Ä\rğ,1 |„Õc©\nC~´zšmÛì>íªj“€ëÿ#	ƒ¯ám¤Ÿº„mßØJû‹¸ƒı”ƒŸÑ··ğ(Î JW£*ˆ[\r‚~e1¼ÿ|„Iâ•Cğ¬–á¡GÎ´šÁHştp$ç´NCZF¼ÜÎçctrDŸûôeâœf6ôú„|†1ƒĞÖ¡6Ó5|IGw&Ÿ·k²\n÷&ÙCL‰$%ïbê$mk4[æ^au˜ •a´8g=yÈVBˆsEó²érÛ~éêúO?VĞşköïkîGDã\"?°¹WEŸöœ‰œÕİ]­~ÿ",
 ["metadata"] = {
-["guideId"] = 3505851528,
+["guideId"] = 3457621065,
 ["retail"] = "",
+["subgroup"] = "|cFF1EFF00(80-90)|r Campaign & Sidequests",
+["next"] = "RestedXP Midnight\\a) 90 Unlocking Systems (H)",
 ["group"] = "RestedXP Midnight",
-["internal"] = "",
+["key"] = "RestedXP Midnight||cFF1EFF00(80-90)|r Campaign & Sidequests|ce) Voidstorm Route 3 (H)",
 ["imported"] = true,
-["version"] = 20,
-["key"] = "RestedXP Midnight||a) Bloodstains",
+["name"] = "ce) Voidstorm Route 3 (H)",
+["version"] = 1,
 ["length"] = "616891112",
-["name"] = "a) Bloodstains",
-["displayname"] = "a) Bloodstains",
+["enabledFor"] = "Horde",
+["displayname"] = "|cFFFCDC008|r - Voidstorm",
 },
 },
 ["RestedXP Midnight||a) Voidstorm Adventure Mode|838"] = {
@@ -12039,43 +12027,42 @@ RXPDB = {
 ["displayname"] = "Isle of Quel'Danas",
 },
 },
-["RestedXP Midnight||a) Blinding Sun (A)|1235"] = {
-["version"] = 20,
+["RestedXP Midnight||a) Zul'Aman Route|856"] = {
+["version"] = 0,
 ["cache"] = true,
-["enabledFor"] = "Alliance",
-["key"] = "RestedXP Midnight||a) Blinding Sun (A)",
-["groupOrContent"] = "e±ÊÂ0F÷û²Ø¡Ğt(\n]j!›Pü—\\Ú1\ri\"\n>ü_uR×ÃùNY6²Ùî¤”5€ˆ”4;WŠÏë\nÄçğHK\"{ğÀÖó8%^_u{ÇŞ²ñ/{ÜtËKpúşF©ªê{¥dóˆX~à«„né)´Óëúü1™Ş3é(BÛbçkoÖŠ\000‚½qÙÒoÕù«şÿ",
+["key"] = "RestedXP Midnight||a) Zul'Aman Route",
+["groupOrContent"] = "İY[s›J~×¯˜*?¸ö\" îyH	İbW|[‹'>'•ÁXš1ÚìhË?~{\000É€$›Í²»UçEb¦§¿¾MwO·kª¦í¨ªÚëtN8I0\r;'sÎÒ5º%qB‚/7è’/’ÎI„Wá¿¡û4<uW8B·,MHç$ ñ:Ä›ìõ³?™L†£¡¢ÏuwßvNh”á°t×bè‡i@ö÷ùvÑİá]§]à(èÃŒa(Fn·:t›ôâÅœDÉiÿHá£>Læsq13èîM\r›PƒáA•ãAÁ±<g	C=Í1$S“mU²UÙé|øpCı%$!ĞÛ/7ßoÎ‡Ÿ¾O—NÍÑÇp³^€|ƒ”‹¡ø³-t~û=†UnêŠî(ï•çäiÊçMÂ<ø†GÅkB4c,Nªkì|Ír#¾Fnìƒ0ŠEpÒ‡D®¬°|ñY ;Á€‹“ˆ<¡G:‡•şqueeëî”‡FÆæ7Ä\"ä3ì)’;2ö”<’0LÕ\000!9ÿ¹Bƒš\r\r\n…ĞøïBçî#x…9š®8uEI¶\"+½L„IOA>˜S†4Uµ$MÕ³}ø0¯3å¸	.\\fDÂG‚hSà<{³İà„Ó\000×R_<‰·»}4!ğº`†İŒO4=–òFõA·{¾Z3`Ğ_†õ—hÃ€ğã©Ûp‚—™è!È1ÅÙb[Åéš%éŠlh’îÈš.öìí<`Ÿ¼óS3şÎç,˜òwY¨Â~\"ÏÂõûØè0	†YóH—'4ÆD”!{]ÙjnIó}üHÀ‚“”G0“1Vá‡,sÛO{\nI\000®é¦8å>æ¾Õ-UQ\rI;NUÌ8½'ª¬Ú­»`¸;IC˜¥qòÌKX`ÿÌÂÁ±£äm0Šù*U¯Ñœ–Á|¦8DìáåìºšPWQ©: rCAV›· i¯ARL»®'3>£5HÃïX\na×#ş\"¢âÄª >\000Ñyûœ®\nTŞ°:åUEé»Xhh RMÖTÉ4²C«Py8ÿ\\.êá‚Æ$¬êHw\000Ñ%Ş¶:õU©–RW‘¤™\"°·ÆÃQÆë5­±\0002]Ò¨	}åßŒœgóDXşî°éîOıåJœWÏÓûJ‚“‰ÎME2mYÓ3ùÒ|Ÿƒ^¿ƒX’ÌÒhç»©Ï9Ùììáp)RŠ\\¶“ÛóñÕèâëwáÌ?0çø™g™‚OÖ	²MÓĞ„çC‘÷İ€£TñÊ‰ÈG´£pˆ_ˆÀ¦%«ZküŞŸ§4A#ÌO9^\nk(˜v4ÅP«LO($Ëà	xµã¶¶ş Œg]Ëngzº„ô&“°ÏVë$$gWR;r¼¤ë9ø]Ó\000©š¥Úö·ùÊƒ\\j‚KG„÷Ok{¯Æ—…TÛ2¯›ı¥±óã­æ<Šƒÿ˜êÊÂ8‹cO	ù	šÎ÷ù3ªmô/qˆÅ>%@†¬Â…zFk€¶û¼ø£Û¦õbŠP\\yâ9Ãñ‹óäkCr#º‡Gu$Ó‘-»5<Ù&%0=İP^À|E¬ı} šA}³ãFÍ•3„¤g_7š‘aéµ†¥Ø¦ÚÃ4‡¶K–™ã|‡'[ÜÑGúÂâ}º\000¥9­zÙI.G?½drƒ4ŒoĞ\000¬Íw¶K›œVWMà˜ë_1ñ7èÿîDÊ¡gt>½¼şıÊ«IÁ–UUœ¦\nRõkvÌ{=Í2]”°9;÷öêûãŸph»¾Hµ\000GÂ¢oÕ™E°„® `0¥Û›]†re9JşÍ1ïÜszçÈ;¿ß\"êô(¿¤s•$’jS“,ÎbÁT%¢ÌF\"—ÿÊR¨X\"([ĞÓ‚ˆt¼$g”DA¼£QF²µPx†ãÅ)ÙôÅÔõÃˆˆ1ÙºÕq£†Ë›TG5ªã‚êÂSü@eã±âá¾s²€Âbˆ¥#ÿ\\#Û’ü˜\n\nR•ì¤	³uá\rÅc¿¾³Ûİç¥å7Å0©‰ác+TÏjT¿´Bõ¾Fµ‘î RHL9š†éjFxÜß>€L‹§m{çŸ,\"B—¹3¨GÚNÙc ÆQlÉ²eGm¹.(ê7¥KÂ¡Öñ_kˆ²§´¦AÍĞÛ•?M€«ptíwd¥Å~I¼TòĞr20Ô~ôŠ½wö2j|p–JŠğTÙ°%2P«µ“óXµc—ªÂ±û„7G‹œ&Æ €¹—ñ(²eJ¶Şš%ÜpØÎ)Kãpƒn±¿$:ƒØûb³”†¢Û]ñGıo{^905]î©œv{îòİqù‹ZkCÉšjsÒ E¨XÍl~´m3_Ñ¥QÒ‘l&›€±Û­M|9Ö7q4]­H¨gÈ:HH—ñ®ĞÓÅQéˆ{¢Ç,øCC¾Y'±Pº°SL4j„¥õıí8ºİêx°_Ûºè])íU‡~¤Ë%ËüsW‚¸JåaÖÿÑ~ˆÃğ}Ey™â_¶»Øùx±uÉ½m\r_ëÖp¿ç@¢ıwÄ4»Ü#	‹N6Táfktığ‚‹ 3®Á€ÕzÓšı‹nÔ ¢”BºmÙR¯'·×Ù-ÚêsE]âxYë¾+¿Ø}oP5+\000!p¤è‡µ†ğ2g2@8I­oşB¾š×çÕŞlŞ®gós„Œ‡xµÆtMÅ¥(O£q4ºü%øÃYòù±¸S†™ë‡bìvk²ÚÏ$šù$»wõX8;èïf'Œsn÷Àd£‹Àj…<**äq“¥¹â®‘\000ªÜM\nî&‡Â¸mIVOÖÛkÓ¾ô]vF™÷]Ê=¾ıÆËK“F)edS&2J4¥3qÇìÏTkRÆó.Õ'\r5HsqÉóÛc‰p¬U¦†gOUtİròËø|ÁÅõµ—}ç÷qË¾Õú¸z–‰~ª~HC$¾ÏgîYgóÀi¢µï˜ï—‘@-VÁ•«jÓ”{™6Å‘aT[º%«’¥É¦µÿÊ·k–!®\r÷ŞrÏ”,]Víüİ_E¢ÃŠDï÷*–c¡W0s¤Íg´wõ•ï²/™^ãÊêxKÒ¼êíõYË;½tõ³äÖã¶$ßFõ?m‚`º¢[§•ĞˆP*.ö4¿! !zíTüëçĞÿú",
 ["metadata"] = {
-["guideId"] = 262737205,
+["guideId"] = 4087418132,
 ["retail"] = "",
-["next"] = "a) Paladin Rescue (A)",
-["enabledFor"] = "Alliance",
-["name"] = "a) Blinding Sun (A)",
-["key"] = "RestedXP Midnight||a) Blinding Sun (A)",
 ["group"] = "RestedXP Midnight",
-["version"] = 20,
+["internal"] = "",
+["imported"] = true,
+["version"] = 0,
+["name"] = "a) Zul'Aman Route",
 ["length"] = "616891112",
-["chapter"] = "",
-["displayname"] = "|cFF00CCFF16|r - Blinding Sun",
+["key"] = "RestedXP Midnight||a) Zul'Aman Route",
+["displayname"] = "|cFFFCDC005|r - Zul'Aman",
 },
 },
-["RestedXP Midnight||a) Guild Items (A)|748"] = {
+["RestedXP Midnight||a) Furniture Favor (A)|772"] = {
 ["version"] = 1,
 ["cache"] = true,
 ["enabledFor"] = "Alliance",
-["key"] = "RestedXP Midnight||a) Guild Items (A)",
-["groupOrContent"] = "í“Áj1†ïzŠ…Ò´uğ–68%\\·=¤Ûa¬{‡ÌJidw‹}‡¾aŸ¤²I ¦¡‡{ı5ÿ?¿>¤^ï¤<œ–eùÖ˜\"\"‹)Ö\"{¥)VÁ§¦•ªëK¸àÊñªVS8lğÎK_”š/GG¦¨8¶‚İş<;>¢s9^Àœ„ZÆâñ.šÂÖØ*sv#FgÉä=m>ñM+¤´a­ÁÑ·¼OpAW»Õ|/)«líd2÷û³;nAk°KõĞo‰ªm0¯ç{4B¾BÌ)Ù|ŸòÍ²m0T–IdW||Bk’ƒş¯?OûæÕÖN¯/o¯FÓ¯·‹¤À\nx',kWY±-@k}rú:Ÿ Áj\\gn«î‰uò?Gå•`Fš+Ï¹¡PöŞ7ì’RÜ?ë) ãïŞŞÁpxîw8fêC³aW=8İ'ÿc}+;+©¢?ßşÍá«ÿjVw¿Ì/óÁ*qŞ–õÇö‡½/Ğ%”$ş%ø÷",
+["key"] = "RestedXP Midnight||a) Furniture Favor (A)",
+["groupOrContent"] = "í“ÁnÓ@†ïû#ùBT1‚*EU¥¨`NEU©= U“İI<b½ëîÎ&åÀ;ğ†<	kÓŠ¤E8sÿÿÌüŸwF£“òdrZ–å+¥Š@‚lU±¡Ù;(U±>µ0£(dn®à’ãu-ªpØàT)8–*Üø\000Ï¦Gª0[‹İ y$ÈNú\"ƒ“cÍnıË¡kl…‚:;ƒ©µŒN“Ê3ÛüÅ7­%¡-K\r½W—dásc·^%a±;]UÕÅ»‹ñxş™[š#ô]@<´Ák\"³êÅb¨“DÈÙbî’Íw)§Ì´Å`\"¬’µc¯‚oÀÒ†l„ÉøÇ·ï§cõ|§g7W·×ÓÙÇÛe`¼³,	Ö6¹¢	Z\n€Zûää%t>AƒÔ¸Ém 4İeú¿Â\r\nÁœ$¯¼à†ŞB9zÓ°KB±—ÿÖ> ã¯ŞL^Ãùùßã˜‹Í–¹wºK(şÇz€u_ş(ü¶&¦ÇÚOê_rÆ‰²$ÁoÿvÚ&COéÓÓº·üz-ıÙúÕ°Â:q˜ëÓ\\¢Kh3Õø—Æ?ÿ",
 ["metadata"] = {
-["chapter"] = "",
+["guideId"] = 1064636058,
 ["retail"] = "",
+["next"] = "a) Fishing (A)",
 ["enabledFor"] = "Alliance",
-["version"] = 1,
-["key"] = "RestedXP Midnight||a) Guild Items (A)",
+["name"] = "a) Furniture Favor (A)",
+["key"] = "RestedXP Midnight||a) Furniture Favor (A)",
 ["group"] = "RestedXP Midnight",
-["guideId"] = 13962447,
+["version"] = 1,
 ["length"] = "616891112",
-["name"] = "a) Guild Items (A)",
-["displayname"] = "XP Banners & Teleport Cloaks",
+["chapter"] = "",
+["displayname"] = "Furniture Favor",
 },
 },
 ["RestedXP Midnight||a) Midnight Intro Route|862"] = {
@@ -12117,46 +12104,40 @@ RXPDB = {
 ["displayname"] = "|cFFFCDC003|r - Eversong Woods 2",
 },
 },
-["RestedXP Midnight||a) The Sound of Her Voice (H)|1063"] = {
+["RestedXP Speed Leveling||a) The Waking Shores Midnight2342342|809"] = {
 ["version"] = 1,
 ["cache"] = true,
-["enabledFor"] = "Horde",
-["key"] = "RestedXP Midnight||a) The Sound of Her Voice (H)",
-["groupOrContent"] = "uÎ1kÃ0Åñı>Å–z0XBYB@x)”&„]„t8I¥|ø¸ÍX²¿÷ç×÷k»~~±Ö®\000ŒRõ<ƒù&-,	-˜“JËøN¥RüxÃW‰OS“ü™Ğwx˜÷ÒRDùÂ‘ÂğiìÀD.yö—¿é587»svuUì—0ıÔßğ”ä,­àÈ¥Š^îÑ0ù\\Ia³ÁQ4,´†S˜[¤ÿÔÏ‡H¸ı",
+["key"] = "RestedXP Speed Leveling||a) The Waking Shores Midnight2342342",
+["groupOrContent"] = "í}{sÛ8’øÿş¼›?fgÇÑğı¸ºÊïlÇNò›¼ÖöNvo+5K°ÄEêHÊSùğ×İ|\000(Éãän¯j*5H°ÑİèºOø–F–eÙ?ä¼dqrğÃ\rÏ‹8K\rëà‡ymÖÆ9/J>ûÛ;ãbÍùÌxÅox§óƒR¶âûÉ¸\\pã=[ÂoÆÅ\"Ëya¼gi<_”¶ãâ?ÄiÉó”%0Õú`2ÍRøLù_˜ÚLËñ}à0şıßY>ãõsó¬ÌÛ´íÃÀŸ8Î¡ãM|ûàéÓÏ—4á5›ò_n³<™­Øú—é‚•W›««„ÿî»óœßM®’õ¿Ùæçò’%Kfú<=ÿÛ»ßÏÎ_¾yöêï¿­®XQ°Y–g¬(sV|úœOºÕ:á%7üshLŠe¼gE¯ã™áy~àLJ–Ïyih&Ño‡ğ/[à§›¼Èò_¦9L¾`qş­‹MËö“$.\r G	X®ğîåÉ¯¿gÙòs®\000k+À®¯şæ…êo~ şZêb`Ö¡ãN¬`´Å\\”YÊu¸wÔÏ‡Áš„æhŸ?ÎÙ§˜ç:\000\\1= ¦3ñıÑ8ñ‚§³œ}$\000ÊMÆiõyãéÓKøÓ€¿O?N7'È_ó¢8˜°é”¯KzÎ†çª?_ßgq»êœ³Ä8]q`Òtz÷/-¿ÖŸª–õC³ÚÛ¸\\)ÿXü°+ñ¶«q°œOa`Ïà¹t–İJX²-İtêZ,ø3r\\¶.QîÀör\\ø¨Ša}†¿X_Îÿk£DÚŒ7	]ÆF#é\000'I¶™ÍÙ§Š¹’ù–iu$;Ë³•q±™.Œç9g¥ñ‚£è,:	ÓŸ‰V†‚òô&[òüQÖÑ4 ¯] ,,|Ó÷4¿ùıul‡ŞôzÏmg¿ÉJ®^»«¥šï†ºçù&…U/®8Ëgˆ{ö(¹ew…qÌ“œ]—¨[œõ¦Ğí’(vÇE/_/@-3D['c|¯ƒ÷/–ÄåÀUlr–Nynû²V*Øe\\&H¦³³³“g'¦y–%IvK´;Êóì>\rË!¸Ş¿ùı=‹Kã4,>q%|°;UZÈ!Q¬h˜giÁò<¾a‰µU¨ÙºÉ”	äµ€Ü—ğÉÏùÀú£·º·irg\000İa“ÃòŠ2[Æ*»68üœóÀòA1ˆ$,óx>‡×Ùl£A—×XšüYøÔËkã.Û³Ì\000„^q@)7ñŠğÚ¼a¬PüiV6óV²¶/^kÙë›({›=ı/õ¦îÄ®‚®2Ë’)Kã©ñœg3^X@õ_ã$©×zúæôõßÅn˜qšğÈl–ËŸ_ÎS„\\XØ)Ëa¾şc½M&Øq«ìÊx—Ç+@P^Y,=pö7^Á6¸+F­àDkŞ³Ì|‘Kİ‰¶FÁzÛÎ‡Õ´Ûu\0004»š3‰ÍO;lÍŞš#æî°'ö£`­¶‰5œvÌòŒÔÅu‚BtÒÒD~•áî^ğIÕÏ—®gY¾ûo\000Ï?ªù^½}{ù{Íg¯³¤ä©qû9ÿĞƒõXÃ•½oÇ+’%<\naİí y2Î\\ruÆóÛ¶€æmÍo”˜\"6û¼èÓ6	£G\000Y›Z\000mIÄDäÈ›æh6üPŸ–‹œ—‹tb\\­Ø¶œ(ÆŸÆJµƒVÁõçª)’dÙZZ„!c8À¹æ¡)Y.ĞsÕ1oBkuÈ¡\000ˆ’jè1Éi\nÜÀ¦ŒÜàä;ÕËX{Ÿ3@n–©X:“G_³?²|–­2°6’c*²clñ°ÇÛ³¾¬éå™-¡n€è¹ÒngæbXëÙ,g3øÊvÆé-py*›uMÜE„~Váße–ªol3M]½«›dTÉã{Øã\"€€áø¼’Zcb­•²fàÖ¯í•5ŒU{e\rcà–y£A-¸e½­@~Y±Î1«$É'<ù&Û”Æ»M¾Î\n.:äZW®Ìö×T5ûyÂÖ%\000Ÿ£á:]ÊôéEÄéÕ‰»vÒLí2’$®pÓç3²{Íñ'ïY\000ÆŒãœ/pÕ\\\\‰âı×£OH‹„ã©ÿM~Ãï²üÇÂxSÉÀXV#>ı+ğ˜“¾cºµ=y[dº ;ó]vËóÿ°>Â3Nà™¥<ƒÔáÅ‡Ø*Ípi›¾çÛ–üÜ3–Îq2Ò?¡ó|[±0Ö U\nƒS¶æH”)’:¡%M7e1å)WÁ·•_åw—×DğÆb%],±Û¦¸)L”ã¶š·ùÇ¸¼á‹x\n†éÓ§ïÉŠfÀPqÂQAâOõcãe	S[bÿz4-cxàeÉWÅ¿•ZƒU¬èıWôòoÕ‹‡>ÜuLøÎ/4k=¡ÑÕ€ù¡Ğ¯Hm¸È~P(¬5Bpc¡¤\rCõÌ3WÀÄ°ÕX]^à›ÕuÎ×YÊ¶Úæ›òNÚuKµ<Ù±˜h<ø7ÔùÃş„\000û÷\rhokbƒ4ÁwÙ+€+ğ#]İ	ÍÀÆÂËI¶Z½ö\nVÅRÖ·(jÖkxUÇ{-—F‘À¥ÏÀZ½Yß/x².ªí~z'âóaÔ=ÿ2½aE³:+EP'’ß/âÕšç\000}ß‹ØK3›ø–°bSxµ¤äh¨<Üÿ¹…WC,Ç?tÁ2÷F34ºUí2ÁC¼ù¦€Î¡'ªP ±µ’¤9Ğj×Áîº Á–İps8æXW¤@«H·({pQ‰nU~4	\"Şä«¾Aœ=`¯í¦m¼ı5—1‘ç„‡®3±}u5{­E™˜%M€ÍóÇLİ’Ğ«o¸»mó‘Eq%/Q¬˜íƒ‘(³÷‘Ä‘pÚ~¯8‰wâ~ºÌRÑ¯’Æ\"§øBäa%wÀpe¶6²kb»KÜÍUò‰Â%–5	š3iVß;t|`—-D¯H-¬KˆVµ6Ö³?6EO¹ñ§ã,İÆÛ«?8ß?I`¹(8=™Q²\rhgô>g€¶’ùçbç«¸XÈ¿Ÿ%ğ,lÒ²Ô¬6Ÿ>%u*€„<ƒ÷&æxjiìñZ$ëz–ĞìthFÒü‘õíá(ÿ8aÓeI–J®¤M°Q£İÒ=.˜æ÷Ä@ıèĞq<^ìì}/EJF¶šÃâÙh\"×$£×T\000Ì?³ÃI8h|Å¯µğu\000>¡6PÁ³'‘øs½gt\nEÜ¼D2¸:Ä<€Æ±ü|i;ëYò‰`CÂw	Kù07\nJº)8Àn†9a€†#tæ °­×³¿½*âYÌRã$.Aî×¬§@«.×XtôEºå>£CğÅid¼œgùŒ¥}ßÄ<_\rÿv”æ}Áç¯m5‘öa\\‡vDÃX&\0009ãÅºÉ§+@¯iüÊnb¦c35ÁÕq$¿°7‡é|ÊÜ²ÆÛÂQÖ7”)îèo%³0.†ó5¢¹{Ğ“\"*?êåxeÂª¼œÀ'äŒ§Õd„ı%0ñoídônã6ø”\"ËÅ€İŠŠ¸Ğ´•#J$3¥1Ûê©§oM|—6-İ˜W‡„ƒg›ÿ,ê\rL:Ñ½|™ş±Éù¥Ú.3Ü1˜JÆ(ì½’÷»_ùË˜L:²º£oy\"zk‚9Ù~ã|#èí‡AïE“²9B÷[Bï<z‹6Q8æa} \\ÿ\rDBÎ>õvŸEa·ûÎĞBÏ÷,Î¹vëd21Ş³R83Tæ2H	2`Ø’°ÀuVİSÇBÊÇ±ñ°Nó&”£% séT,ucW¸õœû%^ôLˆ(ìv”ëºMvE¾YÆå>*ıúŠ‘TÑÑÙ¸ôëÑ¹3c\"ñhø-.ÃÅ8šâî›\n:Wùí¡ÂÃ%Ám‚.ÿ\nd9ú´”’\\jŞe@‡‹š2èöêÉ‚HÁ.YW&}P]¤‡i26,u<çK¬×è‘\"Ğ	(í=:\nNÔ‹brïó&t–ÔÇ~ÂÃ‘xÖ5#ƒÜ¯wŸ$ìvç9	 Àöşx)~U5™(üMS8îx_å,¿Ãe%ücUæ¦Íjª’ÇÀ$ÕgswÃŸå(Y$¥7Ÿó²´›—`û|ÙIa˜£v«ôTuà¯iÂQÆÎ(•í\npS\\Üò$i%œ”â&\"ÚÁx”\rêflDÕÁ¿¨ÎË¯6qVí¼¯S\000ı]‚t&TTVåğ~˜ll´¼¦û\rVº“fÔ°ËËô„õÌ8ß\\İu!w5â\r“P4©«G´ë\"Ğän+_Ö@¥O§ì|§³„ª ÄbŠcÎnYµ×Áq1~M³éòŠÕ9KÂ1«ï†\rkëfÕAæ£-‚\nT>Â1ÇFôjò+8œîæ¥‚O3R×`ÏÉÅ’5s¨õš\000qHƒÍæ©‹±i¨Mmî‹Ç^ßu¼.ÊmËÓ&é¥øÏÏ²ôÇÒ(kõÓS¹saÜñr¢›GL&`bÅ ş5ëCÌÒVH´½ÿŞÕC`~{1ŞGí~è$i\000V#*¾Wm>Ó‹^­'m“&T=nZÅñğ&ˆZk¢¢LP<–î-GkĞ[ù?ªk6”~“n?6’ä–İ­3˜ÙH²)åD÷\rË¿¥·…§£^ŠŠŞdl|¹Êlk°ÛD+O8=BŸ´†_óƒÉ,. `ºà Õ2m½ø\000,}>v‰ÅŒ°V¬Ô#1ŒÀ0ša!7˜Ö¯øDŞ›÷ëÿ8`EŞ`ÍÏÖ;‡“æPÂö¢æİÖUh\000Æ34°ãÙ§ó¹t~dš&q.ÀHéëlŒ°Y¹®“;ÄÄHS;mæ@°Ï’=\nQ0gï¨Æ©¨-šeˆPî.ÄñÏêCÆcòë¸løş/Î÷(–ğhÒ\rÂ 2:óoŸZY_f³õ;ZZP±¨XoãF.áì~¯\n®\rÈv­8ˆTğ«øš‹<N3åëáDX¨²‹õkæˆ­yjYõ©r–p…Oé X“ÜôÆ23ZôNö¨k)#”·ˆjrû6¶–t”ş„+[uê¢{:Äƒ÷êX:gb\nÔ}âÍÄìâ5Âßâ_‡%êÔAØ¥jà[ºH:˜İ=f¾ûÑò#K€jã%;Œ:¬â{jRµ`f¶bÚáX ö+ÅÊ/ˆà£¼ó.ı±0N²M–}õ`\rÑ…÷ƒ¦zX_aAÓ0—¶ûr«†ğ¾Û*EÛßR}(M®²/º^€û`<öx\r6€uš4g“h¼‹Å·u’)1uÔuF÷?Ùb™³TN\n!P]Mº‘ÙVrÎ„NğÔ+k>¤[•E«±„ğhbûÓôÅĞœÅ)%ñ¢ëÛíQzO'ålÅˆâå\"[±Â8ÎÛÌ´¯õ>mÍ)u£¶;Ú#ôGÆóøºÒà¯ãùFÈXé}ë­®ã-„Z8øé'sœé›šß”ú}»LiD«ïcJi8^˜N\\5„«Uk?¬Ñ­íñe	gE/0.Ï“ÖJû;¹~uo1†u1oÓ]ähQ€\"Nû»çáæõc(_7äzÈ2®Z8cauz}PåE—‹<ÛÌ$0g¾è‡˜,K1á/š\000roâqyÂ“,_múç}m\"q.w§èQ¸Oºc(ÛTêVZ>är°-˜›OèÆ¬:SÇK>	yÍQF€'Y”Ö²'Ã€×o+¿è¦›xdÜ‹üb›¿|î+vO\në„UÇ6£°\rÖn¿Î0œºY}™8ÚÆF4fjåŠ1oâXZ6r)µ9`#I=,“¨¬ må—-2iÄ~z™ä8*íG¨İ¼6ì[x-WòPß`ato_€Ö§¢$›ÆeÌ‹ûpYP.¾–#|ÒR¶FXùÿÑÉ1gR= ™ÑÂóß¬N‡¤1ğ/)y[§~İI@)µ‘†ß}Ì~ó)ÑvX4î¥K	Å=¾­~Ù&¿ª.mh.z{ı;áX4åü>Ç^,ï°ÆëíUÁóVfù]–5Åæ³{°mèÑJÆÃÿo<4j6i9BeÒE	>2ÃÆ¤ë×)¾»+¾z—¿N²lùõ€ïXÁ<…] öÀ@ùdŠ±i×tM½¿Öı”ÿqú¦ÅYz¼)Ë,ı R÷™ı{ÀÉ7­ÃdX3ğ…*¦oo# ê½Ñ¨=7‡¤€¨b1/&JÒ^ÌW¢`–Ø¡Û\n!kKl‹T,*<Õ\\aP¥*c”ˆ†šÆ	ÄJˆ”šªDáW³t¾\000z¥p«F£bv™êŒÆ€ªİ<¯êB *J~Ãó;R•*2Õãº€rJ)gy4jîø’~Ô©A!b¨ç\r¿5.8	¼Èò´è=)`Î*E\\˜0L2ŒÅ½VÕ¢âMÕ‚õRöª~°÷‹X÷Âîl§›L;0*²ùxÓç€F 1E	r¹yj'HcIŸg@;p€.s–×°ÛIôsŞş„¯­1Wœ„f¼à#ıTç	Õ½²â²ß4ø¥î	½ œ¨ÌX±tÃØm”¤Qbö#®´jbM}¸tøÑl;[px£¦\nÑPhJ1$Q+‚Şá¹º³…GÅğÔ–­-È‚^®9¥\"–úsã½å‡•; pëxıƒXd^Ô—¦h¶TÔõM€Of¶ğVm¨Åé4ÙÌè6šc~—ÕİI±õÏÿ£ú©şt}^ZOz¿¦3M¿,½K}áx…ÿ/—Y÷íô~•#N°9(„,Ùà6îü£úåAC½i¿çø–é™o×ïüXT<`È®ÔàÀxÆoâ)ÿ`0’ª ‹±´ñL£œ³•ÒE–Š+«RÛ4W­D(ê‡n®¶àhŠ¶5–c‹‰ç' a&jjË´MÇärô·ùî”:çğ=¼«¥û®k5y‹Í'k*-[è,\n„³£d]âGPjQZ`¡#OëÔ½‡vM€¶K®ù]‘Èœx&qøxéB\"‡·ÖvÅáÂÙÈ~,®'‡×DCÒòÔ\"c<DÇXvg‘Ç°9Ú±âMáò¶ŒZ`LyÕyYáQ×õl×”yô,&­cp&;ë¶––ã…¶Ò_¡æd*!6ÎÀ®Á ŸÌÒt„ÖoYé:RõÂú^g ‹×M…ò3”ê›ªcU¿\\ï‹bÁA£¬Y¾| 8µqª*{°üÁ+€İâ~êmŸ^²¼L_ì¦«yúV½ªÉa†DcbÚ9®vùÁø“õ2ùRa	^åW‹Ö¨ªrš@?“T»İ¶L'ª‡)]¢R«Êó„/Ø?]WyŸ8¬.ÃU~q”_´÷•ôs ·™\000c	€íù‚ÍQ|ëúèÏâ÷ì¡½Ã¨éw-Hu\nôJ=ŠÈ´\"İ†°ì‰Sy­ãÅ8FÁ÷º%Ø¿Uj\\mÊv)Ğ[ñİ°;BÖÇûEfSp ¬_›.7ÅÿkQ°æ¤1FÃÅ–œ«—ÒıĞT¬‚§|¸À¾o™bRWŒHuõhäŒwÒº+İ¸¢iƒ‹A¢\nù‘R,Ÿ$¨äËvæ½ÏÀåZÔY8¼7!ºGŸ9ñccávG¾WbTJF–€V!ÎtÌ\n–`Sã‚m’şSbUz‚÷XU†D	È»y2ÓõpÙ$©5*]<J÷lÊ·××ğœi;£U#œRõñÑ\rKX:]ğê×çàdOÄKŞXÕHe³K?åÙ'JUPçÙtYP:	¦eç6.Ğİè–K0éä‚É;XÀX U­Y‚ïÑŒy¾†ñ5yÌÄ(pPäu åäi\n–(ÇB“øúZ“Û–·öÔ	Mß=ª½Ÿò•KÃO]É°¥ÌvÙ+³m}èÀüê©ˆÙÀ‰Â›şt\nî×÷\n¢×›Eh^nŒÅ¯·p\rŠßÏWŞƒ¶p\nø.r<9«²í[K³Ñ‘8«€ïÓùÜ8½aSnğ'–_«NØÒ03Mü`‡ApªµWYEuqŞz“T½Càêş\000¼iqËÙ’“¿±vÔH’Ş\\ı\raÛ]—Ûu|éŞ®eÃfuEU½!E'øØœ+´@B<#’Ú3ıÄ\r*l’6¶­ÕùúÒ°‹íñn˜8ú„õo hŠ«<´¢gÄÂ®<êh\000m]{†6‚:iök’}Š§ÓÊÀk'f\\º4»Şëß*²èıFdéŞnÔKÕcYİQı¥DÑah6UÆÀ'åÈt‡TŸı\000ì=,©>{È!ÍuÌ%ıÊÑ©Æ¼ˆï_Z(lè`.àlÄÖ‹;-÷UJ÷LïªVA\nDÈ@ËÍ\000Ó˜ˆŒ·ûXåœ¦æñK	ÿÿÙìSß^TD¯I»ˆµ”–¨êt-Á:ª¶íÎ¾	+­2 :w±›Îbò¡J#–ÂÆéG¾IËCã27«õ‚ÌßÔT%]\r«\rÔ€-H	ÇE%¨	£fp°‡¥šÓ`û4æîô~G‚‹…­vÍ‹¢ºá—öİ<gëÏÿãí¦<Ëòºú]E‰'º•íãúˆp¼ñÎ\000«·?\\]N‹åE;™åk©3Ã÷QÕ» yšm ÃºµÕ:êôá0·éBkİ²¸ñ^+@ş£İ¡òç±­‡pÙ%-ü‰îÇûL*ˆõ9íĞpwd;ğ–Ñ4ël¿¾òb\n²`ÚúT§«+ƒ[•ô¹¥¢gÇ’	ÚPN¹¤2°mWp½^nÀ¨0®ñŞƒ·4eŒÜ½£o8­¶…ËlÊº÷«\"\\H}9áŞáB«Ì4¯½í —ÿ&‹_L-Í¬A¸/Í´oA¢tgÈ N:fÃêd¹uhû\nêŞÖñƒîfˆ†\\m÷=½:¡ìŠQPliCñésh‡¦õéö>ÖâG”ÿbbß‚åk£`ËJİÆul¹íî	Q\\±ú@…cFØ3ÅÃ\rj9Ê@ßæŞ€¾-`Vıñj`5@hÀÖ<%!R[­î]uëX[Zo¨ÓVÜ±´V²í	–9Ş	ø!ViûoõoäïN7Ş¼;Ş/ó,!Ë¸·¦ò GlK\ræÄœ¯`§ÁV8fŸ°ÎI»¶Ãuo¨«3#ÍŠÍ]»â(Ÿ.â0ÇNg@âØÏ›¤ä³¡û™	2íQüĞD\"6,»õ®)ŒkÃŒÛÎmĞä5Û’\ngIH“”xp±ƒèÁvúÔ.şgÍGãëş´:ê;ƒ]‚·ÏÊ¥\nÉ¨wë^Ìç¶š;6Zt«ƒ2ÔÛá1 £½û£UvÉ,åtéû(Ø<ÊÀŠ”Íğ=YÚU/;ƒ±ÀÃ1ßÕE.™AsÚ8Ò¥»¤é8ã×¼jE·R3Ÿ§,5Ø|gÆ\nØ)TaÛº,ªØBµ[‰ëÛ¢® Ásx&ÕÕwµ}™q¤±ãtêíp?é«<&	|Bcdé6Ç`Û¿B«¾ôú³µtjMÕz…ÕM¢ÕŠP’Ô­›-	Wuoõ±+yÓå¥ÿ¬‘ª´Š{_u'3(·aGbÄÄPíMlµİb›Ğ‚‡ÖËƒ—,á:]|[ATß~ÌU·å÷‘'äE¼Éªè¨8–çïõ‹¯£\"îÀtßx©ögt¨9f#—0rÊÀ\rç$œşß°~O)ß4…ş9&”aËŒ+aòÈªÅ¸2Í€%D”\"Š÷_†}}àP¦Ÿ¹ê6¥Â÷BÍÁ6síjLöÙû	•âk–bYYI#JD³|=Ë<%É·nc‹+ÇyJ&:`«‰!k?¨¥¨OïlGOÑns™bÈÿş$ı&Ğ·üèøBŒÓ—èy Ì{–ÏîºçÒ%¨ã•iÑW	®´¸5'íİ†şÚlÉ_!PL\000{8	vøB€äe‘T\nÄ8y™å;W[NsAÑ'g¸u£«­\n]~U}¦•O¯y‚–ÉËyÊ3ÕÆÏÙu;íŞƒ[¤lˆ™9¦­Xİİ¢¸hhiÆ,J\000¶Tk¥¬EôV=\000Ç§ãù¡±ˆ¤ºoŞx|¤¡¯­ë=ô¤aÄf}!'\ngÃo24ÀJ¨%HdÏ¨'z\\¢A®9®N³ô	¯‡ëê„NL‘Ë£öB\000ƒUÇß[±9Vhí/­`X(V©-…|'Hu%'2ts©Ş>])[¯åÛöNòMQŠE.íÅ}%çÉ4§’ÔşÈ1(k,¿UïúÛ$É‚mt—r8fHbR =8y>:>çÊa'Z{íá±øœú÷ˆ?tôÛdˆÃÊàĞ}¨¾Ey¶rÆÌUı5ûÔZ)Ğß%›ÍØ².$ZÇê¶^ĞŠ¥ş“º]ŠeÑŞ˜e´»VœâéÏ³›|³ÕE`ºbKjğ\"–wÆs*³+ú´7…\n9µOh o÷Ó¥…~U=ÌezTª›•|õA³.sdí•?°çp¢ğÀÇvÃz.ºØBQ~·I;	£Ğü–¨n+PÜ^_ãûáZ<C¦6	6Ën©>Ø»*bPs>^ğS=(jüvbl&&5[Õ(«€Ú@¹˜‰¦ŒFñ5,ô”‡\\Ô0f×cÿ›·¼ç¿CÉí Sé·I³cpüÀ­òXÌ¯së…G{•¢_/øşäÎ`X¬›î›rj\n›ŞÄÓ~	í`xã«#Bd„ª U\n?¹¦·˜Vˆ`F¶’éé˜¸÷`ãŞ¿‡@ÒËÊğ¨Ö|F½Ã÷·…ÀÊ'œ=Ù—IM&ÙÕ•v@wE1\nı«*™§7ğ€gsù×ç¬ä°»´—Údâ{á$¯ÆOóM×ãZH¢Ü{°‡÷àå¯h/rë\n(ª~oJ?ØfoB…4âÕ}'¬dëM\"_³š8X«¶Ï#AàÁA¤Õä@Pób&øxgäÛ@tU$ècËQ­¥²`«5ÀB6Kİœ^µá¤'uüàÚÈÃÁx)½CAv·§mäİ&ìJAã´wà¿…9kËr'tfiO¼ñüíá}©Õ1¶³˜>u$s¾ g\\1‰dté\000¶v^a4>Şt'sƒI×ˆÁ@7èè.d*Ùp0§'ô‚=2Zu«$ÂÙ”­ÊÍƒíÇtÚZT9\000i—ÜöäPóQ<0î›\000”*ğ$ÃB7ÕFZ÷5iè£Í'…l”¾y£¯úJ6y…>YWòá¾íMüºšO¢K¾A‚irà5«i}£3IÈ;jï[‹¨Õ©öÓ‰é„ä¼jæôÑËÂ\000-˜İ6ªvı…17¬+ˆ4cô5M'|¼}Ù§ÔŸûy8ùŸÃŠ|ì½ÖÛiÿçÀú–´µíÂÕ¢ÙaÍÙß‰Ê©=^ñüi/—WĞ4öòÄÔ*6•$œ°#ˆhUøª‹·dÓ+$)õo;1“é°jôÑİ={CµÜÕ„]›<ÙÿTêéÍÆÇ\"jßÖ¨nC±ö!­¤ê\n£	@ú°*òüÎ¸•7©0lò QŞ.ÓÂîtOÕÂtÓ‹«U™Y%¶VëûZ¾fÌÃÙĞ”fx†Ó¥fÄ ­Ì¦EÅ8˜>!¹/å3`ÌªD×©0W wá™îyŠÒ*à×óC97DıŠœâéZÛd® ;^„cç®÷M³Áô§;q÷Ü~|²j!·5)[·L“vP0]Ã¡½FX¤cOëXº‹ävÀÚÅŞ÷º<¿§'óØë?çØv[\n¡R›|æ«øIÔ5C	b]È›;Çã®¼	eœ\r÷ä=Áik•ƒÁŠê¸¾Äuâ‰9ù¢ëÇ2|ËÕ¦òë¾dY¶Ü+¢¶ŒOèTsíFp]ƒÃ¡@Íø´ĞÖ¢™œPÚ¾q´<Ö²c\n-<Nz\"-›ÜëKp¤ ‰€¯mA’@,õ}ÁãÜ8ZÃFàıb˜\r›g{ »ÙÚEéˆå„Õ%£!xŸB ˆ„Æg{êxšëü|\n–Fãµš;fğá„)¬ w–`ó”šL\rÆª¦GÇë~“98˜jm!èò6VKpNÿ—ĞÔÜ>êi.Sô|áædéÓÚ¶I¡Môª_46:t%e­B~Ä)õæÀ£c\000 çxÊá¿.Ñ&ÉåsÍM™´Œnçà»íçÚë2O¥¦ãùßP­eÛIä’2Øê½jmIT¶çèA$¤©SñnA¨ZğÊBÕİ_¨º5ÆL“ÑÜG¡¡‚eh.Ãp§µ~µ­ôİ¢“O°S3CG³qyğ×8…ï¡¶»Åd\"tÛEGh…û\\`uèì’å¬àKã\"eåtÑ„¯”–)2ñFª¦qÆ“îzV¬™¡-8Ñpƒ Ş¥‹ë^áõQ§óyÉ«€]íşÀ+¦Í¯}Ç´°ËäK×d€…¥	ÉÒğÀ“i\\V½«+C§võên¿˜Ú¢¿öóA©äÁP³eÕ”ÃÃ¶%İpäóí\rÏç`q¦Æ{Îgbş]İ¹‹~1²M©Nlë'V&“VâÊÁœ£›Å|—j“ÆÁ~ïs.ÿvÀãºXêb:÷\\óà$ã,…šÁ]Pwæù†å3a;g@~úô¶÷]»6H™LB\rİï;ßŒà\n@³7½µmù»9ÆYÈ¶İ»³I½´Ş½WæìAMG–Í­ÜıfÔT\000\"9º7«ÑNáŒ¸Ù¦pÄJ‡a5\"Xbb3œ®	âïÙ¦¼ÛSã|ÃNôõÚ1º5ËuÅl‡“.­*°¾:íº³9×#-}`å=COíÚ†¨ù°µXxJ\000¼ê‘¸İŞI’L†‚øæ'¯×Âµµ÷Y³â­ÄaØ¤·²æÕ+\n6ƒMwÉ6İ]ZÂZE»°¿†nbĞ	`åš½WM8hÕ|\n§XÄü†cxùeÚr‹å9À-æà°ï8şÖaßÙş6Nşİ£·ë+å‹aÅ·‹ôG¶ÈYÚ\"xO:è8écÚ$<úÎ¶7Å:íÿû",
 ["metadata"] = {
-["guideId"] = 2776305747,
+["guideId"] = 2797868295,
 ["retail"] = "",
-["next"] = "a) A Venomous History (H)",
-["enabledFor"] = "Horde",
-["chapter"] = "",
+["group"] = "RestedXP Speed Leveling",
+["internal"] = "",
 ["imported"] = true,
-["key"] = "RestedXP Midnight||a) The Sound of Her Voice (H)",
-["group"] = "RestedXP Midnight",
+["key"] = "RestedXP Speed Leveling||a) The Waking Shores Midnight2342342",
 ["version"] = 1,
 ["length"] = "616891112",
-["name"] = "a) The Sound of Her Voice (H)",
-["displayname"] = "|cFF00CCFF12|r - The Sound of Her Voice",
+["name"] = "a) The Waking Shores Midnight2342342",
+["displayname"] = "a) The Waking Shores Midnight2342342",
 },
 },
-["RestedXP Midnight||a) Fishing (H)|741"] = {
-["version"] = 1,
+["RestedXP Midnight||a) DMF|844"] = {
+["version"] = 4,
 ["cache"] = true,
-["enabledFor"] = "Horde",
-["key"] = "RestedXP Midnight||a) Fishing (H)",
-["groupOrContent"] = "íSÁn1½û+FÚH•Ej•¢ª\n„^\nU©= UÎz’ÅkoÇvÒ úœø½~	ã%…¦ œ¹>Í{oŞ³§×;,GeY¾Vª`Œš¬*–È¼ƒRsö©…1†ˆæêÎÈ8š×QN7zFjrsx~º' ŞÆ½_ü\r…ÖêuGØN«¢ªu‘Õñ1œz6¨Ä Ø7­Åˆ+Š5d5UX=E—š')Z„M5†ï†ışÅ‚Zˆ5È*=´ì+D³aõrÒáH\rAT„|“$’ptÆ•f`–¬É8cß€Å%Ú\000ƒşıİ×£¾z±©ÆWç×—oÇ¯)B¥L¶5à]…Ğ\"ƒÑëW \\4ƒµO÷wß–Æ;áMqæ7¼¿#ø>DjtD¸À(;N¨Á7Pör)bx:ş$íª³Î€Q›Üºäˆ2\"ÄìWYàõ>®tÿKÀÉÉŸ>ñœ©i4o™Œ7‰Ãë·º%WÙdğ÷[ùüëJ¶£ÿò«˜/ÒÏ:ëy\"qü¡%ĞÎäEŸIï‰¥ ×Íıx‰ä\"Y¸m3!9ë«šİØgÚ%míÂ_6ùş",
+["key"] = "RestedXP Midnight||a) DMF",
+["groupOrContent"] = "íZÛrÛÈ}çWL¬JÅNÁîe£*š¦VÌ®mF¦Kvm\\ª!0\"Qg ™[zÈ?äó%é\\€ ×–è¢9—FŸî3=İ\r¾|éèçëºnGœd8ŠG·„§£È-8ËtAÒŒ„§èMÒh±ÌG¯Â/Ğë7gƒ£ˆf„S`Y28=}•¯Q¶$)AQFV)ºæl%Ğ02!ùœå0yÍ8Âœ®‘nhÿù×¿\rM»A§êàÏ÷ÁÅÇéÕåğâíÕlIÖh…×hNù’šF·%9–¤à­YÎQ¥ \000ñ÷¼# çÁS/1_±°x.ù’qŒ¾$\n¢ñ(½Aì…ëˆ.PDA×(E)	*ijÀâ¾\"W÷mSÑÛzwÀh¸ºÓpL»;°µÂíx]¡RF”ş=ïoÁsxdø–cõÛ;ÖÛÎqwÇ¸×?n™;ÆwècÙ;Æ‚Hª`OÀrÚ0â¼§§SNÒT’l…ÎĞ³	-(NºL$Ï8ĞöÙ@ÅA@’¬Ø‹NO‡Å×cq*xğ:º(Î¨…´÷ŒeË¯	G9%©bYºnÙ°÷X0y3ı§´XP!Øå†2áÉ#°õXşÃ£9züÎÈ\"J³\nÃÍ8T /†r~­è¦éZZ…¤Q?JÚïàÓÃÑ84C4ÂI–s¢W˜RÂ+$Å7á)!ñÃ™ €Ã°<·ÂÑ·dŸOÜ.:ãQ>qÛ>S²Z5&»4Â_5!¼ašµ7¶æ÷AğºÌGAğÚjUşÁVÄúBaZ4o	Ä	(—ÔÒ+0{Vî%ƒJV;Ë2[üÊyWñušm0MVó–£ŠÏÔ½\nF{rŸæVWsçQš7\"Õ¢ñ–E/•ÖoM3.àÀ 8iUJ·æöélwuv¥³İÒyB3-rqÉşÈ£‹8©•_‹¨%QMIú˜µİ{VìâtxÒ\nK—Œ†Ò˜—'›KâP9#å »4Ã¨´oÍI½Ñ? aG˜¤ƒëkà‹Ëò,Å1TÃQ\\Cõmå¥Ş×şybøôô~&s±kã;Æãp…“cÈ“²y>©Wµàd­ÎãäÄĞî³oH*’¥³‹ÉøíëŸ?]½ÆüfÅ şŸa°²´<Pí\r^™•f¶cD{ß@Í0_í×cˆ_Ü7Q‚,ÍıVür32Eğı]!ô\\°4’(}å-òÌ\rœ4KW]Oq|Õ¶K,`	fRƒ	r2~|KÓ%È>–8qÕXFqÜˆÛ[ğº\0004Œ~ºš2ë×\nœ3VO÷lÅòTÃu~w&Î¡˜T‚ê£Q± Mƒ/ÿ+ºhÚ7Ñ¥é-W1ÕsÓ†ÿß›*ƒ#ˆH$F3XK²WŒİ¼b9ÃÁQÀVIL2reKD¡¦j^©Nªøl‚Ü†§z†bhŠÖò}ÅôÄÿî”©Šƒ8õ­)[u±×´¶¦4Õ²ÛWMó`Tş	0Á½(YC4‡\n÷~&/(ëöür…¤´&úÜ(=]³e±&vù†ëCbÀ ÷“øîY5Š‡”f_‚Ì»ˆ†ì®cémOôBWtMd’z)“æ@®´o{”¾£òª\n”İnÔU_q4Õ?œe§œ]Ã­UùÇ„É³	\"…B¼ªod	ßw8¥õ6‚fK†nh)±Îš 'Òi€ì©{Ğ}R\000İ·K¢‡`ôF¯ƒq»fz\000FQ\000=Œ²~jµ[@ıà6@Ñ{:\000eÇ«fi_Ëë­'M­v4İ*×¾`Q‹íÄg¹ªë(ÿğGßâ¢Ò%¸çîy\r°¬»šfGºÜRƒ‹SØÉ¶5¥Õ\\15OoíÏá<p¥«ú‡Cú>Ã«Pä4$|É8mV†okş¦4˜æY&º\"]ñœË¢[O dg‹÷–ÈÊ‚Ü®%öÂöjØ œ—¹Ÿc2÷›Æ9<Nh6Ó>×ĞlÈOù,E—G5WšºwNìkÌ\rTÑ?Â¾Ãtm×—0^q‚C¸¬zl+[ä£hKK÷ Z~OÕ£àXu I²¦aûûajªmÉZÿ€0×1ä‹î Vóê,úõ×5:ËSë+ë¾ÅWác§ªUŠ/ör)¿iÛß{ïƒôê8A]dJXp#^D¢÷K|Cx“‰ºcÙ%[§¦`›¤Nƒ¤í¦r!õ\000 ÌïéÏ[Û×[Û¡ı®j_Ö{C¼)Z$®l,^‹ú¥ñRV¿—m\\ÚÍKmW³¸B'¶fÙ&Ä¨½€™˜ñ]°ÍñÓ]ÒKÕ±å,ÅA/¦¯¡âœcÜñÖÁêd€Zİ+S·¿gÌîišÑ{!èö–çvxªˆ–«ôâ‚ˆ‘´–ï@Î	Ÿ·/,İw\rˆò9õ±‡ÁíÆF/‡¶4ı*4®TÍ)T…3Y¡ã„¶ZB¦oB´+\r·¢U[mã°j”*­È¤7ÏğWr½š~£TÒuÅ3TÍ:ŠOd>Go	lXÌ»u„ÕIÍwn%’öşR«2ğDeàLáíÂ@6$7?‡IÑ\nSÑt@P¤vu}0c	:ÇYúY¬£„@¾×ş­Ì%Aœ\000W„Z/=ùcO{ékP4¾e9Aò·9a”¦8ø_‹Î\\¶U‘ ŠÌ[Âÿ‚–ó°dÅJ'¬C&*œú2wuÈ®ëã¹»òòe³ÓUa­huBNj—ıì$Æh¿*³\\»hÔ^Çøü\\×şˆ>N%:GC«ˆ¾›rgo¤„\\çqŒBˆ´Y™/ÁpÈî(®ÙÅõ­-ï×Úµ÷¢—8ÊÊôh.ÀÁ’¤¥jy9YÁáË©]£Lêˆ‚­$œP÷x¤â9m”¯<ÁçÍĞëˆÃ©+Ş]\n»ÁXa¹\000ßó\r)PgLåÛÊg³ş(ºôkÂúw(`Ëe„f$&	ã™®6d×å’m4ºS©9áe×L¯ò¬Øu1?Q	ª%¦ãêF%a,~_ğL«^Èö0áïh@¤>rjHÃã9n?›ş<ü4¾¸¿›ŒÆW¦¯‡³ñ3å²~áïç/Ğ4?ë-YTÊ8yO²aœ,ñsí…€÷Qü¶“OFâ¥^[Å’C]	Fqõ-¹“Û_ù]J)şıƒÊ7ÉiBâøD7lO·À±Á’1qM˜o›Öà¿",
 ["metadata"] = {
-["guideId"] = 3461876615,
+["guideId"] = 2017855709,
 ["retail"] = "",
-["next"] = "a) Cooking (H)",
-["enabledFor"] = "Horde",
-["chapter"] = "",
-["imported"] = true,
-["key"] = "RestedXP Midnight||a) Fishing (H)",
 ["group"] = "RestedXP Midnight",
-["version"] = 1,
+["internal"] = "",
+["imported"] = true,
+["version"] = 4,
+["key"] = "RestedXP Midnight||a) DMF",
 ["length"] = "616891112",
-["name"] = "a) Fishing (H)",
-["displayname"] = "Fishing",
+["name"] = "a) DMF",
+["displayname"] = "a) DMF",
 },
 },
 ["RestedXP Speed Leveling||a) The Azure Span - Vakthros|782"] = {
@@ -12176,21 +12157,25 @@ RXPDB = {
 ["displayname"] = "a) The Azure Span - Vakthros",
 },
 },
-["RestedXP Midnight||a) Test1235|835"] = {
+["RestedXP Midnight||cFF1EFF00(80-90)|r Adventure Mode|ca) Midnight DMF Route 4 (H)|982"] = {
 ["version"] = 0,
 ["cache"] = true,
-["key"] = "RestedXP Midnight||a) Test1235",
-["groupOrContent"] = "ÓÕ534³°4444ââR.J-IÌÌáRN/Ê/-PJ-.IM‰PğÍLÉËLÏ(áRÎKÌMUHÔTJ›r)§dä$V‚% ¢ `dlÂ¥œ™W’Z”—˜Ãø",
+["enabledFor"] = "Horde",
+["key"] = "RestedXP Midnight||cFF1EFF00(80-90)|r Adventure Mode|ca) Midnight DMF Route 4 (H)",
+["groupOrContent"] = "eÏA«Â0ğ{>E —í0hEÆ^Ì¢‡ÁÃÓ;x©k˜ÅÙ®øáíD‘“üòOQ”¢¬j!Ä€y\nÊÀzïâˆ;šé¿_l¶¦?`S<<{·NJ±–’ó¬âEÍó›Ç}!¢'l&`V	;•¿ö±i%î\\„KÌ690m¦qPÿÉ™¬›¹xÂ\nl”?³(•ñ3G×¸wokƒwâj…çÓõ}fl7DMß¯ì“ÒÀı",
 ["metadata"] = {
+["guideId"] = 1531714125,
 ["retail"] = "",
-["group"] = "RestedXP Midnight",
-["internal"] = "",
-["imported"] = true,
+["subgroup"] = "|cFF1EFF00(80-90)|r Adventure Mode",
+["next"] = "caa) Midnight Intro Route 4 (H)",
+["enabledFor"] = "Horde",
 ["version"] = 0,
-["name"] = "a) Test1235",
+["imported"] = true,
+["name"] = "ca) Midnight DMF Route 4 (H)",
+["group"] = "RestedXP Midnight",
 ["length"] = "616891112",
-["key"] = "RestedXP Midnight||a) Test1235",
-["displayname"] = "Test1233333234",
+["key"] = "RestedXP Midnight||cFF1EFF00(80-90)|r Adventure Mode|ca) Midnight DMF Route 4 (H)",
+["displayname"] = "|cFF9D9D9D0|r - Darkmoon Faire",
 },
 },
 ["RestedXP Midnight||a) The Light's Summons|957"] = {
@@ -12222,117 +12207,114 @@ RXPDB = {
 ["chapter"] = "",
 ["retail"] = "",
 ["enabledFor"] = "Horde",
-["key"] = "RestedXP Midnight||a) Paladin Rescue (H)",
-["imported"] = true,
 ["name"] = "a) Paladin Rescue (H)",
 ["group"] = "RestedXP Midnight",
+["imported"] = true,
+["key"] = "RestedXP Midnight||a) Paladin Rescue (H)",
 ["guideId"] = 743312895,
 ["length"] = "616891112",
 ["version"] = 1,
 ["displayname"] = "|cFF00CCFF17|r - Paladin Rescue |cFFFCDC00(90)|r",
 },
 },
-["RestedXP Midnight||cFF1EFF00(1-90)|r Default|bg) Horde Draenor Scenario 2|1278"] = {
-["version"] = 1,
-["cache"] = true,
-["enabledFor"] = "Horde",
-["key"] = "RestedXP Midnight||cFF1EFF00(1-90)|r Default|bg) Horde Draenor Scenario 2",
-["groupOrContent"] = "u‘Akã0…ïú*¾4£(‡Ğ@N%qm¶¡é–²ô2¶&¶@™±İ@~|'´KK†±fô½§yi:µÓ»™µv¢TÂØ*9 ·>’¶*©8ö~Æ¶C÷¶ÑkïÈWu§’¶/.½S™ev™eãñ­MgãÑ‰õwĞ\"Ø£.ª‘Î#;Ô¤Èz[\"û¨'*q¾m‡É/”&ıya>×O\\ê›ÅƒyáÂPı&‡à.‡Ğ3ÒPŞ‡İ2ìÎ?òá>RŞS‡|MsvUr‹àÉl€Şı×yEdB“K¹‚O}³†ª§f	ÜÕH‹¿À;óçB¼›×>4È`D²ìê#›ÿLš˜#yqKø¯ÓEı}‰+ğ­¤4Qbqè)I©Q‰§2ô2ù™Ú¶Atú(Ï¨ŞáZêã",
-["metadata"] = {
-["guideId"] = 2453543081,
-["retail"] = "",
-["subgroup"] = "|cFF1EFF00(1-90)|r Default",
-["next"] = "bh) Horde Draenor Garrison 2",
-["group"] = "RestedXP Midnight",
-["imported"] = true,
-["key"] = "RestedXP Midnight||cFF1EFF00(1-90)|r Default|bg) Horde Draenor Scenario 2",
-["name"] = "bg) Horde Draenor Scenario 2",
-["version"] = 1,
-["length"] = "616891112",
-["enabledFor"] = "Horde",
-["displayname"] = "|cFF1EFF0010|r - Draenor Scenario",
-},
-},
-["RestedXP Midnight||cFF1EFF00(1-90)|r Default|bd) Horde Hillsbrad Foothills 2|1281"] = {
-["version"] = 1,
-["cache"] = true,
-["enabledFor"] = "Horde",
-["key"] = "RestedXP Midnight||cFF1EFF00(1-90)|r Default|bd) Horde Hillsbrad Foothills 2",
-["groupOrContent"] = "}QÁNë0¼û+Œr¡‡ÊM…J=¡6Dz*à¡§'.›x›Xr×ÑÆ) õãÙ¤å\000=XïgÆ»ãñ,]ÏÓ4*•0Fp^%{äÖÒ©J*]£±hÿmôÚYrUUÒvÅ±w(³,]eÙdr™ç“Ñõ·Ğy!ìPv¤óÀuî¼o«³bİßôT%Öµ‡|R»¡ñOıÀ¥¾Xş1Ï¼Ğ_²(¬¡#\rğÆ‡`W~Û_äà.PŞQDşÍuvÎõ6Ş‘Ù\000Y#÷ı4ŠÀ„&¸¢ÌªXÂšp¬‘–oÀ[ó¿ğÀnˆo^:ß ƒY2”±ş`ó-§É9“À„ïQxfß÷\"ÕQÒ\re%‹jTâ¨ô¾÷Ô Z}‡{”T¯pf%êó",
-["metadata"] = {
-["guideId"] = 3772848624,
-["retail"] = "",
-["subgroup"] = "|cFF1EFF00(1-90)|r Default",
-["next"] = "be) Horde Hinterlands 2",
-["group"] = "RestedXP Midnight",
-["imported"] = true,
-["key"] = "RestedXP Midnight||cFF1EFF00(1-90)|r Default|bd) Horde Hillsbrad Foothills 2",
-["name"] = "bd) Horde Hillsbrad Foothills 2",
-["version"] = 1,
-["length"] = "616891112",
-["enabledFor"] = "Horde",
-["displayname"] = "|cFF1EFF007|r - Hillsbrad Foothills",
-},
-},
-["RestedXP Midnight||cFFE74C3C(90)|r Delves|a) Shadowguard Point (A)|1116"] = {
-["version"] = 1,
+["RestedXP Midnight||a) Flowers for Amalthea (A)|1237"] = {
+["version"] = 20,
 ["cache"] = true,
 ["enabledFor"] = "Alliance",
-["key"] = "RestedXP Midnight||cFFE74C3C(90)|r Delves|a) Shadowguard Point (A)",
-["groupOrContent"] = "mÎ±jÃ0…áı>Å-ö`¨šàÄ%¤ÉV0N‡]Tëb_P$!Éiúy½<IxLçs~øŠ¢”åº’R>ˆ@I±q¦ÙY” ºà\rÅDú½ÆWÖ–»>ˆÃç¼íá°_-w‹]V=åcÀ2gŠ ¬:ª½Òî«TĞX;¶	³mBsôFıÜ_—©¦ït«ß\\8‘M×ßKÄ†#ÍqÛ+Ÿ(Àfƒ[cXÙ–`\"zl[3hz$üG¿",
+["key"] = "RestedXP Midnight||a) Flowers for Amalthea (A)",
+["groupOrContent"] = "uÎÁj„0…áı}ŠÙÌÀFŠLÁÙ	¥3‹.º¹5·&4ÆãXÁ‡¯Ó.ÛîÏùù²¬”åùQJY\000ˆÈ‰¬qã8ÙÑc‘ƒèã8|æ)±~yÂÖjo{“@xéˆÊË¾Ç÷1b=K†	õ„¶Sp´~·N©<o¥äÃ1ûó¶Gù3İ£—Ù¿Q2'¼ÒcËX/´şT;C!q„ªÂÚ9K¾cØq„õ›5ÿÆ¾şÃ„¯",
 ["metadata"] = {
-["guideId"] = 4214494810,
+["guideId"] = 2377388094,
 ["retail"] = "",
-["subgroup"] = "|cFFE74C3C(90)|r Delves",
-["next"] = "a) Tormentâ€™s Rise (A)",
+["next"] = "a) Sunbath, Take Me Away (A)",
+["enabledFor"] = "Alliance",
+["name"] = "a) Flowers for Amalthea (A)",
+["key"] = "RestedXP Midnight||a) Flowers for Amalthea (A)",
 ["group"] = "RestedXP Midnight",
+["version"] = 20,
+["length"] = "616891112",
 ["chapter"] = "",
-["name"] = "a) Shadowguard Point (A)",
+["displayname"] = "|cFF00CCFF14|r - Flowers for Amalthea",
+},
+},
+["RestedXP Midnight||cFF1EFF00(80-90)|r Adventure Mode|cca) Harandar Route 4 (H)|977"] = {
 ["version"] = 1,
-["enabledFor"] = "Alliance",
+["cache"] = true,
+["enabledFor"] = "Horde",
+["key"] = "RestedXP Midnight||cFF1EFF00(80-90)|r Adventure Mode|cca) Harandar Route 4 (H)",
+["groupOrContent"] = "mÎ1kÃ0†áı~Å{0H¦5	Cq+¼J¦]ßáÉÈRÒB~|ÕfHi:Kß{OU5ªY­•R5€@œ8,Ö;T ÆàÓŒ;^\"ÓÛ+n-9;\"ˆ%í¯o—Akõ¢µ”ÅJVkY^>Ñ‰]Lqë‰A8sdSbo‚qdî|ŠŒXô%²Ë<™ÏŸoß=İ=wR>æRu[dã˜;ûÿ;XÃfƒ½ùdöÎ ¬¦D|ïÿMù£½N–ølù3´­‚¯",
+["metadata"] = {
+["guideId"] = 259135910,
+["retail"] = "",
+["subgroup"] = "|cFF1EFF00(80-90)|r Adventure Mode",
+["next"] = "ccb) Harandar Route 4 (H) 2",
+["group"] = "RestedXP Midnight",
+["key"] = "RestedXP Midnight||cFF1EFF00(80-90)|r Adventure Mode|cca) Harandar Route 4 (H)",
+["imported"] = true,
+["name"] = "cca) Harandar Route 4 (H)",
+["version"] = 1,
 ["length"] = "616891112",
-["key"] = "RestedXP Midnight||cFFE74C3C(90)|r Delves|a) Shadowguard Point (A)",
-["displayname"] = "Shadowguard Point",
+["enabledFor"] = "Horde",
+["displayname"] = "|cFFFCDC005|r - Harandar 1",
 },
 },
-["RestedXP Midnight|Pre-Expansion Preparations|a) Endeavor (H)|774"] = {
+["RestedXP Midnight||a) Shadowfall (A)|1270"] = {
 ["version"] = 1,
 ["cache"] = true,
 ["enabledFor"] = "Alliance",
+["key"] = "RestedXP Midnight||a) Shadowfall (A)",
+["groupOrContent"] = "eÎ1kÃ0†áı~Å–d0D)„¼So…à,²ÒÙ>¸ÈB–Óüãë¤KJç»÷ã)ŠİíÖÚ-€IœIÌÓ(C@¦KÃ±á1³ÿ<á‡ø ]ŸÁº2ÒÏ=ùá«%U\\×`¼ŒQéûy]]o6UU×osÂâåwéù}#1*ã{Û²Ëãï†ë)fNP–xT\naD0œNÿƒ.(ğó",
+["metadata"] = {
+["guideId"] = 4129885373,
+["retail"] = "",
+["next"] = "a) Ripple Effects (A)",
+["enabledFor"] = "Alliance",
+["name"] = "a) Shadowfall (A)",
+["key"] = "RestedXP Midnight||a) Shadowfall (A)",
+["group"] = "RestedXP Midnight",
+["version"] = 1,
+["length"] = "616891112",
+["chapter"] = "",
+["displayname"] = "|cFF00CCFF3|r - Shadowfall",
+},
+},
+["RestedXP Midnight|Pre-Expansion Preparations|a) Endeavor (H)|744"] = {
+["version"] = 1,
+["cache"] = true,
+["enabledFor"] = "Horde",
 ["key"] = "RestedXP Midnight|Pre-Expansion Preparations|a) Endeavor (H)",
-["groupOrContent"] = "U=kÃ0†÷ûZlŠÁjÀ´à%ƒ¡K‚ëÉf.ÖáTYè#iÁ?¾ª…lïñÏûTU#›—W)å3€ğI7öA/%ˆÙ/ÉáÀ!²:÷xĞÊêùA„t¹óoDY×ùÑÒ'#•ØYÅt[<o%¥ƒ3ô½•ÿÍ:\rç~<í‡ã¸«Ÿğ=e:~pL®8v§rõıo¹÷\\u_ì&”/GbÎÚ÷Æh²CÖs ´LRğó",
+["groupOrContent"] = "UM‹Â0†ïó+r±H¡q¡(ôâ¡àe¥vz“Ùfp5	ùpúã]öö¾ğÌ;OYÖ²^o¤”+\000á9’AÜØm\rJo“ÃCduêğS+£/?„¡+#ØÅt³»DHß¿üPVU>W:¸‘3ü&§¡?uçã¶ßŸ?ª%R^Ç/É-öí±˜ü¼ó÷¹ó\\¶wGfÊÍ‘§˜s€¦ÁõŠ!»9ÚcRÿœàù",
 ["metadata"] = {
 ["guideId"] = 3019511316,
 ["retail"] = "",
 ["subgroup"] = "Pre-Expansion Preparations",
 ["group"] = "RestedXP Midnight",
-["name"] = "a) Endeavor (H)",
 ["key"] = "RestedXP Midnight|Pre-Expansion Preparations|a) Endeavor (H)",
-["subweight"] = "1001",
+["enabledFor"] = "Horde",
+["imported"] = true,
 ["version"] = 1,
+["subweight"] = "1001",
 ["length"] = "616891112",
-["enabledFor"] = "Alliance",
+["name"] = "a) Endeavor (H)",
 ["displayname"] = "Endeavor |cFFFCDC0030+ Quest Setup(NEW)|r",
 },
 },
-["RestedXP Midnight||a) Bivigosa's Blood Sausages (H)|716"] = {
-["version"] = 1,
+["RestedXP Midnight||a) Oaths to Family|880"] = {
+["version"] = 20,
 ["cache"] = true,
-["enabledFor"] = "Horde",
-["key"] = "RestedXP Midnight||a) Bivigosa's Blood Sausages (H)",
-["groupOrContent"] = "}Ak1…ïó+rhm±˜¤/Õ\"^,²ê¡ !™f‡ÆMH&‚°?¾«ôVêõ½ïÍÇŒÇS=}zÖZ?¨Lb8€:R.;Ô |5aCEÈí6¸f×±oTg„f„s>²ÅÜœ‡nM-ÆSÁÛÕ”ã’‚9]èQP¶5I(Ãl†«˜ÁàK ¸³¡:úëÿ¼fşK ìír¹\\¼.&“í7'”–{”ˆ)GKäú÷ï—œ¬œÿ_Gè+î!·ñ	=À]o›İfÿñÒ¼í×¦«&„–+‡ş",
+["key"] = "RestedXP Midnight||a) Oaths to Family",
+["groupOrContent"] = "íZ[oÛ:~÷¯ à‡¶{TE÷KqPÀ‰ím‹³O·İ=#Ñ67²¨¥¨¸YäÇï²cY’ÓÖˆ‹Å¾‘‡qf¾ùf8êÛ·é¡išV§ÓåD`štº÷„ç”¥È2:İgE†Æ$$şt….hœÒÙ\\tº)^„ß ó	††xA“‡N—¦‚ğ'Ø’uº, ušÿ­\000=½{x	¾M`w±\"Zà¹FØùå1ººù{o|yó™hï‰Ô3$æeœÜSVä(šãŞ€¦”çâ‘wô(¡Ñ]J¾ˆæ1‡öñ2El\nÂè¥4¡×½7èıû“óÓ“3ôa0 áhŒşúÛi€~ıõ’„â4\"û(şğœâŒÇdåp\000IJßMXé¹^§‹9gK!_8ÁÉÿ{Z:e8>\\öÏ?ßœÑ)Æ©´zÆÀ7–c¸škè^ ù¶n†÷ï'*\000S‘£%ãI¼ÀÙøLÜ·àôÏ™qò ß&Ù;Ëx«¡ïÑ;:D‰d…F``]¯|,ÃÓ} ”'Œ-ò.0ŸÊÍ+K÷³Éqt/Ô¼@÷ŒCØ$\n{²i[ÚØï¸ûû48è‚,§d{³Y7¤\"— 9/\"SñĞî¤8wºs“%Mc¶ìt#¶È\"àYÌÑ©ôg3 \nË¶èé¶£y¾†šmhFMXRæûM™¯»®Úç´É<ÇlŠ@Ÿæ…ºéíR	²V•¦+u­û_îk7Á²5ßĞ-·)suKísƒ¶}®¯ù¦´ìóu'”²•W~1WÑÙò½ä€äM’À—ƒ‹Ï7#`Íˆ³©È9ªPÙé,eœ ^!Ø–æ€9gLHZ[ )ãŠß'aZ†¾ÿ³Tp>MnÁ~ä\000„×‡*§™}ÁnÑÓ)\000#ÿ.hNãuÉõİCFá4$ÍSıÕ%4¡ïõß{yDÒX\n”«dª>¥jTğœñ#X™çsLù‘Êb‰§L=‘‹ Ô((›¯€<oÎ^aNò9Eg„d9¾#*k·Lv5s+yš9ñÿ µéç¤äš«¬ßÑlĞ¡‘i{~{ÒÔ~ÓÒÆ,!Y‚P¿àX¶Êò£JÊºü4kJe¡SYØ,*•âãoŠÏ„ÀXCÎèŠ-%”Ú\\Ô¤·UJ©ír·ÚÜ«qlhIşõmÍlò¯£8ÖòÚd–#ePC”¬%IU—…8\"é«xåµ2ç´ÌF•‰f8õL¼f‹[è_Y:{•£KhÍ[K6ú2k¿Xeæ´ t´°£TIË\r5ßÕıÕT@›;àQô!Š4%I\rhò‡h‘«R}ŸtB1N€6€ ŸĞFóŸËÉßŠÇã½“Û•È”lÇ®ê ›YáóÙïW’º™¬•¤®tŞ×\000ˆkÈcYi$8†€„ÖÄş.´¯ÑzNÔ½GğGÍ7Ğ¥Éœ‡JVÃêö.ş,R÷İ#æƒ†fOëm_Şô ×vm}õVÔnÕÆ®U©8²9ao/ğ,%‚FèªHòíÅæfñ\000ê6Üš's¸l¡ÑrGß­Ò¿V¯´÷ÚèízáÚ4+0g4%@WĞóÉ»İ®u§é´ÈÕ²¹æºskSÛ”¬­²°>¸æøê\n¼X§|«îéÆPéì}$y^ÖŠm,Í^9´Ìóc\"8~\000sÑ”ˆìkóÈ~š‡ÃáIÿÄ0^	Ñ%äM\r„ÚÒ\nO~ËÉª3vß2<£R*Ê*öŞÓ‹$Õzk(„¡Æ`Q7g}*U‹*Z.G“Á;ˆßèö_t×Èa\nGO¿XGC–$l©ôqV¹\000-ñCÆÀ•9ZJ€Ü€sÄ8M÷˜ÚîûŞº\0005Ñw|X4iµ‘»k}=OwAQ0hqlÓ	B9¾ú~¤Õ¹¾íå»`g}ìYƒÌÿ5ØY{Àîä°>hr_Ğ´0„Ğü! ;Ù	:û[Aç­Nì›‡uøİëÖõ#îÍsız\000@7ü!ë?ãÀ§áG(íà…ÅÚaÕf/Aq“Ê>ãåÆøRµìøİæœT¦qy‹jÎWAf«)«g7e¾nÚjâ»šÿÔ}Û¾-º§ƒm­‡şa[tÕH¯[ô–Nz³ĞªŞdïÏm;ô6ıù1t¥Jï*s¯	~Ù¯<vÖÒ.‰…rzhùºûõùacşÁOk-ÂÓõ°ˆ¯« eÖ5^4®kn©[jË»ºa½˜¥«Ü&+—ï1É€”seÑ(S3¾1«Ü¿‹î\\9ÈtLİ‚k’[£­P7äpNÂ¦,ŸšäPÂÒÜ¯SZùYáÛ/~¦[¹øUø|L€¦î•œ§U¸Q	¯hFZ¸0hãÂ§MÑGFã¥œê´eıÄ–Ê‚QşÜãN	$dARñô?öÄ”¯;†ãS¾¬Î>vjAÏØšÿÄ±L,¹ü3»#­è«•Dõ¯k¶B‡É-Meó×õŒ›’g<…µ¾vëëØÖ§åì×w0O¶ñ‡rjeşô¼Wÿû",
 ["metadata"] = {
-["chapter"] = "",
+["guideId"] = 34213258,
 ["retail"] = "",
-["enabledFor"] = "Horde",
-["key"] = "RestedXP Midnight||a) Bivigosa's Blood Sausages (H)",
-["imported"] = true,
-["name"] = "a) Bivigosa's Blood Sausages (H)",
 ["group"] = "RestedXP Midnight",
-["guideId"] = 3828617721,
+["internal"] = "",
+["imported"] = true,
+["version"] = 20,
+["key"] = "RestedXP Midnight||a) Oaths to Family",
 ["length"] = "616891112",
-["version"] = 1,
-["displayname"] = "Bivigosa's Blood Sausages",
+["name"] = "a) Oaths to Family",
+["displayname"] = "a) Oaths to Family",
 },
 },
 ["RestedXP Midnight||a) Turnin Route Horde|865"] = {
@@ -12346,8 +12328,8 @@ RXPDB = {
 ["retail"] = "",
 ["group"] = "RestedXP Midnight",
 ["internal"] = "",
-["imported"] = true,
 ["version"] = 20,
+["imported"] = true,
 ["key"] = "RestedXP Midnight||a) Turnin Route Horde",
 ["enabledFor"] = "Horde",
 ["length"] = "616891112",
@@ -12355,44 +12337,43 @@ RXPDB = {
 ["displayname"] = "a) Turnin Route Horde",
 },
 },
-["RestedXP Midnight||cFF1EFF00(1-90)|r Default|b1) BfA Intro 2|1286"] = {
-["version"] = 1,
+["RestedXP Midnight||a) Theft Tracking (A)|1240"] = {
+["version"] = 20,
 ["cache"] = true,
-["enabledFor"] = "Horde",
-["key"] = "RestedXP Midnight||cFF1EFF00(1-90)|r Default|b1) BfA Intro 2",
-["groupOrContent"] = "u‘OkÛ@Åïû)&èú`Vë@¨ÁÛUIœ†ş1!ä2Ò¬…õ¬­ì8äÃw-CZ(=Fo†ß{³3ßšÛÏScÌD©L(¢ó*;t.0•í$ô-|§.’}z„³ìvMTY×——Ş{µ^›ÕzçŸÌxšŞ–Tcï/CG:ÏƒÉó‰Ê÷¥Á¢ÃW ©Öu­ÇÓĞüC»I 1<÷Şâ\nÌfğM*¸ZŞéŸ¼ª_l	íEÄ^ˆ‡ráC°+_ŸÒGûÀEÏ‘äV“¬¾„Ò;ÖÈV'êÃy2“.R¹	‰/¾zƒ»%%Ô+”Ø/(µ~><Š2ëmï[ÔKÁ*6'Ñ…ÓŠv)%Ók„GP±[ô×]¢c“^+…T•.ÒªÌqåû4óq¡-‘…{:PZ`÷’ ŒÑÔA`şFb£~ÿ",
+["enabledFor"] = "Alliance",
+["key"] = "RestedXP Midnight||a) Theft Tracking (A)",
+["groupOrContent"] = "eÎ1‹ƒ@Åñ~>ÅÀ6±\\IÀ&¶H°¸\"Í²ÎéÍ*ë(9ğÃÇÜugÿŞŸ_šº8´Ö9€Š$–=¨…âÄCÀ<ÕÅañF“PûUã•ÛÀ]/ ‚}Ú›¾›hİƒC‡‡sªåiôöçw²:c²¬ªŒÑz˜ş;l!zÉ'TQğBBNx¡¿ëí(¡,ñì=Ûà6ÉŠƒósK{Ù}g‚÷",
 ["metadata"] = {
-["guideId"] = 1699681111,
+["guideId"] = 748752390,
 ["retail"] = "",
-["subgroup"] = "|cFF1EFF00(1-90)|r Default",
-["next"] = "ba) Horde Val'sharah 2",
+["next"] = "a) Port Detective (A)",
+["enabledFor"] = "Alliance",
+["name"] = "a) Theft Tracking (A)",
+["key"] = "RestedXP Midnight||a) Theft Tracking (A)",
 ["group"] = "RestedXP Midnight",
-["enabledFor"] = "Horde",
-["imported"] = true,
-["key"] = "RestedXP Midnight||cFF1EFF00(1-90)|r Default|b1) BfA Intro 2",
-["version"] = 1,
-["subweight"] = "1002",
+["version"] = 20,
 ["length"] = "616891112",
-["name"] = "b1) BfA Intro 2",
-["displayname"] = "|cFF1EFF003|r - Zuldazar",
+["chapter"] = "",
+["displayname"] = "|cFF00CCFF11|r - Theft Tracking",
 },
 },
-["RestedXP Speed Leveling||a) Hallowfall Campaign Midnight|1374"] = {
-["version"] = 3,
+["RestedXP Speed Leveling||a) Tiragarde Sound Midnight|1323"] = {
+["version"] = 1,
 ["cache"] = true,
-["key"] = "RestedXP Speed Leveling||a) Hallowfall Campaign Midnight",
-["groupOrContent"] = "í]msÛ8’şî_ÁªÔÕ\\v4	ğu?¤Êvâ$çemßff¯¦R°K<Ó¤¤ìx+?şºÁ\000(É6íÉÜİ|˜rèn4ºŸn4À_~	Ü Š]×%{{Ï\n^±$İ{vÍ‹2É3‹î=›ùjiğ²â³_?[§KÎgÖ1¿æi’Í÷eìŠ[ì¹õ–¥i~sÿ·ÙÕ’%óÌúÌ²d¾¨ö%YÅ‹Œ¥{ĞËrïYÊÎy*½²¿gÏó*·q½‰Gì˜L(±	Ù{ùòû™x÷‚Mù‹›¼HgWlùbº`Õùêü<å_o^ğ[û<]ş•8ß«3–^ZĞÓ÷éÉ¯Ÿ¿¼{ıñÕño_÷³Ù*É¬/Åm–}/ì=›M§|YYaø‘õòå~ıÏ³o¨?³j±gW¬˜óÊ’;¨™è(ö'ah»ÑÄ£¶ãì=«’*å0şÑÑÑá«CÇ9Ê±?«‚®÷‹\"¿ÃOó«eÊ+^0qär04Ê¸r1‘DÖ÷ìò2YÎó²L–ÉÌr‰;\"	oB›„âÙn<¡ÎÄ‘é\"Ûs&o»îı¤D¤äŠ‰&'yÊ—)»µ^­\nVªj“‚Ã¹8œC&ş0%cIòˆñ¢‘dµ*2Ğ•V·ÎàŸüÛ \\’Æk-ü²à¢8ÆÕcå«é‚—İ„ÔC5*ÓÊè&©VÆ¿Áb[$3øg6ËoÆ hcºƒC×Ü‰Ú~¼ÛŒıå·|eMYf±´Ì­Š]ÖlLYQYç«ÊJªŸJ‹Yi^Y%Ê¡Ğ$+ápˆ®±æïMÁYe½¿-rmciçf=•/”U–g`C”n¥ÁLB÷Ã‘™“”³¥3†ÿÖt¾›gIöÜz›/ùŠVóÕ²õ—ïgï:*§«¢Ì‹ÓLÅ‚%ÅÁ\000›V‘‡i2½´À» kJ?¿;|ÿuÿ_¿¼g:òe‘”K^|/¬‹”•İÃè‹²™u‘ E?ûÎ¿†\000uÖ‹ú¯Ø›sëô.}»¸ØNúË—ïpYkJ^|ıá·¯¯`‚feU$ ÁGiRHÍdğ¡ÓÕù­æ¬ÊÅSˆzrÿê|U.°7Û:Îa%ÀØW‚%AÄ¡¡ãz9ıgİÅñ§Og_OaÊ‘ˆxâ«ŒeUù»¼vp6qq_åç–‘v½iM±ŞÖÒØÈ¯^ú9.skH Èo’w_Ï{ªëØ`WüÈ&µ‡C)>òbu€I©‡×üBàO\\Åögxz¢SO±ğÜ§¥l3U\rbÛ'BÌOL(İB¨gh0ñc›DOK¨·…P_—¨KP?xZBı-„:¡a0	@®Ş“Ú®¯<_ªšHQn!Àvî…Ä¦BK¡A…‚ aŒmô±íÏl†\\ï÷T¢?³è…k;ã­¤}>OJë=¿i\\qJİöeÿäã×‹äà@ÚRÑ[ÁpcYÇ‚Q=Œ(i×æ @àÁ.P\000a_rJºë·”Ö¾­À4	s†k,wÂ/ü§ £øU^$ˆN{Ã€©ÇÎû¹zr‡A?*ş”¥·Ö›<ŸY§ş¡ºQŞt©AÜ>\nëˆìhÜÁ€æOq¢Qøƒ6ûÏ±şP¢¦õ·i‘mX›ŸQdUÏy€†Ã¼œçßxi|š_3eÂhfN^Œ!º#Ğ€çWü‚#\rº	F[‡½ÇwáBÃj®ízÂúOËy*.hŒ'íÄ}Ês1ç1ÁÓN\\xáB…€h‘	>-ş&êF7—›¹3áF5-~Ú9ÚÆœ')®j/Òà$49!BÆ(4µÅFn\000'5êØ€ö‘¡Í`ĞûÄµ‰ú@âºéÿİÓ=İ“(Œ—ÁÎÛ	#'_u³K:®ÆKî˜Yw3L%rMNgÒ–Å	,¬ÛV^±›ì˜¹”˜““x_°Z<ğ=íÑGæKÎS»æ.tÖÜ&tögKxç”çèğ¬ù.²FÇË ªj&M†”F=‚µš–Öë[0È¨pÃJÖÄ‚ÓšÑÏÆæôìMRğ~ŞÙsğêû‰ÜP‹^Wè•AìŒOÑ6ĞÃïªÙ^Ç‰ÍXÇL„z½ßN’jÅÒyïç¬`+Õ¿çskšƒıŸV5\"õz¾É÷màt…t4ßt²éå2¿R¬V<ÕÜSèH‰C#¡D'4\000ŸàÛşxaWBÉ&B©Jh`Çà×;/A¸+¡t¡Jh„9 Ñ˜<5¡=2ÓKm+”Æ\000Ò'ÍñRÛ»QJ¶Òªé)Ğêáô‡O=ıDÑSVMUc„g@«;^´+­´±Mx\rM‘cÉ¡%{j6 ´ï	' î¥Êş7ØßCp»z[d“ÚÈz[ˆûúAdÇNİögwP\nhğhiU'*’ÓzfØĞ=+\000Qûì\000\"jğHD\"*eîşÉ‹Üú´ª¬_árÇjDHp–]bš`A@š³¦Ó¾R\nÚùQÕ‡\nPa(>ºĞ[Ñ´‚Ôd#!P·Ÿü¬·úó‹µVuíÂNÒôlW€ÑÀ<{6ANµõHÓ*xB\rÓ>r¼#„,‡gCR–æ…¬çeV=0ïğ‚âW«êv‡Â…ºB¦¶øûR¥x¿W:#É„ÚQ„2q¢‰Hôä½vĞ½‘ôŞí¤ü”ı}^¤~o`ˆ=ûš/’)øâzÔ÷¬±ŠDuz™\\\\Ô3R‹Lkì9Çu!Î+,üï˜ÓÒÄ¢™£—/ÿ£D³ïR?‰°úÇ,›rœm1í¿âzšsiJ²¼ç<Ã]ôùMÙì½¨Oı#Á-T&¯ú² ­URz«ì½<Äú¾ÂºO×ö¼G^(DZ(fµï–HL¤hô¬\000=(×+ª¸4/Ï•O*øŒFãó\rÏ@esUœ§uÎ¨UÇTZêGÀÌÎQÂ³YR.àÉ•º2­Æ5wï†RyïóóÛ²Ôv—9_Ş0\\¯¡ÿvWYOæ7\000Ãı‚U‹DU>à¦U¾ıÌ¿Aoõh\r8‘ÇPê=Ø¦QgÑ^c&0K%s¼füugë·-XÁÓUëøÏ•GğçŒT_²v[õ¸‡lY%×\\‰{»Dı§x:â‰è<Q\000Ë˜>~rÈİxz3ÄÕy\nı	‰Û2Ö§ä‰Ş§·C<y:OQ<!hŒ²Qq'¼»ñônˆ'_å	‚\n˜§àXOwãèo†0Ò‡™Àu8z8H1'BÅ‹Öæá&ñ»ğóÿ†ÑÕñc‡ãùÍá€²vüœ6yşîQ*ŠÎusdS`ğQ\000„¼58HQâ-gí”lÙğñà%v0â~Àv#Åá§ùB³9 6ğívø¢Ğï#ıáxÉ¥³¼˜j $­$[ÓÆ!1U“ i¡8«7 =¨Ïzı­*Øş¬ª*×âUSMqª£ªÕ~ æ‡<hTbJH¸`èš EË}œAx(ògæó¦à•IˆzG´¦Ç72ªˆøuÖ3FéÆQÕ‚ÜB¹îûêmU-À€QGu¦J¾)¥áÅ(ÅÈ3N*’óü*ÉØ9&{Ù5Ÿ¬©\rÕ¦–4S;øÒF¦ÕºŒÆ…RÛyĞ›l3ë2IZpteºšÍÍ<ºkwØ<Uğ¨Æs×zÊ¸—Å3XV³á_&,®Ü»'õ>àmÄ	*ßp€J6ÿREfi°V\"e+ş6š÷`\rªveX­/ãÌF+dYíòUU‚ñl/òU©£K®“IY(ÙF7$†¥éÛa8ñDéèXüì§)0Ä¬/I6+°Ü¶PH®´0Í4‹q?ŒPŠ#<ÂRä–×t˜®ÃP9Ûò’8ÈERğwÙ5/«dˆt6˜šĞƒ\000!jRS“@½95i —„WF<âQ¸áh©É–\"4À±½hdjwzZ\\ç$Í¼õœAHÄ)ZªŸiüÂ’ªÛ¥j‡ÒU?VğÊa\nbƒ÷°üJß9–K\\Ÿ\nÜ³ôQäÌÿ–¯ğpµ‰PZõH58ĞÏ_;ãM…ÔÏ9Pcp:±¶wÜ£TÛ6ö1ö@JROóbYŠ<´Dó{B[a½å¬€?>7 J7q~8Ìƒ¶g`JÊƒğy¼³<š´S`áÊL¿·Íp´™gyí öÚI„!'uuä8¶[rø\n½Tò´İ¬ òM©\\4Só©µŞ¢oÛfúœ9ÅsW`ïê÷Pìõ»ŠùÙMfO$/a4Mgåw¥B>‘–Üxä[Çyµ`š—•ıAÕ÷®½´/í×¾¾¹â>VãÏ{Ü6£5'yÕ¾ÚˆyËéÓ…XL‡\000ñÛ•Ñû}•VIY•§)CQÊÓà«fÇ:i§éJü$~1uªµaÜ\nû®ªÂ¾PaW¨pMÅ \nDQÃß€åE(~ÙÆ€°öx†Íé-Bñ®Â€yHCô&Í1‚›[Ó†r¡‚½qEe8&nõ‰1R×jç\rJ®PN/Wé¥úpRN“%ÿêı|À!L„h‹gzí4x¼ˆ\"-şØÖÖ¼ü|y{Ş´¨¤åGú ù‚bô%ˆwy7-@%€ÅöuİÉ8ş°A÷'ÉE¥IŸHùqéÁ-„iZ´ŸÍWyâ\nm»b….ù¤Í˜7¦ü<¡yãU#mœm¢[}Û\n#7ˆSyE^°øfm¼\\ŸuÜuö;tĞHtâêÕ\\ÿ¦{H^åÙO•‘°œ[\"ˆg3dE	\000¯Ú&	Ë¸5ñv•Íñ¹y“æïÏ©Ck”Ga®ˆh0ÚtnsÛiÒl¶ÎÓPÀªğ#®\"½öAVOÉÂH;\000xUŞÜÁÒFáÃş}Ü.9»Äi\rĞyl+3Ø3^ï´”Ì‰ÏbbOai+Ğõ=ÕÉŠ?¤»\000İä÷#ËîÉ)–¬­œc4èóºâÍ‘²ˆg¹õ°A:cêá!›ŠşÙşx[øª©í,Î½È%Hn0ÓÛºO¸´ïÍX‰1ÇõÎøöıºaKóóªY&b;µ±¯C=PÃÈiàVlèRsFopŒ-6\000:TÆ?…û?0r éòÄ”§Ş§†¯Qq<&24ùµ¿ØÉªña–¶^#·à@—c)ŞG–„²ŞyVæÙÜD\000ÂóÕ­EÜ0t\"É‚)¯j6Œ‘zó^=aÃƒ½È¯8û:»ÍWm\"ìLÆ‘Ô×WKöO)ÍÄ‰P@÷úVC§ÁØ{½D/Lí¥zW‡5Rà×§®F›–MæKX0m6[ŒYGüxÙÈ×]éFbÉ]ˆàâ†á–ó6d7œ‘í˜Q.ò%›³lÆöÕÕî5)3Åv!qÒ»Á$‚Ü³!k\"[/ìr“­Ù’çØ2êú'«àWùu]ş=à÷akdC\n·#CY4Š@‡‰&:Ñx{b€7ÀüAD“­DSh¼ZnÔ3mw$šn%ÚS‰¦xb\000ˆ/Ã¿…ho+Ñ¾N4uÑ£TÊŞ‡h+Ñè@=JÙè}ˆ¶t:{«ã}¼#ÑáV¢#ÑõşÛ%iİÕŠh| ,º3\"]¶‹D­‡}?4ÊX}(:é®ÿª=z‹Id—¾`ˆ\\h¸d…õŠíP_¨1{¬ÿÖ[>îOˆ@Ìì‹Â­ÍÅkSà½Ğ«ÛÆ’WSN!3/®ëÓ¥x£LÒºR0%	ôúçæM=-@)Ë‡?Z	šî\nVº)–bX)?Öİ\000ïEÂïªğ±3¸k( Z^,,+ÑçŠD\"w8pæişTÙ¯L°]áÍ:˜ñÇ¸˜¸öF(<Ói’ºË!¶÷7ğMt¾cW„Ã(ë¸ßeR‰›ÿëyŞ—ÎÖˆ³ug¼Fô$Ÿ^ş„?·nxº%b“©ÉÿÖr1ÈL;­Ò“Ù`t€\"û?6ÄªvD¤O„š‘~“[«eY°Êš¥{ÊsíWÌ25jÉ\000¿ú}÷´Íö3(\"M¦$L‰8›‚#Ìhºz E2C#\n¸?¼='fÆë´NäšššıÑgKİ'…‘ÀH]¹âGïƒ6	ôœ2g}ÅÃ%lÌRÈÉcƒ±¯¯÷ßXœ¸¾’óäijRR?2ĞßLQ%ùY—ˆj·û|ŞÁõÍÀ®ëòIDë«	 ä2i;—EoÉ`vhq%9›‰:æ³›$­Å$æ`os™´4‚rEB·^âWa”ÎEd®;ß­&Vh4ÇóXuEÉÀ²6ç0%İõ{yÑk•âTÇ˜ââb=IºİÜ¶ÃCVtåío¯¿ñé\n—Swßˆ©wM“±b›vñ©VB ò³Ì&&n[7Ğ=£wî	æÕÆXëüS:³Ş‰Vˆ}7·ôÖ¹*~…a05/X¿i³9³~¨U‰>h\0001fS>«/D|¼uÇÁO¼(mÖÓq^P·ıÙôf,{b2&s²C\000¢ŞÕ1¸Üñè”ĞÅĞÛ¸ÜåÎå:…!k%Y)ÖÙYã5‰í›õIG5A´Ù²pñùªqF¾›.q#Q”v‡Y°[?\rËaûgx(Å/!;~^\nh8ôjÚ‹švàÖàåM…O<-’©uÌ=ü\"^Wï´~Ê4\000^Îê¹Ã³ƒ6ËÊ¬Bİ–ŠI'@ó¬Äc^x—İaÊY¶Zn®ûì\"Ös=^Jd°l&rO9½\"Ê€BœÈà3Ú«5í¯KkŠ•äb$xá:ÎsÕâ\"„ïr¼ö„õ†Õîö‡YÁè>ØL)%&J=\"íÊ=¥’…Íõ®LDÈ™Z…ØpBÉfN|ƒÌ}<©ŠÁÙx»8#pâo™“(2qB„öŒ˜»“(êqÒ„›åª¸N®ó¢Ô¯M>(©ÃåÑVw3êiÅÒ€}JÅ\n7e¹ÚÇõÊOZK\\©§\000\nsÄnáˆ'wâJËCmàÊ·p¥^BÅ\r©èÎÇ»`'®´{S6qE¶p¥^BÅÖ7påŒXfºWÚÍ)›¸¢[ü‹ã˜LÖ¢ĞöèÌa\"¶Ìz\rÚ‡zWd<°³ËìÜenÂ¢5¨«‹	Œ°«©snPN¯vİ\000sÚ7…Ú}wäïˆxÌçb¥°(´‡0Š<»ÏĞIÇù‰nîô#nËö‘å3t}€9×GBUkdIr•?\\°å,‡Pêt	‘Ü|HF;çĞ$x~ÒìfåY·»©v_TûjÓ†z÷¦ÓOY×åĞ-Løe‰Äj¿gHrDm’£yTœs¸a¼Kt4¿Ÿ°k6W~;ks¥üÖ}@LşñH¤„úñGMz1ùà}uàÌƒxÆ-€¼—\roF4Â™XRX}¶HJë…9e«’[Ì$ĞõGæpˆrÉnôM\róµwİFõ®2Óİıh› \rX/Š&‘û :øÇ¤’¥ë‹ûŞ,i\rV>‰¤5üÚ^ˆ’	øÁ%­Aİ'‘´†‰#LÜE»üë!’~|Akè{LA7Whdx4ÜÙ‘?‰h{®óß<ªüÕš,ãqĞçX¿ŸŸÆ¶K'‘ø\n³Öá6>8IêémXì‰ïánŠ£½çºh©\\oóE=_\"{ijoğÁ`{+Ä9ê„ô\nçè?@ïPåï&iÈSzNŒ0r8©rr÷$©ï>ÁÉ<áÓË<Û9;p âSl‘;æ‡$Oò%·ÙlVÏş_¤İ½’Tğñ©)·-±»!B#˜ß™\\©cÚ×è‘Ş”OùNËNÔOàumeÅ\000¸#f¯/'ñ…¸ÁœÔUVµx~jRëgÉğEæİ§–»¯ctã{±ëA,zn¶Œ ëõÁâäÉ:§ÏqšÃsWÄş“@ú0èº'ß\000Ztt\nÓ…u”OW%¼ìÊÊúGøk–\\\\ˆÛ¬e^&Ø[Ù“ù»yÖL”¹8,nAs!o‹•øÀ­U±Kn]áE\n |k‘Te+Ó¤K©(Xş-©Úûï[ˆWëÔ×Æ‹3g²¾cÁó8öŸİ´ûâ¦d‹ÂÕÀ[ã\nV–.UO^ï²Îöşç",
+["enabledFor"] = "Alliance",
+["key"] = "RestedXP Speed Leveling||a) Tiragarde Sound Midnight",
+["groupOrContent"] = "ä}érãF–î=ÂÕîfÃØAöLø†¶R•]*«%uW÷8™a\000\000¥bGı¸¯q_odÎÉÄ’)J•¥*{~´gJ\000¹œ<ç;ûŸÿœøÉxâû~°·÷uE’å{_ßÑªÎÊÂñ÷¾¾©ÊÕÒ9§uCgÿ8s.–”Îœ7ôæYq³÷uAÔ!ß8—YEnH5£ÎE¹*fÎi6+²›y³÷uV4´*H¾÷ŸÿéìçyFŠ)İƒÑ–{_OËÅ2§\r½Ïš¹SĞ÷ğvN®hî¼-«{¾)¼„/gwğóï¾ûpùÇº&SúítUÕeõí´*ëzN²ê[ö2mÜ«|ù—ÀûĞæÙôÖš9u>LÏÿqöËÙëÃ~¹€ßäù‡ÊİsÉtJ—½Ôs¾ûnŸÿóŞ7MÀ0gÓkîMÙ”Î8E±ë%£‰çzÁÈ÷FŞŞğ$rÇ£‰ï&õAàN¢Ñ$tÇ¾úÄsÇğ›ÀM“=÷ßeAßO|˜´M9+«†äLü ¬H¾ªqø‚+ú¯UVÑÚ¸'í’&ñ(I]?°2ï9*an‰;qnabmng%lO%’Qì‡ñx £wûo/şâœTëåÈğÅ[²\\Â½âÛ*m\\äáäüˆM2£ñû²Êg²üv:'ÍÕêê*§¿$ÑME×=‘_’üOÓ÷Ëó×ÇoŞüó—#rG×ÎA•³œJsô’ÉD˜cYİÒêEíœã]­÷Ü†T7´q¤ß›.ëIv×Ş[ìıé‰(^ÉÉsç²¢¤^UÔ9œÃ\näo¼Û?ûËà¯zIî§\"Å¬\\äk'+œƒ—ûŞ†Ú?:7ğ¨qftJáÿüãì›ˆmíë)YÀä€İÀI–Å‡Š}WÙıZüJ0»á5`6Íª*àoq{—ğO\\Á;õ:¦4‰’x8©Sò>[dÿ¦ˆ¼¸\\US\nÇ5¼Ã»¯‹;Ø€²Z;Gô:›fHmcwŒÏB‰Ãà\r†G!>Š'ÒÈÈe:Ö˜·ÿñúæğ¯’<òxÂFFñÀíøÀğÄŸ¸ã¨§0u'ûÚæ™ÈïMIk4 «¾ûî‡ˆ‡ÁñÛãÓşr™-®huU®næì™ÁYI'%¾vM`Kß¬ğÀK{|S–\rŠŒ…s]VÎ‡Ë Là$şå'ş7?şxùË»²œıyVVHÃ‹Û\n”Ÿá;‰æDx|#Ï]”W µ	‰„)hÌaìF \n&njqí¿çAœj\n&«r¦±ë§#È\"¶öõã¢\rÏC¬pS~%Ó[}:0Ü»–™~c˜+[œ«µ©nÜ¨ÀÀÂ“O)[ûúî<n£R7„CÀ5ıs\r;W¾­öÄö9æ¸ğğM÷ 4Ih Gàbö¶l‡yD¦y\000×»ö¶cw*X÷N×1uc6UÏãÚaËbÃ–@í©E¶°û–Å;{«ğxJ‚­	0f¸°5døf]×¡½Gm\rŒ M¢8„½8§^SŠãtxã¢D-Í¹ KTø¨~äAşD©hv(”§sĞ&aN 0JtUÒUöÇ¢ÿ@£ŸÄAŒƒş`YØE™ÜöÖ(†7\000øÿ}¶9èöX`ì&ö ÀCÑòáö†O»!1èÆÏ¶7-[6/~Pôë¼,%m5A£‡ª‚ó7et'†G:€“ÀHHX¨;¨ãÁÕ‹İ°ı‘-[Ç§aÏÃ©[%´Æ©;%RdÕİ+ÈN„WÉ«Õcy÷?E#T iw¸vPTàµGÀÒP%ÔÀxì>³#!Øòù~·Jà`»éãŸÎ€1X&˜Ê*PŒÙä P š:\n4Ø„7Ñ„Ğ½	Ê°jCèÑèÚº8^Ğê-9MEz³Şl<ĞW³%\"õ\\XÔØ¹¼°akÛjí‰Æ|Iİâ\rkì=‚õ\r,YjÊ;z•¤’,2Ñ°Ig´nœ³Š¢Å'+é5Á¦ıº˜f€öçœ.ËJ°ôídn9\\I»s\r\000rfºš€»u$ƒÌÅ>n´ÁßÜ0š‡M²O\000Gà@ßóŠäh@Ø¯ç Ëİk?-ëM*üA÷/>¥¢; ‡Ä¶–¢í•A“±dİĞ~ ÍÒgøt{ gÇY¦…]f9f|Û·§ñí8ËÁ¨ğğ,„(Ç}–ƒ½Ë,'	Î2æhÛ›º¤UE‹)u^êÏèÿz—5Óù‹Ú9£MÏu•42\r\000¤¾‰1ô÷ğ”4UFªé/Æÿş]™Í˜·îº*tGMËB±UÆ8ÕèC¶Š&w\"nâZƒğMC7aÖU‹VŠiv°\rl †ï¾ãLÜ¿¢­İA’ÎY¹üóß–è:X—«Š?ËKàv½ƒŸf/o•ãä^=ß¥p/\000Ä¸X&ƒ¸Ôw=Ø$x¤a5§\000ÑS7\r´_y.•'n¬¡Büãºaû-Âû­‰‘gF€ÔÄ#ÖÁ‚€½,t´ ¡á=DšSá‚€RcNyÍ¨õªÁ´X—Ğ?Oè¦Èä˜g°çp><ãÌE3§Uë¡ñ=?Ò±ê¢®¹v8òp×ÀG~~<»AHz+G†Åê¸sÌ–ÔÊ@|[w9Êˆ]Ôñ¶‡æo{ ã ¬2É»º;Üÿ\000X%×ÓM—cp´½ÉŠå=¨cÎr	æñ¿\000âÀ½æ?aqQ 2\n\\d9ÂX>=Ãó@ûôİş‹$\000>$wTrØòû/uÉbàŒl ÙÊ\"`Ó‘ÿeá(¶Å)fkç{ôÂ³3îäPÑ;º7ÅCAı8Æ5BZZ\000d¹ª°Ã!¿*WunÔG²lß¥n¨ßÚ‰tpT­\0001\000F@m[tÒ'xüœ¸qå‰èr`Õ}ĞÉ+¬®Ëjæœ¬H5“ãNROPG•éµ~^u\000lY\000~Ô\r$ğ\000ì3Ğ.úıvçÉ¨FUåMÅBVèı<«o1´ÉÛrN§Õ*\\­döb`?âî¾+Üˆ ÂZç¤Fw\rœÈjÁ‚‚5µ’óUVÔ À¬næ02½);pÓpL0Xaˆ‹	BÁV²ïœX#u~\\5ZŞòaˆAï=Òö¥×‡ä­0«I`ìÓØYU6tÚ”º‹\nVİ!íå‡â&/H~GnpC‰s”ÕCÔÚú~ê¢Í¸c€Ş >êş«!O(tÎe¹È³\rAQg´˜eÎaEŠÛœ^Ã”=A(x_¿Xà€Ğf#ç-€=û•#¬ñd^wËV„¹õ‡§MÇ´µmgì¹ádZP˜Œ&²Ü1‚ãx¶n°¸Lóİµt,¾•‘“°şÇŒ0„ï‚¼…-ŒÇCØ“L¿0¶œF‡«ª¦3çœ´–LÙ­Ô‹w¨Úñã0Œ=V¥‰ö¾{\000©£Q»©=»Ş9Í³©jqğ¶Ëá]lI„ñ]qè†¾è{ã“£i4Õ›ØPe^eùŒ:/³Š^U”0#ê2\\0tâc»dH0‚`µtŞÍA5p^;gğOçoËš´¯šnº‘p†ğÓ£²xÑ`4%01¸[\nó“VôÎi	À£,FÎˆ™{T^˜¢º,ë:»‚)’ÅÕªÓZ!¡­Ş\\£i²Şû0}ùòåáÑ¡ç½,ó¼¼gBr¿ªÊûSO4²Ä1³e\r.TÎğ}äPpOŸ…Ä¤°ø~€ÇŸŒ’‰;¶7°…Æ¥Ğ-64¿p4]/R6'%	®\"\000R€>ÿF«2s6îœbºô‹±Ÿéf„ÇÑ.\000½WßU8ûF™„®o/ÄcË.IeœLdE1 g{á“[& …iuÀdtâqcp -H$C±~ù¹j©1I™„gŸƒI2Î×1É'²¾9±û¬˜•÷J¶d)f’Æb°«.5àÖ„£8aÎ}y¯¢Ğƒ°‰İ¨5 	û‹ñª¢‰Yù]\000Òœ¸úÏÆøàşºü\n#7Mq–Ìî#O%dUÀ£všê¯dºû ¼-·KÚ +Ãù‹ä.`µO¸/6 †ê35$µE#¡İğ \" ¡Xî§‰&\\§émê›•š\rˆºÕ_tU¥³˜IšÍİÍª/gÀ£.À…Í}2­Q5&˜HWÀÔÈ4ün“7¨ø½›ƒ›D×˜Á¦Ğî»¢ß÷fJİ\"`Øú-\rã\000-\rãñÈg°w0WMÉf°4f•?Û!ğ¼HÌ\nÜnõ½µnË.G#1˜{v`¶6pÿêŠ®Ñ˜t›²ûC0Ve>sèô–6DÀmî©H’Æ¬R!WUpÀ¡Uì¢)Iã¼Zb\nZ–ò˜¤bëXĞ›öç8§´F•×Î)nDëÛ8ñ“!Ìè Ì	Ï±ƒ^¾ş àC13¼bÖX{ÒŠ7Á¤…®fWèFÖ àK’OK<	œãÒu=H¢«ë¯˜šuª©Ãø,säÇw„¡ø{Ô—Ä!ò~ÌƒÿSHQó½`’F¾ê\000½(¯1vG?£9üTNPÂë]›ÊWX·6Éƒ’})És.ı0Lƒ@×ùêæ4'ü‘s¹ªoõ‰¡\r¿Şj)‚½ı õîèÍÌi8-+jÍpqHrzåfN*%eb<³4/Ôt7BÁhkTúµ€Ò¥ë†©Ì1ºº”xi€İp7ÁüN)’šò±}§,Û}\r0$›å?¨Ã±‘€Á\000†¡Z'ÚÕõŞ6}SæÑô›:*ÑÑv$Ñ\000‹nßõ¹«¼\ri7`åîg*gjê­@’2bşNJó{ÄŞƒíí#˜Œ»L’‡ZõŒ[ Ô1*YH%fÇ€h¸‡}´;¿‡}ÜEÜ¨k¡Ö\"§\000båÊ]PJCT?Õ'	#Œîú„‹Røo¬=JYn6<šE	ŞîIÀ™µY•ë~É2ö“ÍõË•µüşÅ	[[¦+ØÌÖd¾tÂ00\"[K·v6ì6¯$aÈ#è5©”­Sšg˜äú-Šµ¬kq¦·ªJM/L<¦'õF£¢´Aj?]+¶†4µDĞÔ±\"Ñùª ÷díœ£óQÑ½˜(_ö14’’µ]#“vJç#4Õbö=÷	Ø8ŞmGÃÜm¹²â^ùõ'‚RÊ'F;Ïf}Q;—–¯ê:ùÌ+ß/©ÊÕUNërAáÅò&/gë«¨´[·}7˜ÔÆ${ŠÃ²Z¶qƒçhKR”_•M=/Wv:	«Íó±Wà¼lkqôÛ¦BJPoÁÊ{-M“aqà{î#ö5Ã|O¶œ+ÌÎ€·OªlAk’x±X3æpN¯ÑxÓ}IÃØS×SŠ\n¸¢E‰ÉÙJp€ 1‰ÎÀ1N»\rl&â¬ò|ÍÕ\\á¯—óª¼‡[®„Ç1†æcJ‡Ó6*¡ÁmY.±~\rYÓÈP‹¢Å1Õ¿{Ç9®§dI‡¬uq„pj©›Ú#,¾¥eÏOxö|wµÕ&±TæÔ×uÕj9õ •#ƒ…İ^.ÒæBÚvÙ˜€%ƒ´ÉlĞÚ¹A+ã«²ª‘ûÂMÒ¬rÈøL›ÄóÃCkd¿åŒ´Ò/pí°tŠBkßß|FC\"ÛÃg»@; D\"ít„‚b	9f;ÉH·¥Ë›Èxe+À{é‡q†*£ûnÒø\\2jí¤ÀFåÑ\rÜ\nsÂ£.ÏÖ’M É…ie\nM““âgiĞ0à!TF”á&G+¦ÙWº2WÊX&\000´W!Q\n¬'5Ä®=Ù°å’`ì*~Wkšk­ùq$&w{ùä\\L	Ö3THÅkKš‚ í>¤m#%ÈÀm^4YU±²3@‹VË)æ1¸ÀXì1¶ÍŒe¸#3–1ğZ\nƒã\ri&Ö&ä%™}Løp“çØÃAÇÚ4ÕfD.5Ë!\000ÂYœ¾ÁÂeÿX|šj|O[à/½ _ØÀ„ÉJƒÉ>qVL%‘BeØ¯RŒÙA¶ø¤h˜ß(²Şª#|.&Õ;'—ß¥ÃŠ1\nµ§É*ŸUX‹UˆßA•KtlV]Ÿ×ÊÁ\r½³£E¢³\"q¬÷jhJØà	ùğ¦¬f/jç€b1İm>@£Qº½˜oœ†³”­Ä\nÒJ›¼¡Ì^X¦`Ğ9ÀLÊ9Áø~…>¨¡€ÿ]kÅXĞç>\"áOÍ+sR ğmæ×Íy²Ÿ`Åò°0ÀPOZy›Ÿ†-ş}¹ æŒ—Sòk)5ÆÁ¢õf5½];èæ\\FÃ‰'d–EİÀ5­ã‚VXƒh°ûú,q\"v'ğë±X_û‚\\Óf)H¡â/¹otœö[„‹\nıZªñXV\000föªAîÃñÁ\rº wYŞ\nWÎp0Èïj³0ƒNHÔ@Èt5É¼†;­ä¢Ş\r%9(¢3çeùş8Â¦tïÿÈ”'ÖEƒt£>î3Ç)Ó[?ŸMŸèÏÛ‰šB4ºÏ³¼Ák’‹Oÿå¢F=Å¹È3Ìˆåy.Zai?L'AïR¶@¼X@İv˜>¥m\r–ºa©ÑöìÄsÚ6PˆèŞT¼2J] ô\000 ¦5¿åóšù(âeé×^åŞ-Ÿ×ÌGpgÇc(ˆEãæİ×´Lø~ÂBQ,VPŞ²~­ünÌš_á3­¿Më­×†âØƒ›[–Ÿj ƒå‡\"õ?ñ\rŸgñAş¤ë«²xµ‰iEa¢Ù»_ 1yÅ@ƒ,¼5ĞÈ,\\-CôêR	Yî¡PŒÄK‘M|ífiáB“6Æ :}lùOïÊæ€§ÃÖâb§âéŞy\000ò0A‹Gø„T/c¹OTåd(6Ü%0BçÀa‰I¶\nNÂ¢S'eZ9A:rÕ9çg2ZêÜ>Gò/ Œ×Î]Vg\ríIÑ•‚ƒi\n¸¿¤İªp4‹¦´'Qß‘&åğ2Ü12ÔÄŒ7Ü>öNX–YÑ8ï\000¶^÷ïÅ~˜ˆ…™Úb+ç¼À1 wƒ©Š†Õ ˆÅ`=kxÅa°Â\rÌµÆmïSfY/—¬¨³wMÔ¬ñËt˜Ál©)%ğ)g+ğÿU˜lj¯Ş	-+@·§XúŠá è²µ•«f×Å\rÎeDƒªŠB<nı„CVò;’5½/ç¼ÂÈ	xyAû$tã?Íµ,tó9)óY¦'^¬A™àïVšr½è#Ğ¢ÔêÎÃ´!ÃŞ_LMÁ>ÍÀæ>BpóØ¿#yk RNf pşaGÆ°o	hšO‡ÂLNÉû{xÇÃLñíK¦¹\000«ø8·°4—V9Wöd0´Ù/œ\r›EË~mxñ¸A421 Ø¤6¬Ö·Iôˆñâ’ÍÊØÑÈ&šeÛ™`_êåP–Ïû×*k¯/Ü®u«™MÌ‘?%Af•\nü=÷Î³)¨Ì]ÕË²P‹,–å²«Á›”ñ¿¨Ù›¿ÖÚ6í9¿´m—L¨w&î1Êßjîê‚€5²úƒÿÍOG¤ÿÌ„Gİ½?¶o%‰†,—èÁ7?}O®~ÆŠb¨ÔIQæ¹½áyÑ-jÜ’qğØày'¢’x.¹ÄMyGôßõØLBrÏx6ºÚgÖ	xŞ™èv‚ÏD%­Á ?øÃo~bIù÷AÈgó_t¹Ä.¨Æ«0 ùeƒÎ²¬ÆL¾ØîŸå\nî]¾væ¬Œ]éüºZ,‚’ê[Ä	¼bÚ5t®GNQ6ğşßšTüæÇ¿Ÿ/èĞ:™ˆás1H1Û(sñ4t”JuÎiSe;Ä:Ó$*Ç]ÌË{ç”¢ÂÔ8°¯/`COÊ=F›{ÔÎ±}ªÀñ{\000Ş—míóÃï¾ûN2~r¼aeí§nÈô0İ®v®V××X{á ‚Ôö{&}ï!9øñO¸p®Iµè~%ĞÏ¬,şûÿıÿÆÉAP‚–@ß/³Šar±âöY••UÖ¬øÜ¨§ç‘™ÃÃ¦vñyò®lİ‰ª±(Ÿå>±|DÄ)Ã˜°äª\rzÑşÎ÷W’äíµ´×±¢Ç-«l³O–_!fÚùÉã™¬0\">/—,Êš>¬(78 Æë00n(Ùo˜¦%MEØü€9ÄÇ!ìÒ÷Y3ÀÔ³\n¸-ã±§dZ•x%ó¾âhûšë¼n^ÔX…ßûjÚ`×Ü×\r]Ô_9¼şèö{^ÿáï’$N¢\"¾e£¶ªXwÓ´C×OF¡÷1MC=í1Û*ï Â±Ûs:oÜ¢ß•÷İ4•O®™Jšœ”qŞu£­xL¼õ½b6Ë7o,x±ß–Î°Èµó&»Å¦Ì˜ÛrÃÿ$ÚR–»óŸAyŠw‘\000¹²îR‘‡ µ£Åƒ•`“ØiˆÂ*â?¬rÖ@¾¨ìí’ÑY°Ñ@ëa<¶i@Ó 29†HÉ6m“5ˆßUÓ|hÖ²ÔßÖa—y¾ÜıÅ#»ÒğmJ¦±Ïšr¡½JNúg˜š—Ñ„@\n‰é‘ÇC€´ŸÀßáû)êPúg\000°VÁê#ôš°ÆğÚ¯0Ÿñ'}Îr_5À¸»¦ú\\¶5(9SHŠiÁj=ZÂNÛaZåÍ¦ùê^¼aÁÁšóÄlÛF¡»…?£LÁë°v†±” vº×¿å¼-¯ò!Cgø; fZc÷•B¨UÚz-ÛØC™ÚWR?j‹m±l‰›ØônæÆ‰;–ıHV¡©³Oe¬xpÂmãÅìÂ}^|ÕµA™¼ÅT;yf/óuk¹ë‹€‡%\\Qø¬Áy'<ı-¡³~'%<E;&Üõùöw˜Æ¨\000ZÄ\nvö<€órAjç,+º*¿íÉÇ¼z1†ób-³qûa„Ñ¨£0pCœ–è¤ù7µ.#Cÿ–‡}¡JŞ¾ÈİO6\\¯hQ­W¤šİgmvíĞ§‰mÅÜ«íEÓÒ4‹æ“%ŒAgŒiUûÏÁìÁ.yÏû VÀ@c™fÈxHª›rH—&hVBË½’åeepµ‘US®{¨Ôåû!ÀO¥`;%Ó0Í[/ä›ç+–¹s‘UT)ßÆ›½É¦sZüJî‡<YCüÄË+hV?^ıJ§j\"$\\Ì4ù^[E|_šb×G›”ÉòÔ»c{\nØ1©rÔ{¿/¥òıØ•MĞ#	VË~EIåì;—sØİ¡ú0ÀCJÁ~%ÎV5•˜ĞMGaÈ3”ÌMˆúŸ)œ\000§8ôUè‡æ%ÛeHhÃ’9p–P/ú¯âÀacÉÔv\"Oœ,¯£ºT/,š Lìñ´3,¬á|Õ1”¯6±7)ªh;Ú8d»S«´µË‹™i1rı· Ô5”ûa„	ÖNÒ5¬µ”º1Ö]R5+P^`@½ã1èi(LÃ¾ŞÖÒÂOä JÛ{Û\\ÔD§¿3.Ù*;â±…ÉlŠ„ }Î×íVSùºĞJRTJÃØ¥ Üg„UQ‹•ú>›ÀRW0çAü#Ù¬µx:[@qm³‹ñS;ªéÀvh€ä…bWl#úšô÷ÜYV“«œ˜Ş^•ïw3˜ÊF-Ã—ßñ(‹ÛŸûÉk–ÏäñÑ5J1Jİ%éŸÕm8\n|„Ûf»{û[CøèoÚ5+îñçwâlÄ*kÓQ	üq.ÃwmX3&¸¾*«‚6ÖtQ)[ŒÀÆ.x[S0(†·¾D¢iš=æslVõúØ]ÌV˜Ô„³³˜¬|InH%—gŸpK¥Ô1`°r6œ“¯°ØûE“åBL\n$Ö¢f=®™\rıJÑñ‰˜4Rx\r(¿ kk„R¶µ˜ÄÈöGgAÖÎbÁ¼yYÃzT÷:,Šµ9jŸÅ“¤uĞ+qã(-B¯]„Û¢¶S‚Íë*¨]L«Õõ5*„l5ƒ!èyX›WF²£a±\r7MIéª†ò(JP¥ô'®=ûî–Ïë	)«S8vS{[¾¯g<¦Ì83v={)w[¾¯g<¦.hGğı¾.–ÚTœË\rİNÜûöá¢£YÍÅ¶ŞŒ\rûğW¯h¾D›ÚW3K¹?“Èì¸ø&Z*Ù{=ZW0åFÃÒÆ°-ÆJa¹ç}ø„æeğÙÎTv€Ï\rFù„•ôKì%7bhOÏ6¢ãÂOÜ	 Í˜4}–«Ù¹nàÛ‚K°¸°*ß^eÄ-w¥kz¶Ñ–†ìÚy¹ª´Ààiİğ¬É†½Bì¯ÂXycÁÜoÍ¸b\\ÏöT~ŒÑÖ¸ğ,h­”b#mK@S•¾§HºÖtÕŸ•-÷{`Boöœßkè­ƒîªÁDàğ½ÿ¡ŒÈb×s!áD,hÂpYıW³8,ÀØê°Yu>h'í¯SÚ3ê¯òkYœ¤Ì_Ñ–Cn;P3ğùæ[-|SÖB½}q¿p~¼¾¦ÌKV^;Ç77CÍdü†1ÛvY6˜ÑÚuÚ‡™¤Ï«UqS­#zÏ*fh°&Ü	\"åUM$E˜¥-îh£ªL;­\n‚öÅXä\"ÂÔs”±öjæmúx‹¸ººx†}¨*f\rÆÆ6«—n˜—ÛU…ÌËr)xì€ÓGl\nè|Q2údÿÀé­ÈHì×\n\000CÿU„Ä÷m$œ±>¬Lñ¨â`©^kêDw)ğÖIi‡~ï„ºóÚÅÓéö0±Y¤ıbNîçtz˜3€«Ì±n†ÛxHä¹}\000¯a?0åc9…O°rğ5üoNYÂ0ƒa€?ù?~\nà!ËÚ™–ÀÄË{­7/ÌL›“†4˜r¤çZÁ\nPtB$Tìjª\000™1SÇzÈ$Æ´pôÓa¦)©'ˆ“ˆ5±±£´ŠóF6ÖêèI:Q]ÔÒ\nî‘b­\rX@Ì\\Ç³ÕÂ·ûğ`ñ$ù¶÷±Ÿ:µˆF©Öìc8˜Ì>ŒFÄ†Ñ§'à>–-òóàA†E`ëÀES°·¾‹õ’›íÕñ³Î%áUÜÍIP¦7LŸu)meı;ZÌ24D	ÌğËY½˜9\000 ÖÎIù‡–ıí·M÷÷eUş›&ñÏ¾vSjb?âíô1Òç‚Üa-±öÍÖº”“iFòş*OØõB÷¼5–}P–j!IÄÀ	']®äµ+9ÄÒ\nXL—[cÃb âtóiîš\nXq¬Îi/bè¤Êf³6ÏA )¼ZÉaZAËföwåAê·Í,	æ&*yÆz“Ä†’ÅÚ9®kÌÈc•‹Øå§“Ó[7JXH¶j†S‘,+Úo0Ñ`”\"‚HÓ-9ä=¥Î9¶ÄÖÿ¼’Ü¼­ãşáÒÇ•µ•½Ì0êO\\˜lâé£¡¤ñ;zVPÜ„YC7Õõõˆ¢ÇêÁŠ\000Ğ„õÊùßWÖ_k·Z¼'ïFj„Ğ»‡¯Š‰÷Ø«}#rRµÖJAÔˆÁ\"[˜şÔt³ßÍAg^K\"QÍj_[ŒÆ>€ÕÑ\\3©‚°Ğõ¾ƒxmzØößkNTš¡>d¥áÛ¡=Cıùjz[“6ÌY´'Ã6é‡^[n^ë“È{÷ÃãT+øæ±® çÇÚ£™Aîb¤lª1”Ä[;#Ù¤2[ò~€ub¡)ûÀ¡u¹RğÔt¾ÇsO8Ğ	BZ@8‰Î9½Ã„÷PŸ—Òİë9!õÁY.*×xL¦ÃàÜ@“ ½àê†5ùß[N\"}Q%&ì¶Ûİ\"»²Ë,¡ğãgÿÅ‹ÈÑ\"è)%õJ9¡Mƒ–Â3’Í6Šlf%*?±ŸÏ°³Z§¸AOc<&@†5QP•h¾@%\n{õÉ…§BVío°\000m(÷ãH4Ñf3ÜsD ¼, ªëcé–[M¬°‘Z„ÿNó|µøPu øŠI@9U¦k”HíÙ<şW´\" J,i:…Ö#fŠe}›-Aí¬³e6s¢t<²Å¥ŸkÛè»)ößu={Îõï‰ê~Å£íäµ5¾ Òœ)áñÇÛ*sÎVMC«û\nÔ¡¹LšœâzÒTIN¨XKÙG‡«ŠòZ&¬3;%‚u!C«Pcºíë%°*Û¢%¹¿Šp‚BuL©C!ÜÖ†‡TWbş:†2MÚkÜ ”kØó*mLH•%ıâ—*Jfr¿÷§óUÑ]\000XãuYòf‚ »Á+59‹ò.hÑt·bëuÑiª(˜ª…ë0	¾S*Æ„ÍìÌ&úü>ækÈĞ+²6ëÕa¤‘ZÅÜ´­,pˆnÒÁ…b}xŒšbß2]=<@ÏNéRàİ±Õpl9œ›Ì¹Â80ú||fó»“Ï4#]›ğMa)W{ñ\rÚ#=ÈÃ`LUşˆ:šªYå1§¦…h³m:”\r7á£öH+}†j+Öb1äQ3ÒŠ¦G0œPÛ¸ÿÙ·H.H`d‰’!=bÈæcJµ~‰9Óî6¾&VŸ–3*ôq4—“zGP´zYÃå*	Ñ¡d•[={kT“©Íêñ¢Ç àu¼şùåJ«Õé›mšåe­-èf@e&ğö€V!wÃÚ	&u…)P\000ŠÑwûÑõöèú¤v¤ëÇ`\"Åü†\000<œ“[Ñÿ4cÁ=u¶Êk¦rš¤L¶ºÚPEs›àŸîDÂVy©ÅÆ!ÏòœÜ C]4äÀJÖ€Ñå¾$Áêôõ8ÙMQjÎ®ÑÀãL‰æÃ†­ãİ»Ğk¨8ù–À=Ïœî“š\n\\`X\rÕZûı*Ï°%T6—zyX8Fƒæ5aPx9_ù÷†cË¤¾7™\r©ÄËí£}©«Ná‡c!Œ¿ËøëŠTğâ‚àëÎE½Î3=N´\000_@/övô®)|ğeE±Ì¨ªËâ‚Şªè²“hh)%ÿŞ°£ŒÀÛvR66ôP8¬ğiîcß¡ÔbÛèO°8¸²O^«\nÿ1uòĞó	–=}yhÜÉÚğ	–?jy›Éî“ª,œ“U“ñ˜¦§5`øôÇ	¬úÔ*¯WZ£„Ş±õD‚èşŠ¹r‰ut(DHœÕ»UÚŠãq+ë3‰}a¤*!F›'„l5qí9Å>å=ê$$;˜ï&¬òßMz1Mâ¦íá¤ï«t¢\\N{öbH¶AÛ	Ç½UR‘}m5\"û¨EŠŠb¥¥ã;2]’bxó¬¢‹¬VÀ©\000.	†÷Ìx-+Z`@umTS£Š5=ôBã©|DÛåşs/4hVcÍ[À¥¸À…~äÇ˜\\Á½¦5óìT°Ğû²ZhˆBZd“bİq~:~ßTÄÁB¸pÅVMS?ë_á«BßÉ¡åÑË¬/ÉôHõ=Ä6Ú©ëÛ3ÍÛÛÃ¶¹än{ˆö\000._â:Zğèu|-Mrv¢…pÂ¡@_â}‚Õì~Ÿ<ÖŸaòÍ>_hK±íD­ˆç•DŸÎeQèƒ¶…) !$¬Ğm×jc·o³>*ä¾ó‘LUlŒ¼m¶Hšø4™~ ô´÷ıüŠ§ \n¢SL‹2É¸ÁN$F–<,:…Â4 ‰ƒ`­±<ú+Jf7˜×-…n`rÓÏ‹•oƒH1£ëŸå\n¤«£sÑ€xªK,<'´6ãY(¢5É;[Ò	ë'}­^	¦Q÷õu‡-Ú.ÙU‹.\nNÀ¬î¢sÛÅêİkèë4+f&³Yï×e5e½\000…Óâ	ÛÍ‚·Êé-b”‡¦ÖMöo¹³0ªU3±-¿ÒÀ{å§#s1ãœù£3nÍÊ¦ì%Ø’÷İšô:Î­E¶£ÕÃ²¸'bùr¸Ê^ÌÌ «÷ô`Fğ‚ö(fh4y =Â¢oX*À~$OEC)ğ±ÎwÙúÖÛ9­ÛV…Õù\000•cúó1fÜ0ù\n›\"ª™»dÎòæ!'|Š\\‹p+RV|‚¥‡mq§SR QÔùç#\\YÁ¹DĞ&0ÌÈÂÍ>.èbí¼Ëšy6t+“?¢bÇ0uS³,®.‡0Ãä<7µg‰På…9òê÷$Wf<cÔcÅ±:-;‚O	Ôş8ÍÍŒ3`.Tf|Ò¸ØwÀ(è–óUÙÒş]™Í0O¢hˆ#`Jgò(†ÃMè›–Ú°]öÇbÚ=z\000:r._÷“Ï@÷d§A	„ğ	ôÓÈå8êS…šÄ)&ŒL£±~¥Zb/%ÆÀC†²êèÒ˜Èà·šˆ!‚;sÕ;·ƒ÷<À¶šÄA—Ò„uJĞ·sÌê?Á¦×¬‡¾ò @f¾OµäY˜>š€\niøöc‡Ü>ú]Ã&‰mÉ©EÑbI´ánÌsX5 oàI¡¸fü: vÅJftÜçU¾z:à•q330ÚËÎ<¨HQ”Å€é¥šã0õŸÑ^Ì»8]D)7a›Î,£vlğÇõ”,©s^Ş_•DëCgYÈÌpy£î=çş¢M/vQ%d#‘Ğ¼±	I$«íì`1M/şq>«°36Ä”SÖO´ƒOÁÖ•tØ]c$„eÕG˜bŞuî:¢Ëf.šÑC8\r`ïp©¤Šh•Ò%Æº:Gô:ËYÜ§¨^bF(ŞZaö»ÃˆÕ™†a,V\r)k’c_ÅS2Ë@…Vo›Ô9ÇnûÅrïhQjƒ(#™âh²ŠNAY‡m¢Ë{ĞÁiaÌ;/Ë</ï™Êk+UKšèJ+ ´S<ÎÔ^ZMáTëÚÙ¿¢UÕ¶FÆ'?¼\000Å£ÂŠèWÌ{Ïß—å°§7Îá*o²(ÿxXVÕj‰ \n«£(öl8Zl˜»QÀKİ<6Â¬1 @õï±‹#›•ïÎÖ¬qywVÅŒV÷˜íLÉUeÑ•÷P‡‹r…šhÑ­¥ŠàG¬qİvÊúÜŒ]Ã6ÏGØp%\rù¬²ëÊ7¨évävDUØ9ügÚ1WËp#EÚó¶cÁ|•ü<æ[Œİ„%ıJ\000v¿ÄôríÀavcGÃŒ¸Z¹³£|[šöFr	•Ëß—Ä3íÁèóÀF/ÁJt#?xA™FmmgF^*Rq_ûNSÚ;[¬”\n=ÖºÁwµlO4ªáx¬FÉú¬¶\\`H\rõ#xÓ’dBåÕïØú#/D•O}\\Ûéa<}Ì²äaB‘Ùù¿OèyLÜºkO0ÅáIvìã÷:½9jÏŞÔTÂ‘ê32@l.=7`.©âï6ûW(¾Â|•u¹ªœ[ºÍ¢š¡Âƒq€Ì”8ğ¶\000D2Uü8R\\.’Övx\nà£…§½'ó¿ŒyP˜NĞw25*ƒî	h¸Õm¿S\"&Bn‚šÃ~(ÃK;±?°~eT–`Nl[Éâ•lQÑåT+º‚ã=©ÈbYåœg×Í¼Ëíõ“Tm™·?»­bUÑêEí\\”ÓŒ)¼Âû‚ZvJ2åŠqû¢ÉMQô¦ 5z\nl\"k²ï²î²JRö8E8Ğfr	ƒ“ª™O±Mz‹ƒ„‡·«<ŸV+üœaŸY³»v÷é-¨@öÕ™œbDš[;öƒ®øŞFÿÕÉ\nëRÃ6ïWÓ9¡e^Ş^,F?@> )Rfµeh¸˜V ).=\\—?<G´±b	\n61!ÜİGûLËÁíkĞ/›ìzíœÓ<›*=;\\/–Ã!*<\n\\´ecmÎ£î=os… ƒ²4R£‘Ê¶N]£wrJÚ‰éÀvÈÚY=°ÆÂ.èÍt{ïAHšŸ	¸UØ•#‘¾,ÈÀéò”TS`ì¯Ê{Ôşg¤­ŸßKIÎÒE+í<}ì	ñ†§Yİ`²ŒóVÌ\\£X\rùÂUäj/€¨ã5 _÷¢fì	¡ç´¦°î9Ü±iyG»J?ÒN£S¡¹52;Êjí*Á¬¶Gì/€çØö@V³±ï8l½”¨şÌÔ<P}GÚôøûnR¦-şL<Ü'²¡«¤º$xjôó–©±Æ†èU‘×,Ìæû²ÀÂeZú\nîç§Õ½¥³ca6³TïWQ\000‹R˜\rî7i€Îg¯’àáœÔTÕ¸Cú{Cª+(Â&Ì$RÂöêA[¥sg›È ˜6Ô­“\rh¸?}éa±8ã2hùmA©ÆÄD'V¸©Új¹ò¼ßû}®ªÁù<X™	Ğ^ÄúCŒŸ3ÌñësPƒ8Çï»‚ë,x@¸øª†ø~İçTşOo××ÛÆ\rÃßı)ˆEÛÍpüï|ñŠm@	º&Fzk±‡`cÙ§ù|:ètv]ô¡ßaOûzı$#yÿÏŞ:´ÆËMR$%‘?F<i6\n½$\\Ê•‘>dÈ8a(BçèÅüÄBÉn(ûÕn´Gmê3|&]8™Ù¿U+TÎKµ+»ó´@.ËÁ¯=bgÈ'\rOY¾÷…ƒ] Õ(àßÅ1Â\000…óà²ş*§xÄÃ5uë~cE²òmãÉÇ›\r»=_*ÊïyÔaà¸ÊÓãÌŠ¼ÓÁ¶Z1‘UõäôÚ¬aâëèØ«Á›HÁ\\'áæR>ı1Œ0¿¡DJ/ßËG`‡§Ìš,Ì|CxTqu3ÕÜ	Ä¼œÏÈ­6p­Çm45‰q»Œ…ô\rÄ4Lù?”eñ¿Ú¨}öR›ÅrÈâ÷Òmÿ•AÉ#'Kˆ¿HÌé±„1£f5Ì*>šé–â°¼&¼'¸Æ~L(©5ƒDZ—‹á¾6ğÈ*ŒpJR€ér©VûJ©1Õ·U²ÑVØg1Üj¯÷p%­ŠıZp¸JWJ¬Á0¿\000)ûªd´/ëqVÄâ±U1\\ŠıÜH±Î©¬ÇHRúNä6nËGí‘Ã	PçôNT»ÇĞËpkínvò_XÏÓ%Ÿµ¹qÏ¬g­ÇÍ|VVï;›ö³25¹ZËV˜Ğ\"È4«<VQ­\"pÇN%í€h5J»X2YY™ªâøèõÎxì2ò©xª´YC;£w lşn¼T¦şXLËVĞ†ƒü¦*Ò.é¨iùÿãùJ^3kŠFÂoò¢)ùÌ˜¨ø.ä00ì:½q«'ó:”Ğë:}rõ%û\\‡ÙÇå\n;Êic1Ã„ò¢™´ƒ²RnÚ½A¿×ï¶*9ÇÿÈ–¥%øà\r*¯×0›'á¼t-)àV¢B·j|­°SÖ/ÓÍa‰4HÓ†íĞGÏí;ı±3`«“Ìmè[!ĞÄğuã×°1T¸ßÚ(şáìl·Ûuö:±É\\R‚ÅÙNØGÿçíÉÛõ¯î‡nø‡Fº'¿ÜL^Áõô~\nWw÷ğöærz×êlÄ£Ñiv<†®é/kÃØu\\?ÎLÂäwú\\…«Æ4Æz	R¤DğüEÕÜwÚÛ¡r;ªÈ˜Æ\000'òw,L2ú…lxÑ<4¶²õıo)¾`¸>GüNx­Ó;ä•P!*ÍçOºOa®Ã$ù>’FV9o4±X(Ê±B™mg(€\nO_‚¯wèGQ’ÖG[½ák\"BÉÚ8Òìäœuiâ,EZ“Isâ¸ÏŸş\n0rCkÑ«2uÂ‚ bQµÁù’Ğª $×¡ƒöC/—´ñNÀ9ÂıD§õ‡kâ\000z½\" kú‘¿k%©Xñ[ôÇªİJ¸A­áÊˆ|’K~Zğ‰fh÷Æ#ÇåÀLòÈ†‡Gä@â\"ÄÉç/^¶şş",
 ["metadata"] = {
-["guideId"] = 1210127539,
+["guideId"] = 4150465321,
 ["retail"] = "",
 ["group"] = "RestedXP Speed Leveling",
 ["internal"] = "",
-["imported"] = true,
-["version"] = 3,
-["key"] = "RestedXP Speed Leveling||a) Hallowfall Campaign Midnight",
+["key"] = "RestedXP Speed Leveling||a) Tiragarde Sound Midnight",
+["version"] = 1,
+["enabledFor"] = "Alliance",
 ["length"] = "616891112",
-["name"] = "a) Hallowfall Campaign Midnight",
-["displayname"] = "a) Hallowfall Campaign Midnight",
+["name"] = "a) Tiragarde Sound Midnight",
+["displayname"] = "a) Tiragarde Sound Midnight",
 },
 },
 ["RestedXP Midnight||cFF1EFF00(80-90)|r Campaign & Sidequests|cab) Eversong Woods Route 3 (A)|1155"] = {
@@ -12416,25 +12397,25 @@ RXPDB = {
 ["displayname"] = "|cFFFCDC002|r - Eversong Woods 1",
 },
 },
-["RestedXP Midnight||cFF1EFF00(80-90)|r Campaign & Sidequests|a) Turnin Route Horde 3 (H)|999"] = {
-["version"] = 20,
+["RestedXP Midnight||a) Warbanding Together (H)|737"] = {
+["version"] = 1,
 ["cache"] = true,
 ["enabledFor"] = "Horde",
-["key"] = "RestedXP Midnight||cFF1EFF00(80-90)|r Campaign & Sidequests|a) Turnin Route Horde 3 (H)",
-["groupOrContent"] = "uËjÃ0E÷ó‚b/R\n!†ìÚ˜l\nÁ)´[ÕÜGRô(-äã+Gİ–Ù\rœ{Ïíº­Úîz¥Ô@Jš_\";‹	b.{)&2ï'|acyşL ¬¾ê_s°lqt9]0„Ø[1Tú6\rƒ:ƒ”ÍNv½loŸôÅk->à™\r]siˆ G¿èŸ{øŠõÏëÉtx\näÓ½-b3„EôåëÉ`M(µ–¾NÅì°îpvÆ7çLü3¬nû}U…2Ëƒ`;-Ùü3~ÿ",
+["key"] = "RestedXP Midnight||a) Warbanding Together (H)",
+["groupOrContent"] = "åSÁj1½ë+öĞ¦mÂn Á)ÁPÒº¹¤\r¶!9‚¼ïÑJëÑÈƒù‡ú{ù’j7Ôiè¡×^‡÷Ş¼÷¤Ùß?*ÇEQ*•1Š&«²%r ï PYÅ>¶0Æ h®.àœŒ£ª•9İ è=¸Ô<ÓÎ«`ê+”^Ÿí%\000ŞJ˜,¢¶vı84Z«×=yË*+kİ\n²:93ÏUÚÖ¦±oZ‹‚+’:9•Y=CÛ1]Z8íGBb6åh4:ıtšç“jAj\nĞ©€xhÙ—ˆfÃêí´Ÿ£H©aS°ĞZ€q¥Ù˜Gk!E³oÀâm€Aşpÿã8Wo6åøêâúòãøë5	”ÚÁáÉ§ïJ„65`ôú$®šÃÚÇ‡ûŸKãBâÍpî7|°#ø95Z&(Éİ”ü\000EŞ‹‚á9úYÌUvõúŒº< &Hz&f¿ê^èõ÷.î:Á{¿øNàWLM£yËd\\Db;¬İRõ[+¹ÒFƒË÷—ÏdKû—ÿ[Jw~ŞÛ¨\"¥­işT¤EéW9uåz\\ÿ*…Û¶#Dg}yƒf·‚sí/6üÅÉ¯",
 ["metadata"] = {
-["guideId"] = 72293549,
+["guideId"] = 2133463070,
 ["retail"] = "",
-["subgroup"] = "|cFF1EFF00(80-90)|r Campaign & Sidequests",
-["next"] = "ca) Eversong Woods Route 3 (H)",
+["next"] = "a) Squally (H)",
+["enabledFor"] = "Horde",
+["chapter"] = "",
 ["group"] = "RestedXP Midnight",
 ["imported"] = true,
-["key"] = "RestedXP Midnight||cFF1EFF00(80-90)|r Campaign & Sidequests|a) Turnin Route Horde 3 (H)",
-["name"] = "a) Turnin Route Horde 3 (H)",
-["version"] = 20,
+["key"] = "RestedXP Midnight||a) Warbanding Together (H)",
+["version"] = 1,
 ["length"] = "616891112",
-["enabledFor"] = "Horde",
-["displayname"] = "|cFF9D9D9D0|r - Prepturnins (Requires prepped quests)",
+["name"] = "a) Warbanding Together (H)",
+["displayname"] = "Warbands",
 },
 },
 ["RestedXP Midnight||a) The Legend of Aln'sharan|905"] = {
@@ -12467,305 +12448,312 @@ RXPDB = {
 ["next"] = "a) Dis Was Our Land (H)",
 ["enabledFor"] = "Horde",
 ["chapter"] = "",
+["group"] = "RestedXP Midnight",
 ["imported"] = true,
 ["key"] = "RestedXP Midnight||a) Emergence (H)",
-["group"] = "RestedXP Midnight",
 ["version"] = 20,
 ["length"] = "616891112",
 ["name"] = "a) Emergence (H)",
 ["displayname"] = "|cFF00CCFF3|r - Emergence",
 },
 },
-["RestedXP Speed Leveling||cFFFCDC00(1-90)|r Default|be) Horde Hillsbrad Foothills|1293"] = {
-["version"] = 1,
-["cache"] = true,
-["enabledFor"] = "Horde",
-["key"] = "RestedXP Speed Leveling||cFFFCDC00(1-90)|r Default|be) Horde Hillsbrad Foothills",
-["groupOrContent"] = "}‘?Oó0Æw\n£,tˆœ0”VêDÓéåO/!–K|I,¹vtq\n•øğ\\Â\000íéîòøy~öÅñ</–iš^0VD{¤Şx'S5ä‡N>`P¿låc‡¨å\rîÑ×ˆ¨ÊoÅg•çù:['Éy/“Ù'Ékl‘ƒÊg²ğ¤QÆÚ¾$Ğ2÷>´c'\"múÎÂa’^é&Ï“dÁ6ñ_äj%ï©’gÙ?õŸ¼µSõä4²jÂ@è¦òÊz¯7¶şpç]1¸€t,õòTêµ/ùêjN'(¸3MJOUÁåÎ³;÷ n¡iVm€B‹.{ªÕëh`Ì„¯Û!ÊªĞHıâTygØáGeıó”ãËV½`¶i(xUˆŒ«ìÀ’#«{ƒSëøú",
-["metadata"] = {
-["guideId"] = 1377901504,
-["retail"] = "",
-["subgroup"] = "|cFFFCDC00(1-90)|r Default",
-["next"] = "bf) Horde Hinterlands",
-["group"] = "RestedXP Speed Leveling",
-["imported"] = true,
-["key"] = "RestedXP Speed Leveling||cFFFCDC00(1-90)|r Default|be) Horde Hillsbrad Foothills",
-["name"] = "be) Horde Hillsbrad Foothills",
-["version"] = 1,
-["length"] = "616891112",
-["enabledFor"] = "Horde",
-["displayname"] = "|cFF1EFF008|r - Hillsbrad Foothills",
-},
-},
-["RestedXP Speed Leveling||a) The Skyhorn Tribe Midnight|1380"] = {
-["version"] = 1,
-["cache"] = true,
-["key"] = "RestedXP Speed Leveling||a) The Skyhorn Tribe Midnight",
-["groupOrContent"] = "ÕXËnÛ8İû+xÓ*#’zÎÂ€'M¦&Aà¦H»2h™‘‰0’‡¢“ğÇÏ¥ä—i\\¸õ`–çŞËCò¾{ Š	!´×ëka¸T½ş£Ğ…Ì3DzıTç‹9‰Âˆé×kôy.Ä]ˆG¡d–öúˆ¿E73>ß?Ïr¡-']Êi&Ó™éõef„Î¸êÁóNs“£À§ïáÈu†iÔ–7e¿;ˆ“§\\«éŸŸ$3n&‹ÉD‰qà¥Z<ã‰šÿAİ¥¹áêÁDËdôõz|>úxvõşâÛø’?+>\000ğC¾È@M¶Ô¸‡y’ˆ¹A”24«Ïé6\\§Â ö4uò®ãSìçáş2ò¼àÙšÑR›…Îd¶¡}Ÿ¾_æ]›a+;f$ÚÊ¾Z@t³˜æäM‹–8†Cæx¦¬÷q#.±¹>It^3.õI©›'f£íTÉäAòØé+×O?oe«@ı½P¼Ô—äs%Œ¨:¤‡‹{9Oan9—Säy„ùmÍ	^&íé/…Øap;]Ï¾Í‡‰ÌşsaLŞEZ‹Bs¡\"°ğAÔ‡(`‡\000±}€˜gˆ·E!âC€ü×(©òé!@Á>@‘ã˜$(Ü'fÈ=(¢}€¼°ôòûıfåk¿é0ŒW$¸[ÃåItÆS%VfÓW|\"”µ²ÕàÒÈ>Ã´N#Uô†œ„owWÂÅïxûŞ/3§S>7òQ ¿´à¦Â­ÇÉ\nrˆ5‡•ğ+a5î´Á`N\rGşÑ¹ÓŸåÎZÜ¤:Á9:wö³Ü½w°ƒÈæ\rÎİûYî~‹»İù.ƒ£s÷÷æŞÑŞVI÷N?Ë¦¤.Ò¬H÷ø\"ƒÃD†­pÑĞaÑ±ÅÃ=”¼ì»´®‚Á%ÀûıÇÍê´X7ãâÕ»-%õ+ıÍL±ÓÁ£ñ¶Ã°(øB™õqö0øæÜ_¯è“43õ4“Å=\\8/òg®daP¡ì[`0ø$á¤®ô]]~o;K`ÊZë©æOJò¤hœş@ÍúrãlŒ‡|Ò…_5¬g³ìï ¾3\000­ZŞÛ¯\" ?Ø?ˆ8ì¿F¼áEÆàÂÙ%nÄSY-—øş]èæ†’5åFÇÖ%ÆÅ„9ŒbBº`†)×|¥!ÏÒZÁ4:Öt¾µpæcÏëâñrb$XEb·×šAïÊõb\000°›ˆs·Ş\000‚#Úlra\\6µZì¥b´ÇÀ#Ú+ÅUÓÿ*CkËBKÛ	Üßo;+çØ}U¯¬£Ûq6ã*CY{ÉQvŠÖêVšdöÏBˆÖ#Ö>Y Ybwf¦­Hl·•št—Z·„_¦^Œ‰w”5¦5ŞÿªµGa³Z#Eò»K3¡şØ}BÂ_&ğŠ?r­ó´åQX>\n$d3\"ÔmU0\"xvËl˜s³¢³[&?@N´¾‡,“óóóÓ÷§®{+•?•‰7~O@$oŸŸ·\\t—ë²Ç(Wb®øsYkˆ ]Õ¹øÕ¹İ\\)Ã]¯ruÅûUºÿ",
-["metadata"] = {
-["guideId"] = 434443186,
-["retail"] = "",
-["group"] = "RestedXP Speed Leveling",
-["internal"] = "",
-["imported"] = true,
-["version"] = 1,
-["key"] = "RestedXP Speed Leveling||a) The Skyhorn Tribe Midnight",
-["length"] = "616891112",
-["name"] = "a) The Skyhorn Tribe Midnight",
-["displayname"] = "a) The Skyhorn Tribe Midnight",
-},
-},
-["RestedXP Midnight|Pre-Turnins|a) 1Pre-Turnins Booklet (H)|1020"] = {
-["version"] = 20,
-["cache"] = true,
-["enabledFor"] = "Horde",
-["key"] = "RestedXP Midnight|Pre-Turnins|a) 1Pre-Turnins Booklet (H)",
-["groupOrContent"] = "mÎO‹Â0ğû|Š\\,K—D°¬ĞKÅ/+¥+èMb3Ô°Ù¤äÏêB?¼µ^<xùÍ›—ç…(>–Bˆ9\000ó¥6ÀşÈí,Î9°Î»ÔcC!’:Ôø¥•Õİ9éôØÕò]òVÛ0M/t(8çï`VşÊÅ“Ã•s?†\"Î60¥Coäÿ_ ¡mõq_5Ûã¬ù¬ÖÙà¡,qã¼\"kõÀ´mMRÓ›ôöM†Úˆ–®»¤ÇãÛ",
-["metadata"] = {
-["guideId"] = 1685460078,
-["retail"] = "",
-["subgroup"] = "Pre-Turnins",
-["group"] = "RestedXP Midnight",
-["enabledFor"] = "Horde",
-["imported"] = true,
-["key"] = "RestedXP Midnight|Pre-Turnins|a) 1Pre-Turnins Booklet (H)",
-["version"] = 20,
-["subweight"] = "1000.5",
-["length"] = "616891112",
-["name"] = "a) 1Pre-Turnins Booklet (H)",
-["displayname"] = "Pre-Turnins Booklet|cFFFCDC00(READ)|r",
-},
-},
-["RestedXP Speed Leveling||cFFFCDC00(1-90)|r Default|bb) Horde Highmountain|1297"] = {
-["version"] = 1,
-["cache"] = true,
-["enabledFor"] = "Horde",
-["key"] = "RestedXP Speed Leveling||cFFFCDC00(1-90)|r Default|bb) Horde Highmountain",
-["groupOrContent"] = "u‘Akã0…ïú*¾´¯¬Ğ†\räÔ8®¡í6ìnK)½Œ£‰-PFfleÈ¯ìô…æ`ß{3“¦S=ı9ÓZO„H{°N$;äÎz’Z$5ûĞÊßØõh^WòO‹häîĞYªEÒ…ê¨8¬‹¢Xä‹,»Ôé,»:°ÌqÁõ\"!Ø¢¬ª+Yz6(K[7[(z‘HŒíZûQ3@ô²(²ìæ‡„ô?­œÏå¯åE~¯ş²wn¬É ˜c#å­óŞ,İfø‰n=•‘‚|ÎğúŒá¯â¤jd ÂUdÿŠ’¾òL¨NÕGwõusª%pß åÿ€7êm\0008`;&W/ÁµÈ r†ußìYDT%0{²1+áG7ß­NNDÌ7öE¼N+Kk¢êÌµŞÌ)`|æ@òÑ†ú¢}ş",
-["metadata"] = {
-["guideId"] = 2583697727,
-["retail"] = "",
-["subgroup"] = "|cFFFCDC00(1-90)|r Default",
-["next"] = "bba) Horde Highmountain 2",
-["group"] = "RestedXP Speed Leveling",
-["imported"] = true,
-["key"] = "RestedXP Speed Leveling||cFFFCDC00(1-90)|r Default|bb) Horde Highmountain",
-["name"] = "bb) Horde Highmountain",
-["version"] = 1,
-["length"] = "616891112",
-["enabledFor"] = "Horde",
-["displayname"] = "|cFF1EFF005.1|r - Highmountain",
-},
-},
-["RestedXP Midnight||a) Eversong Woods Adventure Mode|841"] = {
-["version"] = 0,
-["cache"] = true,
-["key"] = "RestedXP Midnight||a) Eversong Woods Adventure Mode",
-["groupOrContent"] = "İY[oÛ¸~÷¯ à‡b±¢›uéC×vÚl“œlœİl{ö `$F&,“ZŠŠã\"?~G´l]l¤*V=XôÅI‘3ß\\¾2GGáx¾af¯×Db÷ú‘àY‚nH*IøÇ5º¤!£Ñ\\öú/	Â?¡é)gºã<LÑ(|\"Lf‚ K’^?¤iãµúú%8;;OÆºn¾tÔØÚëS&‰`8î°¤§Ñô×ä@üä9í÷ú_&1‘dEå1òÊÌiCòUOÃA@¹Ä	òmÏ5¶›:9m†\rá•moëæn›•Û>`YˆE}ƒá[•\r0*7Œ–¼ş¹ãê^ùy>*?¿ôK’\"şˆ>gñ›Ñ³º0Ë«ìÎGåîß9\rS·|İ„ZÄ%G¦å[{¨9ÆÀÕ5Ëéœ¼Üç>xÄ92°8OÓ9¦âX¹R{ˆ“·¦ş\"Ç1\rˆ3$ç¹soş¸¾¿>¼Ÿ<“L{‰“ÑÒJá>‚¯$øİâx$ÿ“m>»9Ÿ^M.>İŸ3¶ $!ıÂŸ(ÎÏ/ÑÍô*hèÍŠ‹8ûs,²0Æ½cG‚¬wp\n‰èk‘\\Ñ€h=mÎ!¨ONfD¢5Ïú@°s°?#ù9wxıˆoR•?=MbÁ·{Zº IV¦	\r‘aÙ:d`sÒtçĞ¤×Úp7˜E ó–Ä„eiİnD;p|M·:³[SV‚éš~%¥xÆB\"È+H¯4I¸³UıÖXÏY*E@&@BaØRÑ@li¦5pmÍèña©Ü¶Ue†1`ü”Ä/•Ù?¨cìC…]ÿ¿bwJì¾b£kÒè‹uš3£I–.–‹ŒT!¶£ùFNv†ÛäC2KÀkùfÍÙ_³4¡@¢ëìıSZƒ¾Ä›Ñgt¹“ŸW¹¡Š=ø®‚ï;ƒÿºt0tŒ²íßÂÁxËû;¼vPa(^$F³9É¯Î =@î|!gø‰‹tô«ì¬J=ß\"®­W¨³´Ú˜â[ŒJYg!Ùoîş„¶în8*÷X^ŞoW4Î×N·çZ•íìøèàô¤¤k.€ Ÿ$}\"§ùp7zwT‹ó*í^½ü€W‹d:›sNBˆ˜ó¤á_ËWüôÆ’®·5×Û_s¡«È¿º‡ö™¾Úmí¯ÙüXšgï/\rÕ6Kš‡ÖŠÍ…š?úâ©€ş’¹5ïÖb9‚ı-%›–ìZÓÕßB\\nâñntsuÿßé³xåì]&¡]ù45š—fÔVÍ™çÈVò&æ.Ú&ªËHXõ@[u'ä‘`YÈ^M/?İ—ç]¬Ù3h—÷\000‰¡ Òs.µ=• \r_òTß@M5]å–CŠ}¤q\\S+_Øt2\r±ÆFlqR§ üëC6PW–ïæ¥}åZ¹é_â†C	üo3ÜªîòBĞ¸Z©¬õMc¨ÿ0”ó-ÿÏâ­]n*gls³],¾îş×“¼Ãz:.¨gmD½VP'õ‚:µ9x„Æ\nÚÖÜRNÕp;Õ†ïŠ)ƒÊò5ÏÏ-³³nê\"[âÚåBÚvõ\r…’G±õ‹¸”.áše¹7×eß\rgÊ~{~³Ş(lz6ñ\rÓo rà×ƒìëîÙ„²7!„¢÷d	ı\\\000^*hªh¥•€ó²\"q ğ£zeùÈø\nîÌ• 8Í\rÃ÷¶kè†lÜtŠ­«ü·5ÓëLıü<!\rb^µÆ·˜Ú6L­èh²3]/1Ëpœ?±]B—Œ$UTƒ9NT«SZÜ‚Å§,¢në_··îîìİ\n¬íÖÀºš¯\n…åvvÆc¢ÿ‚®3Ì‹^®h»\000ğ’²¯c3¬-¶¾¤ôI%LòfÊÛª4İ½)¾]æ!ÖqT€İåç«*ìçCşÖâiİñ38áQÄ_¶VÕa` ¸\\_Ác’?¸7*aNyn¸.¸Š\nÏ‰–é˜‡øñûbÚy4Û÷„‚ì·ï	M¶oªÿŠeãúù¹ÍßVèß®ó­$ÍænÀ8OË?GGåßE1îòWFpÜÜ™EÆX÷wèŸpDšÎu¡\r½ÎœûËù‰¡=D³ŒEøKí¸§ú zÅ¡Ÿ	èØ\nú­Ê;ğş9m,4ÁQ¦M€ºÕ3HŞ½TæŠ©ñÑşÜço pİµµÕRf4íÎ¨gÆY´Tª&üšïj€ÏYšä½ø×x\\¾úû",
-["metadata"] = {
-["guideId"] = 3960869614,
-["retail"] = "",
-["group"] = "RestedXP Midnight",
-["internal"] = "",
-["imported"] = true,
-["version"] = 0,
-["name"] = "a) Eversong Woods Adventure Mode",
-["length"] = "616891112",
-["key"] = "RestedXP Midnight||a) Eversong Woods Adventure Mode",
-["displayname"] = "|cFFFCDC002|r - Eversong Woods",
-},
-},
-["RestedXP Speed Leveling||cFFFCDC00(1-90)|r Default|ba) Horde Val'sharah|1298"] = {
-["version"] = 1,
-["cache"] = true,
-["enabledFor"] = "Horde",
-["key"] = "RestedXP Speed Leveling||cFFFCDC00(1-90)|r Default|ba) Horde Val'sharah",
-["groupOrContent"] = "uQMkã0½ëWhña›ƒ‘İ–ĞBNã5ô+ì¶a)½Œ­‰-PFfl¥\räÇWvZğ¡=F3oŞ{3Çót~u¦é¹cÆŠhÜG2QÍÎ·ò/v=êÿkù¯EÔò÷h\rÕ\"ê|yB«<Ï—Ù2IÎÒø:™Yf¸o{ìP–0“…cröw×\000C#\"mºÖÂaDé*Ï“ä2tÇœ\\,ä#WòWv«ØY;FÏ¤ô)	‘ÆğÆ:§Wv;|ÂÃ£ÂSü“ØÅ7b\\æSk \rXŞS7}é˜P!Ü¹@\n†NÊêêĞ<ªpß eoÀ[õ2X`3ºVo[dPCÕ7V{ª\000fG&ø$|ïeY~ík*'‚¹1+ÂAZª¬˜ô–>™l,²'yo4\ró|r}ü",
-["metadata"] = {
-["guideId"] = 1713379348,
-["retail"] = "",
-["subgroup"] = "|cFFFCDC00(1-90)|r Default",
-["next"] = "bb) Horde Highmountain",
-["group"] = "RestedXP Speed Leveling",
-["imported"] = true,
-["key"] = "RestedXP Speed Leveling||cFFFCDC00(1-90)|r Default|ba) Horde Val'sharah",
-["name"] = "ba) Horde Val'sharah",
-["version"] = 1,
-["length"] = "616891112",
-["enabledFor"] = "Horde",
-["displayname"] = "|cFF1EFF004|r - Val'sharah",
-},
-},
-["RestedXP Speed Leveling||cFFFCDC00(1-90)|r Default|b1) BfA Intro|1299"] = {
-["version"] = 1,
-["cache"] = true,
-["enabledFor"] = "Horde",
-["key"] = "RestedXP Speed Leveling||cFFFCDC00(1-90)|r Default|b1) BfA Intro",
-["groupOrContent"] = "u‘Akã0…ïú³ø°ÍÁÈÎBh —$ë²ÛnØvÃö2¶Æ¶@‘ÌXN›’_Å¹J‚§ÑÌ÷˜8¥³Ûyš¦S!\"&Úˆè@Ükg!QÃnèàõÔ¿\r<wD\n~ÑŒ¶ˆú¡¼tœª<ÏWÙ*InÒxLNÕ8/\"‹{‚2À²^ÀƒõìD¤tß<OçÙtçIò#ŒÅ°ŒÂwd¸»ƒß\\Á·ì§|agÌ¨şZE¨.E˜ì(—Æ9µ6õùí-ë‰¯YM¿Xİ»2|JnĞ*X¨Oºi}éØ’,‚Ü»€Dm/¾ò›9$”kdß’Í^‘k¹;²3Ëí`:b”cåÛ#ËOádÌÎêÒÒ›‡'P8V[4ßû@ÇV„hcM„t\"Ò¶2Cè¸²“ÿ±Dï\rAíïÄÎ·âã",
-["metadata"] = {
-["guideId"] = 3246789926,
-["retail"] = "",
-["subgroup"] = "|cFFFCDC00(1-90)|r Default",
-["next"] = "ba) Horde Val'sharah",
-["group"] = "RestedXP Speed Leveling",
-["imported"] = true,
-["key"] = "RestedXP Speed Leveling||cFFFCDC00(1-90)|r Default|b1) BfA Intro",
-["name"] = "b1) BfA Intro",
-["version"] = 1,
-["length"] = "616891112",
-["enabledFor"] = "Horde",
-["displayname"] = "|cFF1EFF003|r - Zuldazar",
-},
-},
-["RestedXP Midnight||a) A Palette of Feelings (A)|1204"] = {
+["RestedXP Midnight||a) How to Train Your Protege (A)|1245"] = {
 ["version"] = 20,
 ["cache"] = true,
 ["enabledFor"] = "Alliance",
-["key"] = "RestedXP Midnight||a) A Palette of Feelings (A)",
-["groupOrContent"] = "uÎ1‹Ã0†á]¿Bà¥q†Ğƒ,¡à­nêp‹±ÕTàÚÆV+ôÇ_Úµí.½ßÓ¶ƒö_Zë@ËÔ/•Ê)bßZJZ3~Sò§ì#/í•Ğ68ál‰¦3¢Àq©¸›Pköö¼¼;cºîp0Fë{Áöıß–¥?ydçBŞJ*Û4G)É¯N¦gØ]l*08…À6:‚\r˜Aqtaõô\nşùD…ÿ",
+["key"] = "RestedXP Midnight||a) How to Train Your Protege (A)",
+["groupOrContent"] = "}ÎA‹Â0Åñû|Š\\ôPh=¼!xY(Ëö’¡ˆI˜¦êB?¼UËzïÏ¯ªÚ¦İ~4M³PBÅr\000u!9EÜÔ zISÆ/ùc‡Ÿì#÷Cí™Ğ®ñ®X~‹åˆ§4	v’\nõ„+½åyÌÁş>×³3¦®÷{cÚY°úÿºÔéVu=f=jg=Ù½ªn°¹Àn‡:¶Ñ,ÂŠ£“§¿âŸwV¸ÿ",
 ["metadata"] = {
-["guideId"] = 2481786922,
+["guideId"] = 3753644492,
 ["retail"] = "",
-["next"] = "a) Predator Reintroduction (A)",
+["next"] = "a) Aspiring Academic (A)",
 ["enabledFor"] = "Alliance",
-["name"] = "a) A Palette of Feelings (A)",
-["key"] = "RestedXP Midnight||a) A Palette of Feelings (A)",
+["name"] = "a) How to Train Your Protege (A)",
+["key"] = "RestedXP Midnight||a) How to Train Your Protege (A)",
 ["group"] = "RestedXP Midnight",
 ["version"] = 20,
 ["length"] = "616891112",
 ["chapter"] = "",
-["displayname"] = "|cFF00CCFF11|r - A Palette of Feelings",
+["displayname"] = "|cFF00CCFF6|r - How to Train Your Protege",
 },
 },
-["RestedXP Midnight||cFF1EFF00(1-90)|r Default|bk) 70-80 First Crafts (A)|1300"] = {
-["version"] = 3,
+["RestedXP Midnight||a) Into the Abyss (A)|1254"] = {
+["version"] = 1,
 ["cache"] = true,
 ["enabledFor"] = "Alliance",
-["key"] = "RestedXP Midnight||cFF1EFF00(1-90)|r Default|bk) 70-80 First Crafts (A)",
-["groupOrContent"] = "u‘Akò@†ïû+¶ä¢‡°YVÁ‹4¦õCÚÒöğ]Æì$Y\\'a’X|7*Ø‚=,Ì;Ï<Ì†áPGc­õ@ˆ€±ëD°G®mIò^9—m%_°nĞ|®åÊ²yÑˆ n7çŞ1M=K’(êépõ,cÌ u>D°C¹ÙöåC\"™X®ùÈ5µìMû\"0¶®N¹+H<$üŸLdÌ€„VŞÅ©â/à¬+Õ•~º«æíèÜş×YÎÜ)áîJš·Ô ÿ¹SßÜù^Zã1jÑº7Ë@jÙ³’s4µÂ´€¼³P1ğö™K:Ù)H›âÀj\rd€‘”—üá¢>:©pSàehì–…ß>uÎ¥(üù+XJ]kğú¯¢‘KÜ£³”ÿ‡[‡ß",
+["key"] = "RestedXP Midnight||a) Into the Abyss (A)",
+["groupOrContent"] = "eÎ1‹Â0Æñıı/dĞ…¦CQèR\n…<äqpÉ%/í1\rI…~økÏÍ®?şy^Éj·—R–\000\"PRlA<(DJ}ï(&2—#Ø8î‡Â©¡ÊğË¥Ó@Øü¾bÄm“0½U¯ÿË¤»®(Ú¶ëÊ)`şñŸz¦Å9ÍÓ÷Bo\"‰í[Òƒò‰Ô56Ö²rš`Nñ Øi{7´N»®¢àï",
 ["metadata"] = {
-["guideId"] = 1277892227,
+["guideId"] = 713756117,
 ["retail"] = "",
-["subgroup"] = "|cFF1EFF00(1-90)|r Default",
+["next"] = "a) The Night's Veil (A)",
+["enabledFor"] = "Alliance",
+["name"] = "a) Into the Abyss (A)",
+["key"] = "RestedXP Midnight||a) Into the Abyss (A)",
 ["group"] = "RestedXP Midnight",
-["name"] = "bk) 70-80 First Crafts (A)",
-["key"] = "RestedXP Midnight||cFF1EFF00(1-90)|r Default|bk) 70-80 First Crafts (A)",
-["version"] = 3,
-["length"] = "616891112",
-["enabledFor"] = "Alliance",
-["displayname"] = "|cFF1EFF0011|r - First Crafts",
-},
-},
-["RestedXP Speed Leveling||a) Jade Forest Cloud Serpent Side Quests|1351"] = {
-["version"] = 1,
-["cache"] = true,
-["key"] = "RestedXP Speed Leveling||a) Jade Forest Cloud Serpent Side Quests",
-["groupOrContent"] = "ÕW[oÛ6~×¯ à‡a˜ÊŠº«\\ÏÁÒvif{H‹¢0h‰³…Ğ¢FÑõ2øÇïˆvbÉ’º¤7#Òwtô}‡ç¦gÏ|â‡!Ä6ŒdŠ¦Üè}b²HE†ˆÑ[H±ÎÑ˜Š%ï.Ñ$g,AoØ'ÆÓlaô2ºbˆşŒ^Ñ„¡3!Á\r¹X'hÂdÎ2…&) ¬(Œ^š)&3Ê\rp—½X¬rÎÛ¤j‰2ö2ğB(œ€˜¾‡mÏtl[&üY)8wÀr<ÔïÿY0´nø/¬­úğRŠì_†¦éŠå)‹ÙGã,Réÿ—%’.D&ÓØ£¿5+làT±U,ÖÀÖ&~@l“x\rşwW;²f^€}×t]¹F¿¿jQÑ˜=ßÉ“ÍŸÇKªæëùœ³™ï.$»Ás¿°æ”òë’Ì6¿»œÏG¿¾y?ñ„I4Èxº•@ˆÆ1Ër,ĞZ»Ë«”'hºê…•¦ĞáÁ'S`æ8¦C ²ß,¦çY¡ä:VB¢©È:°j-³4»ì.\\×\"[	¾wşKFU)°Tü6IêvşÁn´ÊÕ\rºĞù^5	*&‹\nÎY¬ ÊîòˆoÛy—a¡±Búê*Í’\r•	úªxÉ5ûŞêm€Ø=.DŞ<~“Ûã?@.4d‡m[MëS~d:vİÈƒ›öì¤i\000D¢ÈsôSM‡ò]Ì»hwqî\"ÜÅ¶‹ªeüB¾ì¸úı×)çûÌ]Œ~?›p0†SÎĞ„®¥¸Ö©{ëy—˜e9­ÄÕ¬!±™f×Lîë+-Şfº÷î²t_ï„X$ u~ô¸€š„·ros5_Ì>šYYÖA¹Á]*·I=	#ûÑ1r#÷Ñ1òÌ¨Çéœñ{Ø÷¦î?˜z­…°lEV`>#u\0006\000l»À/\000ĞÂ°lvĞªà>LĞÅ3˜4b£çÖ@J±i6ßlí^µÖRèFôùñâã:eˆ-¯Ñ¼ìB³`ejıT´AC›Ã@ïQs(…ºñÃ ğP„-İ³I“FTBÉĞiƒÀ•	iyWé\n–—&J4ºBÑ‡® tE K~—ö.á]ª»$wÍ=½vşßh+¾t´5Áqšç·3¯ßò4¾Fğù²{õåùğõìökÜÍWw°k+m™ÿƒä<á}Ş=í>ïUöùæ²^1ô+†µm½bTmÖõÊR–úáRˆâî«¹+î†?(t	|êß”ì\\Ë,Ë¹Bœè hº,S>/*Ğ+ìÙÍC¾UÊ°-ËÙÇ’'‘²ğYïy¦3Ù:Ş¢ïq“ëµ2;Îã¨’+÷<‚[W÷—äZ'”äZ_-©Nth<¡$òµ’ö£¦½JN)êĞÎ\\ûPüç\nÄ0>g®.¢JìJ*Ï|Fı",
-["metadata"] = {
-["guideId"] = 52959106,
-["retail"] = "",
-["group"] = "RestedXP Speed Leveling",
-["internal"] = "",
-["imported"] = true,
-["version"] = 1,
-["key"] = "RestedXP Speed Leveling||a) Jade Forest Cloud Serpent Side Quests",
-["length"] = "616891112",
-["name"] = "a) Jade Forest Cloud Serpent Side Quests",
-["displayname"] = "a) Jade Forest Cloud Serpent Side Quests",
-},
-},
-["RestedXP Speed Leveling||a) Highmountain Speedrun 2 Midnight|1324"] = {
-["version"] = 1,
-["cache"] = true,
-["key"] = "RestedXP Speed Leveling||a) Highmountain Speedrun 2 Midnight",
-["groupOrContent"] = "í\\ërÛÈ•şÏ§èŠkk2;04Ğ¸8od],íH¶V¢£Ìn\\®&Ù\"‚\000ƒ‹(MùGŞ!¿öõò${N JôšTíñHèFŸÓçòK7ôò¥c:oš&^$\"ãA8zq'’4ˆ#b^Ì“8_“+‘fbö§Kr½bFÎÅƒh>zñ• ü{rÌ«8àı¨˜”ä¡ä\"˜E0”^Q&’ˆ‡#Xi=zò‰¯UoÑƒ‘>³˜8ÌĞÕmG³mİ¥£7o¾Œå*·|*^mâ$œ­øúÕtÁ³I>™„â³cÏñ OÂõkj|ÉÆ<\\XèËôêO—ŸO®Îßÿôùœ§˜\\>,â$ú’Œô,O\"`Û9XäÍ›1üJà÷ñBT³È8	&fòd.2ÒXa¤óéT¬3bù–éÁûÅ¯ïsb4',s{œ¥ÅÖ•ÍYºki¶§SKnîl»¹)¼'¯¦Iœ¦$¯ä¾ù4Ûîí0¦K:Âå‹\r^şøù&ˆ@*@(!ÿ‡\\îo¯Ö¡ÈDÁ¡fôt¬ç°v°fÄ¶M‹m÷Ö^`7Ó60ı1\n7Wï?ßg	?˜f`@oó,‹ûX ÈDŠt-Â˜ xÇë!ä»HÈ±¾…µ‹PşGf}p&ÏÁzˆm0Ãh2`3É€½µ9çÍ›]Ò¿^q 3NOóDÃø’Û8!â~-’@DSğ—hFÖñœLßÍ‹í¹*/L7mÍöuÇQx9ƒó:\ró™ØåóoæbÃïÉ[0¡­‹ÿ¡|Š¯Á˜2ó¥òä8š=ù2™ß¢`{K²MÍvtúM„Ø>„,wä~“É:û¢òœo!ä>Mˆê>EÑŞ·òö!d»èÍçú¨+ ïAê'¶`ÔHOSr—’c>E‰ò/*l‚lQŒD¤Ó\\Ì`? ˆ‚Ûã÷Ç?}>Ä*)ø':ä´riÅ?Lş\"¦ÌĞ[òuK÷öÜNL«İ†Ê9Pºpë)¸±ùfù~ÓH\rG³|P¬ŠY¾?<fÙDSÊ\rÛ¢®fyºÇ‹³‡|w‚¼^³‚rÓòÑD4]¬4¥7*îã¸á\n&\nÍ±4ËĞÔxèÏ òºËz†L@8€Ÿö3tÆĞ¯\000/ÚCàÛS¨ÎÊ¡ÿC»ZN¾	!í8\\ğtUÛ¥2$GJÃl?®-³éz‘¸Ï¶²Zgä=°Ñ·Î<ÍruÛÖÌBÃÀÏ‡DD2J³$˜‰¤‰@SHe¬4—öÛ½°R¿ö\"²-ôäääğèĞ0q`twÒ.U{ğ|ÍrPé6bX1­ç–Tñ×<\000GjP(dØÑTÿâ¿n)îa‘_‰”´)éc™&kz¢>\r!°™i²Á‘²¡+ÓBš¦ÙçøsprPµHãhŞêÔÔèH_ÅÒšøØ––©\000Î1¡lÙ|Ë¥İ‚n6‹ ]‚ÙÇ<ÒŒ¤!Ô-°ô)Ûî“ÉÇyÈ%S§¼O V!uÖ.iX¾í8MüvlÄ —)Ö\rsAÍ`”÷Àe»ñ™i˜ºG{¢ŠëË¡ Ï,İé¾9«-…ëï7µ’ª£\"ì|š¶„oS­±õÄ,ÔÑ£÷b Z\rõt‹æD‹‘Â˜§ Ú>ûjºÏ¬ÃMJQ{Îpaë‘¬™š­öÈx‘ˆm‘ZÔWŞ;HS‡Y•pƒôC.SîºBi\\#™› ›.şšÑéF@ebÉÓwúì	ûK[Ew\\–V6Ò˜ö‚¹MÒà™MĞ¾$Wh2é’>Òü%ôM[úVñd/Ìs›J¼^B\"IâÛFÓ¯/«9÷/ùËwq$ÌHmÃ2Jß‡öC¸¿LbLcÏCÈäVº¢we¶lû}l]Ä	O9˜‰3²VR¯_Æ6ÚşkPÀ/œø0®æ—’ƒ7Ä»OÍÚt½ŠßròSéíYÏ ÷°W5\\À6(İ’¨Şí!Q\r)²(:c2NêS‘ÔôÁğ°EğelZ6³¹ç“ƒ©¿Ë£O•C$Aê²!@LË0\\»t>Nğ›w×åÌ°Tr.B9M†\nå0ç9]ÛÕ¡d‚}0×¾àa¶àä:E”-âø%´õPÛôkUœ®òìÎÛ}h$›’”õ‚¯¸ß¨)r°„±´ÍmˆnMl¤m*_¿¼¬êfª!ì+„¤\"imuó/&+w†¥x;ÿ‚°FÈ:IìœÉ†&¦ĞÃVî_“•\nï1¢Ÿˆ,HÅŞ‡ÒÌ©X€¡¬<|I´nQ€ÂÇ“«Eœ5’Çí¬ãâ{ÚĞ+€¬¢×‹8P*ûQ…nè†‰ù­µUúmºJ\"\000è£¬|=óŒœAAšg[„I¶­IP>à|YÇi–¯D#¦:õtĞÊ4OPèÎâìaİæ×–½¯úpç‡¶,¿®~Æ;BbÕ.‰åÈG¶­ÿêÁ-CWmBx¥uu‹ªC÷9:†-7„:ØÑh‘Â·œÍ”mLS§İœ)Ë ¨vÌÎ½8(yzCJÌŞé»2ÍÚ€\000‹J³L)`çUNaZÔ7½vN“Áe%ÓÉ&,×ª¼º±ú#šñŒ¦€X·^‡9Ã«fhc¤Mc|¤+c»j‚¥œÅP‡Ù°Æáüİ)İ)OÖä2!½ƒv4X[®ÖË`½Ô~Vöí;‚0±%`éª.ödß±ŸXµœ¥1Ázºÿ‹	cp³ÔYË0uÖìXe`Ìx²$'€ôi3i°$N2o°í¿K@\ra»Fö±­õDĞV¾â NÌz{txi£·£»TRxmgJ®‰hë:!«hléİ3Dı½Û#¶nYHÉ.‡zĞûD„RÿirSË5]§Ü-UwĞ›y²”it¸X…ç½Âô&A4«rµíÈ\rOVq4¯úßıº4›†§B¶Ş¼n`¯ÊĞÎô\000±\n½äøË\r6¹,B³o\r{tóßñ$‰çóf@ÕÓ†Zg‡ÉCšñp›emßV‹GÏköRvì­n¾øj³íRÈcæ¥Ú&³©’\rÊ×É‘˜d}rİIo_øIc‡›\"|[Oí§»jÅÿWÛµ5Ü!Nâ¥]Zn »ñØ1bı Ô~½ÓBß}B}öÔÓ±£s,è{ìHaSy>À4¤bâNCê*¤ÑœV?ıÄ ÁTË!y5³â\\²¦±£Ø•b6=Ö[——Téğ\\ûğ.,Â>ØL}<Œ„ä‚ºeíhêÉ¼Ó†ö¿í;P¥Bùúˆ¶Ûoz¶]mÈ×(Ôv®æØU7Õ½úhB–æÊ¡ô©Áßèø\rŒêò\\ãSğãc„Áu\n	)¤È!È}¤Ï‚Cút!¦ËI|ß'Ÿõ÷>–¯ yfaÎ:<*}e­ñvÜmïê@‰<ØìŒ^cÀCy&rÜf“$ëj¡zRöSª_Ÿê¦xŠ|¡Z÷™æR¼A«°ŞàY\\M\n3ÓG¿1œÁJ“«xÖW–_Õ%Møò5ÇÁ\000àxºç6“wä\n/û8f÷yùŠïîLê„XO¥ÚÈE„qû4Ñ¶Ü\n½:S;2¢:qM}ø\nÍ%w%q´l¦@–šÆ¼ËI¾Ëÿ¶&İY¢±€«,€;Üv)åNSıŞtë\našvÚâÒãöÌ\000•)êÕe¨*³UšQ¼˜NËCofÑÀAPÏòá†ƒôSéW†3Ã\000–ÌÎneË·»Ûëå^OB½.‚U3c’Û2\rİîÈ÷Gì_$óğ%şÓDJÙ‘®Ş-éÒdš)™ L¢gßPOóÛ[­øñ~Ôu½1]MTÂ`%È8PZß8ƒÕ3ŞóÑé.Õñî.ş\\j÷×'×_§œöˆVÒ7HáuTR<¦Lê¼	%Ú–5J÷ËÒ<yù­sö	†£ª¶G,<†‘÷]?úê÷Yy—a¤/RRoŸ\nØø\"E`{*ù¼Õ\r‰Ál¬‘à¨­:O Ş[}ĞWs¶{ßæA8+OÕ¥ô]&/ËBY€ß\000™m­æ·S@…R½NqŞb=_ê×#p”„ØvuÙıÊ³üÇdW3nÙ²_YõìŒC`¬c¿º¤Æ)~²ÔŸ“ö'ˆLİÅÛlŸp<Ã½Ó^^¨jYP„a`·GwøæqïõËTXq,¼£È\000¶|µdı’İÏ› ‹Dš–ÙØ6‡\n²œ‡]=‰Ã0ŞÈÉ`%ÒQL‰L‹\\›\rÛ%ÇÉ9Ê'\000…«5¢mF€„Ì	Ö5ãEÅ;‘­šºŸaS§q·ìP$Êy¨†ÈQ’¯ê2«A¢Of_'§¢Xí J	\n×GÕã’Fó„j´=J¼¹´§¹.Tcÿä²ïwcSÙ+T5¾§9°×æ>vEv^İíå „ºåvÃƒLÒÂWq(Ö!èôŠi'ªĞF<‰æp•İyãÒd³´cjc°¯a±mM{.iİÜw%Sí~­7Š›²‹@ÜS•â”¼ó-ÏP°ğuo&RÎ \rHù¨¾-ÕŞÓş‰é®Å•ƒÖ3^ñíö1>­¯ìCı6D‚\\Æ ÛšdùX>-cõ‘ÒµÙ&²ÌÅo¼˜£;Ã}ñxÅ–äÿy‡YÃLœ†™ÜÄá-¹äàYÿÛ*¦±ÀşRyZ'É=O_îšG;Â±d	¿'ÚË£UÏt=£N›LL›ö/ùñcØA²¼ç¯*Ì'‚ÈãäŸäaKEàº½w„Zoö¡üB§CCe ÷/0ügŸ&Œá‚×æv`ç#²¥¼¼mÔº©Tº¯_&A}—B$¯‹¯8xÖ\\à	R\n?‡ÙVõ}µ¼ÓlÅ=îóF>£tÊCñI’:âDß@2¬6`İj‘Ë•ø€Pƒaß«Ûb&$i>ùÒ	°^F-RsÀ|—I¶\000ˆ’Œ——E>!µ8œÅ}Í´¨I\ríQ‘-”d‘–Ä³‹_µ˜L\r”­p-içÉdÖ…\"=qÁ[y8£‘(Î€C—2\n‰²dQ]ä2Œ³Oø¸_Šµv#£/€Ã’,²l¾~õj³Ùèqå}µáÙtñow¿Ïÿ¸üøÖıÙˆş£Ãjäôøê˜œ|¸\"<;:ş\000>À§I\\²[1¥¤+›/¯ğ/•~Æq°]¢÷8 #úí÷*0¡t¶mK£\000Û¬š‡³a:İÕöİH¢UğXß‰Ñ?Å9™B…*\"	b7<!qÑäšãŸ_1üíï–ñ/dGyÚF!>›øµ>ØÌåİ%¨/,§¿#@§;Ôd¶R²-¥x\n	ÏÓ,EåHñzËåa§¸Œ\\æıãoÿ\r\000™$rÀeP‘ÜA^Šøˆ`œğ³ ¬:èóxÃëö]ãÇÛ˜»p€S}ô¯ãXN@AÉó>xgT	w¡Ö²1ùüw‚œá½r’ğ•øM¥ùã­œpÍ„Xè:N­yƒ>†ª90ûí÷¿ıÏ",
-["metadata"] = {
-["guideId"] = 2689603088,
-["retail"] = "",
-["group"] = "RestedXP Speed Leveling",
-["internal"] = "",
-["imported"] = true,
-["version"] = 1,
-["key"] = "RestedXP Speed Leveling||a) Highmountain Speedrun 2 Midnight",
-["length"] = "616891112",
-["name"] = "a) Highmountain Speedrun 2 Midnight",
-["displayname"] = "a) Highmountain Speedrun 2 Midnight",
-},
-},
-["RestedXP Midnight||a) Harandar Adventure Mode 2|842"] = {
-["version"] = 0,
-["cache"] = true,
-["key"] = "RestedXP Midnight||a) Harandar Adventure Mode 2",
-["groupOrContent"] = "µXkoÚHıî_1R>D»ï—®”7„’6j’¦€Ş´ÕJÑ`0ÊàAã1)+~ü>ccÓVÈù’€™ËsÎy®îv=ÓBÓ4-M;DbÊ´“™àÙ\rI*IüõİÒ8¡³¹ÔN¼ ÿ>b“Ô‹W$‘™ è–ÇYÚILÓ%Ãë|å&ºººê¿ï†¹¨[mÓNh\"‰H0ÓàŠ¥ú±öÿtå?pY3†øÉ9Ax“4½PÏ>OÇsR>èu¿dXÀ™'ˆ^q®ş/OHúD—ÈrL»cj:M¿dpGo8ñ„„FèhúŒK^,rMİWlK;?ßŒ¯•¡S‘³()g‘ài:ÇTœåp$õ	[¾³Œì3=!ä–n¢á×ûÇûëş§Ç6è†`øE<sñD“ºDn„¦	M\n[ĞùùŞºO	f$4§@6ì68¾i˜VÇ~-‹£%ÁO«‡×IòDÈ’ˆî¯[/àÔtİ=NÁL×ÕıÖ8½g8‘ŠÑœ¯Û½F#\\4~$b‚M4Â×3ø°©ú©×İwÊËòT`…°]¨¨Hù 20çÊü€vÂ—’r?ÓÚµ£ùË>_,Ásª_\n¢íĞîØºÏ×Ã°*ç¸ø-\\HÌ”ÖÛØ,¬®,:ÁBğgI~H4ÆL9Æ?IqÄÕğzp÷şæÛã÷LœbPP O8M!ôçÊ­kàèfĞqmİtr •€“³x—gÑËI6À3d]¹@y):âÎrÍCox÷H°“Œ²¥î!À›é+cøŠà{¡âišKü•À›*±oÉ‚‹5ìÄbF$úùÒ2*^«šbÇ7uÃìx®îi:QÌŒ\"’`A9²ĞïÀŸ@ı	Áâú¹00÷ .T˜¯pl5Ôqçæ!ÅÇ^·ø_ºnÓH?èxnx­IxÉ,İ“Æ2HS]ÉRTÂJ¦Ÿ©œ£o<IÁ“ÙÿIljÕ<¤RDÎiŠÔ^D§hÍ3áäT¢ˆ«“U¿ƒ#0\n15!ÎR¢ÜƒÍ”¯«Œ\000Õ!êÊ<|¹ÈºØ=„Òìî¡¨ç•æmÇ¥çÀªKëyºív\\CœÖòó0“Šºb\\`I’8q¾C˜–ëY:œ/¹;°@şK†£§t®€†³ÍßG7‚Fğy¡î{ªBnkà8¤ø=¼ÊKTº^çƒÜÇÁ(.4İ—ôƒFàºë+uC³5€=ÔŸCZUŠÊl:]ƒ¤{é¶.)ôvhM£Ñj@õm…¶½öí^ĞÔÈAš’$\"Ğpàƒ>l¸y®†„X4)Ø{b×oèëAUÍØk\r2’•JTyÌÂFö,ÿU\rÖqø¼`/@]»ã„ĞA´†¯”ô#ÉÎu#¼\"\rr[ÈªIrXCóeIÈô¼=\r ×°=Œ7ªºL¸&êM§°êN‰¸Ò{;Fc²²}İwU€Zí•è‡_Òh• tŞ2½F	µİ¶Uãİb^*í@³Ë,Ş‹>ÏzÃèsÍ=`A.ZĞŞì6ZbAĞàÇ’ÄTÍhÌE4oŠçªyKqJûõãÛşÄÖÿi†û~ÌÑƒ6ŠÃEõ©×­>~+8<F}ÏdàİìTÎtÑñİu[k¼km)÷‚0¨õİCZ4¸Š­òı…¦ã(\"K	=º—ËÓ+¾ªîõcUöÑÿ1#ïP-÷9—iÕ¨—ÍÈ€AãÌòÁ´É\nt5ÀŠÓ+ËtíÏÚ¨ zëèŒ~—dÍ“8§&G§ø`ÁÖH1’¦›U¦8;ªn€‘â¥ùó–ÚÍÕ<ù9Éc”ñ\\£İquÇQmm·ı†‹SÀ³(ëÛ	ª¸\\eŠÒĞİºbä™AğÓ%‘	#µcÿÆø#„Ş¬h†q¦)ws]—!a|¦ğäiM)\"`T/ ÿF)Ôó¹FJ`‹•*í³U[ËÏ\nr-’®TN„œÿ‚ÄrûÑápKö›yF\rk]‚±³„qØêé\ráâ¿QÂ%ÂU}>H)8”B6…¾–Š¶1³%°4»e®mÕ—ı.:a…TĞŞÒ F¦k©¾¯‡FkdŞAv„Cz]Au`/š/?ìò½—}Î™Q§ÕÓñº¾Õ·~¿µàA7Ä **~aöß",
-["metadata"] = {
-["guideId"] = 2675511532,
-["retail"] = "",
-["group"] = "RestedXP Midnight",
-["internal"] = "",
-["imported"] = true,
-["version"] = 0,
-["name"] = "a) Harandar Adventure Mode 2",
-["length"] = "616891112",
-["key"] = "RestedXP Midnight||a) Harandar Adventure Mode 2",
-["displayname"] = "|cFFFCDC001|r - Harandar",
-},
-},
-["RestedXP Midnight||cFF1EFF00(1-90)|r Default|be) Highmountain Speedrun 2 Midnight (A) 2|1305"] = {
-["version"] = 1,
-["cache"] = true,
-["enabledFor"] = "Alliance",
-["key"] = "RestedXP Midnight||cFF1EFF00(1-90)|r Default|be) Highmountain Speedrun 2 Midnight (A) 2",
-["groupOrContent"] = "…‘Ájã@†ïóZ|Iaâ²\räp¼)IJØ,İzQ<Š=t¬1²m¡ß±Òv¡ô0 ôı£ÑhOofqO”Š„´NE'’Úz†XE¹ø¶‚ßT7dv°µ†m^4*ªÛÃ¹÷š¥i¼LÓñxfãá«@BGl]b,	4„UX*}ËÏ°¯ˆŒ´“+‹!LTdl]9|é÷ŞÁ?sô™1ùAb²ğ#YƒNş¡»RÿbÖ»jÕ–Èçö]³tıDxTz^ÉW¡Ó/Bï½5£×­ûcYo:òÑKNæ\"¤·”˜w:AyºÏ½YS¼ˆŞ!b,?Èè¿‡õ¥)è²´B	\000L™8‡Ğ%ç(†`äÌÿÿ4ÎYäŒT¸\\¥\"Ë™kÃøõ’ı`C'r–óGüşFêí",
-["metadata"] = {
-["guideId"] = 460594463,
-["retail"] = "",
-["subgroup"] = "|cFF1EFF00(1-90)|r Default",
-["next"] = "bf) Tiragarde Sound Midnight (A) 2",
-["group"] = "RestedXP Midnight",
-["name"] = "be) Highmountain Speedrun 2 Midnight (A) 2",
-["key"] = "RestedXP Midnight||cFF1EFF00(1-90)|r Default|be) Highmountain Speedrun 2 Midnight (A) 2",
 ["version"] = 1,
 ["length"] = "616891112",
-["enabledFor"] = "Alliance",
-["displayname"] = "|cFF1EFF006|r - Highmountain 2",
+["chapter"] = "",
+["displayname"] = "|cFF00CCFF2|r - Into the Abyss",
 },
 },
-["RestedXP Midnight||a) PoP-UP Quests Turnins|864"] = {
+["RestedXP Midnight||cFFFCDC00(80-87)|r Campaigns|ad) Zul'aman Campaign (H)|1103"] = {
 ["version"] = 20,
 ["cache"] = true,
-["key"] = "RestedXP Midnight||a) PoP-UP Quests Turnins",
-["groupOrContent"] = "íY{oÛ¶ÿßŸ‚@pÑvWUô~dk/ÇIŒ&±oì4†\" %ÚfM‰.EÅs‘)Û‘œÇ,}ÜmD°(Ãóøóúu`QlÛ¶Ójí\"1e­\"\nÊsäX­‰àå]B’ôç>:£iN'SÙÚÉqF~…ú¼ÿú²ş[Â–\rK‘Ó¼híĞ\\‘cÖÂyËüÌsRÌèEa·Ì	—\\ıô\"3´Ø7m·Úƒ7vÑÛ··Ã®b0Æ	ÙMJQp±›^SLÅ®æiØ|Ï±ne›Ñd†@b9%è6¹ø¹İï¶ß](]2_ú\\HÌn¢Õ®ê]p™­*’«ı‹óë’Ñ’—(å(ç-p.È¯ÙJ}4¦¢(x,‹[qOIÿNIßğÓ²(2à¯¤¤Rb£¦~o:†ï¶-¥İ(·à‚¥ï&S,GåhÄÈuàMYn´b6SçWR]t;ç‡§¿\\c†s|+Ì–)µ¼Ğ¶lŒ7Ô¯·C/p¬ ²÷€Ç¯kt¢!à˜šO>¬éÜØŠ\000™ÄbB$ªø~£¸f\000°Í0z6«PoË.–·m—ĞjÚå€ádVdTNë¶q,»n›5÷¯d¬ã›aølÖeP`3Î=ÛDMÛœ1#àÜYÃ8v8óg3MÔê”f0ù*š\\÷KX&áŒ‘D\"Ç·À§\r¹¾±Û\000êË«my[j¯ÃÅ{¾péšğ{CoÏµËˆìŠÕ®çRd¿ãsÚÙt.®zïºçÇ°å‡·åR¥è‚ 3usuHû—Gš{[sGc.ÎÁÅ1rC$öúIW*[¢„CMØ‚´Ñà“Ş%J„áà)-¤Q–j°Íp^b|uã|‰¨$Y±6ÌZlœ|*© Érô±¹S®™£1Y4ì„à¨	ç©6ÆŸ6yİiû—ía·wNz—ƒÎ|¼ó¹ù¶m¸‘µµæ®×XÂ ü7ø¾0õ.šï‚ç¾ÓN÷ÛïgİáÉÿ‘Ï8L[qA •\000Ù`3IõHh	ÍÁÅúãˆ3¥M&À)âc4*—Š;ˆ‘ı¸~SÆvXˆü6'yAoÈ_g¡ëÇÄš8³ã°Ê©w9È	£Èˆ›”c¿¼Möº»á~÷´wñæşn˜âÀ5b·¾‡0x¸ŞÖ’cØ^Je©¥ßÃÜV²ûw·ÒƒÃæk‹/Àåè\ntÆS‚H¡H§ $›3\"‰Ú/š¦â¥, î*fø# .¡’’Â@¸¸cöLi¡™é# w€m€L\n+š³BÓßeU8— `Q½T=G¾G3^’/Š\nÅ‚h\000ÉS8få&˜\000`ËŠ#Vzê¦û^“ !­Ì‚ÖpZ5è§ŸĞ>cç	i™´èåzRFn»ĞúØQÃ3¶õÓ	Õ3ÔÓµÔÓwàFêwäë§Ş	5ZÃj%T=N¦€	ÂËn¾178Ì³UÃ½š:}İFæ0jP£s˜[¦\000ØÊjr<á%¤Œ1[C#õv:¾û®îšëLúŒËŠ\n†N<#÷æSÉE¶\000N›ñÚ0åšJ9/övw‹…	Æ–åˆ\000Ú²İ–Éô?7oÊ÷³Ëƒğ³•ä wû¸!h£:è¨wŞw;½–™a™Wâ®…2Pú¡Ñ®(sÔ¾VßŸæ\000z=9,A\"ŠÙËWß‘‡67\"¾	[êÊÀ¶«öÅ3¡V@copM×6b†ï{œÀˆCÓßÜ®@P¦|ä*¡ròéaøEFä´ã.Òoh¡5†í0ü †¿±{6·]¶i=L¯áÊgvı!ÌñŠáÉò£²ïw¥h`é…†ã˜áŸ¦¯£Mû‘²u÷x	Xûõ°Ì'$_ƒnóÙ´LQo<®z¥JşŞ4§Z´>ƒ\n×TPuãÀvü•FÕ¼\rr—g¶¾îübŠÖu9Q=àrª5>’xuêÿB5ÏŠæ}tP¡k$cÕoJ}k=Y_›Îùüu9GŸô•6(‹K‘Òjkj÷äƒ¢â³¯{ÃôÙ¢¿âª’#¼*U”áâD‰ mÓ»½êìÚŞ,%#¨¯¯z2\"Š=ôC{•BGvW7Ä òÓÄ½R2Õ¹?Dë„OÓ!?LO·±Ä	[ÙƒÔ®õ4udÆW$®º§?@¼JYJpa²ÇR˜Å’”ç˜¥u‡øõ]AtˆohZğ¼¾«aùC<h*ÌQ\"âFU¡\\‹/@5™1\"6›4ˆê’Í‰À’ò|\rŸLğ„¤ ¦ÊÂÇ9´Ò\r•êÜOU$àåº’^`{‘Qı/¨úÏĞºŒ1@N¤ù˜ÿ¨gLúÆ6 ¶é=§|by^fë×N./_©ùH¡7[›»°ø’¾Ríºş®0§~@°íC‰Üä@]ÙS¾ĞÄëå—z«óîá+¤0Uï¬kî'rò›lí0<\"‹å|Ê!½ÀÌ‚ÑQ5û>’zcBÙV±ß8ENdÅÏvÁ9ø´9Ì‹ô5=\"ôêîsÅ`•¿Ò¤i–G¸>¬ícy1yúJàA™e«b\nÁµ×lGh‹gôÁ#R}w®ùß",
+["enabledFor"] = "Horde",
+["key"] = "RestedXP Midnight||cFFFCDC00(80-87)|r Campaigns|ad) Zul'aman Campaign (H)",
+["groupOrContent"] = "==kÃ0†÷ûSR(©K³ã¡¡Rº]¢‹-°e!É…@~|e÷cĞ¢çŞçŞËó­Ú÷J©\r€ğÉô ¾Ø3ZÜH­'‡o\"ë=>mMÛEa:ş°ë©®ë²*¥\\2/î²«Ç’G¦µ„¥‘t†ŸS¿¢ì?Äu“Ğ&¸.ËØ¬’r~·I’/‘ÇqêÈÅT)ÃÊ<PÀ×ÉãY={Òÿb‡ã5cC¡[ñå:öœ2ßûi8Î_R1Î¾pº:©yiµÛa3zÍÎvp£àû",
 ["metadata"] = {
-["guideId"] = 1427443615,
+["guideId"] = 2428573747,
+["retail"] = "",
+["subgroup"] = "|cFFFCDC00(80-87)|r Campaigns",
+["group"] = "RestedXP Midnight",
+["key"] = "RestedXP Midnight||cFFFCDC00(80-87)|r Campaigns|ad) Zul'aman Campaign (H)",
+["enabledFor"] = "Horde",
+["imported"] = true,
+["version"] = 20,
+["chapters"] = "a) Dis Was Our Land (H);a) Path of de Hash'ey (H);a) Where War Slumbers (H);a) De Amani Never Die (H)",
+["length"] = "616891112",
+["name"] = "ad) Zul'aman Campaign (H)",
+["displayname"] = "|cFF00FF004|r - Zul'Aman",
+},
+},
+["RestedXP Midnight||cFFFCDC00(80-87)|r Campaigns|ab) Arator's Journey(A)|1268"] = {
+["version"] = 1,
+["cache"] = true,
+["enabledFor"] = "Alliance",
+["key"] = "RestedXP Midnight||cFFFCDC00(80-87)|r Campaigns|ab) Arator's Journey(A)",
+["groupOrContent"] = "e1kÃ0…÷ûS’×%YŒ‹‡ÒBº^ì«-%!É…@~|ewì Eß»÷Ê²Vuóª”ª\000DàDÚ€øáµ³¨@LÁ­/_güÔ£ÕÓœ@ÄõöÇCß÷İ['å¡‘eóR<v´xÒ“ ,-Œt+°\r”\\xŠøîÖ`ù~h£ŞĞ}m\")·WeEùï\000Ä0“O¹R×™ñLiF÷[%ÌÂcò¸ı§=w§¶Æh²C^ãáYÁï",
+["metadata"] = {
+["guideId"] = 1640175578,
+["retail"] = "",
+["subgroup"] = "|cFFFCDC00(80-87)|r Campaigns",
+["group"] = "RestedXP Midnight",
+["name"] = "ab) Arator's Journey(A)",
+["key"] = "RestedXP Midnight||cFFFCDC00(80-87)|r Campaigns|ab) Arator's Journey(A)",
+["version"] = 1,
+["chapters"] = "a) The Path of Light (A);a) Regrets of the Past (A)",
+["length"] = "616891112",
+["enabledFor"] = "Alliance",
+["displayname"] = "|cFF00FF002|r - Arator's Journey",
+},
+},
+["RestedXP Midnight||a) Trading Post (A)|753"] = {
+["version"] = 1,
+["cache"] = true,
+["enabledFor"] = "Alliance",
+["key"] = "RestedXP Midnight||a) Trading Post (A)",
+["groupOrContent"] = "íSÍn1¾ïSŒ´(*‹ J«ªR„SP”Dj‘*U=Éêµ·ö8iP¼oÈ“0­H\nâÀ™ëøû™ùÆÓéœT'½Óªª^EÙ¢\\aˆäTE¹>µ0ÁÈh®Æ0\"ãhYsQ:Õ ¨#˜eÈ-aì#Ãóş‘¼à=ç—w¸$Ÿ}\nDNPg0R¢`P£pvpC±µj³ÓÛ+J]«VÀÅù9ô­%å4ÂnåÅ7­EÆ5q\rÙ¯(­š£…K²ÏlWbb‹°ÕÃápğ~ĞíNo©®)BVöĞ¯Í6/g»:r™WA!ß%™\\8Š!àZa‘¬‰b|Wh#ôºß¿~;í/¶zr5¾¹ìO>İÌ1håÀ;»9ÂcÛF*¡• ”Ö>9~Ÿ Q¨ÕJrµ•Ùìˆ·áø@ÿCdj#L‘¥å5xUçmC.1ÆÿCXûñ¡÷..>úÇ”}hÖäÌ3à]¢€ñ¬±îÃŸ¿–\r&ÇšòW–8\"¢@Ä>¿şµrÚ&ƒ¿×õ“³zÀÿKîšóûÅÎ™Hì¤ş8?(gr·Ïd)8sÍ¸ŸÛ‘øÈÂ}›	ÉY¯oÑÎ>R.)+;ˆéäÇ",
+["metadata"] = {
+["guideId"] = 271912263,
+["retail"] = "",
+["next"] = "a) Begin Your Training: Master Cheng (A)",
+["enabledFor"] = "Alliance",
+["name"] = "a) Trading Post (A)",
+["key"] = "RestedXP Midnight||a) Trading Post (A)",
+["group"] = "RestedXP Midnight",
+["version"] = 1,
+["length"] = "616891112",
+["chapter"] = "",
+["displayname"] = "Trading Post",
+},
+},
+["RestedXP Midnight||a) Whispers in the Twilight (A)|1271"] = {
+["version"] = 1,
+["cache"] = true,
+["enabledFor"] = "Alliance",
+["key"] = "RestedXP Midnight||a) Whispers in the Twilight (A)",
+["groupOrContent"] = "}1«Â0F÷û+.dÑ¡Ğt(>p‘B6AŞtp	É}Í…¼4¤©Uè·ÕQ|ów¾Ã)ŠZÖ›/)e eÍÄ•RÏ]@	¢Mİñ›úLö|À=ÛÀ­Ë ‚ş#Ôk<9îãÌ#Ìğ8²_\\íÖ ì<z}Â“Qª,›F©jJX||ÎnºåÅıã´íÆ_íıËfœ™l·¸óu0sXÁÁøÁÒ{èåŸDxü",
+["metadata"] = {
+["guideId"] = 3598062033,
+["retail"] = "",
+["next"] = "a) Shadowfall (A)",
+["enabledFor"] = "Alliance",
+["name"] = "a) Whispers in the Twilight (A)",
+["key"] = "RestedXP Midnight||a) Whispers in the Twilight (A)",
+["group"] = "RestedXP Midnight",
+["version"] = 1,
+["length"] = "616891112",
+["chapter"] = "",
+["displayname"] = "|cFF00CCFF2|r - Whispers in the Twilight",
+},
+},
+["RestedXP Midnight||cFF1EFF00(1-90)|r Default|bi) Horde Spires of Arak 2|1276"] = {
+["version"] = 1,
+["cache"] = true,
+["enabledFor"] = "Horde",
+["key"] = "RestedXP Midnight||cFF1EFF00(1-90)|r Default|bi) Horde Spires of Arak 2",
+["groupOrContent"] = "u‘ÍNë0…÷~\n£lè\"rİEE¥n@i‰[¨( +ÄfOƒ;&I¡›Š!XXÛGg>ÇS==›i­'BDŒX'¢rk=I-¢Š}ßÈl;4ÿ×re\rÙªîDÔöùñï­HS½HÓñøTÇ³ñèe‚%ô.ˆ¶(s;’™gƒrÓXÆVúR3<Ë‰ˆŒmûA÷e¤'Á$ş)ŸÏå5ò$¹T·ì¦;2æø=#\rã…óŞ,\\y¸„ƒ[OYOòŸõ—>w–ÔÈ@pWÁüê@î™PeaÜúà–ëÕ\nª8€ªpW#%/À¥z88`; «ûŞ5È †¢«÷¬¾1ª˜=Ù\000KøÚÉüé#¿¥ç9™\\@ŞD(¦‘¥ÂõAñYÔ¦A4òî0àWğ{âı",
+["metadata"] = {
+["guideId"] = 1604917142,
+["retail"] = "",
+["subgroup"] = "|cFF1EFF00(1-90)|r Default",
+["next"] = "bj) Horde Gorgrond 2",
+["group"] = "RestedXP Midnight",
+["key"] = "RestedXP Midnight||cFF1EFF00(1-90)|r Default|bi) Horde Spires of Arak 2",
+["imported"] = true,
+["name"] = "bi) Horde Spires of Arak 2",
+["version"] = 1,
+["length"] = "616891112",
+["enabledFor"] = "Horde",
+["displayname"] = "|cFF1EFF0011|r - Spires of Arak",
+},
+},
+["RestedXP Midnight||a) Burning Steppes Prep|801"] = {
+["version"] = 1,
+["cache"] = true,
+["key"] = "RestedXP Midnight||a) Burning Steppes Prep",
+["groupOrContent"] = "ÕV]oÛ6}×¯ à§m\ncR%E€¤M–4\roi1-±’fšÔhjÙ\nÿø‘’ãIqÚÂÀºGé^s.ï±\"QŒÂ3PLÓ‚;ƒ¿˜šR\000ä2%«Ü±¹fé‡[p]¤¢Èrí1@\000'•…ÈÀ½feÉæàV±ÒB3%(wÌ¹Ò‰¦§ş³2}\000Pè»8òQ^¿çR¥¬‚kH¸Öx$²ŒvAâ2\\CÎŸ¥`À#àèèg	´l­QöÌ1ç‰éœIóˆ‹Bèa7ÀyÎÑÑbT›ñ‰&ìğQ*Îhy˜äTOªÉ„³1ñ3Åş^¾ÂÃ…Q>µŸ[$wnÇgw§7o¯>ßÉ\\€w\\26Ï©X(Ò$aåÒNÃò¸y|¢ù+kxiª2¦A«Å.Æ‘ ˆ£½	¸–•6WêŒ›{37ŒZ\nğZÁ[küÔ¹•ñ ¤ÈVÚMV–³İ˜€O¬\0002Ü›€cUÈék{¿À÷úà³LWVÇ{cºÓj»Rßlµ3È‹”=\"•Î ‘³’3muN8M¦J&Sğ3^2å¸”å†R¢È%>z®7t‡[»$†µ+f“L%‚Ã¸UÁÄÄ%!üv%°³7İéVÂÀ2ˆÂ¦òZªÚR\"ØßÚÌâ²à|éìéÍéõÇqGáB*Ò-LcWB9'JÊ”c­ıOX†ê¼ÁœÉI‹õë¾¶\ru{g.Vw&©Ô\\ªÃDÉ¹YñBÖ×‰&zueŞğÂ47ƒÕ9[2¿½xs9®?gºÎ;lq‡-vıÎ¯ó/½åtÂx°ÿ‰ÃÏF¼¹~6âÑŞÖ¶'âu*«ˆ™G`¿<ã7#vcïïµ1Àvø¥Ü‚läÙ18«Ìç™ùA—°Doáâ5îºJÁyeåï\nãĞF\\°¿ˆ[…ñÊ¡&Œ_v¨IãÍ<Œ_òÅşèÓ»‰îpî…ä¼£Ÿ¥:¸Ï©*Á}\"UY¤à„ªI'@=˜ŸŠÜ\n¶Æø0h'9B\\Ã¸Sl?€¸Æ!öLĞ©ÄønØiîˆÏ3Î’)K­Q};Ş(”ÂÍWRj›D3ğI*°a/ôbÿ•™ûoÍ™«÷ïGãçZ¨ßakÍC»øvŸÍàåL«ßÀôt6a\n<H•õQE	iS]ŸçfŞ=£'†kèVPn“ÚO¸›^ˆŒİ¯úñûOÇöİçÙUıû÷",
+["metadata"] = {
+["guideId"] = 1319309206,
 ["retail"] = "",
 ["group"] = "RestedXP Midnight",
 ["internal"] = "",
 ["imported"] = true,
-["version"] = 20,
-["key"] = "RestedXP Midnight||a) PoP-UP Quests Turnins",
+["key"] = "RestedXP Midnight||a) Burning Steppes Prep",
+["version"] = 1,
 ["length"] = "616891112",
-["name"] = "a) PoP-UP Quests Turnins",
-["displayname"] = "a) PoP-UP Quests Turnins",
+["name"] = "a) Burning Steppes Prep",
+["displayname"] = "a) Burning Steppes Prep",
 },
 },
-["RestedXP Midnight||cFF1EFF00(1-90)|r Default|bb) The Waking Shores Midnight (A) 2|1308"] = {
-["version"] = 4,
+["RestedXP Midnight||a) Eversong Woods Route|861"] = {
+["version"] = 0,
+["cache"] = true,
+["key"] = "RestedXP Midnight||a) Eversong Woods Route",
+["groupOrContent"] = "ÍYÛnã8}÷WÈCc±Zu‡Æ8Ó“é$íM¼›Ù™´ÄÄ\\S¢AÉq{‘ß¢d;¢äŒ´˜—ºëTª¢OO}ì‡ÆØéõN+(½“'%—tËò‚%¿ŒÑ5O2ş4+z'M¢C£g¦r™=¡{)“İÊeÁz'	Ï‚®Ë—^â‹‹‹áùĞ¶…N_ôNxV0•QÑƒ5ú2Ë„µ×ü¬v?Ãğ9â*fMV\\èg?n\\f“ÛŞœî½}V­dıOf,ŸórHDú¸g=ÉBV®k…nß·-â÷>}z™”>>Ò˜}\\I%’”.>Æ3ZL—Ó©`¾û¤ØÚšŠÅıRL¨˜#°ôßş2~¸¸½İœ_ıûá\\Qp9{QVÏ*n€m;DŸ>MÊË—‰ë;¶¸?€‘ß¶°ÑÏg<{ú}ûU\000/õ	\\QõÄ\n´1{¦ĞÂaßó,;ìÓ åM@·\000aĞÏlÅD¬ècQ‡åxÕpiÓoâù?–@Á3p”‚·xë8u°m¸ïVĞÇvßn<òà¯oyU.wqˆ—@Lõ1V2Ïg”«eˆh\\ìÂ0<#Y‘¯ŠÅørøåág©G×|VÑ9ù˜\000ÎoÈ:]r‘\000d®¥Êàné6„Ëˆú’É•`ÉĞ[1š/3ãAzO\\¼g¹^ß\r¬Ğéü¿àM\nŞŞÉ¥@ŸY\nˆ7/MeQÈ=\n)•‰:èµAq§ï¹–;cøg*hF›÷šŸ@¤ªó›DvX£wew©nY¿c\"ò4$B:ƒ·SªJH±‚Ål>ìû^;¶y/Â°}ìÓÕ—GåÁ†İG¬°Cù”B3™7õÓoÉc¦b”ÁZ™¡5[òi'¡ÓG#\000[®Ó°3YĞŒçºÑB®š\\³£@ÏøSS*x¾j)ñı¾æ\nGà,ÛÕ8£ 3œCšN™’­HšøüÈÄ7ñŒ¥ë·²·µûQÄAmài´~wa¬ à<ch,®A×åkùÛÀ: |69Jø|+rJİñòWØ44ç-í³åë2ËcÅö.g®G¼ –´­ñw$ÍLeŒ, Aàm5¦‹¤İA[ºRŞş£13³ëò¸C%Ë>*sÄòKîİuegTZµ:3Ûm)‰mfîLĞx§¼0NÇÆõÊµµŞª] d/4·;h#ÅşÅË%¶o÷C¼s±zëÜÂa‹[AßÇÛö¿n5ZD`Ø…oS0[öˆ9øüvŸjòù9$îQôs,/ê{N—•úŒ	.šªÑRù€˜Ü»æ™9A:°yRööĞFÁ9§ÙŠ5·RpÎ({õgFèÚ¤^–KÃLû8I\"£sÇ–SN4Nwœ¼‡X ‰„&kØV7²bÖ=Œ/ùk_h6İ”Ô âbpI‰ĞÛf]$o²nÍ§ml¤înÎ3ƒ‹¡I-o`ó=Ò4AbWƒôIgi|•–	-=G_õ¬',ĞSùØ¡Âuœr\000O	ºkk“IÍ§•°ĞLØ+ûZ=t‚‰ë‡—}\rGä7Î„‚@Ÿ8İu‰UğœfP†²,\000Š%è«‚ÿfëé)Ç„y(‰Î.‰5eÛ:g¸»6¤‹B/z!¨b9Ø©6c¶(PDGKÿ ºêi_Ÿßİ0–°¤÷ÚÃ7´}w­(*Õ¡»áşšªmº‰t!XÁ*—û¯ÍÄæ¥ï:Óg–\\fƒ|öÖ™äôğêèJ\"+ìî,àn-@2šÕ­u¼Ñ<ÂJ¹İjU*;ß£->K‘LMØ)U1…	j¡ä¡Ï“ïÙ»{ö°pL‰5‹e<‡m;f`o*¤LÃ×É°··ku‡Û\\‹t'Pw\\<3•JxòÚ|‚\\ıDÓ´!RàM‡-êŞ†ˆ4\"B4\\·»œ~ºmÛ@ùó2›Ñ›ÒY7´¶o7¨l—Tºƒ}Çµöé:úˆÆj™Áö|1l}=õïšŒŞĞŒF—@Kêá«»êH°WoxÌĞp©´Ğ4†ûò˜m{j{¨¸z­âê•g0X—XÜ]CtµÎsª(:_æóT‚³¬^\\Ã€DN­¸‚Ë²‘XpËz'Îm+ß%Ô{Øp];?f¥±T0\rAíşÌ~Ô—»«³Sãr¸±7ƒ\r¹âY\"W½“må^è€0­æy¡ç•ßÍ¤dÉ w¢ÜL‰tª|øSÿu¨|â²×ÛÏ8xÃö}çDå×¤ıÌµ<İ/‡nû‘W~c«³ïÙæã›Çôâ‘R´àñ•æıZ¥`ß?óJ®^&˜8NuÌSQë~p{óğÛèyëS¬³eQÈìw¹ŒQÕ$`=œzÃìº¤Æ¦¨ï¼³å/¾1ÔÁÚ'Çº{Î¡·İ¬=º]ÃÔ½³wµÎ¾w4K4¤ÅµMZ-— F¤rŠÌï÷¸YŞ®ü!bb¯c_¸†[úAnö‹Õ²¸Zvc•V~{_2ö­øó²Ôvî¨4ıEÒ°oÿÕBÕ¥pŞ˜.Yê”óÜTÎóÁ1ßçûçı®ÿÚûÿ",
+["metadata"] = {
+["guideId"] = 1330778026,
+["retail"] = "",
+["group"] = "RestedXP Midnight",
+["internal"] = "",
+["imported"] = true,
+["version"] = 0,
+["name"] = "a) Eversong Woods Route",
+["length"] = "616891112",
+["key"] = "RestedXP Midnight||a) Eversong Woods Route",
+["displayname"] = "|cFFFCDC002|r - Eversong Woods",
+},
+},
+["RestedXP Midnight||cFF1EFF00(80-88)|r Campaign & Delves|caa) Midnight Intro Route 5 (H)|989"] = {
+["version"] = 1,
+["cache"] = true,
+["enabledFor"] = "Horde",
+["key"] = "RestedXP Midnight||cFF1EFF00(80-88)|r Campaign & Delves|caa) Midnight Intro Route 5 (H)",
+["groupOrContent"] = "uQKó0†ïó+dE*àè`ìÂme(ÈèÅwÓ5gÍÁ4©Mº:Ø7Ñ\"¨xxró7M§bšÏ„×Œñ}Išñ#v¬ÁxİÙ¾…-:òùîIª•gÜõûOv®ŠB¬‹\"Ë&y–æyrî`Y6mIµX¡>¢cÜ”\rBU–É—şßYØÚŞ#ÜÀd“0.Éµº<}|âb¹Zf™ÊôÇ\\0â›Æ}ëØš¬•î›q>‡í$²p@Ëxe›V£Ç¼‚Â»(t}ÓXãnÙåN‘ƒº'‰ÛAŒìp CNQXâU<d<pP¤4QGöÚSõ¢Oà-Ì²J‰Œ=štWc2•îÃª_õşÿ£¦qN…|i¶Xöş",
+["metadata"] = {
+["guideId"] = 4239334529,
+["retail"] = "",
+["subgroup"] = "|cFF1EFF00(80-88)|r Campaign & Delves",
+["next"] = "cab) Eversong Woods Route 5 (H)",
+["group"] = "RestedXP Midnight",
+["key"] = "RestedXP Midnight||cFF1EFF00(80-88)|r Campaign & Delves|caa) Midnight Intro Route 5 (H)",
+["imported"] = true,
+["name"] = "caa) Midnight Intro Route 5 (H)",
+["version"] = 1,
+["length"] = "616891112",
+["enabledFor"] = "Horde",
+["displayname"] = "|cFFFCDC001|r - Midnight Intro",
+},
+},
+["RestedXP Midnight||cFF1EFF00(80-90)|r Campaign & Sidequests|cb) Arator Route 3 (H)|995"] = {
+["version"] = 1,
+["cache"] = true,
+["enabledFor"] = "Horde",
+["key"] = "RestedXP Midnight||cFF1EFF00(80-90)|r Campaign & Sidequests|cb) Arator Route 3 (H)",
+["groupOrContent"] = "UÎOK1ğû|Š€t‰Ji¡d5ìEzñ:M†íÀ6YóÇZè‡wÕ^z~o~óÚvi–«µ1æ@%.$#¨/NYb@jH±N¸ã\\Ø¼á«ø Ã¡€ÊuÿŸ]œµæÅZ­+İ®usIØÑq\"Şá»xş¬ó}èÈèö\r>%*1á.ÖÂø€‹¾å%O#ÿ:¿¦í;­g­½ög€¿:G\rö”(xº56ìcòóÚ	”7VÏH·¯éav’àã	¶[?",
+["metadata"] = {
+["guideId"] = 1932073704,
+["retail"] = "",
+["subgroup"] = "|cFF1EFF00(80-90)|r Campaign & Sidequests",
+["next"] = "cca) Harandar Route 3 (H)",
+["group"] = "RestedXP Midnight",
+["key"] = "RestedXP Midnight||cFF1EFF00(80-90)|r Campaign & Sidequests|cb) Arator Route 3 (H)",
+["imported"] = true,
+["name"] = "cb) Arator Route 3 (H)",
+["version"] = 1,
+["length"] = "616891112",
+["enabledFor"] = "Horde",
+["displayname"] = "|cFFFCDC004|r - Arator",
+},
+},
+["RestedXP Midnight||a) Darkening Sky (H)|1098"] = {
+["version"] = 20,
+["cache"] = true,
+["enabledFor"] = "Horde",
+["key"] = "RestedXP Midnight||a) Darkening Sky (H)",
+["groupOrContent"] = "eÎ±ªÂ0€áı<Å,v(4ŠB©„:\\]\\bshC{“¤b¡oÕIİ>ş4-x±ŞpÎs\000æ)J=\000»‘ÚÌ3`­·£Ã#…Hê|À?­Œn»ÌÈB™àNúŒ6-ú	WuLéà9½Š¹\"ËªJ>{L?óE¡{|*{-Æp{Bx3M']$e‰µõŠ`ypÀ´i†QÑïÓåû",
+["metadata"] = {
+["guideId"] = 514133417,
+["retail"] = "",
+["next"] = "a) Into the Abyss (H)",
+["enabledFor"] = "Horde",
+["chapter"] = "",
+["group"] = "RestedXP Midnight",
+["imported"] = true,
+["key"] = "RestedXP Midnight||a) Darkening Sky (H)",
+["version"] = 20,
+["length"] = "616891112",
+["name"] = "a) Darkening Sky (H)",
+["displayname"] = "|cFF00CCFF1|r - Darkening Sky",
+},
+},
+["RestedXP Midnight||a) The Greenspeaker's Vigil (A)|1211"] = {
+["version"] = 20,
 ["cache"] = true,
 ["enabledFor"] = "Alliance",
-["key"] = "RestedXP Midnight||cFF1EFF00(1-90)|r Default|bb) The Waking Shores Midnight (A) 2",
-["groupOrContent"] = "}‘Akê@Çïû)¦äP=„5>‘z)Ä<Kk‘*ÚÃ»ŒÉ˜,]'a’õUğÃw£RK©=fş¿ùe'‡Ñğæ6Š¢¾RPƒÆª`KR›’a ‚\\JWÁÕ\re¯S˜˜ŒM^4*¨İêØÛ§I’¤×ëDám¯»ˆiÎú!Æ\rÁjÕ…yA°Ä7Ã9ÌŠR¨ş$Aç¾}d¦®,î‰3ràiáé»;ˆ‰ÉÀUü:ş²nKı—KOh«±Û ÛÏí¦‘=Lø6%7$—öş¹¼wQšÌ£ô£³s#Èú©…¯KÉ);9é	¥æ­‰QŞ¤äƒ¡öiSìDO‘3bíE¿øèeËa=Bi\n:…Æ(`¼,Ó{«´´×u‚Ì*¢LQ¯zo­ANIùëU*0œZ—Ñùš‡(<Ñ–¬ÿÇøÛÔÇ",
+["key"] = "RestedXP Midnight||a) The Greenspeaker's Vigil (A)",
+["groupOrContent"] = "}Î±«Â0ÇñışŠƒÚ¡Ğ)\n.¥P§\"\"o	ÉÑ/¦!I\nıã­:Šn7ÜïÃ7Ï+Y­7RÊ@JŠ-ˆ\n‘‡e¢Ãèñ@1‘9ïñ‡ã®O œºª=á.¹èIıQXD<qÇ—uÂpôVİÏ“nÛ¢hš¶]MóËÙ¦kzØ{\n3T_×ÍwR6¾Tİ+Ÿ(Àv‹µµ¬œ&˜=vÚ†Şƒ¿¤Âı",
 ["metadata"] = {
-["guideId"] = 1604065967,
+["guideId"] = 3512340874,
+["retail"] = "",
+["next"] = "a) Peril Among Petals (A)",
+["enabledFor"] = "Alliance",
+["name"] = "a) The Greenspeaker's Vigil (A)",
+["key"] = "RestedXP Midnight||a) The Greenspeaker's Vigil (A)",
+["group"] = "RestedXP Midnight",
+["version"] = 20,
+["length"] = "616891112",
+["chapter"] = "",
+["displayname"] = "|cFF00CCFF4|r - The Greenspeaker's Vigil",
+},
+},
+["RestedXP Midnight||cFF1EFF00(1-90)|r Default|c|870"] = {
+["version"] = 0,
+["cache"] = true,
+["key"] = "RestedXP Midnight||cFF1EFF00(1-90)|r Default|c",
+["groupOrContent"] = "ÓÕ534³°4444ââR.J-IÌÌáRN/Ê/-PJ-.IM‰PğÍLÉËLÏ(áR..M‚ÈÕ$»¹ºº¹hêZhÖ)¸¤¦%–æ\000å%æ¦*$s)§dä$V‚¹ õnÎ.Î>®a®>\n@]5E`E‰I9©)\\€",
+["metadata"] = {
 ["retail"] = "",
 ["subgroup"] = "|cFF1EFF00(1-90)|r Default",
-["next"] = "bc) Val'sharah Speedrun Midnight (A) 2",
 ["group"] = "RestedXP Midnight",
-["name"] = "bb) The Waking Shores Midnight (A) 2",
-["key"] = "RestedXP Midnight||cFF1EFF00(1-90)|r Default|bb) The Waking Shores Midnight (A) 2",
-["version"] = 4,
+["name"] = "c",
+["imported"] = true,
+["version"] = 0,
+["key"] = "RestedXP Midnight||cFF1EFF00(1-90)|r Default|c",
 ["length"] = "616891112",
-["enabledFor"] = "Alliance",
-["displayname"] = "|cFF1EFF003|r - The Waking Shores",
+["disabled"] = "",
+["displayname"] = "|cFFFCDC00LEVEL 80-90|r",
+},
+},
+["RestedXP Midnight||a) Guild Items (H)|718"] = {
+["version"] = 1,
+["cache"] = true,
+["enabledFor"] = "Horde",
+["key"] = "RestedXP Midnight||a) Guild Items (H)",
+["groupOrContent"] = "}AK1…ïó+b•J×CQèE+k=TÊZ°¡„dÜšMB2+öÇ›/\"xıŞ›÷1Óé¼šßİWUu ‰fê‹Ræà±Õ¦0Dl(Ùİ×l=·€òº'Ô|ØY|ê3^®& ,çèôñœ—‹Gí}™ÃÜ’£’àÒ}È L§£P‚ÅW!Y‚\"‰ Ø7Xú+ıø­û©‹#M]×Ë§ålövàˆÒqÆS0¦`ˆì˜àz{ædäô^ø,=Âvàb+Ü„>:º«Ñ4»Íşı¡yİ¯µ´sGÌÿÿ",
+["metadata"] = {
+["chapter"] = "",
+["retail"] = "",
+["enabledFor"] = "Horde",
+["name"] = "a) Guild Items (H)",
+["group"] = "RestedXP Midnight",
+["imported"] = true,
+["key"] = "RestedXP Midnight||a) Guild Items (H)",
+["guideId"] = 14879958,
+["length"] = "616891112",
+["version"] = 1,
+["displayname"] = "XP Banners & Teleport Cloaks",
 },
 },
 ["RestedXP Speed Leveling||a) The Waking Shores Midnight|1327"] = {
@@ -12786,22 +12774,26 @@ RXPDB = {
 ["displayname"] = "a) The Waking Shores Midnight",
 },
 },
-["RestedXP Speed Leveling||a) Archdruid of the Vale Midnight|1389"] = {
+["RestedXP Midnight||cFFE74C3C(90)|r Delves|a) Twilight Crypts (H)|965"] = {
 ["version"] = 1,
 ["cache"] = true,
-["key"] = "RestedXP Speed Leveling||a) Archdruid of the Vale Midnight",
-["groupOrContent"] = "İVMoâH½ûW´Äaµ’§ã/l3$ÂÇ*ÊÇF2sA©àÖ4no¹	‰¿İ‚“°³ÑæbÉj»Ş«Wï•ıéSè†qËu]Ï²Šqa5.3âZÊEN†P(˜>Ş“‡`JnàÏfV#cs ìOÒÁ$â‚O‰|\"*ò…	 ·|šñYª¬Ï`Æ„¥ëäVC°	ˆİK?R0ot,:“J’0píĞ¥oG>õ«İ^ÊO,‹¥D1³ü\"I™š,&ã0˜!ü ‘öœ•1ñèB«døx?¯úw½›¯ãQÊt[·Rf‰`ËR‹ªf<#~ìÇi·Gú–èûÚ†,Ê’rEü–~^?İYßöx‘ÊL\"Lu=†3Pdiİv»}Í…Øpêßõo¿Y6E^”»*%±ZväRÏ±]ÇvöZ94nY4‘ó\\€‚5;Ûµè\\NH=Â;s¸¬ƒ£_1‡²Û9T¥­ˆìÄ×”IW\".r%ñMı[…–\\¥$ƒuZnİ´®ÙÙËËFÍWĞ’ÿúí­Õ?ñÆ†âJ§d•ƒn¯ë8}#-é²gXáÛ:†û>ˆì0¦®±ˆÖf]É`n%(Ëb¶AFøgÁŠè|ÇÂ§o‡!m5ŒÚ¤®g‡mÆuG±9rüŸR±¾ÒG9µ¯7ÑYcË”9à¡]ƒŠ]Ì¸qlà4#ß±eÁ9C 7wk£î¨öŞàêU€d…Ä‹eQ¤ŒãE©\rKÔkÿ]Á“ïDgÆH¼áşª{=~`ê‡ñäöm^öd–Ì»ÌO¦Nwğ*ƒQ¡sœˆB.KND©WÅ¯æ¸ôy6=ÌÑ\rèÔœ“£7=ª¯QHƒæÿêğ”úÄvQ_­¹ß\\@ıĞ5ıŸ¢á¯ÃX·YëAjöHÍâ?@	N£œï¤Ë_•ÿm²«ù?Œöö³û^e	Á”0ˆFó¿P>ÃÍÒq×çù`gÇªÉGåè7Şú£ =x×ä—§=9Øôè¹¿ë\\NÉğ­\"CÓ¥-ÏÄi}˜·L<-Ğü«?èÎ·kz÷WëUex«¹šRÖ¿",
+["enabledFor"] = "Horde",
+["key"] = "RestedXP Midnight||cFFE74C3C(90)|r Delves|a) Twilight Crypts (H)",
+["groupOrContent"] = "eÎ±‹ƒ0Çñıı2T¡¹ï±—ƒR:ÜĞ%5\r¤1$±­àßÖÛêü¾Ş/IRşdœó/\000æ(¥İÈyÕäÀZ×äÉ¿ş*iTÛ`~¸üß¦¦ªößÛrSFÙ:îHßÈ3âJ(b<İ•~,İhƒÇ¨Iå­ãÜ|/Iğ–EzU\\…™IÓ	ÈAcİ;IğÚd)ÓèAÒrãyù",
 ["metadata"] = {
-["guideId"] = 1806701825,
+["guideId"] = 3450017199,
 ["retail"] = "",
-["group"] = "RestedXP Speed Leveling",
-["internal"] = "",
+["subgroup"] = "|cFFE74C3C(90)|r Delves",
+["next"] = "a) Atal'Aman(H)",
+["group"] = "RestedXP Midnight",
+["key"] = "RestedXP Midnight||cFFE74C3C(90)|r Delves|a) Twilight Crypts (H)",
+["chapter"] = "",
 ["imported"] = true,
 ["version"] = 1,
-["key"] = "RestedXP Speed Leveling||a) Archdruid of the Vale Midnight",
+["enabledFor"] = "Horde",
 ["length"] = "616891112",
-["name"] = "a) Archdruid of the Vale Midnight",
-["displayname"] = "a) Archdruid of the Vale Midnight",
+["name"] = "a) Twilight Crypts (H)",
+["displayname"] = "Twilight Crypts",
 },
 },
 ["RestedXP Midnight||a) Healing the Spirit (H)|1074"] = {
@@ -12816,135 +12808,134 @@ RXPDB = {
 ["next"] = "a) Sawdust to Sawdust (H)",
 ["enabledFor"] = "Horde",
 ["chapter"] = "",
+["group"] = "RestedXP Midnight",
 ["imported"] = true,
 ["key"] = "RestedXP Midnight||a) Healing the Spirit (H)",
-["group"] = "RestedXP Midnight",
 ["version"] = 1,
 ["length"] = "616891112",
 ["name"] = "a) Healing the Spirit (H)",
 ["displayname"] = "|cFF00CCFF1|r - Healing the Spirit",
 },
 },
-["RestedXP Speed Leveling||cFFFCDC00(1-90)|r Default|bh) Horde Draenor Garrison|1290"] = {
-["version"] = 1,
+["RestedXP Speed Leveling||cFFFCDC00(1-90)|r Default|bk) 70-80 First Crafts (H)|1287"] = {
+["version"] = 3,
 ["cache"] = true,
 ["enabledFor"] = "Horde",
-["key"] = "RestedXP Speed Leveling||cFFFCDC00(1-90)|r Default|bh) Horde Draenor Garrison",
-["groupOrContent"] = "…‘Okã0ÅïúS|iAV¥…\\Ú8N–ş¥Ù.KéelmQedÆrÚ@>|‡Ba	{0<÷{£™L.ÌÅå•1æ\\©D( u*ÙôÖ3•4â‡©Tı}‚UGTÁmÈYnTÒÅÁ±+ó<Ÿe³4=5“«ôl'Qƒ*a\\í,½T™ ±X ˆí=«¤²}çp;úöAfçijL™üc‡_ÄÃt\nRÂIv«‹wnT/\\V‡!B<Êç}5wõş'~´ö¼8%§ÿ!/|÷×OÈFŠÛ´¡ğÂ¤—Q®}$ åC\r}M‹ë9Jh‰³”Z¿îŠWĞ×‘ à2´[Ñ?ºêeláÙÆÒLŸ\nûı«Î\nõàk¸|W±Ş8WñdJ,—nˆ®#'|Ã£gùú",
+["key"] = "RestedXP Speed Leveling||cFFFCDC00(1-90)|r Default|bk) 70-80 First Crafts (H)",
+["groupOrContent"] = "u‘ÍjÃ0„ïz\n_’ƒ‘Õ”4œÇ5ô/ôRzY[k[T‘ÌZN	äá«8—’ƒ`´ßŒVq<•ÓÙ\\JyÉXDèAm‘:í,Ÿ°¨&×·ü;êcÍ_ZDÅïq‹FÛšE]_û2Ë²eºL’‘ŒçÉxO<Å\nzãYdaƒ¼øóë$%<ÓÔy¾$¨|ÇGù˜EJw­İà;€ä*Ë’D^Hüß¾Xğ'*ùEz'^É3¨7«Ôq=¡äqN­Lu¸„ƒgóŞz¤³y““y·®ok°\n[ô£®_8²(ò 7.pAÛc¸x€º\n5Å\nÈ7hÓ J|\000HÅÅ{oZ$)Aé›‰?\rEDÎjb!?w¤…ı·,Ò¶4½Âsÿñ§vÌ~ÿ",
 ["metadata"] = {
-["guideId"] = 4290321034,
+["guideId"] = 3935901867,
 ["retail"] = "",
 ["subgroup"] = "|cFFFCDC00(1-90)|r Default",
-["next"] = "bi) Horde Spires of Arak",
 ["group"] = "RestedXP Speed Leveling",
+["key"] = "RestedXP Speed Leveling||cFFFCDC00(1-90)|r Default|bk) 70-80 First Crafts (H)",
 ["imported"] = true,
-["key"] = "RestedXP Speed Leveling||cFFFCDC00(1-90)|r Default|bh) Horde Draenor Garrison",
-["name"] = "bh) Horde Draenor Garrison",
-["version"] = 1,
+["name"] = "bk) 70-80 First Crafts (H)",
+["version"] = 3,
 ["length"] = "616891112",
 ["enabledFor"] = "Horde",
-["displayname"] = "|cFF1EFF0011|r - Draenor Garrison Intro",
+["displayname"] = "|cFF1EFF0013|r - First Crafts",
 },
 },
-["RestedXP Midnight||a) The Drinking Debt (H)|1092"] = {
+["RestedXP Midnight||a) Blade in Twillight (A)|765"] = {
 ["version"] = 1,
 ["cache"] = true,
-["enabledFor"] = "Horde",
-["key"] = "RestedXP Midnight||a) The Drinking Debt (H)",
-["groupOrContent"] = "mÎ1ËÂ0Æñı>ÅA;‡¢Ğ­%tDŞ%6G{ÓrME¡Şê;Öí†{şüÒ4×ùn¯µŞ(¡hÙƒzŒÜÔ Zé§O4Fr—#Øn»*Ø;¡MğÜVÂáÆ¡ÅŠ®7uÊñ8xûú~Í1YV–ÆèY0]O–=ã§fÈ\nÚà–Ãÿ‡šÎ‘Šë^Á\"@qhüäh-ûûe‚÷",
+["enabledFor"] = "Alliance",
+["key"] = "RestedXP Midnight||a) Blade in Twillight (A)",
+["groupOrContent"] = "íTAkÛL½ëWè¦ÅÁ*%8%„ºI\\\nMIcƒ}(„‰4¶v•İY+)>ä?|§ïïå—tVNKJ…Şz»oŞ¼yO³½Ş~±?8(Šâu–å\rgùš|0ÎB‘åïb„ªÙ9œ™ÊšÅR²ÜbM€»ğ±\"0&­aNwğb¸›å•	\rãm›!£ ,á“óÔ\"¯Œ](İHb8!^|‰Ú#lkË%6B>;<„¡r¢-)SŞ¸ºaj²%‚,g¼\"†)z«¬“îHŒ0Á¦FÇ'Çışxe¥	X@4Ş•DÕÆg¯&İ9ioÔY‚ë¤Dá(Ôú*€NN×Ñ¬‘ÉJªËÜ¬àæŞÕÀ´&0èßßıwĞ´DË®\\ı#TCK÷wÿ3rpPãŠ 7ßË^nÊ‹Ùùåtxñùò£@©WU’¤RĞŞ‚˜š6ş)ò4è)\nÁ˜DUMòŠ>ÔÆF¡ğşÌŠvIvÛÂVj`+)D»zïÚDğïû½÷-ŞÀÑÑ—Æâ|İ[=Túd§ğ/¥¿Ÿ’±%GİÈG+JbFK.†¯ºoº;İ:¾Kë8İ®ã¹§f,è¥÷ìğôgŠ’W)éqóNé\"šôTøñ'uÖë\\;šVô6½\"	·6Z17M*ØÆCÕS—ÎĞFd¾…ğ%ßÿ",
 ["metadata"] = {
-["guideId"] = 1460014805,
+["guideId"] = 1735266143,
 ["retail"] = "",
-["next"] = "a) Fear and Fel (H)",
-["enabledFor"] = "Horde",
-["chapter"] = "",
-["imported"] = true,
-["key"] = "RestedXP Midnight||a) The Drinking Debt (H)",
+["next"] = "a) Delve Quests (A)",
+["enabledFor"] = "Alliance",
+["name"] = "a) Blade in Twillight (A)",
+["key"] = "RestedXP Midnight||a) Blade in Twillight (A)",
 ["group"] = "RestedXP Midnight",
 ["version"] = 1,
 ["length"] = "616891112",
-["name"] = "a) The Drinking Debt (H)",
-["displayname"] = "|cFF00CCFF1|r - The Drinking Debt",
-},
-},
-["RestedXP Midnight||a) Blade in Twillight (H)|735"] = {
-["version"] = 1,
-["cache"] = true,
-["enabledFor"] = "Horde",
-["key"] = "RestedXP Midnight||a) Blade in Twillight (H)",
-["groupOrContent"] = "íTÍnA¾ïSXÚC)¨U‰*EU´\rE¢’HÉ©rwœdïÌv~²\rÊ¡ïÀ‰×ë“àÙ©$nÜVöçÏŸ?¯çàà¨8êEñ2ËrG5gù’œ×Ö@‘å3gc\ròÔ¤WZ=›‡,7Xà>¼cTÚÀ¨ÑÌ)Ï.÷%Ow!åÏ‰—_¢0øMFi_3®Z‚	2søh5ÈmfY^Î±ä²“¸´NQ&İk	Ûªf\nÔh)HüYÎxCctF\nGm(èÀë²×ëŸu:Ã…®!Ìµ‡ÄÁBílI¤Ö.{1jã$ÒdJkn“Pc€$È)26İF½D&R}lY¦z¹…{˜:[Ó’ØC·ópÿı¸hDÃ¶\\xù¨‚†î0²·Pá‚ z;=Ì¯ËÁ¤=~;øtı!@)7*I)hVtEk÷yá%Š`HATòŠTÚÄ@~¾cE3'³iá•˜ÆòD‘®ÎÙ&üÆûÇ~~KİWpzúŞ&‚ÏnætU¡ÛVºd#ÿKÿ~KÚ”åİ«/‰\rÙè¿Ê9ÊÁíµ÷&]Üxsq}Gõ0 ;Á£¶Ì³¯2¤GÄN[¥³¨Ó;áá×ŸÔZ/síÉ¶¢3é	I¸Íj£	šá®N›õzêÒšˆÌ+ğPòó",
-["metadata"] = {
-["guideId"] = 1736183654,
-["retail"] = "",
-["next"] = "a) Delve Quests (H)",
-["enabledFor"] = "Horde",
 ["chapter"] = "",
-["imported"] = true,
-["key"] = "RestedXP Midnight||a) Blade in Twillight (H)",
-["group"] = "RestedXP Midnight",
-["version"] = 1,
-["length"] = "616891112",
-["name"] = "a) Blade in Twillight (H)",
 ["displayname"] = "Xalatath Lorewalking",
 },
 },
-["RestedXP Midnight||a) Shadowberries (H)|717"] = {
+["RestedXP Speed Leveling||cFFFCDC00(1-90)|r Default|bf) Horde Hinterlands|1292"] = {
 ["version"] = 1,
 ["cache"] = true,
 ["enabledFor"] = "Horde",
-["key"] = "RestedXP Midnight||a) Shadowberries (H)",
-["groupOrContent"] = "}AK1…ïó+r±J¥ë¡(ô\"•¥—JÙ\nö ”˜Œ»ƒi&³Ja¼ÛâE¯ß{ó>f:WóÛ»ªªn\000ŒZ`>H\n§ˆ˜VRŸ±¡¢äw\\³Üv\n&Ú¡à¶³>}¾’SÁ‹ÕŒç’ƒ=?b0®³YI`±ÀUO0îf0]è=ıõ¼ü6|(k \\]×Ë‡ål¶}çŒÚqÁSš0KrD~¸z:srzú)½=Â¶çÑ7r—9Ò5\\®ÙmöÏ÷Íã~mcoC8bùgøë",
+["key"] = "RestedXP Speed Leveling||cFFFCDC00(1-90)|r Default|bf) Horde Hinterlands",
+["groupOrContent"] = "u‘Ájã0†ïz\n-¾lFv!œÇ5tÛ\rM»”ÒËØÛedÆrÚ@~e‡BÉA0£ùõÍ¯™8§óÅ2MÓ;!\"FÆŠè€ÜG2QÃnèäöõûVî:D-ÿà­¡FDıP§*Ïóu¶N’ßi¼Lf'–Ö0X/\"‚=Ê²ÉÂ±FYòÈH÷\"Ò¦ï,'ÉÈH7y$Ëğ<¾ÊÕJşåJşÊÕ+;k§è4‚>_ÂÀHSxoÓ[I8¸wT#éV·Åµn®_TÛC «\000~6MëKÇ„ªáŞ*:·VOĞ´ÀÁ¤Ú\000û)û®ÕÇ°Àf²­ş\r¶C•1T¾=²ºğ§\n`vd‚QÂo/ËægdAäXî*¤€r\"œ*\"ì¥‘¡ÊAwcOŸpmöÿÿ",
 ["metadata"] = {
-["chapter"] = "",
+["guideId"] = 2166823124,
 ["retail"] = "",
-["enabledFor"] = "Horde",
-["key"] = "RestedXP Midnight||a) Shadowberries (H)",
-["imported"] = true,
-["name"] = "a) Shadowberries (H)",
-["group"] = "RestedXP Midnight",
-["guideId"] = 574950929,
-["length"] = "616891112",
-["version"] = 1,
-["displayname"] = "Shadowberries",
-},
-},
-["RestedXP Midnight||a) A Palette of Feelings (H)|1046"] = {
-["version"] = 1,
-["cache"] = true,
-["enabledFor"] = "Horde",
-["key"] = "RestedXP Midnight||a) A Palette of Feelings (H)",
-["groupOrContent"] = "uÎ1kÃ0†áı~Å–x0DBYJ@d	˜Nºéj¨’8ŸCşñ±½¶İïŞïiÛ£=¾¬µ\000#¤˜ÉÈ%£ÓK™*~Ğ¨ïŞ8fî“ı7¡oğ;ŸH•°|¡#Jœûw×Lä±&ÿÜ.çàÜ~¹8gí,Øşı·déG×l'½Y¦9«”8]I[8¾*	œÏx-	]Ã9¤)ÒoíçNxı",
-["metadata"] = {
-["guideId"] = 2482704433,
-["retail"] = "",
-["next"] = "a) Predator Reintroduction (H)",
-["enabledFor"] = "Horde",
-["chapter"] = "",
-["imported"] = true,
-["key"] = "RestedXP Midnight||a) A Palette of Feelings (H)",
-["group"] = "RestedXP Midnight",
-["version"] = 1,
-["length"] = "616891112",
-["name"] = "a) A Palette of Feelings (H)",
-["displayname"] = "|cFF00CCFF11|r - A Palette of Feelings",
-},
-},
-["RestedXP Speed Leveling||a) Defiance|1354"] = {
-["version"] = 1,
-["cache"] = true,
-["key"] = "RestedXP Speed Leveling||a) Defiance",
-["groupOrContent"] = "İWİnÛ6¾×SğÍº)Šş)õ\"@àÄKÑ$3bë0-36ZÔ(*^?üHZ¶e‰j‚.–]ÚŸÎá9ßù?9‰½8I=Ïó-kÀ±@„Zƒ'ÌKÂràYƒgUîp)ğüóL\nŒçà?aJò…5ÈÑ\nô\\à‚ò[’ÌsD-)QXÎ‚	èÙaà„©\r#'\r¬³³ÍT÷€2|ºfœÎW¨8Í–HÌªÙŒâû8\\püÅ™Ñâ½ïnÄÑG m²»ÏãûÑİ‡ËÛ‹ë_î'KÄ€Xâúy±áå ,Ã…\000~Áœoî\rlâé¿C”~Ñº&\"OŒ—–#_`ÚÏl]\"(–&F£áÅĞuoÇC0F‚3Znø±ç~hÃØqc;²İ¢9‰¼/?â\\™vÃ¤Ñ\\¡á5‰{pı'.àó“IU”Èğ^É_kÄ¸J¢ƒÀ¤ â(¼&ÈğŞ¼&)c«‚b×D,Á´â9 y#[–d.¡|ÎÖÖ€2ÖNW‘Ä¶ï¶y“\\ÂĞIä{6h’‚¾\r}Çëƒ<Ç;PèøPCİ·B'ÔR‰o€‚P½y(•…AdR˜*¿Â.8©§Øp¡Ia¬³¨û–”JTêE]¿ôöqÛGl«}”öñÙGf“}4öqØG`{}Ô¹Ö)ŸëÊ#Y¥¬Ş„Òº/o/od!2¾B””ªú¾ß?ŸßİŞ9aœò–}…•<ÅRÈªÛL«šoq&ëlÆ1–Ÿ_Éî¬ËygË¶×Ù^çßrVl[+dåe$Ç	Æ_âÍ’ìÈ1p°iüaøñ~Êt‡k¸ö‹8zgà¤KIª()I±`eIŠ}»2×–S4Ã´cò' Í4Œƒ$ŞK›~=R0”-ŒÿÖîw<p–DyªQ¾ë²)Û*©ú2R&âsè­'VÓ“oNªmhšªşÓ™tD@ÿo0Šÿ8Zyÿö80-°ş«%Ÿq’5IÚníØü m|ğÿ_aA#?H^ÊÆ«}Z2ÙH[ÔéwÇÌW6Ü†DÔxÉŠkH_oiøj4L9ªVHUÁÜÔlÚ[}|XÒ§*¤·Ê),£ºÜ;óŒÖŞV—õ\r[T`ˆVíê€Úyo—‡X¥l­cuÎ9[w;Gl^Œ/y«ÑÚTA»Æèi›	W*jEÿQ©şœ’o6õX›«µ%¯ùgZƒõ.[±n¤<¤Å§|Æª|Ş€cØ¸oPEÁ¶%?×;Ln3ı°w=«xÉøiÆåÈ\\\"ÂOµy({Ïû¦K_O jàª]×CL¨Œ<ß[:D…dèkIİˆ™«.u'tN£ u]È±	Š·RA‚¾¼Ô4æ&Õì÷j¡æJm|Û;†wowCõø@–BıbÚ9?ƒÄ‘y*!¿s´J` œ3\\¦’}:EYJE‚üzk±NS]Ÿé¿VŸ°QŸû¢ÛãÛ¢Ûá/ªº¿ÿ",
-["metadata"] = {
-["guideId"] = 4070378792,
-["retail"] = "",
+["subgroup"] = "|cFFFCDC00(1-90)|r Default",
+["next"] = "bg) Horde Draenor Scenario",
 ["group"] = "RestedXP Speed Leveling",
-["internal"] = "",
+["key"] = "RestedXP Speed Leveling||cFFFCDC00(1-90)|r Default|bf) Horde Hinterlands",
 ["imported"] = true,
+["name"] = "bf) Horde Hinterlands",
 ["version"] = 1,
-["key"] = "RestedXP Speed Leveling||a) Defiance",
 ["length"] = "616891112",
-["name"] = "a) Defiance",
-["displayname"] = "a) Defiance",
+["enabledFor"] = "Horde",
+["displayname"] = "|cFF1EFF008|r - Hinterlands",
+},
+},
+["RestedXP Speed Leveling||cFFFCDC00(1-90)|r Default|bj) Arathi Highlands Returning Player (A)|1311"] = {
+["version"] = 4,
+["cache"] = true,
+["enabledFor"] = "Alliance",
+["key"] = "RestedXP Speed Leveling||cFFFCDC00(1-90)|r Default|bj) Arathi Highlands Returning Player (A)",
+["groupOrContent"] = "‘Ájã0†ïzŠY|‰FvYÚr	q¼.I—°)İz™Ø[elÆrÛ@¾r’C¡”îA0bf>}è¢ëäúvœ$É•RCcUğBÒ™†á§\n*iúşPç¨|ZÁº%*aI/d\rW*èúÍyâXdY6Kgq<J¢qRÚbo\n÷›!L]m 7Um‘ËÎs]/ìI°²x Ñ4TAiºÖ_Ok7™gY'‰gFŸë‚Å40™@*HL~¤Ğé+Êv(õ/n<j¨ò~|nÿö7·§	hßpŞ³#ùR ş^à±1¥gêEoŒ ëåğÊ¶‘ŠÊ‹œ¾§¢ÆjPÒ)ÊîN>©j?P¸ú zå¹(ÄÚÓë9Š«é²”£x€ñÖLo6»nâè6†ÌHç`&¸uİğ¯p¥¼àÔZƒ\\ò¶*0\\Ø¾¤¯~ÆÿM½ÿ",
+["metadata"] = {
+["guideId"] = 3126206322,
+["retail"] = "",
+["subgroup"] = "|cFFFCDC00(1-90)|r Default",
+["next"] = "bk) 70-80 First Crafts (A) 2",
+["group"] = "RestedXP Speed Leveling",
+["name"] = "bj) Arathi Highlands Returning Player (A)",
+["key"] = "RestedXP Speed Leveling||cFFFCDC00(1-90)|r Default|bj) Arathi Highlands Returning Player (A)",
+["version"] = 4,
+["length"] = "616891112",
+["enabledFor"] = "Alliance",
+["displayname"] = "|cFF1EFF0010|r - Arathi Highlands Scenario",
+},
+},
+["RestedXP Speed Leveling||cFFFCDC00(1-90)|r Default|bg) Kun-Lai Summit 1 (A)|1313"] = {
+["version"] = 4,
+["cache"] = true,
+["enabledFor"] = "Alliance",
+["key"] = "RestedXP Speed Leveling||cFFFCDC00(1-90)|r Default|bg) Kun-Lai Summit 1 (A)",
+["groupOrContent"] = "u‘Qkò0†ïó+òÑ›yQÒÊ‡(x#ÖÎ¡™cß.vslmXzZÒÄMğÇ/©~ /\nú¾Ïy’Äñ('iš‹ZPšEG4jˆÿeQi×òì,Ê÷-ßµˆ’¯ñˆZQÉ¢Îí/‰s‘çù<›'ÉCO’ÁÙğà´eA|_øÊQ¼Åw®®•å)˜\rX$U×j8õ©€Iy$OˆCCß¦S@BÅÿd+.²/0‡0ŠGj|?LKW]~?«²²İ'ü‡uCKGÍ½­ã{[ß%=H¬œ~UH¬úĞ˜åÕHl°¨ \"óùdêı„¶:±’`„×¼±ÿ‡ÄŒ­ğZZ‚ñ\000åU	¿-ßW¿îoÈ7JRğè/Ò[Î´V@2ÿ\\-‹ÚI¼÷|0øuÔÿDöó",
+["metadata"] = {
+["guideId"] = 3308001370,
+["retail"] = "",
+["subgroup"] = "|cFFFCDC00(1-90)|r Default",
+["next"] = "bh) Kun-Lai Summit 2 Midnight (A)",
+["group"] = "RestedXP Speed Leveling",
+["name"] = "bg) Kun-Lai Summit 1 (A)",
+["key"] = "RestedXP Speed Leveling||cFFFCDC00(1-90)|r Default|bg) Kun-Lai Summit 1 (A)",
+["version"] = 4,
+["length"] = "616891112",
+["enabledFor"] = "Alliance",
+["displayname"] = "|cFF1EFF008|r - Kunlai Summit 1",
+},
+},
+["RestedXP Midnight||a) Harandar's Kitchen (A)|1208"] = {
+["version"] = 20,
+["cache"] = true,
+["enabledFor"] = "Alliance",
+["key"] = "RestedXP Midnight||a) Harandar's Kitchen (A)",
+["groupOrContent"] = "mÎ1kÃ0Åñı>Å†$ƒÁÎ¤àÅD B!C—C:ìåb$¹4à_µëı½ÿªÚ5»ÃKÓ4[\0009“0Ÿ“<·5˜>>¦ß8eö·Å«ôC£tg¤\r(’zŠ«„¯’İÀŠënÆK=g³³¶®Gk÷sÄjáS<şÊ?Ş»VWèŒvÒ¾,ñ*!PÏ®hÌ¡m±A¨l¡Ä`D]˜<ÿıXÌ„ï",
+["metadata"] = {
+["guideId"] = 1768951641,
+["retail"] = "",
+["next"] = "a) Silence at Fungara Village (A)",
+["enabledFor"] = "Alliance",
+["name"] = "a) Harandar's Kitchen (A)",
+["key"] = "RestedXP Midnight||a) Harandar's Kitchen (A)",
+["group"] = "RestedXP Midnight",
+["version"] = 20,
+["length"] = "616891112",
+["chapter"] = "",
+["displayname"] = "|cFF00CCFF7|r - Harandar's Kitchen",
 },
 },
 ["RestedXP Midnight||cFF1EFF00(1-90)|r Default|ce) Voidstorm Route (A)|1167"] = {
@@ -12967,135 +12958,139 @@ RXPDB = {
 ["displayname"] = "|cFFFCDC008|r - Voidstorm",
 },
 },
-["RestedXP Midnight||a) Delve Quests (H)|734"] = {
+["RestedXP Speed Leveling||a) Val'sharah Speedrun Midnight Horde|1331"] = {
 ["version"] = 1,
 ["cache"] = true,
 ["enabledFor"] = "Horde",
-["key"] = "RestedXP Midnight||a) Delve Quests (H)",
-["groupOrContent"] = "åSÍN1¾û)FÚCK+P¶QZEHUhàB¡!*!w=ìğÚËxœ…j¾ö’JV=ôÚëx¾_ÛûûÓr:ûP–å;¥\nFÑdU±Aä”ª¨ÙÇVÍõœ‘qT7¢\n§[½Çh7_cÚğút/àƒä“2=¹§™¡ĞYı8‚vª¨İ	²šÏáÔ³A•”º4ömgQ°'i 3ªÂêïháJ³#W¯Ç‘X„¡Z.—‹ãÅdryGHC2ˆ‡}…hVo×ã“Í”h¨V×7WŸV_nÊ÷ÃıS\000i´\000c¯Ù¸ÖB\nš°¸IÚ³‰z³ü„Z-—(‰rM-~„yàƒg«/Œõ\r:0ŞaÒÒ&ÅÉVbZI¥2û>ü¡‰İô?2ÁìN|&8çš©m5o‘Œ÷‘Ãÿ×¹ÊFƒ¿¿Ûo/^ìvÿ_:©$;ê×‘’\\šÿº-ĞÎd·¯$²ƒôòŞXD'dá¡Ë€è¬¯îĞ<Ï~¦]ÔÖ>Bø‹“Ÿ",
+["key"] = "RestedXP Speed Leveling||a) Val'sharah Speedrun Midnight Horde",
+["groupOrContent"] = "íZ{oÛ8ÿßŸ‚@pèî­£Šzk±(Î±“6×6í9ÙvÛ»CÀØŒ-D}”¯ø›¡ü %ÙMÒ¤×?Š˜ÃÇ<3êğ0 ASJVë@ò‚%iëà–Ë<¡­ƒ‘³)éó¼àÃ?Ş“ó)çCò†ßò4ÉF­ƒŒM8a?“,}–™dãrŠœeäm2Ì’Ñ¸ ¯„òÖA’\\f,mıöÛj6¶b2MyÁçI1ÆÊ}ÔŒãlØ:'C eC1oıB[Ö,çù”§)¡K=JË]¬/\"ãùM2%‘¯æêÙ4vJ	œ¼xñ;÷X\nÛgäg²çPW;Lo¹±MÄ/’\"åä¥ … ïäH&“	“éŠä–“L’·bÈ-rK’k²32Ù³‚ÌYVÀ*«õËrĞÿãıåÇNÿìrç4ÂpGVl÷\\Â1?‰¢ÒWjƒÀ:I.XÊaÑG¥òÓÙÏ?°GFŠ±˜Æ$)H’\r$g §rÿsÊeÂ³'#–däjAXAR˜Qjÿe%şH\000GÛ¾gq;t¬Èk½x±¼Pv»fş|.d:œ°éóÁ˜W³««”_ŞHò…u•NuìeÌİ <¥Ğ'ıÓã³Ş›O—oYz=“èSç…ÉF `ËbƒŸ,å8`ŸNù³Ë3&“YŞ&¯9Ö‰¸áÀR ‰\n&G¼ \r[®\nÄOgC¾ËkÿeúëiVH±qÖ¿mPwÍßŸWÊJòÌ`÷Î-Ä57¶c×T\"Ú¡mùp<“è]Í1»i2¸As¢P¥¢ŞŸv__O¸õšn&9éá„¥$³l:À¹…äÜº»9C$&CTà[n¤ÜÄ5:‡•£¦ØÌøŸEë\000äå)h_fBâ®àG×FZëEÄÃhk2cQÃ•[}z®Ù¨OÃÊs#‡RŒêåÅéÆC3™ù| EVKäså¼\\İ(¿æ¡úÉ}+ö$ÿÏ,‘JU‰wªæ<q.Äp¯RÜRz<}VŒ¸üvå}Ş,ª)Ë·\\ûi”ÕÀsƒÆ¶Š0>–¨ğÅ¼¸æ™ó:¿ßÃñÙñÛO—çÍW)¬¨+‰=pw)ÕĞyÅ`¸=yÅä”F0™¨Ó\000ê;ï	»JÒ¤XX­« rbO.Ôar,áq„ªè©3é¢\000U@\000§¢'õ¤;ƒ:Z„¬hó[ÖD\\M|2 Èóå8 ˜£®vZ¢¸\"7pMßñ”ïÄö¸pÎ½kíkÀÍRÖ6e’]NNNº½®m£\rH—İª±åÌ·¼°V·©ß¶×£;My\nıW-íş}6™bR’|\"pS²¼ n\000`ü+øŸšß‹$Ù¿M9Â0TöJˆFàRƒÛ²hhA!áÛ ¼R*ÔJVñİë(Au¤3#ÙÄ;]Ì–6«â ÓtFuß¦ÓıˆÀ\n)z†÷4pg¬\"x¯N+F­É!Ä´bb`[•[R…aÕ(å€:#(,j$Oü’ôd}\"dÕta€C]âØV,ëòl‚üù~ByÆb`XŠºSFœÀ.õ®¾à\\¤P²œ0Òƒ›­¯t±«¬äLqñnà6Ù!¸wvx¤²VáiÊæ\r¥í»ë‹1GšVİnÆvKì„¡‰-ßËutå†á½%~J»\r\"öVç•éõ´ä2W¬\r05ÉEkC®Ù©¯És~(Ùdÿ|÷óŞÌ Œ#Âu1Ï·‡mhkRç°6tÔ¤æİ\n¨~K,ÛmGN†‚úPÃ‘ï2u(îã9µœãS+öÚ‘EkéÃw,/@fàâZ%A:\nÛ…Aä¯H­‘<+Úµ§$íÈGcH)Ç»\r¹r ò‘å I›Öú¨¶v[‘óhĞ{Î)Ë2\000Éä–Ë+\000¦/ÜÄá(p4XÖù-ú&Ãf²g;mL2[ËØ<Ó§Qª§`Û!ù„­›·å*	¤‹\rr7±z¯À®j+½”ØdÒ|~M)	àñæÀQÍÓ<'ôi³·=‘\000¼àÄ©ÀÉz\"VSÕXáSMí®‹Ç&bçB|v;ûØ=ªß”ŞpÀ™úMÉ­˜¶#Ïr½65c2 ¥®\nrtNíöPî¶†¯¥¬–³;˜ú6©º:såÈ\\èµ“·`«˜cRÂ_íbÃ«u7fïcp©ĞF¦œàqÜ ±ÊŠbıH×r8#\000i½ÊŠâ‡¹rœß’‹H!Š¼¹—z:;¾b'€‹‡ŞË½=ìì’]÷Q×Aµ¯p^µ‹û|2KE¾ÜVÃÊÖÄ¾Àqİ]nğÔ\\\\Mêì+•Sl›¤–M17Q£ı»×‚/Ód2áRe“;{ìšç®ªÏmãÜï[­~`iS¯YUgH«ä8öÕ3Ìû˜¤Clcmƒ¹Ás©á£û*©ıÁ²í×Ì™rÍµõMØÒ¡Ã¶ÛA¨J®ûà¹âcì§7€\\ıp³­p¾SaÇrì†ß¬Æ§ğœê=Çzı8ˆğ\\Ô\"£¨Qš‰ÚÚ}=@û9êìäèÈÌÛ+ök¹Ü±â°DŒ«\\¾Màë-Um 3Ã±«ÖWb–c¶×š‘u†,K×”¼Ğ)°ïßÇÈ^ƒï7ñ`8¿Z¸Û¶:WØQƒLD¿Õâ†m¼²%‰íÛ=‚.%&²W?ËIgÚåÇ³ıĞ]·I›Ø®¨ØSMòÀ`û‡J\000Õ+;ì©bj–#Q¨r«ÑƒŠ|i¾‹ˆ/eòåKÊçœ¥Ã­dúhçPÿUy(ÆÂƒOË2®~+<+\nĞ¸•›M]¸4…N;ˆ1‡TIjR'ø¿JÔğ°ØáîiŸ¡*9LÍVk9¡ÇäÍuÂaôœÕ“|¬>ïöìQğÉFïÉzè-ÕÎ@ÿÖo†,åĞ–û®r6-„¬>ƒµD±}¢6«­ÔŠ´–?ZÑÚøi„ŞqpW+]û	ëÖï#~qºÜ­7~4Ó\r¥sXÙİOğqÌ–—ã¶}¨0ÌBmÚ~sôŞG¶nM¶n§¡¹æC7aU¹%Ä†»~uÂ9È-u(ê\r¾Ûm¾gùq@õ‡>¼\n)ÆG#X¹ÆÛƒ=~¤ \\åwsphĞ6¦t²A‚ß'u²,ƒZÀ«S.8d>YÆß+¾3î@ÕÃ²ºùdµfcl;ñRÄ-	\rBVEñ]Vå½»ãI6ò,¿‚»úÍÖgáÎ¡ñ³ÚÎ“!ÿJ=d›/vtÁl3BŸôyA»¦ Õ÷ ¦LšáxŞë³n¤ŠmßxìÁ9ÿÑÏÇ2á7äL@N’ÜıÏG)¶û¸õ+¡×.Š€ã8>¤ÿ\\ûPYÓ×¿ÉlÀ¢FõnÛ¢bQUÇs±É‡ï\nQ¦<UĞ”oú]}üÆÏ)(Ö¸û`Jzı PC˜~’sH” á£¢ËGÎ¦Ø\\ÌSõ5”†`ÍJIı™#¤ÁyúœeÉ®ïCU]¯qgÅ4˜(©¡«wk.oñ«R¨ÅûpûÃoAóâ±¦k:ÌçZ¥äà·X†>ŞãÌ§L°Ôß¸ƒÀ5ŞW8é%œ$9\\{ómM§Öµşû",
 ["metadata"] = {
-["guideId"] = 257953108,
+["guideId"] = 3317438118,
 ["retail"] = "",
-["next"] = "a) Gidwin (H)",
-["enabledFor"] = "Horde",
-["chapter"] = "",
+["group"] = "RestedXP Speed Leveling",
+["internal"] = "",
+["version"] = 1,
 ["imported"] = true,
-["key"] = "RestedXP Midnight||a) Delve Quests (H)",
+["key"] = "RestedXP Speed Leveling||a) Val'sharah Speedrun Midnight Horde",
+["enabledFor"] = "Horde",
+["length"] = "616891112",
+["name"] = "a) Val'sharah Speedrun Midnight Horde",
+["displayname"] = "a) Val'sharah Speedrun Midnight Horde",
+},
+},
+["RestedXP Midnight||a) The Night's Veil|942"] = {
+["version"] = 20,
+["cache"] = true,
+["key"] = "RestedXP Midnight||a) The Night's Veil",
+["groupOrContent"] = "í[msÛ¸ş®_§sI£0|'uÓÉŒÎ/¿U±“»kn<I¬)RÉ8îøÇw”,-*¡“ëL¿äÎ¹Øg±/ÏĞË—®áúÃ0Ì^o³Œ†Qoïãi˜ÄÄÔ{{3äK2biÆ&¿\\Óp‡³yÖÛ‹é‚úœ\\Î9ÃG?¦ä=ÃÏÃ8c<¦Q¾Yöö’eÂàO-Lÿ‘ƒ á'˜…#F|×qŞ‹û`ôËÅõ‡áèìú×$'sú‰‘,!“„d ü‡ã8+şo8¾KÓÈşœ.a2\ryšİóDap³ÏY]Ï aù{òløœ¼~½r¼ÿ–¼9’£óùÛÕñÁ!ùë_É0ŠBlg©o“ú&á¶²@gšMX-E›\r{{”óä6ÃÙ.itğ?Æ…YFÇ‡g'¿^Ÿ$ÙœÓÏ`KÄ<K`zÓÖ¾åh–×wš>è½~})Ì?¥{u›ğh² ËWÁœfã|&¿vígwÚ8Zşdê÷Ùj2òÈ\\ZO£AÀ–.—åÊañçˆ©pc¶YÚÓ2Êg,#›¯›!ÿÜòÂE~Ï×‡g‡§¿^?;;¿$ïŞG‡Ï•¦ğµAw¦Xë\000f’Å2b+Ñ7\000ï€Ò›p9KÒ4\\†bX¦oû+¬¿½\r³9A¯RZe¿·7'ğR<Ine0kçäôüêì’ü'‰Y¼c¢ƒ¾Ó×kêš*M*³Ëâ\\Í3û©\r¬şÀ6aÙ%ršäqF~C\n±œı;9KÛ‰ìíea®síìëúQEÉmQ[¶A[ÇIwğIµn='U¹µÕuÛÕU­m\000™Œñ’àL<cÆk][@v;ƒ¬šĞg9Ãø!\\ÂŸş®')Ñ›Dó!á7ä Ly.JÉƒíê³µ6Nc2?0ú¥é^gFiN¦úã³¾¨¦ïæ,ŠË¦I²¬èlPgÇƒ$€‘/ùšnõ=_3üú˜£ùàóP8Üú˜­¹0æh¶ß·qL²éÛ0ŠˆV§4¦Ó”%ğoÀDØ$I†’ûKÓr}Ïş	ôÏâ«“óóËëÃÅ2»#øi€pïùïã},¹˜GñŞÓëóñ¿XÁ8¬G‹™µŞ_^19d’…Ğ\000SJ{-„€ûËã‡…r&üUÀ!ç4ä¯„OĞ ënx÷ÙƒÚb¦êWqš	ÿŞ‡Ü ˆBã‰üÎû<¿o]@”Ç³zºĞ±Ò”ødãG¦¿ñ£!ÙİnØ8G”Ü°»¶HÆj `¦Èë`ì”ób`cÁwár`UŸ1€Å'<œfõÁˆÍêéû”ä @<‹å€çyÊÀ¡]×[‡¦*‡HVS‡pW±ú%“—œ!%¸zâzxO¬Ùú=Å¢•ÃÛïûºfoªÆEê“•Ğ%áŠÌ\"¥ ÉuŞÄ“âÍ£œEU%\\TÂl”2“,ÒÛˆß¹EÇ)ƒ8\n³/B¦à-+Á¹CS•Ş'ádÌÀ%ËÈÓœZfò€ÆgÓ8û’Ìà4g†šğjÌûáTG\"ÌD‚‚®'çõ<ŒgaÌÖÏ÷“xåŸŸAòÅ„É×À(X0lpªñØ¤+HL“ˆíÀ¥lÍÔqYuGÄe[ƒaXnU¢j(õtH ¦Z}ßĞ÷[ ©óÛ­Bv@â:Xë-ÿ[ ±vGReÀÂ<mğÚBNL¡Çãã<Œ&êìRëªJ7e}Y–^'J5Š5ºd‹%Ka±%V—Ur-×èz¥Ä¿[fP Æ†€ø}í¶‰ßd½y('½ö3Õmã¥<U9u4O$ƒ‚dZšaˆüo¨Æà¸€>P‘S ³H\\Wßµ#§#6…DÉïÔ,µmh2ü#óü¿ò<^y¾ I3=AFüÎˆ_3¡“‰Z\"55iÛÑµèÏØQW(·÷ç„VÅŞ²pÁ81\\Íé.¸ÒE&ûêÂ2¢wåæ| 7Ug”òüO_³Ü8˜è|S3'ÁY^ŞA©ëX£Ú ¶¥-‰ËyÈÁ×Æm¹ãŒ\\-¿~ÛÆêaÓ¬3cì<³ä¾çÊ½õŒAÊ$É”P~³4­,¤­ãBƒÇû4ÉÚÒ&×ßs(¥Ç1Ù§)Ó4­*Y¸ˆao$¯7ÍjÇ°Í¿ŠÇIOšJV¥;RU(W7L]w«%êˆÓÙŒs¼ewi–Ä\n¦`Ü|›zíkÛcOÚÆ©ª¢«U‘7â›¬&[2!ÍŠ=Ë4æèKıÒU)%_+^)6T8èO²ÕÆPIcô»ò®xb®6ZªšŠ§uİŠçªéZ-‹|!y£mh†Ù÷M·ûf}»Ñƒ†ÉCFg:àÜFõt >K1\nÎçû…ŒŠ|,Æ|«kÑa¬½b•R¾™£É9%C+‚GiÏC+CäW­€+àˆ0•+àá\nX«ï^4;ş÷NÈ\000«<±:¹\"×¨\\àû¯ÆUÊbBÌÕ^¯åùg[ª-\néùt]FKçßqà0^S´kgTaN>xú–æÙ}CWJÆ Ñ¨)x Q\nV°—,Ó‘5<l±}Ñ6»˜zıR«æåG•Ø…Ô5èô?´8ÛqoHj¬pG£;°2'İ°x[>c¨ñÆÊÁr[Lı	Àò–iw«±?±åƒEÿ!QgS:;Å2ÍpcOø8®t›VeëN¡ru-³3Ñ´j›ëœ\\Év†ÈvzıòÄæjÆ&5T$šMt<!2YÔÒkdÂö›Ç\\1fŠ1E5Ç• ï–‘°ˆ\n¦T]Ş«­Ó]ĞYe—óG°0nàåqFÄtş\\å@¨™ƒxÀ¦Œfª¯ëêØ«Mo8Û’ °5WÇÍa¯»KI[÷qDx<œ\000>_‘‡œ\nbUku\rv5Ô—L[Ú9ÿÄøíœE6Ùàm#\"ò—êÛV¥›N >u ºä°ëÕ\\]¯f	­”íA.’4{yšğŒ-zÚ$L‘¡;\rnÆÉç*ÍP‚Œw¤l¼!cº;Ük°ò~µûlj•e·ã…ÓìÆ Bß„ŒcQl{¬fñma–î6IêT3¥t¶özı¤ç\rÅÇ6ñÈsp«×¨³lqiEï%S¾’h…9RlL™¯¬ç£­‘²õº*ŞB…ÕÙÎªÆˆ¶,œâïº™ƒw„«ÛO¶ äe°<ga›yJYÑÇGh¶fvGVëÚÔq[%¿‘ßV¹Í^øÄümã¥9£»Èiºğ	¸İ/WÀõZÃ•	ôˆmwXš+D¾ÚQ±pn·†»ßÖ*¾×„÷ÙˆÑ	TŒ=¯Y !ğ+‹ï¢÷wx¯c“Š‡¢ñ\rºç¤¸ÄB±Ä\000KÉ4üÌ&‘®=s€/[z·LBì[o‘QÔ¢ áD(2Iyä;VÜU5]WÜr9gåƒÆİJëw\000&ÑG>Kcädõ+™Ÿ9ÕDµ¬¥îâílÏİı®¼íô+®Q.ŞÒ©V\\CÃ\000¥pUC…Ÿ9jşEUõ>ÜpQ4_§d|G°±À{¡’|6…RNü¹O@cÂ™(—ùmëßAA¥] /6x\ræd	±/MR\nÎh\n‚£;²H8#Ñ)®nK´^W¼.±e]‹;\"›¸ƒª»º`xkí·ƒÕy%ßY@2›·\"¤„ò%%ÍğpÜ¯¸w§R@}T^Ám¯q»š¸åíîÒOB~k¸ÊCÛšUøâ÷Ù]\\·S£œÏœÒVcÜ×ïÿş",
+["metadata"] = {
+["guideId"] = 219549067,
+["retail"] = "",
 ["group"] = "RestedXP Midnight",
-["version"] = 1,
+["internal"] = "",
+["imported"] = true,
+["version"] = 20,
+["key"] = "RestedXP Midnight||a) The Night's Veil",
 ["length"] = "616891112",
-["name"] = "a) Delve Quests (H)",
-["displayname"] = "Delve Quests",
+["name"] = "a) The Night's Veil",
+["displayname"] = "a) The Night's Veil",
 },
 },
-["RestedXP Speed Leveling||a) Horde Zuldazar|1340"] = {
+["RestedXP Speed Leveling||a) Horde Spires of Arak|1333"] = {
 ["version"] = 1,
 ["cache"] = true,
 ["enabledFor"] = "Horde",
-["key"] = "RestedXP Speed Leveling||a) Horde Zuldazar",
-["groupOrContent"] = "í}érãF’ğ=fü£wÆ4Œû˜Øè]}ú${í\r‡£D–HX ÀÅ!Yığ_fº(QÛVwOÄ„GM\000UYYyWVæ?Dn”¤®ëz;;ßU´!Y¾óİ%­ê¬,,wç»yU¶+ë˜Ö\rıÏ‘u²¢tf½¡—4ÏŠùÎwYR‹üÃzQV3jıÒæ3ò‘T;ßeEC«‚ä;ÿıßüÙ°ÚùnZ.W9mèUÖ,¬=Ò49}VV»iU6öâa1Ûùn‘Íà•bV^í|ïîØmMëÍsËõ|7p]6˜CÿíRÌHNªì´*ó|ÇÎêÿ×¬»—°r–S+tƒÀß±çeSZI8	;ñ'‰c»ÑÎÓ§ŸNœçdJ¼*«|¶$«§ÒœµgğñoQ0¯èµ}–¯şå9ŸšS’_X0Î§éñÿıöìøåá»ƒ7?ÿ¶¿¨ÊeF?U6É}Ø=~÷Û	Íé´±şÎ—i—•Õ-ôïÖ>Y®H6/ğ£\nß¼lÔÖª¬ëo\000+k¬³v^[eÛX°ZkVÒºxÒXóì’Z×eoQëÿpÕ¶õòş•Õü’šZ5ÿı÷}Òi~]/ÿÏ8lÌúŠ¬¬32eËcoš€.jµE“ålÚ9mÆ©q6™Néªá(·>İåÿÔGú—õ6«4¤¡KZ4;v}‘­æ¸ğÕİ\nGï{Ón¿/Ø~wÛüôé!î'ë¬ÍòÒè¸÷©ø“8´€şù3¬`J\n§µ–%1Í\nº$M6­œ¶M=¥°Ú³kkUÑº¦0ux²Ï£Ö4Ï¦øë5­wì¬9“	Ty€.t‰Ä°ç¥¤É÷âeQh3xwa'RÓDşÖXàR-ÊÚÚ{“ÍÍ”ä9­M4mUd…õCO§ğoXÚ¦TÑ“.a$©SÀÊISVK”ÖáME¦\r|9PÎO>Â³Ñ¦p\\u8D`éìea…^Š?`“DŞÎ÷ÛF].¢Î\"s’²p8(‘ïrA]¬J\\3czäÇYÖ‘&9ƒåædTÛa¤	™m‰öFù¿-„J˜{úôMYráÁWwôrÿõo|9°òô‰W2LH?ÙÇßáTPBønÍV?}Š¢)Ë	Õ»*j'VEÌAW±Ç8Å°7ğR_[W¤hfœ±QÆ\000 %ß¾y2&Ã™Â´ûÍäÀo¼JYÑôf¢F|ü‡ª7G²‚º?™¬$ûÒŸAçfyŞä^œ¯—Èl®h{¹î$ví0šüàöˆ¼IÛi4‰<;æ¶¾;\\æPrI%ÓÀ¶Ã4%êY¢bàäâzQÂÚÉ<§¸{`€Qj[ª±H›•hÈLİX9%5N0…ŸKFÎƒÉ‘áïVİÕ¨Äìâ,o™ˆ]ÛM'‰o‡±FŞ€*	Úû¢È@÷c7¹§Le¨ştúr ÂçŒéUà(üøÄ ­ø//§eñ/ À¦*¯9o\\•\"ë‘Y^N/\000!L‚õ¶é¹^º´Î3Œs×Dô9Ì|EªY\rÆE—WìRUğ×`Ry®feYÉkfåôê¸Ş$ˆlß„‰íyê{®á=$â‡ ìN|ÒqğÀˆ/+X\"øGËò¬XåŠrYƒKD:Ä¿)JKÀ	R$|fÑš¥À	i bÎR@€çˆğ'>°´‡üëâˆBÇNÓ‰ŸÚşëW„wâ©?HÈ\nÛ”ù(]GÁVh§€ÈÀvX¶Õû($ûa†æê92cˆU•Õ@øSŠX¨{cúƒ0ÃÀf£ËÇ¤í„(°T¾Öà1èø»âóYV“ÕŠ’ª–ÑâÉh—~oğae†VQ\nú\"Ë94¸ù¨§Î+÷æ¬@yÎAÍæàıUÓ¦²ª²\\öÖÇ úÇŠÂB@†ÏtT…ß‚ãBQ·ƒøÏ»ˆ½}\\½M È¼Q‰Ğ+=%àHª¶ŠHOB¤oGÉ$\000Û'˜„2y%±íÆÏ·½àX´Ü²z	.¢¥²V”ñ±^´Ìîú@*”ßÀ\"8ÿıÇîÇ»³õSå¸¼\000+á'ÄNâ/2ØBğ\"¯Å]®UÙªÈ‹eQÆ‰£@].ÉQ	>áıøLÕJ8#TF¤WÈKHh£-í»£jwkkÄWo[iâKÑmÀ–	è¶ÈNBõ=IW†HTøv\000|-‘èÇØö4d`$Yây,&ÿõlÏ×¿Ñ~|ÛMŒ±eûPİ—	¨ˆÙ¼£«¬Ê3Z÷‹QQÔìäÃw‡oşí%}{\\ªHöÉ ãÍã \"°„o·¹Fd½*ì—bŞ¶˜ÜÇXşòîh¿F’!MÃ\"‚@ƒV6ÈÃ\\açÀVèÌb„²‹½´]Â$\000‹´æ$QÖÙğX€Dá)D¿ş7\n5‚[pÿTõ	r0±cöFhcz)›);zâ)„æ¦6¸'^hÇ÷–‹û{)ÄˆˆÂŠ‚ÙÑGÅ\000£hÔşŠå0İYlt£ˆŠ£*+PY €Iñ{Ö‰Ú^°€ú³dún…iƒ¶5‰ú2G+ÏÙ@™!¢¾‘ãGîİ×~gGXò^Cî½î1âîÑÎû\n¶ÿ„dŒl€“í|—“3š‡ShäF›r8­ÚªtNE‚(\rã1‚İƒ`H*ˆnà„[Í¨âB> Biš—55,fävšã)ª\n”ïuSâÉeÖù>ı¦†èë9`Â;vZ[àüîYœLRØWã3?œ¤à)êÏÀ>HƒIVH ?Kì„…FR×ø]2I<Û÷éÂP²ATm<;/|GEâšy¶EFÏAET$·^‘‹Š<ùHé ¥'¤İŒ”4ïŒDwş-aÆkÏWÚTÖf8	Å_xo½{jU½E~¸ªÊjFşèÎNï†¾—\000Kf“u6®‘EZàv˜¨‡îÊkjqoÁŒ‹Ön|í¼†Z^£¡0ì¬J*lû{Rö_ w$ğÓ/Ğw;gûÃî{Z‘'Ú”P\\“iô]“¡:ü4}öìÙşÁ¾ã¶ê.Úª uĞzš±£Ş™?7š'¿”°K™\"ŠøQ/8ÁQ,!Ø\000ÓŸÉ–g¿A>ÚãI¤Š»Y<´£\000óˆwŒJ‚zA€iº}Â<ïbE§” 7Šº­İ'­ÌgåP˜(×÷B7š<el3Å`™çxI\000ı»¦<ğéÔ\rœ0qR\\Âÿ>o‹zQÒúWÜ?P”ÅØ@ucJ‡ÅÇH`ğ)8TM÷Ë]P-•7‹\n¼fáÔ*üq[|ÜĞG±o‡öb ¾ÅHC1¨¯P{1”U6¨ *?¾ğw”°ÖvuSXRuâˆİÃSa­KZ]ó€gÓ_¥äI\r˜Ìé*+Ü”Šæå|>fTpC.èĞãû\n3Á3×öÀˆê:™Ôœ^$İ(qŒ’¸Çyˆ1?A»!HE&çgj‰ƒO0Rmx’Ä¶£=‰l'b!2W}£õ‘\000û\\¶ã†[b®‰xfQV°5¢6fl)Ÿ²u(f)ÁŠ1ØãÜÚ(ímŒ{Š1ÈÜÖ 8KV;×)„~~ÁpC7U„jc\000½òWÄÍÑ¶ÿÎ„¾FÙ‰š¼§¨¾¢t#(ÜPÈ©Z<“;·Óh·›Iyñ}cã¼?ßÅAv·¶@U›OÖ©»	Û5åáÏäã’À†\nœß®`¬¬;TìQÖadğØT”˜’DÀÉŸÌÛª=»É$P0&cI Ïc‚Ã³DSw\nè$KêéÊ;E—¥ğ/ÂvÚç\rĞœ^p;1ğ|_£œ¼½vsEÿ¯Í*Z¯ƒ·×ãAdß'°òÕnö¨ÿ¢YU.¸r÷ÇÏ(¦†UÀ¶°£í¤™.òŞë„“çEr^ØûjàÅ8|0¬@K[E„QB0ĞÃ{(ç5»¼‡I\0009(6ëÍ“-²ğâğ‹±ÓÆå†BÜ°r=%ßKB/ı¾KZ”mm½2K²º¨œ¨Ğ­{’ô×ƒûÙóéÓ×‚ßU•±D€‘.iS‘YY(ö)Âˆ†$x›Şç ÜGã©ê®,›Rï›,¿>kgŒ?şùaÑƒ¦çÅØâ<–Õ	öĞ‚å‹À~\nóOÛª.«§Ìº\000Vû‘Q™6pú„$mNŠÇü=ÚüIìà“4ÕŸ¤LÜ9±úä‘ƒO<m4‘Ì÷Á’ú\"Ø¸ĞÕçI|âú”~$ú0•Ğâ5Œæ³ÑâDÜp$ŞŞø‘€r<#Š’‰ï¨ğFl† ÔqÄøv’nLõığÏ–&Y\nğàapNÿøC±~¸Dèˆ.ú;‘0Æî*î½bÍBFĞ¼ÎÀ{ª¬wÙ%½E}è¦‰Ëú°ûîôğà_Ö+rV€²PH*f©ş¡ :}×?/Œç”\000l•ò¥‡_âaJ‡\r&•(b×vY@Û‹L”(N„á,ESğ,\000ÿÿùÛoŞ¿?ım•·Kú©úU\"S¼'S	l•:c\\µŒ	Q…`3¼E¯œ\\w^•K0ˆAîJ—WµÕïå'Ôš‘%™Sş>fªşÎ-½V}Î)“O\\J<?ÛlÖV(g1»¥®I›72s²İîW=€Î£†%™Ë×?ğÃ5;zo\nŞ€JûÃJ‡è¬N¦çr‚ìß”)r3Úû³7$!÷<Øıû3¯.°1¹,ÄÊöV6•uPNÑSxEŠ9†g$‹2M\\AÌ¼µÑT('ß¢5¶Ä`…\000¿a0m>Æ-Ñ{ÿw—şéÔR/J\"&ë¿}‚¼TÎÊÒ:-º”å\0006q»ÈY¦®®J™5€ÉvÉ¦òn™êOÜ›Á•á{Ó•ys„d×àdŠ)(x‰µWµM	‚§î˜¸¡üÁµub‘eùë€‚aG¦×wÜ}fº‚íái&²ö«öãªlÒu„`şî|Î@¼zPØ€YÓĞù¸q$£÷¾ gxEo@Øn¯]ÔŒÅÔ²úløåY¤ˆÔ3JôŞ©šŒİ8Èæ ÍÁù9*ÑL—È’mP¯~.[X‘h¬±Ÿs'ÚÏšQ×@·õ¼ş)*°)Nû_îñ?¬ñ`â¿)™Yï€EşñI2<;p_PñP6õô¨Ü-îÀZÄERÆ8i…×üÀr›MË7&¸ÅÅïH\000—k–ŸÓ\niŸÖôÏâÉNvÏà‡ª,æª(\000œ1Ëuhó6F[bîë~hónA›¿1Úb–2•ÆßÚü[ĞlŒ¶˜4ùV¨-¸máÆh‹|D[òm -¼mÑÆh‹CD[ªô~h‹¤c¬5¦ÂZ¤Æ#5Ñ¤Õî}•HíQZ–+	IÀr@	„rÌ³½Se‘ôÂ1ûEÛfêò]LÇ<<¹õ”åàúâ#'¹qù/‹KÂ,ácò±¬0Â»n ba/*>!SuİÌæ‚ˆÚ,‰;0zKxÔ~/Àäñ%[}#/PÎGÖxqC6*÷â„/Ö¸q‚Û'8ü'´a¸Abxòãu÷BÇ‰QArk¯,ëfÓ\rõ¦¯¶'Z»ÂŒ)¾,`£jªÄõÛ†C€€İLmGMq¸?,Çå’M6‰ÄzKIn‚/ÒfKNn8y]”Ó,…b\näÄ†@Çw™ÀèY€=¸lsò«˜˜ã‰zqO~Ï\n&ØØÉ˜ü,¿ÛGe¢ ×“ß«Û¬/=ù\r)î÷ ¿?_ ôÜ>äiì>p—\nç½Ä¤/\\¾ ù9Ì…ÃŸ¸`œ`%Â]q3¬Bl6³‚Ä‹=ı7/0üö×P¡²<×Lrúª\\Ã\nL+õÿÚİÈ•SáñÜ~şí¹(’J£ñGãÖ›Œ]ˆyÕfSzGi±=\rÑi«}Òæ³JÍO` ›5Õg×ğãî3ìõ»¿}cü7-™ì#³ô\000¾z3'Ş:Ç1ö|€ÍU ,°œÒ’®Qã1È6~2(¾$ŠM'!f¥è¾œz	ÒFïR™×ÓFYJ‚g»Æä–çàŸ,±PŞàBt—'Á…ò=ÏñTçaø\000,Ğàçê>@ÑİyŞ},'.±¤.%š™<å“\\%æ˜½\000›ê° Ë»Ÿš¸)3Mƒ»l'ÄÈ²nŒÆ%ÛÎíˆı­uE³‹¦äqŸ=}Ğ‚£•Jä=×)İÇí“°M‹•ÔKTÄ`7ñ=;|@J¡“İ†0HğÀóBTî\røíŞn‹Õ·µU+nƒ’is™ny2ãàÙŒBº£J÷ÒY=\nÖ½rv-¾š:2}ÿ†òş©ù;\nW\000¢‹`H§h}F2ì¸õo1®V¼\"Ë3–ö)dÈğ'oIÍªát”‘UV]¶y­lF:$N¼(¯0°?éÅÏûŒ\n6…u²Ê* ´Ó«à®äg %jSš‰oGüöövïåÇ¬! 98ò™f\ngšÏZš|ÁW5`_DŠé2œãÙ^²QÌ‘K¤Òûs\"/#ĞÕô:y#(fœ&_/‚<+³LØ­/YŸ\\>\000Û/‹)«\"‡$ìm´C!+2ô°Ò•@şäwÖ¿‹yùHö*I1ºGÒDäşÆD&….ŞD¿7;ûké¼;ÙA™&>ÀÆî®‚Ïà&|~µhLhÓQ%‡[#¬û…ç<Ê)†ÏÎ©Yn„‡–Æó’c&S²³*›Íé¤Íš\nm,¹Ôc.û[üHàpµåAû(ë¢şßbØøÑî®„ pcajÿzšmŒ ×Ey_1Eë4¸·¡g§\r^Š!×SÅ…çğG÷Çßzåş²Z{}øOFd’š5;@h\"¿xCòóğ¶\r¢/½?ú;ùu2å±æÊL6F øûXáé+6‹’Z*FO<bÍE¬õ*Áğ¨W§Ú£Ñ5<ê=0şè\n%Ü;h Ì^E>fë.éñ TÌ…0Æ¤MfeÊ°?ƒQ/ZFÂl’µ DŒ„ğ†pÊˆµOæËE³W;y§°^„áIœu’yñ^7%{ª({vÉsÛâÚa£ªk‹œaN0XDY#˜±¬k/Àë8Ú{ÌaÈŞK´÷|…%X??îã¬ \nÖñ‘!¸ê31ŞãFò€5Ñãe»ìm¹*^¶”©O<Å[·ÍQıS`Ê'µuØ,²)É­ƒ,§Ë¥ü²Tá’.Ï2k¯¢W›Æ%;.=iÊéÅ\n†¯ÕÓ?IØ‘ÆÛ¬˜U¼`Çş‚Í¯ÖÕ£\000TÇÅ-i%XH1gË“d|_çä’Î¬=ZÕ´º`ÕÎuÙ4¾÷ƒ¶¤^ IbnÏ±ÆË²Í›Ö‚Sâ4,G£Ò¢ß/ÓÄÚ“aªáŞK&¢Bİó\nÍÚÑˆ~@Ò/ôBM8aûÕÃez]²l†=éËŒò+\n›©éĞÆ*­	(‘­©éAØ÷p!3\\HûË÷p;4Š9ªèŠ°†½F°\000Ïxz‚ïkaP#º7\rŠ†¶Ÿ\"eh…¶Šî¿Ñê¼ÛQ·i¨-Är<(Õƒouşí¨Û4Ãª¤x¬{È7ºàvÔm§	°b	º1ßÕ…·£nÓ/—nó„ìQ£.ºu›FB¼²ímõBÃ£F9¡Ûœ7ávÓÀDh‡)âÖı68zMˆ\"Âò<€…P¯šÙAÌ\\¢ÈğÈábíÑ((M:AÀıÇsXë9„¬©„c{Û+cˆrˆ=×xÂÛrá<ÉuìR;»ºia-x£B­½ÃŞšâÛÏHCuT,ˆ‰_îHIPo±´[İV¬S7ÁÈCÌ…Å†QlSÏÈÜªó²©†ãí3€—´®	ïãPğ—Ám¯±d2ûh[0YÓ]Nèí×yqìşšåFNè1k¡fÕPÅ'ğD§‚„µ/Øbğùy‰­Î­ı¶·Ğ“³n€Ã±£íİ(®Åµ@/&@†ô¸h\"EÄLñ›c]âö®Øë v½Y×L­å­ŠtÀõ|ğIQ×ö·—U¸®W KğÉ±Œ ÊÚƒ\000HA\000Kòp¿ï %Æq×u¡ .‹‚¹üV9'ÒÚå]JD-0„ÔT\nØzÁ>†İnœT‹ğàw¯Öíİ>vˆUÎ¶Y@LÛ'¾ƒÀv`,ˆ*ÆJ@€ƒÒ:ªÊÕ‚N3S:ã½AUÈ›w€•´WL\"Õê]¾À› Ö;ŠİP®Humxå°\"k\nb¡±×‚––’ãØªD\"ŒXEË×O’‹{cç,7ÆTò1Ã9ˆÄ°Õs´Ş’Ùßäoñv[Œdz,~¯.J\000+L„Ğí.˜%ß4ÄÛI†•%°B6ôx“ç{D†4œ°­¨µş?ã[	Öˆ\rèJ(Ô¨7±±zqŠøá¶ŞÈb†&¼¾ ~årL°¨PŠëÍ°Èë˜OŞ}cí·ìØé†0÷‡,Ÿ5m}aäjº,—XHH¾'­Ù—»ÅÅu^j	\"î¹ ü2Äy¢…><4h‚WŞÌ3^skÍaÛO3‰àïÀÁ¿ÁX…¿±ş¶‹:›ª8X^7p±.wÂKízø·ËşNV=1e¿ø·á·X.2ÆE5rÄ¿}üÛg;ï²1S‡½âß1û6ğ°¡œãc-²8ÂßÁæ5a{ä»OCE¼ŒßÁFƒM¼:Q_´y÷%¬gØM†°Î[«îUÖ–\n» Ÿ¥—›ë*·«ëˆæ¿8D‰'yR#ì[Œ’iŠ?ñİ$†Â1k{‚¨{€a§ğÃ1ºB•uDHŞêô\nÉâ›F{ ~	â4ÀXcáÂQ^óê¿’'gÒ°'íaàuÔkä6;¬a¨õì£J§˜5ø\nt…XÙ€·XljëU›_SÁ0ãıßôe³òéW=aïˆWÔ*²F¼'™éVB0%$Èö	†G ï=–S >Š±<òõ¯b6`€ÀèÊÀŞş`ü’£Féœ;=Üˆ Té³-\\Ö±E{„BÕA‹C}³ ”c³F‘êW°qn‚½æÔG)kï°‚\"¡™foÒñƒF^ºÉâm¾ú´¢§ÌB¯×áÆ·ıXå1¤ß”á&1p¦üÕWMO÷¶5÷C2nñ*&iîæ` ã°dık˜‹w¡”rçæ÷X‰ùvû{`kq1$w‹K\000˜³ãK#„r¼n0˜û7¸3Ô¿aô††ÈÜïŞUÁHWü«¾¦wùL.6œW‹÷vĞ©PîİtÿĞpo4sÖpÜ©ç˜²{€yñ	v‡ ¶õ’ÖmÄp;>”\\î@CÉâÜ­¾f±‰ŞoáüÆ±à½Äì3^×˜Î¬Ÿ²;˜`÷4²Jzëp>¯åİlëÈ¸B;ºVmm7Nz¥£ÌcüÑ‚iFË|W3—=OH¹õÿ s™q€Ä'ûd¹:Ï*z›ÁÓL×aøe{Qß\000ëœE\nnÈ3Ê\n$D‚!èFv²½Hº„Ìãì<ß\000“şÃ‹µRuYôHµ ˜Éİûÿ§hO²’Y|ÌÓıˆœYèÌğ[Ï;¶®µV¾H6òY÷1p‚î‘dº&¢«GA-¡ıY\000eì<X¸ªFWª zc1IfŞ®ÿÕx‘ZXê¢#’\ny}Pm¥Auzh¹!Oş—àUÆa,)·û`;İ{è~»ÛëËšq,K$N¬³O¹­pÅBV6ĞX\rk¼Ü¯µãz5'3:oISömÚDä Œ}i$ğ…ú@/­“Õ58x—@<SŠÄÎ'×¼ÿ3L’7åh\n¨Ó›Ôúğ1ÿvm-ó‰]X}úº*sëÍ'RQ\"Á¶ô„>nÈ%vq‘\000êü>²õTÓŠ\\åzı… b·¿ü5ÚR6îM–?9Í:£SÀºPy_±ğİıG·¸\r…ØckŸÌ©zğ`ªi¼H>rÆt°Iş@î°hNü€[ók g0=†Ü!Ærzæ³Š2oC”…Bc®¯eŞÍ(ó7F™ËBª¹¾ù¥ Ì¿eÁ†(°1 ,xÀáÊ‚2Mœbu(³È3Qäış\"£ç,ïIÓ‹}E¢Ê~¦6erNÑæÁ4#Ùè°=FwBªO°95hŠĞdBª*~ô~j:-A!Ÿƒ—£=ÜUÔ,Á3úòô½`6mKß\rµ!„›d½%¬Ødã[RŸ«;e²Éì3“9ØŞòÌ&³°@ñ&ç:›y\\¨xsT·ƒ>·U­v‰5^w›àpK‰›z–Û­·í\n¢´{Sa?”ly9u}]}eè„Va8Í¡œÒ P†„¡¦‹6Ï¬ı²-¦Y®3hÃñüû{ÖW¤-şjÈğ@Õn¯i/pê¬j³™õ¦Tèª[†HWú:Æ5{bVYe³Åp)p©ªœ4¡äá±–·çbOe!E»o§ì°³Ñ>G[~†7vÙ)¦ö,Å³JŒæèß…Êo—İÛ2<@ûkE¨&øuxå™Û=óCu}<ÏnFÃsÌ=£ÇJ¿Z%rÜhØŠİi™_7Øöw·¢—”0} œN/$X¨_÷™Ş^äÅÙ…X‡tâº¼9évÈîıƒuä<&$W¨Î“øüJÇĞyÅ±½C~ÎöbïÊR”r>W^åN#|üu\r2Ÿ¸‘¦FcáŒ™KV'Å˜>&nd04hP_Õ§\n‘úâ.+z´o)#Ëæğnm+}¥ŠùŸÃiG¨€m¡¼À>è6–ıüŠ‰ßëì¢•œu²ª˜±Šæ+fÁ/ú€âyV­Ëº´Tì„Â›oJˆñd“¶§5—…—Y C¯@8Ê`]Ší:RÁªÖ€ñx{ùµ&Œ‹—ùoCêhê €c¦o°½ÀïÀiñ„Z[¸íÄŸõ:‡8¶u¸\\aıféOÿà¨Ê–ø¦]®.Švz‘kY¡¡ÇZ°tğwi/õ!P‰½Nß¾´^ìX4Ï:±°;f4eÉÜ.%š°ö<½„xŒóŠ¥5¬h\000ştxü³`Yä×VS]ãa] !®€¼ˆÀ3kèGlR‚™0¶ğ(«;ó†C‡—ÀZ,&9ün±¬\n6ƒ5%z‰—æ@§2›¶y®óŠòûR@\n0ieMs‚»(áfwúvsÔŒ)ìuS]ö³DºL{‡ÛS'òñÉ…Ä[=Õö¼uÙv|Ö\rb\\—!Á ûùó®Ë¸,Ï°,éë—5¶ßí˜Zi¿kâjáÏğÉ\\ãâÕ>DÍö´×v2¹¶ƒF©é9¸\nrš~šºÂYÆkò;y²D^x,´×J7ROVÌU9ÀÄ‚S¦Î$Å3úsİçeâ€ÀÿÍéš€#Ğ~ôM‰fC÷vm²BúgZŒ@XœØ	¿n±™­ÿÚ+‹¶¶ŞŸıNÁd»¤ÿBğaÏĞl‘Efµó,gw:Ä__dóÅX'ü×_ÈuYÖB:Ç¨éÂ@U\r¢¦àQòp“`Úşñ${§jjlÜë“†’%ìqÄä€$Ç`¹„l“;Në¶˜+g0©çèDá9ïíßİ`v;k$â‚2Ğ¯MÚŠX^”Æx^ÿ=Ìp„ûÒ®Å¨ìÊş¢-0üÅ»nuıßÏÚós[¢§ÀŠæÈwŒ¦¢Mh\n#!¢3İŞÍíş¬èĞçh.2ëy›± )tMñ·ÃzŞ-æmLaa„Rë!ùNœÂ¼(Ìß˜Â&ÜıíÕv|ìæßBaş†–`¼,ÄD§­¡î±QØm¨\n6DF™˜ÛŞyŞcCUp32cb»¢ÉyÀÑßÆŒÁ-nHaìæHˆÅU·†ºÇFaá-¨ŠnB•â™¼™Ä¦ûÕ*Ï¸5Ü˜[lŠ¿n5¹bët;Ñõ8ÉI&^P\"<\000ÂØB“Ü|u‰y¬jv¸ş½;¬¹µ$òìİÖ\"ê­}r)^wb<\000];I¢ÃÅßB\\LñM>øĞIaƒemmIú¤×ÏásŠØ!Kå¹'Ú‡°6rEe£ø w‰¡ÙñYÊŒØ¬x?ğÏ,‘cbÛàíõ¾ZñîŠÉ\n¦ ˜°Eb”ñşQ1<Ğ/Ïûmm¥}’‚)ßK1Ó.Ï@<M×\rú8I”zÂ¢“¹ ³òªel¥„àßß%A$g|ÀRœ£ÍÕ¯ÃIàÂp&Ü¥1tÿRÖaÊé¦ñŸ.Ú¹™şÇ’eéÁî’!N¿ôp?œ·ÕµÅÆTÄ\n\"¥ç…ahöfw‡Gş-\r¦­qé˜ºÛ>ÎY6AŸ”¨4k‡(W¯­­®¶M8œçÃˆM|×*&qA>Ş4J–ÀŠ²ÍzÕ.WlR=UÙÎLÍÉªGX]GŒ—š1[Ë?•ùEÖ;*ËStº—ôuo\n$Øînİ~yVZ¢O®ñİIœb¶´\näXRFÃ°IŠ–˜DœµxM¼mŞQš‘ærğ5	Äà(ÁÄÂtìp®\r±–ô¿_eKlä¼%	ëÉœßÒb[\n­>aâ…‘ÚXö\000`±Qøvù,rWY¿ge\"†vK,ñ±îĞm†?ó±Ii‚ıh¶f×î/€ayıû}à)ĞT\n©3à‡T5ÛÉÅ\\& …Ä×3…XP3šÆ•ôYDlK>/a›™i°:z5®Hğ[U«/Y»Vğw~+ch›ÉÄHâ(·û´/@XcŸ¶™‘Æ“$åuµ´¶ Ä\répÂ|şšOo‹0îdƒõfÕä;ÚUÍˆ·ÊujXc€©© ÃŒÜ iP²ÈƒO8M=jà·%seÏY³_pJØ-ñ›-¸ï×Úl¢;şşÆæCïé†,>>©Èœõ’—ëm0ÈJâ‰*3NÁ»nÎÄ~UihplÆ·L ¯Wf4·W–m,kù~„Æöv„ûn1Íp+°.)O²¬Ûår¸… £Jõ¯×¬ Ûüò?ÔÖäOb7¥z4;£I;z­AÚÅ..A®ÓK-PyqÌRŸuiç§ø¬ï.eºQ1ˆ”ªÌs³Vcé´kX>Æ[±šRƒõ§}ZŞğæî˜]îõpÿA|rĞ´ÊfÆg'+V&z\rşÀ‰\\kjx¬ˆiâêÏâNê'ÎZubøvÅ*‚ø—ë±ãŠrşsVê¹§¢€Ú–¸ïDú†W:¡:ä’®•ª²ø¿c€€\nã‹†U†¬Ó“¢¶ªé^—gkV¾GšV2ôaÙâıƒ¬@6¡KO‹QpàZ/æüGĞqi$Á6:‚E`QèÓSöÔ¡Ö¼C¸p™ú~Ş‚;TQj\"Ú·m•—Ó¾VeÕL —«±‚úë#³U™÷‰ïõ35ï=õ]C¹èØÅK^\000o¸½›±gD5ú{Æ¹£ˆ•Ø^ÚìÔpØKL÷PÒ`3ÎíM^OQÄ˜ÖîiÓûèÇ`Ó©c	SŸ¬²æãµiåZ}kœ:Åú;[ìÒº›OŞ°ğóISÆï¤/\000†×y°…³=Z<a[¾hm\000*0\"'şuìt{7<öåu@¯ËB\n{R%Udõ‡”>muM:	BLŠâ9İ¼¹zV.Ç‘H&¬DˆÖÇZºğ	›†‘ó”·xz^ZBE<b±-İdÉò'Í¢jë5¨b/pUUü|¤è]!ØÖkz­êc\\ÜİÏpÛö$v¯®Š\\Úô½»×ÄÚ†=V`õ¤\r#yg„İ*¼¼)Ùö4/‹Œò&§^ğd¤a“Ím]üVõ$>yGæ„gÂoUiİÒpNérEëæ‡Íg¬\nÑK0tœ$ÒèïÏNr0g:œj!\"¾'À5sÈë‹‚°=%dª¤áñâ<İî¿.­,OŒ¥m°WLøù!¬cÒ‚ Á£%‰-mT=po&í¨Œ5	Qèp÷¢Rk03(ÇH7¾ai+´'­ÀcVÕ›·™Ò*Ş³•£¿yƒÒv7µßQ\000L¬FÈj+§—\000tä˜V9v›İf+•Âê@[ÓPD3l£‘Ÿ,Ş›«Áw_À¼WY1+¯´eqÄÔFÈ.wÊuºG¬é¦úhDôıút„G!˜¾™3˜]7íå£À¦$“<^7p{¶˜ÑâëƒizUxOô¡Å*h_á¦Ë.=¦É¹YlÒ¿2KÄl¹Û³ËÙ´Ìù²K02İ³FÛ/uT4Zf´’,³ÔKÃP%Ó÷˜eTƒt-—øıï–É(õŸ?—-»ğÖö½Ã4Ë(€¬–Ö~Y4ğK¡°€¿+b‘³,Ïšk•êY`Jù¥¿¬/§¿Ô‡~úgR™ÅZÛtµ­ã#$qÑÈÄ'Vtza­uÀS<îÚâXmE±ö›™–²(©Ïñ‘ZW]%o´dNG0TYÕéSv´†£*ÅOBŸÅO¶wæ>høáÖp¸Y¯A8”Äğ}Wäæƒ!±î}Û\000õQƒ0®%qñ–xÚ±zé<gMëš…‘R–í«|A KFeä­`é¸¼(+	MİêGâ4,8;t\\¥ÒG§±Xˆ½\"¹ôªJCÔQŒ^‘óóÑ:DˆLª†ïFc5×È‹s&©Á\rÅ.Šıƒpô2CYC¹ƒ'–xz{I '¦xbÒ°ãy¾ím;6bšŞ—Œİ¿¦Ø?!0¥ğóÃeÈPöFíc)àM}$€¾6i`+D´-=­°êV–2G“ºMÂøÈóR©ıÔ1İa0pˆl@â>Æ…ÆÉ¥AÕL¾¸ŞÄ	aÕ:PÉ¼!Tgwpv×gW–¶Øñve$ZaWä‚b^ôórf\\AÄp\000Ÿ•om5Q4‚×Úôª™ÄîZ2ÔàgÖ³œZŠAi®h¢OË¬J‡ö¤ã¯o¯«e6Óu(h‡˜åË°¦cÛV×u|'JX£õõ2Ï[,Œ¥$´Àv¡sÈí&7	5»)ñ‘éü”oyÀ,á³€¦KpÇyØ,şM³\0007êGüúåfñôYúB{\nA	“'XÉyÖ&wM“+’ÒE	¤‘j9ì':Ü	6V=òO®B7•2k¾n`p  üí•yv\n°ŸÀÇ j›ÆH2éMÂGùşÏ\000ùdQaO¥N.OIx„c=Z`Åt¶m@‰%9Ä!ò ê\nzš4é‡EV¯ø¢_”U…¦¦kÅ²I@(Ÿdä’Ôj¶Â)»}ì—>´	º£\000eLØ.K›»‡§´×«¬Ê	×£Ê”¯È¼¨Ğâø,WŠ9ØøêÅ5ôÛ\"Í&	=Ò49¡³û‘Ve³x÷‹Ùu»µõßhˆx¢Í ƒ“Æ×?”V1 @@• î_b[ş[ïßFL)V„@\n®‹y;ì0ót¶—	¿Ggö@Ïey.û¡î~‰ëWÙùÿ",
+["key"] = "RestedXP Speed Leveling||a) Horde Spires of Arak",
+["groupOrContent"] = "Í<isÛ8²ßı+ğ*µ•dVax[[~e'¾6Nìµñ5•‚$Hâˆ\"ô@ÒRùñ¯¤H€¤lùÈd>LjL‚¾/4ôæoùadY–½³óB°œÆÉÎ‹&²˜§ÄÚy1¼X’–ålü¯sr¹dlLNÙ\rKâtºó\"¥FèkrÌÅ˜ÁÛX°Œğ	Ùt¾ó\"Ns&RšìüıïåŠ\000³Üy1â‹eÂrvç³ê£³	~\"¤ã³x¯Ó1¿İù«µcË–,Iˆe;–kY% ãOY6—Ä‹ÌØ”}ÍwŒÍrb–í9dw÷sÆÈŠ‚Q!â(<fTä³,8È)Ï9‚x¦zø¯îìî~¿’ÄLèˆ½½å\"/èòíhFóa1&ì‹ïN[Ãdù7Ûü_ÑdN\000Ğ÷ÑÅ¿Î¿^œ|zúï/‘PrÊÓ)[±ïÂØ1èhÄ–9qüĞ·Ã½òÏó8Íngq–'Œ°å<Û1r*¦,'˜ïİİ³%KI>cdo|ÃÒ¼ğe\\$¯.gñ$'%ÿx= ß¯Nj:F…È¸x;<Ëf4o%‰t”×d¼KâÑœğ®ˆ§³œ\000çø-)Ò<N—$cŒ¼ÔÿòqÛ¼¼òròÏ”í¥Â™È³Î ü9§äà+Ùšöç‘Î¾\000J/ç«éw!i>L$ÑA˜ÀO†ŒL~›^äø·N9Õq\n”‚R: °B¤qZA®àoZdÔÄº¾çáºµĞ,zÆ$[ò9Š—£)Îèx­§®=p#ŒVh˜v­ *%š^ãzß­–«àg»h §œç’î³\"GÓy™‘}–€±gí*.uaÁAhœ>³Jâ¤aT”tÈuÃ÷–mDÆì\0008ÁW> $i`ı\\üÖì­Äº–şpğ>ã·Rs.ç,Ïc]üFåãñ˜ÉïÎ`9¹D•ÔŠ}ŒgL€ùKÀ(©Ë\"%G|¼ÙóòÒóÊMNR¹E¹Ãîî‡<nÉ‚ƒOÿıe\rì'Túçi&™Ñp±i¸~v\rñ¹†ÕCü,S¹e6HÉ7ì ÅWd'1¸Ş»øôåc%´8g2á‚$Ä*‘PE†{†©Z ¡TŒ’øk,¤¤0*Î–œJè%÷³H…wA§Sˆà,æ*6.¨bƒöÖ\"Ñ^“¸5§°áÛË1L\000ã\rÌ–\nÂ®aùÇÔ_Yrømw^5\0007ô§›‘¯˜ÑÃPVÊê–¡ZRØXÒ¤\"\"#‡‚/Èn6m”€zsI§¨ùlõÕ Ò‘ÎâREq³¥à£„.hyÕÎ/×3ÀÂKòdƒ‹—©Ê>¤Uc6šÍŞÊÉ>…Š$œÏ	½¥+äà/ÊsEÈ_ò„\nÀfÓt)€gşö£ÉëEê¦ë´dş™{†##™íkR)öIE`Ô½ì;Qgv&¤Ä“Ğ)èØ&l•@Ùj.PƒĞLD]şµ·\\¢öÅ =›2ğéªœ]PxiŸN ç¶ëº€ü{Tkr­³h‰(:¶ÍmAûgË¸2&—¥%IdÁ5°mÃ25@¾ç³:H<Çh[2©&U¾p‹^z-‡+±B¾¦`\"	ÚIœ“ßPşQÂ!AÇåòq™ş G0dp&ßÍS>š-ìœ ªØ¹2O0+*+•ƒ¯KØ,¾a}¤ŞÀ@O‚°S31$—4ÍXòD-k™Ë™HÙ|NU{©©¸Zè²Kj‹–…PÀX-“lÒ„¦ã®õjÈ(ÖµŸÒ$›\rÔ\\g¼›Q±@øát—õZÏwÔµà„ßhPÔŒ(4½fÙÁhÆÉqôf÷eA\000 ®ö8zX;ó]×~‘ÇX¹$I!iIx†–>j¯u·Œ¬Ôe`ì¾{{ë=úÀq/ìÙÃ¾kç{„®Ù³‡s×îö°ä^ßîZãOªšS1âˆ‹%¸ÌşVùLç¾í#DGã*_cA:<„€µfpÄÌ\000å0Z–RùL0ôƒ\000	Õú–‚Ó!tŸßR1Îv~9™Ô…´¢^$…²¸9ê \000j)ˆ)+¹Àé hoL`ÛÚıH/ğğÀ\r%ºŠƒ®Œ¹NÏ6Y³çûJVVqú’Ëï3g\\œUK·1faTÀE3´õ4ôÍÛ„ø`UôC\\€·µZæÀ9{=jíu\"}d\000N`8zTó†½,£Rdß”«{e×Låi°+æ2R5¥ù€oÔ´{é2h}6dbõ˜¯gÌñÙŠAvû§eN\000Š9t‘‘W7<Ùú{­â\ni‹)Oè6á+¹ìtÀ\rŒ Bxğ}»À\n\rˆ¯P¢˜Wh™îÀ¾Y›4ã4<@ô*P7Tbr UQı!·^\\ÆÒõb-˜*¦ì«9ºn£Š!j#A­Äî[Wà½ºÔÉ|µey®ïÔ]]Ó\n×]İºœgêy'¡äI¤vB¿•àaÓûzé·b-¸k\n¹jå×¡şZr£\nÚÇ4iKWÁÀz²ğK’Ê*ó$›ƒùnØ·Šdw#æÍü~4R-¬Ø^°Ïsº2U?ûŞëU!1˜AÖZcJcü,•û¬äì6}\"ö[³´I­5±fOëâ RAW¬+h…*£•¬ù$•aµ•ıJp¾ü“ixÚ\000í#¤B«ê®ş\000*®h6_”ÇGë#•„ÎK+Â ‚‰«\"„ İ‚w|±€š‹‰ÿİœÎ¾S\"¡W—%ZÆ ¼<æFöÀ_•müó%yU}M hÃ'7Vó$l’¿Ş„¨¦ş^cÊ'öŸˆ½ákE=‚N3Ião-‰À±•ZsŸMDÌÊÖ\\YıhòÌštÎÄh¥’'´H’iG¤úGßR¢êCRø¯,NÈ|>\"šï‹lşæ’“ODüí›î&™	A>¤DŠuk.oà]Ãi;Ò:\000§Ï'äšf±v·ëƒ\\ÓÊÛ\\ì~Cæê™íÜ°µÙÌò{^yæ|¶¦äˆÛ“}üvTZtGšĞ­³DÕQ¥4úÄeCŠ\räÿ}â·OD{İ÷OÒ)›4ÃRÓŒ~lZ3Q¤`\\Ö\000×Ø?S»7¡K´&îšÄ\"&×P,>Ñ\nxş‹…pÁVœè)&‹U£Tn¸mÄf©%r%”°“-–¯\\ÃR²§öû›±õ±9_>¶İj2ÌAyâyVu.t$]ÙÁ>o²‚\\}²\"WH•ÈÁL§šø”4â#ÇœYs…gÑÙ&¤›¯E?Næó¾úÉf‚ÛóğiƒJ:l#lyÎÓÎCÖD‚6m×T\\ZL©<Px¬Æ&:\\‘ıXôñÊâ©¯‹fCt+ôÌ«_)×åZ©ËÇäHÃ¬ÕèıVsdŞª±‘·ıûIEXH½è8nÈ3œÀˆüğöAédÒ!à.üÉ«lAáÃÂvÙëÖ˜%['è·§òZĞóQºjÈï*ˆkJñT	µğª‹_o`ø±e©=!é®;'ãÃšuuııÊrÜÀ²şÄü·Sjg¿­+tÛ2M‰(ÄNšé¼´ŸıTYqî¤f”&z®Ø~«÷L±Ô“Ç2Œ¬ù¼9(qGu^r0İ31ÔÖ(G”ŸØ-üOgC.9›\\ë?8­EÔ<Ö¥„MtËğ}eğÊµÕc”é”œC)ÖçdÔÖ_Iv†D÷»hccrŒÆz&Fİc»>¨Úr—'¸…uÀÆ‘Çt¬â„œXã¤«60Í”LkR¿m_-š!ıù×ŠÂnïT#m\rGW&Mo#<¬tƒÃ~Şúä¢4X9’B“B  îáÓ,³;dùÃÄ¤¶l|{`G†t¶8í†úíu‡eÃ‘RôüM\"ßİ=ŒÓ8›É£˜¸Å¸[£ïÛ@Óó,bW}Ú\000K«{ûşG*×Ş½ü#áSR`É[Ä.€@p3jœ°µ¾¯fıÏå£Åck‘ÑÖR'Íh”Eê‘´î‚ÕDÔTËÿY\\å¼XÖt<É\"cºÚéK»¥ÜLUs:š‘	¶cğÅ˜A¡µ'@Şœ®W­…—ÆîÆéï\\t†Ù”ˆlF‘f¹áÀv;'ù##òX’´»7í·›°TRcSk,Ü-Çmáëc€íI»Æ\000õŞ5°m8	\nÁí&sÀŞFU×FˆB…¬z“‡®N8üêeRŠ½§‰G^)îù?8m³7Œ“8_ÉÑi×Ê|;°şõs‹÷	½¹¨İ›«šµ]>s7ã‰·ç©ØşTõ‹Ú•Ùó\"µÍ‰^İğĞJFÙ2Q§lº=e±êÙ;z[ïCÃñ­-ù®ÙÖû³É¤>\\ªB6[Cß¬ç¥‡\nm?¨Oõ\\Ó±Hãê$œ²\\¬÷èÁ1²Çÿı‰8z©yáé8:\"}9wäƒßµŠÑüé8>ÚÂ>Ä‹oŒéj0O;À;\rØ’=¢ß\000Ço*,H§mDj4/ïç¬­fÓº+oªç8ïÙ¤ÀıhkœÍ”ZğrÉ{3do>²Úò+_Æ÷‡Dá”-šëë¾U™a0Ã‘\rşº2´TÄ?§·4ÅØvÎêÔ;frÌ!“Dö\"ğ&bÂ¹=9íqü£	9.’¹ŞŒBTî/õMµ,ÊsBÌ¢Èÿyá…8v½®ß•C”8®^AŠÂoß¿A×3Ø)Eª|Ëõ©,3ZSA F8{£<¾Ô Läs•ıñ#ûíö‰¼ò¢A\000RØÚ-ê	VûÙ÷ï‡cÔö{€Ú}@m€¾ÚæKÔ¬€ºÛ\000u\000¨‡e€åµ9Ø¸_äöìçöíçİ¿ŸSíô±ÛÛXÎ«ª§ïéo³§ïßp­î*ï·°*™6¨FP&o4É8ÓÔßrş:ÃË_Ãc„ÏmƒªóCÉÈÎ™ òØD¹:nç•+}Ÿ‡Éİ¯UÌ17šú³Iæ'¢JôÑQè‘±×—±Wê0µSûV4UV©u½N›8ni«Z±K	Í¡Rş£eTyò)_ßb6ğ\nÚïAË±=OzK9Î“1ŞÅõƒjén9YmÚ¡¼ª€Ö\000©uhFÒŠ4›q¥|%ˆCú/õ]ŞÃUóËÈ°ÀéÁ¿-ÿ>½¬ß^0B³U‘¨Tù¬Lwá=ÈjJà`·àƒğÀˆC–2Ó}5bXÊ$Ä»²2%8 €6Èg)>û¼l3˜íÜçÂ*D±«‘ë±íw\"^d<ÅË{Ê ‚&›v –T_°›øtÒzZ×ï$ı]ŞÅA˜ª½B¢o{Hr´²;¹ƒ†’ı#QrAXvÓ;(Ù›Qr~$JV4-9)ÚAÉÙŒ’û#Qò\\DÉ÷zPr7£äıH”Pp¶á8=(mNŒî°¥>üI€i\"f˜×sKãV\nDZTµO°Ê¶p?»“ÓÃWøÊ”7ÙúÅàÄ5ÏhIÏhj®]­„ïóÙÊgêœĞ½î¹™ˆTçIê\000HsrÌsÁÇÿ³fË}tn|.â¯ šêsk[k–õm¯ÄŸ¨•3\\È8§\"Ïê‹ÀÿàC-d©€y¼søg“ê˜™kq*Ä–xTZ]Š;ê´ÔaÌ’1¹±vV‚Fø!ˆqcwF]\rÚYÜ°tÌE§—zá\r\"³ÕY÷Ûı¶!Ï‘ËUÏ»Áq2®û:Û%É¿ò’=€t™ã)«¯‹\000Ôæ†5“vtURXµÜpLÇ.ó«7–KöYç\\ğÑœå²ÜC.(ø\nEtãrOÊÔñIĞ’ŞJ}‚.g:{F8Ú×µpàn o¿\n!ë„¡¼jÛyeG°çU€j ù^?Q+ŒÌ;<Ù¸«Qh!®‘u7Ï¿_ùfFä÷¯ —Ø3üş+Ã¬û’‰bñúhŠÃÚ6Â§§ÅbÈÄïàGtø.2¯ ¯/ƒxZú‚¶ğd7Ùjõx‡–£¯Kíë:ZC^3ËªëÖçvó®¿S»~=¯[NÀAªBWsáZ…Õë®šÅQ»ØÂF–ŞGñø¹ù²A¢wÈ¥ÇÛÚĞ¾:‚}.şşÒ:&^s‘åÚP2#ô®1ğß!£ŞÈº«u §K@|ç:2òkÌ}å{(kk{Á&$¨«bR[î¾(â¬œ%ùö/¡T\000ükŠ« )„xê˜!ÇçFm×J\"ÏÖ¤´·j?­¡k©ğ>_ñGBğ'¬·ò&şQF‰åùÉ»_†°ŠSœeé‰YšİËiôñzÖºĞ)¡Ôííû¶omâú¸‰ëõl²ù×cúT£êÊ$3×«0j&ßh<TêûOT¥-4i“lœÉ‡1ğö*€³q÷A›øø!kİ(,7q7W=\"éAÅ{ *‹¨èsL%*=!ÿgK]ã¡‰‚\nºÙXˆÓC¼6=p[¯š¯É=:€=®r)c©Ú-ƒ©ämäµâÑîsôG³ælX›Ùè†3%Fª?ÊÿYzW‘¢—ûGòFÃ¡€ïŞ3\n^©|r2â)*Z÷Bœ¢ÌçI‘NÛãæL´qC[×ç¨qªaµ~¡rw÷£ìı6[)cKc³á0Y!?>ÒÑ,N»ycHæûímeş£ÔjËL±éXXòhpÕ®ZjÓ0Hkå0µ#óŞ„ódôÿÿ",
 ["metadata"] = {
-["guideId"] = 1222840184,
+["guideId"] = 2849837365,
 ["retail"] = "",
 ["group"] = "RestedXP Speed Leveling",
 ["internal"] = "",
-["imported"] = true,
 ["version"] = 1,
-["key"] = "RestedXP Speed Leveling||a) Horde Zuldazar",
+["imported"] = true,
+["key"] = "RestedXP Speed Leveling||a) Horde Spires of Arak",
 ["enabledFor"] = "Horde",
 ["length"] = "616891112",
-["name"] = "a) Horde Zuldazar",
-["displayname"] = "a) Horde Zuldazar",
+["name"] = "a) Horde Spires of Arak",
+["displayname"] = "a) Horde Spires of Arak",
 },
 },
-["RestedXP Speed Leveling||a) Brave Researchers|1345"] = {
-["version"] = 4,
-["cache"] = true,
-["key"] = "RestedXP Speed Leveling||a) Brave Researchers",
-["groupOrContent"] = "½’A‹Û0…ïúÃúĞ.xåÈvœ¸‡À&mih(!»Ğí)L”©-\"[BVRùñU%–Rè!'cæÍ›÷iæá¡Å¸B¤ŒE<*Í¢¹N™rUÎì-¬¨ó´}YÂ“%ÚÂ‚¤U[±¨Å†\000ïaêğ@¿d„NÖ¡EªõäZÔ,´ZÆ+ã\r¤ƒ4ó!/³x,x^°ÉäôÜ¿£¤ä‡qzÛ Md~³ßl4­‹¼rtämß¥ƒ“F½ƒàt’«—åúãjşáËûÅ·õüˆZg¥$ë¡(Çå&“Çóï”j<(ãà1$:vªƒ»O¦¡0pwÇ¸GW‘‡Şä7òÊk‚'Md(|­I[°AôV$ÙıNÊ‡ÃxTòìŒ3¿àÈ½ëŒK¤3]W£rIOŠÒ_hfZÉ„—ö5½\"-ç³Ïëë¹=—4ÕäéL‹X\\r_«ÿ	ş	âqÀİ e¼Áà\r3l%éği‚yBÊp”ay‰ì+¸wªµ©È½é^•ÿËŸıÎŸña¸Çœ—7]àßâÿü",
-["metadata"] = {
-["guideId"] = 2023297184,
-["retail"] = "",
-["group"] = "RestedXP Speed Leveling",
-["internal"] = "",
-["imported"] = true,
-["version"] = 4,
-["key"] = "RestedXP Speed Leveling||a) Brave Researchers",
-["length"] = "616891112",
-["name"] = "a) Brave Researchers",
-["displayname"] = "a) Brave Researchers",
-},
-},
-["RestedXP Speed Leveling||a) Professional Protographer|1347"] = {
-["version"] = 4,
-["cache"] = true,
-["key"] = "RestedXP Speed Leveling||a) Professional Protographer",
-["groupOrContent"] = "ÕX]oÛ6}×¯ ``]WE±$[–ú sl,K—IwŠ€–h™M\n/€ü.%Ç¦%%M§Xe’÷ãÜs/}p¸A¹®ëYVG…)³:wDæTpÔ³:©E†.I®Hòå]e„$è¹#ŒòÔêp¼ ¿GRÌH®a¦?”H%ÎæDZÊ‘ğ³&2«Ãğ”0ô¹Pc!OÀ\nøº?c’)ËIáòºg÷B§ÚƒĞ	ûÖÑÑêº42Ã19\\\nÉ’Îã9VÓb:eä&è¥’Ü;S–}ôº+uÙ-K«øòËÅÍøòtt~òé¯›ßpÁˆD¿Î‰ZIÇrpéAøèè¨\nCÇ† 8ôå(,S¢Ğ'Ò¹.$§¼™Nè9woé±ÂL¤Ğ¤`3\"“2%UúŞ¤¤CAğİÌi“{ßëms?^`E\ni”p›~Ãá&L\\Áiåî€á;aÏ]Ç\000æ­®]·¹İîGH÷ï!pJâ¯ë|'Ç—ç7_ˆ0KĞOˆ1c±˜b¨¡4ˆ\000ÎË$GjNê(}Î]Ğ\\ÑMæ„e+iıbï+ùà?×şË<¿şì¾7cXÎ	@©ĞŒQ’—XC#ŠT ÚŞ©ºSË) K7òzA¿Í„£çt]{9¿g8ğúÌè|ôĞ¿à©¼¯*{p\"ñ-y=1.Ò¹G3šÏÛ0ñ-gc)€<<–TÉØhíˆw—+¸xË°wùz'SÔıiD}§çén÷è–`¦›ˆR83JÓ—!Ú„Ë}5\\uXŞPmæI}Û	‘w@Šù®U\"ó F­*cR+HC\000ˆ(ª@µv·oËíGN×·Cßñú›üĞ+ÓA°up!I®ƒæiYİ	eI^·–Ö[ëÛ4×øPÇ%UsÄÉ?\n€?£ŒÕØB˜.´ÈGPÖ¸>¡<™\nÉuºëíÕÂtt>–&ÆJú~èø};ì:ƒà‡¢~_§_çngN@”'bYC¸r^jk„4•!‡Iˆ:(á@ƒâ{6xêÖÖJñÂ¶¥VPçréƒû_‹½ÇZ¿mQOùŠì^ÎK\nk[OgúHÉù;…@{@X@Æ_İD1ĞxÍNèë‹Ô B	HK`õéãqBÔúÃÛôÇ÷+Ú~DØT×6õıÆHX	ëƒ?SY£'´Ï4¦Û5ÕĞß©¿­/‡F^‡ÿ”Â·ˆaÔ×ÇüH—`KÌß‹E†‡}:¼<“i“ˆÛm39\000)‘\rŞF\000Óı3‡'Ãnw,ËµM¡…ÙHém{öŠ‹)Ñ) S“_Ø·Íä½ŠÕ˜ÿOƒ&>]Õü<w~·ü=ÓÈLà&…„‡R,ù‹zèu_AõãÊwúÕKótS‘¸¹‡à,Ïç˜ÊÃ²X8V›‚o¡/Š]œÏn†/›ífÓ{ä¸%”QooŞ¯2ÊI›û–îŒ ÕËîô÷æş’NÛœûmÎ×ƒb¸·^xœä¡Aòv\ntŒ>º†m¹n¨‰Z–×œ¬´5-å·ïíYËL÷ê½ÁKêÿsŒxâÖoŠ´ útˆÌ×Õ3Jüï",
-["metadata"] = {
-["guideId"] = 320345131,
-["retail"] = "",
-["group"] = "RestedXP Speed Leveling",
-["internal"] = "",
-["imported"] = true,
-["version"] = 4,
-["key"] = "RestedXP Speed Leveling||a) Professional Protographer",
-["length"] = "616891112",
-["name"] = "a) Professional Protographer",
-["displayname"] = "a) Professional Protographer",
-},
-},
-["RestedXP Speed Leveling||a) The Rivermane Tribe Midnight|1384"] = {
+["RestedXP Midnight||a) Item Booklet|701"] = {
 ["version"] = 1,
 ["cache"] = true,
-["key"] = "RestedXP Speed Leveling||a) The Rivermane Tribe Midnight",
-["groupOrContent"] = "íY[O$»~Ÿ_a‰‡ädû˜¾_ÎË2{ÈÂ‚€„³ŠgÆÌXtÛw7\"~|Êí÷…Ën€DQ^@3¶ëò¹\\_UÍÏ?‡N'ã¸“É¤%aédçÊ‚	œÉÎRŠ*Gç´(éâ·3t‘Sº@Çô¦Œ/';œd‘ŸĞåŠ¢sç2Â)º”lFÑ	[p¶\\•“ÆK*9I' %Ÿà¥(\nÛòœDVà(˜ìí=\\ÖûnÈœî®…LÉwç+RÎªÙ,¥×¡¿”ôÏÒü×~(/Iz‹@ĞÃüü·³ëéùÑá×OÇß®¯ˆœIrGÑ©OpIä’–Èü~‚É|NóyqbGhoo_üBi®#qƒJpèW’eTj£wæ\"ËSZÒ5+WˆÓ€[+¶€|!Ö“”Ìhª`hQ¨A¸\000í¥3Á›ÓZ£å>.Tj,9½‰ÚŒı7×r#lûV”àĞµÛ²';%+S\nPL§ÓƒO¶=i*ÖµûRŠõƒØàŒÙğ´ŞÀÇ±zØõ­ÄØÕ}Ó_¨ÿ¢¤\"e­´ÃW©\nÜ(’ôï“´x±õå^íŸ½6\\\"O»Ô•*aŞ¯`'ä>%èWˆìLT7Ãl¸\nK•äŒ·Áv	|6#4gš#ì¹£‰²oã$±‚\000»M½<&©aéƒD„/ú{¦D‚«\n+¢±kª]Ş\0004æsOâ'<§2[Viãä*–R^¶wò¡k“!ÃÜ­Œ3Á\nÁ!½H‘Möv×¿¤„ü¸U`84v+#7Ñ¼ØcªRRçùÑ÷pè[A‚¸$/\000#Æö÷^×ˆ²ÿÅ»én¼£6©ÕÚ/­-DŠ SŠ{º€ÛùÂÒ´ÁñğëáÉ·ëO¬ ¤\000Ã>ËjVt€ÖNÁ3 æ5GÇDŞ‘z05ìº6£òÅrß\000V™˜¡\"ıUOtã‡WÓ?:»şO]@ ‘\000 N&GmÀÍ+Y¹;—¢(V„Éİ:É¼lãí eó[’Õ%k?Ï¾\\úê`2œ€‹´œ–Äš×$D‰>VK(S$¹WÉtk‹=àƒ{Éà*Æd?È@¥¹bºR[wÚ	M¿€ÙÓ\"OO/¯\rµò÷ş(K5ºcŠ&¸*(rÜ(‰ãÇñvx»„ğ÷ığv7ÏšáaÏ{?ó¼Æ<M€ãÏmÌv`»ÕÁ¼Ÿí¾¶ıu²îzãÕ7zo©5ùÂy5ŞépÊéô‰Éà&ãox§ŸòÛm:åo¶½$çoOšÄ6ÎV³„İ¢nªŠÚ¦¬=¥6§å“b6ßõØ®‰£×Á~Ÿ/SĞw )M¿|í®Iú#ş¶àx	$yuI*I¹±+tüí®)+Vè´*•È+Rvás°ã[¡ƒƒ¸S_±k§Î\000‹ŞÙHõ“fŠ'±ï²¾Ùhg×Ïöö KêÍÛ¬±íhW$)ßĞ‘9\\ÂŒ–kJ¹âúÚvuHoPŸ6)Ide7Ù\000zã­ßófşHj@ïıÖ+ˆwDXÆøRu‚,&ÅrF$º2[	q«™ÑŞ)_æ„£…\000“AkI¤BêOÆÖO‚ÿ¡D·*M‚9ÀäLQU(­Ê@À+&YÕšD«ó\\Ïªî·õ½o¤i;Ğùîy°^‡5®„X Ğï²9YĞ^^wqÔÍ­ßñ^Q{Ãæˆ¢sÛ½ ¿„È»ñºuXê©\rä#µ9ƒ•Z\nGÎğ]U²ô–@“ª%;9å9õ|(,EjJàcÛÕ+Fcºn‡ÿcïëÿ/Æx1ı€{­¢\000pÑîƒ¬GZDË­:\0001şÄEı7p¥f¿–+{ô×nÓô·Ùöÿy5ÿEzÈBõ	pË²¡Ñ‚3(‡r©°= `<ïi‰˜)Ÿš›¾ŞÌnv3iù¶²ßuM”C³¨ñ[ÑÅñ¨$%|NÕm¦4ƒÚ¯3Vˆs¬pGJâENÓŠßRY|GQ1Vp»“Æ›ÿÖ¤Yq$`ç ¨†BL©‡—«Äªä¢z\\‚N`·²¼ö3>—ªP¨=C*eB•»pïdIU0=^	¬ÈÆõ:âÀÈèb€8V[7,©¶½îÊÜşô¿a¤îşö–üX\raÉœòhíÔô3rÛDÀWaw	D…Xyád`!œruÇ8àŠx'ñÈ) Y7n>Ébƒ¾p7Ü¡£rB8)WL‚xÙOô–f&ü¡¬ldä–¯¯ßŠ¼‡&*İ´¬©š¥Ôüs#EöF®Ä›IË@d—¨L)\\4Äo½¾ª†<¿tã­r¦Yz¨ˆTG éõ{u†ÛvÑc)n»76ö>—9¦­	+4­äıw¤Ló·‘Ï4ÍÄrioã¸îí}Ïr»ï–ÂúgJß×ÅæH<4‡×mâq£rÄ²¾5aÀšX\r&>Tåua#I–÷gş[:×Ÿ±yLóË<y|\000ôvüıÂX4nĞóƒ½UW·©¢~(¬oå:6yQ€÷X§®jTëµ™şyÏÉ˜Ïî….ã\nN‹[–+á#ƒƒFÄ‹~‡ŞV6öB+Âµ­ÀµÛŸ·ÔnUfõ£ü]Ñí˜÷oÀ÷¯",
+["key"] = "RestedXP Midnight||a) Item Booklet",
+["groupOrContent"] = "uUaoÚHüÎ¯xQTµé…c ĞoizM¢^®iÕN¨Zìg{Åz×İ]C}Ê¿Y\nIîøËóÛ7ófÆış$šLgQ\r{½cË^HÕ;^³uÒhŠzÇ¹5uEsvÓowt+S-óÂ÷µ(™Ä	İx.é1+Å8•Ú³ÕBõP_õ—Éªé½~Hæßî¾½˜ÿùı²jhüöÁvßf“Ç½××h­B{Gµã¬V$Qà(3–¯YIŸ’PÊlğS“7”Æ8¦M!“‚Œf«ÚºšÏº9~{ø<fÑ`øvğàÿ¾´óè\"ÿá”.ê¼díi^k^Ô‰eÌâBsK·BjB­ïÑÑ}!J¡ßİŠœß]×î›£ß×fÅ¶»f<ãöšÏE­SŞÛºt‡İ¯úÑ²¡hü¢…°v×VÂúæ•+„Ei’ÒFz óh[*cRU;OœeœxwòbOÇÃÑ¨½ûF¯en¬ğ§k9º3[ÅÛÃª=<;è2D]€MÍfÉÖJÆô‰Ğd9gÍèËY€çhğ‚Jñ³m‡!±$ÛĞ˜'F§î¬wVš%İv³*_Z±ßÈhv>LÚ›ºÉÈdth\000VŠ*k*V-3`h#lŠ±]a¬§Tb):9Øo4Œ§ƒYÛíªÖ(#;™k™ILîUCKèÄokÖÜ®İUæ[Yí4å­€Ü &Úˆ Ö°¢İå[iÒ0¬—åáq<‰;…]™%È¥+%!\000ú(é¿Ğ<½Õá{†“öº!•R×\nÀMÁº­*¤'IÁ—:}‚?ŠÚÛÿ`èF wµi“à¡ƒIXè—\\m3ñˆÊø<\rºÅ|`åTØö…†Íì®Y­ºV<¿>êI4j¬7‰§³é“=¿g®\n£ÊyV\\×Ö¶»ãıÓñä<šÎ:G}€S„æLºbAåã-.Ãz[¦V˜2ˆÃ@®e³o7NaÑmˆd…Çæ\"•¾4Ú[£èŠ1• ¥ÌŸ_€\\gÇ¹#lÎîèù0šv;¸ãª£ûAlı{ü¿Ø=ü¸åşáa|>œu¤_iS]Ø²¡0‚)(;ÌØµÉì…[¹Ç¦uÒû¢E.é~ÅÆºRØÒQŠĞÊ9ğ+¼ ­{Õ\n“¥P”#çNöífÓ	Ò²Ó’1¾ÑŸ/’øğ		jz,pÖ6­ÓÚÖÔx]´ô;x'q·“´áAÂ©nM	3kmDCwğÃ/á|†§`´£åĞˆ K1‡pCšîŠÎ»ÌB.¤Á\\(û¢¥oP|¶-šn;y¯˜kÑÒt		¦×°n°ü>Aï¿v‰§» ƒìñG`\ni1•F‚u!ß·)‰”Êt¤tÖä $äD4PƒA\\*h¸l¡ºi9Š·îÎƒŞ%ÀXwë‹Öï‡^Ú²ı¸øPª #Ş¦<¢$ı_Z»WÁW+ª=¥‡Œn_©ÊˆÕsŸÍsï-ñòNC¨}²¹•e)\000ôß",
 ["metadata"] = {
-["guideId"] = 1111430253,
+["guideId"] = 3670019205,
 ["retail"] = "",
-["group"] = "RestedXP Speed Leveling",
+["group"] = "RestedXP Midnight",
 ["internal"] = "",
 ["imported"] = true,
 ["version"] = 1,
-["key"] = "RestedXP Speed Leveling||a) The Rivermane Tribe Midnight",
+["key"] = "RestedXP Midnight||a) Item Booklet",
 ["length"] = "616891112",
-["name"] = "a) The Rivermane Tribe Midnight",
-["displayname"] = "a) The Rivermane Tribe Midnight",
+["name"] = "a) Item Booklet",
+["displayname"] = "a) Item Booklet",
 },
 },
-["RestedXP Speed Leveling||a) A Ruby Lifecalling|1349"] = {
-["version"] = 4,
+["RestedXP Speed Leveling||a) Redridge Mountains Midnight|811"] = {
+["version"] = 1,
 ["cache"] = true,
-["key"] = "RestedXP Speed Leveling||a) A Ruby Lifecalling",
-["groupOrContent"] = "½ĞÁn‚@àû>Å$œš(*ÅHŒmSÓÊÁÈ°Œ¸u2,66<|	¶^ê¥—ÿìîì7ÿpè»~0s]×Âb2¨´°Äµ*˜+ç²© ¢ÚP¶YÃkE”ÁŠ¤U‘«ÀŞÀ¢&=ÁJmI¢>Ÿ©Â¨E÷¶v^š¼‘ç\r|×·c;ğD¶qq‹’œ’uvÀÊ‘;4i“¦š’3ìTWwŞ¨51ê=t“ZmÖÉc´|x¾_½%??Cü‰ã¾e[Ø(%U|?ğ¦†ós¼¢µ\rrN~Ï¹Æ¦=Üó—¾l¸.Ù‘\\Öõ;ıf(ÍE¿ĞJî¡«Öìè{…õrñ”¼¤ï$Mİ›ey¨4:«îUÀìú3\rª¸ôwºü·¿ş",
+["enabledFor"] = "Alliance",
+["key"] = "RestedXP Speed Leveling||a) Redridge Mountains Midnight",
+["groupOrContent"] = "í=isÛF–ßõ+0åªÍÌ„A€n4TÊU:|Å–­•äõdS©D¶D¬@€€R4å¿ï5®¾HQ6ÇG2fb±Ñ×»¯îşî»ĞãÄ÷}²·÷¨âMšå{nxUgeáø{®ªrµtNyİğÙ?Nœ³%ç3ç¿áyV\\í=*ÒwÒ¿Á³*›]qç¸\\0HQ;ÇÙ¬È®æÍŞ£¬hxU¤ùŞ?:ûy¥Å”ïÁ€Ë=÷ªlJ'H&~èztnH÷?~ş»\\¦SşıtUÕeõı´*ëzfÕ÷b´tÚ¸ùòâ½oólzíÀr›9wŞOOÿqòÛÓÓO^½úù·w)|=sNJ˜®z_¹{n:òeãyóøñ~ûç»ı×çO~÷ñ¬(ó¼ÖWÉÜIÈ\\J\"±ÎlXçmYå³Eºü~:O›‹ÕÅEÎƒ«Šß\r=OókFÒÖx”VÓ;ç$­®Í%†ãŸViq];i1sxZÔ{n“VW¼qäşæ‚©—¸&şÎü.m¦sç0]\"¢‡…;iS.óò–WøBİ	wrÖdyîì×5¯k \"·óyÅÓfØ“mŠvoò²”wH]\000å„nDÉ„yOj#.ÃI˜¸4ô¶À\r\"1×÷C½¹„x“ˆºˆR´=~ü×ÜâÉë'Ç?ÿvBšUÖˆ´¿¿*Ëw²p.Ë\nÿ‘UÎ/í÷¯Ş¼9?wÜqèò+€gZ.–9ox‹ê‰¿ç.Êgø²ÛpÿÕmÖÌã´j2®0Nú¸,äMÏõ“dÂb7™ÖÇ~KÄ¾ŞƒP†>UàºI\rÔ\rh¨4P «hÆøjli7ˆ•¡HäÓÄ}uU‰ë€@˜ÜSæ 0¥¸AÉ\r09´Fnä)û °³(F¢'„iC	n€Q M0‚=XäÛ±}”UÜ9,‹YYòœËü)7½(o¸ø®³¦Á@\n-y5óÚuî£ˆv4çYœ×´a™øò…ó¬Ù¼ª¯‘Öî¸ÿØy	\"˜ßÙ‰ì¹«\"kêiZ8ßJ»3>¤-U~«.ÄF›ÿ½‘€»‰'Q\000ä¦P&õ€-)Gä+|G@¼zb4\000'_†ÔŸApƒ Ië9G,Mì_—H¹\\|€ÒÔúÑAµj¸àlAÏ¥7fÔïæÑ#›êoÜ l¯Çp·¶“‡/É9H›&çÎI\000è°Óz¨¥‹™¾V\nkídfzÁsCvâz ;\\îL;´³8?àÍu–Œz`¿pŞ·<‡EƒÂ]1Èm\\‰ŸLæFD•Ü‘€c¸	eUÂ¨´¶DÃ¶˜Å›úÙHï€çùİUµºxˆA°¦Ì”ÃWßÔÎ90…)“¶†oµ}:„5«ª\000ÅÛ#ìştàï‡bìQ¹lÀÓïIAb2	|\000´7‰5}‘D¢‰…Ñ$†¥8OpË‚ê_¥×¼£è«£p§yŞN»+È€5œ]^¢dLA¦#gü®²º©RÀâY™—‹²ĞhŞ÷GšÇ5;OĞÀFĞa¦œóv)}‘xüü9¯J ˜CØÚÎÍmYÎş¢€.ex ÀØ€‹oõ…+«ñ$³¤Ôªnœ“Š/ÓŠ«' ğ`Œ›{}¢›¡'°	¥\":v©ïÙi Û&T€øe‚~ÏšÍ4 Œı‚Ø£`g¤q6Oou<{â^g³÷šO¯s˜i€ èg·d7BàD‚äıLÀë€\r‰jâQs\0000¦<¢)R´í P¦5$1È¹Ğ0¿\"×KĞ‚S5\"0`(év™\"zHµËØG„=Õ(»,[BOÙ‡ºóÀ[¿y­MÙ ÛŒ6	\nZ›­M…Ú¦‚CkS ¢µ)@	Z_£¥µwû§¯;»Íèv^İ¦(÷Pş\000GƒÃ‹Ô_/šœ¼œ¦È}`s³ƒCÿ6~w/’öóÚ‡,¹¼p$àÇß,yaXàß‹öx5ôğœ®Ö4:·hµµZV¿)şõEû“b–ÒğxUÁ’k1(Øƒ¾àŸ)‚ĞHˆx<Å§! Q¨sÏ3‚4bCçÎ@øI,„Ó‰‚ü„€\n#ªµø\r°ºÙ±ŞN(¶E Hu‚‚~©dmlYgPAP‰g¶…¸pzYĞa—´àtæ  9O­è/å£³i¹jLs×÷{“ÄLùYtˆ&@Hƒ»‡8Ğót¢ÿåtÿôÉ¯Î¡ s¤8yÅgÿ\\e³Y6…Í€ErY•Ğò¥ÅZ^ğiYÍDLÅÀ™+e—`}ƒ< 6;¸@ı¨{nQ‚s—‚&ĞôˆB†ëmôqÖÆ9(¹Ş8¯8Ì]ñÚd„Qò€…E­Û]yW·öbÉÚ3tXV>TØ{Pmø¹NnzWcïwëc?€vvn.nÀÀ®@ıá–$ ¢Îf|İì	C³ÇŞZKS‚ãv¶£4'M`’‘IFSè˜¬‹òIü¡¬c¦&8 UV«´ğ9ŒÍ˜†¨]X´»ñK\000oáœ§wyÙFˆo¸=~ü?í?–NY5ÀOî#ëß(Kv~üÇ×/@~İ¦ÕåZ¸¾K«E9ã 	¦i«Á	AÀâ_ïÏı(m”ü\000ëÿå¸Ì*€n²‚£%ğ;L„Şö»¼á;[Æ¿Ê‚;1†ï{€YBÿòR€ğ£*½{şuÖ”Õâ6R¹¾Î–We]gKÇhJÚÇàØ6+ÿ‹²tø\\o¿~%##Pä! ü_@ÛI–_UÙ\"½ÚˆºA¸MVàB4R©KÃøs0š6<)«&Uá-¨w›ı<lq ¬k6‰1~,qtÛÀ|ÑM„üØ$o!‹KÑà»ıÊZ·!\000	Ä(XkÉÎdÂ~•ñ\"m!{	Ù¼Kñ2‚vûş–10Ë\000÷£FŞxk½K;şV2á„OñvéÜ•«\n¤PÎ‹¦vşzÄ/ÓU¦Âß„ÈBÅ‚VR7®tÔ?Nœ‹( ü•:MÛßÕ\\#`\\ÀcV;U`ÙÁdß4Îm\nV!²¼:ƒ€ØÙ°Ñ:å§´^r°füI1“ˆ-ò„ç7ˆÈÎPz´*®Ò\n\\­âjVeÅõ€Ïge>kõÎ€Ïá§1\r¨õnÅJ7\\±ÿQ[ş,T¼Õ®­T<l<H6n¼¥`ëi$,}a¢,Ùa¶Ì¡9 ëj²ù…’q¼´0ç”˜j•†Ø±Š}„ÛóİÈgmÎ}wÁäƒ´j`ÊVÀ Âğ9ZO>‡Ÿ†½™ıtÊjZ5 –5|1	“ üèmƒyvİs“Íµul?ÙcÏÌ¯((õİ˜…ˆ“İE{ì·³é¡f)Íş* uÂ&‘¢ ïd ¤{»Ä¥ÔÃpíÏJ£3´FD^!‚îÒj¦9·A&¹\rD¦ì5î€´	©0ã0-î@~ŸÂè¬Á™^ßõ0?Êªæ°ÄåğÆÅ<£Å\\rNHà&³ô\\ŒLYúºC0Šÿ!	Ñ\"C{^iË¸ˆ–dË*ñ&$t=O„XoÓ»e	@5—Ü–#(íÊÊ-íÊÌvuööq;–veW–vesëJ&´êk.\n$A Œa)Òˆ˜şîëAøÌiQŞåÌ%›àmÍ>2Yİ ›`×¢½ÓÇ1óœO<Â$F· DWÒWh5‘“5Î»y‰s×b´'XP·Á²aûGÕ\nşSi¿ß!ik?H©åáÇı|9OõEZÙ]\000Är­9†¯„3ìËezÀİàû¢™à78Á¾t¦'\"°o £ş!>(Óß€®³Õr	:ğã¢@Cnä|6T8JZß~pO…„ ¯-ë#î­FQ™¸#ÏÓª6Ywÿ¦ÌfÎr•ç½z'îô@ËNÈ² 6eŠŒ&¾M+šák¬€pgYá\\‘5¹(×>\n:>	wöáfy;zÉsŠ²Æ\rSA4zÙËrùİj‰êT8XBfåå•ÍŠ´×»²&•X )[0:ï¾¹A3¡ñøvéºîC³_‡tùxÎüD»RTìW³RŠ`Ûì!•¢Üzu!P‰?åÍüBÌxÃ+ÔYJÒ¬@Õş²MÙÂY]g7Ü×Õ,„|æzŠ# ˆ2B†È]cœz2™a$•¤<×|ÑÑÓ«Ë¢˜bÇ -TSeÉÄ4|”•¯i6`iWöa¶«Û±ôWveé¯l¬1Ìòtz]• \\Ş`Â€·¹Â.ó Ñ…ÍfS\nÆ±ªiO\nf^8+éÌÙ­¦~7‘Ho ´“A :Ş†”Å%ÅåÏåm¼#’ GÿË²r3£\"²Ar²iÜËĞ»>ñE	ô¶8ÛÃÿÄ‘¯·%nõ0´Ë?ïãà·à¹)t€ÂD¬l™Ş®'\000=kf\n\000!”ä¥cáî@DËòS§uÄ…¼ìMq ÄØb\000mıy¶Ğl_Ÿ?9;—3ÎÚpĞ€N2ÄP‘]Âÿ9eE˜wÁˆ¶¬VŞ»¢»åº»MÅH›Dªì:KoP#=-+¾\000Ô½©óòV!˜¤,$ôcSÙÈD-ªÉCAw£^ÆZ%À¾Y£OÔÙ¸¾UÇ­6şJİ™?¼£ÿµT:é	™!ÈTO”¡‰„®!»Z%0–şf÷iÅÅM*NWu5Ü†bdm¼Qù¥“íd63PÓ.›¸P³úT+$n†¢\\-Py¨…¬U‹‰-€Ì€¨õBC¬¤Ô3aĞ:¹99VğETpCÂğ¯($¢”.ÖWmøj°ŸÂ\\ÑJQQúÚò‹)…u±À_â‰Rª¯Ë\000˜ õÀ÷DåÚó&DÛ\000ü%sìÆ!Ã1År±;ŠCXCc1ŒÊF¼@Ú¶Ñ&AkS@bô“\000d´IàÒÚàim\n(µ6°Z›f£Mº‘P`´I1Ú$ôë”eìoD]×&Jb/§Aëf9ü]7i1C$ji&Îj3RJ¯MÜ&Ç¯(èÒµ¬-@ëâul„2t¦&²Nõœö¾‡©*Â÷6“oÈ((FJ²·[nO²†œÛR˜‚vß¤úDg«‹Ù\n¬j\n²´kó-#\\´¼Ä§Ê©H–•«ª> ©rO1Û—X0t¿'#ï`·åx»‚µšÎRuw0ÇyU6Èú‰\\óf7«%W’Iş¡³-KŞ$ó>ŒFóş§r^8?¹ÎK0Ä°4rÈDeq6Ó$oœ`É3²Ñ4ö×£CæAdñ	ËïÖ­¨ƒÎævà%âVŞûº¶ğ©˜ŸúL[Zî!6áµÄü¢0ºĞçó1´3ê†y®9_ÂüU–Ek÷Îñ`¬ìŒ7mÈ£Íq×\rü[Âİg(óİ¿I³#ç¶âŸM˜µÏ°DŞÅèz¬)Ü,Š)Â	Ö;Èyåa\"—‹	şU8W¥ƒwĞ½YU¯Q] äŒüZ â0	àzwÕÔÆRzı Ğl²æ^4ŠŒ¬İ‹\rƒ·%ËÁú¬vö3¬v:¾Ã§¥ú\000Á‚ ş×¢UeíJáÃ5¼>0Ô–;Øµ:Z#$wE6¦öéÂn*ÄJˆÒÀüH\"‘tØğO—xü§¼Ô¿Š¥‹%^€Z)1ãwXrƒ¦Ål´¢¾E°+¤h±½VCN(Uœ­ª.nx&ûy_Úf4EĞœeÁx’â[Í¾°+…øN9ûH¡ZÜ)CFÔCú‰l[XÓñœÆ`_¶À÷ÂøÅÈÁœC€r³åq›î[Í»‰<ãøV^+¶<®6I:§ĞWN'¢²e1z®!U€-¤…»›¨=`ãàRpÍc_k£ö˜D¢Äù¸\"DÈ¯€)s0Ãó”~‚D½1á[âWéŒÛg_­9ŸyÃ‘qõSıÇ~–û´I16ò(©8pQğ 2’P	á1;ÏL'ÁP˜« í	¸‡^«qeå\rË-ù~U¨v1Ä\"ˆíÎ8;æu]t¥¬£åÏMRW’Ó’ÍPñôÁóf¾g\rbì!˜û¨½ÏvŞ^ÚÎVXXlÚór±ª®ÍzŞ=ì| IE­E^vÂæe‘]Zr‘8a!ñ¦84‰»¬H»£—¯ô§—|¬SìzuÛ³æ„!üqyÂH>^µ^·FR\ræsÄÎÜzhÎ8/ñ”r€GL=‰PÏKÙ§‘_ò;ç¤\\Mç£yY7«Årıİ$Ä%WXWz£ÛÇYß•ÕUÓF1ÕİN‚ß?â*”H¼}]tIcê±¯§ŸŠ—{€O‹r‹ÿ?g.—°˜z‰)¬/ø9[€AJ'İ¬Îé‰bWxr\000X¾¨yaç~-èÿoëkæPC­ê4Z›2“Ö¦LÆÖÔ/|5ÒŸ²Ğ5‰ªKß6Uy*ÛöÈ-ß%¾¯Áƒ„hØºA¤j§\000DãÕªåBÄe³c\r|>xdÖ¨Ù×%RİİPÖ«¡ŒƒBºíF]? \"ßøAÙj”y\r­ë¬j„œŞÃkØÓ1¼Ït<JØh3òÊË»«<­k_°Hù}!´TÌYø`\"&¾†·¸^ ŞA†!Ñ›Äzf:Ä:¼Üg­ğ»¬÷Ç¯\000jÓkñÑˆÕ{?]ƒuiî>¶»ê\"OOQ†‰iˆv“öi·)@ ø’S¼/Òa1Ş¿ö#ÛìW(³D,Şoã?´L	‹Y¤0nTbÛLÛARƒ®y¿é¾«A=é–‡J7ÃæìS˜²DÕjŸA¼*åê˜Qî¡®ÃlW—cé¯¬ÊÒ®,±/Qüop6ÑT ÁãSıRtÑ‘(Áa'Şğ\000°ÇxªWD‡6¦8jì¥+\nKD`g¦¤´\nÙ˜Ra£)©—«aÆù/§«ZÇk‰gùP˜›ê×tùó2ıWwÉ„z“Jƒêµa).é)ëÑ\"íÌØá'İ•¢”/«ô:]q9~=Œ3ø\nb¡6½>H¿CÕĞ¨Oá7	¡ ÛB’€ÀöÚûfºØï`T´ß«ÙöĞ^“†7´^KZÈ:#†·Qİàİ@@¼vÎ<ÍšUšƒ°kÇ”‚¿ÖúD¦S  Äœ¡MÂáFŸoµ¹7ó­æÍûj@š2*A %ªXò(@b±Ğ<Œz¶êTG]wX^^v^Y0YÁI«µOµg¿õÊ2¼R«ÖO¶ÖÛc §|†şéï»Ù+ù)qg±H[-ªZğÑİà}ãFÁ\\ñÄFÁ\000Ú™ìê¹tIš¿ö5Â÷Š0EjÈ‰ı;¡Ñÿ¢ËéN™}˜îVê\000¼\\¼âğ—ëº£‘8Ô5ôã?@/a¥«ÏğcŠ„ô;ôXT —¢ˆ˜mX‚—2ãí«zI\\ˆVfŒĞb¯¯ÃÆ:ø¼„Òê\"­²U­º}X›ˆÙ4Ö¶5‹xá{eã5Cõ\n¼b:{¶‚½diQƒ\nÉù0!’¸-m`qĞÿ­Kñ“)šˆáU>€knâşH6VŒ…LØû\n»bŠ‘6`-?œã½ãbÛkd€X¾ê‚E„8,¬<ŠR|‡·FtóŒõúi1^¸=cÊµ·â±eû_t–¥rºª½Œ£50ìyÆaàğ*èßóÄİü¨nÕ¤ ‹ğÊfâ&D¿×4RL„F¢Abö£ÀÜ ³|cH,fĞâñø1i­Ú÷¸-ŸÁEUü&\nj“°w)ìÓÚ|×@šm¡X7^-¯µ){ÒÚpÄuñ	@Ó3NÄn€±N	Z›'\n\000@S?ÑÚğÇ¸=/é{W!©µÁ:©Xgìı0)\\…„m\nÖ¹g*øª>k%öúë84]z•µu&4Ş™\000}™-.@»Ü9Ï3Ş4kêv¶¬¡T†Ò³Ûô!bíë¯cQE¹ˆv³*ómrŸu™´QÛ„”,Åc|ÎQÅo§Y…ßƒ}uõ,÷6ªçT>EQã– úâ*\000UHQˆê¿ZaQı×Ò­|şÔB¸#•ûréV#îPEã-ä€pÕ\"Ùû\"n|$_ùäË¹ñ±çƒ¯öÆÇ~_Ş²ˆùäwå}–ÉıÆG‰Øş,7>~V*Şj×»¾ñq‰´Ê´‘6÷ç¸ïQªö›¿:ó­ Ùõõãìjiše†¡üa'|O4EA´ùà„í‚…]¡şÃŠä%—P¾ábUò’ãè)ÎæG—ÉwI¥‘Ú°¸ğd…`p`MsqöêoZF2Œ¤¼P†úÕBCÄO:Ñ,yG•£`ökn<#¢Êÿ“ x~—`R©\000ºkQúb^å“s`±Ö×‚5´‘a‘ğéIÕ¨B	Ñ©´pWÓëÙ-Ïs^ÕêÚ€qX€ï”ìŒàö+0\n„,lúB™Ë%z¼İ4–…I/<ÍñùYç$•’Aê»åÃœ¬Ï¡MC•éÄÆGcŒ_q}¥ \\÷G—‘JÇQNDéH)ŞwhÀ ÿï¦»H¯åÒ<†Õ–Wm¯4èycıÁ4Ğ(T§.ÅsÀ‹åùÌy™ÁD€Ÿru™ƒ\r®L`Ñ'NSIAih›9æyY•\000¬…:s°À—X½+—•§Ÿ^[µ !eá¿ugT<ØÈ˜´l-Ñİ[%³ˆ	ÀçYd”D}^+İ„…â=Ô8ÖÂé¾ˆÛ»>QŸÕLÄÍ/,r½Xo ¯7p}õ1V¬»õ…»DbµèVY•^ÅIøìªzÇËÆB|s6 F8_Ù‘}!.âĞH-.ÅÁ@Ù%ÆZXéƒ'X¯qdŒé¹6óÑH_§\nF3}€	åaÏlópñí³Æ˜Œµ0&?£Fú\0004|Œ¡ÆDÜ»¤µ)È[—ZiTôøØı`RWçYB©^spà½zìMşólµXXjñf!¿8j]ªò‘úv,¤âèøPã\"†——|¹˜…\n³\000ö½X¼\000M˜’6Ã÷İÚ—¼uö‚OÁé	ñ4˜Ê,‘ëÃ0>&­\"\"Do‰hÔF	z±Qƒˆ±Ú0RÖS+úÔ½˜úÑÔÃÎAd»á³È.'&kÚ%XÚÛ‹gğÑlYÚÅk{¶ûÄv¡¡\nYk;õÅ+Ó^b»ğÆÇÃ\000¸°9¬í‚,í±xô\rß¤&¶ıa;Â/›–vÏ–öĞA™@ÿÀŞÎÄ%|Ğ?&Vø…¢^¨\"¢kúKädiüÃ#|\"+|ª³´ûâ©[¤+~Uâ$kêÖÆì^Ç’ÈêŠh8ÀÚÆŠ_®r'Öİáí\\(+Î}z/BŸ£I0ûU—±™al'ÓaØq„ï–ãèTç³Xj©¼Œ÷nlHÔ[ETë§İé†IsÄ\nŞÄ4±€ï>â£é‰®u¥ÉµòUè±àÑD$â”=q¡(Ò¯ñà¥ºn£\rOÈ¼c¡$p-ÑOÙ²Ö\000-xØæ'Fè‰‘\"f¼k¨@KkkË\"a-^¤¿¿¨³{×Ğz¹ÜI–sq&äú3µY`÷´üLİryß}s›*+½&¨­­ì;İÓ‡ètls$˜ÈZ!ºSGA,…UíVÛLˆx‡—ˆô¦¿Á½;½stX¨ìòoòDF“<¼½-ê%Ç\000ï$Ùo@\"dM†·^õ±¤¾»•ç9¯VÙŒËšÎ–Ø,%n{·otì¬~Ÿ%¹)CS=T¸CHš#Üjñì¤IäÛ->Êï’\rä Ğ:Ê‘èLò`Oª¬e8Ãé^yş-<ã–\000ÿCjÿ!µ‘Ô>€„> WN¿Œ”=ıÊSöôËIÙ÷‡(¾Ú”}¿//e¯OùÄÉÎÏ’²§ô”½Dl–”ıg¥â­v½ë”ı(ÿh)ûşÒtãŞ?Kúşhüû2÷ıÙQ+üq9¡ÖÛšã±cé©(<xŸfÆƒ^ÿ„Î\rGÍ,İÚJA¡‹Û\r¿=R§w†k¿I\"Ï19œsÜ'ÁâöŞİ>Ö9LìIéo7×pu(2Ÿ½(à»Ä/¸í?Û\n\n †ğX¹u¶„Ì—Jë“C-biˆyÉfYÈÄo#>Äg÷¬L…o\"¡·T3¨®L¾6\nÏQ/ÄW¶K¥íV©ãõÒ* •])iÅÜÄ³j Õ˜GüşßÖ¬­®äz>¯ìïÁõo¼™ÏÀµ$˜›—UxB‰u@5f0[ºwÑôŸ»ñµà˜Ä‚íÉ+û=„gEZåà!b´Ùuşz\nÿø›#!²‹ö\\*ö0d ÆÎk˜w\\\r¾¼4	}—x›Vsš]\000ëÖí½ˆæb²ş€…vCâĞo‹u`%=ş GPç SX†Y€¹B\n}¦W&QàÆêŸ˜«il§ÒOcºRˆríIø‹;L©y¥ÄÉ$Âì‰yÙúBÓêó‘ò„àÈD¶—Õ·\n­ìƒÏJE“Hl°`´/a®FĞlK²2e¶pñÁâÜ•nzg/-;WÏ¸aÑ“­³§ Â¯kÑ÷€§…‚Á³¢\"EI©Ò[>ot&jˆöñ<\\İÇˆ\000kÀ¤.òÓaïö_Ÿ?9úÁQ_¼Thò¤çÃ0.6!nÀ£ÒÊ\n±ÂÄWkÿ ³ËÆ¢5¥n¬áÇwi3÷wêõÿÿ",
 ["metadata"] = {
-["guideId"] = 2204635286,
+["guideId"] = 878253169,
 ["retail"] = "",
 ["group"] = "RestedXP Speed Leveling",
 ["internal"] = "",
-["imported"] = true,
-["version"] = 4,
-["key"] = "RestedXP Speed Leveling||a) A Ruby Lifecalling",
+["key"] = "RestedXP Speed Leveling||a) Redridge Mountains Midnight",
+["version"] = 1,
+["enabledFor"] = "Alliance",
 ["length"] = "616891112",
-["name"] = "a) A Ruby Lifecalling",
-["displayname"] = "a) A Ruby Lifecalling",
+["name"] = "a) Redridge Mountains Midnight",
+["displayname"] = "a) Redridge Mountains Midnight",
 },
 },
-["RestedXP Speed Leveling||a) Save the Hippos!|1350"] = {
-["version"] = 4,
+["RestedXP Midnight|Sojourner|ac) Harandar Storylines (H)|1057"] = {
+["version"] = 1,
 ["cache"] = true,
-["key"] = "RestedXP Speed Leveling||a) Save the Hippos!",
-["groupOrContent"] = "İWmoÛ6ş®_ÁÁ†µªbÊ´^ú!@š8hĞ¤Íln1-ÓaZT)*ÿø‘’ü\"‹i–Á†}byºçî¹ç.ïŞyĞB¡kYA$¦Ìê<‘SdubÁ‹I.Éüë#e„ÌÁ=y\"Œ¦±ÕIñŠ\000üá'dBÀGše<ÿÉêĞT‘bf©›™åÄ\\ràv]×ö¡ãú6ê:½Ğº¼ÜËƒ‘‹5l¾ÂÙE”`9+f3F¦ŠÙ83–½w»[9Æl	”§m4üú8½Ş\r>ßÜ›>tNäKÁó­p,GÉ$ğ]èºàòòªú9¹\\'”0ˆ8ã1Íen9‹˜HĞpR…}®øö_ã‹b+\000NçÏºË—	.aÈB¤4İÃ«Ÿ@ı6ã¨1{ìö˜¯À(Â,#ğÀ`ÄY!Uq%AêÙÈu`oŸ·'17Üû÷ÊæŒ.ˆæHT·}·të›Ü–(«<w\"¾Ê‘dMe†x•áXñk‚Uê'4[„Î•1óµÕaœ7å©Àõw<×vûv÷Äæ#õ?0Ù\\h£¾ãlÓíi[€L6_áò ×¶…ôl¤íX‚®C}/„¦{ú{*¢°²½…¦Ô¤ä©Xù‰2VÓgğyğğmªR†32Pæ¬A°Ö	•Æ’\\;ÏclØzãºànßQ!r..\"Õ$y‚©¸(Grß×ŒFK ôCBÃãİõ§éXà,Sòq•Òfy;_ÇPåš¯‰Ğá^<Û¿ıH˜:çÌ_×úÒax¦n`9YÕ©%kwâÉrV|Nœ·^ê˜şSÚ²ëç¶¼ĞĞ°lèà:qä·ä÷Y:ÒtĞ•[.HšÓ¨V¸Í©^UÂ‚^–“K¾ävÏÆèk.²œ(&Ÿ°µøvÍôG4Jc¦€zÆÏ÷ê,ŸŒF¡#>´|D„ 1¿™Ç$Á«•Ï'ä©«ÿŠ¿gîù±Ö×@àÜğôg	>6(ë³ yb½êƒêx³•~˜äì¡ŒG¥œ¾¹ç\\jJ¬À‚°CAß}¯PüVİ¹ÿòe¼gÉïÎ«ˆıç‰÷¨¶ƒ¤{ZOŞÀJµnŠ	£åf†ód'–û÷ú™-Ëè{\000©\n³³émVx­d÷‰ìnµh:¾o÷B'èš29I¨ˆY\\¨GI`è`=ÑË\n¼³ÑêCyxnŠh©—ì&¯Bï¸3~-°*†ê¤r0î)uê¢1#ÈÔD¢\"ä@cf—L‰Ù­*­ÅL-JP/_}Ã¢8½RÃCÃ‚å;È×÷PhX”lõeØ®4½Äšlªîj›C}c P#÷ê@ÎŞboşïfØQk²µ˜x¼È7¢=Û¸ñ¶<˜'˜\rõ®qËãë2qWBèOHª‡†ïôíácí^ï$o»>W$ı…y4÷£Ì¹¿³üœN=èš ¼#ÏŒ:Ó 6şOx4ŸßTÊè&WÃÏÓ	¦²lC]ñ!g$cxÓj‘µşŒ„^£¬§\"ıÊdüù",
+["enabledFor"] = "Horde",
+["key"] = "RestedXP Midnight|Sojourner|ac) Harandar Storylines (H)",
+["groupOrContent"] = "URÑjÛ@|¿¯XĞƒkŠ!J!¤Ô/n‚c¨„J^×º­´ÍùN¬öùø®ÔFm@‚“fwfvöV««òêúsY–—ÎBŠ\\ñL2pŠPº¢•”{8Ğ ä+øÎ>rÛ©+†|üƒÕéWÊI\\ñD€Ív(=\nÔšä8Ò\000vKWxú€ç©ğµÙn/.Æ÷Ó«ÀjnrEÓa¯æp	¸KGc\000{fZãúbØCG°§–¢‡ô6!.†n,yÃ÷¨_CJ§‘ì¿¦;!ŠCOøD²à·ŞğŠÄ>6§[;+†¹s’g{²€ Æ3Ü2½Í›Ñ}cm:š]Ô(6ŒÂ6ÇÖêL0lçŞ›”ŸQÙ$w©ÿÇ™£Ncæ³\rTHm6›zKdé´3X	y´ÔmgU’Ï»üOihz‰ïãÈŞÜT¬p9ÿG7µŠºËañ„Ó×k3)œİ‰Ş},İï",
 ["metadata"] = {
-["guideId"] = 1717964733,
+["guideId"] = 1260262502,
 ["retail"] = "",
-["group"] = "RestedXP Speed Leveling",
-["internal"] = "",
+["subgroup"] = "Sojourner",
+["group"] = "RestedXP Midnight",
+["key"] = "RestedXP Midnight|Sojourner|ac) Harandar Storylines (H)",
+["enabledFor"] = "Horde",
 ["imported"] = true,
-["version"] = 4,
-["key"] = "RestedXP Speed Leveling||a) Save the Hippos!",
+["version"] = 1,
+["chapters"] = "a) A Goblin in Harandar (H);a) The Legend of Aln'sharan (H);a) Late Bloomers (H);a) The Greenspeaker's Vigil (H);a) Peril Among Petals (H);a) Haranir Never Say Die (H);a) Harandar's Kitchen (H);a) Silence at Fungara Village (H);a) Cultivating Hope (H);a) Hunter's Rights (H);a) A Palette of Feelings (H);a) Predator Reintroduction (H);a) Bloomtown (H);a) The Grudge Pit 2 (H);a) Trials of the Shul'ka (H)",
 ["length"] = "616891112",
-["name"] = "a) Save the Hippos!",
-["displayname"] = "a) Save the Hippos!",
+["name"] = "ac) Harandar Storylines (H)",
+["displayname"] = "|cFF00FF003|r - Harandar",
+},
+},
+["RestedXP Midnight||a) Dawn of Reckoning (A)|1252"] = {
+["version"] = 1,
+["cache"] = true,
+["enabledFor"] = "Alliance",
+["key"] = "RestedXP Midnight||a) Dawn of Reckoning (A)",
+["groupOrContent"] = "mÎ1ËÂ0Æñı>ÅA;‘¢Ğ¥ô%› N.!¹·=Œ—¶ŠĞ¯¸Öıÿğ{Ê²Öõş µŞ¨L“å\000êAyä(¨Aõ9Î	Ï4Nä/'<²î‡	”Ø;¡-ğÏ>ãÿ'q·(,=nÚ”ç1ûúV‹3¦ªºÎ˜İ’±\\O@¹Á¦‰24\r¶!°Gğ!(fOë×_8¼ÿ",
+["metadata"] = {
+["chapter"] = "",
+["retail"] = "",
+["enabledFor"] = "Alliance",
+["version"] = 1,
+["key"] = "RestedXP Midnight||a) Dawn of Reckoning (A)",
+["group"] = "RestedXP Midnight",
+["guideId"] = 1465716471,
+["length"] = "616891112",
+["name"] = "a) Dawn of Reckoning (A)",
+["displayname"] = "|cFF00CCFF4|r - Dawn of Reckoning",
 },
 },
 ["RestedXP Midnight||a) Heritage Pandaren|804"] = {
@@ -13117,136 +13112,151 @@ RXPDB = {
 ["displayname"] = "a) Heritage Pandaren",
 },
 },
-["RestedXP Speed Leveling||a) Tian Monastery|1353"] = {
-["version"] = 1,
-["cache"] = true,
-["key"] = "RestedXP Speed Leveling||a) Tian Monastery",
-["groupOrContent"] = "íZ[oÛ8~÷¯ ‡¶;®FÔÕ\n$™´É6i³‰wÛî h™¶µ•EEÕu‘¿‡”dS&iÇÍìÃhR‹y.ß9ç;¤Ÿ?p0Š0ÆÎ`pÀ© I:8øLy°áÁÁœ³b…®h.èôı%º^Q:Eçô3M“l>8ÈÈ’\"ò’¡–˜Ç7ƒƒ$ƒ¿Iğy58ˆÙr•RA×‰X Œ~+†©Èó0ö=ôâúgNÑí»á_ì[ñû–‹u’=ÉÑ¿X/(ÿˆC‚¦tÅ¸ÿ?ËfI–ŠÈWB¸5°\nXÄÁaäÚ–1+2Q=âRkÎà]7ÄCÏ±¢`è„–ç\r^¼¸+™g$¦?¯O§K²ú9^1)&“”ŞŞœÓ5IW¿8 ß˜¤Ÿ¤·ñÕûË›—Wg'o~;ÿpsÈEÁY~+¥!qLWlÏ@ÅÃòã9cŸÀthÆ8z%;°ás*Põne²E2seS¶n™ï0¥dBSDÒÔ‘û,pÈ’J]mÛö‡vó!F#Ü~(g}½öCÏvö¸²`gQ×²±´¨?j,q\\½S-…Áû,Mi,7ù¾?Ä`ƒEÏ“)Y2ÎQÜrD²)š€Jàz6vTÆÉ’ò\"Ë(´œMYj}Xù§d5gy€åõN[skïCµÒtMÕ¼Qø]ª9Q]Õ®\0007ÕÔN?R5¿­Z„¿K5ÏÇÛUíš“×ÔN?Rµ ¡¶}	ÑïPÍu@Ö®j‡Ë¶êU®Úë›”«B_foĞs›ç}QˆQØÕóˆ’˜eÆĞóîÒóØÙ÷(döêƒí×JP¶Á´ûªı¦ŠşC×Ä7V7Úº íº³›Y»	©4šÙÑğÉÓß+¥iBXwºÉÍû²ßåF,Èœñ\"¯Ì×¶/ádÆœÒ	Í¦”·ËqØ_/§-~àKÏ‡îV¥Ÿv[7VíV<D/9Íè:¦Yk¹‘Ràì–kKjæKú:J*×b[Bõ3¼	Òù‚IˆomU¬æœL)Ú°‚£9%¼šÿîğêÍÍ™€Hæö_Jy¦Ê.3ÅêPZ±>\000«@@µr4á,ûJ‡ˆ ˜åK*’Åç4‹7Êä=˜¨…é1ÏŠ¢¡¿ı½Áä<ÉĞX™uEÖJ -0µ­¡êbÍcÇÓd¾@'éÖ1š¼¾å8CÇ·ì`oòîvCÇ)+¦3Hø·\r÷\000'—YbBRHµ¥3f N-ü>\"©^SúZó¾-Ì®ØŸj]WhFôà9X\nÊŠ½* ë0ø¬“”±–O‚pè–ÌOv3‹û×ÇQß£ârÔ3¸*÷Û}Cõ^¦L»˜¶°ÁÜ¯“4­ŒwòæäâÃÍ+È\rÙš±)¸T–+Ù[È¬%$–*>/çŸ¿};¾¹JV½å$›Ó[şQU‘ºîIKËL½dÔ\\uöEãº‘İ‡b@ƒc7ãÔ#úÂì‚Šû*•_+Zu\rK…Ç.:¬2ƒ±•-±y‘kÎµı!l¡§ÒO2teJ|ÖZÓ³İÀÛÇš»\nB‰p-VMò·Ù?¤)Kc\nLKÍ;¸¡A$p”d„Î]]> ëì\\FzÒ\nÇÖ˜éƒò#¬äU+ıpùw1¢0®§÷&È+ÓhøÁÅ®TxÉ¾ÔyŸÖÊò³Ñ’zŒ9I2I'®AX‘£7¬ÒÚ™‰<'É¦ù'JW É»b«ŸÜ§GÇ“¹+Ü_ùº(Ğµ`E/“\\´”s5å${’z!RúüŠ’éfÇÚ+J(Hzåùí†Äå×7$)¦o¹AgÈS^¾âŞƒá¡­&L˜v7mmïÍ[ê0ò²X%’=Á0,\000TÄ²dÂ“iASK'V€HÃ[3 c	$ñÅ²˜¢d&é2šN•çõü!yx/Õİ‰ñ×At—>Dëôñ­Õ¡îî şïEòş\rUú\rªÄiŞ˜ìí&Ÿy¾(²rò»ä+tGÓ‡´;Ğ’hÙ¸S6ıH,RI§ÿêQ]{:dK¥_‚†çİšN5Ö½[ÏòCézèºêøw¨SÙOW§zÔÃŞ¶{ô(©/ÔPÇ«Õi¬ûh\000u5€¥Íö´Ù½ĞÒaèï`(KF9ñ„ÙõFå=éºI¨\\÷Qğz_˜TUÜï²K7¼cÛm­¾»¦nWïAÔv‰œüN¦*í>v\nô5Ìtpğ äè­êXúŸÍĞI6- ãŠi¥dÎR¦«Š­\000ŠÜÈr÷wÏt–å‚±€à=É²6UÔs½™lU·Öª=UŞMıïk¡QF­4]‚p4–ğçôÜQ„— kyhv¿„~@cNb!OY“\ršq¶T µ¨ó’»ª£7’,;+`íDñ”5á0/Q¨ıÛáL¢P®ÔGn®E1¥™Gz1[mªyõšKá'°§2À-ÕíªÙå½Òe‘Å‹§øÙGu€@ĞJ~ª9ƒË[Œ×Iüé©³’îayÜ:vÜ\000å4 çëô©»7—Ÿ[¹ qË¡kğ0'<Øôêó\000ğè°ÓHÎ¡ •|Ñ¨V§·Ñ¨/‘n~Dæy'£:Û½E×„Ìï5¡ûX&ÔKòÎ÷„_K^(1ÑŞäm÷mM`cÙĞ\\êõà’35…’U\r€FÍ½S*Tã–Ò^¿¾9\"ËIÑãñ°çkØòlY9ñş*çß(vï‰ “¸[*IäOèDõ½RC¬İFçİº£•jM¹CÅJ¼7¹8]—ÙÓ½&Ù<¥‰.|\rİğ»ûœş=9¶FT`j´NƒË)İ¼ÎVó]u Úr«#©!lË!»;d[£H…NÏ[¶j§q¯µğ&ÉMb›d6	l’Ö$ª½·ÀµÕşîË aãÜº™\000ô<Ñ¸â¸²İF§PJäR;Ä>”lRòyS‘PS6jÁYQÙûíïä^ËÜˆ6­Fè²â\n Öé‘İVíÑ°*t½\000ÊqÎ*Ñ5“cíÜN)¥—Ë3 Á›Üw™ğ|Q×*§…¾“CÜĞÂn64RC§yÖæ–ñˆ;Cê@\rãu‡¼\nôAß«”Ü‚¸†î2²Û3äGjÈî’w^¹]á¡‹†8R7æ¡P¦>ï	UVTÂt¬!wÁêÖLı„ûºà£´È)%\000·/BRñ{®Ğ8d™\\Tßht«vÍ­æÛÙ¢ıİ;7ÑĞİ×›®«‰‹6ZíÙ¨Nv3’¤ë)¸FŒ™\000fBWZNOV×!gÂ›	l&¤™`fÂ˜	`&t5ª^yj³ƒÊOëe´&‰@à°$UUrS–Ã’±ÏœŸB«÷„S”1!¿ºÅÖt*Ô‘¼¹“şª†pÛH>ë–ºhØ}u\000ôãĞşídU4·êÃşsF§ŞŒ ÷–t›ÂLñ¶åú†|ia¿ûV JWY9ì<àPMè,¸Ã$ƒI\000Óî¦­ïûÅŸ	Š:%·¨‚.GÅ`~(Ñ¸Öou¾Á€æ$)ñG}ˆíAhÊßè×_Ñ)ãÓÆW×€YÛÜ›7¿Ò ÌšúúøÃ9óÿ",
-["metadata"] = {
-["guideId"] = 1215827847,
-["retail"] = "",
-["group"] = "RestedXP Speed Leveling",
-["internal"] = "",
-["imported"] = true,
-["key"] = "RestedXP Speed Leveling||a) Tian Monastery",
-["version"] = 1,
-["length"] = "616891112",
-["name"] = "a) Tian Monastery",
-["displayname"] = "a) Tian Monastery",
-},
-},
-["RestedXP Midnight||cFF1EFF00(1-90)|r Default|be) Horde Hinterlands 2|1280"] = {
+["RestedXP Midnight||a) Pathogenic Problem (H)|1036"] = {
 ["version"] = 1,
 ["cache"] = true,
 ["enabledFor"] = "Horde",
-["key"] = "RestedXP Midnight||cFF1EFF00(1-90)|r Default|be) Horde Hinterlands 2",
-["groupOrContent"] = "u‘Ájã0†ïz\n_šƒQœCš@NÅI\rMº¡i—eÙËØšØydÆR»…<üÊm·3šŸoş™IÓy6_,³,›	‘0z0V$/È½q$3‘ÔìB'±÷¨íåÎh2uãEÒ‡ò\\;U›M¶Şl¦Óë,]N''–9!Ø(\"hQ–8‘…c²0ä‘-îåL$Úô…·QôIYD@úEºZÉ\\É«ü^=±³vŒI#èó'FÃ[ëœ^ÛãÄ‡­£\"¤ïºİ\\êvçJkHíc‘¬\"øa˜ºtL¨Š¶.RÁĞ¹µÚAİ\000G“j\rì¤üø¨~\000lFÛêg°2¨œ¡òÍ«ÿü©˜™h”ğ¯—åñ}i÷Ò-ymk|Ü[48VD¼I'C•\rQ÷q£C‡¨å_0QÿÛÿş",
+["key"] = "RestedXP Midnight||a) Pathogenic Problem (H)",
+["groupOrContent"] = "mÎ±jÃ0…áı>Å-ñ`°1)x	‘“¡dè¢Jû‚,	Y.	øáã´c¼Ÿóó•e-ëã‡”r eÍÄ/¥‰ƒG	¢Oax¥)“½uxaë¹2¯GB]`§ózòl°KáÇÑˆ»sÂò~üÍ£TUµ­R‡%a¹ñY{tÏ¯Ş	¿ÂO?±¥ÿ–tÌ” iğ’%X5{ãæuó¦ûŞtÁó",
 ["metadata"] = {
-["guideId"] = 456005380,
+["guideId"] = 1851985842,
 ["retail"] = "",
-["subgroup"] = "|cFF1EFF00(1-90)|r Default",
-["next"] = "bf) Horde Kun-Lai Summit 2",
+["next"] = "a) A Voice Inside (H)",
+["enabledFor"] = "Horde",
+["chapter"] = "",
 ["group"] = "RestedXP Midnight",
 ["imported"] = true,
-["key"] = "RestedXP Midnight||cFF1EFF00(1-90)|r Default|be) Horde Hinterlands 2",
-["name"] = "be) Horde Hinterlands 2",
+["key"] = "RestedXP Midnight||a) Pathogenic Problem (H)",
 ["version"] = 1,
 ["length"] = "616891112",
-["enabledFor"] = "Horde",
-["displayname"] = "|cFF1EFF008|r - Hinterlands",
+["name"] = "a) Pathogenic Problem (H)",
+["displayname"] = "|cFF00CCFF5|r - Pathogenic Problem",
 },
 },
-["RestedXP Speed Leveling||a) Murky Waters Midnight|1358"] = {
-["version"] = 1,
-["cache"] = true,
-["key"] = "RestedXP Speed Leveling||a) Murky Waters Midnight",
-["groupOrContent"] = "ÍVïoÛ6ı®¿‚ƒ?ÃTFÔ/Kù p.Hâd±±¶ƒ–‹°,ze×€ÿøE;–%e[v+`”îøîx÷îQoŞ„$ŒbBˆkY=Éå™ÕÛ0Yp‘#bõR”kôÄ\nÅæÑxÍØİ±\rËx¾°z9]1DB÷¥\\îĞª`'ºçóœ/Reõx/ršY°}ma^<ä¿–€…|Çõ}«§¸ÊÚ'×××ƒwÇ/w’ÏR¥|µ—^X‡cû.î{6qpì[WWûIıLv±2›¯èú\"I©š•³YÆ¦¡¿l‡gÙúÒuöjB³¥İ'O§×O7ÃÑ»»OÓ[8º—‹ìşÓáT)s›ôĞÕÕ<O\000½/wz­R†¢PåŠ?•¦Ğ9…i’°µ>¥ã÷æ­y¼ù1ËĞ/åó³m–°ÄŸ¹Ç'÷qÆ¡¸®ãÔ<‚“ÇˆB¾m\nŒF¥ÔkSèï°®ßg2:c™!¯áîU@ûªµåù\\l­^\"VëŒ)xV)šĞùZ@m•,å‚ëz5=EvŒ£ĞöÛ©[|ƒÁw[†\000ûa¯½%À$°Ãn0ÇKuX´ÀkY\\‡vGA‡‚G8Š[‚=²öYÿL…{½&@¢[M3”†÷Ÿ¦º@*^¤{‰ÑJOÑ\n=‰ö“¸ïD¹:ın6İ=<Lj{Ğp±ØË? ÿÇ¨†06±ğJÌĞÉóß$7$Ìİ‚5€c›œÑ£‰°ŸÜ¼ÌHRÊBÈ‹DŠ¢H)—ÕøĞD½ŒÈ ãÉòĞœïñfp;oéj-ØøzLÎòôƒÓòî:jÎ>á	ÿÿ^u”Øı²3´‡x˜ÏICáüJá¼o©pÇ›ÃHÙñæxUË^QÄL\\ƒ©k\\Í%¨¹tˆÜI‰ãäJ•‰¤¸„k¡½g9°VÁ_ÛãzÎiÏCj››/£Û9M¸ÚıĞq©C˜FáûUááí†¥<­ù©ˆvÆ	~äÄ+9°Ï\\Õò¨À>¼}Mïİ°*ÂÁl¥2†ßÌK;ƒĞ¯ªr‘iÃÑ¹c`^Á¡tÁ’%“í›¢=HÌÅ®g»Á¹êF¸ïjSŸ´L•_veê˜àfè2¹f[I¾&*‡3ÍßiYt>™1JG¨ctÕ­fn}Æ59ª¬Ï?ab„6	ôıêî¿Š®à{#ÙŸ%—¬8q8X³à_ñÌ\r2ÀxØšíìB»ÉK»Ïøã†š$¤µøj¼ úv©‰îá³¿ÁÒH³4l×i8èWåş16v”È.ûG!6Òy„ø[íüë",
-["metadata"] = {
-["guideId"] = 3213562395,
-["retail"] = "",
-["group"] = "RestedXP Speed Leveling",
-["internal"] = "",
-["imported"] = true,
-["version"] = 1,
-["key"] = "RestedXP Speed Leveling||a) Murky Waters Midnight",
-["length"] = "616891112",
-["name"] = "a) Murky Waters Midnight",
-["displayname"] = "a) Murky Waters Midnight",
-},
-},
-["RestedXP Speed Leveling||a) Isle of Dorn Campaign Midnight|1376"] = {
-["version"] = 3,
-["cache"] = true,
-["key"] = "RestedXP Speed Leveling||a) Isle of Dorn Campaign Midnight",
-["groupOrContent"] = "İ=moÛ¶ºßó+;]]Oï’‡¡@â4m·´É’t=;C!ÛŒ­E}))Y†şøû<¤$Se»ÒvºÖ–ÉçıÔóç¾å‡#Ë²ìƒƒ'ŒäQœ<¹%,‹ij8OæŒ+ã‚d9™ıûÜ¸\\23NÉ-Iât~ğ$–Äˆo²„ôÚ8¦,5ÆÑrÅóÔxÏÒx¾ÈÄiNX%°ÎÊøé'ã5e3rğâÅ§+şÕu4%?ÜQ–Ì–Ñê‡é\"Ê'Åd’¾;gä~8IV?Úæ§ü*JnŒœŸ¦ÿ>ÿxrñæå»ãÓß?^-X”$Ÿ˜¥3õ»ÓhvoüÅidœ2³%¥Œ|bÃƒa^°4N ôì‘ñâÅüÓ€ÿÓ„¤¹ñ°˜æÃh:%«s,xìPüó=›ãCdJ\\÷Ã9¸lÛ\röhèzÏšlÁƒ¹ñL€ØXÍ\\¯v™D÷F¾ Æe4¡9)X¦,è™|Ak½ ¯š¾‡IGé´?wQGñŠ{‘ø1ˆÒ/‘ÄO¦t¹JHNîâ|a\\)#,rÂ@?€æ¿ÄIR’åå»—oÿø°bÉ8YªŒ€À’NŒ#Ê½½ªŸ“Û˜™ñL²Uœ¦¤ûs[ç —»o)3É¦¨í¿¬‚§2–9´íç}“ËÉ›ZN¦@lÊ~˜2še‹(f?p^Õb2NâéFB`yşfüËÇ‹8Ï³ûô»Ì¸¤E’å4åŠö½xäÃáÅ»o®{Z3š~—×4Iègq„¨ãß@>rãÉ—-ğjÜ1\n$YÑ,ÎÁ(ih\rà¿õ$šÄ³([Tøg‡ñŒÌ7³¬“f6ÒìN»!{¢R¤3Ÿ.H¢TOsÁ…ØÃ8;K-À©™Y¨y–˜Dğˆãø±7~ZX Åuù¿\"¾· mÇÍ¸Ë¾ë!›.–Ñœ‡$_DÒîœ—’å²×–ë%cQOC–Ç°}ÕFªs5Ù:ğÑü&JÉ¸ôiÖ£í’e/nÌ€ãŒŞSä©¦(ô‘² \r}ñºDÏø	²/¡s67HKt`l1Ôj¨­¡)¨ãõAZöÎir¿¤lµ€M‹§y¼üäA“äÔäiÃ°YrlUr¬¡5B'6rú Í×—{wÉiÇi'°8AğßAgwâ´ÕÊm«•k\"uì|üãn–·-¶ƒ˜›şş˜=¹W„}èÜˆÅº°3¬»?>K½Ô¹»Hut>µ‹+^›+f€\\qí\"WZtÛ…j]ºê·s/x„	ûÓæÛĞUêAu¼¿=Ü8ê%âH VœÑ»ƒ'Ä±7÷J`ZGœU0y™@N*FéJMÓ¹wGø‹©P\rc&Uªõ5&ß8^ûwîÀ³†#[üî™¥‹SòWŞ{°Ü™½íÏxd[V-f€œ•ŸÑÉŸ2ò­şÿ’şNö	(;xÔ7IªœuÏTëäÄ4ONl×„êrUõéºRÕW6÷Ğ2¯Ue2]LzÔ–Õd„ºR™¹µT&­oIë?¨VÖÓY |`÷iÚ'ÏÔuå¤Û‘Ê‘´«†qD¢éB¥0§F£u*.-Û$`t2>VkËzˆòÏwo~“›°PÑ§RF€.Ï#ĞtYá~-I³y±™ñŸ˜Å\000i'Fèıºƒíâö¨µæ!ñ’0#\\Ğ„¬P3š\n¥mí#`j®É™?t¸ëZ;˜QŒ…qÜY¹|Û>8ğkÖtm”· ¿\"ÌQD’9é¯¬¬-şKrâ®åäŠò6GI-Õú\r98Iî”úaƒ)mí[Bòj‰ÃİÄèûßE8lDIÆ=º!ºÀ\0001ÇeNÙ’Qz’Ë¾ÿ.J¹w¸XáS–‘äÚ˜9¸ˆ2Ø–´˜æVL“ñ\\€™/&>S0mb§]Åo{<×¿m©~;Oi@ÑŠÊÛ\"ê×1ƒ5\000JÅOK_•=å^38ÂxCÛûçp£şÇV!WR¡†jHÚãIÚ³ ÷Æ˜._Œ.AÓ\000©Íj´g\\´ö+§ô†‘T²½%‰BN¢àe%58¨7zœ6ÎÛÔ“Ò0±å8:ã4àÔm4#,Nö}†4¶ß²¬a»ÿåâi%Q–ÿaüË~Š[O)M Ï%Éë²%„ ÖÅäÏbÁ¯›{£‘É>ÅfqŠAàMpmÖ†ÕØ]œ‘^¶pBíÕÅço	\\ëÄj‘ì¦*‚Ë\\şúü¶_d{¶x ã8[Rğœk ü§-P4.ÕÂ…mçÑ5Ì“5L«>’ªùkU{³„l-‹\000ãl6Ë:´¬‰”7ğë*t8IApƒ¦¾$¶Uë<»‰Ws„xeØÖ(ğ‚*úJt÷%º·hY“Üõ¥–öëû„i³M{1dK­Ûğ©\"¸àç|è†û›'ƒ.İA ÷¢¾¨|\\­æÓ›1°Uœ¡ ©jì‰½NÏæÆ£¿UÏP=ôÎf0]\r¡Ê^:\0005™I4«öÖƒéVS\në7îµ÷¹q6G½‚¾‹„x{Iˆ¯b`AB8ğí¡ßñw–3˜ALÙú½zg0ƒÍ`†m0!è÷ ÕîÅbìfØò2îƒd$%ÁÏËïQy™­î£	£‹ úsÖ—+™3 ‰:6k%®6¢x>Šß’Rå×šZp;ÿm$ƒ°C9âº¾ïayÊªj¦FÑUµ-“êsÑÍÆtFş‚ØovXÆ€káúË¿rNqÍ£\"Ï©ÆŞ…m‘X·Å6”v@ îâuÂû8¸o\\^MeÓíO6ßÆ]\r‘ô©|‡}¬RmTgÄou„MÒ‘°Ş$NçºÒz¯¨Q¬²¦^ûfŠ…j%ÆáÍÊZu6ÓşZD2ua3‘ÙÍ‚ÈÂÂŸè Àh¯«CåW>÷©xhb‰³(_dw8õ|N`µBVš‚§*ÚŸÈÙM<3,ÛB¿… ëUøA,T¿ÃH»í¯ƒdşHBsqÙû&M~¨|—À¸>s±ÍÖ>õ–†ØS‡ÚzŠD}º‘ 8Âp$Xšàsğ\n¶-æİ({Cş†Î\000sG±<\n•º…bNw£â·BÁ¶œXíúÈƒ{µ/.R¬˜¯	†™¼éK¨”ßI.Nq¢r‹\\±(MáOšşM&°çìs$ClĞ-B¹4[H+`½Ê®Û}[ûéÃm[2ËI¦D…¹eÄGCHĞİ¡ôøa1C¿±rrW°¿u`¯ó=åa|¡?°ı¡ÙŸäJÁËÚòà¥n>i¢)ÎÉqN”ó³8(>ïSŞ¬kÆ9-9fÛÕ<2š\ròĞ;ê€Ú =2Œ+F\rVl#pËØ™CÏØŞ0ìOßÒ˜E%EÄÚY”ªÉ˜ÕLÆNÀöá©­mœºDÃÆñZxİÓªró+¹e9)Køı„¨úÕ›ÜmP	\\Õ©<ˆvv:r´[g®¹‹aoÀ”]ì]ÆŸÏP)à?Q&«ÊA‘|W–£8ÎH2§iZ£‚ÍP×BÍì¡ï´Pqtº¶İ¨Öë@ø¸k›Ï¦C—±.÷W“KI-	¾Ô‰?&	¸Q\000J„î\\ÌvÅóåg‰o@‡8T8C[w=­Ñ¶{bØÓî® yá6İ›ªÿµJ(#ì»£¨yó«U“Öp¢ Uß7¼F&Ç+¬\000/(ã^á›¤mQfŸ_~bœ‚ƒ¿)ß‰èÀp7î¸“œ`ši.ïy|V5¶yy¡Š!8€oä¶ñ®ÉöyîúËZıö‘_şöòâ»Kc|xzú£P½)‹îãmœ\"³k\r=ß\rEñGIÒşa-§[6(mÖÚÜæÎĞïá\rGı' ÚËûøö†R6%iÄbjø¡ˆrJèåÛúè8æğ[Øºøı^Îqíü@&23^Sz“-h®AÁŞ*v,óA¯r(à.º_Q\000ÆHè´#“V_›É-«‡.ùpfCAûŠE«i´³ä›àp+RÇ2dR®!¦.oâöÃ‰ƒÃå¤ÈhKÊéU„“ å‘ÖƒÅTÚ†V£³ª€´.¼¸Hu¯¿fä7C{º@ŒâÎ\r(ty…@€É?GaÖ\000¼ƒ’`Jà\"Xî!»œıÙt	yµ¶Ÿo]Z »\000'VËùÑîö.tv±w`æÑ©Û¢ÕÈg¶piÎd’Ì»æ ½¼•[ÍÙ5{O º[Òt^]'P]&²]ùôjÁHn1V_¦7 Gq^} ‘Öo¨)QÖG«è©Ñ<ö!tó˜pèlùd‡øÊ«„[ı.Z.ú}Ì%Õï ëãÓC#»ıÁ/¾zD¹”õµÙpjà2† KPeã:Ò1cBò;ZãÉ¨Ù_ÇøüX§œt°¾³³À{Aø)¡¾D\000]Ü.°7á•¥Ë:æ<1·Ì»€]k®/)ø2øKp:x1\000z:²ğf´eê\nl‰y\rÛò ¶ÜÅ‚vÛÜÀû<S~şêµ©İÍÂ*Û2jìîV =÷äÄµÛ@ÂÒ~iJ’&€£rr¯ÄmFú8b7Sng¶ºÙ3ì‚£=Âé#ˆ=G{?l>dÏ†ôë^ö¨ûr¿{Ê˜çã0SŠD²59¡ñŠ¤àÒãpòB®\nÿ¨–,ÍÃ­’ì˜¸Ÿg¶\n~ëiO­\rÂàÁ×;0l¢-i–Ëu¼\000’èJ>ÕhZÃ†ó¶/P¬Ë\r¼ÚpØğJXB;+ò,‰‡{³Îš²ŸAÅFÅîÖÆ%ÔTüü­-9ûj!VbÍ‹Pœ8gG4o8¹\n?Ñ ùµ]·dOAˆmÓsG~o—üpPŸ=`ŒÀ4MQJØªß•ÈÖ~UÅ¥Dqëw ÔFûç!¬Ä„Ã¿±-e¼~i!ªj -×tŞ¾îHq£¢ğŠ¢İã´£F”¥@µ%Õ:İO®%V„®gLñĞ¯íJ_W–ŒlWœ	9bEİ6%Æ›Mş82ÍGrwŠ/®	;¶lÚ×7•Ùyø‰jôèE:ƒĞnL—ˆµÆ˜ü–¶¾Nß°åvQ}Ğ®v‘|ìLßªzF#Ï“Nùï\"X†ÏË-Éì~×~Ñ‰‚hpD{œÓ’çƒ¥~—ûQ'üÈÓDÁ7]zZ ¿RGšêo^7çsÕëDº¸CÓ8ê9Ş04¶zTÓÃT\"ğq$¯õ;s{l_h¾¿s0\"àk>ëjş¾RÍr×u\r—Óˆ%8Z˜Ç)Äƒ«¬qV_<sTÌG‚FáQ%ã”R®:Ëú3êëÙ!W!ñÛÓ³³«'E:‡ 	CíE‘ŞÀê4ìÊ^;© ”#È›lû2ïÓ›í3ãŒÈÊ’ê‚æm!øå	‹æKÂKªv:ğ¯¿½U\"ÿñ`\n·py£j·‡Ú]ûé]»%3&@ßM½µöö‘Ûó¥	­\000mÛPÉ^É×NT5wYEY&—T{«ØdÂqÃh²i& ƒ7…õµ[_ñk]Şúû)åIã‡Œl8%ßˆ¤<¬c@oô€îZÜA3ÎZuÆßëcÇ+üİ\"^ÅÊ¸[€A0`‡Éñ5˜	ÔÄŸ~:fE<ûárA*ÚÂ¯˜~¸nŞ”\000ô`Åà™ŸÁêFQÑ.ßÙéĞøŸõŠÔŸ?9¡x#M[HÜºš¦½x£M`·…_zƒu­ôº‹l´£h’\rkÜS£Uy½ÉªÄæYm\n$;˜Í·sœ)Iãb©.ÇÕHÊuÌ½©ä;í|šÁ-\r;\\@`*ƒOzL=Ÿß@¦ÏÙ€é:è\rLeBpİF	»7bœ„aD]›_@f®uùY§×ÁzRÀŸî/]ü@Ò	¤s³¼ı[Bâ²ÙªÔöô¦µş±Ô\n±Ù#¹¤c¾4aäÎø…ÌGˆ•A%‹pXN™wòYuÉHk‰6Xëu|Rà¼Q{G[WÒ©J‹GüGÙ˜&	ÄcëëË»*šÒõ¹#F\"eW³®	šßñ*Ä‡Óˆ²®	¤½ ˜¹ Ñª.iVw9LÇ¤úô7’bò™B»âNµ`z±¥r4W eL+¤ğ½ó´âJ|ùê¦RÊä4_Æ]Ù‘	6|\rDÊEà»N6âıP>¢iû-&7c;eª“ÎcÁÃ+ü€î¨M„xp´¸Õ\nìÖuün3<v…y®’Ëâï|Üp”hÄÃ\n‘nø„èï§YõõAÅdîğ¬_dùmhf_¾`í'u^´é)êE¸;Ùnöw®7pCô`m'-jË‹¶ıOsEÏäŒÖM)~©€¼UWËú¢ä–3ä\\Ç4½%\0006¾RdËùw¯ Q9¿ƒ8>(#€’™´;ÒÂÕ9“şÑVöi\nöíÎËëkÊ¤óÒéİYù%‡Ÿ—¨^¢à:–gá)C3V¢?¡RAœ‚MóıfqÜ3}×WCá%ÆCö‡ÆV+dxŸNh‰«5²f@¤¤3Zf¢ü&Òtª‰/¯Á[¬sìæòm®†xÜÃsÄİèß>î^ø€àó;(ío/|ğğ\"ú^>ùöMáî‰Ş¥4¿5|,s/„|,£B^ø–QºiK¾`»iTĞ™\n´‡@÷³®3š¦-U:ñ0Vn‘‰â.¹y¼k‡æü³Bv&JÅëí,¹[‡PénM“~ª(Ø-Äq£SşÂÖâê<DÓëıFã?Èı–¦x§~ç÷í Â» ¤ö~L+Vã'ã\n$œ¸Øœ0cV¤sBÓƒïŸšk>ş[È‘uNçsàE5l™qÏ eå‚£«å³şšsM–æÌX×EùåÅğ[ íó@`­¬‚ßËËû+Œk±Æ€Ô×Š7<ß÷’OàlUİ34«oÈ6Q'üb“hv‹óQœG˜ÂŠUib=­Œ\\©_¯ 2—’°»s‚ÿ^Ü€ü\n—ı9O~.–+CÜˆ¹ÿé.…®5°8ß•/D˜{ÓÙ\\Híª`+M07™Š´İ…t‡†ÒkYCõÊ¶ùêÅ\riõŠ„Ú\\a\"f³ˆ’÷ÏŠØÃÎßİâïHJ–bbBÀáb×êÁ%¤GŒ9/âeKrœÏ%b=fÓA$Éó»¸][¼ï«ª¶¥Şd©º‡³KwkËÎ®/ÏRÅÙ·Ä•8T.¸Nı¶øàÆá}Uv•wİiñ+§·€—+<*Èñ.Õ]à âs¡ã¼–ƒ\ràí5‹–äik<«c¯fDc—aX;LHî÷+´}S¿'BKxğé¬À=R\"¥ÚÒ}§Ç¼ÚµÂ‹·:B²/	g#<—O®KP-ôºš€¿~QĞ¥˜]¾2£Eã5+\\¹'üö[‚EĞû]ƒã‹G@e÷Êb‰tÃy	QK–9ñ^<#ù|ÿ!P²]áQZL¢¸¦oC&@\"ızAwÙ±aÙ\0002pT®b­LérWe«Í1„«Eœa164Î^Xµ\"9ş.‹$1°<˜‚)Ôï’®Á/½\\®{‹—+Ï^´ÙæÏN 9Ó4%Óœ¿ÕTŠkn#¿Š¶|‹\000æÕÓê·Ø†rŸ*;)«7f…aÉCÅµYõå^ü‰ä˜²”T`ülV½s´`‘á:®ŒzC¾ +AÔ­køÑ&'Í\"c… Ÿà	ìÍ¬ı£B½/%òÿş›û´vKWáún2t´E†ì2do‘¡£m2ä™Hâ‡¼õp7òLq§é›ì/C?Çe›)¨—¡£¯&CÚ6}§·È³Q†œ-24Ş&C®/!¿„Ù_C†€ˆ¼å±™‚z5r>K†7ËĞF	r·HĞñ6	\nDOé ì.AÎ×  ß)Aî	:®OÉÙW‘©*îV&& ¸´¸™…?Õ	4Á<ÃÖÄ|ç˜|2ÏÑ}'î<°}±f\\ûg¡}å2R¶²û°¡È+êYÍ½yE«‘Êy”ÎH‡XÎéM]<XaáÀxG²\\İÜîÌ’j*>Pl¸n€JğYÕõLòKêµTÂî`Ï}ä+—^Ó·ÛõášßëH$…GEu«A>t4Äke_[kTW§¿ÃW]R$èâ§Ä}éÊ¾#V=|µàÏ6×c9Qİ÷ştå¹¡ú¢§z\000’xæczs_rrASr/Ş/%ñÎ/Î(¯öä72.€İY%s^)æ6·¹r¼D£~!YF1¿•%¿£\nK\\ÍØçã²¿œy9‘4#×$Íˆj’\\M/N3cØµ^­éõûÀOW¶xaP¾Œ¿…ô¼H2ôuôxnt¥y>%†T»¼¹0|?Xy¿~Z^1²~_Ø(ğ@zÙá_D¼‡¬Ú@^üeÊø«§q‘f…òN³_=öY/µuE—@Œğ{]ïÎ<gô–Ş\000`b$ò:&éL|#A,(2ñéEô7e|,¯~A®è;\000ñnÄÓpj··mºî «Šx©:~íoØ_QŒS˜†úüSÛ6HFDz‡àÁª6`ùŠ—ZÌ•ƒEÒu·x¨Ìµ\\.Ò=ál›¶á8s‹÷\nñÙÑEĞˆ%ŒúÎf=u¯öiï›Õhš<ôôí}³ï×Õh5\\ùUt\\XæË,C,ĞBÕªc\rµÊ³¥‰\000a¥xÏCÓzòéøZ¤ê¿üHùÄnË^û\n^¿ıš¡Gæ›e»Õg~×½Çï¿ œ’|ù\rù’D¦!ÿÿ",
-["metadata"] = {
-["guideId"] = 1694897378,
-["retail"] = "",
-["group"] = "RestedXP Speed Leveling",
-["internal"] = "",
-["imported"] = true,
-["version"] = 3,
-["key"] = "RestedXP Speed Leveling||a) Isle of Dorn Campaign Midnight",
-["length"] = "616891112",
-["name"] = "a) Isle of Dorn Campaign Midnight",
-["displayname"] = "a) Isle of Dorn Campaign Midnight",
-},
-},
-["RestedXP Midnight||cFF1EFF00(1-90)|r Default|bc) Horde Silverpine Forest 2|1282"] = {
+["RestedXP Midnight||a) Selfie Cam (H)|738"] = {
 ["version"] = 1,
 ["cache"] = true,
 ["enabledFor"] = "Horde",
-["key"] = "RestedXP Midnight||cFF1EFF00(1-90)|r Default|bc) Horde Silverpine Forest 2",
-["groupOrContent"] = "u‘Kkã@Çïó)fñes06Sq\\ÃnÚĞ´KYö\"{{`¢1ò¸è‡¯ìĞÇ¡9H#é§¿¤4]fË_«,ËJ%ŒœWÉ#rïéL%\r‡¡Ó·ØG´;½u–\\ÓF•ôCuŠ½ÖE‘mŠb>ÿ™¥«ùì•u¼$QWõL—-ê½ó‚î¡.S/Tb]ßyx™R?YKÁ¤ß¬×ú†kı#ÿmî8x?Y÷dìéFšÌK‚İøÃèÈÃc r ˆ|®çÅùW¡òÌÈ‚ğà¯Ç=T	M)æ1˜-4-°H5àØ\"åOÀóox`7‰7ß!ƒÉêØ¾°ù¢Ò”ÀÈ‰\\Âç¨+û¾ÆÒyßW,!Ävôd‘¢r\n+9U§Gµ$ùãtûÑê?øˆ2IóÎE½ı",
+["key"] = "RestedXP Midnight||a) Selfie Cam (H)",
+["groupOrContent"] = "íSÁNA½÷WT2E]²cY!1«+”À&p0!½Ó53zº‡ên–5{à<ù{|‰ÕDÏ^_ê½Wïu×h´[îNöÊ²|«TÁ5YU\\#òJU4ìS'\"šóc8\"ã¨i£*œîôœ¢­	aª;xy¸%8ŞÄŒŸi^hgÈ50÷\rÆù~ÀPè­^\rü_dUT­î#²Úß‡CÏ•Xöû®·qI±…,®\n«h³õù\000EŠa]Íf³é‡éx|zI=Ä–dˆzö¢Y³z=pŒ$š† *B¾JR8:ãR³	P'kAR×ì;°x6Àd|wû}o¬^­«“óã‹³÷'Ÿ/(B¥,·5à]…ĞKh£Wo@¸¨†•Ow·?®ŒwÂ[`í×¼½!ø1DêtÌEÙqN¾ƒr´Ó‘KÃóñgi—­˜\rŒzxÉeDŒÙ/³Àê}Zéö·,0ÙƒƒO>|á†©ë4?0¯1†\rÖÿnŸtK®²Éàï×óuãn¦ÿåW1Ÿ©¯÷&‘˜	şXÈıå]_Hõ‰¥#7Ìİ?Fr‘,Üô™œõÕ%šÍäGÚ%mí\nÂ_6ùù",
 ["metadata"] = {
-["guideId"] = 2930383162,
+["guideId"] = 4069329992,
 ["retail"] = "",
-["subgroup"] = "|cFF1EFF00(1-90)|r Default",
-["next"] = "bd) Horde Hillsbrad Foothills 2",
+["next"] = "a) Warbanding Together (H)",
+["enabledFor"] = "Horde",
+["chapter"] = "",
 ["group"] = "RestedXP Midnight",
 ["imported"] = true,
-["key"] = "RestedXP Midnight||cFF1EFF00(1-90)|r Default|bc) Horde Silverpine Forest 2",
-["name"] = "bc) Horde Silverpine Forest 2",
+["key"] = "RestedXP Midnight||a) Selfie Cam (H)",
+["version"] = 1,
+["length"] = "616891112",
+["name"] = "a) Selfie Cam (H)",
+["displayname"] = "Selfie Cam",
+},
+},
+["RestedXP Speed Leveling||a) Horde Kun-Lai Summit|1334"] = {
+["version"] = 1,
+["cache"] = true,
+["enabledFor"] = "Horde",
+["key"] = "RestedXP Speed Leveling||a) Horde Kun-Lai Summit",
+["groupOrContent"] = "í=ksÜ6’ßõ+ò‡Ü&c†ïGjËW’,Ç-[+)ëMîR.hÒpÅ!fI•qùÇ_7ø\000G#›’}Ùı’”èw7º˜ÇC'ŒÇqÜ½½G«hší=zÏŠ2å9qö]|µ$§¬¬Øì'älÉØŒ¼bïY–æW{rº`„ş…<çÅŒ‘—«üñ+š’³Õb‘V{Ò¼bEN³½¿şµ±Ë,÷Mùb™±Šİ¤Õ?ÊhZ\"&å³½GótÃùŒßì}ïìY«’•K–eÄq=Çwœz!kÊs€µú×\nà#8şÿnCmJìM<Ç\rœ-SWIüá)¡“À”Ğµ·L	\\œDÛ¦ØbÊpÃÀSÂ-SB±J(aTçÏYy.IìYiù7œ¿ÿL/2ú¡-Kßv·ş€„nD<ùşü”f´ 9yÎhQÍË\nF›•‡»âÇ&A`¹ñÄõ¬$h–Xõœ^3RÍYò¢¢ÙoŠ«\"],hÑ,-–ˆƒ‰o[±;‰mËñö<ùx.Dé’NÙ7¼Èfºüa:§ÕÅêöúW[[ÙòG×şXÓìÿ8=ıÇÉ»g§/^?}õë»ÃyÁ)ûXX{NÙ²\"¡í¸!@¶_ÿó8-«’ğKrBó-Rú#9çİ?¾Ú×KT)ˆ}¼g!y¯xY¦ËtF'±Ãß€²-®XE\000TT+'Q`¢*`~»úúİ3eüFŒ¿±>ÈıZwjĞ'&<yr˜¥ÓkJ‹ÓkÙXò%èî*Ÿ±‚¬ùª ‹4Or€~µ*ò4ïĞ?‡ø÷­ø7ˆ¼fø‡£» D–L×r[1ó\"Gˆ“N ~¦`Hñ\000ˆúò\"~Ìók4-Ól3,Óÿ‚MÂ‰DÀUÊ÷¢d9@l„'vF“®ı%L¦´XŸY~%‹™ ÇFÌ§ jl–NSP©–¦ê÷Ì@=€Ù±âñ4â˜®yA\nº€oÊŠ^^*PÑêC\nö÷Íª\"çs–@jàTÑ¯/¥!`[myáhr\r!àÏË”ÍUè“\rôû\000<6\nÛ>*S¹ÑÊş&õö”’ŸÁ!ä/:È§«¢äÅÓ~NÓâVà^ÖŸ¼8|ù®@\000Û©³\000·Uç-»£eşxîxn”Ä?Âúÿ³ı}³MG ù?W(ÆAšƒ)v$åîüdhNği•~`µà79™3ŠŠD„Û-'$½Ä12§ïÁåk\rxğBµŸ&\000˜“tÔ5Ğ`™q®8Í8±|oâ»?äÙñ}u(L,×Š, ),:¦¡xvWı{l…á$­¤yòäe\n’SëèõÑñ¯ïÎ) ”—=c,T	°àä€VÌ#y–At4­A5‘~¥«üŠg-èËd&«t˜ì\000`µ¼À€¼\"†n=ò¨J+0¿§Ï=;|zhÛ¯OÁ~WÏ`6°iÁwò¡¡æ6ÀJqY_HU-ÒˆAqd…„+*s#ÁwğgÊà—øhôOŠS8äjC!r´ızè{£^åìêaôùO¦¶B`Í3¶HØy‘^0ğ{‹8^|,\000œÙ’h	c0Şå’Şä%¡—Àr\r{!¶ıÇ.[ê:«‰úv-¾h.Î›ï[õ[Õ‘»¾…Âù÷ê|›À²u¾m`yGïkŠzÆ¢	ôHı³Ã.Ö/n3ÆšøE¬ÙÂ¿[°¹‰šÇÙDM?±Ä0#¯éŒÃÁ”dÿ¢öœÍˆúñ$ñ,'(ŞÛ±Â@ŒØ£‘@¬O‡–[‘÷6ˆÑ²B?'Ù”•oÏ\"pæèg@Èñšœñ\\#œôçîx2ı–Â`ô«‚üÄš*±p,?@’ÉiZ­hÖa¦ÿ¡–Y,¸âù“Ó“m ÷ß^ìØ±††oÅ>¢ƒ»£?–/Sğ–Ï!jb3<^SÃƒ¦_ıÎ°mbã¶ArßÔÛØX¶w`ú‰~ÊÊ%OÑ*†Æ8‡şh>£ÅbaÂK®ò”UÈEˆ4Q–zQàèÎ0t,˜!ÒcÁz”¡;›§Ô««À@,¿_úØ\000«“Ü3¬’İô$‰Ql d()+0ÇĞ(¿Ç.ş€&u+Cø½A4ˆ¢¾å`H[“Ø‹19õ‰qÆR¬t@s°İvÂv%ÈrIÕzÿKñ¸Ş`†pv“7¨6ßD®	ıº¹­ÁAĞn \"/µ¸·l_†üöx¹YÎ°ïfğÁ)Û€S°­ 2.‡@AÍóë0ttbHYrYğ¤oCXò\nÈ¡ãîºa„Ü³l[@>Ï0…M­b;n åÂOù\nøñíÑ‚ü²Ü\000Aw­H€—`=›Cä½\000ñÂ½L‹uŞp°`Óÿ”QLuWuvù´ı×†şÚb[Q‰'QbÅãqá…\nlg¶ª¦ó%_ªl\"ğL„Ã©bÖ|}3gÛäáÕu¶!xˆ„?Q½ó†‘k|…ÆnàG\000$}÷ğ=~88©:Üe½MEˆ_­şûòfN^óÇW«oîäÜñ%†S„SoÓl–¥—¢õİ+Î+¤Î‚\\Âaòã¹ëEŠ4Qıí«7oÎßµ‘Cµ&i'ÿßÃ{­a|^Í3 k‰ØKõoÇ+0òyı×Sú`³Ò^LWKqPÄ‘&æ;ÀBbU¤Ë¥ö\"¹¡Y3”“ŸSªé·uœü2­0õÃ//ÛÌÂ	•jí\"æT3ø!8D¡å&¿Ÿ<\"+Šp(Ö‡ ºuqtIjŠxúPd%!\000[J°NyD©úPÒT'®2$?ùØC0<í¨ÆC*Ñ·¥QÔıÀ·Ã@uü\000¬6BÄï©8Ñp¤\"VT÷Xîw”¿­³VæUEÉO+ZÌÒVi¤^r´uy˜wKÜ!šü3¥äŒ¯²ÇuzQ\rs°Ë Ã0Û¤‰¶ĞÄñòL=MÜ9‰äÜYÿìäX|@	ŞæpÎoz‰ónÂ/k–7Ã=NE½À€+–<®äÃ¥¤sÑÏ\nÆf|!{fÛrƒI`%]ú:–¾¶,K€\\×ù«	9çü›şN„K$^'2>½0¡!I6Èœex˜èWªÔZ”†‹|‘jv15à1ô¡ÄÅ\n–†â‡bÓçù\"£æé`@äœà­ù»®æ3bFŒ.Yò°ŞiùºŠ„	cµUÇ4ƒC`AaAˆ›uà;Ê‘}ˆæC¢ö©‡è<Dä!\n‘wˆ¶C„¢êIo)gj¦ôM1ãä\röô±6ÇóéŠ™¬Œ¬CÚ±;rZ«)Ö<¥é¬-Šõ6iŸÊ[Z¢óZƒYmÎÍF=€\\‹NqÖßXì/ª-úw#EêÒª¯è°VÀoCK‘äÑĞWÄ‰\\ÛBŞ]_©Ñàˆ+$8¸S¼5T›ìSµŸUKóà|(X^›óUÉL„oj±‡œ_§ŒOM•Õ:>ó-“Ó•c¹^É³šoÏ3÷\\o,— v÷nÏ}Ëkè^XÊH¥«–JúVŞ¸.ûNîV=AÕ\r4‘¡i#ğ›~•È×†<œö-Ñ‡ÀÔ‹‰ÖÎ¸hcëObèAâÅOVïY r å%ù•^«‡ûDkËÕ‡B3®s\\xV9Æ®ÌrU°\r*›š?]V¢íCàB(Lºmªx\000XóU¿CåÅ%ÉÓIÄùî À•ÓteìTà€÷	‰©K©\"C©'šô\"K›ãKÆËbs|­j79¾Vµïäëø\"·w•7	n¹B4`j2{}˜=s8Á“òuB¯ëqÖ2z›Ì_ §˜D×3ÃnZ‚BåNå:$‘©LÆcÆÖl±¸ Ùş¢`™há~¶Êw¡¶Ò0bo[ƒFSihY²S©AÆXêJ~çZ–W%[ò¼¾–¢ó$LD1b¼ä·¹!¥H|	¿O¬F(ñ½ìŞÒâ-$+>İAI&Xr-	Ø’aÕæßVû<HåäMš^õåımsó³º@/`pT57Â¥²ŒM+ÛOêK3°âˆENT¬M±·«rjîJ\nw'Zì¸¶¶D&Û@¦Àkª¿šÄº)Õ\r\\'ª£¢®‹¥l,Éï”¤G‘^Yu³¨ ó- º-â»PŒ]d|ÌT†¡13*¦‹\r2úMÅ²º\\ºmä´Ø|p±ù@µ>:HÜÕOL»>§`lhClê®Ó®^½ë|óÁåæƒÛôáŒ¯à‹Â5­¦­ĞC1ˆÅ$Ò÷ş5BGqgjl×	÷;é«÷HÂq×±lÿµÂ€ã =N(|\r~Û ŸÍP}‚\\|Aó)+Œê×jşâ®àµ õHç‚tƒv×»)3Â…ghÛòâ‡$`È0W11±«Ê{&•Wp¬8D^ø®IŒ1Çå­pÔıv`¢ış5ÏWb‡#lÅ(wå›|q¾fĞÁÎÕÕÎO…pqY2ãW‚MÄÖı½w\\)¨3RŒ*ı¶jôv‹ŸP§›Ğ8ÉåcĞõ¥$4Ç™7*Tõ%¢#¤¥ß³[Ñl¨@ƒ0¸x–jArNa!M‹Õ¥ÌØ»æ-îu%Ëå·EÕP+Aøéˆœ‰§WT¼w†é­æã‹R\000(J¢•MP‡Ä«í%ƒ1Ã\000C»mmº6İÃÁb['ò%ËÁRáÙ‰?>¡Z›=æÄrw¼¦¡­·êôAW7åº©¡œş1Ù‡­Wúùİ'ã!¹5sÕä6 OK8´Gòp¼ËÛûŞmàÃ9ÿ¶Äëîèo;†ÿ»‰T€÷x°R;^\në,Kkp™×eES%W:r®c‹³Šoò@ıO5`}´\\¡ƒ·ÛìÉxÙ«W«éõš¥WójÊÓ¼ìƒÛ±ò>ù©\000›”1)ü®]]Ä\000|\\×šGƒûlÁ¯Ş:â-ËŒ©¤{ı ôò2’e	¡¼8R‚í”Ó™(×íƒ²\000 ŞğFÙÍìDCì<Çş$[ke…Wÿµ=Ãx/ÌL†¡H$-cÛ´`€;êms0äû8ä›´ÅP¢/è`BtÂÓtğª¯U‡lœ†˜VU»÷ì®ƒ¯\\½±/Á®\000rô¯bA('è_Á.H\rÇğïaÑ×ĞD((º®y>9ú^â: šøÕ±rˆCLâàû†x7Ä¸!®\r±lˆ_CÌâÔ›†x4Ä !î±fœ®6_«\"£K0ÀS·ú…üÿZâ}&ì)»™§ğß_ÁÂ³¿h±é·°°AR4æŒw/ã Àk­Z¶4+à6q(YÀ¨Wx0Ø6©ãØíŸáRˆÕÅË8ÍŞÒ5|\\¥|\000™ Ñ	NÇÆ»YğŠì†êÚ}¿èÒ¿’­„@ÖI’ÈE08ï½be‰ˆ¼g™T³èïdÀÍõD[×x‘Ò/p`Sò÷¬ÈUnm×poB%ğ³¹€„ŒÇ‹è«‚^m|›ºÛm'öSV®–Ëlåë79#/ÙUŸaÒÜE\n&ãÅ)é9£™RtbÉ›àj¥´şÚ„Ú­èD®0± Ø˜éØœóŸc/zÎßyµ¯Ÿ02ÏÁ(¬1ZA9^‹pï›>ZAÓÙ3&ËN¿ª“cÂ@¶Vmšª¤«-NÏ¢éÀ7ø+{˜èp+îèñîÚN²ój2¾¡#‹Ví|ÿ.\rÁN?ƒ»L8.6FÅa‡ÉŞÖ¨¥nY‚0‰‚Iìa8â÷Y&’€\nÇL‹\r£v–ór1BÙ?(ûÊ1%Õ¯–àOnïå#Bƒã%Oq0M¹øÚ˜2äCt‹×èôõ|¬&ÃÁ¢©_Õ§	_úCıÉ®xÕH²1nô+ÔÖ\000'¾g)¯Oá7í%8h¤€¼Dü7P‡0«‡Ûµçšïµâ±‘W}ş \000çälY¤ Cç£Ø\000ÖfXÎ{iÖzèLÉ–HV,[ZBüÿw-È”ædVğ%¡¡L0wäµ¥‰zyÑ‘wÀ2_‰S·rqEÛ7»úWûKSµ…xg:OÙ{PêZ&kLÚö¹r™NÓnåuDR~~D~†+ÕûÁ¯éŸéö§XV[0lóBg-Ÿ§3ôÅâ³iŠÈf,¤¸W\\Ê&ŸH~¥ Ù®¿)IöHÚÃá?Ú³‰>‘-wÔŠZT´­¿1×£\000Ci«¦µùe8^ı’ğ°ì–‚?)=Û—w{‹*¢m÷NPWd_1|\nP	ê£Pn…}=^×™í¯áp£Ş‘}•Èó¶¢î¹íÙ&ØílsëJ\n\nšôãøä#½”Ğ“K1;Ÿéû™*÷A3UuúiÓG¢äŸ¤7Ûä×—ù\"Í¿mZ¥‘ìÇ˜kÅŠØö„Xˆ7ùßš·âaEEÊ[e3úÀês†ç—§ìÅ´S¶›\\?-zÅúÏøDøF/r7Ø³Ş38ï“›¶Hx}ö}²¾h‹dŠJµş€Ú¤{(Îs•ôRœü\n§/®écS\r6‡¿¥i%\\€è†Á_ft­íã,‚Î&CMö=[‰«<ÚqïÊ[…C]MÎfÄÒå1Tš&cZÔéa FµÊ™Æ_Ëy€²ûÙü­ß2½  F9›‘·a_ƒ&hş½¾+Us8AşäEF¿`Ğ=ã€/Ğ¥ú¯€µ•ñ³9'¯Òú‚ª\nBÓ¢vÕL-a*D#ÍÕ¬ş&1ñ…˜ŒWğİ.&5o»Úú swé}¥3Æ®Åøšñ÷}qõû1?]6”s×Ùà1È„¯–|SC^¢~€íucà‰ È±’ø¶÷Û×I°1mÑpU©‘‹VÄÁØˆOì&ıbÚ9„Ò+†Cô1(\\¾µ²´­î2Í¨°	¿­àĞ¼oRış•Œ\000ZÛØŸXÿíW8¾§&(´{L@ƒT÷H×ç?¾Ä!ñí .AîNi±…kËÍH\"©Ú²\r0?DÀ|ã«4;ª÷ÈªÀg'âõ©ÕÍ‹\"¢µìÉ­Qáë$5’š:«¨&y³iu—ú'>ŒùjÜáªgÀsş~A\"Jäqø°kIö³/ñw/ä7y‰Û@ş$»%gÊxuXİ‘´†n€ŞîõŒÀqı(§p#Ó°yÖ±Úç×ê.â'ÑÌîDf¦ïƒC/€.¨Kãù—}~©)v@P>»ÕOùOişmEJ¦=1¸y_¢ŞëMù–¤JºYºŸ“#.99‚óÅºš‹è@ZUG\"(­«¹‚Å.Zyñmø\rÓZÁ@®M÷ho8qk\rL¡(o‰îu(BÓC~Ó}eúí	h 9[¦…x*@•º°õ%U7·¬çŞæÉ®sZVkr\n\"'¨»-Àb‘âı9í=j6çĞÎRÀ î\"Š| >!*l:ñx€aq¿ Ø¬¤ø­–z8Üûå	ßù¦q`{YÅå»8ØQ´2ØNÃ;€P{¢¢ø9o·ì\000^ıSb8qÉ3#hÆ‹²ŒÍÈ˜_ÙRÉ=°·š5=rPl•dÖ¤æ’<Ä¦õKäh±dÇ¨øl²lì,-‘¾Ó9›^_ğ?n5sªëØŒDs,Nº_ôÛÅáTİóØTÿUšaú*šl†ÈdÏ‚ù_‘ïı\ndï³DMÖå—°fÕøåeïXàa“¦†oÕ²Cd<ŞŞ–{êÑÇk»½¯pÈ¶BñûAıÑ'Û8É¾õ€×:¶mî 1¢Œ?p(~6,/±$»¸ºzP47x‰¸Q‘`§ŒÂO45cÃêgäuL>¦q? …™a“p“ŸbÍè,¥¿õåYÕüVıÛ=çóÚƒ½|p§xô‚îa°¤Œ‰Ü¥Š­¬</ÉeÁäyZòëÏTå­P|Içñ®™¬_HÿZ	e-;œÓ²u7gxêy.}5>=îUóÌ—¤CºR Ómä¸Ğ°Á—Ôk8ÑöÄílÚ|é¹'öİ•[½NØ\000££HüärQ®‰|´1²Õ!üµKñ\\»«‰}|·]Šq¥<ÀËVê^C00´ûĞÖÆ,ËoxÏ5Ã_R”ùR{:Şw_ïÑšÎŸ²÷`¬ÙŒÓ¥Ö¬ÛİÓAÚN·Ùºgi9gÅ‚b\"ˆİx]dÿ?Lü\000Æòß#³FÚö˜±Ê3šÖ·şÅ3åphú²†ìKÁ½páÿş",
+["metadata"] = {
+["guideId"] = 2808549691,
+["retail"] = "",
+["enabledFor"] = "Horde",
+["internal"] = "",
+["group"] = "RestedXP Speed Leveling",
+["imported"] = true,
+["key"] = "RestedXP Speed Leveling||a) Horde Kun-Lai Summit",
+["version"] = 1,
+["length"] = "616891112",
+["name"] = "a) Horde Kun-Lai Summit",
+["displayname"] = "a) Horde Kun-Lai Summit",
+},
+},
+["RestedXP Speed Leveling||cFFFCDC00(1-90)|r Default|ce) Voidstorm Route 2 (H)|1000"] = {
+["version"] = 1,
+["cache"] = true,
+["enabledFor"] = "Horde",
+["key"] = "RestedXP Speed Leveling||cFFFCDC00(1-90)|r Default|ce) Voidstorm Route 2 (H)",
+["groupOrContent"] = "m’Ak1…ïú{ˆ—âàÍ!ÄÁ©I¡¡%¡¥‡^äÕìîPíh‘Fvüã+iK¥!if¾÷ôĞz}ÛÜŞm›¦¹Qªò(š¬ªè9†FU½wq‚W‚æÇWx›\r|Æ#Zâ^U!–s»ßïwO»ÍfÕ¬·›úìá	;­¨ŠõˆĞb\rß™ Îğê¢ ÜÀê¹V•¡0Y=—¶ç.!Ö—‘„ÁßrqòB†©ä§®a»ol]û+y‚·9uŒ¡ ïïáÙyƒ*]Mª\"nm4øÈ?æ–‘Ÿ:˜]¼òAÈZ`'YNä\\€V3—·:òA õº“$O¼Ü–s66y×aÈÁ†:qN@…\rƒ>\"_IÂ0fğÚzÔf¾†/éèO²ºö’«ğhR»ÄäèÅ¥·ô‘Òê’º³6AsKIj)¬3´nœ,2P€ü²ÄA,¡•dÓçüÃ’ŞõßÄ¬> }i§ÇISÏåøÈÙ<ªjH:'bãNêá¡Qş",
+["metadata"] = {
+["guideId"] = 3900315975,
+["retail"] = "",
+["subgroup"] = "|cFFFCDC00(1-90)|r Default",
+["next"] = "RestedXP Midnight\\a) 90 Unlocking Systems (H)",
+["group"] = "RestedXP Speed Leveling",
+["key"] = "RestedXP Speed Leveling||cFFFCDC00(1-90)|r Default|ce) Voidstorm Route 2 (H)",
+["imported"] = true,
+["name"] = "ce) Voidstorm Route 2 (H)",
 ["version"] = 1,
 ["length"] = "616891112",
 ["enabledFor"] = "Horde",
-["displayname"] = "|cFF1EFF006|r - Silverpine Forest",
+["displayname"] = "|cFFFCDC008|r - Voidstorm",
 },
 },
-["RestedXP Speed Leveling||a) Thunder Totem Troubles Midnight|1364"] = {
+["RestedXP Midnight||a) Bloodstains (H)|1058"] = {
 ["version"] = 1,
 ["cache"] = true,
-["key"] = "RestedXP Speed Leveling||a) Thunder Totem Troubles Midnight",
-["groupOrContent"] = "ÕX[oÛ6~×¯ ‡­ƒÂH¢®}0ëÔ	ÇİC@ËLL„=Šr’!?~‡’o’/Íä¢}1`“>—ï|ßá!÷÷C7Œ×u=ËÚSLS.¬½)S9—r­½{%‹	ê±\\³á—+t=alˆºlÊÏî­½Œ¢PTdC¦P_j6F}øÓ@°]ğaÆïGÚÚã™f*£ÂCßK-Qxvàã8±£'Äêt^úå¾;š²ƒG©ÄpL'éˆêA1\000ƒ·¡¯Ø3ˆÉGÏyÑ}*zI{_®nÏzç§—'İ›Û¾TStRr-Ç“…¨FB>B\nH˜À‘¼«Ç‹-LÓ”M4ò½ĞóP§sX}=fŠeÆ©@'ªçÖTİ3jš)…>öˆøeJç‹”ÒBåR¤JæùˆruPfKS½ÈèXğôôzÄfi]º-İ¿(§àP0ÍªPm×v›îıGğ	¸z;wïÍİïÍ¹¡Œ=AÉ\000ØGRĞÑ\\£Z+qeõúáùQˆU™Ø–5$Î²†uÿó6ÿ¿)‹Æ?K€£À±}×&NBÛ7ºŒNYR3{Šı]pBØb+‰mbJ¶Clæß(ƒv \\%Â±œ²jMÓØİé|âBÌb?½<½¸¹­ïhÒ8@6<–ƒ¦¥\r~;Vğ&˜$6vãYxÊF<µ¥’\n‘.-²´¢äoÕâŸ‡½ËÛe‘iD³!‚¶By†rM\r¤T=£»“Š¡Ô˜†ÎjÊJ§’ÑJ“iÓ‚†<Oe–±TƒqEİe“u[aˆ\r±…øœC}—±„ü¾	:6A”Öÿªgº©TâÕ&\000­`‘=ñy²ûÌ@X®‹Y¨&Axd~M¥Cù˜ád¿ŞÈ¥4CX7şFp\000)”x3EpùT	õªìv¡_ò³2ãÃjCk40ıjtU¨Pœ‹¯_\rªÿS}tv$\nöHŸÊ3MÓYıÀØyFù„¥ü§Tˆg\000_7W(~=†ßÑkÇ™‘²i¿‰h@ÊŞà8h\rÑ.ÿ‡¢ß)LZñ!«A.»Ù…Q!¨¯Ú§P¾÷?OĞ6,ıW_;SfÂaĞ²aÚh«ÇLYW!|}Qˆzy¾×ıoó¹s„İÈ\\ì%í7»íiÌ |}S³U½1#G¤œaòpl§¶TªMÌ—ÆC»™¬²ó™Êµ½÷SÎk#ış·ù\\ÊÁ¾_ ä'¦œ÷ı)çm œ§N`ÄÛ€¯ñKn¶wáÜù1ÏØœ!^ˆİKÒDµî>òm®»¿e¹s÷3ù/ê²N‚	Ğ(ÁA¸ópàr¹!DÿıM‹´! òmM‹ÔÏÉ ¶= ü‰›V-#xi“,Ûk4-˜½¢²oµrV¬ìW}±½iyÃl·–«Ùn>,¿s¸R.Ôµù)«®“˜ }[¸)¸¡¹\\…ŞÚ’ƒÃØ0-n®NŒ~`m…˜Á]VK?NŞrÍ_{3[¼LA³v];v°U¬l‹ïxğ[^¶Ê¿9¾åÅ¯ñäğzŞ0<€$¢¸¬¦¹Ú–×á:Ñ f®ÉkãµıV'Q\\>¤¶w§úî¸şû",
+["enabledFor"] = "Horde",
+["key"] = "RestedXP Midnight||a) Bloodstains (H)",
+["groupOrContent"] = "e1«Â0…÷û+.d±C¡q¨>è¢…ÚEx89¸\\›KˆIHÒÇúã_.Šp¶sÎÇW–µ¬·_RÊ5€œH?¢v%ˆ1¸Ùã‰cbuşÆ£VVSaéÆHîs*æŸ¸êJGoèşè—¡ëªªm»Nn–€åë:#ø7ı#vxpW£-æôÈ*\nOÖ0‘O i°wA1d\rBÛÁÌŠ?µ.ïBğ÷",
 ["metadata"] = {
-["guideId"] = 2291340768,
+["guideId"] = 81202497,
 ["retail"] = "",
-["group"] = "RestedXP Speed Leveling",
-["internal"] = "",
+["next"] = "a) A Goblin in Harandar (H)",
+["enabledFor"] = "Horde",
+["chapter"] = "",
+["group"] = "RestedXP Midnight",
 ["imported"] = true,
+["key"] = "RestedXP Midnight||a) Bloodstains (H)",
 ["version"] = 1,
-["key"] = "RestedXP Speed Leveling||a) Thunder Totem Troubles Midnight",
 ["length"] = "616891112",
-["name"] = "a) Thunder Totem Troubles Midnight",
-["displayname"] = "a) Thunder Totem Troubles Midnight",
+["name"] = "a) Bloodstains (H)",
+["displayname"] = "|cFF00CCFF17|r - Bloodstains",
 },
 },
-["RestedXP Speed Leveling||a) Moozy's Family Reunion Midnight|1365"] = {
+["RestedXP Midnight||cFFE74C3C(90)|r Delves|ac) Zul'aman Delves|966"] = {
 ["version"] = 1,
 ["cache"] = true,
-["key"] = "RestedXP Speed Leveling||a) Moozy's Family Reunion Midnight",
-["groupOrContent"] = "Õ•[oÚ0€ßó+,ñPMJMnN`H]G¥jí„(Òº'ä$†x;sœ2&~üN¤ÖËC;iO(±9ş¾sqÎÏC7ìõ]×õ,«£™¡\\X¦®$r­Î\\«2GcV–ŞĞ]ÎXŠnØ\\Î­¤K†èt«ÔïõY®è’‹5ì/eà–§’Ï3cu¸4LK*,”[x®ŒB!qìÀÁ±Ã\000;Ä6“zßŒ&¬»RZ¤Kšw“Œš¸ŒcÁ¦a0×lc‘ôœ™P±@h“ŒïGÓ«ñõğëç›ïÓ±Ò)•è…P+^°¶0M–ä÷}ÏGƒÁÅöq}§~¨RKªçÌ v„6µá ¬¨}§¦¾n¨“RJw­Š\"£\\wk!š˜úRğd 9&c;òÑõå—é§2Y0S±@á²aÀ#‚ç§`ë÷¬®$òN]/Ò&áˆ)(…ãÚ$ÂıèÍJqÇ„ Ç•hì¶tm»G¼½_+Æ»“¨e.˜a+n2$Ù/è1Ac&š@»Ü	F• Á!±IzÍöÛyOË]\rôÓ4l¯W|Z‹8¸o“\000G.XÁYÃÊ¨î®2©©@Z©%¢¦~—Á<Â4#QÍ0R34ÉJ™Â&Ê°%Ş­ÙÏ’kV<ŸÍ^TÛş«DöÊ2\"Gç1©.öz6ñq¸m•ƒ‚]^bÏµİ·ì¢L%¿ßêÛîß|qğ±ïU¤a¤¼+%„ZÕmp¡µZµ‹ıªPÿÔ¾„Ştá1Y¸Xğ|7+ÏyŠÒ#½¦òmö­Úñ•püu‘a‘(m^C©’g†ÊÅ,ãğ“+º.àöši%\rŠKƒ¤‚1S\nÍ(,Ãê‰“÷<ñÑ|ÁöwŸ¯İu¼Ÿ¯öuüÒ€ıù",
+["enabledFor"] = "Horde",
+["key"] = "RestedXP Midnight||cFFE74C3C(90)|r Delves|ac) Zul'aman Delves",
+["groupOrContent"] = "=ÎÍŠƒ0àı}ŠYÔP„¦-ıaÜˆSé¦P†Y³»cB\rD\rI´>üÄ\nİïÀ9iz‡ÓY±`NÒØ œ×]‹ØÃu½Å/åƒ’?w¼iÙêG€ùşo±©*ËËq_ìŠä¼á“ÃOeåµÔ(¤ŠãooVÔPû©½54¾\n3æU5Ù—‘8~?µ™w°p£\r“+ÿˆqhiÏd^;'ÄsÖşÿ",
 ["metadata"] = {
-["guideId"] = 2203194791,
+["guideId"] = 2314147050,
 ["retail"] = "",
-["group"] = "RestedXP Speed Leveling",
-["internal"] = "",
+["subgroup"] = "|cFFE74C3C(90)|r Delves",
+["group"] = "RestedXP Midnight",
+["key"] = "RestedXP Midnight||cFFE74C3C(90)|r Delves|ac) Zul'aman Delves",
+["enabledFor"] = "Horde",
 ["imported"] = true,
 ["version"] = 1,
-["key"] = "RestedXP Speed Leveling||a) Moozy's Family Reunion Midnight",
+["chapters"] = "a) Twilight Crypts (H);a) Atal'Aman (H)",
 ["length"] = "616891112",
-["name"] = "a) Moozy's Family Reunion Midnight",
-["displayname"] = "a) Moozy's Family Reunion Midnight",
+["name"] = "ac) Zul'aman Delves",
+["displayname"] = "Zul'Aman",
+},
+},
+["RestedXP Midnight||cFFE74C3C(90)|r Delves|a) The Darkway (H)|967"] = {
+["version"] = 1,
+["cache"] = true,
+["enabledFor"] = "Horde",
+["key"] = "RestedXP Midnight||cFFE74C3C(90)|r Delves|a) The Darkway (H)",
+["groupOrContent"] = "e=«Â0@÷û+.diÁè£¾B·Vqy ò†7¸Äæbƒ1\r7ik¡?Ş¯Å‡óápÎl–Éì;—R.\000STÆ‚è‰ƒiJ'n;{\n‘ôßŒvæÔD¡;¾ØTo6ëÕW¹,“|NŒÙ§.„*Åß†°R|ÔˆÉ6¡MğVOşï]ãÓŒ}T°äÑÇğ²êFùHEÛ–5Á}Éƒ0®¶¦ÏÅÃÿ4Üş",
+["metadata"] = {
+["guideId"] = 1914508242,
+["retail"] = "",
+["subgroup"] = "|cFFE74C3C(90)|r Delves",
+["next"] = "a) Twilight Crypts (H)",
+["group"] = "RestedXP Midnight",
+["key"] = "RestedXP Midnight||cFFE74C3C(90)|r Delves|a) The Darkway (H)",
+["chapter"] = "",
+["imported"] = true,
+["version"] = 1,
+["enabledFor"] = "Horde",
+["length"] = "616891112",
+["name"] = "a) The Darkway (H)",
+["displayname"] = "The Darkway",
 },
 },
 ["RestedXP Midnight||a) Regrets of the Past (A)|1266"] = {
@@ -13269,40 +13279,42 @@ RXPDB = {
 ["displayname"] = "|cFF00CCFF2|r - Regrets of the Past",
 },
 },
-["RestedXP Speed Leveling||a) Grizzleweald Midnight|1370"] = {
+["RestedXP Midnight|Pre-Expansion Preparations|a1) Quest Preparations (A)|775"] = {
 ["version"] = 1,
 ["cache"] = true,
-["key"] = "RestedXP Speed Leveling||a) Grizzleweald Midnight",
-["groupOrContent"] = "å•]oÚ<Çïó),q±UJ\rÎ{{Äú°®êËPKõ´›&ä$‡`abd›V­øğs Ğ©ÓªİìçŸãßùŸcŸÃÃ€Ñ!Ä±¬–M·Z 9\"V+“b1G× 4¤wt3HÑ<\000gyfµr:DĞ©dÏÏò]²4gÙD[-–k9å–ù|nµ8oi{Î„(ğˆ8ˆì0ÄNhu»Ëaùñ˜&Ğ~’§3:o'ªãEs^&á	Ç|~ìt–zHù™@Ëäún0ú|}Ö¿úïâ~ôÕà¬ö‹i2]JÓ$¹FE.êv{Õc``~?I1t!„‚-±÷\">•T))„V¨?©ëÂÀ¯‹ˆk@Ÿ,¬©Ì@£¦Ê›-\"b‡>ŞÏ†KÁ”^ošˆY¼m„¾ WÒ){\"=ôÒÔ†¾jU[ówÎAÃ#Ó“šA•?½2“³M&ÉB*!Û‰JM(“í2IšèM\"'œ%Sdz°@¨²œœïÍ¤Û=gÆæJÕ¿ê_Şşg<…'Óª·y\n2+Ê –eÕEÈ2XUìaàAä›M¿7¢ÿ°ğ:±ªcl²½â‡ÅÊLÄhÏ–+k4ÓL_Ñ™©˜B)SkšgÜˆ?’¶P¯~„×=ì¹&¯[+HÇ\r;\nr§>(t£éx¼‹êÙ¤@[˜Ä\"â¿…ÆmĞ¡º8pŞÆı]¯IãØ¡c®‰w ñš4[[s	ööµW¿(ñ”åiqê‘İÉÎİ·{0~í€¿ã@ˆıÒ¯óçì©Fó‚¾7‹BìÜOG%CÙNdw¶ñH§¸º\\·ñ**É]uªWÿò…Ğ´ùÛßŸƒz!s–oæàĞ<\"óüÊ ¬©½šzÏ$|Q–ce­|}®lôåä|‰ü†Ñùó",
+["enabledFor"] = "Alliance",
+["key"] = "RestedXP Midnight|Pre-Expansion Preparations|a1) Quest Preparations (A)",
+["groupOrContent"] = "uRMoÛ0½ëWğeÅ Ú¡ØG/MÚ´—Ş,Û‘±›˜\"¹””,@üh§ÖÖ>0ùø5›]™«ŸŒ1”*#UÅ9wÚ¨¢aŸ:ıCÄúg©©vÔ´Q!mÏXÉ8»ûÓ(RuÀå?¨ÂÁ5˜ı-‰Â+P¿»¹PEM¡³pæ«åòò²ÿÌ3ëÙ™#\"U]GF¹÷¿-Æ^â‹4—‰ÅÄ¨—pğœÛZrÍX.„ô_9k½~)Whw„zû±³Ş‚«{ÊÚ7[ÌÊ«§$ìS–²P£&§×G²}:#p‹ö€/÷ÈÃ½YÑ\\Eì:C&#vOõ‘²¥51…Øú«Ù+™@¥ˆ<½9¤”pæ£E¹XL™ôöàô2EhŞ:û:œqgwS·GàIğŞyÙá“Ò¼ñÜà¤¯Ü.eÀø/ †a=¥9ò96’à/Ÿ¸‡©ú³~y¾¬-÷¯®¯%?Kà*Tuê½Qÿ",
 ["metadata"] = {
-["guideId"] = 3292533345,
+["guideId"] = 3292731956,
 ["retail"] = "",
-["group"] = "RestedXP Speed Leveling",
+["subgroup"] = "Pre-Expansion Preparations",
+["group"] = "RestedXP Midnight",
+["name"] = "a1) Quest Preparations (A)",
+["key"] = "RestedXP Midnight|Pre-Expansion Preparations|a1) Quest Preparations (A)",
+["version"] = 1,
+["chapters"] = "a) Quest Booklet (A);a) Furniture Favor (A);a) Fishing (A);a) Cooking (A);a) Balloon (A);a) Selfie Cam (A);a) Warbanding Together (A);a) Squally (A);a) Blade in Twilight (A);a) Delve Quests (A);a) Burning Steppes Prep (A);a) Gidwin (A);a) Tirisfal Midnight Prep (A);a) Alterac Valley Quests (A);a) Pet Battle Setup (A);a) Human Heritage Quests (A);a) Night Elf Heritage Quests (A);a) Dwarf Heritage Quests (A);a) Gnome Heritage Quests (A);a) Draenei Heritage Quests (A);a) Worgen Heritage Quests (A);a) Heritage Pandaren (A);a) Trading Post (A);a) Begin Your Training: Master Cheng (A)",
+["length"] = "616891112",
+["enabledFor"] = "Alliance",
+["displayname"] = "|cFF00FF001|r - Quests",
+},
+},
+["RestedXP Midnight||a) Selfie Cam|710"] = {
+["version"] = 1,
+["cache"] = true,
+["key"] = "RestedXP Midnight||a) Selfie Cam",
+["groupOrContent"] = "İ“]kÛ>Æïõ)äbl¸Šß—HÓvM_–„?-£„cE‰EËÈr¶B>üd7íhÿ[¯vgƒ£ç÷<G±wÏó|BZš’´Ö\\—Båà‘ÖR«ª€1/\rŸß\\Ã…˜çb™ÒÊqÅ?Â„Ë…à0Ài‰Üp£$ötGGĞ—R`Î8¡¢üZÙ!ıµ½\000SÉ!ğÃKèRİĞ‰=„ïÓ8&½ŞfÚŒZ ãíïJËù\n‹6ËĞ¤UjÅ³8\\jş@SYúîÆLQŞƒ³aã›ëÙÙxxzy2ºõµàÒ^5É±XH,³¦„\"c¼0÷C¯×üÕT5×}f,>¡õ’x1gÇ÷Eéù«p‘„4LœK»Ş»Áı'Ö‚!L¬Ç2SæÑ~›²·¸«¼¡{ÑX—º'îP»:5ÔpÅ*]*İfZ•e†B·^dfÇ4‚İƒİ0“ñ-Øõpp>;V?jO#¥¥a3õ‚À÷¢C«ûöxvtu5\rµÕ7‚;«8R>™vzyzq;ûlŒÑ¦bª‚ÚÚQÀÔ*EcC³…äf[šãºR)ì¤ÿ'’( ~àt}êïÖóI•3ÌaPI‰yÓ2Sv™½<J‚ÚnZ=ì¾·µ>½ÜÖ½ö#'viâ;QB“÷³?UúC‘íœ?‹:Øëı—âí¶Ú‰/¡Qòo-âë›×ëÛ\000±±†¡×X³9Ÿ£Ã„©‚ßÁB«Uã¨_5ßZ•üÉ\"…¡?)`{Œs\rgÂ°ìíEÄuAL½ä¯=‹Âßçí¼Zòó",
+["metadata"] = {
+["guideId"] = 3265268623,
+["retail"] = "",
+["group"] = "RestedXP Midnight",
 ["internal"] = "",
 ["imported"] = true,
 ["version"] = 1,
-["key"] = "RestedXP Speed Leveling||a) Grizzleweald Midnight",
+["key"] = "RestedXP Midnight||a) Selfie Cam",
 ["length"] = "616891112",
-["name"] = "a) Grizzleweald Midnight",
-["displayname"] = "a) Grizzleweald Midnight",
-},
-},
-["RestedXP Speed Leveling||a) Lostlight Grotto Midnight|1371"] = {
-["version"] = 1,
-["cache"] = true,
-["key"] = "RestedXP Speed Leveling||a) Lostlight Grotto Midnight",
-["groupOrContent"] = "íXßoâ8~Ï_a‰§Ó±iBûP‰ÒvU•ö*Ê©Û;I°pbÖqÚ=‰?şÆ	?j÷ÄŞŞÃ¾Tr<óÍç™)>øÔº”R×²\n4ãÂj¼€J¹Lµ3%³%Bª!úü@—\000ÀÌ¬FÂb ì2©|6×ä“’ZKrÇ£Ä¬­O4¨„	],­†`;ûÂ¼gÙ3‰§|6Û]ÿM©u~¾åç§,„³W©D³åY8gz’M&Æ¾7Sğ·=Ë®³Ò#&­Âáç‡ñõğæêşrğ<ş”½pH¹,‚T&³•²l†°ÔÄs;^@ÎÏ{Åò*ÅDD9âUiÅ¬³3{šƒ¢ç@¸ˆ<!=–­™š’°ß:øPÆK^¹“K,™ÑUC½åB¬_İ_İ=ï¤LE~{`©NWŠ°$ªıD™`³A.d©à1 Km\000Æd*Ut5ò=ßï8‘¨?\rñ~É\000“3¤Yö^l“|qÍ! Ô„¶óD›¸øM§LTàïˆ:¸Ç²c9!u°‹M°ï¡l5ºÙª#ÌT*ÕY¨dšÎWg¹pX¨·âè.ê:'£ª\"İDNóMÃ¼‘H%üÀ²Nğ¡y·*ãN3pm§u2€+–°ªxÛÎì2?[¬ëS5\000İV3 vĞ9“7ıÛñã\\qXh&pk„y÷Il;HbMbøª7µ¡ÄÅÉ ]SS`øU…æ¾¥¹«¡¹Æñõõuÿ²ï8W\000é³0wìvlß3ìº(“¡ÊSox?.|aq¬¸UÁ—Œ+H÷n,ùô7ôIOË±ŒõOmÈÂZ°8Š¬õVÂúïOX7'×±],|î¿OX¿”½şÖu›¼®İ¤mS8·[¾cûm³¸[Ôv<Ïïşp‚óŞ7šÃºóaãëY9p7‰ä+ eM¥ql:ûayyêÒı-T»Ÿ«İi[¿¯?›gmó<PNİ ×£NB?“X›ÄêHáş“±ÎT‚ífäá’àúØÌ»³JÖƒôÎ.ggcWCÏÎ2n6–Õé¦4ÑÙF1¤(lß6—û™qRø¨U¥I×Td_Q‹¥&Á“r‡¨Rj”dR»9Z‡ |ë{»ÖO×im›~û˜Q¾¯Şã^AÆÆ…µºeûø0œıÆÕ¢fØm·¾/aµÿ=^T‘`—A$şéŞÈ-À™DyJ‘¥5Xİ­Ôª¦–.ør†õ–/yD¼v§óæ,µ[ÿ;D‘aI­>óümYİª®‹á\000w}<Ï‡Ò˜«j²nş;@Ë;À4×hç@õ…·ãª'Î?ªHZyİuœÿe6şù",
-["metadata"] = {
-["guideId"] = 247272390,
-["retail"] = "",
-["group"] = "RestedXP Speed Leveling",
-["internal"] = "",
-["imported"] = true,
-["version"] = 1,
-["key"] = "RestedXP Speed Leveling||a) Lostlight Grotto Midnight",
-["length"] = "616891112",
-["name"] = "a) Lostlight Grotto Midnight",
-["displayname"] = "a) Lostlight Grotto Midnight",
+["name"] = "a) Selfie Cam",
+["displayname"] = "a) Selfie Cam",
 },
 },
 ["RestedXP Midnight||a) To Be Changed (H)|1028"] = {
@@ -13317,9 +13329,9 @@ RXPDB = {
 ["next"] = "a) A Dance with the Devil (H)",
 ["enabledFor"] = "Horde",
 ["chapter"] = "",
+["group"] = "RestedXP Midnight",
 ["imported"] = true,
 ["key"] = "RestedXP Midnight||a) To Be Changed (H)",
-["group"] = "RestedXP Midnight",
 ["version"] = 1,
 ["length"] = "616891112",
 ["name"] = "a) To Be Changed (H)",
@@ -13344,22 +13356,22 @@ RXPDB = {
 ["displayname"] = "a) Sunkiller Sanctum",
 },
 },
-["RestedXP Speed Leveling||a) Secrets of Highmountain Midnight|1381"] = {
+["RestedXP Speed Leveling||a) Lunarwing Shallows Midnight|1372"] = {
 ["version"] = 1,
 ["cache"] = true,
-["key"] = "RestedXP Speed Leveling||a) Secrets of Highmountain Midnight",
-["groupOrContent"] = "İXÛnã6}÷WğS[•ÑıÒ‰ã é&iİM_Z¢m\"´èRT¼.òĞßèïõK:”,[’åÄ(6t €=$çÌ™ÃáŒüÑ·ü0²,Ëîõú’*Âx¯ÿLeÆDŠ¬^&E¾Dw4S4ùt‹î—”&èŠ>SÎÒY¯Ÿ’Eä;tOcØœ!1E?³Ù|!òJÑ5KRø¬z}–**SÂ{pÒ²‡gB	ä{¶¸Ø÷ŒÀÃ€`0xë¦$¦'+!y² Ë“xNÔ$ŸL8}ôİ™¤k<áËŸlóE	BpĞK|÷éöñâîrts~õğx¿d’©©D£‰HçB¦/²‡IÓ¥BDì£Áà´üx\000|+\"gì]Ç•qôc±XrªèŠ©9Jégˆ”“	å‡ı½ºïbÇ1‚\000;ay†Y3¹à¦ı½íáĞ2B‡`2Áôî”©\\¦ÈŠ²1|Dğù¿q¶M@äŞ.ã9E·Ô§åÖ%,#\000>Óøi\">w‘}à¾bŠSğââbx>4Í+J):ËO@´:¨\rŸ¦áº8\rßÃeX¡†T.V€h²Ù€7Ş%ı#g’f¯xn¤^LëÖQšXİ¿Õ*¶€}~hÜİ–‚s±:w•ïÒ—au#_ÉÁ=lWvKGø‰Ÿ!dï‡ÚÇÓ»›Ç‘£˜¤(SŒs”=­%K(šSI\r0‘ˆ|6GLıó×ß\"°ø™¾HÜ¬pá:Øv;„ÿûÚÜ0¢õv*¥XAØƒÁ/ùb		‚ıú{2YgŞcÃ~;^Ğœ}\000ÈWÓÜF%•æ:drŒØ\\Ó¶¢Ø.StN§Œ¤1ÕS8q¥¤õNˆ}ßpì•·ìrqœËLÈ“XŠ,›&O\n2H¬¶9‹ŸH‹”Qß^?<Iò'£²¡ÏèóÍŒ\ntj=»–á˜Øw¿B{O›†bäA1\n¾‚{§ªïª=T»ÃúEÖ;×\"×7³Re%§J•õtœ:µÈÃZ)dŠ¤,F÷s±JÄ*İ#=ÀQh&v£w%½€U©²!9'0ü[!¸ÿ ‹[yĞèftığø+z¿:\r§B]Yˆ	êXÜ!1Z;î{g¾QuÂzÕigäø¼»¼¦ğ3šV-ã³>öİĞén¢Ş¸)Âğ‚ÉzßJT@.^Êâõµ£íë»ÃâÛ8*ZnÛëÀ¯“Œ%p ë9ÑÇdp©HšÔ/ÖŠ0…¦B˜î§KNÖÅkA±+(–…=\r¦ĞÍ¾= R­šB4;¿õëtãıV§ÛßéH¿ÛcK—AM—ûŠª„Ymnh1j¶[Û®åQ¤±¶&IS· a¡YÛ¬©54<G‘î\\·m‚ëìÚFèA2³xf]#„¡&*M_ŠÈk²æ¤‘·¥Q«ÁØ»asÿ„:¯¡ÙäU¯CÃ9£ÓråÃHÃëdX´‡MÂÜ@İœc6f½¶=v4}¼Şö9İn¾•”¼!øvwTøê2ŒÏ‘e¸^S½67¿Cì™€:ßğC}ÜÖ<àÊ<qÎ—Çß\"¸ ¨Np;æÃ4w×Úü}­àNù‰gZÜ:–-º{t\r¿.<\rk¤ã/ÖÃhC3…¸ş½H×Şñ<O°…¢‹½¹ú@Úşÿû",
+["key"] = "RestedXP Speed Leveling||a) Lunarwing Shallows Midnight",
+["groupOrContent"] = "İU]kÛ0}×¯øi›«Xã:{´k\neé‰ÚdûÆU$#ËÍ2òã§|»KZ6Æ`ü\"ß£{}Ï9×÷ä$¤aÔ¥”ú9ã9O +®$¦ÈÉµªK<„Ê@v‡G%@†ğ‚Ë9’M³wxPK¦göL5«ğ5Ï$Ïƒ.\rhÉ²IJä–€ØßØ^8C$WFá0 n§MN;îi—DmÔë-âU†	K¡5SZdSV¶Ò‚™¤Nã0È5ÌI\"Ê¾·01Ø&Z¤Ãû»ñåğªs1xØ\\0)rÛ_¢~ÀBDXšBipàù¾‡{½³õ1.”–s|Ádºì´‰¢{Ô¨ÔÀ2ü j½ï¨ÂLføRÌ1Lç`aGjoØHÕ´``ÆMqHÊ9r\nÙ ÌÔÌR§TÙ¤‰’nàF	<·í¹^3ä“ t£6¡ÑA¨MÂS7ênxêlB=¤¹%¡¿} Ç:ğİXÉ>s!6ôoú×ã¸à• €M*Ë:(e°)`Š'Jã¯kèàö6ï­ÔÏs‹ı¶—¨E¡ß”ˆÃÓØHÈösÖh—\"2UI‚‡õdÂ™<\\ƒ´{¥-;i\r¿:+Ö¬,—c±3ÀB£÷'x_í|›ÖºRº•jUUãºµ²4KÍÎ¶ŸO±:ûXb°¶Ù¤¿Yë5Â·\r[(Ö<[2Æö	Hƒ²•»—”m|{Píe2W¤½.üz¦2;Qöÿ²½g…½cZ5®¼i»ı‰·°máñ¿Ğû¥ùù›Ğä¥î¾İTş¿ßT¦Ö’Ë±=b{>NÂ¼]k{ğó½Ö€ÑìoÛÏ",
 ["metadata"] = {
-["guideId"] = 2645235270,
+["guideId"] = 931009681,
 ["retail"] = "",
 ["group"] = "RestedXP Speed Leveling",
 ["internal"] = "",
 ["imported"] = true,
 ["version"] = 1,
-["key"] = "RestedXP Speed Leveling||a) Secrets of Highmountain Midnight",
+["key"] = "RestedXP Speed Leveling||a) Lunarwing Shallows Midnight",
 ["length"] = "616891112",
-["name"] = "a) Secrets of Highmountain Midnight",
-["displayname"] = "a) Secrets of Highmountain Midnight",
+["name"] = "a) Lunarwing Shallows Midnight",
+["displayname"] = "a) Lunarwing Shallows Midnight",
 },
 },
 ["RestedXP Midnight||a) Crafters needed|805"] = {
@@ -13393,8 +13405,8 @@ RXPDB = {
 ["subgroup"] = "|cFF1EFF00(1-90)|r Default",
 ["next"] = "a) 90 Unlocking Systems (H)",
 ["group"] = "RestedXP Midnight",
-["imported"] = true,
 ["key"] = "RestedXP Midnight||cFF1EFF00(1-90)|r Default|ce) Voidstorm Route (H)",
+["imported"] = true,
 ["name"] = "ce) Voidstorm Route (H)",
 ["version"] = 1,
 ["length"] = "616891112",
@@ -13402,40 +13414,40 @@ RXPDB = {
 ["displayname"] = "|cFFFCDC008|r - Voidstorm",
 },
 },
-["RestedXP Speed Leveling||a) All Nightmare Long Midnight|1387"] = {
+["RestedXP Speed Leveling||a) Riverbend Midnight|1383"] = {
 ["version"] = 1,
 ["cache"] = true,
-["key"] = "RestedXP Speed Leveling||a) All Nightmare Long Midnight",
-["groupOrContent"] = "İZ[oÛÈ~ç¯ÀmZeÂû%XğJrâÚSY»Ş´]cj$Lq´Ã‘µüã{†o\"iÉ©¶ûXâğ\\¾óÛ(oßº†ë†a˜šv$¨$,Öî©HO¡-_¯Ğ„¦’Î~ù‚®V”ÎĞ9½§1KÚQB–‘7è8Ñg¶ˆä’ŠÎy²@l–¨o´#–H*k d¥Åä–ÆêòuşXÃ!O@³üm\rÚmè=Pÿºè‡ÔqF’¶Nù§<İâ”å»£N™ö“²<;(‰ÖÓ§\\k\000}¯yjÁ%G®m\\ÛÎÀq±h><N3÷ç$¤ï6\\Ä³%Y½#\"o×··1½qí… ø6^½7õG9%ñAáä—/7'“ÓñçÑù×›éƒ ÉŒ¢ëˆ¥+*6,™=\n\r“0¤«-VèÃ‡ãüã9¿W1\000cÁÀO\\Ìhã¤Ûs²rE± u(İ†0äËUL%İ0¡„ş.û¢úãQ}eœäZ$,)qšÂGŸK÷kø\000Ÿ*|FDÜ¡+ùÉˆ¢Î\rÏXJÀ¦0¢áİ-ÿı¹€µA:’LÆœ999†º>VX !¹§ÊüŠZ¶Ì`ÏÊÎÜıëãÉç›üed˜¿–kô·54íÒÚ³á¡9V7KEş5ÿÏ\"¹7pİêÎ»80\r«ÇÇ|“)<‚o”¶ÀûrJ™®,¿œO#ªÌ>ÏT\\%6‡müy|ñõæš‹¥$1Tî\"#\"Œ\"2;HÁ§]İ¦†—üu¼×eT‡!İ0À·iÊV|%U±;T¬èZåjÉò¿AVIÚ¤èp©'äã_k¡`	Àmm SE4šĞ%ƒ?Á¨ƒ%!OY­(i-r¸+t’-!ã\rgP¸=á1]Åä¡?ª;®™lùiHÀ&}2Nvà°J8¾OúçÉ]¤Ov¥Àr¼ZÓ›Ğ|¨Ù¢;¡óõâ€¦wàHñß,Š[?Tzİ¢’yP¡ò	'øÊP$sı’íE¬ÎÓØ6ô-­Ñ´®	“…}ò°â€Zñ”©loËpcäï€r[r/pûĞ9høìI¿]8ú‹A0¹Œ˜¨Í˜jâµëIDfªÔ)§Ï©ªwµÎ®T'?²{š(C.Ä:+ã%8[5OVšO]­±§N)4YqÏ0Š¤¬1Ã\\À3†-ÑœçÒãÔ€\\ñ\rç=@ğÏ\\Âùååôfk#ì8_`Šáõ_q“„¾\r$Ì*fKÙ¾F!1åe#¯ûğ3ø-#îŒ\nŠ[ÅÅ‰.}:.]ìzËÁä™ó¼á²CmM°!uA°e¾¼Ãu€·¤„VS²wPêâIÖ¤‡6Lm½èŒRHÜïJ¤üë†ş.ßÛş¶b=x^¬óWúcİ¡µ;sOáçjí`ÇXlP>Ğ›)’À‚ã¶ùØ	Ô##Èıá¢Úßß:‹¼ıE¾êm¾İ˜ ÚU¾Áò*_=¸Ì7}Ò¿Oï.'AO7«ÖtÅç’&…ƒÓÌØı»¿ş”ò 7riªı”*F9–ãfF¨œss=±|„£¿¢?o2¶¶DÕT´€ıQYXçpuÓ6”@@¨êsõê©üìŞ,»ll„òBâÛ¾§¡šzà›*ÓÓ2DáZ¤\\¼¬gaâ]=Ê2BÃ˜…wŠ*OË0]­ogkÈ‚Ìå_»Ìüo‚ùìË@+ã¸‰ÍWŞpm\rÈI^df7Ë«aÍµªŒÆ\000'|½ˆ”æ)_«1_l÷?[Lì©ÚoBËÑ›ŞÂ:Àèbß?`=(ª´ØÚ°­,${/U.H<_u¥°š$(¯š|Ñk–şVï_IØœYĞ.•İjº=Ç!J™¦ay*\"eúäx|9İthUŞïdÎ^¥&v,V+&¶ÁÎK€Ñ'øÉ~$vm´öÛØÓ|Ï:É±UÜæ›–*û\000UO^ŸÕàr`Ø1–‰§Î§Í‹²*ô!²×¨Şâ†A>¶2Îú³o9E§;ç/h…³KKÇÃ>à¬Ì×-Ïõ¹)+¸Euî©¸åÖíÙµò­™]sıLâ?AÂ=§¿¢Ã;×5`¸…·÷GöŞÖ¡áô­òÛ^6C¶cùzËz»îÀq°§ÅˆÎ¡a7šù×Jò—·hÄgÚ¼”A?ª©§YıQsjvb(X~a{š¤$aò¡åÉö¦<“ÿ$]¿î˜ë+sı»÷r*çKÁ®>Âİ_w\\¯ù#I”]gMaò»£ò=ªÿg\\mõ@ó&4°ß;jıö~P\r–YOŠ‡¶²¬ê•6~RpL³«uÀc¯“š3Í¯sâ±ô2ù{>é)A…ı¦§îu­``+ÖîFhö'‘€nôL½öcO¯`é(ÎÀ¢¬û/Ç™†oõb¤7ïÑÇ§æ˜mY~9på¿ÓX¹˜98lœÓşZ›î®6êçe/l‡)Z¬Õ>|‚[²d'ï¥`°,…^ñ³ÜúP@5ä¾ÿ˜ğ/òfûb\n\róÈ>'ctr9A:µÿ",
+["key"] = "RestedXP Speed Leveling||a) Riverbend Midnight",
+["groupOrContent"] = "åXmoÛ6şî_AÀŸ6¨Œ¨wõC€ÄqÖ¬M—9.Ò¢Zbl\"²èQTÒşñ;J–­7çeKlû‡äñîásÏİéÍxAH±ƒ¡dŠòd0¼c2ã\"Ed0œK‘¯Ğ„eŠÅŸ/ĞåŠ±}`w,áé|0Lé’!úšp83ciŒÎyœòùB\r†<UL¦4ÀÙÕ`˜ĞKv/•Š×Óbã\rØÁ½I¼¤«ƒhAÕ,ŸÍví9sÉ¾ãY²zk™k5¥É-R­£Éç‹ëÓÉÙøãÉ‡/×¿Ò„•Æ—4ek‰x.`›çš†cbÛ3|‚}s€U.S\";tÂ\000Ná'‚ßïÀgtEÁØBåœ)Ô4YFÑoôA£ˆ­r,b:àîQùsº`èS3y¯€FbÉ²İ&B´œwˆá…8°\rË5ÌÚ’bâ2±¶—ô)[Ÿ2SAhx¶6?e)ğ³Œñêhòñúëø›’ô(R@®ã\\)‘ş±–h=%¶cYş[\000æë;ï!nŠ(ôbÊ¨lÃ´\rMi.Yªú¹vÍ‘£ˆ¦(ßx0+®B÷È,E/àFb¹J˜b%¼`8’­X’ ø¤ÅÔö•X+÷\\-ÀÕoª¢yß½K.W\\ru‹L¢ñL¤À¬ˆgÃíŠ,·bK¯±¾èzìŞ?À§ßßs\rbÂİch¾b©Ú”ìÏœK–=nÌõÙÿrĞê”øEÒl¥©­ê–_!À„Ø¡i¹;	ÙãN}·×œ)æ3*ŸÂ¾«ì±4{§dÏFïØ^ö<ÃõÀW×®BÖ(OKy*.7puhï9ÛN’ÇÇç_®A3G–5%±pPKâRÌĞ1Wå&4Ñm$ól¡ek‰r¸«tP£~¶E=Êe&äA$E–-(—ÅƒĞHmA%<ºE Ò;÷.ÎFï¯·(H:—y²–Í¢SÑ¦å¸kX¥w»ó€)œ]ïlRÒ ãyÈ»^<õU_!İëXº×	º@ÛOeÛôÓ˜ô6#`İÆÀ7Ûlv[–Æô¬˜P#|tVLlººzxN{	t!ôôRuÓ«æDo<åÙï9l?ºƒŞ›‚ UÀêË¶ÎƒìĞ\\AÏöb¢vEåLj©ıMŠz1¬´¬*†ûÄ¬¶İkÕÎ­šíÏ±w‚·ƒhœF	¸°•½ºO›¦{ƒ6Ïâ³t@-Ãq°ûrSEŸÌşáœ¦€2+Ç4ã	ÏnkÁY¶¡ëö°myÕ 1Ğ.¹†ëáÀm¶åDçÎ@sî7ß${å|\\>tİ¹ú®kÄ€É€tş³Qá¾Èº)4cåøÕ\\¹Ôƒæ#‰Õ€´ç²¡â*Ñ)~zz::™fÙàaj:G×ÔSŒ-Ü.Vïm÷!}75´­i±õ6CÇpl·WüP¿šëwììøúß>äºØ$Z£Ã sS€MO[…½}p‡hõ:Ü	\\ìƒ¶·#İ;Mù°µ~x/7Ğ? ¯…~T‚Ù# µ>Ñß)Í¦º kZ¾£Ëeí“Åsäf$Ò)ÒÍî\\ò£‹FAõáí{\\}Ä½NJŸŠ$÷Å®#)Å}#±=0‹¾UÎíÍ\000 ‘mL.ÚYşˆ#5‰†„±µP·-Ñ¤ŒA½İÀ n§Å<yw æzGŠ’íXÁíÎÆ¸in·/½óÖËµ&ìUfT9´/5ªD\nB3¬g-piñÙï	mv¼?_ ÷<'`>[Ú´µé\"×¼@S¡Ør‹eX¾®ZÖAè\nfì€×nõgÀ3/¥L]U,à˜Ù¬^@vĞxÿ;p¶aWì‡rÓ¥ÿÓ¼èô°€º] q|RóÒ³t‚‚Ù\"\nNÙ¶§[Í}\\¾\\R(:SÉh3-ààóˆ}[1ÉY±âÑW¤Ìğß\n gP±ú±}’ò@ì>G^Q®\nõ‰HØ*¡ß[5°`Õ,IÍk_*¯Îé÷„6†ËFRm²dÛøwÓ¤–PÄj~Á8†î'VPx0>c½vsïåíwÑ­é’ÚG”#¨hÅ•N^)\n»qİ`ı",
 ["metadata"] = {
-["guideId"] = 731321333,
+["guideId"] = 2348224782,
 ["retail"] = "",
 ["group"] = "RestedXP Speed Leveling",
 ["internal"] = "",
 ["imported"] = true,
 ["version"] = 1,
-["key"] = "RestedXP Speed Leveling||a) All Nightmare Long Midnight",
+["key"] = "RestedXP Speed Leveling||a) Riverbend Midnight",
 ["length"] = "616891112",
-["name"] = "a) All Nightmare Long Midnight",
-["displayname"] = "a) All Nightmare Long Midnight",
+["name"] = "a) Riverbend Midnight",
+["displayname"] = "a) Riverbend Midnight",
 },
 },
-["RestedXP Speed Leveling||a) Into the Nightmare Midnight|1388"] = {
+["RestedXP Speed Leveling||a) Black Rook Hold Midnight|1385"] = {
 ["version"] = 1,
 ["cache"] = true,
-["key"] = "RestedXP Speed Leveling||a) Into the Nightmare Midnight",
-["groupOrContent"] = "ÅW]oÛ6}×¯ ê‡a˜ªè[ò¸ş\000‚&Y–zh³ah™±	Ó¢FQqøÇï’Jd}ÅA1·{³Lêòsî¹W|ÿ>tÂxè8kA$¦Ì<‘S\"Ç¬/2tKrI–_nĞ§Œ%º$„ÑteR¼%ÿŒ.RÉ‘\\tMWk¹Å‚ +ºLÕƒ1 ©$\"ÅÌ€ ™1`xA˜~c¾&Õş‘a­8	}Çkèš¡oÙCãü|?×pBÎv\\°åggÉËE±X0rú+A¬Ë~uí½œc¶AhŸÜ~¹¹Ÿİ^L¯'—w÷W˜=B¡ú$¹Ø\n¼\"{aN’IäÅ^¡óóQù™¡é–Ì–è÷‚Ô°$+\"QOœ×ÿ‘>º$ÏÑ»é§ñ;õR¾¡™–¡È¾…PRÈ<!)¤ğOÆˆ$%VÓ9\nÉR¡V<Ï! ”‡=„ıæw„pºlo¼ËA-•,DJÓJª9<\"xîÑê …kZ\n'¨àşÒ‹·ªx­Ys¢xCüMY‘’VtÇ=Ë·Ñu¾GKıC3„ë›Ah…¾é9¦İ)£ ²<ÛtlX:õ—O8¥9ºâ<}ÀŒõÓ~‘sIZ:p°­Üòyt{}OÓœ.‰®µ5/rÒ¨ä°.P‡Äß¡[ã›`‘£.ĞLıj²á{Š¨áğÀuI=j¢Şr.ÑCš­€±\nû‡€ÔÏB¾xgGå¥ä«|MÛ±Vé¢R))„<KXi©8ÓâDV\"M6ŠQqY2|s1şx?ßQÕtuò¹¦·f`€÷bÈ¢ØŠô×H*™Š7›ÍÆ“±mÏ8c|§	Áw{Ñº/ŒóVØÈQa‡¶éÚÍá,µäö-9¥CâÎRd…Zò£%ìX~X.ıh6_“ut2÷õ«Ç“6ü¥«ûÅ_o”wp¬¼k1µ+Ï¶Xó«×ìJd:Æ¹lï¿å×£”·Ú$‹ê´îÉ„x,\r\n¼VÛj`«(†µæRM“Ÿr4+ÄS…¶>zúÇúç¦K¾{§U_I5ª|?ŠB8Um\nÓy9cŠ,4)V{Úı ´­ 4C\":=i5û\000êkâğÅ@—eº?4¡JÅR»òdŒë“‡£ßàb&(I—y¯ˆ­¾*¹±Bãx¦4Ú,Åj~wÉµbİMßô[KÛÊ2ğÛoöEø‚’C=ı²/ş‘—ãw?w¼ Æ¿GÕ&ôô«x”¨ÂøPHÉÓ½ø[ñ·¡ŒÕºãôzzuw?æB™j7§İ	TuçM* _'üæy£ºGı?©Ÿ=ŸÂwk‹4Xêi£:ÃG®ìò	¼±æ9š`±ËÌ#éIÄ3¬-_ îŞoşÓ.—?h åÁ´]Èë \n­(Ğ´vÁB…Dj	†ª^ú.Šã åÊCQĞd«½6ê*i-i!dM’Í‚}»9şJk¨'N\000—²ª™¡|EcR¾V,È?…+TÏ©Mï¹Ê{îwíZ§á»¯mõ–ê]³}]qpaıV#CBf5“œØ¼½9zìŸ¯{*bçàá.&Ÿ×4ÏˆP¶AsÉ_cÄ÷ØÇø÷",
+["key"] = "RestedXP Speed Leveling||a) Black Rook Hold Midnight",
+["groupOrContent"] = "İYYS¹~÷¯PRwnGô¾ä*³å2!À€+3¹·¦(¹[Ø*äVºÃ-~üu{éE&!P5/	ÆÒÑ÷å;Gâı{ßòÃÈ²,{0JZÆÃ[*s&Rd\r†S)Ê]Ğ¼ Éïçè2£4A'ô–r–NÃ”Ì)\"ÿB{œÄ7èBˆôÁô™%)›ÎŠÁ¥•)á°\r†œL(¯—«Õjñh€§¢Èw-Ãµ±ë^ˆ£`°»û0®v_“˜î,„äÉœd;ñŒ“r2áôÊw§’Şã	Ï>ØæC1&ü¡‡øâ÷ó«£‹ãÃÓƒ“¯Wûb>'iB%ú…H‘ ËIÄ\"éôA0‰cšÈ	ıÈB»»£úcµò]<rå‰.ˆœÒı{»±šà[R‰Å<ã´ 5ÃZ£~4ÎoX6À2c	rİÀö—DX~–şZBàksƒaÁ\nNÑÑÑÑşÁ¾iPrKQ1£è–ÎXÌ)`®0,X1C)½+V!¯NÎ—ş„Ó;V,÷ÛÏ%ÍóÊÖgK¡¨ó®yŒ	K«_ş4Š:ÏB–%<ÀójíK½Ñğ}ÏwÎÙ©¬.\r.S²¹s8c	­m7BëDØ‚Ğ:ØôO™µ–¦$ı³d@¥gæynÙk¦‰C¯:Ã2LÃ|¥*J™‚ƒWÕ0†Êá½rXWM`…›ªùTÊwá\"Gàå4OÏIÂ¿ã¼ÃzYy¨|TeÈœ”¹à´œ+bÚØY`¯ıóÛèâôJ¿÷1t[\"öÏV›vÔ }¼¦—2rê1Ïg„ÉÊ#$.Ö¬÷9ƒ¶¦¦}~¼ÿéj\rë]ºdSÆ;\"lK'pß&\nµwWQĞ»·\nwŠÏ„Ñ[ˆØXªşÛ\\äm!/UÏ„uK\"“gÇj»ú\\‚~ŸÃÿVO@ävw?1Î—8<=üüõª·¨Oõš¹˜hìi\000ô=ÒZ¶qˆC«\nr`Xf»ˆõ{;EÜÇĞRˆÈ1<›şqG+Y=Óğ,ì¹ß^;Šj'a÷$IhšO¤È¾\0002¥²‡ÓmŒÚ=¸6®mWç™OjJ”èˆÈœÒÍa×é®ÔiŠ¯r‚o÷KCST è=…Ê9“P'¹ÆöÖZÑ0KÊI\n…Æ(O&’=[§f«[­™MWe‚ë};ãM&T¬‘ ©’N`TÒvVS¹8G¶ª€(4l5|´p†Â	‰`×sÉóî²Ğj¸¦‰íèõ¥ŞmH}G¾«¼Æª¾~7t>Øè|ã.u.YŞ¸}<)ô‡í·ƒ1s}ì†º¸$¹»#PQ ›£kQDcËqm×û\000®û_½éäìl|U#„‚¾‡}àÁÏ\r%>=~xèøZb9Já°/)ZV¬ÎÈ\"EğÒCLw$¥ëáìÿ\"¥¸“NÁJs—ÖŸê|kÕö_?‚FjhB¾É\r»1(ìI¡¼Åï!B·ôù‰ÑòC‡ûh‹O®ˆ¼É a´Ú2è†í®‡İ~[Önítå>€-Áêû¥œg(§(¥¿.9¿o#ƒFë®‹£5ÍV Ó]Â¿mÌz«ƒ5MÃ€¡…­×zx£üjQ‰	¡›Ù/Fy$“’B‡%ŸpSZÏ6màsÎ\":½HÄ|M k¢;Tá÷#ì©[a+?ÛzÇñ=#lcbß5|‡üãzÉ$+st8é‚©˜\"ğ;Jè5%• wd/jŒp­½§Ç´»´û0êzj¢Sv¤Z<ôŠÀë}nª]÷b¼G0ÛÔ%Ík–âélbÙZª¡éwiÚT`5T:/¸êù[«Ïn½¢bs¨$Ë2jpGÉ8¹oÕdã-ò„Ñ² )I$®+‹•kt‘<ÕúVE²¬‘Ñ÷Í›±YN²®P	wªŞ‹™©&ªöFbzË5‘uuÜz|zİá£@eV¡Í`ÔlZvõ ¨»$è–e·[ƒ©ÊÃy©W Nõ•iöZİ‘à\\,ªóˆ”ğS÷ğNéØã[ØñÕˆk}çµà-Â´¡áp“S6ìùØñ\nuqàèfÒFòĞ<Y¾YÀ]Pşü5¼^¹F–Y5Oª?TÄ…$j¹óJDÓë\\p\000J:ër´­Õü¸õÀ§Êj³ñìFıªFG/&7}}l´ú¨!6Û[`[65lô¡Šª÷è@5„«Ñ\n}WZ6n«	„NR¿n<üíÓ9à“Õ8×N4ÏôÌn)é)èîE_Û/>ĞôáRk½Ü›á\n˜†É;c•^D/7~=Ñéš/Ï»Uıõ",
 ["metadata"] = {
-["guideId"] = 785126439,
+["guideId"] = 4001764012,
 ["retail"] = "",
 ["group"] = "RestedXP Speed Leveling",
 ["internal"] = "",
 ["imported"] = true,
 ["version"] = 1,
-["key"] = "RestedXP Speed Leveling||a) Into the Nightmare Midnight",
+["key"] = "RestedXP Speed Leveling||a) Black Rook Hold Midnight",
 ["length"] = "616891112",
-["name"] = "a) Into the Nightmare Midnight",
-["displayname"] = "a) Into the Nightmare Midnight",
+["name"] = "a) Black Rook Hold Midnight",
+["displayname"] = "a) Black Rook Hold Midnight",
 },
 },
 ["RestedXP Midnight||cFFE74C3C(90)|r Delves|ab) Eversong Forest Delves (A)|1128"] = {
@@ -13450,51 +13462,51 @@ RXPDB = {
 ["subgroup"] = "|cFFE74C3C(90)|r Delves",
 ["enabledFor"] = "Alliance",
 ["group"] = "RestedXP Midnight",
-["version"] = 1,
 ["key"] = "RestedXP Midnight||cFFE74C3C(90)|r Delves|ab) Eversong Forest Delves (A)",
+["name"] = "ab) Eversong Forest Delves (A)",
 ["subweight"] = "991",
 ["chapters"] = "a) The Shadow Enclave (A);a) Collegiate Calamity (A);a) The Darkway (A)",
 ["length"] = "616891112",
-["name"] = "ab) Eversong Forest Delves (A)",
+["version"] = 1,
 ["displayname"] = "Eversong Forest",
 },
 },
-["RestedXP Midnight||a) Go Low, Go Loud|882"] = {
-["version"] = 20,
+["RestedXP Speed Leveling||a) Zaralek Cavern|777"] = {
+["version"] = 1,
 ["cache"] = true,
-["key"] = "RestedXP Midnight||a) Go Low, Go Loud",
-["groupOrContent"] = "íWİnÛ6¾×SğÕ:U‘(‹’: @ê¦[P§	boh·%16™ô(*^?ü%ÿÈ–Ò:…{1` €üxxş¿C¿|I<ÅçaËê)¦)Ï­ŞS—a×êM”,çè†še®Ñ%ÏŸLµÕtÆıı,ÑP.ìú™Y=.4S‚æˆÌ­^N–\n‡Ì§ÌÎ¬UJ.4û[£1Íï‘–ŠezóáúöíÍÅùû7Ã·ÃÇ‚ßÓb©,g\"µD¸ï¶O×·ƒØ‰ˆuzºWšîhÊNRåÙŒÎOÒ)ÕI™$9»%ı‰bN’Ï_aw©WšĞÓŠhš²¹F1&AˆNOÏêåxÊĞkÅ\\LĞHK5³MÕ„i´]ùù>aâø}›DNßû>éR	.6>a‰`İáTÃû¨á=M5OiÎÒ¿J^p\ru±s6Ş…\"‘¥JzÃ‡üwÇ©U¯­Ş”gÆ–L.¬^*góœiXë)úMòì\\05yA)ç;‘‹\"ç;oc×vw*ÅuBb°¨\ry‰mÒwÜ¸‹°MÇëÃ!#êÀˆ#]Xú ÍrØé‡ë{`rË/0.„m‡Ù;QPc?z«èîDO@5BQ½ãy¾*‘ó÷ç—oMT¹7%òb(¥FzÊfèN*´{>¢à”×µĞğêj|[ga©>9Ö‹åøbS¥i©\n©NR%‹bJ¹:©\nª¦*R/XêAÎÓ{tRßv}1xw; ‚ƒÁªªÑµÍuíÙåÌd‚F)}`bb*ÔØ[ÌéB¬ÆôÔì_¢bLÕÛ7t2añùTŠõæ&R­ïX@»\000PEÊôÚ¡^˜VëòâJ%à€³çAl{;¥Ş¨áÿsÑ™‹oåN.2íß™;£&wvRâ×5…ã†p‹#·TJÜ-•¾/¡L.L*fLèÃGÌ\r¿ÓIN3†.)ËsÚŠWˆM¼â£…«KaÃ%oëÒ/t6c\n]BÁ 3ñÀ·óaÿ•·O…1ËË™(‹öHğ«a@B'ôm¯ÍµQl° ìÂ€eC`Ü.ˆ 8îÂ`FpóâÙ$6ßµÃ\\ªf~Ğÿ}_%ŸY\nÉï`uö[”­Zv¤ç]\\=¨‚’îº¯š~sÊäs9¡°Ñ‚Î´f\"£B×È —°‘¡bl\r´”æw<İ°BMŸ[c§ºÂ:mÒ]ÕZ#Mó˜Z*»‰ÖÔôˆ*ŠZ\\*DEÖ<1ÓË,Öè­„V·g\000qMövpkÇÎĞ~nÊÿÉİ˜|‡ Ç\r¹7’z(wz6-‹ûGãÎg[³)Õ¬XÏ”ıañ…YTòZîŒÜät¼åôT>pb^°ub÷9Ù3Œk~àtprı‡¨’.,¬\"tAA%FVbÇâ†ëÇ¼«7pÕÍS)†B~°·Æ{kÊ7ì	Ø¿–«—B¥=?c3(‚ãù1–2ïr·µc“eö_ÁPóèÂÀ¯¯ÁFS©?5)ÜóXü„$hT^ÇıØIuNš£T?ıÆİ·Éêwáï‡tô×›Ö­êË=Z×~¥1q£ÁvÛãÉæú÷",
+["key"] = "RestedXP Speed Leveling||a) Zaralek Cavern",
+["groupOrContent"] = "\rË¡1`ß§hR…8QÄåĞØÁ5¹?ËÂè–mìùoêSß²¬ºn7U½IE·˜Hj‹ÙYIBÍÿÂO´ãıàWŞ1¢·Ø.ü±j	_¾Û¼N½O-Ñù",
 ["metadata"] = {
-["guideId"] = 4214885572,
 ["retail"] = "",
-["group"] = "RestedXP Midnight",
+["group"] = "RestedXP Speed Leveling",
 ["internal"] = "",
 ["imported"] = true,
-["version"] = 20,
-["key"] = "RestedXP Midnight||a) Go Low, Go Loud",
+["key"] = "RestedXP Speed Leveling||a) Zaralek Cavern",
+["name"] = "a) Zaralek Cavern",
 ["length"] = "616891112",
-["name"] = "a) Go Low, Go Loud",
-["displayname"] = "a) Go Low, Go Loud",
+["version"] = 1,
+["displayname"] = "a) Zaralek Cavern",
 },
 },
-["RestedXP Midnight||a) The Grudge Pit 2 (A)|1201"] = {
-["version"] = 20,
+["RestedXP Midnight||cFF1EFF00(80-90)|r Adventure Mode|cab) Eversong Woods Route 4 (A)|1138"] = {
+["version"] = 0,
 ["cache"] = true,
 ["enabledFor"] = "Alliance",
-["key"] = "RestedXP Midnight||a) The Grudge Pit 2 (A)",
-["groupOrContent"] = "mÎ1‹Â@Åñ~>ÅÀš\"\rÒ„@¬‚w……Í°;&Ã­›°Ùˆ~xƒ×©ı{~iZèb»ÓZç\000*p$q ®&<æ¨.óˆ\"Ûc‹_b½t}åéÂH	şôŒû0Û±•ˆ9®«”•itô÷İMÓdY]7ŞÜ¦/—%Å·øL!7ápÆ¸,¾ûÙ­~é¿gz#(K¬œò†a! Ä7[~'>ààñ",
+["key"] = "RestedXP Midnight||cFF1EFF00(80-90)|r Adventure Mode|cab) Eversong Woods Route 4 (A)",
+["groupOrContent"] = "}‘ÑŠê0†ïóå€rPY<D(®½s‘î½X´™¶4)IÚ®‹¿Ñî•ÂŞ2óıßÌÌfK¶\\ÅŒ±!‘EÏ¥\"QeM×B†Î£8`/…–UíIäº|ü»iÊviJédEg1^-$¢Gí;‹°7ïÅŞú ÿ‘Hó¡àùv=ZgtGc„ƒÌtá&É”DBºVñË½ø’n_·”.~öØÇ?}`¿1aAÖkH”’\\HÂL-‰\nÓ´\n=Ò×ğ^sÛ6|H¹´¹EüÂ”÷Æº„üı_KU'Bx”ÆÂÍ.DÂ•¾Fi+ïÀˆé<xg§Ãù˜doçlr´p1]Õ ”Òº`myéGdØ £ô˜r¤Â*_í©Ô…êBüÓ5>øÓÔu¤f ›\r#ß",
 ["metadata"] = {
-["guideId"] = 1144327670,
+["guideId"] = 3122535410,
 ["retail"] = "",
-["next"] = "a) Trials of the Shul'ka (A)",
-["enabledFor"] = "Alliance",
-["name"] = "a) The Grudge Pit 2 (A)",
-["key"] = "RestedXP Midnight||a) The Grudge Pit 2 (A)",
+["subgroup"] = "|cFF1EFF00(80-90)|r Adventure Mode",
+["next"] = "cac) Eversong Woods Route 4 (A) 2",
 ["group"] = "RestedXP Midnight",
-["version"] = 20,
+["name"] = "cab) Eversong Woods Route 4 (A)",
+["version"] = 0,
+["enabledFor"] = "Alliance",
+["subweight"] = "997",
 ["length"] = "616891112",
-["chapter"] = "",
-["displayname"] = "|cFF00CCFF14|r - The Grudge Pit",
+["key"] = "RestedXP Midnight||cFF1EFF00(80-90)|r Adventure Mode|cab) Eversong Woods Route 4 (A)",
+["displayname"] = "|cFFFCDC002|r - Eversong Woods 1",
 },
 },
 },
@@ -13503,32 +13515,160 @@ RXPDB = {
 }
 RXPSettings = {
 ["profileKeys"] = {
-["Avoidshuffle - Laughing Skull"] = "Avoidshuffle - Laughing Skull",
+["Legshuffle - Medivh"] = "Legshuffle - Medivh",
 ["Soapshuffle - Kazzak"] = "Soapshuffle - Kazzak",
+["Avoidshuffle - Laughing Skull"] = "Avoidshuffle - Laughing Skull",
+["Legshuffle - Ragnaros"] = "Legshuffle - Ragnaros",
+["Smashuffle - Laughing Skull"] = "Smashuffle - Laughing Skull",
+["Monkashuffle - Kazzak"] = "Monkashuffle - Kazzak",
 ["Soulshuffle - Laughing Skull"] = "Soulshuffle - Laughing Skull",
 ["Feintshuffle - Kazzak"] = "Feintshuffle - Kazzak",
 ["Bobshuffle - Laughing Skull"] = "Bobshuffle - Laughing Skull",
-["Monkashuffle - Kazzak"] = "Monkashuffle - Kazzak",
-["Postshuffle - Laughing Skull"] = "Postshuffle - Laughing Skull",
-["Reapshuffle - Laughing Skull"] = "Reapshuffle - Laughing Skull",
-["Ghostshuffle - Laughing Skull"] = "Ghostshuffle - Laughing Skull",
-["Smashuffle - Laughing Skull"] = "Smashuffle - Laughing Skull",
-["Voidshuffle - Laughing Skull"] = "Voidshuffle - Laughing Skull",
 ["Stalkshuffle - Laughing Skull"] = "Stalkshuffle - Laughing Skull",
+["Reapshuffle - Laughing Skull"] = "Reapshuffle - Laughing Skull",
+["Postshuffle - Laughing Skull"] = "Postshuffle - Laughing Skull",
+["Ghostshuffle - Laughing Skull"] = "Ghostshuffle - Laughing Skull",
+["Ğ˜ÑĞºÑƒÑĞ½Ğ¾ÑÑ‚ÑŒ - Ğ¡ĞµĞ´Ğ¾Ğ³Ñ€Ğ¸Ğ²"] = "Ğ˜ÑĞºÑƒÑĞ½Ğ¾ÑÑ‚ÑŒ - Ğ¡ĞµĞ´Ğ¾Ğ³Ñ€Ğ¸Ğ²",
+["Voidshuffle - Laughing Skull"] = "Voidshuffle - Laughing Skull",
+["Legshuffle - Dentarg"] = "Legshuffle - Dentarg",
 },
 ["profiles"] = {
-["Avoidshuffle - Laughing Skull"] = {
+["Legshuffle - Medivh"] = {
+["xprate"] = 1.25,
 ["frameHeight"] = 125.0000152587891,
 ["macroAnnounced"] = true,
 ["hardcore"] = false,
+["frameSizes"] = {
+["activeTargetFrame"] = {
+73.06654357910156,
+43.00001525878906,
+},
+["RXPFrame"] = {
+235,
+125.0000152587891,
+},
+["activeItemFrame"] = {
+64.99995422363281,
+39.99999237060547,
+},
+["arrowFrame"] = {
+31.99988555908203,
+31.99997329711914,
+},
+},
+["framePositions"] = {
+["activeTargetFrame"] = {
+{
+"CENTER",
+"UIParent",
+"CENTER",
+0,
+0,
+},
+},
+["RXPFrame"] = {
+{
+"LEFT",
+"UIParent",
+"LEFT",
+0,
+35.00000381469727,
+},
+},
+["activeItemFrame"] = {
+{
+"CENTER",
+"UIParent",
+"CENTER",
+0,
+0,
+},
+},
+["arrowFrame"] = {
+{
+"TOP",
+"UIParent",
+"TOP",
+0,
+0,
+},
+},
+},
+},
+["Soapshuffle - Kazzak"] = {
+["hardcore"] = false,
+["xprate"] = 1.4,
+["frameSizes"] = {
+["activeTargetFrame"] = {
+82.66658020019531,
+17.99995803833008,
+},
+["RXPFrame"] = {
+235,
+125.0000152587891,
+},
+["activeItemFrame"] = {
+73.00001525878906,
+39.99994659423828,
+},
+["arrowFrame"] = {
+31.99988555908203,
+31.99988555908203,
+},
+},
+["frameHeight"] = 125.0000152587891,
+["macroAnnounced"] = true,
 ["framePositions"] = {
 ["activeTargetFrame"] = {
 {
 "CENTER",
 nil,
 "CENTER",
--300.9999389648438,
-209.0001220703125,
+-418.9998779296875,
+219.9998474121094,
+},
+},
+["RXPFrame"] = {
+{
+"LEFT",
+"UIParent",
+"LEFT",
+0,
+35.00000381469727,
+},
+},
+["activeItemFrame"] = {
+{
+"CENTER",
+nil,
+"CENTER",
+-360.9998474121094,
+221.9998626708984,
+},
+},
+["arrowFrame"] = {
+{
+"CENTER",
+nil,
+"CENTER",
+-419.999755859375,
+214.0001983642578,
+},
+},
+},
+},
+["Avoidshuffle - Laughing Skull"] = {
+["frameHeight"] = 125.0000152587891,
+["macroAnnounced"] = true,
+["hardcore"] = false,
+["framePositions"] = {
+["arrowFrame"] = {
+{
+"CENTER",
+nil,
+"CENTER",
+-394.9998779296875,
+241.0001678466797,
 },
 },
 ["RXPFrame"] = {
@@ -13549,20 +13689,20 @@ nil,
 206.9999084472656,
 },
 },
-["arrowFrame"] = {
+["activeTargetFrame"] = {
 {
 "CENTER",
 nil,
 "CENTER",
--394.9998779296875,
-241.0001678466797,
+-300.9999389648438,
+209.0001220703125,
 },
 },
 },
 ["frameSizes"] = {
-["activeTargetFrame"] = {
-82.66658020019531,
-17.99995803833008,
+["arrowFrame"] = {
+31.99988555908203,
+31.99988555908203,
 },
 ["RXPFrame"] = {
 235,
@@ -13572,140 +13712,16 @@ nil,
 73.00001525878906,
 39.99994659423828,
 },
-["arrowFrame"] = {
-31.99988555908203,
-31.99988555908203,
-},
-},
-},
-["Soapshuffle - Kazzak"] = {
-["xprate"] = 1.4,
-["frameHeight"] = 125.0000152587891,
-["macroAnnounced"] = true,
-["hardcore"] = false,
-["framePositions"] = {
-["arrowFrame"] = {
-{
-"CENTER",
-nil,
-"CENTER",
--419.999755859375,
-214.0001831054688,
-},
-},
-["RXPFrame"] = {
-{
-"LEFT",
-"UIParent",
-"LEFT",
-0,
-35.00000381469727,
-},
-},
-["activeItemFrame"] = {
-{
-"CENTER",
-nil,
-"CENTER",
--360.9998168945313,
-221.9998626708984,
-},
-},
-["activeTargetFrame"] = {
-{
-"CENTER",
-nil,
-"CENTER",
--418.9998779296875,
-219.9998474121094,
-},
-},
-},
-["frameSizes"] = {
-["arrowFrame"] = {
-31.99988555908203,
-31.99988555908203,
-},
-["RXPFrame"] = {
-235,
-125.0000152587891,
-},
-["activeItemFrame"] = {
-73.00001525878906,
-39.99994659423828,
-},
 ["activeTargetFrame"] = {
 82.66658020019531,
 17.99995803833008,
 },
 },
 },
-["Soulshuffle - Laughing Skull"] = {
+["Legshuffle - Ragnaros"] = {
+["xprate"] = 1.25,
 ["frameHeight"] = 125.0000152587891,
 ["macroAnnounced"] = true,
-["hardcore"] = false,
-["framePositions"] = {
-["activeTargetFrame"] = {
-{
-"CENTER",
-nil,
-"CENTER",
--276.0002136230469,
-213.9996185302734,
-},
-},
-["RXPFrame"] = {
-{
-"LEFT",
-"UIParent",
-"LEFT",
-0,
-35.00000381469727,
-},
-},
-["activeItemFrame"] = {
-{
-"CENTER",
-nil,
-"CENTER",
--422.0000305175781,
-218.9998474121094,
-},
-},
-["arrowFrame"] = {
-{
-"CENTER",
-nil,
-"CENTER",
--413.9997253417969,
-219.0000915527344,
-},
-},
-},
-["skipQuest"] = {
-},
-["frameSizes"] = {
-["activeTargetFrame"] = {
-82.66658020019531,
-42.99996948242188,
-},
-["RXPFrame"] = {
-235,
-125.0000152587891,
-},
-["activeItemFrame"] = {
-73.00001525878906,
-39.99994659423828,
-},
-["arrowFrame"] = {
-31.99988555908203,
-31.99988555908203,
-},
-},
-},
-["Feintshuffle - Kazzak"] = {
-["xprate"] = 1.4,
-["frameHeight"] = 125.0000152587891,
 ["hardcore"] = false,
 ["frameSizes"] = {
 ["arrowFrame"] = {
@@ -13714,15 +13730,15 @@ nil,
 },
 ["RXPFrame"] = {
 235,
-28.00003051757813,
+125.0000152587891,
 },
 ["activeItemFrame"] = {
-73.00001525878906,
+64.99995422363281,
 39.99999237060547,
 },
 ["activeTargetFrame"] = {
-82.66658020019531,
-18.00004577636719,
+73.06654357910156,
+43.00001525878906,
 },
 },
 ["framePositions"] = {
@@ -13764,8 +13780,8 @@ nil,
 },
 },
 },
-["Bobshuffle - Laughing Skull"] = {
-["xprate"] = 1.4,
+["Smashuffle - Laughing Skull"] = {
+["xprate"] = 1.25,
 ["frameHeight"] = 125.0000152587891,
 ["hardcore"] = false,
 ["frameSizes"] = {
@@ -13830,13 +13846,13 @@ nil,
 ["macroAnnounced"] = true,
 ["hardcore"] = false,
 ["framePositions"] = {
-["arrowFrame"] = {
+["activeTargetFrame"] = {
 {
 "CENTER",
 nil,
 "CENTER",
--337.9999389648438,
-232.0001068115234,
+-423.9997253417969,
+216.9998474121094,
 },
 },
 ["RXPFrame"] = {
@@ -13857,20 +13873,20 @@ nil,
 216.9999237060547,
 },
 },
-["activeTargetFrame"] = {
+["arrowFrame"] = {
 {
 "CENTER",
 nil,
 "CENTER",
--423.9997253417969,
-216.9998474121094,
+-337.9999389648438,
+232.0001068115234,
 },
 },
 },
 ["frameSizes"] = {
-["arrowFrame"] = {
-31.99988555908203,
-31.99988555908203,
+["activeTargetFrame"] = {
+82.66658020019531,
+17.99995803833008,
 },
 ["RXPFrame"] = {
 235,
@@ -13880,74 +13896,13 @@ nil,
 73.00001525878906,
 39.99994659423828,
 },
-["activeTargetFrame"] = {
-82.66658020019531,
-17.99995803833008,
-},
-},
-},
-["Postshuffle - Laughing Skull"] = {
-["xprate"] = 1.25,
-["frameHeight"] = 125.0000152587891,
-["hardcore"] = false,
-["frameSizes"] = {
-["activeTargetFrame"] = {
-82.66658020019531,
-18.00004577636719,
-},
-["RXPFrame"] = {
-235,
-28.00003051757813,
-},
-["activeItemFrame"] = {
-73.00001525878906,
-39.99999237060547,
-},
 ["arrowFrame"] = {
 31.99988555908203,
-31.99997329711914,
-},
-},
-["framePositions"] = {
-["activeTargetFrame"] = {
-{
-"CENTER",
-"UIParent",
-"CENTER",
-0,
-0,
-},
-},
-["RXPFrame"] = {
-{
-"LEFT",
-"UIParent",
-"LEFT",
-0,
-35.00000381469727,
-},
-},
-["activeItemFrame"] = {
-{
-"CENTER",
-"UIParent",
-"CENTER",
-0,
-0,
-},
-},
-["arrowFrame"] = {
-{
-"TOP",
-"UIParent",
-"TOP",
-0,
-0,
+31.99988555908203,
 },
 },
 },
-},
-["Reapshuffle - Laughing Skull"] = {
+["Soulshuffle - Laughing Skull"] = {
 ["frameHeight"] = 125.0000152587891,
 ["macroAnnounced"] = true,
 ["hardcore"] = false,
@@ -13957,8 +13912,8 @@ nil,
 "CENTER",
 nil,
 "CENTER",
--435.9998474121094,
-221.0000152587891,
+-413.9997253417969,
+219.0000915527344,
 },
 },
 ["RXPFrame"] = {
@@ -13975,8 +13930,8 @@ nil,
 "CENTER",
 nil,
 "CENTER",
--350.999755859375,
-219.9998474121094,
+-422.0000305175781,
+218.9998474121094,
 },
 },
 ["activeTargetFrame"] = {
@@ -13984,8 +13939,8 @@ nil,
 "CENTER",
 nil,
 "CENTER",
--344.9998474121094,
-197.0000457763672,
+-276.0002136230469,
+213.9996185302734,
 },
 },
 },
@@ -14010,70 +13965,8 @@ nil,
 },
 },
 },
-["Ghostshuffle - Laughing Skull"] = {
-["hardcore"] = false,
-["framePositions"] = {
-["arrowFrame"] = {
-{
-"CENTER",
-nil,
-"CENTER",
--340.9997863769531,
-221.0002136230469,
-},
-},
-["RXPFrame"] = {
-{
-"LEFT",
-"UIParent",
-"LEFT",
-0,
-35.00000381469727,
-},
-},
-["activeItemFrame"] = {
-{
-"CENTER",
-nil,
-"CENTER",
--431.9998168945313,
-187.9999694824219,
-},
-},
-["activeTargetFrame"] = {
-{
-"CENTER",
-nil,
-"CENTER",
--415.9996948242188,
-226.9999237060547,
-},
-},
-},
+["Feintshuffle - Kazzak"] = {
 ["xprate"] = 1.4,
-["frameSizes"] = {
-["arrowFrame"] = {
-31.99988555908203,
-31.99988555908203,
-},
-["RXPFrame"] = {
-235,
-125.0000152587891,
-},
-["activeItemFrame"] = {
-73.00001525878906,
-39.99994659423828,
-},
-["activeTargetFrame"] = {
-82.66658020019531,
-17.99995803833008,
-},
-},
-["frameHeight"] = 125.0000152587891,
-["macroAnnounced"] = true,
-},
-["Smashuffle - Laughing Skull"] = {
-["xprate"] = 1.25,
 ["frameHeight"] = 125.0000152587891,
 ["hardcore"] = false,
 ["frameSizes"] = {
@@ -14133,14 +14026,176 @@ nil,
 },
 },
 },
-["Voidshuffle - Laughing Skull"] = {
+["Bobshuffle - Laughing Skull"] = {
+["xprate"] = 1.4,
 ["frameHeight"] = 125.0000152587891,
-["macroAnnounced"] = true,
+["hardcore"] = false,
+["frameSizes"] = {
+["activeTargetFrame"] = {
+82.66658020019531,
+18.00004577636719,
+},
+["RXPFrame"] = {
+235,
+28.00003051757813,
+},
+["activeItemFrame"] = {
+73.00001525878906,
+39.99999237060547,
+},
+["arrowFrame"] = {
+31.99988555908203,
+31.99997329711914,
+},
+},
+["framePositions"] = {
+["activeTargetFrame"] = {
+{
+"CENTER",
+"UIParent",
+"CENTER",
+0,
+0,
+},
+},
+["RXPFrame"] = {
+{
+"LEFT",
+"UIParent",
+"LEFT",
+0,
+35.00000381469727,
+},
+},
+["activeItemFrame"] = {
+{
+"CENTER",
+"UIParent",
+"CENTER",
+0,
+0,
+},
+},
+["arrowFrame"] = {
+{
+"TOP",
+"UIParent",
+"TOP",
+0,
+0,
+},
+},
+},
+},
+["Stalkshuffle - Laughing Skull"] = {
+["xprate"] = 1.25,
+["frameHeight"] = 125.0000152587891,
 ["hardcore"] = false,
 ["frameSizes"] = {
 ["arrowFrame"] = {
 31.99988555908203,
-31.99988555908203,
+31.99997329711914,
+},
+["RXPFrame"] = {
+235,
+28.00003051757813,
+},
+["activeItemFrame"] = {
+73.00001525878906,
+39.99999237060547,
+},
+["activeTargetFrame"] = {
+82.66658020019531,
+18.00004577636719,
+},
+},
+["framePositions"] = {
+["arrowFrame"] = {
+{
+"TOP",
+"UIParent",
+"TOP",
+0,
+0,
+},
+},
+["RXPFrame"] = {
+{
+"LEFT",
+"UIParent",
+"LEFT",
+0,
+35.00000381469727,
+},
+},
+["activeItemFrame"] = {
+{
+"CENTER",
+"UIParent",
+"CENTER",
+0,
+0,
+},
+},
+["activeTargetFrame"] = {
+{
+"CENTER",
+"UIParent",
+"CENTER",
+0,
+0,
+},
+},
+},
+},
+["Reapshuffle - Laughing Skull"] = {
+["frameHeight"] = 125.0000152587891,
+["macroAnnounced"] = true,
+["hardcore"] = false,
+["framePositions"] = {
+["activeTargetFrame"] = {
+{
+"CENTER",
+nil,
+"CENTER",
+-344.9998474121094,
+197.0000457763672,
+},
+},
+["RXPFrame"] = {
+{
+"LEFT",
+"UIParent",
+"LEFT",
+0,
+35.00000381469727,
+},
+},
+["activeItemFrame"] = {
+{
+"CENTER",
+nil,
+"CENTER",
+-350.999755859375,
+219.9998474121094,
+},
+},
+["arrowFrame"] = {
+{
+"CENTER",
+nil,
+"CENTER",
+-435.9998474121094,
+221.0000152587891,
+},
+},
+},
+["skipQuest"] = {
+},
+["frameSizes"] = {
+["activeTargetFrame"] = {
+82.66658020019531,
+42.99996948242188,
 },
 ["RXPFrame"] = {
 235,
@@ -14150,19 +14205,227 @@ nil,
 73.00001525878906,
 39.99994659423828,
 },
+["arrowFrame"] = {
+31.99988555908203,
+31.99988555908203,
+},
+},
+},
+["Postshuffle - Laughing Skull"] = {
+["xprate"] = 1.25,
+["frameHeight"] = 125.0000152587891,
+["hardcore"] = false,
+["frameSizes"] = {
+["arrowFrame"] = {
+31.99988555908203,
+31.99997329711914,
+},
+["RXPFrame"] = {
+235,
+28.00003051757813,
+},
+["activeItemFrame"] = {
+73.00001525878906,
+39.99999237060547,
+},
 ["activeTargetFrame"] = {
 82.66658020019531,
-42.99996948242188,
+18.00004577636719,
 },
 },
 ["framePositions"] = {
 ["arrowFrame"] = {
 {
+"TOP",
+"UIParent",
+"TOP",
+0,
+0,
+},
+},
+["RXPFrame"] = {
+{
+"LEFT",
+"UIParent",
+"LEFT",
+0,
+35.00000381469727,
+},
+},
+["activeItemFrame"] = {
+{
+"CENTER",
+"UIParent",
+"CENTER",
+0,
+0,
+},
+},
+["activeTargetFrame"] = {
+{
+"CENTER",
+"UIParent",
+"CENTER",
+0,
+0,
+},
+},
+},
+},
+["Ghostshuffle - Laughing Skull"] = {
+["xprate"] = 1.4,
+["frameHeight"] = 125.0000152587891,
+["macroAnnounced"] = true,
+["hardcore"] = false,
+["frameSizes"] = {
+["activeTargetFrame"] = {
+82.66658020019531,
+17.99995803833008,
+},
+["RXPFrame"] = {
+235,
+125.0000152587891,
+},
+["activeItemFrame"] = {
+73.00001525878906,
+39.99994659423828,
+},
+["arrowFrame"] = {
+31.99988555908203,
+31.99988555908203,
+},
+},
+["framePositions"] = {
+["activeTargetFrame"] = {
+{
 "CENTER",
 nil,
 "CENTER",
--303.9998779296875,
-210.0002136230469,
+-415.9996948242188,
+226.9999237060547,
+},
+},
+["RXPFrame"] = {
+{
+"LEFT",
+"UIParent",
+"LEFT",
+0,
+35.00000381469727,
+},
+},
+["activeItemFrame"] = {
+{
+"CENTER",
+nil,
+"CENTER",
+-431.9998474121094,
+187.9999694824219,
+},
+},
+["arrowFrame"] = {
+{
+"CENTER",
+nil,
+"CENTER",
+-340.9998168945313,
+221.0002136230469,
+},
+},
+},
+},
+["Ğ˜ÑĞºÑƒÑĞ½Ğ¾ÑÑ‚ÑŒ - Ğ¡ĞµĞ´Ğ¾Ğ³Ñ€Ğ¸Ğ²"] = {
+["xprate"] = 1.25,
+["frameHeight"] = 125.0000152587891,
+["macroAnnounced"] = true,
+["hardcore"] = false,
+["frameSizes"] = {
+["arrowFrame"] = {
+31.99988555908203,
+31.99997329711914,
+},
+["RXPFrame"] = {
+235,
+125.0000152587891,
+},
+["activeItemFrame"] = {
+97.0000228881836,
+39.99999237060547,
+},
+["activeTargetFrame"] = {
+77.86665344238281,
+43.00001525878906,
+},
+},
+["framePositions"] = {
+["arrowFrame"] = {
+{
+"TOP",
+"UIParent",
+"TOP",
+0,
+0,
+},
+},
+["RXPFrame"] = {
+{
+"LEFT",
+"UIParent",
+"LEFT",
+0,
+35.00000381469727,
+},
+},
+["activeItemFrame"] = {
+{
+"CENTER",
+"UIParent",
+"CENTER",
+0,
+0,
+},
+},
+["activeTargetFrame"] = {
+{
+"CENTER",
+"UIParent",
+"CENTER",
+0,
+0,
+},
+},
+},
+},
+["Voidshuffle - Laughing Skull"] = {
+["frameHeight"] = 125.0000152587891,
+["macroAnnounced"] = true,
+["hardcore"] = false,
+["frameSizes"] = {
+["activeTargetFrame"] = {
+82.66658020019531,
+42.99996948242188,
+},
+["RXPFrame"] = {
+235,
+125.0000152587891,
+},
+["activeItemFrame"] = {
+73.00001525878906,
+39.99994659423828,
+},
+["arrowFrame"] = {
+31.99988555908203,
+31.99988555908203,
+},
+},
+["framePositions"] = {
+["activeTargetFrame"] = {
+{
+"CENTER",
+nil,
+"CENTER",
+-413.9998168945313,
+219.9998474121094,
 },
 },
 ["RXPFrame"] = {
@@ -14183,32 +14446,33 @@ nil,
 216.9999847412109,
 },
 },
-["activeTargetFrame"] = {
+["arrowFrame"] = {
 {
 "CENTER",
 nil,
 "CENTER",
--413.9998168945313,
-219.9998474121094,
+-303.9998779296875,
+210.0002136230469,
 },
 },
 },
 },
-["Stalkshuffle - Laughing Skull"] = {
+["Legshuffle - Dentarg"] = {
 ["xprate"] = 1.25,
 ["frameHeight"] = 125.0000152587891,
+["macroAnnounced"] = true,
 ["hardcore"] = false,
 ["frameSizes"] = {
 ["activeTargetFrame"] = {
-82.66658020019531,
-18.00004577636719,
+73.06654357910156,
+43.00001525878906,
 },
 ["RXPFrame"] = {
 235,
-28.00003051757813,
+125.0000152587891,
 },
 ["activeItemFrame"] = {
-73.00001525878906,
+64.99995422363281,
 39.99999237060547,
 },
 ["arrowFrame"] = {

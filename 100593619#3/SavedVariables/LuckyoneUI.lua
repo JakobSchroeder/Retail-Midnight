@@ -1,11 +1,5 @@
 
 LuckyoneDB = {
-["global"] = {
-["dev"] = true,
-["install_version"] = 3.33,
-["DebugDisabledAddOns"] = {
-},
-},
 ["profileKeys"] = {
 ["Avoidshuffle - Laughing Skull"] = "Default",
 ["Necroshuffle - Kazzak"] = "Default",
@@ -17,6 +11,7 @@ LuckyoneDB = {
 ["Bankshuffle - Laughing Skull"] = "Default",
 ["Roboshuffle - Ravencrest"] = "Default",
 ["Trickshuffle - Kazzak"] = "Default",
+["Legshuffle - Ragnaros"] = "Default",
 ["Moleshuffle - Kazzak"] = "Default",
 ["Preshuffle - Kazzak"] = "Default",
 ["Postshuffle - Laughing Skull"] = "Default",
@@ -27,13 +22,16 @@ LuckyoneDB = {
 ["Wingshuffle - Kazzak"] = "Default",
 ["Tectoshuffle - Kazzak"] = "Default",
 ["Stalkshuffle - Laughing Skull"] = "Default",
+["Reapshuffle - Laughing Skull"] = "Default",
 ["Kickshuffle - Kazzak"] = "Default",
 ["Yumpshuffle - Kazzak"] = "Default",
 ["Bankshuffle - Draenor"] = "Default",
-["Faceshuffle - Draenor"] = "Default",
 ["Subshuffle - Ravencrest"] = "Default",
+["Faceshuffle - Draenor"] = "Default",
+["Legshuffle - Dentarg"] = "Default",
+["Legshuffle - Medivh"] = "Default",
 ["Cloakshuffle - Draenor"] = "Default",
-["Kafirshuffle - Draenor"] = "Default",
+["Chaosshuffle - Draenor"] = "Default",
 ["Soapshuffle - Kazzak"] = "Default",
 ["Monkashuffle - Kazzak"] = "Default",
 ["Feintshuffle - Kazzak"] = "Default",
@@ -43,31 +41,37 @@ LuckyoneDB = {
 ["Forceshuffle - Draenor"] = "Default",
 ["Bankpshuffle - Laughing Skull"] = "Default",
 ["Gunshuffle - Kazzak"] = "Default",
-["Chaosshuffle - Draenor"] = "Default",
-["Quakeshuffle - Draenor"] = "Default",
+["Kafirshuffle - Draenor"] = "Default",
+["Искусность - Седогрив"] = "Default",
 ["Floorshuffle - Ravencrest"] = "Default",
-["Reapshuffle - Laughing Skull"] = "Default",
+["Quakeshuffle - Draenor"] = "Default",
+},
+["global"] = {
+["dev"] = true,
+["install_version"] = 3.33,
+["DebugDisabledAddOns"] = {
+},
 },
 ["profiles"] = {
 ["Default"] = {
 ["misc"] = {
-["mythicVisibility"] = true,
 ["dataTextsTweaks"] = true,
+["mythicVisibility"] = true,
 },
 ["disabledFrames"] = {
 ["HousingDecorAlerts"] = true,
-["AlertFrame"] = true,
 ["BossBanner"] = true,
+["AlertFrame"] = true,
 },
 ["skins"] = {
 ["LFGBulletinBoard"] = true,
-["NovaSpellRankChecker"] = true,
+["WhatsTraining"] = true,
 ["DejaClassicStats"] = true,
 ["BugSack"] = true,
 ["NovaWorldBuffs"] = true,
 ["LeatrixPlus"] = true,
 ["Tabardy"] = true,
-["WhatsTraining"] = true,
+["NovaSpellRankChecker"] = true,
 },
 ["qualityOfLife"] = {
 ["privacyOverlay"] = true,

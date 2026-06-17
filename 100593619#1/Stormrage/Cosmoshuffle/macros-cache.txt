@@ -49,15 +49,15 @@ VER 3 010000000000000C "Reaper" "INV_Misc_QuestionMark"
 #showtooltip
 /cast [known:Reaper's Toll] Reaper's Toll; [known:Hungering Slash] Hungering Slash
 END
-VER 3 0100000000000011 "RXPTargeting" "132150"
-/targetexact Recruit Dar'rak
-/targetlasttarget [dead]
-END
 VER 3 010000000000000F "RXPTargeting" "132150"
 /targetexact Subjugated Murloc
 /targetexact Hatecoil Fathom-Stalker
 /targetexact Hatecoil Spitespeaker
 /targetexact Hatecoil Skrog
+/targetlasttarget [dead]
+END
+VER 3 0100000000000011 "RXPTargeting" "132150"
+/targetexact Recruit Dar'rak
 /targetlasttarget [dead]
 END
 VER 3 010000000000000E "selfshift" "134400"

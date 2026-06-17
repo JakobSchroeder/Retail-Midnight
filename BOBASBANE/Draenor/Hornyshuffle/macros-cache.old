@@ -49,11 +49,11 @@ END
 VER 3 0100000000000015 "TPStar" "134400"
 #showtooltip Collapsing Star
 /stopmacro [channeling]
-/use 13
 /use item:245902
 /use item:241288
 /use item:245903
 /use item:241289
+/use 13
 /cast Collapsing Star
 END
 VER 3 0100000000000014 "TStar" "134400"

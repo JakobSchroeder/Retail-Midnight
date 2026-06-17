@@ -38,6 +38,6 @@ Frame: SimpleAddonManager
 FrameLevel: 1
 Anchor: CENTER
 X: 0
-Y: 24
+Y: 17
 W: 470
 H: 400

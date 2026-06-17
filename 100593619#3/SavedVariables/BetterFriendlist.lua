@@ -23,19 +23,19 @@ BetterFriendlistDB = {
 ["globalFriendsMigrated"] = true,
 ["groupCountColors"] = {
 ["ingame"] = {
-["b"] = 0,
-["g"] = 0.82,
 ["r"] = 1,
+["g"] = 0.82,
+["b"] = 0,
 },
 ["nogroup"] = {
-["b"] = 0.5,
-["g"] = 0.5,
 ["r"] = 0.5,
+["g"] = 0.5,
+["b"] = 0.5,
 },
 ["favorites"] = {
-["b"] = 0,
-["g"] = 0.82,
 ["r"] = 1,
+["g"] = 0.82,
+["b"] = 0,
 },
 },
 ["quickFilter"] = "all",
@@ -44,9 +44,9 @@ BetterFriendlistDB = {
 ["streamerModeNameFormat"] = "battletag",
 ["fontColorFriendName"] = {
 ["a"] = 1,
-["b"] = 1,
-["g"] = 0.773,
 ["r"] = 0.51,
+["g"] = 0.773,
+["b"] = 1,
 },
 ["inGameGroupMode"] = "same_game",
 ["brokerClickAction"] = "toggle",
@@ -74,9 +74,9 @@ BetterFriendlistDB = {
 ["notificationQuietInstance"] = false,
 ["fontColorRaidName"] = {
 ["a"] = 1,
-["r"] = 1,
-["g"] = 0.82,
 ["b"] = 0,
+["g"] = 0.82,
+["r"] = 1,
 },
 ["fontSizeGroupHeader"] = 12,
 ["fontRaidName"] = "Friz Quadrata TT",
@@ -90,63 +90,63 @@ BetterFriendlistDB = {
 ["Horde"] = {
 ["Hemoshuffle-Kazzak"] = {
 ["notes"] = "",
+["lastSeen"] = 1778106397,
 ["guid"] = "Player-1305-0B16234D",
-["lastSeen"] = 1775402179,
 },
 ["Terrashuffle-Kazzak"] = {
 ["notes"] = "",
+["lastSeen"] = 1778106397,
 ["guid"] = "Player-1305-0B2E4A62",
-["lastSeen"] = 1775402179,
 },
 ["Rageshuffle-Kazzak"] = {
 ["notes"] = "",
+["lastSeen"] = 1778106397,
 ["guid"] = "Player-1305-0B210B00",
-["lastSeen"] = 1775402179,
 },
 ["Angleshuffle-Kazzak"] = {
 ["notes"] = "",
+["lastSeen"] = 1778106397,
 ["guid"] = "Player-1305-0CD5A169",
-["lastSeen"] = 1775402179,
 },
 ["Vanishuffle-Kazzak"] = {
 ["notes"] = "",
+["lastSeen"] = 1778106397,
 ["guid"] = "Player-1305-0B2EBFCE",
-["lastSeen"] = 1775402179,
 },
 ["Teashuffle-Kazzak"] = {
 ["notes"] = "",
-["guid"] = "Player-1305-0B0CC3DA",
 ["lastSeen"] = 1775402179,
+["guid"] = "Player-1305-0B0CC3DA",
 },
 ["Jumpshuffle-Kazzak"] = {
 ["notes"] = "",
+["lastSeen"] = 1778106397,
 ["guid"] = "Player-1305-0B12F555",
-["lastSeen"] = 1775402179,
 },
 ["Dotshuffle-Kazzak"] = {
 ["notes"] = "",
+["lastSeen"] = 1778106397,
 ["guid"] = "Player-1305-0B0F6CBF",
-["lastSeen"] = 1775402179,
-},
-["Aliceshuffle-LaughingSkull"] = {
-["notes"] = "",
-["guid"] = "Player-1598-0F478A8C",
-["lastSeen"] = 1775402435,
-},
-["Tradushuffle-LaughingSkull"] = {
-["notes"] = "",
-["guid"] = "Player-1598-0F08F91C",
-["lastSeen"] = 1775402435,
-},
-["Intshuffle-Kazzak"] = {
-["notes"] = "",
-["guid"] = "Player-1305-0B0DAE9D",
-["lastSeen"] = 1775402179,
 },
 ["Banishuffle-Kazzak"] = {
 ["notes"] = "",
+["lastSeen"] = 1778106397,
 ["guid"] = "Player-1305-0B189342",
-["lastSeen"] = 1775402179,
+},
+["Intshuffle-Kazzak"] = {
+["notes"] = "",
+["lastSeen"] = 1778106397,
+["guid"] = "Player-1305-0B0DAE9D",
+},
+["Tradushuffle-LaughingSkull"] = {
+["notes"] = "",
+["lastSeen"] = 1778106224,
+["guid"] = "Player-1598-0F08F91C",
+},
+["Aliceshuffle-LaughingSkull"] = {
+["notes"] = "",
+["lastSeen"] = 1778106224,
+["guid"] = "Player-1598-0F478A8C",
 },
 },
 ["Alliance"] = {
@@ -165,9 +165,9 @@ BetterFriendlistDB = {
 ["notificationQuietScheduleEndMinutes"] = 480,
 ["fontColorTabText"] = {
 ["a"] = 1,
-["r"] = 1,
-["g"] = 0.82,
 ["b"] = 0,
+["g"] = 0.82,
+["r"] = 1,
 },
 ["whoSearchBuilderDocked"] = false,
 ["enableElvUISkin"] = false,
@@ -185,78 +185,98 @@ BetterFriendlistDB = {
 ["notificationGroupRules"] = {
 },
 ["notificationGameSwitchEnabled"] = false,
-["notificationOfflineEnabled"] = false,
-["nicknames"] = {
+["raidToolsPreserveGroups"] = {
 },
+["raidToolsResumeAfterCombat"] = true,
 ["showMultiAccountBadge"] = true,
 ["fontOutlineRaidName"] = "NONE",
-["hideMaxLevel"] = false,
+["recentlyAddedDurationUnit"] = "days",
 ["fontFriendName"] = "Expressway",
 ["customGroups"] = {
 },
 ["recentlyAddedDurationValue"] = 7,
-["notificationToastPosition"] = {
-},
+["mainFramePositionMigrated"] = true,
 ["friendGroups"] = {
 },
-["whoZebraStripes"] = true,
+["whoClassColorNames"] = true,
 ["brokerShowGroups"] = false,
 ["colorLevelByDifficulty"] = true,
 ["fontTabText"] = "Friz Quadrata TT",
-["groupColors"] = {
+["fontColorFriendInfo"] = {
+["a"] = 1,
+["r"] = 0.51,
+["g"] = 0.51,
+["b"] = 0.51,
 },
 ["lockWindow"] = false,
-["notificationWowLoginEnabled"] = true,
+["lastInvitedAccounts"] = {
+},
 ["nameFormatCustom"] = "%name%",
-["whoSearchHistoryMax"] = 8,
+["knownFriendUIDs"] = {
+},
 ["debugPrintEnabled"] = false,
 ["recentlyAddedTimestamps"] = {
 },
-["knownFriendUIDs"] = {
-},
+["whoSearchHistoryMax"] = 8,
 ["colorClassNames"] = true,
 ["streamerModeHeaderText"] = "Streamer Mode",
 ["grayOtherFaction"] = false,
 ["notificationQuietCombat"] = true,
-["notificationSoundEnabled"] = true,
-["showFavoritesGroup"] = true,
-["notificationMessageOffline"] = "%name% went offline",
-["nameFormatPreset"] = "default",
-["groupStates"] = {
-["favorites"] = false,
-["nogroup"] = false,
+["raidShortcuts"] = {
+["promote"] = {
+["button"] = "RightButton",
+["modifier"] = "ALT",
 },
+["mainAssist"] = {
+["button"] = "RightButton",
+["modifier"] = "CTRL",
+},
+["mainTank"] = {
+["button"] = "RightButton",
+["modifier"] = "SHIFT",
+},
+["lead"] = {
+["button"] = "LeftButton",
+["modifier"] = "ALT",
+},
+},
+["showFavoritesGroup"] = true,
+["defaultFrameWidth"] = 415,
+["nameFormatPreset"] = "default",
+["version"] = "2.5.5",
 ["whoSearchHistory"] = {
 },
-["version"] = "2.5.5",
+["groupStates"] = {
+["nogroup"] = false,
+["favorites"] = false,
+},
 ["lastChangelogVersion"] = "2.2.2",
 ["wowUIDMigrationDone_v1"] = true,
-["notificationQuietScheduleStartMinutes"] = 1320,
+["notificationMessageGameSwitch"] = "%name% is now playing %game%",
 ["notificationQuietManual"] = false,
 ["fontShadowFriendName"] = false,
 ["groupArrowColors"] = {
 ["ingame"] = {
-["b"] = 0,
-["g"] = 0.82,
 ["r"] = 1,
+["g"] = 0.82,
+["b"] = 0,
 },
 ["nogroup"] = {
-["b"] = 0.5,
-["g"] = 0.5,
 ["r"] = 0.5,
+["g"] = 0.5,
+["b"] = 0.5,
 },
 ["favorites"] = {
-["b"] = 0,
-["g"] = 0.82,
 ["r"] = 1,
+["g"] = 0.82,
+["b"] = 0,
 },
 },
-["simpleMode"] = false,
+["brokerShowTotal"] = true,
 ["fontShadowFriendInfo"] = false,
-["notificationMessageWowLogin"] = "%name% logged into World of Warcraft",
+["brokerTooltipMode"] = "advanced",
 ["notificationCharSwitchEnabled"] = false,
-["showGameIcon"] = true,
-["showMobileAsAFK"] = false,
+["fontSizeTabText"] = 12,
 ["mainFramePosition"] = {
 ["DF1"] = {
 ["y"] = 193.9998168945313,
@@ -270,53 +290,33 @@ BetterFriendlistDB = {
 ["relativePoint"] = "LEFT",
 },
 },
-["fontSizeTabText"] = 12,
+["showMobileAsAFK"] = false,
+["showGameIcon"] = true,
 ["brokerEnabled"] = false,
-["brokerTooltipMode"] = "advanced",
-["brokerShowTotal"] = true,
+["notificationMessageWowLogin"] = "%name% logged into World of Warcraft",
+["simpleMode"] = false,
 ["enableGlobalSync"] = false,
-["notificationMessageGameSwitch"] = "%name% is now playing %game%",
+["notificationQuietScheduleStartMinutes"] = 1320,
 ["notificationFriendRules"] = {
 },
 ["headerCountFormat"] = "visible",
-["defaultFrameWidth"] = 415,
-["raidShortcuts"] = {
-["lead"] = {
-["button"] = "LeftButton",
-["modifier"] = "ALT",
-},
-["mainAssist"] = {
-["button"] = "RightButton",
-["modifier"] = "CTRL",
-},
-["mainTank"] = {
-["button"] = "RightButton",
-["modifier"] = "SHIFT",
-},
-["promote"] = {
-["button"] = "RightButton",
-["modifier"] = "ALT",
-},
-},
+["notificationMessageOffline"] = "%name% went offline",
+["notificationSoundEnabled"] = true,
 ["whoLevelColors"] = true,
 ["brokerShowLabel"] = true,
 ["compactMode"] = false,
-["lastInvitedAccounts"] = {
-},
-["fontColorFriendInfo"] = {
-["a"] = 1,
-["b"] = 0.51,
-["g"] = 0.51,
-["r"] = 0.51,
+["notificationWowLoginEnabled"] = true,
+["groupColors"] = {
 },
 ["raidToolsSortMode"] = "tmrh",
 ["treatMobileAsOffline"] = false,
-["whoClassColorNames"] = true,
-["mainFramePositionMigrated"] = true,
-["secondarySort"] = "name",
-["recentlyAddedDurationUnit"] = "days",
-["showGroupArrow"] = true,
-["raidToolsResumeAfterCombat"] = true,
-["raidToolsPreserveGroups"] = {
+["whoZebraStripes"] = true,
+["notificationToastPosition"] = {
 },
+["secondarySort"] = "name",
+["hideMaxLevel"] = false,
+["showGroupArrow"] = true,
+["nicknames"] = {
+},
+["notificationOfflineEnabled"] = false,
 }

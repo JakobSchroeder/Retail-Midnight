@@ -11,6 +11,7 @@ TomTomDB = {
 ["Bankshuffle - Laughing Skull"] = "Default",
 ["Roboshuffle - Ravencrest"] = "Default",
 ["Trickshuffle - Kazzak"] = "Default",
+["Legshuffle - Ragnaros"] = "Default",
 ["Moleshuffle - Kazzak"] = "Default",
 ["Preshuffle - Kazzak"] = "Default",
 ["Postshuffle - Laughing Skull"] = "Default",
@@ -21,13 +22,16 @@ TomTomDB = {
 ["Wingshuffle - Kazzak"] = "Default",
 ["Tectoshuffle - Kazzak"] = "Default",
 ["Stalkshuffle - Laughing Skull"] = "Default",
+["Reapshuffle - Laughing Skull"] = "Default",
 ["Kickshuffle - Kazzak"] = "Default",
 ["Yumpshuffle - Kazzak"] = "Default",
 ["Bankshuffle - Draenor"] = "Default",
-["Faceshuffle - Draenor"] = "Default",
 ["Subshuffle - Ravencrest"] = "Default",
+["Faceshuffle - Draenor"] = "Default",
+["Legshuffle - Dentarg"] = "Default",
+["Legshuffle - Medivh"] = "Default",
 ["Cloakshuffle - Draenor"] = "Default",
-["Kafirshuffle - Draenor"] = "Default",
+["Chaosshuffle - Draenor"] = "Default",
 ["Soapshuffle - Kazzak"] = "Default",
 ["Monkashuffle - Kazzak"] = "Default",
 ["Feintshuffle - Kazzak"] = "Default",
@@ -37,10 +41,10 @@ TomTomDB = {
 ["Forceshuffle - Draenor"] = "Default",
 ["Bankpshuffle - Laughing Skull"] = "Default",
 ["Gunshuffle - Kazzak"] = "Default",
-["Chaosshuffle - Draenor"] = "Default",
-["Quakeshuffle - Draenor"] = "Default",
+["Kafirshuffle - Draenor"] = "Default",
+["Искусность - Седогрив"] = "Default",
 ["Floorshuffle - Ravencrest"] = "Default",
-["Reapshuffle - Laughing Skull"] = "Default",
+["Quakeshuffle - Draenor"] = "Default",
 },
 ["profiles"] = {
 ["Default"] = {
@@ -53,12 +57,6 @@ nil,
 304.9996948242188,
 },
 },
-["paste"] = {
-["button"] = {
-["showInCompartment"] = true,
-["hide"] = false,
-},
-},
 ["block"] = {
 ["position"] = {
 "TOPRIGHT",
@@ -66,6 +64,12 @@ nil,
 "TOPRIGHT",
 -335.0005798339844,
 -173.0004119873047,
+},
+},
+["paste"] = {
+["button"] = {
+["hide"] = false,
+["showInCompartment"] = true,
 },
 },
 },
@@ -84,6 +88,7 @@ TomTomWaypointsM = {
 ["Bankshuffle - Laughing Skull"] = "Bankshuffle - Laughing Skull",
 ["Roboshuffle - Ravencrest"] = "Roboshuffle - Ravencrest",
 ["Trickshuffle - Kazzak"] = "Trickshuffle - Kazzak",
+["Legshuffle - Ragnaros"] = "Legshuffle - Ragnaros",
 ["Moleshuffle - Kazzak"] = "Moleshuffle - Kazzak",
 ["Preshuffle - Kazzak"] = "Preshuffle - Kazzak",
 ["Postshuffle - Laughing Skull"] = "Postshuffle - Laughing Skull",
@@ -94,13 +99,16 @@ TomTomWaypointsM = {
 ["Wingshuffle - Kazzak"] = "Wingshuffle - Kazzak",
 ["Tectoshuffle - Kazzak"] = "Tectoshuffle - Kazzak",
 ["Stalkshuffle - Laughing Skull"] = "Stalkshuffle - Laughing Skull",
+["Reapshuffle - Laughing Skull"] = "Reapshuffle - Laughing Skull",
 ["Kickshuffle - Kazzak"] = "Kickshuffle - Kazzak",
 ["Yumpshuffle - Kazzak"] = "Yumpshuffle - Kazzak",
 ["Bankshuffle - Draenor"] = "Bankshuffle - Draenor",
-["Faceshuffle - Draenor"] = "Faceshuffle - Draenor",
 ["Subshuffle - Ravencrest"] = "Subshuffle - Ravencrest",
+["Faceshuffle - Draenor"] = "Faceshuffle - Draenor",
+["Legshuffle - Dentarg"] = "Legshuffle - Dentarg",
+["Legshuffle - Medivh"] = "Legshuffle - Medivh",
 ["Cloakshuffle - Draenor"] = "Cloakshuffle - Draenor",
-["Kafirshuffle - Draenor"] = "Kafirshuffle - Draenor",
+["Chaosshuffle - Draenor"] = "Chaosshuffle - Draenor",
 ["Soapshuffle - Kazzak"] = "Soapshuffle - Kazzak",
 ["Monkashuffle - Kazzak"] = "Monkashuffle - Kazzak",
 ["Feintshuffle - Kazzak"] = "Feintshuffle - Kazzak",
@@ -110,10 +118,10 @@ TomTomWaypointsM = {
 ["Forceshuffle - Draenor"] = "Forceshuffle - Draenor",
 ["Bankpshuffle - Laughing Skull"] = "Bankpshuffle - Laughing Skull",
 ["Gunshuffle - Kazzak"] = "Gunshuffle - Kazzak",
-["Chaosshuffle - Draenor"] = "Chaosshuffle - Draenor",
-["Quakeshuffle - Draenor"] = "Quakeshuffle - Draenor",
+["Kafirshuffle - Draenor"] = "Kafirshuffle - Draenor",
+["Искусность - Седогрив"] = "Искусность - Седогрив",
 ["Floorshuffle - Ravencrest"] = "Floorshuffle - Ravencrest",
-["Reapshuffle - Laughing Skull"] = "Reapshuffle - Laughing Skull",
+["Quakeshuffle - Draenor"] = "Quakeshuffle - Draenor",
 },
 ["profiles"] = {
 ["Avoidshuffle - Laughing Skull"] = {
@@ -136,6 +144,8 @@ TomTomWaypointsM = {
 },
 ["Trickshuffle - Kazzak"] = {
 },
+["Legshuffle - Ragnaros"] = {
+},
 ["Moleshuffle - Kazzak"] = {
 },
 ["Preshuffle - Kazzak"] = {
@@ -156,19 +166,25 @@ TomTomWaypointsM = {
 },
 ["Stalkshuffle - Laughing Skull"] = {
 },
+["Reapshuffle - Laughing Skull"] = {
+},
 ["Kickshuffle - Kazzak"] = {
 },
 ["Yumpshuffle - Kazzak"] = {
 },
 ["Bankshuffle - Draenor"] = {
 },
+["Subshuffle - Ravencrest"] = {
+},
 ["Faceshuffle - Draenor"] = {
 },
-["Subshuffle - Ravencrest"] = {
+["Legshuffle - Dentarg"] = {
+},
+["Legshuffle - Medivh"] = {
 },
 ["Cloakshuffle - Draenor"] = {
 },
-["Kafirshuffle - Draenor"] = {
+["Chaosshuffle - Draenor"] = {
 },
 ["Soapshuffle - Kazzak"] = {
 },
@@ -188,13 +204,13 @@ TomTomWaypointsM = {
 },
 ["Gunshuffle - Kazzak"] = {
 },
-["Chaosshuffle - Draenor"] = {
+["Kafirshuffle - Draenor"] = {
 },
-["Quakeshuffle - Draenor"] = {
+["Искусность - Седогрив"] = {
 },
 ["Floorshuffle - Ravencrest"] = {
 },
-["Reapshuffle - Laughing Skull"] = {
+["Quakeshuffle - Draenor"] = {
 },
 },
 }

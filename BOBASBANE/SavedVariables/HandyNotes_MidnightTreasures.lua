@@ -25,7 +25,7 @@ HandyNotes_MidnightTreasuresDB = {
 ["Spearshuffle - Kazzak"] = "Spearshuffle - Kazzak",
 ["Hourshuffle - Kazzak"] = "Hourshuffle - Kazzak",
 ["Eyeshuffle - Ravencrest"] = "Eyeshuffle - Ravencrest",
-["Apollumi - Twisting Nether"] = "Apollumi - Twisting Nether",
+["Avoidshuffle - Auchindoun"] = "Avoidshuffle - Auchindoun",
 ["Spamtothetop - Twisting Nether"] = "Spamtothetop - Twisting Nether",
 ["Aliceshuffle - Laughing Skull"] = "Aliceshuffle - Laughing Skull",
 ["Terrashuffle - Kazzak"] = "Terrashuffle - Kazzak",
@@ -33,7 +33,7 @@ HandyNotes_MidnightTreasuresDB = {
 ["Punctuation - Twisting Nether"] = "Punctuation - Twisting Nether",
 ["Teashuffle - Kazzak"] = "Teashuffle - Kazzak",
 ["Faithshuffle - Draenor"] = "Faithshuffle - Draenor",
-["Avoidshuffle - Auchindoun"] = "Avoidshuffle - Auchindoun",
+["Goldshuffle - Blackrock"] = "Goldshuffle - Blackrock",
 ["Edgeshuffle - Auchindoun"] = "Edgeshuffle - Auchindoun",
 ["Tradushuffle - Laughing Skull"] = "Tradushuffle - Laughing Skull",
 ["Bowshuffle - Ravencrest"] = "Bowshuffle - Ravencrest",
@@ -43,7 +43,7 @@ HandyNotes_MidnightTreasuresDB = {
 ["Banishuffle - Kazzak"] = "Banishuffle - Kazzak",
 ["Udartton - Twisting Nether"] = "Udartton - Twisting Nether",
 ["Ripinpeach - Ravencrest"] = "Ripinpeach - Ravencrest",
-["Goldshuffle - Blackrock"] = "Goldshuffle - Blackrock",
+["Apollumi - Twisting Nether"] = "Apollumi - Twisting Nether",
 ["Brainshuffle - Auchindoun"] = "Brainshuffle - Auchindoun",
 ["Leshuffle - Draenor"] = "Leshuffle - Draenor",
 ["Riplimb - Twisting Nether"] = "Riplimb - Twisting Nether",
@@ -105,7 +105,7 @@ HandyNotes_MidnightTreasuresDB = {
 },
 ["Eyeshuffle - Ravencrest"] = {
 },
-["Apollumi - Twisting Nether"] = {
+["Avoidshuffle - Auchindoun"] = {
 },
 ["Spamtothetop - Twisting Nether"] = {
 },
@@ -121,7 +121,7 @@ HandyNotes_MidnightTreasuresDB = {
 },
 ["Faithshuffle - Draenor"] = {
 },
-["Avoidshuffle - Auchindoun"] = {
+["Goldshuffle - Blackrock"] = {
 },
 ["Edgeshuffle - Auchindoun"] = {
 },
@@ -141,7 +141,7 @@ HandyNotes_MidnightTreasuresDB = {
 },
 ["Ripinpeach - Ravencrest"] = {
 },
-["Goldshuffle - Blackrock"] = {
+["Apollumi - Twisting Nether"] = {
 },
 ["Brainshuffle - Auchindoun"] = {
 },

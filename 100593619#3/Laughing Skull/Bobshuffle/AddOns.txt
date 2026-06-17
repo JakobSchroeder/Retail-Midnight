@@ -115,7 +115,7 @@ kExtraBossFrames: disabled
 LittleWigs_TheWarWithin: enabled
 !Swatter: disabled
 !ImprovedErrorFrame: disabled
-RXPGuides: disabled
+RXPGuides: enabled
 AbstractFramework: enabled
 AccountPlayed: enabled
 AdvancedFocusCastBar: enabled
@@ -161,3 +161,4 @@ Blizzard_CharacterFrame: enabled
 Blizzard_ChallengesUI: enabled
 Blizzard_EncounterJournal: enabled
 Blizzard_Transmog: enabled
+SkironCooldownManager: disabled

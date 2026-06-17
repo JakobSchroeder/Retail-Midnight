@@ -105,7 +105,7 @@ AccountPlayedDB = {
 ["class"] = "PRIEST",
 },
 ["Kazzak-Teashuffle"] = {
-["time"] = 11756157,
+["time"] = 11756462,
 ["class"] = "MONK",
 },
 ["Kazzak-Vanishuffle"] = {
@@ -181,7 +181,7 @@ AccountPlayedDB = {
 ["class"] = "ROGUE",
 },
 ["Kazzak-Spearshuffle"] = {
-["time"] = 2021335,
+["time"] = 2039881,
 ["class"] = "HUNTER",
 },
 ["TwistingNether-Shóckadin"] = {
@@ -341,11 +341,11 @@ AccountPlayedDB = {
 ["class"] = "MAGE",
 },
 ["Kazzak-Feintshuffle"] = {
-["time"] = 2210400,
+["time"] = 2210679,
 ["class"] = "ROGUE",
 },
 ["Draenor-Hornyshuffle"] = {
-["time"] = 2352985,
+["time"] = 2616524,
 ["class"] = "DEMONHUNTER",
 },
 ["TwistingNether-Apollumi"] = {

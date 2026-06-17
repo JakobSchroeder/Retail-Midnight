@@ -7,18 +7,18 @@ Emoticons_Settings = {
 ["ENABLE_ANIMATEDEMOTES"] = true,
 ["CHAT_MSG_RAID_WARNING"] = true,
 ["CHAT_MSG_CHANNEL"] = true,
-["CHAT_MSG_PARTY_GUIDE"] = true,
-["CHAT_MSG_WHISPER"] = true,
 ["CHAT_MSG_BN_WHISPER"] = true,
+["CHAT_MSG_WHISPER"] = true,
+["CHAT_MSG_PARTY_GUIDE"] = true,
 ["CHAT_MSG_PARTY"] = true,
-["LARGEEMOTES"] = false,
+["CHAT_MSG_WHISPER_INFORM"] = true,
 ["CHAT_MSG_INSTANCE_CHAT_LEADER"] = true,
 ["CHAT_MSG_RAID"] = true,
-["ENABLE_AUTOCOMPLETE"] = true,
-["MINIMAPBUTTON"] = true,
-["CHAT_MSG_RAID_LEADER"] = true,
+["CHAT_MSG_BN_WHISPER_INFORM"] = true,
 ["CHAT_MSG_YELL"] = true,
-["CHAT_MSG_SAY"] = true,
+["CHAT_MSG_RAID_LEADER"] = true,
+["MINIMAPBUTTON"] = true,
+["CHAT_MSG_BN_CONVERSATION"] = true,
 ["FAVEMOTES"] = {
 true,
 true,
@@ -49,10 +49,10 @@ true,
 true,
 },
 ["MAIL"] = true,
-["CHAT_MSG_BN_CONVERSATION"] = true,
+["CHAT_MSG_SAY"] = true,
 ["ENABLE_CLICKABLEEMOTES"] = true,
-["CHAT_MSG_BN_WHISPER_INFORM"] = true,
-["CHAT_MSG_WHISPER_INFORM"] = true,
+["ENABLE_AUTOCOMPLETE"] = true,
+["LARGEEMOTES"] = false,
 ["MINIMAPDATA"] = {
 ["minimapPos"] = 135,
 },
@@ -78,42 +78,17 @@ TwitchEmoteStatistics = {
 1,
 6,
 },
-["KEKW"] = {
-0,
-1,
-2,
-},
-["LMAO"] = {
-0,
-0,
-8,
-},
-["Pog"] = {
+[":sob:"] = {
 0,
 0,
 1,
 },
-["Life"] = {
-0,
-0,
-3,
-},
-["D:"] = {
-0,
-0,
-5,
-},
-["Okay"] = {
-0,
-0,
-2,
-},
-["potter"] = {
+["PepeHands"] = {
 0,
 0,
 1,
 },
-["NA"] = {
+["cmon"] = {
 0,
 0,
 2,
@@ -123,9 +98,44 @@ TwitchEmoteStatistics = {
 0,
 1,
 },
-["cmon"] = {
+["NA"] = {
 0,
 0,
 2,
+},
+["Life"] = {
+0,
+0,
+3,
+},
+["D:"] = {
+0,
+0,
+7,
+},
+["Okay"] = {
+0,
+0,
+3,
+},
+["potter"] = {
+0,
+0,
+1,
+},
+["Pog"] = {
+0,
+0,
+1,
+},
+["LMAO"] = {
+0,
+0,
+12,
+},
+["KEKW"] = {
+0,
+1,
+3,
 },
 }

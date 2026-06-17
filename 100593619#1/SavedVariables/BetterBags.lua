@@ -17,15 +17,17 @@ BetterBagsDB = {
 ["Spearshuffle - Kazzak"] = "Default",
 ["Rageshuffle - Kazzak"] = "Default",
 ["Fogshuffle - Stormrage"] = "Default",
-["Shivshuffle - Stormrage"] = "Default",
-["Gripshuffle - Stormrage"] = "Default",
-["Intshuffle - Kazzak"] = "Default",
-["Hornyshuffle - Draenor"] = "Default",
 ["Tradushuffle - Laughing Skull"] = "Default",
+["Hornyshuffle - Draenor"] = "Default",
+["Intshuffle - Kazzak"] = "Default",
+["Gripshuffle - Stormrage"] = "Default",
+["Shivshuffle - Stormrage"] = "Default",
 },
 ["profiles"] = {
 ["Default"] = {
-["__profileSystemMigrated"] = true,
+["groupCounter"] = {
+2,
+},
 ["groupsEnabled"] = {
 [0] = false,
 },
@@ -36,16 +38,16 @@ BetterBagsDB = {
 ["name"] = "Bank",
 ["id"] = 1,
 ["kind"] = 1,
-["order"] = 1,
 ["isDefault"] = true,
+["order"] = 1,
 },
 {
 ["bankType"] = 2,
 ["name"] = "Warbank",
 ["id"] = 2,
 ["kind"] = 1,
-["order"] = 2,
 ["isDefault"] = true,
+["order"] = 2,
 },
 },
 },
@@ -520,14 +522,34 @@ true,
 ["name"] = "Herbalism",
 ["dynamic"] = true,
 },
-["Recent Items"] = {
+["Tradeskill - Cloth"] = {
 ["enabled"] = {
 true,
 [0] = true,
 },
 ["itemList"] = {
 },
-["name"] = "Recent Items",
+["name"] = "Tradeskill - Cloth",
+["dynamic"] = true,
+},
+["Waist"] = {
+["enabled"] = {
+true,
+[0] = true,
+},
+["itemList"] = {
+},
+["name"] = "Waist",
+["dynamic"] = true,
+},
+["Tradeskill - Other"] = {
+["enabled"] = {
+true,
+[0] = true,
+},
+["itemList"] = {
+},
+["name"] = "Tradeskill - Other",
 ["dynamic"] = true,
 },
 ["Finishing Reagents"] = {
@@ -540,34 +562,14 @@ true,
 ["name"] = "Finishing Reagents",
 ["dynamic"] = true,
 },
-["Battle Pets"] = {
+["Junk"] = {
 ["enabled"] = {
 true,
 [0] = true,
 },
 ["itemList"] = {
 },
-["name"] = "Battle Pets",
-["dynamic"] = true,
-},
-["Miscellaneous - Junk"] = {
-["enabled"] = {
-true,
-[0] = true,
-},
-["itemList"] = {
-},
-["name"] = "Miscellaneous - Junk",
-["dynamic"] = true,
-},
-["Wrist"] = {
-["enabled"] = {
-true,
-[0] = true,
-},
-["itemList"] = {
-},
-["name"] = "Wrist",
+["name"] = "Junk",
 ["dynamic"] = true,
 },
 ["Tradeskill - Parts"] = {
@@ -590,33 +592,34 @@ true,
 ["name"] = "Tradeskill - Inscription",
 ["dynamic"] = true,
 },
-["Armor"] = {
+["Battle Pets"] = {
 ["enabled"] = {
 true,
 [0] = true,
 },
 ["itemList"] = {
 },
-["name"] = "Armor",
+["name"] = "Battle Pets",
 ["dynamic"] = true,
 },
-["Warband Bank"] = {
+["Wrist"] = {
 ["enabled"] = {
 true,
 [0] = true,
 },
 ["itemList"] = {
 },
-["name"] = "Warband Bank",
+["name"] = "Wrist",
+["dynamic"] = true,
 },
-["One-Hand"] = {
+["Housing"] = {
 ["enabled"] = {
 true,
 [0] = true,
 },
 ["itemList"] = {
 },
-["name"] = "One-Hand",
+["name"] = "Housing",
 ["dynamic"] = true,
 },
 ["Container"] = {
@@ -669,16 +672,6 @@ true,
 ["name"] = "Neck",
 ["dynamic"] = true,
 },
-["Mining"] = {
-["enabled"] = {
-true,
-[0] = true,
-},
-["itemList"] = {
-},
-["name"] = "Mining",
-["dynamic"] = true,
-},
 ["Gear: Low"] = {
 ["enabled"] = {
 true,
@@ -687,6 +680,16 @@ true,
 ["itemList"] = {
 },
 ["name"] = "Gear: Low",
+["dynamic"] = true,
+},
+["Mining"] = {
+["enabled"] = {
+true,
+[0] = true,
+},
+["itemList"] = {
+},
+["name"] = "Mining",
 ["dynamic"] = true,
 },
 ["Gear: Serenity"] = {
@@ -729,54 +732,53 @@ true,
 ["name"] = "Consumable",
 ["dynamic"] = true,
 },
-["Housing"] = {
+["One-Hand"] = {
 ["enabled"] = {
 true,
 [0] = true,
 },
 ["itemList"] = {
 },
-["name"] = "Housing",
+["name"] = "One-Hand",
 ["dynamic"] = true,
 },
-["Junk"] = {
+["Warband Bank"] = {
 ["enabled"] = {
 true,
 [0] = true,
 },
 ["itemList"] = {
 },
-["name"] = "Junk",
+["name"] = "Warband Bank",
+},
+["Armor"] = {
+["enabled"] = {
+true,
+[0] = true,
+},
+["itemList"] = {
+},
+["name"] = "Armor",
 ["dynamic"] = true,
 },
-["Tradeskill - Other"] = {
+["Miscellaneous - Junk"] = {
 ["enabled"] = {
 true,
 [0] = true,
 },
 ["itemList"] = {
 },
-["name"] = "Tradeskill - Other",
+["name"] = "Miscellaneous - Junk",
 ["dynamic"] = true,
 },
-["Waist"] = {
+["Recent Items"] = {
 ["enabled"] = {
 true,
 [0] = true,
 },
 ["itemList"] = {
 },
-["name"] = "Waist",
-["dynamic"] = true,
-},
-["Tradeskill - Cloth"] = {
-["enabled"] = {
-true,
-[0] = true,
-},
-["itemList"] = {
-},
-["name"] = "Tradeskill - Cloth",
+["name"] = "Recent Items",
 ["dynamic"] = true,
 },
 ["BoE"] = {
@@ -789,7 +791,31 @@ true,
 ["name"] = "BoE",
 },
 },
-["upgradeIconProvider"] = "BetterBags",
+["itemLevelColor"] = {
+["maxItemLevelByCharacter"] = {
+["Hemoshuffle-Kazzak"] = 170,
+["Avoidshuffle-Laughing Skull"] = 170,
+["Spearshuffle-Kazzak"] = 170,
+["Teashuffle-Kazzak"] = 170,
+["Shivshuffle-Stormrage"] = 102,
+["Madneshuffle-Stormrage"] = 102,
+["Fogshuffle-Stormrage"] = 141,
+["Aurashuffle-Stormrage"] = 102,
+["Tradushuffle-Laughing Skull"] = 170,
+["Hornyshuffle-Draenor"] = 170,
+["Blastshuffle-Stormrage"] = 102,
+["Petshuffle-Stormrage"] = 102,
+["Cosmoshuffle-Stormrage"] = 295,
+["Grapeshuffle-Stormrage"] = 170,
+["Goldshuffle-Blackrock"] = 124,
+["Banishuffle-Stormrage"] = 102,
+["Plantshuffle-Stormrage"] = 102,
+["Osirishuffle-Stormrage"] = 102,
+["Rageshuffle-Kazzak"] = 170,
+["Intshuffle-Kazzak"] = 170,
+["Gripshuffle-Stormrage"] = 102,
+},
+},
 ["showBagButton"] = false,
 ["categoryFilters"] = {
 {
@@ -804,24 +830,9 @@ true,
 2,
 },
 ["__bankDefaultTabsFixed"] = true,
-["positions"] = {
-{
-["y"] = 141,
-["x"] = -204.5000915527344,
-["point"] = "CENTER",
-["scale"] = 1,
-},
-[0] = {
-["y"] = -174.8006510555842,
-["x"] = -273.6003565549909,
-["point"] = "RIGHT",
-["scale"] = 0.800000011920929,
-},
-},
+["theme"] = "elvui",
 ["firstTimeMenu"] = false,
-["groupCounter"] = {
-2,
-},
+["__profileSystemMigrated"] = true,
 ["__groupsScopedByKind"] = true,
 ["categoryOptions"] = {
 ["Consumable - Other"] = {
@@ -956,8 +967,8 @@ true,
 ["Tradeskill - Optional Reagents"] = {
 ["shown"] = true,
 },
-["WuE"] = {
-["shown"] = true,
+["Waist"] = {
+["shown"] = false,
 },
 ["Finger"] = {
 ["shown"] = false,
@@ -965,19 +976,19 @@ true,
 ["Neck"] = {
 ["shown"] = false,
 },
-["Soulbound"] = {
+["Tradeskill - Other"] = {
+["shown"] = true,
+},
+["Junk"] = {
+["shown"] = true,
+},
+["Tradeskill - Cloth"] = {
 ["shown"] = true,
 },
 ["Miscellaneous - Junk"] = {
 ["shown"] = true,
 },
-["Armor"] = {
-["shown"] = true,
-},
-["Recipe"] = {
-["shown"] = true,
-},
-["Warband Bank"] = {
+["Housing"] = {
 ["shown"] = true,
 },
 ["Tradeskill - Parts"] = {
@@ -986,11 +997,11 @@ true,
 ["Tradeskill - Inscription"] = {
 ["shown"] = true,
 },
-["Battle Pets"] = {
+["Armor"] = {
 ["shown"] = true,
 },
-["Wrist"] = {
-["shown"] = false,
+["Warband Bank"] = {
+["shown"] = true,
 },
 ["Gear: Vitaminute"] = {
 ["shown"] = true,
@@ -1007,13 +1018,13 @@ true,
 ["Herbalism"] = {
 ["shown"] = true,
 },
-["Mining"] = {
+["Gear: Low"] = {
 ["shown"] = true,
 },
 ["One-Hand"] = {
 ["shown"] = false,
 },
-["Gear: Low"] = {
+["Mining"] = {
 ["shown"] = true,
 },
 ["Gear: Serenity"] = {
@@ -1028,52 +1039,41 @@ true,
 ["Consumable"] = {
 ["shown"] = true,
 },
-["Housing"] = {
-["shown"] = true,
-},
-["Tradeskill - Cloth"] = {
-["shown"] = true,
-},
-["Junk"] = {
-["shown"] = true,
-},
-["Tradeskill - Other"] = {
-["shown"] = true,
-},
-["Waist"] = {
+["Wrist"] = {
 ["shown"] = false,
+},
+["Battle Pets"] = {
+["shown"] = true,
+},
+["Recipe"] = {
+["shown"] = true,
+},
+["Soulbound"] = {
+["shown"] = true,
+},
+["WuE"] = {
+["shown"] = true,
 },
 ["BoE"] = {
 ["shown"] = true,
 },
 },
 ["categorySell"] = true,
-["theme"] = "elvui",
-["itemLevelColor"] = {
-["maxItemLevelByCharacter"] = {
-["Hemoshuffle-Kazzak"] = 170,
-["Avoidshuffle-Laughing Skull"] = 170,
-["Spearshuffle-Kazzak"] = 170,
-["Teashuffle-Kazzak"] = 170,
-["Shivshuffle-Stormrage"] = 102,
-["Madneshuffle-Stormrage"] = 102,
-["Gripshuffle-Stormrage"] = 102,
-["Aurashuffle-Stormrage"] = 102,
-["Tradushuffle-Laughing Skull"] = 170,
-["Rageshuffle-Kazzak"] = 170,
-["Blastshuffle-Stormrage"] = 102,
-["Grapeshuffle-Stormrage"] = 170,
-["Cosmoshuffle-Stormrage"] = 295,
-["Osirishuffle-Stormrage"] = 102,
-["Goldshuffle-Blackrock"] = 124,
-["Banishuffle-Stormrage"] = 102,
-["Plantshuffle-Stormrage"] = 102,
-["Petshuffle-Stormrage"] = 102,
-["Hornyshuffle-Draenor"] = 170,
-["Intshuffle-Kazzak"] = 170,
-["Fogshuffle-Stormrage"] = 141,
+["positions"] = {
+{
+["y"] = 141,
+["x"] = -204.5000915527344,
+["point"] = "CENTER",
+["scale"] = 1,
+},
+[0] = {
+["y"] = -174.8006510555842,
+["x"] = -273.6003565549909,
+["point"] = "RIGHT",
+["scale"] = 0.800000011920929,
 },
 },
+["upgradeIconProvider"] = "BetterBags",
 ["showFullSectionNames"] = {
 true,
 [0] = true,

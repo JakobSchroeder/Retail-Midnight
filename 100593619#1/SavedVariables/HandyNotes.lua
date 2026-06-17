@@ -9,11 +9,11 @@ HandyNotesDB = {
 ["Banishuffle - Stormrage"] = "Banishuffle - Stormrage",
 ["Cosmoshuffle - Stormrage"] = "Cosmoshuffle - Stormrage",
 ["Fogshuffle - Stormrage"] = "Fogshuffle - Stormrage",
+["Osirishuffle - Stormrage"] = "Osirishuffle - Stormrage",
 ["Aurashuffle - Stormrage"] = "Aurashuffle - Stormrage",
-["Readyshuffle - Stormrage"] = "Readyshuffle - Stormrage",
 ["Madneshuffle - Stormrage"] = "Madneshuffle - Stormrage",
 ["Gripshuffle - Stormrage"] = "Gripshuffle - Stormrage",
-["Osirishuffle - Stormrage"] = "Osirishuffle - Stormrage",
+["Readyshuffle - Stormrage"] = "Readyshuffle - Stormrage",
 },
 ["profiles"] = {
 ["Plantshuffle - Stormrage"] = {
@@ -32,15 +32,15 @@ HandyNotesDB = {
 },
 ["Fogshuffle - Stormrage"] = {
 },
-["Aurashuffle - Stormrage"] = {
+["Osirishuffle - Stormrage"] = {
 },
-["Readyshuffle - Stormrage"] = {
+["Aurashuffle - Stormrage"] = {
 },
 ["Madneshuffle - Stormrage"] = {
 },
 ["Gripshuffle - Stormrage"] = {
 },
-["Osirishuffle - Stormrage"] = {
+["Readyshuffle - Stormrage"] = {
 },
 },
 }
@@ -54,11 +54,11 @@ HandyNotes_HandyNotesDB = {
 ["Banishuffle - Stormrage"] = "Banishuffle - Stormrage",
 ["Cosmoshuffle - Stormrage"] = "Cosmoshuffle - Stormrage",
 ["Fogshuffle - Stormrage"] = "Fogshuffle - Stormrage",
+["Osirishuffle - Stormrage"] = "Osirishuffle - Stormrage",
 ["Aurashuffle - Stormrage"] = "Aurashuffle - Stormrage",
-["Readyshuffle - Stormrage"] = "Readyshuffle - Stormrage",
 ["Madneshuffle - Stormrage"] = "Madneshuffle - Stormrage",
 ["Gripshuffle - Stormrage"] = "Gripshuffle - Stormrage",
-["Osirishuffle - Stormrage"] = "Osirishuffle - Stormrage",
+["Readyshuffle - Stormrage"] = "Readyshuffle - Stormrage",
 },
 ["profiles"] = {
 ["Plantshuffle - Stormrage"] = {
@@ -77,15 +77,15 @@ HandyNotes_HandyNotesDB = {
 },
 ["Fogshuffle - Stormrage"] = {
 },
-["Aurashuffle - Stormrage"] = {
+["Osirishuffle - Stormrage"] = {
 },
-["Readyshuffle - Stormrage"] = {
+["Aurashuffle - Stormrage"] = {
 },
 ["Madneshuffle - Stormrage"] = {
 },
 ["Gripshuffle - Stormrage"] = {
 },
-["Osirishuffle - Stormrage"] = {
+["Readyshuffle - Stormrage"] = {
 },
 },
 }

@@ -7,18 +7,18 @@ Emoticons_Settings = {
 ["ENABLE_ANIMATEDEMOTES"] = true,
 ["CHAT_MSG_RAID_WARNING"] = true,
 ["CHAT_MSG_CHANNEL"] = true,
-["CHAT_MSG_PARTY_GUIDE"] = true,
-["CHAT_MSG_WHISPER"] = true,
 ["CHAT_MSG_BN_WHISPER"] = true,
+["CHAT_MSG_WHISPER"] = true,
+["CHAT_MSG_PARTY_GUIDE"] = true,
 ["CHAT_MSG_PARTY"] = true,
-["LARGEEMOTES"] = false,
+["CHAT_MSG_WHISPER_INFORM"] = true,
 ["CHAT_MSG_INSTANCE_CHAT_LEADER"] = true,
 ["CHAT_MSG_RAID"] = true,
-["ENABLE_AUTOCOMPLETE"] = true,
-["MINIMAPBUTTON"] = true,
-["CHAT_MSG_RAID_LEADER"] = true,
+["CHAT_MSG_BN_WHISPER_INFORM"] = true,
 ["CHAT_MSG_YELL"] = true,
-["CHAT_MSG_SAY"] = true,
+["CHAT_MSG_RAID_LEADER"] = true,
+["MINIMAPBUTTON"] = true,
+["CHAT_MSG_BN_CONVERSATION"] = true,
 ["FAVEMOTES"] = {
 true,
 true,
@@ -49,10 +49,10 @@ true,
 true,
 },
 ["MAIL"] = true,
-["CHAT_MSG_BN_CONVERSATION"] = true,
+["CHAT_MSG_SAY"] = true,
 ["ENABLE_CLICKABLEEMOTES"] = true,
-["CHAT_MSG_BN_WHISPER_INFORM"] = true,
-["CHAT_MSG_WHISPER_INFORM"] = true,
+["ENABLE_AUTOCOMPLETE"] = true,
+["LARGEEMOTES"] = false,
 ["MINIMAPDATA"] = {
 ["minimapPos"] = 135,
 },
@@ -86,7 +86,7 @@ TwitchEmoteStatistics = {
 ["LMAO"] = {
 0,
 0,
-7,
+8,
 },
 ["Pausey"] = {
 0,
@@ -141,7 +141,7 @@ TwitchEmoteStatistics = {
 ["KEKW"] = {
 0,
 3,
-17,
+19,
 },
 ["cmon"] = {
 0,
@@ -158,22 +158,22 @@ TwitchEmoteStatistics = {
 1,
 0,
 },
-["shrujj"] = {
+["ICANT"] = {
 0,
-0,
-1,
+2,
+4,
 },
-["YEP"] = {
+["PepeM"] = {
+0,
 0,
 1,
-7,
 },
 [":hmm:"] = {
 0,
 0,
 1,
 },
-["monkaTOS"] = {
+["monkaS"] = {
 0,
 0,
 1,
@@ -181,19 +181,19 @@ TwitchEmoteStatistics = {
 ["Pog"] = {
 0,
 3,
-9,
+11,
 },
-["KEKE"] = {
+["LETSGO"] = {
 0,
 0,
 1,
 },
-["Madge"] = {
+["Thinkge"] = {
 0,
 0,
-2,
+1,
 },
-[":nerd:"] = {
+[":xdd:"] = {
 0,
 0,
 1,
@@ -203,25 +203,25 @@ TwitchEmoteStatistics = {
 0,
 1,
 },
-["OMEGALUL"] = {
-0,
-0,
-1,
-},
 ["EZ"] = {
 0,
 4,
 3,
+},
+["KEKE"] = {
+0,
+0,
+1,
 },
 ["wahoo"] = {
 0,
 0,
 2,
 },
-["Okay"] = {
+["Sadge"] = {
 0,
 1,
-5,
+0,
 },
 ["Despairge"] = {
 0,
@@ -233,44 +233,44 @@ TwitchEmoteStatistics = {
 0,
 1,
 },
-["Sadge"] = {
+["Okay"] = {
 0,
 1,
-0,
+5,
 },
 ["Life"] = {
 0,
 0,
 2,
 },
-[":xdd:"] = {
+[":nerd:"] = {
 0,
 0,
 1,
 },
-["Thinkge"] = {
+["Madge"] = {
 0,
-0,
-1,
-},
-["LETSGO"] = {
-0,
-0,
-1,
-},
-["monkaS"] = {
-0,
-0,
-1,
-},
-["PepeM"] = {
-0,
-0,
-1,
-},
-["ICANT"] = {
 0,
 2,
-4,
+},
+["OMEGALUL"] = {
+0,
+0,
+1,
+},
+["monkaTOS"] = {
+0,
+0,
+1,
+},
+["YEP"] = {
+0,
+1,
+7,
+},
+["shrujj"] = {
+0,
+0,
+1,
 },
 }

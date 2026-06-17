@@ -113,9 +113,9 @@ VWQL = {
 ["Filter"] = 63,
 },
 ["Teashuffle-Kazzak"] = {
-["VERSION"] = 124,
 ["FilterType"] = {
 },
+["VERSION"] = 126,
 ["Quests"] = {
 },
 ["Filter"] = 63,
@@ -132,20 +132,14 @@ VWQL = {
 ["VERSION"] = 126,
 ["Filter"] = 63,
 ["Quests"] = {
-[92143] = true,
-[91799] = true,
-[92160] = true,
-[91802] = true,
-[91806] = true,
-[92144] = true,
-[91811] = true,
+[92120] = true,
+[92138] = true,
 [76586] = true,
-[92121] = true,
 },
 ["FilterType"] = {
 },
 },
-["Kafirshuffle-TwistingNether"] = {
+["Bankshuffle-Auchindoun"] = {
 ["VERSION"] = 119,
 ["FilterType"] = {
 },
@@ -162,14 +156,7 @@ VWQL = {
 ["Filter"] = 63,
 },
 ["Sort"] = 5,
-["Bankshuffle-Auchindoun"] = {
-["VERSION"] = 119,
-["FilterType"] = {
-},
-["Quests"] = {
-},
-["Filter"] = 63,
-},
+["VERSION"] = 126,
 ["Punctuation-TwistingNether"] = {
 ["Filter"] = 63,
 ["FilterType"] = {
@@ -221,13 +208,13 @@ VWQL = {
 ["SortPrio"] = {
 },
 ["AzeriteFormat"] = 20,
-["Faithshuffle-Draenor"] = {
-["Filter"] = 63,
+["Lavashuffle-Draenor"] = {
+["VERSION"] = 119,
 ["FilterType"] = {
 },
 ["Quests"] = {
 },
-["VERSION"] = 119,
+["Filter"] = 63,
 },
 ["Avoidshuffle-LaughingSkull"] = {
 ["VERSION"] = 119,
@@ -267,13 +254,13 @@ VWQL = {
 },
 ["Filter"] = 63,
 },
-["Lavashuffle-Draenor"] = {
-["VERSION"] = 119,
+["Spaceshuffle-Draenor"] = {
+["Filter"] = 63,
 ["FilterType"] = {
 },
 ["Quests"] = {
 },
-["Filter"] = 63,
+["VERSION"] = 119,
 },
 ["Scale"] = 0.8,
 ["SortPrio2"] = {
@@ -337,9 +324,9 @@ VWQL = {
 ["VERSION"] = 119,
 },
 ["Feintshuffle-Kazzak"] = {
-["Filter"] = 63,
 ["FilterType"] = {
 },
+["Filter"] = 63,
 ["Quests"] = {
 [91800] = true,
 [91801] = true,
@@ -351,7 +338,7 @@ VWQL = {
 [92120] = true,
 [91808] = true,
 },
-["VERSION"] = 124,
+["VERSION"] = 126,
 },
 ["Spamtothetop-TwistingNether"] = {
 ["VERSION"] = 119,
@@ -412,15 +399,13 @@ VWQL = {
 ["VERSION"] = 119,
 },
 ["Spearshuffle-Kazzak"] = {
-["FilterType"] = {
-},
 ["Filter"] = 63,
+["VERSION"] = 126,
 ["Quests"] = {
 [76586] = true,
-[92195] = true,
-[92105] = true,
 },
-["VERSION"] = 126,
+["FilterType"] = {
+},
 },
 ["Apollumi-TwistingNether"] = {
 ["VERSION"] = 119,
@@ -532,16 +517,16 @@ VWQL = {
 [45473] = true,
 [44939] = true,
 [48727] = true,
-[44856] = true,
 [49047] = true,
-[46761] = true,
+[44856] = true,
+[46126] = true,
 [43943] = true,
 [41984] = true,
 [43951] = true,
 [43429] = true,
 [41687] = true,
 [48338] = true,
-[46126] = true,
+[46761] = true,
 [42165] = true,
 [42070] = true,
 [43598] = true,
@@ -596,7 +581,7 @@ VWQL = {
 },
 ["Ignore"] = {
 },
-["Spaceshuffle-Draenor"] = {
+["Faithshuffle-Draenor"] = {
 ["Filter"] = 63,
 ["FilterType"] = {
 },
@@ -632,7 +617,14 @@ VWQL = {
 },
 ["VERSION"] = 119,
 },
-["VERSION"] = 126,
+["Kafirshuffle-TwistingNether"] = {
+["VERSION"] = 119,
+["FilterType"] = {
+},
+["Quests"] = {
+},
+["Filter"] = 63,
+},
 ["Brainshuffle-Auchindoun"] = {
 ["VERSION"] = 119,
 ["FilterType"] = {

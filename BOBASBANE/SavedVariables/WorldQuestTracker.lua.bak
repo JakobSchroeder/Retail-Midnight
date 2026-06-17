@@ -32,8 +32,8 @@ WQTrackerDB = {
 ["Brainshuffle - Auchindoun"] = "Default",
 ["Punctuation - Twisting Nether"] = "Default",
 ["Teashuffle - Kazzak"] = "Default",
-["Avoidshuffle - Auchindoun"] = "Default",
 ["Goldshuffle - Blackrock"] = "Default",
+["Apollumi - Twisting Nether"] = "Default",
 ["Edgeshuffle - Auchindoun"] = "Default",
 ["Ripinpeach - Ravencrest"] = "Default",
 ["Bowshuffle - Ravencrest"] = "Default",
@@ -46,7 +46,7 @@ WQTrackerDB = {
 ["Faithshuffle - Draenor"] = "Default",
 ["Mightshuffle - Ravencrest"] = "Default",
 ["Terrashuffle - Kazzak"] = "Default",
-["Apollumi - Twisting Nether"] = "Default",
+["Avoidshuffle - Auchindoun"] = "Default",
 ["Hourshuffle - Kazzak"] = "Default",
 ["Spearshuffle - Kazzak"] = "Default",
 ["Jumpshuffle - Kazzak"] = "Default",
@@ -622,21 +622,6 @@ WQTrackerDB = {
 ["Player-1305-0D3ACAFE"] = {
 },
 ["Player-1403-06492F48"] = {
-[87759] = {
-["expireAt"] = 1777521679,
-["rewardAmount"] = "|cff2292FF224",
-["rewardTexture"] = 7371255,
-},
-[91582] = {
-["expireAt"] = 1777737638,
-["rewardAmount"] = "|cff2292FF220",
-["rewardTexture"] = "Interface\\ICONS\\INV_Pants_08",
-},
-[92121] = {
-["expireAt"] = 1777662058,
-["rewardAmount"] = "|cff2292FF224",
-["rewardTexture"] = "Interface\\ICONS\\INV_Jewelry_Talisman_07",
-},
 },
 },
 ["rarescan"] = {
@@ -658,6 +643,10 @@ WQTrackerDB = {
 ["260228"] = {
 ["quest"] = 1,
 },
+["260504"] = {
+["quest"] = 1,
+["gold"] = 9963274,
+},
 ["260325"] = {
 ["quest"] = 1,
 ["gold"] = 11117696,
@@ -677,9 +666,9 @@ WQTrackerDB = {
 ["260307"] = {
 ["quest"] = 9,
 },
-["260422"] = {
-["quest"] = 2,
-["resource"] = 40,
+["260417"] = {
+["quest"] = 1,
+["gold"] = 10545692,
 },
 ["260308"] = {
 ["quest"] = 4,
@@ -688,27 +677,22 @@ WQTrackerDB = {
 ["quest"] = 4,
 ["resource"] = 300,
 },
-["260417"] = {
-["quest"] = 1,
-["gold"] = 10545692,
-},
-["260408"] = {
-["quest"] = 2,
-["gold"] = 10196412,
-},
-["260306"] = {
-["quest"] = 1,
+["260320"] = {
+["quest"] = 3,
 },
 ["260303"] = {
 ["quest"] = 17,
 ["gold"] = 341600,
 },
-["260415"] = {
+["260306"] = {
 ["quest"] = 1,
 },
 ["260302"] = {
 ["quest"] = 25,
 ["resource"] = 330,
+},
+["260415"] = {
+["quest"] = 1,
 },
 ["260304"] = {
 ["quest"] = 5,
@@ -717,11 +701,16 @@ WQTrackerDB = {
 ["quest"] = 7,
 ["resource"] = 300,
 },
+["260408"] = {
+["quest"] = 2,
+["gold"] = 10196412,
+},
 ["260404"] = {
 ["quest"] = 1,
 },
-["260320"] = {
-["quest"] = 3,
+["260422"] = {
+["quest"] = 2,
+["resource"] = 40,
 },
 ["260301"] = {
 ["quest"] = 3,
@@ -770,6 +759,10 @@ WQTrackerDB = {
 ["260314"] = {
 ["quest"] = 4,
 ["resource"] = 300,
+},
+["260504"] = {
+["quest"] = 1,
+["gold"] = 9963274,
 },
 ["260306"] = {
 ["quest"] = 1,
@@ -869,13 +862,13 @@ WQTrackerDB = {
 [92119] = 3,
 [92123] = 2,
 [86709] = 1,
-["total"] = 111,
+["total"] = 112,
 [81819] = 1,
 [92560] = 2,
 [90962] = 13,
 [85863] = 1,
 [92195] = 1,
-[92549] = 5,
+[92549] = 6,
 [92364] = 3,
 [91927] = 4,
 [91490] = 1,
@@ -963,9 +956,9 @@ WQTrackerDB = {
 [93244] = 1,
 [94581] = 1,
 [91390] = 1,
-["total"] = 30,
+["total"] = 31,
 [90962] = 6,
-[92549] = 1,
+[92549] = 2,
 [91805] = 1,
 [92560] = 2,
 [93573] = 1,
@@ -1032,7 +1025,7 @@ WQTrackerDB = {
 ["reward"] = {
 ["global"] = {
 ["resource"] = 2150,
-["gold"] = 42751426,
+["gold"] = 52714700,
 },
 ["character"] = {
 ["Player-1305-0D5F731C"] = {
@@ -1044,7 +1037,7 @@ WQTrackerDB = {
 },
 ["Player-1305-0D3ACAFE"] = {
 ["resource"] = 690,
-["gold"] = 31864134,
+["gold"] = 41827408,
 },
 ["Player-1305-0B210B00"] = {
 },

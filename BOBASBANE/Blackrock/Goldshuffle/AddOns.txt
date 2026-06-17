@@ -103,7 +103,7 @@ TrufiGCD: enabled
 TwintopInsanityBar: enabled
 TwitchEmotes: enabled
 TwitchEmotes_Solaris: enabled
-WagoAppCompanion: enabled
+WagoAppCompanion: disabled
 WarbandMiser: enabled
 WarpDeplete: enabled
 WaypointUI: enabled
@@ -138,8 +138,11 @@ M33kAuras: enabled
 M33kAurasModelPaths: enabled
 M33kAurasOptions: enabled
 PenisBot: enabled
-RXPGuides_DRMShim: enabled
+RXPGuides_DRMShim: disabled
 Blizzard_CharacterFrame: enabled
 Blizzard_ChallengesUI: enabled
 Blizzard_EncounterJournal: enabled
 Blizzard_Transmog: enabled
+SkironCooldownManager: disabled
+ChonkyCharacterSheet: enabled
+WarbankStockist: enabled

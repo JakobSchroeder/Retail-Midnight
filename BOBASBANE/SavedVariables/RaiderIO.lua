@@ -16,6 +16,7 @@ RaiderIO_Config = {
 }
 RaiderIO_LastCharacter = "eu-Hornyshuffle-draenor"
 RaiderIO_MissingCharacters = {
+["eu-Zhonks-draenor"] = true,
 }
 RaiderIO_MissingServers = {
 }

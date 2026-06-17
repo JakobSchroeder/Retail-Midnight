@@ -4,8 +4,8 @@ RaiderIO_Config = {
 ["minimapIcon"] = {
 ["minimapPos"] = 180,
 ["showInCompartment"] = true,
-["lock"] = false,
 ["hide"] = false,
+["lock"] = false,
 },
 ["enableReplay"] = false,
 ["profilePoint"] = {
@@ -16,6 +16,18 @@ RaiderIO_Config = {
 }
 RaiderIO_LastCharacter = "eu-Voidshuffle-laughing-skull"
 RaiderIO_MissingCharacters = {
+["eu-Aimy-sunstrider"] = true,
+["eu-Varvarin-balnazzar"] = true,
+["eu-Ziziherb-daggerspine"] = true,
+["eu-Fenrersulven-trollbane"] = true,
+["eu-Vicodina-outland"] = true,
+["eu-Xodrak-sunstrider"] = true,
+["eu-Baruk-laughing-skull"] = true,
+["eu-Versáce-shattered-halls"] = true,
+["eu-Kaagu-outland"] = true,
+["eu-Tigruk-outland"] = true,
+["eu-Azuyomi-ahnqiraj"] = true,
+["eu-Fliddyeyes-outland"] = true,
 }
 RaiderIO_MissingServers = {
 }

@@ -434,7 +434,7 @@ VER 3 0000000000000176 "Run!" "INV_Misc_QuestionMark"
 /use Healthstone
 END
 VER 3 0000000000000177 "RXPTargeting" "132150"
-/targetexact Alleria
+/targetexact Innkeeper Hospitus
 /targetlasttarget [dead]
 END
 VER 3 000000000000011A "Self PWS" "INV_Misc_QuestionMark"

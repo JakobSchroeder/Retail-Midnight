@@ -34,3 +34,10 @@ X: 0
 Y: 0
 W: 675
 H: 496
+Frame: SimpleAddonManager
+FrameLevel: 1
+Anchor: CENTER
+X: -1
+Y: 22
+W: 470
+H: 400

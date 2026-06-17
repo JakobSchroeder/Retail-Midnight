@@ -1,3 +1,6 @@
+VER 3 0100000000000010 "boss3" "134400"
+/focus boss3
+END
 VER 3 0100000000000001 "Cursor Shift" "INV_Misc_QuestionMark"
 #showtooltip
 /cast [@cursor] Shift
@@ -46,6 +49,10 @@ VER 3 010000000000000C "Reaper" "INV_Misc_QuestionMark"
 #showtooltip
 /cast [known:Reaper's Toll] Reaper's Toll; [known:Hungering Slash] Hungering Slash
 END
+VER 3 0100000000000011 "RXPTargeting" "132150"
+/targetexact Recruit Dar'rak
+/targetlasttarget [dead]
+END
 VER 3 010000000000000F "RXPTargeting" "132150"
 /targetexact Subjugated Murloc
 /targetexact Hatecoil Fathom-Stalker
@@ -56,6 +63,26 @@ END
 VER 3 010000000000000E "selfshift" "134400"
 #showtooltip
 /cast [@player] Shift
+END
+VER 3 0100000000000012 "SolaTP" "3565717"
+/cast View Next Adventure
+/run C_PlayerChoice.SendPlayerChoiceResponse(C_PlayerChoice.GetCurrentPlayerChoiceInfo().options[2].buttons[1].id)
+END
+VER 3 0100000000000013 "TPStar" "INV_Misc_QuestionMark"
+#showtooltip Collapsing Star
+/stopmacro [channeling]
+/use 13
+/use item:245902
+/use item:241288
+/use item:245903
+/use item:241289
+/cast Collapsing Star
+END
+VER 3 0100000000000014 "TStar" "INV_Misc_QuestionMark"
+#showtooltip Collapsing Star
+/stopmacro [channeling]
+/use 13
+/cast Collapsing Star
 END
 VER 3 010000000000000D "Voidblade" "INV_Misc_QuestionMark"
 #showtooltip

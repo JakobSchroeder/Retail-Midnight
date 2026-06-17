@@ -156,3 +156,4 @@ Blizzard_CharacterFrame: enabled
 Blizzard_ChallengesUI: enabled
 Blizzard_EncounterJournal: enabled
 Blizzard_Transmog: enabled
+SkironCooldownManager: disabled

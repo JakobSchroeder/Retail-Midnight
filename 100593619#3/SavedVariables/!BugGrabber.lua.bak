@@ -1,7 +1,7 @@
 
 BugGrabberDB = {
-["session"] = 796,
 ["lastSanitation"] = 3,
+["session"] = 825,
 ["errors"] = {
 {
 ["message"] = ".../AddOns/PermoksAccountManager/modules/currencies.lua:609: attempt to index local 'warbandCurrencyInfo' (a nil value)",
@@ -13,14 +13,14 @@ BugGrabberDB = {
 },
 {
 ["message"] = "Interface/AddOns/RaiderIO/RaiderIO.toc:12 Error loading Interface/AddOns/RaiderIO/db/db_client_characters.lua",
-["session"] = 2,
 ["time"] = "2026/01/21 20:36:52",
+["session"] = 2,
 ["counter"] = 2,
 },
 {
 ["message"] = "Interface/AddOns/RaiderIO/RaiderIO.toc:15 Error loading Interface/AddOns/RaiderIO/db/db_client_recent_characters.lua",
-["session"] = 2,
 ["time"] = "2026/01/21 20:36:52",
+["session"] = 2,
 ["counter"] = 2,
 },
 {
@@ -33,8 +33,8 @@ BugGrabberDB = {
 },
 {
 ["message"] = "Interface/AddOns/BetterUpgradeTooltip/VersionedData.lua:1 Interface/AddOns/BetterUpgradeTooltip/VersionedData.lua:82: unexpected symbol near '['",
-["session"] = 17,
 ["time"] = "2026/01/21 22:21:24",
+["session"] = 17,
 ["counter"] = 1,
 },
 {
@@ -167,8 +167,8 @@ BugGrabberDB = {
 },
 {
 ["message"] = "...ddOns/Blizzard_UnitFrame/Shared/CompactUnitFrame.lua:1042: attempt to perform boolean test on field 'outOfRange' (a secret value)\n|cffffd200Stack:|r\n[C]: in function 'secureexecuterange'\n[Interface/AddOns/Blizzard_EditMode/Shared/EditModeManager.lua]:1373: in function 'UpdateSystems'\n[Interface/AddOns/Blizzard_EditMode/Shared/EditModeManager.lua]:931: in function <.../AddOns/Blizzard_EditMode/Shared/EditModeManager.lua:916>\n[C]: in function 'UpdateLayoutInfo'\n[Interface/AddOns/Blizzard_EditMode/Shared/EditModeManager.lua]:179: in function <.../AddOns/Blizzard_EditMode/Shared/EditModeManager.lua:176>\n[C]: in function 'SetActiveLayout'\n[Interface/AddOns/Blizzard_EditMode/Shared/EditModeManager.lua]:1433: in function 'SelectLayout'\n[Interface/AddOns/Blizzard_EditMode/Shared/EditModeManager.lua]:1248: in function <.../AddOns/Blizzard_EditMode/Shared/EditModeManager.lua:1243>\n[tail call]: ?\n[C]: in function 'securecallfunction'\n[Interface/AddOns/Blizzard_Menu/Menu.lua]:896: in function 'Pick'\n[Interface/AddOns/Blizzard_Menu/MenuTemplates.lua]:74: in function <Interface/AddOns/Blizzard_Menu/MenuTemplates.lua:68>\n",
-["time"] = "2026/01/24 15:37:31",
 ["session"] = 54,
+["time"] = "2026/01/24 15:37:31",
 ["counter"] = 6,
 },
 {
@@ -317,8 +317,8 @@ BugGrabberDB = {
 },
 {
 ["message"] = "...ce/AddOns/Blizzard_CooldownViewer/CooldownViewer.lua:669: bad argument #1 to 'EnableSpellRangeCheck' (Usage: C_Spell.EnableSpellRangeCheck(spellIdentifier, enable))\n|cffffd200Stack:|r\n[C]: in function 'secureexecuterange'\n[Interface/AddOns/Blizzard_EditMode/Shared/EditModeManager.lua]:97: in function 'HideSystemSelections'\n[Interface/AddOns/Blizzard_EditMode/Shared/EditModeManager.lua]:104: in function <.../AddOns/Blizzard_EditMode/Shared/EditModeManager.lua:100>\n[C]: ?\n[C]: ?\n[C]: ?\n[C]: in function 'ExitEditMode'\n[Interface/AddOns/Blizzard_EditMode/Shared/EditModeManager.lua]:126: in function <.../AddOns/Blizzard_EditMode/Shared/EditModeManager.lua:124>\n[C]: ?\n[C]: ?\n[C]: ?\n[C]: in function 'Hide'\n[Interface/AddOns/Blizzard_UIParentPanelManager/Shared/UIParentPanelManager.lua]:863: in function <...UIParentPanelManager/Shared/UIParentPanelManager.lua:853>\n[C]: in function 'HideUIPanel'\n[Interface/AddOns/Blizzard_EditMode/Shared/EditModeManager.lua]:42: in function 'onCloseCallback'\n[Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.lua]:143: in function <...izzard_SharedXML/Mainline/SharedUIPanelTemplates.lua:138>\n",
-["time"] = "2026/01/30 16:42:04",
 ["session"] = 182,
+["time"] = "2026/01/30 16:42:04",
 ["counter"] = 3,
 },
 {
@@ -442,14 +442,6 @@ BugGrabberDB = {
 ["counter"] = 3,
 },
 {
-["message"] = "...ns/ImprovedTalentLoadouts/ImprovedTalentLoadouts.lua:426: table index is nil",
-["time"] = "2026/01/24 15:37:16",
-["locals"] = "self = <table> {\n charDB = <table> {\n }\n globalDB = <table> {\n }\n easyMenu = ImprovedTalentLoadoutsEasyMenu {\n }\n specID = 1446\n}\nconfigIDs = <table> {\n}\n(*temporary) = <table> {\n}\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = 0\n(*temporary) = 1\n(*temporary) = nil\n(*temporary) = \"table index is nil\"\nITL_LOADOUT_NAME = \"[ITL] Temp\"\n",
-["stack"] = "[Interface/AddOns/ImprovedTalentLoadouts/ImprovedTalentLoadouts.lua]:426: in function 'UpdateTempLoadout'\n[Interface/AddOns/ImprovedTalentLoadouts/ImprovedTalentLoadouts.lua]:402: in function 'UpdateSpecID'\n[Interface/AddOns/ImprovedTalentLoadouts/ImprovedTalentLoadouts.lua]:562: in function 'InitializeTalentLoadouts'\n[Interface/AddOns/ImprovedTalentLoadouts/ImprovedTalentLoadouts.lua]:163: in function <...ns/ImprovedTalentLoadouts/ImprovedTalentLoadouts.lua:153>\n[C]: ?\n[C]: ?\n[C]: ?\n[C]: in function 'pcall'\n[Interface/AddOns/OPie/Libs/ActionBook/Handlers.lua]:1609: in function <Interface/AddOns/OPie/Libs/ActionBook/Handlers.lua:1608>\n[C]: ?\n[Interface/AddOns/OPie/Libs/Evie.lua]:37: in function <Interface/AddOns/OPie/Libs/Evie.lua:32>",
-["session"] = 250,
-["counter"] = 10,
-},
-{
 ["message"] = "...s/Blizzard_CooldownViewer/CooldownViewerItemData.lua:186: attempt to compare local 'spellID' (a secret value)",
 ["time"] = "2026/02/05 11:18:45",
 ["locals"] = "self = Frame {\n includeAsLayoutChildWhenHidden = true\n hideWhenInactive = false\n BCDMBorders = <table> {\n }\n isActive = true\n Cooldown = Cooldown {\n }\n wasSetFromCharges = false\n wasSetFromAura = false\n validAlertTypes = <table> {\n }\n cooldownInfo = <table> {\n }\n PixelSnapDisabled = true\n auraSpellID = 589\n auraInstanceID = 3667\n pandemicEndTime = 4079835.542000\n pandemicAlertTriggerTime = 4079830.742000\n nextAvailableTimeToPlayPandemicAlert = <no value>\n alertsByEvent = <table> {\n }\n _CSC_SetCooldownHooked = true\n isEditing = false\n pandemicStartTime = 4079830.742000\n viewerFrame = BuffIconCooldownViewer {\n }\n wasSetFromEditMode = false\n wasSetFromCooldown = false\n auraDataUnit = \"target\"\n layoutIndex = 3\n Applications = Frame {\n }\n DebuffBorder = Frame {\n }\n Icon = Texture {\n }\n allowHideWhenInactive = true\n cooldownID = 108367\n}\nspellID = <no value>\n(*temporary) = 589\n(*temporary) = Frame {\n includeAsLayoutChildWhenHidden = true\n hideWhenInactive = false\n BCDMBorders = <table> {\n }\n isActive = true\n Cooldown = Cooldown {\n }\n wasSetFromCharges = false\n wasSetFromAura = false\n validAlertTypes = <table> {\n }\n cooldownInfo = <table> {\n }\n PixelSnapDisabled = true\n auraSpellID = 589\n auraInstanceID = 3667\n pandemicEndTime = 4079835.542000\n pandemicAlertTriggerTime = 4079830.742000\n nextAvailableTimeToPlayPandemicAlert = <no value>\n alertsByEvent = <table> {\n }\n _CSC_SetCooldownHooked = true\n isEditing = false\n pandemicStartTime = 4079830.742000\n viewerFrame = BuffIconCooldownViewer {\n }\n wasSetFromEditMode = false\n wasSetFromCooldown = false\n auraDataUnit = \"target\"\n layoutIndex = 3\n Applications = Frame {\n }\n DebuffBorder = Frame {\n }\n Icon = Texture {\n }\n allowHideWhenInactive = true\n cooldownID = 108367\n}\n(*temporary) = 589\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = \"attempt to compare local 'spellID' (a secret value)\"\n",
@@ -515,8 +507,8 @@ BugGrabberDB = {
 },
 {
 ["message"] = "...ce/AddOns/Blizzard_CooldownViewer/CooldownViewer.lua:669: bad argument #1 to 'EnableSpellRangeCheck' (Usage: C_Spell.EnableSpellRangeCheck(spellIdentifier, enable))\n|cffffd200Stack:|r\n[C]: in function 'secureexecuterange'\n[Interface/AddOns/Blizzard_EditMode/Shared/EditModeManager.lua]:97: in function 'HideSystemSelections'\n[Interface/AddOns/Blizzard_EditMode/Shared/EditModeManager.lua]:104: in function <.../AddOns/Blizzard_EditMode/Shared/EditModeManager.lua:100>\n[C]: ?\n[C]: ?\n[C]: ?\n[C]: in function 'ExitEditMode'\n[Interface/AddOns/Blizzard_EditMode/Shared/EditModeManager.lua]:126: in function <.../AddOns/Blizzard_EditMode/Shared/EditModeManager.lua:124>\n[C]: ?\n[C]: ?\n[C]: ?\n[C]: in function 'Hide'\n[Interface/AddOns/AdvancedInterfaceOptions/libs/AceGUI-3.0-41/widgets/AceGUIContainer-Frame.lua]:125: in function 'Hide'\n[Interface/AddOns/AdvancedInterfaceOptions/libs/AceGUI-3.0/widgets/AceGUIContainer-Frame.lua]:21: in function <...ns/libs/AceGUI-3.0/widgets/AceGUIContainer-Frame.lua:19>\n",
-["time"] = "2026/01/30 10:53:32",
 ["session"] = 285,
+["time"] = "2026/01/30 10:53:32",
 ["counter"] = 6,
 },
 {
@@ -545,8 +537,8 @@ BugGrabberDB = {
 },
 {
 ["message"] = "attempted to index a forbidden table",
-["time"] = "2026/01/31 22:31:47",
 ["session"] = 285,
+["time"] = "2026/01/31 22:31:47",
 ["counter"] = 99,
 },
 {
@@ -799,8 +791,8 @@ BugGrabberDB = {
 },
 {
 ["message"] = "LUA_WARNING: ...ce/AddOns/Blizzard_CooldownViewer/CooldownViewer.lua:706: bad argument #1 to 'EnableSpellRangeCheck' (Usage: C_Spell.EnableSpellRangeCheck(spellIdentifier, enable))\n|cffffd200Stack:|r\n[C]: in function 'secureexecuterange'\n[Interface/AddOns/Blizzard_EditMode/Shared/EditModeManager.lua]:97: in function 'HideSystemSelections'\n[Interface/AddOns/Blizzard_EditMode/Shared/EditModeManager.lua]:104: in function <.../AddOns/Blizzard_EditMode/Shared/EditModeManager.lua:100>\n[C]: ?\n[C]: ?\n[C]: ?\n[C]: in function 'ExitEditMode'\n[Interface/AddOns/Blizzard_EditMode/Shared/EditModeManager.lua]:126: in function <.../AddOns/Blizzard_EditMode/Shared/EditModeManager.lua:124>\n[C]: ?\n[C]: ?\n[C]: ?\n[C]: in function 'Hide'\n[Interface/AddOns/Blizzard_UIParentPanelManager/Shared/UIParentPanelManager.lua]:863: in function <...UIParentPanelManager/Shared/UIParentPanelManager.lua:853>\n[C]: in function 'HideUIPanel'\n[Interface/AddOns/Blizzard_EditMode/Shared/EditModeManager.lua]:42: in function 'onCloseCallback'\n[Interface/AddOns/Blizzard_SharedXML/Mainline/SharedUIPanelTemplates.lua]:143: in function <...izzard_SharedXML/Mainline/SharedUIPanelTemplates.lua:138>\n[C]: in function 'Click'\n[Interface/AddOns/Blizzard_UIParent/Mainline/UIParent.lua]:2344: in function <...rface/AddOns/Blizzard_UIParent/Mainline/UIParent.lua:2309>\n[C]: ?\n[C]: ?\n[C]: ?\n[C]: in function 'ToggleGameMenu'\n[TOGGLEGAMEMENU]:1: in function <[string \"TOGGLEGAMEMENU\"]:1>\n",
-["session"] = 439,
 ["time"] = "2026/02/27 10:38:55",
+["session"] = 439,
 ["counter"] = 1,
 },
 {
@@ -933,8 +925,8 @@ BugGrabberDB = {
 },
 {
 ["message"] = "LUA_WARNING: ...ce/AddOns/Blizzard_CooldownViewer/CooldownViewer.lua:898: attempt to perform boolean test on field 'allowAvailableAlert' (a secret boolean value tainted by 'ElvUI')\n|cffffd200Stack:|r\n[C]: in function 'secureexecuterange'\n[Interface/AddOns/Blizzard_EditMode/Shared/EditModeManager.lua]:97: in function 'HideSystemSelections'\n[Interface/AddOns/Blizzard_EditMode/Shared/EditModeManager.lua]:104: in function <.../AddOns/Blizzard_EditMode/Shared/EditModeManager.lua:100>\n[C]: ?\n[C]: ?\n[C]: ?\n[C]: in function 'ExitEditMode'\n[Interface/AddOns/Blizzard_EditMode/Shared/EditModeManager.lua]:126: in function <.../AddOns/Blizzard_EditMode/Shared/EditModeManager.lua:124>\n[C]: ?\n[C]: ?\n[C]: ?\n[C]: in function 'Hide'\n[Interface/AddOns/Blizzard_UIParentPanelManager/Shared/UIParentPanelManager.lua]:863: in function <...UIParentPanelManager/Shared/UIParentPanelManager.lua:853>\n[C]: in function 'HideUIPanel'\n[Interface/AddOns/BetterCooldownManager/Libraries/LibEditModeOverride/LibEditModeOverride.lua]:211: in function 'ApplyChanges'\n[Interface/AddOns/BetterCooldownManager/Core/EventManager.lua]:15: in function <...e/AddOns/BetterCooldownManager/Core/EventManager.lua:10>\n",
-["session"] = 463,
 ["time"] = "2026/03/01 17:38:46",
+["session"] = 463,
 ["counter"] = 2,
 },
 {
@@ -1219,14 +1211,14 @@ BugGrabberDB = {
 },
 {
 ["message"] = "LUA_WARNING: .../Blizzard_AdventureMap/AM_QuestOfferDataProvider.lua:46: 'for' limit must be a number\n|cffffd200Stack:|r\n[C]: in function 'secureexecuterange'\n[Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua]:125: in function 'OnEvent'\n[Interface/AddOns/Blizzard_AdventureMap/Blizzard_AdventureMap.lua]:65: in function <...dOns/Blizzard_AdventureMap/Blizzard_AdventureMap.lua:60>\n",
-["time"] = "2026/03/02 11:15:42",
 ["session"] = 468,
+["time"] = "2026/03/02 11:15:42",
 ["counter"] = 3,
 },
 {
 ["message"] = "LUA_WARNING: ...Blizzard_AdventureMap/AM_QuestChoiceDataProvider.lua:52: 'for' limit must be a number\n|cffffd200Stack:|r\n[C]: in function 'secureexecuterange'\n[Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua]:125: in function 'OnEvent'\n[Interface/AddOns/Blizzard_AdventureMap/Blizzard_AdventureMap.lua]:65: in function <...dOns/Blizzard_AdventureMap/Blizzard_AdventureMap.lua:60>\n",
-["time"] = "2026/03/02 11:15:42",
 ["session"] = 468,
+["time"] = "2026/03/02 11:15:42",
 ["counter"] = 3,
 },
 {
@@ -1319,8 +1311,8 @@ BugGrabberDB = {
 },
 {
 ["message"] = "LUA_WARNING: ...ce/AddOns/Blizzard_CooldownViewer/CooldownViewer.lua:877: attempted to index a forbidden table\n|cffffd200Stack:|r\n[C]: in function 'secureexecuterange'\n[Interface/AddOns/Blizzard_EditMode/Shared/EditModeManager.lua]:97: in function 'HideSystemSelections'\n[Interface/AddOns/Blizzard_EditMode/Shared/EditModeManager.lua]:104: in function <.../AddOns/Blizzard_EditMode/Shared/EditModeManager.lua:100>\n[C]: ?\n[C]: ?\n[C]: ?\n[C]: in function 'ExitEditMode'\n[Interface/AddOns/Blizzard_EditMode/Shared/EditModeManager.lua]:126: in function <.../AddOns/Blizzard_EditMode/Shared/EditModeManager.lua:124>\n[C]: ?\n[C]: ?\n[C]: ?\n[C]: in function 'Hide'\n[Interface/AddOns/Blizzard_UIParentPanelManager/Shared/UIParentPanelManager.lua]:863: in function <...UIParentPanelManager/Shared/UIParentPanelManager.lua:853>\n[C]: in function 'HideUIPanel'\n[Interface/AddOns/BetterCooldownManager/Libraries/LibEditModeOverride/LibEditModeOverride.lua]:211: in function 'ApplyChanges'\n[Interface/AddOns/BetterCooldownManager/Core/EventManager.lua]:15: in function <...e/AddOns/BetterCooldownManager/Core/EventManager.lua:10>\n",
-["session"] = 486,
 ["time"] = "2026/03/03 10:00:53",
+["session"] = 486,
 ["counter"] = 5,
 },
 {
@@ -1341,14 +1333,14 @@ BugGrabberDB = {
 },
 {
 ["message"] = "LUA_WARNING: Interface/AddOns/TimelineReminders/TimelineReminders.toc:1 Couldn't open Interface/AddOns/TimelineReminders/TimelineReminders.toc",
-["time"] = "2026/03/03 11:48:16",
 ["session"] = 498,
+["time"] = "2026/03/03 11:48:16",
 ["counter"] = 1,
 },
 {
 ["message"] = "LUA_WARNING: ...ce/AddOns/Blizzard_CooldownViewer/CooldownViewer.lua:706: bad argument #1 to 'EnableSpellRangeCheck' (Usage: C_Spell.EnableSpellRangeCheck(spellIdentifier, enable))\n|cffffd200Stack:|r\n[C]: in function 'secureexecuterange'\n[Interface/AddOns/Blizzard_EditMode/Shared/EditModeManager.lua]:97: in function 'HideSystemSelections'\n[Interface/AddOns/Blizzard_EditMode/Shared/EditModeManager.lua]:104: in function <.../AddOns/Blizzard_EditMode/Shared/EditModeManager.lua:100>\n[C]: ?\n[C]: ?\n[C]: ?\n[C]: in function 'ExitEditMode'\n[Interface/AddOns/Blizzard_EditMode/Shared/EditModeManager.lua]:126: in function <.../AddOns/Blizzard_EditMode/Shared/EditModeManager.lua:124>\n[C]: ?\n[C]: ?\n[C]: ?\n[C]: in function 'Hide'\n[Interface/AddOns/Blizzard_UIParentPanelManager/Shared/UIParentPanelManager.lua]:863: in function <...UIParentPanelManager/Shared/UIParentPanelManager.lua:853>\n[C]: in function 'HideUIPanel'\n[Interface/AddOns/BetterCooldownManager/Libraries/LibEditModeOverride/LibEditModeOverride.lua]:211: in function 'ApplyChanges'\n[Interface/AddOns/BetterCooldownManager/Core/EventManager.lua]:15: in function <...e/AddOns/BetterCooldownManager/Core/EventManager.lua:10>\n",
-["session"] = 502,
 ["time"] = "2026/03/03 22:03:36",
+["session"] = 502,
 ["counter"] = 16,
 },
 {
@@ -1417,8 +1409,8 @@ BugGrabberDB = {
 },
 {
 ["message"] = "LUA_WARNING: Interface/AddOns/!BugGrabber/BugGrabber.lua:-1: insecure scripts exceeded execution limit for addon !BugGrabber",
-["time"] = "2026/03/03 22:38:07",
 ["session"] = 503,
+["time"] = "2026/03/03 22:38:07",
 ["counter"] = 30,
 },
 {
@@ -1487,8 +1479,8 @@ BugGrabberDB = {
 },
 {
 ["message"] = "LUA_WARNING: Interface/AddOns/BetterBags_MidnightConsumables/BetterBags_MidnightConsumables.toc:10 Error loading Interface/AddOns/BetterBags_MidnightConsumables/BetterBags_Midnight.lua",
-["time"] = 1773763012,
 ["session"] = 608,
+["time"] = 1773763012,
 ["counter"] = 7,
 },
 {
@@ -1597,14 +1589,14 @@ BugGrabberDB = {
 },
 {
 ["message"] = "LUA_WARNING: Interface/AddOns/BetterBags_MidnightConsumables/BetterBags_MidnightConsumables.toc:9 Error loading Interface/AddOns/BetterBags_MidnightConsumables/BetterBags_Midnight.lua",
-["session"] = 630,
 ["time"] = 1774057504,
+["session"] = 630,
 ["counter"] = 22,
 },
 {
 ["message"] = "LUA_WARNING: Interface/AddOns/WarbandStasher/WarbandStasher.lua:1 Interface/AddOns/WarbandStasher/WarbandStasher.lua:70: '=' expected near 'continue'",
-["session"] = 630,
 ["time"] = 1774057504,
+["session"] = 630,
 ["counter"] = 22,
 },
 {
@@ -1921,8 +1913,8 @@ BugGrabberDB = {
 },
 {
 ["message"] = "LUA_WARNING: ...ddOns/Blizzard_Communities/CommunitiesMemberList.lua:985: attempt to compare field 'role' (a secret number value tainted by 'RaiderIO')\n|cffffd200Stack:|r\n[C]: in function 'secureexecuterange'\n[Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollBoxListView.lua]:395: in function 'InvokeInitializers'\n[Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollBox.lua]:786: in function 'Update'\n[Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollBox.lua]:177: in function 'FullUpdateInternal'\n[Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollBox.lua]:754: in function 'FullUpdateInternal'\n[Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollBox.lua]:124: in function 'FullUpdate'\n[Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollBox.lua]:721: in function <...ddOns/Blizzard_SharedXML/Shared/Scroll/ScrollBox.lua:720>\n[C]: ?\n[Interface/AddOns/Blizzard_SharedXMLBase/CallbackRegistry.lua]:210: in function <...e/AddOns/Blizzard_SharedXMLBase/CallbackRegistry.lua:209>\n[C]: ?\n[Interface/AddOns/Blizzard_SharedXMLBase/CallbackRegistry.lua]:213: in function 'TriggerEvent'\n[Interface/AddOns/Blizzard_SharedXML/Shared/Scroll/ScrollBoxListView.lua]:324: in function 'SignalDataChangeEvent'\n...[Interface/AddOns/Blizzard_UIParentPanelManager/Shared/UIParentPanelManager.lua]:461: in function 'SetUIPanel'\n[Interface/AddOns/Blizzard_UIParentPanelManager/Shared/UIParentPanelManager.lua]:304: in function 'ShowUIPanel'\n[Interface/AddOns/Blizzard_UIParentPanelManager/Shared/UIParentPanelManager.lua]:133: in function <...UIParentPanelManager/Shared/UIParentPanelManager.lua:128>\n[C]: in function 'SetAttribute'\n[Interface/AddOns/Blizzard_UIParentPanelManager/Shared/UIParentPanelManager.lua]:850: in function <...UIParentPanelManager/Shared/UIParentPanelManager.lua:828>\n[C]: in function 'ShowUIPanel'\n[Interface/AddOns/Blizzard_UIParentPanelManager/Shared/UIParentPanelManager.lua]:802: in function 'ToggleFrame'\n[Interface/AddOns/Blizzard_UIParent/Mainline/UIParent.lua]:868: in function 'ToggleCommunitiesFrame'\n[Interface/AddOns/Blizzard_UIParent/Mainline/UIParent.lua]:736: in function 'ToggleGuildFrame'\n[TOGGLEGUILDTAB]:1: in function <[string \"TOGGLEGUILDTAB\"]:1>\n",
-["time"] = 1776340633,
 ["session"] = 774,
+["time"] = 1776340633,
 ["counter"] = 8,
 },
 {
@@ -1967,38 +1959,38 @@ BugGrabberDB = {
 },
 {
 ["message"] = "LUA_WARNING: .../Blizzard_AdventureMap/AM_QuestOfferDataProvider.lua:46: 'for' limit must be a number\n|cffffd200Stack:|r\n[C]: in function 'secureexecuterange'\n[Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua]:125: in function 'OnEvent' with args (self=Frame <Blizzard_OrderHallMissionUI.xml:317>, event=\"ADVENTURE_MAP_UPDATE_POIS\")\n[Interface/AddOns/Blizzard_AdventureMap/Blizzard_AdventureMap.lua]:65: in function <...dOns/Blizzard_AdventureMap/Blizzard_AdventureMap.lua:60> with args (self=Frame <Blizzard_OrderHallMissionUI.xml:317>, event=\"ADVENTURE_MAP_UPDATE_POIS\")\n",
-["session"] = 781,
 ["time"] = 1776842196,
+["session"] = 781,
 ["counter"] = 1,
 },
 {
 ["message"] = "LUA_WARNING: ...Blizzard_AdventureMap/AM_QuestChoiceDataProvider.lua:52: 'for' limit must be a number\n|cffffd200Stack:|r\n[C]: in function 'secureexecuterange'\n[Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua]:125: in function 'OnEvent' with args (self=Frame <Blizzard_OrderHallMissionUI.xml:317>, event=\"ADVENTURE_MAP_UPDATE_POIS\")\n[Interface/AddOns/Blizzard_AdventureMap/Blizzard_AdventureMap.lua]:65: in function <...dOns/Blizzard_AdventureMap/Blizzard_AdventureMap.lua:60> with args (self=Frame <Blizzard_OrderHallMissionUI.xml:317>, event=\"ADVENTURE_MAP_UPDATE_POIS\")\n",
-["session"] = 781,
 ["time"] = 1776842196,
+["session"] = 781,
 ["counter"] = 1,
 },
 {
 ["message"] = "LUA_WARNING: .../Blizzard_AdventureMap/AM_QuestOfferDataProvider.lua:46: 'for' limit must be a number\n|cffffd200Stack:|r\n[C]: in function 'secureexecuterange'\n[Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua]:125: in function 'OnEvent' with args (self=Frame <Blizzard_BFAMissionUI.xml:116>, event=\"ADVENTURE_MAP_UPDATE_POIS\")\n[Interface/AddOns/Blizzard_AdventureMap/Blizzard_AdventureMap.lua]:65: in function <...dOns/Blizzard_AdventureMap/Blizzard_AdventureMap.lua:60> with args (self=Frame <Blizzard_BFAMissionUI.xml:116>, event=\"ADVENTURE_MAP_UPDATE_POIS\")\n",
-["session"] = 781,
 ["time"] = 1776842196,
+["session"] = 781,
 ["counter"] = 1,
 },
 {
 ["message"] = "LUA_WARNING: ...Blizzard_AdventureMap/AM_QuestChoiceDataProvider.lua:52: 'for' limit must be a number\n|cffffd200Stack:|r\n[C]: in function 'secureexecuterange'\n[Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua]:125: in function 'OnEvent' with args (self=Frame <Blizzard_BFAMissionUI.xml:116>, event=\"ADVENTURE_MAP_UPDATE_POIS\")\n[Interface/AddOns/Blizzard_AdventureMap/Blizzard_AdventureMap.lua]:65: in function <...dOns/Blizzard_AdventureMap/Blizzard_AdventureMap.lua:60> with args (self=Frame <Blizzard_BFAMissionUI.xml:116>, event=\"ADVENTURE_MAP_UPDATE_POIS\")\n",
-["session"] = 781,
 ["time"] = 1776842196,
+["session"] = 781,
 ["counter"] = 1,
 },
 {
 ["message"] = "LUA_WARNING: .../Blizzard_AdventureMap/AM_QuestOfferDataProvider.lua:46: 'for' limit must be a number\n|cffffd200Stack:|r\n[C]: in function 'secureexecuterange'\n[Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua]:125: in function 'OnEvent' with args (self=Frame <Blizzard_CovenantMissionUI.xml:508>, event=\"ADVENTURE_MAP_UPDATE_POIS\")\n[Interface/AddOns/Blizzard_AdventureMap/Blizzard_AdventureMap.lua]:65: in function <...dOns/Blizzard_AdventureMap/Blizzard_AdventureMap.lua:60> with args (self=Frame <Blizzard_CovenantMissionUI.xml:508>, event=\"ADVENTURE_MAP_UPDATE_POIS\")\n",
-["session"] = 781,
 ["time"] = 1776842196,
+["session"] = 781,
 ["counter"] = 1,
 },
 {
 ["message"] = "LUA_WARNING: ...Blizzard_AdventureMap/AM_QuestChoiceDataProvider.lua:52: 'for' limit must be a number\n|cffffd200Stack:|r\n[C]: in function 'secureexecuterange'\n[Interface/AddOns/Blizzard_MapCanvas/Blizzard_MapCanvas.lua]:125: in function 'OnEvent' with args (self=Frame <Blizzard_CovenantMissionUI.xml:508>, event=\"ADVENTURE_MAP_UPDATE_POIS\")\n[Interface/AddOns/Blizzard_AdventureMap/Blizzard_AdventureMap.lua]:65: in function <...dOns/Blizzard_AdventureMap/Blizzard_AdventureMap.lua:60> with args (self=Frame <Blizzard_CovenantMissionUI.xml:508>, event=\"ADVENTURE_MAP_UPDATE_POIS\")\n",
-["session"] = 781,
 ["time"] = 1776842196,
+["session"] = 781,
 ["counter"] = 1,
 },
 {
@@ -2051,10 +2043,34 @@ BugGrabberDB = {
 },
 {
 ["message"] = "Interface/AddOns/PenisBot/PenisBot.lua:42: attempt to index local 'msg' (a secret string value, while execution tainted by 'PenisBot')",
-["time"] = 1777302399,
-["locals"] = "self=Frame <PenisBot.lua:4>\nevent=\"CHAT_MSG_RAID\"\nmsg=<no value>\nsender=<no value>\n(*temporary)=\"string\"\n(*temporary)=<no value>\n(*temporary)=\"string\"\n(*temporary)=nil\n(*temporary)=nil\n(*temporary)=nil\n(*temporary)=\"attempt to index local 'msg' (a secret string value, while execution tainted by 'PenisBot')\"\ninCombat=false\nvalidChannels=<table>{\n CHAT_MSG_PARTY=\"PARTY\"\n CHAT_MSG_RAID_WARNING=\"RAID_WARNING\"\n CHAT_MSG_GUILD=\"GUILD\"\n CHAT_MSG_RAID=\"RAID\"\n CHAT_MSG_RAID_LEADER=\"RAID\"\n CHAT_MSG_PARTY_LEADER=\"PARTY\"\n}\n",
+["time"] = 1777755557,
+["locals"] = "self=Frame <PenisBot.lua:4>\nevent=\"CHAT_MSG_GUILD\"\nmsg=<no value>\nsender=<no value>\n(*temporary)=\"string\"\n(*temporary)=<no value>\n(*temporary)=\"string\"\n(*temporary)=nil\n(*temporary)=nil\n(*temporary)=nil\n(*temporary)=\"attempt to index local 'msg' (a secret string value, while execution tainted by 'PenisBot')\"\ninCombat=false\nvalidChannels=<table>{\n CHAT_MSG_PARTY=\"PARTY\"\n CHAT_MSG_RAID_WARNING=\"RAID_WARNING\"\n CHAT_MSG_GUILD=\"GUILD\"\n CHAT_MSG_RAID=\"RAID\"\n CHAT_MSG_RAID_LEADER=\"RAID\"\n CHAT_MSG_PARTY_LEADER=\"PARTY\"\n}\n",
 ["stack"] = "[Interface/AddOns/PenisBot/PenisBot.lua]:42: in function <Interface/AddOns/PenisBot/PenisBot.lua:25>\n",
-["session"] = 795,
+["session"] = 804,
+["counter"] = 51,
+},
+{
+["message"] = "...ns/ImprovedTalentLoadouts/ImprovedTalentLoadouts.lua:426: table index is nil",
+["time"] = 1777802320,
+["locals"] = "self=<table>{\n charDB=<table>\n globalDB=<table>\n easyMenu=ImprovedTalentLoadoutsEasyMenu <LibUIDropDownMenu.lua:622>\n specID=1446\n}\nconfigIDs=<table>\n(*temporary)=<table>\n(*temporary)=nil\n(*temporary)=nil\n(*temporary)=nil\n(*temporary)=nil\n(*temporary)=0\n(*temporary)=1\n(*temporary)=nil\n(*temporary)=\"table index is nil\"\nITL_LOADOUT_NAME=\"[ITL] Temp\"\n",
+["stack"] = "[Interface/AddOns/ImprovedTalentLoadouts/ImprovedTalentLoadouts.lua]:426: in function 'UpdateTempLoadout'\n[Interface/AddOns/ImprovedTalentLoadouts/ImprovedTalentLoadouts.lua]:402: in function 'UpdateSpecID'\n[Interface/AddOns/ImprovedTalentLoadouts/ImprovedTalentLoadouts.lua]:562: in function 'InitializeTalentLoadouts'\n[Interface/AddOns/ImprovedTalentLoadouts/ImprovedTalentLoadouts.lua]:163: in function <...ns/ImprovedTalentLoadouts/ImprovedTalentLoadouts.lua:153>\n[C]: ?\n[C]: ?\n[C]: in function 'pcall'\n[Interface/AddOns/OPie/Libs/ActionBook/Handlers.lua]:1753: in function <Interface/AddOns/OPie/Libs/ActionBook/Handlers.lua:1752>\n[C]: ?\n[Interface/AddOns/OPie/Libs/Evie.lua]:37: in function <Interface/AddOns/OPie/Libs/Evie.lua:32>\n",
+["session"] = 809,
+["counter"] = 14,
+},
+{
+["message"] = "Interface/AddOns/MissingClassBuff/Data.lua:357: Usage: GetShapeshiftFormInfo(index)",
+["time"] = 1777802343,
+["locals"] = "currentFormIndex=0\nstancesDefaultdisplay=nil\nMCB=<table>{\n WARLOCK_ALL_PETS=<table>\n UNHOLY_GHOUL_MISSING=<table>\n OIL_DEFAULT_BUFF=<table>\n HUNTER_PET_DEAD=<table>\n BATTLE_STANCE=<table>\n CHECK_THROTTLE=0.250000\n NEEDS_BUFFS_CHECKED=true\n customSpellIdsError=\"\"\n CLASS_STATE=<table>\n MISSING_AURA_TEXT=\"USE AURA\"\n EMPTY_TABLE=<table>\n instanceId=1\n BUFF_IN_FRAME=<table>\n HEALER_SPECS=<table>\n EAT_FOOD_TEXT=\"EAT FOOD\"\n oilClickToCastError=\"\"\n PET_DEAD_TEXT=\"REVIVE PET\"\n FROST_ELEMENTAL_MISSING=<table>\n CLASS_NAME=\"WARRIOR\"\n WARRIOR_STANCES=<table>\n MISSING_FRAME=MCBFrame <MissingClassBuff.lua:14>\n SECURE_BUTTON=MCBSecureCastButton <MissingClassBuff.lua:17>\n IGNORE_PETS_IMPORTANT=false\n BALANCE_MOONKIN=<table>\n HEARTY_WELL_FED_NAME=\"Hearty Well Fed\"\n HUNTER_PET_MISSING=<table>\n CURRENT_SPEC_ID=1446\n USE_FLASK_TEXT=\"USE FLASK\"\n AURA_INFO_CACHE=<table>\n OIl_OFF_HAND_IGNORE_LIST=<table>\n PALADIN_AURAS=<table>\n MISSING_PET_TEXT=\"SUMMON PET\"\n FOUND_SECRET_VALUE_ISSUE=false\n flaskClickToCastError=\"\"\n instanceDifficultyId=0\n settings=<table>\n REAPPLY_TEXT=\"REAPPLY\"\n ISSECRETVALUE_AVAILABLE=true\n APPLY_NON_LETHAL_TEXT=\"APPLY NON-LETHAL\"\n WARLOCK_PET=<table>\n EVOKER_ATTUNEMENTS=<table>\n WELL_FED_NAME=\"Well Fed\"\n MyAddon=<table>\n MISC_DATA=<table>\n FOOD_DEFAULT_BUFF=<table>\n TABLE_POOL=<table>\n EDIT_MODE_SETTINGS=<table>\n DUNGEON_DIFFICULTIES=<table>\n APPLY_LETHAL_TEXT=\"APPLY LETHAL\"\n USE_OIL_TEXT=\"USE WEAPON BUFF\"\n HAS_SPELL_OVERLAY_COMPATIBLE_BUFF=false\n BERSERKER_STANCE=<table>\n CRUSADER_AURA=<table>\n ZONE_NAME_MAPPING=<table>\n DEFAULT_SETTINGS=<table>\n foodClickToCastError=\"\"\n instanceType=\"none\"\n IGNORE_BUFF_CHECKING_IMMEDIATELY_ON_SECRET_ISSUES=false\n OIL_MAIN_HAND_IGNORE_LIST=<table>\n BUFF_ALLY_TEXT=\"BUFF ALLY\"\n FLASK_DEFAULT_BUFF=<table>\n UNITS_TABLE=<table>\n MISSING_TEXT=\"MISSING\"\n WRONG_TEXT=\"WRONG\"\n BUFFS=<table>\n CLASS_BUFFS=<table>\n CLICK_TO_CAST_SPELL_TYPES=<table>\n CURRENT_MYTHIC_PLUS_DUNGEONS=<table>\n DEFENSIVE_STANCE=<table>\n FLASK_DATA=<table>\n difficultyNames=<table>\n RAID_DIFFICULTIES=<table>\n MISSING_ATTUNEMENT_TEXT=\"USE ATTUNEMENT\"\n DEFAULT_BUFF=<table>\n SHADOW_FORM=<table>\n ONE_TIME_SETUP=true\n MISSING_STANCE_TEXT=\"USE STANCE\"\n UNIT_STRINGS=<table>\n HUNTER_ALL_PETS=<table>\n}\nMyAddon=<table>{\n modules=<table>\n defaultModuleLibraries=<table>\n name=\"MissingClassBuff\"\n orderedModules=<table>\n db=<table>\n baseName=\"MissingClassBuff\"\n enabledState=true\n defaultModuleState=true\n}\n",
+["stack"] = "[Interface/AddOns/MissingClassBuff/Data.lua]:357: in function 'doShapeshiftFormCheck'\n[Interface/AddOns/MissingClassBuff/MissingClassBuff.lua]:543: in function 'CheckForMissings'\n[Interface/AddOns/MissingClassBuff/MissingClassBuff.lua]:266: in function <...terface/AddOns/MissingClassBuff/MissingClassBuff.lua:265>\n[C]: ?\n[Interface/AddOns/AbstractFramework/Libs/CallbackHandler-1.0/CallbackHandler-1.0.lua]:19: in function <...ork/Libs/CallbackHandler-1.0/CallbackHandler-1.0.lua:15>\n[Interface/AddOns/AbstractFramework/Libs/CallbackHandler-1.0/CallbackHandler-1.0.lua]:54: in function 'Fire'\n[Interface/AddOns/ElvUI_Libraries/Game/Shared/Ace3/AceEvent-3.0/AceEvent-3.0.lua]:120: in function <...aries/Game/Shared/Ace3/AceEvent-3.0/AceEvent-3.0.lua:119>\n",
+["session"] = 809,
+["counter"] = 26,
+},
+{
+["message"] = "Interface/AddOns/PenisBot/PenisBot.lua:54: attempt to index local 'msg' (a secret string value, while execution tainted by 'PenisBot')",
+["time"] = 1778614155,
+["locals"] = "self=Frame <PenisBot.lua:4>\nevent=\"CHAT_MSG_PARTY\"\nmsg=<no value>\nsender=<no value>\n(*temporary)=nil\n(*temporary)=<no value>\n(*temporary)=nil\n(*temporary)=nil\n(*temporary)=nil\n(*temporary)=nil\n(*temporary)=\"attempt to index local 'msg' (a secret string value, while execution tainted by 'PenisBot')\"\nvalidChannels=<table>{\n CHAT_MSG_PARTY=\"PARTY\"\n CHAT_MSG_GUILD=\"GUILD\"\n CHAT_MSG_RAID=\"RAID\"\n CHAT_MSG_RAID_LEADER=\"RAID\"\n CHAT_MSG_PARTY_LEADER=\"PARTY\"\n}\n",
+["stack"] = "[Interface/AddOns/PenisBot/PenisBot.lua]:54: in function <Interface/AddOns/PenisBot/PenisBot.lua:44>\n",
+["session"] = 825,
 ["counter"] = 39,
 },
 },

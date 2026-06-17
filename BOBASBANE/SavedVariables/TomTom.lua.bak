@@ -27,15 +27,15 @@ TomTomDB = {
 ["Teashuffle - Twisting Nether"] = "Default",
 ["Dotshuffle - Kazzak"] = "Default",
 ["Bankshuffle - Auchindoun"] = "Default",
-["Apollumi - Twisting Nether"] = "Default",
+["Goldshuffle - Blackrock"] = "Default",
 ["Spamtothetop - Twisting Nether"] = "Default",
 ["Aliceshuffle - Laughing Skull"] = "Default",
 ["Spearshuffle - Kazzak"] = "Default",
 ["Hourshuffle - Kazzak"] = "Default",
 ["Punctuation - Twisting Nether"] = "Default",
 ["Teashuffle - Kazzak"] = "Default",
-["Goldshuffle - Blackrock"] = "Default",
 ["Avoidshuffle - Auchindoun"] = "Default",
+["Apollumi - Twisting Nether"] = "Default",
 ["Ripinpeach - Ravencrest"] = "Default",
 ["Faithshuffle - Draenor"] = "Default",
 ["Edgeshuffle - Auchindoun"] = "Default",
@@ -115,15 +115,15 @@ TomTomWaypointsM = {
 ["Teashuffle - Twisting Nether"] = "Teashuffle - Twisting Nether",
 ["Dotshuffle - Kazzak"] = "Dotshuffle - Kazzak",
 ["Bankshuffle - Auchindoun"] = "Bankshuffle - Auchindoun",
-["Apollumi - Twisting Nether"] = "Apollumi - Twisting Nether",
+["Goldshuffle - Blackrock"] = "Goldshuffle - Blackrock",
 ["Spamtothetop - Twisting Nether"] = "Spamtothetop - Twisting Nether",
 ["Aliceshuffle - Laughing Skull"] = "Aliceshuffle - Laughing Skull",
 ["Spearshuffle - Kazzak"] = "Spearshuffle - Kazzak",
 ["Hourshuffle - Kazzak"] = "Hourshuffle - Kazzak",
 ["Punctuation - Twisting Nether"] = "Punctuation - Twisting Nether",
 ["Teashuffle - Kazzak"] = "Teashuffle - Kazzak",
-["Goldshuffle - Blackrock"] = "Goldshuffle - Blackrock",
 ["Avoidshuffle - Auchindoun"] = "Avoidshuffle - Auchindoun",
+["Apollumi - Twisting Nether"] = "Apollumi - Twisting Nether",
 ["Ripinpeach - Ravencrest"] = "Ripinpeach - Ravencrest",
 ["Faithshuffle - Draenor"] = "Faithshuffle - Draenor",
 ["Edgeshuffle - Auchindoun"] = "Edgeshuffle - Auchindoun",
@@ -199,7 +199,7 @@ TomTomWaypointsM = {
 },
 ["Bankshuffle - Auchindoun"] = {
 },
-["Apollumi - Twisting Nether"] = {
+["Goldshuffle - Blackrock"] = {
 },
 ["Spamtothetop - Twisting Nether"] = {
 },
@@ -213,9 +213,9 @@ TomTomWaypointsM = {
 },
 ["Teashuffle - Kazzak"] = {
 },
-["Goldshuffle - Blackrock"] = {
-},
 ["Avoidshuffle - Auchindoun"] = {
+},
+["Apollumi - Twisting Nether"] = {
 },
 ["Ripinpeach - Ravencrest"] = {
 },

@@ -2,10 +2,10 @@
 ElvCharacterDB = {
 ["ConvertKeybindings"] = true,
 ["ChatEditHistory"] = {
-"/raid And don't move last second",
-"/raid If you die, too bad, don't kill 5 others",
-"/p sry about the dumb BL",
-"/p should've been on trash",
+"/Scm",
+"/g NA \"today\"",
+"/g So tonight",
+"/p gg team",
 "/simc",
 },
 ["ChatHistoryLog"] = {

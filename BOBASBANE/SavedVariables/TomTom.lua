@@ -35,7 +35,7 @@ TomTomDB = {
 ["Punctuation - Twisting Nether"] = "Default",
 ["Teashuffle - Kazzak"] = "Default",
 ["Bowshuffle - Ravencrest"] = "Default",
-["Apollumi - Twisting Nether"] = "Default",
+["Goldshuffle - Blackrock"] = "Default",
 ["Ripinpeach - Ravencrest"] = "Default",
 ["Tradushuffle - Laughing Skull"] = "Default",
 ["Edgeshuffle - Auchindoun"] = "Default",
@@ -45,10 +45,10 @@ TomTomDB = {
 ["Goatshuffle - Kazzak"] = "Default",
 ["Udartton - Twisting Nether"] = "Default",
 ["Faithshuffle - Draenor"] = "Default",
-["Avoidshuffle - Auchindoun"] = "Default",
+["Apollumi - Twisting Nether"] = "Default",
 ["Hourshuffle - Kazzak"] = "Default",
 ["Spearshuffle - Kazzak"] = "Default",
-["Goldshuffle - Blackrock"] = "Default",
+["Avoidshuffle - Auchindoun"] = "Default",
 ["Dotshuffle - Kazzak"] = "Default",
 ["Teashuffle - Twisting Nether"] = "Default",
 ["Jumpshuffle - Kazzak"] = "Default",
@@ -123,7 +123,7 @@ TomTomWaypointsM = {
 ["Punctuation - Twisting Nether"] = "Punctuation - Twisting Nether",
 ["Teashuffle - Kazzak"] = "Teashuffle - Kazzak",
 ["Bowshuffle - Ravencrest"] = "Bowshuffle - Ravencrest",
-["Apollumi - Twisting Nether"] = "Apollumi - Twisting Nether",
+["Goldshuffle - Blackrock"] = "Goldshuffle - Blackrock",
 ["Ripinpeach - Ravencrest"] = "Ripinpeach - Ravencrest",
 ["Tradushuffle - Laughing Skull"] = "Tradushuffle - Laughing Skull",
 ["Edgeshuffle - Auchindoun"] = "Edgeshuffle - Auchindoun",
@@ -133,10 +133,10 @@ TomTomWaypointsM = {
 ["Goatshuffle - Kazzak"] = "Goatshuffle - Kazzak",
 ["Udartton - Twisting Nether"] = "Udartton - Twisting Nether",
 ["Faithshuffle - Draenor"] = "Faithshuffle - Draenor",
-["Avoidshuffle - Auchindoun"] = "Avoidshuffle - Auchindoun",
+["Apollumi - Twisting Nether"] = "Apollumi - Twisting Nether",
 ["Hourshuffle - Kazzak"] = "Hourshuffle - Kazzak",
 ["Spearshuffle - Kazzak"] = "Spearshuffle - Kazzak",
-["Goldshuffle - Blackrock"] = "Goldshuffle - Blackrock",
+["Avoidshuffle - Auchindoun"] = "Avoidshuffle - Auchindoun",
 ["Dotshuffle - Kazzak"] = "Dotshuffle - Kazzak",
 ["Teashuffle - Twisting Nether"] = "Teashuffle - Twisting Nether",
 ["Jumpshuffle - Kazzak"] = "Jumpshuffle - Kazzak",
@@ -215,7 +215,7 @@ TomTomWaypointsM = {
 },
 ["Bowshuffle - Ravencrest"] = {
 },
-["Apollumi - Twisting Nether"] = {
+["Goldshuffle - Blackrock"] = {
 },
 ["Ripinpeach - Ravencrest"] = {
 },
@@ -235,13 +235,13 @@ TomTomWaypointsM = {
 },
 ["Faithshuffle - Draenor"] = {
 },
-["Avoidshuffle - Auchindoun"] = {
+["Apollumi - Twisting Nether"] = {
 },
 ["Hourshuffle - Kazzak"] = {
 },
 ["Spearshuffle - Kazzak"] = {
 },
-["Goldshuffle - Blackrock"] = {
+["Avoidshuffle - Auchindoun"] = {
 },
 ["Dotshuffle - Kazzak"] = {
 },

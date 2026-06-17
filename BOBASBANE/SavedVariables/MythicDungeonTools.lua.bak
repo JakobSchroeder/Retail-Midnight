@@ -9,65 +9,862 @@ MythicDungeonToolsDB = {
 ["Minishuffle - Ravencrest"] = "Minishuffle - Ravencrest",
 ["Respeccable - Twisting Nether"] = "Respeccable - Twisting Nether",
 ["Spaceshuffle - Draenor"] = "Spaceshuffle - Draenor",
-["Legshuffle - Eredar"] = "Legshuffle - Eredar",
+["Feintshuffle - Kazzak"] = "Feintshuffle - Kazzak",
 ["Angleshuffle - Kazzak"] = "Angleshuffle - Kazzak",
-["Hornyshuffle - Draenor"] = "Hornyshuffle - Draenor",
-["Kafirshuffle - Twisting Nether"] = "Kafirshuffle - Twisting Nether",
 ["Banishuffle - Kazzak"] = "Banishuffle - Kazzak",
+["Mórtarion - Twisting Nether"] = "Mórtarion - Twisting Nether",
+["Hornyshuffle - Draenor"] = "Hornyshuffle - Draenor",
 ["Teashuffle - Twisting Nether"] = "Teashuffle - Twisting Nether",
-["Lavashuffle - Draenor"] = "Lavashuffle - Draenor",
+["Intshuffle - Kazzak"] = "Intshuffle - Kazzak",
 ["Fokshuffle - Auchindoun"] = "Fokshuffle - Auchindoun",
-["Riplimb - Twisting Nether"] = "Riplimb - Twisting Nether",
-["Jumpshuffle - Kazzak"] = "Jumpshuffle - Kazzak",
+["Unshuffle - Ravencrest"] = "Unshuffle - Ravencrest",
+["Vanishuffle - Kazzak"] = "Vanishuffle - Kazzak",
 ["Shóckadin - Twisting Nether"] = "Shóckadin - Twisting Nether",
 ["Polyshuffle - Draenor"] = "Polyshuffle - Draenor",
 ["Cantshuffle - Ravencrest"] = "Cantshuffle - Ravencrest",
-["Rageshuffle - Kazzak"] = "Rageshuffle - Kazzak",
-["Dotshuffle - Kazzak"] = "Dotshuffle - Kazzak",
 ["Bankshuffle - Auchindoun"] = "Bankshuffle - Auchindoun",
-["Apollumi - Twisting Nether"] = "Apollumi - Twisting Nether",
-["Spamtothetop - Twisting Nether"] = "Spamtothetop - Twisting Nether",
 ["Aliceshuffle - Laughing Skull"] = "Aliceshuffle - Laughing Skull",
-["Tradushuffle - Laughing Skull"] = "Tradushuffle - Laughing Skull",
-["Hourshuffle - Kazzak"] = "Hourshuffle - Kazzak",
+["Eyeshuffle - Ravencrest"] = "Eyeshuffle - Ravencrest",
+["Spearshuffle - Kazzak"] = "Spearshuffle - Kazzak",
+["Spamtothetop - Twisting Nether"] = "Spamtothetop - Twisting Nether",
+["Rockshuffle - Kazzak"] = "Rockshuffle - Kazzak",
+["Terrashuffle - Kazzak"] = "Terrashuffle - Kazzak",
+["Brainshuffle - Auchindoun"] = "Brainshuffle - Auchindoun",
 ["Punctuation - Twisting Nether"] = "Punctuation - Twisting Nether",
 ["Teashuffle - Kazzak"] = "Teashuffle - Kazzak",
-["Goldshuffle - Blackrock"] = "Goldshuffle - Blackrock",
-["Avoidshuffle - Auchindoun"] = "Avoidshuffle - Auchindoun",
 ["Ripinpeach - Ravencrest"] = "Ripinpeach - Ravencrest",
-["Faithshuffle - Draenor"] = "Faithshuffle - Draenor",
+["Apollumi - Twisting Nether"] = "Apollumi - Twisting Nether",
+["Bowshuffle - Ravencrest"] = "Bowshuffle - Ravencrest",
+["Leshuffle - Draenor"] = "Leshuffle - Draenor",
 ["Edgeshuffle - Auchindoun"] = "Edgeshuffle - Auchindoun",
-["Smorcshuffle - Draenor"] = "Smorcshuffle - Draenor",
+["Mightshuffle - Ravencrest"] = "Mightshuffle - Ravencrest",
 ["Justshuffle - Ravencrest"] = "Justshuffle - Ravencrest",
 ["Goatshuffle - Kazzak"] = "Goatshuffle - Kazzak",
-["Mightshuffle - Ravencrest"] = "Mightshuffle - Ravencrest",
+["Smorcshuffle - Draenor"] = "Smorcshuffle - Draenor",
 ["Udartton - Twisting Nether"] = "Udartton - Twisting Nether",
-["Leshuffle - Draenor"] = "Leshuffle - Draenor",
-["Bowshuffle - Ravencrest"] = "Bowshuffle - Ravencrest",
-["Brainshuffle - Auchindoun"] = "Brainshuffle - Auchindoun",
-["Spearshuffle - Kazzak"] = "Spearshuffle - Kazzak",
-["Terrashuffle - Kazzak"] = "Terrashuffle - Kazzak",
-["Rockshuffle - Kazzak"] = "Rockshuffle - Kazzak",
-["Eyeshuffle - Ravencrest"] = "Eyeshuffle - Ravencrest",
-["Vanishuffle - Kazzak"] = "Vanishuffle - Kazzak",
-["Unshuffle - Ravencrest"] = "Unshuffle - Ravencrest",
-["Intshuffle - Kazzak"] = "Intshuffle - Kazzak",
-["Mórtarion - Twisting Nether"] = "Mórtarion - Twisting Nether",
+["Faithshuffle - Draenor"] = "Faithshuffle - Draenor",
+["Avoidshuffle - Auchindoun"] = "Avoidshuffle - Auchindoun",
+["Hourshuffle - Kazzak"] = "Hourshuffle - Kazzak",
+["Tradushuffle - Laughing Skull"] = "Tradushuffle - Laughing Skull",
+["Goldshuffle - Blackrock"] = "Goldshuffle - Blackrock",
+["Dotshuffle - Kazzak"] = "Dotshuffle - Kazzak",
+["Rageshuffle - Kazzak"] = "Rageshuffle - Kazzak",
+["Jumpshuffle - Kazzak"] = "Jumpshuffle - Kazzak",
+["Riplimb - Twisting Nether"] = "Riplimb - Twisting Nether",
+["Lavashuffle - Draenor"] = "Lavashuffle - Draenor",
+["Kafirshuffle - Twisting Nether"] = "Kafirshuffle - Twisting Nether",
 ["Angleshuffle - Auchindoun"] = "Angleshuffle - Auchindoun",
-["Feintshuffle - Kazzak"] = "Feintshuffle - Kazzak",
+["Legshuffle - Eredar"] = "Legshuffle - Eredar",
 },
 ["global"] = {
-["scale"] = 1.4,
-["currentDifficulty"] = 23,
+["currentDungeonIdx"] = 11,
+["currentDifficulty"] = 11,
 ["minimap"] = {
 ["minimapPos"] = 237.9177286746053,
 ["showInCompartment"] = true,
 },
 ["currentPreset"] = {
+[11] = 3,
 [155] = 2,
+},
+["focusMarker"] = {
+["disableTargetMarkerInRaid"] = false,
 },
 ["maximized"] = false,
 ["presets"] = {
+[11] = {
+{
+["difficulty"] = 23,
+["week"] = 1,
+["value"] = {
+["currentDungeonIdx"] = 11,
+["currentPull"] = 1,
+["currentSublevel"] = 1,
+["pulls"] = {
+{
+["color"] = "228b22",
+},
+},
+},
+},
+{
+["objects"] = {
+},
+["week"] = 1,
+["uid"] = "2SFbpxN)c)o",
+["difficulty"] = 30,
+["colorPaletteInfo"] = {
+["autoColoring"] = true,
+["colorPaletteIdx"] = 4,
+},
+["text"] = "Route 6",
+["value"] = {
+["currentPull"] = 1,
+["currentSublevel"] = 1,
+["enemyAssignments"] = {
+},
+["currentDungeonIdx"] = 11,
+["selection"] = {
+1,
+},
+["pulls"] = {
+{
+{
+5,
+4,
+},
+[13] = {
+2,
+3,
+4,
+5,
+6,
+},
+[15] = {
+},
+["color"] = "ff3eff",
+[14] = {
+2,
+3,
+7,
+6,
+4,
+5,
+},
+[16] = {
+},
+},
+{
+{
+6,
+},
+["color"] = "3eff9e",
+[16] = {
+1,
+},
+[15] = {
+2,
+},
+[14] = {
+8,
+},
+},
+{
+{
+},
+["color"] = "ff3e3e",
+[14] = {
+},
+},
+{
+{
+7,
+},
+[7] = {
+},
+[15] = {
+3,
+},
+["color"] = "3e9eff",
+[14] = {
+9,
+},
+[16] = {
+2,
+},
+},
+{
+[17] = {
+1,
+2,
+3,
+},
+[10] = {
+1,
+},
+["color"] = "fffb3e",
+[14] = {
+15,
+14,
+},
+[13] = {
+24,
+25,
+22,
+26,
+23,
+30,
+27,
+28,
+29,
+31,
+18,
+20,
+17,
+21,
+19,
+},
+[7] = {
+},
+},
+{
+nil,
+{
+1,
+},
+{
+2,
+3,
+},
+{
+1,
+2,
+},
+["color"] = "3eff3e",
+[14] = {
+16,
+17,
+},
+},
+{
+[13] = {
+},
+[2] = {
+2,
+},
+[15] = {
+},
+[5] = {
+3,
+},
+["color"] = "ff3e9e",
+[4] = {
+4,
+3,
+},
+[16] = {
+},
+[14] = {
+24,
+25,
+},
+},
+{
+[2] = {
+3,
+},
+[15] = {
+4,
+},
+["color"] = "3effff",
+[14] = {
+20,
+21,
+},
+[16] = {
+4,
+},
+[4] = {
+5,
+6,
+},
+},
+{
+{
+3,
+},
+[13] = {
+32,
+33,
+34,
+35,
+1,
+},
+[15] = {
+6,
+},
+["color"] = "ff9b3e",
+[14] = {
+27,
+26,
+},
+[16] = {
+6,
+},
+[4] = {
+12,
+13,
+},
+},
+{
+[2] = {
+4,
+},
+[15] = {
+7,
+},
+[3] = {
+7,
+},
+["color"] = "3e3eff",
+[5] = {
+5,
+},
+[16] = {
+7,
+},
+},
+{
+[20] = {
+1,
+},
+[13] = {
+45,
+41,
+42,
+44,
+43,
+},
+[12] = {
+1,
+},
+[11] = {
+1,
+},
+["color"] = "a1ff3e",
+},
+{
+["color"] = "ff3eff",
+[6] = {
+1,
+2,
+},
+[7] = {
+1,
+3,
+},
+},
+{
+[6] = {
+5,
+6,
+},
+[7] = {
+6,
+},
+[3] = {
+17,
+},
+["color"] = "3eff9e",
+[14] = {
+31,
+30,
+},
+},
+{
+["color"] = "ff3e3e",
+[6] = {
+10,
+9,
+},
+[8] = {
+1,
+2,
+},
+},
+{
+[8] = {
+3,
+},
+[6] = {
+7,
+8,
+},
+["color"] = "3e9eff",
+},
+{
+[8] = {
+4,
+},
+[16] = {
+10,
+11,
+},
+[15] = {
+10,
+11,
+},
+["color"] = "fffb3e",
+},
+},
+},
+["createdBy"] = {
+["classIdx"] = 10,
+["name"] = "Frékomonk",
+["realm"] = "Hyjal",
+},
+},
+{
+["addonVersion"] = 6010,
+["colorPaletteInfo"] = {
+["autoColoring"] = true,
+["colorPaletteIdx"] = 4,
+},
+["text"] = "Flixter High",
+["objects"] = {
+},
+["uid"] = "rVzN5RvqEvT",
+["week"] = 1,
+["value"] = {
+["pulls"] = {
+{
+{
+4,
+5,
+},
+[13] = {
+2,
+3,
+4,
+5,
+6,
+24,
+25,
+22,
+26,
+23,
+},
+[15] = {
+},
+["color"] = "ff3eff",
+[14] = {
+2,
+3,
+5,
+4,
+7,
+6,
+15,
+14,
+},
+[16] = {
+},
+},
+{
+{
+7,
+},
+[13] = {
+},
+[15] = {
+3,
+},
+["color"] = "3eff9e",
+[14] = {
+9,
+},
+[16] = {
+2,
+},
+[5] = {
+},
+},
+{
+{
+6,
+},
+[13] = {
+7,
+8,
+10,
+9,
+11,
+},
+[15] = {
+2,
+},
+["color"] = "ff3e3e",
+[14] = {
+11,
+10,
+8,
+},
+[16] = {
+1,
+},
+},
+{
+{
+},
+["color"] = "3e9eff",
+[14] = {
+},
+[5] = {
+},
+},
+{
+{
+},
+nil,
+{
+},
+{
+},
+[13] = {
+12,
+14,
+16,
+13,
+15,
+},
+[15] = {
+},
+[10] = {
+1,
+},
+["color"] = "fffb3e",
+[14] = {
+13,
+12,
+},
+[16] = {
+},
+[17] = {
+1,
+2,
+3,
+},
+},
+{
+nil,
+{
+1,
+},
+{
+2,
+3,
+},
+{
+1,
+2,
+},
+["color"] = "3eff3e",
+[13] = {
+31,
+27,
+28,
+29,
+30,
+},
+[14] = {
+16,
+17,
+},
+},
+{
+{
+2,
+},
+nil,
+{
+},
+{
+10,
+11,
+},
+{
+},
+["color"] = "ff3e9e",
+[16] = {
+3,
+},
+[15] = {
+1,
+},
+[14] = {
+18,
+19,
+},
+},
+{
+[2] = {
+3,
+},
+[15] = {
+4,
+},
+[14] = {
+20,
+21,
+},
+["color"] = "3effff",
+[4] = {
+5,
+6,
+},
+[16] = {
+4,
+},
+[13] = {
+},
+},
+{
+{
+1,
+},
+nil,
+{
+},
+{
+7,
+8,
+9,
+},
+{
+},
+nil,
+{
+},
+nil,
+nil,
+nil,
+nil,
+nil,
+{
+38,
+40,
+36,
+39,
+37,
+},
+{
+},
+{
+},
+{
+},
+["color"] = "ff9b3e",
+},
+{
+{
+},
+{
+2,
+},
+{
+4,
+},
+{
+4,
+3,
+},
+{
+},
+nil,
+nil,
+nil,
+nil,
+nil,
+nil,
+nil,
+{
+},
+{
+},
+{
+5,
+},
+{
+5,
+},
+["color"] = "3e3eff",
+},
+{
+[13] = {
+33,
+32,
+34,
+35,
+1,
+},
+[15] = {
+7,
+},
+[3] = {
+7,
+},
+["color"] = "a1ff3e",
+[5] = {
+5,
+},
+[16] = {
+7,
+},
+[2] = {
+4,
+},
+},
+{
+[20] = {
+1,
+},
+[13] = {
+45,
+41,
+42,
+44,
+43,
+},
+[12] = {
+1,
+},
+["color"] = "ff3eff",
+[11] = {
+1,
+},
+},
+{
+{
+},
+nil,
+{
+17,
+},
+{
+},
+{
+},
+{
+5,
+6,
+},
+{
+2,
+},
+nil,
+nil,
+nil,
+nil,
+nil,
+nil,
+{
+30,
+31,
+},
+{
+},
+{
+},
+["color"] = "3eff9e",
+},
+{
+["color"] = "ff3e3e",
+[6] = {
+},
+[7] = {
+},
+},
+{
+[8] = {
+1,
+2,
+3,
+},
+[6] = {
+7,
+8,
+10,
+9,
+},
+["color"] = "3e9eff",
+},
+{
+[6] = {
+},
+[15] = {
+10,
+11,
+},
+["color"] = "fffb3e",
+[16] = {
+10,
+11,
+},
+[8] = {
+4,
+},
+},
+{
+[18] = {
+1,
+2,
+},
+[9] = {
+1,
+},
+["color"] = "3eff3e",
+},
+{
+[21] = {
+1,
+2,
+3,
+4,
+},
+[19] = {
+1,
+},
+["color"] = "ff3e9e",
+},
+},
+["currentPull"] = 1,
+["currentSublevel"] = 1,
+["enemyAssignments"] = {
+},
+["currentDungeonIdx"] = 11,
+["teeming"] = 0,
+["selection"] = {
+1,
+},
+["riftOffsets"] = {
+},
+},
+["mdi"] = {
+["beguiling"] = 1,
+["freeholdJoined"] = false,
+["freehold"] = 1,
+},
+["difficulty"] = 11,
+["createdBy"] = {
+["classIdx"] = 10,
+["name"] = "Flixter",
+["realm"] = "Ragnaros",
+},
+},
+{
+["value"] = 0,
+["text"] = "<New Route>",
+},
+},
+[45] = {
+{
+["difficulty"] = 23,
+["week"] = 1,
+["value"] = {
+["currentPull"] = 1,
+["currentSublevel"] = 1,
+["currentDungeonIdx"] = 45,
+["selection"] = {
+1,
+},
+["pulls"] = {
+{
+["color"] = "ff3eff",
+},
+},
+},
+},
+},
 [151] = {
 {
 ["difficulty"] = 23,
@@ -85,8 +882,26 @@ MythicDungeonToolsDB = {
 {
 ["color"] = "ff3eff",
 [16] = {
-3,
 },
+},
+},
+},
+},
+},
+[153] = {
+{
+["difficulty"] = 23,
+["week"] = 1,
+["value"] = {
+["currentPull"] = 1,
+["currentSublevel"] = 1,
+["currentDungeonIdx"] = 153,
+["selection"] = {
+1,
+},
+["pulls"] = {
+{
+["color"] = "ff3eff",
 },
 },
 },
@@ -110,58 +925,7 @@ MythicDungeonToolsDB = {
 {
 ["difficulty"] = 23,
 ["week"] = 1,
-["objects"] = {
-{
-["d"] = {
-432.5754384844439,
--295.103459023812,
-1,
-true,
-"PURGE BATS",
-},
-["n"] = true,
-},
-{
-["d"] = {
-330.1084805939852,
--405.1161318225156,
-1,
-true,
-"If engineers get stunned,cced the moment before they die, they do not spawn mana bombs!",
-},
-["n"] = true,
-},
-{
-["d"] = {
-571.3079993753684,
--411.3235241819168,
-1,
-true,
-"dangerous pull, save defensives and pots",
-},
-["n"] = true,
-},
-{
-["d"] = {
-296.6995825356465,
--313.9020409357362,
-1,
-true,
-"the other dangerous pull, will be chained but care movement",
-},
-["n"] = true,
-},
-{
-["n"] = true,
-["d"] = {
-422.1631418523311,
--440.984438917842,
-1,
-true,
-"Both sides will have chain pulls",
-},
-},
-},
+["uid"] = "eV3TqKHCPbs",
 ["value"] = {
 ["currentPull"] = 10,
 ["currentSublevel"] = 1,
@@ -211,10 +975,10 @@ nil,
 [6] = {
 2,
 },
+["color"] = "3eff9e",
 [3] = {
 3,
 },
-["color"] = "3eff9e",
 },
 {
 {
@@ -247,12 +1011,12 @@ nil,
 [6] = {
 4,
 },
+["color"] = "3e9eff",
 [5] = {
 4,
 7,
 8,
 },
-["color"] = "3e9eff",
 },
 {
 {
@@ -424,15 +1188,15 @@ nil,
 [13] = {
 4,
 },
+[16] = {
+2,
+1,
+},
 [14] = {
 4,
 3,
 1,
 2,
-},
-[16] = {
-2,
-1,
 },
 },
 {
@@ -491,7 +1255,58 @@ nil,
 ["autoColoring"] = true,
 ["colorPaletteIdx"] = 4,
 },
-["uid"] = "eV3TqKHCPbs",
+["objects"] = {
+{
+["n"] = true,
+["d"] = {
+432.5754384844439,
+-295.103459023812,
+1,
+true,
+"PURGE BATS",
+},
+},
+{
+["n"] = true,
+["d"] = {
+330.1084805939852,
+-405.1161318225156,
+1,
+true,
+"If engineers get stunned,cced the moment before they die, they do not spawn mana bombs!",
+},
+},
+{
+["n"] = true,
+["d"] = {
+571.3079993753684,
+-411.3235241819168,
+1,
+true,
+"dangerous pull, save defensives and pots",
+},
+},
+{
+["n"] = true,
+["d"] = {
+296.6995825356465,
+-313.9020409357362,
+1,
+true,
+"the other dangerous pull, will be chained but care movement",
+},
+},
+{
+["d"] = {
+422.1631418523311,
+-440.984438917842,
+1,
+true,
+"Both sides will have chain pulls",
+},
+["n"] = true,
+},
+},
 },
 {
 ["value"] = 0,
@@ -499,8 +1314,10 @@ nil,
 },
 },
 },
-["version"] = 6017,
-["currentDungeonIdx"] = 151,
+["version"] = 612,
+["xoffset"] = 152,
+["scale"] = 1.4,
 ["latestDungeonSeen"] = 150,
+["yoffset"] = -88.00039672851562,
 },
 }

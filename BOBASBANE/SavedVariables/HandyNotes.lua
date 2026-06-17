@@ -33,7 +33,7 @@ HandyNotesDB = {
 ["Punctuation - Twisting Nether"] = "Punctuation - Twisting Nether",
 ["Teashuffle - Kazzak"] = "Teashuffle - Kazzak",
 ["Bowshuffle - Ravencrest"] = "Bowshuffle - Ravencrest",
-["Apollumi - Twisting Nether"] = "Apollumi - Twisting Nether",
+["Goldshuffle - Blackrock"] = "Goldshuffle - Blackrock",
 ["Ripinpeach - Ravencrest"] = "Ripinpeach - Ravencrest",
 ["Leshuffle - Draenor"] = "Leshuffle - Draenor",
 ["Edgeshuffle - Auchindoun"] = "Edgeshuffle - Auchindoun",
@@ -43,10 +43,10 @@ HandyNotesDB = {
 ["Goatshuffle - Kazzak"] = "Goatshuffle - Kazzak",
 ["Udartton - Twisting Nether"] = "Udartton - Twisting Nether",
 ["Faithshuffle - Draenor"] = "Faithshuffle - Draenor",
-["Avoidshuffle - Auchindoun"] = "Avoidshuffle - Auchindoun",
+["Apollumi - Twisting Nether"] = "Apollumi - Twisting Nether",
 ["Hourshuffle - Kazzak"] = "Hourshuffle - Kazzak",
 ["Tradushuffle - Laughing Skull"] = "Tradushuffle - Laughing Skull",
-["Goldshuffle - Blackrock"] = "Goldshuffle - Blackrock",
+["Avoidshuffle - Auchindoun"] = "Avoidshuffle - Auchindoun",
 ["Dotshuffle - Kazzak"] = "Dotshuffle - Kazzak",
 ["Rageshuffle - Kazzak"] = "Rageshuffle - Kazzak",
 ["Jumpshuffle - Kazzak"] = "Jumpshuffle - Kazzak",
@@ -121,7 +121,7 @@ HandyNotesDB = {
 },
 ["Bowshuffle - Ravencrest"] = {
 },
-["Apollumi - Twisting Nether"] = {
+["Goldshuffle - Blackrock"] = {
 },
 ["Ripinpeach - Ravencrest"] = {
 },
@@ -141,13 +141,13 @@ HandyNotesDB = {
 },
 ["Faithshuffle - Draenor"] = {
 },
-["Avoidshuffle - Auchindoun"] = {
+["Apollumi - Twisting Nether"] = {
 },
 ["Hourshuffle - Kazzak"] = {
 },
 ["Tradushuffle - Laughing Skull"] = {
 },
-["Goldshuffle - Blackrock"] = {
+["Avoidshuffle - Auchindoun"] = {
 },
 ["Dotshuffle - Kazzak"] = {
 },
@@ -201,7 +201,7 @@ HandyNotes_HandyNotesDB = {
 ["Punctuation - Twisting Nether"] = "Punctuation - Twisting Nether",
 ["Teashuffle - Kazzak"] = "Teashuffle - Kazzak",
 ["Bowshuffle - Ravencrest"] = "Bowshuffle - Ravencrest",
-["Apollumi - Twisting Nether"] = "Apollumi - Twisting Nether",
+["Goldshuffle - Blackrock"] = "Goldshuffle - Blackrock",
 ["Ripinpeach - Ravencrest"] = "Ripinpeach - Ravencrest",
 ["Leshuffle - Draenor"] = "Leshuffle - Draenor",
 ["Edgeshuffle - Auchindoun"] = "Edgeshuffle - Auchindoun",
@@ -211,10 +211,10 @@ HandyNotes_HandyNotesDB = {
 ["Goatshuffle - Kazzak"] = "Goatshuffle - Kazzak",
 ["Udartton - Twisting Nether"] = "Udartton - Twisting Nether",
 ["Faithshuffle - Draenor"] = "Faithshuffle - Draenor",
-["Avoidshuffle - Auchindoun"] = "Avoidshuffle - Auchindoun",
+["Apollumi - Twisting Nether"] = "Apollumi - Twisting Nether",
 ["Hourshuffle - Kazzak"] = "Hourshuffle - Kazzak",
 ["Tradushuffle - Laughing Skull"] = "Tradushuffle - Laughing Skull",
-["Goldshuffle - Blackrock"] = "Goldshuffle - Blackrock",
+["Avoidshuffle - Auchindoun"] = "Avoidshuffle - Auchindoun",
 ["Dotshuffle - Kazzak"] = "Dotshuffle - Kazzak",
 ["Rageshuffle - Kazzak"] = "Rageshuffle - Kazzak",
 ["Jumpshuffle - Kazzak"] = "Jumpshuffle - Kazzak",
@@ -289,7 +289,7 @@ HandyNotes_HandyNotesDB = {
 },
 ["Bowshuffle - Ravencrest"] = {
 },
-["Apollumi - Twisting Nether"] = {
+["Goldshuffle - Blackrock"] = {
 },
 ["Ripinpeach - Ravencrest"] = {
 },
@@ -309,13 +309,13 @@ HandyNotes_HandyNotesDB = {
 },
 ["Faithshuffle - Draenor"] = {
 },
-["Avoidshuffle - Auchindoun"] = {
+["Apollumi - Twisting Nether"] = {
 },
 ["Hourshuffle - Kazzak"] = {
 },
 ["Tradushuffle - Laughing Skull"] = {
 },
-["Goldshuffle - Blackrock"] = {
+["Avoidshuffle - Auchindoun"] = {
 },
 ["Dotshuffle - Kazzak"] = {
 },

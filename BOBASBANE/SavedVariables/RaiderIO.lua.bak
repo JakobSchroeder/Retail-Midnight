@@ -14,11 +14,31 @@ RaiderIO_Config = {
 ["hide"] = false,
 },
 }
-RaiderIO_LastCharacter = "eu-Spearshuffle-kazzak"
+RaiderIO_LastCharacter = "eu-Hornyshuffle-draenor"
 RaiderIO_MissingCharacters = {
-["eu-Hermavoidhim-kazzak"] = true,
-["eu-Notcatafu-ravencrest"] = true,
-["eu-Riplocks-kazzak"] = true,
+["eu-Syviis-shattered-halls"] = true,
+["eu-Zugzug-boulderfist"] = true,
+["eu-Ramborc-shattered-halls"] = true,
+["eu-Moonkays-aggra-português"] = true,
+["eu-Dain-boulderfist"] = true,
+["eu-Ursa-boulderfist"] = true,
+["eu-Depointed-boulderfist"] = true,
+["eu-Mikeyl-laughing-skull"] = true,
+["eu-Arok-ahnqiraj"] = true,
+["eu-Taroth-daggerspine"] = true,
+["eu-Natori-balnazzar"] = true,
+["eu-Necronomica-ahnqiraj"] = true,
+["eu-Lammedraak-trollbane"] = true,
+["eu-Ðîøßråñðø-tarren-mill"] = true,
+["eu-Talnak-sunstrider"] = true,
+["eu-Jumpup-sunstrider"] = true,
+["eu-Suncowadin-sunstrider"] = true,
+["eu-Fishfingers-ahnqiraj"] = true,
+["eu-Erediara-ahnqiraj"] = true,
+["eu-Lizardpeople-frostwhisper"] = true,
+["eu-Fiftyrial-balnazzar"] = true,
+["eu-Dkcrazyy-shattered-halls"] = true,
+["eu-Shí-draenor"] = true,
 }
 RaiderIO_MissingServers = {
 }

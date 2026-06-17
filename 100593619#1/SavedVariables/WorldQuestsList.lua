@@ -4,24 +4,52 @@ VWQL = {
 ["DisableIconsGeneralMap947"] = true,
 ["DisableLFG_Popup"] = true,
 ["Banishuffle-Stormrage"] = {
-["VERSION"] = 120,
+["Filter"] = 63,
 ["FilterType"] = {
 },
 ["Quests"] = {
 },
-["Filter"] = 63,
+["VERSION"] = 120,
 },
 ["Sort"] = 5,
 ["VERSION"] = 126,
 ["Madneshuffle-Stormrage"] = {
-["Filter"] = 63,
-["FilterType"] = {
-},
-["Quests"] = {
-},
 ["VERSION"] = 123,
+["FilterType"] = {
 },
-["Fogshuffle-Stormrage"] = {
+["Quests"] = {
+},
+["Filter"] = 63,
+},
+["HideLegion"] = true,
+["Aurashuffle-Stormrage"] = {
+["Filter"] = 63,
+["FilterType"] = {
+},
+["Quests"] = {
+},
+["VERSION"] = 120,
+},
+["Cosmoshuffle-Stormrage"] = {
+["VERSION"] = 126,
+["Filter"] = 63,
+["Quests"] = {
+[91798] = true,
+[92144] = true,
+[75257] = true,
+[91804] = true,
+[91806] = true,
+[92122] = true,
+[92152] = true,
+[91810] = true,
+[76586] = true,
+[92141] = true,
+},
+["FilterType"] = {
+},
+},
+["AzeriteFormat"] = 20,
+["Grapeshuffle-Stormrage"] = {
 ["VERSION"] = 120,
 ["FilterType"] = {
 },
@@ -29,8 +57,52 @@ VWQL = {
 },
 ["Filter"] = 63,
 },
-["Gripshuffle-Stormrage"] = {
+["Blastshuffle-Stormrage"] = {
+["Filter"] = 63,
+["FilterType"] = {
+},
+["Quests"] = {
+},
 ["VERSION"] = 120,
+},
+["SortPrio"] = {
+},
+["Petshuffle-Stormrage"] = {
+["VERSION"] = 120,
+["FilterType"] = {
+},
+["Quests"] = {
+},
+["Filter"] = 63,
+},
+["Osirishuffle-Stormrage"] = {
+["VERSION"] = 120,
+["FilterType"] = {
+},
+["Quests"] = {
+},
+["Filter"] = 63,
+},
+["SortPrio2"] = {
+},
+["Shivshuffle-Stormrage"] = {
+["VERSION"] = 120,
+["FilterType"] = {
+},
+["Quests"] = {
+},
+["Filter"] = 63,
+},
+["Plantshuffle-Stormrage"] = {
+["VERSION"] = 120,
+["FilterType"] = {
+},
+["Quests"] = {
+},
+["Filter"] = 63,
+},
+["Readyshuffle-Stormrage"] = {
+["VERSION"] = 119,
 ["FilterType"] = {
 },
 ["Quests"] = {
@@ -39,8 +111,7 @@ VWQL = {
 },
 ["Ignore"] = {
 },
-["AzeriteFormat"] = 20,
-["Osirishuffle-Stormrage"] = {
+["Gripshuffle-Stormrage"] = {
 ["Filter"] = 63,
 ["FilterType"] = {
 },
@@ -48,36 +119,7 @@ VWQL = {
 },
 ["VERSION"] = 120,
 },
-["Blastshuffle-Stormrage"] = {
-["VERSION"] = 120,
-["FilterType"] = {
-},
-["Quests"] = {
-},
-["Filter"] = 63,
-},
-["SortPrio"] = {
-},
-["Cosmoshuffle-Stormrage"] = {
-["VERSION"] = 126,
-["Filter"] = 63,
-["Quests"] = {
-[91800] = true,
-[91806] = true,
-[75257] = true,
-[91799] = true,
-[92143] = true,
-[92144] = true,
-[92146] = true,
-[76586] = true,
-[91490] = true,
-[92121] = true,
-[91811] = true,
-},
-["FilterType"] = {
-},
-},
-["Grapeshuffle-Stormrage"] = {
+["Fogshuffle-Stormrage"] = {
 ["Filter"] = 63,
 ["FilterType"] = {
 },
@@ -85,47 +127,4 @@ VWQL = {
 },
 ["VERSION"] = 120,
 },
-["SortPrio2"] = {
-},
-["Shivshuffle-Stormrage"] = {
-["Filter"] = 63,
-["FilterType"] = {
-},
-["Quests"] = {
-},
-["VERSION"] = 120,
-},
-["Plantshuffle-Stormrage"] = {
-["Filter"] = 63,
-["FilterType"] = {
-},
-["Quests"] = {
-},
-["VERSION"] = 120,
-},
-["Readyshuffle-Stormrage"] = {
-["Filter"] = 63,
-["FilterType"] = {
-},
-["Quests"] = {
-},
-["VERSION"] = 119,
-},
-["Petshuffle-Stormrage"] = {
-["Filter"] = 63,
-["FilterType"] = {
-},
-["Quests"] = {
-},
-["VERSION"] = 120,
-},
-["Aurashuffle-Stormrage"] = {
-["VERSION"] = 120,
-["FilterType"] = {
-},
-["Quests"] = {
-},
-["Filter"] = 63,
-},
-["HideLegion"] = true,
 }

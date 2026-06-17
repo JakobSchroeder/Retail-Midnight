@@ -4,8 +4,8 @@ RaiderIO_Config = {
 ["minimapIcon"] = {
 ["minimapPos"] = 180,
 ["showInCompartment"] = true,
-["hide"] = false,
 ["lock"] = false,
+["hide"] = false,
 },
 ["enableReplay"] = false,
 ["profilePoint"] = {
@@ -16,10 +16,6 @@ RaiderIO_Config = {
 }
 RaiderIO_LastCharacter = "us-Cosmoshuffle-stormrage"
 RaiderIO_MissingCharacters = {
-["us-Savitree-stormrage"] = true,
-["us-Neyrelle-stormrage"] = true,
-["us-Valmirr-stormrage"] = true,
-["us-Eilita-stormrage"] = true,
 }
 RaiderIO_MissingServers = {
 }
